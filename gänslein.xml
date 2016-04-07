@@ -56,18 +56,17 @@
 					</app>
 				</title>
 			</head>
-			<lg n="1">
-				<l n="1">
-					<app>
-						<rdg wit="#lemma1">TEXT GOES HERE<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-							<note type="critical" anchored="true">
-								<p>CRITICAL NOTE GOES HERE</p>
-							</note>
-						</rdg>
-					</app>
-				</l>
-			</lg>
+			<l n="1">
+				<app>
+					<rdg wit="#Transcription">Ich hôrt sagen ein mer</rdg>
+					<rdg wit="#Translation">I heard a story told<note
+							type="gloss" anchored="true">GLOSS GOES HERE</note>
+						<note type="critical" anchored="true">
+							<p>CRITICAL NOTE GOES HERE</p>
+						</note>
+					</rdg>
+				</app>
+			</l>
 
 		</body>
 	</text>
