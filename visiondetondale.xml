@@ -11,11 +11,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>La vision de Tondale</title>
+				<author>Anonymous</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Mae Lyons-Penner</name>
 				</respStmt>
 				<respStmt>
 					<resp></resp>
@@ -47,8 +47,8 @@
 		<front>
 			<div>
 				<listWit>
-					<lemma xml:id="lemma1">BASE TEXT HERE</witness>
-					<witness xml:id="witness2">TRANSLATION TITLE</witness>
+					<lemma xml:id="lemma1">La vision de Tondale</witness>
+					<witness xml:id="witness2">Tondale's Vision</witness>
 				</listWit>
 			</div>
 		</front>
