@@ -56,20 +56,34 @@
 			<head>
 				<title>
 					<app>
-						<rdg wit="#lemma1 #witness2">TITLE HERE</rdg>
+						<lem wit="#Transcription">La vision de Tondale<note type="critical" anchored="true"><p>This title was assigned by modern critics</p></note></lem>
+						<rdg wit="#Translation">Tondale's Vision</rdg>
 					</app>
 				</title>
 			</head>
 			<lg n="1">
 				<l n="1">
 					<app>
-						<lem wit="#lemma1">TEXT GOES HERE<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-							<note type="critical" anchored="true">
-								<p>CRITICAL NOTE GOES HERE</p>
-							</note>
-						</lem>
-						<rdg wit="#witness2"></rdg>
+						<lem wit="#Transcription">Seignurs! ore m'escotez, qe dieu vous beneie!</lem>
+						<rdg wit="#Translation">Lords! Now listen to me; may God bless you!</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Vn' esture vous dirrai, ne vous mentray mie -</lem>
+						<rdg wit="#Translation">I will tell you a story and I will not lie at all</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Si com en latyn le trouai, bon est que ieo le vous die</lem>
+						<rdg wit="#Translation">- although I found it in Latin, it is good that I tell it to you</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">En fraunceis pur lez vnes qi ne seiunnt de clergie</lem>
+						<rdg wit="#Translation">in French, for those who aren't clerics -</rdg>
 					</app>
 				</l>
 			</lg>
