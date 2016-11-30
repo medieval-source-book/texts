@@ -47,8 +47,8 @@
 		<front>
 			<div>
 				<listWit>
-					<lemma xml:id="lemma1">BASE TEXT HERE</witness>
-					<witness xml:id="witness2">TRANSLATION TITLE</witness>
+					<lemma xml:id="Transcription">BASE TEXT HERE</witness>
+					<witness xml:id="Translation">TRANSLATION TITLE</witness>
 				</listWit>
 			</div>
 		</front>
@@ -56,20 +56,20 @@
 			<head>
 				<title>
 					<app>
-						<rdg wit="#lemma1 #witness2">TITLE HERE</rdg>
+						<rdg wit="#Transcription #Translation">TITLE HERE</rdg>
 					</app>
 				</title>
 			</head>
 			 <div n="1">
 				<p n="1">
 					<app>
-						<lem wit="#lemma1">TEXT GOES HERE<note
+						<lem wit="#Transcription">TEXT GOES HERE<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 							<note type="critical" anchored="true">
 								<p>CRITICAL NOTE GOES HERE</p>
 							</note>
 						</lem>
-						<rdg wit="#witness2"></rdg>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
 					</app>
 				</p>
 			</div>
