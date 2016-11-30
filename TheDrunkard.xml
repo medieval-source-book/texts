@@ -1,0 +1,135 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Der Weinschwelg</witness>
+					<witness xml:id="Translation">The Drunkard</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<rdg wit="#Transcription #Translation">The Drunkard</rdg>
+					</app>
+				</title>
+			</head>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Swaz ich trinken hân gesehen,<note
+								type="gloss" anchored="true">Any drinking I have seen</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+<lg n="2">
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">daz ist gar von kinden geschehen:<note
+								type="gloss" anchored="true"></note>
+						</lem>
+						<rdg wit="#Translation">is child's play indeed</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3">
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">ich hân einen swelch gesehen,<note
+								type="gloss" anchored="true">I've seen a drunkard</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4">
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">dem wil ich meisterschefte jehen.<note
+								type="gloss" anchored="true">whose mastery I want to proclaim.</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5">
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">den dûhten becher gar enwiht,<note
+								type="gloss" anchored="true">He considered cups inadequate;</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6">
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">der wolde näpfe noch kopfe niht,<note
+								type="gloss" anchored="true">he wanted neither bowls nor pots,</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7">
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">er tranc ûz grôzen kannen.<note
+								type="gloss" anchored="true">but drank from large pitchers.</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
