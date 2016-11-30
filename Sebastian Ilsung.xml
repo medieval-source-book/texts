@@ -1,0 +1,80 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<lemma xml:id="Transcription">Sebastian Ilsung</witness>
+					<witness xml:id="Translation">Sebastian Ilsung</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Sebastian Ilsungs Wallfart nach S. Iago und an andere h. Orte in Spanien, im Jahr 1446</lem>
+						<rdg wit="#Translation">Sebastian Ilsung’s pilgrimage to Santiago and other holy places in Spain, in the year 1446</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<app>
+						<lem wit="#Transcription">TEXT GOES HERE<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation"> 
+Here is to register and to know about the great journey to the Lord of Saint Jacob, and to the dark star <note type="critical" anchored="true"> Hier braucht es definitiv eine Fußnote, denn Sebastian von Ilsung hat einen „Verständnisfehler“ in einen Schreibfehler umgewandelt = Finisterre </note> and about the countries  I, Sebastian Ilsung, crossed, all at my own cost and expenditure. And with me a mounted envoy, afoot a servant from the duke of Savoy, my gracious lord. He commanded, that hieraus he had to ride with me, as it also happened. What honor and courtesy I experienced, And what hereafter stands written or is painted, that happened, truthfully, with the help of the almighty God and his beloved mother and the dear lord Saint Jacob. And I accomplished the journey within half a year, in the year that is counted as 1446.</rdg>
+					</app>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
