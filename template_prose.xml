@@ -56,7 +56,8 @@
 			<head>
 				<title>
 					<app>
-						<rdg wit="#Transcription #Translation">TITLE HERE</rdg>
+						<lem wit="#Transcription">ORIGINAL TITLE</lem>
+						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
 					</app>
 				</title>
 			</head>
