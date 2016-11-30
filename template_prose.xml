@@ -63,12 +63,13 @@
 			 <div n="1">
 				<p n="1">
 					<app>
-						<rdg wit="#lemma1">TEXT GOES HERE<note
+						<lem wit="#lemma1">TEXT GOES HERE<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 							<note type="critical" anchored="true">
 								<p>CRITICAL NOTE GOES HERE</p>
 							</note>
-						</rdg>
+						</lem>
+						<rdg wit="#witness2"></rdg>
 					</app>
 				</p>
 			</div>
