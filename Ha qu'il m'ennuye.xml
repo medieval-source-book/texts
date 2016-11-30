@@ -47,7 +47,7 @@
 		<front>
 			<div>
 				<listWit>
-					<lemma xml:id="Transcription">Ha qu’il m’ennuye’</witness>
+					<witness xml:id="Transcription">Ha qu’il m’ennuye’</witness>
 					<witness xml:id="Translation">Oh how it troubles me!</witness>
 				</listWit>
 			</div>
@@ -171,7 +171,7 @@
 						<rdg wit="Translation">and I cannot be happy otherwise.</rdg>
 					</app>
 				</l>
-			</lg>		
+			</lg>
 		</body>
 	</text>
 </TEI>
