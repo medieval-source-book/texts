@@ -11,15 +11,15 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Ha qu’il m’ennuye’</title>
+				<title>Ha qu’il m’ennuye</title>
 				<author>Fesneau/Agricola</author>
 				<respStmt>
-					<resp>Transcriptions and Translations by</resp>
-					<name>Nivelle de la Chaussée Chansonnier</name>
+					<resp>Transcription by</resp>
+					<name>Françoise Fery-Hue</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Mae Lyons-Penner</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -38,7 +38,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
-				<p>Françoise Fery-Hue</p>
+				<p></p>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -47,7 +47,7 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">Ha qu’il m’ennuye’</witness>
+					<witness xml:id="Transcription">Ha qu’il m’ennuye</witness>
 					<witness xml:id="Translation">Oh how it troubles me!</witness>
 				</listWit>
 			</div>
@@ -56,7 +56,7 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Ha qu’il m’ennuye’</lem>
+						<lem wit="#Transcription">Ha qu’il m’ennuye</lem>
 						<rdg wit="#Translation">Oh how it troubles me!</rdg>
 					</app>
 				</title>
@@ -64,7 +64,7 @@
 			<lg n="1">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">Ha quil menuye
+						<lem wit="#Transcription">Ha qu'il menuye
 						</lem>
 						<rdg wit="#Translation">Oh how it troubles me!</rdg>
 					</app>
