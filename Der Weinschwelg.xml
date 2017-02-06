@@ -1,0 +1,1853 @@
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Der Weinschwelg</title>
+				<author>Der Stricker</author>
+				<respStmt>
+					<resp>Transcriptions and Translations by</resp>
+					<name>Kathryn Starkey</name>, <name>Mae Lyons-Penner</name>, <name>Robert Forke</name>, <name>Björn K. Buschbeck</name>, <name>Kathleen Smith</name>, <name>Mareike E. Reisch</name> and <name>Michael Widner</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>This is the critical introduction</note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Der Weinschwelg</witness>
+					<witness xml:id="Translation">The Wino</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Der Weinschwelg</lem>
+						<rdg wit="#Translation">The Wino</rdg>
+					</app>
+				</title>
+			</head>
+			<l n="1">
+				<app>
+					<lem wit="#Transcription">Swaz ich trinkens hân gesehen,</lem>
+					<rdg wit="#Translation">Any drinking I have seen</rdg>
+				</app>
+			</l>
+			<l n="2">
+				<app>
+					<lem wit="#Transcription">daz ist gar von kinden geschehen:</lem>
+					<rdg wit="#Translation">Is child’s play indeed:</rdg>
+				</app>
+			</l>
+			<l n="3">
+				<app>
+					<lem wit="#Transcription">ich hân einen swelch gesehen,</lem>
+					<rdg wit="#Translation">I’ve seen a drunkard</rdg>
+				</app>
+			</l>
+			<l n="4">
+				<app>
+					<lem wit="#Transcription">dem wil ich meisterschefte jehen.</lem>
+					<rdg wit="#Translation">Whose mastery I want to proclaim.</rdg>
+				</app>
+			</l>
+			<l n="5">
+				<app>
+					<lem wit="#Transcription">den dûhten becher gar enwiht,</lem>
+					<rdg wit="#Translation">He considered cups inadequate,</rdg>
+				</app>
+
+
+			</l>
+			<l n="6">
+				<app>
+					<lem wit="#Transcription">er wolde näpfe noch kopfe niht,</lem>
+					<rdg wit="#Translation">He wanted neither bowls nor pots,</rdg>
+				</app>
+
+			</l>
+			<l n="7">
+				<app>
+					<lem wit="#Transcription">er tranc ûz grôzen kannen.</lem>
+						<rdg wit="#Translation">But drank from large pitchers.</rdg>
+					</app>
+			</l>
+			<l n="8">
+				<app>
+					<lem wit="#Transcription">er ist vor allen mannen</lem>
+						<rdg wit="#Translation">Of all men he is the</rdg>
+					</app>
+			</l>
+			<l n="9">
+				<app>
+					<lem wit="#Transcription">ein vorlouf aller swelhen.</lem>
+					<rdg wit="#Translation">Forerunner of all drunkards.</rdg>
+				</app>
+			</l>
+			<l n="10">
+				<app>
+					<lem wit="#Transcription">von ûren und von elhen</lem>
+					<rdg wit="#Translation">Neither aurochs nor elks</rdg>
+				</app>
+			</l>
+			<l n="11">
+				<app>
+					<lem wit="#Transcription">wart solher slünde nie niht getân.</lem>
+					<rdg wit="#Translation">Ever swallowed so much. 
+					</rdg>
+				</app>
+			</l>
+			<l n="12">
+				<app>
+					<lem wit="#Transcription">ez muose alle zît vor im stân</lem>
+					<rdg wit="#Translation">There always had to be a</rdg>
+				</app>
+			</l>
+			<l n="13">
+				<app>
+					<lem wit="#Transcription">ein grôziu kanel wînes vol.</lem>
+					<rdg wit="#Translation">Large pitcher full of wine in front of him.</rdg>
+					</app>
+			</l>
+			<l n="14">
+				<app>
+					<lem wit="#Transcription">er sprach: "wîn, ich erkenne dich wol!</lem>
+					<rdg wit="#Translation">He said, “Wine, I know you well!</rdg>
+			    </app>
+			</l>
+            <l n="15">
+                <app>
+                    <lem wit="#Transcription">ich weiz wol, daz du guot bist.</lem>
+                    <rdg wit="#Translation">I know that you are good.</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+        	        <lem wit="#Transcription">die wîle dîn in dem vazze iht ist,</lem>
+                    <rdg wit="#Translation">As long as there is any of you left in this vessel,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <lem wit="#Transcription">sô wil ich bûwen dise banc."</lem>
+                    <rdg wit="#Translation">I will sit here."<note type="gloss" anchored="true">GLOSS GOES HERE</note>
+                    	<note type="critical" anchored="true">
+                    		<p>"Dise banc buwen" translates to to farm, to plow, to settle</p>
+						</note>
+					</rdg>
+                </app>
+			<l n="18">
+				<app>
+					<lem wit="#Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="#Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="19">
+				<app>
+					<lem wit="#Transcription">Einen trunc von zweinzec slünden.</lem>
+					<rdg wit="#Translation">A drink of twenty swallows</rdg>
+				</app>
+			</l>
+			<l n="20">
+				<app>
+					<lem wit="#Transcription">er sprach: "nu wil ich künden,</lem>
+					<rdg wit="#Translation">He said: "Now I want to proclaim</rdg>
+				</app>
+			</l>
+			<l n="21">
+				<app>
+					<lem wit="#Transcription">waz tugent du hâst, vil lieber wîn.</lem>
+					<rdg wit="#Translation">your virtue, oh dear wine</rdg>
+				</app>
+			</l>
+			<l n="22">
+				<app>
+					<lem wit="#Transcription">wie möhtestu tugenthafter sîn?</lem>
+					<rdg wit="#Translation">How could you be more virtuous?</rdg>
+				</app>
+			</l>
+			<l n="23">
+				<app>
+					<lem wit="#Transcription">du hâst schœne und grôze güete,</lem>
+					<rdg wit="#Translation">You’ve got beauty and great goodness,</rdg>
+				</app>
+			</l>
+			<l n="24">
+				<app>
+					<lem wit="#Transcription">du gîst uns hôchgemüete,</lem>
+					<rdg wit="#Translation">You lend us high spirits,</rdg>
+				</app>
+			</l>
+			<l n="25">
+				<app>
+					<lem wit="#Transcription">du machest küene den zagen.</lem>
+					<rdg wit="#Translation">You make the coward brave.</rdg>
+				</app>
+			</l>
+			<l n="26">
+				<app>
+					<lem wit="#Transcription">swer dîn wâfen wil tragen,</lem>
+					<rdg wit="#Translation">Whoever wants to bear your arms</rdg>
+				</app>
+			</l>
+			<l n="27">
+				<app>
+					<lem wit="#Transcription">der wirt wîse unde karc,</lem>
+					<rdg wit="#Translation">Becomes wise and cunning,</rdg>
+				</app>
+			</l>
+			<l n="28">
+				<app>
+					<lem wit="#Transcription">er wirt snel unde starc,</lem>
+					<rdg wit="#Translation">He becomes fast and strong,</rdg>
+				</app>
+			</l>
+			<l n="29">
+				<app>
+					<lem wit="#Transcription">er fürhtet niemens drô.</lem>
+					<rdg wit="#Translation">He fears no threat.</rdg>
+				</app>
+			</l>
+			<l n="30">
+				<app>
+					<lem wit="#Transcription">du machest die trûrigen frô,</lem>
+					<rdg wit="#Translation">You make the sad happy,</rdg>
+				</app>
+			</l>
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">du gîst dem alten jungen muot,</lem>
+					<rdg wit="#Translation">You give young spirit to the old,</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">du rîchest den armen âne guot,</lem>
+					<rdg wit="#Translation">You make the poor rich without any goods,</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">du machest die liute wolgevar.</lem>
+					<rdg wit="#Translation">And you make people attractive.</rdg>
+				</app>
+			</l>
+			<l n="34">
+				<app>
+					<lem wit="#Transcription">du bist ouch selbe schœne gar,</lem>
+					<rdg wit="#Translation">You are quite attractive yourself,</rdg>
+				</app>
+			</l>
+			<l n="35">
+				<app>
+					<lem wit="#Transcription">du bist lûter unde blanc."</lem>
+					<rdg wit="#Translation">You are pure and clear."</rdg>
+				</app>
+			</l>
+			<l n="36">
+				<app>
+					<lem wit="#Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="#Translation">Then he raised his glass and drank:</rdg>
+				</app>
+				</l>
+			<l n="37">
+				<app>
+					<lem wit="#Transcription">Einen trunc, der für die andern gie.</lem>
+					<rdg wit="#Translation">A drink that was larger than the others before.</rdg>
+				</app>
+			</l>
+			<l n="38">
+				<app>
+					<lem wit="#Transcription">er sprach: "war umbe oder wie</lem>
+					<rdg wit="#Translation">He said: "why and how</rdg>
+				</app>
+			</l>
+			<l n="39">
+				<app>
+					<lem wit="#Transcription">solde ich den wîn vermîden?</lem>
+					<rdg wit="#Translation">Should I avoid the wine?</rdg>
+				</app>
+			</l>
+			<l n="40">
+				<app>
+					<lem wit="#Transcription">ich mac in wol erlîden,</lem>
+					<rdg wit="#Translation">I can handle it well,</rdg>
+				</app>
+			</l>
+			<l n="41">
+				<app>
+					<lem wit="#Transcription">sît er allen mînen willen tuot.</lem>
+					<rdg wit="#Translation">Because it does whatever I want.</rdg>
+				</app>
+			</l>
+			<l n="42">
+				<app>
+					<lem wit="#Transcription">er dunket mich bezzer denne guot;</lem>
+					<rdg wit="#Translation">I consider it better than good;</rdg>
+				</app>
+			</l>
+			<l n="43">
+				<app>
+					<lem wit="#Transcription">ich geniete mich sîn nimmer.</lem>
+					<rdg wit="#Translation">I never do without it.</rdg>
+				</app>
+			</l>
+			<l n="44">
+				<app>
+					<lem wit="#Transcription">ich will in loben immer</lem>
+					<rdg wit="#Translation">I always want to praise it</rdg>
+				</app>
+			</l>
+			<l n="45">
+				<app>
+					<lem wit="#Transcription">für bûhurdieren und für tanz.</lem>
+					<rdg wit="#Translation">Above than jousting and dancing</rdg>
+				</app>
+			</l>
+			<l n="46">
+				<app>
+					<lem wit="#Transcription">krône, tschapel unde kranz,</lem>
+					<rdg wit="#Translation">Crown, circlet, and wreath,</rdg>
+				</app>
+			</l>
+			<l n="47">
+				<app>
+					<lem wit="#Transcription">pfelle, samît und scharlât,</lem>
+					<rdg wit="#Translation">Silk, samite, and scarlet,</rdg>
+				</app>
+			</l>
+			<l n="48">
+				<app>
+					<lem wit="#Transcription">swaz gezierde disiu werlt hât,</lem>
+					<rdg wit="#Translation">Whatever adornment this world has,</rdg>
+				</app>
+			</l>
+			<l n="49">
+				<app>
+					<lem wit="#Transcription">die næme ich niht für den wîn.</lem>
+					<rdg wit="#Translation">I would not take it over wine.</rdg>
+				</app>
+			</l>
+			<l n="50">
+				<app>
+					<lem wit="#Transcription">in hât in dem herzen mîn</lem>
+					<rdg wit="#Translation">My love has given a home to it</rdg>
+				</app>
+			</l>
+			<l n="51">
+				<app>
+					<lem wit="#Transcription">mîn minne alsô behûset,</lem>
+					<rdg wit="#Translation">In my heart,</rdg>
+				</app>
+			</l>
+			<l n="52">
+				<app>
+					<lem wit="#Transcription">versigelt und verklûset:</lem>
+					<rdg wit="#Translation">Sealed it and enclosed it:</rdg>
+				</app>
+			</l>
+			<l n="53">
+				<app>
+					<lem wit="#Transcription">wir mugen uns niht gescheiden.</lem>
+					<rdg wit="#Translation">We can’t part from each other.</rdg>
+				</app>
+			</l>
+			<l n="54">
+				<app>
+					<lem wit="#Transcription">swer mir in wolde leiden,</lem>
+					<rdg wit="#Translation">I would hate anyone forever</rdg>
+				</app>
+			</l>
+			<l n="55">
+				<app>
+					<lem wit="#Transcription">der müese immer haben mînen haz.</lem>
+					<rdg wit="#Translation">Who wanted to make me dislike it.</rdg>
+				</app>
+			</l>
+			<l n="56">
+				<app>
+					<lem wit="#Transcription">er kürzet mir die wîle baz</lem>
+					<rdg wit="#Translation">It entertains me better</rdg>
+				</app>
+			</l>
+			<l n="57">
+				<app>
+					<lem wit="#Transcription">denne sagen, singen, seitenklanc."</lem>
+					<rdg wit="#Translation">Than storytelling, singing, or the sound of strings."</rdg>
+				</app>
+			</l>
+			<l n="58">
+				<app>
+					<lem wit="#Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="#Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="59">
+				<app>
+					<lem wit="#Transcription">Einen trunc noch grœzer denne ê.</lem>
+					<rdg wit="#Translation">A drink even greater than before.</rdg>
+				</app>
+			</l>
+			<l n="60">
+				<app>
+					<lem wit="#Transcription">er sprach: "gras, bluomen unde klê</lem>
+					<rdg wit="#Translation">He said, "grass, flowers and clover</rdg>
+				</app>
+			</l>
+			<l n="61">
+				<app>
+					<lem wit="#Transcription">und aller krûte meisterschaft,</lem>
+					<rdg wit="#Translation">And the potency of all plants,</rdg>
+				</app>
+			</l>
+			<l n="62">
+				<app>
+					<lem wit="#Transcription">die würze und aller steine kraft,</lem>
+					<rdg wit="#Translation">The herbs and the power of all stones,</rdg>
+				</app>
+			</l>
+			<l n="63">
+				<app>
+					<lem wit="#Transcription">der walt und elliu vogelîn</lem>
+					<rdg wit="#Translation">The forest and all birds</rdg>
+				</app>
+			</l>
+			<l n="64">
+				<app>
+					<lem wit="#Transcription">diu möhten dîn, vil lieber wîn,</lem>
+					<rdg wit="#Translation">They can’t delight anybody</rdg>
+				</app>
+			</l>
+			<l n="65">
+				<app>
+					<lem wit="#Transcription">die liute niht ergetzen.</lem>
+					<rdg wit="#Translation">Better than you, dear wine.</rdg>
+				</app>
+			</l>
+			<l n="66">
+				<app>
+					<lem wit="#Transcription">si möhten dich niht ersetzen</lem>
+					<rdg wit="#Translation">They cannot replace you</rdg>
+				</app>
+			</l>
+			<l n="67">
+				<app>
+					<lem wit="#Transcription">mit allem dem, daz si kunnen.</lem>
+					<rdg wit="#Translation">With everything that they are able to do.</rdg>
+				</app>
+			</l>
+			<l n="68">
+				<app>
+					<rdg wit="Transcription">ich wil dir gerne gunnen,</rdg>
+					<rdg wit="Translation">I will gladly allow you</rdg>
+				</app>
+			</l>
+			<l n="69">
+				<app>
+					<rdg wit="Transcription">daz du mir kürzest die zît.</rdg>
+					<rdg wit="Translation">To entertain<note type="gloss" anchored="true">GLOSS GOES HERE</note>
+                    	<note type="critical" anchored="true">
+                    		<p>note about the concept of kurzwile</p>
+						</note> me.</rdg>
+				</app>
+			</l>
+			<l n="70">
+				<app>
+					<rdg wit="Transcription">swaz fröuden mir diu werlt gît,</rdg>
+					<rdg wit="Translation">Whatever joys the world gives me,</rdg>
+				</app>
+			</l>
+			<l n="71">
+				<app>
+					<rdg wit="Transcription">diu kumt vil gar von dîner tugent;</rdg>
+					<rdg wit="Translation">They come from your virtues;</rdg>
+				</app>
+			</l>
+			<l n="72">
+				<app>
+					<rdg wit="Transcription">dîn lop hât immer jugent,</rdg>
+					<rdg wit="Translation">Your praise will prevail,</rdg>
+				</app>
+			</l>
+			<l n="73">
+				<app>
+					<rdg wit="Transcription">dîn werdekeit wirt nimmer kranc."</rdg>
+					<rdg wit="Translation">Your value will never fade."</rdg>
+				</app>
+			</l>
+			<l n="74">
+				<app>
+					<rdg wit="Transcription">dô huob er ûf unde tranc:</rdg>
+					<rdg wit="Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="75">
+				<app>
+					<rdg wit="Transcription">Einen trunc alsô starc,</rdg>
+					<rdg wit="Translation">A drink so mighty</rdg>
+				</app>
+			</l>
+			<l n="76">
+				<app>
+					<rdg wit="Transcription">und solde er eine halbe marc</rdg>
+					<rdg wit="Translation">That if he had been rewarded</rdg>
+				</app>
+			</l>
+			<l n="77">
+				<app>
+					<rdg wit="Transcription">ze lône dâ mit verdienet hân,</rdg>
+					<rdg wit="Translation">Half a mark for this</rdg>
+				</app>
+			</l>
+			<l n="78">
+				<app>
+					<rdg wit="Transcription">ern dörfte niht bezzers hân getân.</rdg>
+					<rdg wit="Translation">He couldn’t have done better.</rdg>
+				</app>
+			</l>
+			<l n="79">
+				<app>
+					<rdg wit="Transcription">er sprach: "beidiu ich und der wîn</rdg>
+					<rdg wit="Translation">He said, "both me and the wine</rdg>
+				</app>
+			</l>
+			<l n="80">
+				<app>
+					<rdg wit="Transcription">müezen immer ensamt sîn.</rdg>
+					<rdg wit="Translation">Always have to be together.</rdg>
+				</app>
+			</l>
+			<l n="81">
+				<app>
+					<rdg wit="Transcription">mir ist an im gelungen;</rdg>
+					<rdg wit="Translation">I desire it,</rdg>
+				</app>
+			</l>
+			<l n="82">
+				<app>
+					<rdg wit="Transcription">er hât mich des betwungen,</rdg>
+					<rdg wit="Translation">And it has convinced me</rdg>
+				</app>
+			</l>
+			<l n="83">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="84">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="85">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="86">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="87">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="88">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="89">
+				<app>
+					<rdg wit="Transcription">"</rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="90">
+				<app loc="l90">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="90">
+				<app loc="l91">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="91">
+				<app loc="l91">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="91">
+				<app loc="l90">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="92">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"> that he</rdg>
+				</app>
+			</l>
+			<l n="93">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="94">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="95">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="96">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="97">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="98">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation">T</rdg>
+				</app>
+			</l>
+			<l n="99">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="100">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="101">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="102">
+				<app loc="l102">
+					<rdg wit="Transcription"></rdg>
+			</app>
+		</l>
+			<l n="102">
+				<app loc="l103">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="103">
+				<app loc="l103">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="103">
+				<app loc="l102">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="104">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="105">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="106">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="107">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="108">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="109">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="110">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="111">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="112">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="113">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="114">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="115">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="116">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="117">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="118">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="119">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="120">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="121">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="122">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="123">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="124">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="125">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="126">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="127">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="128">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="129">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="130">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="131">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="132">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="133">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="134">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="135">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="136">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="137">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="138">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="139">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="140">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="141">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="142">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="143">
+				<app loc="l143">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="143">
+				<app loc="l144">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="144">
+				<app loc="l144">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="144">
+				<app loc="l143">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="145">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="146">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="147">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="148">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="149">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="150">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="151">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="152">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="153">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="154">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="155">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="156">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="157">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="158">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="159">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="160">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="161">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="162">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="163">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="164">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="165">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="166">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="167">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="168">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="169">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="170">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="171">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="172">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="173">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="174">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="175">
+				<app loc="l175">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="175">
+				<app loc="l176">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="176">
+				<app loc="l176">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="176">
+				<app loc="l175">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="177">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="178">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="179">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="180">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="181">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="182">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="183">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="184">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="185">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="186">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="187">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="188">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="189">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="190">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="191">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="192">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="193">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="194">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="195">
+				<app>
+					<rdg wit="Transcription">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="196">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="197">
+				<app loc="l197">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="197">
+				<app loc="l198">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="198">
+				<app loc="l198">
+					<rdg wit="Transcription"></rdg>
+				</app>
+			</l>
+			<l n="198">
+				<app loc="l197">
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="199">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="200">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="201">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="202">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="203">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="204">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="205">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="206">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="207">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="208">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="209">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="210">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="211">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="212">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="213">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="214">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="215">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="216">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="217">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="218">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="219">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="220">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="221">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="222">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="223">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="224">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="225">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="226">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="227">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="228">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="229">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="230">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="231">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="232">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="233">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="234">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="235">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="236">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="237">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="238">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="239">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="240">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="241">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="242">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="243">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="244">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="245">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="246">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="247">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="248">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="249">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="250">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="251">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="252">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="253">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="254">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="255">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="256">
+				<app><rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="257">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="258">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="259">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="260">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="261">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="262">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="263">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="264">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="265">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="266">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="267">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="268">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="269">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="270">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="271">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="272">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="273">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="274">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="275">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="276">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="277">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="278">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="279">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="280">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="281">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="282">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="283">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="284">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="285">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="286">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="287">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="288">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="289">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+			<l n="290">
+				<app>
+					<rdg wit="Transcription"></rdg>
+					<rdg wit="Translation"></rdg>
+				</app>
+			</l>
+		</body>
+	</text>
+</TEI>
