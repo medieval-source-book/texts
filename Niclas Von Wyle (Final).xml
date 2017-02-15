@@ -1,0 +1,4185 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities; ]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">BASE TEXT HERE</witness>
+					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">ORIGINAL TITLE</lem>
+						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+					</app>
+				</title>
+			</head>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Dem hochgebornen herren herrn Eberharten grauen zů wirtemberg vnd zu Mülmpelgarte etc. minem gnedigen herren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Enbüt Ich nicläs von wyle Min vndertenig willig dienste allzyt zeuor Wie wol es gnediger herre ain wyt dinge ist vmb den adel, Vnd daz der durch all disz welt vnd in allen gelouben für grösz vnd in hochen eeren vnd wirden billich wirt gehalten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So ist noch dann by vnsern alt fordern vnd vor wysen hochgelerten mannen oft in fräge vnd zwyfel gestanden was adel an jm selbs syg vnd wa her der kom vnd enspriesse Sunder haben dero etlich den gemaint sin in herkomenhait der geburt etlich in altem richtum vnd etlich in übung vnd lobe der tugend.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">mir ist aber nechst zůkomen ain gerichtz handel, zwayer menschen des adels halb wider ein ander redende.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">do Ir yetweder, sin mainung mit nit klainen argumenten billichtet vnd gründet vnd find doch nit daz dar vber ützit syg geurtailt worden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">darumb ich sölich red vnd wider rede von mir vsz costlichem latine in disz nächfolgend Witsche gebrächt vnd transferyeret, üwern gnäden vor mengklichem andern schicke als ainem gerechten wysen vnd vnargwenigen richter hiervber zeurtailen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dann ist daz grosser vnd alter rychtum adel geberen sol/ wer dann vnsers lands edler syg dann üwer gnäd waisz jch niemant.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">sachet aber sölichen adel langes herkomen gůter geburt;  wer ist dann vnsers landes; der üch hieran vbertreff?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dwyle doch der stamme üwers herren vnd vatters (der so wärhaft gewesen ist, daz sine wort für brief vnd sigel wurden geachtet) Wol bis vf Romulum oder Eneam gerechnet werden möcht.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So ist üwer fröwen vnd můter gůter lümde so grosz, daz der nit mit ainchem lobe mag werden gemeret noch mit ainchem schelten gemindert, der selben vrsprung irs adels (als Ich ains mals gelouplich hab hören erzellen) von dem stammen Abrahe her tůt raichen vnd vnd deshalb irs stammens fürsten namlich von beyern vnd der pfallatz allwegen mer sint danne aincher andern fürsten vmb daz sy berürt diser spruch ich wil meren dinen sämen als die sternen des himels.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So sint sy ouch stetz wider ain andern, also daz sy selbs ain andern mer bekriegent vnd beschedigent danne jnen von andern vssenher bescheche.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Als das bewysent alt geschichten vnd yetz früscher nüwen geschichten ouch nit mangel ist.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Desgelychen in der bible von i0 den gesipten fründen dises stammens Abrahe beschechen sin ouch funden wirt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ist aber das der adel sin sol in übung der tugend/ so waisz ich ouch niemant vnser landen dem ir hier Inne entwychent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber von disen üwern tugenden wil ich hie wyter nit schriben, argwäne der liebkoserye zevermyden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">is vnd hiervmb gnediger herre So üwer genäde mit disen dingen allen adel geberende, so föllenklich vnd gelych mit ainen als mit dem andern ist begaubet vnd gezieret, daz die selb üwer gnäde wol hierjnne vnargwenig vnd frylich vrtail sprechen mag, ouch näch hocher vernunft die üch edelt sölich vrtail wol sprechen kan.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So bitt ich üwer genäd mit vndertenigem flysze, daz ir disen gerichtz handel obgemelt vnd wie der hie nächfolget aigenlich wöllent hören vnd erwegen vnd dann üwer vrtail darvf geben vnd setzen; wederm vnder disen zweyen von denen das argumente ist, die jungfröw lucrecia von dero wegen diser handel aller geschechen ist, söll werden vermechelt vnd zů der ee gefolgen, Vmb daz nit dise so costliche red vnd wider rede mer äne vrtail funden werd.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hier mit tůt üwer gnäde mir disz min arbait belönen vnd mich wilgen vnd raitzen zů wyterer transferyerung noch costicherer schriften von dem adel gestellet, die jch dann ouch nit wil verhalten vch als minen gnedigosten herren in des gnäd ich mich tun zů aller zyt vndertenig enpfelhen Geben zů Stůtgarten vf samstag vor Galli Anno domini Millesimo quadringentesimo septuagesimo.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vor zyten do die macht vnd das loblich regiment der statt Rom wůchs vnd zůnam ist daselbs gewesen ain man vnd burger des rätes mit namen Fulgencius felix, an grossem gůte vnd erberkait, ouch mit fründen vnd gunst der burgern vnd mit allem andern gelücke der aller ryehest.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"> der selb by siner husfröwen claudia genant, ain tochter hatt vbertreffenlicher schöne lucreciam, ainen ainigen trost sines erbern alters.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">danne zů dem daz sy mit lob sölicher fürpüntlicher form vnd hüpsche all ander römisch fröwen vnd jungfröwen vbertraf So waz in ir ouch so vil scherpfe jrer vernunfte, so vil kunst der geschrift vnd so vil eberkait gůter sitten, daz ir nützit gebrach an allem dem, so sölicher wolgeschickter Jugend zů lobe gewunschet werden möcht.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Gegen diser Jungfröwen wären vnder vil andern römschen Jünglingen zwen besunder für ander strengklicher in liebe enzündet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">die da wären gelycher gestalten vnd alters.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber vnglyches gutes tugenden vnd sitten. Danne der ain der publius cornelius was genant vnd geborn vsz dem edeln geschlechte der scipionem, hatt vnd besas gar näch alles das gute; so das gelücke dem menschen zůfügen mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne er zů der höhe sins adels, ouch vnmessig vil rychtums hatt, Vnd demnäch ouch vil mithellender fründen dienern vnd husgesinds, Vnd stund aller sin flysze vf waidwerck vf singen vnd vf anders zů fröiden vnd kurtzwyl die nende.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">TEXT GOES HERE<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber der ander Gaius flamineus genant was nit so von hohem sunder von nidererem geschlechte geboren vnd doch von erbern vnd fromen vatter vnd můter vnd hatt mes sigen rychtum vnd in sinem huse zimlichen vnd benügklichen bruhe vnd mittelmessige zierung dar ingehörig.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Doch wie wol sölich sin gůte also ains mindern gelückes gesechen wart; so übt er, sich doch nit dester minder in tugenden da durch sin lobsam adellich gemüt blüyend in tugend wurd gemercket.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne in nützlichen sachen siner fründen vnd siner haimant vnd vätterlichen landes, Was er der aller sorghabendigoster vnd in stryten do es not tett der aller künest vnd in lernung der geschrift der allerflyssigost Also daz weder kriegisch raisen Im benämen lernung der geschrift noch hin widerumb sölich lernung jm benam das raisen sölicher kriegen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber mit messigkait sines lebens och mit wyszhait vnd gespreche wol redens, erschain er höcher vnd grösser dann in aim sölichen Jüngling gesechen wurd gelöplich sin, Vsz welchen lobwirdigen tugen den Er zů rome verrümpt vnd bekant was vnd für edel geachtet vnd gehalten Dise zwen Jüngling do sy sich ains mäles des verainten daz ainer dem andern (welchem die obgenant jungfröw vermechelt wurd) wychen vnd abtretten sölt; giengen sy bed mit ainandern zu dem obgenanten fulgencium, der sy gütenklich enpfieng.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">vnd batt ir yetweder den selben fulgencium jm sin tochter lucreciam elichen zeuermecheln.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">vnd als der selb alt wys man sach sin tochter yetz manbar sin vnd tügig sölicher vermechelschaft; sagt er ir die vrsach warvmb dise zwen jüngling komen weren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd hies (so sy Irer beder sitten vnd vernunft erfaren vnd erlernet hett) daz sy dann ir selbs vsz jnen den ainen zu.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">elichem gemachel wölt erwellen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd als die jungfröw sich zum ersten von erberkait vnd schame wegen des tett mit mässe vnd beschaidenlich widern vnd der vatter ir sölichs ernstlicher dann vor tett gebieten; verzoch sy ir antwort ain klaine wyl mit schwygen vnd kart sich darnäch gegen Irem vatter vnd sprach vatter ich wil dir vsz disen zwayen den edlern machen zu aim tochterman vnd der selb syge nu mir yetz ain erwelter gemachel mir füro nit zeuerendern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Von diser sache vnd rede wegen kriegten dise zwen Jüngling mit ain andern welcher vnder jnen der edler wer, dem deshalb die Jungfröw lucrecia billicher sölte gefolgen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">vnd wyle disz ding ain wunderbar nüwekait gesechen wart; ist es in den römschenn rate für die senatores zů offenlicher verhörung gezogen worden vnd sint daselbs von des adels wegen dise nächfolgenden zwo reden beschechen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd die erst vön publio cornelio scipione also.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ist daz lucrecia vsz vns zwayen Ir begert den edler zehaben, wer ist dann lieben herren vnd vätter vnder vch der nit klerlich bekenn vnd merck Mich publium cornelium der von dem blut vnd stammen der scipionem geborn bin; billich haben vnd hinfüren die eere vnd glory diser erwellung?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">wyle niemant zwyfel danne daz das rechter adel haisz vnd syge, den wir genomen vnd enpfangen hant von dem vrsprung vnser edeln altfordern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">angesechen daz die selben sölichen adel jren kinden vnd nächkomen hinder jnen lässen gelycher wyse als ain erblich gaube.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">danne so die selben alt fordern mit lobwirdigen getäten ouch mit zucht vnd gůten sitten vnd tugenden, in regimenten gemaines nutzes oder ritter licher dingen erlücht worden sint vnd aller loblichost namen haben vberkomen vnd oberste eere vnd aller wirdigoste ämpter erfolget; so sint sy fürwar mit sölichen jren künsten vnd mit übung guter wercken vnd tugenden edel worden; durch welcher altfordern gedechtnüsz ouch dann all ir nächkomen gezieret sint. dann ist daz wir vsz vnserm blut vsz vnsern gelidern vnd vsz vnserm gebain vnd geäder, vnsere kind an dise welt tunt geberen; was mugen dann die selben vnsere kinde anders sin gesagt werden?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dann wärlich taile vnsers libes?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">darumbe von notdurft wegen sin můsz, daz die glory vnd eere der vättern in Ire kind glycher wyse als in Irs lybs taile gegossen werden vnd von den selben Iren kinden wyter vnnd fürbas in der vättern, gestalt bildung vnd form in den angesichten Irer kinden offt als ingedruckt in so grösser gelychnüsz gesechen worden; daz wenig vnderschaids zwüschen söli chen vättern vnd kinden erkennet werden mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd oft also die vätter hie durch vnd in sölichen Iren kinden gesechen werden widerumb vnd ander werb geborn sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sölichen kin den folgent ouch vnderwylen näch, glych sitten vnd geberd Irer vättern öch gelyche vernunft vnd gelyche übung der selben lebens.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar zu dann dienet, daz söliche kind von den vättern emssig vnd wol gezogen sint So dient ouch, hier zu huslich bywonung vnd gewonhait vnd stete übung gůter worten vnd wercken.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Da durch dann beschicht, So sy dero also gewennet worden sint; Daz ouch etwenne frömder menschen gemütt zu sölichen Iren übungen vnd sitten naigung gewinnent vnd dar ab habent grosses gefallen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vsz disen vrsachen clàr ist; Bede die natur vnd die gewonhait aller gröste craft vnd machte in die kind drucken vnd würcken Vnd kumpt also daz die laster der altfordern Ire nächkomen als mit ainer mäsen befleckent vnd erschöpfent, Vnd hinwider vmb der selben altfordern tugend vnd loblich sitten Ire nächkomen mit wunderbarem schyne des lobes zierent vnd erlüchtent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd wo nit dise min rede, mich zewyt vsfüren wurd; so were mir grosser folle sölich zenennen die von edeln loblichen vättern geborn; gelych schnell von.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">mengklichem ouch edel genennet vnd dar für gehalten worden sint.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann wer wölt nit die eere vnd tugendryche wercke.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">G. camilli vnd ouch desselben kinde sagen vnd vrtailen edel sin vnd lobs wirdig?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welcher camillas zů zyten do sin haimant vnd vätterlich lande Rome. In der vinden gewalte komen was; Allain der selben statt tode vnd zerstörung tett fürkomen vnd erleschen vnd das regiment gemaines nutzes wider bringen vfrichten vnd beheben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wer wölt darnäch die andern kinde von den edlen Fabien von den edlen Cathonen oder von den edlen Emilien geborn, nit billich sagen sin die aller edelsten?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vsz welcher vättern yetzgenanten, tugenden das io römsch folcke so mit grossen sigen strytens, So oft vnd dick ist worden beschirmet vnd erlüchtet; Wer wölte nit vrtailen das regiment üwer statt vnd des gemainen nutzes nit aller billichest zůgehörig sin, den sünen vnd nachkomen dero, die so oft von gemaines nutzes wegen wol getän vnd grosz vnd i5 vil verdienet hant Vnd die der selben statt vnd gemainem nutze so vil grosses lobes vnd eeren haben zůgefürt vnd er folget?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Für wäre, das wer ain vndanckber statt vnd haimant; Wo sy nit der selben mannen allwegen wer Ingedenck vnnd dero gedechtnüsz als fyrrens vnnd lobes wert tett eeren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd so darumb so haben vnser alt fordern (vmb das sy nit vndanckbar gesechen wurden) ain offenlich statut gesetzt; Das denen die vnser statt vynde hetten gezemmet, Vnnd der selben vnser vynden fölcker heere vnd gezüge erschlagen oder küngryche lannd vnd lüte gewunnen oder die selben gehorsam vnd vnder tenig gemachet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd die selben dann also siges obgelegen, mit sölichen eeren widerumb haim komen weren; daz denen (sprich ich) näch sölichen Iren seligen sigen (dero halb man sy als vntödemlich götte mit offenbarer eere, tett erheben) gebuwen gemachet vnd gesetzet wurden stainin bogen ires siges vnd darIn gehüwen bilde Irer gestalten, da durch füro hin Ir namen allen nächkomen mit ewigem lobe weren offen vnd mit fürpündigen titteln in grüner früscher gedechtnüssz niemer möchten werden erleschet/ das römisch folcke tett ouch näch mäls die selben bogen vnd bilde zů etlichen vf gesetzten tagen in sunderhait eeren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb ist daz man von satzung vnd rechtz wegen, so vil eeren zetůn schuldig was sölichen bilden; wie vil grosser eeren ist man dann pflichtig der selben gemelten mannen kinden? danne die howung sölicher bilden tůt allain mit kunst machen gestifft vnd vnwär figuren, die sich gelichent disen edeln hochgelopten mannen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber die natur zaigt in disen sünen vnd kinden wäre bildung Irer vättern vnd vordern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar zů so mugen dise stain die in jnen selbs kain sele noch leben haben niemer ützit gůt sin gemainem nutze.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber das leben diser sünen mag mit nächfolgung den fůsstapfen Irer fordern vil nutzes bringen vnd machen, vil burgern gutz geberen vnd ouch vil schades fürkomen vnd abestellen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darumb den selben billich zůgefüget vnd geben werden die wirdigosten ämpter vnd alle oberkait vnd regimente diser statt vnd gemaines nutzes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann ist, daz den edeln selan vnd gaisten so die Ire körpel verlässent; ainch sorg oder achtbarkait ist, menschlicher vnd zytlicher dingen; So mag für war nützit süssers noch gefelligers Iren gemüten zů gefüget werden, dann daz jre aigen kinde die da sint ain vberbelybung Irer lyben, Von verdienung wegen der selben jrer fordern in oberkait vnd regimente gemaines nutzes gewirdiget werden vnd geeret.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann wir sechen ob die selben vätter zů zyten so sy dennocht Im leben kranck in dem todbette sint; ainch wollust haben; daz sölich wollust gantz allain gelaitet wirt vnd gekeret vf jre kind vnd daz sy nützit merers, danne die selben bedenckent noch ouch sich selbs mainent sterben noch sich von menschhait gantz schaiden?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So sy nun kinde ainen lebenden taile Irs lybs hoffent hinder Inen zelässen Darumbe wyle so grosse liebe ist, der vättern gegen Iren kinden daz kain grössere in den begirden aller lebender dingen erdächt werden mag, vnd ouch der selben vättern so grosse hoffung ist Im leben, vnd in dem tode wollust vnd nach dem tode angedechtnüsz; so ist kuntlich sich gebürren daz vmb verdienung wegen der vättern vnd altfordern aller billichost jren kinden vnd nächkomen zů ge hörig syen, der selben verlässne wirdigkait vnd daz zů dem Sy von der selben Irer fordern eeren wegen werden geeret vnd gefürdert vnd die danckbarkait die man den selben vättern nit gnůg näch billichem vnd näch jrem verdienen hät mugen bewysen; gegen den selben jren kinden vnd nächkomen danckbarlich werd geübet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumbe so ist das, das oberst so in dem adel ist, daz yemant siner fordern eere gemaines nutzes, glycher wyse als durch ertlich erblich rechte vf sich bringen mag vnd darby sich den selben sinen vordern an forme des lybes gelychen vnd Ire clare bildung vnd gestalt in sinem angesicht bekantlich erzögen vnd geben zeerkennen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dises haisset vnd nennet mengklich rechten adel.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne sagent; welch ander nennet das püfel vnd gemain folcke, edel.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne die so von edeln vättern sint geborn?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">des gelychen die gelerten der geschriffte?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sagent nit die selben ouch; die wolgebornen menschen edel sin; gelycher wyse als ob in der geburt der adel syg gelegen; Zu dem so zieret disen adel grosser rychtum zytliches gůtes, da durch die diener das husgesind vnd aller bruhe vnd apparät des hushablichen dinges dester loblicher sint vnd erschynent, ouch vszwendig früntschaften also hie durch dester bas mugen werden behalten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Das beschechen mag durch emsig adelliche übung, mit günnern fründen gesipten vnd andern vsserthalb fremden vnd vngesipten menschen, die an notdürftigen dingen mangel haben vnd fremder hilffe bedörffent, denen dann ain sölicher edelman näch sinem willen mag wol tun raten vnd helffen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne miltikait ain sunder lob vnd hohe eere ist, des adels, dero sich der mensch vmb sust flysset in ander lüt zegebruchen dem sin gůt zů sin selbs notdurft nit gnůg sin mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb so ist notdürftig wer edel sin wil das sin adel durch miltikait erschyn vnd rum vnd lob erfolge, dwyle sölicher adel durch gnäd günstigen willen vnd gut getätt andern zebewisen, zu nimpt vnd dester treffenlicher vnd grösser wirt geachtet vnd sust vnd äne das oft sin schyne abnimpt vnd verdunckelt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd beschicht hier von ouch das vnderwylen mancher gesechen wirt nit mer edel sin; So er nit mer milt sin mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann sagent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie vil aller gelertest mane, sint von armůt wegen gantz verachtet vnd vf sy wenig oder nützit gehalten worden?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie vil hoher vnd klůger vernunft vnd wyshait sint von mangels wegen notdurftiger narung vnd bruhes also ab gestorben; daz sy nit von yemant ye gebrucht oder geübet worden sunder gantz verlegen sint?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welcher mannen kunst vnd tugend vsgelegt, nit schynnen oder nächdrucke noch gelouben haben mochten von gebruchs wegen notdurftiger narung irs lebens.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd also verlychet rychtum zytliches gůtes grosse hilff zů zierung des adels.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mit welchem richtum des men schen gemüt, daz zu tugend gerichtet ist, fürnemer werden mag vnd sölich tugend clärer vnd loblicher erschynen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb lieben herren vnd vätter; Ist das rechter adel in geburt oder in rychtum begriffen wirt oder sin sol; So ist üwer kainer, der zwyfel hab, Danne daz die aller gröste gezierd des adels diser statt in mir erlüchte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann wer hät ye von wegen gemaines nutzes diser statt; Stercker gestritten dann min fordern?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnnd wer hät vsz dem vmbkraisz diser gantzen welt, Mer küngryche gewunnen vnd die vndertenig gemachet dem römschen gewalt vnd regimente, dann min fordern?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wer hät die sorgen angst not vnd Jamer üwer Statt Rom zůgestanden; ee vnd schneller ye vertriben vnd vch dero entlediget dann min fordern? <note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der selben ainer Lucius Scipio genant (als der gezemmet vnd vch gehörig vnd vnderwürffig gemachet hatt; alle küngrych in asia ge legen vnd dar zů andere fölker) erfolget hie durch Im zů lobe ainen ewigen zů namen Also daz er nächmäls genennet wart Scipio Asiaticus, vmb daz er in Asia sölich grösz lob vnd eere hatt erjaget.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber ain anderer miner fordern Publius Sci pio, tett das lande Italiam das durch nom brand vnd todschlege verhergert vnd zerstöret was, ouch die edeln statt röme, als die näch dem Canensischen stryte in Jamer süfftzende In letster note vnd sorgen stůnd; die selben land vnd statt tett (sprich ich) der selb Scipio mit vngelouplicher tugend rit terlicher übung erlösen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne der schedlich verderplich brande von dem selben Publio Scipione dem branchinischen folcke in Affrica zů gefüget; tett Hanibalem den geschiden vnd obersten houptman der mit so vil sigen wider vch römer erfröwet was, widerumb haim berüffem Vber das noch dann der selb Scipio den gemelten Hanibalem vnd des gezüge folck vnd here mit denen er haim kam, bestraitt vnd die niderlegt vnd vber wande.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darzů ouch die statt Carthaginem die dem römschen gewalte vnd regimentе aller vindest was; nit allain von Irem vnrechteu hindersich traib, sunder ouch die vnd das gantz Affricam krefftenklich, disem der römern regimente vn derwürffig machet vnd aignet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Diser sachen halb Er nächmäls billich den zů namen Affricanus vberkam vnd erfolget danne die Statt Carthago in dem taile des ertrichs Affrica gelegen was.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Den selben zů namen Er ouch darnäch sinem suns sune scipioni (der zů letscht die selben statt Carthagnem (als sich die aber abwarf) gantz zerstort vnd tilket) Verlies als ain erbschaft.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne der selb ouch wie sin alt vatter genennet wart Scipio Affricanus.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ich furgee die andern alle mines ge schlechtes mit dero eeren vnd tugenden üwer statt röm, so oft gezieret worden ist; vnd dero gůt getäten so vil sint, ob Ich die wölt erzellen; das ich nit wiste das ende vnd den usgange miner fürgenomen rede.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd dero Ich darumb gern geschwyg; das ich waisz sy üch sust wol bekant sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dann wo ist in disem röme ain statt oder winckel der lere syg der titteln loblicher sigen miner fordern?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd welcher tempel ist in diser statt röm der nit er schyn gezieret mit röben von minen fordern den vinden genomen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd welich kirchen Vnd gotzhüser sint, die nit zaigent der selben miner fordern lobrychen bilde gestalt vnd formen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">das zeuersteen gibt, so grosse Vnd so lobliche begrebnüsz des adels miner fordern) daz nit grössere yemant tödemlicher wünschen möcht.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So ist ouch mir von minen fordern zů erbe gelässen ain aigen loblich gesessz vnd possession grössem adel wol zimende.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So sint mir än zale vil der selben miner fordern figuren vnd bilde.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So haben sy söliche mine beklaidung getragen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So ist disz min angesicht in Iren angesichten gesechen worden vnd tun Ich der selben blůt Ire gelider jr geäder vnd Ire forme vnd gestalt in disem cörpel mines lybs tragen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ich bin von Inen vrsprunglich herkomen vnd lang in Iren hüsern erzogen worden vnd nu yetz erwachsen, Hab Ich von sitten vnd nature Iren adel mir von Inen Ingegossen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb, ist daz dise ir haimant vätterliches landes Inen vmb Ir so grosz verdie nung vnd gůt getätt, ützit von rechtz wegen schuldig belybet; So můsz vsz notdurft sin, daz sy mir (der ain taile irs lybs bin) sölichs ouch schuldig syent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb ob Ich zů ainchen wirdigen ämptern vnd oberkaiten diser statt Röme äne min bitte, Sunder vsz üwer aignen bewegnüsz vserkoren vnd erwellet wurd; so geburte sich mir, dero vsz billichkait vnd aignem rechten anzenemen vnd mich dero zebeladen vnd möcht für wär nützit basz gefelligers den gemüten miner fordern gehandelt werden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Zů dem allem so ist mir zu zierung des adels von denselben minen fordern so ain grosser huffe vnd schatze gutes vnd richtums verlässen worden, Als vil ains yeden menschen messig gemüt begeren möcht oder wünschen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Des ersten so sint mir vätterliche hüser so grosser wyte vnd wolgeziert daz sy nit künglichem gesessze teten entwychen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So ist mir in dem tuschganischen lande ain statt aller gröstes lustes vnd in dem land campania grossz vnd aller rychest büwe der ackern vnd des feldes Dar von nit allain ains ainigen huses diener.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd husgesind, sunder gar nach ain grosser gezüge folckes möcht werden gefůret.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So ist der apparäte vnd stande mines huslichen wesens ouch die kostlichkait vnd gezierd mi nes husrätes mit helfenbain gold vnd edelm gestaine vnderschaiden gar näch allem römschen folke bekantlich.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb so ist äne zwyfel mir, mit so vil seliger dingen wirdigkait; etliche sunder loblich gezierde des adels, vnd die so grosz, daz willicht kum (mit vrlob red ich das) in diser statt ain grösser funden werden möcht.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb so schwyge also flamineus vnd tü in disem kriege abstellen zebegeren diser Jungfröwen Lucrecie, Angesechen daz er nit allain angeburt vnd rychtum vnder mir ist; sunder ouch wir nit wol wissen mugen den vrsprunge sines herkomens; So waisz er ouch kum selbs wo er yenert hab ainches lendlin vnd darumb so ist von rechtz wegen die edel lucrecia min.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Die mich edeler danne flammineum vnd mich irer hüpschkait zůgehörig sin hät erkennet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber du Lucrecia tů dich diner aller süssisten wyszhait fröwen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne dir kain liebrer noch gelückhaftiger gemachel erweltet worden sin möcht Vnd der dich lieber vnd schoner gehept hett oder by dem du seligklicher din leben möchtest haben geschlissen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ich wirt dich füren in wyt zierlich vnd lustig höfe vnd säle vnsers huses.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Da wirst du sechen bettgewande vnsers elichen byschläffens in sölicher hüpschkait als ob sy zů gericht weren ainem künge.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Du wirst tragen aller vserweltigoste klainet vnd zierung Jun gen fröwen zů gehörig.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie du die selbs wunschen möchtest So wirt dir nit sin arbait aincher übung dero zů tun pfligt das gemain folke, sunder wirst du füren ain leben mit rüwiger můsse, also daz nit teglich gewine oder ainch hert geflissen hait, dir benemen werden süssen schläffe, danne daz du lebest frylich vnd also wo vnd wenne du wilt schimpfen schallen singen sagen oder anders tun zu fröiden vnd zu lieb dienende, daz du dich dines willens vnd flysses hier zů wol magst gebruchen vnd wirst darzu haben zů gesellschaft diner wollusten Jungfröwen mägt vnd dienerin die all dinen begirden werden sin gefölgig.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Kain tage wirt dir hin geen vnd ver rucken lär sölicher wollusten vnd fröiden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So werden ouch wir bede die necht sament in fröiden üben vnd vertryben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welche ding alle flammineus (wyle er selbs von armůt wegen dero mangel hät) dir nit hett mugen verhaissen, danne daz dir mit jm wer gewesen ain leben in armůt laidsam vnd trurig.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann ain statte küngklicher schlossen vnd büwen, hette dir gefolgt eng gehuse.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Für grossen apparätte vnd schynbar herlichkait vnd gezierde; wer dir worden schlechter gemainer husräte, Vnd für můsse gefliessenhait, für růw, arbait.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd wer dir kain tag yemer gewesen fryg vnd ledig teglicher wercken.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb lucrecia wer zwyfelt?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann daz du mich dir zů gemachel erwellen vnd haben wöltest; da du den edlern vnder vns erwaltest.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Kum hettest du in diser diner aller wysesten erwellung mugen offenlicher vnd verstentlicher geredet han.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ob du joch mich Cornelium mit namen hettest genennet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber sicherlicher häst du diner begirde vnd diner wyszhait hierinne geräten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne so du von jungfröwlicher erberkait vnd eeren wegen dich geschamet häst zenennen cor nelium, so häst du mich genennet den edlern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd were ain aller vnwysests dinge, von yemant anders geschetzt werden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dann wer wölte gelouben dich für ruwe begert haben arbait für rychtum armůt vnd für haile Jämer.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darumb lieben her ren vnd vätter; so wöllent in ansechung der wirdigkait ain römschen räts in disen dingen ain gelyche billiche vrtail sprechen vnd geben Zů grossem gefallen ist mir lieben herren vnd vätter So mir von dem adel rede zehaben gebürret; daz ich dann sölich rede vor üch vnd üwern adellichen gemüten tůn sol.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne in kainen andern ende so wärer ernieter vnd erfarner adel als hie by üch funden werden mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">deshalb mir vf disem hüt
+								tigen tage zů hochen fröiden kumpt daz in so grosser vnrůwe der gemüten in so grosser erkantnüsz mancherlay dingen vnd in so grosser übung der tugend, nützit vnrechtes hie mag werden erwartet; nützit vnloblichs mag werden gesprochen noch zu letscht nützit fremdes vnd vngehörtz mag werden gehandelt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber lieben herren vnd vätter in diser zwytrechtikait die da nüw vnd fremd ist; gebürret sich vch grössern flysz vnd ernsteanzekeren, Danne in andern gemainen vnd schlechten sachen vnd spennen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In ansechung des, daz dises dinge nit allain zwayer burger ist oder ain gerichtzhandel ains ainigen tags sunder wirt es sin vnder allen fölckern vnd zů allen zyten als ain ewige satzung vnd ain ewig recht von üwerm allerhailigosten vnd wisesten räte vsgegangen vnd des man begirlich hät gewartet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann ir sechent hütte (anders dann vor ye) an disem gerichtz handel des gantzen römschen folckes aller gröstes vfmercken.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd sechent aller burger vnd ouch vszwendiger gesten ougen, Oren, vnd münde gantz in vch sin gekeret; Denen nit allain fröid ist zesechen Welches vnder vns zwayen Lucrecia sin söll; Sunder mer welcher vnder vns von üwer wyszhait der edler werd geurtailt vnd geschetzet darumbe Ich üch vnd üwer hoche vernunfft flyssig bitt vnd erman.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Bedenckent die grosse diser sache (Wie wol in aim yeden dinge die gerechtikait gelychlich gehalten vnd geübet werden sol) ye doch so ist sich grössers flysses zegebruchen so man aller gröste vnd klügiste ding han deln tůt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ich bitt aber lieben herren vätter üwer gedult vnnd senftmütikait wölle mir verzychen ob Ich scherpfer vnd an ders dann min gewonhait bisher gewesen ist, reden vnd erzellen werd min tugend vnnd gelücke.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne Ich vormäls nit pflegen han mich selbs zeloben oder yemant andern zeschelten; dero das ain ist, ains vnmessigen rums girigen gemütes, vnd das ander ains vndultigen verbünstigen hertzen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber mich tunt yetz hier zů.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">raitzen vnd bringen, Des ersten dise nüwe form redens.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar näch die vngebürlich wackerhait dises Cornely, der vor nit erberlich von mir geredt hät Vnd die wyle Im so lustig gewesen ist, mit sinen worten, min messigkait zeschelten; So gebürt sich mir vnd hät er mir des vrsach geben sin vnschame zesträffen vnd zeschmechen . . Ir hant lieben herren vnd vätter gehört, diser Jungfröwen aller wyseste antwort.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">TEXT GOES HERE<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar uf Cornelius vmb daz Er sich selbs den bessern machh; getar sprechen den adel sin in geburtvnd rychtum vnd hät deshalb gesagt siner altfordern loblich ge täten vnd jm von sinem vatter vnmessiger rychtum verlässen worden sin. Dises ist alles das, das sin lange red begryffet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber von Im selbs sagt er nützit Danne Er waisz nützit von Im, daz wirdig syg zesagen Vnd darumb so für geet er sinselbs leben mit schwygen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber Ich main des men schen adel sin in aigner vnd wärer tugend des gemütes, vnd nit in fremder eere oder in falschem des gelückes gůte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann adel ist nützit anders dann etliche vbertreffung, damit die ding, die wirdiger sint vortail vnd eere habent vor den vnwirdigern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb wie ain mensche mit allem vbertreff edler ist dann ainch ander tiere; Also tůt ouch ain mensch mit adellicher tugend sins gemütes ainen andern menschen vbertreffen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd also vbertrift ain mensche den andern allain in lobrychen adellichen wercken des gemütes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann wenne das selb gemüt in gůten loblichen künsten lang zyt geübt erschynen wirt in gerechtikait gütikait vestikait groszmütikait messigkait vnd wyshait vnd es gegen den götten gegen vatter vnd můter gegen gesipten fründen vnd gegen gemainem nutze gutz verdienet hät vnd in gůter lere der geschrift erzogen ist; so wirt es für ander; edel lobsam vnd durlüchtig gehalten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Als ouch Cornelius das selbs nechst vor von sinen altfordern gesagt hät.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">hinwiderumb.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wenne daz selb gemüte böser kün sten geübet ist, vnd sich gibt zů boszhait zů wüterye zu grobkait vnwissenhait lůderye vnd vnuernunft vnd jm kain acht ist noch sorg götlicher dingen, noch gütikait zů sinen vatter vnd můter, noch bewysung günstiges willens gegen sinen frün den; Für wäre der wirt gehalten vnedel schantlich vnd zeuerachten Vnd darumb so ist kund vnd offen; wären adel allain fliessen vnd komen vsz wärer tugend des gemütes Vnd mag ouch darumb weder grosser huffe rychtums noch langes herkomen der geburt oder des geschlechtes sölichen adel weder geben noch nemen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dwyle allain das gemüt ain aigner sitze ist des adels, welches gemüt von der nature die da ist ain gebieterin vnd laiterin aller dingen; gelych In gegossen wirt allen menschen vnd nit von den altfordern als ain erbschaft den sünen zůgehörig sunder vsz höche gütlicher wyshait Vnd hant die selb natur gesetzet, das selbig gemüt sin als ainen fürsten des menschen lebens vnd als ain liecht des spiegels.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welcher spiegel so du Im hüpsche ding für' hebst; ouch hinwiderumb hüpsche ding in jme lasset erschynen Hebst du jm aber für vngestalte ding; so werden sy ouch vngestalt in jm gesechen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd also ist der menschen gemüt clare vnd luter ouch fryg geschickt vnd tügig, adel vnd vnadel zeenpfàchen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd mag niemant in diser aller besten vnd fürtreffenlichosten gaube, die vstailung menschlicher nature schuldigen oder sträffen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne sy dises gemüt yetklichem menschen glychlich geben tůt Vnd achtet hierInne weder ge schlechtes, gewaltes oder rychtums.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd ist niemant so arm so schnöd so verworffen oder so verschmechet; der nit anefangs siner geburt mit der kaisern vnd küngen kinden äne vortail sin sele vnd gemüte enplächen tüg, Vnnd nit daz selb gemüt mit schyne der tugend vnd mit lobe des adels zieren mug.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd waisz yemant; ob mir in diser sache vil ge übter exempeln gebruchh syg?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">das vil von nidern stammen vnd von verachten vättern vnd mütern geborn, bald vnd schnell edel worden sint.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welcher exempeln mir so grosser folle ist; daz kum diser tage mir lang gnůg wer die alle zeerzellen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Doch wil ich zů bewerung diser rede, der selben wenig berüren Vnd zů dem ersten vsz der Jüngligkait vnser statt rome.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ist nit der vrsprung Tuly Hostily klain gewesen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der da anefangs ain hütten für ain huse hatt, vnd des vatter vnd muter näch vnbekant gewesen sint?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag tett nit lang zyt der selb des fichs hüten, Vnd tett nit darnäch sin grosse ver nunft also erschynen, daz sy Inn fůrt vnd brächt zů diser statt oberstem gewalt vnd regimente?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">diser Tulius Hostilius wytert vnd meret ouch dise statt vnd machet vil vinde vndertenig dem Römschen gewalte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ist nit Seruius Tulius in aigen schaft arm geborn gewesen vnd darInne erwachsen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">bis zů volkomnem zytigem alter der noch dann die höchsten oberkait des regiments diser statt habend was, Vnd sich darInne so vbertreffenlich wol hielt, daz er verdient die Sabinischen den römern gehorsam vnd vndertenig zemachen vnd dryg sige, zebeheben vnd ouch dryg berge zů wytrung der statt zů zefügen vnd grosse wirdigkait der ämptern zemeren Aber Mar cus Porcius Catho von dem das Porcianisch folcke der gemaind, sinen namen vnd vrsprung gezogen bit, Ist worden geborn by ainer tuschgulanischen strässe in ainem pürschen hüslin vnd was doch desselben wirdigkait vnd der geloube zů Im in diser statt so grosse; daz er all fürpündig manne, die zů sinen zyten wären vbertraf vnd deshalb wärlich verrümpt vnd edel was vnnd des gemaines nutzes trost vnd haile vnd nit minder der geschrifft Danne ritterlicher dingen flyssig vnd künnend.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Diser man was von den burgern in so hochen eeren gehalten daz er durch sinen räte die ordnung der reten vnd Senatoren endert vnd meret vnd die maiestäte desselben rätes mit sin selbs lobe vnd eeren gröszlich tett zieren Vnnd wissen wir nit?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Marium von aller nidersten vatter vnd muter ge boren vnd vff vnsuberkait des ertrichs gelegen sin vnd ainen aller schnödisten anefang gehept han In dem aber dar näch so vil tugend vnd fromkait erlucht, daz er in dem Jugurtischen kriege des ersten wart ain Innemer vnnd vszgeber Metelli, des obersten Römers Vnd darnäch an des selben Metelli statt vnd ampt kam vnd oberster consul vnd höptman wart, alles Römschen heeres.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darjnne Er sich so redlich vnd kecklich hielt daz er Jugurtam vnd Botum den küng zů Mauritania der desselben Jugurte helffer was; Des ersten siges vber wand vnd flüchtig machet vnd darnäch vil jrer stetten in Numidia gewan vnd Innam vnd zů letste Jugurtam fieng vnd gen röm brächt vnd vor sinen wagen gefangen infürt vnd jm des halb vnsaglich grosz eere vnd siges lobe wart bewisen. dar näch als die zimbri der römer gezüge nider laiten vnd dar von grosse forcht zu röme entstund vnd so grosz als vor kum ye zů Hanibals zyten beschechen ist.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ist aber Marius zu oberstem houptman vnd consul erwellet worden, Vmb daz die Galli vnd franzosen die statt nit ansturmpten vnd näch dem der selb krieg sich gute zyt tett verzichen; Ist Im in sölichem dise wirdigkait söliches amptes zů meren mälen angebotten worden Vnd zů letste do Er dise zimbros vnd frantzosen vberwand, hät er zů dem andern mäle das lob vnd die wirdigkait so man von siges wegen pflag zetůn, von den römern eerlich Ingenomen vnd enpfangen Aber Socratem ain ainige gezierde menschlicher wyshait, durch des kunst vnd lere alle schůlen der philosophye sint erlüchtet vnd der von dem got Appollo gevrtailt ist, sin, der allergelertest vnd wysest vnder allen menschen (den selben sprich ich) haben geborn ain hebamme sin můter vnd ain stainbrecher sin vatter.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Euripides aber der da gemachet hät das aller hoflichest ge dicht entliches laides das wir nennent Tragediam vnd Demostenes vnder den natürlichen maistern ain fürst vnd vnder allen Oratoren vnd wolredenden kriechischen menschen der aller beste vnd scherpfist haben bede nit allain licht vnd schnöd vätter vnd můter gehept sunder gantz vnbekant. Vnd darumb wer ist der?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der ainche vernunft hät der reden getörr; dise yetz gemelten erlüchten man, So grosser lobrychen übungen vnd tugenden sin vnedel?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sunder ist not; aitweders in allen menschen kainen adel sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Oder aber dise yetzgenempten sin vnder allen menschen die aller edelsten, dero klůge vernunft crefte geschicklichkait vnd aller gůten künsten lernung vnd vnderwysung; nit allain für ander habent gegrůnet sunder gar näch bis zu götlicher verstentnüsz sint gewachsen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd dir gebürt ouch nit Corneli das zewiderreden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dwyle du dinen altfordern vsz disen tugenden nechst gelych ainen sölichen anefang gegeben häst Vnd darumb so wirt also der adel nit vsz der geburt des geschlechtes enpfangen vnd genomen sunder vsz Innwendigen tugenden des gemütes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne sust werent die yetz gemelten niemer edel genennet worden; dero vrsprunge Irer geburt so klain vnd demüttig funden worden ist.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Als wir ouch nit widerreden mugen vil menschen von aller edelsten vättern geboren sin, die so schantlich vnd bosclich gelebt hant; daz die selben nit allain nit edel sunder aller schnödest vnd lasterliche menschen verdienent genennet zewerden. <note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd Ich wil berüren zum ersten etliche vnlobliche man, So vnder dinen fordern gewesen sint.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Item des vorigen Affricani sun Scipio genant; vbertraf mit siner groben vnwissenhait vnd zagkait sines vatters fromkait vnd vestikait, der ouch gegen Anthonio dem küng schantlich darnider gelag vnd gefangen wart vnd mit zůsamen gebunden henden batt ain lybgeding sines lebens.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Item Als ouch diseryetz genanter Scipio ains mäls nit durch sin selbs verdienung, Sunder durch verdienung Georci sines vatters schribers; er folget hatt das ampt ains obersten richters; Do hatt er des siner nechsten gesipten fründen gunst so vil, daz sy nie kain ding laider gehorten danne daz Im dise wirdigkait zůgestanden was.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd als die selben sine fründ forchten daz er mit etwas siner boshait söliche offen wirdigkait dises ampts tette lestern vnd sich selbs des schantlich entsetzen vnd daz da durch ir geschlecht der Cornelien des schant enpfächen wurd; do haben sy nie wöllen lyden, daz der ainch vrtail sprechh.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Oder sinen gerichtz stůl in offenliche verhörung ye getörste setzen; So vil vnuernunft wisten sy sin in sinem houpte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar zu din publius Scipio ain vnnützer mensche, do der ober ster houptmanschaft pflag kriegens wider Jugurtam, sachen halb daz der selb Jugurta in verachtung vnd zů schmähe des Senates zů röme bosclich erschlagen hatt atherbalem vnd yempsalem gebrüder vnd küngs micipse seligen süne; die aller beste fründ gewesen wären des römschen folckes; do verfůrt Er so vnwyslich vnd torlich das beere sines gezüges vnd folckes, daz nit zů aincher zyte ye vnser folck vnd heere jemerlicher bosclicher vnd süntlicher gelebt haben vnd Als er dar näch consul vnd oberster römer wart.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ist er von dem selben Ju gurta mit gelt gestochen vnd falsch gemachet worden; daz er mit jm ainen schantlichen fride treffen tett.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welchen fride der Senät vnd gantzer räte zů röm dar näch bald tett abkün den vnd widerrüffen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd was mag Corneli schantlichers oder lasterlichers funden werden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann dise yetz gemelten vneere?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd was sol Ich sagen von dem aller vnschamigosten Jüng ling der ain sun was Quinti faby Maximi?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Als der selb ain vngebürlich vppig leben fůrt; do mocht jm sin vätterlicher adel nit hier vor sin, Danne das Quintus Pompeius do zemäl der statt richter jm als ainem wütenden ochsen verbotte vnnd zwang tun müst.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Was sol ich sagen von dem suns sune quinti ortensy (aines mans (für wär) in vnser statt von gelouben vnd gesprechnüsz aller fürnemest) der da zů schande sines lebens mit vnküschhait vnd mit liplicher wolluste dar zů kат; daz Er Im mittel der offen gemainen fröwen hüsern stund vnd beharret dar näch hier Inne als ain riffian In offen licher verschamung.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag Corneli mainst du dise sin zenemen edel, dero leben so vil sträfbarer vnd lasterlicher ist als vil sy ainen höchern schyne Irs adels hier mit habent erleschet?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag was ist es?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">ob sy Joch gemachte bild Irer altfordern erzögent; oder daz sy sagent vnd erzellent wo vnd wie sy hüslich syen worden erzogen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag schetzest du das; etwas lobes Iren lasterlichen wercken bringen mugen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">oder möchtest du nit wärlicher vnd rechter sprechen; daz sy hier mit mer Ir Iaster tetten entecken vnd sich selbs dester schuldiger vnd sträfbarer machen Vmb daz sy ain sölich exempel der tugent das sy vor Iren ougen gehept hant so Jemerlich vnd bosclich haben verlässen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darumb ich diser kainen schetz verdienet han oder wirdig sin daz man Im von loblicher getäten wegen siner altfordern, ainch regiment gemaines nutzes vf Inn zebewenden schuldig syg.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne die selben ir altfordern wären diser statt ain loblich zierung.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber diser ains gemainen nutzes schantliche mäse.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Die täten diser statt vnd Irem re gimente frid eer vnd nutze zu fügen vnd bringen; Aber dise oft laster vneere vnd grossen schaden der burgern zurichten vnd volstrecken.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Die haben ouch Ir vätterlich lande so das mit grossen kriegej;  sorgen angsten vnd nöten belestiget was, oft mit Ir tugend klugkait vnd vernunft errettet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber dise habent arbait gehept vnd sich geflissen frid sun vnd ruwe irs vätterlichen landes mit jren sünden vnd boszhaiten zebetrüben vnd ze entrichten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darumbe.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie sint in ainer lob lichen wol geordneter statt sölicher menschen verdienung?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Were nit ainem gemainen nutze weger vnnd besser?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sölicher burgern zemangeln?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd were nit jren vättern süsser vnd rüwiger, daz sy sölich süne nie hetten geboren; ob joch sö licher Irer kinden würckung langen wurd an der vättern selan.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dwyle sy doch in jrem leben Ir vätterlich lande so lieb ge hept hant.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Für wär sy wurden vrtailen sölich Ir süne sin zetilcken vsser der gesellschaft aller menschen, Danne kuntbar jst in dem regimente gemaines nutzes vil lasterlicher sünen durch vrtail Ire; vättern verdampnet worden sin zů mancherlay sträff vnd pine.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welcher dingen exempel Brutus ist der erst liebhaber vnd sträffer der fryhait.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der sin aigen süne (Vmb daz sy mitwissent vnd gesellen wären aines pundes wider fryhait der römer fürgenomen) hies ertötten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Item vnd aber Cassius der sinen sune (Vmb daz Er der obersten regierung vber das folcke zu Rom begeret) Mit straichen geschlagen dar näch gebott ze ertöten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Disem folget näch Manlius torquatus ain aller edelster burger diser statt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der selb als sin sune Decius Sillanus von gelts wegen daz er vngebürlich solt Ingenomen han geschuldiget wart, von ainem räte; nam er disz sache vf sich selbs dar Inne zeerkennen vnd zevrtailen vnd als er nu das laster sines suns also erfand; do falt vnd lutbart Er ain sölich vrtail vnd sprach.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dwyle kund worden ist Sillanum minen sune in der prouintze gelt vnbillich geroubet han So richt vnd vrtaile Ich Inn billich vnwirdig sin siner vätterlichen hüsern vnd der ämptern gemaines nutzes vnd ouch der gesellschaft aller burgern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar zů so gebütt Ich Im schnell von miner gesicht hin weg zegeen vnd sich von mir zeschaiden . . Vnd darumb lieben herren vnd vätter So ist es kain sitte oder gewonhait gůten fromen vättern lieb zehaben, bös lasterlich süne Sunder ist mer Ir gewonhait die vszetryben zeschüchen vnd sich dero ze entüssern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd dar umb so ist man ouch sölichen sünen kain ampt oder guthait zetůn schuldig von wegen vätterlicter verdienung so ferre in Inen selbs nit erschynet vätterliche tugend.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann gelycher wyse als kain schyne yemer in ansechung ains finstern spigels wider gelestet Also mag ouch in bösen schädlichen vnd laster lichen kinden die tugend Irer vättern vnd altfordern niemer erlüchtet vnd gesechen werden Vnd darumb corneli so schetzest du vmb suste, die eer der altfordern sin in erbschaft den nachkomen vnd den adel als ainen spiegel denselben nächkomen verlässen werden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne tugend vnd adel stoyscher tugenden werden gesůcht vnd erfolgt mit aigner arbait vnd mugend nit by lastern steen noch by Inen wonung haben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darumb corneli in allem disem dinem rüme der geburt oder des geschlechtes, predigest vnd berürest du allain fremdes lobe vnd nutzit des dinen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">vnd ist das die kind vnd nächkomen nement vnd enpfächent von Iren edeln vnd altfordern blůt gelider vnd geäder; so tůnt sy vmb sust jnen wöllen zu aignen der selben adel.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">welches adels aigner sitze allain ist das gemüte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dessel ben gemütes Aber kain taile den kinden vnd nächkomen magwerden gelässen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber die vorigen dinge sint des lybes vnd werden mit dem leben erleschet vnd hingeen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">füro ist das die gelerten sölich süne edel nennent (Als du corneli gesagt häst) so nennent sy die selben wol vnd recht; so ferre sy from sint 5 vnd tugend würkent Dann also tunt sy Irem geschlecht näch; gelyche werck vnd tugend üben; Das aber du corneli mit schwygen fürgangen häst.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sint sy aber grob vnd vnwissend ful vnd zaghaft So sagent auch die selben gelerten, sölich süne vnd nächkomen sin vnedel.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">recht als ob sy denne von der eere vnd von dem adel jrs geschlechtes fremd sygen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vsz disem allem man klerlich versteet; von aller edelsten vättern ouch vnadelich geburten fliessen vnd komen mugen Das aber das vnkünend grob püfel vnnd folcke sich nützit in diser sache rechtes versteen mug; Main Ich hier by sin zebedencken; is das es offt in jrrung fallen tůt vnd kainist oder gar selten sin mainung gelych hillet vnd steet mit mainung.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">der wysen Nu tügen wir komen vf die edeln armůt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag wer ist ye ermer gewesen danne agrippa ain fürpüntlicher mane vnd In diser statt gemaines nutzes ain aller lobwirdigoster; der so arm vnd dennocht redlich was; Das man jm von der statt renten vnnd gülten satzt; ain narung dero er sich möcht be tragen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd hinder dem als er gestarb noch dann nützit erbes noch gůtes funden wart daz man in der statt röm schryne vnd gemainen seckel tragen möcht?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag ist nit Valerius Pu blicola ain aller annemister man gewesen dem gemainen nutze diser statt?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der ouch consul vnd oberster amptman hie ge wesen ist.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Des lyhe do er todes abgangen was, man von der statt gemainem gute bestatten müst, Vmb daz er nit so vil erbs hinder Im verlies, daz sy dar von bestettiget werden möcht.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag tett nit das römsch folcke quintum lucium anturacum der vf dem göw sin leben fůrt vnd äcker sayt vnd buwet; berufen vnd erwellen zů oberstem houptman kriegens?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der so grosser tugend was; do die Prenestinen Ir heere vnd geleger an der statt röm ringkmuren gemacht hatten; daz er 35 nit allain die statt erlost von sölichem beligen; sunder ouch die vind mit grossen schanden flüchtig machet vnd die by dem fliessenden wasser abioram alle darnider legt Vnd dar näch acht stett die der selben prenestinen helffer vnd puntgenossen wären vnd die Statt preneste selbs also bekrieget daz sy sich den römern in aigenschaft tett ergeben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Das alles von jm nit lenger dann in zwaintzig tagen wart volbrächt vnd volendet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie grosz ist darnäch Sitily serani erliche vnd lobliche armůt?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">den ouch als er vf den göwe sin äcker sayt, der senät vnd räte zů rome tett berufen vnd erfordern sich des ober sten amptes des consuläts zebeladen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der selb sinen pflůge verlies vnd so starck vnd so kecklich der vynden gezüge vnd macht tilgket vnd niderlegt, daz er hie durch grosz hail lob vnd troste dem gemainen nutze erfolget.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnnd mochten doch nit weder die wirdigkait vnd eere sins ampts noch kürtzwile vnd wollust der statt noch der rychtum des gůtes In dem krieg gewunnen oder füro zegewinnen Inn beheben; das er dester minder wider umbkarte vnd gienge zu sinem äckerlin vnd zu sinem liebgehapten buw vnd wercke Söllen wir dise lobwirdigen manne jn dero adelichen hochen gemüten so ain grosser glantz der tugend ist erschinnen; dar vmb sagen vnedel sin vmb das sy in armůt gelept haben? oder ist yemant so grosser vernunft der die nit wölte nennen vnd sagen die aller edelsten sin, durch dero verdienung vnd loblich getett der adel gemaines nutzes ist beschirmpt vnd behalten worden?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">arvmb offen ist, das adel mit armůt vnd armůt mit adel syn vnd belyben mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">vnd sol ouch niemant mainen das ainem erbern loblichen armen man gantz kain miltikait sin mug; so doch dise lobliche armen manne yetzgemelt jr haimant vnd väterlich lande habent beschirmet ouch die mit nüwen küngrychen gemeret vnd sy darzů ouch jn jren regementen gemaines nutzes zů hilff komen sint, den notdurften jrer fründen vnd die burger vor vnrecht haben behütet vnd sölich vnrecht vertriben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag ward nit disz gesechen ain höchster taile der miltikait?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne wer von sinem aigen selbsgewunnen gůte vnd gewalte, miltikait über den schetz Ich nit sin zeschelten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber jn klainem vnd jn wenig mag er dennocht milt sin wyle von notdurft sin můs, das er so vil vnmuglicher syg yemant gůts zetun als vil jm minder ist vätterliches erbes vnd gůtes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">aber wer sich ingemainen vnd sundern sachen flysset vnd sich arbait mit räte mit günstigem willen vnd mit fürdrung dem menschen gebürlichen bystande zetünd zů erfolgung jrer gerechtikait; der mag teglichs so vil milter sin vnd werden Als vil er mer gewaltes vnd geloubens hät an regierung gemaines nutzes vnd ouch als vil er jm selbs mit sinen emssigen gůtgetâten mer hilffe guter frflnden hät gemachet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb corneli So mag grosse miltigkait sin ainem loblichen armen man vnd mag ouch armůt jm sinen adel nit nemen; dwyle messige armůt kainen staffel noch gräde der tugend hin füren mag Sunder ist das ain aller hüpschiste gaube dem menschen, recht ainem wie dem andern von der nature gegeben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">daz ain yetklicher mensche wol mag tugend erfolgen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dwyle sölicher tugend stůl vnd sitze (als ich vor gesagt han, in Innwendigem gemüte gesetzet ist vnd nit in dem frefel des gelückes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd ist ouch kain zufale so hert noch so scharpf der den menschen siner tugend mug berauben Noch kain zů fale so frölich noch so lustsam vnd gefellig der ainem groben vnkünnenden tregen lychtfertigen menschen lob vnd eere zůbringen mug.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne wo das gelücke gewalt hett vber die tugend die zegeben vnd zenemen; So were die tugend nit mer tugend Vnd wer ouch kain lone me noch verdienung der tugend.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Angesechen daz die erwellung yetkliche ding wol vnd recht zehandeln, nit mer were in vnserm aigen gewalte sunder in fremdem gewalte des gelüches.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb so höre yetz vf Corneli zemainen daz der tugend miltigkait oder aincher adel sinen vrsprung hab in grossem rychtum.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne sust wenne ain edehnan sines rychtums abkem oder des wurd entsetzet, So horte ouch vf mit Im der adel.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Das aber nit ist.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne wärer adelndes men schen ist kainem fale des gelückes vnderwürffig Vnd wo das sölt sin das du gesagt häst So weren dise hochgeachten manne, dero jch obgedacht hab in sölicher Irer armůt nie edel ge wesen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dero namen doch von dem Römschen folcke yemer Ewenklich als fyrbar; loblich werden geeret.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd darumb lieben herrén vnd vätter, Ist daz vnderwylen menschen hoches adels lasterliche sün vnd kind geberent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd ist daz von schnöden nidern vnd vnachtbaren vättern vnd mütern ettwenne süne vnd kind geboren werden grosser eeren wert.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnnd ist daz in denen so in armůt lebent, vnder wylen grosser glantze der tugend erschynet? So ist kuntbar kainen adel sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">weder an rychtum noch an geburte des geschlechtes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber des men schen gemüte das fryg ist vnd kainem süntlichen laster oder schantbarlicher vppikait dienet, Sunder in gůten künsten ge übt ist, Für war das sol edel vnd lobsam gehalten werden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd so wir also hie von dem ade] handelnt vnd reden tůnt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So steet aller kriege zwüschen vns von der tugend zereden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In welchem kriege (lieben herren vnd vätter) Ich lieber wölt ainen andern für mich reden, vmb daz Ich nit (So Ich von min selbs lob sagte) Gesechen wurd Ingefallen sin das laster aigens růmes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber doch ist mir das zů grossen fröiden daz Ich vor mir sich vnnd schöw üwer vfrechten runden gemüte vnd eenftmütigen menschhait vnd daz Ir alle vnser beder leben bekennent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Deshalb Ich üch nit ützit falsches sa gen mag; noch ützit wares mir schaden geberen tüt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Lieben herren vnd vätter Als bald Ich vsz miner kindlichkait anhub zewachsen hab Ich sölich min kintlich Jugend ankeret vnd die gantz gegeben lernung der süssen lieplichen geschriffte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar näch als Ich etwas gewachsner worden bin; hab jch ainen micheln taile miner Jünligkait geübt vnd verschlissen In der kunst der philosophye.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welche kunst so lieplich Ist daz Ich nit waysz ob in allem leben der menschen ützit loblichers funden werden mug.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In der selben lere Ich nit allain latinisch maister vnd vnderwyser hatt; Sunder gelust mich zů Athenis die kriechischen fürsten aller gůten künsten zehören.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnder dero zucht vnd maisterschaft, Wie vil vnd grosz jch lernte, wil Ich ander lässen schetzen vnd vrtailen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Allain mag jch das von mir selbs äne hoffart oder vberhebung sagen, daz mir nie aincher müssiger tage oder vngearbait nachte hin ge schlichen sint.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mir was von nature Ingegossen ettliche gütikait der kunst; Also daz jch in miner vernunft nützit wirdigers noch höchers achtet, Dann rechte wäre ertkantnüsz yetkliches dinges mir Sussent zů allenthalben her, der folle gůter maistern vnd lerern vnd erberer loblicher gesellschaften gůter schůlern vnd jungern vnder dero wyshait kain mensch lich gemüt mocht werden grob vnwissend vnd vngelert vnd was mir do zemäl so grosse übung lernens vnd rechtes lebens; daz jch yetz nützit vnerbers mag begeren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Also daz alle laster.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">nit allain laidsam sunder gantz widerwertig worden sint miner nature; Vnd mir aller süssiste gesellschaft was übung der tugend.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darnäch do Ich vermarckt daz der men schen vernunft verrümpter vnd loblicher wurden, so man sich sölicher vernunft zu gemainem nutze gebruchte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Do gab ich mich selbs gantz minem vätterlichen lande Vnd lies darnäch nit mer ab zu aincher zyte, Dann daz ich stetz gedächt des selben mines vätterlichen landes haile zewytern vnd zemeren vnd tett hierinne nit fürchten ainche arbait oder ainchen schaden oder sorgfeltikait; so ferre sy nun nutz vnd eere disem vätterlichen lande mochten geberen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Also do nechst vor etlichen Jären dit Maricen von den birraten zů allen orten bekrieget vnd angegriffen wurden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd Trogus Pompeius ain aller verrümptister mane ain houptman was der römern schif fung zestryten vf dem mere, Vnd er mir vsz sölicher schiffung lech vnnd enpfalch zechen geschnebelter vnd gespitzter schiffen darmitte wider oritem (der andern schiffung vnd parthie houpt man namlich der pirraten) Illends zefechten vnd zestryten vf dem mere.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">tett ich nit den selben Orienten mit gröszsem flysz sich werende, darniderlegen vnd den mit allem sinem folcke keckes můtes vberwinden Vnd do ich ouch in dem mitridatischen kriege ain raiser vnd gehorsamer stryter was des yetz gesaiten pompey.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">wie oft ich da zemäl ver diente den obersten dancke vnd bekrönet ze werden vmb daz ich der erst vber etlicher stetten graben vnd vber et licher stetten muren gewesen was.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd do jch ander raisiger gezügen obman gewesen bin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag; hab jch nit do zemäl der vynden spitze ordnung vnd geschicke vnd heere entrichtet vberwunden vnd getilket Also das miner Jünglichkait nie ützit gebrochen hät, das vnder der wirdigkait des consuläts, yemant ritterliche eere bringen mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd hab als ain Jüngling min leben also gefürt; daz so Ich alt wirt hoff gesechen werden nit sin ain vnnützer burger dem regimente gemaines nutzes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie grosse gezierd mir aber syg gůter fruntschafti das haben bis her gesechen vnd bekennet Ir min gůten vnd lieben fründe vnd alle mit ainandern all hie zů gegen stende; dero not durften vnd angelegen sachen ich nie abgewesen bin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne wer ist?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Der mich ye gebeten hab Es syg gewesen für gericht oder für räte Es syg gewesen in gemainen offenlichen sachen oder in sundern; dem jch nit zů der billichkait getrüwen bystand getän hab; Vnd der hierjnne miner flyssigen arbait nit schynbarlich hab enpfunden?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">diser dingen halb Ich mir der selben aller früntschaft vnd günstigen willen Main ge machet han.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">niemant ist in diser statt Ja in dem gantzen vmbkraisz der welt, den jch ye verstanden hab mich gehasset han.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Es syge dann villicht gewesen ain vynde des römschen folckes.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd zů letscht so ist das die summ summarum mi ner wercken übungen vnd getäten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ich bin in gemainem nutze allwegen gewesen der allersorgsamister vsserthalb aber gesin gebürliches handels.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">in minem huse frölich vnd schimpfig.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In lernung der geschrift flyssig. Gegen minen vatter vnnd muter gütig, Minen gesipten öchemen lieb, vnd sust minen fründen allen trüw vnd besunder zů götlichen diensten der gůtwilligest.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd hab also allwegen gemaint mich mit disen künsten rechten adel enpfächen mugen vnd geschetzet mich mit disen tugenden gemachet haben min gemüt lobsam gerecht vnd volkomen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd Ja corneli lobsamer gerechter vnd edler danne du das din.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dann wie dine sitten syen vnd die übung vnd gestalt dines lebens ist wol kuntbar.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tann was häst du in dinem leben ye verdienet da durch du dir vor mir zů messen vnd aignen wöltest oder möchtest rechten adel?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sag welich lobsam gůt getätt gemaines nutzes hät vnser statt von dir ye erkennet?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wyle du bis her hierInne also gelebet häst, daz die selb vnser statt in Iren nutze dich noch nie hät verstanden oder enpfunden geboren sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wer ist aller men schen der sich ye gebrucht hab dines rätes oder bystands?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In wem häst du dise miltikait die du so hoch erhebest ye geübet?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Es syge dann in büberye torechten vppigen fröwen oder ouch die du in schantlichen vnküschen dingen häst güdenklichen vsgegeben; Welcher dingen din huse allwegen vol ist Vnd mainst denne allermaist edel vnd lobsam werden So du als ain höptman fürest ain schare vppiger dirnen vnd du dich schöwest vnd sichst in dinen lyplichen wollusten mit Inen allenthalben sin vmb zünet, Vnd du also dich mit vnerberm helsen vnd mit schantlicher vnküschhait vnd mit wüster truncknerye tust arbaiten vnd üben Vnnd so du dann also ains sölichen lebens bist; So geest du diner altfordein loblich getäten sagen vnd predigen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ich gestee der wärhait in diser vnser statt der selben diner fordern adel vast lobsam vnd in grossen wirden vnd das vast billich gewesen sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber so du der selben hie gedenckest, so tust du darmit vnwyslich din laster vnd vnwissenhait offnen vnd entecken.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne nützit hessigers vnd sträfbarers sin mag, Danne in so grossem liecht vnd schyne der tugend; so ain blindes vnd finsters leben zefüren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne dise din alt fordern haben dir hinder jnen verlässen ain exempel grosser vnd lobwirdiger dingen vnd dir gezaiget ainen wege als vor dinen ougen aller sichbar ist, Von wegen gemaines nutzes guts zeuerdienen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar durch dir lycht gewesen wer in so grossem schyne diner fordern Iren fůsstapfen näch zefolgen vnd lob vnd adel zevberkomen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber du häst dich vmbgekeret vnd bist als vsz aim claren liecht in ain mittel der finsternüsz gegangen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darnäch so mainst du in verdienung diner altfordern (daz die selben von gemaines nutzes wegen getän hant) lob sam wöllen schynen; so du doch mit dinen lasterlichen wercken löblichen gemainen nutze enterest vnd mainst durch Ire gůt getäten adel zeerfolgen; so du doch nützit bist dann ain fuler treger vnwissender mensche.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Du mainst mit schläffe musz růwe, mit essen trincken lyplichen wollusten vnd mit vnküschhait lob suchen vnd erjagen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welich lob vnd eere dise din fordern erJaget hant, Mit grosser arbait mit so vil wachens mit küschhait mit hunger turst hitz frost sorgen angsten vnd nöten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">du Irrest aber hier an gröszlich.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dann ist daz du begerest mit hochen titeln sunderliches lobes vnd adels genennet ze werden; so ist notdürftig daz du selbs dich machest sin söliches loblichen vnd hohen adels Angesechen daz tugend vergebens vnd vmb sust gesůcht wirt in erblichem gůte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Such diner altfordern bücher Irer rechnungen vnd alles irs gůtes, So findest du niemer darInne ützit geschriben sin Irer tugend.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Du häst gesagt, daz diner fordern selan näch Irem tode an äner welt nützit frölichers noch gefelligers sin möcht danne daz all wirdikaiten des gemainen nutzes vf dich der Ir blůt vnd übe bist komen sölten; daz du da durch wurdest geeret etc. Aber ich main; sechen die selben yetz dich vsz dem schyne irs liechtes, daz dann sölichen jren gesichten nützit miszfelligers noch heszlichers were, dan daz disz ir loblich vätterlich lande, so lang gelitten hett dine lasterlichen wercke, dar von sy selbs (wo sy in leben ge wesen weren) dich langest hetten vertriben vnd schamest dich nit zesagen, daz du by den selben syest erzogen, so du doch so schantlich vnd bübisch gelept häst, daz du gesechen wirst in offen fröwen hüsern gelebt han vnd darjnne erzogen wor den sin.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">du sagst ouch ir bildung vnd antlit in dinem angesichte erschynen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Waist du aber nit daz du mit dinem laster lichen leben ir eere vnder druckest vnd vberwindest Also daz in dinen finsternüssen ir Hecht vnd glantze nit mer schynen mag.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar näch so wilt du mit dinen wyten vnd schönen hüserni hüpschen stetten vnd rychen vnd nutzlichen büwen des feldes disen dinen adel grosz machen vnd zieren vnd min schlecht huse Minen mittelmessigen husräte vnnd mine klainen äcker vnd min erbern armut schelten vnd lestern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber du Jämriger. Waist du nit?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">wie grosz dise ding dir sint zu schande vnd wie grosz mine ding mir zů lobe.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann hüpscher vnd loblicher ist mir klainem vnd wenigem gůte zegrunen vnd zů zenemen in tugenden; Danne dir in grossem apparäte vnd rychtum wüst zewerden vnd in lastern zetorren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie wol jch an ämptern vnd in kriegen mit minem raisen grösser gůte hett mugen vberkomen; Des jch aber nie hab gewölt oder näch erberkait gemaint mir das mugen nütz sin Sunder wyle jch nützit anders danne erbers beger; so bin jch an diser miner süssen habe miner schlechten narung benügig Vnd ist gnůg daz jch als vil beger als vil erberlich syg danne was wyters vnd vber sölichs gesucht wirt, jst vberflüssig vnd kumpt zu hoffart.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann was ist ferrers zebegeren in dem leben danne das wir messenklich leben mugen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welich aber rychtum mit arbait gesamelt werden zů gezierde; das sint vnnütz vber flüssig arbait Sunder syge tugend ains edeln gemütes für sölich gezierde vnd nit costlicher husräte Vnd ain fromer lobs wirdiger mane tüg schynen in sinem huse vnder aller schnödisten dingen Vnd förchte niemant von aramt wegen tugend zeuerlieren.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne nützit ist wenig oder ze klain ainem menschen des wille steet recht zetun.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd wer nit lobsam syg, der schuldige sich selbs dann vnbillich beclagt er sich des von dem gelücke Vnd darumb corneli so höre yetz vf vnd stelle ab, dich zefröwen vnd zevberheben in disen dinen rychtumen, die din lasterliche vnkünnenhait nun mechtiger vnnd grösser machent.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">höre vf mine schlechten nutz vnd bruhe zevernichten vnd zeuerschmechen; die min tugend clärer vnd verrümpter machen tunt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Höre vf den adel zesetzen in dem gůte des gelückes danne daz selb gute hinfellig vnd fremd ist Sunder ist der adel mit der tugend vnd die tugend mit dem adel zesetzen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Disen wären vnd rechten adel der tugend häst du aller edelste Lucrecia vnsers alters, bekennet vnd den er folget vnd vberkomen mit wunderbarer grosser vnd hoher vernunfte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dir haben nit gefallen Jungfröwlich vfpflantzung nit wyplich gezierd; nit werckliche klainet nit schinbare klaider nit costlich geliger noch süsser gesange.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann dise ding alle raitzungen sint der vnküschhait, Sunder bist du gegeben ge wesen der philosophie vnd der lernung fryer vnd gůter künsten Vnd häst in küschhait in arbait in schame in wachen vnd in geflissenhait gefürt vnd geübet din leben mit aller vernunft loblicher vnd wirdiger Danne von sölicher Jugend ye gehöret worden syg.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Allain durch disen dinen adel häst du mir ge fallen vnd merck mich dir söliches adels halb ouch gefallen han.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dwyle in menschlichen dingen nützit bas vnd sich lieplicher zů samen füget dann gelyche begird edler gemüten vnd vnd gelycher wille rechts lebens.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd hin widerumb nützit widerwertigers vnd hesslichers danne so vnder zwayen men schen, das ain begert vfzestygen zů clärhait der tugend, Vnd das ander schlipft vnnd fallet zů schantlichen wollusten des lybes vnd lasterlichen dingen vnd also Dwyle Ich gelych bin dinen sitten Vnd aber cornelius ain vngelych leben fürt dem dinen; So ist für wär notdürftig das du mich lieb habest vnd sin torhait tügest hassen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann wie möcht dir mit jm sin frölichkait des lebens; so du anhangen wöltest der růw vnd müsse loblicher lernung gůter künsten vnd er ain vinde sölicher künsten lieber den geswatze vnd das geschraye siner husfröwen hören wölt.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vnd sich mit ir intrunckerye vnd du noch denne aber gern wöltest schöwen den der sich küsch hait vnd erberkait mit dir gebruchte, vnd er dich lieber wölt sechen mit Im gailigkait der vnküschhait üben vnd tryben.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">du wöltest zů aller zyte vnder gelerten lüten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">gern reden vnd disputieren von den vrsachen wunderbarer dingen von den löffen des gestirnes vnd von gůten sitten der tugend?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">so er vnder siner schare gůter dirnen vnd bůben als ain fürpündiger gůter redner lieber wölte predigen von allen schantlichen wollusten süssem läster vnd sünden jn der gantzen statte yenert begangen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wie wölt oder möcht vnder so vngelychen wider wertigen gemüten yemer frid vnd ainikait sin oder werden.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber allerliebste lucrecia. Ich wirt din küschhait füren in min fridlich gehüse; Welches ob es wol vberflüssiger gezierden nit vol ist; noch dann mit tugend gůten sitten fröiden vnd mit aller zucht vnd schame lücht vnd schynet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Da wirst du des ersten finden vnd sechen ain aller fölligoste lyberye gůter büchern.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dar In ich allwegen all min hoffung gelegt hab.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Da ist alle min gezierd Da ist miner mechelschaft bette. Disz ist min zierlicher vnnd costlicher husräte.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alda magst du büchertext vnd glosan bede der kriechen vnd der latinischen (Welche du selbs wilt) lesen Alda werden wir offt sament in der süssen kunst der philosophye disputieren Vnd wirt Ich dich vnderwysen etlicher wunderbarer künsten die ich in der hohen schůl zů athenis hab gehöret.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ab denen ich kurtzwyl han so oft Ich daran tun gedencken vnd wirt niemer ainche arbait anderer huslicher dingen vnd geschefften dich von disen můssen vnd lernungen nemen oder ziechen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann ain klain nutzbar göw des feldes mir gnůg gebirt vnd ertrait täglicher narung vnd bruches.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ob aber aincher des gelückes fale mir sölich göw nemen wurd So mag Er mir doch nit nemen min tugend, durch welche tugend tusent nutz vnd gemach mir offen steend zeleben vnd also gebruchest du dich in diser höchsten lernung lieplicher můssen, welcher dich ye gelustet; Also daz niemant zwüschen sölicher růwe din selig gedencken bekumbert oder Irret.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dir wirt nit sin ainch gerüsch vnd wirtschaft torechter fröwen vnd vppiger dirnen oder forcht sin ainches eebruchs.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welche forcht oft die gemüt aller küschisten fröwen hät betrübet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dir wirt ouch nit gebrechen zevberkomen aller süsseste vnd aller liebste kinder, daz noch danne din scham vnd küschhait nützit tůt verletzen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dann etliche liebe mit tugend zů samen gefüget vnd veraint Ist ain götlich gaistlich ordnung.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In ansechung daz da durch mensch lich geschlecht nit abgeen Sunder vf erden werd behalten.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">So möcht ouch zu letscht dinen begirden kain seliger gelücke zů gestanden sin, Danne was ist seliger in mengklichen dingen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">wan in aller rüwigosten fröiden tugenden züchten vnd sitten das leben zeschlyssen?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Was süssers danne mugen mit guten vnd hüpschen gedencken die vernunft fůren zů übung gůter vszwendiger dingen Vnd was frölichers?<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Danne mit dem menschen sin leben han der sich gelycher künsten vnd be girden mit dir fröwet vnd darjnne kurtzwyl haben tůt Aber ir herren vnd vätter in dero aller wysesten gemüte sitzet vnd hanget dise vrtail so ains grossen treffenlichen dinges; erwachhent yetz ze letscht vnd bedenckent die summe dises kriegens.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Wir kriegent von dem adel vnd sint vch biszher vnsers yetweders leben gelück kunst vnd sitten wol gnůg erkant vnd üch die ouch yetz kurtz erzellet.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber zů letscht ist ain ainiger vsgange diser zwytrechtigkait, daz ist; das hütt krie gent wider ain andern Erberkait mit vppikait groszmütikait mit lychtmütikait küschhait mit vnküschhait kunst mit vnwissenhait vnd tugend mit laster.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Welcher nu lieben herren vnd vätter vnder vns der edler syg das steet in üwer vrtaile zeerkennen etc. <note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>               
