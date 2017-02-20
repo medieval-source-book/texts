@@ -1,0 +1,324 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities; ]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">BASE TEXT HERE</witness>
+					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">ORIGINAL TITLE</lem>
+						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+					</app>
+				</title>
+			</head>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Leggesi iscritto da Elinando, che nel contado di Niversa fu uno povero uomo, il quale era buono e temente Iddio, ch'era carbonaio, e di quella arte si vivea.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">E avendo egli accesa la fossa de' carboni una volta, e sendo la notte in una sua capannetta a guardia della incesa fossa, sentì in su l'ora della mezzanotte grandi strida.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Usci fuori per vedere che fosse, e vide venire in verso la fossa, correndo e stridendo, una femmina iscapigliata e ignuda; e dietro le venta umo cavaliere in su uno cavallo nero correndo, con uno coltello ignudo in mano; e della bocca e degli occhi e del naso del cavaliere e del cavallo uscia fiamma di fuoco ardente. <note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Giugnendo la femmina alla fossa, ch'ardea, non passò più oltre, e nella fossa non ardiva di gittarsi; ma correndo intorno alla fossa, fu so praggiunta dalcavaliere, che dietro le correa; la quale traendo guai, presa per li svolazzanti o capelli, crudelmente la feri per lo mezzo del petto col coltello che tenea in mano.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">E cadendo in terra, con molto ispargimento di sangue, si la riprese per li insanguinati capelli, e gittòlla nella fossa de'carboni ardenti; dove lasciandola stare per alcuno spazio di tempo, tutta focosa e arsa la ritolse; e ponéndolasi davanti in sul collo del cavallo, correndo se n'andò per la via dond'era venuto.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">La seconda e la terza notte vide il carbonaio la simile visione.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Donde, essendo egli dimestico del conte di Niversa, tra per l'arte sua de' carboni, e per la bontà la quale il conte, ch'era uomo d'anima, gradiva, venne al conte, e dissegli la visione che tre notti avea veduta.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">Venne il conte col carbonaio al luogo della fossa; e vegghiando insieme nella capannetta, nell'ora usata venne la femmina stridendo, e 'l cavaliere dietro, e feciono tutto ciò che 'l carbonaio avea veduto. Il conte, avvegna che per lo orribile fatto ch'avea veduto, fosse molto spaventato, prese ardire.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">E partendosi il cavaliere ispietato colla donna arsa attraversata in su 'l nero cavallo, gridò iscongiurandolo che dovesse ristare, e sporre la mostrata visione.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Volse il cavaliere il cavallo, e fortemente piangendo, si rispose e disse: Da poi, conte, che tu vuoi sapere i mostrio martiri, i quali Iddio t'ha voluto mostrare, sappi ch'io fu'Giuffredi tuo cavaliere, e in tua corte nodrito.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s> 
+					<s>
+						<app>
+							<lem wit="#Transcription">Questa femmina, contro a cui io sono tanto crudele e fiero, è dama Beatrice, moglie che fu del tuo caro cavaliere Berlin ghieri.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s> 
+					<s>
+						<app>
+							<lem wit="#Transcription">Noi prendendo piacere di disonesto amore l'uno dell'altro, ci conducemmo a consentimento di peccato; il quale a tanto condusse lei, che per potere fare più liberamente il male, uccise il suo marito.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">E perseverammo nel peccato in fino alla 'nfermità della morte; ma nella infermità della morte, in prima ella e poi io tornammo a penitenzia; e confessando il nostro peccato, ricevemmo misericordia da Dio, il quale mutò la pena eterna dello 'nferno in pena temporale di purgatoro.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">Onde sappi che noi non siamo dannati, ma facciamo in cotale guisa, com'hai veduto, per nostro purgatoro; e averanno fine, quando che sia, nostre gravi pene.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s> 
+					<s>
+						<app>
+							<lem wit="#Transcription">E domandando il conte che gli desse ad intendere le loro pene più specificatamente, rispose con lagrime e sospiri: imperò che questa donna per amore di me uccise il suo marito, l'è data questa penitenzia, che ogni notte, tanto quanto ha istanziato la divina giustizia, patisce per le mie mani duolo di penosa morte di coltello.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s> 
+					<s>
+						<app>
+							<lem wit="#Transcription">E imperò ch'ella ebbe in vero di me ardente amore di carnale concupiscenzia, per le mie mani ogni notte è gittata ad ardere nel fuoco, come nella visione vi fu mostrato.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s> 
+					<s>
+						<app>
+							<lem wit="#Transcription">E come già ci vedemmo con grande disio e con piacere di gran diletto, cosi ora ci veggiamo con grande odio e ci perseguitiamo con grande isdegno.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>   
+					<s>
+						<app>
+							<lem wit="#Transcription">E come l'uno fu cagione all'altro d'accendimento di disordinato amore, così l'uno è cagione all'altro di crudele tormento: chè ogni pena ch'io fo patire a lei, sostegno io; chè 'l coltello di che io la ferisco, tutto è fuoco che non si spegne; e gittandola nel fuoco, e traéndonela e portandola, tutto ardo io di quello medesimo fuoco ch'arde ella.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>  
+					<s>
+						<app>
+							<lem wit="#Transcription">E 'l cavallo si è uno demonio, al quale siamo dati, che ci ha a tormentare.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Molte altre sono le nostre pene.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>   
+					<s>
+						<app>
+							<lem wit="#Transcription">Pregate Iddio per noi; e fate limosine e dire messe, acciò che si alleggierino o i nostri martiri.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>   
+					<s>
+						<app>
+							<lem wit="#Transcription">E, questo detto, spari, come saetta folgore.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Non c'incresca adunque, dilettissimi miei, sofferire alquanto di pena qui, acciò che possiamo iscampare da quelle orribili pene e dolorosi tormenti dell'altra vita, alla quale, o vogliamo noi o no, pure ci conviene andare.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+						</app>
+					</s>   
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI> 

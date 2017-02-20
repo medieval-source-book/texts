@@ -5,7 +5,7 @@
 [
 <!ENTITY % Menota_entities SYSTEM
 '../menota/menota-entities.txt'   >
-%Menota_entities;]
+%Menota_entities; ]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -63,8 +63,9 @@
 			</head>
 			 <div n="1">
 				<p n="1">
+					<s>
 					<app>
-						<lem wit="#Transcription">TEXT GOES HERE<note
+						<lem wit="#Transcription">TRANSCRIPTION GOES HERE<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 							<note type="critical" anchored="true">
 								<p>CRITICAL NOTE GOES HERE</p>
@@ -72,8 +73,11 @@
 						</lem>
 						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
 					</app>
-				</p>
+				</s>
+			</p>
 			</div>
-		</body>
-	</text>
-</TEI>
+			</body>
+			</text>
+			</TEI>      
+      
+

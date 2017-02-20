@@ -1,0 +1,201 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">BASE TEXT HERE</witness>
+					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">ORIGINAL TITLE</lem>
+						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<app>
+						<lem wit="#Transcription">In illo tempore missus est angelus Gabriei a deo. ave gratia plena, dominus tecum. dise wort beschribit sente Lucas: 'in der zit wart gesant ein engil Gabriel von Gode'. in wilchir zit? in den seis manden du Johannes Baptista was in siner müder libe. der mich fragite: warumme beiden wir, warumme vasten wir, warumme tun wir alle unse were, warumme sin wir getouft, warumme ist Got mensche worden, daz diz hoiste was? ich spreche, darumme daz Got geborin werde in der sele und di sele in Got geborin werde. dar umme ist alle di schrift ge schriben, darumme hait Got di werlint geschaffin und alie englische nature daz Got geborin werde in der sele und di sele in Got geborin werde. allis kornes nature meinet weize und al metal meinet golt und alle geberunge meinet menschen darumme sprach ein Neister: 'so inyindit man kein dier, iz inhabe etwaz glichis dem menschin'. in der zit in deme da diz wort zu dem erstin inphangin wirt in minir fornuft, da ist ez so lutir und so cleinlich, da ist ez ein wair wort er ez gebildit wirdit in mime gedanke. Zu dem drittin wirdit ez gesprochin uzwendic mit deme munde, und also in ist ez nicht dan ein offinbarunge des innerin wortis. also wirdit daz ewige wort gesprochin innewendic in deme herzin der sele, in derne innirsten, in deme lutirsten. in dene heubite der sele, daz ist in vormuftikeit: da geschihit di gebort inne. der nicht dan einen ganzin won und eine hoffenunge hizu hette, der mochte gerne wizzin wi dise gebort geschihit und waz hi zu hilfit.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="2">
+					<app>
+						<lem wit="#Transcription">Sente Paulus sprichit: "in der udlide der zit samte Got sinen son. sente Augustinus sprichit waz da si fullide der zit. “da numme zit inist, da ist fullide der zit' dan ist der tac fol alse des tages numme in ist, daz ist ein notwarheit. alle zit muiz da abe sin da sich dise gebort hebit, wan nicht in ist daz dise geburt also sere hindere alse zit und creature. daz ist ein gewis warheit daz zit Got noch di sele fon nature nicht beruren inmac. mochte di sele fon zit herurt werdin, si inwere nicht sele, und mochte Got von zit berurt werdin, he in were nicht Got. were abir daz di zit di sele beraren mochte, so inmochte Got nummir in ir geborin werdin. da Got geboren sal werdin in der sele, da muiz alle zit abgewallin sin oder si muiz der zit intphallin sin mit willin oder mit begerunge.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="3">
+					<app>
+						<lem wit="#Transcription">Ein andir sin fon fullide der zit, der di kunst hette und di macht daz he di zit und allis daz in der zit in seis tusint jarin ie geschach und daz noch geschehin sal biz an daz ende, her widir gezihen kunde in ein geginwertic nu, daz were fullide der zit. daz ist daz nu der ewekeit, da di sele in Gode alle dinc nuwe und frisch und geginwertic bekennit und in der lust alse di ich izunt geginwertic habe. ich lais in einem buchilin der ez gronde konde, daz Got die werlint izunt machit alse an deme ersten tage du her di werlint geschuf. hi ist Got riche und daz ist Godis riche. di sele in der Got sal geborin werden, der muiz di zit intphallin, und si muiz der zit intphallin und sal sich uf tragin und sal stein in eime inkaffine in disin richtum Godis. da ist wide one wide und breide one breide. da bekennit di sele alle dinc und bekennit si da follincumen.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="4">
+					<app>
+						<lem wit="#Transcription">Di meistere di da beschriben wi wit der himmil si: di minniste craft di in miner sele ist, di ist widir dan der wide himmil; ich geswige der fornufti keit: di ist wit one wide. in deme heubite der sele, in fornuftikeit, in der bin ich also nahe der stait ubir tusint mile geinsit meris alse der stait da ich izunt inne stein. in dirre wide und in disme richtumme Godis da bekennit di sele, alda inphellit ir nicht und da ist si nichtis wartinde.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="5">
+					<app>
+						<lem wit="#Transcription">“Der engl wart gesant." di meistere sprechin daz der engile menige ist zal pobin zal. ir menige ist so groz daz si kein zal begrifen inmac. ir zal inmac joch nicht bedocht werdin. der undirscheit konde genemen one zal und one menige, deme werin hunderit alse ein. werin hunderit personen in der gotheit, di undirscheit konde genemen one zal und one menige, der in bekente doch nicht dan ein. ez wonderin sich ungeleubege lude und etlichte ungelarte cristine lude und joch etliche phaffin wizzin da fon alse wenic alse ein stein: di nemen dri alse dri kuwe oder dri steine. abir der undirscheit kan genemen in Gode one zal und one menige, der bekenit daz dri personen sin ein Got.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="6">
+					<app>
+						<lem wit="#Transcription">Der engil ist ouch so hoch. di beisten meistere sprechin daz iclich engil habe eine ganze nature. glichir wis alse ob ein meusche were daz alliz daz hette daz alle menschin ie gehattin und nu habin und ummir me gehabin sullin sn gewalt, wisheit und an allin dingin, daz were ein wonder, und so inwere he doch nicht dan ein mensche und were dan noch verre den engilin. Also hait igelich engil eine ganze nature und ist gesunderit von deme anderin alse ein dier fon dem anderen, daz einir anderen nature ist. an dirre menige der engile ist Got riche, und der daz bekennit, der beken mit Godis riche. si bewisit Got riche, alse ein herre bewisit wirdit fon der menige sinir rittere. darumme heizzit he in uns ein herre der here. alle dise menige der engile, wi hoch si sint, di habin ein midewirken und helfin da zu da Got geborin wirdit in der sele. daz ist si habin lust und freute und wonne in der geburt, si in wirkin nicht. da in ist kein were, wan Got der wirkit di geburt alleine, mer di engile habin ein dinisthaft werc hizu. alliz daz dazu wirkit, da2 ist eim dînisthaft werc.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="7">
+					<app>
+						<lem wit="#Transcription">Der engil was genant Gabriel. he teit ouch swar, he hiz alse wenic Gabriel alse Cünrat. niman inkan wizzin des engilis namen. da der engil genant ist, da inquam ni meister noch sin i zu. vil lichte ist he nennelich. di sele inhait ouch keinen namen; alse wenic aise man Gode eigenen namen vindin mac, also wenic mac man der sele eiginen namen vindin, alleine da groze buche fon geschriben sin. abir da si ein uz lugin hait zu den werkin, da fone gibit man ir namen. ein zimmirman daz en ist sin name nicht, mer den namen nimet her fon dem werke des he ein meistir ist. den namen Gabriel den nam he von dem werke des he ein bode was, wan Gabriel sprichit craft. in dirre geburt wirkit Got creftliche oder wirkit craft. waz meinit alle di craft der nature? daz si sich selbir wirkin wil. waz meinit alle di nature di da wirkit geberin? daz si sich selbir wikim wil. di nature minez vader wolde wirkim in sinir nature einen vadir. du des nicht geschin mochte, du wolde si ein wirkin daz ime allig dingis glich were, du der craft gebrach, du worchte si ein. So si glichiste mochte, daz waz ein son. da abir der craft noch me gebrichit oder ein andir ungevelle geschit, da wirkit si noch eime unglicheren menschen. abir in Gode ist volle craft, darumme wirkit her sin glich in siner geburt. allis daz Got ist an gewalt und an worheit und an wisheit, daz gebirit he alzumale in di sele.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="8">
+					<app>
+						<lem wit="#Transcription">Sente Augustinus sprichit: 'waz die sele minnit, deme wirdit si glich. minnet si irdische dinc, so wirdit si irdisch. minnit si Got, so mochte man fragin, wirdit si dam Got?' spreche ich daz, daz ludite ungelouplich den di zu krankin sin habin und ez nicht fornemen. mer sente Augustinus sprichit: 'ich inspreche ez nicht, Iner ich wise uch an di schrift, di da sprichit: “ich habe gesprochin daz ir Gode sit"'.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="9">
+					<app>
+						<lem wit="#Transcription">Der etwaz hette des richtummes da ich fore fon gesprochin habe, einen blic oder joch eine huffenunge oder eine zuforsicht, der forneme dit wol! ez inwart nie gebort so sippe noch so glich noch so ein alse di Sele Gode wirdit in dirre geburt. ist ez daz ez an ichte gehinderit wirdit daz si nicht allis dingis glich in wirdit, daz in ist Godis schult nicht. alse verre alse ir gebrechin intphallin, alse verre wirkit he si yme glich. daz der zimmerman nicht ein schone hus gewirkin inkan uze worwechtime huize, daz in ist sin schult nicht, ez gebrichit an deme hulze. also ist ez an gotiichime wirkine in di sele. mochte sich der minniste engil irbildin oder geborin werdin in der sele, da ingegin in were alle dise werlint nicht, wan in eime enigin funkeline dez engilis grunit, loubit und luchtit alliz daz in der werlinde ist. mer dise gebort wirkit Got selbir. der engil inmac da kein werc gewirkin wan ein dinistaft werc. Ave daz ist 'one we'. wer da ist one creature, der ist one we und one helle, und di allir minnes creature ist und hait, di hait allir minnist we. ich spreche ettiswanne ein wort: di der werlint allir minnist hait, der hait ir allir meist, nimannis ist di werlint also eigin also der alle di werlint gelazin hait. wizzit ir wo fone Got got ist? da fon ist Got got daz he one creature ist. he innante sich nicht in der zit. in der zit ist creature und sunde und tot. dise habin ein sippe sin in eime sinne, und wan di sele da der zit intphallin ist, darumme inist da noch we noch pine, joch ungemach wirdit ir da ein freude. allis daz ie bedacht mochte werdin fon lust, fon freude und fon wonne und fon minlichkeit, hebit man sii gegin der wonne di da ist im dirre geburt, daz inist nicht freude.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="10">
+					<app>
+						<lem wit="#Transcription">'Gnaden vol', daz minuiste werc der gnadin ist hohir dan alle engile in der nature. sente Augustinus sprichit daz ein gnadinwerc daz Got wirkit, alse daz her einen sundere bekerit und zu eime gudin menschin machit, daz ist grozir dan daz Got eine nuwe werlint geschuffe. also licht ist Gode himmil und erde umme zu kerine alse mir ist ein aphil umane zu kerne in minir hant. da gnade inne ist in der sele, daz ist so lutir und ist Gode so glich und so sippe, und gnade ist one werc, alse in der geburt, da ich fore von gesprochin habe, kein werc inist. gnade inwirkit kein werc. sente Johannes ingeteit nikein zeichin. daz werc das der engil in Gode hait, daz ist so hoch daz mi kein meistir noch sin darzn mochte cumen daz si daz werc begrifin mochten. abir von dem werke vellit ein spon, alse da ein spon abe vellit von eime huis, den man abehauwit. eyn blichin daz ist da da der engil mit sime nidersten den himmil berurit. da son grunit und bluwit und lebit alliz daz in dirre werlinde ist. <note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="11">
+					<app>
+						<lem wit="#Transcription">Ich spreche ettiswanne von zwein burnen. alleine ez wonderliche lude, wir müzin sprechin noch unsime sinne. eyn burne da di gnade uz inspringit, ist da der vader uz gebirit sinen eyn geborin son; in deme selbin inspringit di gnade, und alda geit di gnade uz deme selbin burnen. eyn andir burne ist da di creature uz Gode vlizin: der ist so verre von deme burnen da di gnade uz intspringit, alse der himmil ist von der erdin. gnade inwirkit nicht. da diz fuir ist in sinir nature, da inschaditis noch inburnit nicht. di hitze des fures di burnit. joch da di hitze ist in der nature des furis, da inburnit si nicht und ist unschedelich, joch da di hitze ist in deme fure, da ist si der rechtin nature des furis also verre alse der himmil ist von der erdin. gnade inwirkit kein werc. si ist zu zart da zu. were ist ir also verre alse der himmil ist von der erdin. eyn in sin und eyn ane haftin und ein mit Gode daz ist gnade, und da ist Got mide, wan daz volgit dar noch.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+								<p n="12">
+					<app>
+						<lem wit="#Transcription">'Got muit dir'. da geschihit di geburt. ez emdarf nimannen unmogelich dunkin hizu zu cumene. waz schadit mir daz, wi swere ez ist, sint he ez wirkit? alle sine gebot sint mir licht zu haldine. he heize mich joch alliz daz he wolle, des inachte ich nichtis nicht, daz ist mir alliz cleine, ob he mir sine gnade 5 da zu gibit. ez sprechin etliche si inhaben is nicht, so spreche ich: daz ist mir leit. begeris du ez abir? 'nein'. daz ist mir noch leidir. enmac man ez micht gehabin, so habe man doch eine begerunge darzu. David sprichit: 'ich habe begerit einir begerunge zu dinir gerechtikeit.' daz wir Godis also begeren daz her in uns geborin werdin wolle, des helf uns etc.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</p>
+
+			</div>
+		</body>
+	</text>
+</TEI>
