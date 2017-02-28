@@ -58,11 +58,8 @@
 			</div>
 		</front>
 		<body>
-
  		<pb ed="#Transcription" facs="#G1"/>
          <fw facs="#G1" type="header" place="margin-topright">1</fw>
-
-
 			<head>
 				<title>
 					<app>
@@ -103,6 +100,10 @@
 					<rdg wit="#Translation">as a monastery should be.</rdg>
 				</app>
 			</l>
+
+			<pb ed="#Transcription" facs="#G2"/>
+            <fw facs="#Transcription" type="header" place="margin-topright"></fw>
+
 			<l n="5">
 				<app>
 					<lem wit="#Transcription">ir gasthus und ir spital</lem>
