@@ -11,11 +11,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>“Lo Specchio della Vera Penitenza” III, 2 - Il Carbonaio di Niversa (1354)</title>
+				<author>JACOPO PASSAVANTI</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Critical edition in Italian: - Passavanti, Jacopo. Lo Specchio della Vera Penitenza. Ed. Ginetta Auzzas, Florence: Accademia della Crusca, 2014.</resp>
+					<name>Jacopo Passavanti</name>
 				</respStmt>
 				<respStmt>
 					<resp></resp>
@@ -23,7 +23,7 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher></publisher>
+				<publisher>Le Monnier</publisher>
 				<availability>
 					<p></p>
 				</availability>
@@ -38,7 +38,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
-				<p></p>
+				<p>Separated by sentence according to original text. Translation may not always match syntatical structure.</p>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -56,8 +56,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Il Carbonaio di Niversa</lem>
+						<rdg wit="#Translation">The charcoal-burner of Nevers</rdg>
 					</app>
 				</title>
 			</head>
@@ -68,10 +68,11 @@
 							<lem wit="#Transcription">Leggesi iscritto da Elinando, che nel contado di Niversa fu uno povero uomo, il quale era buono e temente Iddio, ch'era carbonaio, e di quella arte si vivea.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
+									<p>Hélinand of Froidmont, medieval poet and chronicler who lived between the end of the twelfth century and the beginning of the thirteenth. Passavanti refers to a story narrated in Helinand's moral treatise in Latin De Cognitione Sui (XIII). Hélinand's story was well known: it was retold, among others, by Vincent of Beauvais (Speculum Historiale, XXX, 120), John Bromyard (Summa Predicantium, A, XVII, 12), and in the Alphabetum Narrationum (DCXIII).</p>
 								</note>
+								<note type = "critical" anchored = "true"> Historic county of Burgundy, in central France, dating from the begininning of the 10th century. </note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">It can be read in Elinando's writings, that in the County of Nevers there was a poor man, kind and god-fearing, who was a charcoal-burner, and lived from that craft.</rdg>
 						</app>
 					</s>
 					<s>
@@ -82,7 +83,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">And once, when he had lit the charcoal pit and was spending the night in a small hut guarding the burning pit, around midnight he heard some loud wailing.</rdg>
 						</app>
 					</s>
 					<s>
@@ -93,7 +94,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">He went out to see what it was and he saw, coming towards the pit, running and wailing, a woman disheveled and naked; and behind her, with a naked dagger in his hand, came a knight riding a black horse; and from the mouth, eyes, and nose of the knight and the horse came a flame of blazing fire.</rdg>
 						</app>
 					</s>
 					<s>
@@ -104,7 +105,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">Once the woman reached the burning pit, she couldn't cross it, and she didn't have the courage to throw herself into the pit; but, running around the pit, she was overtaken by the knight, who was chasing her; he grabbed her by her windswept hair, and while she was wailing, he fiercely wounded her in the center of her chest with the dagger he was holding in his hand.</rdg>
 						</app>
 					</s>  
 					<s>
@@ -115,7 +116,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">As she fell to the ground, splattering blood everywhere, he grabbed her again by her now bloodied hair and he threw her into the pit of burning charcoal. He left her there for a little while, taking her out once she was smoldering and burnt. Finally, he placed her in front of himself across his horse's back and he galloped away in the direction from which he had come.</rdg>
 						</app>
 					</s>  
 					<s>
@@ -126,7 +127,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">On the second and third night the charcoal-burner saw the same vision.</rdg>
 						</app>
 					</s>
 					<s>
@@ -137,29 +138,40 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">And, since he was acquainted with the Count of Nevers, both because of his charcoal-craft and because of his kindness, which the count - a religious man - appreciated, he went to the count and told him about the vision that he had seen for three nights.</rdg>
 						</app>
 					</s>  
 					<s>
 						<app>
-							<lem wit="#Transcription">Venne il conte col carbonaio al luogo della fossa; e vegghiando insieme nella capannetta, nell'ora usata venne la femmina stridendo, e 'l cavaliere dietro, e feciono tutto ciò che 'l carbonaio avea veduto. Il conte, avvegna che per lo orribile fatto ch'avea veduto, fosse molto spaventato, prese ardire.<note
+							<lem wit="#Transcription">Venne il conte col carbonaio al luogo della fossa; e vegghiando insieme nella capannetta, nell'ora usata venne la femmina stridendo, e'l cavaliere dietro, e feciono tutto ciò che 'l carbonaio avea veduto.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">The count went with the charcoal-burner to the place where the pit was. While they were keeping watch together in the hut, at the usual hour, the woman came wailing, with the knight following her, and they did everything that the charcoal-burner had seen them do. </rdg>
 						</app>
-					</s>  
+					</s> 
 					<s>
 						<app>
-							<lem wit="#Transcription">E partendosi il cavaliere ispietato colla donna arsa attraversata in su 'l nero cavallo, gridò iscongiurandolo che dovesse ristare, e sporre la mostrata visione.<note
+							<lem wit="#Transcription">Il conte, avvegna che per lo orribile fatto ch'avea veduto, fosse molto spaventato, prese ardire. <note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">The count took courage, even though he was terrified by the horrible event that he had seen.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">E partendosi il cavaliere ispietato colla donna arsa attraversata in su'l nero cavallo, gridò iscongiurandolo che dovesse ristare, e sporre la mostrata visione.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								<note type="critical" anchored="true">
+									<p>CRITICAL NOTE GOES HERE</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">As the merciless knight was leaving with the burnt woman lying on the black horse, the count shouted, begging him to stay and to explain the vision that had been shown.</rdg>
 						</app>
 					</s>
 					<s>
@@ -167,10 +179,10 @@
 							<lem wit="#Transcription">Volse il cavaliere il cavallo, e fortemente piangendo, si rispose e disse: Da poi, conte, che tu vuoi sapere i mostrio martiri, i quali Iddio t'ha voluto mostrare, sappi ch'io fu'Giuffredi tuo cavaliere, e in tua corte nodrito.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
+									<p>“Martirii” in the Italian: it has both the meaning of “tortures” and “martyrdoms”.</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">The knight turned the horse around and, crying loudly he answered, saying: “Count, since you want to know about our tortures, which God wanted to show you, know that I was Giuffredi, your knight, raised at your court.</rdg>
 						</app>
 					</s> 
 					<s>
@@ -181,7 +193,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">This woman, to whom I am so cruel and ferocious, is Lady Beatrice, who was wife to your dear knight Berlinghieri.</rdg>
 						</app>
 					</s> 
 					<s>
@@ -189,10 +201,10 @@
 							<lem wit="#Transcription">Noi prendendo piacere di disonesto amore l'uno dell'altro, ci conducemmo a consentimento di peccato; il quale a tanto condusse lei, che per potere fare più liberamente il male, uccise il suo marito.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
+									<p>"Ci conducemmo" in the Italian: this could be interpreted as a reflexive form ("each one of us drove him\herself") or as a reciprocal reflexive ("we drove each other").</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">Taking pleasure in a deceitful love for each other, we drove each other to consent to sin. This drove her, in order to commit evil more freely, to go as far as to kill her husband.</rdg>
 						</app>
 					</s>  
 					<s>
@@ -200,10 +212,10 @@
 							<lem wit="#Transcription">E perseverammo nel peccato in fino alla 'nfermità della morte; ma nella infermità della morte, in prima ella e poi io tornammo a penitenzia; e confessando il nostro peccato, ricevemmo misericordia da Dio, il quale mutò la pena eterna dello 'nferno in pena temporale di purgatoro.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
+									<p>"Pena" in the Italian: it also translates to "pain".</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">We continued in sin until the frailty of death; but in the frailty of death, we repented, she first and then I. Since we confessed our sin, we received mercy from God, who transformed the eternal punishment of hell into the temporal punishment of purgatory.</rdg>
 						</app>
 					</s>  
 					<s>
@@ -214,7 +226,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">You should then know that we are not damned, but we act in this way, as you have seen, for our purgatory, but our severe punishments will come to an end eventuallyˮ.</rdg>
 						</app>
 					</s> 
 					<s>
@@ -225,7 +237,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">When the count asked him to explain their punishments with more specificity, he answered with tears and sighs: “Since this woman, out of love for me, killed her husband, the following punishment is given to her: every night, for as long as divine justice has established, she suffers by my hands the pain of a dolorous death by dagger.</rdg>
 						</app>
 					</s> 
 					<s>
@@ -236,7 +248,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">Because she felt toward me a burning love of carnal concupiscence, by my hands every night she is thrown into the fire to burn, as it was shown to you in the vision.</rdg>
 						</app>
 					</s> 
 					<s>
@@ -247,7 +259,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">And as before we saw each other with great desire and with the pleasure of great joy, now we see each other with great hatred and we chase each other with great disdain.</rdg>
 						</app>
 					</s>   
 					<s>
@@ -255,10 +267,10 @@
 							<lem wit="#Transcription">E come l'uno fu cagione all'altro d'accendimento di disordinato amore, così l'uno è cagione all'altro di crudele tormento: chè ogni pena ch'io fo patire a lei, sostegno io; chè 'l coltello di che io la ferisco, tutto è fuoco che non si spegne; e gittandola nel fuoco, e traéndonela e portandola, tutto ardo io di quello medesimo fuoco ch'arde ella.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
+									<p>"Disordinato" in the Italian: it literally means "lacking order," but by extension it came to mean "against the moral order."</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">Just as each caused the other to burn with dishonest love, so does each bring the other cruel torment. For, every pain that I make her endure, I bear too; and the dagger with which I wound her is all a fire that cannot be put out; and throwing her in the fire and taking her out and carrying her away, all of it I burn with that same fire that burns her.</rdg>
 						</app>
 					</s>  
 					<s>
@@ -269,7 +281,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">And the horse is a demon, to whom we are given, and who is charged with tormenting us.</rdg>
 						</app>
 					</s>
 					<s>
@@ -280,7 +292,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">We have many more punishments.</rdg>
 						</app>
 					</s>   
 					<s>
@@ -291,7 +303,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">Pray to God for us, and give alms, and have masses said, so that our tortures may be lightened.</rdg>
 						</app>
 					</s>   
 					<s>
@@ -302,7 +314,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">And, having said this, he disappeared like a flash of lightning.</rdg>
 						</app>
 					</s>
 
@@ -314,7 +326,7 @@
 									<p>CRITICAL NOTE GOES HERE</p>
 								</note>
 							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<rdg wit="#Translation">We shouldn't regret then, my dears, suffering a few punishments here, in order to avoid those horrible punishments and painful torments in the other life where, willing or not, we nevertheless must go.</rdg>
 						</app>
 					</s>   
 				</p>
