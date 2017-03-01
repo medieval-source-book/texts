@@ -11,11 +11,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>The Charcoal-Burner of Nevers</title>
+				<author>Jacopo Passavanti</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Daniele Biffanti</name>
 				</respStmt>
 				<respStmt>
 					<resp></resp>
@@ -47,8 +47,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+					<witness xml:id="Transcription">Il Carbonaio di Niversa</witness>
+					<witness xml:id="Translation">The Charcoal-Burner of Nevers</witness>
 				</listWit>
 			</div>
 		</front>
@@ -56,8 +56,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Il Carbonaio di Niversa</lem>
+						<rdg wit="#Translation">The Charcoal-Burner of Nevers</rdg>
 					</app>
 				</title>
 			</head>
@@ -66,9 +66,9 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Leggesi iscritto da Elinando, che nel contado di Niversa fu uno povero uomo, il quale era buono e temente Iddio, ch'era carbonaio, e di quella arte si vivea.<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
+								type="gloss" anchored="true"></note>
 								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
+									<p></p>
 								</note>
 							</lem>
 							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
