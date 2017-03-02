@@ -11,11 +11,19 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
+<<<<<<< HEAD
 				<title>“Lo Specchio della Vera Penitenza” III, 2 - Il Carbonaio di Niversa (1354)</title>
 				<author>JACOPO PASSAVANTI</author>
 				<respStmt>
 					<resp>Critical edition in Italian: - Passavanti, Jacopo. Lo Specchio della Vera Penitenza. Ed. Ginetta Auzzas, Florence: Accademia della Crusca, 2014.</resp>
 					<name>Jacopo Passavanti</name>
+=======
+				<title>The Charcoal-Burner of Nevers</title>
+				<author>Jacopo Passavanti</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Daniele Biffanti</name>
+>>>>>>> origin/master
 				</respStmt>
 				<respStmt>
 					<resp></resp>
@@ -47,8 +55,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+					<witness xml:id="Transcription">Il Carbonaio di Niversa</witness>
+					<witness xml:id="Translation">The Charcoal-Burner of Nevers</witness>
 				</listWit>
 			</div>
 		</front>
@@ -57,7 +65,11 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">Il Carbonaio di Niversa</lem>
+<<<<<<< HEAD
 						<rdg wit="#Translation">The charcoal-burner of Nevers</rdg>
+=======
+						<rdg wit="#Translation">The Charcoal-Burner of Nevers</rdg>
+>>>>>>> origin/master
 					</app>
 				</title>
 			</head>
@@ -65,6 +77,7 @@
 				<p n="1">
 					<s>
 						<app>
+<<<<<<< HEAD
 							<lem wit="#Transcription">Leggesi iscritto da Elinando, che nel contado di Niversa fu uno povero uomo, il quale era buono e temente Iddio, ch'era carbonaio, e di quella arte si vivea.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
@@ -73,76 +86,62 @@
 								<note type = "critical" anchored = "true"> Historic county of Burgundy, in central France, dating from the begininning of the 10th century. </note>
 							</lem>
 							<rdg wit="#Translation">It can be read in Elinando's writings, that in the County of Nevers there was a poor man, kind and god-fearing, who was a charcoal-burner, and lived from that craft.</rdg>
+=======
+							<lem wit="#Transcription">Leggesi iscritto da Elinando, che nel contado di Niversa fu uno povero uomo, il quale era buono e temente Iddio, ch'era carbonaio, e di quella arte si vivea.
+							</lem>
+							<rdg wit="#Translation">It can be read in Elinando's writings<note type="critical" anchored="true">
+									<p>Hélinand of Froidmont, medieval poet and chronicler who lived between the end of the twelfth century and the beginning of the thirteenth. Passavanti refers to a story narrated in Helinand's moral treatise in Latin De Cognitione Sui (XIII). Hélinand's story was well known: it was retold, among others, by Vincent of Beauvais (Speculum Historiale, XXX, 120), John Bromyard (Summa Predicantium, A, XVII, 12), and in the Alphabetum Narrationum (DCXIII).</p>
+								</note>, that in the County of Nevers<note type="critical" anchored="true">
+									<p>Historic county of Burgundy, in central France, dating from the begininning of the 10th century.</p>
+								</note> there was a poor man, kind and god-fearing, who was a charcoal-burner, and lived from that craft.</rdg>
+>>>>>>> origin/master
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">E avendo egli accesa la fossa de' carboni una volta, e sendo la notte in una sua capannetta a guardia della incesa fossa, sentì in su l'ora della mezzanotte grandi strida.<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
+							<lem wit="#Transcription">E avendo egli accesa la fossa de' carboni una volta, e sendo la notte in una sua capannetta a guardia della incesa fossa, sentì in su l'ora della mezzanotte grandi strida.
 							</lem>
 							<rdg wit="#Translation">And once, when he had lit the charcoal pit and was spending the night in a small hut guarding the burning pit, around midnight he heard some loud wailing.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Usci fuori per vedere che fosse, e vide venire in verso la fossa, correndo e stridendo, una femmina iscapigliata e ignuda; e dietro le venta umo cavaliere in su uno cavallo nero correndo, con uno coltello ignudo in mano; e della bocca e degli occhi e del naso del cavaliere e del cavallo uscia fiamma di fuoco ardente. <note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
+							<lem wit="#Transcription">Usci fuori per vedere che fosse, e vide venire in verso la fossa, correndo e stridendo, una femmina iscapigliata e ignuda; e dietro le venta umo cavaliere in su uno cavallo nero correndo, con uno coltello ignudo in mano; e della bocca e degli occhi e del naso del cavaliere e del cavallo uscia fiamma di fuoco ardente.
 							</lem>
 							<rdg wit="#Translation">He went out to see what it was and he saw, coming towards the pit, running and wailing, a woman disheveled and naked; and behind her, with a naked dagger in his hand, came a knight riding a black horse; and from the mouth, eyes, and nose of the knight and the horse came a flame of blazing fire.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Giugnendo la femmina alla fossa, ch'ardea, non passò più oltre, e nella fossa non ardiva di gittarsi; ma correndo intorno alla fossa, fu so praggiunta dalcavaliere, che dietro le correa; la quale traendo guai, presa per li svolazzanti o capelli, crudelmente la feri per lo mezzo del petto col coltello che tenea in mano.<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
+							<lem wit="#Transcription">Giugnendo la femmina alla fossa, ch'ardea, non passò più oltre, e nella fossa non ardiva di gittarsi; ma correndo intorno alla fossa, fu so praggiunta dalcavaliere, che dietro le correa; la quale traendo guai, presa per li svolazzanti o capelli, crudelmente la feri per lo mezzo del petto col coltello che tenea in mano.
 							</lem>
 							<rdg wit="#Translation">Once the woman reached the burning pit, she couldn't cross it, and she didn't have the courage to throw herself into the pit; but, running around the pit, she was overtaken by the knight, who was chasing her; he grabbed her by her windswept hair, and while she was wailing, he fiercely wounded her in the center of her chest with the dagger he was holding in his hand.</rdg>
 						</app>
 					</s>  
 					<s>
 						<app>
-							<lem wit="#Transcription">E cadendo in terra, con molto ispargimento di sangue, si la riprese per li insanguinati capelli, e gittòlla nella fossa de'carboni ardenti; dove lasciandola stare per alcuno spazio di tempo, tutta focosa e arsa la ritolse; e ponéndolasi davanti in sul collo del cavallo, correndo se n'andò per la via dond'era venuto.<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
+							<lem wit="#Transcription">E cadendo in terra, con molto ispargimento di sangue, si la riprese per li insanguinati capelli, e gittòlla nella fossa de'carboni ardenti; dove lasciandola stare per alcuno spazio di tempo, tutta focosa e arsa la ritolse; e ponéndolasi davanti in sul collo del cavallo, correndo se n'andò per la via dond'era venuto.
 							</lem>
 							<rdg wit="#Translation">As she fell to the ground, splattering blood everywhere, he grabbed her again by her now bloodied hair and he threw her into the pit of burning charcoal. He left her there for a little while, taking her out once she was smoldering and burnt. Finally, he placed her in front of himself across his horse's back and he galloped away in the direction from which he had come.</rdg>
 						</app>
 					</s>  
 					<s>
 						<app>
-							<lem wit="#Transcription">La seconda e la terza notte vide il carbonaio la simile visione.<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
+							<lem wit="#Transcription">La seconda e la terza notte vide il carbonaio la simile visione.
 							</lem>
 							<rdg wit="#Translation">On the second and third night the charcoal-burner saw the same vision.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Donde, essendo egli dimestico del conte di Niversa, tra per l'arte sua de' carboni, e per la bontà la quale il conte, ch'era uomo d'anima, gradiva, venne al conte, e dissegli la visione che tre notti avea veduta.<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
+							<lem wit="#Transcription">Donde, essendo egli dimestico del conte di Niversa, tra per l'arte sua de' carboni, e per la bontà la quale il conte, ch'era uomo d'anima, gradiva, venne al conte, e dissegli la visione che tre notti avea veduta.
 							</lem>
 							<rdg wit="#Translation">And, since he was acquainted with the Count of Nevers, both because of his charcoal-craft and because of his kindness, which the count - a religious man - appreciated, he went to the count and told him about the vision that he had seen for three nights.</rdg>
 						</app>
 					</s>  
 					<s>
 						<app>
+<<<<<<< HEAD
 							<lem wit="#Transcription">Venne il conte col carbonaio al luogo della fossa; e vegghiando insieme nella capannetta, nell'ora usata venne la femmina stridendo, e'l cavaliere dietro, e feciono tutto ciò che 'l carbonaio avea veduto.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
@@ -150,10 +149,16 @@
 								</note>
 							</lem>
 							<rdg wit="#Translation">The count went with the charcoal-burner to the place where the pit was. While they were keeping watch together in the hut, at the usual hour, the woman came wailing, with the knight following her, and they did everything that the charcoal-burner had seen them do. </rdg>
+=======
+							<lem wit="#Transcription">Venne il conte col carbonaio al luogo della fossa; e vegghiando insieme nella capannetta, nell'ora usata venne la femmina stridendo, e 'l cavaliere dietro, e feciono tutto ciò che 'l carbonaio avea veduto. Il conte, avvegna che per lo orribile fatto ch'avea veduto, fosse molto spaventato, prese ardire.
+							</lem>
+							<rdg wit="#Translation">The count went with the charcoal-burner to the place where the pit was. While they were keeping watch together in the hut, at the usual hour, the woman came wailing, with the knight following her, and they did everything that the charcoal-burner had seen them do.</rdg>
+>>>>>>> origin/master
 						</app>
 					</s> 
 					<s>
 						<app>
+<<<<<<< HEAD
 							<lem wit="#Transcription">Il conte, avvegna che per lo orribile fatto ch'avea veduto, fosse molto spaventato, prese ardire. <note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
@@ -161,10 +166,16 @@
 								</note>
 							</lem>
 							<rdg wit="#Translation">The count took courage, even though he was terrified by the horrible event that he had seen.</rdg>
+=======
+							<lem wit="#Transcription">E partendosi il cavaliere ispietato colla donna arsa attraversata in su 'l nero cavallo, gridò iscongiurandolo che dovesse ristare, e sporre la mostrata visione.
+							</lem>
+							<rdg wit="#Translation">The count took courage, even though he was terrified by the horrible event that he had seen. As the merciless knight was leaving with the burnt woman lying on the black horse, the count shouted, begging him to stay and to explain the vision that had been shown.</rdg>
+>>>>>>> origin/master
 						</app>
 					</s>
 					<s>
 						<app>
+<<<<<<< HEAD
 							<lem wit="#Transcription">E partendosi il cavaliere ispietato colla donna arsa attraversata in su'l nero cavallo, gridò iscongiurandolo che dovesse ristare, e sporre la mostrata visione.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
@@ -183,6 +194,12 @@
 								</note>
 							</lem>
 							<rdg wit="#Translation">The knight turned the horse around and, crying loudly he answered, saying: “Count, since you want to know about our tortures, which God wanted to show you, know that I was Giuffredi, your knight, raised at your court.</rdg>
+=======
+							<lem wit="#Transcription">Volse il cavaliere il cavallo, e fortemente piangendo, si rispose e disse: Da poi, conte, che tu vuoi sapere i mostrio martiri, i quali Iddio t'ha voluto mostrare, sappi ch'io fu'Giuffredi tuo cavaliere, e in tua corte nodrito.</lem>
+							<rdg wit="#Translation">The knight turned the horse around and, crying loudly he answered, saying: “Count, since you want to know about our tortures
+								<note type="critical" anchored="true"><p>CHistoric county of Burgundy, in central France, dating from the begininning of the 10th century.</p></note>
+							, which God wanted to show you, know that I was Giuffredi, your knight, raised at your court.</rdg>
+>>>>>>> origin/master
 						</app>
 					</s> 
 					<s>
@@ -198,6 +215,7 @@
 					</s> 
 					<s>
 						<app>
+<<<<<<< HEAD
 							<lem wit="#Transcription">Noi prendendo piacere di disonesto amore l'uno dell'altro, ci conducemmo a consentimento di peccato; il quale a tanto condusse lei, che per potere fare più liberamente il male, uccise il suo marito.<note
 								type="gloss" anchored="true">GLOSS GOES HERE</note>
 								<note type="critical" anchored="true">
@@ -205,6 +223,13 @@
 								</note>
 							</lem>
 							<rdg wit="#Translation">Taking pleasure in a deceitful love for each other, we drove each other to consent to sin. This drove her, in order to commit evil more freely, to go as far as to kill her husband.</rdg>
+=======
+							<lem wit="#Transcription">Noi prendendo piacere di disonesto amore l'uno dell'altro, ci conducemmo a consentimento di peccato; il quale a tanto condusse lei, che per potere fare più liberamente il male, uccise il suo marito.
+							</lem>
+							<rdg wit="#Translation">Taking pleasure in a deceitful love for each other, we drove each other<note type="critical" anchored="true">
+								<p>"Ci conducemmo" in the Italian: this could be interpreted as a reflexive form ("each one of us drove him\herself") or as a reciprocal reflexive ("we drove each other").</p>
+								</note> to consent to sin. This drove her, in order to commit evil more freely, to go as far as to kill her husband.</rdg>
+>>>>>>> origin/master
 						</app>
 					</s>  
 					<s>
