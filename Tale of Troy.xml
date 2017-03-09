@@ -1,0 +1,262 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities; ]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">BASE TEXT HERE</witness>
+					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">ORIGINAL TITLE</lem>
+						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<s>
+					<app>
+						<lem wit="#Transcription">Ektor und sein bräder Baris leptten ze Troy in küuk Eicher wis. eins tages ward Baris kunt getan, daz ze Krichen trüg die kron daz alierschonste wib, dieye geirig mitterlip. die was Elena genant. uf hub sich der degen zehant. er für in Kriechenlant, daz er woit beschüwen die wunder an der früwen. uu was ir vatter und Menelaus ir, man ein hervat gevarn.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</s>
+			</p>
+					<p n="2">
+					<s>
+					<app>
+						<lem wit="#Transcription">nu wart der edel degen wis geschossen mit der mine stral. des leit sin hereze vil senden qual,<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</s>
+			</p> 
+										<p n="3">
+					<s>
+					<app>
+						<lem wit="#Transcription">und wird sin leben kumerlich. ein kindlin hat die kungin rich, das ir die ame trüg dike nach. eins tages gieng die kuugin fur Baris den degen vin. ais si fur in kam, zü der erde buktte er sich und kuste iren fustrit. die ame sach den sit, den det sy ir fruwen kunt. von der selben stund man sy sin besser war und neigt in dike gietlich dar. Baris die amen grůste tugentlich mit grosscr gabe herlich, daz kint kuste er dik lieplich. er und die ame  begunden legen lin wie er die fruwen furt von dan.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</s>
+			</p> 
+			</div>
+			</body>
+			</text>
+			</TEI> 
+
+							<p n="1">
+					<s>
+					<app>
+						<lem wit="#Transcription">TRANSCRIPTION GOES HERE<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</s>
+			</p> 
+
+ 
+ 
+wie er sie früwen fürt vol; d.h.
+die amme sprach:
+is, i.e.:, " is. Vo Friešiti.
+det ay is 8, Y.; alb:" , sito ist, viei. Ir dlalr:ligestricien,
+* İs. die avec siclu die geschielt (o) sit
+l%' &&- --പ്രf('_', '')
+_ &--بہ ? ? امیجر ج6
+岑
+A. BERNoULLI,
+nút lengčr sú Hent írs spurn. ir Sicilent heili varia 111 keit her wicier mit wCr ຮghaT uf dem mer gevarix. darine fiorent is mines ???, der ist 8 Yarč2 üd wis get:). dlic früwe bringe ich in úwer schiff dän, so dînd den, da z úch dunke git, dis det der helt hochgernit. er kam in einem mo:aat vidcr.
+do Riau uf der ner Swimen Sach, die arme zs der früwen sprach: früwe, es kunt der küng (14“) min '. wir söllent gen im go, etwo ver, da2 wir empfahen der heren min, die kirgin sprach: es soll sin. also kar sy in dat z Schiff duiniu).
+Garis mimenakiica si empfie von lant lics er die schiff stossen hiu.
+also brocllt er sy von dl11. dis sward irera naii in die "cisse kulint gettin, daz von Troy der kung rich : het inn genome die kéngin herlieh.
+If bracherz sy mit der schur und fårgit gen Troy dar mit lie den firsteil gar, die uf der erden worei གན་ by densel ben jaren, at reflex "' und slügćII uf ir gezelt vor Troy uf daz eben vclt. Fktor ind Paris liessen, daz sy mít růyer liessen,
+女宝
+. سخنان کمپانیایی
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BRUCHSTÜCKE EINES TROJA NER (E DICHTES.
+daz man mit strites sitt “
+teglich mit in stritt. (15“) also tatten sy den Kreichen ungemach, daz man si seltten råw cn sach, iccz bi tag, den bi nacht. wie krefftig wer der Kriechen macht, so beslos man ze Troy nie kein for, watud laz hat; verbottica Ektor. keinem tag lies er sie an strif. (15") nu figt te es sich ze einer zit, daz Ektor so gar úberhtaílet, waard. mengem er sin gewand Zerzart,
+,"كل(9¥
+Der küng von Kriechen Sprach:
+mün jar hand wir dis ungeach سعی ۸۲۶م getriben dis schedilichespi, ako' minen sternenseher ich fragen wil, wie uns stille gelingen, roX. den hies er für sich bringen. der küng in frage began, νει der meister sprach : heiten ir ein ei 总
+цната, ist in Kriechen verborgen, so nem ein ende wer sorgen, ich sag ich, wie es umb in lit. Voso cr ist verborgen in dirc zit. mit früwen kleid ist bekleid sila lip. v. sin måter ist so vis cin vip, محسن” daz si bekene, yol, دنړي wie es im er'sol; శగి lig vor Troy erstorben und öch do den Big crv criben. . A von ir er gesalbetovArt: 人斗之儿 kCin (15") yoffen Gneid * nic go hart, daz in möchte versniden, och tůt sy nicht vermiden, si enpal in Schirono (der was halb ein ros, halb ein
+der lorte ir algo schone
+* Jf3. Bruneid.
+Texte; denn sie ist eingegchailet zwischen ein Reimpaar.
+daz er müste werden siech. do rüffte ein edel Kriech: es viver schad tumb disen helt. hůra, degen user welt,
+rúeg. an den dinem kry, l శ్కీ ob dir jeman so 1)och er sy, dcr dir II:lág ze helffe komern,
+daz lder lip icht werd genomen Ekter lluorte disen wisser rat. er filgt te getrat. << اله مفسهم مما"( do VHrd im helffe schin الملوز von den diculieren sin.
+3.
+S 766
+" الستروم آمریهٔ (! -سس. ملاهياساته كاريل N
+sehirinnen, ringen, 3 chiessen. millistein, die si bergab liessen, o dic yasst ci" vahen uf den Schilt. kung, ob du den sücher wilt, so sende Us hundert oder mer, daz ieklicher sy oin kremer, ha ha vicle, vy543 fråwe 13 grała dot; zů. : {# ch+ ה-05הה 6"
+hab veile 3 wert, messer, issengewant,
+tinar--sicht Zelhant ы vara (efîit denu frïwen galt', bensnen er nicht cnlaf, o'r hy eschüwc dic kinfinnangchaifft. * al 30 vint na. In den degen ellent haft. der küng volgte getrat dc5 wissen meisterg rat. er sant (15") die botten uf die vart, wand der also funden wart. also wart, Achilles gon Troy brocht, Init im 5in meister Schiron - exy-D- TisrcitUkt tor, als er was gewori. لعب عباسعد حلویا " tآlkata i in 16T Z| | 16 Achilles sin erster Btritt, Und friben da,2 den gangzen dag, Ektor ob mit krefitten lag, * **** Uk ? NAVN~ In ó cht er in han verschrotte, W*** R er het in geleit zit andren doffen.
+( سہہ ڈال لیج
+kJ جماعة ويسهم لم
+u2CARరాగ
+ma1 3y mit strittes &frites gift.
+S LLG00 LL S S ttt L L L ttt LLLLLLLlt ttt S LLLLmt tSS 000 E L LL LmLLLL
+* Tsj, ligsfel. * II.3.
+ 
+ 
+ 
+36
+(16*) Pes Inorgens, do der dag har
+A FERN ( UJI
+sust schied si die nacht. was Achilles harnest dar bracht, da2 hat er im von dem libe geslagen, (Norn des ein nüwen liarnest Inān $1&l trgo. so hib sich aber den ein stritt, Ekttor twang in mit nid
+I.
+schein, Ektor reit us Troy allein mit grimem Laüt. daz lungemach best wang den helt
+g,
+wond by aller siner zit nie“ kein man mit strit sich sin het erwert als lange. daz was im argst und angé. nu was öch Achilles bereit ze vyentlicher arbeit. Ekttor sin zorn twang, daz der stritte mit wertte lang, A ciuiles sine la schiit zerslửg, daz er sin rauíezit dennen trắg. er slüg im so gros bllen amb die arm und umb die küllen,
+Achilles kum von in endran.
+Ekttor schied öch von dan, Wond er måeden began. dych schůff Achilles dem herr ge
+un ach, daz man 8y zweile nur stritten
+Each.
+Schiron fürt Achilles an ei heinlich stat. mit dritten er im drat, wie er im solt tretten zü: mit (16“) stichen also tú, zwisseit swert und schilt. ob du daz düm zyilt, hů Vy: ina nach jer helde, so nient der strit ein ěnde. dọ Ekttor kam gon. Troy hỉnin, er Sprach : wie trag daz sin?
+* Hs. sich ü. to EIs, kien f'p.
+und mit so grosser kraft, daz er in dik macht sdichthaft. er treib in hin und denne har
+bis daz er alles daz von im geslüg, da 2 er von luar) est an illua trůg. also en tweich danne Achilles.
+min swert wil sin nát saidien ! sol ich den strit nüt miden, des han ich iemer schande
+doch bereite er sich des morgens frü
+und grieff zst dem strit hinzst.
+Achilles nam gen in den ker und gedach an sins meisters ler. damit er im da? leben angewan und schied frölich von dan. do die von Troy socheu Ektors val, in was gelege gar ir schall, und trutten öch von recht bede herren und öch knecht. Ekttors gebot gebrochen wart; Inan beslos die dor an der vart, und wurdent beslossen hart uud wol bese ezt mit hůtte, ein tor bevolhen wart herzogen Eneas, damit er siner eren (16“) vergas. von frúeden gaebtte an daz dor Schiron und iesch ein kenpf" diινοι". daz leid Paris twang. vir da 2. tor er do sprang uf Schyrones schaden gros, dem det er mit dem spies einen stos,
+daz im daz blitze mund und Ören.
+usflo8. Schiron kertte die hindreu fúesse :
+dar, und slüg so krefftenklichen dar, daz im entweich Paris. von in reit der degen wis
+und kerkte wider uf in init dem schaft
+th
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8RUCHSTCKE EINES TROJANERGEDICHTE8. 3.
+und reit so mit grosser kraft. uff dem schilt er im gehafft, und doch durchbrach der schafft, daz Schiron tot beleib Paris wider in die stat hin reit. do Achilles sach sins meisters dot, sin hercz beid von joma er not. er gedach, wie er in möch gerechen an Paris dern freelier. er reit an diaz, or, er sprach : wo ist Paris? ich beit sin baie vor. kein antwurt (16") iro gegeben ... . *y 3. l. i. er kertte wider an die vart.
+W. orndes, do es datg tte, Achilles an daz tor hin jagtte, do was och hereit l’aris ze füs in ritterlicher wis. mit sinem kolber, den er träg, uf sin en kopf" er in clo slag, , daz Achilles mïste vallen,
+- ber in ständ Pars nit sch:lle:
+nit von hinan kum ich, bis ich dot sehe dich! Achilles (17*) verlor do de lip. Paris kertte zii sinem vip. die was sins siges fro. dis gefügtte sich also, | nun wurden die Krieeizen in ei,
+(17,
+| Troyer kraft wer nun klein,
+sid Ekittor wer tot gelegen. sy woltteit eines stuur tres pflegen. alsus bereitte sich die schr mit starker wer dar, - und lic!tten vor der tor den strit
+und an der mur zst aller zit, Dis epil vertte einen ganezen tag, daz nieman keiner rüwe ' pslag - init werfen und init, Schiessen,
+az inilat Sach najn fliessen von den Kriechen 11f daz ant, sinen lip verlor Nelig wigant.
+** 1អ នៃ ច្នៃ ផ្នn offp.
+** 5, wo der ar. * o I l s. ge: winnent.
+** i [3, iicit geralwen,
+dis wart Paris geseit. er sprach: dis ist min höchstes leid.
+von firchten mis jeh in miden,
+kein swert kau in doch snider. do sprach ein wisser man: herre, ich dich wol geleren kau, nit einen kolben lang und gro8. ja kan er nit dawider. du slecht in daar mider, und las in niemer 1f, bis daz sin kopf“ und hnff von dir wirt, zerbliwen. sin vart ira dicht maig gerllaweta. nút hér uf, bís er dot gelige. also gewinest du, taz cr mit gesige.
+mit leittren woltten si stige in. die irren liessens 1it güt sin. die Eacht mar sy seleiden sach. «lie user en ligen an ir getach, den was die vart worden ze star. die irrera bebatten ir ni Ur. die Kriechen sichen viller her,
+ob i enn i cier wy (:re Hyer, si fundeus wel behït. daz ducht die Krieeler niedert gůt 1ind sprachen: wirgewinen "nicht also die stat. ein heinlichen tag hat . die von Krieeien 12c Eneas. er İnct in gelo t idaz, er wollte sy lossen ir: zs, dem tor, des pfleger er sollte: sin. eins nachttes da z, geschach, daz man die Kriechen in brechen 88 c) da vard crhaben ein liertter siirit. der wertte vierzehe) fig sid, bi des kuinge:s plas sler strit an den lierfst en was. 4'aris vacht mit Itaalieher kraft. er ward geschossen ait eine
+is
+** II. kofpf.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+38 K. : { }K
+daz er missie blijen tot. erst hüb sich jomer and 1iot. die statt ward angezündet. la z bitch vir wor tiras kúladet, daz die stat; sinhalb bram, in den Kladre Ort ist sio erst i vierzeh &I) taget
+ver} } $u:ኽ ~...– ~ – -------- ...mm ...e==” als da cer strit sici endet lie, Eleaa vir irra vatter gic: 17°) und viel im ze füsse? : “
+vatter, ich wii búessen, ich gib mieh uf die gnade din es vas inút dio schulde mini, und het es nüt gedacht, daz ich soltte har sin bracłat.
+Enels mit driu tusing“ man får vou Troy in Etalya, dumu,
+der kling sin to chtter nåm
+inst für von Troy Mit grosser schoy“ wider in sin laat, da er starke geste vant: von Jugren der küng riell, der mit gewait gar werlich
+Elena nam die kúngira und fürtte si in daz rich sin und belib si mit gewalt sider, yond si kam tiemer me hinwider. also endet dis getat, die von Troy geschriben stat.
+*° EHs, fässe. ** is. diuisig o de di sig tilsing. is. Schrey,
+i.
+In dieser Zeitschrift XXII., 51–53 theilte der Herausgeber ein Mcisterlied über Friedrich Rothbart mit, das ohne Schu war und sonst unbekannt sein sollte. Dieser Irrthum wurde XXIV., 13 verbessert rait Verweisung auf in einen Grandriss § 139, 13 (woraus Weller, Annalen 1, 212 seine Notiz entlehnt hatte). j}abei wurde gefragt: „Aber w9 findet sich ein jxemplar des Jruckes“ Ein solches verPlag ich zwar nicht 1lachz weisen, aber das Gedicht selbst kann ich mittheilen. Am 14. Mai 1856 schrieb mir Julius Feifalik, dem ich Mlaterial für seine beabsichtigte Ausgabe des Liedes vom hürnita Scifrit gegeben hatte, ans Berlin, in dem Br Hait Abschriften aus der Piaristen“ handschrift des Nibelungenliedes ein Gegengeschenk machte: „Endlich lege ich einige Meistergesäuge bei, von denen Sie vielleicht der Kaiser mit dem rother Bart iusteressirt, wenn Sie ihn nicht kennen. Die Schrift müssen Sic entschuldigen, da die Abschriften für mich gemacht ware I.“ Diese Abschriften, derer Treue bis auf genaue Unterscheidung zwischen ü und st Feifalik versicherte, schrieb ich mir ab und sandte ihm die seinigen an 17. Mai zurück. An 29. Mai schrieb er: „Was ich Ihnen zu den Meistersängern sende, steht ganz zu Ihrer Verfügung; höchstens der rothen Kaiser werde ich einmal benutzen, alles andere
+ 
+ 
+ 
+    
+      
+

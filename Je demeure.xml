@@ -1,0 +1,145 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Je demeure seule esbahye</title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<lemma xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">E demeure seule esbayle</lem>
+						<rdg wit="#Translation">I remain here, shocked and alone,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">plorant ma dolente vie/</lem>
+						<rdg wit="#Translation">mourning my unhappy life.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">ne plus ne scay que je doi faire/
+						</lem>
+						<rdg wit="#Translation">I don't know what I should do any more</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">quant qui plus me peut plaire
+						</lem>
+						<rdg wit="#Translation">when the one who can please me the most</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">me laisse Dont trop suis marrie/
+						</lem>
+						<rdg wit="#Translation">is leaving me. I'm devastated by it.</rdg>
+					</app>
+				</l>
+				<l> </l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Je pleure Je plains Je larmye
+						</lem>
+						<rdg wit="#Translation">I cry. I complain. I shed tears</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">par une destresse Infinie/
+						</lem>
+						<rdg wit="#Translation">in my infinite distress.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">plus que me ne saroie extraire
+						</lem>
+						<rdg wit="Translation">I don't know how to escape it</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Car qui me Devroit les seulx traire
+						</lem>
+						<rdg wit="Translation">because the only one who is supposed to lead me out</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">force mest quen ce point on me lie
+						</lem>
+						<rdg wit="Translation">is the reason why I am in chains.</rdg>
+					</app>
+				</l>
+				<l> </l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Je demeure
+						</lem>
+						<rdg wit="Translation">I remain</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
