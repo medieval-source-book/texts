@@ -1,0 +1,77 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal">
+			</variantEncoding>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">犬異</lem>
+						<rdg wit="#Translation">Strange Dogs</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">金國天會十四年四月中, 京小雨, 大雷震, 群犬數十爭赴土河而死, 所可救者才一二耳。</lem>
+							<rdg wit="#Translation">In the fourteenth year of the Tianhui era of the State of Jin, it was raining in the capital. There occurred a huge thunderbolt. Several tens of dogs ran in group into the Tu River and died. Only one or two were rescued and survived.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal">
+			</variantEncoding>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">陳王猷子妇</lem>
+						<rdg wit="#Translation">Chen Wangyou’s Daughter-in-Law</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">潮州人陳王猷為梅州守。子婦死焉, 葬之於郡北山之上。其魂每夕歸與夫共寢。夫懼宿於母榻。婦複來即之, 不可卻, 雖家人相見無所避。一子數歲矣, 韶秀可愛, 每欲取以去, 舉家爭而奪之。婦出入自若, 陳氏甚懼, 乃召道士醮設及禱於神, 皆不能遣。時紹興庚午三月也。又三月, 陳守卒於郡.</lem>
+							<rdg wit="#Translation">Chen Wangyou from Chaozhou was the magistrate of Meizhou. When his daughter-in-law died, the Chen family buried her in the mountain north of the county. Every evening, her spirit would come back home to sleep with her husband. Her husband was scared and slept on his mother’s bed. But the woman came back again and could not be turned away. Even when she saw the Chen family, she would not avoid them. Her son was a few years old, cute and good looking. Every time she tried to take him away, the entire Chen family would fight to get him back. However, the woman went in and out of the Chen family like there was no one around. The Chen family was so scared that they hired a Daoist (*) to set up a religious ceremony and prayed to god in their behalf – neither could dispel the spirit. At the time, it was the third month of the Shaoxing era. After three months, the magistrate Chen died in the county.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

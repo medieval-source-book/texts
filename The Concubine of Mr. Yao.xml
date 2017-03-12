@@ -1,0 +1,77 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal">
+			</variantEncoding>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">姚氏妾</lem>
+						<rdg wit="#Translation">The Concubine of Mr. Yao</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">會稽姚宏買一妾, 善女工庖廚, 且有姿色, 又慧黠謹飭, 能承迎人, 自主母以下皆愛之。居數月久, 一夕, 姚氏舉家覺寒氣滿室, 切切逼人, 巳而聞鬼哨一聲, 從窗間出。家人驚怖, 稍定, 方舉燭相存問, 獨此妾不見。視其榻, 衣裘皆在焉。窗紙上小竅如錢大, 不知何怪也。郭堂老說。</lem>
+							<rdg wit="#Translation">Yao Hong from Kuaiji bought a concubine. She was adept at embroidery and culinary matters. Moreover, she was attractive, smart, perspicacious and rule following. She had a sweet mouth and as a result, from her mother-in-law to those under her all liked her very much. After several months, one evening, the entire Yao family felt the cold air in the room, which pressed every single one of them. Suddenly they heard a shriek of a ghost, which exited from the windows. The Yao family was shocked and scared. When they calmed down, they held candles and checked on each other. Only the concubine was missing. They examined her bed and found her clothes on it. On the window paper there was a small opening as small as a coin. We do not know what kind of monster this was. This was reported by Guo Tanglao.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
