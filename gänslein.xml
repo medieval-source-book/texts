@@ -19,12 +19,6 @@
 					<name>Kathryn Starkey</name>, <name>Mae Lyons-Penner</name>, <name>Robert Forke</name>, and <name>Björn K. Buschbeck</name>.
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 				<note type='critIntro'>
@@ -43,14 +37,11 @@
 			</note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
+				<p>Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v; Würzburg ca. 1350).</p>
 				<p></p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
-			<editorialDecl>
-				<p></p>
-			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
