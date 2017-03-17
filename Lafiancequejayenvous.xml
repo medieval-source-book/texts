@@ -61,9 +61,8 @@
 					</app>
 				</title>
 			</head>
-			<lg n="1">
-				<lb>
-					<l n="1">
+			<div>
+				<l n="1">
 					<app>
 						<lem wit="#Transcription">La fiance que j'ay en vous
 						</lem>
@@ -91,8 +90,8 @@
 						<rdg wit="#Translation">that I suffer and all my great anguish.</rdg>
 					</app>
 				</l>
-			</lb>
-			<lb>
+			</div>
+			<div>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">Car une foiz nous verrons nous
@@ -114,8 +113,8 @@
 						<rdg wit="#Translation">The trust</rdg>
 					</app>
 				</l>
-			</lb>
-			<lb>
+			</div>
+			<div>
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">Pardieu voire et maugre tous
@@ -151,8 +150,7 @@
 						<rdg wit="Translation">The trust</rdg>
 					</app>
 				</l>
-			</lb>
-			</lg>
+			</div>
 		</body>
 	</text>
 </TEI>
