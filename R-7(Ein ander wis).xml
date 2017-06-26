@@ -12,11 +12,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>TITLE</title>
-				<author>AUTHOR</author>
+				<title>R 7</title>
+				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name>WHO TRANSCRIBED ME?</name>
+					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -49,8 +49,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">TITLE</witness>
-					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
+					<witness xml:id="Transcription">R 7</witness>
+					<witness xml:id="Translation">R 7</witness>
 				</listWit>
 			</div>
 		</front>
@@ -58,45 +58,45 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">TITLE</lem>
-						<rdg wit="#Translation">TITLE'S TRANSLATION</rdg>
+						<lem wit="#Transcription">Ein ander wis</lem>
+						<rdg wit="#Translation">Another song</rdg>
 					</app>
 				</title>
 			</head>
 			<lg n="1">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Nu ist der liebe sumer hin gescheiden</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">die blumen un der voglin sanch</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">muzze wir dem leiden winde lazzen.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">den ungemach</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">meht ein iglich hercze wol von waren schulden chlagen.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">hohgemu&esup;te het ich von in beiden.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
