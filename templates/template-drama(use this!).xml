@@ -68,29 +68,60 @@
 				</title>
 			</head>
 
-			<!-- This tag pair should be used for all stage directions -->
+			<!-- stage directions -->
 
-			<stage> </stage>
+			<stage>
+				<app>
+					<lem wit="#Transcription">
+						<p>TRANSCRIPTION OF STAGE DIRECTIONS GO HERE</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+			</stage>
 
-			<!-- This block should be used for speaking events -->
+			<!-- The next block should be used every time the speaker changes -->
 
+			<!-- A) Start here: -->
 			<sp>
 				<app>
 					<lem wit="#Transcription">
 						<speaker>TRANSCRIPTION OF SPEAKER'S NAME GOES HERE</speaker>
-						<p>TRANSCRIPTION OF SPEECH GOES HERE</p>     <!-- this could really be either <p> or <l> depending on if prose (then <p>) or verse (then <l>) -->
 					</lem>
 					<rdg wit="#Translation">
 						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
-						<p>TRANSLATION OF SPEECH GOES HERE
-							<note anchored="true">
-									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
-							</note>
-						</p>
 					</rdg>
 				</app>
+
+				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+
+
+				<!-- B) from here: --> 
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="1"> 
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="1">
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
+								<note anchored="true">
+									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+								</note>
+							</l>
+						</lg>
+					</rdg>
+				</app>
+				<!-- B) to here -->
+
+
 			</sp>
-			
+			<!-- A) End here -->
+
 		</body>
 	</text>
 </TEI>
