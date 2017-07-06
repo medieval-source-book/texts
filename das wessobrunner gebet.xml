@@ -33,13 +33,6 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
-	   <facsimile>
-      <graphic url="G1.png" xml:id="G1"/>
-      <graphic url="G2.png" xml:id="G2"/>
-      <graphic url="G3.png" xml:id="G3"/>
-      <graphic url="G4.png" xml:id="G4"/>
-      <graphic url="G5.png" xml:id="G5"/>
-   		</facsimile>
 	<text>
 		<front>
 			<div>
@@ -50,8 +43,6 @@
 			</div>
 		</front>
 		<body>
- 		<pb ed="#Transcription" facs="#G1"/>
-         <fw facs="#G1" type="header" place="margin-topright">1</fw>
 			<head>
 				<title>
 					<app>
@@ -84,8 +75,6 @@
 					<rdg wit="#Translation">No….[undecipherable], nor did the sun shine</rdg>
 				</app>
 			</l>
-			<pb ed="#Transcription" facs="#G2"/>
-            <fw facs="#Transcription" type="header" place="margin-topright"></fw>
 			<l n="5">
 				<app>
 					<lem wit="#Transcription">no mâno ni liuhta, noh der mâreo sêo.</lem>
@@ -127,8 +116,7 @@
 			<l n="11">
 				<app>
 					<lem wit="#Transcription">mannun so manac coot forgapi, forgip mir in dino ganada rehta </lem>
-					<rdg wit="#Translation">have given men so many good things
-In your mercy, give me the right 
+					<rdg wit="#Translation">have given men so many good things. In your mercy, give me the right 
 					</rdg>
 				</app>
 			</l>
