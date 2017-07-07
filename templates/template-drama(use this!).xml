@@ -1,0 +1,149 @@
+<!--
+	Language change: 
+
+	If a text changes language, you should specify that in your encoding. 
+	Here is how to do it:
+
+	When the text changes language, use an extra modifier in your tag. 
+
+	For example: (a text changes to Latin)
+		<l xml:lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</l>
+
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
+-->
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITLE</title>
+				<author>AUTHOR</author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name>WHO TRANSCRIBED ME?</name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name>WHO TRANSLATED ME?</name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>YOUR NAME HERE</name>
+			</respStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>ANY SOURCES GO HERE</p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">TITLE</witness>
+					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">TITLE</lem>
+						<rdg wit="#Translation">TITLE'S TRANSLATION</rdg>
+					</app>
+				</title>
+			</head>
+
+			<!-- stage directions -->
+
+			<stage>
+				<app>
+					<lem wit="#Transcription">
+						<p>TRANSCRIPTION OF STAGE DIRECTIONS GO HERE</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+			</stage>
+
+			<!-- The next block should be used every time the speaker changes -->
+
+			<!-- A) Start here: -->
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>TRANSCRIPTION OF SPEAKER'S NAME GOES HERE</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+
+				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+
+
+				<!-- B) from here: --> 
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="1"> 
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="1">
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
+								<note anchored="true">
+									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+								</note>
+							</l>
+						</lg>
+					</rdg>
+				</app>
+				<!-- B) to here -->
+
+
+			</sp>
+			<!-- A) End here -->
+
+		</body>
+	</text>
+</TEI>

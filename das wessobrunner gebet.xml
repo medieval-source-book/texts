@@ -1,0 +1,155 @@
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Wessobrun Prayer</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>
+			</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v; Würzburg ca. 1350).</p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	   <facsimile>
+      <graphic url="G1.png" xml:id="G1"/>
+      <graphic url="G2.png" xml:id="G2"/>
+      <graphic url="G3.png" xml:id="G3"/>
+      <graphic url="G4.png" xml:id="G4"/>
+      <graphic url="G5.png" xml:id="G5"/>
+   		</facsimile>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Das Wessobrunner Gebet</witness>
+					<witness xml:id="Translation">The Wessobrun Prayer</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+ 		<pb ed="#Transcription" facs="#G1"/>
+         <fw facs="#G1" type="header" place="margin-topright">1</fw>
+			<head>
+				<title>
+					<app>
+					</app>
+					<witDetail wit="#Transcription" target="#Transcription">
+					</witDetail>
+				</title>
+			</head>
+			<l n="1">
+				<app>
+					<lem wit="#Transcription">Dat gafregin ih mit firahim firiuuizzo meista,</lem>
+					<rdg wit="#Translation">This I learned among men as the greatest wonder,</rdg>
+				</app>
+			</l>
+			<l n="2">
+				<app>
+					<lem wit="#Transcription">dat ero ni uuas noh ûfhimil,</lem>
+					<rdg wit="#Translation">That [once] there was neither earth nor heaven,</rdg>
+				</app>
+			</l>
+			<l n="3">
+				<app>
+					<lem wit="#Transcription">noh paum ... noh pereg ni uuas,</lem>
+					<rdg wit="#Translation">Nor was there tree or mountain</rdg>
+				</app>
+			</l>
+			<l n="4">
+				<app>
+					<lem wit="#Transcription">ni ... nohheinîig noh sunna ni scein,</lem>
+					<rdg wit="#Translation">No….[undecipherable], nor did the sun shine</rdg>
+				</app>
+			</l>
+			<pb ed="#Transcription" facs="#G2"/>
+            <fw facs="#Transcription" type="header" place="margin-topright"></fw>
+			<l n="5">
+				<app>
+					<lem wit="#Transcription">no mâno ni liuhta, noh der mâreo sêo.</lem>
+					<rdg wit="#Translation">No moon did glow, nor [was there] the splendid sea.</rdg>
+				</app>
+			</l>
+			<l n="6">
+				<app>
+					<lem wit="#Transcription">Dô dâr niuuiht ni uuas enteo ni uuenteo,</lem>
+					<rdg wit="#Translation">When there was nothing, there was no end and no change,</rdg>
+				</app>
+
+			</l>
+			<l n="7">
+				<app>
+					<lem wit="#Transcription">enti dô uuas der eino almahtîco cot, </lem>
+						<rdg wit="#Translation">There was the one almighty God,</rdg>
+					</app>
+			</l>
+			<l n="8">
+				<app>
+					<lem wit="#Transcription">manno miltisto, enti dâr uuârun auh manake mit inan </lem>
+						<rdg wit="#Translation">Of all the most generous, and there </rdg>
+					</app>
+			</l>
+			<l n="9">
+				<app>
+					<lem wit="#Transcription">cootlîhhe geistâ. enti cot heilac ...</lem>
+					<rdg wit="#Translation">were with him glorious spirits. And holy God…</rdg>
+				</app>
+			</l>
+			<l n="10">
+				<app>
+					<lem wit="#Transcription">Cot almahtico, du himil enti erda gaworachtos, enti du </lem>
+					<rdg wit="#Translation">Almighty god you created heaven and earth, and you 
+					</rdg>
+				</app>
+			</l>
+			<l n="11">
+				<app>
+					<lem wit="#Transcription">mannun so manac coot forgapi, forgip mir in dino ganada rehta </lem>
+					<rdg wit="#Translation">have given men so many good things In your mercy, give me the right 
+					</rdg>
+				</app>
+			</l>
+			<l n="12">
+				<app>
+					<lem wit="#Transcription">galaupa enti cotan willeon, wistom enti spachida enti craft,</lem>
+					<rdg wit="#Translation">faith and good will, Wisdom and cleverness and strength
+					</rdg>
+				</app>
+			</l>
+			<l n="13">
+				<app>
+					<lem wit="#Transcription">tiuflun za widarstantanne, enti arc za piwisanne endi dinan</lem>
+					<rdg wit="#Translation">To resist the devil and to shun evil and </rdg>
+					</app>
+			</l>
+			<l n="14">
+				<app>
+					<lem wit="#Transcription">willeon za gauurchanne.</lem>
+					<rdg wit="#Translation">to serve your will.</rdg>
+				</app>
+			</l>
+		</body>
+	</text>
+</TEI>

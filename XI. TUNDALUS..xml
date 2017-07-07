@@ -1,0 +1,3151 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>XI. TUNDALUS.</title>
+				<author><!--AUTHOR--></author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name><!--WHO TRANSCRIBED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name><!--WHO TRANSLATED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>Clara Romani</name>
+			</respStmt>
+			<publicationStmt>
+				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
+			</notesStmt>
+			<sourceDesc>
+				<p><!--ANY SOURCES GO HERE--></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">XI. TUNDALUS.</witness>
+					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">XI. TUNDALUS.</lem>
+						<rdg wit="#Translation"><!--TITLE'S TRANSLATION--></rdg>
+					</app>
+				</title>
+			</head>
+			<lg tupe="section" n="1">
+				<head n="1">
+					<app>
+						<lem wit="#Transcription">Vaz tundalu&slong; hat ge&slong;in.</lem>
+						<rdg wit="#Translation"><!--STANZA TITLE TRANSLATION--></rdg>
+					</app>
+				</head>
+				<lg type="subsection" n="1">
+					<l n="1">
+						<app>
+							<lem wit="#Transcription">Gode&slong; wnder &slong;int manicfalt</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l> 
+					<l n="2">
+						<app>
+							<lem wit="#Transcription">Di er uvidene hat ge&slong;talt</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="3">
+						<app>
+							<lem wit="#Transcription">Bit &slong;iner grozer crefte.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="4">
+						<app>
+							<lem wit="#Transcription">Wolden wir merken rechte</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="5">
+						<app>
+							<lem wit="#Transcription">Vnde uerneimen der heiligen &slong;rifte wort,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="6">
+						<app>
+							<lem wit="#Transcription">Wir ne &slong;prechin minner vbel wort.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="7">
+						<app>
+							<lem wit="#Transcription">Nu i&slong;t di arme men&slong;heit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="8">
+						<app>
+							<lem wit="#Transcription">Al &slong;o cranc vn&bar; di brodekeit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="9">
+						<app>
+							<lem wit="#Transcription">Daz &slong;i &slong;ich umbewollen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="10">
+						<app>
+							<lem wit="#Transcription">Inkan behude vollen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="11">
+						<app>
+							<lem wit="#Transcription">Got in du iz bit &slong;in&er; craft.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="12">
+						<app>
+							<lem wit="#Transcription">Di wi&slong;&slong;agin hant un&slong; ge&slong;acht</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="13">
+						<app>
+							<lem wit="#Transcription">Vzer der gode&slong; lere</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="14">
+						<app>
+							<lem wit="#Transcription">Daz eim riche &slong;und&er;e</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="15">
+						<app>
+							<lem wit="#Transcription">Daz himelriche &slong;i al&slong;o unkunde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="16">
+						<app>
+							<lem wit="#Transcription">Al&slong;e &slong;i eime olbendin</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="17">
+						<app>
+							<lem wit="#Transcription">Daz er &slong;ih konne gebovgen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="18">
+						<app>
+							<lem wit="#Transcription">Durh d&er; nalden ovgen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="19">
+						<app>
+							<lem wit="#Transcription">Daz i&slong;t enge&slong;tlih gnuch!</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="20">
+						<app>
+							<lem wit="#Transcription">Och &slong;o kundent un&slong; di buch</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="21">
+						<app>
+							<lem wit="#Transcription">'Vix iu&slong;t&usmod; &slong;aluabit&ra;.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="22">
+						<app>
+							<lem wit="#Transcription">Daz virnemet alden vn&bar; iunc!</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="23">
+						<app>
+							<lem wit="#Transcription">Daz quid daz van manne noch von wibe</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="24">
+						<app>
+							<lem wit="#Transcription">Di gerehtin kume beliben.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="25">
+						<app>
+							<lem wit="#Transcription">Her wid&er; &slong;o i&slong;t un&slong; ge&slong;at</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="26">
+						<app>
+							<lem wit="#Transcription">Git tro&slong; an einer ander &slong;tat:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="27">
+						<app>
+							<lem wit="#Transcription">'Nolo mort&bar; pec&bar;c&bar;ori&slong;.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="28">
+						<app>
+							<lem wit="#Transcription">Got &slong;prichit, de&slong; &slong;underi&slong; dodi&slong;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="29">
+						<app>
+							<lem wit="#Transcription">Inwolle er nit, wene daz er lebe</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="30">
+						<app>
+							<lem wit="#Transcription">Vn&bar; &slong;ich &slong;in&er; &slong;unden &slong;uldic gebe</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="31">
+						<app>
+							<lem wit="#Transcription">Vn&bar; &slong;ih betalle trabe kere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="32">
+						<app>
+							<lem wit="#Transcription">Nu &slong;old ir virnemen mere,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="33">
+						<app>
+							<lem wit="#Transcription">War umbe ich der reiden begunde.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="34">
+						<app>
+							<lem wit="#Transcription">Ich han if gut urkunde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="35">
+						<app>
+							<lem wit="#Transcription">Von gelerden vn&bar; och con leigin,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="36">
+						<app>
+							<lem wit="#Transcription">Daz ich ane &slong;meichin</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="37">
+						<app>
+							<lem wit="#Transcription">In duz&slong;en &slong;age di warheit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="38">
+						<app>
+							<lem wit="#Transcription">Al&slong; iz in latinen ge&slong;riben &slong;teit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="39">
+						<app>
+							<lem wit="#Transcription">Von eime manne wol bekant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="40">
+						<app>
+							<lem wit="#Transcription">D&er; wa&slong; tundalu&slong; genant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="41">
+						<app>
+							<lem wit="#Transcription">Der wa&slong; ein man vil mi&slong;&slong;etedic:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="42">
+						<app>
+							<lem wit="#Transcription">Got wart ime &slong;int genedik.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="43">
+						<app>
+							<lem wit="#Transcription">Dri tage er in brodin lach:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="44">
+						<app>
+							<lem wit="#Transcription">Sin gei&slong;t wr zu d&er; hellen un&bar; &slong;ach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="45">
+						<app>
+							<lem wit="#Transcription">Manege dink der er wart wi&slong;.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="46">
+						<app>
+							<lem wit="#Transcription">Och quam er in daz paradi&slong;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="47">
+						<app>
+							<lem wit="#Transcription">Da er irkande godi&slong; dowgen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="48">
+						<app>
+							<lem wit="#Transcription">Wole bit &slong;inen | owgen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="49">
+						<app>
+							<lem wit="#Transcription">Di er &slong;int &slong;ageta offenbare.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="50">
+						<app>
+							<lem wit="#Transcription">Nu horiet in welcheme iare</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="51">
+						<app>
+							<lem wit="#Transcription">Ge&slong;cehe di&slong; mere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="52">
+						<app>
+							<lem wit="#Transcription">Eilif hundirt vn&bar; nune un&bar; virzik iare,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="53">
+						<app>
+							<lem wit="#Transcription">Daz i&slong;t war, de&slong; do waren,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="54">
+						<app>
+							<lem wit="#Transcription">Daz geborin wart got un&slong;er herre.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="55">
+						<app>
+							<lem wit="#Transcription">Nu wil ich &slong;agen uon dem man</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="56">
+						<app>
+							<lem wit="#Transcription">Von deme ich d&er; reiden began.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="57">
+						<app>
+							<lem wit="#Transcription">Ybernen i&slong;t ein <hi rend="italic">ein</hi>lant,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="58">
+						<app>
+							<lem wit="#Transcription">Inwei&slong;ten uffe daz mere gewant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="59">
+						<app>
+							<lem wit="#Transcription">Su&bar;den an orden dar iz &slong;teit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="60">
+						<app>
+							<lem wit="#Transcription">Dar umbe geint wazz&er; vil breit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="61">
+						<app>
+							<lem wit="#Transcription">Daz gebirge groz un&bar; daz geuilde.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="62">
+						<app>
+							<lem wit="#Transcription">Di lude &slong;int da harte milde,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="63">
+						<app>
+							<lem wit="#Transcription">Ir&slong; gemude&slong; &slong;int &slong;i vro&bar;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="64">
+						<app>
+							<lem wit="#Transcription">Daz lant i&slong;t milche un&bar; honege&slong; vol</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="65">
+						<app>
+							<lem wit="#Transcription">Inde fruchte, &slong;o man &slong;agit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="66">
+						<app>
+							<lem wit="#Transcription">Beide vi&slong;&slong;e vn&bar; iaget.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="67">
+						<app>
+							<lem wit="#Transcription">Mer wine&slong; in konnen &slong;i nit gewinnen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="68">
+						<app>
+							<lem wit="#Transcription">Da i&slong;t vile &slong;langen, credin, &slong;pinnen:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="69">
+						<app>
+							<lem wit="#Transcription">Doch &slong;o hat ir holz di craft</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="70">
+						<app>
+							<lem wit="#Transcription">Daz iz alliz virgipni&slong;&slong;e uber winden mach:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="71">
+						<app>
+							<lem wit="#Transcription">So iz wirt virtriben dan.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="72">
+						<app>
+							<lem wit="#Transcription">Da &slong;int gude wib vn&bar; man.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="73">
+						<app>
+							<lem wit="#Transcription">Si hant gude wapen un&bar; gewant</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="74">
+						<app>
+							<lem wit="#Transcription">In&bar; wonent vil na engelant,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="75">
+						<app>
+							<lem wit="#Transcription">Naher den &slong;otten</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="76">
+						<app>
+							<lem wit="#Transcription">Dan den britten,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="77">
+						<app>
+							<lem wit="#Transcription">Quo&slong; q&combsgvertl;da&bar; galen&slong;e&slong; uocant,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="78">
+						<app>
+							<lem wit="#Transcription"><hi rend="italic">Di galen&slong;e&slong; &slong;int genant.</hi></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="79">
+						<app>
+							<lem wit="#Transcription">Der wec i&slong;t dannen intlazen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="80">
+						<app>
+							<lem wit="#Transcription">Zu wieden un&bar; zu &slong;trazen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="81">
+						<app>
+							<lem wit="#Transcription">Vn&bar; ein deil in hi&slong;pangen gewant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="82">
+						<app>
+							<lem wit="#Transcription">Ibernen daz &slong;elbe einlant</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="83">
+						<app>
+							<lem wit="#Transcription">Hat vir un&bar; drizcik howbet&slong;tede</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="84">
+						<app>
+							<lem wit="#Transcription">Di alle &slong;tent an zweir vreden.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="85">
+						<app>
+							<lem wit="#Transcription">Eine &slong;tat heizet archamacha,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="86">
+						<app>
+							<lem wit="#Transcription">Di &slong;tet yb&er;nen och wol na,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="87">
+						<app>
+							<lem wit="#Transcription">Di &slong;aget man daz &slong;i vil riche &slong;i.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="88">
+						<app>
+							<lem wit="#Transcription">Crocagen&slong;i&slong; &slong;tet och da bi.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="89">
+						<app>
+							<lem wit="#Transcription">Da inne &slong;o wa&slong; ge&slong;ezzen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="90">
+						<app>
+							<lem wit="#Transcription">Ein ridder wol virmezzin;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="91">
+						<app>
+							<lem wit="#Transcription">Er wa&slong; edele un&bar; wole bekant:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="92">
+						<app>
+							<lem wit="#Transcription"><hi rend="italic">D&er; wa&slong; tundalu&slong; genant.</hi></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+				</lg>
+				<lg type="subsection" n="2">
+					<l n="93">
+						<app>
+							<lem wit="#Transcription">. . . uan</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="94">
+						<app>
+							<lem wit="#Transcription">Bit d&er; ewiger qualen ungemach.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="95">
+						<app>
+							<lem wit="#Transcription">Zu deme engele daz &slong;i &slong;prah:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="96">
+						<app>
+							<lem wit="#Transcription">'Owi, <hi rend="italic">ich</hi> arme, wi w&er;d ich bewart</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="97">
+						<app>
+							<lem wit="#Transcription">Von dirrer dotliher uart?'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="98">
+						<app>
+							<lem wit="#Transcription">Der engel bit &slong;choner wize,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="99">
+						<app>
+							<lem wit="#Transcription">Bit lut&er;licheme antlize,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="100">
+						<app>
+							<lem wit="#Transcription">Sach ane di &slong;ele un&bar; &slong;prach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="101">
+						<app>
+							<lem wit="#Transcription">'Nit in vohte dit ungemach!</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="102">
+						<app>
+							<lem wit="#Transcription">Di&slong;e q&asup;le &slong;al dich v&er;miden,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="103">
+						<app>
+							<lem wit="#Transcription">Wene ein and&er;e &slong;alt di liden.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="104">
+						<app>
+							<lem wit="#Transcription">Er ginc uu&combring;r zu d&er; &slong;elben &slong;tunt</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="105">
+						<app>
+							<lem wit="#Transcription">Vn&bar; leide &slong;i ub&er; alge&slong;unt.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="106">
+						<app>
+							<lem wit="#Transcription">Alfe &slong;i irliden hadden den &slong;elben pad</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="107">
+						<app>
+							<lem wit="#Transcription">Vn&bar; uber quamen an den &slong;tat,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="108">
+						<app>
+							<lem wit="#Transcription">Div &slong;ele uragede den engel do</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="109">
+						<app>
+							<lem wit="#Transcription">Vroliche un&bar; &slong;prah ime zu</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="110">
+						<app>
+							<lem wit="#Transcription">'H&er;ro, ob iz dir geualle,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="111">
+						<app>
+							<lem wit="#Transcription">So wolle&slong; mir cunden albetalle</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="112">
+						<app>
+							<lem wit="#Transcription">War umbe di&slong;e &slong;elen alzemale</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="113">
+						<app>
+							<lem wit="#Transcription">Linden al&slong;u&slong; groze qualen.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="114">
+						<app>
+							<lem wit="#Transcription">Der engel &slong;prah in warheit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="115">
+						<app>
+							<lem wit="#Transcription">'Dirre &slong;elbe tal, der hi &slong;teit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="116">
+						<app>
+							<lem wit="#Transcription">Den du hi &slong;i&slong; &slong; vrei&slong;lich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="117">
+						<app>
+							<lem wit="#Transcription">So dief un&bar; &slong;o ei&slong;lich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="118">
+						<app>
+							<lem wit="#Transcription">D&er; i&slong;t der &slong;tolz&er; lube &slong;tat</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="119">
+						<app>
+							<lem wit="#Transcription">Vn&bar; i&slong;t in zu wonen hi ge&slong;at.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="120">
+						<app>
+							<lem wit="#Transcription">Dirre berg al&slong;u&slong; unreine</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="121">
+						<app>
+							<lem wit="#Transcription">Der pinet hi al gemeine</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="122">
+						<app>
+							<lem wit="#Transcription">Di den and&er;en lagende &slong;int</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="123">
+						<app>
+							<lem wit="#Transcription">Vn&bar; v&er;dume&bar;t man un&bar; kint,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="124">
+						<app>
+							<lem wit="#Transcription">Vffe daz &slong;i iren willen volle brengen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="125">
+						<app>
+							<lem wit="#Transcription">Nu in &slong;olen wir iz nit lengen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="126">
+						<app>
+							<lem wit="#Transcription">Wir in varen vort uil rade</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="127">
+						<app>
+							<lem wit="#Transcription">Da wir uinen dirrer pinen gegade.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+				</lg>
+			</lg>
+			<lg type="section" n="2">
+				<head n="1">
+					<app>
+						<lem wit="#Transcription">Von der giren lude pine.</lem>
+						<rdg wit="#Translation"><!--STANZA TITLE TRANSLATION--></rdg>
+					</app>
+				</head>
+				<lg type="subsection" n="1">
+					<l n="128">
+						<app>
+							<lem wit="#Transcription">Et precedente anglo,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="129">
+						<app>
+							<lem wit="#Transcription">Bit deme engele &slong;i hine zo</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="130">
+						<app>
+							<lem wit="#Transcription">An einen wec lang un&bar; &slong;mal:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="131">
+						<app>
+							<lem wit="#Transcription">Vnreine wa&slong; er ob&er; al.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="132">
+						<app>
+							<lem wit="#Transcription">Zu groz&er; arbeide</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="133">
+						<app>
+							<lem wit="#Transcription">Wa&slong; div &slong;elbe rei&slong;e.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="134">
+						<app>
+							<lem wit="#Transcription">D&er; uertde | &slong;i &slong;ere uirdroz.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="135">
+						<app>
+							<lem wit="#Transcription">Ein dir unmezclige groz</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="136">
+						<app>
+							<lem wit="#Transcription">Ge&slong;ah &slong;i da un&bar; ward i&slong; geware.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="137">
+						<app>
+							<lem wit="#Transcription">Iz wa&slong; ei&slong; ei&slong;lichen vare,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="138">
+						<app>
+							<lem wit="#Transcription">Sin&er; groze einecliche.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="139">
+						<app>
+							<lem wit="#Transcription">Daz duhte &slong;i w&er;rlihe</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="140">
+						<app>
+							<lem wit="#Transcription">Merre un&bar; breid&er; da iz lach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="141">
+						<app>
+							<lem wit="#Transcription">Dan alle di berge di &slong;i ie ge&slong;ach.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="142">
+						<app>
+							<lem wit="#Transcription">Sin owgen waren uu&combring;rich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="143">
+						<app>
+							<lem wit="#Transcription">Sin ge&slong;ihte gruelich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="144">
+						<app>
+							<lem wit="#Transcription">Sin mu&bar;t vil wit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="145">
+						<app>
+							<lem wit="#Transcription">Stunt offenen alle cit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="146">
+						<app>
+							<lem wit="#Transcription">Daz &slong;i de&slong; wole beduhte</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="147">
+						<app>
+							<lem wit="#Transcription">Daz iz bit ein&er; adenzuthe</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="148">
+						<app>
+							<lem wit="#Transcription">Zein du&slong;int wol v&er;&slong;lunde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="149">
+						<app>
+							<lem wit="#Transcription">Gewappend&er; lude, &slong;o wanne i<hi rend="italic">z de</hi>&slong; begu&bar;de.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="150">
+						<app>
+							<lem wit="#Transcription">Zwene ri&slong;en &slong;trange</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="151">
+						<app>
+							<lem wit="#Transcription">Stunded in grozem getwange</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="152">
+						<app>
+							<lem wit="#Transcription">In &slong;ime munde innen wendich.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="153">
+						<app>
+							<lem wit="#Transcription">Di hadde uf gerehtit &slong;ich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="154">
+						<app>
+							<lem wit="#Transcription">Al&slong;e &slong;i da weren ua&slong;te gemerit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="155">
+						<app>
+							<lem wit="#Transcription">Si waren beide uirkerit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="156">
+						<app>
+							<lem wit="#Transcription">Den einen &slong;ah &slong;i &slong;in howbet wenden</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="157">
+						<app>
+							<lem wit="#Transcription">An de&slong; dire&slong; ober&slong;te cende</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="158">
+						<app>
+							<lem wit="#Transcription">Vn&bar; di uuze keren nid&er;:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="159">
+						<app>
+							<lem wit="#Transcription">De&slong; anderen uuze &slong;tunden wid&er;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="160">
+						<app>
+							<lem wit="#Transcription">Zu dem howbete w&er;t gekeret.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="161">
+						<app>
+							<lem wit="#Transcription">De&slong; wart div &slong;ele irv&er;et</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="162">
+						<app>
+							<lem wit="#Transcription">Do &slong;i daz hobet de&slong; ri&slong;en &slong;trangen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="163">
+						<app>
+							<lem wit="#Transcription">Sach nid&er; w&er;t hangen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="164">
+						<app>
+							<lem wit="#Transcription">Zu den und&er;&slong;ten cenden.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="165">
+						<app>
+							<lem wit="#Transcription">In deme munde an zwen enden</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="166">
+						<app>
+							<lem wit="#Transcription">Di re&slong;en beide</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="167">
+						<app>
+							<lem wit="#Transcription">Stunden und&er;&slong;cheiden</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="168">
+						<app>
+							<lem wit="#Transcription">Al&slong;e zwa &slong;ule &slong;tarc uz&er; mazen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="169">
+						<app>
+							<lem wit="#Transcription">Dri porten inde dri &slong;trazzen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="170">
+						<app>
+							<lem wit="#Transcription">Gingen uz&er; de&slong; diere&slong; munde:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="171">
+						<app>
+							<lem wit="#Transcription">Alfe iz den aden lazen begunde,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="172">
+						<app>
+							<lem wit="#Transcription">So wloch druz di flamme groz;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="173">
+						<app>
+							<lem wit="#Transcription">In drw ende &slong;i hine &slong;choz.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="174">
+						<app>
+							<lem wit="#Transcription">Durch die flamme man dikke twanc</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="175">
+						<app>
+							<lem wit="#Transcription">Di &slong;elen &slong;und&er; | iren danc</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="176">
+						<app>
+							<lem wit="#Transcription">In zugene daz aby&slong;&slong;e,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="177">
+						<app>
+							<lem wit="#Transcription">Liden ir v&er;tumni&slong;&slong;e.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="178">
+						<app>
+							<lem wit="#Transcription">Der rowh un&bar; unrene &slong;tanc</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="179">
+						<app>
+							<lem wit="#Transcription">Vil dicke uz &slong;ime munde dranc.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="180">
+						<app>
+							<lem wit="#Transcription">Bit lud&er;e grimm&er; &slong;timmen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="181">
+						<app>
+							<lem wit="#Transcription">So ho<emph rend="italic">r</emph>de man da inne grimmen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="182">
+						<app>
+							<lem wit="#Transcription">Di &slong;elen zu vil maneger &slong;tund</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="183">
+						<app>
+							<lem wit="#Transcription">Vzz&er; dem buche durch den mund.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="184">
+						<app>
+							<lem wit="#Transcription">Daz in wa&slong; dechen wnd&er;,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="185">
+						<app>
+							<lem wit="#Transcription">So da inne vn&bar; och da und&er;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="186">
+						<app>
+							<lem wit="#Transcription">Manich du&Slong;int w&er;lde lagen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="187">
+						<app>
+							<lem wit="#Transcription">In de&slong; duueli&slong; buche<hi rend="italic">&slong;</hi> plagen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="188">
+						<app>
+							<lem wit="#Transcription">Vor &slong;ime munde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="189">
+						<app>
+							<lem wit="#Transcription">Der duuele vile &slong;tunden</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="190">
+						<app>
+							<lem wit="#Transcription">Di di &slong;ele twngen uz un&bar; in:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="191">
+						<app>
+							<lem wit="#Transcription">Ir in were ie me, ir in w&slong; nit min.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="192">
+						<app>
+							<lem wit="#Transcription">Ei wi lude &slong;ruen di zungen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="193">
+						<app>
+							<lem wit="#Transcription">Do &slong;i w&combring;rden betwngen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="194">
+						<app>
+							<lem wit="#Transcription">Mit grozen &slong;leigen maneche &slong;tund,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="195">
+						<app>
+							<lem wit="#Transcription">Daz &slong;i quemen in den mund!</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="196">
+						<app>
+							<lem wit="#Transcription">Do tundale&slong; &slong;ele do ge&slong;ach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="197">
+						<app>
+							<lem wit="#Transcription">Dit ure&slong;liche ungemah</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="198">
+						<app>
+							<lem wit="#Transcription">Vzer den drin porten,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="199">
+						<app>
+							<lem wit="#Transcription">Van d&er; groz&er; vorten</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="200">
+						<app>
+							<lem wit="#Transcription">Solde &slong;i vil nah begeben &slong;ich.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="201">
+						<app>
+							<lem wit="#Transcription">Ir rowe d&er; wa&slong; grozlich.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="202">
+						<app>
+							<lem wit="#Transcription">Weinende &slong;i zume engele &slong;prach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="203">
+						<app>
+							<lem wit="#Transcription">'Dirrer qualin ungemach,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="204">
+						<app>
+							<lem wit="#Transcription">Daz ich hi al&slong;o grozlich &slong;in,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="205">
+						<app>
+							<lem wit="#Transcription">Solin &slong; dich &slong;huen un&bar; vlin,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="206">
+						<app>
+							<lem wit="#Transcription">War umbe gei&slong;tu in &slong;o na?'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="207">
+						<app>
+							<lem wit="#Transcription">Der engel antwirtte al da</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="208">
+						<app>
+							<lem wit="#Transcription">'Vn&slong;e vart &slong;al ande&er;e&slong; &slong;in getan,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="209">
+						<app>
+							<lem wit="#Transcription">Wir &slong;olin in noch narre &slong;tan.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="210">
+						<app>
+							<lem wit="#Transcription">Si muzzen uz irweilid we&slong;en</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="211">
+						<app>
+							<lem wit="#Transcription">Di hi uore &slong;olen gene&slong;en.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="212">
+						<app>
+							<lem wit="#Transcription">Dit dir i&slong;t acheron genant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="213">
+						<app>
+							<lem wit="#Transcription">Ich &slong;al dir &slong;agen al zu hant</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="214">
+						<app>
+							<lem wit="#Transcription">Vil rehte daz getude:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="215">
+						<app>
+							<lem wit="#Transcription">Iz w&er;&slong;lindet alle gire lude.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="216">
+						<app>
+							<lem wit="#Transcription">Div &slong;rift un&slong; uon ime kund dut,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="217">
+						<app>
+							<lem wit="#Transcription">Iz &slong;ole uir&slong;linde groze vlut</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="218">
+						<app>
+							<lem wit="#Transcription">Vn&bar; in &slong;al iz ken wnd&er; han</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="219">
+						<app>
+							<lem wit="#Transcription">Ob in &slong;inen mund vlize d&er; iordan.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="220">
+						<app>
+							<lem wit="#Transcription">Noch wil ich dich machen wi&slong;.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="221">
+						<app>
+							<lem wit="#Transcription">Di&slong;e zwenen man di du hi &slong;i&slong;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="222">
+						<app>
+							<lem wit="#Transcription">In &slong;inen munde v&er;keren &slong;ich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="223">
+						<app>
+							<lem wit="#Transcription">Daz waren zwene ri&slong;en vre&slong;lich.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="224">
+						<app>
+							<lem wit="#Transcription">Di in hadden in irme liche</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="225">
+						<app>
+							<lem wit="#Transcription">Nit gelebet &slong;o eweliche</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="226">
+						<app>
+							<lem wit="#Transcription">Al&slong;e hadde bede di gine,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="227">
+						<app>
+							<lem wit="#Transcription">Di nu geuaren &slong;in hine,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="228">
+						<app>
+							<lem wit="#Transcription">Der namen du wola ha&slong;t bekant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="229">
+						<app>
+							<lem wit="#Transcription">Der eine i&slong;t ferrugi&usmod; genant,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="230">
+						<app>
+							<lem wit="#Transcription">Der and&er; hezzit &slong;onali&usmod;.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="231">
+						<app>
+							<lem wit="#Transcription">Div &slong;ele antwirtte ime al &slong;u&slong;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="232">
+						<app>
+							<lem wit="#Transcription">'Wi &slong;ere ich de&slong; bewegit bin</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="233">
+						<app>
+							<lem wit="#Transcription">Daz di&slong;e hadde &slong;o guden &slong;in,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="234">
+						<app>
+							<lem wit="#Transcription">Daz ruwen ire &slong;unden,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="235">
+						<app>
+							<lem wit="#Transcription">Vn&bar; du in de&slong; gi&slong;t urkunde,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="236">
+						<app>
+							<lem wit="#Transcription">Vn&bar; &slong;i dirren pinen &slong;int benomen! </lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="237">
+						<app>
+							<lem wit="#Transcription">Herre min, wi i&slong;t dit komen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="238">
+						<app>
+							<lem wit="#Transcription">Daz di&slong;e and&er;e zwene gigande</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="239">
+						<app>
+							<lem wit="#Transcription">Stent in di&slong;&slong;e&slong; dieri&slong; banden</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="240">
+						<app>
+							<lem wit="#Transcription">Vn&bar; v&er;kerit in &slong;ime munde?'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="241">
+						<app>
+							<lem wit="#Transcription">Der engel antw&er;tten begunde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="242">
+						<app>
+							<lem wit="#Transcription">'Di&slong;e pine un&bar; di&slong;e quale, &horbar;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="243">
+						<app>
+							<lem wit="#Transcription">De&slong; inhat mich decheine hele, &horbar;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="244">
+						<app>
+							<lem wit="#Transcription">Al ein dunket &slong;i dich groz hi &slong;hinen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="245">
+						<app>
+							<lem wit="#Transcription">Du kume&slong; noch zu merren pinen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="246">
+						<app>
+							<lem wit="#Transcription">Di du &slong;alt &slong;in un&bar; &slong;int bekant,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="247">
+						<app>
+							<lem wit="#Transcription">Er du wid&er; w&er;de&slong; gewant.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="248">
+						<app>
+							<lem wit="#Transcription">Er ne ge&slong;prach dit ni &slong;o &slong;ire</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="249">
+						<app>
+							<lem wit="#Transcription">SO ginc er nah&er; deme dire.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="250">
+						<app>
+							<lem wit="#Transcription">Di &slong;ele, al en dede &slong;i iz node da,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="251">
+						<app>
+							<lem wit="#Transcription">Si mu&slong;t ime uolgen na.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="252">
+						<app>
+							<lem wit="#Transcription">Ire wa&slong; vil &slong;ere leide.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="253">
+						<app>
+							<lem wit="#Transcription">Al&slong;e &slong;i da &slong;tunden beide</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="254">
+						<app>
+							<lem wit="#Transcription">Vor deme dire enge&slong;tlich,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="255">
+						<app>
+							<lem wit="#Transcription">Der engel intlichede &slong;ich</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="256">
+						<app>
+							<lem wit="#Transcription">Et &slong;ola reman&slong;it mi&dslong;era,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="257">
+						<app>
+							<lem wit="#Transcription">Inde &slong;i arme beleb al eine da.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="258">
+						<app>
+							<lem wit="#Transcription">Di tuuele di d&er; wizen plagen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="259">
+						<app>
+							<lem wit="#Transcription">Do &slong;i di &slong;ele alene &slong;agen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="260">
+						<app>
+							<lem wit="#Transcription">Si uuren umbe &slong;i,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="261">
+						<app>
+							<lem wit="#Transcription">Ut cane&slong; rabidi,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="262">
+						<app>
+							<lem wit="#Transcription">Al&slong;e di dobende hunde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="263">
+						<app>
+							<lem wit="#Transcription">Zugen &slong;i &slong;i zu de&slong; dire&slong; munde</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="264">
+						<app>
+							<lem wit="#Transcription">In den buch bit grozen &slong;legen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="265">
+						<app>
+							<lem wit="#Transcription">So &slong;i mei&slong;t | mohten w&er;wegen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="266">
+						<app>
+							<lem wit="#Transcription">Wilche pine, wi grozen &slong;trit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="267">
+						<app>
+							<lem wit="#Transcription">Si da lide in corz&er; cit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="268">
+						<app>
+							<lem wit="#Transcription">Al einen &slong;i iz wole u&er;&slong;uigen mohte,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="269">
+						<app>
+							<lem wit="#Transcription">Ein wi&slong; man d&er; id dohte</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="270">
+						<app>
+							<lem wit="#Transcription">Ez mohte wole bit &slong;inen wizzen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="271">
+						<app>
+							<lem wit="#Transcription">Han irkant an &slong;ime antlizze,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="272">
+						<app>
+							<lem wit="#Transcription">Do di &slong;ele wid&er; quam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="273">
+						<app>
+							<lem wit="#Transcription">Idoch al&slong; iz manechez da uirnam</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="274">
+						<app>
+							<lem wit="#Transcription">An d&er; wid&er;kere da er lach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="275">
+						<app>
+							<lem wit="#Transcription">Di &slong;elbe wort di er da &slong;prah,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="276">
+						<app>
+							<lem wit="#Transcription">Alein inkonnen wi &slong;i nit alle ge&slong;riben,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="277">
+						<app>
+							<lem wit="#Transcription">Iz in&slong;al doch &slong;o nit v&er;liben</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="278">
+						<app>
+							<lem wit="#Transcription">Daz wir di materie uertragen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="279">
+						<app>
+							<lem wit="#Transcription">Wir in &slong;olin ein wenic trabe &slong;agen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="280">
+						<app>
+							<lem wit="#Transcription">Vn&bar; kunden, &slong;o uile i&slong; we&slong;en mach,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="281">
+						<app>
+							<lem wit="#Transcription">Von manegin dingen di er da &slong;ach.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="282">
+						<app>
+							<lem wit="#Transcription">Gepinet wart di &slong;ela da</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="283">
+						<app>
+							<lem wit="#Transcription">Von hunden di ire volgeten na;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="284">
+						<app>
+							<lem wit="#Transcription">Beide lewen un&bar; beren</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="285">
+						<app>
+							<lem wit="#Transcription">Di waren ire in groz&er; geren;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="286">
+						<app>
+							<lem wit="#Transcription">Natren un&bar; &slong;langen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="287">
+						<app>
+							<lem wit="#Transcription">Hatten &slong;i umbeuangen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="288">
+						<app>
+							<lem wit="#Transcription">Si leit von diren manege quale</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="289">
+						<app>
+							<lem wit="#Transcription">Der &slong;i inwi&slong;te decheine zale</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="290">
+						<app>
+							<lem wit="#Transcription">Noch d&er; &slong;i decheiniz inkande.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="291">
+						<app>
+							<lem wit="#Transcription">Manech dir &slong;i ane rande.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="292">
+						<app>
+							<lem wit="#Transcription">An d&er; &slong;elben &slong;tunden &slong;i leid</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="293">
+						<app>
+							<lem wit="#Transcription">Manegi&slong; dire&slong; grimmekeit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="294">
+						<app>
+							<lem wit="#Transcription">Der duuele &slong;lege wre&slong; izze.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="295">
+						<app>
+							<lem wit="#Transcription">Da in half &slong;in noch wizze:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="296">
+						<app>
+							<lem wit="#Transcription">Der groz&er; &slong;lege bitt&er;cheit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="297">
+						<app>
+							<lem wit="#Transcription">Vn&bar; de&slong; &slong;vebele&slong; unreinekeit,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="298">
+						<app>
+							<lem wit="#Transcription">Daz uin&slong;t&er;ni&slong;&slong;e d&er; owgen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="299">
+						<app>
+							<lem wit="#Transcription">Mu&slong;te &slong;i da towgen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="300">
+						<app>
+							<lem wit="#Transcription">Vlizende birnende trene</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="301">
+						<app>
+							<lem wit="#Transcription">Inwaren ire nit &slong;elt&slong;ene</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="302">
+						<app>
+							<lem wit="#Transcription">Noch tu&slong;tere u&slong; gehowfet.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="303">
+						<app>
+							<lem wit="#Transcription">Si wa&slong; &slong;ere ge&slong;owfit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="304">
+						<app>
+							<lem wit="#Transcription">In de&slong; grozen wre&slong; flammen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="305">
+						<app>
+							<lem wit="#Transcription">Da &slong;ach &slong;i cene gri&slong;grammen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="306">
+						<app>
+							<lem wit="#Transcription">Di&slong;e un&bar; and&er;e manege pinen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="307">
+						<app>
+							<lem wit="#Transcription">Di &slong;i da &slong;ach wolleclihe ir&slong;chinen &horbar;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="308">
+						<app>
+							<lem wit="#Transcription">Wi mohte &slong;i &slong;ich de&slong; in&slong;agen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="309">
+						<app>
+							<lem wit="#Transcription">Si in mu&slong;te weinen vn&bar; clagen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="310">
+						<app>
+							<lem wit="#Transcription">Daz groz ungemah?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="311">
+						<app>
+							<lem wit="#Transcription">Durh den mi&slong;&slong;etro&slong;t d&er; ir da ge&slong;chah</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="312">
+						<app>
+							<lem wit="#Transcription">So zereiz &slong;i ire wangen.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="313">
+						<app>
+							<lem wit="#Transcription">Bit &slong;orgen wa&slong; &slong;i beuangen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="314">
+						<app>
+							<lem wit="#Transcription">Bit vil groz&er; ungedult.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="315">
+						<app>
+							<lem wit="#Transcription">Al&slong;e &slong;i da bekande ire &slong;ult</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="316">
+						<app>
+							<lem wit="#Transcription">Daz &slong;i wirdik wa&slong; zen ewen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="317">
+						<app>
+							<lem wit="#Transcription">Ze wonene und&er; den wewen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="318">
+						<app>
+							<lem wit="#Transcription">Vn&bar; &slong;i virdinet al ir leben</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="319">
+						<app>
+							<lem wit="#Transcription">Daz &slong;i den pinen wa&slong; gegeben,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="320">
+						<app>
+							<lem wit="#Transcription">Si i&bar; wi&slong;te doch wan abe iz &qslstrok;&asup;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="321">
+						<app>
+							<lem wit="#Transcription">Daz ir pine da ende nam</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="322">
+						<app>
+							<lem wit="#Transcription">Vn&bar; &slong;ach den &slong;elben engel bi in &slong;tan</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="323">
+						<app>
+							<lem wit="#Transcription">Der ire e wa&slong; abe gegan.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="324">
+						<app>
+							<lem wit="#Transcription">Sere &slong;i &slong;ich vrowede do.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="325">
+						<app>
+							<lem wit="#Transcription">Deme engele &slong;prah &slong;i ab&er; zu</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="326">
+						<app>
+							<lem wit="#Transcription">'O du einege hoffunge min</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="327">
+						<app>
+							<lem wit="#Transcription">Lutere dan ein &slong;unnen &slong;chin,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="328">
+						<app>
+							<lem wit="#Transcription">Min einik tro&slong;t mine&slong; ruwen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="329">
+						<app>
+							<lem wit="#Transcription">Du mir von gode bi&slong; virluwen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="330">
+						<app>
+							<lem wit="#Transcription">O du min&er; owgen liht,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="331">
+						<app>
+							<lem wit="#Transcription">Wi wa&slong; mir bit dir ge&slong;it,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="332">
+						<app>
+							<lem wit="#Transcription">Daz du mir w&er;re ge&slong;tanden ab?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="333">
+						<app>
+							<lem wit="#Transcription">Du bi&slong;t gelede un&bar; &slong;tab</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="334">
+						<app>
+							<lem wit="#Transcription">Min&er; arme&bar; un&slong;elicheide:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="335">
+						<app>
+							<lem wit="#Transcription">Durh was lizze du mich von dime geleide?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="336">
+						<app>
+							<lem wit="#Transcription">Waz &slong;al ich nu al min leben</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="337">
+						<app>
+							<lem wit="#Transcription">Vn&slong;eme h&er;ren wid&er; gebin</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="338">
+						<app>
+							<lem wit="#Transcription">De&slong; h&er; mir un&slong;e h&er;re nie</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="339">
+						<app>
+							<lem wit="#Transcription">In hedde mir un&slong; h&er;re nie</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="340">
+						<app>
+							<lem wit="#Transcription">Me gudi&slong; getan in allen enden,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="341">
+						<app>
+							<lem wit="#Transcription">Dan daz er dich mir zetro&slong;te wolde &slong;end'n,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="342">
+						<app>
+							<lem wit="#Transcription">Daz izh w&combring;rd&er; inkunde nit gewanken,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="343">
+						<app>
+							<lem wit="#Transcription">Wi mohte ich ime de&slong; gedanken?'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="344">
+						<app>
+							<lem wit="#Transcription">Re&slong;pondit ei anglu&slong;,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="345">
+						<app>
+							<lem wit="#Transcription">Der engel antwirte ire al&slong;u&slong;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="346">
+						<app>
+							<lem wit="#Transcription">'Al&slong;e du zu er&slong;t &slong;prehe, al&slong;o i&slong;t iz noch;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="347">
+						<app>
+							<lem wit="#Transcription">Daz &slong;alt du baz geure&slong;in noch,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="348">
+						<app>
+							<lem wit="#Transcription">Daz merer i&slong;t gode&slong; genade</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="349">
+						<app>
+							<lem wit="#Transcription">Dan dine mi&slong;&slong;edede.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="350">
+						<app>
+							<lem wit="#Transcription">Ein igelichen &slong;al er geleiden</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="351">
+						<app>
+							<lem wit="#Transcription">Nach &slong;inen wirdekeiden.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="352">
+						<app>
+							<lem wit="#Transcription">Dar umbe i&slong;t iz al&slong; ich ge&slong;ate e</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="353">
+						<app>
+							<lem wit="#Transcription">Et oportet te p&bar;cau&er;e,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="354">
+						<app>
+							<lem wit="#Transcription">Sich wi du w&combring;rbaz daz . . .</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+				</lg>
+				<lg type="subsection" n="2">
+					<l n="355">
+						<app>
+							<lem wit="#Transcription"><hi rend="italic">So gew</hi>innent &slong;i danne grozen zorn</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="356">
+						<app>
+							<lem wit="#Transcription">Daz &slong;i di genade hant v&er;lorn.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="357">
+						<app>
+							<lem wit="#Transcription">Dit leit &slong;i god durh daz be&slong;owen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="358">
+						<app>
+							<lem wit="#Transcription">Daz haben de&slong;te merrin rowen,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="359">
+						<app>
+							<lem wit="#Transcription">Al&slong;e &slong;i di vrowde manicualt</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="360">
+						<app>
+							<lem wit="#Transcription">Wande &slong;i di vrowde manicualt</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="361">
+						<app>
+							<lem wit="#Transcription">Verlorin hant imer mere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="362">
+						<app>
+							<lem wit="#Transcription">Decheine pine in i&slong;t &slong;o &slong;were,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="363">
+						<app>
+							<lem wit="#Transcription">So daz ge&slong;heidit i&slong;t uon gode</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="364">
+						<app>
+							<lem wit="#Transcription">Vn&bar; &slong;iner engele gebode.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="365">
+						<app>
+							<lem wit="#Transcription">Et &pbardes;pt&er;a ille pre&slong;pit&er;,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="366">
+						<app>
+							<lem wit="#Transcription">Den du &slong;egi&slong; cumen her</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="367">
+						<app>
+							<lem wit="#Transcription">Inde &slong;ei&slong;t h&er; uure cumen da,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="368">
+						<app>
+							<lem wit="#Transcription">Duct&usmod; e&bar; ad &slong;upplicia,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="369">
+						<app>
+							<lem wit="#Transcription">Zu den pinen i&slong;t er geleidit</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="370">
+						<app>
+							<lem wit="#Transcription">Di &slong;in lange hant gebeidit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="371">
+						<app>
+							<lem wit="#Transcription">Di muz er be&slong;howen da inne,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="372">
+						<app>
+							<lem wit="#Transcription">Vffe daz er geware minne</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="373">
+						<app>
+							<lem wit="#Transcription">Zu deme drage un&bar; habe in lif</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="374">
+						<app>
+							<lem wit="#Transcription">Der ime zu d&er; engelle glorien rif.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="375">
+						<app>
+							<lem wit="#Transcription">Er i&slong;t d&er; getruwe dini&slong;tkenet,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="376">
+						<app>
+							<lem wit="#Transcription">Sin ende i&slong;t gud un&bar; gereht;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="377">
+						<app>
+							<lem wit="#Transcription">Dar umbe i&slong;t ime gegenin zu lone</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="378">
+						<app>
+							<lem wit="#Transcription">Du eweclihe himelcrone,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="379">
+						<app>
+							<lem wit="#Transcription">Di hat er inphangin imm&er; me,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="380">
+						<app>
+							<lem wit="#Transcription">Quam deu&slong; dedit diligentib&usmod; &slong;e,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="381">
+						<app>
+							<lem wit="#Transcription">Di god den ginen hat gegebin</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="382">
+						<app>
+							<lem wit="#Transcription">Di in geminnet hant al ir leben</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="383">
+						<app>
+							<lem wit="#Transcription">Bit guden w&er;ken, naht un&bar; tach.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="384">
+						<app>
+							<lem wit="#Transcription">Nah di&slong;en worten d&er; engel &slong;prach</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="385">
+						<app>
+							<lem wit="#Transcription">'Wir in han noh nit al ge&slong;in</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="386">
+						<app>
+							<lem wit="#Transcription">Daz ubel daz wir &slong;olen &slong;in.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="387">
+						<app>
+							<lem wit="#Transcription">Iz &slong;al dir uromen, al&slong;e wir dare komen:</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="388">
+						<app>
+							<lem wit="#Transcription">Du ge&slong;i&slong;t da de&slong; wir noh nit in han v&er;nomen.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="389">
+						<app>
+							<lem wit="#Transcription">Dw &slong;ele &slong;prah 'dit muz ich dolin.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="390">
+						<app>
+							<lem wit="#Transcription">Obe wir doch h&er; wid&er;e komen &slong;olen</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="391">
+						<app>
+							<lem wit="#Transcription">Zu decheinen genadin wid&er;,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="392">
+						<app>
+							<lem wit="#Transcription">So uure mich zu pinen nid&er;</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="393">
+						<app>
+							<lem wit="#Transcription">Vn&bar; la mich da | liden daz ich kan,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+					<l n="394">
+						<app>
+							<lem wit="#Transcription">Vffe daz ich zu genaden kume dan.'</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+				</lg>
+			</lg>
+			<lg type="section" n="3">
+				<head n="1">
+					<app>
+						<lem wit="#Transcription">Von den di in ge&slong;tlichme leibene uncu&slong;&slong;e &slong;in.</lem>
+						<rdg wit="#Translation"><!--STANZA TITLE TRANSLATION--></rdg>
+					</app>
+				</head>
+				<l n="395">
+					<app>
+						<lem wit="#Transcription">Mit deme engele diw &slong;ele hine zo</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="396">
+					<app>
+						<lem wit="#Transcription">Beide ruwin<hi rend="italic">de un&bar;</hi> unuro.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="397">
+					<app>
+						<lem wit="#Transcription">Da &slong;ehen &slong;i ein dir e&slong;lich,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="398">
+					<app>
+						<lem wit="#Transcription">Den and&er;in allen ungelich,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="399">
+					<app>
+						<lem wit="#Transcription">Di &slong;i da vorin irkande e.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="400">
+					<app>
+						<lem wit="#Transcription">Daz cumb&er;liche ve</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="401">
+					<app>
+						<lem wit="#Transcription">Hatte zwene uuze lange</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="402">
+					<app>
+						<lem wit="#Transcription">Vnde vlugele &slong;trange,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="403">
+					<app>
+						<lem wit="#Transcription">Den hal&slong; lanc un&bar; breit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="404">
+					<app>
+						<lem wit="#Transcription">Sin &slong;nabel i&slong;erin &slong;tach un&bar; &slong;neit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="405">
+					<app>
+						<lem wit="#Transcription">Sine nagele an uuzen un&bar; henden</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="406">
+					<app>
+						<lem wit="#Transcription">Waren i&slong;erin an allen endin.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="407">
+					<app>
+						<lem wit="#Transcription">Di ulamme &slong;of iz in den munt</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="408">
+					<app>
+						<lem wit="#Transcription">Vn&bar; bli&slong; &slong;i wid&er; uz groz zu aller &slong;tund.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="409">
+					<app>
+						<lem wit="#Transcription">Vf einime wazz&er;e &slong;az iz ge&slong;preit,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="410">
+					<app>
+						<lem wit="#Transcription">Daz wa&slong; ein i&slong; be&udotbl;roren breit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="411">
+					<app>
+						<lem wit="#Transcription">Daz &slong;elbe dir in &slong;ich vir&slong;lant</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="412">
+					<app>
+						<lem wit="#Transcription">Alle di &slong;elin di <hi rend="italic">iz</hi> uant.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="413">
+					<app>
+						<lem wit="#Transcription">Al&slong;e &slong;i zu nide virdouwet waren</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="414">
+					<app>
+						<lem wit="#Transcription">In &slong;inen buche bit groz&er; plagen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="415">
+					<app>
+						<lem wit="#Transcription">Vffe daz y&slong; iz &slong;i gebar;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="416">
+					<app>
+						<lem wit="#Transcription">Da wrden &slong;i pinen gwar,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="417">
+					<app>
+						<lem wit="#Transcription">Da mu&slong;ten &slong;i &slong;ich irnuwen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="418">
+					<app>
+						<lem wit="#Transcription">Wid&er; zu qualen bit grozeme ruwen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="419">
+					<app>
+						<lem wit="#Transcription">Di &slong;elin d&er; manne un&bar; och d&er; wibe</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="420">
+					<app>
+						<lem wit="#Transcription">Gebarin an irme libe</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="421">
+					<app>
+						<lem wit="#Transcription">Vn&bar; gena&slong;en de&slong; na irre wi&slong;e</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="422">
+					<app>
+						<lem wit="#Transcription">In deme wazz&er;e un&bar; in dem i&slong;e</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="423">
+					<app>
+						<lem wit="#Transcription">Zu iren ziden bit grozen &slong;weren.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="424">
+					<app>
+						<lem wit="#Transcription">Nu fold ir wizen waz &slong;i geberin.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="425">
+					<app>
+						<lem wit="#Transcription">Bit nat&er;in un&bar; bit &slong;langen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="426">
+					<app>
+						<lem wit="#Transcription">Waren &slong;i innen beuangen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="427">
+					<app>
+						<lem wit="#Transcription">Vil hartte &slong;i di bizzen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="428">
+					<app>
+						<lem wit="#Transcription">Ir inedere &slong;i in zurizzen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="429">
+					<app>
+						<lem wit="#Transcription">In deme wewin di armen uurin</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="430">
+					<app>
+						<lem wit="#Transcription">Vf un&bar; nid&er; mit groz&er; ruren.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="431">
+					<app>
+						<lem wit="#Transcription">In deme | mere inconden &slong;i nit gegrundin,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="432">
+					<app>
+						<lem wit="#Transcription">In de&slong; dodi&slong; i&slong;i&slong; unden.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="433">
+					<app>
+						<lem wit="#Transcription">Al&slong;e danne quam de&slong; gebere&slong; cit,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="434">
+					<app>
+						<lem wit="#Transcription">So wart daz ge&slong;reie un&bar; d&er; &slong;trit</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="435">
+					<app>
+						<lem wit="#Transcription">Al&slong; bitt&er;liche hart</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="436">
+					<app>
+						<lem wit="#Transcription">Daz di helle alle iruullit wart;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="437">
+					<app>
+						<lem wit="#Transcription">Et &slong;ic &slong;erpente&slong; pariebant,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="438">
+					<app>
+						<lem wit="#Transcription">Di &slong;langen gewnnen &slong;i al zu hant.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="439">
+					<app>
+						<lem wit="#Transcription">Di wib gebaren nit al eine,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="440">
+					<app>
+						<lem wit="#Transcription">Wene di man al gemeine.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="441">
+					<app>
+						<lem wit="#Transcription">Allen talben ub&er; den lib</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="442">
+					<app>
+						<lem wit="#Transcription">Gebaren man un&bar; wib,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="443">
+					<app>
+						<lem wit="#Transcription">Nit an d&er; &slong;tede, de&slong; &slong;it gewi&slong;,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="444">
+					<app>
+						<lem wit="#Transcription">Di dar zu getermit i&slong;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="445">
+					<app>
+						<lem wit="#Transcription">Wene durh alle ire lide gelich</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="446">
+					<app>
+						<lem wit="#Transcription">So gebar ir igelich.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="447">
+					<app>
+						<lem wit="#Transcription">Bru&slong;t un&bar; arme &slong;i durch &slong;tachen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="448">
+					<app>
+						<lem wit="#Transcription">In allen talben &slong;i uz brachen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="449">
+					<app>
+						<lem wit="#Transcription">Di &slong;elbe dir d&er; &slong;i gena&slong;en</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="450">
+					<app>
+						<lem wit="#Transcription">Rungen zu hant nah iren a&slong;en;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="451">
+					<app>
+						<lem wit="#Transcription">Ire&slong; ezzeni&slong; waren &slong;i in uaren.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="452">
+					<app>
+						<lem wit="#Transcription">Ire howbet gluende y&slong;erin waren.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="453">
+					<app>
+						<lem wit="#Transcription">Ire &slong;nebele, daz &slong;old ir wizzen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="454">
+					<app>
+						<lem wit="#Transcription">Da mide &slong;i di lihamen zurizzen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="455">
+					<app>
+						<lem wit="#Transcription">Al&slong;e &slong;i uz gigen in allen talben.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="456">
+					<app>
+						<lem wit="#Transcription">Bech un&bar; &slong;webel waren ire &slong;alben.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="457">
+					<app>
+						<lem wit="#Transcription">Ire zegele di &slong;i bit in brachtin</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="458">
+					<app>
+						<lem wit="#Transcription">Hadden manegen colben behahten;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="459">
+					<app>
+						<lem wit="#Transcription">Di warin crump al&slong; engele &slong;int;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="460">
+					<app>
+						<lem wit="#Transcription">Da mide zurizzen &slong;i &slong;i al&slong; ein lint,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="461">
+					<app>
+						<lem wit="#Transcription">Di arme &slong;elin ub&er; allen den lip.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="462">
+					<app>
+						<lem wit="#Transcription">Su&slong; pinegedin &slong;i man un&bar; wib.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="463">
+					<app>
+						<lem wit="#Transcription">Al&slong;e di dir dan uz gen begunden</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="464">
+					<app>
+						<lem wit="#Transcription">Vn&bar; ire zegele bit in gezihen nit inkunden</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="465">
+					<app>
+						<lem wit="#Transcription">Vor den hechin un&bar; uor den angen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="466">
+					<app>
+						<lem wit="#Transcription">So begunden &slong;i danne umbe langen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="467">
+					<app>
+						<lem wit="#Transcription">Bit den &slong;nebelin i&slong;erin &horbar;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="468">
+					<app>
+						<lem wit="#Transcription">Daz mu&slong;te danne ir quale &slong;in &horbar;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="469">
+					<app>
+						<lem wit="#Transcription">Biz &slong;i uerze<hi rend="italic">rdin</hi> aderin un&bar; ben</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="470">
+					<app>
+						<lem wit="#Transcription">So daz da nu&slong;nit ane in &slong;en.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="471">
+					<app>
+						<lem wit="#Transcription">Bit luder grimm&er; &slong;timmen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="472">
+					<app>
+						<lem wit="#Transcription">Begunden &slong;i allen grimmen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="473">
+					<app>
+						<lem wit="#Transcription">In den unden und&er; deme us&slong;e,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="474">
+					<app>
+						<lem wit="#Transcription">Ir igelich nach &slong;iner wi&slong;e.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="475">
+					<app>
+						<lem wit="#Transcription">Maniche &slong;ele hulde da yn&bar; carde.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="476">
+					<app>
+						<lem wit="#Transcription">Di dir &slongl; &slong;<hi rend="talic">ru</hi>wen da &slong;o hardde,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="477">
+					<app>
+						<lem wit="#Transcription">Daz &slong;i uz un&bar; in iledin al,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="478">
+					<app>
+						<lem wit="#Transcription">So daz iz in den himel &slong;al</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="479">
+					<app>
+						<lem wit="#Transcription">Al&slong;o lude inde al&slong;o &slong;ere,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="480">
+					<app>
+						<lem wit="#Transcription">Ob an den duuelin irgen were</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="481">
+					<app>
+						<lem wit="#Transcription">Scintilla pietati&slong;, &horbar;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="482">
+					<app>
+						<lem wit="#Transcription">Nu horit  wi daz gedude i&slong;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="483">
+					<app>
+						<lem wit="#Transcription">Iz i&slong;t gut, daz ich iz uch be&slong;cheide:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="484">
+					<app>
+						<lem wit="#Transcription">Iz quit 'ein gene&slong;tre d&er; mildekeide'.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="485">
+					<app>
+						<lem wit="#Transcription">Daz i&slong;t doch ein clen gewin! &horbar;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="486">
+					<app>
+						<lem wit="#Transcription">Were doch d&er; irgen an in,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="487">
+					<app>
+						<lem wit="#Transcription">So mohte &slong;i iz irbarmet han</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="488">
+					<app>
+						<lem wit="#Transcription">Daz weinen un&bar; daz hat&slong;lan</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="489">
+					<app>
+						<lem wit="#Transcription">Daz di arme &slong;elen mahten da.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="490">
+					<app>
+						<lem wit="#Transcription">Ruwe un&bar; ra&slong;te wa&slong; in unna.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="491">
+					<app>
+						<lem wit="#Transcription">In allen geliden &slong;i gewnnen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="492">
+					<app>
+						<lem wit="#Transcription">Di dir ir howbet ho uf dru&bar;gen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="493">
+					<app>
+						<lem wit="#Transcription">Manecher dire kunne an in &slong;azen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="494">
+					<app>
+						<lem wit="#Transcription">Ire lid&er;e &slong;i in alle durh azen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="495">
+					<app>
+						<lem wit="#Transcription">Biz an di bein un&bar; aderin.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="496">
+					<app>
+						<lem wit="#Transcription">Al &slong;o krupen &slong;i uz un&bar; in.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="497">
+					<app>
+						<lem wit="#Transcription">Lebende zungen hatte &slong;i owch</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="498">
+					<app>
+						<lem wit="#Transcription">Da mide daz ir igelich &slong;owch</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="499">
+					<app>
+						<lem wit="#Transcription">Der &slong;elen mint un&bar; rachen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="500">
+					<app>
+						<lem wit="#Transcription">Bit bitt&er;lichen &slong;ahgen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="501">
+					<app>
+						<lem wit="#Transcription">Biz &slong;i w&er;zerden bit iren zungen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="502">
+					<app>
+						<lem wit="#Transcription">Bru&slong;t un&bar; braden biz an di lungen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="503">
+					<app>
+						<lem wit="#Transcription">Alle di uugen an irme libe,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="504">
+					<app>
+						<lem wit="#Transcription">An mannen un&bar; an wibem,,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="505">
+					<app>
+						<lem wit="#Transcription">Si geglichedin den &slong;langen:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="506">
+					<app>
+						<lem wit="#Transcription">Den buch hatte &slong;i innen beuangen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="507">
+					<app>
+						<lem wit="#Transcription">Ir ined&er;e rizzen &slong;i inzwe.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="508">
+					<app>
+						<lem wit="#Transcription">So wart dan ein michel ge&slong;re.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
