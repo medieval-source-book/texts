@@ -94,6 +94,7 @@
 				</title>
 			</head>
 			<lg type="poem">
+				<lg n="1">
 					<l n="1">
 						<app>
 							<lem wit="#Transcription"></lem>
@@ -106,64 +107,59 @@
 					</l>
 					<l n="2">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="3">
 						<app>
-							<lem wit="#Transcription">foo</lem>
-							<rdg wit="#Translation">foo</rdg>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="4">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="5">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="6">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="7">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="8">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="9">
 						<app>
-							<lem wit="#Transcription">foo</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="10">
 						<app>
-							<lem wit="#Transcription">foo<milestone unit="stanza"/></lem>
-							<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-						</app>
-					</l>
-					<l n="1">
-						<app>
-							<lem wit="#Transcription">bar</lem>
+							<lem wit="#Transcription"></lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
+				</lg>
 			</lg>
 		</body>
 	</text>
