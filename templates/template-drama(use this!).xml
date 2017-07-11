@@ -24,10 +24,10 @@
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
+'http://www.menota.org/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
