@@ -97,6 +97,18 @@
 							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
 						</app>
 					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Une sentence</lem>
+							<rdg wit="#Translation">A sentence</rdg>
+						</app>
+					</s>
+					<s>
+						Another sentence
+					</s>
+				</p>
+				<p n="2">
+					<s>A new paragraph</s>
 				</p>
 			</div>
 		</body>
