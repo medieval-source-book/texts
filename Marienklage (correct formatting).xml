@@ -1,0 +1,405 @@
+<!--
+	Language change: 
+
+	If a text changes language, you should specify that in your encoding. 
+	Here is how to do it:
+
+	When the text changes language, use an extra modifier in your tag. 
+
+	For example: (a text changes to Latin)
+		<l xml:lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</l>
+
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
+-->
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>TITLE</title>
+				<author>AUTHOR</author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name>WHO TRANSCRIBED ME?</name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name>WHO TRANSLATED ME?</name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>YOUR NAME HERE</name>
+			</respStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>ANY SOURCES GO HERE</p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">TITLE</witness>
+					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">TITLE</lem>
+						<rdg wit="#Translation">TITLE'S TRANSLATION</rdg>
+					</app>
+				</title>
+			</head>
+
+			<!-- stage directions -->
+
+			<stage>
+				<app>
+					<lem wit="#Transcription">
+						<p>Planctum istum facit beata virgo Maria cum quattor personis deuotis deuotissime bona sexta feria ante prandium in ecclesia ante chorum in loco aliquantaum eleuato vel extra ecclesiam, si bona est aura.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Planctus iste non est ludus nec ludibrium, sed est planctus et fletus et pia compassio Marie virginis gloriose.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et cuandocunque fit a bonis et deuotis hominibus, in genere siue in specie valde prouocat homines circumstantes ad pium fletum et ad compassionem.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>sicut facit sermo deuotus bona sexta feria de passione domini nostri Jhesu Cristi.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Si non potest fieri bona sexta feria commodose propter sermonem de passione domini, tunc beata virgo faciat istum planctum antea cum suis, sicut feria secunda post dominicam palmarum ante prandium.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Iste planctus fit commodose in duabus horis et media.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et omnia, que tunc fiunt ab illis quinque personis, non debent fieri cum festinacione nec nimia mora, sed medio et bono modo.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Ille, qui est Jhesus, est deuotus sacerdos.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Maria iuuenis.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Johannes ewangelista sacerdos.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Maria Magdalena et mater Johannes ewangelista iuuenis.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Jhesus debet se preparare cum casula rubra.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Johannes simili modo.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Jhesus et Johannes debent habere dyademata de papiro; dyadema Jhesu habeat rubram crucem ante et retro.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Maria debet se preparare cum vestibus, sicut Maria Magdalena in nocte pasche.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Johannes habeat gladium de ligno cum vagina, quem tenet in manu, quum exit cum rigmo suo.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et Johannes debet sepius tangere cor Marie vel pectus eius.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et quum facit actum suum, statim deponit gladium.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Iuuenis quidam bene vestitus potest postea lumbos crucifixi.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Dominus Jhesus cum primo exit cum alijs quattuor personis, deuote portat crucem in manibus suis.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et quum cantauit versum "Quoniam tribulacio proxima est", statim deponit crucem.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et quum faciunt planctum, dominus Jhesus debet habere crucifixum ante se.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et cuandocunque facit actum, tunc crucem deponit et intrudit crucifixum.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Beata virgo stat a dextris Jhesu Cristi cum Maria Magdalena.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Johannes a sinistris cum matre sua.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Virgo Maria quum facit actum suum, vadit ad medium et aliquando vertit se ad filium ad orientum, aliquando ad occidentem, aliquando ad aquilones, aliquando ad meridiem cum gladio Symeonis, quem tenet beatus Johannes ante pectus eius.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Aliquando beata virgo expandit brachia sua, aliquando leuat manus suas ad filium cum oculis: omnia cum moderamine.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Quandocunque fecit actum suum, vadit at locum suum et stat a dextris.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Simili modo faciunt alij.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Quum exeunt et quum intrant, faciunt tria paria: primo exit dominus Jhesus cum cruce cum Johanne ewangelista, post hos beata virgo cum Maria Magdalena, vltimo mater Johannes cum rectore, et ille incipit psalmum "Circumdederunt me viri mendaces" vsque ad locum preparatum.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Ffinito psalmo dominus Jhesus cantat solus versum "Quoniam tribulacio proxima est" et vertit faciem ad occidentem semper.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Vnusquisque dicat rigmum suum cum deuocione plangendo in eadem et nota et dono discreto.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+								<app>
+					<lem wit="#Transcription">
+						<p>Quum Jhesus finiuit versum "Quoniam tribulacio", Johannes ewangelista statim dicit ad omnem populum plangendo:</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+			</stage>
+
+			<!-- The next block should be used every time the speaker changes -->
+
+			<!-- A) Start here: -->
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>TRANSCRIPTION OF SPEAKER'S NAME GOES HERE</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+
+				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+
+
+				<!-- B) from here: --> 
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="1"> 
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="1">
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
+								<note anchored="true">
+									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+								</note>
+							</l>
+						</lg>
+					</rdg>
+				</app>
+				<!-- B) to here -->
+
+
+			</sp>
+			<!-- A) End here -->
+
+		</body>
+	</text>
+</TEI>
