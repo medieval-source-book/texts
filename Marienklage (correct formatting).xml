@@ -92,7 +92,7 @@
 
 			<!-- stage directions -->
 
-			<stage>
+			<stage xml:"lang"="la">
 				<app>
 					<lem wit="#Transcription">
 						<p>Planctum istum facit beata virgo Maria cum quattor personis deuotis deuotissime bona sexta feria ante prandium in ecclesia ante chorum in loco aliquantaum eleuato vel extra ecclesiam, si bona est aura.</p>
@@ -359,7 +359,7 @@
 				</app>
 			</stage>
 
-			<sp>
+			<sp xml:"lang"="de">
 				<app>
 					<lem wit="#Transcription">
 						<speaker>Johannes ewangelista</speaker>
@@ -1929,13 +1929,1311 @@
 					</rdg>
 				</app>	
 			</sp>
-			<sp>
+			<sp xml:"lang"="la">
 				<app>
 					<lem wit="#Transcription">
 						<speaker>Beata virgo Maria iucipit hic planctum suum dolorosissimum deuotissime. Psalmus:</speaker>
 					</lem>
 					<rdg wit="#Translation">
 						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="132" type="sung">Anxiatus est in me spiritus meus,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="132" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="133" type="sung">In me turbatum est cor meum!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="133" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="134" type="sung">Nu bedrouet sik myn geyst an mynem herten sere,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="134" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="135" type="sung">Noch mer wen gy wyf gewan dorch mynes kyndes ere.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="135" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria dicit et vertit se ad populum</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="136">O aller barmhertigeste god,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="136">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="137">Wo grot ys myne klaghe vnde myn not</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="137">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="138">Vmme Jhesus Cristum, den leuen sone myn!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="138">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="139">Ik vruchte, he mot in groten noden syn.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="139">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="140">Ach woste yk, wor yk mochte</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="140">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="141">Ghan, dar yk ene sochte!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="141">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="142">Dar gynge yk myt wyllen gerne hyn,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="142">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="143">Scholdet ok kosten dat leuent myn.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="143">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Beata virgo cautat hoc</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="144" type="sung">Conturbata sunt omnia ossa mea, et anima mea turbata est valde.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="144" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria statim dicit ad Johannem:</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="145">Johannes, myn leue &odot;m, wat mach dat beduden?</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="145">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="146">Ghynnert synt gesammelt vele lude,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="146">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="147">Se ropen lude und beren swar.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="147">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="148">Eya nu gha myt my ald&adot;r</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="148">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="149">L&adot;t vns beseen, wat see bedryuen!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="149">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sanctus Johannes respondet</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="150">Neen, Maria leue medder wij moget leuer blyuen!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="150">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="151">De yoden synt eres ouermodes also vil,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="151">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="152">Vor war ik dy dat saghen wyl.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="152">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="153">Se brochten sunte Peter darto in desser nacht,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="153">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="154">Dat he synes heren vors&odot;k vnde syner macht;</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="154">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="155">Schege my armen manne ok also,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="155">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="156">Des worde yk nummer vro.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="156">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria respondit</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="157">Johannes, myn vil leue vrund,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="157">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="158">Twyde my an desser stund,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="158">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="159">Vnde ga myt my aldar,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="159">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="160">Wente yd ys dar mennich var!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="160">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="161">Lat vns beseen, wat se bedryuen!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="161">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="162">Ik wyl stede by dy blyuen;</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="162">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="163">Myt der warheyt schaltu dat beseen:</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="163">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="164">Ik wyl vaste st&adot;n vnde ok nicht van dy vleen</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="164">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="165">Sume nicht! wij mogen nu nicht lenger stan.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="165">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sanctus Johannes respondet</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="166">Maria, leue medder, yk wyl gerne myt dy g&adot;n.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="166">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="167">Scholde yk ok darvmme lyn den bytteren dot,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="167">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="168">Ik vorlate dy nicht in desser groten not.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="168">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>
+							<l>Valde modicum transeunt, silicet, si est opus, usque ad medium circuli.</l>
+							<l>Et sancta Maria statim incipit cantare</l>
+						</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="9">
+							<l n="169" type="sung">Owe des ghandes, des yk gha</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="9">
+							<l n="169" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="9">
+							<l n="170" type="sung">Myt yamer vnde myt ruwen!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="9">
+							<l n="170" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="9">
+							<l n="171" type="sung">Myn kynt an deme crutze steyt,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="9">
+							<l n="171" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="9">
+							<l n="172" type="sung">Myn leyt wil sik vornuwen.</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="9">
+							<l n="172" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="10">
+							<l n="173" type="sung">Owe, owy, owe</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="10">
+							<l n="173" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="10">
+							<l n="174" type="sung">Des gandes, des yk nu ghe!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="10">
+							<l n="174" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="10">
+							<l n="175" type="sung">Ik mot scrygen yummermer:</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="10">
+							<l n="175" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="10">
+							<l n="176" type="sung"></l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="10">
+							<l n="176" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="10">
+							<l n="177" type="sung">Owe, owy, owe!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="10">
+							<l n="177" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="11">
+							<l n="178" type="sung">Bedrouet synt de synne myn,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="11">
+							<l n="178" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="11">
+							<l n="179" type="sung">Went de heylant ys in pyn,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="11">
+							<l n="179" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="11">
+							<l n="180" type="sung">De myn kynt ys vnde ok myn god</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="11">
+							<l n="180" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="11">
+							<l n="181" type="sung">Vnde der enghel sabaoth.</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="11">
+							<l n="181" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="12">
+							<l n="182" type="sung">Owy, owe!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="12">
+							<l n="182" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="12">
+							<l n="183" type="sung">Owe, leyder wat ik nu vynde</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="12">
+							<l n="183" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="12">
+							<l n="184" type="sung">An mynem herten truwen kynde!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="12">
+							<l n="184" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="12">
+							<l n="185" type="sung">Wor schal ik arme maget blyuen?</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="12">
+							<l n="185" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="12">
+							<l n="186" type="sung">Dot, kum her vnde my vorswynde!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="12">
+							<l n="186" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria extendit manum ad filium hic et dicit ad sanctum Johannes</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="187">See, Johannes leue &odot;m,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="187">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="188">Wat ys gehanget vor vns an den b&odot;m,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="188">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="189">Ys yd eyn mynsche edder eyn worm?</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="189">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="190">Id wyndet sik in den neghelen vnde drift groten storm;</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="190">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="191">Id mot in groten bytteren pynen syn.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="191">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sanctus Johannes respondet plangendo</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="192">Owe, Maria, dat ys dat leue kynt dyn!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="192">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="193">See, wo yd gevyllet st&adot;t</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="193">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="194">Vnde ok vp synem hilgen houede h&adot;t</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="194">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="195">Van scharpen d&odot;rne eyne krone!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="195">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="196">Dat hilge blot vlut ouer syn antlat schone,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="196">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="197">Ok ouer syne ogen bet in syne munt.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="197">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="198">O Maria, see, wo yd steyt gewund:</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="198">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="199">Dat mochte eynem stene entfarmen!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="199">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="200">O leuen kyndere, helpet dat altomale bekarmen!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="200">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria respondet</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="201">Owe, ys dat myn leue truten sone?</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="201">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="202">Ik wolde, dat syne scharpen dornekrone</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="202">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="203">Vp mynem houede sete an dessen stunden,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="203">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="204">Vnde syne mennichualdigen depen wunden</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="204">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="205">Vor em weren an mynem lyue,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="205">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="206">Vppe dat he mochte leuendich blyuen.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="206">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<!-- This is technically a stage direction, but I am treating it as a change in speaker, mostly because singing gets introduced -->
+						<speaker>Et cantat:</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="13">
+							<l n="207" type="sung">Owe, yamer vnde not!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="13">
+							<l n="207" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="13">
+							<l n="208" type="sung">Owe, mynes leuen kyndes dot,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="13">
+							<l n="208" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="13">
+							<l n="209" type="sung">Den ik an herten drage</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="13">
+							<l n="209" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="13">
+							<l n="210" type="sung">Vnde so yamerliken klaghe!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="13">
+							<l n="210" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="14">
+							<l n="211" type="sung">Yo gha ik wedder vnde dort,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="14">
+							<l n="211" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="14">
+							<l n="212" type="sung">Noch entret hijr nemant vort,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="14">
+							<l n="212" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="14">
+							<l n="213" type="sung">De desse martere beweynede!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="14">
+							<l n="213" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="14">
+							<l n="214" type="sung">Owe, elende!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="14">
+							<l n="214" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="15">
+							<l n="215" type="sung">Owy, owe my huten vnde jummermer</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="15">
+							<l n="215" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="15">
+							<l n="216" type="sung">Vmme mynes kyndes d&odot;t!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="15">
+							<l n="216" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="15">
+							<l n="217" type="sung">Myn kummer ys so rechte grot.</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="15">
+							<l n="217" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="15">
+							<l n="218" type="sung">Owy, owe!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="15">
+							<l n="218" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Et dicit vlterius</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="219">Eya, moderlyke herte,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="219">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="220">Wat lydestu pyne vnde smerte!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="220">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Dominus Jhesus dicit habens crucifixum ante se</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="221">Myn volk, wo seer hestu dy an my gewraken!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="221">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="222">Ik hebbe dy doch nicht to leyde gedan edder gespraken?</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="222">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="223">Myn volk, yk vorede dy ouer dat wylde meer</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="223">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="224">Vnde vordruckede Pharaonis heer;</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="224">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="225">Ik reghende dy enghelsch brod</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="225">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="226">Yn der w&odot;stenyge to dyner n&odot;t:</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="226">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="227">Darvmme hestu my ghevanghen</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="227">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="16">
+							<l n="228">Vnde darto an dat crutze gehanghen!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="16">
+							<l n="228">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="229">De vosse hebben ere kulen,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="229">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="230">Dar se ynne schulen,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="230">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="231">De vogele hebben ere neste,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="231">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="232">De heren hebben ere gheveste, -</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="232">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="233">Des mynschen sone leyder nicht enh&adot;t,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="233">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="234">Dar syn kranke houet ane st&adot;t.</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="234">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="17">
+							<l n="235">Owy vnde we, wart doch ny mynschen so we!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="17">
+							<l n="235">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria cantat post hoc</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="18">
+							<l n="236" type="sung">Ik horede enen r&odot;p:</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="18">
+							<l n="236" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="18">
+							<l n="237" type="sung">Dat ys mynt kynt Jhesus, de myr geschop</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="18">
+							<l n="237" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="18">
+							<l n="238" type="sung">Vnde al de werlt gemeyne;</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="18">
+							<l n="238" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="18">
+							<l n="239" type="sung">Des mot yk arme schrygen vnde weynen.</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="18">
+							<l n="239" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="19">
+							<l n="240" type="sung">Van Jherusalem gy vrowen,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="19">
+							<l n="240" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="19">
+							<l n="241" type="sung">Nu helpet huden schowen</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="19">
+							<l n="241" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="19">
+							<l n="242" type="sung">Mynes leuen kyndes dot,</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="19">
+							<l n="242" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="19">
+							<l n="243" type="sung">Dat hyr hanget naket vnde blot!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="19">
+							<l n="243" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="19">
+							<l n="244" type="sung">Owy, owe!</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="19">
+							<l n="244" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Sancta Maria dicit post hoc ricmum</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="245">Ach wo grote pyne vnde smerte</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="245">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="246">Lydet myn arm bedrouede herte</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="246">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="247">Vmme mynes leuen kyndes byttercheyt,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="247">TRANSLATION OF SPOKEN LINE GOES HERE</l>
 					</rdg>
 				</app>
 			</sp>
