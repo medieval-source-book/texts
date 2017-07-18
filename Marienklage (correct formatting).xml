@@ -46,9 +46,9 @@
 				<name>WHO TRANSLATED ME?</name>
 			</respStmt>
 			<respStmt>
-				<resp>Digital Transcription by</resp>
-				<name>YOUR NAME HERE</name>
-			</respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
 			<publicationStmt>
 				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
 				<availability>
@@ -468,7 +468,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="2"> 
-							<l n="9">Dat he alwyllynges ok wolde g&adot;n,</l>
+							<l n="9">Dat he alwyllynges ok wolde g&esup;n,</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -480,7 +480,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="2"> 
-							<l n="10">Dar en syne vygende wolden v&adot;n;</l>
+							<l n="10">Dar en syne vygende wolden v&esup;n;</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -912,7 +912,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="4"> 
-							<l n="46">He m&edot;nde, dat he were eyn t&odot;uerer</l>
+							<l n="46">He m&esup;nde, dat he were eyn t&esup;uerer</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1008,7 +1008,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="4"> 
-							<l n="54">He t&odot;ch em eyn d&odot;ren kleyt an</l>
+							<l n="54">He t&esup;ch em eyn d&esup;ren kleyt an</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1032,7 +1032,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="4"> 
-							<l n="56">Dat l&edot;et vnse leue here myt groder dult</l>
+							<l n="56">Dat l&esup;et vnse leue here myt groder dult</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1116,7 +1116,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="5"> 
-							<l n="63">Vnde syn dure bl&odot;d ouer alle syn leuent dreff.</l>
+							<l n="63">Vnde syn dure bl&esup;d ouer alle syn leuent dreff.</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1128,7 +1128,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="5"> 
-							<l n="64">Se vlechteden eyne scharpe d&odot;rne krone;</l>
+							<l n="64">Se vlechteden eyne scharpe d&esup;rne krone;</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1152,7 +1152,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="5"> 
-							<l n="66">Dat syn hylge dure bl&odot;t</l>
+							<l n="66">Dat syn hylge dure bl&esup;t</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1164,7 +1164,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="5"> 
-							<l n="67">Ouer syn hilge antlat vl&odot;t.</l>
+							<l n="67">Ouer syn hilge antlat vl&esup;t.</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1236,7 +1236,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="5"> 
-							<l n="73">Ghegrutet systu, der yoden koningh! h&odot;nlyken spreken see.</l>
+							<l n="73">Ghegrutet systu, der yoden koningh! h&esup;nlyken spreken see.</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1272,7 +1272,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="6"> 
-							<l n="76">Eyn valsch ordel wart ouer em ged&adot;n,</l>
+							<l n="76">Eyn valsch ordel wart ouer em ged&esup;n,</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1284,7 +1284,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="6"> 
-							<l n="77">Dat me ene scholde an eyn krutze sl&adot;n.</l>
+							<l n="77">Dat me ene scholde an eyn krutze sl&esup;n.</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1404,7 +1404,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="6"> 
-							<l n="88">Dar weren ok twe m&odot;ordere gevangen;</l>
+							<l n="88">Dar weren ok twe m&esup;ordere gevangen;</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1596,7 +1596,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="7"> 
-							<l n="104">Dar vl&odot;t vth water vnde blot.</l>
+							<l n="104">Dar vl&esup;t vth water vnde blot.</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1632,7 +1632,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="7"> 
-							<l n="107">Der sune let van groter dr&odot;fnisse ere schynent,</l>
+							<l n="107">Der sune let van groter dr&esup;fnisse ere schynent,</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -1800,7 +1800,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="8"> 
-							<l n="121">Latet juw ere lydent to herten g&adot;n!</l>
+							<l n="121">Latet juw ere lydent to herten g&esup;n!</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -2074,7 +2074,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="145">Johannes, myn leue &odot;m, wat mach dat beduden?</l>
+						<l n="145">Johannes, myn leue &esup;m, wat mach dat beduden?</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="145">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2098,7 +2098,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="148">Eya nu gha myt my ald&adot;r</l>
+						<l n="148">Eya nu gha myt my ald&esup;r</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="148">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2106,7 +2106,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="149">L&adot;t vns beseen, wat see bedryuen!</l>
+						<l n="149">L&esup;t vns beseen, wat see bedryuen!</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="149">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2156,7 +2156,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="154">Dat he synes heren vors&odot;k vnde syner macht;</l>
+						<l n="154">Dat he synes heren vors&esup;k vnde syner macht;</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="154">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2246,7 +2246,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="164">Ik wyl vaste st&adot;n vnde ok nicht van dy vleen</l>
+						<l n="164">Ik wyl vaste st&esup;n vnde ok nicht van dy vleen</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="164">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2272,7 +2272,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="166">Maria, leue medder, yk wyl gerne myt dy g&adot;n.</l>
+						<l n="166">Maria, leue medder, yk wyl gerne myt dy g&esup;n.</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="166">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2535,7 +2535,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="187">See, Johannes leue &odot;m,</l>
+						<l n="187">See, Johannes leue &esup;m,</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="187">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2543,7 +2543,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="188">Wat ys gehanget vor vns an den b&odot;m,</l>
+						<l n="188">Wat ys gehanget vor vns an den b&esup;m,</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="188">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2593,7 +2593,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="193">See, wo yd gevyllet st&adot;t</l>
+						<l n="193">See, wo yd gevyllet st&esup;t</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="193">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2601,7 +2601,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="194">Vnde ok vp synem hilgen houede h&adot;t</l>
+						<l n="194">Vnde ok vp synem hilgen houede h&esup;t</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="194">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2609,7 +2609,7 @@
 				</app>
 				<app>
 					<lem wit="#Transcription">
-						<l n="195">Van scharpen d&odot;rne eyne krone!</l>
+						<l n="195">Van scharpen d&esup;rne eyne krone!</l>
 					</lem>
 					<rdg wit="#Translation">
 						<l n="195">TRANSLATION OF SPOKEN LINE GOES HERE</l>
@@ -2835,7 +2835,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="15">
-							<l n="216" type="sung">Vmme mynes kyndes d&odot;t!</l>
+							<l n="216" type="sung">Vmme mynes kyndes d&esup;t!</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -2967,7 +2967,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="16">
-							<l n="226">Yn der w&odot;stenyge to dyner n&odot;t:</l>
+							<l n="226">Yn der w&esup;stenyge to dyner n&esup;t:</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -3051,7 +3051,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="17">
-							<l n="233">Des mynschen sone leyder nicht enh&adot;t,</l>
+							<l n="233">Des mynschen sone leyder nicht enh&esup;t,</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -3063,7 +3063,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="17">
-							<l n="234">Dar syn kranke houet ane st&adot;t.</l>
+							<l n="234">Dar syn kranke houet ane st&esup;t.</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
@@ -3097,7 +3097,7 @@
 				<app>
 					<lem wit="#Transcription">
 						<lg type="stanza" n="18">
-							<l n="236" type="sung">Ik horede enen r&odot;p:</l>
+							<l n="236" type="sung">Ik horede enen r&esup;p:</l>
 						</lg>
 					</lem>
 					<rdg wit="#Translation">
