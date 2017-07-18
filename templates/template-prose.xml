@@ -34,19 +34,23 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>TITLE</title>
+				<author>AUTHOR</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>WHO TRANSCRIBED ME?</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>WHO TRANSLATED ME?</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>YOUR NAME HERE</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher></publisher>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
 				<availability>
 					<p></p>
 				</availability>

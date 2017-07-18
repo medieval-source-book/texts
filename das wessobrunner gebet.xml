@@ -18,11 +18,15 @@
 					<resp>Translation by</resp>
 					<name>Hannah Frakes</name>
 				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
 			</titleStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 				<note type='critIntro'>
-			</note>
+				</note>
 			</notesStmt>
 			<sourceDesc>
 				<p>Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v; Würzburg ca. 1350).</p>
@@ -33,13 +37,13 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
-	   <facsimile>
-      <graphic url="G1.png" xml:id="G1"/>
-      <graphic url="G2.png" xml:id="G2"/>
-      <graphic url="G3.png" xml:id="G3"/>
-      <graphic url="G4.png" xml:id="G4"/>
-      <graphic url="G5.png" xml:id="G5"/>
-   		</facsimile>
+	<facsimile>
+		<graphic url="G1.png" xml:id="G1"/>
+		<graphic url="G2.png" xml:id="G2"/>
+		<graphic url="G3.png" xml:id="G3"/>
+		<graphic url="G4.png" xml:id="G4"/>
+		<graphic url="G5.png" xml:id="G5"/>
+	</facsimile>
 	<text>
 		<front>
 			<div>
@@ -50,8 +54,8 @@
 			</div>
 		</front>
 		<body>
- 		<pb ed="#Transcription" facs="#G1"/>
-         <fw facs="#G1" type="header" place="margin-topright">1</fw>
+			<pb ed="#Transcription" facs="#G1"/>
+			<fw facs="#G1" type="header" place="margin-topright">1</fw>
 			<head>
 				<title>
 					<app>
@@ -85,7 +89,7 @@
 				</app>
 			</l>
 			<pb ed="#Transcription" facs="#G2"/>
-            <fw facs="#Transcription" type="header" place="margin-topright"></fw>
+			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 			<l n="5">
 				<app>
 					<lem wit="#Transcription">no mâno ni liuhta, noh der mâreo sêo.</lem>
@@ -102,14 +106,14 @@
 			<l n="7">
 				<app>
 					<lem wit="#Transcription">enti dô uuas der eino almahtîco cot, </lem>
-						<rdg wit="#Translation">There was the one almighty God,</rdg>
-					</app>
+					<rdg wit="#Translation">There was the one almighty God,</rdg>
+				</app>
 			</l>
 			<l n="8">
 				<app>
 					<lem wit="#Transcription">manno miltisto, enti dâr uuârun auh manake mit inan </lem>
-						<rdg wit="#Translation">Of all the most generous, and there </rdg>
-					</app>
+					<rdg wit="#Translation">Of all the most generous, and there </rdg>
+				</app>
 			</l>
 			<l n="9">
 				<app>
@@ -142,7 +146,7 @@
 				<app>
 					<lem wit="#Transcription">tiuflun za widarstantanne, enti arc za piwisanne endi dinan</lem>
 					<rdg wit="#Translation">To resist the devil and to shun evil and </rdg>
-					</app>
+				</app>
 			</l>
 			<l n="14">
 				<app>
