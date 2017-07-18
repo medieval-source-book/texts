@@ -1,17 +1,17 @@
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+<!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
-'http://www.menota.org/menota-entities.txt'   >
+'../menota/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Ein ander weis</title>
+				<title>R 12 (Ein ander wis)</title>
 				<author><!--AUTHOR--></author>
 			</titleStmt>
 			<respStmt>
@@ -52,7 +52,7 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">Ein ander weis</witness>
+					<witness xml:id="Transcription">Ein ander wis</witness>
 					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
 				</listWit>
 			</div>
@@ -61,531 +61,497 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Ein ander weis</lem>
+						<lem wit="#Transcription">Ein ander wis</lem>
 						<rdg wit="#Translation"><!--TITLE'S TRANSLATION--></rdg>
 					</app>
 				</title>
 			</head>
 			<lg type="stanza" n="1">
-				<l n="1">
+				<l n="">
 					<app>
-						<lem wit="#Transcription">Mir ist von herczen leide,</lem>
+						<lem wit="#Transcription">Ez grunet wol diu haide,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">daz der chu&esup;le winder</lem>
+						<lem wit="#Transcription">mit grunem loube stat der walt,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">verterbet schone blu&osup;men vil:</lem>
+						<lem wit="#Transcription">der winder chalt</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">so verterbet mich ein senelichiu arbeit.</lem>
+						<lem wit="#Transcription">twanch si sere b&aelig;ide.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">dise sorge beide</lem>
+						<lem wit="#Transcription">diu zit hat sich verwandelot.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">dringent mich hin hinder</lem>
+						<lem wit="#Transcription">min sendiu not</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">z'ende an miner vreuden zil.</lem>
+						<lem wit="#Transcription">mant mich an diu g&oring;ten, von der ich unsanfte schayde.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
+			</lg>
+			<lg type="stnaza" n="2">
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">owe, daz diu gu&esup;te mit ir willen daz vertreit,</lem>
+						<lem wit="#Transcription">Gegen der wandelunge</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">seit si wol geringen mach</lem>
+						<lem wit="#Transcription">singent wol diu vogelin</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">alle mine sw&aelig;re.</lem>
+						<lem wit="#Transcription">den vriunden min,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
-						<lem wit="#Transcription">owe, gelebt ich noch den tach,</lem>
+						<lem wit="#Transcription">den ich gerne sunge,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription">daz si gen&aelig;dich w&aelig;re!</lem>
+						<lem wit="#Transcription">des si mir alle sagten danch.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-			</lg>
-			<lg type="stanza" n="2">
 				<l n="13">
 					<app>
-						<lem wit="#Transcription">Swenne ich mich vereine</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="14">
-					<app>
-						<lem wit="#Transcription">un  an si gedenche,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="15">
-					<app>
-						<lem wit="#Transcription">w&aelig;r inder wibes gu&esup;te da,</lem>
+						<lem wit="#Transcription">des si mir alle sagten danch.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
-						<lem wit="#Transcription">diu n&aelig;hete sich so lange bei ir niht verholn.</lem>
+						<lem wit="#Transcription">uf minen sanch</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription">sit si lonet chleine</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="18">
-					<app>
-						<lem wit="#Transcription">miner niwen chlenche,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="19">
-					<app>
-						<lem wit="#Transcription">mag ich dienen anderswa?</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="20">
-					<app>
-						<lem wit="#Transcription">nein, ich wil mit willen disen chumber langer doln.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="21">
-					<app>
-						<lem wit="#Transcription">waz ob nich ein s&aelig;lich wip</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="22">
-					<app>
-						<lem wit="#Transcription">gar den mu&esup;t vercheret</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="23">
-					<app>
-						<lem wit="#Transcription">un vreunt min hercz un  ouch den lip?</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="24">
-					<app>
-						<lem wit="#Transcription">diu zwei die sint geseret.</lem>
+						<lem wit="#Transcription">ahtent hie die Wlhe nieht: so wol dir, diutschiu sunge!</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg type="stanza" n="3">
-				<l n="25">
+				<l n="18">
 					<app>
-						<lem wit="#Transcription">Zu dem ungemache,</lem>
+						<lem wit="#Transcription">Wie gerne ich nu sande</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="26">
+				<l n="19">
 					<app>
-						<lem wit="#Transcription">den uch von ir leide,</lem>
+						<lem wit="#Transcription">der lieben einen boten dar</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="27">
+				<l n="20">
 					<app>
-						<lem wit="#Transcription">so twinget mich ein ander leit,</lem>
+						<lem wit="#Transcription">- nu nemt des war -,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="28">
+				<l n="21">
 					<app>
-						<lem wit="#Transcription">daz vor allem leide mich so sere ie betwanch,</lem>
+						<lem wit="#Transcription">der daz dorf erchande,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="29">
+				<l n="22">
 					<app>
-						<lem wit="#Transcription">swie ich dar umbe lache</lem>
+						<lem wit="#Transcription">da ich die seneden inne lie.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="30">
+				<l n="23">
 					<app>
-						<lem wit="#Transcription">un gebar so bleide.</lem>
+						<lem wit="#Transcription">ia mein ich die,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="31">
+				<l n="24">
 					<app>
-						<lem wit="#Transcription">mir hat ein do&esup;rper widerseit</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="32">
-					<app>
-						<lem wit="#Transcription">umbe anders niht wan umbe den minen uppechlichen sanch.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="33">
-					<app>
-						<lem wit="#Transcription">der ist geheizzen Adeltyer,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="34">
-					<app>
-						<lem wit="#Transcription">burtich her von Ense.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="35">
-					<app>
-						<lem wit="#Transcription">zallen ziten drot er mir</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="36">
-					<app>
-						<lem wit="#Transcription">als einer veizten gense.</lem>
+						<lem wit="#Transcription">von der ich den mu&esup;t mit st&aelig;te, liebe nie gewant.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg type="stanza" n="4">
-				<l n="37">
+				<l n="25">
 					<app>
-						<lem wit="#Transcription">Hiwer an einem tancze</lem>
+						<lem wit="#Transcription">Bot, nu var bereite</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="38">
+				<l n="26">
 					<app>
-						<lem wit="#Transcription">gie er umb und umbe.</lem>
+						<lem wit="#Transcription">zu lieben vriunden uber se.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="39">
+				<l n="27">
 					<app>
-						<lem wit="#Transcription">den whsel het er al den tach:</lem>
+						<lem wit="#Transcription">mir tut vil we</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="40">
+				<l n="28">
 					<app>
-						<lem wit="#Transcription">glancziu schapel gap er umb ir niwen chrenzelinch.</lem>
+						<lem wit="#Transcription">sendiu arbeite.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="41">
+				<l n="29">
 					<app>
-						<lem wit="#Transcription">Eczel un Lancze,</lem>
+						<lem wit="#Transcription">du solt in allen von uns sagen,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="43">
+				<l n="30">
 					<app>
-						<lem wit="#Transcription">czwnen chnappen tumbe,</lem>
+						<lem wit="#Transcription">in churczen tagen</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="44">
+				<l n="31">
 					<app>
-						<lem wit="#Transcription">die plagen ouch des iener phlach.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="45">
-					<app>
-						<lem wit="#Transcription">Lancze dar besw&aelig;ret ein vil stolczez magedin.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="46">
-					<app>
-						<lem wit="#Transcription">eine chleine risen gu&oring;t</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="47">
-					<app>
-						<lem wit="#Transcription">zart er ab ir houbet,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="48">
-					<app>
-						<lem wit="#Transcription">daz zu einen blu&oring;menh&uring;t.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="49">
-					<app>
-						<lem wit="#Transcription">dar zu einen blu&oring;menh&uring;t.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="50">
-					<app>
-						<lem wit="#Transcription">wer het im daz erloubet?</lem>
+						<lem wit="#Transcription">sehens uns mit vrouden dort, wan durch des wages praite.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg type="stanza" n="5">
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Sag der meisterinne</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">den willechlichen dienst min.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">si sol diu sin,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">die ich von herzcen minne</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">vur alle vrowen hinne phur.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">[.................],</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">e wold ich verchiesen der ich nimmer teil gewinne.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="4">
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Vreunden unde magen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">sag, daz ich mih wol gehab.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">vil lieber chnab,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">ob si dich des vragen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">wi ez umb uns pilgerime ste,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">so sag, wi we</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">uns die Walhen haben getan: des muz uns hie betragen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="7")
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Wirb ez endelichen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">mit triwen la dir wesen gach.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">ich chum dar nah</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">schire sicherliche,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">so ich aller baldist immer mach.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
 				<l n="51">
 					<app>
-						<lem wit="#Transcription">Owe siner hende,</lem>
+						<lem wit="#Transcription">den lieben tach</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="52">
 					<app>
-						<lem wit="#Transcription">daz si sin verwazzen!</lem>
+						<lem wit="#Transcription">lazz uns got geleben, daz wir hin heim se lande strichen.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
+			</lg>
+			<lg type="stanza" n="8">
 				<l n="53">
 					<app>
-						<lem wit="#Transcription">die vinfer muzzen vlorn,</lem>
+						<lem wit="#Transcription">Solt ich mit ir nu alten,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="54">
 					<app>
-						<lem wit="#Transcription">da mir er gezerret hat den schendelichen zar!</lem>
+						<lem wit="#Transcription">ich het noch etteslichen don</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="55">
 					<app>
-						<lem wit="#Transcription">hiet er ir gebende</lem>
+						<lem wit="#Transcription">&uring;f minnen long</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="56">
 					<app>
-						<lem wit="#Transcription">ungezerret lazzen,</lem>
+						<lem wit="#Transcription">her mit mir behalten,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="57">
 					<app>
-						<lem wit="#Transcription">daz chr&aelig;ntel hit ouch si verchorn.</lem>
+						<lem wit="#Transcription">des tousent hercz wrden geil.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="58">
 					<app>
-						<lem wit="#Transcription">er ist ungevu&esup;ger danne wilen Engelmar,</lem>
+						<lem wit="#Transcription">gewinn ich heil</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="59">
 					<app>
-						<lem wit="#Transcription">der gewaltichlichen nam</lem>
+						<lem wit="#Transcription">gegen der wolgetanen, min gewerft sol heiles walten.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
+			</lg>
+			<lg type="stanza" n="9">
 				<l n="60">
 					<app>
-						<lem wit="#Transcription">den spiegel Vrideronen.</lem>
+						<lem wit="#Transcription">Si reyen oder tanzen,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="61">
 					<app>
-						<lem wit="#Transcription">des bin ich dem dorper gram,</lem>
+						<lem wit="#Transcription">si tun vil maigen weiten schrit,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="62">
 					<app>
-						<lem wit="#Transcription">dem selben Walberounen.</lem>
+						<lem wit="#Transcription">ich allez mit.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-			</lg>
-			<lg type="stanza" n="6">
 				<l n="63">
 					<app>
-						<lem wit="#Transcription">Die min vil alten schulde</lem>
+						<lem wit="#Transcription">ê wir heim geswanczen,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="64">
 					<app>
-						<lem wit="#Transcription">wechet mir die niwe:</lem>
+						<lem wit="#Transcription">ich sag iz bei den triwen min,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="65">
 					<app>
-						<lem wit="#Transcription">ez hat ein getelinch</lem>
+						<lem wit="#Transcription">wir solden sin</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="66">
 					<app>
-						<lem wit="#Transcription">hiwer an mir erwechet, swaz mir leides ie geschah.</lem>
+						<lem wit="#Transcription">ze &OElig;sterich: vor dem snit so seczet man di phlanczen.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
+			</lg>
+			<lg type="stanza" n="10">
 				<l n="67">
 					<app>
-						<lem wit="#Transcription">e ichz langer dulte,</lem>
+						<lem wit="#Transcription">Er dunchet mich ein narre,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="68">
 					<app>
-						<lem wit="#Transcription">set des min triwe,</lem>
+						<lem wit="#Transcription">swer disen ougest hie bestat.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="69">
 					<app>
-						<lem wit="#Transcription">gespring ich zu zim in den rinch.</lem>
+						<lem wit="#Transcription">ez w&aelig;r min tot.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="70">
 					<app>
-						<lem wit="#Transcription">er bestat sin buzze, daz er ir ze vrowen iach,</lem>
+						<lem wit="#Transcription">liez er sich geharre</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="71">
 					<app>
-						<lem wit="#Transcription">der ich lange gedienet han</lem>
+						<lem wit="#Transcription">un vu&esup;r hin wider uber se,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="72">
 					<app>
-						<lem wit="#Transcription">her mit ganczer st&aelig;te.</lem>
+						<lem wit="#Transcription">daz tut niht we.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="73">
 					<app>
-						<lem wit="#Transcription">wold er si geruet an,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="74">
-					<app>
-						<lem wit="#Transcription">wie reht er danne t&aelig;te!</lem>
+						<lem wit="#Transcription">nindert w&aelig;r ein man baz dann da heim in siner pharre.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
-			<lg type="stanza" n="7">
+			<lg type="stanza" n="11">
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">Ob sich der bot nu soume,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
 				<l n="75">
 					<app>
-						<lem wit="#Transcription">We waz hat er muechen!</lem>
+						<lem wit="#Transcription">so wil ich s&aelig;lbe bot sin</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="76">
 					<app>
-						<lem wit="#Transcription">si chumpt im niht ze mazze.</lem>
+						<lem wit="#Transcription">ze den vriunden min.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="77">
 					<app>
-						<lem wit="#Transcription">zwiu sol sin peinechlich gebrech?</lem>
+						<lem wit="#Transcription">wir leben alle chaume,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="78">
 					<app>
-						<lem wit="#Transcription">im enmach gehelfen niht sin hovelich gewant.</lem>
+						<lem wit="#Transcription">daz her ist mer danne halbez mort.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="79">
 					<app>
-						<lem wit="#Transcription">er sol im eine su&esup;chen,</lem>
+						<lem wit="#Transcription">hey w&aelig;r ich dort!</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="80">
 					<app>
-						<lem wit="#Transcription">diu in werben lazze.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="81">
-					<app>
-						<lem wit="#Transcription">diu sinen roten busemblech,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="82">
-					<app>
-						<lem wit="#Transcription">diu sint ir ungen&aelig;me, dar zu sin huffelbant.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="83">
-					<app>
-						<lem wit="#Transcription">enge ermel treit er lanch,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="84">
-					<app>
-						<lem wit="#Transcription">die sint vor gebr&aeling;met,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="85">
-					<app>
-						<lem wit="#Transcription">innen swartz un euzen blanch.</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="86">
-					<app>
-						<lem wit="#Transcription">mit siner red er vl&aelig;met.</lem>
+						<lem wit="#Transcription">bei der wolgetanen l&aelig;ge ich gern an minem roume.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
