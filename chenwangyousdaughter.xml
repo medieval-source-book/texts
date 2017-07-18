@@ -21,6 +21,10 @@
 					<resp>Translation by</resp>
 					<name>Likun Yang</name>
 				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher></publisher>
@@ -62,14 +66,104 @@
 					</app>
 				</title>
 			</head>
-			 <div n="1">
+			<div n="1">
 				<p n="1">
-					<s>
-						<app>
-							<lem wit="#Transcription">潮州人陳王猷為梅州守。子婦死焉, 葬之於郡北山之上。其魂每夕歸與夫共寢。夫懼宿於母榻。婦複來即之, 不可卻, 雖家人相見無所避。一子數歲矣, 韶秀可愛, 每欲取以去, 舉家爭而奪之。婦出入自若, 陳氏甚懼, 乃召道士醮設及禱於神, 皆不能遣。時紹興庚午三月也。又三月, 陳守卒於郡.</lem>
-							<rdg wit="#Translation">Chen Wangyou from Chaozhou was the magistrate of Meizhou. When his daughter-in-law died, the Chen family buried her in the mountain north of the county. Every evening, her spirit would come back home to sleep with her husband. Her husband was scared and slept in his mother’s bed. But the woman came back again and could not be turned away. Even when she saw the [other members of the]Chen family, she would not avoid them. Her son was a few years old, cute and good-looking. Every time she tried to take him away, the entire Chen family would fight to get him back. However, the woman went in and out of the Chen family home like there was no one around. The Chen family was so scared that they hired a Daoist to set up a religious ceremony and pray to God on their behalf – neither [action] could dispel the spirit. At the time, it was the third month of the Shaoxing era. After three months, the magistrate Chen died in the county.</rdg>
-						</app>
-					</s>
+					<app>
+						<lem wit="#Transcription">
+							<s>潮州人陳王猷為梅州守。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Chen Wangyou from Chaozhou was the magistrate of Meizhou.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>子婦死焉, 葬之於郡北山之上。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>When his daughter-in-law died, the Chen family buried her in the mountain north of the county.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>其魂每夕歸與夫共寢。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Every evening, her spirit would come back home to sleep with her husband.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>夫懼宿於母榻。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Her husband was scared and slept in his mother’s bed.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>婦複來即之, 不可卻,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>But the woman came back again and could not be turned away.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>雖家人相見無所避。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Even when she saw the [other members of the] Chen family, she would not avoid them.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>一子數歲矣, 韶秀可愛, </s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Her son was a few years old, cute and good-looking.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>每欲取以去, 舉家爭而奪之。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Every time she tried to take him away, the entire Chen family would fight to get him back.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>婦出入自若,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>However, the woman went in and out of the Chen family home like there was no one around.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>陳氏甚懼, 乃召道士醮設及禱於神, 皆不能遣。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>The Chen family was so scared that they hired a Daoist to set up a religious ceremony and pray to God on their behalf – neither [action] could dispel the spirit.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>時紹興庚午三月也。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>At the time, it was the third month of the Shaoxing era.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>又三月, 陳守卒於郡.</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>After three months, the magistrate Chen died in the county.</s>
+						</rdg>
+					</app>
 				</p>
 			</div>
 		</body>

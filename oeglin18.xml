@@ -1,0 +1,325 @@
+<!--
+	Language change: 
+
+	If a text changes language, you should specify that in your encoding. 
+	Here is how to do it:
+
+	When the text changes language, use an extra modifier in your tag. 
+
+	For example: (a text changes to Latin)
+		<p xml:lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</p>
+
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
+-->
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities; ]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">BASE TEXT HERE</witness>
+					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">ORIGINAL TITLE</lem>
+						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+					</app>
+				</title>
+			</head>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								Ade mit layd \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ich von dir schayd \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dardurch mein hertz \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								unseglich schmertz \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								all stund empfind \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und ist entzynd \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								in jamers wee \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ade ade \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								on dich lusst mich kaynr frewden me.
+								Ade mein freyd \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								der ich kayn zeit \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								zů sechen an \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								verdriess möcht han \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								das ist mir gwenndt \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und bin ellendt \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								in layd ich stee \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ade ade \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								on dich lusst mich kaynr frewden me.
+								Ade gedenck \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dein trew nit krenck \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und hallt recht maß \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								vergiß nit das \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								als du wol waist \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dein trew mir laist \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								hinfür als ee \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ade ade \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								on dich lusst mich kaynr frewden me.
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>  

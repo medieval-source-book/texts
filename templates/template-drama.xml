@@ -1,11 +1,33 @@
+<!--
+	Language change: 
+
+	If a text changes language, you should specify that in your encoding. 
+	Here is how to do it:
+
+	When the text changes language, use an extra modifier in your tag. 
+
+	For example: (a text changes to Latin)
+		<l xml:lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</l>
+
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
+-->
 
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
+'http://www.menota.org/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -24,7 +46,7 @@
 				<name>WHO TRANSLATED ME?</name>
 			</respStmt>
 			<respStmt>
-				<resp>Digital Transcription by</resp>
+				<resp>TEI encoding by</resp>
 				<name>YOUR NAME HERE</name>
 			</respStmt>
 			<publicationStmt>
@@ -68,29 +90,60 @@
 				</title>
 			</head>
 
-			<!-- This tag pair should be used for all stage directions -->
+			<!-- stage directions -->
 
-			<stage> </stage>
+			<stage>
+				<app>
+					<lem wit="#Transcription">
+						TRANSCRIPTION OF STAGE DIRECTIONS GO HERE
+					</lem>
+					<rdg wit="#Translation">
+						TRANSLATION OF STAGE DIRECTIONS
+					</rdg>
+				</app>
+			</stage>
 
-			<!-- This block should be used for speaking events -->
+			<!-- The next block should be used every time the speaker changes -->
 
+			<!-- A) Start here: -->
 			<sp>
 				<app>
 					<lem wit="#Transcription">
 						<speaker>TRANSCRIPTION OF SPEAKER'S NAME GOES HERE</speaker>
-						<p>TRANSCRIPTION OF SPEECH GOES HERE</p>     <!-- this could really be either <p> or <l> depending on if prose (then <p>) or verse (then <l>) -->
 					</lem>
 					<rdg wit="#Translation">
 						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
-						<p>TRANSLATION OF SPEECH GOES HERE
-							<note anchored="true">
-									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
-							</note>
-						</p>
 					</rdg>
 				</app>
+
+				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+
+
+				<!-- B) from here: --> 
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="1"> 
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="1">
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
+								<note anchored="true">
+									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+								</note>
+							</l>
+						</lg>
+					</rdg>
+				</app>
+				<!-- B) to here -->
+
+
 			</sp>
-			
+			<!-- A) End here -->
+
 		</body>
 	</text>
 </TEI>

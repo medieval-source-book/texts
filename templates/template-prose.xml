@@ -1,29 +1,56 @@
+<!--
+	Language change: 
+
+	If a text changes language, you should specify that in your encoding. 
+	Here is how to do it:
+
+	When the text changes language, use an extra modifier in your tag. 
+
+	For example: (a text changes to Latin)
+		<p xml:lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</p>
+
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
+-->
+
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
-%Menota_entities; ]
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>TITLE</title>
+				<author>AUTHOR</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>WHO TRANSCRIBED ME?</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>WHO TRANSLATED ME?</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>YOUR NAME HERE</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher></publisher>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
 				<availability>
 					<p></p>
 				</availability>
@@ -74,6 +101,18 @@
 							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
 						</app>
 					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Une sentence</lem>
+							<rdg wit="#Translation">A sentence</rdg>
+						</app>
+					</s>
+					<s>
+						Another sentence
+					</s>
+				</p>
+				<p n="2">
+					<s>A new paragraph</s>
 				</p>
 			</div>
 		</body>

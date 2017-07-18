@@ -11,7 +11,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
+				<title>The Dream of Gong Yu</title>
 				<author></author>
 				<respStmt>
 					<resp></resp>
@@ -20,6 +20,10 @@
 				<respStmt>
 					<resp></resp>
 					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -62,16 +66,110 @@
 					</app>
 				</title>
 			</head>
-			 <div n="1">
+			<div n="1">
 				<p n="1">
-					<s>
-						<app>
-							<lem wit="#Transcription">潭州士人龔輿, 乾道四年冬, 與鄉里六七人偕赴省試. 過宜春, 謁仰山廟祈夢. 輿夢至官府, 見柱上掲紙一片, 書[龔輿不得]四字, 而[不]字上下稍不聨接. 既覺, 殊不樂, 自意必下第. 及春榜至, 輿中選, 餘人盡黜, 始以語人, 謂夢不驗. 好事者曰: “不字斷續如此, 乃一个也. 神言龔輿一个得耳, 豈不昭然?”</lem>
-							<rdg wit="#Translation">There is a literatus from Tanzhou named Gong Yu. In the winter of the fourth year of the Dao Qian reign, he went together with six or seven people from his hometown to participate in the provincial exam. When they passed by Yi Chun, they paid respects to the Yangshan Monastery and prayed for dreams.  Gong Yu dreamt he went into the government house and saw a piece of paper on the pillar of the house. On the paper the four characters of “Gong Yu Bu De” (meaning, “Gong Yu will not get it”) were written. But the upper part and the lower part of the character “Ge” were not connected. When Gong Yu woke up, he was rather unhappy and thought he would fail the exam. When the results came out in the spring, (it turns out) Gong Yu was selected and the rest of his group were all rejected. Gong Yu then began to tell people, saying the dream was not accurate. The acquaintances said: “When the character ‘Ge’ were disconnected like this, it should be read as two characters ‘Yi Ge.’ The deity said only Gong Yu himself could get it, isn’t this obvious?”</rdg>
+					<app>
+						<lem wit="#Transcription">
+							<s>潭州士人龔輿,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>There is a literatus from Tanzhou named Gong Yu.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>乾道四年冬,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>In the winter of the fourth year of the Dao Qian reign,</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>與鄉里六七人偕赴省試.</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>he went together with six or seven people from his hometown to participate in the provincial exam.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>過宜春,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>When they passed by Yi Chun,</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>謁仰山廟祈夢.</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s> they paid respects to the Yangshan Monastery and prayed for dreams.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>輿夢至官府, 見柱上掲紙一片,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Gong Yu dreamt he went into the government house and saw a piece of paper on the pillar of the house.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>書[龔輿不得]四字,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>On the paper the four characters “Gong Yu Bu De” 
+								<note type="critical" anchored="true">Meaning, “Gong Yu will not get it”
+								</note>
+								were written.</s>
+							</rdg>
 						</app>
-					</s>
-				</p>
-			</div>
-		</body>
-	</text>
-</TEI>
+						<app>
+							<lem wit="#Transcription">
+								<s>而[不]字上下稍不聨接.</s>
+							</lem>
+							<rdg wit="#Translation">
+								<s>But the upper part and the lower part of the character “Ge” were not connected.</s>
+							</rdg>
+						</app>
+						<app>
+							<lem wit="#Transcription">
+								<s>既覺, 殊不樂, 自意必下第.</s>
+							</lem>
+							<rdg wit="#Translation">
+								<s>When Gong Yu woke up, he was rather unhappy and thought he would fail the exam.</s>
+							</rdg>
+						</app>
+						<app>
+							<lem wit="#Transcription">
+								<s>及春榜至, 輿中選, 餘人盡黜,</s>
+							</lem>
+							<rdg wit="#Translation">
+								<s>When the results came out in the spring, (it turns out) Gong Yu was selected and the rest of his group were all rejected.</s>
+							</rdg>
+						</app>
+						<app>
+							<lem wit="#Transcription">
+								<s>始以語人, 謂夢不驗.</s>
+							</lem>
+							<rdg wit="#Translation">
+								<s>Gong Yu then began to tell people, saying the dream was not accurate.</s>
+							</rdg>
+						</app>
+						<app>
+							<lem wit="#Transcription">
+								<s>好事者曰: “不字斷續如此, 乃一个也. 神言龔輿一个得耳, 豈不昭然?”</s>
+							</lem>
+							<rdg wit="#Translation">
+								<s>The acquaintances said: “When the character ‘Ge’ were disconnected like this, it should be read as two characters ‘Yi Ge.’ The deity said only Gong Yu himself could get it, isn’t this obvious?”</s>
+							</rdg>
+						</app>
+					</p>
+				</div>
+			</body>
+		</text>
+	</TEI>
+

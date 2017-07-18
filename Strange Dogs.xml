@@ -21,6 +21,10 @@
 					<resp></resp>
 					<name></name>
 				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher></publisher>
@@ -62,14 +66,48 @@
 					</app>
 				</title>
 			</head>
-			 <div n="1">
+			<div n="1">
 				<p n="1">
-					<s>
-						<app>
-							<lem wit="#Transcription">金國天會十四年四月中, 京小雨, 大雷震, 群犬數十爭赴土河而死, 所可救者才一二耳。</lem>
-							<rdg wit="#Translation">In the fourteenth year of the Tianhui era of the State of Jin, it was raining in the capital. There occurred a huge thunderbolt. Several tens of dogs ran in group into the Tu River and died. Only one or two were rescued and survived.</rdg>
-						</app>
-					</s>
+					<app>
+						<lem wit="#Transcription">
+							<s>金國天會十四年四月中,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>In the fourteenth year of the Tianhui era of the State of Jin,</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>京小雨,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>it was raining in the capital.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>大雷震,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>There occurred a huge thunderbolt.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>群犬數十爭赴土河而死,</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Several tens of dogs ran in group into the Tu River and died.</s>
+						</rdg>
+					</app>
+					<app>
+						<lem wit="#Transcription">
+							<s>所可救者才一二耳。</s>
+						</lem>
+						<rdg wit="#Translation">
+							<s>Only one or two were rescued and survived.</s>
+						</rdg>
+					</app>
 				</p>
 			</div>
 		</body>
