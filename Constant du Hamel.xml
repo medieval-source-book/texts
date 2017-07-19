@@ -1,0 +1,121 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Constant du Hamel</title>
+				<author><!--AUTHOR--></author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name><!--WHO TRANSCRIBED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name><!--WHO TRANSLATED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>Clara Romani</name>
+			</respStmt>
+			<publicationStmt>
+				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
+			</notesStmt>
+			<sourceDesc>
+				<p><!--ANY SOURCES GO HERE--></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Constant du Hamel</witness>
+					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Constant du Hamel</lem>
+						<rdg wit="#Translation"><!--TITLE'S TRANSLATION--></rdg>
+					</app>
+				</title>
+			</head>
+			<lg type="poem">
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ma paine metrai et ma cure</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A raconter une aventure</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">De sire Cosstanz du Hamel</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or en escoutez le flabel!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et de dame Ysabeau sa feme,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui mout estoit cortoise dame</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et bele et gente et avenant:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">El </lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
