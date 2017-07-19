@@ -1,0 +1,469 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Constant du Hamel</title>
+				<author><!--AUTHOR--></author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name><!--WHO TRANSCRIBED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name><!--WHO TRANSLATED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>Clara Romani</name>
+			</respStmt>
+			<publicationStmt>
+				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
+			</notesStmt>
+			<sourceDesc>
+				<p><!--ANY SOURCES GO HERE--></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Constant du Hamel</witness>
+					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Constant du Hamel</lem>
+						<rdg wit="#Translation"><!--TITLE'S TRANSLATION--></rdg>
+					</app>
+				</title>
+			</head>
+			<lg type="poem">
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ma paine metrai et ma cure</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A raconter une aventure</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">De sire Cosstanz du Hamel</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or en escoutez le flabel!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et de dame Ysabeau sa feme,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui mout estoit cortoise dame</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et bele et gente et avenant:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">El païs n'avoit si plaisant,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant covoitie a decevoir</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Li prestre i mist tot son pooir</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A requerre la de s'amor.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ensanble o lui ala un jor,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mout la requist de druerie;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dist li, s'el devenoit s'amie,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu'il li donroit de beaus joieaus</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Çaintures, fermaus et enniaus,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et derniers assez a despendre.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais la dame n'en volt nus prandre</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et dit que ja por couvoitise</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ne fera au prestre servise,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por tant qu'ele en doie estre pire.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Puis dist: "sire, j'ai oï dire,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se vostre amie devenoie,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">L'amor de Dieu en gerpiroie:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge sui cele qui vos en faut."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et li prestres si la rasaut,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et mout la prie et mout li offre</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Set livres qu'il ot en son coffre;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais il la trueve si bel jointe,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Gaitant et escoutant et cointe,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et felonnesse a entamer,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que il n'i puet riens conquester.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mout est doulenz quant ili s'en part:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Malement l'a blecié li dart</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui l'a parmi les elz navré</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et si fort el cuer hurté</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que d'amors se tressue et gient.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A quel que peine a l'ostel vient:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Poi lui a value sa guile.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Oez du prevost da la vile,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui les forfez ot en baillie.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cil a la dame rassaillie,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">S'i a fait un cenbel novel,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por ce que i se portoit bel</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et qu'i la vit gente et cortoise.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Ha, dame! fait il, mout me poise</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que teus vilains vos a en garde!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Maus feus et male flambe m'arde,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se ge ere si comme vos,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se ge ne le faisoie cous!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et est plus enuieus que ronce:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mielz valt de mon solaz une once</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que ne feroit du sien dis livres;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que ge sui sui plaisanz et delivres,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais il est grox et malostruz,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et il n'est ne res ne tonduz,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ainz est hideus et deslavez.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais se vos croire me volez,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vos feroiz ami plus delivre!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge vos donrai du mien dis livres</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por consentir ma volenté."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et la dame l'a regardé,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si dist: "Sire, ce ne puet estre:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge voldroie mielz estre a nestre</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que g'eüsse fait si fol salt!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<l n="">
+					<app>
+						<lem wit="#Transcription">Vostre sermon poi vos i valt,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+		</body>
+	</text>
+</TEI>
