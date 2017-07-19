@@ -1,0 +1,523 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>R 16 (Ein ander wis) </title>
+				<author><!--AUTHOR--></author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name><!--WHO TRANSCRIBED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name><!--WHO TRANSLATED ME?--></name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>Clara Romani</name>
+			</respStmt>
+			<publicationStmt>
+				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
+			</notesStmt>
+			<sourceDesc>
+				<p><!--ANY SOURCES GO HERE--></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Ein ander wis</witness>
+					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Ein ander wis</lem>
+						<rdg wit="#Translation"><!--TITLE'S TRANSLATION--></rdg>
+					</app>
+				</title>
+			</head>
+			<lg type="stanza" n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Do der liebe sumer</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">urloup genam,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">do mus man der t&aelig;nz</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">&uring;f dem anger verphlegen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">des gewan sit chumber</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">der herre Gunderam.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">der m&uring;s ouch sin gestr&aelig;nze</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">lazzen under wegen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">der ist bichelmeister disen winder.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">oeder gauch ist in dem lande ninder,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">sin raumegazze chaphet zallen ziten wol hin hinder.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="2">
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Waz er an den mayden</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">wnders begat,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">e daz min vrowe Schelle</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">volende ir gebot!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">er ist vil umbescheiden,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">wan swelh er bestat,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">diu wirt von slegen h&aelig;lle</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">und meident den spot.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">da von lazzen alle ir smuczmunden,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">des die iungen niht verhelen chunden.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">des hat ir hant von solher meisterscheft diche enphunden.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="3">
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Immer so man veiret,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">so hebent si sich dar</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">mit einer samenugnge,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">den ich wol schaden gan.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Ermpreht der leiret,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">so sumbert Sigemar.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">daz in da misselunge,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">daz l&aelig;g et eben an.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">daz sich doch vil leiht mach verriden,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">wellents ir getels niht vermiden,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">sih mugen zwen an miner waibelruten wol versniden.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="4">
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Chom ich zeinem tanze,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">das alle giengen bei,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">da wrd ein spil von henden</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">mit beiden ekken z&uring;.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">leiht geviel ein schanze,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">daz vor mit l&aelig;gen drei.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">ich hil ez ane wende,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">verbut ez einer vru.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">sig und selde hulfen mir gewinnen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">daz si halbe musen dane entrinnen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">nu zeihen uf unde lazzen in ir gogelheit zerinnen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="5">
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Seht sin waidgenge,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">die ferbent mich gra,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">swenne er verwendechlichen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">vur min vrowen gat.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">treibet erz die lenge,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">bestat er danne da,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">man hilfet im der cheichen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">daz er vil riwich stat.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">er un ettelicher sin geselle,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">den ich tanzent an ir hant ersnelle,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">des si gewis, ich slah in, daz sin offen stat ein elle.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="6">
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Im hilfet niht sin traye</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">noch sin heubelh&uring;t</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">wirt er dar an bechrenchet.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">wil er vur Riwental</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">hin un her so vil gewentschelieren,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">er wirt wol zezeiset under vieren.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">ich Wermpreht, waz mag ich des, wirt im ein umberiten.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg type="stanza" n="7">
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">Die weil ich die chlingen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">umb min seiten trag,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">so darf mir durch min sumber</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">niemen stechen niht.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">er muz vil weit springen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">begreife ichn mit dem slage,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription">ich slah in, daz er tumber</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription">schawet nimmer liht.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Transcription">ich hilfe im des leibes in den aschen</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">un slah im mit willen eine vlaschen,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription">daz im die hunt daz hiern ab der erde muzzen naschen.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
