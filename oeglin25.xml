@@ -1,316 +1,269 @@
-<!--
-	Language change: 
+<l n="1">
+<app>
+<lem wit="#Transcription">
+Yetz schaydens wee ist worden kund \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
+<l n="2">
+<app>
+<lem wit="#Transcription">
+ meins hertzen grund \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-	When the text changes language, use an extra modifier in your tag. 
+<l n="3">
+<app>
+<lem wit="#Transcription">
+ des ich vor nye \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
+<l n="4">
+<app>
+<lem wit="#Transcription">
+ dan erst durch dye \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-	The modifier (xml:lang="?") is the critical insertion. 
+<l n="5">
+<app>
+<lem wit="#Transcription">
+ bin worden inn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
--->
+<l n="6">
+<app>
+<lem wit="#Transcription">
+ hertz mut und synn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
-[
-<!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
-%Menota_entities; ]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title></title>
-				<author></author>
-				<respStmt>
-					<resp></resp>
-					<name></name>
-				</respStmt>
-				<respStmt>
-					<resp></resp>
-					<name></name>
-				</respStmt>
-				<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>Jordan Rosen-Kaplan</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
-			<notesStmt>
-				<note anchored="true"></note>
-			</notesStmt>
-			<sourceDesc>
-				<p></p>
-				<p></p>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<p></p>
-			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-		</encodingDesc>
-	</teiHeader>
-	<text>
-		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
-					</app>
-				</title>
-			</head>
-			<div n="1">
-				<p n="1">
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								Yetz schaydens wee ist worden kund \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="7">
+<app>
+<lem wit="#Transcription">
+ ward mir zerstrayt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								meins hertzen grund \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="8">
+<app>
+<lem wit="#Transcription">
+ gantz weit und prayt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								des ich vor nye \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="9">
+<app>
+<lem wit="#Transcription">
+ ich dacht ich stürb vor hertyenlayd.
+Nun hat sich glück herwider kert \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								dan erst durch dye \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="10">
+<app>
+<lem wit="#Transcription">
+ und mich ernert \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								bin worden inn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="11">
+<app>
+<lem wit="#Transcription">
+ vor schaydens pein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								hertz mut und synn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="12">
+<app>
+<lem wit="#Transcription">
+ dardurch al mein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								ward mir zerstrayt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="13">
+<app>
+<lem wit="#Transcription">
+ plut was betrübt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								gantz weit und prayt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="14">
+<app>
+<lem wit="#Transcription">
+ glück hat geübt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								ich dacht ich stürb vor hertyenlayd.
-								Nun hat sich glück herwider kert \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="15">
+<app>
+<lem wit="#Transcription">
+ in disem spil \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								und mich ernert \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="16">
+<app>
+<lem wit="#Transcription">
+ darin ich vil \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								vor schaydens pein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="17">
+<app>
+<lem wit="#Transcription">
+ frewd lust und gnad erwerben wil.
+Sölch frewd ytz niemer widerfart \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								dardurch al mein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="18">
+<app>
+<lem wit="#Transcription">
+ ist mir gar hart \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								plut was betrübt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="19">
+<app>
+<lem wit="#Transcription">
+ verkert in laid ich wider schayd \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								glück hat geübt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="20">
+<app>
+<lem wit="#Transcription">
+ macht newes wee \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								in disem spil \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="21">
+<app>
+<lem wit="#Transcription">
+ noch mer dan ee \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								darin ich vil \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="22">
+<app>
+<lem wit="#Transcription">
+ mein hertz erkant \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								frewd lust und gnad erwerben wil.
-								Sölch frewd ytz niemer widerfart \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="23">
+<app>
+<lem wit="#Transcription">
+ recht lieb befandt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								ist mir gar hart \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+<l n="24">
+<app>
+<lem wit="#Transcription">
+ erst thut mir schayden angstlich andt.
 
-						<app>
-							<lem wit="#Transcription">
-								verkert in laid ich wider schayd \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
 
-						<app>
-							<lem wit="#Transcription">
-								macht newes wee \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
+\ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
 
-						<app>
-							<lem wit="#Transcription">
-								noch mer dan ee \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein hertz erkant \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								recht lieb befandt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								erst thut mir schayden angstlich andt.
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-					</s>
-				</p>
-			</div>
-		</body>
-	</text>
-</TEI>  
