@@ -1,1068 +1,1187 @@
-<!--
-	Language change: 
-
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
-
-	When the text changes language, use an extra modifier in your tag. 
-
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
-
-	The modifier (xml:lang="?") is the critical insertion. 
-
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
--->
-
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
-[
-<!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
-%Menota_entities; ]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title></title>
-				<author></author>
-				<respStmt>
-					<resp></resp>
-					<name></name>
-				</respStmt>
-				<respStmt>
-					<resp></resp>
-					<name></name>
-				</respStmt>
-				<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>Jordan Rosen-Kaplan</name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
-			<notesStmt>
-				<note anchored="true"></note>
-			</notesStmt>
-			<sourceDesc>
-				<p></p>
-				<p></p>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<editorialDecl>
-				<p></p>
-			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-		</encodingDesc>
-	</teiHeader>
-	<text>
-		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
-					</app>
-				</title>
-			</head>
-			<div n="1">
-				<p n="1">
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								Zucht er und lob ir wonet bey \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								gantz frey on alle rey \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								bin ich verphlicht zw dienen ir \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								Sy hat fürwar das feinst geperd \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								beschwert und höchlich mert \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								sich hertzlich klag und sentlich gir \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								seyd ich nu waiß zůkünnftig nat \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								kayn rat \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								auff erd mich hellfen mag \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								es ist am tag \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								er hör mein klag \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								die ich stätz trag \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								thů gnad mein glück ee ich verzag.
-								Recht als ayn wild kayn vernunft hab \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								gar ab \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein schatz und hab durch schaydens gwalt verlassen wirt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dardurch mein kranks und schwyrigs heetz \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								on scherrtz \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								unsäglich schmertz \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mit seüfftzen vil im ellendt fyrt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich glaub kain frewd sey mir beschert \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								verkert \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								sich nicht mein schmertzlich wee \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								wie ichs nů dee \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								gee oder stee \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								gleych wye der schnee \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich armer bůb im layd vergee.
-								Ich laß in reden was er will \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								in still \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mich trübt so vill \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								sein hertzlich layd mer dan ich klag \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mir was vornye mein hertz so wunnd \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								die stund \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ist mir wol kund \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein schwere peyn dye ich stätz trag \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								glück durch dein hillff not wurd gewend \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								behend \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								so ver er selber wult \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein gross unschult \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								durch mein gedult \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								wenden in hult \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								hyllff schyr mein glück thue was ich sult.
-								Schaffen nit vil ir süsse wort \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								zů hort und ser betort \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ist in mir mein hertz můt und syn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ir gunst tet sich offt verkeren \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								eren \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								alpot meren \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								will ich ir pryß wo ich nur bin \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und far dahyn ellendiklich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								schayd ich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								in disem jamerstall \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								forcht bringt unfall \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dy wellt ist hol \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und untrew vol \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich wayß nit wie ichs versten sol.
-								Thüe was ich wil so ist mein gunst \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								umb sunst \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dye grosse prünst \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								der trewen lieb myet mich schwerlich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mir gschicht unrecht bey meinem aydt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein zeyt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								on alle freyt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								vertreiben můß den lon hab ich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein allte trew bedenck gsell pass \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und lass mich bleyben ewig dein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								in güet erschein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								vertreib mein peyn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und laß mich sein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								bevolhen dyr erbarmb dich mein.
-								Ja fraw dein red mein hertz vast yebt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								nw liebt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und unmass tryebt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dein tugend groß mich armen brůder \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								du waist das ich an argen won \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								lieb hon \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dich hösten kron \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und stätz bewar dein zucht und er \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dan all mein frewd in ewr giet \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich pitt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								verstet mich ewen recht \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich bin gantz schlecht \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								darum an secht \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								getrewen knecht \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und uns bayde nit weitter schwecht.
-								Nicht lass mich gen dir verhetzen \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								letzen \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								auch nit setzen \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								kan mich von dir kayns menschen list \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ach werden glück erbarmb dich mein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								vereyn solch schwere pein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								durch deine gůt als frumb du bist \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								o mein hertz aller liebster gsell \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich stell \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein trost und hayl in dich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich mayns treylich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mein lieb an sich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								bit hertziklich \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								deyn aygen bin glaub sicherlich.
-								Ach gsell nit glaub ir trew sich an \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ob schon \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								sein gwonlich lon \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								traurige lieb erzaygen thůt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								drumb laß nit ab deyn gmůt hyn lenck \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								bedenck \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								on not nicht krenck \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dich selber han ayn gůten můt \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								der gleychen dw zart schöne fraw \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								an schaw \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								sein klag und schmertzlich peyn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								den hertz verzeyn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								kein frömbden scheyn \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								nit lass darein \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								trew ist seltzam drumb hallt dich sein.
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-					</s>
-				</p>
-			</div>
-		</body>
-	</text>
-</TEI>  
+<l n="1">
+<app>
+<lem wit="#Transcription">
+Zucht er und lob ir wonet bey \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="2">
+<app>
+<lem wit="#Transcription">
+ gantz frey on alle rey \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="3">
+<app>
+<lem wit="#Transcription">
+ bin ich verphlicht zw dienen ir \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="4">
+<app>
+<lem wit="#Transcription">
+ Sy hat fürwar das feinst geperd \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="5">
+<app>
+<lem wit="#Transcription">
+ beschwert und höchlich mert \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="6">
+<app>
+<lem wit="#Transcription">
+ sich hertzlich klag und sentlich gir \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="7">
+<app>
+<lem wit="#Transcription">
+ seyd ich nu waiß zůkünnftig nat \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="8">
+<app>
+<lem wit="#Transcription">
+ kayn rat \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="9">
+<app>
+<lem wit="#Transcription">
+ auff erd mich hellfen mag \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="10">
+<app>
+<lem wit="#Transcription">
+ es ist am tag \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="11">
+<app>
+<lem wit="#Transcription">
+ er hör mein klag \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="12">
+<app>
+<lem wit="#Transcription">
+ die ich stätz trag \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="13">
+<app>
+<lem wit="#Transcription">
+ thů gnad mein glück ee ich verzag.
+Recht als ayn wild kayn vernunft hab \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="14">
+<app>
+<lem wit="#Transcription">
+ gar ab \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="15">
+<app>
+<lem wit="#Transcription">
+ mein schatz und hab durch schaydens gwalt verlassen wirt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="16">
+<app>
+<lem wit="#Transcription">
+ dardurch mein kranks und schwyrigs heetz \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="17">
+<app>
+<lem wit="#Transcription">
+ on scherrtz \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="18">
+<app>
+<lem wit="#Transcription">
+ unsäglich schmertz \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="19">
+<app>
+<lem wit="#Transcription">
+ mit seüfftzen vil im ellendt fyrt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="20">
+<app>
+<lem wit="#Transcription">
+ ich glaub kain frewd sey mir beschert \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="21">
+<app>
+<lem wit="#Transcription">
+ verkert \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="22">
+<app>
+<lem wit="#Transcription">
+ sich nicht mein schmertzlich wee \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="23">
+<app>
+<lem wit="#Transcription">
+ wie ichs nů dee \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="24">
+<app>
+<lem wit="#Transcription">
+ gee oder stee \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="25">
+<app>
+<lem wit="#Transcription">
+ gleych wye der schnee \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="26">
+<app>
+<lem wit="#Transcription">
+ ich armer bůb im layd vergee.
+Ich laß in reden was er will \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="27">
+<app>
+<lem wit="#Transcription">
+ in still \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="28">
+<app>
+<lem wit="#Transcription">
+ mich trübt so vill \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="29">
+<app>
+<lem wit="#Transcription">
+ sein hertzlich layd mer dan ich klag \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="30">
+<app>
+<lem wit="#Transcription">
+ mir was vornye mein hertz so wunnd \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="31">
+<app>
+<lem wit="#Transcription">
+ die stund \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="32">
+<app>
+<lem wit="#Transcription">
+ ist mir wol kund \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="33">
+<app>
+<lem wit="#Transcription">
+ mein schwere peyn dye ich stätz trag \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="34">
+<app>
+<lem wit="#Transcription">
+ glück durch dein hillff not wurd gewend \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="35">
+<app>
+<lem wit="#Transcription">
+ behend \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="36">
+<app>
+<lem wit="#Transcription">
+ so ver er selber wult \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="37">
+<app>
+<lem wit="#Transcription">
+ mein gross unschult \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="38">
+<app>
+<lem wit="#Transcription">
+ durch mein gedult \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="39">
+<app>
+<lem wit="#Transcription">
+ wenden in hult \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="40">
+<app>
+<lem wit="#Transcription">
+ hyllff schyr mein glück thue was ich sult.
+Schaffen nit vil ir süsse wort \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="41">
+<app>
+<lem wit="#Transcription">
+ zů hort und ser betort \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="42">
+<app>
+<lem wit="#Transcription">
+ ist in mir mein hertz můt und syn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="43">
+<app>
+<lem wit="#Transcription">
+ ir gunst tet sich offt verkeren \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="44">
+<app>
+<lem wit="#Transcription">
+ eren \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="45">
+<app>
+<lem wit="#Transcription">
+ alpot meren \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="46">
+<app>
+<lem wit="#Transcription">
+ will ich ir pryß wo ich nur bin \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="47">
+<app>
+<lem wit="#Transcription">
+ und far dahyn ellendiklich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="48">
+<app>
+<lem wit="#Transcription">
+ schayd ich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="49">
+<app>
+<lem wit="#Transcription">
+ in disem jamerstall \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="50">
+<app>
+<lem wit="#Transcription">
+ forcht bringt unfall \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="51">
+<app>
+<lem wit="#Transcription">
+ dy wellt ist hol \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="52">
+<app>
+<lem wit="#Transcription">
+ und untrew vol \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="53">
+<app>
+<lem wit="#Transcription">
+ ich wayß nit wie ichs versten sol.
+Thüe was ich wil so ist mein gunst \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="54">
+<app>
+<lem wit="#Transcription">
+ umb sunst \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="55">
+<app>
+<lem wit="#Transcription">
+ dye grosse prünst \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="56">
+<app>
+<lem wit="#Transcription">
+ der trewen lieb myet mich schwerlich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="57">
+<app>
+<lem wit="#Transcription">
+ mir gschicht unrecht bey meinem aydt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="58">
+<app>
+<lem wit="#Transcription">
+ mein zeyt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="59">
+<app>
+<lem wit="#Transcription">
+ on alle freyt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="60">
+<app>
+<lem wit="#Transcription">
+ vertreiben můß den lon hab ich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="61">
+<app>
+<lem wit="#Transcription">
+ mein allte trew bedenck gsell pass \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="62">
+<app>
+<lem wit="#Transcription">
+ und lass mich bleyben ewig dein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="63">
+<app>
+<lem wit="#Transcription">
+ in güet erschein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="64">
+<app>
+<lem wit="#Transcription">
+ vertreib mein peyn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="65">
+<app>
+<lem wit="#Transcription">
+ und laß mich sein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="66">
+<app>
+<lem wit="#Transcription">
+ bevolhen dyr erbarmb dich mein.
+Ja fraw dein red mein hertz vast yebt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="67">
+<app>
+<lem wit="#Transcription">
+ nw liebt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="68">
+<app>
+<lem wit="#Transcription">
+ und unmass tryebt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="69">
+<app>
+<lem wit="#Transcription">
+ dein tugend groß mich armen brůder \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="70">
+<app>
+<lem wit="#Transcription">
+ du waist das ich an argen won \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="71">
+<app>
+<lem wit="#Transcription">
+ lieb hon \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="72">
+<app>
+<lem wit="#Transcription">
+ dich hösten kron \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="73">
+<app>
+<lem wit="#Transcription">
+ und stätz bewar dein zucht und er \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="74">
+<app>
+<lem wit="#Transcription">
+ dan all mein frewd in ewr giet \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="75">
+<app>
+<lem wit="#Transcription">
+ ich pitt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="76">
+<app>
+<lem wit="#Transcription">
+ verstet mich ewen recht \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="77">
+<app>
+<lem wit="#Transcription">
+ ich bin gantz schlecht \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="78">
+<app>
+<lem wit="#Transcription">
+ darum an secht \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="79">
+<app>
+<lem wit="#Transcription">
+ getrewen knecht \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="80">
+<app>
+<lem wit="#Transcription">
+ und uns bayde nit weitter schwecht.
+Nicht lass mich gen dir verhetzen \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="81">
+<app>
+<lem wit="#Transcription">
+ letzen \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="82">
+<app>
+<lem wit="#Transcription">
+ auch nit setzen \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="83">
+<app>
+<lem wit="#Transcription">
+ kan mich von dir kayns menschen list \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="84">
+<app>
+<lem wit="#Transcription">
+ ach werden glück erbarmb dich mein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="85">
+<app>
+<lem wit="#Transcription">
+ vereyn solch schwere pein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="86">
+<app>
+<lem wit="#Transcription">
+ durch deine gůt als frumb du bist \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="87">
+<app>
+<lem wit="#Transcription">
+ o mein hertz aller liebster gsell \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="88">
+<app>
+<lem wit="#Transcription">
+ ich stell \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="89">
+<app>
+<lem wit="#Transcription">
+ mein trost und hayl in dich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="90">
+<app>
+<lem wit="#Transcription">
+ ich mayns treylich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="91">
+<app>
+<lem wit="#Transcription">
+ mein lieb an sich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="92">
+<app>
+<lem wit="#Transcription">
+ bit hertziklich \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="93">
+<app>
+<lem wit="#Transcription">
+ deyn aygen bin glaub sicherlich.
+Ach gsell nit glaub ir trew sich an \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="94">
+<app>
+<lem wit="#Transcription">
+ ob schon \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="95">
+<app>
+<lem wit="#Transcription">
+ sein gwonlich lon \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="96">
+<app>
+<lem wit="#Transcription">
+ traurige lieb erzaygen thůt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="97">
+<app>
+<lem wit="#Transcription">
+ drumb laß nit ab deyn gmůt hyn lenck \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="98">
+<app>
+<lem wit="#Transcription">
+ bedenck \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="99">
+<app>
+<lem wit="#Transcription">
+ on not nicht krenck \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="100">
+<app>
+<lem wit="#Transcription">
+ dich selber han ayn gůten můt \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="101">
+<app>
+<lem wit="#Transcription">
+ der gleychen dw zart schöne fraw \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="102">
+<app>
+<lem wit="#Transcription">
+ an schaw \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="103">
+<app>
+<lem wit="#Transcription">
+ sein klag und schmertzlich peyn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="104">
+<app>
+<lem wit="#Transcription">
+ den hertz verzeyn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="105">
+<app>
+<lem wit="#Transcription">
+ kein frömbden scheyn \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="106">
+<app>
+<lem wit="#Transcription">
+ nit lass darein \ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
+<l n="107">
+<app>
+<lem wit="#Transcription">
+ trew ist seltzam drumb hallt dich sein.
+
+
+\ 
+</lem>
+<rdg wit="#Translation">
+TRANSLATION GOES HERE
+</rdg>
+</app>
+</l>
+
