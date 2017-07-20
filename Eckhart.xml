@@ -11,15 +11,15 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Sermon on the Coming of the Lord</title>
+				<author>Meister Eckhart</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Patric di Dio di Marco, Björn Buschbeck, Robert Forke, Mae Lyons-Penner and Kathryn Starkey</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -47,8 +47,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">Item sermo de adventu domini</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+					<witness xml:id="Transcription">sermo de adventu domini</witness>
+					<witness xml:id="Translation">Sermon on the coming of the Lord</witness>
 				</listWit>
 			</div>
 		</front>
@@ -57,7 +57,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">Item sermo de adventu domini</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<rdg wit="#Translation">Next: sermon on the coming of the Lord</rdg>
 					</app>
 				</title>
 			</head>
