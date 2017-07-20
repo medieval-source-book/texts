@@ -51,7 +51,7 @@
 		<front>
 			<div>
 				<listWit>
-					<lemma xml:id="Transcription">DEpuis Deux ou trois jours enca</witness>
+					<witness xml:id="Transcription">DEpuis Deux ou trois jours enca</witness>
 					<witness xml:id="Translation">Two or three days ago</witness>
 				</listWit>
 			</div>
@@ -60,7 +60,7 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">DEpuis Deux ou trois jours enca /</lem>
+						<lem wit="#Transcription">DEpuis Deux ou trois jours enca</lem>
 						<rdg wit="#Translation">Two or three days ago</rdg>
 					</app>
 				</title>
