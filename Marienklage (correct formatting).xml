@@ -46,9 +46,9 @@
 				<name>WHO TRANSLATED ME?</name>
 			</respStmt>
 			<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>Jordan Rosen-Kaplan</name>
-				</respStmt>
+				<resp>TEI encoding by</resp>
+				<name>Jordan Rosen-Kaplan</name>
+			</respStmt>
 			<publicationStmt>
 				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
 				<availability>
@@ -4037,8 +4037,8 @@
 					</rdg>
 				</app>
 				<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
 				</app>
 				<app>
 					<lem wit="#Transcription">
@@ -4662,39 +4662,407 @@
 						<l n="401" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
 					</rdg>
 				</app>
-		</body>
-	</text>
-</TEI>
-
+			</sp>
+			<stage>
 				<app>
 					<lem wit="#Transcription">
-						<l n="387" type="sung"></l>
+						<p>Hic Maria Magdalena et mater Johannis cantant secundo simul sicut prius canticum "O quam tristis et afflicta" s. et mater Johannis dicit ricmum "Ach ach, wo sere" vt prius.</p>
 					</lem>
 					<rdg wit="#Translation">
-						<l n="387" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						<p>STAGE DIRECTION TRANSLATION GOES HERE</p>
 					</rdg>
 				</app>
-
 				<app>
 					<lem wit="#Transcription">
-						<l n="355"></l>
+						<p>Post hoc statim beata virgo Maria, si potest hoc commodose fieri.</p>
 					</lem>
 					<rdg wit="#Translation">
-						<l n="355">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+						<p>STAGE DIRECTION TRANSLATION GOES HERE</p>
 					</rdg>
 				</app>
-
+				<app>
+					<lem wit="#Transcription">
+						<p>incipit secundo cum omni deuocione canticum "We helpet klagen myn grot leyt? Myn yamer de ys worden breyt" vt prius.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>STAGE DIRECTION TRANSLATION GOES HERE</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et cantat ex integro cum omnibus gestibus sicut prius.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>STAGE DIRECTION TRANSLATION GOES HERE</p>
+					</rdg>
+				</app>
+			</stage>
 			<sp>
 				<app>
 					<lem wit="#Transcription">
-						<speaker></speaker>
+						<speaker>Sancta Maria quando finiat canticum istud secundo dicit ricmum</speaker>
 					</lem>
 					<rdg wit="#Translation">
 						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
 					</rdg>
 				</app>
-
+				<app>
+					<lem wit="#Transcription">
+						<l n="402">Eya schone bouen alle schone</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="402">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="403">Eya herteleue sone,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="403">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="404">Wor ys dyne schone hengevaren?</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="404">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="405">Du werest de allerschoneste gebaren,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="405">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="406">De gy van moderlyue gebaren wart,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="406">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="407">Also wunnychlyck vnde tzart!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="407">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="408">Dy weren dyne wanghen,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="408">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="409">Oft se myt rosen weren behanghen;</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="409">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="410">Dyn antlat scheen also de sunne,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="410">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="411">Dyn ogenblyk was also eyn vrolyk wunne.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="411">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="412">O leue sone Jhesu Crist,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="412">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="413">Wo sere du nu gewundet byst!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="413">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="414">Dy synt dyne lede van blode rot,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="414">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="415">Wentu an deme crutze lydest grote not.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="415">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
 				<app>
 					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
 					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
 				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="416">Eya, du valsche yoden deyt,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="416">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="417">Du werest dar sere to bereyt</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="417">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="418">Dattu myn leue kynt mochtest bevlecken!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="418">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="419">Ik wyl dat wedder bedecken:</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="419">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="420">Id schal nicht lengher naket stan,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="420">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="421">Mynen do&esup;k wyl yk em vmme sla&esup;n,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="421">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="422">Wente yk arme moder Marie</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="422">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="423">Eynen anderen doek wedder lye.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="423">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<stage>
+					<app>
+						<lem wit="#Transcription">
+							<p>Sancta Maria accipit hic pannum de serico album, cum quo tegit lumbos crucifixi, quem iuuenis quidam tenet cum galdio Symeonis et statim subdit.</p>
+						</lem>
+						<rdg wit="#Translation">
+							<p>TRANSLATION OF STAGE DIRECTION GOES HERE</p>
+						</rdg>
+					</app>
+				</stage>
+				<app>
+					<lem wit="#Transcription">
+						<l n="424">Leuen kyndere, my ys grot not, day yk weyne.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="423">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="425">O Maria Magdalene,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="425">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="426">O wat lydet nu dat leue kynd myn</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="426">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="427">Vnde ok de werde truten meyster dyn!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="427">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+			</sp>
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>Maria Magdalena respondet</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="428">Maria, aller junckfrowen eyn ere,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="428">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="429">Ik bekenne wol, wat myn leue truten here</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="429">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="430">Nu lydet vor vns allen;</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="430">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="431">Ik mot van ruwen nedder vallen</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="431">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="432">Vnde beweynen syne grot herteleyt.</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="432">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="433">O, wo he nu an deme crutze steyt!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="433">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="434">Eya Maria, neen mynslik herte</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="434">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="435">Kan begrypen syn lydent vnde grote smerte!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="435">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="436">O du valsche yodendeyt,</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="436">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<l n="437">Du makest, dat yk mot syngen eyn klagheleyt!</l>
+					</lem>
+					<rdg wit="#Translation">
+						<l n="437">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+					</rdg>
+				</app>
+		</body>
+	</text>
+</TEI>
+
+<stage>
+	<app>
+		<lem wit="#Transcription">
+			<p></p>
+		</lem>
+		<rdg wit="#Translation">
+			<p></p>
+		</rdg>
+	</app>
+</stage>
+
+
+<app>
+	<lem wit="#Transcription">
+		<l n="387" type="sung"></l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="387" type="sung">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+	</rdg>
+</app>
+
+<app>
+	<lem wit="#Transcription">
+		<l n="416"></l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="416">TRANSLATION OF SPOKEN LINE GOES HERE</l>
+	</rdg>
+</app>
+
+<sp>
+	<app>
+		<lem wit="#Transcription">
+			<speaker></speaker>
+		</lem>
+		<rdg wit="#Translation">
+			<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+		</rdg>
+	</app>
+
+	<app>
+		<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+		<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+	</app>
