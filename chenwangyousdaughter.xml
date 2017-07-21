@@ -12,7 +12,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Chen Wangyou’s Daughter-in-Law</title>
-				<author></author>
+				<author>Hong Mai</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name>Likun Yang</name>
@@ -22,7 +22,11 @@
 					<name>Likun Yang</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Editing by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
@@ -52,8 +56,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
+					<witness xml:id="Transcription">陳王猷子妇</witness>
+					<witness xml:id="Translation">Chen Wangyou’s Daughter-in-Law</witness>
 				</listWit>
 			</div>
 		</front>
@@ -137,7 +141,7 @@
 							<s>婦出入自若,</s>
 						</lem>
 						<rdg wit="#Translation">
-							<s>However, the woman went in and out of the Chen family home like there was no one around.</s>
+							<s>However the woman went in and out of the Chen family home like there was no one around.</s>
 						</rdg>
 					</app>
 					<app>

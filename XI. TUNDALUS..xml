@@ -11,7 +11,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>XI. TUNDALUS.</title>
+				<title>Vaz tundalu&slong; hat ge&slong;in.</title>
 				<author><!--AUTHOR--></author>
 			</titleStmt>
 			<respStmt>
@@ -20,10 +20,14 @@
 			</respStmt>
 			<respStmt>
 				<resp>Translation by</resp>
-				<name><!--WHO TRANSLATED ME?--></name>
+				<name>Mae Lyons-Penner</name>
 			</respStmt>
 			<respStmt>
+<<<<<<< Updated upstream
 				<resp>TEI encoding by</resp>
+=======
+				<resp>Encoded in TEI by</resp>
+>>>>>>> Stashed changes
 				<name>Clara Romani</name>
 			</respStmt>
 			<publicationStmt>

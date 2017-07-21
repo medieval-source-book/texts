@@ -11,11 +11,6 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>“Lo Specchio della Vera Penitenza” III, 2 - Il Carbonaio di Niversa (1354)</title>
-				<author>JACOPO PASSAVANTI</author>
-				<respStmt>
-					<resp>Critical edition in Italian: - Passavanti, Jacopo. Lo Specchio della Vera Penitenza. Ed. Ginetta Auzzas, Florence: Accademia della Crusca, 2014.</resp>
-					<name>Jacopo Passavanti</name>
 				<title>The Charcoal-Burner of Nevers</title>
 				<author>Jacopo Passavanti</author>
 				<respStmt>
@@ -23,12 +18,12 @@
 					<name>Daniele Biffanti</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Le Monnier</publisher>
+				<publisher></publisher>
 				<availability>
 					<p></p>
 				</availability>
@@ -43,7 +38,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
-				<p>Separated by sentence according to original text. Translation may not always match syntatical structure.</p>
+				<p></p>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -66,8 +61,8 @@
 					</app>
 				</title>
 			</head>
-			<div n="1">
-				<p n="1">
+			<div>
+				<p>
 					<s>
 						<app>
 							<lem wit="#Transcription">Leggesi iscritto da Elinando, che nel contado di Niversa fu uno povero uomo, il quale era buono e temente Iddio, ch'era carbonaio, e di quella arte si vivea.

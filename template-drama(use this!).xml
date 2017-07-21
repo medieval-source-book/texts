@@ -24,10 +24,10 @@
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+<!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
-'http://www.menota.org/menota-entities.txt'   >
+'../menota/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -46,7 +46,7 @@
 				<name>WHO TRANSLATED ME?</name>
 			</respStmt>
 			<respStmt>
-				<resp>Encoded in TEI P5 XML by</resp>
+				<resp>Digital Transcription by</resp>
 				<name>YOUR NAME HERE</name>
 			</respStmt>
 			<publicationStmt>
@@ -95,10 +95,10 @@
 			<stage>
 				<app>
 					<lem wit="#Transcription">
-						TRANSCRIPTION OF STAGE DIRECTIONS GO HERE
+						<p>TRANSCRIPTION OF STAGE DIRECTIONS GO HERE</p>
 					</lem>
 					<rdg wit="#Translation">
-						TRANSLATION OF STAGE DIRECTIONS
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
 					</rdg>
 				</app>
 			</stage>
