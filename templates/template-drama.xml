@@ -107,7 +107,9 @@
 
 			<!-- A) Start here: -->
 			<div1 type="scene" n="1">
-				<div2 type="act" n="2">
+				<head>Scene I</head>
+				<div2 type="act" n="1">
+					<head>Act I</head>
 					<sp who="#king">
 						<speaker>
 							<app>
