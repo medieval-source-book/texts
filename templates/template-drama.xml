@@ -106,46 +106,42 @@
 			<!-- The next block should be used every time the speaker changes -->
 
 			<!-- A) Start here: -->
-			<div type="scene" n="1">
-			<sp who="#king">
-				<speaker>
-				<app>
-					<lem wit="#Transcription">
-						TRANSCRIPTION OF SPEAKER'S NAME GOES HERE 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION OF SPEAKER'S NAME GOES HERE
-					</rdg>
-				</app>
-				</speaker>
-
-				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
-
-
-				<!-- B) from here: --> 
-				<app>
-					<lem wit="#Transcription">
+			<div1 type="scene" n="1">
+				<div2 type="act" n="2">
+					<sp who="#king">
+						<speaker>
+							<app>
+								<lem wit="#Transcription">
+									TRANSCRIPTION OF SPEAKER'S NAME GOES HERE 
+								</lem>
+								<rdg wit="#Translation">
+									TRANSLATION OF SPEAKER'S NAME GOES HERE
+								</rdg>
+							</app>
+						</speaker>
+						
+		
+						<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+		
+						<!-- B) from here: --> 
 						<lg type="stanza" n="1"> 
-							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
-							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
-						</lg>
-					</lem>
-					<rdg wit="#Translation">
-						<lg type="stanza" n="1">
-							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
-							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
-								<note anchored="true">
-									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
-								</note>
+							<l n="1">
+								<app>
+									<lem wit="#Transcription">
+										TRANSCRIPTION OF SPOKEN LINE GOES HERE
+										</lem>
+									<rdg wit="#Translation">
+										TRANSLATION OF SPOKEN LINE GOES HERE<note anchored="true"><p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+												</note>
+									</rdg>
+								</app>
 							</l>
 						</lg>
-					</rdg>
-				</app>
-				<!-- B) to here -->
-
-
-			</sp>
-			</div>
+						<!-- B) to here -->
+		
+					</sp>
+				</div2>
+			</div1>
 			<!-- A) End here -->
 
 		</body>
