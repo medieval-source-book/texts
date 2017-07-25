@@ -21,17 +21,13 @@
 	in the subtag category
 -->
 
-
-
-
-
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+<!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
-'http://www.menota.org/menota-entities.txt'   >
+'../menota/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -50,7 +46,7 @@
 				<name>WHO TRANSLATED ME?</name>
 			</respStmt>
 			<respStmt>
-				<resp>Encoded in TEI P5 XML by</resp>
+				<resp>Digital Transcription by</resp>
 				<name>YOUR NAME HERE</name>
 			</respStmt>
 			<publicationStmt>
@@ -93,78 +89,61 @@
 					</app>
 				</title>
 			</head>
-			<lg>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true">
-								<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
-							</note>
-						</rdg>
-					</app>
-				</l>
-				<l n="2">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation">&oogonacute;LATIN SMALL LETTER O WITH OGONEK AND ACUTE</rdg>
-					</app>
-				</l>
-				<l n="3">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation">foo</rdg>
-					</app>
-				</l>
-				<l n="4">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="5">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="6">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="7">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="8">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="9">
-					<app>
-						<lem wit="#Transcription">foo</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="10">
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-			</lg>
+
+			<!-- stage directions -->
+
+			<stage>
+				<app>
+					<lem wit="#Transcription">
+						<p>TRANSCRIPTION OF STAGE DIRECTIONS GO HERE</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>TRANSLATION OF STAGE DIRECTIONS</p>
+					</rdg>
+				</app>
+			</stage>
+
+			<!-- The next block should be used every time the speaker changes -->
+
+			<!-- A) Start here: -->
+			<sp>
+				<app>
+					<lem wit="#Transcription">
+						<speaker>TRANSCRIPTION OF SPEAKER'S NAME GOES HERE</speaker>
+					</lem>
+					<rdg wit="#Translation">
+						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
+					</rdg>
+				</app>
+
+				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+
+
+				<!-- B) from here: --> 
+				<app>
+					<lem wit="#Transcription">
+						<lg type="stanza" n="1"> 
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
+						</lg>
+					</lem>
+					<rdg wit="#Translation">
+						<lg type="stanza" n="1">
+							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
+							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
+								<note anchored="true">
+									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+								</note>
+							</l>
+						</lg>
+					</rdg>
+				</app>
+				<!-- B) to here -->
+
+
+			</sp>
+			<!-- A) End here -->
+
 		</body>
 	</text>
 </TEI>

@@ -11,15 +11,19 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Depuis deux ou trois jours en ca</title>
-				<author></author>
+				<title>Two Or Three Days Ago [Song]</title>
+				<author>Anonymous</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Mae Lyons-Penner</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -47,8 +51,8 @@
 		<front>
 			<div>
 				<listWit>
-					<lemma xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
+					<witness xml:id="Transcription">Depuis deux ou trois jours enca</witness>
+					<witness xml:id="Translation">Two or three days ago</witness>
 				</listWit>
 			</div>
 		</front>
@@ -56,15 +60,15 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">DEpuis Deux ou trois jours enca</lem>
+						<rdg wit="#Translation">Two or three days ago</rdg>
 					</app>
 				</title>
 			</head>
 			<lg n="1">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">Epuis Deux ou trois jours enca/
+						<lem wit="#Transcription">DEpuis Deux ou trois jours enca /
 						</lem>
 						<rdg wit="#Translation">Two or three days ago</rdg>
 					</app>
@@ -78,7 +82,7 @@
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">Sans ce quil ait parle a my/
+						<lem wit="#Transcription">Sans ce quil ait parle a my /
 						</lem>
 						<rdg wit="#Translation">without saying anything to me.</rdg>
 					</app>
@@ -124,7 +128,7 @@
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">Car par ma foi je vois
+						<lem wit="#Transcription">Car par ma foi je vous dis
 						</lem>
 						<rdg wit="Translation">because, in faith, I say to you</rdg>
 					</app>
