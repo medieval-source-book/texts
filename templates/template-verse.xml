@@ -40,19 +40,19 @@
 			<titleStmt>
 				<title>TITLE</title>
 				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>WHO TRANSCRIBED ME?</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>WHO TRANSLATED ME?</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>YOUR NAME HERE</name>
+				</respStmt>
 			</titleStmt>
-			<respStmt>
-				<resp>Transcription by</resp>
-				<name>WHO TRANSCRIBED ME?</name>
-			</respStmt>
-			<respStmt>
-				<resp>Translation by</resp>
-				<name>WHO TRANSLATED ME?</name>
-			</respStmt>
-			<respStmt>
-				<resp>Encoded in TEI P5 XML by</resp>
-				<name>YOUR NAME HERE</name>
-			</respStmt>
 			<publicationStmt>
 				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
 				<availability>
@@ -110,7 +110,7 @@
 						<rdg wit="#Translation">&oogonacute;LATIN SMALL LETTER O WITH OGONEK AND ACUTE</rdg>
 					</app>
 				</l>
-				<l n="3">
+				<l n="3"><space quantity="10" unit="chars"></space>
 					<app>
 						<lem wit="#Transcription">foo</lem>
 						<rdg wit="#Translation">foo</rdg>
