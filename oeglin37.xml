@@ -1,24 +1,45 @@
 <!--
-	Language change: 
 
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
+	Oeglin 37
 
-	When the text changes language, use an extra modifier in your tag. 
+		TEI Encoding Specifications:
 
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
+			<lem> = transcription
 
-	The modifier (xml:lang="?") is the critical insertion. 
+			<rdg> = translation
 
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
 -->
 
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
@@ -322,26 +343,15 @@
 			<l n="21">
 				<app>
 					<lem wit="#Transcription">
-						mich findest auch gerecht unnd frey \ 
+						mich findest auch gerecht unnd frey \ on all umb stendt \ 
 					</lem>
 					<rdg wit="#Translation">
-						as you find me to be just and charitable,
+						as you find me to be just and charitable, with no ill intentions, and straightforward.
 					</rdg>
 				</app>
 			</l>
 
 			<l n="22">
-				<app>
-					<lem wit="#Transcription">
-						on all umb stendt \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="23">
 				<app>
 					<lem wit="#Transcription">
 						von dir nit wendt \ 
@@ -352,7 +362,7 @@
 				</app>
 			</l>
 
-			<l n="24">
+			<l n="23">
 				<app>
 					<lem wit="#Transcription">
 						bis in mein enndt \ 
@@ -363,7 +373,7 @@
 				</app>
 			</l>
 
-			<l n="25">
+			<l n="24">
 				<app>
 					<lem wit="#Transcription">
 						des thů ich dich geweren.

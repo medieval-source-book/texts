@@ -1,54 +1,25 @@
-<!--
-	Language change: 
-
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
-
-	When the text changes language, use an extra modifier in your tag. 
-
-	For example: (a text changes to Latin)
-		<l xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</l>
-
-	The modifier (xml:lang="?") is the critical insertion. 
-
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
--->
-
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
-[
-<!ENTITY % Menota_entities SYSTEM
-'http://www.menota.org/menota-entities.txt'   >
-%Menota_entities;]
->
+<?xml-model href="../../../../../../../Applications/Oxygen%20XML%20Editor/frameworks/tei/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>TITLE</title>
 				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>WHO TRANSCRIBED ME?</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>WHO TRANSLATED ME?</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>YOUR NAME HERE</name>
+				</respStmt>
 			</titleStmt>
-			<respStmt>
-				<resp>Transcription by</resp>
-				<name>WHO TRANSCRIBED ME?</name>
-			</respStmt>
-			<respStmt>
-				<resp>Translation by</resp>
-				<name>WHO TRANSLATED ME?</name>
-			</respStmt>
-			<respStmt>
-				<resp>Encoded in TEI P5 XML by</resp>
-				<name>YOUR NAME HERE</name>
-			</respStmt>
+
 			<publicationStmt>
 				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
 				<availability>
@@ -60,27 +31,21 @@
 				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>ANY SOURCES GO HERE</p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Original Name</witness>
+					<witness xml:id="Translation">Translation's Name</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
 			<editorialDecl>
 				<p></p>
-			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
+			</editorialDecl>	
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">TITLE</witness>
-					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -89,10 +54,44 @@
 					</app>
 				</title>
 			</head>
-
+			<performance>
+				<head>Performance Notes</head>
+				<p>
+					To be performed in a wine cellar.
+				</p>
+			</performance>
+			<set>
+				<head>Setting</head>
+				<p>
+					Interior. Room.
+				</p>
+			</set>
+			<prologue>
+				<head>Prologue</head>
+				<p>
+					<app>
+						<lem wit="#Transcription">Transcribed prologue</lem>
+						<rdg wit="#Translation">Translated progloue</rdg>
+					</app>
+				</p>
+			</prologue>
+			<castList>
+				<head>Cast List</head>
+				<castGroup>
+					<head>Royalty</head>
+					<castItem xml:id="king">
+						<role>King</role>
+						<actor>Ben Kingsley</actor>
+					</castItem>
+				</castGroup>
+			</castList>
+		</front>
+		
+		<body>
 			<!-- stage directions -->
 
 			<stage>
+				<p>
 				<app>
 					<lem wit="#Transcription">
 						TRANSCRIPTION OF STAGE DIRECTIONS GO HERE
@@ -101,49 +100,63 @@
 						TRANSLATION OF STAGE DIRECTIONS
 					</rdg>
 				</app>
+				</p>
 			</stage>
 
 			<!-- The next block should be used every time the speaker changes -->
 
 			<!-- A) Start here: -->
-			<sp>
-				<app>
-					<lem wit="#Transcription">
-						<speaker>TRANSCRIPTION OF SPEAKER'S NAME GOES HERE</speaker>
-					</lem>
-					<rdg wit="#Translation">
-						<speaker>TRANSLATION OF SPEAKER'S NAME GOES HERE</speaker>
-					</rdg>
-				</app>
-
-				<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
-
-
-				<!-- B) from here: --> 
-				<app>
-					<lem wit="#Transcription">
+			<div1 type="scene" n="1">
+				<head>Scene I</head>
+				<div2 type="act" n="1">
+					<head>Act I</head>
+					<sp who="#king">
+						<speaker>
+							<app>
+								<lem wit="#Transcription">
+									TRANSCRIPTION OF SPEAKER'S NAME GOES HERE 
+								</lem>
+								<rdg wit="#Translation">
+									TRANSLATION OF SPEAKER'S NAME GOES HERE
+								</rdg>
+							</app>
+						</speaker>
+						
+		
+						<!-- This next block should be copied and pasted for each line spoken by the speaker who is specified above -->
+		
+						<!-- B) from here: --> 
 						<lg type="stanza" n="1"> 
-							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
-							<l n="1">TRANSCRIPTION OF SPOKEN LINE GOES HERE</l>
-						</lg>
-					</lem>
-					<rdg wit="#Translation">
-						<lg type="stanza" n="1">
-							<!-- this lg tag (and its closing tag) are only necessary for stanzaic separations. It can be omitted if not needed -->
-							<l n="1">TRANSLATION OF SPOKEN LINE GOES HERE
-								<note anchored="true">
-									<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
-								</note>
+							<l n="1">
+								<app>
+									<lem wit="#Transcription">
+										TRANSCRIPTION OF SPOKEN LINE GOES HERE
+										</lem>
+									<rdg wit="#Translation">
+										TRANSLATION OF SPOKEN LINE GOES HERE<note anchored="true"><p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
+												</note>
+									</rdg>
+								</app>
 							</l>
 						</lg>
-					</rdg>
-				</app>
-				<!-- B) to here -->
-
-
-			</sp>
+						
+						<!-- B) to here -->
+					</sp>
+				</div2>
+			</div1>
 			<!-- A) End here -->
 
 		</body>
+		<back>
+			<epilogue>
+				<head>Epilogue</head>
+				<p>
+					<app>
+						<lem wit="#Transcription">Transcribed epilogue</lem>
+						<rdg wit="#Translation">Translated epilogue</rdg>
+					</app>
+				</p>
+			</epilogue>
+		</back>
 	</text>
 </TEI>

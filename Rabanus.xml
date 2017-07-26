@@ -1,29 +1,46 @@
 <!--
-	Language change: 
 
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
+	Rabanus
 
-	When the text changes language, use an extra modifier in your tag. 
+		TEI Encoding Specifications:
 
-	For example: (a text changes to Latin)
-		<l xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</l>
+			<lem> = transcription
 
-	The modifier (xml:lang="?") is the critical insertion. 
+			<rdg> = translation
 
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
 -->
-
-
-
-
 
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
@@ -38,33 +55,28 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>In honorem sanctae crucis, Poem 28</title>
+				<title>In Honour of the Holy Cross</title>
 				<author>Rabanus Maurus</author>
 			</titleStmt>
-			<respStmt>
-				<resp>Transcription by</resp>
-				<name>WHO TRANSCRIBED ME?</name>
-			</respStmt>
 			<respStmt>
 				<resp>Translation by</resp>
 				<name>May Peterson</name>
 			</respStmt>
 			<respStmt>
-				<resp>TEI encoding by</resp>
+				<resp>Encoded in TEI P5 XML by</resp>
 				<name>Jordan Rosen-Kaplan</name>
 			</respStmt>
 			<publicationStmt>
-				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<publisher></publisher>
 				<availability>
 					<p></p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>ANY SOURCES GO HERE</p>
+				<p>A</p>
 				<p></p>
 			</sourceDesc>
 		</fileDesc>
@@ -80,7 +92,7 @@
 			<div>
 				<listWit>
 					<witness xml:id="Transcription">In honorem sanctae crucis</witness>
-					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
+					<witness xml:id="Translation">In Honour of the Holy Cross</witness>
 				</listWit>
 			</div>
 		</front>
@@ -89,7 +101,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">In honorem sanctae crucis</lem>
-						<rdg wit="#Translation">TITLE'S TRANSLATION</rdg>
+						<rdg wit="#Translation">In Honour of the Holy Cross</rdg>
 					</app>
 				</title>
 			</head>

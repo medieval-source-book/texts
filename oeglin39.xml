@@ -1,24 +1,45 @@
-	<!--
-	Language change: 
+<!--
 
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
+	Oeglin 39
 
-	When the text changes language, use an extra modifier in your tag. 
+		TEI Encoding Specifications:
 
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
+			<lem> = transcription
 
-	The modifier (xml:lang="?") is the critical insertion. 
+			<rdg> = translation
 
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
 -->
 
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
@@ -98,7 +119,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="2">
 				<app>
 					<lem wit="#Transcription">
@@ -109,7 +129,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="3">
 				<app>
 					<lem wit="#Transcription">
@@ -120,7 +139,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="4">
 				<app>
 					<lem wit="#Transcription">
@@ -131,7 +149,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="5">
 				<app>
 					<lem wit="#Transcription">
@@ -142,7 +159,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="6">
 				<app>
 					<lem wit="#Transcription">
@@ -153,7 +169,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="7">
 				<app>
 					<lem wit="#Transcription">
@@ -164,7 +179,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="8">
 				<app>
 					<lem wit="#Transcription">
@@ -175,7 +189,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="9">
 				<app>
 					<lem wit="#Transcription">
@@ -186,7 +199,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="10">
 				<app>
 					<lem wit="#Transcription">
@@ -197,7 +209,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="11">
 				<app>
 					<lem wit="#Transcription">
@@ -208,7 +219,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="12">
 				<app>
 					<lem wit="#Transcription">
@@ -219,7 +229,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="13">
 				<app>
 					<lem wit="#Transcription">
@@ -230,7 +239,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="14">
 				<app>
 					<lem wit="#Transcription">
@@ -241,7 +249,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="15">
 				<app>
 					<lem wit="#Transcription">
@@ -252,7 +259,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="16">
 				<app>
 					<lem wit="#Transcription">
@@ -263,7 +269,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="17">
 				<app>
 					<lem wit="#Transcription">
@@ -274,7 +279,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="18">
 				<app>
 					<lem wit="#Transcription">
@@ -285,7 +289,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="19">
 				<app>
 					<lem wit="#Transcription">
@@ -296,7 +299,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="20">
 				<app>
 					<lem wit="#Transcription">
@@ -307,7 +309,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="21">
 				<app>
 					<lem wit="#Transcription">
@@ -318,7 +319,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="22">
 				<app>
 					<lem wit="#Transcription">
@@ -329,7 +329,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="23">
 				<app>
 					<lem wit="#Transcription">
@@ -340,7 +339,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="24">
 				<app>
 					<lem wit="#Transcription">
@@ -351,7 +349,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="25">
 				<app>
 					<lem wit="#Transcription">
@@ -362,7 +359,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="26">
 				<app>
 					<lem wit="#Transcription">
@@ -373,7 +369,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="27">
 				<app>
 					<lem wit="#Transcription">
@@ -384,7 +379,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="28">
 				<app>
 					<lem wit="#Transcription">
@@ -395,7 +389,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="29">
 				<app>
 					<lem wit="#Transcription">
@@ -406,7 +399,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="30">
 				<app>
 					<lem wit="#Transcription">
@@ -417,7 +409,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="31">
 				<app loc="l31">
 					<lem wit="#Transcription">mein gross unschult \</lem>
@@ -438,7 +429,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="33">
 				<app loc="l33">
 					<lem wit="#Transcription">hyllff schyr mein glück </lem>
@@ -451,7 +441,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="34">
 				<app>
 					<lem wit="#Transcription">
@@ -462,7 +451,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="35">
 				<app>
 					<lem wit="#Transcription">
@@ -473,7 +461,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="36">
 				<app>
 					<lem wit="#Transcription">
@@ -484,7 +471,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="37">
 				<app>
 					<lem wit="#Transcription">
@@ -495,7 +481,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="38">
 				<app>
 					<lem wit="#Transcription">
@@ -506,7 +491,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="39">
 				<app>
 					<lem wit="#Transcription">
@@ -517,7 +501,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="40">
 				<app>
 					<lem wit="#Transcription">
@@ -528,7 +511,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="41">
 				<app>
 					<lem wit="#Transcription">
@@ -539,7 +521,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="42">
 				<app>
 					<lem wit="#Transcription">
@@ -550,7 +531,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="43">
 				<app>
 					<lem wit="#Transcription">
@@ -561,7 +541,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="44">
 				<app>
 					<lem wit="#Transcription">
@@ -572,7 +551,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="45">
 				<app>
 					<lem wit="#Transcription">
@@ -583,7 +561,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="46">
 				<app>
 					<lem wit="#Transcription">
@@ -594,7 +571,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="47">
 				<app>
 					<lem wit="#Transcription">
@@ -605,7 +581,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="48">
 				<app>
 					<lem wit="#Transcription">
@@ -616,7 +591,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="49">
 				<app>
 					<lem wit="#Transcription">
@@ -627,7 +601,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="50">
 				<app>
 					<lem wit="#Transcription">
@@ -638,7 +611,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="51">
 				<app>
 					<lem wit="#Transcription">
@@ -649,7 +621,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="52">
 				<app>
 					<lem wit="#Transcription">
@@ -660,7 +631,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="53">
 				<app>
 					<lem wit="#Transcription">
@@ -671,7 +641,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="54">
 				<app>
 					<lem wit="#Transcription">
@@ -682,7 +651,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="55">
 				<app>
 					<lem wit="#Transcription">
@@ -693,7 +661,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="56">
 				<app>
 					<lem wit="#Transcription">
@@ -704,7 +671,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="57">
 				<app>
 					<lem wit="#Transcription">
@@ -715,7 +681,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="58">
 				<app>
 					<lem wit="#Transcription">
@@ -726,7 +691,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="59">
 				<app>
 					<lem wit="#Transcription">
@@ -737,7 +701,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="60">
 				<app>
 					<lem wit="#Transcription">
@@ -748,7 +711,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="61">
 				<app>
 					<lem wit="#Transcription">
@@ -759,7 +721,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="62">
 				<app>
 					<lem wit="#Transcription">
@@ -770,7 +731,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="63">
 				<app>
 					<lem wit="#Transcription">
@@ -781,7 +741,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="64">
 				<app>
 					<lem wit="#Transcription">
@@ -792,8 +751,6 @@
 					</rdg>
 				</app>
 			</l>
-
-
 			<l n="65">
 				<app>
 					<lem wit="#Transcription">
@@ -804,7 +761,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="66">
 				<app>
 					<lem wit="#Transcription">
@@ -815,7 +771,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="67">
 				<app>
 					<lem wit="#Transcription">
@@ -826,7 +781,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="68">
 				<app>
 					<lem wit="#Transcription">
@@ -837,7 +791,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="69">
 				<app>
 					<lem wit="#Transcription">
@@ -848,7 +801,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="70">
 				<app>
 					<lem wit="#Transcription">
@@ -859,7 +811,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="71">
 				<app>
 					<lem wit="#Transcription">
@@ -870,7 +821,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="72">
 				<app>
 					<lem wit="#Transcription">
@@ -881,7 +831,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="73">
 				<app>
 					<lem wit="#Transcription">
@@ -892,7 +841,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="74">
 				<app>
 					<lem wit="#Transcription">
@@ -903,7 +851,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="75">
 				<app>
 					<lem wit="#Transcription">
@@ -914,29 +861,29 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="76">
-				<app>
+				<app loc="l76">
 					<lem wit="#Transcription">
 						ob schon \ sein gwonlich lon \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
+				</app>
+			<l n="76">
+				<app loc="l77">
+					<rdg wit="#Translation">in case sorrowful love should give its usual reward,</rdg>
 				</app>
 			</l>
-
 			<l n="77">
-				<app>
+				<app loc="l77">
 					<lem wit="#Transcription">
 						traurige lieb erzaygen thůt \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
 			</l>
-
+			<l n="77">
+				<app loc="l76">
+					<rdg wit="#Translation">see her faithfulness,</rdg>
+				</app>
+			</l>
 			<l n="78">
 				<app>
 					<lem wit="#Transcription">
@@ -947,7 +894,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="79">
 				<app>
 					<lem wit="#Transcription">
@@ -958,7 +904,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="80">
 				<app>
 					<lem wit="#Transcription">
@@ -969,7 +914,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="81">
 				<app>
 					<lem wit="#Transcription">
@@ -980,7 +924,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="82">
 				<app>
 					<lem wit="#Transcription">
@@ -991,7 +934,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="83">
 				<app>
 					<lem wit="#Transcription">
@@ -1002,7 +944,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="84">
 				<app>
 					<lem wit="#Transcription">
@@ -1013,7 +954,6 @@
 					</rdg>
 				</app>
 			</l>
-
 			<l n="85">
 				<app>
 					<lem wit="#Transcription">
