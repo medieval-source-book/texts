@@ -1,0 +1,1557 @@
+<!--
+
+	La Vision de Filiberto
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
+
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La visión de Filiberto</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Guinevere Allen</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Guinevere Allen</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">La visión de Filiberto</witness>
+					<witness xml:id="Translation">Filbert's Vision</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">La visión de Filiberto</lem>
+						<rdg wit="#Translation">Filbert's Vision</rdg>
+					</app>
+				</title>
+			</head>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">A good man, a hermit that they called Filbert, was a man of respectable lineage; indeed, he was a descendant of the kings of France.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Considering worldly things to be a source of corruption, and not valuing them, he dedicated himself to the service of God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">In observance of his service to God, he composed this book in which he laid down and wrote very holy words of a vision that he saw, thus occurred Filbert’s vision:</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Being that it was winter and standing in a shrine in the greatest silence of the night, and wishing to conclude my long vigil of prayer, my sensibilities were snatched away by a very subtle dream, a kind of spiritual vision.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">The body of a man appeared, a spiritless body that seemed to be separated from its soul.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">While I was observing this with terror, a spirit appeared that had just left from this same body, and it started to cry very sadly and screamed at its body with much contempt.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And it sat close to it crying and sighing deep breaths in great pain from the excesses and sins that its malicious corpse had committed, and berating its body, it began to reason with itself in the following manner:</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“O miserable corpse, tell me, who is it that has broken you and torn you down since you have so marvelously enriched yourself from times past in that world from which we have departed.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">You certainly saw this in times past when you had great power over the whole world and you paralyzed others with fear.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And you were, furthermore, served in all lands and provinces by rich men, and many nobles, and important squires of high office, valiant and brave, that followed you around.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And you, in front of all of them, making such extravagant gestures, now look at you. Miserable corpse, this madness that you wore as gaudy as peacock pendant, now all of it is gone forever.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now you do not dwell in towers, or in the copious and spacious royal palaces that you so delighted in, but rather, you lie in this small coffin, in this tiny grave.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Well now, tell me how you enjoy your great honors and riches inside of this gloomy house seven feet under?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now you cannot judge or condemn any of those who you falsely accused when you pronounced your false sentences.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Because of the deeds you committed, now you and I will dwell in sadness and pain in hell forevermore.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And poor sad me, so clean and well disposed, I was brought into the world by my Lord God who made me in his likeness.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Regardless of the fact that, for the original sin that our father Adam committed, I was stained by this original sin through you, I was cleansed of it by the holy water of baptism.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And you afterward, drew my away with your defiance against my Lord Jesus Christ, being forsaken by his pious mother, the Holy Mary, and by all the courts of the heavens. And to think now of all the good that I had lost, if I can make my cries known, oh poor me, why was I born?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Oh, that I had never left the womb of my mother where the Lord God created me, that I had never been brought into this world!</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">At least I would not have experienced the pain of hell if it weren’t for the deeds that you committed.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And for good reason, for while you drank you never did a single good deed, and your trickery has brought me into the company of demons, and in the infernal pain that I will never escape.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">In pain, in sadness, I cry, weeping forever more, oh poor me, here I am and forever I will be.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I suffer such great sorrows for the sins you committed, the smallest of which all the languages of the world could not account for.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And worse, my heart is broken by the sadness that I will never be forgiven by he who made me. </rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“Why aren’t you responding to me?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me where are the heredities that you accumulated, and the palaces, and the great buildings that you founded?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me, imprisoned corpse, where are the precious jewels of such great value, and the gold rings that you wore, where are the treasures you horded, and the great quantity of gems, and rich jewelry, and the colorful suits that you indulged in?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Where are the rich silver and gold goblets that you drank from each day?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Where are the confitures, and intoxicating smelling spices, and the marvelously flavored electuaries that you so delighted in at your feasts?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I don’t think you will now have the fattened birds as you once did, or the preserved game meats as you did, nor will you have the tenderized meats that you paid so much for, nor the select wines.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now in your confinement, can you smell the kitchen as well as you once did when they served you meats of swan, geese, quail, and chicken.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Surely, I don’t think you can smell well now because you no longer eat, or are able to eat, and now down there you eat many maggots and worms, many reptiles, and there are many ways in which this is manifest in the law of God that states that these are the rewards bestowed to sinners that have lived, maintained, and ended their lives in mortal sin, and in the vices and worldly pleasures.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now you paid for it, what do you think of the house you are in now with its ceiling right above your face, and nose, now that you are blind, and your tongue falls back into your mouth, and your limbs are broken and distorted in such a way that you will nevermore be able to enjoy yourself?”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“Furthermore, it seems to me that whatever possessions, and riches, and bequests you received long ago were the result of trickery and forced robbery and your achievements were the misfortune of others to such a degree that death snatched you away in a single moment.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Your friends no longer surround you as they once did since death encroached on the flower of your youth and beauty.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the lover you once had is lost, now the weeping of your mistress has ceased and she has already forgotten you other than the riches she inherited from you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Furthermore, the dowry that you sent her has been forgotten and the faith that you had in her, and in your friends, was not merited for they did not care of you, only of the pleasure they would have from their inheritances that you robbed from the poor, and with the jewels and money that you left behind that weren’t yours and for which I now cry.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“And from the Day of Judgment onwards we’ll cry to each other forever in hell.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Miserable corpse, do you think any of your heirs will cry and be sad for long?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Assuredly you must know that they wouldn’t give anything of what you left them because you became sick, to me or to you so that we might leave from this hellish place where we ended up for their sake.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the cruel infernal pains that we must suffer, oh poor corpse, you see and know without a doubt that such is the delusion of that boisterous filthy lifestyle.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Since the venom of the Devil has poisoned you, now you no longer wear such rich garments nor the great cloaks that even these covers, even of Arabic quality, are hardly worth two cents, but there is little hope of receiving eternal redemption or reward.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But wait a little, for you have still not received your whole prize through the royal taxes taken from the bosoms of the poor, for they were the result of your robbery.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Don’t think that you won’t have to suffer more pains than this; where you are eaten by maggots.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Certainly all the scriptures of the holy theology testify to, and speak of the fact that the body suffers with the soul from the Day of Judgment onward.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And because you stole from the poor and are not their father, but rather made them poorer, for this reason you will suffer alongside me in hell forever more, and you will remain there where the maggots gnaw at your ribs.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Ah, I cannot stand being here and I wish that I could leave, and I’m certain that it is the case that you cannot respond to me.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Since the soul had dictated this rational, saddening the body a little, it appeared as though it wanted to come back to life, it lifted its head a little and looked around, and finding itself bewildered with what could have so badly chastised it, it saw its soul right next to it moaning and sighing, and began to rebuke its soul in the following way:</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“I ask you now if you are the one who was speaking to me?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Certainly, if you are, none of what you have just said is true, somehow you have lied, and I want to make it clear to you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">In expressing such an argument, you should know that you have made many errors.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It was merely a coincidence that in these moments you should so anger yourself, and you comfort yourself with good deeds, but I being of the flesh must have made a mistake in choosing you as my soul.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I must tell you that you should know that the world and the devil were created as one.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">They put their faith in the multitude of ways that the spirits could deceive and trick the souls of men.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">This position was taken to best settle the way in which the soul could bring men into ruin.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">They separated the flesh from the man because he was formed through it by reason of the devil’s bad judgment.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It is through the appetite of the flesh, where the vanities of the world are manifest, that the soul brings man down to hell.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For this reason, I made a mistake with you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I was logically in your company and the fault of this error was not mine but yours.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And I’ll prove it to you in the following way, and I’ll make an argument against your claim using the same logic and reasons that you have just said, that God had created you as pure, and so noble in his likeness.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Despite this I know where you were created, by original sin, but now you are cleansed and pure by the fountain of Holy Baptism.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“Well, furthermore, you say that God created you in his likeness, and that it appears as though he also gave you wisdom and prudence with the understanding that he gave you these qualities in order to govern over me, and that you are in his service as a good gift to me.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">If, indeed, God created you to govern over me, he gave you the right to judge and chastise me.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Instead of compelling me to make good choices, you allowed me to commit these actions.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I, therefore, deem that you are guilty for my behavior, and that I am not to blame.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“And I’ll even prove it to you with another argument.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">He who is a lord, and by necessity gives up his work, and makes himself the servant of the one who was formerly his servant, should be condemned as guilty.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Once you were his servant, but you were my lady to govern and reign over me in order to compel me to act at your will and command.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And you did not want to use this power that God gave you over me and instead you made me your lady and you became my servant.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Well, you followed my lead in all that I wanted knowing and understanding that I had given you bad advice, so it should follow that you are guilty and I am not to blame.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Finally, I had a right to upload this position in your place and I’ll prove it to you with the proverb that says that: “all worldly things desire to be improved from the state they are in,” so, then, I had the right to uphold the authority that you have given me to use.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"> I will prove it to you as it says in the myth of Polynices, that men who of are of better judgment and naturally more wise, have the right to govern as lords over all the others.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“To you, my Lord gave wisdom and intelligence, but not to me, because I just alone, know nothing.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And even without me you know how to speak and understand, well it seems that you were naturally formed by God to govern over me and as my lady.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">This is why it seems that once it was I that was your servant, but it was I who was your lady, and you my servant as I have now proved it.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I will prove it to you even by the same lawyer because, he who says that he makes ordinances over others; they are the servants of who lack wisdom and good sense and have declared right to Polynices.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">As the saying goes, men who lack wisdom and understanding are naturally the submissive servants of other citizens, but you were the one who lacked reason.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Well, it’s proven that you did not want to govern me nor did you know how to prove where it’s stated,  “You want to govern over all things, use your judgment, and submit to reason and wisdom because if you use reason, you will rule the whole world, but if you do not use wisdom and reason, you are not worthy.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Well, it seems that you did not know how to govern me; you did not find in yourself wisdom enough to know how to govern me.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And in me you saw the wisdom that you could command.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And, in me, there was the acuity to know I could control you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">You did everything that gave me pleasure.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It, therefore, follows that you were my servant and I your lady.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">You as the lady that you were, you made yourself my servant.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">All of this damage and the bad that has come with it is your fault; it’s not mine.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“Certainly, when you saw that I was about to do something intractable, you should have punished me with daily hunger and thirst, and with beatings.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">If you had done so, I would not have been able to make such mistakes.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But when I asked for chicken, instead you gave me chickens and cockerel meat.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And if I asked you for white wine, you would give me almond pastries, and nice red wine, and you filled me well.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And after I was completely stuffed, if I asked you for a woman, you would then give me one.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And not an old one, but a maiden, and not deflowered, but a virgin, and much more than you should have done.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Furthermore, there was no shame in it and I will prove it to you with the good reason of manifest destiny.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For certainly I cannot do anything that you do not see quite well; for the body lives with the permission of the soul and with its help grows.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the spirit does this well, for you see it is in her where power and desire are found, and she is the one who should govern and warn the body, for if she does not do so, later the temptations of the world will weaken it.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">As you are well aware, the body is susceptible to corruption, and in its purest state knows of nothing bad, but only exists, for everything it first does occurs through you, for you are the one who knows and understands.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For without you I am nothing; the body knows nothing of what the soul covets or that which it loathes, for if it is the soul that has desire, and executes the work of God, what blame can the body, as its subject, assume?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Clearly, the blame goes to the soul, who desires things and understands them and carries out actions, not to the body that serves the soul.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now believe me, you are the one who sinned more severely by virtue of following my weak, impure will.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now that you well see destiny manifest in me, without you, the desires manifested in me could not do anything, they are so weak.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I don’t even have the strength to defend myself from such little things like these maggots that gnaw at my ribs.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Go away from here, I don’t want to talk to you anymore!”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the soul responded very abruptly, and said: “I still want to stay here and debate with you for I am idle and have time on my hands.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me, you dishonest, traitor of a corpse, why have you embittered me with such harsh words and insults as you have just now said wishing to throw all the blame on me for the acts of treason that you committed?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me now traitor, for I can quite well tell you that while you lived a treacherous lie.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Who showed you how, or where did you learn how to speak in such a brash manner?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Despite the fact that you might have had good reason for some of what you said, your rational is more of a rebuttal to my speech of which I will not respond to.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But I will respond to what you have said about me being responsible for actions, that I should have warned you in advance.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I’ll tell you that you speak the truth about this, but as you well know, when I wanted to advise you to pray or fast, you would then bring me to imagine the flavor of lamb during the hunger that you felt.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It is by virtue of your worldly arrogance that we are now condemned.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Furthermore, when I wanted to beat you or make you abstain from things, you would then entice me with sensual pleasures.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And how much you complained, saying that it was such a harsh thing that I could bring you harm, and that you would get sick, while driving me away from my good thoughts.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And you always followed your desires, and therefore that is why I should chastise you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">In the doctrine that I tried to give you, bad treacherous false corpse, you will always loose against me, you must accept it.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">You put the vanities of the world before me until such self-indulgence brought me to hell.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I know that I’m to blame for making the mistake of not maintaining greater control over you and not restraining you, but why did you trick me with such sweet deceit?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">You know that in the end you should seriously pity me.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Certainly, if you, wretched and foolish corpse, if you had placed less value on the riches of the world, the temptations of the devil, his pleasantries, if you would have devoted yourself to the service of God, I would have reached heaven and enjoyed the company of the archangels.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But even the other day, the devil laughed with a scowl.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">What did he promise you, that you would live a long life and that you would find fulfillment in your material belongings?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Then you did not heed death believing that it was true.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And look at yourself now, how ashamed you should be, for death can come at any moment and tear you away from your palace and the vanity that you lived in.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now that you rest rotting, now you can ponder what is the real value of your time on earth, for the world takes advantage of naïve, self-indulgent men.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the men who flatter the man that they wish to fool, they rather show him desire making him an unbeliever.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">With their words and false smile, speaking through their teeth as if laughing, the man loves them more than the rest because he puts his trust in them, and then the better they can deceive him.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">This is the way the world works.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It is the men that are closest to perdition that receive the greatest honors and riches, and after they have received treats and sweet delicacies, and fragrant smelling food.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Certainly, it is the well-governed body that should live.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And furthermore, the body without the spirit can’t take advantage of anyone, and isn’t anything.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">As you are well aware, the soul is indebted to the Lord God, and if it were by his grace, the body would never be able to escape from the service or will of the spirit.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">If, in the meantime, you would have lived with a good conscious and loved God truly, and if you had litigated with such trust, you would have given just sentences.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And if you had never attained the customs of bad men, the vanity of the world would never have tricked you and me.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But because I was made to be, at the very least, your companion, and I have remained so until I now occupy this sad, gloomy house with its dank stench of rot with you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And I know quite well that I am to endure even more suffering and pain until I am resurrected with you on the final Day of Judgment.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Sad, angry, and in pain will I exist from know on with you suffering forever more infinite pain and in desperation for forgiveness.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It kills me that there is no man that can be counted on to go on forever, that never more will be.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And when the spirit heard this, it began to scream with rancor, “Oh that I were never born!</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Oh poor me, why did you, Lord God, make me in your image, for you knew that I would be lost.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Oh, poor me, that I should take on such traits that wild animals have!</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">From the moment that the spirit leaves the body, at this moment, its body is dead and will never live again.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Prisoner that I am, I now wish that God would end the reign of bad men, for as the spirit leaves the body, it then dies with it and remains dead never more in pain.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And if it pleased God that I would exist in this way, I would rather die and not continue to suffer the pains that suit you and me, as we remain everlasting in hell with the demons.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Then the body, when it heard the spirit say that it should remain with her in hell, and, furthermore seeing its immense weeping, became filled with fear, and it said, “I’m begging you, spirit, tell what is this hell that you threaten me with?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Have you been there?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Have you seen it or heard about it before?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me if you know if there is any hope for those who are in hell to reach heaven and the sweet presence of Jesus Christ?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me now, what does God remember?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Do you know if he will forgive those men who lived an honorable life, and those who were noblemen, and even conceited, rich men, what of them?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For in the world that we have departed from, they occupied great thrones and richly adorned seats.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Is there any hope for those who have inherited money, or received money from the king, or that were a count or any other kind of rich man?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Tell me now, if you would please ease my heart, for you have given me quite a fright with what you have said and the way you cry.” </rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">The soul then responded saying, “Oh, traitor, treacherous fool, you can’t now understand the things that are Good.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Don’t you see that this question you now ask me is a foolish question?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And it’s little worth explaining, for it is well known that all people of the world that die in mortal sin, whether they be holy ordained priests, or emperors, or kings, or of any other kind of social status, are all in the end condemned to the eternal flames of hell where they will never more have hope of any pardon neither through penitence or prayer.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And I’ll further chastise you by saying that you would not be pardoned with all the devotional prayers to the saints, and all the fasting and abstinence that the religious people of the world do.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Furthermore, any riches that exist in the world are given by the love of God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">All that exists in the world, all that sustains us is made possible by God, almost as if any soul, and not any of those that are demons in hell, would tell you for certain that it’s not something that you could do yourself or seek out.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">The reason is that it is the soul that is condemned to hell can no longer seek the grace of God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I’m certain that the Devil is so bad-tempered and so cruel and without pity, that he wouldn’t give up one single soul for all the riches of the world, such is his contempt for the spirits.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But, as far as your question is concerned, if some of the people of good lineage are pardoned, those who were lords in the world, and governed over other men, to that I will respond.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I’ll tell you for certain that the more honorable the man was in the world, and the wealthier he became through such honor, the father he will fall down in the depths of hell.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Don’t you see that the man that is condemned for committing sin, even the more rich and honorable that he might have been, the more they torment him and the harder the pain they inflict upon him?”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the soul having made its plea in speaking about these things, would have wanted to say more if she had been given the space to do so.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“Behold! Suddenly, two frightful demons, blacker than tar, and very ugly, even more vile in shape than painters could depict fell upon them.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Their mouths were gaping open, their teeth were disordered and large like a hoe, and through the opening of their noses maggots and many other dirty things didn’t cease to fall.</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And very cruel serpents, and snakes like scorpions did not cease to attack and wound the soul.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Their eyes were very large and shined as if they resembled flames; they shined as if lit up with fire.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And they had horns on their foreheads and at the end of them rotten venom did not cease to ooze out.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And they had enormous open ears from which blood with a bad stench seeped out in such a way that it was an abhorrent thing to witness.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For that blood was the blood of the souls that they tore apart with their teeth.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">They were covered with blood in their ears and throats and they held in their hands iron spears with sharp tips.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the nails of their feet were similar to the fangs of a wild boar, except that they were much larger sharpened into a point.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And suddenly they were threw her down toward hell, and there amassed a great host of demons that were ready to welcome them where they were made terrible as the Goths.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And bored with stabbing it with their spears and stakes that carried perforating her with holes, they began to rip open its belly with iron axes and they tormented the body with such cruelty.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Without pity they whipped it and defecated in its mouth and throat and filled it with a smelly poison and they shot it in the mouth, eyes, and ears with infernal lead pellets.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And they bit into with their teeth so aggressively that they had consumed its face in an instance.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And in this way they beat on it with their nails, horns, and teeth so fiercely that suddenly it did not seem that they would have been any more angry than they were with it. </rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">While doing this, they began to speak about whether they were married to those who serve us, where in such service we know how to honor them.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Those who are indebted to that world and do what we advise them to do, the prize that we give them is nothing to look forward to.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now you have a glimpse of what will happen to you.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">“When the soul heard this, it gave a weak cry as though it were trying to resuscitate the half dead corpse.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And pushing it through the gates of hell, it spoke as best it could in such a way that the man could barely hear it whisper up close.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And it said, "Oh Jesus Christ, son of David, this creature is of those that you made in your likeness."</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">When the demons heard this, they contested with great howls, "It is too late now to call upon your God, it is of no use now to bed or pray, they aren’t worth anything in hell.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">There is no hope here for anything.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">There is no hope here; you will never again see the light.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">You will remain idle in this darkness, enjoying the pleasure that you see here, we will give you even more consolation and you will honor us.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For now you assume a superficial image that you can no longer trust.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">We will transform you as beautiful as we are, and from now on you will always be in our company.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And you will know the favors we do for those who help us.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I, Filbert, author of this book, being here to recount these things that have happened, awoke with a fright.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I sat a while, as there was no strength left in my body from the shock of seeing this frightful vision.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Remaining terrified of what had happened, I found myself on the floor, where I had fallen asleep.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">I raised my hands up toward heaven in prayer to God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">In my prayer, I began to beg fervently for the forgiveness and pity of God that he free me from hell and from such pain that I witnessed the soul suffer.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And from then on, I forgot about all my quotidian cares, and I renounced all the treasures, riches, bequests, and all other material things of this world, for they are not everlasting, and I discarded of them.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And I devoted myself to my Lord Jesus Christ, "may He be eternally praised. Amen."</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For the entire world is lost in sin and commits more bad deeds every day.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Furthermore, justice is lost in our sins.</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And the lawyers that declare other men to be wise are drenched in their own sins and bad deeds for which reason they should not hold the title of lawyer or wise man.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But the careless idiots, that throughout the world have heard this be said, know that the world is already lost, that there is no other God, only vanity, mockery, and money.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And that man which has a lot of money, and bequests and riches, he who the people adore (and not God), for they do not know who he is, and in this way they separate themselves from God and loose their virtues, hope, and faith.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Goodwill is lost, according to theology those virtues that are marvelous and sacred are now all but drowned out and lost. </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For as much grace as a man possesses, he should only mind the virtues, but he gives trickery and greed precedence, and the most vile and dirtiest of bad deeds.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Those that sin only care about how they can accumulate more money, and these are the people who flatter and honor the noblemen.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">This is how noblemen are created, even if they are of beautiful countenance, and despite their status good-natured and humble, and well mannered with other good qualities, the moment they become poor, they are vilified and declared worthless and stupid.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And even if I were a bad man with bad manners, and had committed many sins, if by coincidence I was rich and the treasurer of the king, and went about covered in rich honorable garments, and surrounded by squires, then, regardless of my deeds, they would believe that I am a highly intelligent, wise man.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And then, people would come from near and far to admire and embrace the man with a bickering smile, telling him, “do you know, sir, that I am your nephew?” and the other, “I am your cousin.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Such adoration makes a man arrogant, but when death comes, and he looses all his kin, and their love is lost in, to the extent that they all run away from him right before his death.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Then they forget about him, as if they had never known him, those who once flattered him.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">They elevated him when they revered and embraced him, and kissed his hands, mouth, and nose, revering him.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">The vanity of the world is a fiendish thing; it’s a horrible poison to the virtues, and clouds the minds of men.</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For you have loved the passing things that look and feel more like flames and painful love, and crying bitter tears, you seek the sweet taste of the corruptible and temporary things that men so covet.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">For they well understand that you have been poisoned and corrupted, that it is not merely a passing bad habit.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">This is how money can turn the clear will of a judge who would have declared the right.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It is by knowingly giving bad sentences that souls are corrupted, who are a spiritual beings.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">By living in avarice and greed, men ruin their souls, even though they had no good reason to love money so.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And if they could buy three things with money, they would be: 1) eternal youth without old age, 2) eternal life, and 3) life without death.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">If they could achieve this with money, one could rationalize the desire to accumulate it.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">But you, you wretched man, didn’t you stop to think about how death takes away all material things?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">If not, tell me what has existed for all of eternity since the world was created and which is now alive and never dies?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Certainly, you could not tell me of anyone, except that we are mortal creatures.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">And I don’t speak of the miracles that God makes who created Elias’s terrestrial paradise.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Oh that we should never die, but that we die when it pleases God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">That the aforementioned is true, is evidenced in the experience that we have every day of seeing those who were alive yesterday, now rotting underground.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">It marvels me how the man who is apprehensive about death cannot experience pleasure in it.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">As if he knows that one has to die but does not know where he will go afterward, or that a man has no thought that would later make him cry.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Now I tell you, that I don’t know how long I should remain by your side or leave to serve God?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Furthermore, it’s certain that the time a man spends with the ceiling of his home directly above his face, he cannot be tempted by the vanities of the world.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"> If he were blinded by mud, he would then not be able to judge anyone, as much clandestine trickery that there is in the world, justice and deceit fall together as one.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">There is no law or ordinance that can control the will of man.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">Righteous justice and the true law, is the one that our Lord God ordains, which he gives to everyone without exception, as they each merit.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ad am gloria nos perduas ser amen.</lem>
+							<rdg wit="#Translation">No translation in document.</rdg>
+						</app>
+					</s>
+			</div>
+		</body>
+	</text>
+</TEI>  
+
+
