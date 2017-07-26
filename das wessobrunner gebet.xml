@@ -1,4 +1,46 @@
+<!--
 
+	The Wessobrun Prayer
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -19,18 +61,15 @@
 					<name>Hannah Frakes</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Hannah Frakes</name>
 				</respStmt>
 			</titleStmt>
 			<notesStmt>
 				<note anchored="true">
 				</note>
-				<note type='critIntro'>
-				</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v; Würzburg ca. 1350).</p>
 				<p></p>
 			</sourceDesc>
 		</fileDesc>
@@ -39,11 +78,6 @@
 		</encodingDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic url="G1.png" xml:id="G1"/>
-		<graphic url="G2.png" xml:id="G2"/>
-		<graphic url="G3.png" xml:id="G3"/>
-		<graphic url="G4.png" xml:id="G4"/>
-		<graphic url="G5.png" xml:id="G5"/>
 	</facsimile>
 	<text>
 		<front>
@@ -55,15 +89,12 @@
 			</div>
 		</front>
 		<body>
-			<pb ed="#Transcription" facs="#G1"/>
-			<fw facs="#G1" type="header" place="margin-topright">1</fw>
-
 			<head>
 				<title>
 					<app>
+						<lem wit="#Transcription">Das Wessobrunner Gebet</lem>
+						<rdg wit="#Translation">The Wessobrun Prayer</rdg>
 					</app>
-					<witDetail wit="#Transcription" target="#Transcription">
-					</witDetail>
 				</title>
 			</head>
 			<l n="1">
@@ -90,8 +121,6 @@
 					<rdg wit="#Translation">No….[undecipherable], nor did the sun shine</rdg>
 				</app>
 			</l>
-			<pb ed="#Transcription" facs="#G2"/>
-			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 			<l n="5">
 				<app>
 					<lem wit="#Transcription">no mâno ni liuhta, noh der mâreo sêo.</lem>

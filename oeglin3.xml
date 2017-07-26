@@ -1,24 +1,45 @@
 <!--
-	Language change: 
 
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
+	Oeglin 3
 
-	When the text changes language, use an extra modifier in your tag. 
+		TEI Encoding Specifications:
 
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
+			<lem> = transcription
 
-	The modifier (xml:lang="?") is the critical insertion. 
+			<rdg> = translation
 
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
 -->
 
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
@@ -46,7 +67,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>TEI encoding by</resp>
-					<name>Jordan Rosen-Kaplan</name>
+					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -74,8 +95,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+					<witness xml:id="Transcription">Oeglin 3</witness>
+					<witness xml:id="Translation">Oeglin 3</witness>
 				</listWit>
 			</div>
 		</front>
@@ -83,8 +104,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Oeglin 3</lem>
+						<rdg wit="#Translation">Oeglin 3</rdg>
 					</app>
 				</title>
 			</head>
@@ -168,15 +189,3 @@
 		</body>
 	</text>
 </TEI>  
-<<<<<<< Updated upstream
-=======
-
-<!--
-	Translation: 
-
-	3. Between hill and valley deep there runs a public road, whoever can’t keep her lover must let him ride away.
- 
-Ride on, ride on, the choice is yours, I can measure up to you; there is many a long day left in the year, and fortune waits at every turn.
-
-	-->
->>>>>>> Stashed changes

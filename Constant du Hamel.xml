@@ -1,3 +1,46 @@
+<!--
+
+	Constant du Hamel
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -1761,6 +1804,1580 @@
 				<l n="">
 					<app>
 						<lem wit="#Transcription">"Hé! fait il, de Dieus me sequeure,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Sire prevoz, ge n'i ai coupes!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dist li prevoz: "Ce sont estoupes</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dont vos me volez estouper</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ausi bien vos venroit huter</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Au moston de vostre bercil!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Quar desque en vostre cortil</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Fu du blé la trace suïe</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Sire prevoz, c'est par envie</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu l'en m'a mis sore tel huevre.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais ençois que plus me descuevre,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Prenez du mien por pais avoir:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge n'ai soz ciel si chier avoir</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu'ains ne vosisse avoir doné</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que l'en m'eüst ici trouvé,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">En cest point, a tel desanor!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Que donras tu a ton seignor,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se ge te faz estre delivres?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Sire, ge vos donrai dis livres.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or t'en va donc en ta maison,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et ge serai ton chanpion."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Adonques l'a du cep gité,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et dant Costanz s'en est tourné</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vers son ostel grant aleüre.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">En vos acouranz a droiture</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Contre lui son bovier Jobet.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Qu'est ce, fait il, qu'as tu, vallet?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui te chace? Comment vas tu?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Sire, mal nos est avenu:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Le forestier noz bués emmaine,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et dit que en l'autre semaine</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Li enblastes de nuit trois chesnes,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui vos costeront bien trois brenes,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et merquedé a soir un aistre.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Dieus, dit Coutanz, ce que puet estre?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant ai hui tret male journee!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Lors a sa chape desfublee,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si cort enprés le forestier</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et comence haut a crier:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Dant forestier, atendez moi!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Ha! dant vilain de pute foi!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant avez ce ventre pesant!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se voz venez un poi avant,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ce n'ert mie mout grant domaige!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se cos portissoiz un fromaige,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ou en vostre giron set oés,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Bien cuidissoiz ravoir voz bués!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ha! fait il, autrement ira!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vostre pechié vos encombra</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Quant nostre bois nos essartastes,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et a mienuit l'enportastes."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or fu Coutanz mout poerous:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant fu dolanz et angoissous</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu'il dist: "Lerre, vos i mentez!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se ge fusse autresi armez</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Comme vos estes parigal,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Devers vos en tornast le mal!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l><l n="">
+					<app>
+						<lem wit="#Transcription">Et se tenisse mon houel,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge vos donasse el haterel!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Nel laissasse por vostre dart!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vos eüssiez chauciez trop tart</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vos deuz brochetes en voz piez!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Lors fu li forestiers iriez,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Sel regarde mout fierement,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Di moi, dont vient le hardement</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que tu te velz a moi combatre?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por le cuer beu, vels me tu batre?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ta pance t'estuet deschargier,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por lui vent l'en les pois si chier!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ja ton hauel ne t'iert garant!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Lors li lance son glaive avant.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or fi Coutanz en grant esfroi;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Quant il le vit venir vers soi,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si dit: "Sire, por Dieu, merci!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Racordon nos, ge vos en pri!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ne me devez tenir si cort!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se vos me menez a la cort,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">N'i avroiz mie grant profit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">J'ai en ma huche, lez mon lit,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cent sous de deniers a vostre hués,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais que raie en pais mes bués.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Apaiez soiez a itant!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cil qui n'aloit el demandant</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais que vers lui eüst l'avoir,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Li dit: "Quant les porrai avoir?"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cil qui n'aloit el demandant</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais que vers lui eüst l'avoir,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cil li respont: "Dedens mardi.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Fai moi seür! --- Gel vos affi!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Et ge la praig, comment qu'il aille!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or en puez remener t'aumaille."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dant Coutanz a l'ostel repaire;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mout fu dolenz, ne set que faire:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">As chans a lessie s'au, aille,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Il n'a membre qui ne li faille.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">En maison est venuz berçant,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Onques ne dist ne tant ne quant,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">En un lit s'est lessiez verser.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Sa feme li vait demander:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Sire, que avez vos trouvé?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Dame, onques puis qu ge fui nez</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">N'oi autretant mal ne dolor</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Com j'ai eü hui en cest jor!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Lors li conte le destorbier</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Du prevost et du forestier</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Comment est issuz de prison</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por dis livres de raençon.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Adonc li conte le meschief</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Du forestier de chief en chief,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A qui il doit cent sous paier.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Dame, or me puis mout esmaier,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que ge n'en sai denier ou prandre.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Or me covient mes bestes vendre,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et le blé que ge doi mengier.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Sire, or ne vos chalt d'esmaier,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Fait la dame, qui mout ert saige,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Plus que nule de son lignaige,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ja n'en vendroiz blé ne aveine!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Hors vos metrai de ceste paine:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Bien vos osterai de la frappe,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et il remandront en la trape.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dont vos serez autretant lié</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Com il vos ont fait correcié!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant se pena de conforter</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que il sont assis au souper.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Quant Costant a si tart mengié,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dame Ysabel si l'a couchié.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">L'endemain vait a la charue.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">La dame n'est pas esperdue,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ainz apela sa chanberiere,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Une goulue pauroniere;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">La meschine ot nom Galestrot,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mout sot de fart et de tripot.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Galestrot, or entent a moi!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mout bien ce que vuel te dirai.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Damedieus nos envoit gaaig!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Queur tost, si m'apareille un baig."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cele se haste, ne pot plus,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si a mis la pael sus.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Puis mist l'aive chause en la cuve,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et dras desus por faire estuve.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Puis revient a sa dame errant:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Dame, j'ai fet vostre comant.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Galestrot, fait el, bele amie,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge te commant desor ta vie</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que tu soies proz et isnele,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et que saches de la favele</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant que nostre preu en traion;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et si gaaigne un peliçon!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l><l n="">
+					<app>
+						<lem wit="#Transcription">Va, di au prestre qu'or m'as prise</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant que sui preste a son servise,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se il me tient ma covenance.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Di il qu'aport sanz demorance</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Les set livres et les joiaus."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et cele escorce ses trumeaus</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui gros furent par les talons:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Une vasche qui sent tahons</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ne vi plus galoper par chaut</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que Galestrot s'en vait le saut!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mout se pena de tost aler.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Le prestre ert venuz de chanter.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Elle le traist a une part:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Sire, fait el, se Dieu me gart,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge crieme ma peine avoir perdue!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant me sui por vos combatue</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que j'ai ma fame covertie;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant ai fait que c'est vostre amie.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si ne fussiez large at cortois,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vos n'i avenissiez des mois</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se ge ne m'en fusse entremise.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ci n'afiert pas longue devise,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Aportez li tost sa promesse,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et ge n'ai point de guimple espoisse."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Li prestres l'acole, si rit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Galestrot, ne te soit petit:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tien, vint sous a un peliçon!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Est or li vilains en maison?</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Nenil, li las, il n'i est mie.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Sire, j' ai ma dame traïe</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se vos n'estes mout debonaire."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Cele qui bien sot son preu faire</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Bouta les vint sous en son sain,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si se parti du chapelain.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et cil est coruz as deniers:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant en a pris, cenz et milliers,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">C'une grant borse en a farsie;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et les joiaus n'oblia mie,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ainz bouta tot en un saquel.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et puis s'afibla d'un mantel</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vair, d'escarlate taint en greine.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si com fortune le demaine</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se son ostel s'en ist atant;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si va li prestres sozfauchant</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que li sachez li poise aval.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Oez comme li avint mal:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Une geline pielee</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A enmi sa voie trovee,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui pasturoit en la charriere.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Donc s'en volt retorenr arriere</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Por ce qu'il i entendoit sort.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A sez piez trueve un baston tort,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">A la geline lait aler,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et elle s'en prant a voler;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">En son gelinois le maudist:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Honte li viegne, et il si fist!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui donc veïst le prestre aler</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>#<l n="">
+					<app>
+						<lem wit="#Transcription">Le col baissant et regarder,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant qu'il est entrez el hamel.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Contre lui salt dame Ysabel,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui mout li fait blondete chiere.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Puis apela sa canberiere:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Queur tost le seignor deschaucier!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge vueil que il se voist baignier,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et ge i entrerai aprés,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si nos solaceron humais,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si m'enbelira plus son estre.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">--- Par foi, dame, ce dit le prestre,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ge ne vos en sai pas mentir!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Lors li commence a descovrir</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Le sachet, qui n'ert pas petit;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">El le giete enmi son lit,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Onques a conter n'i mist paine.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">La dame ne fu pas vilaine:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant le sot de ses diz foler</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu'ele le dist el baig entrer.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Puis prist la robe et les deniers,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ne li laissa nes les chauchiers,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ainz l'a en sa chanbre portee.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Puis a Galestrot apelee:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Fai moi tost venir le prevost!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Di li que il aport tantost</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ce que il m'ot en covenant."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et cele s'en torne corant</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu'ele fait voler les escalaz</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Se or puet tenir en ses laz</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Le prevost, il li rendra conte!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">De parler a lui n'a pas honte,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ainz la salue fierement.,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Jai en vos, dit el, mal parent,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Dant prevost, por vostre richoise!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais ge l'ai fet mout que cortoise,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l><l n="">
+					<app>
+						<lem wit="#Transcription">Que ne me vueil desnaturer;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qui me devroit cent sous donner,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ne me fusse mie entremise</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Nuit et jor de vostre servise!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant ai ma dame cory sore</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que ele est orendroit en l'ore</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">De faire tot vostre plaisir.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais hastez vos de tost venir,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et si ne devez pas laissier</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ce que cos deïstes l'autrier!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ma dame a tant d'argent afaire,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">El est tant simple et debonaire,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Qu'ele le vos savra bien rendre,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Mais el a or mestier de prandre."</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Quant le prevot ot et entent</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que la chose est a son talent:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">"Galestrot, fait il, bele amie,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tu m'as servi et bien et bel:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tien. quinze sous a un mantel!"</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Lors li met el firon devant,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et ele s'en torne corant.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Sachiez qu'el ne fu pas irie!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">La dame fu si affaitie</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
