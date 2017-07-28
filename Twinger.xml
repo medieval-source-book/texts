@@ -128,22 +128,9 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Das dritte capitel seit von allen den bebsten die ſider gotz geburten geweſen ſint und ouch von andern dingen*
-								<note type="critical" anchored="true">
-									<p>
-										<s>*Daz vierde capittel ist von allen byſhöfen zů ſtroſburg vnd etwz von iren geteten</s>
-										<s>Daz fuenfte ſeit von weme die ſtat ſtroſburg und daz land by dem rine ſinen vrſprung het und wie es zů cristenn glouben bekert wart und von ſtreitenn reyſen geſchellen vnd anderungen und andern nenhaftigen dingen die do geſhohen ſint</s>
-									</p>
-								</note>
-							</lem>
+							<lem wit="#Transcription">Das dritte capitel seit von allen den bebsten die ſider gotz geburten geweſen ſint und ouch von andern dingen*</lem>
 							<rdg wit="#Translation">
-								<note type="critical" anchored="true">
-									<p>
-										<s><!--translated first line of note--></s>
-										<s><!--translated second line--></s>
-									</p>
-								</note>
-							</rdg>
+								<note type="critical" anchored="true"></rdg>
 						</app>
 					</s>
 					<s>
@@ -154,7 +141,13 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription"></lem>
+							<lem wit="#Transcription">*Daz vierde capittel ist von allen byſhöfen zů ſtroſburg vnd etwz von iren geteten</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Daz fuenfte ſeit von weme die ſtat ſtroſburg und daz land by dem rine ſinen vrſprung het und wie es zů cristenn glouben bekert wart und von ſtreitenn reyſen geſchellen vnd anderungen und andern nenhaftigen dingen die do geſhohen ſint</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
