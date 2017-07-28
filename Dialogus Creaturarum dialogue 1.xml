@@ -1,26 +1,3 @@
-<!--
-	Language change: 
-
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
-
-	When the text changes language, use an extra modifier in your tag. 
-
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
-
-	The modifier (xml:lang="?") is the critical insertion. 
-
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
--->
-
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -34,11 +11,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Dialogus Creaturarum: First Dialogue</title>
+				<title>Dialogus Creaturarum 1: de sole et luna</title>
 				<author>AUTHOR</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name>Hannah Frakes</name>
+					<name>Jake Goulder</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -74,8 +51,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
+					<witness xml:id="Transcription">Dialogus Creaturum: de sole et luna</witness>
+					<witness xml:id="Translation">Dialogue of the Creatures: Concerning Sun and Moon, the first dialogue</witness>
 				</listWit>
 			</div>
 		</front>
@@ -83,8 +60,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sol est secundum philosophum oculus mundi , jocunditas dei, pulchritudo coeli, mensura temporum, virtus et origo omnium nascentium, dominus plantarum, doctor et perfector omnium stellarum.</lem>
+						<rdg wit="#Translation">After the philosopher’s saying, the Sun is the world’s eye, God’s delight, sky’s beauty, time’s measure, birth’s potency and birth’s originator, the planets’ lord, all the stars’ leader and all the stars’ perfector.</rdg>
 					</app>
 				</title>
 			</head>
@@ -92,29 +69,146 @@
 				<p n="1">
 					<s>
 						<app>
-							<lem wit="#Transcription">TRANSCRIPTION GOES HERE<note
-								type="gloss" anchored="true">GLOSS GOES HERE</note>
-								<note type="critical" anchored="true">
-									<p>CRITICAL NOTE GOES HERE</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+							<lem wit="#Transcription">Luna vero, ut dicit Ambrosius in Exameron, est decor noctis , mater totius humoris et ministra, mensura temporum, dominatrix maris, immutatrix aeris et aemulatrix solis, et propter quod est semulatrix solis, soli incepit detrahereet eum diffamare.</lem> 
+							<rdg wit="#Translation">The Moon is the night’s finery, all liquid’s mother and minister, time’s measure, sea’s lady, the air’s changelessness and Sun’s imitator. So says Ambrose, in Exameron, On the Six Days, truly.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Une sentence</lem>
-							<rdg wit="#Translation">A sentence</rdg>
+							<lem wit="#Transcription">And because she has long been the Sun’s imitator, she began to detract from him, and to defame him. Sun, sensing this, spoke to Moon, saying, “Why do you pull me down, and blaspheme me? </lem>
+							<rdg wit="#Translation">Sol autem hoc sentiens loquutus est lunse dicens: quare mihi detrahis et blasphemas? </rdg>
 						</app>
 					</s>
 					<s>
-						Another sentence
+						<app>
+							<lem wit="#Transcription">I have always illuminated you, and gone ahead of you. But now you hate me, and attack me.”	
+							<rdg wit="#Translation">Ego semper teilluminavi et prsecessi, tu autem semper me odis et impugnas.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cui luna : recede a me, quia te non diligo, cum propter tuum magnum splendorem ego nihil appretior in mundo; si non esses, seculo superlata essem ego.</lem>
+							<rdg wit="#Translation">To Sun Moon answered, “Depart from me; I don’t love you. Because of your great splendor, the world does not value me at all. If you were not, I would be held the highest in the world.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cui sol: ingrata sufficiat tibi magnificentia tua; si ego in die, tu vero in nocte perlustras. Obediamus ergo creatori nostro et noli superbire super me, sed me permitte lucere in die ac bona domini munire.</lem>
+							<rdg wit="#Translation">To Moon Sun responded, “Thankless, your magnificence suits you. If I shine in the day, you shine at night. Let us obey our creator. Cease to be proud beyond me. Let me glow during the day and serve the good of the Lord.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Luna vero magis animata recessit cum furore et Stellas ad se clamavit aggregavitque magnum exercitum et cum sole proeliari ccepit.</lem>
+							<rdg wit="#Translation">Moon drew back, enlivened all the more with fury, and called the stars to herself. She assembled a great army, and began to battle with Sun.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">formata non loquantur Inclinacione tamen et naturalis institucionis proprietate + nos docere nostrosque mores corrigere si bene pensamus + non desinunt </lem>
+							<rdg wit="#Translation">And yet, if we ponder them well, they do not cease to inform us with the guidance and instruction of the institution of nature, and to correct our customs.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sagittas enim mittebat adversus solem et cum jaculis percutere nitebatur.</lem>
+							<rdg wit="#Translation">She sent arrows against Sun, and strove to pierce him with darts.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et ideo auctor libri istius hec rite considerans quosdam dyalogos creaturarumad sanam et moralem doctrinam applicavit confinxit ad sanam et moralem doctrinam applicavit confinxit</lem>
+							<rdg wit="#Translation">Rightly considering this, The author of the Dialogue devised, composed, and applied creatures’ dialogues to healthy and moral doctrine</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sol autem cum esset superius, descendit et lunam cum mucrone partitus est et Stellas dejecit dicens: sie semper, cum eris rotunda, faciam tibi.</lem>
+							<rdg wit="#Translation">Sun, being higher, descended, and split Moon with the point of his sword, and cast down the stars, saying, “Whenever you are full, each time I shall cleave you.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">per rerum similitudines procuratur Salvator enim noster omnium predicatorum perfecta forma fabulis + palestinorum more + usus estut rerum similitudine ad viam veritatis homines produceret</lem>
+							<rdg wit="#Translation">Our Savior made use of both anointment and the perfected preacher’s fable to lead men, by way of imitation, toward the way of truth. </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hac enim de causa, ut fabulse dieunt, luua nunquam rotunda permanet et Stellas casum habent.</lem>
+							<rdg wit="#Translation"> It is because of this that, as the stories say, Moon never stays full, and the stars fall.</rdg>
+						</app>
 					</s>
 				</p>
-				<p n="2">
-					<s>A new paragraph</s>
+				<p n="2">			
+					<s>
+						<app>
+							<lem wit="#Transcription">Luna ergo coufusa in verecundia mansit dicens: turgidam melius partiri erat quam totam perire.</lem>
+							<rdg wit="#Translation">And so Moon remained, confused, in shame, saying: “It is better to share the overfull than to lose all.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">presens liber predicatoribus et aliis quibusque intelligentibus contra fatigacionem animalem + ut per delectacionem iocunde materie aliqualiter intermissa intencione ad insistendum racionis studio simplicium animi ad altiora trahantur+.</lem>
+							<rdg wit="#Translation">Hence, the present book is useful for preachers and all others who understand that by enjoying pleasant matters—wherein the strain is somehow lessened to allow for endurance--, by the simple study of reason, minds might be drawn to deeper things. </rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Sicut in collacionibus patrum legitur quod beatus evangelista iohannes dum quidam scandalizaretur quod eum cum suis discipulis</lem>
+							<rdg wit="#Translation">It is said in collections of the fathers’ sayings that, once, a disciple of the blessed evangelist Johannes was tempted while he played with the others.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">ludentem invenit + dicitur illi mandasse qui arcum gerebat ut sagittam traheret</lem>
+							<rdg wit="#Translation">Johannes is said to have ordered the man to carry a bow with him in order to attract an arrow. </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">+ quod cum pluries fecisset quesivit utrum hec continue facere posset Qui respondit + quod si hec continue faceret + aut arcus frangeretur aut remissius telum proiceret +</lem>
+							<rdg wit="#Translation">When the tempted man had done so for a long time, Johannes asked the man to bear the bow with him always. The man responded that, if he a bore a bow always, he would either break it or throw his spear less forcefully.</rdg>
+						</app>
+					</s>												
+					<s>
+						<app>
+							<lem wit="#Transcription">Ex quibus Beatus iohannes intulit + quod similiter animus hominis frangeretur si nunquam a sua intencione relaxeretur </lem>
+							<rdg wit="#Translation">From this, Blessed Johannes inferred that man’s mind might break in the same way, if it were never released from its strain. </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et hoc idem dicit philosophus in IV ethicorum quod in huius vite conservacio ne quedam anime requies cum ludo seu iocunditate habetur + quae utique virtuosa est sicut dicit ambrosius in primo de oficiis hoc</lem>
+							<rdg wit="#Translation">And the Philosopher says this same thing in book IV of the Ethics, that in the protection of this life rest is taken either in play or pleasantness, and that it is assuredly virtuous, and one of the foremost duties, just as Ambrose says.</rdg>
+						</app>
+					</s>		
+					<s>
+						<app>
+							<lem wit="#Transcription">in talibus de iocundis actionibus seu verbis caveamus + ne dum relaxare animum volumus + omnem armoniam bonorum ope+rum per contemptum quendam soluamus </lem>
+							<rdg wit="#Translation">In these ways, though, we might beware of pleasurable actions or words, lest, when we want to relax our minds, we instead undo all the peace of good works with something contemptible.</rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">Iste ergo liber dyalogus creaturarum appellatus sic materias iocundas fingit ut morum gravitas et aptitudo doctrine per sanctorum auctoritates doctorum exornetur habens duas tabulas prenotates +</lem>
+							<rdg wit="#Translation">Therefore, this book, called The Dialogue of Creatures, which consists of two marked sections, crafts pleasant matters in order to, with the authority of the learned saints, embellish customs’ gravity and increase doctrine’s aptitude.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quarum prima exprimit de quibus creaturis tractant singuli dyalogorum ut lector quo citius habeat circa que versatureius intencio </lem>
+							<rdg wit="#Translation">The first sections speaks about the creatures that each of the dialogues discusses, so that the reader might possess those things faster around which the dialogue’s intention moves.</rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">Secunda tabula alphabetica ordine generaliter singulas materias virtutum et viciorum ad mores componen dos et corrigendos predicatorem et inquirentem docet + Que scilicet cuilibet narracioni sibi in processu sermonum convenire possunt +</lem>
+							<rdg wit="#Translation">. The second section, in alphabetical order, demonstrates to preachers and seekers single matters of virtue and vice in order to assemble and correct customs.</rdg>
+						</app>
+					</s>	
 				</p>
 			</div>
 		</body>
 	</text>
-</TEI> 
+</TEI>
