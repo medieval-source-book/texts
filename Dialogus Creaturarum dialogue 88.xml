@@ -1,0 +1,200 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Preface to the Dialogus Creaturum</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Jake Goulder</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Dialogus Creaturum: de leopardo et unicorni, qui pugnabant cum dracone</witness>
+					<witness xml:id="Translation">Dialogue of the Creatures: Concerning the Leopard and Unicorn, who fight the Dragon, the 88th dialogue</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Leopardus, ut Solmus dicit, animal est generatum ex leone et pardo. Horum feuvinae sunt audaciores et fortiores maribus.</lem> 
+							<rdg wit="#Translation">The leopard, as Solinus says, was made from the lion and the pard, the panther. Its females are braver and stronger than the males.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Plinius : aliquis volens resistere leopardis furentibus, fricet allia inter manus, nee mora, leopardus resiliet nec resistet, quia odorem allii sustinere non potest.</lem>
+							<rdg wit="#Translation">Someone who desires to stand against raging leopards should--without hesitating--rub garlic cloves between his hands. The leopard will retreat, and yield, since he cannot bear the odor of garlic. So says Plinius.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Leopardus subrufum colorem habet, maculas per totum nigras; niulto minores sunt quam leoues.</lem>
+							<rdg wit="#Translation">The leopard is a ginger color, and black spots cover it whole. Leopards are much smaller than lions.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Leopardus, quando comedit aliquod venenum, stercus hominis quserit, quod comedit, et sanatur. Ambrosius.</lem>
+							<rdg wit="#Translation"> If a leopard eats poison, it will seek out a man’s ordure, which it then consumes and is healed by. Thus Ambrose.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hae bestia sunt crudelissimaa naturaliter, ita quod sic domesticari non possunt, ut obliviscantur crudelitatis suae. Domesticantur tamen ad venandum.</lem>
+							<rdg wit="#Translation">These beasts are, by their nature, most cruel, and they cannot be tamed to forget their cruelness. However, they are trained to hunt. When, in the course of a chase, one is led to some prey, he will grow calm.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Igitur dum ad praadamin venatione dueuntur, relaxantur, quam si quarto aut quinto saltu non potest capere, subsistit iratus fortiter,</lem>
+							<rdg wit="#Translation">But if he cannot seize the prey in four or five leaps, he stops, profoundly angered.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">et nisi statim venator furenti bestiae aliquam bestiam offerat, cujus sanguine placetur, irruit in venatorem vel quoseunque obvios, quia impossibile est placari eum nisi in sanguine.</lem>
+							<rdg wit="#Translation">And unless a hunter offers some animal to the furious beast, to placate him with its blood, he charges the hunter or whatever else he meets on the way. A leopard is impossible to soothe except with blood.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hic pugnabat cum dracone, sed non prsevalebat, propter quod ad unicornem perrexit et humiliter ipsum obsecravit dicens : eminens es ac virtuosus et doctus belli, peto obnixe, quod me defendas a furore draconis.</lem>
+							<rdg wit="#Translation">A Leopard, long ago, fought with a Dragon, but he did not prevail. So he headed to the Unicorn and humbly entreated him, saying, “You are lofty, and virtuous, and learned in war. I beseech you, my sometime enemy, to defend me from Dragon’s madness.” </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unicornis autem se sublimare eeepit et audiens de se talia dici ait : verum dicis , quia doctus sum preelii, propterea optime defensabo te, noli pavere, cum enim aperiet draco os suum, in gutture ipsum cornu perforabo.</lem>
+							<rdg wit="#Translation">Unicorn began to rise and, hearing himself spoken of so, said, “You speak truly, since I am battle-wise, and I shall protect you best. Do not tremble, for when Dragon opens his mouth I will pierce his throat with my horn.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum autem ad draconem pariter venissent, leopardus bellum initiavit sperans de auxilio unicornis.</lem>
+							<rdg wit="#Translation">They went to Dragon together, and Leopard began the war, expecting Unicorn’s help.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Draco vero certavit adversus eos et ignern et feetorem ex ore emittebat, sed cum os aperiret, unicornis quam citius cueurrit volens ipsum in gutture transvibrare,</lem>
+							<rdg wit="#Translation">Dragon truly strove against them, and spat fire and vapor against them. But, when he opened his mouth, Unicorn raced at him as swiftly as he could, aiming to pierce his throat through.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">draco vero agitavit caput et unicornis cornu in terram fixit dicens moriendo : qui pro alio vult pugnare, cupit se trucidare.</lem>
+							<rdg wit="#Translation">But Dragon shook his head, and drove Unicorn’s horn into the earth, saying to him as he died on the spot,</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">			
+					<s>
+						<app>
+							<lem wit="#Transcription">Sic enim stultum est, de se confidere ac de quo sibi non pertinet agonizare. </lem>
+							<rdg wit="#Translation">“He who desires to fight for another desires to slay himself. It is foolish to be so assured of oneself, and to fight over that which does not afflict you.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde Eccl. XI : de ea re, quas te non molestat, ne certaveris.</lem>
+							<rdg wit="#Translation">Indeed, so says Ecclesiastes XI, “do not fight on account of that which does not vex you.”</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Ergo require in animo tuo a te ipso, quis es, quid facere vis, utrum factum illud ad te pertineat. Ad minus ad alium te immiscere non debes.</lem>
+							<rdg wit="#Translation">Demand of yourself in your mind who you are, what you desire to do, what deed itself is yours, for you must not confuse yourself with another.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Noli pro alio pugnare nee inter discordantes discordiam augere, sed fac , ut dicit Seneca: semper dissensio ab alio ineipiat, a te reconciliatio.</lem>
+							<rdg wit="#Translation">Do not fight for another, and do not augment strife among the striving. “But make it thus, that conflict is begun by another, and reconciliation begun by you.” So says Seneca. </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quidam bellantes aggressi sunt inimicum, sed alius quidam cueurrit volens ipsum defendere et armavit se versus inimicos illius.</lem>
+							<rdg wit="#Translation">Once some warring men attacked an enemy. Another hastened to him, wanting only to defend him, and took up arms against the man’s enemies.</rdg>
+						</app>
+					</s>												
+					<s>
+						<app>
+							<lem wit="#Transcription">Illi autem dixerunt: amice, tibi injuriam non faeimus, tolle quod tuum est et vade , quoniam de inimico nostro vindietam quaerimus.</lem>
+							<rdg wit="#Translation">But the warring men said, “friend, we shall do no injury to you. Take what is yours and depart, for we seek vengeance only from our enemy.”.</rdg>
+						</app>
+					</s>		
+					<s>
+						<app>
+							<lem wit="#Transcription">Qui non acquiescens sermonibus eorum ad bellum contra eos se paravit. Illi autem indignati cum inimico ipsum mutilaverunt.</lem>
+							<rdg wit="#Translation">The man, not listening to the word of the preachers, prepared himself for war against the attackers. Scorned, they slew him with their enemy. </rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">Iste ergo liber dyalogus creaturarum appellatus sic materias iocundas fingit ut morum gravitas et aptitudo doctrine per sanctorum auctoritates doctorum exornetur habens duas tabulas prenotates +</lem>
+							<rdg wit="#Translation">Therefore, this book, called The Dialogue of Creatures, which consists of two marked sections, crafts pleasant matters in order to, with the authority of the learned saints, embellish customs’ gravity and increase doctrine’s aptitude.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quarum prima exprimit de quibus creaturis tractant singuli dyalogorum ut lector quo citius habeat circa que versatureius intencio </lem>
+							<rdg wit="#Translation">The first sections speaks about the creatures that each of the dialogues discusses, so that the reader might possess those things faster around which the dialogue’s intention moves.</rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">Secunda tabula alphabetica ordine generaliter singulas materias virtutum et viciorum ad mores componen dos et corrigendos predicatorem et inquirentem docet + Que scilicet cuilibet narracioni sibi in processu sermonum convenire possunt +</lem>
+							<rdg wit="#Translation">. The second section, in alphabetical order, demonstrates to preachers and seekers single matters of virtue and vice in order to assemble and correct customs.</rdg>
+						</app>
+					</s>	
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>   
