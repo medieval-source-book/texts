@@ -1,45 +1,45 @@
 <!--
 
-	The Chastity of Mr. Wu's Wife
+The Chastity of Mr. Wu's Wife
 
-		TEI Encoding Specifications:
+TEI Encoding Specifications:
 
-			<lem> = transcription
+<lem> = transcription
 
-			<rdg> = translation
+<rdg> = translation
 
-			Tag numbering:
-				(<X> for example)
-				<X n="1"> 
-			
-			Stanza break:
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
+Tag numbering:
+	(<X> for example)
+	<X n="1"> 
 
-			Special Characters:
-				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
-				This chart is of the Medieval Unicode Font Initiative. In order to 
-				include one of these characters, enter the ampersand and following
-				letters followed by a semicolon (e.g. &odot;).
+Stanza break:
+	<app>
+		<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+		<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+	</app>
 
-			Language change: 
-				When the text changes language, use an extra modifier in your tag. 
+Special Characters:
+	Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+	This chart is of the Medieval Unicode Font Initiative. In order to 
+	include one of these characters, enter the ampersand and following
+	letters followed by a semicolon (e.g. &odot;).
 
-				For example: (a text changes to Latin)
-					<l lang="la" n="4">
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</l>
+Language change: 
+	When the text changes language, use an extra modifier in your tag. 
 
-				The modifier (xml:lang="?") is the critical insertion. 
+	For example: (a text changes to Latin)
+		<l lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</l>
 
-				Find the two letter identifier for the language you wish to specify 
-				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-				in the subtag category
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
 -->
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
@@ -109,12 +109,78 @@
 					</app>
 				</title>
 			</head>
-			 <div n="1">
-				<p n="1">
+			<div n="1">
+				<p>
 					<s>
 						<app>
-							<lem wit="#Transcription">英州真陽縣曲江村人吳琦, 略知書. 其妻譚氏。紹興五年閏二月, 本邑觀音山盜起, 攻剽鄉落。琪竄去。譚氏與其女被執, 並鄰社村婦數人偕行。譚在眾中頗潔白, 盜欲妻之。詬曰: “爾輩賊也。官軍旦夕且至。將為齏粉。我良家女。何肯為汝婦。” 強之不已, 至於捶擊。愈極口肆罵, 竟斃於毒手。後盜平, 鄰婦同執者皆還, 曰: “使吳秀才妻不罵賊。今日亦歸矣。” 因備言其死狀, 吳生始知之。聞者高其節, 予嘗為之傳云。</lem>
-							<rdg wit="#Translation">In the Qujiang Village of the Zhenyang County under the Yingzhou Prefecture, there was a man named Wu Qi who had received some education and had a wife from the Tan family. In the second month of the fifth year of the Shaoxing era, some bandits emerged from the Guanying Mountain in the area and plundered many villages and counties. Wu Qi ran away. His wife and their daughter were captured and joined other women captured from the same village. Among this group of women, Wu’s wife was one of the more attractive, so one of the bandits wanted to have sex with her. Wu’s wife scolded him, saying: “People like you are nothing but bandits. The military will arrive in no time and you all will be crushed. I am from a reputable family. How can I become your woman?” The bandit tried to force her into it but failed, and then hit her. Wu’s wife started shouting and ranting but in the end was killed by the bandit. After the bandits were suppressed, the other captured women all returned home. They said: “If Mr. Wu’s wife had not scolded the bandit, she could have returned home too.” When they described her death in great detail, Mr. Wu understood what happened. All those who heard this story praised her chastity, and I therefore write this piece to spread her fame. </rdg>
+							<lem wit="#Transcription">英州真陽縣曲江村人吳琦, 略知書. 其妻譚氏。</lem>
+							<rdg wit="#Translation">In the Qujiang Village of the Zhenyang County under the Yingzhou Prefecture, there was a man named Wu Qi who had received some education and had a wife from the Tan family.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">紹興五年閏二月, 本邑觀音山盜起, 攻剽鄉落。</lem>
+							<rdg wit="#Translation">In the second month of the fifth year of the Shaoxing era, some bandits emerged from the Guanying Mountain in the area and plundered many villages and counties.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">琪竄去。</lem>
+							<rdg wit="#Translation">Wu Qi ran away.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">譚氏與其女被執, 並鄰社村婦數人偕行。</lem>
+							<rdg wit="#Translation">His wife and their daughter were captured and joined other women captured from the same village.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">譚在眾中頗潔白, 盜欲妻之。</lem>
+							<rdg wit="#Translation">mong this group of women, Wu’s wife was one of the more attractive, so one of the bandits wanted to have sex with her.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">詬曰: “爾輩賊也。官軍旦夕且至。將為齏粉。我良家女。何肯為汝婦。”</lem>
+							<rdg wit="#Translation">A Wu’s wife scolded him, saying: “People like you are nothing but bandits. The military will arrive in no time and you all will be crushed. I am from a reputable family. How can I become your woman?”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">強之不已, 至於捶擊。</lem>
+							<rdg wit="#Translation">The bandit tried to force her into it but failed, and then hit her.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">愈極口肆罵, 竟斃於毒手。</lem>
+							<rdg wit="#Translation">Wu’s wife started shouting and ranting but in the end was killed by the bandit.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">後盜平, 鄰婦同執者皆還,</lem>
+							<rdg wit="#Translation">After the bandits were suppressed, the other captured women all returned home.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">曰: “使吳秀才妻不罵賊。今日亦歸矣。”</lem>
+							<rdg wit="#Translation">They said: “If Mr. Wu’s wife had not scolded the bandit, she could have returned home too.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">因備言其死狀, 吳生始知之。</lem>
+							<rdg wit="#Translation">When they described her death in great detail, Mr. Wu understood what happened.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">聞者高其節, 予嘗為之傳云。</lem>
+							<rdg wit="#Translation">All those who heard this story praised her chastity, and I therefore write this piece to spread her fame.</rdg>
 						</app>
 					</s>
 				</p>
