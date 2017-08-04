@@ -59,8 +59,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Original Name</witness>
+					<witness xml:id="Translation">Translation's Name</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -72,22 +74,16 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Transcribed Title</lem>
+						<rdg wit="#Translation">Translated Title</rdg>
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
 					<s>

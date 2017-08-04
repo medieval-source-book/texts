@@ -64,8 +64,10 @@
 				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>ANY SOURCES GO HERE</p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Original Name</witness>
+					<witness xml:id="Translation">Translation's Name</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -77,14 +79,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">TITLE</witness>
-					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -93,6 +87,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<lg>
 				<l n="1">
 					<app>
