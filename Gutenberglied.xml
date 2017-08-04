@@ -31,14 +31,11 @@
 				<note anchored="true"></note>
 				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
-			<sourceDesc>
-				<p>				
+			<sourceDesc>			
 				<listWit>
 					<witness xml:id="Transcription">Gutenberglied</witness>
 					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
 				</listWit>
-				</p>
-				<p></p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -55,14 +52,13 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">Gutenberglied</lem>
-						<rdg wit="#Translation">TITLE'S TRANSLATION</rdg>
+						<rdg wit="#Translation">The Gutenberg Song</rdg>
 					</app>
 				</title>
 			</head>
 			</div>
 		</front>
 		<body>
-
 			<lg>
 				<l n="1">
 					<app>
