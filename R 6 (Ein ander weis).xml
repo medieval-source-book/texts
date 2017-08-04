@@ -1,3 +1,46 @@
+<!--
+
+	R 6
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -149,7 +192,7 @@
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription">un  an si gedenche,</lem>
+						<lem wit="#Transcription">und an si gedenche,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -203,7 +246,7 @@
 				</l>
 				<l n="23">
 					<app>
-						<lem wit="#Transcription">un vreunt min hercz un  ouch den lip?</lem>
+						<lem wit="#Transcription">und vreunt min hercz und ouch den lip?</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -247,7 +290,7 @@
 				</l>
 				<l n="30">
 					<app>
-						<lem wit="#Transcription">un gebar so bleide.</lem>
+						<lem wit="#Transcription">und gebar so bleide.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -315,7 +358,7 @@
 				</l>
 				<l n="41">
 					<app>
-						<lem wit="#Transcription">Eczel un Lancze,</lem>
+						<lem wit="#Transcription">Eczel und Lancze,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -383,13 +426,13 @@
 				</l>
 				<l n="53">
 					<app>
-						<lem wit="#Transcription">die vinfer muzzen vlorn,</lem>
+						<lem wit="#Transcription">die vinfer muzzen sin vlorn,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="54">
 					<app>
-						<lem wit="#Transcription">da mir er gezerret hat den schendelichen zar!</lem>
+						<lem wit="#Transcription">da mit er gezerret hat den schendelichen zar!</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -505,7 +548,7 @@
 				</l>
 				<l n="73">
 					<app>
-						<lem wit="#Transcription">wold er si geruet an,</lem>
+						<lem wit="#Transcription">wold er si geruet lan,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -579,7 +622,7 @@
 				</l>
 				<l n="85">
 					<app>
-						<lem wit="#Transcription">innen swartz un euzen blanch.</lem>
+						<lem wit="#Transcription">innen swartz und euzen blanch.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>

@@ -1,4 +1,46 @@
+<!--
 
+	R 7
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -73,13 +115,13 @@
 					</l>
 					<l n="2">
 						<app>
-							<lem wit="#Transcription">die blumen un der voglin sanch</lem>
+							<lem wit="#Transcription">die blumen und der voglin sanch</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="3">
 						<app>
-							<lem wit="#Transcription">muzze wir dem leiden winde lazzen.</lem>
+							<lem wit="#Transcription">muzze wir dem leiden winder lazzen.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -127,7 +169,7 @@
 					</l>
 					<l n="11">
 						<app>
-							<lem wit="#Transcription">eben un leise, niht bedrungen,</lem>
+							<lem wit="#Transcription">eben und leise, niht bedrungen,</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -159,25 +201,25 @@
 					</l>
 					<l n="2">
 						<app>
-							<lem wit="#Transcription">da ist Engelvrit un Adeldich,</lem>
+							<lem wit="#Transcription">da ist Engelvrit und Adeldich,</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="3">
 						<app>
-							<lem wit="#Transcription">Willepreht un Enczeman der iunge</lem>
+							<lem wit="#Transcription">Willepreht und Enczeman der iunge</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="4">
 						<app>
-							<lem wit="#Transcription">un Perewin</lem>
+							<lem wit="#Transcription">und Perewin</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
 					<l n="5">
 						<app>
-							<lem wit="#Transcription">Sigeloch un Ekkerich un iener Engelram.</lem>
+							<lem wit="#Transcription">Sigeloch un Ekkerich und iener Engelram.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -367,7 +409,7 @@
 					</l>
 					<l n="8">
 						<app>
-							<lem wit="#Transcription">daz du il, swar du din houbet geneigest</lem>
+							<lem wit="#Transcription">daz du wil, swar du din houbet geneigest</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -379,7 +421,7 @@
 					</l>
 					<l n="10">
 						<app>
-							<lem wit="#Transcription">daz dir iemen iht vesag. owe, daz ichz vertruch,</lem>
+							<lem wit="#Transcription">daz dir iemen iht versag. owe, daz ichz vertruch,</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -403,7 +445,7 @@
 					</l>
 					<l n="14">
 						<app>
-							<lem wit="#Transcription">die mir daz ge verpietent mangen liehten veiertach.</lem>
+							<lem wit="#Transcription">die mir daz geu verpietent mangen liehten veiertach.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -575,7 +617,7 @@
 					</l>
 					<l n="14">
 						<app>
-							<lem wit="#Transcription">von in, daz muzze wir verchlagen, ich un Elsemu&esup;t.</lem>
+							<lem wit="#Transcription">von in, daz muzze wir verchlagen, ich und Elsemu&esup;t.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>
@@ -655,7 +697,7 @@
 					</l>
 					<l n="13">
 						<app>
-							<lem wit="#Transcription">oder s slahent im ein vlerren</lem>
+							<lem wit="#Transcription">oder si slahent im ein vlerren</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</l>

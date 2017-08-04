@@ -1,4 +1,46 @@
+<!--
 
+	Weinschwelg
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
