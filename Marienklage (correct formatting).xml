@@ -72,18 +72,18 @@
 				<resp>TEI encoding by</resp>
 				<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
 			</respStmt>
-			<publicationStmt>
-				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
 			<sourceDesc>
-				<p>ANY SOURCES GO HERE</p>
+				<p>			
+					<variantEncoding method="parallel-segmentation" location="internal"/>
+					<listWit>
+					<witness xml:id="Transcription">Marienklage</witness>
+					<witness xml:id="Translation">The Virgin Mary's Lament</witness>
+				</listWit>
+			</p>
 				<p></p>
 			</sourceDesc>
 		</fileDesc>
@@ -91,26 +91,21 @@
 			<editorialDecl>
 				<p></p>
 			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Marienklage</witness>
-					<witness xml:id="Translation">The Virgin Mary's Lament</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Marienklage</lem>
 						<rdg wit="#Translation">The Virgin Mary's Lament</rdg>
 					</app>
 				</title>
+			</div>
+		</front>
+		<body>
+			<head>
 			</head>
 			<stage>
 				<lg lang="la">
