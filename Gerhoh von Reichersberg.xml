@@ -70,18 +70,14 @@
 					<name>Clara Romani</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Letter to Unknown Nuns on the Assumption of the Virgin Mary</witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -93,14 +89,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">Letter to Unknown Nuns on the Assumption of the Virgin Mary</witness>
-					<witness xml:id="Translation"></witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -109,6 +97,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>	
 			<div n="1">
 				<p n="1">
 					<s>

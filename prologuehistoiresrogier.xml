@@ -69,18 +69,14 @@
 					<name>Mae Lyons-Penner</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Li prologue ou livre des estoires</witness>
+					<witness xml:id="Translation">The prologue to the book of histories</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -92,23 +88,14 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">Li prologue ou livre des estoires</witness>
-					<witness xml:id="Translation">The prologue to the book of histories</witness>
-				</listWit>
-			</div>
+			<title>
+				<app>
+					<lem wit="#Transcription">Ci comence li prologue ou livre des estoires, et la porsivance.</lem>
+					<rdg wit="#Translation">Here begins the prologue to the book of histories, and what follows.</rdg>
+				</app>
+			</title>
 		</front>
 		<body>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">Ci comence li prologue ou livre des estoires, et la porsivance.</lem>
-						<rdg wit="#Translation">Here begins the prologue to the book of histories, and what follows.</rdg>
-					</app>
-				</title>
-			</head>
-			<s>
 			<lg n="1">
 				<l n="1">
 					<app>

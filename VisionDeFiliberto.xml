@@ -70,16 +70,14 @@
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">La visión de Filiberto</witness>
+					<witness xml:id="Translation">Filbert's Vision</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -93,14 +91,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">La visión de Filiberto</witness>
-					<witness xml:id="Translation">Filbert's Vision</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -109,6 +99,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
 					<s>
@@ -1546,6 +1538,7 @@
 							<rdg wit="#Translation">No translation in document.</rdg>
 						</app>
 					</s>
+				</p>
 			</div>
 		</body>
 	</text>
