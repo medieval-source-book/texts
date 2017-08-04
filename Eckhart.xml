@@ -75,8 +75,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+                <listWit>
+                    <witness xml:id="Transcription">sermo de adventu domini</witness>
+                    <witness xml:id="Translation">Sermon on the coming of the Lord</witness>
+                </listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -88,22 +90,16 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">sermo de adventu domini</witness>
-					<witness xml:id="Translation">Sermon on the coming of the Lord</witness>
-				</listWit>
-			</div>
+            <head>
+                <title>
+                    <app>
+                        <lem wit="#Transcription">Item sermo de adventu domini</lem>
+                        <rdg wit="#Translation">Next: sermon on the coming of the Lord</rdg>
+                    </app>
+                </title>
+            </head>
 		</front>
 		<body>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">Item sermo de adventu domini</lem>
-						<rdg wit="#Translation">Next: sermon on the coming of the Lord</rdg>
-					</app>
-				</title>
-			</head>
 			<div n="1">
 				<p n="1">
 					<s>
