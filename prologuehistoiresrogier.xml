@@ -79,8 +79,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Li prologue ou livre des estoires</witness>
+					<witness xml:id="Translation">The prologue to the book of histories</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -93,14 +95,7 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Li prologue ou livre des estoires</witness>
-					<witness xml:id="Translation">The prologue to the book of histories</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<head>
+				<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Ci comence li prologue ou livre des estoires, et la porsivance.</lem>
@@ -108,6 +103,9 @@
 					</app>
 				</title>
 			</head>
+			</div>
+		</front>
+		<body>
 			<s>
 			<lg n="1">
 				<l n="1">
