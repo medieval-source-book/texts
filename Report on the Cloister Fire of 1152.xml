@@ -1,0 +1,394 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Report on the Cloister Fire of 1152</title>
+				<author>Irimbert von Admont</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--NAMES--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name><!--TRANSLATOR--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Clara Romani</name>
+				</respStmt>
+			</titleStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Report on the Cloister Fire of 1152</witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Report on the Cloister Fire of 1152</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>	
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Non enim habemus hic mantentem civitatem, sed futuram inquirimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae sententia doctoris gentium quanta veritate fulciatur, in ea, quae nobis accidit, rerum permutatione declaratur,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">Feria namque secunda medie quadragisme expositionem meam sero hic dimiseram, eamque in crastinum in gaudio Sancti Spiritus repetere proposueram, quia ad finem operis huius ardenter festinabam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum ecce nocte sequenti feriae terciae gravis et intolerabilis mihi occurrit luctus tristiciae, ut iam cum Iob merito possim exclamare: Versa est in luctum cythara mea et organum meum in voce flentium.
+								<note type="critical" anchored="true">
+									<p>Job 30.31</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="3">
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum enim matutinorum sollempnitas pervigli intentione et distincta psalmodiae compositione in choro celebraretur, ego et grater, qui mihi ad scribendum adiutor fuerat deputatus, in capella Sanctatae Mariae matutunalibus expletis laudibus cursum eiusdem Dominae nostrae usque ad lectionem decantaveramus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum ecce clamorem servi cuiusdam audientes obstupescimus, quia in Admuntensi loco nocturno tempore aliquem perturbationis strepitum audire fecit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">De capella concite eximus et nichil quidem videntes strepitum magnum circa domnum infirmorum audimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sercus enim, qui exclamaverat, domnum infirmorum calefaciebat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed eo negligentius agente ventus vehemens, utique a regione deserti irruens eandem domim exterius invaserat et flamma iam insuperabiliter mira celeritate cento impellente excreverat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="4">
+					<s>
+						<app>
+							<lem wit="#Transcription">Curo in monasterium</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Psalmum Quid gloriaris im malicia
+								<note type="critical" anchored="true">
+									<p>Ps 51.3</p>
+								</note>
+							 iam in choro psallebant distincta valde melodia.
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Fero invisa signa, foris iam conflagrare incendia.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Excurrunt primi fratres exteriores, quos omnes fere inveni solicite in orationibus stantes.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sic enim moris eis est psalmodiae noctornae invigilare, ne contingat eos contunue sedentes somni tepore marcescere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Flamma supra modum excrescens a domo infirmorum capellam Sanctae Mariae cepit acriter laniare, quia pro incendii magnitudine et venti nimietate nullus pterat in periculo subvenire.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+
+					<!--
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+
+
+								<note type="critical" anchored="true">
+									<p></p>
+								</note> -->
