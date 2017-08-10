@@ -65,18 +65,14 @@
 					<name></name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">La vision de Tondale</witness>
+					<witness xml:id="Translation">Tondale's Vision</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -88,14 +84,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">La vision de Tondale</witness>
-					<witness xml:id="Translation">Tondale's Vision</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -104,6 +92,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<lg n="1">
 				<l n="1">
 					<app>

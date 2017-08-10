@@ -55,7 +55,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter to Unknown Nuns on the Assumption of the Virgin Mary</title>
+				<title>Letter to Unnamed Women Religious on the Assumption of the Virgin Mary</title>
 				<author>Gerhoh von Reichersberg</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -70,45 +70,35 @@
 					<name>Clara Romani</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Letter to Unnamed Women Religious on the Assumption of the Virgin Mary</witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
-				<p></p>
+				<p>We have preserved biblical citations from the edition, making note of cases in which we could not identify the origin of the biblical reference.</p>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">Letter to Unknown Nuns on the Assumption of the Virgin Mary</witness>
-					<witness xml:id="Translation"></witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Letter to Unknown Nuns on the Assumption of the Virgin Mary</lem>
+						<lem wit="#Transcription">Letter to Unnamed Women Religious on the Assumption of the Virgin Mary</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>	
 			<div n="1">
 				<p n="1">
 					<s>
@@ -145,7 +135,7 @@
 								</note>
 							 an non videtur imitanda, quam in earundem fine parabolarum scribit sapientia sapientem, pariter et fortem
 								<note type="critical" ancored="true">
-									<p>See Prov 31.10-31</p>
+									<p>Compare Prov 31.10-31</p>
 								</note>
 							.
 							</lem>
@@ -173,7 +163,7 @@
 						<app>
 							<lem wit="#Transcription">Facta est quasi navis institoris de longe portans panem suum
 								<note type="critical" anchored="true">
-									<p>[Questivit...suum] Prov 31.13f</p>
+									<p>[Questivit...suum] Prov 31.13-14</p>
 								</note>
 							.
 							</lem>
@@ -256,7 +246,7 @@
 						<app>
 							<lem wit="#Transcription">Neque vero parvo artificio contexitur cingulum, quod honestare potest Chananeum, cuis generatio cum sit maledicta
 								<note type="critical" anchored="true">
-									<p>See Gen 9.25</p>
+									<p>Compare Gen 9.25</p>
 								</note>
 							 per cingulum fit benedicta, si eo legitime Chananeus ille cingatur, qui a muliere forte ornatus predicatur.
 							</lem>
@@ -269,11 +259,11 @@
 						<app>
 							<lem wit="#Transcription">Admirabilem quoque illam, que in canticis canticorum sponsa, columba, formosa et Sunamitis appellatur
 								<note type="critical" anchored="true">
-									<p>See Song 5.1f;6,12 etc.</p>
+								<p>Compare Song 5.1-2, 6.12 etc. [GMS: This does not seem to correspond to a particular biblical passage.]</p>
 								</note>
 							, nec tam in fortitudine operum quam in choris castrorum delectatur
 								<note type="critical" anchored="true">
-									<p>See Song 7.1</p>
+									<p>Compare Song 7.1</p>
 								</note>
 							, sibi propserunt imitandam sancte femine propter Christi amorem sponse, propter simplicitatem vel mansuetudinem colombe, propter castitatem formose, propter humilitatem Sunamites nominande.
 							</lem>
@@ -321,7 +311,7 @@
 						<app>
 							<lem wit="#Transcription">Unde vos, carissimae in Christo sorores, cantica spiritalia diligentes fortes exactrices estis mihi oportune inportune instantes
 								<note type="critical" anchored="true">
-									<p>See 2 Tim 4.2</p>
+									<p>Compare 2 Tim 4.2</p>
 								</note>
 							, ut elicitatis nunc vinum dignum dilecto vestro ad potandum labiisque et dentibus illius ruminandum
 								<note type="critical" anchored="true">
@@ -336,7 +326,7 @@
 						<app>
 							<lem wit="#Transcription">Et ego vicissim a vobis exigo non tam mulieris fortis fortia opera quam mel et lac reconditum sub lingua vestra
 								<note type="critical" anchored="true">
-									<p>See Song 4.11</p>
+									<p>Compare Song 4.11</p>
 								</note>
 							 et eructuandum inter cantica spiritalia dilectione Dei tamquam melle dulcorata et dilectione proximorum quasi lacte redundantia.</lem>
 							<rdg wit="#Translation"></rdg>
@@ -455,7 +445,7 @@
 						<app>
 							<lem wit="#Transcription">Unde licet ignoretur cuius industria collecta sint in hoc sermone rationabilia testimonia partim de libro Dyonisii, partim de tractatibus aliorum patrum, partim de antiqua traditione seniorum, tamen quia hoc non ignoratur, quod af honorem et venerationem Dei genitricis hic sermo rationabiliter est contextus, merito iudicatur ob reverentiam ipsius beate semper virginis honorabiliter acceptandus tamquam fidelis sermo et omni acceptione dignus
 								<note type="critical" anchored="true">
-									<p>See 1 Tim 1.15</p>
+									<p>Compare 1 Tim 1.15</p>
 								</note>
 								.
 								</lem>
@@ -466,11 +456,11 @@
 						<app>
 							<lem wit="#Transcription">Qui autem in eo id putant absurdum vel impossibile, quod apostoli feruntur de diversis mundi partibus ad obitum beatissime virginis convenisse repente baiolante nube, legant et in veteri testamento Helyam transportari solitum tali miraculo
 								<note type="critical" anchored="true">
-									<p>See 4 Kgs 2.11, 3 Kgs 18.12</p>
+									<p>Compare 4 Kgs 2.11, 3 Kgs 18.12 [GMS: This corresponds to 2 Kgs 2.11 amd 1 Kgs 18.12 in post-1516 Bibles.]</p>
 								</note>
 							 et in novo Phylippum, de quo dicitur: Spiritus Dei rapuit Phyllippum et amplius non vidit eum eunuchis; Phylippus autem inventus est in Azoto
 								<note type="critical" anchored="true">
-									<p>Acts 8.39f</p>
+									<p>Acts 8.39-40</p>
 								</note>
 							 .</lem>
 							<rdg wit="#Translation"></rdg>

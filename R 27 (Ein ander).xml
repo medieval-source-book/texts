@@ -69,19 +69,15 @@
 				<resp>TEI encoding by</resp>
 				<name>Clara Romani</name>
 			</respStmt>
-			<publicationStmt>
-				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
 			</notesStmt>
 			<sourceDesc>
-				<p><!--ANY SOURCES GO HERE--></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">R 27 (Ein ander)</witness>
+					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -93,14 +89,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">R 27 (Ein ander)</witness>
-					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -109,6 +97,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<lg type="stanza" n="1">
 				<l n="1">
 					<app>
