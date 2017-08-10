@@ -1,47 +1,3 @@
-<!--
-
-	Oeglin 2
-
-		TEI Encoding Specifications:
-
-			<lem> = transcription
-
-			<rdg> = translation
-
-			Tag numbering:
-				(<X> for example)
-				<X n="1"> 
-			
-			Stanza break:
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
-
-			Special Characters:
-				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
-				This chart is of the Medieval Unicode Font Initiative. In order to 
-				include one of these characters, enter the ampersand and following
-				letters followed by a semicolon (e.g. &odot;).
-
-			Language change: 
-				When the text changes language, use an extra modifier in your tag. 
-
-				For example: (a text changes to Latin)
-					<l lang="la" n="4">
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</l>
-
-				The modifier (xml:lang="?") is the critical insertion. 
-
-				Find the two letter identifier for the language you wish to specify 
-				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-				in the subtag category
--->
-
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -55,18 +11,18 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Hilf fraw von Ach</title>
+				<author>Erhard Oeglin</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
@@ -80,8 +36,13 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.6r</p>
+				<div>
+					<listWit>
+						<witness xml:id="Transcription">Hilf fraw von Ach</witness>
+						<witness xml:id="Translation">Help, our lady of Aachen!</witness>
+					</listWit>
+				</div>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -94,21 +55,17 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
-				</listWit>
+				<head>
+					<title>
+						<app>
+							<lem wit="#Transcription">Hilf fraw von Ach</lem>
+							<rdg wit="#Translation">Help, our lady of Aachen!</rdg>
+						</app>
+					</title>
+				</head>	
 			</div>
 		</front>
 		<body>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
-					</app>
-				</title>
-			</head>
 			<div n="1">
 				<p n="1">
 					<s>
