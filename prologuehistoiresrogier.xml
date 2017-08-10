@@ -69,12 +69,6 @@
 					<name>Mae Lyons-Penner</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
@@ -94,6 +88,7 @@
 	</teiHeader>
 	<text>
 		<front>
+<<<<<<< HEAD
 			<div>
 				<head>
 				<title>
@@ -107,6 +102,16 @@
 		</front>
 		<body>
 			<s>
+=======
+			<title>
+				<app>
+					<lem wit="#Transcription">Ci comence li prologue ou livre des estoires, et la porsivance.</lem>
+					<rdg wit="#Translation">Here begins the prologue to the book of histories, and what follows.</rdg>
+				</app>
+			</title>
+		</front>
+		<body>
+>>>>>>> origin/master
 			<lg n="1">
 				<l n="1">
 					<app>

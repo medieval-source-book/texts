@@ -1,0 +1,230 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De Heinrico</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De Heinrico</witness>
+					<witness xml:id="Translation">The Heinrico (The Song of Heinrich)</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De Heinrico</lem>
+						<rdg wit="#Translation">The Heinrico (The Song of Heinrich)</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+					</app>
+						<lem wit="#Transcription">Nunc almus assis filius thero euuigero thiernun</lem>
+						<rdg wit="#Translation"> Now help, kind son of the eternal Virgin,
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">benignus fautor mihi, thaz ig iz cosan muozi</lem>
+						<rdg wit="#Translation">be my benevolent protector, so that I may tell of</rdg>
+					</app>
+				</l>
+				<l n="3"><space quantity="10" unit="chars"></space>
+					<app>
+						<lem wit="#Transcription">de quodam duce, themo heron Heinriche,</lem>
+						<rdg wit="#Translation">a certain duke, of Lord Heinrich</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">qui cum dignitate thero Beiaro riche beuuarode.<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">who governed the realm of Bavaria with honor<milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Intrans nempe nuntius, then keisar namoda her thus:</lem>
+						<rdg wit="#Translation">Once came a herald, who addressed the emperor thus:</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">›cur sedes‹ infit ›Otdo. ther unsar keisar guodo</lem>
+						<rdg wit="#Translation">“Why are you, our good emperor Otto, still sitting?” he asked.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">hic adest Heinrich bringit her hera kuniglich.</lem>
+						<rdg wit="#Translation">“Heinrich is here, he brings a kingly entourage </rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">dignum tibi fore thir seluemo ze sine.‹<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">that would be worthy of being your own.”<milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Tunc surrexit Otdo, ther unsar keisar guodo,</lem>
+						<rdg wit="#Translation">Then Otto stood up, our good emperor,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">perrexit illi obuiam inde uilo manig man.<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">and went towards him (Heinrich) together with many men<milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">et excepit illum mid mihilon eron.<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">And he greeted him (Heinrich) with great honor<milestone unit="stanza"/></rdg>
+					</app>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Primitus quoque dixit: ›uuillicumo Heinrich,</lem>
+						<rdg wit="#Translation">First he said:  “Welcome, Heinrich,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">ambo uos equiuoci, bethiu goda endi mi:</lem>
+						<rdg wit="#Translation">to both of you with the same name, from both God and me.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">nec non et socii, uuillicumo sid gi mi.‹<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">And to your companions, too: you are welcome to me.”<milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Dato responso fane Heinriche so scono</lem>
+						<rdg wit="#Translation">After the greeting was returned in kind by Heinrich,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">coniunxere manus. her leida ina in thaz godes hus:</lem>
+						<rdg wit="#Translation">they took each other by the hand. He (Otto) lead him to the church:</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">petierunt ambo thero godes genatheno.<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">both sought for the grace of God.<milestone unit="stanza"/></rdg>
+					</app>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Oramine facto intfieng ina auer Otdo,</lem>
+						<rdg wit="#Translation">After the prayer he (Heinrich) greeted Otto again</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">duxit in concilium mit michelon eron</lem>
+						<rdg wit="#Translation">And he lead him (Heinrich) with great honor to the council</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">et admisit illi so uuaz so her þar hafode,</lem>
+						<rdg wit="#Translation">And granted him everything that he had at his disposal,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">preter quod regale, thes thir Heinrih ni gerade.<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"> except kingly rights, which Heinrich never coveted.<milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Tunc stetit al thiu sprakha sub firmo Heinriche:</lem>
+						<rdg wit="#Translation">So thereafter all counseling was under Heinrich’s stewardship.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">quicquid Otdo fecit, al geried iz Heinrih:</lem>
+						<rdg wit="#Translation">Whatever Otto did, he conferred about it with Heinrich.</rdg>
+					</app>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">quicquid ac omisit, ouch geried iz Heinrihc.<milestone unit="stanza"/></lem>
+						<rdg wit="#Translation">And whatever Otto did not do, he conferred about it with Heinrich, too.<milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Hic non fuit ullus – thes hafon ig guoda fulleist</lem>
+						<rdg wit="#Translation">There was no one – this I have on good authority –</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">nobilibus ac liberis, thaz thid allaz uuar is –</lem>
+						<rdg wit="#Translation">neither nobleman nor freeman – this is the complete truth –</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">cui non fecisset Heinrich allero rehto gilich.</lem>
+						<rdg wit="#Translation">to whom Heinrich would not have granted all rights.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

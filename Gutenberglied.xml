@@ -27,19 +27,15 @@
 					<name>Hannah Frakes</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
-			<sourceDesc>
-				<p>ANY SOURCES GO HERE</p>
-				<p></p>
+			<sourceDesc>			
+				<listWit>
+					<witness xml:id="Transcription">Gutenberglied</witness>
+					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -52,21 +48,17 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Gutenberglied</witness>
-					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Gutenberglied</lem>
-						<rdg wit="#Translation">TITLE'S TRANSLATION</rdg>
+						<rdg wit="#Translation">The Gutenberg Song</rdg>
 					</app>
 				</title>
 			</head>
+			</div>
+		</front>
+		<body>
 			<lg>
 				<l n="1">
 					<app>

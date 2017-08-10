@@ -70,18 +70,14 @@
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">La visión de Filiberto</witness>
+					<witness xml:id="Translation">Filbert's Vision</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -93,14 +89,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">La visión de Filiberto</witness>
-					<witness xml:id="Translation">Filbert's Vision</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -109,6 +97,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
 					<s>
@@ -171,13 +161,13 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">et eres otrosy de todas las prouençias ¶et las tierras pues que es dela conpanna que te serujan rricos omnes λ muchos fijos dalgo λ grandes escuderos λ de grand oficina λ muy loçanos λ muy brauos que yuan en pos de ty λ</lem>
+							<lem wit="#Transcription">et eres otrosy de todas las prouençias ¶ et las tierras pues que es dela conpanna que te serujan rricos omnes λ muchos fijos dalgo λ grandes escuderos λ de grand oficina λ muy loçanos λ muy brauos que yuan en pos de ty</lem>
 							<rdg wit="#Translation">And you were, furthermore, served in all lands and provinces by rich men, and many nobles, and important squires of high office, valiant and brave, that followed you around.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">tu delante dellos fazyendo grandes jestos λ contenientes carne mesquina ya este tu rrastro λ esta tu locura que leuauas en posty λ tu mas pyntado que pendola de pauon ya agora es cortada para sienpre</lem>
+							<lem wit="#Transcription">λ tu delante dellos fazyendo grandes jestos λ contenientes carne mesquina ya este tu rrastro λ esta tu locura que leuauas en posty λ tu mas pyntado que pendola de pauon ya agora es cortada para sienpre</lem>
 							<rdg wit="#Translation">And you, in front of all of them, making such extravagant gestures, now look at you. Miserable corpse, this madness that you wore as gaudy as peacock pendant, now all of it is gone forever.</rdg>
 						</app>
 					</s>
@@ -243,7 +233,7 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">en dolor λ en tristeza λ lloro λ llanto para syenpre jamas ay de mj que ya enella so λ sere ¶et por syenpre enlas penas estare</lem>
+							<lem wit="#Transcription">en dolor λ en tristeza λ lloro λ llanto para syenpre jamas ay de mj que ya enella so λ sere ¶ et por syenpre enlas penas estare</lem>
 							<rdg wit="#Translation">In pain, in sadness, I cry, weeping forever more, oh poor me, here I am and forever I will be.</rdg>
 						</app>
 					</s>
@@ -1061,7 +1051,7 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">¶ Et avn mas te digo que toda la deuoçion delos santos orasen ¶Et avn que todos los rrelygyosos del mundo ayunasen λ fezyesen abstenençia</lem>
+							<lem wit="#Transcription">¶ Et avn mas te digo que toda la deuoçion delos santos orasen ¶ Et avn que todos los rrelygyosos del mundo ayunasen λ fezyesen abstenençia</lem>
 							<rdg wit="#Translation">And I’ll further chastise you by saying that you would not be pardoned with all the devotional prayers to the saints, and all the fasting and abstinence that the religious people of the world do.</rdg>
 						</app>
 					</s>
@@ -1183,7 +1173,7 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">¶ Et syn piadat con açotes ¶ Et finchyendole la boca λ la garganta de estercol ¶ Et de venjno fediondo ¶Et lançauanle plomo ynfernal por la boca rretido λ por el enbrigo o por los ojos ¶Et por las orejas</lem>
+							<lem wit="#Transcription">¶ Et syn piadat con açotes ¶ Et finchyendole la boca λ la garganta de estercol ¶ Et de venjno fediondo ¶Et lançauanle plomo ynfernal por la boca rretido λ por el enbrigo o por los ojos ¶ Et por las orejas</lem>
 							<rdg wit="#Translation">Without pity they whipped it and defecated in its mouth and throat and filled it with a smelly poison and they shot it in the mouth, eyes, and ears with infernal lead pellets.</rdg>
 						</app>
 					</s>
@@ -1546,9 +1536,8 @@
 							<rdg wit="#Translation">No translation in document.</rdg>
 						</app>
 					</s>
+				</p>
 			</div>
 		</body>
 	</text>
-</TEI> 
-
-
+</TEI>

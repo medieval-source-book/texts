@@ -41,13 +41,11 @@
 				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 				in the subtag category
 -->
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
+'http://www.menota.org/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -83,8 +81,11 @@
 				</note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">daz genselin</witness>
+					<witness xml:id="Translation">The Gosling</witness>
+				</listWit>
 				<p>Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v; Würzburg ca. 1350).</p>
-				<p></p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -100,27 +101,22 @@
 	</facsimile>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">daz genselin</witness>
-					<witness xml:id="Translation">The Gosling</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<pb ed="#Transcription" facs="#G1"/>
-			<fw facs="#G1" type="header" place="margin-topright">1</fw>
 			<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Diz mere heizet daz genselin und sagt von einem münche und von einem magedin</lem>
 						<rdg wit="#Translation">This tale is called 'The Gosling' and tells of a monk and a maiden</rdg>
 					</app>
-					<witDetail wit="#Transcription" target="#Transcription">
-						<media mimeType="audio/mp3" url="Genselin_Audio_Version1.mp3" />
-					</witDetail>
 				</title>
 			</head>
+		</front>
+		<body>
+			<pb ed="#Transcription" facs="#G1"/>
+			<fw facs="#G1" type="header" place="margin-topright">1</fw>
+
+			<witDetail wit="#Transcription" target="#Transcription">
+				<media mimeType="audio/mp3" url="Genselin_Audio_Version1.mp3" />
+			</witDetail>
 			<l n="1">
 				<app>
 					<lem wit="#Transcription">Ich hort sagen ein mer</lem>

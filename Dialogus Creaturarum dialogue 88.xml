@@ -11,7 +11,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Preface to the Dialogus Creaturum</title>
+				<title>Dialogus Creaturarum 1: de sole et luna</title>
 				<author>AUTHOR</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -35,9 +35,11 @@
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
-			<sourceDesc>
-				<p></p>
-				<p></p>
+			<sourceDesc>			
+				<listWit>
+					<witness xml:id="Transcription">Dialogus Creaturum: De leopardo et unicorni, qui pugnabant cum dracone, dial. 88.</witness>
+					<witness xml:id="Translation">Dialogue of the Creatures: Concerning the Leopard and Unicorn, who fight the Dragon, the 88th dialogue</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -50,10 +52,14 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Dialogus Creaturum: de leopardo et unicorni, qui pugnabant cum dracone</witness>
-					<witness xml:id="Translation">Dialogue of the Creatures: Concerning the Leopard and Unicorn, who fight the Dragon, the 88th dialogue</witness>
-				</listWit>
+				<head>
+					<title>
+						<app>
+							<lem wit="#Transcription">Dialogus Creaturum: De leopardo et unicorni, qui pugnabant cum dracone, dial. 88.</lem>
+							<rdg wit="#Translation">Dialogue of the Creatures: Concerning the Leopard and Unicorn, who fight the Dragon, the 88th dialogue</rdg>
+						</app> 
+					</title>
+				</head>
 			</div>
 		</front>
 		<body>

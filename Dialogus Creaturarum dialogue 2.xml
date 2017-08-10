@@ -36,8 +36,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Dialogus Creaturum: de Saturno et nube</witness>
+					<witness xml:id="Translation">Dialogue of the Creatures: Concerning Saturn and the Cloud, the second dialogue</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -50,23 +52,25 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Dialogus Creaturum: de Saturno et nube</witness>
-					<witness xml:id="Translation">Dialogue of the Creatures: Concerning Saturn and the Cloud, the second dialogue</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Septem sunt planetae secundum dicta philosophorum, scilicet Saturnus, Jupiter, Mars, Sol, Venus, Mercurius et Luna, sed distantia magna est inter planetam et planetam.</lem>
-						<rdg wit="#Translation">After the philosopher’s saying, there are seven planets: Saturn, Jupiter, Mars, Sun, Venus, Mercury, and Moon, and the distance is great from planet to planet.</rdg>
+						<lem wit="#Transcription">Dialogus Creaturum: de Saturno et nube</lem>
+						<rdg wit="#Translation">Dialogue of the Creatures: Concerning Saturn and the Cloud, the second dialogue</rdg>
 					</app>
 				</title>
 			</head>
+			</div>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Septem sunt planetae secundum dicta philosophorum, scilicet Saturnus, Jupiter, Mars, Sol, Venus, Mercurius et Luna, sed distantia magna est inter planetam et planetam.</lem>
+							<rdg wit="#Translation">After the philosopher’s saying, there are seven planets: Saturn, Jupiter, Mars, Sun, Venus, Mercury, and Moon, and the distance is great from planet to planet.</rdg>
+						</app>
+					</s>
 					<s>
 						<app>
 							<lem wit="#Transcription">Quia refert magister Moyses maximus philosophus, ut habetur in Aurea Legenda, quod quilibet circulus cujuslibet planetæ habet in spissitudine viam quingentorum annorum id est tantum spatium, quantum posset aliquis ire in quiugentis annis de via plana,</lem> 
