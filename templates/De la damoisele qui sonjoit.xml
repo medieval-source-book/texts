@@ -1,0 +1,324 @@
+<!--
+
+	Verse Template
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De la damoisele qui sonjoit</title>
+				<author><!--AUTHOR--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--WHO TRANSCRIBED ME?--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name><!--WHO TRANSLATED ME?--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name><!--YOUR NAME HERE--></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription"><!--Original Name--></witness>
+					<witness xml:id="Translation"><!--Translation's Name--></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De la damoisele qui sonjoit</lem>
+						<rdg wit="#Translation"><!--TITLE'S TRANSLATION--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Une damoisele sonjoit</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Que uns bachelers qui l'amoit,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Vestuz d'une cote de pers,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Venoit d'entort et de travers</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et avoeques li se couchoit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Ausi comme en songes estoit,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">En va celui en sa meson,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Si c'onques ne li oï on :</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Tant quist que li trova son lit.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Gros avoit et quarré le cit</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Et mout ert cointes, liez et baut.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription">Il joinst les piez et fet .I. saut</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
