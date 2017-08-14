@@ -1,1486 +1,1440 @@
-<!--
 
-	Marienklage
 
-		TEI Encoding Specifications:
-
-			<lem> = transcription
-
-			<rdg> = translation
-
-			Tag numbering:
-				(<X> for example)
-				<X n="1"> 
-			
-			Stanza break:
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
-
-			Special Characters:
-				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
-				This chart is of the Medieval Unicode Font Initiative. In order to 
-				include one of these characters, enter the ampersand and following
-				letters followed by a semicolon (e.g. &odot;).
-
-			Language change: 
-				When the text changes language, use an extra modifier in your tag. 
-
-				For example: (a text changes to Latin)
-					<l lang="la" n="4">
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Marienklage</title>
+				<author>AUTHOR</author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name>WHO TRANSCRIBED ME?</name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name>Kathryn Starkey, Mae Lyons-Penner, Marieke Reisch, Robert Forke, Chris Hutchinson, Patrick ???, Björn ???</name>
+			</respStmt>
+			<respStmt>
+				<resp>TEI encoding by</resp>
+				<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
+			</respStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>			
+					<variantEncoding method="parallel-segmentation" location="internal"/>
+					<listWit>
+						<witness xml:id="Transcription">Marienklage</witness>
+						<witness xml:id="Translation">The Virgin Mary's Lament</witness>
+					</listWit>
+				</p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<head>
+					<title>
 						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
+							<lem wit="#Transcription">Marienklage</lem>
+							<rdg wit="#Translation">The Virgin Mary's Lament</rdg>
 						</app>
-					</l>
-
-				The modifier (xml:lang="?") is the critical insertion. 
-
-				Find the two letter identifier for the language you wish to specify 
-				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-				in the subtag category
-			-->
-
-			<!-- @ Mike : Do I need to explicitly define lang and type as modifiers? -Jordan -->
-
-			<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
-			<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-			<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-			<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
-			[
-			<!ENTITY % Menota_entities SYSTEM
-			'http://www.menota.org/menota-entities.txt'   >
-			%Menota_entities;]
-			>
-			<TEI xmlns="http://www.tei-c.org/ns/1.0">
-				<teiHeader>
-					<fileDesc>
-						<titleStmt>
-							<title>Marienklage</title>
-							<author>AUTHOR</author>
-						</titleStmt>
-						<respStmt>
-							<resp>Transcription by</resp>
-							<name>WHO TRANSCRIBED ME?</name>
-						</respStmt>
-						<respStmt>
-							<resp>Translation by</resp>
-							<name>Kathryn Starkey, Mae Lyons-Penner, Marieke Reisch, Robert Forke, Chris Hutchinson, Patrick ???, Björn ???</name>
-						</respStmt>
-						<respStmt>
-							<resp>TEI encoding by</resp>
-							<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
-						</respStmt>
-						<notesStmt>
-							<note anchored="true"></note>
-							<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
-						</notesStmt>
-						<sourceDesc>
-							<p>			
-								<variantEncoding method="parallel-segmentation" location="internal"/>
-								<listWit>
-									<witness xml:id="Transcription">Marienklage</witness>
-									<witness xml:id="Translation">The Virgin Mary's Lament</witness>
-								</listWit>
-							</p>
-							<p></p>
-						</sourceDesc>
-					</fileDesc>
-					<encodingDesc>
-						<editorialDecl>
-							<p></p>
-						</editorialDecl>
-					</encodingDesc>
-				</teiHeader>
-				<text>
-					<front>
-						<div>
-							<head>
-								<title>
-									<app>
-										<lem wit="#Transcription">Marienklage</lem>
-										<rdg wit="#Translation">The Virgin Mary's Lament</rdg>
-									</app>
-								</title>
-							</head>
-						</div>
-					</front>
-					<body>
-						<stage>
-							<lg lang="la">
-								<app>
-									<lem wit="#Transcription">
-										<p>Planctum istum facit beata virgo Maria cum quattor personis deuotis deuotissime bona sexta feria ante prandium in ecclesia ante chorum in loco aliquantaum eleuato vel extra ecclesiam, si bona est aura.</p>
-									</lem>
-									<rdg wit="#Translation">
-										<p>Here begins the most devout lamentation of the Blessed Virgin Mary in a compassionate and devout exposition.			<note type="critical" anchored="true">
-											<p>Here, the Latin “nota” is not easy to translate. Alternatively, it could be understood to mean “depiction” or “style”.</p>
-										</note>
-										This lamentation is performed faithfully and very devoutly by the Blessed Virgin Mary together with four other characters before lunch on Good Friday, in the church in front of the choir or, if the 						<note type="critical" anchored="true">
-										<p>In medieval monastic contexts, the “prandium” was, according to the Benedictine Rule, the principal meal of the day which the whole community gathered for around noon.</p>
-									</note>
-									light is good, in a moderately raised place outside of the church.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Planctus iste non est ludus nec ludibrium, sed est planctus et fletus et pia compassio Marie virginis gloriose.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>This lamentation is neither a play nor a funny joke, but is a lamenting and a wailing and devout compassion for the glorious Virgin Mary.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Et cuandocunque fit a bonis et deuotis hominibus, in genere siue in specie valde prouocat homines circumstantes ad pium fletum et ad compassionem.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>And in general or in particular, whenever it is performed by good and devout people it will 								<note type="critical" anchored="true">
-										<p>The Latin expression “in genere sive in specie” is a formulaic idiom. Here, it expresses that the described qualities and effects of the play do not only apply to this particular Middle Low German version, but to the genre of Marian lamentations in general.</p>
-									</note> 
-									strongly provoke the gathered people to piously cry and feel compassion,</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>sicut facit sermo deuotus bona sexta feria de passione domini nostri Jhesu Cristi.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>just as a devout Good Friday sermon on the passion of our Lord Jesus Christ does.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Si non potest fieri bona sexta feria commodose propter sermonem de passione domini, tunc beata virgo faciat istum planctum antea cum suis, sicut feria secunda post dominicam palmarum ante prandium.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>If, because of the sermon on the Lord’s passion, it is not possible to perform on Good Friday, at the time when the Blessed Virgin together with her confidantes once broke out into this lamentation, [it shall be performed] on the Monday of the Holy Week before lunch</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Iste planctus fit commodose in duabus horis et media.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>This lamentation can be conveniently performed in two and a half hours.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Et omnia, que tunc fiunt ab illis quinque personis, non debent fieri cum festinacione nec nimia mora, sed medio et bono modo.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p> And everything which was once done by these five persons shall not be performed in a hurry or exaggeratedly slow, but medium-fast and in a good way.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Ille, qui est Jhesus, est deuotus sacerdos.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>The actor playing Jesus is a devout priest.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Maria iuuenis.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>Mary is a young man.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Johannes ewangelista sacerdos.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>John the Evangelist is a priest.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Maria Magdalena et mater Johannes ewangelista iuuenis.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>Mary Magdalene and the mother of John are young men.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Jhesus debet se preparare cum casula rubra.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p> Jesus must wear a red vestment.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Johannes simili modo.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>John must do the same.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Jhesus et Johannes debent habere dyademata de papiro; dyadema Jhesu habeat rubram crucem ante et retro.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>Jesus and John are wearing crowns made of paper; Jesus’ crown shows a red cross at the front and the back.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Maria debet se preparare cum vestibus, sicut Maria Magdalena in nocte pasche.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>Mary must wear a garment like that of Mary Magdalene for the Easter vigil.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Johannes habeat gladium de ligno cum vagina, quem tenet in manu, quum exit cum rigmo suo.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>John has a wooden sword with a sheath which he holds in his hand and with 			<note type="critical" anchored="true">
-										<p>This reference points to a non-extant Easter play that the Augustinian monks of Bordesholm seem to have performed regularly. It shows how late medieval liturgical drama was far from being a singular event and in fact was deeply embedded into the rhythm of monastic life.</p>
-									</note>
-									during his rhymed monologue.</p>
-								</rdg>
-							</app>
-							<app>
-								<lem wit="#Transcription">
-									<p>Et Johannes debet sepius tangere cor Marie vel pectus eius.</p>
-								</lem>
-								<rdg wit="#Translation">
-									<p>And John has to touch Mary’s heart or 		<note type="critical" anchored="true">
-										<p>Latin “rigmus" is a technical term in medieval drama, denoting a rhymed and spoken (not sung) monologue.</p>
-									</note> 
-									chest seven times. And when he has performed his part, he immediately lays down the sword.						
-									<note type="critical" anchored="true">
-										<p>Gramatically, the Latin „sepius“ makes no sense here. We assume that it is a scribal mistake or an abbreviation for „septimus“, referring to the seven sorrows of the Virgin Mary.</p>
-									</note>
-								</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Et quum facit actum suum, statim deponit gladium.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>And when he has performed his part, he immediately lays down the sword.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Iuuenis quidam bene vestitus potest postea lumbos crucifixi.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>Well-costumed young men may take away the sword together with the cloth of silk with which the Blessed Virgin before had covered the loins of the Crucified.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Dominus Jhesus cum primo exit cum alijs quattuor personis, deuote portat crucem in manibus suis.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>In the beginning, the Lord Jesus enters the stage with the four other characters, devoutly carrying the cross in his hands.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Et quum cantauit versum "Quoniam tribulacio proxima est", statim deponit crucem.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>And when he has sung the verse “For tribulation is near,” he immediately lays down the cross.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Et quum faciunt planctum, dominus Jhesus debet habere crucifixum ante se.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>And when they perform the lamentation, the Lord Jesus must hold the cross in front of him.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Et cuandocunque facit actum, tunc crucem deponit et intrudit crucifixum.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>And as soon as he has performed this act, he puts down the cross and rams the crucifix into the ground.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Beata virgo stat a dextris Jhesu Cristi cum Maria Magdalena.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>Together with Mary Magdalene, the Blessed Virgin stands on the right side of Jesus.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Johannes a sinistris cum matre sua.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>John and his mother stand on the left.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Virgo Maria quum facit actum suum, vadit ad medium et aliquando vertit se ad filium ad orientum, aliquando ad occidentem, aliquando ad aquilones, aliquando ad meridiem cum gladio Symeonis, quem tenet beatus Johannes ante pectus eius.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>When the Virgin Mary performs her part, she steps into the center and at one point turns east towards her son, at one point to the west, at another point to the north, and at one point to the south and towards the sword of Simeon, which St. John holds to her chest.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Aliquando beata virgo expandit brachia sua, aliquando leuat manus suas ad filium cum oculis: omnia cum moderamine.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>At one point, the Blessed Virgin reaches out her arms, 								<note type="critical" anchored="true">
-									<p>Medieval churches are generally oriented to the east: Therefore, the altar, cross and choir are behind Mary (east), the nave with the audience is in front of her (west), John the Evangelist stands to her left (south) and north means right of her.
-									</p>
-								</note> 
-								at another point she raises her hands and eyes to her son: all with moderation.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Quandocunque fecit actum suum, vadit at locum suum et stat a dextris.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>As soon as she has performed her part, she steps back to her place and stands on the right.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Simili modo faciunt alij.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>The others do the same.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Quum exeunt et quum intrant, faciunt tria paria: primo exit dominus Jhesus cum cruce cum Johanne ewangelista, post hos beata virgo cum Maria Magdalena, vltimo mater Johannes cum rectore, et ille incipit psalmum "Circumdederunt me viri mendaces" vsque ad locum preparatum.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>When they enter and exit the stage, they make up three pairs: first of all, the Lord Jesus 								
-									<note type="critical" anchored="true">
-										<p>Here, the use of Latin words is counterintuitive to English speakers: „exire“ means entering, „intrare“ exiting the stage.</p>
-									</note> 
-									enters with the cross and John the Evangelist, after them the Blessed Virgin and Mary Magdalene, finally the mother of John with the rector, who strikes up the psalm “Lying men surrounded me” 						 <note type="critical" anchored="true">
-									<p>The rector is the priest who leads the liturgical singing and recitations that take place during the play.</p>
-								</note> 
-								until [he reaches] a prepared place.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Ffinito psalmo dominus Jhesus cantat solus versum "Quoniam tribulacio proxima est" et vertit faciem ad occidentem semper.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>After the end of the psalm, Jesus alone sings the verse “For tribulation is near,” turns his face westwards and stays this way.</p>
-							</rdg>
-						</app>
-						<app>
-							<lem wit="#Transcription">
-								<p>Vnusquisque dicat rigmum suum cum deuocione plangendo in eadem et nota et dono discreto.</p>
-							</lem>
-							<rdg wit="#Translation">
-								<p>Everyone recites his rhymed 					<note type="critical" anchored="true">
-									<p>Jesus is facing the audience.</p>
-								</note> 
-								monologue mourning with devotion, in the same character and in a discreet tone of voice. 						
-								<note type="critical" anchored="true">
-									<p>Here, the sonorization typical for Middle Low German is reflected in the Latin spelling of the manuscript: „dono“ does not derive from „donum“ (meaning „gift“), but from „tonus“ (meaning „tone of voice,“ „note,“ „inflection“).
-									</p>
-								</note>
-							</p>
-						</rdg>
-					</app>
+					</title>
+				</head>
+			</div>
+		</front>
+		<body>
+			<stage>
+				<lg lang="la">
 					<app>
 						<lem wit="#Transcription">
-							<p>Quum Jhesus finiuit versum "Quoniam tribulacio", Johannes ewangelista statim dicit ad omnem populum plangendo:</p>
+							<p>Planctum istum facit beata virgo Maria cum quattor personis deuotis deuotissime bona sexta feria ante prandium in ecclesia ante chorum in loco aliquantaum eleuato vel extra ecclesiam, si bona est aura.</p>
 						</lem>
 						<rdg wit="#Translation">
-							<p>When Jesus has finished the verse “For tribulation is near,” John the Evangelist immediately turns to all the people and sorrowfully says:</p>
-						</rdg>
-					</app>
-				</lg>
-			</stage>
-			<sp>
-				<app>
-					<lem wit="#Transcription">
-						<speaker lang="la">Johannes ewangelista</speaker>
-					</lem>
-					<rdg wit="#Translation">
-						<speaker>John the Evangelist:</speaker>
-					</rdg>
-				</app>
-				<lg lang="de">
-					<app>
-						<lem wit="#Transcription">
-							<l n="1">Horet, gij salighen lude,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="1">Listen, you blessed people,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="2">Vnde latet juw beduden,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="2">and let it be shown to you</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="3">Wo vnse leue here Jhesu Crist,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="3">how our dear Lord Jesus Christ,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="4">De eyn schepper hemmels vnde eerden ist,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="4">Creator of Heaven and Earth,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="5">Huden vmme vnsen wyllen heft geleden de marter grot,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="5">today suffered great torture for our sake,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="6">Dar tho ok den bytteren dot!</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="6">and, in addition to that, bitter death!</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="7">Horet ersten, wo vnse leue here an der tijt to completen</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="7">Hear, first of all, how our dear Lord at the time of Compline</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="8">Vmme vnsen wyllen blodich sweet wolde sweten;</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="8"> sweated bloody sweat for our sake,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="9">Dat he alwyllynges ok wolde ga&esup;n,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="9">and how he also went voluntarily</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="10">Dar en syne vygende wolden va&esup;n;</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="10">to where his enemies caught him,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="11">Dat he Judam, synen valschen vrund,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="11">and how he kissed Judas, his disloyal friend,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="12">Kussen wolde vor syne munt</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="12">on the mouth,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="13">Vnde valsklyken wolde vorraden werden,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="13">when he was about to be betrayed as treacherously</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="14">Alse gy eyn mynsche vp dusser erden.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="14">as any man who ever walked the earth.</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="15">De yoden, de he hadde van herten leeff,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="15">The Jews, whom he loved with all his heart,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="16">Venghen ene alse eynen morder vnde deeff.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="16">took him captive as if he were a murderer or a thief.</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="17">He wart ok in den suluen stunden</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="17">In the same hour,</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="18">Vor Annas ghetoghen vnde gebunden;</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="18">he was also dragged before Annas and bound;</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="19">De beghunde en vmme syne lere tho vragen.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="19">he [Annas] began to question him about his teachings</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="20">Do wart he in syne hilgen wanghen geslagen.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="20">There he was struck on his holy cheeks.</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="21">Horet, wo vnse leue here in der nachtstunde</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="21">Hear how our dear Lord on that night</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="22">Vmme vnsen wyllen wart gevangen vnde gebunden</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="22">was taken captive and bound for our sake</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="23">Vnde wort vor byschop Cayphas getoghen!</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="23">and was dragged before bishop Cayphas!</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="24">Dar wart he so rechte ouele beloghen:</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="24">There he truly was basely slandered:</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="25">Syne vygende, de yoden, dar to rade gynghen,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="25">his enemies, the Jews, took counsel</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="26">Wo se ene mochten to deme dode bryngen.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="26">there about how they might put him to death.</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="27">Dar horde vnse leue here mennich smelyk word:</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="27">There our dear Lord heard many scornful words:</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="28">Se staffeden syne werden hylgen bord,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="28"> they insulted his worthy, holy birth,</l>
-						</rdg>
-					</app>				
-					<app>
-						<lem wit="#Transcription">
-							<l n="29">Se seden, dat he nicht were godes kynd,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="29">they said that he wasn’t the son of God;</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="30">Also deger weren se vorblynd.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="30">that is how very blind they were.</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="31">Syne gotlyken ogen see vorbunden;</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="31">They bound his godly eyes;</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="32">Alumme en de grymmighen yoden stunden</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="32">all around him stood the grim Jews</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="33">Vnde hadden en vor enen doren</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="33">who took him for a fool</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="34">Vnde slogen en to synen gotlyken oren.</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="34"> and struck him around his godly ears.</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="35">Se spreken smelyken: bystu Crist,</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="35">They spoke mockingly: if you are Christ</l>
-						</rdg>
-					</app>
-					<app>
-						<lem wit="#Transcription">
-							<l n="36">So entrade, van weme du geslagen byst!</l>
-						</lem>
-						<rdg wit="#Translation">
-							<l n="36">then tell us who hit you!				<note type="critical" anchored="true">
-								<p>The literal meaning of “entrade” is “guess correctly”.</p>
+							<p>Here begins the most devout lamentation of the Blessed Virgin Mary in a compassionate and devout exposition.			<note type="critical" anchored="true">
+								<p>Here, the Latin “nota” is not easy to translate. Alternatively, it could be understood to mean “depiction” or “style”.</p>
 							</note>
-						</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="37">Se bespygeden syn gotlyke antlat,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="37">They spat on his godly countenance,</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="38">Se makeden dat vul vnreyne vnde nat, -</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="38">they sullied and drenched it completely –</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="39">O leuen vrundes, wat groter smaheyt was em dat!</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="39"> O dear friends, what a terrible offence this was to him!</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="40">Horet, wo vnse leue here wart vor Pylatum gebracht!</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="40">Hear, how our dear Lord was brought before Pilot!</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="41">Dar wart he so rechte ouele bedacht:</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="41">There he was truly mistreated:</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="42">Se seden, dat vnse here were eyn droghenere</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="42"> they said that our Lord was a deceiver</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="43">Vnde lerede deme volke ok valsche lere.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="43">and also that he taught the people false teachings.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="44">Pylatus sende vnsen heren hen to herodes;</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="44"> Pilot sent our Lord to Herod</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="45">De wart sere gevrowet des:</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="45"> who was very pleased about this:</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="46">He me&esup;nde, dat he were eyn to&esup;uerer</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="46">he thought that he [our Lord] was a conjurer</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="47">Vnde ok der lude gokeler.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="47">and also a misleader of the people.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="48">Herodes hadde gerne wunder van em geseen;</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="48">Herod would have gladly seen some of his miracles;</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="49">Des enmochte em doch nicht bescheen.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="49">but that was not to happen for him.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="50">He began vnsen heren vele to vraghen,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="50">He began to ask our Lord many questions</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="51">Vnde de yoden begunden ouer em sere to klaghen:</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="51">and the Jews began to complain greatly about him;</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="52">Vnse here sweech al stylle vnde wolde em nicht berichten,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="52">and our Lord kept completely silent and would not tell him anything;</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="53">Do bespottede Herodes Jhesum Cristum myt alle synen knechten,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="53">then Herod, with all his men, mocked Jesus Christ.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="54">He to&esup;ch em eyn do&esup;ren kleyt an</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="54">He dressed him in a fool’s costume</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="55">Vnde let en also wedder to Pylatum gan.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="55">and sent him back to Pilot like that.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="56">Dat le&esup;et vnse leue here myt groder dult</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="56">Our dear Lord endured this with great patience</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="57">Vor vnse sundychlyken schult.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="57">for our guilty sins.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="58">Horet, wo vnse leue here vmme vnse sunde</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="58" loc="l59">Hear, how our beloved Lord was pitifully bound</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="59">Yamerliken vmme eyne zule wart gebunden!</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="59" loc="l58">to a column for the sake of our sins!</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="60">Also mortlyken sere</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="60">Thus was our dear,</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="61">Wart do geslagen vnse werde truten here,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="61">worthy Lord murderously beaten.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="62">Lat an al synem lychamme nicht heles enbleeff</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="62">No part of his body was left intact</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="63">Vnde syn dure blo&esup;d ouer alle syn leuent dreff.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="63">and his precious blood ran all over his living body.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="64">Se vlechteden eyne scharpe do&esup;rne krone;</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="64">They wove a sharp crown of thorns</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="65">De druckeden se an syn houet schone,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="65">and pressed it down upon his fair head</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="66">Dat syn hylge dure blo&esup;t</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="66"> so that his holy, precious blood</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="67">Ouer syn hilge antlat vlo&esup;t.</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="67">flowed down over his blessed countenance.</l>
-					</rdg>
-				</app>
-				<app>
-					<lem wit="#Transcription">
-						<l n="68">Dar worpen se vort ere vule spekelen an,</l>
-					</lem>
-					<rdg wit="#Translation">
-						<l n="68">They spat foully [upon him]			<note type="critical" anchored="true">
-							<p>Literally: they threw off their foul spit</p>
+							This lamentation is performed faithfully and very devoutly by the Blessed Virgin Mary together with four other characters before lunch on Good Friday, in the church in front of the choir or, if the 						<note type="critical" anchored="true">
+							<p>In medieval monastic contexts, the “prandium” was, according to the Benedictine Rule, the principal meal of the day which the whole community gathered for around noon.</p>
 						</note>
-					</l>
+						light is good, in a moderately raised place outside of the church.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Planctus iste non est ludus nec ludibrium, sed est planctus et fletus et pia compassio Marie virginis gloriose.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>This lamentation is neither a play nor a funny joke, but is a lamenting and a wailing and devout compassion for the glorious Virgin Mary.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et cuandocunque fit a bonis et deuotis hominibus, in genere siue in specie valde prouocat homines circumstantes ad pium fletum et ad compassionem.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>And in general or in particular, whenever it is performed by good and devout people it will 								<note type="critical" anchored="true">
+							<p>The Latin expression “in genere sive in specie” is a formulaic idiom. Here, it expresses that the described qualities and effects of the play do not only apply to this particular Middle Low German version, but to the genre of Marian lamentations in general.</p>
+						</note> 
+						strongly provoke the gathered people to piously cry and feel compassion,</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>sicut facit sermo deuotus bona sexta feria de passione domini nostri Jhesu Cristi.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>just as a devout Good Friday sermon on the passion of our Lord Jesus Christ does.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Si non potest fieri bona sexta feria commodose propter sermonem de passione domini, tunc beata virgo faciat istum planctum antea cum suis, sicut feria secunda post dominicam palmarum ante prandium.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>If, because of the sermon on the Lord’s passion, it is not possible to perform on Good Friday, at the time when the Blessed Virgin together with her confidantes once broke out into this lamentation, [it shall be performed] on the Monday of the Holy Week before lunch</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Iste planctus fit commodose in duabus horis et media.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>This lamentation can be conveniently performed in two and a half hours.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et omnia, que tunc fiunt ab illis quinque personis, non debent fieri cum festinacione nec nimia mora, sed medio et bono modo.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p> And everything which was once done by these five persons shall not be performed in a hurry or exaggeratedly slow, but medium-fast and in a good way.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Ille, qui est Jhesus, est deuotus sacerdos.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>The actor playing Jesus is a devout priest.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Maria iuuenis.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>Mary is a young man.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Johannes ewangelista sacerdos.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>John the Evangelist is a priest.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Maria Magdalena et mater Johannes ewangelista iuuenis.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>Mary Magdalene and the mother of John are young men.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Jhesus debet se preparare cum casula rubra.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p> Jesus must wear a red vestment.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Johannes simili modo.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>John must do the same.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Jhesus et Johannes debent habere dyademata de papiro; dyadema Jhesu habeat rubram crucem ante et retro.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>Jesus and John are wearing crowns made of paper; Jesus’ crown shows a red cross at the front and the back.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Maria debet se preparare cum vestibus, sicut Maria Magdalena in nocte pasche.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>Mary must wear a garment like that of Mary Magdalene for the Easter vigil.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Johannes habeat gladium de ligno cum vagina, quem tenet in manu, quum exit cum rigmo suo.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>John has a wooden sword with a sheath which he holds in his hand and with 			<note type="critical" anchored="true">
+							<p>This reference points to a non-extant Easter play that the Augustinian monks of Bordesholm seem to have performed regularly. It shows how late medieval liturgical drama was far from being a singular event and in fact was deeply embedded into the rhythm of monastic life.</p>
+						</note>
+						during his rhymed monologue.</p>
+					</rdg>
+				</app>
+				<app>
+					<lem wit="#Transcription">
+						<p>Et Johannes debet sepius tangere cor Marie vel pectus eius.</p>
+					</lem>
+					<rdg wit="#Translation">
+						<p>And John has to touch Mary’s heart or 		<note type="critical" anchored="true">
+							<p>Latin “rigmus" is a technical term in medieval drama, denoting a rhymed and spoken (not sung) monologue.</p>
+						</note> 
+						chest seven times. And when he has performed his part, he immediately lays down the sword.						
+						<note type="critical" anchored="true">
+							<p>Gramatically, the Latin „sepius“ makes no sense here. We assume that it is a scribal mistake or an abbreviation for „septimus“, referring to the seven sorrows of the Virgin Mary.</p>
+						</note>
+					</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="69">Dat he wart gestalt alse eyn spyttels man.</l>
+					<p>Et quum facit actum suum, statim deponit gladium.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="69">so that he looked like he was made of spit.</l>
+					<p>And when he has performed his part, he immediately lays down the sword.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="70">Se slogen syn hilge houet myt enem rore</l>
+					<p>Iuuenis quidam bene vestitus potest postea lumbos crucifixi.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="70">They beat his blessed head with a rod</l>
+					<p>Well-costumed young men may take away the sword together with the cloth of silk with which the Blessed Virgin before had covered the loins of the Crucified.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="71">Vnde belacheden Marien kynt alse enen doren;</l>
+					<p>Dominus Jhesus cum primo exit cum alijs quattuor personis, deuote portat crucem in manibus suis.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="71"> and laughed at Mary’s child as if he were a fool.</l>
+					<p>In the beginning, the Lord Jesus enters the stage with the four other characters, devoutly carrying the cross in his hands.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="72">Se togen em eyn purpuren kleyt an vnde vyllen vp ere knee</l>
+					<p>Et quum cantauit versum "Quoniam tribulacio proxima est", statim deponit crucem.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="72">They dressed him in purple and fell to their knees:</l>
+					<p>And when he has sung the verse “For tribulation is near,” he immediately lays down the cross.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="73">Ghegrutet systu, der yoden koningh! ho&esup;nlyken spreken see.</l>
+					<p>Et quum faciunt planctum, dominus Jhesus debet habere crucifixum ante se.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="73">“Hail to you, King of the Jews!”, they said disdainfully.</l>
-				</rdg>
-			</app>
-			<app>
-				<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-				<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-			</app>
-			<app>
-				<lem wit="#Transcription">
-					<l n="74">Dar negest wart vnse leue here vor gherichte getogen</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="74">After that our dear Lord was dragged before the court</l>
+					<p>And when they perform the lamentation, the Lord Jesus must hold the cross in front of him.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="75">Vnde menniger hande wijs valschlyken beloghen.</l>
+					<p>Et cuandocunque facit actum, tunc crucem deponit et intrudit crucifixum.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="75">and was treacherously slandered in many different ways.</l>
+					<p>And as soon as he has performed this act, he puts down the cross and rams the crucifix into the ground.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="76">Eyn valsch ordel wart ouer em geda&esup;n,</l>
+					<p>Beata virgo stat a dextris Jhesu Cristi cum Maria Magdalena.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="76">A false verdict was passed on him so</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="77">Dat me ene scholde an eyn krutze sla&esup;n.</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="77">that they crucified an innocent man.</l>
+					<p>Together with Mary Magdalene, the Blessed Virgin stands on the right side of Jesus.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="78">He droch synes sulues crutze vth der stat;</l>
+					<p>Johannes a sinistris cum matre sua.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="78">He dragged his cross of beams out of the city.</l>
+					<p>John and his mother stand on the left.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="79">Tho groter smaheyt schach em dat.</l>
+					<p>Virgo Maria quum facit actum suum, vadit ad medium et aliquando vertit se ad filium ad orientum, aliquando ad occidentem, aliquando ad aquilones, aliquando ad meridiem cum gladio Symeonis, quem tenet beatus Johannes ante pectus eius.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="79">It was a great disgrace that this happened to him.</l>
+					<p>When the Virgin Mary performs her part, she steps into the center and at one point turns east towards her son, at one point to the west, at another point to the north, and at one point to the south and towards the sword of Simeon, which St. John holds to her chest.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="80">Se hangeden en daran lyk enem mysdedegen deue.</l>
+					<p>Aliquando beata virgo expandit brachia sua, aliquando leuat manus suas ad filium cum oculis: omnia cum moderamine.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="80"> They hanged him on it like a scurrilous thief.</l>
-				</rdg>
-			</app>		
-			<app>
-				<lem wit="#Transcription">
-					<l n="81">Do bewysede he vns syne groten leue,</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="81">There he showed us his great love</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="82">In deme dat he vor syne vygende bat,</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="82">by praying for his enemies;</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="83">Dar he af geleden hadde pyne vnde groten hat.</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="83">there he had cast off pain and great hatred.</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="85">He leyt bynnenwendych alto grot herte swere,</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="85">His suffering was yet even greater:</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="86">Do he syne werden moder Marien</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="86">inside, he suffered great and unbearable anguish when he heard his worthy mother Mary</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="87">Horde bytterlyken sere wenen vnde scrygen.</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="87">very bitterly weeping and crying.</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="88">Dar weren ok twe mo&esup;ordere gevangen;</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="88">Two murderers had also been caught; disgracefully,</l>
+					<p>At one point, the Blessed Virgin reaches out her arms, 								<note type="critical" anchored="true">
+						<p>Medieval churches are generally oriented to the east: Therefore, the altar, cross and choir are behind Mary (east), the nave with the audience is in front of her (west), John the Evangelist stands to her left (south) and north means right of her.
+						</p>
+					</note> 
+					at another point she raises her hands and eyes to her son: all with moderation.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="89">Dar wart he smelyken twyschen gehanghen.</l>
+					<p>Quandocunque fecit actum suum, vadit at locum suum et stat a dextris.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="89">he was hung between them.</l>
+					<p>As soon as she has performed her part, she steps back to her place and stands on the right.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="90">Deme enen vorgaff he in der latesten stunde</l>
+					<p>Simili modo faciunt alij.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="90">He forgave one of them in his final hour</l>
+					<p>The others do the same.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="91">Vmme eyne korte ruwe al syne sunde.</l>
+					<p>Quum exeunt et quum intrant, faciunt tria paria: primo exit dominus Jhesus cum cruce cum Johanne ewangelista, post hos beata virgo cum Maria Magdalena, vltimo mater Johannes cum rectore, et ille incipit psalmum "Circumdederunt me viri mendaces" vsque ad locum preparatum.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="91">after he had done brief penance for all his sins.</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-				<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-			</app>
-			<app>
-				<lem wit="#Transcription">
-					<l n="92">Vnse leue here rep ok eynen yamerlyken schrey:</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="92">Our beloved Lord let out a woeful cry:</l>
-				</rdg>
-			</app>	
-			<app>
-				<lem wit="#Transcription">
-					<l n="93">Hely, hely, lamazabathani!</l>
-				</lem>
-				<rdg wit="#Translation">
-					<l n="93">“Hely, hely, lamazbathani!”</l>
+					<p>When they enter and exit the stage, they make up three pairs: first of all, the Lord Jesus 								
+						<note type="critical" anchored="true">
+							<p>Here, the use of Latin words is counterintuitive to English speakers: „exire“ means entering, „intrare“ exiting the stage.</p>
+						</note> 
+						enters with the cross and John the Evangelist, after them the Blessed Virgin and Mary Magdalene, finally the mother of John with the rector, who strikes up the psalm “Lying men surrounded me” 						 <note type="critical" anchored="true">
+						<p>The rector is the priest who leads the liturgical singing and recitations that take place during the play.</p>
+					</note> 
+					until [he reaches] a prepared place.</p>
 				</rdg>
 			</app>
 			<app>
 				<lem wit="#Transcription">
-					<l n="94">Dat ys: myn got, myn got, worvmme hestu my vorgeten?</l>
+					<p>Ffinito psalmo dominus Jhesus cantat solus versum "Quoniam tribulacio proxima est" et vertit faciem ad occidentem semper.</p>
 				</lem>
 				<rdg wit="#Translation">
-					<l n="94">That is to say: “my God, my God, why have you forsaken me?”					<note type="critical" anchored="true">
-						<p>Matthew 27:46</p>
-					</note>
-				</l>
-			</rdg>
-		</app>
-		<app>
-			<lem wit="#Transcription">
-				<l n="95">Do bespotteden en de yoden vnde dar entyegen repen:</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="95">Then the Jews mocked him and shouted back at him:</l>
-			</rdg>
-		</app>
-		<app>
-			<lem wit="#Transcription">
-				<l n="96">Kum hijr nedder van deme crutze, bystu Crist,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="96">“Come down here from the cross if you are Christ</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="97">So wyl wij louen, dattu godes sone byst!</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="97">then we will believe that you are God’s son!”</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="98">Dar negest eschede vnse leue here drynken;</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="98">Thereafter our beloved Lord asked for a drink;</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="99">Do leten se em etyk vnde gallen schenken.</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="99">then they had vinegar and gall brought to him.</l>
-			</rdg>
-		</app>
-		<app>
-			<lem wit="#Transcription">
-				<l n="100">Dar neghest sprak he: consummatum est!</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="100">Thereafter he spoke: “it is finished!" 								  
+					<p>After the end of the psalm, Jesus alone sings the verse “For tribulation is near,” turns his face westwards and stays this way.</p>
+				</rdg>
+			</app>
+			<app>
+				<lem wit="#Transcription">
+					<p>Vnusquisque dicat rigmum suum cum deuocione plangendo in eadem et nota et dono discreto.</p>
+				</lem>
+				<rdg wit="#Translation">
+					<p>Everyone recites his rhymed 					<note type="critical" anchored="true">
+						<p>Jesus is facing the audience.</p>
+					</note> 
+					monologue mourning with devotion, in the same character and in a discreet tone of voice. 						
 					<note type="critical" anchored="true">
-						<p>“consummatum est”, John 19:30</p>
+						<p>Here, the sonorization typical for Middle Low German is reflected in the Latin spelling of the manuscript: „dono“ does not derive from „donum“ (meaning „gift“), but from „tonus“ (meaning „tone of voice,“ „note,“ „inflection“).
+						</p>
 					</note>
-				</l>
+				</p>
 			</rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="101">Vnde ok: in dyne hende bevole ik, vader, mynen geyst!</l>
+				<p>Quum Jhesus finiuit versum "Quoniam tribulacio", Johannes ewangelista statim dicit ad omnem populum plangendo:</p>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="101">And also: “In your hands father, I command my spirit!”</l>
+				<p>When Jesus has finished the verse “For tribulation is near,” John the Evangelist immediately turns to all the people and sorrowfully says:</p>
 			</rdg>
-		</app>	
+		</app>
+	</lg>
+</stage>
+<sp>
+	<app>
+		<lem wit="#Transcription">
+			<speaker lang="la">Johannes ewangelista</speaker>
+		</lem>
+		<rdg wit="#Translation">
+			<speaker>John the Evangelist:</speaker>
+		</rdg>
+	</app>
+	<lg lang="de">
 		<app>
 			<lem wit="#Transcription">
-				<l n="102">Also leyt do den bytteren dot vnse leue here.</l>
+				<l n="1">Horet, gij salighen lude,</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="102">Thus our lord suffered bitter death.</l>
+				<l n="1">Listen, you blessed people,</l>
 			</rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="103">Ok wart syne hilghe syde doresteken myt enem spere;</l>
+				<l n="2">Vnde latet juw beduden,</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="103">Thus his holy side was pierced with a lance;</l>
+				<l n="2">and let it be shown to you</l>
 			</rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="104">Dar vlo&esup;t vth water vnde blot.</l>
+				<l n="3">Wo vnse leue here Jhesu Crist,</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="104">water and blood flowed out of it.</l>
+				<l n="3">how our dear Lord Jesus Christ,</l>
 			</rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="105">Dar sach me do an den creaturen yammer grot:</l>
+				<l n="4">De eyn schepper hemmels vnde eerden ist,</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="105">Then the creatures were seen to suffer great sorrow:</l>
+				<l n="4">Creator of Heaven and Earth,</l>
 			</rdg>
-		</app>	
+		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="106">De harden steyne toreten van synen pynen,</l>
+				<l n="5">Huden vmme vnsen wyllen heft geleden de marter grot,</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="106">The hard stones shattered for his pain,</l>
+				<l n="5">today suffered great torture for our sake,</l>
 			</rdg>
-		</app>	
+		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="107">Der sune let van groter dro&esup;fnisse ere schynent,</l>
+				<l n="6">Dar tho ok den bytteren dot!</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="107">The sun stopped shining for great distress,</l>
+				<l n="6">and, in addition to that, bitter death!</l>
 			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="108">De erde began van grotem yammer to beuen,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="108">The earth began to quake for great sorrow,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="109">De doden in den grauen begunden ok wedder to leuen. -</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="109">The dead in the graves came back to life again.</l>
-			</rdg>
-		</app>	
+		</app>
 		<app>
 			<lem wit="#Transcription"><milestone unit="stanza"/></lem>
 			<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="110">Leue vrunde, gy hebben hort, wat leden het Jhesus Cristus vnse</l>
+				<l n="7">Horet ersten, wo vnse leue here an der tijt to completen</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="110"> Dear friends, you have heard what our dear Lord Jesus Christ has suffered.</l>
+				<l n="7">Hear, first of all, how our dear Lord at the time of Compline</l>
 			</rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="111">Nu wyl ik juw lesen noch vuste mere:</l>
+				<l n="8">Vmme vnsen wyllen blodich sweet wolde sweten;</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="111">Now I want to read much more to you:</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="112">Dat lydent sunte Marien, dat wyl wij hijr nu anheuen.</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="112">We now want to start telling what St. Mary suffered.</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="113">God late juw so lange leuen,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="113">May God let you live so long</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="114">Dat dij syne hulde vordenen, -</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="114">that you earn his grace,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="115">Vnde helpet huden sunte Marien wenen!</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="115"> and, today, help to mourn St. Mary!</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="116">Betrachtet huten myt vlyte ere byttercheyt,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="116">Consider carefully today her bitterness</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="117">De se so swarlyken leyt</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="117">that she suffered so deeply</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="118">Vmme eres leuen kyndes dot,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="118">for the death of her beloved child,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="119">Dar he vns mede geloset heft vth aller not!</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="119">by which he delivered us from all our misery!</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="120">Hijr vmme, gij vrowen vnde ok gij man,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="120">For that reason, all you women and men,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="121">Latet juw ere lydent to herten ga&esup;n!</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="121">let her suffering enter your heart!</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="122">Bewenet dat van herten ynnichliken,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="122">Lament this profoundly from the heart,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="123">Dat gij mogen myt vrowden ewychlyken</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="123">so that you can be joyfully and eternally</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="124">Myt gode vnde myt Marien wesen</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="124">with God and with Mary</l>
+				<l n="8"> sweated bloody sweat for our sake,</l>
 			</rdg>
 		</app>
 		<app>
 			<lem wit="#Transcription">
-				<l n="125">Vnde vor der ewygen helle genesen!</l>
+				<l n="9">Dat he alwyllynges ok wolde ga&esup;n,</l>
 			</lem>
 			<rdg wit="#Translation">
-				<l n="125">and be saved from eternal Hell!</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="126">Dat vns dat allen beschee,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="126">For this, which is happening to all of us,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="127">So gat sytten vp juwe knee,</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="127">go down on your knees,</l>
-			</rdg>
-		</app>	
-		<app>
-			<lem wit="#Transcription">
-				<l n="128">Spreket eyn Pater noster myt ynnicheyt</l>
-			</lem>
-			<rdg wit="#Translation">
-				<l n="128">say a heart-felt pater noster and an Ave Maria for the salvation of your soul!</l>
+				<l n="9">and how he also went voluntarily</l>
 			</rdg>
 		</app>
-	</lg>														
+		<app>
+			<lem wit="#Transcription">
+				<l n="10">Dar en syne vygende wolden va&esup;n;</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="10">to where his enemies caught him,</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="11">Dat he Judam, synen valschen vrund,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="11">and how he kissed Judas, his disloyal friend,</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="12">Kussen wolde vor syne munt</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="12">on the mouth,</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="13">Vnde valsklyken wolde vorraden werden,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="13">when he was about to be betrayed as treacherously</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="14">Alse gy eyn mynsche vp dusser erden.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="14">as any man who ever walked the earth.</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="15">De yoden, de he hadde van herten leeff,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="15">The Jews, whom he loved with all his heart,</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="16">Venghen ene alse eynen morder vnde deeff.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="16">took him captive as if he were a murderer or a thief.</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="17">He wart ok in den suluen stunden</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="17">In the same hour,</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="18">Vor Annas ghetoghen vnde gebunden;</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="18">he was also dragged before Annas and bound;</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="19">De beghunde en vmme syne lere tho vragen.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="19">he [Annas] began to question him about his teachings</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="20">Do wart he in syne hilgen wanghen geslagen.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="20">There he was struck on his holy cheeks.</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+			<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="21">Horet, wo vnse leue here in der nachtstunde</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="21">Hear how our dear Lord on that night</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="22">Vmme vnsen wyllen wart gevangen vnde gebunden</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="22">was taken captive and bound for our sake</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="23">Vnde wort vor byschop Cayphas getoghen!</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="23">and was dragged before bishop Cayphas!</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="24">Dar wart he so rechte ouele beloghen:</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="24">There he truly was basely slandered:</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="25">Syne vygende, de yoden, dar to rade gynghen,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="25">his enemies, the Jews, took counsel</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="26">Wo se ene mochten to deme dode bryngen.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="26">there about how they might put him to death.</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="27">Dar horde vnse leue here mennich smelyk word:</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="27">There our dear Lord heard many scornful words:</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="28">Se staffeden syne werden hylgen bord,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="28"> they insulted his worthy, holy birth,</l>
+			</rdg>
+		</app>				
+		<app>
+			<lem wit="#Transcription">
+				<l n="29">Se seden, dat he nicht were godes kynd,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="29">they said that he wasn’t the son of God;</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="30">Also deger weren se vorblynd.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="30">that is how very blind they were.</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="31">Syne gotlyken ogen see vorbunden;</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="31">They bound his godly eyes;</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="32">Alumme en de grymmighen yoden stunden</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="32">all around him stood the grim Jews</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="33">Vnde hadden en vor enen doren</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="33">who took him for a fool</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="34">Vnde slogen en to synen gotlyken oren.</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="34"> and struck him around his godly ears.</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="35">Se spreken smelyken: bystu Crist,</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="35">They spoke mockingly: if you are Christ</l>
+			</rdg>
+		</app>
+		<app>
+			<lem wit="#Transcription">
+				<l n="36">So entrade, van weme du geslagen byst!</l>
+			</lem>
+			<rdg wit="#Translation">
+				<l n="36">then tell us who hit you!				<note type="critical" anchored="true">
+					<p>The literal meaning of “entrade” is “guess correctly”.</p>
+				</note>
+			</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="37">Se bespygeden syn gotlyke antlat,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="37">They spat on his godly countenance,</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="38">Se makeden dat vul vnreyne vnde nat, -</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="38">they sullied and drenched it completely –</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="39">O leuen vrundes, wat groter smaheyt was em dat!</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="39"> O dear friends, what a terrible offence this was to him!</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+		<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="40">Horet, wo vnse leue here wart vor Pylatum gebracht!</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="40">Hear, how our dear Lord was brought before Pilot!</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="41">Dar wart he so rechte ouele bedacht:</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="41">There he was truly mistreated:</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="42">Se seden, dat vnse here were eyn droghenere</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="42"> they said that our Lord was a deceiver</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="43">Vnde lerede deme volke ok valsche lere.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="43">and also that he taught the people false teachings.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="44">Pylatus sende vnsen heren hen to herodes;</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="44"> Pilot sent our Lord to Herod</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="45">De wart sere gevrowet des:</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="45"> who was very pleased about this:</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="46">He me&esup;nde, dat he were eyn to&esup;uerer</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="46">he thought that he [our Lord] was a conjurer</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="47">Vnde ok der lude gokeler.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="47">and also a misleader of the people.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="48">Herodes hadde gerne wunder van em geseen;</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="48">Herod would have gladly seen some of his miracles;</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="49">Des enmochte em doch nicht bescheen.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="49">but that was not to happen for him.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="50">He began vnsen heren vele to vraghen,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="50">He began to ask our Lord many questions</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="51">Vnde de yoden begunden ouer em sere to klaghen:</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="51">and the Jews began to complain greatly about him;</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="52">Vnse here sweech al stylle vnde wolde em nicht berichten,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="52">and our Lord kept completely silent and would not tell him anything;</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="53">Do bespottede Herodes Jhesum Cristum myt alle synen knechten,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="53">then Herod, with all his men, mocked Jesus Christ.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="54">He to&esup;ch em eyn do&esup;ren kleyt an</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="54">He dressed him in a fool’s costume</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="55">Vnde let en also wedder to Pylatum gan.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="55">and sent him back to Pilot like that.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="56">Dat le&esup;et vnse leue here myt groder dult</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="56">Our dear Lord endured this with great patience</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="57">Vor vnse sundychlyken schult.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="57">for our guilty sins.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+		<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="58">Horet, wo vnse leue here vmme vnse sunde</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="58" loc="l59">Hear, how our beloved Lord was pitifully bound</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="59">Yamerliken vmme eyne zule wart gebunden!</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="59" loc="l58">to a column for the sake of our sins!</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="60">Also mortlyken sere</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="60">Thus was our dear,</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="61">Wart do geslagen vnse werde truten here,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="61">worthy Lord murderously beaten.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="62">Lat an al synem lychamme nicht heles enbleeff</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="62">No part of his body was left intact</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="63">Vnde syn dure blo&esup;d ouer alle syn leuent dreff.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="63">and his precious blood ran all over his living body.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="64">Se vlechteden eyne scharpe do&esup;rne krone;</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="64">They wove a sharp crown of thorns</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="65">De druckeden se an syn houet schone,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="65">and pressed it down upon his fair head</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="66">Dat syn hylge dure blo&esup;t</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="66"> so that his holy, precious blood</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="67">Ouer syn hilge antlat vlo&esup;t.</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="67">flowed down over his blessed countenance.</l>
+		</rdg>
+	</app>
+	<app>
+		<lem wit="#Transcription">
+			<l n="68">Dar worpen se vort ere vule spekelen an,</l>
+		</lem>
+		<rdg wit="#Translation">
+			<l n="68">They spat foully [upon him]			<note type="critical" anchored="true">
+				<p>Literally: they threw off their foul spit</p>
+			</note>
+		</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="69">Dat he wart gestalt alse eyn spyttels man.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="69">so that he looked like he was made of spit.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="70">Se slogen syn hilge houet myt enem rore</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="70">They beat his blessed head with a rod</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="71">Vnde belacheden Marien kynt alse enen doren;</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="71"> and laughed at Mary’s child as if he were a fool.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="72">Se togen em eyn purpuren kleyt an vnde vyllen vp ere knee</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="72">They dressed him in purple and fell to their knees:</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="73">Ghegrutet systu, der yoden koningh! ho&esup;nlyken spreken see.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="73">“Hail to you, King of the Jews!”, they said disdainfully.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+	<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="74">Dar negest wart vnse leue here vor gherichte getogen</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="74">After that our dear Lord was dragged before the court</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="75">Vnde menniger hande wijs valschlyken beloghen.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="75">and was treacherously slandered in many different ways.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="76">Eyn valsch ordel wart ouer em geda&esup;n,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="76">A false verdict was passed on him so</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="77">Dat me ene scholde an eyn krutze sla&esup;n.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="77">that they crucified an innocent man.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="78">He droch synes sulues crutze vth der stat;</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="78">He dragged his cross of beams out of the city.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="79">Tho groter smaheyt schach em dat.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="79">It was a great disgrace that this happened to him.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="80">Se hangeden en daran lyk enem mysdedegen deue.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="80"> They hanged him on it like a scurrilous thief.</l>
+	</rdg>
+</app>		
+<app>
+	<lem wit="#Transcription">
+		<l n="81">Do bewysede he vns syne groten leue,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="81">There he showed us his great love</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="82">In deme dat he vor syne vygende bat,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="82">by praying for his enemies;</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="83">Dar he af geleden hadde pyne vnde groten hat.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="83">there he had cast off pain and great hatred.</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="85">He leyt bynnenwendych alto grot herte swere,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="85">His suffering was yet even greater:</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="86">Do he syne werden moder Marien</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="86">inside, he suffered great and unbearable anguish when he heard his worthy mother Mary</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="87">Horde bytterlyken sere wenen vnde scrygen.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="87">very bitterly weeping and crying.</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="88">Dar weren ok twe mo&esup;ordere gevangen;</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="88">Two murderers had also been caught; disgracefully,</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="89">Dar wart he smelyken twyschen gehanghen.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="89">he was hung between them.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="90">Deme enen vorgaff he in der latesten stunde</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="90">He forgave one of them in his final hour</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="91">Vmme eyne korte ruwe al syne sunde.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="91">after he had done brief penance for all his sins.</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+	<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="92">Vnse leue here rep ok eynen yamerlyken schrey:</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="92">Our beloved Lord let out a woeful cry:</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="93">Hely, hely, lamazabathani!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="93">“Hely, hely, lamazbathani!”</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="94">Dat ys: myn got, myn got, worvmme hestu my vorgeten?</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="94">That is to say: “my God, my God, why have you forsaken me?”					<note type="critical" anchored="true">
+			<p>Matthew 27:46</p>
+		</note>
+	</l>
+</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="95">Do bespotteden en de yoden vnde dar entyegen repen:</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="95">Then the Jews mocked him and shouted back at him:</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="96">Kum hijr nedder van deme crutze, bystu Crist,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="96">“Come down here from the cross if you are Christ</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="97">So wyl wij louen, dattu godes sone byst!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="97">then we will believe that you are God’s son!”</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="98">Dar negest eschede vnse leue here drynken;</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="98">Thereafter our beloved Lord asked for a drink;</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="99">Do leten se em etyk vnde gallen schenken.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="99">then they had vinegar and gall brought to him.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="100">Dar neghest sprak he: consummatum est!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="100">Thereafter he spoke: “it is finished!" 								  
+			<note type="critical" anchored="true">
+				<p>“consummatum est”, John 19:30</p>
+			</note>
+		</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="101">Vnde ok: in dyne hende bevole ik, vader, mynen geyst!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="101">And also: “In your hands father, I command my spirit!”</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="102">Also leyt do den bytteren dot vnse leue here.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="102">Thus our lord suffered bitter death.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="103">Ok wart syne hilghe syde doresteken myt enem spere;</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="103">Thus his holy side was pierced with a lance;</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="104">Dar vlo&esup;t vth water vnde blot.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="104">water and blood flowed out of it.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="105">Dar sach me do an den creaturen yammer grot:</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="105">Then the creatures were seen to suffer great sorrow:</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="106">De harden steyne toreten van synen pynen,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="106">The hard stones shattered for his pain,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="107">Der sune let van groter dro&esup;fnisse ere schynent,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="107">The sun stopped shining for great distress,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="108">De erde began van grotem yammer to beuen,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="108">The earth began to quake for great sorrow,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="109">De doden in den grauen begunden ok wedder to leuen. -</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="109">The dead in the graves came back to life again.</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+	<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="110">Leue vrunde, gy hebben hort, wat leden het Jhesus Cristus vnse</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="110"> Dear friends, you have heard what our dear Lord Jesus Christ has suffered.</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="111">Nu wyl ik juw lesen noch vuste mere:</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="111">Now I want to read much more to you:</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="112">Dat lydent sunte Marien, dat wyl wij hijr nu anheuen.</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="112">We now want to start telling what St. Mary suffered.</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="113">God late juw so lange leuen,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="113">May God let you live so long</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="114">Dat dij syne hulde vordenen, -</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="114">that you earn his grace,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="115">Vnde helpet huden sunte Marien wenen!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="115"> and, today, help to mourn St. Mary!</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="116">Betrachtet huten myt vlyte ere byttercheyt,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="116">Consider carefully today her bitterness</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="117">De se so swarlyken leyt</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="117">that she suffered so deeply</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="118">Vmme eres leuen kyndes dot,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="118">for the death of her beloved child,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="119">Dar he vns mede geloset heft vth aller not!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="119">by which he delivered us from all our misery!</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="120">Hijr vmme, gij vrowen vnde ok gij man,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="120">For that reason, all you women and men,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="121">Latet juw ere lydent to herten ga&esup;n!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="121">let her suffering enter your heart!</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="122">Bewenet dat van herten ynnichliken,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="122">Lament this profoundly from the heart,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="123">Dat gij mogen myt vrowden ewychlyken</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="123">so that you can be joyfully and eternally</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="124">Myt gode vnde myt Marien wesen</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="124">with God and with Mary</l>
+	</rdg>
+</app>
+<app>
+	<lem wit="#Transcription">
+		<l n="125">Vnde vor der ewygen helle genesen!</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="125">and be saved from eternal Hell!</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="126">Dat vns dat allen beschee,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="126">For this, which is happening to all of us,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="127">So gat sytten vp juwe knee,</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="127">go down on your knees,</l>
+	</rdg>
+</app>	
+<app>
+	<lem wit="#Transcription">
+		<l n="128">Spreket eyn Pater noster myt ynnicheyt</l>
+	</lem>
+	<rdg wit="#Translation">
+		<l n="128">say a heart-felt pater noster and an Ave Maria for the salvation of your soul!</l>
+	</rdg>
+</app>
+</lg>														
 </sp>
 <sp>
 	<app>
@@ -9288,3 +9242,49 @@
 </body>
 </text>
 </TEI>
+
+<!--
+
+	Marienklage
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+			-->
+
+			<!-- @ Mike : Do I need to explicitly define lang and type as modifiers? -Jordan -->
