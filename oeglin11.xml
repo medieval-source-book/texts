@@ -1,29 +1,4 @@
-<!--
-	Language change: 
-
-	If a text changes language, you should specify that in your encoding. 
-	Here is how to do it:
-
-	When the text changes language, use an extra modifier in your tag. 
-
-	For example: (a text changes to Latin)
-		<p xml:lang="la" n="4">
-			<app>
-				<lem wit="#Transcription"></lem>
-				<rdg wit="#Translation"></rdg>
-			</app>
-		</p>
-
-	The modifier (xml:lang="?") is the critical insertion. 
-
-	Find the two letter identifier for the language you wish to specify 
-	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-	in the subtag category
--->
-
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
