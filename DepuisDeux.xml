@@ -1,8 +1,8 @@
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
+'http://www.menota.org/menota-entities.txt'   >
 %Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -36,6 +36,12 @@
 			<sourceDesc>
 				<p></p>
 				<p></p>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Depuis Deux ou trois jours enca</witness>
+					<witness xml:id="Translation">Two or three days ago</witness>
+				</listWit>
+			</div>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -44,14 +50,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">Depuis Deux ou trois jours enca</witness>
-					<witness xml:id="Translation">Two or three days ago</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -60,6 +58,9 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
+			
 			<lg n="1">
 				<l n="1">
 					<app>
