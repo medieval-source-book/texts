@@ -30,6 +30,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">In honorem sanctae crucis</witness>
+					<witness xml:id="Translation">In Honour of the Holy Cross</witness>
+				</listWit>
 				<p>A</p>
 				<p></p>
 			</sourceDesc>
@@ -43,14 +47,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">In honorem sanctae crucis</witness>
-					<witness xml:id="Translation">In Honour of the Holy Cross</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -59,6 +55,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<lg>
 				<l n="1">
 					<app>

@@ -69,6 +69,7 @@
 		</front>
 		<body>
 			<pb ed="#Transcription" facs="#G1"/>
+			<pb ed="#Translation"/>
 			<fw facs="#G1" type="header" place="margin-topright">1</fw>
 
 			<witDetail wit="#Transcription" target="#Transcription">
@@ -103,6 +104,7 @@
 				</app>
 			</l>
 			<pb ed="#Transcription" facs="#G2"/>
+			<pb ed="#Translation"/>
 			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 			<l n="5">
 				<app>
@@ -576,6 +578,7 @@
 				</app>
 			</l>
 			<pb ed="#Transcription" facs="#G3"/>
+			<pb ed="#Translation"/>
 			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 			<l n="81">
 				<app>
@@ -1085,6 +1088,7 @@
 				</app>
 			</l>
 			<pb ed="#Transcription" facs="#G4"/>
+			<pb ed="#Translation"/>
 			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 			<l n="161">
 				<app>
@@ -1684,6 +1688,7 @@
 			</app>
 		</l>
 		<pb ed="#Transcription" facs="#G5"/>
+		<pb ed="#Translation"/>
 		<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 		<l n="257">
 			<app>
