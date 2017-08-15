@@ -34,6 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Ha qu’il m’ennuye</witness>
+					<witness xml:id="Translation">Oh how it troubles me!</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -47,14 +51,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">Ha qu’il m’ennuye</witness>
-					<witness xml:id="Translation">Oh how it troubles me!</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -63,6 +59,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<lg n="1">
 				<l n="1">
 					<app>

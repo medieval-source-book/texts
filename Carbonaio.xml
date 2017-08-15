@@ -1,9 +1,9 @@
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
-%Menota_entities; ]
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -30,6 +30,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Il Carbonaio di Niversa</witness>
+					<witness xml:id="Translation">The Charcoal-Burner of Nevers</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -44,14 +48,7 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Il Carbonaio di Niversa</witness>
-					<witness xml:id="Translation">The Charcoal-Burner of Nevers</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<head>
+				<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Il Carbonaio di Niversa</lem>
@@ -59,6 +56,9 @@
 					</app>
 				</title>
 			</head>
+			</div>
+		</front>
+		<body>
 			<div>
 				<p>
 					<s>

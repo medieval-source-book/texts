@@ -12,15 +12,15 @@
 				<title>The Dream of Gong Yu</title>
 				<author></author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Likun Yang</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Likun Yang</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
@@ -34,6 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">龔輿夢</witness>
+					<witness xml:id="Translation">The Dream of Gong Yu</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -48,14 +52,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">龔輿夢</witness>
-					<witness xml:id="Translation">The Dream of Gong Yu</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -64,7 +60,9 @@
 					</app>
 				</title>
 			</head>
-			<div n="1">
+		</front>
+		<body>
+			<div>
 				<p>
 					<app>
 						<lem wit="#Transcription">

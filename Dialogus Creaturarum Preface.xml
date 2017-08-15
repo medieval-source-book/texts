@@ -51,16 +51,14 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<head>
+			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Prefacio in librum qui dicitur dyalogus creaturarum moralizatus omni materie morali iocundo et edificatiuo modo applicalibis feliciter</lem>
-						<rdg wit="#Translation">The preface to the book, (The Moral Dialogue of Creatures)—applicable to every moral matter for edification and enjoyment’s sake—,happily begins thus:</rdg>
+						<lem wit="#Transcription">Dyalogus creaturarum moralizatus (Prefacio)</lem>
+						<rdg wit="#Translation">The Moralized Dialogue of Creatures (Preface)</rdg>
 					</app>
 				</title>
 			</head>
-			</div>
 		</front>
 		<body>
 			<div n="1">
@@ -203,6 +201,12 @@
 						<app>
 							<lem wit="#Transcription">Secunda tabula alphabetica ordine generaliter singulas materias virtutum et viciorum ad mores componen dos et corrigendos predicatorem et inquirentem docet + Que scilicet cuilibet narracioni sibi in processu sermonum convenire possunt +</lem>
 							<rdg wit="#Translation">. The second section, in alphabetical order, demonstrates to preachers and seekers single matters of virtue and vice in order to assemble and correct customs.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"> + Que scilicet cuilibet narracioni sibi in processu sermonum convenire possunt +</lem>
+							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>		
 				</p>

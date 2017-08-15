@@ -34,6 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">La fiance que j'ay en vous</witness>
+					<witness xml:id="Translation">The trust that I have in you</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -47,14 +51,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">La fiance que j'ay en vous</witness>
-					<witness xml:id="Translation">The trust that I have in you</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -63,6 +59,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<div>
 				<l n="1">
 					<app>

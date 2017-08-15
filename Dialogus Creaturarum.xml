@@ -52,7 +52,11 @@
 	<text>
 		<front>
 			<div>
-				<head>
+				
+			</div>
+		</front>
+		<body>
+			<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Prefacio in librum qui dicitur dyalogus creaturarum moralizatus omni materie morali iocundo et edificatiuo modo applicalibis feliciter</lem>
@@ -60,9 +64,6 @@
 					</app>
 				</title>
 			</head>
-			</div>
-		</front>
-		<body>
 			<div n="1">
 				<p n="1">
 					<s>
@@ -79,13 +80,15 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">quod ex pulchritudine circumscripte nature ostendit nobis deus</lem>
+							<lem wit="#Transcription">quod ex pulchri tudine circumscripte							<note type="critical" anchored="true">
+									<p>-e = -ae</p>
+								</note> nature ostendit nobis deus pulchri</lem>
 							<rdg wit="#Translation">that natural things are closed off from beauty, God,</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">pulchritudinis sue partem aliquam qui circumscribi nequit et intelligiut ipsis eisdem vestigiis homo revertatur ad deum qui bus aversus est a deo</lem>
+							<lem wit="#Transcription">tudinis sue partem aliquam qui cir cumscribi nequit et intelligi ut ipsis eisdem vestigiis homo revertatur ad deum qui bus aversus est a deo</lem>
 							<rdg wit="#Translation">He who cannot be comprehended or limited, reaches out to us some part of His beauty so that man might return to God from those tracks which turn him away from God;</rdg>
 						</app>
 					</s>
@@ -204,11 +207,9 @@
 							<lem wit="#Transcription">Secunda tabula alphabetica ordine generaliter singulas materias virtutum et viciorum ad mores componen dos et corrigendos predicatorem et inquirentem docet + Que scilicet cuilibet narracioni sibi in processu sermonum convenire possunt +</lem>
 							<rdg wit="#Translation">. The second section, in alphabetical order, demonstrates to preachers and seekers single matters of virtue and vice in order to assemble and correct customs.</rdg>
 						</app>
-					</s>		
+					</s>	
 				</p>
 			</div>
 		</body>
 	</text>
 </TEI>      
-
-
