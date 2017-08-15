@@ -34,6 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Prefacio in librum qui dicitur dyalogus creaturarum morilizatus</witness>
+					<witness xml:id="Translation">Preface to the book in which the moralised dialogue of the creatures is told</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -48,10 +52,7 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Prefacio in librum qui dicitur dyalogus creaturarum morilizatus</witness>
-					<witness xml:id="Translation">Preface to the book in which the moralised dialogue of the creatures is told</witness>
-				</listWit>
+				
 			</div>
 		</front>
 		<body>

@@ -30,6 +30,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Il Carbonaio di Niversa</witness>
+					<witness xml:id="Translation">The Charcoal-Burner of Nevers</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -44,14 +48,7 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">Il Carbonaio di Niversa</witness>
-					<witness xml:id="Translation">The Charcoal-Burner of Nevers</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
-			<head>
+				<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Il Carbonaio di Niversa</lem>
@@ -59,6 +56,9 @@
 					</app>
 				</title>
 			</head>
+			</div>
+		</front>
+		<body>
 			<div>
 				<p>
 					<s>

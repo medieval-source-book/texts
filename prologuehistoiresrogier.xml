@@ -1,9 +1,5 @@
 <?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<<<<<<< HEAD
 <!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
-=======
-<!DOCTYPE TEI
->>>>>>> origin/master
 [
 <!ENTITY % Menota_entities SYSTEM
 'http://www.menota.org/menota-entities.txt'   >
@@ -47,9 +43,7 @@
 	</teiHeader>
 	<text>
 		<front>
-<<<<<<< HEAD
-			<div>
-				<head>
+			<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Ci comence li prologue ou livre des estoires, et la porsivance.</lem>
@@ -57,20 +51,8 @@
 					</app>
 				</title>
 			</head>
-			</div>
 		</front>
 		<body>
-			<s>
-=======
-			<title>
-				<app>
-					<lem wit="#Transcription">Ci comence li prologue ou livre des estoires, et la porsivance.</lem>
-					<rdg wit="#Translation">Here begins the prologue to the book of histories, and what follows.</rdg>
-				</app>
-			</title>
-		</front>
-		<body>
->>>>>>> origin/master
 			<lg n="1">
 				<l n="1">
 					<app>
@@ -917,8 +899,6 @@
 					</app>
 				</l>
 			</lg>
-		</s>
-		<s>
 			<lg n="2">	
 				<l n="113">
 					<app>
@@ -2213,51 +2193,6 @@
 					</app>
 				</l>
 			</lg>
-		</s>
 		</body>
 	</text>
 </TEI>
-
-<!--
-
-	Prologue Book of Histories
-
-		TEI Encoding Specifications:
-
-			<lem> = transcription
-
-			<rdg> = translation
-
-			Tag numbering:
-				(<X> for example)
-				<X n="1"> 
-			
-			Stanza break:
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
-
-			Special Characters:
-				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
-				This chart is of the Medieval Unicode Font Initiative. In order to 
-				include one of these characters, enter the ampersand and following
-				letters followed by a semicolon (e.g. &odot;).
-
-			Language change: 
-				When the text changes language, use an extra modifier in your tag. 
-
-				For example: (a text changes to Latin)
-					<l lang="la" n="4">
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</l>
-
-				The modifier (xml:lang="?") is the critical insertion. 
-
-				Find the two letter identifier for the language you wish to specify 
-				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-				in the subtag category
--->

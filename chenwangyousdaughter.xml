@@ -38,6 +38,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">陳王猷子妇</witness>
+					<witness xml:id="Translation">Chen Wangyou’s Daughter-in-Law</witness>
+				</listWit>
 				<p></p>
 				<p></p>
 			</sourceDesc>
@@ -53,13 +57,6 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">陳王猷子妇</witness>
-					<witness xml:id="Translation">Chen Wangyou’s Daughter-in-Law</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -67,7 +64,10 @@
 						<rdg wit="#Translation">Chen Wangyou’s Daughter-in-Law</rdg>
 					</app>
 				</title>
-			</head>
+			</head>	
+			</div>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
 					<app>
