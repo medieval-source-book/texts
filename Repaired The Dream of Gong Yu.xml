@@ -1,0 +1,75 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Dream of Gong Yu</title>
+				<author></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Likun Yang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Likun Yang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal">
+			</variantEncoding>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">龔輿夢</witness>
+					<witness xml:id="Translation">The Dream of Gong Yu</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">龔輿夢</lem>
+						<rdg wit="#Translation">The Dream of Gong Yu</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">潭州士人龔輿, 乾道四年冬, 與鄉里六七人偕赴省試. 過宜春, 謁仰山廟祈夢. 輿夢至官府, 見柱上掲紙一片, 書[龔輿不得]四字, 而[不]字上下稍不聨接. 既覺, 殊不樂, 自意必下第. 及春榜至, 輿中選, 餘人盡黜, 始以語人, 謂夢不驗. 好事者曰: “不字斷續如此, 乃一个也. 神言龔輿一个得耳, 豈不昭然?”</lem>
+							<rdg wit="#Translation">There is a literatus from Tanzhou named Gong Yu. In the winter of the fourth year of the Dao Qian reign, he went with six or seven people from his hometown to participate in the provincial exam. When they passed by Yi Chun, they paid respects to the Yangshan Monastery and prayed for dreams.  Gong Yu dreamt he went into the government house and saw a piece of paper on the pillar of the house. On the paper the four characters of “Gong Yu Bu De” (meaning, “Gong Yu will not get it”) were written. But the upper part and the lower part of the character “Ge” were not connected. When Gong Yu woke up, he was rather unhappy and thought he would fail the exam. When the results came out in the spring, (it turns out) Gong Yu was selected and the rest of his group were all rejected. Gong Yu then began to tell people, saying the dream was not accurate. The acquaintances said: “When the character ‘Ge’ is disconnected like this, it should be read as two characters ‘Yi Ge.’ The deity said only Gong Yu himself could get it, isn’t this obvious?”</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
