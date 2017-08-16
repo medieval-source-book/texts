@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Chronica del rey D. Pedro</title>
+				<title>Chronica del Rey D. Pedro</title>
 				<author>Fernão Lopes</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -36,7 +36,7 @@
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
-					<witness xml:id="Transcription">Chronica del rey D. Pedro</witness>
+					<witness xml:id="Transcription">Chronica del Rey D. Pedro</witness>
 					<witness xml:id="Translation">Chronicle of the King D. Pedro</witness>
 				</listWit>
 			</sourceDesc>
@@ -61,78 +61,98 @@
 		</front>
 		<body>
 			<div n="1">
-				<p n="1">
+				<p>
 					<s>
 						<app>
-							<lem wit="#Transcription">Chronica del rey D. Pedro deſde nome o primeiro , e dos Reys de Portugal o oytavo.</lem>
+							<lem wit="#Transcription">Chronica del Rey D. Pedro deſde nome o primeiro , e dos Reys de Portugal o oytavo.</lem>
 							<rdg wit="#Translation">Chronicle of the King D. Pedro, the first of that name, and the eighth of the kings of Portugal.</rdg>
 						</app>
 					</s>
+				</p>
+			</div>
+			<div n="2">
+				<p>
 					<s>
 						<app>
-							<lem wit="#Transcription">Escrita por Fernaõ Lopes, Eſcrivaõ da puridade do Infante ſanto D. Fernando, ſeu neto.</lem>
+							<lem wit="#Transcription">Escrita por Fernaõ Lopes , Eſcrivaõ da puridade do Infante ſanto D. Fernando , ſeu neto.</lem>
 							<rdg wit="#Translation">Written by Fernão Lopes, the secretary to the Holy Infant D. Fernando’s purity, his [D. Pedro’s] grandson.</rdg>
 						</app>
 					</s>
 				</p>
-				<head>
+			</div>
+			<div n="3">
+				<p>
 					<app>
 						<lem wit="#Transcription">Prologo.</lem>
 						<lem wit="#Translation">Prologue.</lem>
 					</app>
-				</head>
-				<p n="2">
+				</p>
+			</div>
+			<div n="4">
+				<p n="1">
 					<s>
 						<app>
-							<lem wit="#Transcription">Deixados os modos, e defençoens da Juſtiça, que por deſvairadas manieras muitos em ſeus Livros eſcrevem , ſómente daquella , para que o real poder foy eſtabelecido , que he por ſerem os máos caſtigados , e os bons vivrem em paz , he noſſa tençaõ neſte Prologo muy curtamente falar , não como buſcador de novas razoens por propria invençaõ achadas , mas como ajuntadas em hum breve mólho dos ditos dalguns, que nos contentáraõ, a huma por eſpertar os que ouvirem que entendaõ parte do que falar a Hiſtoria, outra por ſeguirmos inteiramente a ordem do noſſo razoado no primeiro Prologo ja trazida.</lem>
-							<rdg wit="#Translation">Having forsaken [to write about] the modes and defenses of justice as many write [about them] in their Books in an unreasoned manner, it is our intention to speak very briefly in this Prologue of that alone, [that justice] for which the royal power was established, which exists to punish the evil ones, and so that the good ones may live in peace; [I will do so] not as a seeker of new reasons found through one’s own invention, but as assembled in a short sheaf of some people’s sayings, which will satisfy us on the one hand because [it will] edify those who will hear it [note: reading aloud] so that they may understand part of what History tells, on the other because it will ensure that we follow the order of what was elaborated in the first Prologue already brought forth.</rdg>
+							<lem wit="#Transcription">Deixados os modos , e defençoens da Juſtiça , que por deſvairadas manieras muitos em ſeus Livros eſcrevem , ſómente daquella , para que o real poder foy eſtabelecido , que he por ſerem os máos caſtigados , e os bons vivrem em paz , he noſſa tençaõ neſte Prologo muy curtamente falar , não como buſcador de novas razoens por propria invençaõ achadas , mas como ajuntadas em hum breve mólho dos ditos dalguns , que nos contentáraõ , a huma por eſpertar os que ouvirem que entendaõ parte do que falar a Hiſtoria , outra por ſeguirmos inteiramente a ordem do noſſo razoado no primeiro Prologo jà trazida.</lem>
+							<rdg wit="#Translation">Having forsaken [to write about] the modes and defenses of justice as many write [about them] in their Books in an unreasoned manner, it is our intention to speak very briefly in this Prologue of that alone, [that justice] for which the royal power was established, which exists to punish the evil ones, and so that the good ones may live in peace; [I will do so] not as a seeker of new reasons found through one’s own invention, but as assembled in a short sheaf of some people’s sayings, which will satisfy us on the one hand because [it will] edify those who will hear it so that they may understand part of what History tells, on the other because it will ensure that we follow the order of what was elaborated in the first Prologue already brought forth.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">E por quanto El Rey D. Pedro , cujo reinado ſe ſegue , uſou da Juſtiça , de que a Deos mais apraz , que outra couſa alguã boa, que o Rey poſſa fazer, ſegundo os Santos eſcrevem, e alguns dezejaõ ſaber que virtude he eſta ; e pois he neceſſaria ao Rey, ſe o he aſſim ao povo , vós naquelle eſtylo, que ſimplezmente o achamos , o podeis ler por eſta maneira.</lem>
+							<lem wit="#Transcription">E por quanto El Rey D. Pedro , cujo reinado ſe ſegue , uſou da Juſtiça , de que a Deos mais apraz , que outra couſa algũa boa , que o Rey poſſa fazer , ſegundo os Santos eſcrevem , e alguns dezejaõ ſaber que virtude he eſta ; e pois he neceſſaria ao Rey , ſe o he aſſim ao povo , vós naquelle eſtylo , que ſimplezmente o achamos , o podeis ler por eſta maneira.</lem>
 							<rdg wit="#Translation">And as for the use of justice by King D. Pedro, whose reign follows, it is more pleasing to God than any other good thing that the King might do, according to what the Saints have written, and some wish to know what virtue this is. And so, as it is necessary for the King, so too [is it necessary] for the people; we simply found this style, you may read it in the same way.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">Juſta he huma virtude , que he chamada toda virtude , aſſim que qualquer , que he juſto , eſte cumpre toda virtude ; porque a juſtiça aſſim como a Ley de Deos defende , que : Naõ mateis ; Naõ forniqueis ; Naõ furteis , &amp;c.
+								<note type="critical" ancored="true">
+									<p>[Naõ mateis...furteis] Compare Exodus 20.13-15</p>
+								</note>
+							 e guardando iſto ſe cumpre a virtude da Caridade , Caſtidade , &amp;c. aſſim podeis entender dos outros vicios , e virtudes.</lem>
+							<rdg wit="#Translation">Justness is a virtue, which is called all virtues, so that anyone who is just performs every virtue; because justice, as [well as] the Laws of God, command that: Thou shalt not kill; Thou shalt not fornicate; Thou shalt not steal, &amp;c. and, in keeping these [laws] one complies with the virtues of Charity, Chastity, &amp;c. so that you may acquire understanding of other vices and virtues.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Eſta virtude he muy neceſſaria ao Rey ; e aſſim meſmo aos ſeus ſubditos , e vaſſallos ; e porque havendo no Rey virtude de Juſtiça , fará Leys porque todos vivaõ direitamente , e em paz , e os ſeus vaſſallos , ſendo juſtos , cumpriráõ as Leyes , que elle puzer , e cumprindo-as não faraõ couſa injuſta contra algum : e tal virtude como eſta póde cada hum ganhar por obra de bom entendimento ; e às vezes naſcem alguns aſſim naturalmente a ella diſpoſtos , que com grande zelo a executaõ , poſto que a algunos vicios ſejaõ inclinados : e a razaõ , porque eſta virtude he neceſſaria nos ſoredittos , he por cumprorem as Leys do Principe , que ſempre devem ſer ordenadas para todo o bem.</lem>
+							<rdg wit="#Translation">This virtue [justice] is very necessary for the King; and so too for his subjects and noble vassals; and [this is] because, when the virtue of Justice is in the King, he will make Laws in order that everyone live righteously and in peace, and [with] his vassals being just, they will uphold the Laws that he lays down, and by upholding them [they] will not do any injustice to anyone: and such a virtue everyone is able to obtain through the works of good understanding; and sometimes some are born naturally disposed towards it, and with great zeal carry it out, although [they may] be inclined to some vices; and because this virtue is necessary for the things aforementioned, there is a reason for [those] to fulfill the Laws of the Prince, [laws] which must always be commanded for the general good.</rdg>
 						</app>
 					</s>
 				</p>
 				<p n="3">
 					<s>
 						<app>
-							<lem wit="#Transcription">Juſta he huma virtude, que he chamada toda virtude , aſſim que qualquer , que he juſto, eſte cumpre toda virtude ; porque a juſtiça aſſim como a Ley de Deos degende , que : Naõ mateis ; Naõ forniqueis ; Naõ furteis , &amp;c. e guardando iſto ſe cumpre a virtude da Caridade , Caſtidade , c. aſſim podeis entender dos outros vicios, e virtudes.</lem>
-							<rdg wit="#Translation">Justness is a virtue, which is called all virtues, so that anyone who is just performs every virtue; because justice, as [well as] the Laws of God, command that: Thou shalt not kill; Thou shalt not fornicate; Thou shalt not steal, &amp;c. and, in keeping these [laws] one complies with the virtues of Charity, Chastity, &amp;c. so that you may acquire understanding of other vices and virtues.</rdg>
+							<lem wit="#Transcription">E quem taes Leys cumprir , ſempre bem obrará ; porque as Leys faõ regra do que os ſubditos haõ de fazer , e faõ chamadas : Principe naõ animado , porque ellas repreſentaõ com vozes mortas o que El Rey diz por ſua voz viva ; e aſſim no povo , como no Rey ; porque ſem ella nenhuma Cidade , nem Reyno póde eſtar em aſſocego.</lem>
+							<rdg wit="#Translation">And whosoever carries out these Laws will always act for the good; because the Laws are the rules of what the subjects shall do, and are called inanimate Prince because they represent with dead voices that which the King says through his live voice; and thus Justice is very much necessary in the people also, as [it is] in the King, because without her [Justice] neither City nor Kingdom may be at ease.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Eſta virtude he muy neceſſaria ao Rey ; e aſſim meſmo aos ſeus ſubditos , e vaſſallos ; e porque havendo no Rey virtude de Juſtiça, fará Leys porque todos vivaõ direitamente, e em paz , e of ſeus vaſſallos,ſendo juſtos,cumpriráõ as Leyes , que elle puzer , e cumprindo as não faraõ couſa injuſta contra algum : e tal virtude como eſta póde cada hum ganhar por obra de bom entendimento ; e às vezes naſcem alguns aſſim naturalmente a ella diſpoſtos , que com grande zelo a executaõ, poſto que a algunos vicios fejaõ inclinados : e a razaõ, porque eſta virtude he neceſſaria nos ſoredittos, he por cumprorem as leys do Principe , que ſempre devem ſer ordenadas para todo o bem.</lem>
-							<rdg wit="#Translation">This virtue [justice] is very necessary for the King; and so too for his subjects and noble vassals; and [this is] because, when the virtue of Justice is in the King, he will make Laws in order that everyone live righteously and in peace, and [with] his vassals being just, they will uphold the Laws that he lays down, and by upholding them [they] will not do any injustice to anyone: and such a virtue everyone is able to obtain through the works of good understanding; and sometimes some are born naturally disposed towards it, and with great zeal carry it out, although [they may] be inclined to some vices; and because this virtue is necessary for the things aforementioned, there is a reason for [those] to fulfill the Laws of the Prince, [laws] which must always be commanded for the general good.</rdg>
+							<lem wit="#Transcription">Aſſim que o Reyno , onde todo o povo he máo , não póde permanecer muito tempo ; porque aſſim como a alma aviventa o corpo , e apartando-ſe delle , perde o corpo o alento , e morre , aſſim a Juſtiça aviventa , e ſegura os Reynos , e apartando-se delles perecem de todo.</lem>
+							<rdg wit="#Translation">So it is that a Kingdom where the entire people is evil cannot long remain; because just as the soul gives life to the body, and when it moves away, the body loses its breath and dies, so it is that Justice gives life to and holds Kingdoms together, and when it leaves them they perish completely.</rdg>
 						</app>
 					</s>
 				</p>
 				<p n="4">
 					<s>
 						<app>
-							<lem wit="#Transcription">E quem taes Leys cumprir , ſempre bem obrará ; porque as Leys faõ regra do que os ſubditos haõ de fazer , e faõ chamadas : Principe naõ animado , porque ellas repreſentaõ com vozes mortas a que El Rey diz por ſua voz viva ; e aſſim no povo , como no Rey ; porque ſem ella nenhuma Cidade nem Reyno póde eſtar em aſſocego.</lem>
-							<rdg wit="#Translation">And whosoever carries out these Laws will always act for the good; because the Laws are the rules of what the subjects shall do, and are called inanimate Prince because they represent with dead voices that which the King says through his live voice; and thus Justice is very much necessary in the people also, as [it is] in the King, because without her [Justice] neither City nor Kingdom may be at ease.</rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">Aſſim que o Reyno, onde todo o povo he máo , não pódepermanecer muito tempo;porque aſſim como a alma aviventa o corpo , e apartando-ſe delle, perde o corpo o alento , e morre , aſſim a Juſtiça aviventa , e ſegura od Reynos , e apartando-se delles perecem de todo.</lem>
-							<rdg wit="#Translation">So it is that a Kingdom where the entire people is evil cannot long remain; because just as the soul gives life to the body, and when it moves away, the body loses its breath and dies, so it is that Justice gives life to and holds Kingdoms together, and when it leaves them they perish completely.</rdg>
-						</app>
-					</s>
-				</p>
-				<p n="5">e
-					<s>
-						<app>
-							<lem wit="#Transcription">Ora ſe a virtude da Juſtiça he neceſſaria ao povo , muito mais o he ao Rey , porque ſe a Ley he regra do que ſe há de fazer , muito mais o deve ſer o Rey , que a põe, e o Juiz , que a há de exercitar ; porque a Ley he Principe ſem alma , como acima diſſemos ; e o Principe ſem alma , como acima diſſemos ; e o Principe he Ley , e regra da Juſtiça com alma , pois quanto a couſa com alma tem melhoria ſobre outra ſem alma , iſto he ſem vida , tanto o Rey deve ter excellencia ſobre as Leys , porque o Rey deve ſer de tanta juſtiça , e direito , que compridamente dê às Leys a execuçaõ.</lem>
+							<lem wit="#Transcription">Ora ſe a virtude da Juſtiça he neceſſaria ao povo , muito mais o he ao Rey , porque ſe a Ley he regra do que ſe há de fazer , muito mais o deve ſer o Rey , que a põe , e o Juiz , que a há de exercitar ; porque a Ley he Principe ſem alma , como acima diſſemos ; e o Principe ſem alma , como acima diſſemos ; e o Principe he Ley , e regra da Juſtiça com alma , pois quanto a couſa com alma tem melhoria ſobre outra ſem alma , iſto he ſem vida , tanto o Rey deve ter excellencia ſobre as Leys , porque o Rey deve ſer de tanta juſtiça , e direito , que compridamente dê às Leys a execuçaõ.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">D'outra maneira moſtrarſe-hia o ſeu Reyno cheyo de boas Leyes , e máos coſtumes, que ſeria couſa torpe de ver ; e pois duvidar ſe El Rey há de ſer juſtiçoſo , não he outra couſa ſenão duvidar ſe a regra há de ſer direita , a qual ſem direitura desfalece , e nenhuma couſa direita ſe póde por ella fazer.</lem>
+							<lem wit="#Transcription">D'outra maneira moſtrarſe-hia o ſeu Reyno cheyo de boas Leyes , e máos coſtumes , que ſeria couſa torpe de ver ; e pois duvidar ſe El Rey há de ſer juſtiçoſo , não he outra couſa ſenão duvidar ſe a regra há de ſer direita , a qual ſem direitura desfalece , e nenhuma couſa direita ſe póde por ella fazer.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="5">
+					<s>
+						<app>
+							<lem wit="#Transcription">Outra razaõ , porque a Juſtiça he muy neceſſaria ao Rey , aſſim he que porq&combtilde; a Juſtiça naõ ſómente aformoſenta , e adorna os Reys de virtude corporal , mas ainda eſpiritual ; pois quanto a fermoſura do eſpirito tem a ventagem da do corpo , tanto a juſtiça em o Rey he mais neceſſaria , que outra fermoſura.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
@@ -140,15 +160,7 @@
 				<p n="6">
 					<s>
 						<app>
-							<lem wit="#Transcription">Outra razaõ , porque a Juſtiça he muy neceſſaria ao Rey , aſſim he que porq&combtilde; a Juſtiça naõ ſómente aformoſenta , e adorna os Reys de virtude corporal, mas ainda eſpiritual ; pois quanto a fermoſura do eſpirito tem a ventagem da do corpo, tanto a juſtiça em o Rey he mais neceſſaria, que outra fermoſura.</lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-				</p>
-				<p n="7">
-					<s>
-						<app>
-							<lem wit="#Transcription">A terceira rasaõ ſe moſtra da perfeiçaõ da bondade, porque entaõ dizemos alguma couſa ſer perfeita , quando fazer póde alguma ſemelhante a i , e por tanto ſe chama huma couſa boa , quando ſua bondade ſe póde eſtender a outros , ao menos ſe quer por exemp;o , antaõ ſe moſtra por practiva quando cada hum he bom , quando he poſto em ſenhorio , e com razaõ convém aos Reys ſerem juſtiçoſos a todos os ſeus ſubditos pera lhe poder vir bem ,  e a nenhum o  contrario ; trabalhando que a Juſtiça ſeja guardada não ſómente aos naturaes de ſeu Reyno , mas ainda aos de fóra delle,porque negada a Juſtiça a alguma peſſoa , grande injuria he feita ao Principe , e a toda a ſua terra.</lem>
+							<lem wit="#Transcription">A terceira razaõ ſe moſtra da perfeiçaõ da bondade , porque entaõ dizemos alguma couſa ſer perfeita , quando fazer póde alguma ſemelhante a ſi , e por tanto ſe chama huma couſa boa , quando ſua bondade ſe póde eſtender a outros , ao menos ſe quer por exemplo , entaõ ſe moſtra por practica quando cada hum he bom , quando he poſto em ſenhorio , e com razaõ convém aos Reys ſerem juſtiçoſos a todos os ſeus ſubditos para lhe poder vir bem ,  e a nenhum o  contrario ; trabalhando que a Juſtiça ſeja guardada não ſómente aos naturaes de ſeu Reyno , mas ainda aos de fóra delle , porque negada a Juſtiça a alguma peſſoa , grande injuria he feita ao Principe , e a toda a ſua terra.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
@@ -160,7 +172,7 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">E pois que elle com bom zelo por natural inclinaçaõ refreou os males regendo bem ſeu Reyno, ainda que outras minguas por elle paſſaſſem,de que pendença podia fazer , de cudar he que alcanou o galardaõ da Juſtiça , cuja folha , e frutto he honrada fama neſte Mundo , e perduravel deſcanço no outro.</lem>
+							<lem wit="#Transcription">E pois que elle com bom zelo por natural inclinaçaõ refreou os males regendo bem ſeu Reyno , ainda que outras minguas por elle paſſaſſem , de que pendença podia fazer , de cudar he que alcanou o galardaõ da Juſtiça , cuja folha , e frutto he honrada fama neſte Mundo , e perduravel deſcanço no outro.</lem>
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
