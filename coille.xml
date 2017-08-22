@@ -3,7 +3,7 @@
 [
 <!ENTITY % Menota_entities SYSTEM
 'http://www.menota.org/menota-entities.txt' >
-%\Menota_entities;]
+%Menota_entities;]
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
