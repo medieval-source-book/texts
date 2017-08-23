@@ -50,37 +50,27 @@
 	</teiHeader>
 	<text>
 		<front>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">Chronica del Rey D. Pedro</lem>
-						<rdg wit="#Translation">Chronicle of the King D. Pedro</rdg>
-					</app>
-				</title>
-			</head>
 		</front>
 		<body>
 			<div n="1">
-				<p n="1">
-					<s>
+					<head>
 						<app>
 							<lem wit="#Transcription">Chronica del rey D. Pedro deſde nome o primeiro , e dos Reys de Portugal o oytavo.</lem>
 							<rdg wit="#Translation">Chronicle of the King D. Pedro, the first of that name, and the eighth of the kings of Portugal.</rdg>
 						</app>
-					</s>
+					</head>
 					<s>
 						<app>
 							<lem wit="#Transcription">Escrita por Fernaõ Lopes, Eſcrivaõ da puridade do Infante ſanto D. Fernando, ſeu neto.</lem>
 							<rdg wit="#Translation">Written by Fernão Lopes, the secretary to the Holy Infant D. Fernando’s purity, his [D. Pedro’s] grandson.</rdg>
 						</app>
 					</s>
-				</p>
-				<head>
+					<head>
 					<app>
 						<lem wit="#Transcription">Prologo.</lem>
 						<lem wit="#Translation">Prologue.</lem>
 					</app>
-				</head>
+					</head>
 				<p n="2">
 					<s>
 						<app>
