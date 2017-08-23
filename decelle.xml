@@ -1,0 +1,796 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt' >
+%\Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De celle qui se fist foutre sur la fosse de son mari</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De celle qui se fist foutre sur la fosse de son mari</witness>
+					<witness xml:id="Translation">TITLE Translation</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De celle qui se fist foutre sur la fosse de son mari</lem>
+						<rdg wit="#Translation">TITLE Translation</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">﻿Du tens que volentez me vient,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">De fable dire me covient;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Dirai en leu de fable voir:</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Un hon qui de petit d’avoir</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Ert en grant richece embatuz,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Si con ses termes ert venuz,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Le prist Mors en Flandres jadis.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Mout fu et par fais et par dis</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Sa fame de sa mort irie;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Quar fame est mout tost aïrie</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">A plorer et a grant duel faire,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Quant ele a ? poi de contraire,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Et tost ra grant duel oublié.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Quant la dame vit devié</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Son seignor qui tant l’ot amée,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Sovent s’est chaitive clamée,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">De grant dolor mener se paine;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Mout I emploie bien sa paine</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Qu’ele en a le molle trové.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Si a mout bien son preu prové,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Ce semble, a toz vers son seignor,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Ainz fame ne feist tel dolor,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Et quant ce vint à l’enterrer,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Dont oïssiez fame crier</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Et veïssiez mout grant duel faire,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Et poins de tordre et cheveus trere,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Et si s’escrie de seur touz:</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">“Prodon, bon hon, où irez vos?</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Or vos met l’en en cele fosse;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Sire, je remaing de vos grosse;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Qui garira l’enfant et moi?</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Mieus voil que morissons andoi.”</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Quant li cors fu en terre mis,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Dont s’escria à mout hauz cris,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Si se decire et pleure et brait,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">A la terre cheïr se lait.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Si parent la reconfortoient,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">A l’ostel mener l’en voloient,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Mès ele dit qu’ele n’iroit</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">Ne jamès ne s’en partiroit</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">De la fosse, morte ne vive.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">Tant s’en escombat et estrive</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">Qu’il l’ont leissie par anui;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">Avec li ne remaint nului;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Seule remest et sanz compaigne.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Esvos ? chevalier estraigne;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">Lui et son escuier venoit,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">Son chemin à l’autre tenoit;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">La dame vit illuec seoir</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">Qui à trestot le sien pooir</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">Destruit et essille son cors</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">Por son seignor qui estoit mors</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">“Voiz tu,” dit il à l’escuier,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">“Cele dame là essillier</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Son cors? N’a mie son cuer lié.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Certes mout en ai grant pitié.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">-- Pitié au deable vos tient,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Quant il li de pitié vos vient:</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Je gagerai, se vos volez,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">Par si que de ci vos tornez,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">Que ja à mout petit de plet,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Si dolente comme el se fait,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">La foutrai, mès que vos traiez</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">En tel lieu que ne nos voiez.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">-- Qu’as tu dit, escommeniez?</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">Je croi que pas crestiens n’ies,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">Ainz as ou cors le vif deable</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">Quant contrové as or tel fable.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">-- Est ce fable? Je gageroie</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">Vers vos se gagier m’i osoie.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription">-- Or i parra que tu feras;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription">Ja par moi veüs n’i seras.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Transcription">Repondre m’irai soubz cel pin.”</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">Cil descent jus de son roncin</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription">A la terre et fet chiere morne;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription">Vers la dame sa voie atorne;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Transcription">Si dit en bas, non pas en haut:</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription">“Chere suer,” dit il, “Dues vos saut!</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription">-- Saut?” fet ele, “mès doinst la mort,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription">Que je sui vive à mout grant tort,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="81">
+					<app>
+						<lem wit="#Transcription">Que mes sire est mors, mes mariz,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Transcription">Par cui mes cuers est si marris,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Transcription">Qui me gita de povreté</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Transcription">Et me tenoit en grant chierté,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="85">
+					<app>
+						<lem wit="#Transcription">Et m’amoit plus que lui meïsme.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Transcription">-- Suer, je sui plus dolenz la disme.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Transcription">-- Coment plus? – Jel te dirai, suer.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Transcription">Je avoie mis tout mon cuer</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="89">
+					<app>
+						<lem wit="#Transcription">En une dame que j’avoie,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Transcription">Et assez plus de moi l’amoie,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Transcription">Qui ert bele, cortoise et sage;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Transcription">Ocise l’ai par mon outrage.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="93">
+					<app>
+						<lem wit="#Transcription">-- Ocise l’as? Coment, pechierre?</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Transcription">-- En foutant, voir, ma dame chiere,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Transcription">Ne je ne voudroie plus vivre.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Transcription">-- Gentilz hon, vien ça, si delivre</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="97">
+					<app>
+						<lem wit="#Transcription">Cest siecle de moi, si me tue;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Transcription">Or t’en esforce et esvertue,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Transcription">Et si me fai, se te pues, pis</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Transcription">Que tu ta fame ne feïs;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="101">
+					<app>
+						<lem wit="#Transcription">Tu dis qu’ele fu morte à fourte.”</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+				<l n="102">
+					<app>
+						<lem wit="#Transcription">Lors s’est lessie cheoir outre,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription">Aussi com s’ele fust pasmée.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription">Cil a la robe sus levée,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="105">
+					<app>
+						<lem wit="#Transcription">Si li embat el con le vit,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Transcription">Si que ses sires bien le vit</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Transcription">Qui se pasmoit de gieus en aize:</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Transcription">“Me cuidas tu dont tuer d’aize,”</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="109">
+					<app>
+						<lem wit="#Transcription">Fet la dame, “qui se me fous?</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="110">
+					<app>
+						<lem wit="#Transcription">Ainz t’i desromperoies touz</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="111">
+					<app>
+						<lem wit="#Transcription">Que tu m’eüsses ainsi morte.”</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="112">
+					<app>
+						<lem wit="#Transcription">Ainsi la dame se conforte,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="113">
+					<app>
+						<lem wit="#Transcription">Qui ore demenoit tel dol.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+				<l n="114">
+					<app>
+						<lem wit="#Transcription">Por ce tieng je celui à fol</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="115">
+					<app>
+						<lem wit="#Transcription">Qui trop met en fame sa cure;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="116">
+					<app>
+						<lem wit="#Transcription">Fame est de trop foible nature,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="117">
+					<app>
+						<lem wit="#Transcription">De noient rit, de noient pleure,</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="118">
+					<app>
+						<lem wit="#Transcription">Fame aime et het en trop poi d’eure;</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="119">
+					<app>
+						<lem wit="#Transcription">Tost est ses talenz reuez:</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+				<l n="120">
+					<app>
+						<lem wit="#Transcription">Qui fame croit, si est desvés.</lem>
+						<rdg wit="#Translation">TRANSLATION GOES HERE</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
