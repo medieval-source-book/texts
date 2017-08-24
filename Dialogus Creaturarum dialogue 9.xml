@@ -1,0 +1,180 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Dialogus Creaturarum 9: De Signe et aqua</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Jake Goulder</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De igne et aqua</witness>
+					<witness xml:id="Translation">Concerning Fire and Water</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Dialogus Creaturum: de igne et aqua</lem>
+						<rdg wit="#Translation">Dialogue of the Creatures: Concerning Fire and Water</rdg>
+					</app>
+				</title>
+			</head>
+			</div>
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Ignis est lenis, purus, subtilis, mobilis, lucidus et calidus, et quia est tarn pretiosus , in se sublimari eeepit dicens:</lem>
+							<rdg wit="#Translation">Fire is light, pure, subtle, mobile, bright and hot. Because he is so precious, Fire began to exalt himself.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">ego in terra omnibns praevaleo et euneta consumo, sed si in aquis praevalerem, superlatus omnibus existerem.</lem> 
+							<rdg wit="#Translation">“I prevail over all on earth; I eat up all on earth. If I were to prevail against Water, I would be revered beyond all things.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Pro tanto ad se clamavit aquam dicens: soror carissima, elementum Dei es tu velut ego, quapropter , si tibi commoratus fuero et tecum connexus, non solum magnus sed magnificentior et excellentior apparebo. Unde obsecro te, permitte me tecum morari et inte gloriari.</lem>
+							<rdg wit="#Translation">So he called Water to himself and said, “Dearest sister, you are an element of God like me. If I were to stay with you and be joined to you I would seem not only great but even greater and higher. I beg you, let me linger next to you and revel in you.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aqua vero simulare se ingeniöse eeepit dicens:desiderio desideravi hoc pascha tecum manducare, accede ad me secure et te pro viribus meliorabo.	
+							<rdg wit="#Translation">Shrewdly, Water began to pretend, saying, “I have wanted this for a long while, to share this Easter with you. Come over to me and for the sake of men I will make you better.”.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">sed cum sim sub ipsis et eas sie obnubilo, quanto magis, si adscendero superius, offuscare et suppeditare potero, multo magis certe.</lem>
+							<rdg wit="#Translation">When I am beneath them and I overcloud them like this, I am much greater. But If I were to ascend higher, I would be able to cover them and subordinate them. Certainly then I would be much much greater.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et hoc dicens sursum tendere cœpit cumque usque ad Saturuum ascenderet et superscandere vellet, ait Saturnus : quis es tu, qui ascendere cupis, ubi nunquam ullus ascendit?</lem>
+							<rdg wit="#Translation">Saying so, she began to stretch upwards, and wanted to ascend all the way to Saturn, and to clamber over him. Saturn spoke: “Who are you? Who desires to ascend to where no one has ever ascended?”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cui nubes: ego super ascendam et te præcipitabo.</lem>
+							<rdg wit="#Translation">To which Cloud said, “I will go beyond and cast you down.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hoc audiens Saturnus perturbatus ad arma cucurrit et viam ei clausit, insuper et nubem dejeeit et ad nihilum redegit dicens: convenit eum reeidivare, qui vult super omnes stare.</lem>
+							<rdg wit="#Translation">Saturn, disturbed, ran to  fetch his weapons and shut off the road. From above, he threw down Cloud and reduced her to nothing, saying, “They fall down who desire to stand above all.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hoc enim accidit Nabugodonosor, qui super omnes reges et principes terræ scandere satagebat , ut esset rex regum et dominus dominorum terrenorum, nesciens prae superbia, quod dominetur excelsus super regnum hominum.</lem>
+							<rdg wit="#Translation">So it was for Nebuchadnezzar, who strove to overthrow all the earth’s kings and princes, so that he might be the king of earthly kings and the lord of earthly lords, not knowing because of his haughtiness that He has dominion over the kings of men.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">De quo dicitur Danielis IV: quando elatum est cor Nabugodonosor et spiritus ejus confirmatus est ad super biam, depositus est de solio suo.</lem>
+							<rdg wit="#Translation">Daniel IV says, “When Nebuchadnezzar’s heart and soul were fortified and lifted into arrogance, from his own throne he was deposed.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde dictum est ei: ejiciet te deus ab hominibus et tum bestiis atque feris erit habitatio tua, foenumut bos comedes septemque tempora mutabuntur in te.</lem>
+							<rdg wit="#Translation">Wherefore it was said to him, “God casts you away from men. Your home shall be with the beasts and the wild ones. You shall eat say like an ox. For seven seasons of your life you will be transformed.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sicut dicitur in Hystoriis Scholasticis: non est factus secundum mutationem corporis sed secundum mentis alienationem et ablatus est ei sensus et usus linguae et videbatur sibi, quod esset bos sive taurus in anterioribus , in posterioribus autem leo.</lem>
+							<rdg wit="#Translation">But it is said in the Scholastic Histories, “His body did not change, but his mind was alienated and the use of speech stricken from him. And it seemed to him that he was an ox or a bull in the front, but in the back a lion.” </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"> Daniel quoque toto tempore alienationis ejus pro eo orabat, ita quod Septem tempora, id est septem anni ad preces suas in septem menses mutati sunt.</lem>
+							<rdg wit="#Translation">Throughout the time of Nebuchadnezzar’s alienation, Daniel prayed for him so much that the seven seasons—seven years, that is—were changed, for his prayers, into seven months.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">			
+					<s>
+						<app>
+							<lem wit="#Transcription">In quibus septem mensibus insaniam patiebatur per quadraginta dies, per alios vero quadraginta ad cor reversus flebat et orabat deum, ita quod ex magnis fletibus oculi ejus ut caro facti sunt.</lem>
+							<rdg wit="#Translation">During the seven months Nebuchadnezzar suffered disease for forty days. For another forty, he wept for his turned-back heart and beseeched God; from their great tears his eyes were as if turned into flesh.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Multi autem ad eum exibant et eum videbant.</lem>
+							<rdg wit="#Translation">Many men went out and saw him.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Completis ergo septem mensibus revocatus est, non tarnen statim regnavit, </lem>
+							<rdg wit="#Translation">Having completed the seven months, he was recalled, although he did not immediately resume his reign. </rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">sed statuti sunt pro eo septem judices et usque ad finem septem anorum poenitentiam egit, panem et carnem non comedens et vinum non bibens.</lem>
+							<rdg wit="#Translation">Rather, he established for himself seven judges and did penance for seven years. He ate no meat and he drank no wine.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nam velle quidem esse super omnes vituperabiliter malum est, sustinere alterum sibi similem gloriosum est, ut ait Chrysostomus.</lem>
+							<rdg wit="#Translation">To desire to be beyond all others is wicked. But it is glorious to hold another up as equal to oneself.” So says Chrisostomos.</rdg>
+						</app>
+					</s>												
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
