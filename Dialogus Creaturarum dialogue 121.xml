@@ -1,0 +1,162 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Dialogus Creaturarum 121: De homine et muliere</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Jake Goulder</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De homine et miliere</witness>
+					<witness xml:id="Translation">Concerning Man and Woman</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Dialogus Creaturum: de homine et muliere</lem>
+						<rdg wit="#Translation">Dialogue of the Creatures: Concerning Man and Woman</rdg>
+					</app>
+				</title>
+			</head>
+			</div>
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Homo est seeundum philosophum mens incarnata, fantasma corporis, speculator vitse, maneipium mortis, transiens viator, loci hospes, anima laboriosa, parvi temporis habitaculum.</lem>
+							<rdg wit="#Translation">Man, after the philosopher’s saying, is mind incarnate, time’s fantasy, life’s spy, death’s purchase, the traveller passing through, guest of places, a working soul, the home of a little time.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mulier est seeundum philosophum hominis confusio, insatiabilis bestia, continua sollicitudo, indeficiens pugna, humanuni mancipium et viro continenti naufragium.</lem> 
+							<rdg wit="#Translation">Woman, after the philsooher’s saying, is the confusion of man, an insatiable beast, perpetual worry, unceasing battle, property of humankind, a storm for a content man.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Once, a guiltless and immaculate Man wanted to have a conversation and a friendship with Woman.</lem>
+							<rdg wit="#Translation">Prout quidam vir castus et immaculatus quandoque habere voluit colloquium mulieris et familiaritatem,</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">in qua illectus et illaqueatus sigillum castitatis quam cito amisit , aitendens autem ad dulcedinem verbi illius et intuens pulchritudinem faciei ejus dissipatus est dicens: propter mulieres fracti multi sunt et vulnerati.	
+							<rdg wit="#Translation">Seduced and ensnared, he rid himself of his chastity’s sign, and attending to sweetness, discovering the beauty of his form, he fell to nothing, and said, “On account of women so many men are broken and wounded.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">est di- cens: propter mulieres fracti multi sunt et vulnerati. Unde ait quidam: peccati forma femina est et mortis conditio. Hieronimus: janua diaboli, via iniquitatis, scorpionis percussio noeivumque genus est femina.</lem>
+							<rdg wit="#Translation">Thus it is said, “the shape of sin is woman and death’s condition.” And Hieronimus too: “the devil’s doorway, the path of wickedness, the sting of the scorpion, the noxious race is woman.”.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Idem: gladius igneus est species mulieris ; memento, quod Thamar a fratre suo sit corrupta, memento semper, quod paradisi colonum de possessione sua ejeeit mulier. Quid fortius Samsone ? quid sapientius Salomone? quid sanetius</lem>
+							<rdg wit="#Translation">Again: “the fiery sword is woman’s appearance. Remember that Tamar was corrupted by her own brother, and always remember that woman cast out paradise’s inhabitant from his own possession.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quid fortius Samsone ? quid sapientius Salomone? quid sanetius David? Omnes hi per feminas subversi sunt. </lem>
+							<rdg wit="#Translation">What is stronger than Samson? What is wiser than Soloman? More holy than David? All these men were subverted through women.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Eccl. XXV: a muliere initium factum est peccati et per illain homines moriuntur. Unde antiqui ab ipsis se contiuuerurit,</lem>
+							<rdg wit="#Translation">Ecclesiastes XXV: “The beginning of sin was made by a woman, and it is because of her that men die.” Wherefore the ancients held themselves away from women.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">prout uarrat Vegetius L. II .de continentia Alexandri, quod, cum esset ei virgo eximiae pulchritudinis traclita, cuidam principi desponsata, summa abstinentia pepercit ei, ut nee eam adspiceret, sed ad spousüm remisit, qua remissa mulieris ac principis meutes sibi reconciliavit.</lem>
+							<rdg wit="#Translation">Vegetius tells us in book two about the continence of Alexander, who, when a maiden of remarkable beauty was brought to him, a maiden who was betrothed to another prince, he restrained himself with the highest abstinence such that he did not look at her, but returned her to her groom and reconciled them to one another.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Propter quod Hieroniraus dicit: quoniara Deus donavit in Christo peccata nostra, sie et uos diraittamus his, qui in nobis peccant, et Dei imitatio injuriam nobis factam frangit et revocat.</lem>
+							<rdg wit="#Translation">But Hieronimus says thus: “Because God in Christ forgave our sins, so we must forgive them that sin against us, for our imitation ofGod breaks and revokes any injury done to us.” </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Gui simile uarrat Valerius lib. IV. cap. III de Scipione dicens, quod, cum intellexisset, quod virgo eximiafe formse cuidam nobili despousata esset inter obsides, qui erant apud Carthaginem, postquam Carthago fuit ab ipso capta,</lem>
+							<rdg wit="#Translation">Valcrius tells us something similar concerning Scipio in book IV chapter III. After he took Carthage, among other hostages taken there was an extremely beautiful woman engaged to a nobleman.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">			
+					<s>
+						<app>
+							<lem wit="#Transcription">vocatis parentibus virgiais et sponso, immaculatam virginem iis tradidit et aurum , quod pro redemtioue puella? oblatum erat, virgini in dotem sive marito in munus nuptiale dedit, per quam coutiuentiam et munificientiam animos illorum sibi applicuit.</lem>
+							<rdg wit="#Translation">A summons went out to the parents of the maiden, and he delivered their daughter to them along with a sum of gold, which had been given to him for the delivery of the girl, for her dowry or as payment for her marriage. By his continence and service he attached these souls to himself.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">si tu quoque vincis temetipsum, victoriosus eris, quia, qui semetipsum vincit, contra omnia fortis est, ut dicit philosophus. Ad hsec verba vindictam remisit Alexander et placatus est.</lem>
+							<rdg wit="#Translation">If, on the other hand, you conquer yourself, you shall be more victorious, since whoever conquers himself is mighty against all. So sayeth the philosopher.” At these words Alexander forgave the offense and was placated.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">De mira etiam continentia Xenocratis philosophi uarrat Valerius eodem cap. dicens, quod apud Athenas quidam juvenes promiserunt cuidam mulieri impudicae peeuniam sibi dare, si animum philosophi posset ad luxuriam inflectere.</lem>
+							<rdg wit="#Translation">Concerning the wonderful abstemiousness of the philosopher Xenocrates, Valerius tells us that, in Athens, some young men went to a shameless women to give her money and see if she could bend this philosopher’s mind to decadence.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae nocte veniens juxta eum aceubuit nee in aliquo ejus continentiam labefecit et deridentibus adolescentibus, quod animura illius flectere non potuisset, respondit, quod uon ad hominem sed ad statuam perrexisset. Vocarunt enim pbilosopbum statuam propter immobilem ejus continentiam.</lem>
+							<rdg wit="#Translation">That night she came and lay herself on the bed beside him. She could not undo his rectitude and, laughing to the boys because she hadn’t been able to bend his mind, she said that she had gone forth not to a man but to a statue. Thus, they called the philosopher a statue for his immoveable chastity.</rdg>
+						</app>
+					</s>												
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
