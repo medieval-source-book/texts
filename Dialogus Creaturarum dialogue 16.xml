@@ -1,0 +1,242 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Dialogus Creaturarum 16: De topazio precioso</title>
+				<author>AUTHOR</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Jake Goulder</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De topazio precioso</witness>
+					<witness xml:id="Translation">Concerning the precious topaz</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Dialogus Creaturum: de topazio precioso</lem>
+						<rdg wit="#Translation">Dialogue of the Creatures: Concerning precious topaz</rdg>
+					</app>
+				</title>
+			</head>
+			</div>
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Topasius, ut dicit Papias, est gemraa, qua3 omnium lapidum in se habet colores. Ysidor. Ethim. libro XVI. dicit, quod est gemma quaedain ex virenti genere omnique colore splendens, inventa primum in Arabiae insula, quae dicitur Topazi, unde topazius dictus est ab insula.</lem>
+							<rdg wit="#Translation">Topaz is a jewel that holds the colors of all stones in itself. Thus Papias. And Isidor, in book 16 of the Etymologies, says it is a gem of flourishing birth thatshines with every color, and was first discovered on an Arabian island called Topazi, whence topaz takes its name.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quidam autem topacius de Arabia duetus est Romam et in ecclesia beati Petri super crucem collocatus est et consecratus est, in quo loco abomnibus avide videbatur.</lem> 
+							<rdg wit="#Translation">Once, a topaz was taken from Arabia to Rome, and placed above the cross in Blessed Peter’s Church. It was consecrated there, where it was beheld greedily by everyone.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hic a persuasione in ima ductus ait: quid est semper in ecclesia manere et nunquam recedere nec aliquid de mundo sentire? </lem>
+							<rdg wit="#Translation">Having been persuaded to come down to the ground and look out, the stone said, “What is it to always remain in the church, and never to leave, nor to see anything of the world?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">volo enim cito ad seculum redire, ut aliquantulum cum secularibus. et nunquam recedere nee aliquid de mundo sentire? volo enim cito ad seculum re- dire, ut aliquantulum cum secularibus recreari possim in seculo et regnare cum Christo.</lem>	
+							<rdg wit="#Translation">I desire to go back to the world for a short while, so that I might have a little recreation with those of the world and then afterwards reign with Christ.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">est di- cens: propter mulieres fracti multi sunt et vulnerati. Unde ait quidam: peccati forma femina est et mortis conditio. Hieronimus: janua diaboli, via iniquitatis, scorpionis percussio noeivumque genus est femina.</lem>
+							<rdg wit="#Translation">Thus it is said, “the shape of sin is woman and death’s condition.” And Hieronimus too: “the devil’s doorway, the path of wickedness, the sting of the scorpion, the noxious race is woman.”.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cumque ad seculum reversus fuisset ac de sacrosaneta ecclesia recederet, ab illicitis concupiscentiis mundi captus exposuit se omnibus flagitiis. Ad extremum autein a barbaris repertus et ab ipsis incognitus collisus est et dispersus, ita quod nunquam comparuit.</lem>
+							<rdg wit="#Translation">When he had returned to the world and departed from the holy church, he was captivated by forbidden desires; he displayed in himself every sin. At the extreme point, Topaz, discovered by barbarians and not recognized by them, was smashed and dispersed, so that he never appeared whole again.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tandem confractus ait: qui de loco sacro pergit, justum est, si se dispergit. Ergo caveant religiosi ad seculum redire, ne similiter pereant. Concupiscentise enira sunt naufragia religiosorum.</lem>
+							<rdg wit="#Translation">Although he was fragmented, Topaz spoke: “It is just for he who leaves a holy place to be destroyed.” So let the religious beware of going back to the world, lest they perish in the same way. For Desire is the storm of the pious.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et ideo dicit Augustinus: sicut dilectio Dei est omnium virtutum fons, ita dilectio muudi est fons omnium vitiorum. Unde qui vult Deum possidere, mundo renuntiet, ut sit illi Deus beata possessio.</lem>
+							<rdg wit="#Translation">“Just as God’s delight is the font of all virtue, the World’s delight is the font of all sin. Whoever wishes to abide in God ought renounce the world so that God might blessedly possess him.” Thus Augustine.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dicit Bernardus: perfectus servus Christi nihil habet nisi Christum et si aliquid praeter Christum habet, perfectus non est. Unde idem : qui spiritualibus bonis sunt dotati, terrenis negotiis non debent implicari.</lem>
+							<rdg wit="#Translation">And Bernard thus: “The perfect servant of Christ possesses nothing except for Christ, and if he possesses something else, he is not perfect. Whosoever is endowed with good spirit need not be implicated in terrene matters.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Legitur in Vitas patrum quod quidam frater interrogavit senem dicens: quid faciam, quia cogitatio mea me non dimittit, me nec una hora sedere in cella mea? </lem>
+							<rdg wit="#Translation">It is said in The Lives of the Fathers that a certain brother was asking advice from an old man. “What should I do? My practice doesn’t allow me to rest in my cell for even an hour.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et dicit ei senex : fili, revertere et sede in cella tua et labora manibus dicit ei senex: fili, revertere et sede in cella tua et labora manibus tuis et ora Deum incessanter et jaeta cogitatum tuum in domino et cave, ne te quis seducat, ut exeas, et dicebat.</lem>
+							<rdg wit="#Translation">The old man responded, “Son, go away and sit in your cell. Work with your hands, and unceasingly pray to God, and cast your thought into the Lord. But beware of deception: do not let yourself be lead away.”</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Quidam secularis erat adolescens habens patrem et desiderabat fieri monachus. Et dum multum supplicaret patri suo, ut dimitteret eum converti, non acquiescebat pater. Postmodum autem rogatus a fidelibus amicis, vix acquievit.</lem>
+							<rdg wit="#Translation">There was, once, a young man of the world who wanted to become a monk. Though he begged his father many times to send him away to be received, his father did not acquiesce. Later, the young man persuaded his friends to counsel his father, and even then his father only barely permitted it.</rdg>
+						</app>
+					</s>		
+					<s>
+						<app>
+							<lem wit="#Transcription">Et egressus frater ille adolescens introivit monasterium et factus monachus coepit omne opus monasterii perfecte perficere et jejunare quotidie. Ccepit autem bieluanas et triduanas abstinere, similiter autem et semel tantum in ebdomada refici.</lem>
+							<rdg wit="#Translation">But the young man left his home and entered a monastery. He became a monk and began to accomplish all of the monastery’s work perfectly. He fasted daily. Soon he was fasting for two or three days at a time. Once he fasted from Sabbath to Sabbath.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Videbat eum abbas suus et mirabatur et benedicebat dominum in abstinentia et labore ipsius. Contigit autem post aliquod tempus, [quod] ccepit frater supplicari abbati suo dicens:</lem>
+							<rdg wit="#Translation">The abbot saw the brother and marveled, and even blessed the Lord for the young monk’s abstinence and labour. After some time, the brother spoke to the abbot and began to entreat him.</rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">rogo te, abba, ut dimittas me, et vadam in heremum. Dicit ei abbas : fili, noli hoc cogitare, non enim potes sufferre talem laborem propter temptationes diaboli et versutias ejus. Et si contigerit tibi temptatio, non invenies ibi, quod te consoletur a turbatione inimici, qua3 tibi illata fuerit. Ille autem coepit amplius rogare, ut eum permitteret abire.</lem>
+							<rdg wit="#Translation">“O abbot, I ask you to send me away. I must go into the wilderness.” The abbot spoke to him. “My son, do not think such things. You cannot bear that sort of trial, for the devil has temptations and his cunning. If a temptation were to pollute you, you would not find there that which would save you from the enemy’s confusion: it shall carry you off.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Videns autem abbas ejus, quia eum retinere non poterat, facta oratione dimisit eum. Postmodum dicit abbati suo: rogo te, abba, ut concedas mihi, qui ostendat iter, quomodo ego pergere debeam. Et ordinavit cum eo duos monachos mouasterii et abierunt cum eo,</lem>
+							<rdg wit="#Translation">Yet all the more did the brother beg the abbot to permit him to leave. The abbot, seeing that he could not restrain the brother, made a public prayer and sent him away. But the brother said to the abbot, “I ask you to grant me someone to show me the road that I must take.” The abbot ordained two monks to him, and they went off.</rdg>
+						</app>
+					</s>				
+					<s>
+						<app>
+							<lem wit="#Transcription">ambulantibusque iis per heremum unam cliem et alteram, defecerunt prae aestu et projicientes se in terram jacebant et soporati modice somno, ecce aquila venit percutiens alis suis, processit procul et sedit in terra.</lem>
+							<rdg wit="#Translation">For a day and another they walked into the wilderness before they gave up. Throwing themselves on the earth in front of a fire, they were overtaken by fast sleep. But overhead an eagle came, beating together his wings, andproceeded far off, and sat upon the earth.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Et evigilantes aquilam viderunt et dixerunt ei: ecce angelus tuus, surge, sequere eum. Et surgens valedicensque fratribus sequebatur eam et venit usque ubi stabat aquila ipsa.</lem>
+							<rdg wit="#Translation">Watchmen saw the eagle and said tothe brother, “Behold your angel. Arise: follow him,” and, rising, he blessed his brothers and followed it, and came to the point where the eagle stood.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae mox surgens volavit usque ad unum stadium et iterum sedit. Similiter sequebatur eam frater ille. Et iterum volavit et sedit non longe. Factum est vero hoc per horas tres.</lem>
+							<rdg wit="#Translation"> The eagle rose up and flew to a lone field where again he landed. Again the brother followed him and again the eagle flew and sat for a while. He did this for three hours.</rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">Postmodum autem, dum sequitur eam, divertit ipsa aquila in dexteram partem sequentis se et non comparuit.</lem>
+							<rdg wit="#Translation">The brother kept following, but after a time the eagle diverted his path into the East, and did not show himself to his follower. Still the brother followed. He looked back.</rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">Frater vero ille nihilominus sequebatur eam et respiciens vidit tres arbores palmarum et fontem aquae et speluncam et dixit: ecce locus, quem mihi dominus paravit! Et ingressus sedit in ea sumens cibum dactilorum et de fonte aquam bibens ; et fecit ibidem annos sex neminem videns.</lem>
+							<rdg wit="#Translation">There the brother glimpsed three palm trees, a fountain of water, and a cave, and said, “See this place which the lord has prepared for me.” Going in, he sat down and ate the food with his fingers and from the fountain pulled the water. And in that place he spent six years. He saw no one.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">One day in the semblance of an aged abbot the devil came in; he wore a
+terrible countenance. The brother was afraid and, falling prostrate into prayer, he
+arose again. But the devil spoke to him: “ Let us pray again, together, my
+brother!” Once they had begun, the devil said, “How much time have you passed
+here?” “Six years.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation">.</rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription">\</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>			
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>	
+					<s>
+						<app>
+							<lem wit="#Transcription">.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>											
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
