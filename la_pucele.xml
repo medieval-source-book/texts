@@ -27,6 +27,9 @@
 			<notesStmt>
 				<note anchored="true"></note>
 				<note type='critIntro'>
+					Paris, Bibliothèque nationale de France, français 1593, Anc. 7615
+					Bern, Burgerbibliothek, Cod. 354
+					Paris, Bibliothèque nationale de France, français, 25545, f. 4vb-5vb
 					http://www.e-codices.unifr.ch/en/searchresult/list/one/bbb/0354
 					http://gallica.bnf.fr/ark:/12148/btv1b10525826x/f18.image.r
 					http://gallica.bnf.fr/ark:/12148/btv1b6000803p/f383.item.r
@@ -35,9 +38,9 @@
 			<sourceDesc>
 				<listWit>
 					<witness xml:id="Critical Text">La pucele qui vouloit voler</witness>
-					<witness xml:id="Paris, Bibliothèque nationale de France, français 1593, Anc. 7615">De la pucelle qui vouloit voler</witness>
-					<witness xml:id="Bern, Burgerbibliothek, Cod. 354">De la damoisele qui uost voler</witness>
-					<witness xml:id="Paris, Bibliothèque nationale de France, français, 25545, f. 4vb-5vb">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</witness>
+					<witness xml:id="Witness E">De la pucelle qui vouloit voler</witness>
+					<witness xml:id="Witness B">De la damoisele qui uost voler</witness>
+					<witness xml:id="Witness I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</witness>
 					<witness xml:id="Translation">The girl who wanted to fly</witness>
 				</listWit>
 			</sourceDesc>
