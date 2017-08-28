@@ -1,0 +1,121 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Petruslied</title>
+				<author>Unknown</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Petruslied</witness>
+					<witness xml:id="Translation">Song of Peter</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Petruslied</lem>
+						<rdg wit="#Translation">Song of St. Peter</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Unsar trohtin hat farsalt sancte Petre giuualt,</lem>
+						<rdg wit="#Translation">Our Lord have given St. Peter the Power </rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">daz er mac ginerian ze imo dingenten man.</lem>
+						<rdg wit="#Translation">That he can save the people entrusted to him</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Kyrie eleyson, Christe eleyson</lem>
+						<rdg wit="#Translation">Kyrie eleyson, Christe eleyson!</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Er hapet ouh mit uuortun himilriches portun</lem>
+						<rdg wit="#Translation">He is also responsible for the gate of the heavenly kingdom</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">dar in mach er skerian den er uuili nerian.</lem>
+						<rdg wit="#Translation">For he can allow entry to those he wants to save</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Kyrie eleyson, Christe eleyson</lem>
+						<rdg wit="#Translation">Kyrie eleyson, Christe eleyson!</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Pittemes den got trut alla samant uparlut,</lem>
+						<rdg wit="#Translation">We ask God’s trusted one, loudly in unison,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">daz er uns firtanen giuuerdo ginanden.</lem>
+						<rdg wit="#Translation">that he may grant us lost grace.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Kyrie eleyson, Christe eleyson</lem>
+						<rdg wit="#Translation">Kyrie eleyson, Christe eleyson!</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
