@@ -1,0 +1,718 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La Pucele qui vouloit voler</title>
+				<author>Anonymous</author>
+			</titleStmt>
+			<respStmt>
+				<resp>Transcription by</resp>
+				<name>J.Th. Verhulsdonck</name>
+			</respStmt>
+			<respStmt>
+				<resp>Translation by</resp>
+				<name>Michael Widner</name>
+			</respStmt>
+			<respStmt>
+				<resp>Digital Transcription by</resp>
+				<name>Clara Romani</name>
+			</respStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>
+					Paris, Bibliothèque nationale de France, français 1593, Anc. 7615
+					Bern, Burgerbibliothek, Cod. 354
+					Paris, Bibliothèque nationale de France, français, 25545, f. 4vb-5vb
+					http://www.e-codices.unifr.ch/en/searchresult/list/one/bbb/0354
+					http://gallica.bnf.fr/ark:/12148/btv1b10525826x/f18.image.r
+					http://gallica.bnf.fr/ark:/12148/btv1b6000803p/f383.item.r
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Critical Text">La pucele qui vouloit voler</witness>
+					<witness xml:id="Witness E">De la pucelle qui vouloit voler</witness>
+					<witness xml:id="Witness B">De la damoisele qui uost voler</witness>
+					<witness xml:id="Witness I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</witness>
+					<witness xml:id="Translation">The girl who wanted to fly</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"La pucele qui vouloit voler" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+					Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.
+				</interpretation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<lg type="poem">
+				<l n="1">
+					<app>
+						<lem wit="#Critical Text">D'une'damoisele vos voil</lem>
+						<rdg wit="#Witness B">D'une damoisele uos uoil</rdg>
+						<rdg wit="#Witness E">(D)'une pucele dire uoil</rdg>
+						<rdg wit="#Witness I">D'vne damoisele vos veul</rdg>
+						<rdg wit="#Translation">About a lady I want</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Critical Text">Conter c'onques ne virent oil</lem>
+						<rdg wit="#Translation">To tell you, eyes have never seen</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Critical Text">Si bele com ele estoit,</lem>
+						<rdg wit="#Translation">One as beloved as she,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Critical Text">Et de biauté grant los avoit.</lem>
+						<rdg wit="#Translation">And she had great beauty.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Critical Text">De riches clers, de chevaliers,</lem>
+						<rdg wit="#Translation">By rich clerics, by knights,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Critical Text">Et de bourjois et d'escuiers</lem>
+						<rdg wit="#Translation">And by bourgeois and squires</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Critical Text">Estoit totes eures requise,</lem>
+						<rdg wit="#Translation">She was beseeched at all hours,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Critical Text">Mes ne voloit en nule guise</lem>
+						<rdg wit="#Translation">But she did not in any way</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Critical Text">La priere a nul escouter.</lem>
+						<rdg wit="#Translation">Want to hear their prayers.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Critical Text">Un jor dit qu'el voudroit voler.</lem>
+						<rdg wit="#Translation">One day she said that she would like to fly.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Critical Text">Sachiez que plusors genz l'öirent:</lem>
+						<rdg wit="#Translation">You know, several people heard her:</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Critical Text">A mervelles s'en esbaïrent.</lem>
+						<rdg wit="#Translation">They were marvelously shocked by it.</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Critical Text">Eles li firent damoisel</lem>
+						<rdg wit="#Translation">They courted her with</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Critical Text">De cire et de pennes d'oisel;</lem>
+						<rdg wit="#Translation">Wax and bird feathers;</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Critical Text">As braz et as costez li mistrent,</lem>
+						<rdg wit="#Translation">They put it on her sides and arms,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Critical Text">Et, ce sachiez, mout s'entremistrent</lem>
+						<rdg wit="#Translation">And, you know, they greatly concerned themselves</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Critical Text">De li cointement acesmer:</lem>
+						<rdg wit="#Translation">To adjust it carefully:</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Critical Text">Mais ainz por ce ne pot voler.</lem>
+						<rdg wit="#Translation">But for all that she could not fly.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Critical Text">Uns clers li dist: "Ce ne valt rien,</lem>
+						<rdg wit="#Translation">A cleric said to her: "This won't work,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Critical Text">Damoisele, ce sachiez bien!</lem>
+						<rdg wit="#Translation">Lady, you know it well!</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Critical Text">Il vos convendra atorner</lem>
+						<rdg wit="#Translation">It will serve you better to dress</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Critical Text">Autrement se volez voler:</lem>
+						<rdg wit="#Translation">Differently if you want to fly:</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Critical Text">Que bec vos convendra avoir</lem>
+						<rdg wit="#Translation">You need to have a beak</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Critical Text">Et queue, ce sachiez de voir,</lem>
+						<rdg wit="#Translation">And a tail, you know in truth,</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Critical Text">Que nus oisaus sans ce ne vole.</lem>
+						<rdg wit="#Translation">That no birds fly without these.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Critical Text">— Je gree bien ceste parole,</lem>
+						<rdg wit="#Translation">-- I agree with what you say,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Critical Text">Fait la pucele, et je l'otroi.</lem>
+						<rdg wit="#Translation">Said the girl, and I agree to it.</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Critical Text">Qui fera ce? Dites lou moi!</lem>
+						<rdg wit="#Translation">Who will do it? Tell me!</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Critical Text">— Damoisele, fet il, je sui!</lem>
+						<rdg wit="#Translation">-- Lady, he said, I will!</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Critical Text">Se vos commandez, encor hui</lem>
+						<rdg wit="#Translation">If you ask, even today</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Critical Text">Vos cuit je fere plus bel bec</lem>
+						<rdg wit="#Translation">I will make you the most beautiful beak</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Critical Text">Et miaus fet que n'a nul espec;</lem>
+						<rdg wit="#Translation">And better than any woodpecker's;</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Critical Text">Plus bele qeue vos ferai</lem>
+						<rdg wit="#Translation">A more beautiful tail I will make you</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Critical Text">Que poons, que ja n'i faudrai!"</lem>
+						<rdg wit="#Translation">Than a peacock, I will not fail!"</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Critical Text">A tant en une chanbre entrerent</lem>
+						<rdg wit="#Translation">So they went into a room</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Critical Text">En l'uis sor aus mout bien fermerent.</lem>
+						<rdg wit="#Translation">And shut the door firmly behind them.</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Critical Text">Li clers en un lit la cocha:</lem>
+						<rdg wit="#Translation">The cleric threw her on a bed:</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Critical Text">Plus de trente fois la besa.</lem>
+						<rdg wit="#Translation">And kissed her more than thirty times.</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Critical Text">Ele demande que c'estoit;</lem>
+						<rdg wit="#Translation">She asked what this was;</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Critical Text">Il dit que lou bec li faisoit.</lem>
+						<rdg wit="#Translation">He said that he was making her a beak.</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Critical Text">"Fet lo l'en donc en tel maniere?</lem>
+						<rdg wit="#Translation">"So, you make one like this?</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Critical Text">— Oïl, tornez vos par derriere,</lem>
+						<rdg wit="#Translation">-- Yes, turn your bottom around</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Critical Text">Que la coe i enterai.</lem>
+						<rdg wit="#Translation">So I can place the tail.</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Critical Text">—Danz clers, fet ele, je ferai</lem>
+						<rdg wit="#Translation">-- Sir cleric, she said, I will do</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Critical Text">Tot ce que vos m'ensaigneroiz,</lem>
+						<rdg wit="#Translation">Everything you teach me,</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Critical Text">Mes gardez que vos n'i failloiz!"</lem>
+						<rdg wit="#Translation">But be careful you don't mess up there!"</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Critical Text">Cele se torne a estupons.</lem>
+						<rdg wit="#Translation">She then got on her hands and knees.</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Critical Text">Il li enbat jusqu'as coillons</lem>
+						<rdg wit="#Translation">He beat his cock in her cunt</rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Critical Text">Lo vit el con, sanz contredit.</lem>
+						<rdg wit="#Translation">Up to his balls, without objection.</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Critical Text">Et la damoisele li dit</lem>
+						<rdg wit="#Translation">And the lady spoke to him</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Critical Text">Et demande comment ce vet:</lem>
+						<rdg wit="#Translation">And asked what he was doing:</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Critical Text">Il dit que sa coe li fet.</lem>
+						<rdg wit="#Translation">He said he was making her tail.</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Critical Text">"Danz clers, fait el, or esploitiez!</lem>
+						<rdg wit="#Translation">"Sir cleric, she said, hurry up now!</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Critical Text">Botez parfont, si l'atachiez</lem>
+						<rdg wit="#Translation">Push it in deep, and attach it</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Critical Text">Si fermement qu'ele ne chiee.</lem>
+						<rdg wit="#Translation">So strongly that it won't get shat out.</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Critical Text">Je seré si aparrelliee,</lem>
+						<rdg wit="#Translation">I will be so adorned</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Critical Text">Quant je vos departirai,</lem>
+						<rdg wit="#Translation">When I leave you</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Critical Text">Bien cuit que je voler porrai."</lem>
+						<rdg wit="#Translation">I know well that I will be able to fly."</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Critical Text">Et li clers bote adés en l'angle,</lem>
+						<rdg wit="#Translation">And the cleric continued to push it all the way in,</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Critical Text">Cui il n'est gaires de sa jangle.</lem>
+						<rdg wit="#Translation">He was not far from his orgasm.</rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Critical Text">Quant ot de li fet son talant,</lem>
+						<rdg wit="#Translation">When he had from her what he wanted,</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Critical Text">Et lit s'asist demaintenant</lem>
+						<rdg wit="#Translation">He sat down on the bed</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Critical Text">Et la damoisele lez lui.</lem>
+						<rdg wit="#Translation">With the lady next to him.</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Critical Text">"Danz clers, fet ele, don n'iert hui</lem>
+						<rdg wit="#Translation">"Sir cleric, she said, won't it be today</rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Critical Text">Ceste qeue tote parfete?</lem>
+						<rdg wit="#Translation">That this tail is complete?</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Critical Text">Fetes la tost, que mout me hete!"</lem>
+						<rdg wit="#Translation">Do it all, I'm in a big hurry!"</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Critical Text">La boche li bese et la face,</lem>
+						<rdg wit="#Translation">She kissed his mouth and face,</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Critical Text">Et si li prie que il face</lem>
+						<rdg wit="#Translation">And so beseeched him to make</rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Critical Text">La qeue tost, se Dieus l'i salt.</lem>
+						<rdg wit="#Translation">All the tail, God willing.</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Critical Text">"Do bec, fet ele, ne me chalt:</lem>
+						<rdg wit="#Translation">"The beak," she said, "doesn't matter to me:</rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Critical Text">Ce puet assez metre en respit!"</lem>
+						<rdg wit="#Translation">That you can put aside!"</rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Critical Text">De la queue li prie et dit</lem>
+						<rdg wit="#Translation">About the tail she begged him and said</rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Critical Text">Que il la face sanz demore.</lem>
+						<rdg wit="#Translation">The he should make it without delay.</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Critical Text">Li clers dist: "Se Dieus me secore,</lem>
+						<rdg wit="#Translation">The cleric said: "May God save me,</rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Critical Text">El n'iert fete devant un an.</lem>
+						<rdg wit="#Translation">It won't be done before a year.</rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Critical Text">—- Dan clers, fet el, par saint Jehan,</lem>
+						<rdg wit="#Translation">-- Sir cleric, she said, by Saint John,</rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Critical Text">Ja de moi ne departiroiz,</lem>
+						<rdg wit="#Translation">Never leave me</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Critical Text">Devant que vos fete l'avroiz!"</lem>
+						<rdg wit="#Translation">Until you've completed it!"</rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Critical Text">Il remest o la damoisele,</lem>
+						<rdg wit="#Translation">He stayed with the lady,</rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Critical Text">Car la parole li fu bele,</lem>
+						<rdg wit="#Translation">Because her words were beautiful to him,</rdg>
+					</app>
+				</l>
+				<l n="81">
+					<app>
+						<lem wit="#Critical Text">Et de la queue s'entremist:</lem>
+						<rdg wit="#Translation">And occupied himself with the tail:</rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Critical Text">Chascun jor un petit en fist.</lem>
+						<rdg wit="#Translation">Each day he made a little bit of it.</rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Critical Text">Tant l'empainst et tant i hurta</lem>
+						<rdg wit="#Translation">He thrust and banged there so much</rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Critical Text">Que la damoisele engroissa.</lem>
+						<rdg wit="#Translation">That the lady got pregnant.</rdg>
+					</app>
+				</l>
+				<l n="85">
+					<app>
+						<lem wit="#Critical Text">"Hé, dit, clers, vos m'avez gabee!</lem>
+						<rdg wit="#Translation">"Alas," she said, "cleric, you mocked me!</rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Critical Text">La queue mést el cors germee:</lem>
+						<rdg wit="#Translation">The tail germinated in my body:</rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Critical Text">Je cuit que je soie engroissiee.</lem>
+						<rdg wit="#Translation">I think I might be pregnant.</rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Critical Text">Malement m'avez engingniee:</lem>
+						<rdg wit="#Translation">So cruelly you tricked me:</rdg>
+					</app>
+				</l>
+				<l n="89">
+					<app>
+						<lem wit="#Critical Text">Je ne puis seulement aler!</lem>
+						<rdg wit="#Translation">I can barely walk!</rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Critical Text">Comment porroie je voler?</lem>
+						<rdg wit="#Translation">How will I be able to fly?</rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Critical Text">Empiriee sui durement:</lem>
+						<rdg wit="#Translation">I am much worse off:</rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Critical Text">Bien savez engignier la gent!"</lem>
+						<rdg wit="#Translation">You really know how to trick people!"</rdg>
+					</app>
+				</l>
+				<l n="93">
+					<app>
+						<lem wit="#Critical Text">Li clers li dist: "Par saint Amant,</lem>
+						<rdg wit="#Translation">The cleric said to her: "By Saint Love,</rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Critical Text">Vos m'alez a grant tort blasmant,</lem>
+						<rdg wit="#Translation">You wrongly blame me,</rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Critical Text">Que, par la foi que je vos doi,</lem>
+						<rdg wit="#Translation">Because, by the faith I owe you,</rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Critical Text">N'iestes pas descreüe en moi!</lem>
+						<rdg wit="#Translation">You were too trusting of me!</rdg>
+					</app>
+				</l>
+				<l n="97">
+					<app>
+						<lem wit="#Critical Text">Se grosse iestes, ce est nature,</lem>
+						<rdg wit="#Translation">If you are pregnant, that is nature,</rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Critical Text">Mes ce estoit grant desmesure</lem>
+						<rdg wit="#Translation">But it was very unnatural</rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Critical Text">Que par l'aire voliez voler:</lem>
+						<rdg wit="#Translation">To want to fly through the air:</rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Critical Text">Trop par en faites a blasmer,</lem>
+						<rdg wit="#Translation">You spend too much time making blame,</rdg>
+					</app>
+				</l>
+				<l n="101">
+					<app>
+						<lem wit="#Critical Text">De poi estes apesantie."</lem>
+						<rdg wit="#Translation">For the little that weighs you down."</rdg>
+					</app>
+				</l>
+				<l n="102">
+					<app>
+						<lem wit="#Critical Text">En tel maniere l'a servie</lem>
+						<rdg wit="#Translation">In this way he served her</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Critical Text">Com vos poez ici oïr.</lem>
+						<rdg wit="#Translation">As you can now hear.</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Critical Text">Et ce l'en doit bien avenir:</lem>
+						<rdg wit="#Translation">And this is the outcome that should arise:</rdg>
+					</app>
+				</l>
+				<l n="105">
+					<app>
+						<lem wit="#Critical Text">Qui otrage quiert il li vient!</lem>
+						<rdg wit="#Translation">Who seeks a wish will get it!</rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Critical Text">Por ce de ceste me sovient</lem>
+						<rdg wit="#Translation">For this reason I will remember this girl</rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Critical Text">Qui trop estoit desmesuree:</lem>
+						<rdg wit="#Translation">Who was too unreasonable:</rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Critical Text">Issi li fu la qeue entee.</lem>
+						<rdg wit="#Translation">And thus had her tail put in.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
