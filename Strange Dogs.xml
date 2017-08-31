@@ -9,53 +9,38 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Strange Dogs</title>
+				<author>Hong Mai</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Likun Yang</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Likun Yang</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p></p>
-				<p></p>
+				<witness xml:id="Transcription">犬異</witness>
+				<witness xml:id="Translation">Strange Dogs</witness>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
 				<p></p>
 			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal">
-			</variantEncoding>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -64,6 +49,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
 					<app>
