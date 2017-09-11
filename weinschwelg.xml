@@ -13,7 +13,12 @@
 				<author>Der Stricker</author>
 				<respStmt>
 					<resp>Transcriptions and Translations by</resp>
-					<name>Kathryn Starkey</name>, <name>Mae Lyons-Penner</name>, <name>Robert Forke</name>, <name>Björn K. Buschbeck</name>, <name>Kathleen Smith</name> and <name>Mareike E. Reisch</name>
+					<name>Kathryn Starkey</name>
+					<name>Mae Lyons-Penner</name>
+					<name>Robert Forke</name>
+					<name>Björn K. Buschbeck</name>
+					<name>Kathleen Smith</name>
+					<name>Mareike E. Reisch</name>
 				</respStmt>
 				<respStmt>
 					<resp>TEI encoding by</resp>
@@ -46,14 +51,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<head>
-				<title>
-					<app>
-						<lem wit="#Transcription">Der Weinschwelg</lem>
-						<rdg wit="#Translation">The Wino</rdg>
-					</app>
-				</title>
-			</head>
 		</front>
 		<body>
 
