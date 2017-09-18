@@ -52,7 +52,8 @@
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-					Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.
+        			<p>
+					Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
@@ -76,7 +77,9 @@
 				<pb ed="#Witness_E" facs="#BnF_fr1593_187r"/>
 				<pb ed="#Witness_I" facs="#BnF_fr25545_4v"/>
 				<pb ed="#Witness_I" facs="#BnF_fr25545_5r"/>
-				<fw facs="#Transcription" type="header" place="margin-topright"></fw>
+				<fw facs="#Witness_B" type="header" place="margin-topright"></fw>
+				<fw facs="#Witness_E" type="header" place="margin-topright"></fw>
+				<fw facs="#Witness_I" type="header" place="margin-topright"></fw>
 				<l n="1">
 					<app>
 						<lem wit="#Critical_Text">D'une'damoisele vos voil</lem>
@@ -1054,7 +1057,7 @@
 						<rdg wit="#Translation">So cruelly you tricked me:</rdg>
 					</app>
 				</l>
-				v<l n="129">
+				<l n="129">
 					<app>
 						<rdg wit="#Witness_E">Empiriee sui malement</rdg>
 					</app>
@@ -1083,6 +1086,7 @@
 					<app>
 						<rdg wit="#Witness_E">A paine puis ie me aler</rdg>
 					</app>
+				</l>
 				<l n="134">
 					<app>
 						<lem wit="#Critical_Text">Empiriee sui durement:</lem>
