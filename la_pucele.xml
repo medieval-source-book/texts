@@ -38,8 +38,8 @@
 			<sourceDesc>
 				<listWit>
 					<witness xml:id="Critical Text">La pucele qui vouloit voler</witness>
-					<witness xml:id="Witness E">De la pucelle qui vouloit voler</witness>
 					<witness xml:id="Witness B">De la damoisele qui uost voler</witness>
+					<witness xml:id="Witness E">De la pucelle qui vouloit voler</witness>
 					<witness xml:id="Witness I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</witness>
 					<witness xml:id="Translation">The girl who wanted to fly</witness>
 				</listWit>
@@ -58,9 +58,25 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic url="Bern_43r.jpeg" xml:id="Bern_43r"/>
+		<graphic url="Bern_43v.jpeg" xml:id="Bern_43v"/>
+		<graphic url="Bern_44r.jpeg" xml:id="Bern_44r"/>
+		<graphic url="BnF_fr25545_4v.jpeg" xml:id="BnF_fr25545_4v"/>
+		<graphic url="BnF_fr25545_5r.jpeg" xml:id="BnF_fr25545_5r"/>
+		<graphic url="BnF_fr25545_5v.jpeg" xml:id="BnF_fr25545_5v"/>
+		<graphic url="BnF_fr1593_187r.jpeg" xml:id="BnF_fr1593_187r"/>
+		<graphic url="BnF_fr1593_187v.jpeg" xml:id="BnF_fr1593_187v"/>
+		<graphic url="BnF_fr1593_188r.jpeg" xml:id="BnF_fr1593_188r"/>
+	</facsimile>
 	<text>
 		<body>
 			<lg type="poem">
+				<pb ed="#Witness B" facs="#Bern_43r"/>
+				<pb ed="#Witness E" facs="#BnF_fr1593_187r"/>
+				<pb ed="#Witness I" facs="#BnF_fr25545_4v"/>
+				<pb ed="#Witness I" facs="#BnF_fr25545_5r"/>
+				<fw facs="#Transcription" type="header" place="margin-topright"></fw>
 				<l n="1">
 					<app>
 						<lem wit="#Critical Text">D'une'damoisele vos voil</lem>
@@ -171,6 +187,7 @@
 						<rdg wit="#Translation">You know, several people heard her:</rdg>
 					</app>
 				</l>
+				<pb ed="#Witness E" facs="#BnF_fr1593_187v"/>
 				<l n="14">
 					<app>
 						<lem wit="#Critical Text">A mervelles s'en esbaïrent.</lem>
@@ -517,6 +534,7 @@
 						<rdg wit="#Translation">-- Yes, turn your bottom around</rdg>
 					</app>
 				</l>
+				<pb ed="#Witness B" facs="#Bern_43v"/>
 				<l n="59">
 					<app>
 						<lem wit="#Critical Text">Que la coe i enterai.</lem>
@@ -709,6 +727,7 @@
 						<lem wit="Witness I">Et pence de sa coe faire</lem>
 					</app>
 				</l>
+				<pb ed="#Witness I" facs="#BnF_fr25545_5v"/>
 				<l n="84">
 					<app>
 						<lem wit="Witness I">Ne li chaut gaires c'ele hoingne</lem>
@@ -1120,6 +1139,7 @@
 						<rdg wit="#Translation">Because, by the faith I owe you,</rdg>
 					</app>
 				</l>
+				<pb ed="#Witness E" facs="#BnF_fr1593_188r"/>
 				<l n="142">
 					<app>
 						<lem wit="#Critical Text">N'iestes pas descreüe en moi!</lem>
@@ -1185,6 +1205,7 @@
 						<rdg wit="#Translation">In this way he served her</rdg>
 					</app>
 				</l>
+				<pb ed="#Witness B" facs="#Bern_44r"/>
 				<l n="150">
 					<app>
 						<lem wit="#Critical Text">Com vos poez ici oïr.</lem>
