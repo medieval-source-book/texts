@@ -384,46 +384,22 @@
 						<rdg wit="#Translation">Than a peacock, I will not fail!"</rdg>
 					</app>
 				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Tout pres de'faire vo seruise</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Bel et bien a vostre deuise</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">A voler bien vous aprandrai</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Car l'art dou faire bien en sai</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Bec. eles. et coe vos faut</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Por vous faire voler en haut</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Et bien les conuient atachier</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<rdg wit="#Witness_I">Por vos en l'air faire voler</rdg>
-					</app>
-				</l>
+				<app>
+					<rdg wit="#Witness_I">
+						<l>Tout pres de'faire vo seruise</l>
+						<l>Bel et bien a vostre deuise</l>
+						<l>A voler bien vous aprandrai</l>
+						<l>Car l'art dou faire bien en sai</l>
+						<l>Bec. eles. et coe vos faut
+							<note type="critical">
+								<p>Witness I has numerous extra lines that are not attested to in other manuscripts. Here, six couplets are added that describe how the clerk will fashion a beak (bec), wings (eles), and a tail (coe). The editors of the NRCF note that the structure of the story is weakened by the addition of this detail because, apparently, the scribe forgot that the girl had already been given wings by another young man (p. 337).</p>
+							</note>
+						</l>
+						<l>Por vous faire voler en haut</l>
+						<l>Et bien les conuient atachier</l>
+						<l>Por vos en l'air faire voler</l>
+					</rdg>
+				</app>
 				<l n="35">
 					<app>
 						<lem wit="#Critical_Text">A tant en une chanbre entrerent</lem>
@@ -442,7 +418,7 @@
 						<rdg wit="#Translation">And shut the door firmly behind them.</rdg>
 					</app>
 				</l>
-				<l n="45">
+				<l n="37">
 					<app>
 						<lem wit="#Critical_Text">Li clers en un lit la cocha:</lem>
 						<rdg wit="#Witness_B">Li'clers en .i. lit la'cocha</rdg>
@@ -451,16 +427,16 @@
 						<rdg wit="#Translation">The cleric threw her on a bed:</rdg>
 					</app>
 				</l>
-				<l n="46">
+				<l n="38">
 					<app>
 						<lem wit="#Critical_Text">Plus de trente fois la besa.</lem>
 						<rdg wit="#Witness_B">Plus de .xxx. fois la'besa</rdg>
-						<rdg wit="#Witness_E">Plus de .xxx. fois la baisa</rdg>
+						<rdg wit="#Witness_E">Plus de .xxx. foiz la baisa</rdg>
 						<rdg wit="#Witness_I">Et par maintes fois la baisa</rdg>
 						<rdg wit="#Translation">And kissed her more than thirty times.</rdg>
 					</app>
 				</l>
-				<l n="47">
+				<l n="39">
 					<app>
 						<lem wit="#Critical_Text">Ele demande que c'estoit;</lem>
 						<rdg wit="#Witness_B">Ele demande que c'estoit</rdg>
