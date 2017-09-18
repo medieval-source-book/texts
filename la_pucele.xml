@@ -52,8 +52,7 @@
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>
-					Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
@@ -82,8 +81,8 @@
 				<fw facs="#Witness_I" type="header" place="margin-topright"></fw>
 				<l n="1">
 					<app>
-						<lem wit="#Critical_Text">D'une'damoisele vos voil</lem>
-						<rdg wit="#Witness_B">D'une damoisele uos uoil</rdg>
+						<lem wit="#Critical_Text">D'une damoisele vos voil</lem>
+						<rdg wit="#Witness_B">D'une'damoisele uos uoil</rdg>
 						<rdg wit="#Witness_E">(D)'une pucele dire uoil</rdg>
 						<rdg wit="#Witness_I">D'vne damoisele vos veul</rdg>
 						<rdg wit="#Translation">About a lady I want</rdg>
@@ -92,7 +91,7 @@
 				<l n="2">
 					<app>
 						<lem wit="#Critical_Text">Conter c'onques ne virent oil</lem>
-						<rdg wit="#Witness_B">Conter c'onuques ne'uirent oil</rdg>
+						<rdg wit="#Witness_B">Conter c'onques ne'uirent oil</rdg>
 						<rdg wit="#Witness_E">Que onques ne virent mi oil</rdg>
 						<rdg wit="#Witness_I">Conter. c'onques ne virent eul</rdg>
 						<rdg wit="#Translation">To tell you, eyes have never seen</rdg>
@@ -127,7 +126,7 @@
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Critical_Text">Et de bourjois et d'escuiers</lem>
+						<lem wit="#Critical_Text">Et de borjois et d'escuiers</lem>
 						<rdg wit="#Witness_B">Et de boriois et'd'escuiers</rdg>
 						<rdg wit="#Witness_E">De borgois et des cheualiers</rdg>
 						<rdg wit="#Witness_I">Et de bourgois. et d'escuiers</rdg>
@@ -170,19 +169,19 @@
 						<rdg wit="#Translation">One day she said that she would like to fly.</rdg>
 					</app>
 				</l>
-				<l n="11">
+				<l>
 					<app>
 						<rdg wit="#Witness_E">Volentiers par mi l'air la sus</rdg>
 						<rdg wit="#Witness_I">Volentiers parmi l'air laissus</rdg>
 					</app>
 				</l>
-				<l n="12">
+				<l>
 					<app>
 						<rdg wit="#Witness_E">Ausi come fist dedalus</rdg>
 						<rdg wit="#Witness_I">Si bien com vns oisiaus ou plus</rdg>
 					</app>
 				</l>
-				<l n="13">
+				<l n="11">
 					<app>
 						<lem wit="#Critical_Text">Sachiez que plusors genz l'öirent:</lem>
 						<rdg wit="#Witness_B">Sachiez que plusors genz l'oirent.</rdg>
@@ -191,15 +190,15 @@
 					</app>
 				</l>
 				<pb ed="#Witness_E" facs="#BnF_fr1593_187v"/>
-				<l n="14">
+				<l n="12">
 					<app>
 						<lem wit="#Critical_Text">A mervelles s'en esbaïrent.</lem>
 						<rdg wit="#Witness_B">A meruelles s'en esbairent</rdg>
-						<rdg wit="#Witness_E">Qui mout fot. s'en esbahirent</rdg>
+						<rdg wit="#Witness_E">Qui mout fort. s'en esbahirent</rdg>
 						<rdg wit="#Translation">They were marvelously shocked by it.</rdg>
 					</app>
 				</l>
-				<l n="15">
+				<l n="13">
 					<app>
 						<lem wit="#Critical_Text">Eles li firent damoisel</lem>
 						<rdg wit="#Witness_B">Eles. li firent damoisel</rdg>
@@ -207,7 +206,7 @@
 						<rdg wit="#Translation">They courted her with</rdg>
 					</app>
 				</l>
-				<l n="16">
+				<l n="14">
 					<app>
 						<lem wit="#Critical_Text">De cire et de pennes d'oisel;</lem>
 						<rdg wit="#Witness_B">De'cire et'de pennes d'oisel</rdg>
@@ -215,15 +214,15 @@
 						<rdg wit="#Translation">Wax and bird feathers;</rdg>
 					</app>
 				</l>
-				<l n="17">
+				<l n="15">
 					<app>
 						<lem wit="#Critical_Text">As braz et as costez li mistrent,</lem>
-						<rdg wit="#Witness_B">As'braz et'de pennes d'oisel</rdg>
-						<rdg wit="#Witness_I">Et bras.et ens costés li mist</rdg>
+						<rdg wit="#Witness_B">As'braz et'as'costez li mistrent</rdg>
+						<rdg wit="#Witness_I">Es bras. et ens costés li mist</rdg>
 						<rdg wit="#Translation">They put it on her sides and arms,</rdg>
 					</app>
 				</l>
-				<l n="18">
+				<l n="16">
 					<app>
 						<lem wit="#Critical_Text">Et, ce sachiez, mout s'entremistrent</lem>
 						<rdg wit="#Witness_B">Et ce sachiez mout s'entremistrent</rdg>
@@ -231,7 +230,7 @@
 						<rdg wit="#Translation">And, you know, they greatly concerned themselves</rdg>
 					</app>
 				</l>
-				<l n="19">
+				<l n="17">
 					<app>
 						<lem wit="#Critical_Text">De li cointement acesmer:</lem>
 						<rdg wit="#Witness_B">De'li cointement acesmer</rdg>
@@ -239,7 +238,7 @@
 						<rdg wit="#Translation">To adjust it carefully:</rdg>
 					</app>
 				</l>
-				<l n="20">
+				<l n="18">
 					<app>
 						<lem wit="#Critical_Text">Mais ainz por ce ne pot voler.</lem>
 						<rdg wit="#Witness_B">Mens ainz por'ce ne pot uoler</rdg>
@@ -247,7 +246,7 @@
 						<rdg wit="#Translation">But for all that she could not fly.</rdg>
 					</app>
 				</l>
-				<l n="21">
+				<l n="19">
 					<app>
 						<lem wit="#Critical_Text">Uns clers li dist: "Ce ne valt rien,</lem>
 						<rdg wit="#Witness_B">.J. clers li dist ce'ne'ualt rien</rdg>
@@ -256,7 +255,7 @@
 						<rdg wit="#Translation">A cleric said to her: "This won't work,</rdg>
 					</app>
 				</l>
-				<l n="22">
+				<l n="20">
 					<app>
 						<lem wit="#Critical_Text">Damoisele, ce sachiez bien!</lem>
 						<rdg wit="#Witness_B">Damoisele ce sachiez bien</rdg>
