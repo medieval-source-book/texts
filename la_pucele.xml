@@ -53,6 +53,8 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>When lines from one manuscript witness appear to be related closely to lines in another, regardless of order, they have been connected in the critical apparatus. For example, see B l.80, E l.75, an I l.91, in which the language between E and I match each other, but the sense matches that of B, which is the primary source of the critical text.</p>
+        			<p>Critical notes throughout rely on the commentary found in the NRCF.</p>
 				</interpretation>
 				<segmentation>
 					<p>Each witness has been encoded line-by-line, with line numbers remaining consistent within each witness. Links have been established across witnesses through paralell segmentation.</p>
@@ -503,567 +505,362 @@
 						<rdg wit="#Translation">Push it in deep, and attach it</rdg>
 					</app>
 				</l>
-				<l n="76">
-					<app>
+				<l n="55">
+					<app loc="l55">
 						<lem wit="#Critical_Text">Si fermement qu'ele ne chiee.</lem>
 						<rdg wit="#Witness_B">Si'fermement qu'ele ne chiee</rdg>
-						<rdg wit="#Witness_E">Si fermement qué;e ne chie</rdg>
-						<rdg wit="#Witness_I">Si tres forment qu'ele ne chiee</rdg>
 						<rdg wit="#Translation">So strongly that it won't get shat out.</rdg>
 					</app>
 				</l>
-				<l n="77">
-					<app>
+				<l n="56">
+					<app loc="l56">
 						<lem wit="#Critical_Text">Je seré si aparrelliee,</lem>
 						<rdg wit="#Witness_B">Je'seré si aparrelliee</rdg>
-						<rdg wit="#Witness_E">Je serai si apareillie</rdg>
-						<rdg wit="#Witness_I">Ja serai si apparilliee</rdg>
 						<rdg wit="#Translation">I will be so adorned</rdg>
 					</app>
 				</l>
-				<l n="78">
-					<app>
+				<l n="57">
+					<app loc="l57">
 						<lem wit="#Critical_Text">Quant je vos departirai,</lem>
 						<rdg wit="#Witness_B">Quant ie de'uos departirai</rdg>
-						<rdg wit="#Witness_E">Que de vos me departirai</rdg>
-						<rdg wit="#Witness_I">Quant ie de vous departirai</rdg>
 						<rdg wit="#Translation">When I leave you</rdg>
 					</app>
 				</l>
-				<l n="79">
-					<app>
+				<l n="58">
+					<app loc="l58">
 						<lem wit="#Critical_Text">Bien cuit que je voler porrai."</lem>
 						<rdg wit="#Witness_B">Bien cuit que ie uoler porrai</rdg>
-						<rdg wit="#Witness_E">Je cuit que'bien uoler porrai</rdg>
-						<rdg wit="#Witness_I">Que bien croi que ie volerai</rdg>
 						<rdg wit="#Translation">I know well that I will be able to fly."</rdg>
 					</app>
 				</l>
-				<l n="80">
-					<app>
+				<l n="59">
+					<app loc="l59">
 						<lem wit="#Critical_Text">Et li clers bote adés en l'angle,</lem>
 						<rdg wit="#Witness_B">Et li clers bote adés en l'angle</rdg>
-						<rdg wit="#Witness_E">Et li clers boute iusqu'en l'angle</rdg>
 						<rdg wit="#Translation">And the cleric continued to push it all the way in,</rdg>
 					</app>
 				</l>
-				<l n="81">
-					<app>
+				<l n="60">
+					<app loc="l60">
 						<lem wit="#Critical_Text">Cui il n'est gaires de sa jangle.</lem>
 						<rdg wit="#Witness_B">Cui il n'est gaires de sa iangle</rdg>
-						<rdg wit="#Witness_E">Ne li chaut gueres de sa iangle</rdg>
 						<rdg wit="#Translation">He was not far from his orgasm.</rdg>
 					</app>
 				</l>
-				<l n="82">
-					<app>
-						<lem wit="Witness_I">Li clers etent a'son affaire</lem>
-					</app>
-				</l>
-				<l n="83">
-					<app>
-						<lem wit="Witness_I">Et pence de sa coe faire</lem>
-					</app>
-				</l>
-				<pb ed="#Witness_I" facs="#BnF_fr25545_5v"/>
-				<l n="84">
-					<app>
-						<lem wit="Witness_I">Ne li chaut gaires c'ele hoingne</lem>
-					</app>
-				</l>
-				<l n="85">
-					<app>
-						<lem wit="Witness_I">Mout bien entant a sa besoingne</lem>
-					</app>
-				</l>
-				<l n="86">
-					<app>
+				<l n="61">
+					<app loc="l61">
 						<lem wit="#Critical_Text">Quant ot de li fet son talant,</lem>
 						<rdg wit="#Witness_B">Quant ot de'li fet son talant</rdg>
-						<rdg wit="#Witness_E">Quant de li ot fet son talent</rdg>
-						<rdg wit="#Witness_I">Quant il ot fait tout son talent</rdg>
 						<rdg wit="#Translation">When he had from her what he wanted,</rdg>
 					</app>
 				</l>
-				<l n="87">
-					<app>
+				<l n="62">
+					<app loc="l62">
 						<lem wit="#Critical_Text">Et lit s'asist demaintenant</lem>
 						<rdg wit="#Witness_B">Et lit s'asist demaintenant</rdg>
-						<rdg wit="#Witness_E">Lez li sásist cortoisement</rdg>
-						<rdg wit="#Witness_I">En lit s'acist tost erremment</rdg>
 						<rdg wit="#Translation">He sat down on the bed</rdg>
 					</app>
 				</l>
-				<l n="88">
-					<app>
+				<l n="63">
+					<app loc="l63">
 						<lem wit="#Critical_Text">Et la damoisele lez lui.</lem>
 						<rdg wit="#Witness_B">Et la damoisele lez lui</rdg>
-						<rdg wit="#Witness_E">Et la damoisele lez lui</rdg>
-						<rdg wit="#Witness_I">Et la damoisele lez lui</rdg>
 						<rdg wit="#Translation">With the lady next to him.</rdg>
 					</app>
 				</l>
-				<l n="89">
-					<app>
+				<l n="64">
+					<app loc="l64">
 						<lem wit="#Critical_Text">"Danz clers, fet ele, don n'iert hui</lem>
 						<rdg wit="#Witness_B">Danz clers fet ele don n'iert huj</rdg>
-						<rdg wit="#Witness_E">Dans clers dit ele ce n'iert hui</rdg>
-						<rdg wit="#Witness_I">Dans clers dist ele donc nért hui</rdg>
 						<rdg wit="#Translation">"Sir cleric, she said, won't it be today</rdg>
 					</app>
 				</l>
-				<l n="90">
-					<app>
+				<l n="65">
+					<app loc="l65">
 						<lem wit="#Critical_Text">Ceste qeue tote parfete?</lem>
 						<rdg wit="#Witness_B">Ceste qeue tote parfete</rdg>
-						<rdg wit="#Witness_E">Toute ceste queue parfete</rdg>
-						<rdg wit="#Witness_I">Toute ceste coe parfaite</rdg>
 						<rdg wit="#Translation">That this tail is complete?</rdg>
 					</app>
 				</l>
-				<l n="91">
-					<app>
+				<l n="66">
+					<app loc="l66">
 						<lem wit="#Critical_Text">Fetes la tost, que mout me hete!"</lem>
 						<rdg wit="#Witness_B">Fetes la tost que mout me'hete</rdg>
-						<rdg wit="#Witness_E">Fetes la tost. car mout me hete</rdg>
-						<rdg wit="#Witness_I">Fait la tost car mout me haite</rdg>
 						<rdg wit="#Translation">Do it all, I'm in a big hurry!"</rdg>
 					</app>
 				</l>
-				<l n="92">
-					<app>
+				<l n="67">
+					<app loc="l67">
 						<lem wit="#Critical_Text">La boche li bese et la face,</lem>
 						<rdg wit="#Witness_B">La'boche'li bese et la face</rdg>
-						<rdg wit="#Witness_E">En la bouche et en la face</rdg>
 						<rdg wit="#Translation">She kissed his mouth and face,</rdg>
 					</app>
 				</l>
-				<l n="93">
-					<app>
+				<l n="68">
+					<app loc="l68">
 						<lem wit="#Critical_Text">Et si li prie que il face</lem>
 						<rdg wit="#Witness_B">Et si'li prie que il face</rdg>
-						<rdg wit="#Witness_E">La baise et li dit que face</rdg>
 						<rdg wit="#Translation">And so beseeched him to make</rdg>
 					</app>
 				</l>
-				<l n="94">
-					<app>
+				<l n="69">
+					<app loc="l69">
 						<lem wit="#Critical_Text">La qeue tost, se Dieus l'i salt.</lem>
 						<rdg wit="#Witness_B">La'qeue tost se'dieus'l'i salt</rdg>
-						<rdg wit="#Witness_E">La queue tost se deus me saut</rdg>
 						<rdg wit="#Translation">All the tail, God willing.</rdg>
 					</app>
 				</l>
-				<l n="95">
-					<app>
+				<l n="70">
+					<app loc="l70">
 						<lem wit="#Critical_Text">"Do bec, fet ele, ne me chalt:</lem>
 						<rdg wit="#Witness_B">Do bec get ele ne me'chalt</rdg>
-						<rdg wit="#Witness_E">Du bec des eles ne me chaut</rdg>
-						<rdg wit="#Witness_I">Dou bec. des eles. encement</rdg>
 						<rdg wit="#Translation">"The beak," she said, "doesn't matter to me:</rdg>
 					</app>
 				</l>
-				<l n="96">
-					<app>
-						<rdg wit="#Witness_I">Ne me chaut il certes nient</rdg>
-					</app>
-				</l>
-				<l n="97">
-					<app>
+				<l n="71">
+					<app loc="l71">
 						<lem wit="#Critical_Text">Ce puet assez metre en respit!"</lem>
 						<rdg wit="#Witness_B">Ce'puet assez metre en'respit</rdg>
-						<rdg wit="#Witness_E">Je les metrai bien en respit</rdg>
 						<rdg wit="#Translation">That you can put aside!"</rdg>
 					</app>
 				</l>
-				<l n="98">
-					<app>
+				<l n="72">
+					<app loc="l72">
 						<lem wit="#Critical_Text">De la queue li prie et dit</lem>
 						<rdg wit="#Witness_B">De'la queue li prie et'dit</rdg>
-						<rdg wit="#Witness_E">De la queue li prie et dit</rdg>
-						<rdg wit="#Witness_I">De la coe sur toute rien</rdg>
 						<rdg wit="#Translation">About the tail she begged him and said</rdg>
 					</app>
 				</l>
-				<l n="99">
-					<app>
+				<l n="73">
+					<app loc="l73">
 						<lem wit="#Critical_Text">Que il la face sanz demore.</lem>
 						<rdg wit="#Witness_B">Que il la'face sanz demore</rdg>
-						<rdg wit="#Witness_E">Que il la face sanz demure</rdg>
 						<rdg wit="#Translation">The he should make it without delay.</rdg>
 					</app>
 				</l>
-				<l n="100">
-					<app>
-						<rdg wit="#Witness_I">Vos pri. que vous l'atachiez bien</rdg>
-					</app>
-				</l>
-				<l n="101">
-					<app>
-						<rdg wit="#Witness_I">Damoisele par saint amant</rdg>
-					</app>
-				</l>
-				<l n="102">
-					<app>
+				<l n="74">
+					<app loc="l74">
 						<lem wit="#Critical_Text">Li clers dist: "Se Dieus me secore,</lem>
 						<rdg wit="#Witness_B">Li'clers dist se dieus'me'secore</rdg>
-						<rdg wit="#Witness_E">Li clers dit se deus me sequeure</rdg>
 						<rdg wit="#Translation">The cleric said: "May God save me,</rdg>
 					</app>
 				</l>
-				<l n="103">
-					<app>
+				<l n="75">
+					<app loc="l75">
 						<lem wit="#Critical_Text">El n'iert fete devant un an.</lem>
 						<rdg wit="#Witness_B">El'n'iert fete deuant .i. an</rdg>
-						<rdg wit="#Witness_E">Que níert faite deuant .i. an</rdg>
-						<rdg wit="#Witness_I">Ele ne sera faite autant</rdg>
 						<rdg wit="#Translation">It won't be done before a year.</rdg>
 					</app>
 				</l>
-				<l n="104">
-					<app>
+				<l n="76">
+					<app loc="l76">
 						<lem wit="#Critical_Text">—- Dan clers, fet el, par saint Jehan,</lem>
 						<rdg wit="#Witness_B">Dan clers fet el par saint iehan</rdg>
-						<rdg wit="#Witness_E">Dans clers dit ele par saint iehan</rdg>
-						<rdg wit="#Witness_I">Clers par la foy que ie<gap quantity="6" unit="chars" reason="illegible"/>doi</rdg>
 						<rdg wit="#Translation">-- Sir cleric, she said, by Saint John,</rdg>
 					</app>
 				</l>
-				<l n="105">
-					<app>
-						<rdg wit="#Witness_I">De l'autre afaire <gap quantity="5" unit="chars" reason="illegible"/>t si poi</rdg>
-					</app>
-				</l>
-				<l n="106">
-					<app>
+				<l n="77">
+					<app loc="l77">
 						<lem wit="#Critical_Text">Ja de moi ne departiroiz,</lem>
 						<rdg wit="#Witness_B">Ja'de moi ne departiroiz</rdg>
-						<rdg wit="#Witness_E">Ja'mes de moi ne partirez</rdg>
-						<rdg wit="#Witness_I">Ja de'moi ne departirez</rdg>
 						<rdg wit="#Translation">Never leave me</rdg>
 					</app>
 				</l>
-				<l n="107">
-					<app>
+				<l n="78">
+					<app loc="l78">
 						<lem wit="#Critical_Text">Devant que vos fete l'avroiz!"</lem>
 						<rdg wit="#Witness_B">Deuant que'uos fete l'auroiz</rdg>
-						<rdg wit="#Witness_E">Deuant que fete le m'aurez</rdg>
-						<rdg wit="#Witness_I">De si que faite l'auerez</rdg>
 						<rdg wit="#Translation">Until you've completed it!"</rdg>
 					</app>
 				</l>
-				<l n="108">
-					<app>
-						<rdg wit="#Witness_I">Au cler plait mout ceste nouele</rdg>
-						<rdg wit="#Witness_E">Au clerc plut mont ceste nouele</rdg>
-					</app>
-				</l>
-				<l n="109">
-					<app>
+				<l n="79">
+					<app loc="l79">
 						<lem wit="#Critical_Text">Il remest o la damoisele,</lem>
 						<rdg wit="#Witness_B">Jl'remest o'la damoisele</rdg>
-						<rdg wit="#Witness_E">Jl remest a la damoisele</rdg>
-						<rdg wit="#Witness_I">Qu'il soit auec la damoisele</rdg>
 						<rdg wit="#Translation">He stayed with the lady,</rdg>
 					</app>
 				</l>
-				<l n="110">
-					<app>
+				<l n="80">
+					<app loc="l80">
 						<lem wit="#Critical_Text">Car la parole li fu bele,</lem>
 						<rdg wit="#Witness_B">Car la parole li fu bele</rdg>
 						<rdg wit="#Translation">Because her words were beautiful to him,</rdg>
 					</app>
 				</l>
-				<l n="111">
-					<app>
+				<l n="81">
+					<app loc="l81">
 						<lem wit="#Critical_Text">Et de la queue s'entremist:</lem>
 						<rdg wit="#Witness_B">Et de'la queue d'entremist</rdg>
-						<rdg wit="#Witness_I">De'la coe mout s'entremist</rdg>
 						<rdg wit="#Translation">And occupied himself with the tail:</rdg>
 					</app>
 				</l>
-				<l n="112">
-					<app>
+				<l n="82">
+					<app loc="l82">
 						<lem wit="#Critical_Text">Chascun jor un petit en fist.</lem>
 						<rdg wit="#Witness_B">Chascun ior .i. petit en'fist</rdg>
-						<rdg wit="#Witness_I">Chascun iour. vn petit en fist</rdg>
 						<rdg wit="#Translation">Each day he made a little bit of it.</rdg>
 					</app>
 				</l>
-				<l n="113">
-					<app>
-						<rdg wit="#Witness_E">Tant s'entemist chacun ior</rdg>
-					</app>
-				</l>
-				<l n="114">
-					<app>
-						<rdg wit="#Witness_E">Petit et petit nuit et ior</rdg>
-					</app>
-				</l>
-				<l n="115">
-					<app>
+				<l n="83">
+					<app loc="l83">
 						<lem wit="#Critical_Text">Tant l'empainst et tant i hurta</lem>
 						<rdg wit="#Witness_B">Tant l'empaint et'tant i'hurta</rdg>
-						<rdg wit="#Witness_E">Tant i empainst tant i'bouta</rdg>
-						<rdg wit="#Witness_I">Tant il pont en tant il hurta</rdg>
 						<rdg wit="#Translation">He thrust and banged there so much</rdg>
 					</app>
 				</l>
-				<l n="116">
-					<app>
+				<l n="84">
+					<note type="critical">
+						<p>After this line, each manuscript diverges considerably. B and E stay near one another, but the order of verses is modified. I leaves out several passages that exist in B and E while adding several others that describe the situation of the pregnant girl. Because the transition in B and E from this line to the next seems rather abrupt, it's possible that the additions in I contain an echo of some verses that existed in the original manuscript, but which were lost in B and E.</p>
+					</note>
+					<app loc="l84">
 						<lem wit="#Critical_Text">Que la damoisele engroissa.</lem>
 						<rdg wit="#Witness_B">Que la damoisele engroissa</rdg>
-						<rdg wit="#Witness_E">Que la damoisele engroissa</rdg>
-						<rdg wit="#Witness_I">Que la damoisele engroissa</rdg>
 						<rdg wit="#Translation">That the lady got pregnant.</rdg>
 					</app>
 				</l>
-				<l n="117">
-					<app>
-						<rdg wit="#Witness_I">La coe li a si antee</rdg>
-					</app>
-				</l>
-				<l n="118">
-					<app>
-						<rdg wit="#Witness_I">Qu'ele est en cors enracinee</rdg>
-					</app>
-				</l>
-				<l n="119">
-					<app>
-						<rdg wit="#Witness_I">Si bien que ia n'en istera</rdg>
-					</app>
-				</l>
-				<l n="120">
-					<app>
-						<rdg wit="#Witness_I">Jusqu'a'tens. qu'el. enfentera</rdg>
-					</app>
-				</l>
-				<l n="121">
-					<app>
-						<rdg wit="#Witness_I">Cele a'la'terre se roilloit</rdg>
-					</app>
-				</l>
-				<l n="122">
-					<app>
-						<rdg wit="#Witness_I">Qui deuant ahut voler vouloit</rdg>
-					</app>
-				</l>
-				<l n="123">
-					<app>
-						<rdg wit="#Witness_I">Et se clamme lasse cheitiue</rdg>
-					</app>
-				</l>
-				<l n="124">
-					<app>
-						<rdg wit="#Witness_I">Mieus vorroit morir qu'estre uiue</rdg>
-					</app>
-				</l>
-				<l n="125">
-					<app>
+				<l n="85">
+					<app loc="l85">
 						<lem wit="#Critical_Text">"Hé, dit, clers, vos m'avez gabee!</lem>
 						<rdg wit="#Witness_B">Et dit clers uos m'auez gabee</rdg>
-						<rdg wit="#Witness_E">Lors dit clers vos m'auez gabee</rdg>
-						<rdg wit="#Witness_I">Ha dans clers vos m'auez gabee</rdg>
 						<rdg wit="#Translation">"Alas," she said, "cleric, you mocked me!</rdg>
 					</app>
 				</l>
-				<l n="126">
-					<app>
-						<lem wit="#Critical_Text">La queue mést el cors germee:</lem>
+				<l n="86">
+					<app loc="l86">
+						<lem wit="#Critical_Text">La queue m'est el cors germee:</lem>
 						<rdg wit="#Witness_B">La'queue m'est el'cors germee</rdg>
-						<rdg wit="#Witness_E">La queue m'est ou cors germee</rdg>
-						<rdg wit="#Witness_I">La coe mést ou cors <gap quantity="8" unit="chars" reason="illegible"/></rdg>
 						<rdg wit="#Translation">The tail germinated in my body:</rdg>
 					</app>
 				</l>
-				<l n="127">
-					<app>
+				<l n="87">
+					<app loc="l87">
 						<lem wit="#Critical_Text">Je cuit que je soie engroissiee.</lem>
 						<rdg wit="#Witness_B">Je'quit que'ie soie engroissiee</rdg>
-						<rdg wit="#Witness_E">Je sai bien que ie sui encainte.</rdg>
 						<rdg wit="#Translation">I think I might be pregnant.</rdg>
 					</app>
 				</l>
-				<l n="128">
-					<app>
+				<l n="88">
+					<app loc="l88">
 						<lem wit="#Critical_Text">Malement m'avez engingniee:</lem>
 						<rdg wit="#Witness_B">Malement m'auez engigniee</rdg>
-						<rdg wit="#Witness_E">Malement máuez or atainte</rdg>
 						<rdg wit="#Translation">So cruelly you tricked me:</rdg>
 					</app>
 				</l>
-				<l n="129">
-					<app>
-						<rdg wit="#Witness_E">Empiriee sui malement</rdg>
-					</app>
-				</l>
-				<l n="130">
-					<app>
-						<rdg wit="#Witness_E">Pris ai mauués amendement</rdg>
-					</app>
-				</l>
-				<l n="131">
-					<app>
+				<l n="89">
+					<app loc="l89">
 						<lem wit="#Critical_Text">Je ne puis seulement aler!</lem>
 						<rdg wit="#Witness_B">Je'ne'puis seulement aler</rdg>
 						<rdg wit="#Translation">I can barely walk!</rdg>
 					</app>
 				</l>
-				<l n="132">
-					<app>
+				<l n="90">
+					<app loc="l90">
 						<lem wit="#Critical_Text">Comment porroie je voler?</lem>
 						<rdg wit="#Witness_B">Comment porroie ie uoler</rdg>
-						<rdg wit="#Witness_E">Coment porroi ie uoler</rdg>
 						<rdg wit="#Translation">How will I be able to fly?</rdg>
 					</app>
 				</l>
-				<l n="133">
-					<app>
-						<rdg wit="#Witness_E">A paine puis ie me aler</rdg>
-					</app>
-				</l>
-				<l n="134">
-					<app>
+				<l n="91">
+					<app loc="l91">
 						<lem wit="#Critical_Text">Empiriee sui durement:</lem>
 						<rdg wit="#Witness_B">Empiriee sui durement</rdg>
 						<rdg wit="#Translation">I am much worse off:</rdg>
 					</app>
 				</l>
-				<l n="135">
-					<app>
+				<l n="92">
+					<app loc="l92">
 						<lem wit="#Critical_Text">Bien savez engignier la gent!"</lem>
 						<rdg wit="#Witness_B">Bien sauez engignier la gent</rdg>
-						<rdg wit="#Witness_I">Bien sauez engignier la gent</rdg>
 						<rdg wit="#Translation">You really know how to trick people!"</rdg>
 					</app>
 				</l>
-				<l n="136">
-					<app>
-						<rdg wit="#Witness_I">Appessantie suis forment</rdg>
-					</app>
-				</l>
-				<l n="137">
-					<app>
-						<rdg wit="#Witness_I">Ne me puis ceindre ne leuer</rdg>
-					</app>
-				</l>
-				<l n="138">
-					<app>
-						<rdg wit="#Witness_I">Or ne porrai jamais voler</rdg>
-					</app>
-				</l>
-				<l n="139">
-					<app>
+				<l n="93">
+					<app loc="l93">
 						<lem wit="#Critical_Text">Li clers li dist: "Par saint Amant,</lem>
 						<rdg wit="#Witness_B">Li'clers li dist par saint amant</rdg>
-						<rdg wit="#Witness_E">Li'clers li dit par saint amant</rdg>
-						<rdg wit="Witness_I">Damoisele par saint amant</rdg>
 						<rdg wit="#Translation">The cleric said to her: "By Saint Love,</rdg>
 					</app>
 				</l>
-				<l n="140">
-					<app>
+				<l n="94">
+					<app loc="l94">
 						<lem wit="#Critical_Text">Vos m'alez a grant tort blasmant,</lem>
 						<rdg wit="#Witness_B">Vos m'alez a'grant tort blasmant</rdg>
-						<rdg wit="#Witness_E">Vos m'alez a grant tort blamant</rdg>
-						<rdg wit="#Witness_I">Vos m'alez a grant tort blasmant</rdg>
-						<rdg wit="#Translation">You wrongly blame me,</rdg>
+						<rdg wit="#Translation">You very wrongly blame me,</rdg>
 					</app>
 				</l>
-				<l n="141">
-					<app>
+				<l n="95">
+					<app loc="l95">
 						<lem wit="#Critical_Text">Que, par la foi que je vos doi,</lem>
 						<rdg wit="#Witness_B">Que par la foi que'ie uos doi</rdg>
-						<rdg wit="#Witness_E">Que par la foy que ie vos doi</rdg>
-						<rdg wit="#Witness_I">Car par la foy que ie vous doy</rdg>
 						<rdg wit="#Translation">Because, by the faith I owe you,</rdg>
 					</app>
 				</l>
-				<pb ed="#Witness_E" facs="#BnF_fr1593_188r"/>
-				<l n="142">
-					<app>
+				<l n="96">
+					<app loc="l96">
 						<lem wit="#Critical_Text">N'iestes pas descreüe en moi!</lem>
 						<rdg wit="#Witness_B">N'iestes pas descreue en'moi</rdg>
-						<rdg wit="#Witness_E">N'iestes <add place="above">pas</add>empiriee de moi</rdg>
-						<rdg wit="#Witness_I">Ains ne recreustes de moy</rdg>
 						<rdg wit="#Translation">You were too trusting of me!</rdg>
 					</app>
 				</l>
-				<l n="143">
-					<app>
+				<l n="97">
+					<app loc="l97">
 						<lem wit="#Critical_Text">Se grosse iestes, ce est nature,</lem>
 						<rdg wit="#Witness_B">Se grosse iestes ce est nature</rdg>
-						<rdg wit="#Witness_E">Se grosse estes ce est nature</rdg>
-						<rdg wit="#Witness_I">Se grosse iestes. c'est nature</rdg>
 						<rdg wit="#Translation">If you are pregnant, that is nature,</rdg>
 					</app>
 				</l>
-				<l n="144">
-					<app>
+				<l n="98">
+					<app loc="l98">
 						<lem wit="#Critical_Text">Mes ce estoit grant desmesure</lem>
 						<rdg wit="#Witness_B">Mes ce estoit grant desmesure</rdg>
-						<rdg wit="#Witness_E">Mes ce estoit contre nature</rdg>
-						<rdg wit="#Witness_I">Mais trop estoit grant desmesure</rdg>
 						<rdg wit="#Translation">But it was very unnatural</rdg>
 					</app>
 				</l>
-				<l n="145">
-					<app>
+				<l n="99">
+					<app loc="l99">
 						<lem wit="#Critical_Text">Que par l'aire voliez voler:</lem>
 						<rdg wit="#Witness_B">Que par l'aire uoliez uoler</rdg>
-						<rdg wit="#Witness_E">Que par l'air volier voler</rdg>
-						<rdg wit="#Witness_I">Que par l'air vouliez voler</rdg>
 						<rdg wit="#Translation">To want to fly through the air:</rdg>
 					</app>
 				</l>
-				<l n="146">
-					<app>
-						<rdg wit="#Witness_E">Folement vouliez ourer</rdg>
-						<rdg wit="#Witness_I">Folement vouliez or ouurer.</rdg>
-					</app>
-				</l>
-				<l n="147">
-					<app>
+				<l n="100">
+					<app loc="l100">
 						<lem wit="#Critical_Text">Trop par en faites a blasmer,</lem>
 						<rdg wit="#Witness_B">Trop par en'faites a'blasmer</rdg>
 						<rdg wit="#Translation">You spend too much time making blame,</rdg>
 					</app>
 				</l>
-				<l n="148">
-					<app>
+				<l n="101">
+					<app loc="l101">
 						<lem wit="#Critical_Text">De poi estes apesantie."</lem>
 						<rdg wit="#Witness_B">De'poi estes apesantie</rdg>
-						<rdg wit="#Witness_E">Vn poi estes apesantie</rdg>
 						<rdg wit="#Translation">For the little that weighs you down."</rdg>
 					</app>
 				</l>
-				<l n="149">
-					<app>
+				<l n="102">
+					<app loc="l102">
 						<lem wit="#Critical_Text">En tel maniere l'a servie</lem>
 						<rdg wit="#Witness_B">En tel'maniere l'a seruie</rdg>
-						<rdg wit="#Witness_E">En tel maniere fuz seruie</rdg>
 						<rdg wit="#Translation">In this way he served her</rdg>
 					</app>
 				</l>
 				<pb ed="#Witness_B" facs="#Bern_44r"/>
-				<l n="150">
-					<app>
+				<l n="103">
+					<app loc="l103">
 						<lem wit="#Critical_Text">Com vos poez ici oïr.</lem>
 						<rdg wit="#Witness_B">Com uos poez ici oir</rdg>
-						<rdg wit="#Witness_E">Cele dont vos poez oir</rdg>
 						<rdg wit="#Translation">As you can now hear.</rdg>
 					</app>
 				</l>
-				<l n="151">
-					<app>
+				<l n="104">
+					<app loc="l104">
 						<lem wit="#Critical_Text">Et ce l'en doit bien avenir:</lem>
 						<rdg wit="#Witness_B">Et ce l'en'doit bien auenir</rdg>
-						<rdg wit="#Witness_E">Et ce l'en dut bien auenir</rdg>
 						<rdg wit="#Translation">And this is the outcome that should arise:</rdg>
 					</app>
 				</l>
-				<l n="152">
-					<app>
+				<l n="105">
+					<app loc="l105">
 						<lem wit="#Critical_Text">Qui otrage quiert il li vient!</lem>
 						<rdg wit="#Witness_B">Qui outrage quiert il'li uient</rdg>
 						<rdg wit="#Witness_E">Qui outrage quiert il li vient</rdg>
