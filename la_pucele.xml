@@ -1385,6 +1385,11 @@
 						<lem wit="#Witness_E">A cui l'auenture fu bele.</lem>
 					</app>
 				</l>
+				<l>
+					<app>
+						<lem wit="#Witness_E">Explicit.</lem>
+					</app>
+				</l>
 
 				<!-- End Witness E -->
 				<!-- Start Witness I alternate lines -->
@@ -1823,7 +1828,6 @@
 						<lem wit="#Witness_I">Appessantie suis forment</lem>
 					</app>
 				</l>
-				<pb ed="#Witness_I" facs="#BnF_fr25545_5v"/>
 				<l n="109">
 					<app>
 						<lem wit="#Witness_I">Ne me puis ceindre ne leuer</lem>
@@ -2004,6 +2008,13 @@
 						<lem wit="#Witness_I">Adonc quant lieus en iert et tens</lem>
 					</app>
 				</l>
+				<app>
+					<lem wit="#Witness_I">
+						<l>Explicit de la damoisele qui</l>
+						<l>volt voler</l>
+					</lem>
+				</app>
+
 				<!-- End Witness I -->
 				<!-- End of all variants -->
 			</lg>
