@@ -75,6 +75,17 @@
 		<graphic url="BnF_fr1593_188r.jpeg" xml:id="BnF_fr1593_188r"/>
 	</facsimile>
 	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<rdg wit="#Witness_B">De la damoisele qui uost voler</rdg>
+						<rdg wit="#Witness_E">De la pucelle qui vouloit voler</rdg>
+						<rdg wit="#Witness_I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
 		<body>
 			<lg type="poem">
 				<pb ed="#Witness_B" facs="#Bern_43r"/>
@@ -904,13 +915,13 @@
 
 				<!-- Witness E alternate line numbering -->
 				<l n="13">
-					<app>
+					<app loc="l11">
 						<rdg wit="#Witness_E">Sachiez que mout des genz l'oirent.</rdg>
 					</app>
 				</l>
 				<pb ed="#Witness_E" facs="#BnF_fr1593_187v"/>
 				<l n="14">
-					<app>
+					<app loc="l12">
 						<rdg wit="#Witness_E">Qui mout fort. s'en esbahirent</rdg>
 					</app>
 				</l>
@@ -1447,7 +1458,7 @@
 					<app>
 						<rdg wit="#Witness_I">Bec. eles. et coe vos faut
 							<note type="critical">
-								<p>Witness I has numerous extra lines that are not attested to in other manuscripts. Here, eight lines are added that describe how the clerk will fashion a beak (bec), wings (eles), and a tail (coe). The editors of the NRCF note that the structure of the story is weakened by the addition of this detail because, apparently, the scribe forgot that the girl had already been given wings by another young man (p. 337).</p>
+								<p>Witness I has numerous extra lines that are not attested to in other manuscripts. Here, eight lines are added that describe how the cleric will fashion a beak (bec), wings (eles), and a tail (coe). The editors of the NRCF note that the structure of the story is weakened by the addition of this detail because, apparently, the scribe forgot that the girl had already been given wings by another young man (p. 337).</p>
 							</note>
 						</rdg>
 					</app>
@@ -1704,7 +1715,7 @@
 					</app>
 				</l>
 				<l n="84">
-					<app loc="l54">
+					<app>
 						<rdg wit="#Witness_I">Vos pri. que vous l'atachiez bien</rdg>
 					</app>
 				</l>
