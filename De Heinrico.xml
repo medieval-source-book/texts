@@ -1,4 +1,4 @@
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
@@ -63,10 +63,8 @@
 			<lg>
 				<l n="1">
 					<app>
-					</app>
 						<lem wit="#Transcription">Nunc almus assis filius thero euuigero thiernun</lem>
-						<rdg wit="#Translation"> Now help, kind son of the eternal Virgin,
-						</rdg>
+						<rdg wit="#Translation"> Now help, kind son of the eternal Virgin,</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -83,10 +81,11 @@
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">qui cum dignitate thero Beiaro riche beuuarode.<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">who governed the realm of Bavaria with honor<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">qui cum dignitate thero Beiaro riche beuuarode.</lem>
+						<rdg wit="#Translation">who governed the realm of Bavaria with honor</rdg>
 					</app>
 				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Intrans nempe nuntius, then keisar namoda her thus:</lem>
@@ -107,27 +106,31 @@
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">dignum tibi fore thir seluemo ze sine.‹<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">that would be worthy of being your own.”<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">dignum tibi fore thir seluemo ze sine.‹</lem>
+						<rdg wit="#Translation">that would be worthy of being your own.”</rdg>
 					</app>
 				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Tunc surrexit Otdo, ther unsar keisar guodo,</lem>
 						<rdg wit="#Translation">Then Otto stood up, our good emperor,</rdg>
 					</app>
 				</l>
+				
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">perrexit illi obuiam inde uilo manig man.<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">and went towards him (Heinrich) together with many men<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">perrexit illi obuiam inde uilo manig man.</lem>
+						<rdg wit="#Translation">and went towards him (Heinrich) together with many men</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">et excepit illum mid mihilon eron.<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">And he greeted him (Heinrich) with great honor<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">et excepit illum mid mihilon eron.</lem>
+						<rdg wit="#Translation">And he greeted him (Heinrich) with great honor</rdg>
 					</app>
+				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Primitus quoque dixit: ›uuillicumo Heinrich,</lem>
@@ -142,10 +145,11 @@
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">nec non et socii, uuillicumo sid gi mi.‹<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">And to your companions, too: you are welcome to me.”<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">nec non et socii, uuillicumo sid gi mi.‹</lem>
+						<rdg wit="#Translation">And to your companions, too: you are welcome to me.”</rdg>
 					</app>
 				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Dato responso fane Heinriche so scono</lem>
@@ -160,9 +164,11 @@
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">petierunt ambo thero godes genatheno.<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">both sought for the grace of God.<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">petierunt ambo thero godes genatheno.</lem>
+						<rdg wit="#Translation">both sought for the grace of God.</rdg>
 					</app>
+				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Oramine facto intfieng ina auer Otdo,</lem>
@@ -183,10 +189,11 @@
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">preter quod regale, thes thir Heinrih ni gerade.<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"> except kingly rights, which Heinrich never coveted.<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">preter quod regale, thes thir Heinrih ni gerade.</lem>
+						<rdg wit="#Translation"> except kingly rights, which Heinrich never coveted.</rdg>
 					</app>
 				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Tunc stetit al thiu sprakha sub firmo Heinriche:</lem>
@@ -198,12 +205,14 @@
 						<lem wit="#Transcription">quicquid Otdo fecit, al geried iz Heinrih:</lem>
 						<rdg wit="#Translation">Whatever Otto did, he conferred about it with Heinrich.</rdg>
 					</app>
+				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">quicquid ac omisit, ouch geried iz Heinrihc.<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation">And whatever Otto did not do, he conferred about it with Heinrich, too.<milestone unit="stanza"/></rdg>
+						<lem wit="#Transcription">quicquid ac omisit, ouch geried iz Heinrihc.</lem>
+						<rdg wit="#Translation">And whatever Otto did not do, he conferred about it with Heinrich, too.</rdg>
 					</app>
 				</l>
+				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Hic non fuit ullus – thes hafon ig guoda fulleist</lem>
