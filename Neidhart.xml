@@ -1,4 +1,4 @@
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../../../drupalvm/www/gms/sites/all/modules/custom/vm/VersioningMachine/src/vmachine.xsl"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
@@ -35,14 +35,13 @@
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
-					<lemma xml:id="Transcription">Neidhart</lemma>
-					<witness xml:id="#Translation">Neidhart</witness>
+					<witness xml:id="Transcription">Neidhart</witness>
+					<witness xml:id="Translation">Neidhart</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<editorialDecl>
-				<p></p>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
