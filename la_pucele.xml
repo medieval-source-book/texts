@@ -38,10 +38,10 @@
 			<sourceDesc>
 				<listWit>
 					<witness xml:id="Critical_Text">La pucele qui vouloit voler</witness>
+					<witness xml:id="Translation">The girl who wanted to fly</witness>
 					<witness xml:id="Witness_B">De la damoisele qui uost voler</witness>
 					<witness xml:id="Witness_E">De la pucelle qui vouloit voler</witness>
 					<witness xml:id="Witness_I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</witness>
-					<witness xml:id="Translation">The girl who wanted to fly</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -78,6 +78,8 @@
 		<front>
 			<head>
 				<title>
+					<pb ed="#Witness_B" facs="#Bern_43r"/>
+					<pb ed="#Witness_E" facs="#BnF_fr1593_187r"/>
 					<pb ed="#Witness_I" facs="#BnF_fr25545_4v"/>
 					<app>
 						<rdg wit="#Witness_B">De la damoisele qui uost voler</rdg>
@@ -89,9 +91,6 @@
 		</front>
 		<body>
 			<lg type="poem">
-				<pb ed="#Witness_B" facs="#Bern_43r"/>
-				<pb ed="#Witness_E" facs="#BnF_fr1593_187r"/>
-				
 				<pb ed="#Witness_I" facs="#BnF_fr25545_5r"/>
 				<fw facs="#Witness_B" type="header" place="margin-topright"></fw>
 				<fw facs="#Witness_E" type="header" place="margin-topright"></fw>
