@@ -9,19 +9,19 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Ade mit layd</title>
+				<author>Erhard Oeglin</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -49,8 +49,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+					<witness xml:id="Transcription">Ade mit layd</witness>
+					<witness xml:id="Translation">Farewell! It hurts</witness>
 				</listWit>
 			</div>
 		</front>
@@ -58,8 +58,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Ade mit layd</lem>
+						<rdg wit="#Translation">Farewell! It hurts</rdg>
 					</app>
 				</title>
 			</head>

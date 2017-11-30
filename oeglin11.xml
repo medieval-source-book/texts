@@ -9,18 +9,18 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Gelück mir trost und hoffnug geit</title>
+				<author>Erhard Oeglin</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
@@ -49,8 +49,8 @@
 		<front>
 			<div>
 				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
+					<witness xml:id="Transcription">Gelück mir trost und hoffnug geit</witness>
+					<witness xml:id="Translation">Fortune grants me comfort and hope</witness>
 				</listWit>
 			</div>
 		</front>
@@ -58,8 +58,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Gelück mir trost und hoffnug geit</lem>
+						<rdg wit="#Translation">Fortune grants me comfort and hope</rdg>
 					</app>
 				</title>
 			</head>
