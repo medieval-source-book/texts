@@ -34,8 +34,12 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.15r</p>
 				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Gelück mir trost und hoffnug geit</witness>
+					<witness xml:id="Translation">Fortune grants me comfort and hope</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -47,14 +51,6 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">Gelück mir trost und hoffnug geit</witness>
-					<witness xml:id="Translation">Fortune grants me comfort and hope</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
@@ -63,6 +59,8 @@
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<div n="1">
 				<p n="1">
 					<s>

@@ -9,18 +9,18 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Hertz liebstes pyld</title>
+				<author>Erhard Oeglin</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
 				</respStmt>
 			</titleStmt>
@@ -34,8 +34,12 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.41r</p>
 				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Hertz liebstes pyld</witness>
+					<witness xml:id="Translation">Dearest sight of my heart</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -47,22 +51,16 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Hertz liebstes pyld</lem>
+						<rdg wit="#Translation">Dearest sight of my heart</rdg>
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<l n="1">
 				<app>
 					<lem wit="#Transcription">

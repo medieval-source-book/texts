@@ -9,18 +9,18 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Zucht er und lob ir wonet bey</title>
+				<author>Erhard Oeglin</author>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp></resp>
-					<name></name>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
+					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
 				</respStmt>
 			</titleStmt>
@@ -34,8 +34,12 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.43r</p>
 				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Zucht er und lob ir wonet bey</witness>
+					<witness xml:id="Translation">Grace, honor and praise are her domain</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -47,22 +51,16 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Zucht er und lob ir wonet bey</lem>
+						<rdg wit="#Translation">Grace, honor and praise are her domain</rdg>
 					</app>
 				</title>
 			</head>
+		</front>
+		<body>
 			<l n="1">
 				<app>
 					<lem wit="#Transcription">
@@ -363,14 +361,21 @@
 					</rdg>
 				</app>
 			</l>
+
+
+
 			<l n="31">
 				<app loc="l31">
-					<lem wit="#Transcription">mein gross unschult \</lem>
+					<lem wit="#Transcription">
+						mein gross unschult \
+					</lem>
 				</app>
 			</l>
 			<l n="31">
 				<app loc="l33">
-					<rdg wit="#Translation">Help me, oh my fortune</rdg>
+					<rdg wit="#Translation">
+						Help me, oh my fortune
+					</rdg>
 				</app>
 			</l>
 			<l n="32">
@@ -392,6 +397,87 @@
 				<app loc= "l31">
 					<rdg wit="#Translation">
 						my great innocence into favor;
+					</rdg>
+				</app>
+			</l>
+
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult / wenden in hult /
+					</lem>
+					<rdg wit="#Translation">
+						my great innocence into favor;
+					</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult / wenden in hult /
+					</lem>
+					<rdg wit="#Translation">
+						my great innocence into favor;
+					</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">
+						hyllff schyr mein glück 
+					</lem>
+					<rdg wit="#Translation">
+						Help me, oh, my fortune,
+					</rdg>
+				</app>
+			</l>
+
+
+
+
+mein gross unschult / durch mein gedult / wenden in hult / hyllff schyr mein glück
+
+Help me, oh my fortune, to turn, with my patience,
+My great innocence into favor;
+
+
+			<l n="30">
+				<app>
+					<lem wit="#Transcription">
+						mein gross unschult / 
+					</lem>
+					<rdg wit="#Translation">
+						
+					</rdg>
+				</app>
+			</l>
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult /
+					</lem>
+					<rdg wit="#Translation">
+						
+					</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">
+						wenden in hult /
+					</lem>
+					<rdg wit="#Translation">
+						
+					</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">
+						hyllff schyr mein glück
+					</lem>
+					<rdg wit="#Translation">
+						Help me, oh my fortune,
 					</rdg>
 				</app>
 			</l>

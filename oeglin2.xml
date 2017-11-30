@@ -52,16 +52,14 @@
 	</teiHeader>
 	<text>
 		<front>
-			<div>
-				<head>
-					<title>
-						<app>
-							<lem wit="#Transcription">Hilf fraw von Ach</lem>
-							<rdg wit="#Translation">Help, our lady of Aachen!</rdg>
-						</app>
-					</title>
-				</head>	
-			</div>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Hilf fraw von Ach</lem>
+						<rdg wit="#Translation">Help, our lady of Aachen!</rdg>
+					</app>
+				</title>
+			</head>	
 		</front>
 		<body>
 			<div n="1">
