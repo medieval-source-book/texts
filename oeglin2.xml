@@ -20,8 +20,20 @@
 					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Jordan Rosen-Kaplan</name>
+					<resp>Introduction and critical notes by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Digital edition prepared by</resp>
+					<name>Mae Lyons-Penner and Jordan Rosen-Kaplan</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation reviewed by</resp>
+					<name>Björn Buschbeck</name>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name>Mae Lyons-Penner</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -50,6 +62,10 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic url="oeglin_2.jpg" xml:id="oeglin_2"/>
+		<graphic url="oeglin_2_notes.jpg" xml:id="oeglin_2_notes"/>
+	</facsimile>
 	<text>
 		<front>
 			<head>
@@ -62,392 +78,361 @@
 			</head>	
 		</front>
 		<body>
+			<pb ed="#Transcription" facs="oeglin_2"/>
+			<pb ed="#Transcription" facs="oeglin_2_notes"/>
 			<div n="1">
 				<p n="1">
-					<s>
-						<app>
+					<s n="1">
+						<app loc="clause1">
 							<lem wit="#Transcription">
-								Hilf fraw von Ach \ 
+								Hilf fraw von Ach / 
 							</lem>
+						</app>
+						<app loc="clause2">
+							<lem wit="#Transcription">
+								wie schwach / on masz 
+							</lem>
+						</app>
+						<app loc="clause3">
+							<lem wit="#Transcription">
+								ich armer sünder bin / 
+							</lem>
+						</app>
+						<app loc="clause4">
+							<lem wit="#Transcription">
+								und pald ist hyn / mein syn / on gwyn /
+							</lem>
+						</app>
+						<app loc="clause5">
+							<lem wit="#Transcription">
+								zů verfüren /
+							</lem>
+						</app>
+						<app loc="clause6">
+							<lem wit="#Transcription">
+								spüren / mag ich grüntlich / 
+							</lem>
+						</app>
+						<app loc="clause7">
+							<lem wit="#Transcription">
+								das got misfelt / der welt / undanckparkait / 
+							</lem>
+						</app>
+						<app loc="clause8">
+							<lem wit="#Transcription">
+								O rayne mayt / 
+							</lem>
+						</app>
+						<app loc="clause9">
+							<lem wit="#Transcription">
+								Maria zart / 
+							</lem>
+						</app>
+						<app loc="clause10">
+							<lem wit="#Transcription">
+								wie hart / mir das zů hertzen / will dringen zwar / 
+							</lem>
+						</app>
+						<app loc="clause11">
+							<lem wit="#Transcription">
+								gnad mir nit spar / 
+							</lem>
+						</app>
+						<app loc="clause12">
+							<lem wit="#Transcription">
+								vnnd nymb meinn war / 
+							</lem>
+						</app>
+						<app loc="clause13">
+							<lem wit="#Transcription">
+								fraw durch dein syben schmertzen.
+							</lem>
+						</app>
+						<app loc="clause1">
 							<rdg wit="#Translation">
 								Help, our lady of Aachen! 
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								wie schwach \ 
-							</lem>
+						<app loc="clause2">
 							<rdg wit="#Translation">
 								How immeasurably weak
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								on masz ich armer sünder bin \ 
-							</lem>
+						<app loc="clause3">
 							<rdg wit="#Translation">
 								I, poor sinner, am!
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und pald ist hyn \ mein syn \ on gwyn \
-							</lem>
+						<app loc="clause4">
 							<rdg wit="#Translation">
 								Soon I will lose my senses in vain,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								zů verfüren \ spüren \ 
-							</lem>
+						<app loc="clause5">
 							<rdg wit="#Translation">
 								I’m being led astray.
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mag ich grüntlich \ 
-							</lem>
+						<app loc="clause6">
 							<rdg wit="#Translation">
 								I can definitely tell
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								das got misfelt \ 
-							</lem>
+						<app loc="clause7">
 							<rdg wit="#Translation">
-								That God is displeased
+								that God is displeased at the world's ingratitude
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								der welt \ 
-							</lem>
-							<rdg wit="#Translation">
-								at the world's
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								undanckparkait \ 
-							</lem>
-							<rdg wit="#Translation">
-								Ingratitude
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								O rayne mayt \ 
-							</lem>
+						<app loc="clause8">
 							<rdg wit="#Translation">
 								Oh, immaculate maiden,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								Maria zart \ 
-							</lem>
+						<app loc="clause9">
 							<rdg wit="#Translation">
-								Tender Mary!
+								tender Mary!
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								wie hart \ 
-							</lem>
+						<app loc="clause10">
 							<rdg wit="#Translation">
-								Thow hard
+								How hard this weighs on my heart.
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mir das zů hertzen \ will dringen zwar \ 
-							</lem>
+						<app loc="clause11">
 							<rdg wit="#Translation">
-								How hard This weighs on my heart.
+								Don't spare me your mercy
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								gnad mir nit spar \ 
-							</lem>
-							<rdg wit="#Translation">
-								DOn't spare me your mercy
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								vnnd nymb meinn war \ 
-							</lem>
+						<app loc="clause12">
 							<rdg wit="#Translation">
 								and hear me,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								fraw durch dein syben schmertzen.
-							</lem>
+						<app loc="clause13">
 							<rdg wit="#Translation">
 								My Lady, by your seven sorrows!
 							</rdg>
 						</app>
-
-						<app>
+					</s>
+					<s n="2">
+						<app loc="clause14">
 							<lem wit="#Transcription">
-								O iungkgfraw rayn \ 
+								O iungkgfraw rayn / 
 							</lem>
+						</app>
+						<app loc="clause15">
+							<lem wit="#Transcription">
+								on nayn / alzeit der sunder trösterinn / 
+							</lem>
+						</app>
+						<app loc="clause16">
+							<lem wit="#Transcription">
+								was ich begynn / dennck synn /
+							</lem>
+						</app>
+						<app loc="clause17">
+							<lem wit="#Transcription">
+								 von hynn / müß ich mich wenden / 
+							</lem>
+						</app>
+						<app loc="clause18">
+							<lem wit="#Transcription">
+								enden sol sich / umb mich / der welde lust / 
+							</lem>
+						</app>
+						<app loc="clause19">
+							<lem wit="#Transcription">
+								umb sust / ist aller můt / unnd hilfft kain gůt / 
+							</lem>
+						</app>
+						<app loc="clause20">
+							<lem wit="#Transcription">
+								ich muß daran / unnd kann / den tod nit fliechenn /
+							</lem>
+						</app>
+						<app loc="clause21">
+							<lem wit="#Transcription">
+								dan das ich bitt / 
+							</lem>
+						</app>
+						<app loc="clause22">
+							<lem wit="#Transcription">
+								versag mit nit / und tayl mir mit / 
+							</lem>
+						</app>
+						<app loc="clause23">
+							<lem wit="#Transcription">
+								dein gnad on alls verziechen. 
+							</lem>
+						</app>
+						<app loc="clause14">
 							<rdg wit="#Translation">
 								Oh, immaculate virgin,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								on nayn \ alzeit der sunder trösterinn \ 
-							</lem>
+						<app loc="clause15">
 							<rdg wit="#Translation">
 								who without doubt always consoles sinners. 
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								was ich begynn \ 
-							</lem>
+						<app loc="clause16">
 							<rdg wit="#Translation">
-								Whatever I start,
+								Whatever I start, think or come up with,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dennck synn \ von hynn \ 
-							</lem>
-							<rdg wit="#Translation">
-								 think or come up with,
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								müß ich mich wenden \ 
-							</lem>
+						<app loc="clause17">
 							<rdg wit="#Translation">
 								I have to turn myself away from it;
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								enden sol sich \ umb mich \ der welde lust \ 
-							</lem>
+						<app loc="clause18">
 							<rdg wit="#Translation">
 								around me the world’s pleasure has to come to an end.
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								umb sust \ ist aller můt \unnd hilfft kain gůt \ 
-							</lem>
+						<app loc="clause19">
 							<rdg wit="#Translation">
 								All bravery is in vain, no wealth can help,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ich muß daran \ 
-							</lem>
+						<app loc="clause20">
 							<rdg wit="#Translation">
-								I must face it
+								I must face it and I can’t flee from death,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								unnd kann \ den tod nit fliechenn \ 
-							</lem>
-							<rdg wit="#Translation">
-								and I can’t flee from death,
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dan das ich bitt \ 
-							</lem>
+						<app loc="clause21">
 							<rdg wit="#Translation">
 								so I ask you:
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								versag mit nit \ 
-							</lem>
+						<app loc="clause22">
 							<rdg wit="#Translation">
-								don’t deny me,
+								don’t deny me, and impart on me
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und tayl mir mit \ 
-							</lem>
-							<rdg wit="#Translation">
-								and impart on me
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dein gnad on alls verziechen. 
-							</lem>
+						<app loc="clause23">
 							<rdg wit="#Translation">
 								your grace without delay.
 							</rdg>
 						</app>
-
-						<app>
+					</s>
+					<s n="3">
+						<app loc="clause24">
 							<lem wit="#Transcription">
-								Der welde hayl \ on mayl \ bistu Maria ewiklich \ 
+								Der welde hayl / on mayl
 							</lem>
+						</app>
+						<app loc="clause25">
+							<lem wit="#Transcription">
+								bistu Maria ewiklich / 
+							</lem>
+						</app>
+						<app loc="clause26">
+							<lem wit="#Transcription">
+								und frew auch mich / 
+							</lem>
+						</app>
+						<app loc="clause27">
+							<lem wit="#Transcription">
+								der täglich dich / mit fleiß thůt eren /
+							</lem>
+						</app>
+						<app loc="clause28">
+							<lem wit="#Transcription">
+								geren / ertzaygst / und naygst / 
+							</lem>
+						</app>
+						<app loc="clause29">
+							<lem wit="#Transcription">
+								dich gottes arch / und sarch / 
+							</lem>
+						</app>
+						<app loc="clause30">
+							<lem wit="#Transcription">
+								dem sünder zůe / 
+							</lem>
+						</app>
+						<app loc="clause31">
+							<lem wit="#Transcription">
+								O fraw das thůe / ytz in der nott / 
+							</lem>
+						</app>
+						<app loc="clause32">
+							<lem wit="#Transcription">
+								zum todt / vill kranckhait schweben / 
+							</lem>
+						</app>
+						<app loc="clause33">
+							<lem wit="#Transcription">
+								erwirb mir huld / das ich 
+							</lem>
+						</app>
+						<app loc="clause34">
+							<lem wit="#Transcription">
+								mein schuld / mit rew und duld / müg püssen 
+							</lem>
+						</app>
+						<app loc="clause35">
+							<lem wit="#Transcription">
+								hye in leben.
+							</lem>
+						</app>
+						<app loc="clause25">
 							<rdg wit="#Translation">
-								You, Mary, are forever the immaculate salvation of the world,
+								You, Mary, are forever
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und frew auch mich \ 
-							</lem>
+						<app loc="clause24">
+							<rdg wit="#Translation">
+								the immaculate salvation of the world,
+							</rdg>
+						</app>
+						<app loc="clause26">
 							<rdg wit="#Translation">
 								and bring joy to me,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								der täglich dich \ mit fleiß thůt eren \ geren \
-							</lem>
+						<app loc="clause27">
 							<rdg wit="#Translation">
 								who diligently honors you each day.
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ertzaygst \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								und naygst \ 
-							</lem>
-							<rdg wit="#Translation">
-								TRANSLATION GOES HERE
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dich gottes arch \ und sarch \ 
-							</lem>
+						<app loc="clause29">
 							<rdg wit="#Translation">
 								You, the ark and casket of God
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								dem sünder zůe \ 
-							</lem>
+						<app loc="clause28">
 							<rdg wit="#Translation">
-								gladly appear and tend to the sinner
+								gladly appear and tend to the sinner.
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								O fraw das thůe \ 
-							</lem>
+						<app loc="clause30">
 							<rdg wit="#Translation">
-								Oh, my lady, 
+								to the sinner.
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								ytz in der nott \ 
-							</lem>
+						<app loc="clause31">
 							<rdg wit="#Translation">
-								do this now in my distress,
+								Oh, my lady, do this now in my distress,
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								zum todt \ vill kranckhait schweben \ 
-							</lem>
+						<app loc="clause32">
 							<rdg wit="#Translation">
 								for illness will hover over death.
 							</rdg>
 						</app>
-
-
-						<app>
-							<lem wit="#Transcription">
-								erwirb mir huld \ 
-							</lem>
+						<app loc="clause33">
 							<rdg wit="#Translation">
-								Grant me favor,
+								Grant me favor, so that I might
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								das ich mein schuld \ 
-							</lem>
+						<app loc="clause34">
 							<rdg wit="#Translation">
-								so that I might atone for my guilt
+								 atone for my guilt with repentance and forbearance
 							</rdg>
 						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								mit rew und duld \ 
-							</lem>
-							<rdg wit="#Translation">
-								with repentance and forbearance
-							</rdg>
-						</app>
-
-						<app>
-							<lem wit="#Transcription">
-								müg püssen hye in leben.
-							</lem>
+						<app loc="clause35">
 							<rdg wit="#Translation">
 								while I’m alive.
 							</rdg>

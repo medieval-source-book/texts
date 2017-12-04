@@ -1,0 +1,472 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Hilf fraw von Ach</title>
+				<author>Erhard Oeglin</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.6r</p>
+				<div>
+					<listWit>
+						<witness xml:id="Transcription">Hilf fraw von Ach</witness>
+						<witness xml:id="Translation">Help, our lady of Aachen!</witness>
+					</listWit>
+				</div>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Hilf fraw von Ach</lem>
+						<rdg wit="#Translation">Help, our lady of Aachen!</rdg>
+					</app>
+				</title>
+			</head>	
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								Hilf fraw von Ach \ 
+							</lem>
+							<rdg wit="#Translation">
+								Help, our lady of Aachen! 
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								wie schwach \ 
+							</lem>
+							<rdg wit="#Translation">
+								How immeasurably weak
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								on masz ich armer sünder bin \ 
+							</lem>
+							<rdg wit="#Translation">
+								I, poor sinner, am!
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und pald ist hyn \ mein syn \ on gwyn \
+							</lem>
+							<rdg wit="#Translation">
+								Soon I will lose my senses in vain,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								zů verfüren \ spüren \ 
+							</lem>
+							<rdg wit="#Translation">
+								I’m being led astray.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								mag ich grüntlich \ 
+							</lem>
+							<rdg wit="#Translation">
+								I can definitely tell
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								das got misfelt \ 
+							</lem>
+							<rdg wit="#Translation">
+								That God is displeased
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								der welt \ 
+							</lem>
+							<rdg wit="#Translation">
+								at the world's
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								undanckparkait \ 
+							</lem>
+							<rdg wit="#Translation">
+								Ingratitude
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								O rayne mayt \ 
+							</lem>
+							<rdg wit="#Translation">
+								Oh, immaculate maiden,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								Maria zart \ 
+							</lem>
+							<rdg wit="#Translation">
+								Tender Mary!
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								wie hart \ 
+							</lem>
+							<rdg wit="#Translation">
+								Thow hard
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								mir das zů hertzen \ will dringen zwar \ 
+							</lem>
+							<rdg wit="#Translation">
+								How hard This weighs on my heart.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								gnad mir nit spar \ 
+							</lem>
+							<rdg wit="#Translation">
+								DOn't spare me your mercy
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								vnnd nymb meinn war \ 
+							</lem>
+							<rdg wit="#Translation">
+								and hear me,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								fraw durch dein syben schmertzen.
+							</lem>
+							<rdg wit="#Translation">
+								My Lady, by your seven sorrows!
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								O iungkgfraw rayn \ 
+							</lem>
+							<rdg wit="#Translation">
+								Oh, immaculate virgin,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								on nayn \ alzeit der sunder trösterinn \ 
+							</lem>
+							<rdg wit="#Translation">
+								who without doubt always consoles sinners. 
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								was ich begynn \ 
+							</lem>
+							<rdg wit="#Translation">
+								Whatever I start,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dennck synn \ von hynn \ 
+							</lem>
+							<rdg wit="#Translation">
+								 think or come up with,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								müß ich mich wenden \ 
+							</lem>
+							<rdg wit="#Translation">
+								I have to turn myself away from it;
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								enden sol sich \ umb mich \ der welde lust \ 
+							</lem>
+							<rdg wit="#Translation">
+								around me the world’s pleasure has to come to an end.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								umb sust \ ist aller můt \unnd hilfft kain gůt \ 
+							</lem>
+							<rdg wit="#Translation">
+								All bravery is in vain, no wealth can help,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ich muß daran \ 
+							</lem>
+							<rdg wit="#Translation">
+								I must face it
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								unnd kann \ den tod nit fliechenn \ 
+							</lem>
+							<rdg wit="#Translation">
+								and I can’t flee from death,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dan das ich bitt \ 
+							</lem>
+							<rdg wit="#Translation">
+								so I ask you:
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								versag mit nit \ 
+							</lem>
+							<rdg wit="#Translation">
+								don’t deny me,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und tayl mir mit \ 
+							</lem>
+							<rdg wit="#Translation">
+								and impart on me
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dein gnad on alls verziechen. 
+							</lem>
+							<rdg wit="#Translation">
+								your grace without delay.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								Der welde hayl \ on mayl \ bistu Maria ewiklich \ 
+							</lem>
+							<rdg wit="#Translation">
+								You, Mary, are forever the immaculate salvation of the world,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und frew auch mich \ 
+							</lem>
+							<rdg wit="#Translation">
+								and bring joy to me,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								der täglich dich \ mit fleiß thůt eren \ geren \
+							</lem>
+							<rdg wit="#Translation">
+								who diligently honors you each day.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ertzaygst \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und naygst \ 
+							</lem>
+							<rdg wit="#Translation">
+								TRANSLATION GOES HERE
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dich gottes arch \ und sarch \ 
+							</lem>
+							<rdg wit="#Translation">
+								You, the ark and casket of God
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dem sünder zůe \ 
+							</lem>
+							<rdg wit="#Translation">
+								gladly appear and tend to the sinner
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								O fraw das thůe \ 
+							</lem>
+							<rdg wit="#Translation">
+								Oh, my lady, 
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								ytz in der nott \ 
+							</lem>
+							<rdg wit="#Translation">
+								do this now in my distress,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								zum todt \ vill kranckhait schweben \ 
+							</lem>
+							<rdg wit="#Translation">
+								for illness will hover over death.
+							</rdg>
+						</app>
+
+
+						<app>
+							<lem wit="#Transcription">
+								erwirb mir huld \ 
+							</lem>
+							<rdg wit="#Translation">
+								Grant me favor,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								das ich mein schuld \ 
+							</lem>
+							<rdg wit="#Translation">
+								so that I might atone for my guilt
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								mit rew und duld \ 
+							</lem>
+							<rdg wit="#Translation">
+								with repentance and forbearance
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								müg püssen hye in leben.
+							</lem>
+							<rdg wit="#Translation">
+								while I’m alive.
+							</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>  
+
+<!--
+	Translation: 
+
+Help, our lady of Aachen! How immeasurably weak I, poor sinner, am! Soon I will lose my senses in vain, I’m being led astray. I can definitely tell That God is displeased at the world’s Ingratitude. Oh, immaculate maiden, Tender Mary! How hard This weighs on my heart. Don’t spare me your mercy and hear me, My Lady, by your seven sorrows!
+ 
+Oh, immaculate virgin, who without doubt always consoles sinners. Whatever I start, think or come up with, I have to turn myself away from it; around me the world’s pleasure has to come to an end. All bravery is in vain, no wealth can help, I must face it and I can’t flee from death, so I ask you: don’t deny me, and impart on me your grace without delay.
+ 
+You, Mary, are forever the immaculate salvation of the world, and bring joy to me, who diligently honors you each day. You, the ark and casket of God, gladly appear and tend to the sinner. Oh, my lady, do this now in my distress, for illness will hover over death. Grant me favor, so that I might atone for my guilt with repentance and forbearance while I’m alive.
+
+
+	-->

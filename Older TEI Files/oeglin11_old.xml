@@ -1,0 +1,332 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities; ]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gelück mir trost und hoffnug geit</title>
+				<author>Erhard Oeglin</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.15r</p>
+				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Gelück mir trost und hoffnug geit</witness>
+					<witness xml:id="Translation">Fortune grants me comfort and hope</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Gelück mir trost und hoffnug geit</lem>
+						<rdg wit="#Translation">Fortune grants me comfort and hope</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								Gelück mir trost und hoffnug geit \ 
+							</lem>
+							<rdg wit="#Translation">
+								Fortune grants me comfort and hope
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								alain gen deiner werden zucht \ 
+							</lem>
+							<rdg wit="#Translation">
+								of alone being granted your worthy favor
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und mit mein gmüt so hoch erfreyt \ 
+							</lem>
+							<rdg wit="#Translation">
+								and it brings cheer to my senses;
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								meins hertzen all erhöchste frustt (frucht?) \ 
+							</lem>
+							<rdg wit="#Translation">
+								you are the highest fruit of my heart.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								glaub mir fürwar \ 
+							</lem>
+							<rdg wit="#Translation">
+								Beleive me,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								in weybes schar \ 
+							</lem>
+							<rdg wit="#Translation">
+								the ranks of women;
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								liebstu mir obin allen \ 
+							</lem>
+							<rdg wit="#Translation">
+								 I truly love you above all others in 
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								alain du bist \ 
+							</lem>
+							<rdg wit="#Translation">
+								you are,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								on argen list \ 
+							</lem>
+							<rdg wit="#Translation">
+								without any deceit,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								meins hertzen wolgefallen.
+							</lem>
+							<rdg wit="#Translation">
+								the joy of my heart. 
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								Hyerumb mein trost und früntlichs pild \ 
+							</lem>
+							<rdg wit="#Translation">
+								For that reason, you, my comfort and beloved sight,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								halt vesst an mir an solchem ort \ 
+							</lem>
+							<rdg wit="#Translation">
+								stay here with me in this place,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								mit weis unnd perd erzayg dich mild \ 
+							</lem>
+							<rdg wit="#Translation">
+								show yourself to be generous in manner and deed,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dann ich gib glauben deinem wort \ 
+							</lem>
+							<rdg wit="#Translation">
+								so I can trust your word.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dergleich auch ich \ 
+							</lem>
+							<rdg wit="#Translation">
+								As I too
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								will allzeit mich dein fleissen unverdrossen \ 
+							</lem>
+							<rdg wit="#Translation">
+								will always and untiringly care for you;
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								doch ist das pest \ 
+							</lem>
+							<rdg wit="#Translation">
+								but it’s best
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								lad nit frömd gesst \ 
+							</lem>
+							<rdg wit="#Translation">
+								if you don’t have strangers round,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								es wurden sunnst faul possen. 
+							</lem>
+							<rdg wit="#Translation">
+								otherwise it might lead to sordid antics.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								An mir hab auch kain zweifel nicht \ 
+							</lem>
+							<rdg wit="#Translation">
+								Don’t doubt me either,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								dye lieb sol sein verporgen \ 
+							</lem>
+							<rdg wit="#Translation">
+								our love will be hidden,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								mein synn sein mir also gericht \ 
+							</lem>
+							<rdg wit="#Translation">
+								I am minded like this
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								und stee gen dir in sorgen \ 
+							</lem>
+							<rdg wit="#Translation">
+								and I care deeply for you.
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								so ich gedenck \ 
+							</lem>
+							<rdg wit="#Translation">
+								And so I can think 
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								vil gůter schwenck \ 
+							</lem>
+							<rdg wit="#Translation">
+								of many good games,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								gib ich mich dir in stillen \ 
+							</lem>
+							<rdg wit="#Translation">
+								I’ll give myself to you in secret;
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								glaub mir fürwar \ 
+							</lem>
+							<rdg wit="#Translation">
+								beleive me, trylu,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								für ander zwar \ 
+							</lem>
+							<rdg wit="#Translation">
+								once again, truly,
+							</rdg>
+						</app>
+
+						<app>
+							<lem wit="#Transcription">
+								mit meinem freyen willen.
+							</lem>
+							<rdg wit="#Translation">
+								 I’ll do it of my own free will.
+							</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>  

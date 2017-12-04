@@ -20,20 +20,8 @@
 					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>Introduction and critical notes by</resp>
-					<name>Christopher Hutchinson</name>
-				</respStmt>
-				<respStmt>
-					<resp>Digital edition prepared by</resp>
-					<name>Hannah Frakes, Mae Lyons-Penner and Jordan Rosen-Kaplan</name>
-				</respStmt>
-				<respStmt>
-					<resp>Translation reviewed by</resp>
-					<name>Björn Buschbeck</name>
-				</respStmt>
-				<respStmt>
-					<resp>Edited by</resp>
-					<name>Mae Lyons-Penner</name>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -76,84 +64,73 @@
 			<div n="1">
 				<p n="1">
 					<s>
-						<app loc="clause1">
+						<app>
 							<lem wit="#Transcription">
 								Zwischen perg und tieffe tal \ 
 							</lem>
-						</app>
-						<app loc="clause2">
-							<lem wit="#Transcription">
-								da ligt ain freie strassen \ 
-							</lem>
-						</app>
-						<app loc="clause3">
-							<lem wit="#Transcription">
-								wer seinen půll nit haben mag \ 
-							</lem>
-						</app>
-						<app loc="clause4">
-							<lem wit="#Transcription">
-								der můß yn faren lassen.
-							</lem>
-						</app>
-						<app loc="clause1">
 							<rdg wit="#Translation">
 								Between hill and valley deep
 							</rdg>
 						</app>
-						<app loc="clause2">
+
+						<app>
+							<lem wit="#Transcription">
+								da ligt ain freie strassen \ 
+							</lem>
 							<rdg wit="#Translation">
 								 there runs a public road,
 							</rdg>
 						</app>
-						<app loc="clause3">
+
+						<app>
+							<lem wit="#Transcription">
+								wer seinen půll nit haben mag \ 
+							</lem>
 							<rdg wit="#Translation">
 								 whoever can’t keep her lover
 							</rdg>
 						</app>
-						<app loc="clause4">
+
+						<app>
+							<lem wit="#Transcription">
+								der můß yn faren lassen.
+							</lem>
 							<rdg wit="#Translation">
 								 must let him ride away. 
 							</rdg>
 						</app>
-					</s>
-					<s>
-						<app loc="clause5">
+
+						<app>
 							<lem wit="#Transcription">
 								Far hin, far hin, du hast die wal \ 
 							</lem>
-						</app>
-						<app loc="clause6">
-							<lem wit="#Transcription">
-								ich kann mich dein wol maßen \ 
-							</lem>
-						</app>
-						<app loc="clause7">
-							<lem wit="#Transcription">
-								im jar sind noch vil langer tag \ 
-							</lem>
-						</app>
-						<app loc="clause8">
-							<lem wit="#Transcription">
-								glück ist in allen gassen.
-							</lem>
-						</app>
-						<app loc="clause5">
 							<rdg wit="#Translation">
 								Ride on, ride on, the choice is yours,
 							</rdg>
 						</app>
-						<app loc="clause6">
+
+						<app>
+							<lem wit="#Transcription">
+								ich kann mich dein wol maßen \ 
+							</lem>
 							<rdg wit="#Translation">
 								 I can measure up to you;
 							</rdg>
 						</app>
-						<app loc="clause7">
+
+						<app>
+							<lem wit="#Transcription">
+								im jar sind noch vil langer tag \ 
+							</lem>
 							<rdg wit="#Translation">
 								 there is many a long day left in the year,
 							</rdg>
 						</app>
-						<app loc="clause8">
+
+						<app>
+							<lem wit="#Transcription">
+								glück ist in allen gassen.
+							</lem>
 							<rdg wit="#Translation">
 								 and fortune waits at every turn.
 							</rdg>
