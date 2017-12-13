@@ -20,8 +20,20 @@
 					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
-					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
+					<resp>Introduction and critical notes by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Digital edition prepared by</resp>
+					<name>Hannah Frakes, Mae Lyons-Penner and Jordan Rosen-Kaplan</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation reviewed by</resp>
+					<name>Björn Buschbeck</name>
+				</respStmt>
+				<respStmt>
+					<resp>Edited by</resp>
+					<name>Mae Lyons-Penner</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -34,8 +46,12 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.29r</p>
 				<p></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Yetz schaydens wee ist worden kund</witness>
+					<witness xml:id="Translation">Now the depths of my heart</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -45,299 +61,189 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic url="oeglin_25.jpg" xml:id="oeglin_25"/>
+		<graphic url="oeglin_25_notes.jpg" xml:id="oeglin_25_notes"/>
+	</facsimile>
 	<text>
 		<front>
-			<div>
-				<listWit>
-					<witness xml:id="Transcription">BASE TEXT HERE</witness>
-					<witness xml:id="Translation">TRANSLATION TITLE</witness>
-				</listWit>
-			</div>
-		</front>
-		<body>
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ORIGINAL TITLE</lem>
-						<rdg wit="#Translation">TRANSLATED TITLE</rdg>
+						<lem wit="#Transcription">Yetz schaydens wee ist worden kund</lem>
+						<rdg wit="#Translation">Now the depths of my heart</rdg>
 					</app>
 				</title>
 			</head>
-			<l n="1">
-				<app>
+		</front>
+		<body>
+			<pb ed="#Transcription" facs="#oeglin_25"/>
+			<pb ed="#Transcription" facs="#oeglin_25_notes"/>
+			<fw facs="#oeglin_25" type="header" place="margin-topright"></fw>
+			<fw facs="#oeglin_25_notes" type="header" place="margin-topright"></fw>
+			<pb ed="#Translation" facs="#oeglin_25"/>
+			<pb ed="#Translation" facs="#oeglin_25_notes"/>
+			<fw facs="#oeglin_25" type="header" place="margin-topright"></fw>
+			<fw facs="#oeglin_25_notes" type="header" place="margin-topright"></fw>
+			<s n="1">
+				<app loc="clause1">
 					<lem wit="#Transcription">
-						Yetz schaydens wee ist worden kund \ 
+						Yetz schaydens wee ist worden kund \ meins hertzen grund \
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="2">
-				<app>
+				<app loc="clause2">
 					<lem wit="#Transcription">
-						meins hertzen grund \ 
+						des ich vor nye \ dan erst durch dye \ bin worden inn \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="3">
-				<app>
-					<lem wit="#Transcription">
-						des ich vor nye \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="4">
-				<app>
-					<lem wit="#Transcription">
-						dan erst durch dye \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="5">
-				<app>
-					<lem wit="#Transcription">
-						bin worden inn \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="6">
-				<app>
+				<app loc="clause3">
 					<lem wit="#Transcription">
 						hertz mut und synn \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="7">
-				<app>
+				<app loc="clause4">
 					<lem wit="#Transcription">
-						ward mir zerstrayt \ 
+						ward mir zerstrayt \ gantz weit und prayt \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="8">
-				<app>
-					<lem wit="#Transcription">
-						gantz weit und prayt \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="9">
-				<app>
+				<app loc="clause5">
 					<lem wit="#Transcription">
 						ich dacht ich stürb vor hertyenlayd.
+					</lem>
+				</app>
+				<app loc="clause1">
+					<rdg wit="#Translation">
+						Now the depths of my heart have discovered separation’s sorrow,
+					</rdg>
+				</app>
+				<app loc="clause3">
+					<rdg wit="#Translation">
+						my heart, spirit and senses,
+					</rdg>
+				</app>
+				<app loc="clause2">
+					<rdg wit="#Translation">
+						which I have only experienced because of her,
+					</rdg>
+				</app>
+				<app loc="clause4">
+					<rdg wit="#Translation">
+						were scattered far and wide:
+					</rdg>
+				</app>
+				<app loc="clause5">
+					<rdg wit="#Translation">
+						I thought I’d die of a broken heart.
+					</rdg>
+				</app>
+			</s>
+			<s n="2">
+				<app loc="clause6">
+					<lem wit="#Transcription">
 						Nun hat sich glück herwider kert \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="10">
-				<app>
+				<app loc="clause7">
 					<lem wit="#Transcription">
-						und mich ernert \ 
+						und mich ernert \ vor schaydens pein \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="11">
-				<app>
+				<app loc="clause8">
 					<lem wit="#Transcription">
-						vor schaydens pein \ 
+						dardurch al mein \ plut was betrübt \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="12">
-				<app>
+				<app loc="clause9">
 					<lem wit="#Transcription">
-						dardurch al mein \ 
+						glück hat geübt \ in disem spil \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="13">
-				<app>
+				<app loc="clause10">
 					<lem wit="#Transcription">
-						plut was betrübt \ 
+						darin ich vil \ frewd lust und gnad erwerben wil.
 					</lem>
+				</app>
+				<app loc="clause6">
 					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
+						Now fortune has returned
 					</rdg>
 				</app>
-			</l>
-
-			<l n="14">
-				<app>
+				<app loc="clause7">
+					<rdg wit="#Translation">
+						and saved me from separation’s pain,
+					</rdg>
+				</app>
+				<app loc="clause8">
+					<rdg wit="#Translation">
+						through which all my blood was dulled. 
+					</rdg>
+				</app>
+				<app loc="clause9">
+					<rdg wit="#Translation">
+						Fortune has played its part in this game,
+					</rdg>
+				</app>
+				<app loc="clause10">
+					<rdg wit="#Translation">
+						in which I will gain much joy, pleasure and favor.
+					</rdg>
+				</app>
+			</s>
+			<s n="3">
+				<app loc="clause11">
 					<lem wit="#Transcription">
-						glück hat geübt \ 
+						Sölch frewd ytz niemer widerfart \ ist mir gar hart \
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="15">
-				<app>
-					<lem wit="#Transcription">
-						in disem spil \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="16">
-				<app>
-					<lem wit="#Transcription">
-						darin ich vil \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="17">
-				<app>
-					<lem wit="#Transcription">
-						frewd lust und gnad erwerben wil.
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-			<l n="18">
-				<app>
-					<lem wit="#Transcription">
-
-						Sölch frewd ytz niemer widerfart \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="19">
-				<app>
-					<lem wit="#Transcription">
-						ist mir gar hart \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="20">
-				<app>
+				<app loc="clause12">
 					<lem wit="#Transcription">
 						verkert in laid ich wider schayd \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="21">
-				<app>
+				<app loc="clause13">
 					<lem wit="#Transcription">
-						macht newes wee \ 
+						macht newes wee \ noch mer dan ee \ 
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="22">
-				<app>
+				<app loc="clause14">
 					<lem wit="#Transcription">
-						noch mer dan ee \ 
+						mein hertz erkant \ recht lieb befandt \
 					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
 				</app>
-			</l>
-
-			<l n="23">
-				<app>
-					<lem wit="#Transcription">
-						mein hertz erkant \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="24">
-				<app>
-					<lem wit="#Transcription">
-						recht lieb befandt \ 
-					</lem>
-					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
-					</rdg>
-				</app>
-			</l>
-
-			<l n="25">
-				<app>
+				<app loc="clause15">
 					<lem wit="#Transcription">
 						erst thut mir schayden angstlich andt. 
 					</lem>
+				</app>
+				<app loc="clause11">
 					<rdg wit="#Translation">
-						TRANSLATION GOES HERE
+						Now it’s very hard for me that such joy is gone forever.
 					</rdg>
 				</app>
-			</l>
+				<app loc="clause12">
+					<rdg wit="#Translation">
+						Turned to pain, I leave again;
+					</rdg>
+				</app>
+				<app loc="clause13">
+					<rdg wit="#Translation">
+						this brings new sorrow, even greater than before:
+					</rdg>
+				</app>
+				<app loc="clause14">
+					<rdg wit="#Translation">
+						my heart had come to know and had felt joy:
+					</rdg>
+				</app>
+				<app loc="clause15">
+					<rdg wit="#Translation">
+						only now separation brings me to despair.
+					</rdg>
+				</app>
+			</s>
+		</body>
+	</text>
+</TEI> 
 
 
 <!--

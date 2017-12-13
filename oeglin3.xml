@@ -61,6 +61,10 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic url="oeglin_3.jpg" xml:id="oeglin_3"/>
+		<graphic url="oeglin_3_notes.jpg" xml:id="oeglin_3_notes"/>
+	</facsimile>
 	<text>
 		<front>
 			<head>
@@ -73,6 +77,14 @@
 			</head>
 		</front>
 		<body>
+			<pb ed="#Transcription" facs="#oeglin_3"/>
+			<pb ed="#Transcription" facs="#oeglin_3_notes"/>
+			<fw facs="#oeglin_3" type="header" place="margin-topright"></fw>
+			<fw facs="#oeglin_3_notes" type="header" place="margin-topright"></fw>
+			<pb ed="#Translation" facs="#oeglin_3"/>
+			<pb ed="#Translation" facs="#oeglin_3_notes"/>
+			<fw facs="#oeglin_3" type="header" place="margin-topright"></fw>
+			<fw facs="#oeglin_3_notes" type="header" place="margin-topright"></fw>
 			<div n="1">
 				<p n="1">
 					<s>
