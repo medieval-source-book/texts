@@ -34,9 +34,17 @@
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
+				<encodingDesc>
+			<projectDesc>
+            	<p>"Claddedigaeth Arthur" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -77,7 +85,7 @@
 						<lem wit="#Transcription">Yn y dryded rann o’r bed, megys o’r deu parth y waeret, yd oed esgyrn G6enh6yuar y wreic, ual y gellit eu hadnabot yn vanolach ac yn wreigeid. Ac ym plith y rei hynny y kaffat pleth o wallt melyn. Tec oed edrych arna6. Ac ar y bleth honno y dodes manach o’r vanachla6c y ol6c, a ry dathoed y gyt a’r niuer 6rth agori y bed. Ac yd arganuu ym blaen pa6b. A bryssya6 a oruc, ac ysglyfyeit y bleth. Ac val y kymerth yn y la6 a’e dangos, a pha6p yn edrych ac yn ryuedu y thecket, yn deissyfyt yg g6yd pa6p y difflanna6d o’e la6. Ac nyt heb wyrtheu y damchweinya6d hynny, ac y dangosset yn honneit y ba6p, ac yn bennaf y’r creuydwyr a dathoed yno, y rei lleiaf a berthyn udunt nac edrych na theimla6 bruger g6reic, a bot pop peth byda6l yn daruodedic ac yn sathredic, ac yn bennaf oll y petheu teckaf o edrych arnunt, megys y tystir tr6y vra6t ac a6durda6t y doeth, yr h6nn a dyweit, “Teg6ch a gosged dyna6l bryt, cribdeiledic y6, a buan a chynt y ffy ac y difflanna noc anwadal6ch blodeu g6anh6yn.”</lem>
 						<rdg wit="#Translation">In the third part of the grave, like the two parts of the bottom, were the bones of Gwenhwyfar his wife, as they can be recognized as smaller and more feminine. And among those things a plait of yellow hair was found. It was fair to look upon. And on the plait a monk from the monastery fixed his gaze, he who had come together with the group to the opening of the grave. And he noticed [it] before the rest. He hastened and snatched the plait. And as he took it in his hand and showed it, with all looking and marveling at its beauty, suddenly in front of everyone it disappeared from his hand. And that event did not happen without miracles. And it was shown manifestly to everyone, and chiefly to the religious men who came there, the thing which was least appropriate for them, that they should not look nor feel a woman’s hair: that every worldly thing, most especially all the things most beautiful to look upon, is transitory and common, as is witnessed through the judgement and authority of the wise man, who said this: “Fairness and stature of human appearance is transitory and swift, quicker to flee and to vanish than the inconstancy of spring flowers.”
 							<note type="critical" anchored="true">
-								<p>This is a quotation from Boethius, De consolatione philosophiae, 3p8.9, via Giraldus Cambrensis, Speculum ecclesiae, ii.8.
+								<p>This is a quotation from Boethius, <hi rend="italic">De consolatione philosophiae</hi>, 3p8.9, via Giraldus Cambrensis, <hi rend="italic">Speculum ecclesiae</hi>, ii.8.
 								</p>
 							</note>
 						</rdg>

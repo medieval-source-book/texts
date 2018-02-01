@@ -13,26 +13,19 @@
 				<author>Fernão Lopes</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name><!--WHO TRANSCRIBED ME?--></name>
+					<name>Leonardo Grão Velloso Damato Oliveira</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name><!--WHO TRANSLATED ME?--></name>
+					<name>Leonardo Grão Velloso Damato Oliveira</name>and<name>Mae Lyons-Penner</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Clara Romani</name>
+					<name>Mae Lyons-Penner</name>and<name>Clara Romani</name>
 				</respStmt>
 			</titleStmt>
-			<publicationStmt>
-				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
@@ -42,8 +35,16 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<projectDesc>
+            	<p>"Chronica del Rey D. Pedro" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -131,13 +132,13 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Ora ſe a virtude da Juſtiça he neceſſaria ao povo , muito mais o he ao Rey , porque ſe a Ley he regra do que ſe há de fazer , muito mais o deve ſer o Rey , que a põe , e o Juiz , que a há de exercitar ; porque a Ley he Principe ſem alma , como acima diſſemos ; e o Principe ſem alma , como acima diſſemos ; e o Principe he Ley , e regra da Juſtiça com alma , pois quanto a couſa com alma tem melhoria ſobre outra ſem alma , iſto he ſem vida , tanto o Rey deve ter excellencia ſobre as Leys , porque o Rey deve ſer de tanta juſtiça , e direito , que compridamente dê às Leys a execuçaõ.</lem>
-							<rdg wit="#Translation"></rdg>
+							<rdg wit="#Translation">Now, if the virtue of Justice is necessary for the people, it is much more for the King, because if the Law is the rule of what one must carry out, the King must be much more [of it], [as] he lays it down, and the Judge, who must exercise it; because the Law is the Prince without a soul, as we have said above; and the Prince is the Law, and the rule of Justice with a soul, for inasmuch as the thing with a soul has the upper hand over another without a soul, that is without life, [the clause continues] the King must have excellence over the Laws, because the King must be of such a great [degree of] justice, and rights, so that he might extensively give the Laws to their fulfillment.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
 							<lem wit="#Transcription">D'outra maneira moſtrarſe-hia o ſeu Reyno cheyo de boas Leyes , e máos coſtumes , que ſeria couſa torpe de ver ; e pois duvidar ſe El Rey há de ſer juſtiçoſo , não he outra couſa ſenão duvidar ſe a regra há de ſer direita , a qual ſem direitura desfalece , e nenhuma couſa direita ſe póde por ella fazer.</lem>
-							<rdg wit="#Translation"></rdg>
+							<rdg wit="#Translation">Otherwise his Kingdom would show itself [to be] full of good laws, and bad customs, which would be a vile thing to see; and thus hesitating about whether the King will be just it is nothing other than to hesitate about whether the rules will be right, which [rules] faint without rightfulness, preventing one from doing the right thing for it.</rdg>
 						</app>
 					</s>
 				</p>
@@ -145,27 +146,7 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Outra razaõ , porque a Juſtiça he muy neceſſaria ao Rey , aſſim he que porq&combtilde; a Juſtiça naõ ſómente aformoſenta , e adorna os Reys de virtude corporal , mas ainda eſpiritual ; pois quanto a fermoſura do eſpirito tem a ventagem da do corpo , tanto a juſtiça em o Rey he mais neceſſaria , que outra fermoſura.</lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-				</p>
-				<p n="6">
-					<s>
-						<app>
-							<lem wit="#Transcription">A terceira razaõ ſe moſtra da perfeiçaõ da bondade , porque entaõ dizemos alguma couſa ſer perfeita , quando fazer póde alguma ſemelhante a ſi , e por tanto ſe chama huma couſa boa , quando ſua bondade ſe póde eſtender a outros , ao menos ſe quer por exemplo , entaõ ſe moſtra por practica quando cada hum he bom , quando he poſto em ſenhorio , e com razaõ convém aos Reys ſerem juſtiçoſos a todos os ſeus ſubditos para lhe poder vir bem ,  e a nenhum o  contrario ; trabalhando que a Juſtiça ſeja guardada não ſómente aos naturaes de ſeu Reyno , mas ainda aos de fóra delle , porque negada a Juſtiça a alguma peſſoa , grande injuria he feita ao Principe , e a toda a ſua terra.</lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">E deſta virtude da Juſtiça , q&combtilde; poucos acha que a queiraõ por hoſpeda , poſto que Rainba , q Senhora ſeja das outras virtudes , ſegundo diz Tulio , uſou muito El Rey D. Pedro conforme podem ver os que dezejaõ de o ſaber , lendo a ſua Hiſtoria.</lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">E pois que elle com bom zelo por natural inclinaçaõ refreou os males regendo bem ſeu Reyno , ainda que outras minguas por elle paſſaſſem , de que pendença podia fazer , de cudar he que alcanou o galardaõ da Juſtiça , cuja folha , e frutto he honrada fama neſte Mundo , e perduravel deſcanço no outro.</lem>
-							<rdg wit="#Translation"></rdg>
+							<rdg wit="#Translation">Another reason, for which Justice is much needed for the King, is not only because Justice tailors and adorns the King with bodily virtue, but also spiritual; for inasmuch as the beauty of spirit prevails over that of [beauty] the body, Justice is even more needed for the King than any other beauty.</rdg>
 						</app>
 					</s>
 				</p>

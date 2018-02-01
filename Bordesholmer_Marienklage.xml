@@ -10,23 +10,21 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Marienklage</title>
-				<author>AUTHOR</author>
+				<author>Anonymous</author>
 			</titleStmt>
 			<respStmt>
-				<resp>Transcription by</resp>
-				<name>WHO TRANSCRIBED ME?</name>
+				<resp>Middle German text adapted from the edition by G. Kühl (1898), in Jahrbuch des Vereins für niederdeutsche Sprachforschung, 24.</resp>
 			</respStmt>
 			<respStmt>
 				<resp>Translation by</resp>
-				<name>Kathryn Starkey</name><name>Mae Lyons-Penner</name><name>Marieke Reisch</name><name>Robert Forke</name><name>Chris Hutchinson</name><name>Patrick ???</name><name>Björn ???</name>
+				<name>Björn Buschbeck</name><name>Patrick Di Dio Di Marco</name><name>Robert Forke</name><name>Chris Hutchinson</name><name>Mae Lyons-Penner</name><name>Mareike Reisch</name>and<name>Kathryn Starkey</name>
 			</respStmt>
 			<respStmt>
 				<resp>TEI encoding by</resp>
-				<name>Jordan Rosen-Kaplan</name><name>Hannah Frakes</name>
+				<name>Hannah Frakes</name><name>Jordan Rosen-Kaplan</name>and<name>Michael Widner</name>
 			</respStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
 			<sourceDesc>
 				<p>			
@@ -40,9 +38,18 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<projectDesc>
+            	<p>"Marienklage" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
 	<text>
