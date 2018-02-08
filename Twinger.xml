@@ -9,39 +9,43 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>hie vohet an die vorrede In diſer Cronica</title>
-				<author><!--AUTHOR--></author>
+				<title>Cronica [vorrede]</title>
+				<author>Jacob von Königshofen</author>
 			</titleStmt>
 			<respStmt>
 				<resp>Transcription by</resp>
-				<name><!--WHO TRANSCRIBED ME?--></name>
+				<name>Mae Lyons-Penner</name>
 			</respStmt>
 			<respStmt>
 				<resp>Translation by</resp>
-				<name><!--WHO TRANSLATED ME?--></name>
+				<name>Mae Lyons-Penner</name>
 			</respStmt>
 			<respStmt>
 				<resp>Encoded in TEI P5 XML by</resp>
-				<name>Clara Romani</name>
+				<name>Mae Lyons-Penner</name>and<name>Clara Romani</name>
 			</respStmt>
-			<publicationStmt>
-				<publisher><!--TO BE DECIDED! SOMETHING ABOUT STANFORD--></publisher>
-				<availability>
-					<p></p>
-				</availability>
-			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'><!--CRITICAL INTRODUCTION GOES HERE--></note>
 			</notesStmt>
 			<sourceDesc>
-				<p><!--ANY SOURCES GO HERE--></p>
-				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">Cronica [vorrede]</witness>
+					<witness xml:id="Translation">Chronicle [Prologue]</witness>
+				</listWit>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
+			<encodingDesc>
+			<projectDesc>
+            	<p>"Cronica [vorrede]" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts in this project are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>In transcribing this text from its manuscript source, abbreviations were expanded. Original capitalization and punctuation have been preserved.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -49,15 +53,18 @@
 	<text>
 		<front>
 			<div>
-				<listWit>
-					<witness xml:id="Transcription">hie vohet an die vorrede In diſer Cronica</witness>
-					<witness xml:id="Translation"><!--TITLE'S TRANSLATION--></witness>
-				</listWit>
+				
 			</div>
 		</front>
 		<body>
 			<div n="1">
 				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">hie vohet an die vorrede In diser Cronica</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
 					<s>
 						<app>
 							<lem wit="#Transcription">Man vindet in latine vil cronicken geſchriben und ſint bücher von der zit die do sagent von keiſern Bebsten und von künigen und ouch von anderen heren wie ir leben ist geſin und von etlichen geſchihten und manhafftigen dingen die von in oder bÿ iren ziten geſchehen sint</lem>
