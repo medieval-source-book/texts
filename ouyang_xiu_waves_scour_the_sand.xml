@@ -1,0 +1,132 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>浪淘沙</title>
+				<author>Ouyang Xiu</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mareike Reisch</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">浪淘沙</witness>
+					<witness xml:id="Translation">To the Tune "Waves Scour the Sand"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"浪淘沙" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">浪淘沙</lem>
+						<rdg wit="#Translation">To the Tune "Waves Scour the Sand"</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">把酒祝東風</lem>
+						<rdg wit="#Translation">I hold up the wine and toast to the eastern wind,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">且共從容</lem>
+						<rdg wit="#Translation">"Let us dally and do not rash."</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">垂楊紫陌洛城東</lem>
+						<rdg wit="#Translation">Along the lilac-laden path with drooping willows in the east of Luoyang,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">總是當時攜手處</lem>
+						<rdg wit="#Translation">it is where we used to walk hand in hand,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">游遍芳叢</lem>
+						<rdg wit="#Translation">roaming among the fragrant hedge.</rdg>
+					</app>
+				</l>
+				<milestone unit="stanza"/>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">聚散苦匆匆</lem>
+						<rdg wit="#Translation">It embitters me as the time together fleets,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">此恨無窮</lem>
+						<rdg wit="#Translation">my regrets to this has no ends.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">今年花勝去年紅</lem>
+						<rdg wit="#Translation">The flowers this year is redder than the last;</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">可惜明年花更好</lem>
+						<rdg wit="#Translation">it is a pity that the ones next year will be even better,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">知與誰同</lem>
+						<rdg wit="#Translation">as I do not know with whom I will look at them together.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
