@@ -1,0 +1,132 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>鵲踏枝</title>
+				<author>Yan Shu</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mareike Reisch</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher></publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">鵲踏枝</witness>
+					<witness xml:id="Translation">To the Tune “Magpie Treads the Branch”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"鵲踏枝" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">鵲踏枝</lem>
+						<rdg wit="#Translation">To the Tune “Magpie Treads the Branch”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">檻菊愁煙蘭泣露</lem>
+						<rdg wit="#Translation">The chrysanthemums by the railings distress in the mist, the orchids weep dews</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">羅幕輕寒</lem>
+						<rdg wit="#Translation">In the silk canopy, it is slightly cold;</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">燕子雙飛去</lem>
+						<rdg wit="#Translation">the swallows fly away in pairs.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">明月不諳離恨苦</lem>
+						<rdg wit="#Translation">The bright moon does not understand the bitterness of parting regrets;</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">斜光到曉穿朱戶</lem>
+						<rdg wit="#Translation">its slanting light penetrates the vermillion door till daybreak.</rdg>
+					</app>
+				</l>
+				<milestone unit="stanza"/>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">昨夜西風凋碧樹</lem>
+						<rdg wit="#Translation">Last night, the western wind withers the emerald tree.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">獨上高樓</lem>
+						<rdg wit="#Translation">Alone, I ascend the high tower,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">望盡天涯路</lem>
+						<rdg wit="#Translation">staring to the end of roads at the edge of sky.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">欲寄彩箋兼尺素</lem>
+						<rdg wit="#Translation">I will send out letters on colored-paper and white silk,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">山長水闊知何處</lem>
+						<rdg wit="#Translation">The mountain extends long and the water vast, how do I know where you are.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
