@@ -9,19 +9,19 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>Præfatio</title>
+				<author>Nicolaus Pergamenus</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name></name>
+					<resp>Transcription by </resp>
+					<name>Dr. J. G. Grässe</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Astrid Khoo</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Irene Han</name>
 				</respStmt>
 			</titleStmt>
 			<notesStmt>
@@ -29,8 +29,8 @@
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
+					<witness xml:id="Transcription">Præfatio</witness>
+					<witness xml:id="Translation">Preface</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -54,8 +54,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Præfatio in librum, qui dicitur dyalogus creaturarum moralizatus</lem>
+						<rdg wit="#Translation">The preface to the book, The Moral Dialogue of Creatures</rdg>
 					</app>
 				</title>
 			</head>
@@ -64,32 +64,26 @@
 			<p>
 				<s n="1">
 					<app>
-						<lem wit="#Transcription">﻿</lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">﻿Praefatio in librum, qui dicitur dyalogus creaturarum moralizatus, omni materiae morali jocundo et edificativo modo applicabilis, incipit feliciter.</lem>
+						<rdg wit="#Translation">The preface to the book, The Moral Dialogue of Creatures, which pertains to every moral subject and is written in a pleasant and didactic style, begins thus:</rdg>
 					</app>
 				</s>
 				<s n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Quoniam sicut testatur Ysidorus in libro de surunio bono, libro primo capite quarto dicens, quod ex pulchritucline circumscriptæ naturæ ostendit nobis deus pulchritudinis suæ partem aliquam.</lem>
+						<rdg wit="#Translation">Just as Isidor the Witness says in his book De Summo Bono (On the Highest Good) in part one chapter four, God shows us some part of His own beauty through the beauty of enclosed nature.</rdg>
 					</app>
 				</s>
 				<s n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Qui circumscribi nequit et intelligi, ut ipsis eisdern vestigiis homo revertatur ad deum, quibus aversus est a Deo, et qui per amorem pulchritudinis creaturæ a creatoris forma se abstulit, rursus per creaturæ decorem ad creatoris sui pulcritudinem revertatur.</lem>
+						<rdg wit="#Translation">Indeed, God - who cannot be comprehended or enclosed - does so, in order that man might return to God by retracing those very tracks which he has followed when turning away from God; and in order that the man, who through love of a creature's beauty has snatched himself away from his Creator's form, might again turn back to his Creator's beauty through the elegance of the creature.</rdg>
 					</app>
 				</s>
 				<s n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note type="critical" anchored="true">
-								<p>
-									<hi rend="italic"></hi>
-								</p>
-							</note>
-						</rdg>
+						<lem wit="#Transcription">Quæ quidem creaturæ ctsi nobis, sicut liber iste fingit, dyalecticæ voce formata non loquantur, inclinatione tamen et naturalis institutionis proprietate nos docere nostrosque mores corrigere, si bene pensamus, non desinunt.</lem>
+						<rdg wit="#Translation">Admittedly, creatures do not speak to us in reasoned phrases, as this book pretends; however, if we ponder them well, they neither cease to teach us about the tendencies and qualities of the institution of nature nor to correct our customs. Indeed, if we consider their words well, they will not cease to help us.</rdg>
 					</app>
 				</s>
 			</p>
