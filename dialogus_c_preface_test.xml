@@ -36,7 +36,7 @@
 		</fileDesc>
 				<encodingDesc>
 			<projectDesc>
-            	<p>"NAME HERE" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"Præfatio" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
@@ -64,26 +64,151 @@
 			<p>
 				<s n="1">
 					<app>
+<<<<<<< HEAD
 						<lem wit="#Transcription">﻿Praefatio in librum, qui dicitur dyalogus creaturarum moralizatus, omni materiae morali jocundo et edificativo modo applicabilis, incipit feliciter.</lem>
+=======
+						<lem wit="#Transcription">﻿Præfatio in librum, qui dicitur dyalogus creaturarum moralizatus, omni materiæ morali jocundo et edificativo modo applicabilis, incipit feliciter.</lem>
+>>>>>>> origin/master
 						<rdg wit="#Translation">The preface to the book, The Moral Dialogue of Creatures, which pertains to every moral subject and is written in a pleasant and didactic style, begins thus:</rdg>
 					</app>
 				</s>
 				<s n="2">
 					<app>
+<<<<<<< HEAD
 						<lem wit="#Transcription">Quoniam sicut testatur Ysidorus in libro de surunio bono, libro primo capite quarto dicens, quod ex pulchritucline circumscriptæ naturæ ostendit nobis deus pulchritudinis suæ partem aliquam.</lem>
+=======
+						<lem wit="#Transcription">Quoniam sicut testatur Ysidorus in libro de summo bono, libro primo capite quarto dicens, quod ex pulchritudine circumscriptæ naturæ ostendit nobis deus pulchritudinis suæ partem aliquam.</lem>
+>>>>>>> origin/master
 						<rdg wit="#Translation">Just as Isidor the Witness says in his book De Summo Bono (On the Highest Good) in part one chapter four, God shows us some part of His own beauty through the beauty of enclosed nature.</rdg>
 					</app>
 				</s>
 				<s n="3">
 					<app>
+<<<<<<< HEAD
 						<lem wit="#Transcription">Qui circumscribi nequit et intelligi, ut ipsis eisdern vestigiis homo revertatur ad deum, quibus aversus est a Deo, et qui per amorem pulchritudinis creaturæ a creatoris forma se abstulit, rursus per creaturæ decorem ad creatoris sui pulcritudinem revertatur.</lem>
+=======
+						<lem wit="#Transcription">Qui circumscribi nequit et intelligi, ut ipsis eisdem vestigiis homo revertatur ad deum, quibus aversus est a Deo, et qui per amorem pulchritudinis creaturæ a creatoris forma se abstulit, rursus per creaturæ decorem ad creatoris sui pulcritudinem revertatur.</lem>
+>>>>>>> origin/master
 						<rdg wit="#Translation">Indeed, God - who cannot be comprehended or enclosed - does so, in order that man might return to God by retracing those very tracks which he has followed when turning away from God; and in order that the man, who through love of a creature's beauty has snatched himself away from his Creator's form, might again turn back to his Creator's beauty through the elegance of the creature.</rdg>
 					</app>
 				</s>
 				<s n="4">
 					<app>
+<<<<<<< HEAD
 						<lem wit="#Transcription">Quæ quidem creaturæ ctsi nobis, sicut liber iste fingit, dyalecticæ voce formata non loquantur, inclinatione tamen et naturalis institutionis proprietate nos docere nostrosque mores corrigere, si bene pensamus, non desinunt.</lem>
 						<rdg wit="#Translation">Admittedly, creatures do not speak to us in reasoned phrases, as this book pretends; however, if we ponder them well, they neither cease to teach us about the tendencies and qualities of the institution of nature nor to correct our customs. Indeed, if we consider their words well, they will not cease to help us.</rdg>
+=======
+						<lem wit="#Transcription">Quæ quidem creaturæ etsi nobis, sicut liber iste fingit, dyalecticæ voce formata non loquantur, inclinatione tamen et naturalis institutionis proprietate nos docere nostrosque mores corrigere, si bene pensamus, non desinunt.</lem>
+						<rdg wit="#Translation">Admittedly, creatures do not speak to us in reasoned phrases, as this book pretends; however, if we ponder them well, they neither cease to teach us about the tendencies and qualities of the institution of nature nor to correct our customs. Indeed, if we consider their words well, they will not cease to help us.</rdg>
+					</app>
+				</s>
+				<s n="5">
+					<app>
+						<lem wit="#Transcription">Quod illud gloriosum lumen doctorum sanctus Augustinus optime intelligebat, cum dicebat: o domine deus, omnes creaturæ tuæ, quas fecisti, ad me clamant et clamare non desinunt, ut te solum deum creatorem meum super omnia diligam.</lem>
+						<rdg wit="#Translation">The glorious light of the learned, Saint Augustine, understood this when he said, “O Lord God, all Your creatures, which You have made, cry out to me and do not cease to cry out: they do this, so that I may love You alone, God my Creator, above all things.”</rdg>
+					</app>
+				</s>
+				<s n="6">
+					<app>
+						<lem wit="#Transcription">Et ideo auctor libri istius hæc rite considerans quosdam dyalogos creaturarum ad sanam et moralem doctrinam applicavit, confinxit et composuit, ut per creaturarum quasi nobis loquentium proprietates simnl in moribus erudiamur et tædium audientium evitemus et ipsorum audientium memoriam adjuvemus, quod maxime per rerum similitudines procuratur.</lem>
+						<rdg wit="#Translation">Rightly considering this, therefore, the author of the Dialogue devised, composed, and applied creatures’ dialogues to healthy and moral doctrine so that we might be edified through the characters of creatures who speak just as we do; moreover, that we might simultaneously avoid inflicting boredom on our listeners and aid their memory. All this is best attained through parables.</rdg>
+					</app>
+				</s>
+				<s n="7">
+					<app>
+						<lem wit="#Transcription">Salvator enim noster omnium prædicatorum perfecta forma fabulis, palæstinorum more usus est, ut rerum similitudine ad viam veritatis homines perduceret.</lem>
+						<rdg wit="#Translation">Our Savior perfected the form of the preacher’s fable – according to the tradition of the Palestinians – and used it to lead men by way of imitation towards the way of truth.
+							<note type="critical" anchored="true">
+								<p>
+									 I would much rather translate <hi rend="italic">‘Palaestinorum mores’</hi> as ‘the tradition of the Israelites’, as it is closer to the intended meaning. However, I follow the example of Reisner (2009) 122, who renders Milton’s <hi rend="italic">‘Palaestinus...vates’</hi> as ‘the prophet of Palestine’.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="8">
+					<app>
+						<lem wit="#Transcription">Auctor ergo libri præsentis jocundo modo morales doctrinas in exterminium vitiorum et virtutum promotionem introducit.</lem>
+						<rdg wit="#Translation">Likewise, the author of the present book introduces moral doctrines in a pleasant manner to exterminate vices and promote virtues.</rdg>
+					</app>
+				</s>
+				<s n="9">
+					<app>
+						<lem wit="#Transcription">Quod utique licet et expedieus est, ut dicit doctor sanctus secunda secundæ qu. CLXVIII in solutione ultimi argumenti et hoc, si fictio exterior interiori devotioni et dispositioni bonæ conveniat.</lem>
+						<rdg wit="#Translation">As the learned Saint [Aquinas] says in the second part of the second part [of the Summa Theologiae], in the solution to the final argument of question 168: “Undoubtedly, that which is expedient is permitted, as long as one’s external pretence matches his internal devotion and good character.”</rdg>
+					</app>
+				</s>
+				<s n="10">
+					<app>
+						<lem wit="#Transcription">Utilis est ergo præsens liber prædicatoribus et aliis quibusque intelligentibus contra fatigationem animalem, ut per delectationem jocundæ materiæ aliqualiter intermissa intentione ad insistendum rationis studio simplicium animi ad altiora trahantur.</lem>
+						<rdg wit="#Translation">Hence, the present book is useful for preachers and all others who understand that by enjoying pleasant matters, which somehow provide a break from difficult work and minimise human fatigue, simple minds might be naturally drawn to higher matters.
+							<note type="critical" anchored="true">
+								<p>
+									<hi rend="italic">‘Rationis studio’</hi> is literally ‘by the strong inclination of reason’, but here ‘naturally’ reads far better.
+								</p>
+							</note>
+						</rdg>
+>>>>>>> origin/master
+					</app>
+				</s>
+				<s n="11">
+					<app>
+						<lem wit="#Transcription">Sicut in Collationibus patrum legitur,quod beatus evangelista Johannes, dum quidam scandalizaretur, quod eum cum suis discipulis ludentem invenit, dicitur illi mandasse, qui arcum gerebat, ut sagittam traheret.</lem>
+						<rdg wit="#Translation">As the collections of the [Church] Fathers’ sayings attest, someone was once scandalised to find the blessed evangelist John frolicking with his disciples. In response, John ordered him – since he carried a bow – to draw his bowstring.</rdg>
+					</app>
+				</s>
+				<s n="12">
+					<app>
+						<lem wit="#Transcription">Quod cum pluries fecisset, quæsivit, utrum hæc continue facere posset.</lem>
+						<rdg wit="#Translation">When the man had repeated this action several times, John asked him whether he could continue doing so indefinitely.</rdg>
+					</app>
+				</s>
+				<s n="13">
+					<app>
+						<lem wit="#Transcription">Qui respondit , quod, si hæc continue faceret, aut arcus frangeretur aut remissius telum projiceret.</lem>
+						<rdg wit="#Translation">The man answered that if he did so, he would either break the bow or shoot his arrow less forcefully.
+							<note type="critical" anchored="true">
+								<p>
+									<hi rend="italic">‘Telum’</hi> is not only used for spears but for any type of projectile; here it refers to the arrow.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="14">
+					<app>
+						<lem wit="#Transcription">Ex quibus beatus Johannes intulit, quod similiter animus hominis frangeretur, si nunquam a sua intentione relaxaretur.</lem>
+						<rdg wit="#Translation">Through this, blessed John implied that a man’s mind might break in the same way if it were never released from its strain.</rdg>
+					</app>
+				</s>
+				<s n="15">
+					<app>
+						<lem wit="#Transcription">Et hoc idem dicit philosophus in IV<hi rend="sup()">to</hi>  Ethicorum, quod in hujus vitæ conservatione quædain animæ requies cum ludo seu jocunditate habetur, quæ utique virtuosa est, sicut dicit Ambrosius in primo de officiis.</lem>
+						<rdg wit="#Translation">The Philosopher says this same thing in book four of the Ethics: in order to conserve life, the mind must gain rest either in play or in pleasantness. Moreover, as Ambrose says in his first book on the duties [of the Clergy], rest is indubitably virtuous.</rdg>
+					</app>
+				</s>
+				<s n="16">
+					<app>
+						<lem wit="#Transcription">Hoc in talibus jocundis actionibus verbis caveamus, ne, dum relaxare animum volumus, omnem harmoniam bonorum operum per contemtum quemdam solvamus.</lem>
+						<rdg wit="#Translation">Nevertheless, when engaging in such delights, actions, and words, let us beware – even as we seek to relax our minds – not to undo all the harmony of our good works with some contemptible act.</rdg>
+					</app>
+				</s>
+				<s n="17">
+					<app>
+						<lem wit="#Transcription">Iste ergo liber, dyalogus creaturarum appellatus, sic materias jocundas pingit, ut morum gravitas et aptitudo doctrinæ ex his accepta per sanctorum auctoritates doctorum exornetur, habens duas tabulas prænotatas.</lem>
+						<rdg wit="#Translation">This book, therefore, which is entitled The Dialogue of Creatures, depicts pleasant matters in order that the gravity of its traditions and the effectiveness of its teachings might be adorned according to the authority of the learned saints. It consists of two indexes.</rdg>
+					</app>
+				</s>
+				<s n="18">
+					<app>
+						<lem wit="#Transcription">Quarum prima exprimit, de quibus creaturis tractant singuli dyalogorum, ut lector quo citius habeat, circa quæ versatur ejus intentio.</lem>
+						<rdg wit="#Translation">The first index outlines the creatures which are discussed in each of dialogues, so that the reader might identify more quickly that which he wishes to examine.</rdg>
+					</app>
+				</s>
+				<s n="19">
+					<app>
+						<lem wit="#Transcription">Secunda tabula alphabetico ordine generaliter singulas materias virtutum et vitiorum ad mores componendos et corrigendos predicatorem et inquirentem docet, quo sint quæque loco reperiendæ, quæ scilicet cuilibet narrationi sibi in processu sermonum convenire possunt.</lem>
+						<rdg wit="#Translation">The second index, arranged in alphabetical order, instructs both preachers and enquirers where specific information can be found. This information concerns virtue and vice and is aimed at the organisation and correction of human behaviour; therefore, it is likely to be of use in constructing sermons.</rdg>
 					</app>
 				</s>
 			</p>
