@@ -9,19 +9,19 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>TITLE</title>
+				<title>Gutenberglied</title>
 				<author>Hans Folz</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name>Hannah Frakes</name>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Chris Hutchinson</name>
+					<name>Christopher Hutchinson</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Hannah Frakes</name>
+					<name>Irene Han</name>
 				</respStmt>
 			</titleStmt>
 			<notesStmt>
@@ -31,267 +31,53 @@
 			<sourceDesc>			
 				<listWit>
 					<witness xml:id="Transcription">Gutenberglied</witness>
-					<witness xml:id="Translation">TITLE'S TRANSLATION</witness>
+					<witness xml:id="Translation">Song of Gutenberg</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<projectDesc>
+            	<p>"Gutenberglied" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<front>
-			<div>
 			<head>
 				<title>
 					<app>
 						<lem wit="#Transcription">Gutenberglied</lem>
-						<rdg wit="#Translation">The Gutenberg Song</rdg>
+						<rdg wit="#Translation">Song of Gutenberg</rdg>
 					</app>
 				</title>
 			</head>
-			</div>
 		</front>
 		<body>
 			<lg>
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">Vor langer frist Gesprochen ist Von Konig Salamone</lem>
-						<rdg wit="#Translation">
-							<note anchored="true">
-								<p>THIS IS A NOTE FORMAT. NOTE IT SHOULD OCCUR IN THE READING TAG (THE TRANSLATION)</p>
-							</note>
-						</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">Wie fort auff erd Nicht newez werd Nun ist seyt auß dem trone</lem>
-						<rdg wit="#Translation">&oogonacute;LATIN SMALL LETTER O WITH OGONEK AND ACUTE</rdg>
-					</app>
-				</l>
-				<l n="3"><space quantity="10" unit="chars"></space>
-					<app>
-						<lem wit="#Transcription">Got komen und mensch worden hie, Daz doch seit waz ein </lem>
-						<rdg wit="#Translation">foo</rdg>
-					</app>
-				</l>
-				<l n="4">
-					<app>
-						<lem wit="#Transcription">newez ye. Ye doch ez die Geschrifft vor hin besane<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>
-				<l n="5">
-					<app>
-						<lem wit="#Transcription">Daz aber sunst Hie dise kunst Puch drukes sey gewesen</lem>
+						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="6">
+				<l n="3">
 					<app>
-						<lem wit="#Transcription">Auff erden vor Glaub ich nit zwor. Wer hat dar von gelesen?</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="7">
-					<app>
-						<lem wit="#Transcription">Doch west ez kunfftig Got der werd, Allso ist</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="8">
-					<app>
-						<lem wit="#Transcription">doch nicht newz auff erd Lob mit begerd Sprecht</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="9">
-					<app>
-						<lem wit="#Transcription">im in seinen zesen!<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">Waz aber nucz Und widerdrucz Von diser kunst bekomen,</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">Do merket van: Ein geistlich man Hat in einr stim vernumen</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">Wie der Entcrist in seinem dracz Her nech in eim</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">papiren schacz, Der</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">nach dem gsacz Vort wert der cristen frumen,<milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="10">
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="1">
-					<app>
-						<lem wit="#Transcription">bar</lem>
+						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
