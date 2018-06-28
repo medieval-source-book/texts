@@ -1,0 +1,183 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt' >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De homine et muliere, dial. 121.</title>
+				<author>Nicolaus Pergamenus</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Dr. J. G. Grässe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Irene Han</name>
+				</respStmt>
+			</titleStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+				<encodingDesc>
+			<projectDesc>
+            	<p>"De homine et muliere, dial. 121." is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De homine et muliere, dial. 121.</lem>
+						<rdg wit="#Translation">Concerning Man and Woman, the one hundred and twenty-first dialogue</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p>
+				<s n="1">
+					<app>
+						<lem wit="#Transcription">﻿Homo est secundum philosophum mens incarnata, fantasma corporis, speculator vitæ, mancipium mortis, transiens viator, loci hospes, anima laboriosa, parvi temporis habitaculum.</lem>
+						<rdg wit="#Translation">According to the philosopher, Man is the mind made flesh, a phantom of time,
+							<note type="critical" anchored="true">
+								<p>
+									The critical edition here reads <hi rend="italic">“fantasma corporis”</hi>. The manuscript is very clear: <hi rend="italic">“fantasma tēporis.”</hi> 
+								</p>
+							</note>
+							 an explorer of life, a slave of death, a passing traveller, a guest of nature, a striving soul, and the receptacle a short span of time.
+						</rdg>
+					</app>
+				</s>
+				<s n="2">
+					<app>
+						<lem wit="#Transcription">Mulier est secundum philosophum hominis confusio, insatiabilis bestia, continua sollicitudo, indeficiens pugna, humanum mancipium et viro continenti naufragium.</lem>
+						<rdg wit="#Translation">Woman is the confusion of mankind, an insatiable beast, a perpetual worry, an unceasing battle, a human slave,
+							<note type="critical" anchored="true">
+								<p>
+									In both of these asyndetic phrases, I have followed the same structure, marking the first complement with ‘the’ and the others with ‘a...a....a...’. The phrase ‘a human slave’ is somewhat inelegant but the term ‘a slave of humankind’ would be incorrect.
+								</p>
+							</note>
+						 and a shipwreck for a man with self-restraint.
+							<note type="critical" anchored="true">
+								<p>
+									‘Shipwreck’, i.e. ‘calamity’.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="3">
+					<app>
+						<lem wit="#Transcription">Prout quidam vir castus et immaculatus quandoque habere voluit colloquium mulieris et familiaritatem, in qua illectus et illaqueatus sigillum castitatis quam cito amisit, attendens autem ad dulcedinem verbi illius et intuens pulchritudinem faciei ejus dissipatus est dicens: propter mulieres fracti multi sunt et vulnerati.</lem>
+						<rdg wit="#Translation">Once, a pure and immaculate Man wanted to have a conversation and an intimate relationship with a Woman. Seduced and ensnared, he lost his mark of chastity as quickly as possible. As he paid attention to the sweetness of her words and the beauty of her face, he fell headlong into destruction, saying, “Many men have been broken and wounded because of women.</rdg>
+					</app>
+				</s>
+				<s n="4">
+					<app>
+						<lem wit="#Transcription">Unde ait quidam: peccati forma femina est et mortis conditio.</lem>
+						<rdg wit="#Translation">Thus it is said, “Sin and death take a feminine form.”</rdg>
+					</app>
+				</s>
+				<s n="5">
+					<app>
+						<lem wit="#Transcription">Hieronimus: janua diaboli, via iniquitatis, scorpionis percussio nocivumque genus est femina.</lem>
+						<rdg wit="#Translation">Similarly, Jerome wrote, “Woman is the devil’s doorway, the path of wickedness, the sting of the scorpion, and the harmful sex.”</rdg>
+					</app>
+				</s>
+				<s n="6">
+					<app>
+						<lem wit="#Transcription">Idem: gladius igneus est species mulieris; memento, quod Thamar a fratre suo sit corrupta, memento semper, quod paradisi colonum de possessione sua ejecit mulier.</lem>
+						<rdg wit="#Translation">He also wrote, “A woman’s appearance is a fiery sword. Remember that Tamar was corrupted by her own brother; remember always that woman expelled the inhabitant of Paradise from his own lands.”</rdg>
+					</app>
+				</s>
+				<s n="7">
+					<app>
+						<lem wit="#Transcription">Quid fortius Samsone? quid sapientius Salomone? quid sanctius David?</lem>
+						<rdg wit="#Translation">Who is stronger than Samson? Who is wiser than Solomon? Who is more holy than David?
+							<note type="critical" anchored="true">
+								<p>
+									The <hi rend="italic">‘quid...quid...quid’</hi> tricolon means ‘What...what...what’, but in this case ‘who’ is preferable as the subjects are human.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="8">
+					<app>
+						<lem wit="#Transcription">Omnes hi per feminas subversi sunt.</lem>
+						<rdg wit="#Translation">All these men were subverted by women.</rdg>
+					</app>
+				</s>
+				<s n="9">
+					<app>
+						<lem wit="#Transcription">Eccl. XXV: a muliere initium factum est peccati et per illam homines moriuntur.</lem>
+						<rdg wit="#Translation">Ecclesiastes XXV: “The beginning of sin was made by a woman, and it is because of her that men die.”</rdg>
+					</app>
+				</s>
+				<s n="10">
+					<app>
+						<lem wit="#Transcription">Unde antiqui ab ipsis se continuerunt, prout narrat Vegetius L. II<hi rend="sup()">0</hi> de continentia Alexandri, quod, cum esset ei virgo eximiae pulchritudinis tradita, cuidam principi desponsata, summa abstinentia pepercit ei, ut nec eam adspiceret, sed ad spousüm remisit, qua remissa mulieris ac principis mentes sibi reconciliavit.</lem>
+						<rdg wit="#Translation">For this reason, the ancients always abstained from women. For example, Vegetius tells us in his second book about the self-restraint of Alexander. When a maiden of remarkable beauty, but betrothed to another prince, was brought to him, he restrained himself with the highest abstinence so that he did not even look at her, but returned her to her groom and reconciled them to one another.</rdg>
+					</app>
+				</s>
+				<s n="11">
+					<app>
+						<lem wit="#Transcription">Cui simile narrat Valerius lib. IV. cap. III de Scipione dicens, quod, cum intellexisset, quod virgo eximiæ formæ cuidam nobili desponsata esset inter obsides, qui erant apud Carthaginem, postquam Carthago fuit ab ipso capta, vocatis parentibus virginis et sponso, immaculatam virginem iis tradidit et aurum, quod pro redemtione puellæ oblatum erat, virgini in dotem sive marito in munus nuptiale dedit, per quam coutinentiam et munificientiam animos illorum sibi applicuit.</lem>
+						<rdg wit="#Translation">Valerius tells us something similar concerning Scipio in book IV chapter III. After he took Carthage, he discovered that an extremely beautiful maiden engaged to a nobleman was among the hostages of that city. Having summoned her parents, he delivered their daughter to them along with a sum of gold as her dowry or as a marriage-gift for her husband. This sum had originally been given to him for the redemption of the girl. By this act of self-restraint and generosity, he won the hearts of the Carthaginians.</rdg>
+					</app>
+				</s>
+				<s n="12">
+					<app>
+						<lem wit="#Transcription">De mira etiam continentia Xenocratis philosophi narrat Valerius eodem cap.</lem>
+						<rdg wit="#Translation">In the same chapter, Valerius describes the miraculous self-control of the philosopher Xenocrates.</rdg>
+					</app>
+				</s>
+				<s n="13">
+					<app>
+						<lem wit="#Transcription">dicens, quod apud Athenas quidam juvenes promiserunt cuidam mulieri impudicæ pecuniam sibi dare, si animum philosophi posset ad luxuriam inflectere.</lem>
+						<rdg wit="#Translation">Some young men of Athens promised money to a shameless woman if she could influence him towards decadence.</rdg>
+					</app>
+				</s>
+				<s n="14">
+					<app>
+						<lem wit="#Transcription">Quae nocte veniens juxta eum aceubuit nec in aliquo ejus continentiam labefecit et deridentibus adolescentibus, quod animum illius flectere non potuisset, respondit, quod non ad hominem sed ad statuam perrexisset.</lem>
+						<rdg wit="#Translation">That night, she came and laid down on the bed beside him. However, she could not undo his rectitude. To the youths, who mocked her for being unable to influence Xenocrates, she retorted that she had not gone to a man but to a statue.</rdg>
+					</app>
+				</s>
+				<s n="15">
+					<app>
+						<lem wit="#Transcription">Vocarunt enim pbilosophum statuam propter immobilem ejus continentiam.</lem>
+						<rdg wit="#Translation"> Indeed, they called that philosopher a statue due to his immutable self-restraint.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
