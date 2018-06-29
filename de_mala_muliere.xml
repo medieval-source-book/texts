@@ -1,0 +1,548 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Gutenberglied</title>
+				<author>Hans Folz</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Irene Han</name>
+				</respStmt>
+			</titleStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>			
+				<listWit>
+					<witness xml:id="Transcription">Gutenberglied</witness>
+					<witness xml:id="Translation">Song of Gutenberg</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Gutenberglied" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Gutenberglied</lem>
+						<rdg wit="#Translation">Song of Gutenberg</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Quisquis male mulieris artes malas scire queris,</lem>
+						<rdg wit="#Translation">May you, who seek to know the wicked tricks of Woman,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Que subscripsi coacerua, lege disce, mente serua.</lem>
+						<rdg wit="#Translation">Read, learn, and keep in mind the the verses written below.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Si uis tandem felix esse, haec ut legas est necesse.</lem>
+						<rdg wit="#Translation">Indeed, if you wish to be happy, it is necessary that you read these words.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Hic addisces, hic uidebis, quid dimittes, quid tenebis.</lem>
+						<rdg wit="#Translation">Here you will learn and see what you will dismiss and what you will remember.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Hic Caribdis atque Sille patent antra, Syrtes mille,</lem>
+						<rdg wit="#Translation">Here lie open the caves of Scylla and Charybdis, along with a thousand Sirtes:
+							<note type="critical" anchored="true">
+								<p>The Gulf of Sirte, infamous for its hazardous sandbanks, is located on the northern coast of Libya.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Hic describo Cyrcen lenam, absorbentemque balenam.</lem>
+						<rdg wit="#Translation">Here I describe whorish Circe and the all-consuming whale.
+							<note type="critical" anchored="true">
+								<p>Perhaps a reference to Jonah 1.17.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Que ne formides in mari, naui uectus salutari,</lem>
+						<rdg wit="#Translation">So that you will not fear these threats at sea, while you sail in a salutary ship,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Deum ama, fuge scortum. Castitatis tene portum.</lem>
+						<rdg wit="#Translation">You should love God, flee harlotry, and seek the port of chastity.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Uersus et euersus in me, dum fabrico uersus,</lem>
+						<rdg wit="#Translation">While I compose my verses, I twist and turn within my mind.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Non ualeo fari, non scribere, non meditari,</lem>
+						<rdg wit="#Translation">I can barely speak, write, and think:</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Ut fatear uerum, que sit feritas mulierum.</lem>
+						<rdg wit="#Translation">How can I ever tell the entire truth about the savagery of women?</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Sed licet ad uotum nequeam describere totum,</lem>
+						<rdg wit="#Translation">Nevertheless, although I cannot describe it all, as I wish to,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app loc="l13">
+						<lem wit="#Transcription">Quicquid de Scilla feritatis habundat in illa,</lem>
+					</app>
+					<app loc="l14">
+						<rdg wit="#Translation">I shall speak a little – if the Muses come to my aid –</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app loc="l14">
+						<lem wit="#Transcription">Dicam pauca tamen, si det michi musa iuuamen.</lem>
+					</app>
+					<app loc="l13">
+						<rdg wit="#Translation">About that Scyllan beastliness that abounds in Woman.
+							<note type="critical" anchored="true">
+								<p>
+									 There are two Scyllas mentioned in the poem – the aquatic monster Scylla (Hom. <hi rend="italic">Od.</hi> 12.111-150) and Scylla, princess of Megara (Ov. <hi rend="italic">Met.</hi> 8.6-151). In this case, the term <hi rend="italic">‘feritatis’</hi> (‘[of] beastliness’) evokes the former rather than the latter.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Prestat in orbe feris cunctis feritas mulieris,</lem>
+						<rdg wit="#Translation">The savagery of Woman exceeds that of all the beasts in the world;</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Tygri predoni prestat, rapidoque leoni;</lem>
+						<rdg wit="#Translation">It puts to shame the preying tiger and swift-footed lion.
+							<note type="critical" anchored="true">
+								<p>
+									 ‘Puts to shame’ is an idiomatic translation of <hi rend="italic">‘prestat’</hi> and its dative object; more literally, ‘The savagery of Woman exceeds that of the preying tiger and the swift-footed lion’.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Uincitur istarum feritas, rabiesque ferarum,</lem>
+						<rdg wit="#Translation">On the one hand, the savagery of these creatures and the madness of all other beasts can be conquered,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Haeque
+							<note type="critical" anchored="true">
+								<p>As is expected with medieval manuscripts, the ‘ae’ digraph is confused with the letter ‘e’ throughout. I have preserved the [mis]spellings of the manuscript. In this case ‘ae’ is used correctly, but often it is not (cf. line 78).</p>
+							</note>
+						 pati discunt homines illosque tremiscunt.</lem>
+						<rdg wit="#Translation">As they learn to bear the yoke and tremble at men.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Femina uero feris truculencior una seueris,</lem>
+						<rdg wit="#Translation">On the other hand, Woman alone is more ferocious than the fiercest beasts:</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Numquam pacatur, nulla racione domatur,</lem>
+						<rdg wit="#Translation">She is never appeased, and can in no way be tamed.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Non homini cedit, non sponte fauet nec obedit,</lem>
+						<rdg wit="#Translation">She does not yield to Man, nor favour him, nor obey him.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Non ad iter recti ualet ullo uerbere flecti.</lem>
+						<rdg wit="#Translation">She cannot be led to the right path with beatings;</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Quo uexata magis fuerit mala femina plagis,</lem>
+						<rdg wit="#Translation">In fact, the more a wicked woman is harried by blows,</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Tanto maiorem studet exercere furorem.</lem>
+						<rdg wit="#Translation">The greater fury she strives to exhibit.</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Nec mala desistit fieri, stimuloque resistit.</lem>
+						<rdg wit="#Translation">Moreover, she does not cease becoming evil, but instead resists the spur.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Quisquis Samsonem considerat et Salomonem,</lem>
+						<rdg wit="#Translation">Whoever considers the cases of Samson and Solomon,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Et reliquos multos mulieris amore sopitos</lem>
+						<rdg wit="#Translation">And the many others brought to eternal rest by love of a woman,</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Discet et intendet, mirabitur et reprehendet</lem>
+						<rdg wit="#Translation">Will learn, notice, criticise and marvel at</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Exemplis ueris portenta male mulieris.</lem>
+						<rdg wit="#Translation">The real-life precursors of my ‘wicked woman’.</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Femina flamma furens, sed flammis acrius urens</lem>
+						<rdg wit="#Translation">Woman, flaming mad, is singed all the more sharply by her own flames.</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Totum concussit mundum, succendit, et ussit.</lem>
+						<rdg wit="#Translation">She shakes up the whole world, lights it on fire, and burns it down.</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Hec est cunctorum caput, et scintilla malorum,</lem>
+						<rdg wit="#Translation">She is the beginning and spark of all evils,</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Orbis que metas semper facit inrequietas.</lem>
+						<rdg wit="#Translation">For she troubles the ends of the earth for eternity.</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">O mala scintilla: quisquis succenditur illa,</lem>
+						<rdg wit="#Translation">O wicked spark: whoever is set alight by Woman</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Ille nec indigne misero consumitur igne,</lem>
+						<rdg wit="#Translation">is deservedly consumed by a wretched fire,</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Nec nisi diuina ualet extingui medicina.</lem>
+						<rdg wit="#Translation">which cannot be extinguished unless by some divine remedy.</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Haec hominem primum de celso trusit in imum,</lem>
+						<rdg wit="#Translation">It was Woman who first cast Man down from up high,</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">Intulit et penam mundo, mortisque catenam.</lem>
+						<rdg wit="#Translation">bringing punishment and the chain of death to the world.</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Sponsum, serpentem, uitam, genus, Omnipotentem,</lem>
+						<rdg wit="#Translation">She betrayed her husband, welcomed the serpent, spurned life,</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">Prodidit, admisit, spreuit, uiciauit, omisit.</lem>
+						<rdg wit="#Translation">injured mankind, and lost the All-Powerful.
+							<note type="critical" anchored="true">
+								<p>In the original Latin, this sentence is constructed using two asyndetic verses: ‘Her husband, the serpent, life, mankind, and the All-Powerful / she betrayed, welcomed, spurned, injured, and lost.’</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">Et quis eam laudet? Quicquid male cogitat audet,</lem>
+						<rdg wit="#Translation">And who shall praise her? She dares to perform whatever evil she thinks up,</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">Et cupit expleri rem, qua rea possit haberi.</lem>
+						<rdg wit="#Translation">and yearns to commit some act, so that she will be perceived as guilty.</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">Nil fugit incestum, cupit omne quod est inhonestum,</lem>
+						<rdg wit="#Translation">In addition, she shuns nothing which is taboo, but wants everything which is dishonourable.</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">Quicquid agit secum, fas siue nefas, putat equum.</lem>
+						<rdg wit="#Translation">She considers all her plans to be just, whether they be right or wrong.</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Femina terrarum confusio, mors animarum,</lem>
+						<rdg wit="#Translation">Woman is the disorder of lands and the death of souls:</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Ut mundo late resonet scelerum nouitate,</lem>
+						<rdg wit="#Translation">she is heard far and wide throughout the world due to the strangeness of her sins.</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">Nil dubium dubitat, nichil euitabile uitat,</lem>
+						<rdg wit="#Translation">She does not doubt that which is doubtful, nor avoid that which is avoidable,</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">Nil intemptatum sinit, it scelus omne patratum,</lem>
+						<rdg wit="#Translation">but leaves nothing untried, and commits every sin,</rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">Ad causas quasque confundens fasque nefasque.</lem>
+						<rdg wit="#Translation">confusing right and wrong for her own purposes.</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">Quo magis obscenum scelus est, magis huic fit amenum,</lem>
+						<rdg wit="#Translation">The more obscene a crime is, the more pleasant it seems to her;</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">Quo magis horrendum, magis hoc putat esse colendum.</lem>
+						<rdg wit="#Translation">the more terrible a sin, the greater the glory she places upon it.</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">Imperium, sensum, uires, fastidia, censum,</lem>
+						<rdg wit="#Translation">She obtains power, weakens perception, diminishes strength,</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">Optinet, emollit, minuit, generat, male tollit.</lem>
+						<rdg wit="#Translation">creates annoyance, and exhausts wealth.
+							<note type="critical" anchored="true">
+								<p>See n. 4.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">Femina tormentum iuuenum, mortis monimentum,</lem>
+						<rdg wit="#Translation">Indeed, Woman is a torment for young men and a reminder of death:</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Mortem Samsoni dedit, interitum Salomoni.</lem>
+						<rdg wit="#Translation">she brought about Samson’s demise and Solomon’s end.</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Femina priuauit pietatis robore Dauid,</lem>
+						<rdg wit="#Translation">She also deprived David of the strength of his piety,</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">Quando per inuidiam iugulari fecit Uriam</lem>
+						<rdg wit="#Translation">when he ordered Uriah’s murder out of lustful envy.
+							<note type="critical" anchored="true">
+								<p>2 Samuel 11:5-27. David places Uriah at the front lines of a dangerous battle so as to eliminate him, as he was enamoured with Uriah’s wife, Bathsheba.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Coniuge pro pulchra multi subiere sepulcra.</lem>
+						<rdg wit="#Translation">Many have gone to their graves due to their beautiful wives.</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Femina plena malis, faera, pessima, demonialis,</lem>
+						<rdg wit="#Translation">Woman is full of evils, wild, demonic, the worst of all creatures.</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">Priuauit uita Naboth, pro uitae cupita:</lem>
+						<rdg wit="#Translation">She took away Naboth’s life to obtain his vineyard;
+							<note type="critical" anchored="true">
+								<p>1 Kings 21:2-15. Jezebel has Naboth killed so that her husband, King Ahab, can have Naboth’s vineyard.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">Causa necis subitae sunt res plerumque cupite.</lem>
+						<rdg wit="#Translation">she murders on sudden impulses, and especially out of greed.</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Femina mors mundi, mala femina fabula mundi.</lem>
+						<rdg wit="#Translation">Indeed, Woman is the death of the world, and a wicked woman is its scandal.</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">Exicium, reges, insontes, federa, leges,</lem>
+						<rdg wit="#Translation">She brings destruction, murders kings, slaughters innocents,</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">Attulit, orbauit, strauit, soluit, uiolauit.</lem>
+						<rdg wit="#Translation">unbinds treaties, and violates laws.
+							<note type="critical" anchored="true">
+								<p>See n. 4.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">Illa Ioseph iustum Veneris non ignibus ustum,</lem>
+						<rdg wit="#Translation">She saw to it that Joseph, who remained unburnt by the fires of Venus,</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">Carcere dampnari fecit ferroque ligari.</lem>
+						<rdg wit="#Translation">was condemned to prison and bound in iron chains.</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">Hec etiam plena rabie truculenta leena</lem>
+						<rdg wit="#Translation">Similarly, that aggressive whore,
+							<note type="critical" anchored="true">
+								<p>Salome.</p>
+							</note>
+						 filled with madness,
+						</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">Fecit ut athletam Domini magnumque prophetam</lem>
+						<rdg wit="#Translation">Rex ferus artaret uinclis, gladioque necaret,</rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">Et tulit in disco caput illius, unde tremisco.</lem>
+						<rdg wit="#Translation">persuaded the savage king to bind in chains</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">and kill the champion of the Lord, that great prophet:</lem>
+						<rdg wit="#Translation">then she carried his head on a platter. How I tremble at this!
+							<note type="critical" anchored="true">
+								<p>Literally ‘at which I tremble’.</p>
+							</note>
+						</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
