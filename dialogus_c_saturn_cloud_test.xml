@@ -1,0 +1,98 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt' >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>De Saturno et nube, dial. 2 [Dialogus creaturarum]</title>
+				<author>Attributed to Nicolaus Pergamenus</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Dr. G. Th. Grässe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Lora Webb</name>
+				</respStmt>
+			</titleStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+				<encodingDesc>
+			<projectDesc>
+            	<p>"De Saturno et nube" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Septum sunt planetæ secundum dicta philosophorum, scilicet Saturnus, Jupiter, Mars, Sol, Venus, Mercurius et Luna, sed distantia magna est inter planetam et planetam.</lem>
+						<rdg wit="#Translation">According to the philosopher, there are seven planets: Saturn, Jupiter, Mars, the Sun,Venus, Mercury, and the Moon. However, there is a great distance from one planet to another.</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p>
+				<s n="1">
+					<app>
+						<lem wit="#Transcription">﻿Quia refert magister Moyses maximus philosophus, ut habetur in Aurea Legenda, quod quilibet circulus cujuslibet planetæ habet in spissitudine viam quingentorum annorum id est tantum spatium, quantum posset aliquis ire in quingentis annis de via plana ita tamen, quod iter cujuslibet diei sit quadraginta milliaria et quodlibet milliare sit duorum millium passuum.</lem>
+						<rdg wit="#Translation">Hence the teacher Moyses, the greatest philosopher, says in accordance withthe Golden Legend that every planet’s orbit is the size of a five-hundred-year path. That is to say, there is as much space in a planet’s orbit as someone could walk in five hundred years on a level road, if he journeyed forty miles a day and every mile consisted of two thousand paces.</rdg>
+					</app>
+				</s>
+				<s n="2">
+					<app>
+						<lem wit="#Transcription">Quadam autem vice quædam nubes magna et spissa se elevare coepic dicens: magna est excellentia mea, quia propter meam magnitudinem planetæ in mundo apparere non valent, dum in aëre me pono; sed cum sim sub ipsis et eas sic obnubilo quanto magis, si adscendero superius, offuscare et suppeditare potero, multo magis certe.</lem>
+						<rdg wit="#Translation">Once upon a time, a great and thick Cloud began to revere herself, saying, “Truly, my excellence is great; on account of my size, the planets cannot appear in the world, so long as I interpose myself in the air. Even now, when I am beneath them, I manage to block them out. If I were to ascend higher, therefore, how much more greatly would I be able to cover them and subordinate them? Certainly I would be able to do so far more greatly."</rdg>
+					</app>
+				</s>
+				<s n="3">
+					<app>
+						<lem wit="#Transcription">Et hoc dicens sursum tendere cœpit cumque usque ad Saturnum ascenderet et superscandere vellet, ait Saturnus: quis es tu, qui ascendere cupis, ubi nunquam ullis ascendit?</lem>
+						<rdg wit="#Translation">Speaking thus, she began to stretch upwards. When she had risen all the way to Saturn, she tried to clamber over him. Saturn spoke: “Who are you, who desires to rise to where no one has ever risen?”</rdg>
+					</app>
+				</s>
+				<s n="4">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note type="critical" anchored="true">
+								<p>
+									<hi rend="italic"></hi>
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
