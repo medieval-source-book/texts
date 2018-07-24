@@ -26,6 +26,7 @@
 			</titleStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<note type='critIntro'></note>
 			</notesStmt>
 			<sourceDesc>			
 				<listWit>
@@ -61,13 +62,6 @@
 			</head>
 		</front>
 		<body>
-			<div>
-				<head>
-					<app>
-						<lem wit="#Transcription">Prologus de mala muliere</lem>
-						<rdg wit="#Translation">Prologue</rdg>
-					</app>
-				</head>
 				<lg>
 					<l n="1">
 						<app>
@@ -126,18 +120,6 @@
 						</app>
 					</l>
 				</lg>
-			</div>
-			<div>
-				<head>
-					<app>
-						<lem wit="#Transcription">[De mala muliere]
-							<note type="critical" anchored="true">
-								<p>While this rubric is not present in the MS, I have marked it since the prologue ends and the main body begins here.</p>
-							</note>
-						</lem>
-						<rdg wit="#Translation">[On the Wicked Woman]</rdg>
-					</app>
-				</head>
 				<lg>
 					<l n="9">
 						<app>
@@ -743,14 +725,6 @@
 						</app>
 					</l>
 				</lg>
-			</div>
-			<div>
-				<head>
-					<app>
-						<lem wit="#Transcription">De illa que impudenter filium suum adamauit</lem>
-						<rdg wit="#Translation">On the Woman Who Shamelessly Desired Her Son</rdg>
-					</app>
-				</head>
 				<lg>
 					<l n="95">
 						<app>
@@ -2313,7 +2287,6 @@
 						</app>
 					</l>
 				</lg>
-			</div>
-		</body>
-	</text>>
+			</body>
+		</text>
 </TEI>
