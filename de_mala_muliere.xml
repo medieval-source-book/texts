@@ -26,7 +26,7 @@
 			</titleStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+				<note type='critIntro'></note>
 			</notesStmt>
 			<sourceDesc>			
 				<listWit>
@@ -55,8 +55,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Gutenberglied</lem>
-						<rdg wit="#Translation">Song of Gutenberg</rdg>
+						<lem wit="#Transcription">De Muliere Mala</lem>
+						<rdg wit="#Translation">On the Wicked Woman</rdg>
 					</app>
 				</title>
 			</head>
@@ -2314,6 +2314,7 @@
 						</app>
 					</l>
 				</lg>
+			</div>
 		</body>
-	</text>
+	</text>>
 </TEI>
