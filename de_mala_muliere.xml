@@ -62,7 +62,7 @@
 			</head>
 		</front>
 		<body>
-			<div>
+			<div1 type = "section">
 				<head>
 					<app>
 						<lem wit="#Transcription">Prologus de mala muliere</lem>
@@ -114,10 +114,10 @@
 					</app>
 				</l>
 				<l n="7">
-				<app>
+					<app>
 						<lem wit="#Transcription">Que ne formides in mari, naui uectus salutari,</lem>
 						<rdg wit="#Translation">So that you will not fear these threats at sea, while you sail in a salutary ship,</rdg>
-						</app>
+					</app>
 				</l>
 				<l n="8">
 					<app>
@@ -125,8 +125,8 @@
 						<rdg wit="#Translation">You should love God, flee harlotry, and seek the port of chastity.</rdg>
 					</app>
 				</l>
-			</div>
-			<div>
+			</div1>
+			<div1 type = "section">
 				<head>
 					<app>
 						<lem wit="#Transcription">[De mala muliere]
@@ -428,7 +428,7 @@
 							<note type="critical" anchored="true">
 								<p>See n. 4.</p>
 							</note>
-					</rdg>
+						</rdg>
 					</app>
 				</l>
 				<l n="54">
@@ -736,8 +736,8 @@
 						</rdg>
 					</app>
 				</l>
-			</div>
-			<div>
+			</div1>
+			<div1 type = "section">
 				<head>
 					<app>
 						<lem wit="#Transcription">De illa que impudenter filium suum adamauit</lem>
@@ -2304,7 +2304,7 @@
 						<rdg wit="#Translation">‘Rarely is a woman good, but a good woman is worthy of a crown.’</rdg>
 					</app>
 				</l>
-			</div>
+			</div1>
 		</body>
 	</text>
 </TEI>
