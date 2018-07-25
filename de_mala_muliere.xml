@@ -1,4 +1,4 @@
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?_xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?_xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
 [
 <!ENTITY % Menota_entities SYSTEM
@@ -55,14 +55,14 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Gutenberglied</lem>
-						<rdg wit="#Translation">Song of Gutenberg</rdg>
+						<lem wit="#Transcription">De Muliere Mala</lem>
+						<rdg wit="#Translation">On the Wicked Woman</rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
-			<div1 type = "section">
+			<div1 type="section">
 				<head>
 					<app>
 						<lem wit="#Transcription">Prologus de mala muliere</lem>
@@ -126,7 +126,7 @@
 					</app>
 				</l>
 			</div1>
-			<div1 type = "section">
+			<div1 type="section">
 				<head>
 					<app>
 						<lem wit="#Transcription">[De mala muliere]
@@ -737,7 +737,7 @@
 					</app>
 				</l>
 			</div1>
-			<div1 type = "section">
+			<div1 type="section">
 				<head>
 					<app>
 						<lem wit="#Transcription">De illa que impudenter filium suum adamauit</lem>
@@ -853,7 +853,7 @@
 				<l n="112">
 					<app>
 						<lem wit="#Transcription">Que te condecorant penitus, penitusque decorant,</lem>
-						<rdg wit="#Translation"All these wholly adorn you, indeed they do,
+						<rdg wit="#Translation">All these wholly adorn you, indeed they do,
 							<note type="critical" anchored="true">
 								<p>Instead of ‘indeed they do’, the Latin (line 112) simply repeats the previous phrase with an inverted word order, which cannot be expressed in English: ‘All these wholly adorn you, adorn you.’</p>
 							</note>
