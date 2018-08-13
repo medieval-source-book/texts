@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>De sole et luna, dial. 1.</title>
+				<title>De sole et luna</title>
 				<author>Nicolaus Pergamenus</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -29,8 +29,8 @@
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
+					<witness xml:id="Transcription">De sole et luna</witness>
+					<witness xml:id="Translation">Concerning the Sun and the Moon</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
