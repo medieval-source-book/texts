@@ -34,7 +34,6 @@
 						<witness xml:id="Translation">The Virgin Mary's Lament</witness>
 					</listWit>
 				</p>
-				<p></p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
@@ -285,12 +284,12 @@
 		</front>
 		<body>
 			<sp>
-				<speaker lang="la">
+				<stage lang="la" type="speaker">
 					<app>
 						<lem wit="#Transcription">Johannes ewangelista</lem>
 						<rdg wit="#Translation">John the Evangelist:</rdg>
 					</app>
-				</speaker>
+				</stage>
 				<lg lang="de" type="stanza">
 					<l n="1">
 						<app>
@@ -4654,7 +4653,7 @@
 					<l n="583">
 						<app>
 							<lem wit="#Transcription">We kan nu syn trurent la&esup;n,</lem>
-							<rdg wit="#Translation">TRANSLATION OF SPOKEN LINE GOES HERE</rdg>
+							<rdg wit="#Translation">Who can forget his suffering?</rdg>
 						</app>
 					</l>
 					<l n="584">
