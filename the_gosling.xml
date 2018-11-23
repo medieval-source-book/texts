@@ -12,30 +12,20 @@
 				<title>The Gosling</title>
 				<author>Anonymous</author>
 				<respStmt>
-					<resp>Translation by</resp>
-					<name>Kathryn Starkey</name><name>Mae Lyons-Penner</name><name>Robert Forke</name><name>Björn K. Buschbeck</name>
+					<resp>Transcription by</resp>
+					<name>Klaus Grubmüller</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>Kathryn Starkey</name><name>Mae Lyons-Penner</name><name>Robert Forke</name><name>Björn K. Buschbeck</name>
+					<resp>Translation by</resp>
+					<name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Lyons-Penner</name><name>Kathryn Starkey</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Lyons-Penner</name><name>Kathryn Starkey</name>
 				</respStmt>
 			</titleStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'>
-					<p>
-						The Middle High German Mären, short narrative texts written in rhymed couplets similar to the French fabliaux and the Italian prose novelle, often tell humorous stories spiked with sexual jokes and sideswipes against specific social groups, specifically clerics. The Gosling, composed by an anonymous author probably in the second half of the 13th century, constitutes a rather typical specimen of this literary genre. The text tells the story of a young monk who leaves the monastery for the first time and encounters an outside world that he is completely ignorant of. Never having seen a woman before, he innocently asks his abbot about those that they meet, and the abbot, trying to suppress the monk's instant fascination, answers that these creatures were called "geese". The abbot's plan fails, and the naive monk is seduced by a village girl. Unaware of his wrongdoing, he later on reveals his sexual encounter to the abbot, who recognizes the calamity caused by his white lie.
-					</p>
-					<p>
-						The motif of the worldly inexperienced young man is widespread in European medieval literature. It is central to the various Christianized versions of the legend of Barlaam and Josaphat (e.g. Rudolf von Ems: Barlaam und Josaphat, ca. 1220/30) and is frequently used as a moral anecdote in sermons and exemplary literature (e.g. Jacques de Vitry, Exempla, no. 82). Apart from such edifying texts, the motif's humorous potential did not escape medieval authors and audiences. There are a large number of medieval burlesque stories about young men who have never seen women before and yet are instantly attracted to the female sex. For example, both the Italian Novellino (early 14th c., story no. 14) and Giovanni Boccaccio's Decameron (1358, fourth day, introduction) tell variants of this story.
-					</p>
-					<p>
-						The Gosling is a relatively early example of this narrative tradition. With regards to both to its verse form, brevity, sexual humor, and its mild undertones of anticlericalism, it represents central characteristics of the Märe tradition and might give an introductory impression of this literary genre.
-					</p>
-					<p>
-						Multiple variants of this text are transmitted in six manuscripts that were written between the early 14th and the mid 15th centuries. We have translated the Gosling according to Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v; Würzburg ca. 1350).
-					</p>
-				</note>
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
@@ -79,9 +69,6 @@
 				<app>
 					<lem wit="#Transcription">Ich hort sagen ein mer</lem>
 					<rdg wit="#Translation">I heard a story told
-						<note type="critical" anchored="true">
-							<p>"mere" translates to tale or story</p>
-						</note>
 					</rdg>
 				</app>
 			</l>
@@ -148,8 +135,8 @@
 				<app>
 					<lem wit="#Transcription">gap man swaz si mohten han.</lem>
 					<rdg wit="#Translation">they gave whatever they had.
-						<note type="critical" anchored="true">
-							<p>"Milte" (roughly "generosity") is regularly portrayed as a key virtue in medieval German courtly literature. Here it is related to the Christian ideal of caritas</p>
+						<note anchored="true">
+							<p>"Milte" (roughly: "generosity") is regularly portrayed as a key virtue in medieval German courtly literature. Here it is related to the Christian ideal of caritas ("charity").</p>
 						</note>
 					</rdg>
 				</app>
@@ -706,8 +693,8 @@
 				<app>
 					<rdg wit="Transcription">wie der münich dar was kumen</rdg>
 					<rdg wit="Translation">about how the monk had come to the monastery</rdg>
-					<note type="critical" anchored="true">
-						<p>The Middle High German would literally translate into "how the monk had come there". This refers to his youth at the monastery. To clarify the reference, we specified the "dar"/there" in our translation.</p>
+					<note anchored="true">
+						<p>The literal translation of the Middle High German would be: "how the monk had come there". This refers to his youth at the monastery. To clarify the reference, we specified the "there" in our translation.</p>
 					</note>
 				</app>
 			</l>
@@ -1434,9 +1421,6 @@
 				<app>
 					<rdg wit="Transcription">daz wir vollez ampt süllen hân,</rdg>
 					<rdg wit="Translation">to hold full high mass, my dear master</rdg>
-					<note type="critical" anchored="true">
-						<p>"my dear master" is a translation of "lieber herre mîn" in l.218, but the syntax has been changed in our English translation for clarity of meaning.</p>
-					</note>
 				</app>
 			</l>
 			<l n="216">
@@ -1455,9 +1439,6 @@
 				<app>
 					<rdg wit="Transcription">so schaffet, lieber herre mîn,</rdg>
 					<rdg wit="Translation">to provide</rdg>
-					<note type="critical" anchored="true">
-						<p>The English translation for "lieber herre mîn" - "my dear master" - appears in l.215, above. The syntax of the English translation was altered for clarity of meaning.</p>
-					</note>
 				</app>
 			</l>
 			<l n="219">
