@@ -9,8 +9,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>De Heinrico</title>
-				<author></author>
+				<title>The Song of Heinrich</title>
+				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name>Hannah Frakes</name>
@@ -25,14 +25,13 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher></publisher>
+				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
 					<p></p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'></note>
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
@@ -41,6 +40,18 @@
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
+		<projectDesc>
+            	<p>"The Song of Heinrich" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
 		<encodingDesc>
 			<editorialDecl>
 				<p></p>
@@ -54,7 +65,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">De Heinrico</lem>
-						<rdg wit="#Translation">The Heinrico (The Song of Heinrich)</rdg>
+						<rdg wit="#Translation">The Song of Heinrich</rdg>
 					</app>
 				</title>
 			</head>
@@ -76,7 +87,7 @@
 				<l n="3"><space quantity="10" unit="chars"></space>
 					<app>
 						<lem wit="#Transcription">de quodam duce, themo heron Heinriche,</lem>
-						<rdg wit="#Translation">a certain duke, of Lord Heinrich</rdg>
+						<rdg wit="#Translation">a certain duke, of Lord Heinrich.</rdg>
 					</app>
 				</l>
 				<l n="4">
@@ -89,7 +100,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Intrans nempe nuntius, then keisar namoda her thus:</lem>
-						<rdg wit="#Translation">Once came a herald, who addressed the emperor thus:</rdg>
+						<rdg wit="#Translation">Once there came a herald, who addressed the emperor thus:</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -121,13 +132,13 @@
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">perrexit illi obuiam inde uilo manig man.</lem>
-						<rdg wit="#Translation">and went towards him (Heinrich) together with many men</rdg>
+						<rdg wit="#Translation">and went towards him [Heinrich] together with many men</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">et excepit illum mid mihilon eron.</lem>
-						<rdg wit="#Translation">And he greeted him (Heinrich) with great honor</rdg>
+						<rdg wit="#Translation">And he greeted him [Heinrich] with great honor</rdg>
 					</app>
 				</l>
 				<milestone unit="stanza"/>
@@ -146,7 +157,9 @@
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">nec non et socii, uuillicumo sid gi mi.‹</lem>
-						<rdg wit="#Translation">And to your companions, too: you are welcome to me.”</rdg>
+						<rdg wit="#Translation">And to your companions, too: you are welcome here.”
+							<note type="critical" anchored="true">Literally: 'you are welcome to me'.
+								</note></rdg>
 					</app>
 				</l>
 				<milestone unit="stanza"/>
@@ -159,26 +172,26 @@
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">coniunxere manus. her leida ina in thaz godes hus:</lem>
-						<rdg wit="#Translation">they took each other by the hand. He (Otto) lead him to the church:</rdg>
+						<rdg wit="#Translation">they took each other by the hand. He [Otto] lead him to the church:</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">petierunt ambo thero godes genatheno.</lem>
-						<rdg wit="#Translation">both sought for the grace of God.</rdg>
+						<rdg wit="#Translation">both sought the grace of God.</rdg>
 					</app>
 				</l>
 				<milestone unit="stanza"/>
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Oramine facto intfieng ina auer Otdo,</lem>
-						<rdg wit="#Translation">After the prayer he (Heinrich) greeted Otto again</rdg>
+						<rdg wit="#Translation">After the prayer he [Heinrich] greeted Otto again</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">duxit in concilium mit michelon eron</lem>
-						<rdg wit="#Translation">And he lead him (Heinrich) with great honor to the council</rdg>
+						<rdg wit="#Translation">And he lead him [Heinrich] with great honor to the council</rdg>
 					</app>
 				</l>
 				<l n="3">
