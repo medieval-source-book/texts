@@ -1,0 +1,483 @@
+<?xml-stylesheet type="text/css" href="../../../../drupalvm/www/gms/sites/all/modules/custom/vm/VersioningMachine/src/vmachine.xsl"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Neidhart Play of Sankt Paul</title>
+				<author></author>
+				<respStmt>
+					<resp>Translated by</resp>
+					<name>Björn K. Buschbeck</name>, <name>Robert Forke</name>, <name>Mae Lyons-Penner</name>, <name>Kathleen Smith</name>, <name>Kathryn Starkey</name> and <name>Mareike Reisch</name>.
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Das St. Pauler Neidhartspiel</witness>
+					<witness xml:id="Translation">The Neidhart Play of Sankt Paul</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Neidhart Play of Sankt Paul" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Neidhart</lem>
+						<rdg wit="#Translation">Neidhart</rdg>
+					</app>
+				</title>
+			</head>
+			<sp>
+				<speaker>
+					<app>
+						<lem wit="#Transcription">Proclamator</lem>
+						<rdg wit="#Translation">Proclaimer</rdg>
+					</app>
+				</speaker>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Horent frawen vnde man</lem>
+						<rdg wit="#Translation">Listen ladies and gentlemen</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Ez kument her vf disen plan</lem>
+						<rdg wit="#Translation">Now on this occasion,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Jetzo an diser vart</lem>
+						<rdg wit="#Translation">Will enter the stage,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Ain herczogin vnd her Nithart</lem>
+						<rdg wit="#Translation">A duchess and Lord Neidhart</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Mit in vil scho&esup;ner frawen</lem>
+						<rdg wit="#Translation">Together with many beautiful ladies.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Von den ir abentu&esup;r su&esup;nd schawen</lem>
+						<rdg wit="#Translation">You shall see their adventures,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Wie der vest ritter her Nithart</lem>
+						<rdg wit="#Translation">How the brave knight Lord Neidhart</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Mit der herczogin verwetet ha&vsup;t</lem>
+						<rdg wit="#Translation">Made a wager with the duchess</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Wer vinde daz erst blu&esup;melin</lem>
+						<rdg wit="#Translation">That whoever finds the first flower</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">der sol derer ander bu&osup;l jarlang sin</lem>
+						<rdg wit="#Translation">Should be the other one’s lover for a year!</rdg>
+					</app>
+				</l>
+			</sp>
+			<sp>
+				<speaker>
+					<app>
+						<lem wit="#Transcription">Loquatur ducissa</lem>
+						<rdg wit="#Translation">The duchess should speak:</rdg>
+					</app>
+				</speaker>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Got gru&esup;z dich edler nithart</lem>
+						<rdg wit="#Translation">Greetings, noble Neidhart!</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Von wann kumbst her an diser vart</lem>
+						<rdg wit="#Translation">Where are you coming from</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Oder wie sta&vsup;t din gemu&osup;t</lem>
+						<rdg wit="#Translation">Or how are your spirits inclined towards</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Gen dez liechten mayen blu&esup;t</lem>
+						<rdg wit="#Translation">This bright blossoming of May?</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Wez wellen wir nu beginnen</lem>
+						<rdg wit="#Translation">What shall we do now</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Da von wir frau&esup;d gewinen</lem>
+						<rdg wit="#Translation">To attain joy?</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Wann min gemu&esup;t sta&vsup;t also</lem>
+						<rdg wit="#Translation">For my spirits are directed toward</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">daz ich wil mit dir wesen fro</lem>
+						<rdg wit="#Translation">Being joyful with you</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Gen dez liechten mayen schin</lem>
+						<rdg wit="#Translation">In this bright splendor of May,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Ich vn die kla&vsup;ren megentin</lem>
+						<rdg wit="#Translation">I and the lovely maidens.</rdg>
+					</app>
+				</l>
+			</sp>
+			<sp>
+				<speaker>
+					<app>
+						<lem wit="#Transcription">Respondeat nithardus</lem>
+						<rdg wit="#Translation">Neidhart should respond:</rdg>
+					</app>
+				</speaker>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Gena&vsup;d liebiu frawe min</lem>
+						<rdg wit="#Translation">My merciful dear lady,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Waz ir gebietent, daz sol sin</lem>
+						<rdg wit="#Translation">As you request, so shall it be.</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Vnd wil mich dez verpflichten</lem>
+						<rdg wit="#Translation">And I pledge myself to it</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">daz ich wil fu&sup;rbas dichten</lem>
+						<rdg wit="#Translation">That I will furthermore compose</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">daz best daz ich mak</lem>
+						<rdg wit="#Translation">The best that I can</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">bediu nacht vnd tak</lem>
+						<rdg wit="#Translation">Both night and day.</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Durch alle scho&vsup;n frawen gu&osup;t</lem>
+						<rdg wit="#Translation">On behalf of all good and beautiful ladies</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Wil ich wesen hoch gemu&osup;t</lem>
+						<rdg wit="#Translation">I will be of high spirit.</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Su&osup;chen mit richem schal</lem>
+						<rdg wit="#Translation">With resounding song</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Wil ich blu&osup;men vnd vial</lem>
+						<rdg wit="#Translation">I will search for flowers and violets,</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Vnd vind ich dann daz blu&esup;melin</lem>
+						<rdg wit="#Translation">And if I then find that little flower,</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">So mu&esup;ssent ir min bu&osup;l sin</lem>
+						<rdg wit="#Translation">Then you must be my mistress.</rdg>
+					</app>
+				</l>
+			</sp>
+			<sp>
+				<speaker>
+					<stage>
+						<l n="34">
+							<app>
+								<lem wit="#Transcription">Vadat nithardus et ponat</lem>
+								<rdg wit="#Translation">Neidhart should go and put his cap</rdg>
+							</app>
+						</l>
+						<l n="35">
+							<app>
+								<lem wit="#Transcription">florem sub pilleo et redeat</lem>
+								<rdg wit="#Translation">over the flower and then return:</rdg>
+							</app>
+						</l>
+					</stage>
+				</speaker>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Ach edliu frawe minneclich</lem>
+						<rdg wit="#Translation">Oh noble and lovely lady,</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">An hohen frauden bin ich rich</lem>
+						<rdg wit="#Translation">I am rich with joys</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">Wan ich an disen stundn</lem>
+						<rdg wit="#Translation">because I have found a violet.</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">ha&vsup;n an viol blu&osup;men fundn</lem>
+						<rdg wit="#Translation">Two or three days ago</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">die su&vsup;llent ir ga&vsup;n schawn</lem>
+						<rdg wit="#Translation">At this moment,</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">Ir und die edeln junkfrawen</lem>
+						<rdg wit="#Translation">You should go and look at it, you and the noble maidens</rdg>
+					</app>
+				</l>
+			</sp>
+			<sp>
+				<speaker>
+					<stage>
+						<l n="42">
+							<app>
+								<lem wit="#Transcription">Levato pileo a ducissa</lem>
+								<rdg wit="#Translation">After the duchess lifts the hat:</rdg>
+							</app>
+						</l>
+					</stage>
+				</speaker>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">Ach waufen u&esup;mmer wa&vsup;ffen</lem>
+						<rdg wit="#Translation">Oh help, oh save me!</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">Dar vmb sol man dich straufen</lem>
+						<rdg wit="#Translation">You should be punished for this,</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">daz du nimmer liegest</lem>
+						<rdg wit="#Translation">so that you will never again lie</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Vnd kain frawen me betriegest</lem>
+						<rdg wit="#Translation">or betray any woman ever again.</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">Du vaiger swacher man</lem>
+						<rdg wit="#Translation">You cowardly man,</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">Ez mu&osup;s dir an daz leben ga&vsup;n</lem>
+						<rdg wit="#Translation">This will cost you your life!</rdg>
+					</app>
+				</l>
+			</sp>
+			<sp>
+				<speaker>
+					<app>
+						<lem wit="#Transcription">Respondeat nithardus parum percussus</lem>
+						<rdg wit="#Translation">Neidhart responds, unabashed:</rdg>
+					</app>
+				</speaker>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">Ach edliu frawe hochgebon</lem>
+						<rdg wit="#Translation">Oh noble highborn lady,</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">La&vsup;nd ab gen mir den iwern zorn</lem>
+						<rdg wit="#Translation">Let go of your anger towards me,</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">Vnd la&vsup;nd mich han iwer huld</lem>
+						<rdg wit="#Translation">And let me have your favor.</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">Ez ist geschehen a&vsup;n all min schuld
+						</lem>
+						<rdg wit="#Translation">What happened is not my fault:</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">Ain gebur mircz ha&vsup;t ze laid geta&vsup;n</lem>
+						<rdg wit="#Translation">A peasant has done it to harm me –</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">Er mu&osup;ss ain bain ze pfand hie la&vsup;n</lem>
+						<rdg wit="#Translation">In payment he shall lose a leg!</rdg>
+					</app>
+				</l>
+			</sp>
+			<sp>
+				<speaker>
+					<app>
+						<lem wit="#Transcription">Nithardus ad rusticos</lem>
+						<rdg wit="#Translation">Neidhart says to the peasants:</rdg>
+					</app>
+				</speaker>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Sagt an ir dorf knappen</lem>
+						<rdg wit="#Translation">Speak, you village lads,</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Iw to&esup;rpel vnd ir mu&osup;strappen</lem>
+						<rdg wit="#Translation">you idiots and you porridge-heads,</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">Waz ha&vsup;nd ir an mir gerochen</lem>
+						<rdg wit="#Translation">What did you smell on me</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">daz ir den viol ha&vsup;nt abgebrochen</lem>
+						<rdg wit="#Translation">That you plucked the violet,</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Vnd mir mit iwerm vngelimpf</lem>
+						<rdg wit="#Translation">And destroyed my game</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">Zer sto&esup;rent ha&vsup;nt den minen schimpf</lem>
+						<rdg wit="#Translation">With your prank?</rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">Ze pfant mu&esup;st ir diu bain hie la&vsup;n</lem>
+						<rdg wit="#Translation">In payment you shall lose a leg</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Und vf den stelczen hain ga&vsup;n.</lem>
+						<rdg wit="#Translation">And go home on crutches.</rdg>
+					</app>
+				</l>
+			</sp>
+		</body>
+	</text>
+</TEI>

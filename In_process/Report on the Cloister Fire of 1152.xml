@@ -1,0 +1,570 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Report on the Cloister Fire of 1152</title>
+				<author>Irimbert von Admont</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--NAMES--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name><!--TRANSLATOR--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Clara Romani</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Report on the Cloister Fire of 1152</witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Report on the Cloister Fire of 1152</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>	
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Non enim habemus hic mantentem civitatem, sed futuram inquirimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae sententia doctoris gentium quanta veritate fulciatur, in ea, quae nobis accidit, rerum permutatione declaratur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">Feria namque secunda medie quadragisme expositionem meam sero hic dimiseram, eamque in crastinum in gaudio Sancti Spiritus repetere proposueram, quia ad finem operis huius ardenter festinabam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum ecce nocte sequenti feriae terciae gravis et intolerabilis mihi occurrit luctus tristiciae, ut iam cum Iob merito possim exclamare: Versa est in luctum cythara mea et organum meum in voce flentium.
+								<note type="critical" anchored="true">
+									<p>Job 30.31</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="3">
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum enim matutinorum sollempnitas pervigli intentione et distincta psalmodiae compositione in choro celebraretur, ego et frater, qui mihi ad scribendum adiutor fuerat deputatus, in capella Sanctatae Mariae matutinalibus expletis laudibus cursum eiusdem Dominae nostrae usque ad lectionem decantaveramus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum ecce clamorem servi cuiusdam audientes obstupescimus, quia in Admuntensi loco nocturno tempore aliquem perturbationis strepitum audire non consuevimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ille secundoexclamavit iteratoque clamore mali alicuius suspectos nos esse fecit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">De capella concite eximus et nichil quidem videntes strepitum magnum circa domnum infirmorum audimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Servus enim, qui exclamaverat, domnum infirmorum calefaciebat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed eo negligentius agente ventus vehemens, utique a regione deserti irruens eandem domum exterius invaserat et flamma iam insuperabiliter mira celeritate vento impellente excreverat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="4">
+					<s>
+						<app>
+							<lem wit="#Transcription">Curo in monasterium.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Psalmum Quid gloriaris im malicia
+								<note type="critical" anchored="true">
+									<p>Ps 51.3</p>
+								</note>
+							 iam in choro psallebant distincta valde melodia.
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Fero invisa signa, foris iam conflagrare incendia.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Excurrunt primi fratres exteriores, quos omnes fere inveni solicite in orationibus stantes.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sic enim moris eis est psalmodiae noctornae invigilare, ne contingat eos continue sedentes somni tepore marcescere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Flamma supra modum excrescens a domo infirmorum capellam Sanctae Mariae cepit acriter laniare, quia pro incendii magnitudine et venti nimietate nullus pterat in periculo subvenire.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="5">
+					<s>
+						<app>
+							<lem wit="#Transcription">Luctus omnium oritur et matutini fratrum interrumpuntur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sorores accepto a me signo in secundi nocturni initio deponunt matutinos et in supplicationem letaniae cum incomparabili lachrimarum effusione se posternunt.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Flamma ez una parte monasterium occupat, ex alia in claustrum se dilatat, cui vix simile in eis montanis partibus inveniri poterat, quia sumptibus beatae memoriae domini Chu&osup;nradi archiepiscopi ex preciosissimo marmore constructum fuerat, eisdemque sumptibus preciosae columpnae monasterii eminebant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="6">
+					<s>
+						<app>
+							<lem wit="#Transcription">Dominus abbas videns incendium excrescere omnesque monasterii officinas irrevocabiliter occupare ad monasterium sororum transit, quia nec illud iam posse evadere pertimescit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aliquamdiu ergo pro foribus ecclesiae residens et flammas vento impellente ultra modum excrescere conspiciens sororesque in monasterio posse diffidens priorem sollicicius inquiri rogat, cui eiusdem monasterii claves commiserat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed cum inveniri non posset, quippe cum omnibus de monasterio egressis et in tenebris noctis, ubi iste esset ille nesciret, strepitu flammarum et terrore volantium scintillarum abbas permotus seras monasterii sororum effringi fecit eisque exeundi licentiam dedit, si periculum incendii declinari non possit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="7">
+					<s>
+						<app>
+							<lem wit="#Transcription">Quem cum domna Agnes, filia comitis Ottonis, fratris episcopi Ratisponensis lachrimabiliter inquireret, quorsum ire deberent, lachrimabiliter et ipse respondit, quocumque vos miseration Summi Patris duxerit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="8">
+					<s>
+						<app>
+							<lem wit="#Transcription">Iam tempus miserendi venerat, quia Celaestis Pater in ira misercodiae memor esse debuerat, ne de habitatione sui monasterii tot sorores claris ortas natalibus nocturno tempore contingeret eici, quae se pro amore Filii Dei custodiae mancipaverant carcerali, cuius custodiae districtionem non debeo silentio praeterire.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed prius ceptum ordinem incendii volo tansire.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="9">
+					<s>
+						<app>
+							<lem wit="#Transcription">Flamma cum omnia monasterii, capellarum edificia et omnes officinas monachorum et fratrum exteriorum consumpsisset, cellarium superius devoravit et per ostium ingrediens interiores trabes invasit et si ibi praevaluisset, consumptis stipendiis, quia monasterii situs valde est invius, dubium non esset, quin et multitudo monanchorum et fratrum in loco subsistere non posset, et monasterium sororum, quod ex opposito stabat, incendio periret.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vicerunt Dei Filium lachriamae sororum et ait angelo percutienti populum: sufficit, nunc contine manum tuam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="10">
+					<s>
+						<app>
+							<lem wit="#Transcription">Monachi, fratres et servi ultra modum tota nocte defatigati circa mane cellarium liberant sicque sorores sopito incendio secure in monasterio peseverant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vento enim Aquilonari, qui ante medium noctis insurrexerat, ex quo matutinorum sollempnitas ceperat et tota nocte illa flammas accendeno dilataverat, circa diei crepusculum alius se ventus opposuit, qui omne periculum flammarum a cellario et a sororum monasterio removit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="11">
+					<s>
+						<app>
+							<lem wit="#Transcription">Ut autem de hoc ipso monasterio sororum, sicut promisimus, aliqua succincete dicamus, beatae memorie domini Chu&oring;nradi Salzpurgensis archiepiscopi temporibus, ipsius consilio et auxilio undecumque venientibus sororibus hoc praeparavit et ordinavit piae memoriae domnus abbas Wolvoldus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Introitus monasterii uno solo ostio altari opposito clavibus tribus obseratur idque solummodo tunc aperitur, vel cum soror aliqua ad conversionem ingreditur vel cum mortua ad sepulturam effertur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Duas claves habent duo seniores in sua providentia, tercium interius habet soror magistra in sua custodia.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ut de aliis fratribus taceam, nec ipsi abbati nec interius habet soror magistra in sua custodia.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ut de aliis fratribus taceam, nec ipsi abbati nec priori licet ipsam aperire ianuam, nisi ad sororem in lecto communicandam vel sacri olei inunctione ad exitum praemuniendam vel ad confessionem eius in extremo vitae ibi recipiendam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nec tunc quidem vel ipsi abbati vel priori patet introitus, nisi sub duobus aut tribus testibus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="12">
+					<s>
+						<app>
+							<lem wit="#Transcription">Simul sunt, ubicumque sunt, sive in conventu sedeant, sive in choro Deo serviant, sive in refectorio, sive in dormitorio lassitudinem suam reficiant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nulli mortalium nisi ad fenestram conventus sui locuntur, ubi earum capitulo a solo abbate vel priore, raro tamen, praesidetur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ibi exhortationis verbum ad eas dirigitur, ibi omni sabbato alternatim de uno choro soli abbati vel prori conditentur sique ad communionem sequentis dominicae omni studio ac diligentia praeparantur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nulli licet earum ulli mortalium sive abbati sive amico vel propinquo solam loqui cum solo, nisi sub duarum aut trium sororum testimonio excepto solo confessionis secreto.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="13">
+					<s>
+						<app>
+							<lem wit="#Transcription">Toto anni tempore, estate vel hieme ad sonum campane ad vigilas matutinas cum fratribus surgent ordinemque vigiliarum toto tempore hiemali usque in diem extendunt.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Idem ieiunium, idem silentium cum fratrinus per anni circulum agunt.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nulla earum lineis vestinus utitur, nisi solae infantuale, si quae inter eas nuriuntur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="14">
+					<s>
+						<app>
+							<lem wit="#Transcription">Capitulum suum inter se cottidie habent magistra vel eius vicaria praesidente.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et in festis diebus, cum abbas ad eas non poterit venire, sunt inter eas personae ad verbum exhortationis faciendum dispositae.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Valde quippe sunt litteratae et in scientia Sacrae Scripturae mirabiliter exercitate.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum enim post prium introitum numquam de monasterio egrediantur, nisi vel mortuae efferantur vel vivae forsitan in aliud monasterium transponantur, ubi simili custodia muniantur, cumque nichil unquam de mundi vanitatibus videant, raro aliquid de secularibus audiant, cur non scientiam celestium mysteriorum habeant, quae ab omni communione mundanorum gaudiorum ieiunant?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="15">
+					<s>
+						<app>
+							<lem wit="#Transcription">Cumque nobilissimorum principum filiae et aliae praeclaris ortae natalibus inter eas consistant, magnae inter se humilitatis conflictu ad invicem dimicant, quia valde detestabilis haberetur, si qua inter eas alicuis elationis vel iactantiae nota respergeretur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="16">
+					<s>
+						<app>
+							<lem wit="#Transcription">Habent per se vestimenta sua ad omnem necessitatem, ad nullam superfluitatem de camera sua disposita.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">De fratrum cellario dantur eis, non ut principum filiabus, sed ut Christi famulabus caritativa stipendia.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nulla ad fenestram accedit loquendi gratia nisi a magistra accepta licentia, nisi abbatem adesse videant, cui in soli ut filiae patri loqui audeant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sunt inter eas certae personae designate maturiori aetate, quae ad fenestram loquentium assint audientiae in quorumlibet advenientium sive spiritalium sive seculatium amicorum salutatione.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="17">
+					<s>
+						<app>
+							<lem wit="#Transcription">Hunc ergo disciplinae ordinem, Sancto Spiritui disciplinae, ut credo, placentem a primo fundatore monasterii sibi contraditum diligenter obsevat et cum multa superadiciant, pauca immo nulla districtionis iura relaxant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde quaecumque inter eas de hac vita subtrahuntur, in magna securitate moriuntur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nec inmerito, quippe quae cottidie propter Christum sicut oves occisionis
+							<note type="critical" anchored="true">
+									<p>Compare Ps 43.22, Rom 8.36</p>
+								</note>
+							 ieiuniis, vigiliis et spontaneis flagellis mortificantur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="18">
+					<s>
+						<app>
+							<lem wit="#Transcription">Mortuae in monasterio suo per noctem conservatur et a reliquis sororibus summo studio exequiae die noctuque celebrantur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Facto mane missa defunctorum pro defuncta apud sorores celebratur eaque peracta conventu monachorum et fratrum religiosa frequentia adveniente funus de ecclesia sororum ad monasterium fratrum venerabiliter transportatur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hoc autem responsorium in exportatione funeris a conventu fratrum venerabiliter transportatur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hoc autem responsorium in exportatione funeris a conventu fratrum inchoatur, quod numquam sine multis sororum lachrimis decantatur: Quomodo confitebor tibi Domine Deus meus, quando veneris in iudicio tupo: quia cor meum mundum non custodivi, animam meam in carne postam pollui, templum corporis mei de opere iniquitatis coinquinavi?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Precor te Domine, antequam discutas me, miserere mei.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tibi soli peccavi, miserere me!</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sic fratres susceptum finis studiosissime procurant et celebratis missarum solempniis et consuetis exequiis in communi cimiterio officiosissime terrae commendant, ubi ex una parte fratrum sepultura, ex alia sororum est designata.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="19">
+					<s>
+						<app>
+							<lem wit="#Transcription">Qualiscumque sit illa dies, pro defuncta sorore omnes tam sorores quam monachi et fratres cum multa devotione flagella suscipiunt idemque pro mocacho vel fratre defuncto communiter omes faciunt.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Similiter cum obitus fratris appropinquare per tabulam nunciatur a sororibus ad aecclesiam festinatur eiusque transitus divinae pietati intentissime commendatur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="20">
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum ergo his atque aliis multis spiritalis vitae commodis se sorores reliosissime privari pertimescerent, si eas flaammarum incendia de quiete sui monasterii exturbarent, quanti lius Dei gemitus compeditarum et solvit filias interemptorum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Factum est autem istud incendium lugubre Admuntensis monasterii V. Idus marcii, qua nocte sequenti instabat festum beati Gregorii.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="21">
+					<s>
+						<app>
+							<lem wit="#Transcription">Transacto itaque tante desolationis infortunio abbas habito cum senioribus consilio statuit secum omnes retinere in loco, ne si huc et illuc disseminarentur, animarum suarum pericula fortasse paterentur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In domum ergo hospitum se omnes contulerunt ibique quo melius poterant sicut et in monasterio soliti erant, ordinem suum in divino servicio et in silentio et in ceteris omnibus servare decreverunt.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="22">
+					<s>
+						<app>
+							<lem wit="#Transcription">Diversi forsitan diversa locuntur et cum inscrutabilia esse Dei iudicia apostilus protestetur
+								<note type="critical" anchored="true">
+									<p>Job 3.8</p>
+								</note>
+							, ips dicinorum iudiciorum scrutatores esse moliuntur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Proinde negligentiam cel superbiam tantae desolationis forsitan non verentur asserere causam et super divinae castigationis plagam suarum linguarum addunt percussuram.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ceterum si quis spiritalis propositi conscius et amator ante incendii excidium illus monasterii statum vidisset, quantus in divino servicio fervor die noctuque flagraret, quanta inter se invicem continentia et humilitate decertarent hoc profecto de eis iudicium dare non dibitaret, quod adversum se Leviathan susciatassent et instar beati Iob temptatoriss manibus non ad condempnationem, sed ad probationem traditi fuisent.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quod alii sentiant, nescio.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ego unum scio, quia qui prius continentiae operam dabant et humilitati, cinti flagello Dei magis magisque in continentiae et humilitatis decore sunt compositi, quoniam iuxta apostoli testimonum diligentibus Deum omnia cooperantur in bonum
+								<note type="critical" anchored="true">
+									<p>Rom 8.28</p>
+								</note>
+							.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed iam tempus est, ut ad expositionis nostrae ordinem redeamus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

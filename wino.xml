@@ -1,0 +1,2576 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?_xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?_xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Der Weinschwelg</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcriptions and Translations by</resp>
+					<name>Kathryn Starkey</name>
+					<name>Mae Lyons-Penner</name>
+					<name>Robert Forke</name>
+					<name>Björn K. Buschbeck</name>
+					<name>Kathleen Smith</name>
+					<name>Mareike E. Reisch</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>???</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Der Weinschwelg</witness>
+					<witness xml:id="Translation">The Wino</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<projectDesc>
+            	<p>"The Wino" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+		</front>
+		<body>
+
+			<l n="1">
+				<app>
+					<lem wit="#Transcription">Swaz ich trinkens hân gesehen,</lem>
+					<rdg wit="#Translation">Any drinking I have seen</rdg>
+				</app>
+			</l>
+			<l n="2">
+				<app>
+					<lem wit="#Transcription">daz ist gar von kinden geschehen:</lem>
+					<rdg wit="#Translation">Is child’s play indeed:</rdg>
+				</app>
+			</l>
+			<l n="3">
+				<app>
+					<lem wit="#Transcription">ich hân einen swelch gesehen,</lem>
+					<rdg wit="#Translation">I’ve seen a drunkard</rdg>
+				</app>
+			</l>
+			<l n="4">
+				<app>
+					<lem wit="#Transcription">dem wil ich meisterschefte jehen.</lem>
+					<rdg wit="#Translation">Whose mastery I want to proclaim.</rdg>
+				</app>
+			</l>
+			<l n="5">
+				<app>
+					<lem wit="#Transcription">den dûhten becher gar enwiht,</lem>
+					<rdg wit="#Translation">He considered cups inadequate,</rdg>
+				</app>
+
+
+			</l>
+			<l n="6">
+				<app>
+					<lem wit="#Transcription">er wolde näpfe noch kopfe niht,</lem>
+					<rdg wit="#Translation">He wanted neither bowls nor pots,</rdg>
+				</app>
+
+			</l>
+			<l n="7">
+				<app>
+					<lem wit="#Transcription">er tranc ûz grôzen kannen.</lem>
+					<rdg wit="#Translation">But drank from large pitchers.</rdg>
+					</app>
+			</l>
+			<l n="8">
+				<app>
+					<lem wit="#Transcription">er ist vor allen mannen</lem>
+					<rdg wit="#Translation">Of all men he is the</rdg>
+					</app>
+			</l>
+			<l n="9">
+				<app>
+					<lem wit="#Transcription">ein vorlouf aller swelhen.</lem>
+					<rdg wit="#Translation">Forerunner of all drunkards.</rdg>
+				</app>
+			</l>
+			<l n="10">
+				<app>
+					<lem wit="#Transcription">von ûren und von elhen</lem>
+					<rdg wit="#Translation">Neither aurochs nor elks</rdg>
+				</app>
+			</l>
+			<l n="11">
+				<app>
+					<lem wit="#Transcription">wart solher slünde nie niht getân.</lem>
+					<rdg wit="#Translation">Ever swallowed so much. 
+					</rdg>
+				</app>
+			</l>
+			<l n="12">
+				<app>
+					<lem wit="#Transcription">ez muose alle zît vor im stân</lem>
+					<rdg wit="#Translation">There always had to be a</rdg>
+				</app>
+			</l>
+			<l n="13">
+				<app>
+					<lem wit="#Transcription">ein grôziu kanel wînes vol.</lem>
+					<rdg wit="#Translation">Large pitcher full of wine in front of him.</rdg>
+					</app>
+			</l>
+			<l n="14">
+				<app>
+					<lem wit="#Transcription">er sprach: "wîn, ich erkenne dich wol!</lem>
+					<rdg wit="#Translation">He said, “Wine, I know you well!</rdg>
+			    </app>
+			</l>
+            <l n="15">
+                <app>
+                    <lem wit="#Transcription">ich weiz wol, daz du guot bist.</lem>
+                    <rdg wit="#Translation">I know that you are good.</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+        	        <lem wit="#Transcription">die wîle dîn in dem vazze iht ist,</lem>
+                    <rdg wit="#Translation">As long as there is any of you left in this vessel,</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <lem wit="#Transcription">sô wil ich bûwen dise banc."</lem>
+                    <rdg wit="#Translation">I will sit here."<note type="gloss" anchored="true">GLOSS GOES HERE</note>
+                    	<note type="critical" anchored="true">
+                    		<p>"Dise banc buwen" translates to to farm, to plow, to settle</p>
+						</note>
+					</rdg>
+                </app>
+            </l>
+			<l n="18">
+				<app>
+					<lem wit="#Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="#Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="19">
+				<app>
+					<lem wit="#Transcription">Einen trunc von zweinzec slünden.</lem>
+					<rdg wit="#Translation">A drink of twenty swallows</rdg>
+				</app>
+			</l>
+			<l n="20">
+				<app>
+					<lem wit="#Transcription">er sprach: "nu wil ich künden,</lem>
+					<rdg wit="#Translation">He said: "Now I want to proclaim</rdg>
+				</app>
+			</l>
+			<l n="21">
+				<app>
+					<lem wit="#Transcription">waz tugent du hâst, vil lieber wîn.</lem>
+					<rdg wit="#Translation">your virtue, oh dear wine</rdg>
+				</app>
+			</l>
+			<l n="22">
+				<app>
+					<lem wit="#Transcription">wie möhtestu tugenthafter sîn?</lem>
+					<rdg wit="#Translation">How could you be more virtuous?</rdg>
+				</app>
+			</l>
+			<l n="23">
+				<app>
+					<lem wit="#Transcription">du hâst schœne und grôze güete,</lem>
+					<rdg wit="#Translation">You’ve got beauty and great goodness,</rdg>
+				</app>
+			</l>
+			<l n="24">
+				<app>
+					<lem wit="#Transcription">du gîst uns hôchgemüete,</lem>
+					<rdg wit="#Translation">You lend us high spirits,</rdg>
+				</app>
+			</l>
+			<l n="25">
+				<app>
+					<lem wit="#Transcription">du machest küene den zagen.</lem>
+					<rdg wit="#Translation">You make the coward brave.</rdg>
+				</app>
+			</l>
+			<l n="26">
+				<app>
+					<lem wit="#Transcription">swer dîn wâfen wil tragen,</lem>
+					<rdg wit="#Translation">Whoever wants to bear your arms</rdg>
+				</app>
+			</l>
+			<l n="27">
+				<app>
+					<lem wit="#Transcription">der wirt wîse unde karc,</lem>
+					<rdg wit="#Translation">Becomes wise and cunning,</rdg>
+				</app>
+			</l>
+			<l n="28">
+				<app>
+					<lem wit="#Transcription">er wirt snel unde starc,</lem>
+					<rdg wit="#Translation">He becomes fast and strong,</rdg>
+				</app>
+			</l>
+			<l n="29">
+				<app>
+					<lem wit="#Transcription">er fürhtet niemens drô.</lem>
+					<rdg wit="#Translation">He fears no threat.</rdg>
+				</app>
+			</l>
+			<l n="30">
+				<app>
+					<lem wit="#Transcription">du machest die trûrigen frô,</lem>
+					<rdg wit="#Translation">You make the sad happy,</rdg>
+				</app>
+			</l>
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">du gîst dem alten jungen muot,</lem>
+					<rdg wit="#Translation">You give young spirit to the old,</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">du rîchest den armen âne guot,</lem>
+					<rdg wit="#Translation">You make the poor rich without any goods,</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">du machest die liute wolgevar.</lem>
+					<rdg wit="#Translation">And you make people attractive.</rdg>
+				</app>
+			</l>
+			<l n="34">
+				<app>
+					<lem wit="#Transcription">du bist ouch selbe schœne gar,</lem>
+					<rdg wit="#Translation">You are quite attractive yourself,</rdg>
+				</app>
+			</l>
+			<l n="35">
+				<app>
+					<lem wit="#Transcription">du bist lûter unde blanc."</lem>
+					<rdg wit="#Translation">You are pure and clear."</rdg>
+				</app>
+			</l>
+			<l n="36">
+				<app>
+					<lem wit="#Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="#Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="37">
+				<app>
+					<lem wit="#Transcription">Einen trunc, der für die andern gie.</lem>
+					<rdg wit="#Translation">A drink that was larger than the others before.</rdg>
+				</app>
+			</l>
+			<l n="38">
+				<app>
+					<lem wit="#Transcription">er sprach: "war umbe oder wie</lem>
+					<rdg wit="#Translation">He said: "why and how</rdg>
+				</app>
+			</l>
+			<l n="39">
+				<app>
+					<lem wit="#Transcription">solde ich den wîn vermîden?</lem>
+					<rdg wit="#Translation">Should I avoid the wine?</rdg>
+				</app>
+			</l>
+			<l n="40">
+				<app>
+					<lem wit="#Transcription">ich mac in wol erlîden,</lem>
+					<rdg wit="#Translation">I can handle it well,</rdg>
+				</app>
+			</l>
+			<l n="41">
+				<app>
+					<lem wit="#Transcription">sît er allen mînen willen tuot.</lem>
+					<rdg wit="#Translation">Because it does whatever I want.</rdg>
+				</app>
+			</l>
+			<l n="42">
+				<app>
+					<lem wit="#Transcription">er dunket mich bezzer denne guot;</lem>
+					<rdg wit="#Translation">I consider it better than good;</rdg>
+				</app>
+			</l>
+			<l n="43">
+				<app>
+					<lem wit="#Transcription">ich geniete mich sîn nimmer.</lem>
+					<rdg wit="#Translation">I never do without it.</rdg>
+				</app>
+			</l>
+			<l n="44">
+				<app>
+					<lem wit="#Transcription">ich will in loben immer</lem>
+					<rdg wit="#Translation">I always want to praise it</rdg>
+				</app>
+			</l>
+			<l n="45">
+				<app>
+					<lem wit="#Transcription">für bûhurdieren und für tanz.</lem>
+					<rdg wit="#Translation">Above jousting and dancing</rdg>
+				</app>
+			</l>
+			<l n="46">
+				<app>
+					<lem wit="#Transcription">krône, tschapel unde kranz,</lem>
+					<rdg wit="#Translation">Crown, circlet, and wreath,</rdg>
+				</app>
+			</l>
+			<l n="47">
+				<app>
+					<lem wit="#Transcription">pfelle, samît und scharlât,</lem>
+					<rdg wit="#Translation">Silk, samite, and scarlet,</rdg>
+				</app>
+			</l>
+			<l n="48">
+				<app>
+					<lem wit="#Transcription">swaz gezierde disiu werlt hât,</lem>
+					<rdg wit="#Translation">Whatever adornment this world has,</rdg>
+				</app>
+			</l>
+			<l n="49">
+				<app>
+					<lem wit="#Transcription">die næme ich niht für den wîn.</lem>
+					<rdg wit="#Translation">I would not take it over wine.</rdg>
+				</app>
+			</l>
+			<l n="50">
+				<app>
+					<lem wit="#Transcription">in hât in dem herzen mîn</lem>
+					<rdg wit="#Translation">My love has given a home to it</rdg>
+				</app>
+			</l>
+			<l n="51">
+				<app>
+					<lem wit="#Transcription">mîn minne alsô behûset,</lem>
+					<rdg wit="#Translation">In my heart,</rdg>
+				</app>
+			</l>
+			<l n="52">
+				<app>
+					<lem wit="#Transcription">versigelt und verklûset:</lem>
+					<rdg wit="#Translation">Sealed it and enclosed it:</rdg>
+				</app>
+			</l>
+			<l n="53">
+				<app>
+					<lem wit="#Transcription">wir mugen uns niht gescheiden.</lem>
+					<rdg wit="#Translation">We can’t part from each other.</rdg>
+				</app>
+			</l>
+			<l n="54">
+				<app>
+					<lem wit="#Transcription">swer mir in wolde leiden,</lem>
+					<rdg wit="#Translation">I would hate anyone forever</rdg>
+				</app>
+			</l>
+			<l n="55">
+				<app>
+					<lem wit="#Transcription">der müese immer haben mînen haz.</lem>
+					<rdg wit="#Translation">Who wanted to make me dislike it.</rdg>
+				</app>
+			</l>
+			<l n="56">
+				<app>
+					<lem wit="#Transcription">er kürzet mir die wîle baz</lem>
+					<rdg wit="#Translation">It entertains me better</rdg>
+				</app>
+			</l>
+			<l n="57">
+				<app>
+					<lem wit="#Transcription">denne sagen, singen, seitenklanc."</lem>
+					<rdg wit="#Translation">Than storytelling, singing, or the sound of strings."</rdg>
+				</app>
+			</l>
+			<l n="58">
+				<app>
+					<lem wit="#Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="#Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="59">
+				<app>
+					<lem wit="#Transcription">Einen trunc noch grœzer denne ê.</lem>
+					<rdg wit="#Translation">A drink even greater than before.</rdg>
+				</app>
+			</l>
+			<l n="60">
+				<app>
+					<lem wit="#Transcription">er sprach: "gras, bluomen unde klê</lem>
+					<rdg wit="#Translation">He said, "grass, flowers and clover</rdg>
+				</app>
+			</l>
+			<l n="61">
+				<app>
+					<lem wit="#Transcription">und aller krûte meisterschaft,</lem>
+					<rdg wit="#Translation">And the potency of all plants,</rdg>
+				</app>
+			</l>
+			<l n="62">
+				<app>
+					<lem wit="#Transcription">die würze und aller steine kraft,</lem>
+					<rdg wit="#Translation">The herbs and the power of all stones,</rdg>
+				</app>
+			</l>
+			<l n="63">
+				<app>
+					<lem wit="#Transcription">der walt und elliu vogelîn</lem>
+					<rdg wit="#Translation">The forest and all birds</rdg>
+				</app>
+			</l>
+			<l n="64">
+				<app>
+					<lem wit="#Transcription">diu möhten dîn, vil lieber wîn,</lem>
+					<rdg wit="#Translation">They can’t delight anybody</rdg>
+				</app>
+			</l>
+			<l n="65">
+				<app>
+					<lem wit="#Transcription">die liute niht ergetzen.</lem>
+					<rdg wit="#Translation">Better than you, dear wine.</rdg>
+				</app>
+			</l>
+			<l n="66">
+				<app>
+					<lem wit="#Transcription">si möhten dich niht ersetzen</lem>
+					<rdg wit="#Translation">They cannot replace you</rdg>
+				</app>
+			</l>
+			<l n="67">
+				<app>
+					<lem wit="#Transcription">mit allem dem, daz si kunnen.</lem>
+					<rdg wit="#Translation">With everything that they are able to do.</rdg>
+				</app>
+			</l>
+			<l n="68">
+				<app>
+					<lem wit="Transcription">ich wil dir gerne gunnen,</lem>
+					<rdg wit="Translation">I will gladly allow you</rdg>
+				</app>
+			</l>
+			<l n="69">
+				<app>
+					<lem wit="Transcription">daz du mir kürzest die zît.</lem>
+					<rdg wit="Translation">To entertain<note type="gloss" anchored="true">GLOSS GOES HERE</note>
+                    	<note type="critical" anchored="true">
+                    		<p>note about the concept of kurzwile</p>
+						</note> me.</rdg>
+				</app>
+			</l>
+			<l n="70">
+				<app>
+					<lem wit="Transcription">swaz fröuden mir diu werlt gît,</lem>
+					<rdg wit="Translation">Whatever joys the world gives me,</rdg>
+				</app>
+			</l>
+			<l n="71">
+				<app>
+					<lem wit="Transcription">diu kumt vil gar von dîner tugent;</lem>
+					<rdg wit="Translation">They come from your virtues;</rdg>
+				</app>
+			</l>
+			<l n="72">
+				<app>
+					<lem wit="Transcription">dîn lop hât immer jugent,</lem>
+					<rdg wit="Translation">Your praise will prevail,</rdg>
+				</app>
+			</l>
+			<l n="73">
+				<app>
+					<lem wit="Transcription">dîn werdekeit wirt nimmer kranc."</lem>
+					<rdg wit="Translation">Your value will never fade."</rdg>
+				</app>
+			</l>
+			<l n="74">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="75">
+				<app>
+					<lem wit="Transcription">Einen trunc alsô starc,</lem>
+					<rdg wit="Translation">A drink so mighty</rdg>
+				</app>
+			</l>
+			<l n="76">
+				<app>
+					<lem wit="Transcription">und solde er eine halbe marc</lem>
+					<rdg wit="Translation">That if he had been rewarded</rdg>
+				</app>
+			</l>
+			<l n="77">
+				<app>
+					<lem wit="Transcription">ze lône dâ mit verdienet hân,</lem>
+					<rdg wit="Translation">Half a mark for this</rdg>
+				</app>
+			</l>
+			<l n="78">
+				<app>
+					<lem wit="Transcription">ern dörfte niht bezzers hân getân.</lem>
+					<rdg wit="Translation">He couldn’t have done better.</rdg>
+				</app>
+			</l>
+			<l n="79">
+				<app>
+					<lem wit="Transcription">er sprach: "beidiu ich und der wîn</lem>
+					<rdg wit="Translation">He said, "both me and the wine</rdg>
+				</app>
+			</l>
+			<l n="80">
+				<app>
+					<lem wit="Transcription">müezen immer ensamt sîn.</lem>
+					<rdg wit="Translation">Always have to be together.</rdg>
+				</app>
+			</l>
+			<l n="81">
+				<app>
+					<lem wit="Transcription">mir ist an im gelungen;</lem>
+					<rdg wit="Translation">I desire it,</rdg>
+				</app>
+			</l>
+			<l n="82">
+				<app>
+					<lem wit="Transcription">er hât mich des betwungen,</lem>
+					<rdg wit="Translation">And it has convinced me</rdg>
+				</app>
+			</l>
+			<l n="83">
+				<app>
+					<lem wit="Transcription">daz ich ie tet, swaz er mir gebôt.</lem>
+					<rdg wit="Translation">That I always do what it bids me.</rdg>
+				</app>
+			</l>
+			<l n="84">
+				<app>
+					<lem wit="Transcription">der wîn ist guot für manige nôt.</lem>
+					<rdg wit="Translation">The wine is good for many a problem.</rdg>
+				</app>
+			</l>
+			<l n="85">
+				<app>
+					<lem wit="Transcription">künde er niht wan fröude geben,</lem>
+					<rdg wit="Translation">If it couldn’t do anything but give joy,</rdg>
+				</app>
+			</l>
+			<l n="86">
+				<app>
+					<lem wit="Transcription">diu werlt solde immer gein im streben.</lem>
+					<rdg wit="Translation">The world should constantly strive for it.</rdg>
+				</app>
+			</l>
+			<l n="87">
+				<app>
+					<lem wit="Transcription">sîn fröude ist vor allen dingen.</lem>
+					<rdg wit="Translation">Its joy is bigger than everything else.</rdg>
+				</app>
+			</l>
+			<l n="88">
+				<app>
+					<lem wit="Transcription">ich wil nâch fröuden ringen.</lem>
+					<rdg wit="Translation">I want to go after joy.</rdg>
+				</app>
+			</l>
+			<l n="89">
+				<app>
+					<lem wit="Transcription">sît mir der wîn fröude gît,</lem>
+					<rdg wit="Translation">Since the wine gives me such a joy</rdg>
+				</app>
+			</l>
+			<l n="90">
+				<app>
+					<lem wit="Transcription">nu wil ich trinken unz an die zît,</lem>
+					<rdg wit="Translation">I now want to drink to the moment</rdg>
+				</app>
+			</l>
+			<l n="91">
+				<app>
+					<lem wit="Transcription">daz er mir sô vil fröuden gebe,</lem>
+					<rdg wit="Translation">that it gives me so much joy</rdg>
+				</app>
+			</l>
+			<l n="92">
+				<app>
+					<lem wit="Transcription">daz ich mit fröuden immer lebe.</lem>
+					<rdg wit="Translation">so that I can live joyfully forever.</rdg>
+				</app>
+			</l>
+			<l n="93">
+				<app>
+					<lem wit="Transcription">wie kan ich denne verderben?</lem>
+					<rdg wit="Translation">How can I ever become depraved?</rdg>
+				</app>
+			</l>
+			<l n="94">
+				<app>
+					<lem wit="Transcription">ich wil nâch fröuden werben.</lem>
+					<rdg wit="Translation">I want to seek out joy.</rdg>
+				</app>
+			</l>
+			<l n="95">
+				<app>
+					<lem wit="Transcription">des habe mîn lîp immer danc!"</lem>
+					<rdg wit="Translation">My life
+						<note type="critical" anchored="true"> <p>lîp can mean either life or body</p></note>
+						shall forever benefit from it!"</rdg>
+				</app>
+			</l>
+			<l n="96">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="97">
+				<app>
+					<lem wit="Transcription">Daz man nie solhes niht vernam.</lem>
+					<rdg wit="Translation">Such has never been heard.</rdg>
+				</app>
+			</l>
+			<l n="98">
+				<app>
+					<lem wit="Transcription">er sprach: "der herzoge Iram</lem>
+					<rdg wit="Translation">He said: "Count Iram,</rdg>
+				</app>
+			</l>
+			<l n="99">
+				<app>
+					<lem wit="Transcription">der was gar âne wîsheit,</lem>
+					<rdg wit="Translation">He had no wisdom at all (devoid)</rdg>
+				</app>
+			</l>
+			<l n="100">
+				<app>
+					<lem wit="Transcription">daz er einem wisent nâchreit,</lem>
+					<rdg wit="Translation">because he rode in pursuit of a bison</rdg>
+				</app>
+			</l>
+			<l n="101">
+				<app>
+					<lem wit="Transcription">er und sîn jäger Nordiân,</lem>
+					<rdg wit="Translation">He and his huntsman Nordian;</rdg>
+				</app>
+			</l>
+			<l n="102">
+				<app>
+					<lem wit="Transcription">si solden den wîn gejaget hân,</lem>
+					<rdg wit="Translation">They should have hunted wine</rdg>
+				</app>
+			</l>
+			<l n="103">
+				<app>
+					<lem wit="Transcription">sô wæren si wîse, als ich bin.</lem>
+					<rdg wit="Translation">Then they would have been as wise as I am.</rdg>
+				</app>
+			</l>
+			<l n="104">
+				<app>
+					<lem wit="Transcription">mir ist vil samfter denne in.</lem>
+					<rdg wit="Translation">My life is more comfortable than his.</rdg>
+				</app>
+			</l>
+			<l n="105">
+				<app>
+					<lem wit="Transcription">ich kan jagen unde vâhen,</lem>
+					<rdg wit="Translation">I can hunt and capture,</rdg>
+				</app>
+			</l>
+			<l n="106">
+				<app>
+					<lem wit="Transcription">mich ermüedet niht mîn gâhen.</lem>
+					<rdg wit="Translation">My pursuit does not wear me out.</rdg>
+				</app>
+			</l>
+			<l n="107">
+				<app>
+					<lem wit="Transcription">ich jage den vil lieben wîn;</lem>
+					<rdg wit="Translation">I hunt the beloved wine</rdg>
+				</app>
+			</l>
+			<l n="108">
+				<app>
+					<lem wit="Transcription">des jäger wil ich immer sîn.</lem>
+					<rdg wit="Translation">And forever want to be its huntsman.</rdg>
+				</app>
+			</l>
+			<l n="109">
+				<app>
+					<lem wit="Transcription">er hât mir ie sô wol getân.</lem>
+					<rdg wit="Translation">It always did so well by me.</rdg>
+				</app>
+			</l>
+			<l n="110">
+				<app>
+					<lem wit="Transcription">swaz ich sîn her getrunken hân</lem>
+					<rdg wit="Translation">All I have drunk of it so far,</rdg>
+				</app>
+			</l>
+			<l n="111">
+				<app>
+					<lem wit="Transcription">und swaz ich sîn naht unde tac</lem>
+					<rdg wit="Translation">all that I may swill (guzzle) down</rdg>
+				</app>
+			</l>
+			<l n="112">
+				<app>
+					<lem wit="Transcription">in mînen lîp geswelhen mac,</lem>
+					<rdg wit="Translation">into my belly day and night,</rdg>
+				</app>
+			</l>
+			<l n="113">
+				<app>
+					<lem wit="Transcription">daz ist wan ein anevanc."</lem>
+					<rdg wit="Translation">That is but a beginning.</rdg>
+				</app>
+			</l>
+			<l n="114">
+				<app>
+					<lem wit="Transcription">alrêst huob er unde tranc:</lem>
+					<rdg wit="Translation">First, he raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="115">
+				<app>
+					<lem wit="Transcription">Vil manigen ungefüegen slunt.</lem>
+					<rdg wit="Translation">Many enormous gulps.</rdg>
+				</app>
+			</l>
+			<l n="116">
+				<app>
+					<lem wit="Transcription">er sprach: "wîn, mir ist dîn tugent kunt.</lem>
+					<rdg wit="Translation">He spoke: “Wine, your virtues are known to me</rdg>
+				</app>
+			</l>
+			<l n="117">
+				<app>
+					<lem wit="Transcription">ich erkenne wol dîne kraft,</lem>
+					<rdg wit="Translation">I well perceive your power</rdg>
+				</app>
+			</l>
+			<l n="118">
+				<app>
+					<lem wit="Transcription">dîn kunst und dîne meisterschaft.</lem>
+					<rdg wit="Translation">Your skill and your mastery.</rdg>
+				</app>
+			</l>
+			<l n="119">
+				<app>
+					<lem wit="Transcription">du bist meister der sinne,</lem>
+					<rdg wit="Translation">You are master of the senses,</rdg>
+				</app>
+			</l>
+			<l n="120">
+				<app>
+					<lem wit="Transcription">du liebest mir für die minne,</lem>
+					<rdg wit="Translation">You love me beyond love,</rdg>
+				</app>
+			</l>
+			<l n="121">
+				<app>
+					<lem wit="Transcription">du machest stæte manigen kouf,</lem>
+					<rdg wit="Translation">You firm up many deals,</rdg>
+				</app>
+			</l>
+			<l n="122">
+				<app>
+					<lem wit="Transcription">du machest manegen wettelouf,</lem>
+					<rdg wit="Translation">You create a lot of competition,</rdg>
+				</app>
+			</l>
+			<l n="123">
+				<app>
+					<lem wit="Transcription">du machest maniger hande spil,</lem>
+					<rdg wit="Translation">You make work for many hands,</rdg>
+				</app>
+			</l>
+			<l n="124">
+				<app>
+					<lem wit="Transcription">mit fröuden kurzewîle vil.</lem>
+					<rdg wit="Translation">With much merriment and joy.</rdg>
+				</app>
+			</l>
+			<l n="125">
+				<app>
+					<lem wit="Transcription">diu werlt ist gar mit dir erhaben.</lem>
+					<rdg wit="Translation">The world is elevated by you</rdg>
+				</app>
+			</l>
+			<l n="126">
+				<app>
+					<lem wit="Transcription">du kanst die durstigen laben,</lem>
+					<rdg wit="Translation">You can revive the thirsty</rdg>
+				</app>
+			</l>
+			<l n="127">
+				<app>
+					<lem wit="Transcription">du machest die siechen gesunt.</lem>
+					<rdg wit="Translation">And cure the sick.</rdg>
+				</app>
+			</l>
+			<l n="128">
+				<app>
+					<lem wit="Transcription">sît du mir êrste würde kunt,</lem>
+					<rdg wit="Translation">Since I first discovered you</rdg>
+				</app>
+			</l>
+			<l n="129">
+				<app>
+					<lem wit="Transcription">sô bin ich dir gewesen bî:</lem>
+					<rdg wit="Translation">I have always been with you</rdg>
+				</app>
+			</l>
+			<l n="130">
+				<app>
+					<lem wit="Transcription">swie vil dîner diener sî,</lem>
+					<rdg wit="Translation">However many servants you have</rdg>
+				</app>
+			</l>
+			<l n="131">
+				<app>
+					<lem wit="Transcription">daz mich doch niemen von dir dranc."</lem>
+					<rdg wit="Translation">None has come between the two of us."</rdg>
+				</app>
+			</l>
+			<l n="132">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank.</rdg>
+				</app>
+			</l>
+			<l n="133">
+				<app>
+					<lem wit="Transcription">Daz die slünde lûte erklungen</lem>
+					<rdg wit="Translation">So that the gulps rang out loudly</rdg>
+				</app>
+			</l>
+			<l n="134">
+				<app>
+					<lem wit="Transcription">und an ein ander drungen.</lem>
+					<rdg wit="Translation">And chased each other down the throat</rdg>
+				</app>
+			</l>
+			<l n="135">
+				<app>
+					<lem wit="Transcription">dâ wart von starken slünden</lem>
+					<rdg wit="Translation">Of strong swallows there was</rdg>
+				</app>
+			</l>
+			<l n="136">
+				<app>
+					<lem wit="Transcription">ein sturm, daz von den ünden</lem>
+					<rdg wit="Translation">a storm, because of the waves</rdg>
+				</app>
+			</l>
+			<l n="137">
+				<app>
+					<lem wit="Transcription">diu drozze wart ze enge,</lem>
+					<rdg wit="Translation">his throat grew too narrow</rdg>
+				</app>
+			</l>
+			<l n="138">
+				<app>
+					<lem wit="Transcription">daz sich von dem wâcgedrenge</lem>
+					<rdg wit="Translation">So that from the pressure</rdg>
+				</app>
+			</l>
+			<l n="139">
+				<app>
+					<lem wit="Transcription">diu güsse begunde werren,</lem>
+					<rdg wit="Translation">The currents started to swirl,</rdg>
+				</app>
+			</l>
+			<l n="140">
+				<app>
+					<lem wit="Transcription">blôdern unde kerren</lem>
+					<rdg wit="Translation">To roar and moan</rdg>
+				</app>
+			</l>
+			<l n="141">
+				<app>
+					<lem wit="Transcription">als ein windesprût ûf dem mere.</lem>
+					<rdg wit="Translation">Like a tempest at sea.</rdg>
+				</app>
+			</l>
+			<l n="142">
+				<app>
+					<lem wit="Transcription">dâ wart mit hurteclicher were</lem>
+					<rdg wit="Translation">The strength of many a gulp</rdg>
+				</app>
+			</l>
+			<l n="143">
+				<app>
+					<lem wit="Transcription">versuochet maniges slundes kraft.</lem>
+					<rdg wit="Translation">Was thus tested by a fierce resistance.</rdg>
+				</app>
+			</l>
+			<l n="144">
+				<app>
+					<lem wit="Transcription">er sprach: "daz ist ein meisterschaft,</lem>
+					<rdg wit="Translation">He said: "I have never drunk</rdg>
+				</app>
+			</l>
+			<l n="145">
+				<app>
+					<lem wit="Transcription">daz ich noch niht getrunken hân.</lem>
+					<rdg wit="Translation">with such mastery before.</rdg>
+				</app>
+			</l>
+			<l n="146">
+				<app>
+					<lem wit="Transcription">mîn kunst ist alsô getân,</lem>
+					<rdg wit="Translation">My artistry is such</rdg>
+				</app>
+			</l>
+			<l n="147">
+				<app>
+					<lem wit="Transcription">daz ich mich niht vergâhe</lem>
+					<rdg wit="Translation">That I do not rush,</rdg>
+				</app>
+			</l>
+			<l n="148">
+				<app>
+					<lem wit="Transcription">und ez müezeclîche anevâhe,</lem>
+					<rdg wit="Translation">But I practice with leisure,</rdg>
+				</app>
+			</l>
+			<l n="149">
+				<app>
+					<lem wit="Transcription">durch daz ich ez lange trîben wil.</lem>
+					<rdg wit="Translation">So that I can carry on for a long time.</rdg>
+				</app>
+			</l>
+			<l n="150">
+				<app>
+					<lem wit="Transcription">ich lebe wênic ode vil,</lem>
+					<rdg wit="Translation">No matter whether I live for a long or a short time</rdg>
+				</app>
+			</l>
+			<l n="151">
+				<app>
+					<lem wit="Transcription">mir wirt trinkens nimmer buoz.</lem>
+					<rdg wit="Translation">I never regret drinking.</rdg>
+				</app>
+			</l>
+			<l n="152">
+				<app>
+					<lem wit="Transcription">habe iemen einen ringen fuoz,</lem>
+					<rdg wit="Translation">If someone is quick on his feet</rdg>
+				</app>
+			</l>
+			<l n="153">
+				<app>
+					<lem wit="Transcription">der bringe mir guoten aneganc."</lem>
+					<rdg wit="Translation">he could start me off well."</rdg>
+				</app>
+			</l>
+			<l n="154">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="155">
+				<app>
+					<lem wit="Transcription">Als er nimmer wolde erwinden.</lem>
+					<rdg wit="Translation">As if he would never want to stop.</rdg>
+				</app>
+			</l>
+			<l n="156">
+				<app>
+					<lem wit="Transcription">er sprach: "wâ sol man vinden,</lem>
+					<rdg wit="Translation">He spoke: "Where could one find,</rdg>
+				</app>
+			</l>
+			<l n="157">
+				<app>
+					<lem wit="Transcription">swenne ich erstirbe, einen man</lem>
+					<rdg wit="Translation">Were I to die, a man</rdg>
+				</app>
+			</l>
+			<l n="158">
+				<app>
+					<lem wit="Transcription">der trinke, als ich trinken kan?</lem>
+					<rdg wit="Translation">who drinks as I can drink?</rdg>
+				</app>
+			</l>
+			<l n="159">
+				<app>
+					<lem wit="Transcription">mîn habent alle trinker êre.</lem>
+					<rdg wit="Translation">All drinkers gain honor through me.</rdg>
+				</app>
+			</l>
+			<l n="160">
+				<app>
+					<lem wit="Transcription">man sol mir danken sêre,</lem>
+					<rdg wit="Translation">I should be greatly thanked</rdg>
+				</app>
+			</l>
+			<l n="161">
+				<app>
+					<lem wit="Transcription">daz ich ir leben sô ziere.</lem>
+					<rdg wit="Translation">for enriching their lives this way.</rdg>
+				</app>
+			</l>
+			<l n="162">
+				<app>
+					<lem wit="Transcription">der besten trinker viere,</lem>
+					<rdg wit="Translation">Four of the best drinkers</rdg>
+				</app>
+			</l>
+			<l n="163">
+				<app>
+					<lem wit="Transcription">die volgent mir wan ein tac.</lem>
+					<rdg wit="Translation">Can’t keep up with me for even a day.</rdg>
+				</app>
+			</l>
+			<l n="164">
+				<app>
+					<lem wit="Transcription">ich kan wol trinken unde mac;</lem>
+					<rdg wit="Translation">I can certainly drink and I will;</rdg>
+				</app>
+			</l>
+			<l n="165">
+				<app>
+					<lem wit="Transcription">ich hân künste unde kraft.</lem>
+					<rdg wit="Translation">I have skills and stamina.</rdg>
+				</app>
+			</l>
+			<l n="166">
+				<app>
+					<lem wit="Transcription">mîn herze ist sô tugenthaft,</lem>
+					<rdg wit="Translation">My heart is so virtuous</rdg>
+				</app>
+			</l>
+			<l n="167">
+				<app>
+					<lem wit="Transcription">daz ez an trinken nie gehanc."</lem>
+					<rdg wit="Translation">That it was never unsteadied by drinking.</rdg>
+				</app>
+			</l>
+			<l n="168">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he lifted his glass and drank.</rdg>
+				</app>
+			</l>
+			<l n="169">
+				<app>
+					<lem wit="Transcription">Einen trunc, der die andern übersteic.</lem>
+					<rdg wit="Translation">A drink that surpassed all others.</rdg>
+				</app>
+			</l>
+			<l n="170">
+				<app>
+					<lem wit="Transcription">dô stuont er ûf unde neic.</lem>
+					<rdg wit="Translation">Then he stood up and bowed.</rdg>
+				</app>
+			</l>
+			<l n="171">
+				<app>
+					<lem wit="Transcription">er sprach: "wîn, dir sî genigen!</lem>
+					<rdg wit="Translation">He spoke: “Wine, I bow to you.</rdg>
+				</app>
+			</l>
+			<l n="172">
+				<app>
+					<lem wit="Transcription">ich trûwe mit dir wol gesigen.</lem>
+					<rdg wit="Translation">I am sure of winning with you.</rdg>
+				</app>
+			</l>
+			<l n="173">
+				<app>
+					<lem wit="Transcription">die wîle du bist mîn nâchgebûr,</lem>
+					<rdg wit="Translation">As long as you are my companion</rdg>
+				</app>
+			</l>
+			<l n="174">
+				<app>
+					<lem wit="Transcription">mir enschadet der schîme noch der schûr;</lem>
+					<rdg wit="Translation">I am harmed by neither bright weather nor storm,</rdg>
+				</app>
+			</l>
+			<l n="175">
+				<app>
+					<lem wit="Transcription">ich kan deheiner sorgen pflegen:</lem>
+					<rdg wit="Translation">I can’t nurse any worries,</rdg>
+				</app>
+			</l>
+			<l n="176">
+				<app>
+					<lem wit="Transcription">mir enschadet diu sunne noch der regen;</lem>
+					<rdg wit="Translation">I am harmed by neither sun nor rain,</rdg>
+				</app>
+			</l>
+			<l n="177">
+				<app>
+					<lem wit="Transcription">diu fröude bûwet mînen muot.</lem>
+					<rdg wit="Translation">Joy raises my spirits.</rdg>
+				</app>
+			</l>
+			<l n="178">
+				<app>
+					<lem wit="Transcription">ich ensorge umbe êre noch umbe guot,</lem>
+					<rdg wit="Translation">I worry about neither honor nor wealth</rdg>
+				</app>
+			</l>
+			<l n="179">
+				<app>
+					<lem wit="Transcription">umbe friunde noch umbe mâge.</lem>
+					<rdg wit="Translation">nor friends nor family.</rdg>
+				</app>
+			</l>
+			<l n="180">
+				<app>
+					<lem wit="Transcription">ichn urliuge noch enbâge</lem>
+					<rdg wit="Translation">I neither do battle nor do I quarrel</rdg>
+				</app>
+			</l>
+			<l n="181">
+				<app>
+					<lem wit="Transcription">und enruoche, wie blôz der walt stê.</lem>
+					<rdg wit="Translation">Or concern myself with how bare the forest is.</rdg>
+				</app>
+			</l>
+			<l n="182">
+				<app>
+					<lem wit="Transcription">mir enschadet der wint noch der snê,</lem>
+					<rdg wit="Translation">I am harmed by neither wind or snow,</rdg>
+				</app>
+			</l>
+			<l n="183">
+				<app>
+					<lem wit="Transcription">der rîfe noch der anehanc."</lem>
+					<rdg wit="Translation">Frost nor icicles."</rdg>
+				</app>
+			</l>
+			<l n="184">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank.</rdg>
+				</app>
+			</l>
+			<l n="185">
+				<app>
+					<lem wit="Transcription">Einen trunc, der grôze güsse truoc.</lem>
+					<rdg wit="Translation">A torrential drink.</rdg>
+				</app>
+			</l>
+			<l n="186">
+				<app>
+					<lem wit="Transcription">er sprach: "diu houwe und der pfluoc</lem>
+					<rdg wit="Translation">He spoke: "The how and the plough,</rdg>
+				</app>
+			</l>
+			<l n="187">
+				<app>
+					<lem wit="Transcription">diu müesen immer ledic sîn,</lem>
+					<rdg wit="Translation">They would forever be abandoned</rdg>
+				</app>
+			</l>
+			<l n="188">
+				<app>
+					<lem wit="Transcription">wessen die gebûren, daz der wîn</lem>
+					<rdg wit="Translation">If the farmers knew</rdg>
+				</app>
+			</l>
+			<l n="189">
+				<app>
+					<lem wit="Transcription">sô maniger êren wielte</lem>
+					<rdg wit="Translation">that the wine wielded such great honor</rdg>
+				</app>
+			</l>
+			<l n="190">
+				<app>
+					<lem wit="Transcription">und sô manic lob behielte.</lem>
+					<rdg wit="Translation">And held such praise.</rdg>
+				</app>
+			</l>
+			<l n="191">
+				<app>
+					<lem wit="Transcription">erkanden si rehte sîn tugent,</lem>
+					<rdg wit="Translation">If they recognized his true virtue</rdg>
+				</app>
+			</l>
+			<l n="192">
+				<app>
+					<lem wit="Transcription">si vertriben ir alter und ir jugent</lem>
+					<rdg wit="Translation">They would spend</rdg>
+				</app>
+			</l>
+			<l n="193">
+				<app>
+					<lem wit="Transcription">bî dem wîne al gemeine.</lem>
+					<rdg wit="Translation">both their old age and youth on wine.</rdg>
+				</app>
+			</l>
+			<l n="194">
+				<app>
+					<lem wit="Transcription">nu erkennent si in vil kleine.</lem>
+					<rdg wit="Translation">Now they barely recognize it.</rdg>
+				</app>
+			</l>
+			<l n="195">
+				<app>
+					<lem wit="Transcription">daz hân ich ze einem heile.</lem>
+					<rdg wit="Translation">That’s fortunate for me</rdg>
+				</app>
+			</l>
+			<l n="196">
+				<app>
+					<lem wit="Transcription">dâ von ist er wolveile.</lem>
+					<rdg wit="Translation">because it’s cheaply available.</rdg>
+				</app>
+			</l>
+			<l n="197">
+				<app>
+					<lem wit="Transcription">daz machet mir mîn leben lanc."</lem>
+					<rdg wit="Translation">That prolongs my life."</rdg>
+				</app>
+			</l>
+			<l n="198">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="199">
+				<app>
+					<lem wit="Transcription">Einen hundertslündigen trunc.</lem>
+					<rdg wit="Translation">A drink of a hundred gulps.</rdg>
+				</app>
+			</l>
+			<l n="200">
+				<app>
+					<lem wit="Transcription">er sprach: "daz machet mich junc,</lem>
+					<rdg wit="Translation">He says: "it keeps me young</rdg>
+				</app>
+			</l>
+			<l n="201">
+				<app>
+					<lem wit="Transcription">daz ich mîne trünke lenge</lem>
+					<rdg wit="Translation">that I lengthen my drinks</rdg>
+				</app>
+			</l>
+			<l n="202">
+				<app>
+					<lem wit="Transcription">und den slünden des verhenge,</lem>
+					<rdg wit="Translation">and command my gulps</rdg>
+				</app>
+			</l>
+			<l n="203">
+				<app>
+					<lem wit="Transcription">daz si swellent unde grôzent</lem>
+					<rdg wit="Translation">to swell and grow</rdg>
+				</app>
+			</l>
+			<l n="204">
+				<app>
+					<lem wit="Transcription">und sô hurticlîchen stôzent,</lem>
+					<rdg wit="Translation">and collide so rapidly</rdg>
+				</app>
+			</l>
+			<l n="205">
+				<app>
+					<lem wit="Transcription">daz die slege von den ünden</lem>
+					<rdg wit="Translation">that the crashing waves</rdg>
+				</app>
+			</l>
+			<l n="206">
+				<app>
+					<lem wit="Transcription">stürme hebent in den slünden.</lem>
+					<rdg wit="Translation">creates storms in my gullet.</rdg>
+				</app>
+			</l>
+			<l n="207">
+				<app>
+					<lem wit="Transcription">swer mir êrste gab den wîn,</lem>
+					<rdg wit="Translation">He who first gave me wine</rdg>
+				</app>
+			</l>
+			<l n="208">
+				<app>
+					<lem wit="Transcription">des lop müeze immer sælic sîn.</lem>
+					<rdg wit="Translation">should always be blessed with praise.</rdg>
+				</app>
+			</l>
+			<l n="209">
+				<app>
+					<lem wit="Transcription">er hât mich wol gelêret.</lem>
+					<rdg wit="Translation">He taught me well.</rdg>
+				</app>
+			</l>
+			<l n="210">
+				<app>
+					<lem wit="Transcription">er ist sîn immer geêret,</lem>
+					<rdg wit="Translation">May he always be honored for this,</rdg>
+				</app>
+			</l>
+			<l n="211">
+				<app>
+					<lem wit="Transcription">wan mir ie wol an ime gelanc."</lem>
+					<rdg wit="Translation">because I always did well by him."</rdg>
+				</app>
+			</l>
+			<l n="212">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="213">
+				<app>
+					<lem wit="Transcription">Einen trunc langen und sô grôz,</lem>
+					<rdg wit="Translation">a drink so long and deep,</rdg>
+				</app>
+			</l>
+			<l n="214">
+				<app>
+					<lem wit="Transcription">daz sîn alle die liute bedrôz,</lem>
+					<rdg wit="Translation">that all the people</rdg>
+				</app>
+			</l>
+			<l n="215">
+				<app>
+					<lem wit="Transcription">die ez hôrten unde sâhen.</lem>
+					<rdg wit="Translation">who saw and heard it became annoyed.</rdg>
+				</app>
+			</l>
+			<l n="216">
+				<app>
+					<lem wit="Transcription">er sprach: "ez wil im nâhen,</lem>
+					<rdg wit="Translation">He said: "The time is approaching</rdg>
+				</app>
+			</l>
+			<l n="217">
+				<app>
+					<lem wit="Transcription">daz ich trinkens wil beginnen.</lem>
+					<rdg wit="Translation">when I can start drinking.</rdg>
+				</app>
+			</l>
+			<l n="218">
+				<app>
+					<lem wit="Transcription">ich bin wol worden innen,</lem>
+					<rdg wit="Translation">I’ve come to understood</rdg>
+				</app>
+			</l>
+			<l n="219">
+				<app>
+					<lem wit="Transcription">daz mir der wîn süezet</lem>
+					<rdg wit="Translation">that wine refreshes me</rdg>
+				</app>
+			</l>
+			<l n="220">
+				<app>
+					<lem wit="Transcription">und mîn herze grüezet.</lem>
+					<rdg wit="Translation">and cheers my heart.</rdg>
+				</app>
+			</l>
+			<l n="221">
+				<app>
+					<lem wit="Transcription">dâ wider bute ich mînen gruoz.</lem>
+					<rdg wit="Translation">Again, I offer my greetings.</rdg>
+				</app>
+			</l>
+			<l n="222">
+				<app>
+					<lem wit="Transcription">wîn, ich valle dir ze fuoz.</lem>
+					<rdg wit="Translation">Wine, I fall at your feet.</rdg>
+				</app>
+			</l>
+			<l n="223">
+				<app>
+					<lem wit="Transcription">ich enphienge dich gerne, kunde ich, baz.</lem>
+					<rdg wit="Translation">I receive you well, and better if I could.</rdg>
+				</app>
+			</l>
+			<l n="224">
+				<app>
+					<lem wit="Transcription">ich enphâhe dich immer âne haz,</lem>
+					<rdg wit="Translation">I always welcome you eagerly,</rdg>
+				</app>
+			</l>
+			<l n="225">
+				<app>
+					<lem wit="Transcription">du enphâhest mich, als tuon ich dich;</lem>
+					<rdg wit="Translation">and you welcome me as I do you;</rdg>
+				</app>
+			</l>
+			<l n="226">
+				<app>
+					<lem wit="Transcription">der anepfanc ist minneclich.</lem>
+					<rdg wit="Translation">Our encounter is full of love;</rdg>
+				</app>
+			</l>
+			<l n="227">
+				<app>
+					<lem wit="Transcription">daz sô unser beider antfanc!"</lem>
+					<rdg wit="Translation">May that be our beginning!"</rdg>
+				</app>
+			</l>
+			<l n="228">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">He raised his glass and drank:</rdg>
+				</app>
+			</l>
+			<l n="229">
+				<app>
+					<lem wit="Transcription">Einen trunc, der begunde blôdern,</lem>
+					<rdg wit="Translation">A drink that began to rush</rdg>
+				</app>
+			</l>
+			<l n="230">
+				<app>
+					<lem wit="Transcription">als daz wazzer ûf den flôdern</lem>
+					<rdg wit="Translation">Like water on the wheels</rdg>
+				</app>
+			</l>
+			<l n="231">
+				<app>
+					<lem wit="Transcription">ûf allen kumpfmüln tuot.</lem>
+					<rdg wit="Translation">Of every watermill there is.</rdg>
+				</app>
+			</l>
+			<l n="232">
+				<app>
+					<lem wit="Transcription">er sprach: "daz ist ein süeziu fluot,</lem>
+					<rdg wit="Translation">He said: "That is a sweet flood</rdg>
+				</app>
+			</l>
+			<l n="233">
+				<app>
+					<lem wit="Transcription">diu wäschet mir von dem herzen</lem>
+					<rdg wit="Translation">That washes both sorrow and pain</rdg>
+				</app>
+			</l>
+			<l n="234">
+				<app>
+					<lem wit="Transcription">unfröude unde smerzen.</lem>
+					<rdg wit="Translation">from my heart.</rdg>
+				</app>
+			</l>
+			<l n="235">
+				<app>
+					<lem wit="Transcription">er kan mich leides wol erjeten."</lem>
+					<rdg wit="Translation">It can weed out my misery."</rdg>
+				</app>
+			</l>
+			<l n="236">
+				<app>
+					<lem wit="Transcription">dô begunde er springen unde treten</lem>
+					<rdg wit="Translation">Then he began to jump and dance</rdg>
+				</app>
+			</l>
+			<l n="237">
+				<app>
+					<lem wit="Transcription">manigen sprunc seltsænen.</lem>
+					<rdg wit="Translation">Many a strange leap.</rdg>
+				</app>
+			</l>
+			<l n="238">
+				<app>
+					<lem wit="Transcription">er sprach: "niemen sol des wænen,</lem>
+					<rdg wit="Translation">He said: "No one shall claim</rdg>
+				</app>
+			</l>
+			<l n="239">
+				<app>
+					<lem wit="Transcription">daz er sich mir gelîche.</lem>
+					<rdg wit="Translation">that he is my equal.</rdg>
+				</app>
+			</l>
+			<l n="240">
+				<app>
+					<lem wit="Transcription">mîn herze ist sô vröuden rîche.</lem>
+					<rdg wit="Translation"> My heart is so rich with joy.</rdg>
+				</app>
+			</l>
+			<l n="241">
+				<app>
+					<lem wit="Transcription">der wîn, der mich dâ machet junc,</lem>
+					<rdg wit="Translation">I want to dance for</rdg>
+				</app>
+			</l>
+			<l n="242">
+				<app>
+					<lem wit="Transcription">dem wil ich springen einen sprunc."</lem>
+					<rdg wit="Translation">the wine that makes me young again.</rdg>
+				</app>
+			</l>
+			<l n="243">
+				<app>
+					<lem wit="Transcription">vrôlîchen er drîstunt ûfspranc.</lem>
+					<rdg wit="Translation">For three hours he joyfully danced.</rdg>
+				</app>
+			</l>
+			<l n="244">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he lifted his glass and drank.</rdg>
+				</app>
+			</l>
+			<l n="245">
+				<app>
+					<lem wit="Transcription">Der trunc wart maniges trunkes wert.</lem>
+					<rdg wit="Translation">The drink was worth many drinks</rdg>
+				</app>
+			</l>
+			<l n="246">
+				<app>
+					<lem wit="Transcription">er sprach: "ich bin der trinkens gert,</lem>
+					<rdg wit="Translation">He spoke: "I desire to drink</rdg>
+				</app>
+			</l>
+			<l n="247">
+				<app>
+					<lem wit="Transcription">ich bin ein trinkender man,</lem>
+					<rdg wit="Translation">I am a drinking man</rdg>
+				</app>
+			</l>
+			<l n="248">
+				<app>
+					<lem wit="Transcription">der alsô sêre trinken kan,</lem>
+					<rdg wit="Translation">Who can drink so much that</rdg>
+				</app>
+			</l>
+			<l n="249">
+				<app>
+					<lem wit="Transcription">daz ich allen trinkern angesige</lem>
+					<rdg wit="Translation">I can defeat all drinkers</rdg>
+				</app>
+			</l>
+			<l n="250">
+				<app>
+					<lem wit="Transcription">und allen trinkern obgelige.</lem>
+					<rdg wit="Translation">And surpass them all.</rdg>
+				</app>
+			</l>
+			<l n="251">
+				<app>
+					<lem wit="Transcription">ich wart nie trinkens sat.</lem>
+					<rdg wit="Translation">I was never sated by drinking.</rdg>
+				</app>
+			</l>
+			<l n="252">
+				<app>
+					<lem wit="Transcription">ich kom noch nie an die stat,</lem>
+					<rdg wit="Translation">I never reached a point</rdg>
+				</app>
+			</l>
+			<l n="253">
+				<app>
+					<lem wit="Transcription">dâ ich getrünke mir genuoc.</lem>
+					<rdg wit="Translation">where I had had enough.</rdg>
+				</app>
+			</l>
+			<l n="254">
+				<app>
+					<lem wit="Transcription">wol der muoter, diu mich truoc!</lem>
+					<rdg wit="Translation">Bless the mother who bore me!</rdg>
+				</app>
+			</l>
+			<l n="255">
+				<app>
+					<lem wit="Transcription">sælic sî si küniginne!</lem>
+					<rdg wit="Translation">May she, the queen, be blessed!</rdg>
+				</app>
+			</l>
+			<l n="256">
+				<app>
+					<lem wit="Transcription">sælic sî diu süeze minne</lem>
+					<rdg wit="Translation">Blessed be the sweet love</rdg>
+				</app>
+			</l>
+			<l n="257">
+				<app>
+					<lem wit="Transcription">und diu wîle, dô si mich erranc!"</lem>
+					<rdg wit="Translation">And the moment of my conception!</rdg>
+				</app>
+			</l>
+			<l n="258">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="259">
+				<app>
+					<lem wit="Transcription">Einen trunc, der wart swære.</lem>
+					<rdg wit="Translation">A heavy drink.</rdg>
+				</app>
+			</l>
+			<l n="260">
+				<app>
+					<lem wit="Transcription">swie grôz diu kanel wære</lem>
+					<rdg wit="Translation">However large the vessel might have been</rdg>
+				</app>
+			</l>
+			<l n="261">
+				<app>
+					<lem wit="Transcription">si was zeinem trunke niht volgrôz,</lem>
+					<rdg wit="Translation">It was not big enough for his drink,</rdg>
+				</app>
+			</l>
+			<l n="262">
+				<app>
+					<lem wit="Transcription">wan man ze einer nôt ingôz.</lem>
+					<rdg wit="Translation">unless one continually refilled it.</rdg>
+				</app>
+			</l>
+			<l n="263">
+				<app>
+					<lem wit="Transcription">er hiez et vaste inegiezen</lem>
+					<rdg wit="Translation">He ordered it to be refilled quickly</rdg>
+				</app>
+			</l>
+			<l n="264">
+				<app>
+					<lem wit="Transcription">und lie daz in sich vliezen,</lem>
+					<rdg wit="Translation">and let it pour down into him,</rdg>
+				</app>
+			</l>
+			<l n="265">
+				<app>
+					<lem wit="Transcription">daz dâ noch solhes niht geschach.</lem>
+					<rdg wit="Translation">As has never happened before.</rdg>
+				</app>
+			</l>
+			<l n="266">
+				<app>
+					<lem wit="Transcription">dô saz er nider unde sprach:</lem>
+					<rdg wit="Translation">Then he sat down and said:</rdg>
+				</app>
+			</l>
+			<l n="267">
+				<app>
+					<lem wit="Transcription">"der wîn ist rehte ein gimme.</lem>
+					<rdg wit="Translation">"Wine is a true gem</rdg>
+				</app>
+			</l>
+			<l n="268">
+				<app>
+					<lem wit="Transcription">ich hœre eine süeze stimme</lem>
+					<rdg wit="Translation">I hear a sweet voice </rdg>
+				</app>
+			</l>
+			<l n="269">
+				<app>
+					<lem wit="Transcription">in mînem huobet singen;</lem>
+					<rdg wit="Translation">sing in my head.</rdg>
+				</app>
+			</l>
+			<l n="270">
+				<app>
+					<lem wit="Transcription">die hœre ich gerne klingen.</lem>
+					<rdg wit="Translation">I enjoy hearing it chime.</rdg>
+				</app>
+			</l>
+			<l n="271">
+				<app>
+					<lem wit="Transcription">er ist rehte, daz ich in krœne:</lem>
+					<rdg wit="Translation">It is right that I anoint it</rdg>
+				</app>
+			</l>
+			<l n="272">
+				<app>
+					<lem wit="Transcription">er singet mêre süezer dœne</lem>
+					<rdg wit="Translation">It sings tones more sweetly</rdg>
+				</app>
+			</l>
+			<l n="273">
+				<app>
+					<lem wit="Transcription">denne aller slahte klingen</lem>
+					<rdg wit="Translation">Than all kinds of sounds</rdg>
+				</app>
+			</l>
+			<l n="274">
+				<app>
+					<lem wit="Transcription">und aller vogele singen.</lem>
+					<rdg wit="Translation">And the singing of all birds.</rdg>
+				</app>
+			</l>
+			<l n="275">
+				<app>
+					<lem wit="Transcription">mir wart solhes nie niht bekant.</lem>
+					<rdg wit="Translation">I never heard such a thing.</rdg>
+				</app>
+			</l>
+			<l n="276">
+				<app>
+					<lem wit="Transcription">er singet sô wol, daz Hôrant</lem>
+					<rdg wit="Translation">It sings so well that Horant</rdg>
+				</app>
+			</l>
+			<l n="277">
+				<app>
+					<lem wit="Transcription">daz dritte teil nie sô wol gesanc."</lem>
+					<rdg wit="Translation">Never sang a third as well."</rdg>
+				</app>
+			</l>
+			<l n="278">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">He raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="279">
+				<app>
+					<lem wit="Transcription">Daz die banc begunde krachen.</lem>
+					<rdg wit="Translation">So that the bench began to crack</rdg>
+				</app>
+			</l>
+			<l n="280">
+				<app>
+					<lem wit="Transcription">er sprach: "dez muoz ich lachen,</lem>
+					<rdg wit="Translation">He said: "I have to laugh about this</rdg>
+				</app>
+			</l>
+			<l n="281">
+				<app>
+					<lem wit="Transcription">des ist ze lachen harte guot;</lem>
+					<rdg wit="Translation">And it’s well worth a laugh</rdg>
+				</app>
+			</l>
+			<l n="282">
+				<app>
+					<lem wit="Transcription">daz krachen fröuwet mir den muot.</lem>
+					<rdg wit="Translation">The cracking raises my spirits.</rdg>
+				</app>
+			</l>
+			<l n="283">
+				<app>
+					<lem wit="Transcription">ez machet des wînes güete.</lem>
+					<rdg wit="Translation">It is done by virtue of the wine</rdg>
+				</app>
+			</l>
+			<l n="284">
+				<app>
+					<lem wit="Transcription">ich hân allez mîn gemüete</lem>
+					<rdg wit="Translation">I have completely drenched all my spirits</rdg>
+				</app>
+			</l>
+			<l n="285">
+				<app>
+					<rdg wit="Transcription">in den fröuden wol getrenket;</rdg>
+					<rdg wit="Translation">In joy.</rdg>
+				</app>
+			</l>
+			<l n="286">
+				<app>
+					<lem wit="Transcription">dar in hân ich mich gesenket.</lem>
+					<rdg wit="Translation">I have plunged myself into it</rdg>
+				</app>
+			</l>
+			<l n="287">
+				<app>
+					<lem wit="Transcription">ich sanc ie sît der stunde,</lem>
+					<rdg wit="Translation">And have been sinking since the hour</rdg>
+				</app>
+			</l>
+			<l n="288">
+				<app>
+					<lem wit="Transcription">daz ich êrste trinken kunde</lem>
+					<rdg wit="Translation">That I was first able to drink</rdg>
+				</app>
+			</l>
+			<l n="289">
+				<app>
+					<lem wit="Transcription">und mir der wîn sô wol geviel.</lem>
+					<rdg wit="Translation">And wine first appealed to me.</rdg>
+				</app>
+			</l>
+			<l n="290">
+				<app>
+					<lem wit="Transcription">ich weiz wol, daz dehein kiel</lem>
+					<rdg wit="Translation">I know well that no keel</rdg>
+				</app>
+			</l>
+			<l n="291">
+				<app>
+					<lem wit="Transcription">in daz mere sô tiefe nie gesanc."</lem>
+					<rdg wit="Translation">Ever sank so deep into the sea</rdg>
+				</app>
+			</l>
+			<l n="292">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="293">
+				<app>
+					<lem wit="Transcription">Einen vierschrœtigen trunc.</lem>
+					<rdg wit="Translation">A massive drink.</rdg>
+				</app>
+			</l>
+			<l n="294">
+				<app>
+					<lem wit="Transcription">er sprach: "ich bin worden junc</lem>
+					<rdg wit="Translation">He said: "I have been rejuvenated</rdg>
+				</app>
+			</l>
+			<l n="295">
+				<app>
+					<lem wit="Transcription">an lîbe und an muote.</lem>
+					<rdg wit="Translation">In body and spirit.</rdg>
+				</app>
+			</l>
+			<l n="296">
+				<app>
+					<lem wit="Transcription">wol mich", sô sprach der guote,</lem>
+					<rdg wit="Translation">Good for me," the good man said,</rdg>
+				</app>
+			</l>
+			<l n="297">
+				<app>
+					<lem wit="Transcription">"daz ich sô gar ein meister bin</lem>
+					<rdg wit="Translation">"That I am such a masterful</rdg>
+				</app>
+			</l>
+			<l n="298">
+				<app>
+					<lem wit="Transcription">an trinken! seht, daz heize ich sin!</lem>
+					<rdg wit="Translation">Drinker! I pronounce it to be so!</rdg>
+				</app>
+			</l>
+			<l n="299">
+				<app>
+					<lem wit="Transcription">ich weiz wol: dâ ze Parîs,</lem>
+					<rdg wit="Translation">I know well: in Paris</rdg>
+				</app>
+			</l>
+			<l n="300">
+				<app>
+					<lem wit="Transcription">ze Padouwe und ze Tervîs,</lem>
+					<rdg wit="Translation">In Padua, in Treviso</rdg>
+				</app>
+			</l>
+			<l n="301">
+				<app>
+					<lem wit="Transcription">ze Rôme und ze Tuscân</lem>
+					<rdg wit="Translation">In Rome, and in Tuscany</rdg>
+				</app>
+			</l>
+			<l n="302">
+				<app>
+					<lem wit="Transcription">vindet man deheinen man,</lem>
+					<rdg wit="Translation">You can’t find anyone</rdg>
+				</app>
+			</l>
+			<l n="303">
+				<app>
+					<lem wit="Transcription">ich ensî sîn meister gewesen,</lem>
+					<rdg wit="Translation">Whom I haven’t surpassed</rdg>
+				</app>
+			</l>
+			<l n="304">
+				<app>
+					<lem wit="Transcription">daz mir nie gein einer vesen</lem>
+					<rdg wit="Translation">None of them can be compared</rdg>
+				</app>
+			</l>
+			<l n="305">
+				<app>
+					<lem wit="Transcription">ir deheiner möhte gelîchen.</lem>
+					<rdg wit="Translation">To me, not even a little bit.</rdg>
+				</app>
+			</l>
+			<l n="306">
+				<app>
+					<lem wit="Transcription">hal in allen diutschen rîchen</lem>
+					<rdg wit="Translation">Frankly, in no German lands</rdg>
+				</app>
+			</l>
+			<l n="307">
+				<app>
+					<lem wit="Transcription">kom mir nie deheiner zuo,</lem>
+					<rdg wit="Translation">Can anyone come close to being</rdg>
+				</app>
+			</l>
+			<l n="308">
+				<app>
+					<lem wit="Transcription">der beidiu spâte unde fruo</lem>
+					<rdg wit="Translation">As steadfast a drinker</rdg>
+				</app>
+			</l>
+			<l n="309">
+				<app>
+					<lem wit="Transcription">sô wol an trinken dûre.</lem>
+					<rdg wit="Translation">Both mornings and evenings.</rdg>
+				</app>
+			</l>
+			<l n="310">
+				<app>
+					<lem wit="Transcription">wînes nâchgebûre</lem>
+					<rdg wit="Translation">I want to be wine’s companion</rdg>
+				</app>
+			</l>
+			<l n="311">
+				<app>
+					<lem wit="Transcription">wil ich hiute und immer wesen.</lem>
+					<rdg wit="Translation">Today and always.</rdg>
+				</app>
+			</l>
+			<l n="312">
+				<app>
+					<lem wit="Transcription">mîn sêle muoz mit ime genesen.</lem>
+					<rdg wit="Translation">My soul will always thrive with it.</rdg>
+				</app>
+			</l>
+			<l n="313">
+				<app>
+					<lem wit="Transcription">im ist mîn sêle immer holt,</lem>
+					<rdg wit="Translation">My soul is always beholden to it</rdg>
+				</app>
+			</l>
+			<l n="314">
+				<app>
+					<lem wit="Transcription">swenne er schœne als ein golt</lem>
+					<rdg wit="Translation">When it flows from the tap</rdg>
+				</app>
+			</l>
+			<l n="315">
+				<app>
+					<lem wit="Transcription">von dem zaphen schiuzet.</lem>
+					<rdg wit="Translation">As beautiful as gold.</rdg>
+				</app>
+			</l>
+			<l n="316">
+				<app>
+					<lem wit="Transcription">vil wênic mich des verdriuzet,</lem>
+					<rdg wit="Translation">It doesn’t bother me at all</rdg>
+				</app>
+			</l>
+			<l n="317">
+				<app>
+					<lem wit="Transcription">swaz man sîn in mich giuzet;</lem>
+					<rdg wit="Translation">Which wine is poured into me.</rdg>
+				</app>
+			</l>
+			<l n="318">
+				<app>
+					<lem wit="Transcription">vil wol mîn lîp des geniuzet.</lem>
+					<rdg wit="Translation">I enjoy it very much.</rdg>
+				</app>
+			</l>
+			<l n="319">
+				<app>
+					<lem wit="Transcription">man saget von turnieren.</lem>
+					<rdg wit="Translation">People talk of tournaments.</rdg>
+				</app>
+			</l>
+			<l n="320">
+				<app>
+					<lem wit="Transcription">vaste swelhen under vieren,</lem>
+					<rdg wit="Translation">I can easily be the</rdg>
+				</app>
+			</l>
+			<l n="321">
+				<app>
+					<lem wit="Transcription">daz kan ich wol, des habe ich danc."</lem>
+					<rdg wit="Translation">Best of four. I’m grateful for that."</rdg>
+				</app>
+			</l>
+			<l n="322">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank.</rdg>
+				</app>
+			</l>
+			<l n="323">
+				<app>
+					<lem wit="Transcription">Einen trunc, der vil grôz was.</lem>
+					<rdg wit="Translation">A drink that was very large.</rdg>
+				</app>
+			</l>
+			<l n="324">
+				<app>
+					<lem wit="Transcription">er sprach: "swaz man ie gelas</lem>
+					<rdg wit="Translation">He spoke: "Whatever anyone read ever</rdg>
+				</app>
+			</l>
+			<l n="325">
+				<app>
+					<lem wit="Transcription">von den, die minne pflâgen</lem>
+					<rdg wit="Translation">About those who practiced love</rdg>
+				</app>
+			</l>
+			<l n="326">
+				<app>
+					<lem wit="Transcription">und tôt von minne lâgen,</lem>
+					<rdg wit="Translation">And died of love</rdg>
+				</app>
+			</l>
+			<l n="327">
+				<app>
+					<lem wit="Transcription">die wâren mir niht gelîche wîs.</lem>
+					<rdg wit="Translation">They were never equal to me.</rdg>
+				</app>
+			</l>
+			<l n="328">
+				<app>
+					<lem wit="Transcription">wie starp der künic Pârîs,</lem>
+					<rdg wit="Translation">How king Paris died</rdg>
+				</app>
+			</l>
+			<l n="329">
+				<app>
+					<lem wit="Transcription">der durch Helenam wart erslagen!</lem>
+					<rdg wit="Translation">Because of Helen!</rdg>
+				</app>
+			</l>
+			<l n="330">
+				<app>
+					<lem wit="Transcription">des tumpheit sol man immer klagen.</lem>
+					<rdg wit="Translation">His idiocy should ever be lamented</rdg>
+				</app>
+			</l>
+			<l n="331">
+				<app>
+					<lem wit="Transcription">er solde den wîn geminnet hân,</lem>
+					<rdg wit="Translation">He should have courted wine,</rdg>
+				</app>
+			</l>
+			<l n="332">
+				<app>
+					<lem wit="Transcription">sô het im niemen niht getân.</lem>
+					<rdg wit="Translation">Then no one would have done anything to him</rdg>
+				</app>
+			</l>
+			<l n="333">
+				<app>
+					<lem wit="Transcription">vrou Dîdô lac von minne tôt,</lem>
+					<rdg wit="Translation">Lady Dido lay dead from love,</rdg>
+				</app>
+			</l>
+			<l n="334">
+				<app>
+					<lem wit="Transcription">Grâlanden sluoc man unde sôt</lem>
+					<rdg wit="Translation">Graland was killed and cooked</rdg>
+				</app>
+			</l>
+			<l n="335">
+				<app>
+					<lem wit="Transcription">und gab in den frouwen ze ezzen,</lem>
+					<rdg wit="Translation">And given to the women to eat</rdg>
+				</app>
+			</l>
+			<l n="336">
+				<app>
+					<lem wit="Transcription">want si sîn niht wolden vergezzen.</lem>
+					<rdg wit="Translation">Because they didn’t want to forget him.</rdg>
+				</app>
+			</l>
+			<l n="337">
+				<app>
+					<lem wit="Transcription">Piramus und Tispê,</lem>
+					<rdg wit="Translation">Piramus and Thisbe,</rdg>
+				</app>
+			</l>
+			<l n="338">
+				<app>
+					<lem wit="Transcription">den wart von minne sô wê</lem>
+					<rdg wit="Translation">They suffered so much from love</rdg>
+				</app>
+			</l>
+			<l n="339">
+				<app>
+					<lem wit="Transcription">daz si sich rigen an ein swert.</lem>
+					<rdg wit="Translation">That they threw themselves on a sword.</rdg>
+				</app>
+			</l>
+			<l n="340">
+				<app>
+					<lem wit="Transcription">mîn minne ist bezzers lônes wert,</lem>
+					<rdg wit="Translation">My love is worthy of a better reward</rdg>
+				</app>
+			</l>
+			<l n="341">
+				<app>
+					<lem wit="Transcription">denne ir aller minne wære.</lem>
+					<rdg wit="Translation">Than all their love.</rdg>
+				</app>
+			</l>
+			<l n="342">
+				<app>
+					<lem wit="Transcription">mîn minne ist fröudebære.</lem>
+					<rdg wit="Translation">My love is joyous</rdg>
+				</app>
+			</l>
+			<l n="343">
+				<app>
+					<lem wit="Transcription">ich bûwe der minne strâze,</lem>
+					<rdg wit="Translation">I pave the way for love</rdg>
+				</app>
+			</l>
+			<l n="344">
+				<app>
+					<lem wit="Transcription">mir ist baz denn Turâze,</lem>
+					<rdg wit="Translation">I am doing better than Turaze</rdg>
+				</app>
+			</l>
+			<l n="345">
+				<app>
+					<lem wit="Transcription">der von minne in dem sê ertranc."</lem>
+					<rdg wit="Translation">Who, because of love, drowned in the lake."</rdg>
+				</app>
+			</l>
+			<l n="346">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">He raised his glass and drank.</rdg>
+				</app>
+			</l>
+			<l n="347">
+				<app>
+					<lem wit="Transcription">Einen trunc mit grôzer île;</lem>
+					<rdg wit="Translation">A drink with great haste</rdg>
+				</app>
+			</l>
+			<l n="348">
+				<app>
+					<lem wit="Transcription">der werte unz and die wîle,</lem>
+					<rdg wit="Translation">Which continued until his</rdg>
+				</app>
+			</l>
+			<l n="349">
+				<app>
+					<lem wit="Transcription">daz im diu gürtel zebrast.</lem>
+					<rdg wit="Translation">Belt burst.</rdg>
+				</app>
+			</l>
+			<l n="350">
+				<app>
+					<lem wit="Transcription">er sprach: "daz bant ist niht ein bast,</lem>
+					<rdg wit="Translation">He said: "The rope with</rdg> 
+				</app>
+			</l>
+			<l n="351">
+				<app>
+					<lem wit="Transcription">dâ mit ich zallen stunden</lem>
+					<rdg wit="Translation">Which I am tied to the wine</rdg>
+				</app>
+			</l>
+			<l n="352">
+				<app>
+					<lem wit="Transcription">ze dem wîne bin gebunden.</lem>
+					<rdg wit="Translation">at all hours is not a mere ribbon</rdg>
+				</app>
+			</l>
+			<l n="353">
+				<app>
+					<lem wit="Transcription">daz ist mîn sælde und mîn heil,</lem>
+					<rdg wit="Translation">It is my blessing and my salvation</rdg>
+				</app>
+			</l>
+			<l n="354">
+				<app>
+					<lem wit="Transcription">und sint ouch driu vil starkiu seil:</lem>
+					<rdg wit="Translation">And is comprised of three strong strands:</rdg>
+				</app>
+			</l>
+			<l n="355">
+				<app>
+					<lem wit="Transcription">daz eine ist des wînes güete,</lem>
+					<rdg wit="Translation">The first is wine’s virtue</rdg>
+				</app>
+			</l>
+			<l n="356">
+				<app>
+					<lem wit="Transcription">daz ander mîn stæte gemüete,</lem>
+					<rdg wit="Translation">The second is my steadfast spirit</rdg>
+				</app>
+			</l>
+			<l n="357">
+				<app>
+					<lem wit="Transcription">daz dritte is diu gewonheit.</lem>
+					<rdg wit="Translation">The third is my habit.</rdg>
+				</app>
+			</l>
+			<l n="358">
+				<app>
+					<lem wit="Transcription">er mac mir nimmer werden leit,</lem>
+					<rdg wit="Translation">I’ll never get tired of it,</rdg>
+				</app>
+			</l>
+			<l n="359">
+				<app>
+					<lem wit="Transcription">ich muoz in immer minnen.</lem>
+					<rdg wit="Translation">I shall always love it.</rdg>
+				</app>
+			</l>
+			<l n="360">
+				<app>
+					<lem wit="Transcription">ich mac im niht entrinnen.</lem>
+					<rdg wit="Translation">I can’t escape it.</rdg>
+				</app>
+			</l>
+			<l n="361">
+				<app>
+					<lem wit="Transcription">wie zebræche ich einen sô starken stranc?"</lem>
+					<rdg wit="Translation">How could I tear apart such a strong rope?"</rdg>
+				</app>
+			</l>
+			<l n="362">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="363">
+				<app>
+					<lem wit="Transcription">Sô sêre, daz si alle jâhen,</lem>
+					<rdg wit="Translation">He drank so much that all who saw him drink</rdg>
+				</app>
+			</l>
+			<l n="364">
+				<app>
+					<lem wit="Transcription">die sîn trinken rehte ersâhen,</lem>
+					<rdg wit="Translation">agreed that</rdg>
+				</app>
+			</l>
+			<l n="365">
+				<app>
+					<lem wit="Transcription">swaz er getrunken het unz dar,</lem>
+					<rdg wit="Translation">One should completely forget</rdg>
+				</app>
+			</l>
+			<l n="366">
+				<app>
+					<lem wit="Transcription">des solde man vergezzen gar:</lem>
+					<rdg wit="Translation">What he had drunk until now.</rdg>
+				</app>
+			</l>
+			<l n="367">
+				<app>
+					<lem wit="Transcription">der trunc behielte gar den prîs.</lem>
+					<rdg wit="Translation">This drink clearly won the prize.</rdg>
+				</app>
+			</l>
+			<l n="368">
+				<app>
+					<lem wit="Transcription">er sprach:"diu werlt ist unwîs,</lem>
+					<rdg wit="Translation">He said, "The world is foolish,</rdg>
+				</app>
+			</l>	
+			<l n="369">
+				<app>
+					<lem wit="Transcription">daz si niht ze wîne gât,</lem>
+					<rdg wit="Translation">Because it doesn’t turn to wine,</rdg>
+				</app>
+			</l>
+			<l n="370">
+				<app>
+					<lem wit="Transcription">sô si deheinen gebresten hât,</lem>
+					<rdg wit="Translation">If it suffers any sorrow</rdg>
+				</app>
+			</l>
+			<l n="371">
+				<app>
+					<lem wit="Transcription">und trünke dâ für allez leit,</lem>
+					<rdg wit="Translation">And drank away all suffering</rdg>
+				</app>
+			</l>
+			<l n="372">
+				<app>
+					<lem wit="Transcription">für angest und für arbeit,</lem>
+					<rdg wit="Translation">Fear and toil</rdg>
+				</app>
+			</l>
+			<l n="373">
+				<app>
+					<lem wit="Transcription">für alter unde für den tôt,</lem>
+					<rdg wit="Translation">Old age and death</rdg>
+				</app>
+			</l>
+			<l n="374">
+				<app>
+					<lem wit="Transcription">für siechtuom und für alle nôt,</lem>
+					<rdg wit="Translation">Illness and all perils.</rdg>
+				</app>
+			</l>
+			<l n="375">
+				<app>
+					<lem wit="Transcription">für schaden und für schanden slac,</lem>
+					<rdg wit="Translation">All damage and shameful blows,</rdg>
+				</app>
+			</l>
+			<l n="376">
+				<app>
+					<lem wit="Transcription">und für swaz der werlt gewerren mac,</lem>
+					<rdg wit="Translation">And whatever troubles the world</rdg>
+				</app>
+			</l>
+			<l n="377">
+				<app>
+					<lem wit="Transcription">für nebel und für bœsen stanc."</lem>
+					<rdg wit="Translation">Fog and bad smells."</rdg>
+				</app>
+			</l>
+			<l n="378">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="379">
+				<app>
+					<lem wit="Transcription">Sô sêre, daz sich diu kanel bouc.</lem>
+					<rdg wit="Translation">So much that the pitcher bent.</rdg>
+				</app>
+			</l>
+			<l n="380">
+				<app>
+					<lem wit="Transcription">er sprach: "swaz ie flôz ode flouc,</lem>
+					<rdg wit="Translation">He said: "All things that swim or fly</rdg>
+				</app>
+			</l>
+			<l n="381">
+				<app>
+					<lem wit="Transcription">daz sol billîche erkennen mich.</lem>
+					<rdg wit="Translation">Should rightfully pay respect to me.</rdg>
+				</app>
+			</l>
+			<l n="382">
+				<app>
+					<lem wit="Transcription">die liute solten alle sich</lem>
+					<rdg wit="Translation">People should all</rdg>
+				</app>
+			</l>
+			<l n="383">
+				<app>
+					<lem wit="Transcription">ze mînem gebote neigen.</lem>
+					<rdg wit="Translation">Bow to my command.</rdg>
+				</app>
+			</l>
+			<l n="384">
+				<app>
+					<lem wit="Transcription">diu werlt ist gar mîn eigen.</lem>
+					<rdg wit="Translation">I own the world.</rdg>
+				</app>
+			</l>
+			<l n="385">
+				<app>
+					<lem wit="Transcription">ich hân gewaltes sô vil,</lem>
+					<rdg wit="Translation">I have so much power</rdg>
+				</app>
+			</l>
+			<l n="386">
+				<app>
+					<lem wit="Transcription">daz ich tuon, daz ich wil.</lem>
+					<rdg wit="Translation">That I can do what I want.</rdg>
+				</app>
+			</l>
+			<l n="387">
+				<app>
+					<lem wit="Transcription">swaz ich wil, daz ist getân.</lem>
+					<rdg wit="Translation">Whatever I want is as good as done.</rdg>
+				</app>
+			</l>
+			<l n="388">
+				<app>
+					<lem wit="Transcription">daz ich allen mînen willen hân,</lem>
+					<rdg wit="Translation">Since I can do anything I want</rdg>
+				</app>
+			</l>
+			<l n="389">
+				<app>
+					<lem wit="Transcription">dâ von heize ich Ungenôz.</lem>
+					<rdg wit="Translation">I am called Peerless.</rdg>
+				</app>
+			</l>
+			<l n="390">
+				<app>
+					<lem wit="Transcription">mîne tugende sind sô grôz:</lem>
+					<rdg wit="Translation">My virtues are so great</rdg>
+				</app>
+			</l>
+			<l n="391">
+				<app>
+					<lem wit="Transcription">wære der werlde sô vil mê,</lem>
+					<rdg wit="Translation">That if the world were larger</rdg>
+				</app>
+			</l>
+			<l n="392">
+				<app>
+					<lem wit="Transcription">daz das merr und ieslich sê</lem>
+					<rdg wit="Translation">So that the ocean and lakes</rdg>
+				</app>
+			</l>
+			<l n="393">
+				<app>
+					<lem wit="Transcription">als guot wære als daz beste lant,</lem>
+					<rdg wit="Translation">Were as fruit-bearing as the best land,</rdg>
+				</app>
+			</l>
+			<l n="394">
+				<app>
+					<lem wit="Transcription">daz müese stên ze mîner hant</lem>
+					<rdg wit="Translation">Then it would have to be under my control</rdg>
+				</app>
+			</l>
+			<l n="395">
+				<app>
+					<lem wit="Transcription">und müese mir dienen âne wanc."</lem>
+					<rdg wit="Translation">And serve me without hesitation.</rdg>
+				</app>
+			</l>
+			<l n="396">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc:</lem>
+					<rdg wit="Translation">Then he raised his glass and drank</rdg>
+				</app>
+			</l>
+			<l n="397">
+				<app>
+					<lem wit="Transcription">Sô lange und sô sêre,</lem>
+					<rdg wit="Translation">For so long and so deeply,</rdg>
+				</app>
+			</l>
+			<l n="398">
+				<app>
+					<lem wit="Transcription">sô vil und dannoch mêre,</lem>
+					<rdg wit="Translation">So much and even more,</rdg>
+				</app>
+			</l>
+			<l n="399">
+				<app>
+					<lem wit="Transcription">sô vaste und sô harte,</lem>
+					<rdg wit="Translation">So fast and so forcefully,</rdg>
+				</app>
+			</l>
+			<l n="400">
+				<app>
+					<lem wit="Transcription">daz sich daz hemde zarte.</lem>
+					<rdg wit="Translation">That his shirt split.</rdg>
+				</app>
+			</l>
+			<l n="401">
+				<app>
+					<lem wit="Transcription">er sprach:"des wirt guot rât.</lem>
+					<rdg wit="Translation">He said, "I have a good idea</rdg>
+				</app>
+			</l>
+			<l n="402">
+				<app>
+					<lem wit="Transcription">ich weiz wol, waz dar wider stât;</lem>
+					<rdg wit="Translation">I know what the solution is;</rdg>
+				</app>
+			</l>
+			<l n="403">
+				<app>
+					<lem wit="Transcription">ich kan wol wâfenen mich."</lem>
+					<rdg wit="Translation">I can easily equip myself.</rdg>
+				</app>
+			</l>
+			<l n="404">
+				<app>
+					<lem wit="Transcription">er zôch einen hitzhals an sich</lem>
+					<rdg wit="Translation">He pulled on a leather doublet</rdg>
+				</app>
+			</l>
+			<l n="405">
+				<app>
+					<lem wit="Transcription">(den hiez er vaste brîsen),</lem>
+					<rdg wit="Translation">(He ordered it to be tightly laced)</rdg>
+				</app>
+			</l>
+			<l n="406">
+				<app>
+					<lem wit="Transcription">dar zuo von guotem îsen</lem>
+					<rdg wit="Translation">As well as a hard and tight</rdg>
+				</app>
+			</l>
+			<l n="407">
+				<app>
+					<lem wit="Transcription">ein vestez banzier enge.</lem>
+					<rdg wit="Translation">Breastplate of good iron.</rdg>
+				</app>
+			</l>
+			<l n="408">
+				<app>
+					<lem wit="Transcription">er sprach: "des wînes gedrenge</lem>
+					<rdg wit="Translation">He said, "the pressure of the</rdg>
+				</app>
+			</l>
+			<l n="409">
+				<app>
+					<lem wit="Transcription">lât mich nu ungezerret.</lem>
+					<rdg wit="Translation">Wine will now not tear me apart.</rdg>
+				</app>
+			</l>
+			<l n="410">
+				<app>
+					<lem wit="Transcription">ich hân mich sô versperret,</lem>
+					<rdg wit="Translation">I’ve encased myself in such a way</rdg>
+				</app>
+			</l>
+			<l n="411">
+				<app>
+					<lem wit="Transcription">er enmac mich niht entsliezen.</lem>
+					<rdg wit="Translation">That it cannot split me open.</rdg>
+				</app>
+			</l>
+			<l n="412">
+				<app>
+					<lem wit="Transcription">des sol ich wol geniezen,</lem>
+					<rdg wit="Translation">I shall benefit from,</rdg>
+				</app>
+			</l>
+			<l n="413">
+				<app>
+					<lem wit="Transcription">daz ich ze fröuden mînen lîp</lem>
+					<rdg wit="Translation">Having constrained my body</rdg>
+				</app>
+			</l>
+			<l n="414">
+				<app>
+					<lem wit="Transcription">getwungen hân, daz man noch wîp</lem>
+					<rdg wit="Translation">as no man or woman has ever done before,</rdg>
+				</app>
+			</l>
+			<l n="415">
+				<app>
+					<lem wit="Transcription">sînen lîp sô sêre nie getwanc."</lem>
+					<rdg wit="Translation">for the sake joy.</rdg>
+				</app>
+			</l>
+			<l n="416">
+				<app>
+					<lem wit="Transcription">dô huob er ûf unde tranc.</lem>
+					<rdg wit="Translation">Then he raised his glass and drank.</rdg>
+				</app>
+			</l>
+		</body>
+	</text>
+</TEI>

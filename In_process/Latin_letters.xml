@@ -1,0 +1,449 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--NAMES--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name><!--TRANSLATOR--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Clara Romani</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription"></witness>
+					<witness xml:id="Translation"></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Latin Letters</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<div type="letter" n="1">
+				<head>
+					<app>
+						<lem wit="#Transcription">Letter 2</lem>
+						<rdg wit="#Translation">Letter 2</rdg>
+					</app>	
+				</head>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dilecto cogno suo N. ipsius consanguinea B. fidem et dilectionem non secundum debitum, sed secundum meritum suum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Scio et scire me doleo quia fidelem cognatum in te non habeo, sed potius baculum harundineum, inutilem et uacuvm, cui si homo fuerit innisus perforabit manum eius 
+								<note type="critical" anchored="true">
+									<p>[potius... eius] Isa 36.6</p>
+								</note>
+							.
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nam fidei debite penitus oblitus in me, cum tu ipse in exilio manere horruisti et ad tuos redire properasti, me in peregre positam obliuioni tradidisti quasi mortuam 
+								<note type="critical" anchored="true">
+									<p>[peregre...mortuam] Ps 30.13</p>
+								</note>
+							.
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nec misertus es mei, quam omnium amicorum solatio destitutam esse optime nosti.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Vbi sunt uerba bona, uerba consolatoria 
+								<note type="critical" anchored="true">
+									<p>Zech 1.13</p>
+								</note>
+							, quibus mihi ualedixisti sed minime factis compensare curasti?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quod autem fidem tuam irritam esse fecisti et promissiones tuas adimplere contempsisti, plus pro te doleo quam pro me quia gratiam et dilectionem totius congragationis amisisti, quibus abeundo promisisti te quantotius esse reuersurum et cum ipsis permansurum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ergo de instabili fide tua erubesce et dignam penitentiam age, memor quia omnis infidelis non habet partem in celis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div type="letter" n="2">
+				<head>
+					<app>
+						<lem wit="#Transcription">Letter 13</lem>
+						<rdg wit="#Translation">Letter 13</rdg>
+					</app>
+				</head>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Karissimo in christo amico domino N. humiles christi ancille deuotum orationem in perpetuam fidem et dilectionem.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sicut sitiens aquam et sicut estuans desiderat umbram, sic nos desideramus uidere faciem uestram.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Condidimus enim et sine dubio credimus, quia pater misericordiarum et deus totius consolationis 
+								<note type="critical" anchored="true">
+									<p>[pater...consolationis] 2 Cor 1.3</p>
+								</note>
+							 in loco nostre peregrinationis nobis fidelem amicum preuidit et concessit in uobis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ipse etiam hic et in futuro uobis respondeat pro nobis, quod salutationem nostram proxime benugne suscepistis et peticionibus nostris pie et misericorditer annuistis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Salutamus per uos dominum N., uicarium uestrum, gratias agentes, quia uobis absente nuncium nostrum benigne suscepit et causa dei et uestri omnem humanitatis gratiam sibi impendere curavit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mittimus uobis duo ligamina ad dimunitionem sanguinis apta.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Virtutum uestrarum industria uiuat et ualeat per multa annorum curricula.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div type="letter" n="3">
+				<head>
+					<app>
+						<lem wit="#Transcription">Letter 14</lem>
+						<rdg wit="#Translation">Letter 14</rdg>
+					</app>
+				</head>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Digno domino archiepiscopo N. domino et patri carissimo soror N. ultima christi ancillarum in spiritu meroris debitum obsequium obedientie et orationis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Agnosce dei famule me exulem et exiguam inter oues paschue tue qua relicitis notis omnibus et cognatis pro amore patriae celestis sub umbram alarum uestram confugi 
+								<note type="critical" anchored="true">
+									<p>[[sub...uestrarum] Ps. 16.8</p>
+								</note>
+							, cupiens deo seruire in uita spiritali.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ueniens igitur in locum admontem iuxta consilium et auxilium uestrum anguistia possedit me quasi parturientis 
+								<note type="critical" anchored="true">
+									<p>[angustia...parturientis] Isa. 21.3</p>
+								</note>
+							iuxta uerba domina per prophetam dicentis: Numquid potest obliuisci mulier infanti sui ut non misereatur filio uteri sui 
+								<note type="critical" anchored="true">
+									<p>[Numquid...sui] Isa. 49.15</p>
+								</note>
+							.
+						</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Memor sum domine nec inmemor esse possum orphanule mee quam in uisceribus meis portaui propriis uberibus lactaui et mecum exulari feci ac in simplicitate cordis mei inconsulte et inprouide apud alienos reliqui.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ipsam igitur in humeris meis ponens ad uos domine pater recurro et ante pedes dominationis uestrae proiciens depono eiulans et clamans in uice et uoce mulieris chananee: Domine miserere filiole mee 
+								<note type="critical" anchored="true">
+									<p>Matt. 15.22-28; Mark 7.24-30</p>
+								</note>
+							.
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dolorem ergo maternum diutius ferre non ualens.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ob spem et gratiam paterne miserationis uestre mittam et adducam eam ad me ut saltem per fenestram de manibus meis accipiat elemosinam; et si per uestrum auxilium non meretur sumere panem filiarum uestrarum tandem cum catellis edat de micis quae cadunt de mensa pauperum uestrarum 
+								<note type="critical" anchored="true">
+									<p>[panem...uestrarum] Matt.15.27; Mark 7.28</p>
+								</note>
+							.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Moueat ergo pietatis uestre uiscera lacrimosa cordis mei suspiria per uagitus et ploratus quas emisit paruulus uirginis filius inter arta conditus presepia nostre salutis gratia causa et per lacrimas genitricis sue quas effudit in passione ipsius morte.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Lacrimas meas corde percipite ut secundum promissionem uestram quantotius recipiam filiam meam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"> Obsecro domine ut miseratio tua me consolari non differat ne forte quod deus uetat prae nimio dolore me de claustris erumpere contingat querendo unicam meam, ut exula fame peream, et requirat nos de manibus uestris pater orphanorum et iudex iuduarim 
+								<note type="critical" anchored="true">
+									<p>[pater...uiduarum] Ps. 67.6</p>
+								</note>
+							.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div type="letter" n="4">
+				<head>
+					<app>
+						<lem wit="#Transcription">Letter 17</lem>
+						<rdg wit="#Translation">Letter 17</rdg>
+					</app>
+				</head>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Reuerenter amando et amanter reurendo domino N. karissimo ille sue deuotissime N. et N. assidue orationis obsequium et fidei et dilectionis sedis perpetuum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nouit scientiarum dominus quia ex quo uestri noticiam habere meruimus memoria uestre dilectionis numquam recessit a cordibus nostris.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Non modicum dolemus, et dolendo medullitus gemiscimus, quia post longa tempora nec uos uidere nec aliquid certi de uobis contigit audire.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed nunc domino annuente facte sumus sicut consolate, quia fidelem et certum nuncium habemus per quem uos salutamus et nos ipsas nichil preciosius habentes per ipsum uobis transmittimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Suscipite ergo illum tanquam filium et fratrem et amicum uestrum et per ipsum antique fidei memor esse dignemini quantinus uere fidei pactum inter nos et uos aliquando compactum usque in finem maneat intactum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mittumus uobis pulverem, optantes vobis ex eo percipere perpetuam corporis et anime sanitatem.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div type="letter" n="5">
+				<head>
+					<app>
+						<lem wit="#Transcription">Letter 18</lem>
+						<rdg wit="#Translation">Letter 18</rdg>
+					</app>
+				</head>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dilecto domino et patri N. proposito humiles christi ancille N. et N. sorores Admontenses incluse obedientie et orationis obsequium in domino forti in perpetuum
+								<note type="critical" anchored="true">
+									<p>[in domino...perpetuum] Isa. 26.4</p>
+								</note>
+							.
+							</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dignatio gratie uestre et dilectionis qua nos pre ceteris sororibus nostris specialiter dignum duxistis fouere in tantum nos fecit presumere vt non solum pro nostris causis sed et pro fidelibus nostris audeamus vos inquietare et rogare.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Audiuimus domine quosdam e monachis nostris apud dominum archieposcopum esse accusatos ac gratia illius penitus priuatos.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Inter quos pro quodam nomine N. maxime dolemus quia ipsum nobis fideliter deuotum esse sepius experte sumus et in cunctis necessariis prolocutorem et intercessorem nos in ipso habere sentimus.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Scire autem et indubitanter vos credere cupimus quia ipse accusatus plus propter inuidiam et inimiciam quam propter dei iusticiam et quia plus falsa dicta sunt de illo quam uera.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quapropter unam cum illo et pro illo a longe pedibus uestris prouolute rogamus quam intime vt causa dei et nostri pie et benigne pro ipso loquamini et sicut potens potestis graciam domini archieposcopi ei optineatis quatinus fidelis noster in causa sua sentiat quid peticio nostra apid vos optinere ualeat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+<!--
+
+	Prose Template
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->

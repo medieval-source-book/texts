@@ -1,0 +1,170 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt' >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Concerning Fire and Water</title>
+				<author>Nicolaus Pergamenus</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Dr. J. G. Th. Grässe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Irene Han</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De igne et aqua</witness>
+					<witness xml:id="Translation">Concerning Fire and Water</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+				<encodingDesc>
+			<projectDesc>
+            	<p>"Concerning Fire and Water" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De igne et aqua, dial. 9.</lem>
+						<rdg wit="#Translation">Concerning Fire and Water, the ninth dialogue</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p>
+				<s n="1">
+					<app>
+						<lem wit="#Transcription">﻿Ignis est lenis, purus, subtilis, mobilis, lucidus et calidus, et quia est tam pretiosus, in se sublimari cœpit dicens: ego in terra omnibns prævaleo et cuncta consumo, sed si in aquis prævalerem , superlatus omnibus existerem.</lem>
+						<rdg wit="#Translation">Fire is light, pure, fine, mobile, bright, and hot. He began to exalt himself because he was so valuable. “I prevail over all on earth; I eat up all on earth. If I were to prevail against Water, I would be revered beyond all things.”</rdg>
+					</app>
+				</s>
+				<s n="2">
+					<app>
+						<lem wit="#Transcription">Pro tanto ad se clamavit aquam dicens: soror carissima, elementum Dei es tu velut ego, quapropter, si tibi commoratus fuero et tecum connexus, non solum magnus sed magnificentior et excellentior apparebo.</lem>
+						<rdg wit="#Translation">For this reason, he called Water to himself and said, “Dearest sister, you are an element of God like me. If I were to stay with you and be joined to you I would seem not only great but even more magnificent and excellent.</rdg>
+					</app>
+				</s>
+				<s n="3">
+					<app>
+						<lem wit="#Transcription">Unde obsecro te, permitte me tecum morari et in te gloriari.</lem>
+						<rdg wit="#Translation">I beg you, let me stay with you and revel in you.”</rdg>
+					</app>
+				</s>
+				<s n="4">
+					<app>
+						<lem wit="#Transcription">Aqua vero simulare se ingeniose cœpit dicens: desiderio desideravi hoc pascha tecum manducare, accede ad me secure et te pro viribus meliorabo.</lem>
+						<rdg wit="#Translation">Water began to pretend shrewdly and said, “I too wanted to feast with you this Easter. Do not worry; come over to me and I will improve you to the best of my ability.”
+							<note type="critical" anchored="true">
+								<p>A more literal translation could be ‘Come over securely to me’, but I have opted to translate ‘secure’ using the imperative “Do not worry.”</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="5">
+					<app>
+						<lem wit="#Transcription">Ignis quoque hoc audiens jucundari cœpit et amicabiliter ad aquam intravit, aqua vero, dum ignem in se haberet, assistentibus sibi dixit: iste inimicus et contrarius est generis mei; hic me sæpe consumpsit et ad nihilum redegit, modo me vindicare possum et ipsum exstinguere, si volo, sed juxta verbum apostoli nolo reddere malum pro malo, ne seculum privetur tanto bono, tamen volo ipsum aliquantulum humiliare.</lem>
+						<rdg wit="#Translation">Hearing these words, Fire began to rejoice and entered Water in a friendly manner. Once Water held Fire in herself, she said to those around her, “This is my enemy and the opposite of my nature. He has often devoured me and turned me back to nothing. I could claim revenge and extinguish him if I wanted to. However, in accordance with the command of the Apostle, I refuse to exchange wrong for wrong, lest the world be robbed of such a great good. Nevertheless I wish to humiliate him a little.”</rdg>
+					</app>
+				</s>
+				<s n="6">
+					<app>
+						<lem wit="#Transcription">Et hæc dicens parum collegit se et in ignem mingere cœpit. Et ob hoc orare aquam ignis cœpit, ue ipsum exstiugueret.</lem>
+						<rdg wit="#Translation">Speaking thus, she collected herself somewhat and began to urinate onto Fire, who started to beg Water not to extinguish him.</rdg>
+					</app>
+				</s>
+				<s n="7">
+					<app>
+						<lem wit="#Transcription">Aqua vero miserta est ei nec eum ex toto exstinxit, sed ad terram ipsum deduxit dicens: Deo daraus dulcera sonum reddendo pro malo bonum.</lem>
+						<rdg wit="#Translation">Indeed, Water took pity on him and did not extinguish him entirely, but led him back to dry land, 
+							<note type="critical" anchored="true">
+								<p>I have added the adjective ‘dry’ because of the English idiom ‘to dry land’.</p>
+							</note>
+						saying, “We offer up a sweet song to God by exchanging what’s bad for what is good.” 
+							<note type="critical" anchored="true">
+								<p>The Latin saying rhymes; while this cannot be fully replicated in English, I have tried to reflect this lyricism.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="8">
+					<app>
+						<lem wit="#Transcription">Sed multi hodie per contrarium reddunt pro malo malum, cum volunt vindictam assumere nolentes offensas dimittere.</lem>
+						<rdg wit="#Translation">On the contrary, however, many people today fight wrongs with wrongs. Indeed, they want to take vengeance and refuse to forget any offense.</rdg>
+					</app>
+				</s>
+				<s n="9">
+					<app>
+						<lem wit="#Transcription">Propter quod Hieronimus dicit: quoniam Deus donavit in Christo peccata nostra, sie et uos dimittamus his, qui in nobis peccant, et Dei imitatio injuriam nobis faetam frangit et revocat.</lem>
+						<rdg wit="#Translation">On this matter, Hieronimus says, “Just as God forgave our sins in Christ, so we must forgive those that sin against us; our imitation of God breaks and revokes any injury that we have suffered.”</rdg>
+					</app>
+				</s>
+				<s n="10">
+					<app>
+						<lem wit="#Transcription">Sicut legitur in historiis Alexandri, quod, cum quidam eum graviter offendisset, nolebat ei dimittere, Aristoteles autem hoc cognoscens perrexit ad eum et ait: volo, domine, quod hodie sis victoriosus ultra quod fuisti.</lem>
+						<rdg wit="#Translation">It is written in the histories of Alexander that when someone once offended him badly, he was not willing to forgive them. However, Aristotle took notice and went over to Alexander. “I want, lord, for you to be even more victorious today than you have ever been before.”</rdg>
+					</app>
+				</s>
+				<s n="11">
+					<app>
+						<lem wit="#Transcription">Quo respondente ait: bene volo.</lem>
+						<rdg wit="#Translation">“I desire this too,” said Alexander.</rdg>
+					</app>
+				</s>
+				<s n="12">
+					<app>
+						<lem wit="#Transcription">Cui ille: tu, rex, superasti omnia regna mundi, sed hodie tu superatus es, quia, si te permittis superari, victus es; si tu quoque vincis temetipsum, victoriosus eris, quia, qui semetipsum vincit, contra omnia fortis est, ut dicit philosophus.</lem>
+						<rdg wit="#Translation">In response, Aristotle said, “King, you have overcome all the kingdoms of the world, but today you have been overcome. After all, if you allow yourself to be overcome [by vindictiveness], then you are conquered. However, if you conquer yourself, you shall be all the more victorious, since whoever conquers himself is mighty against all. So sayeth the philosopher.”</rdg>
+					</app>
+				</s>
+				<s n="13">
+					<app>
+						<lem wit="#Transcription">Ad hæc verba vindictam remisit Alexander et placatus est.</lem>
+						<rdg wit="#Translation">Hearing these words, Alexander forgave the offense and regained his calm.</rdg>
+					</app>
+				</s>
+				<s n="14">
+					<app>
+						<lem wit="#Transcription">Propter quod dicitur Prov. XVI: melius est patiens viro forti et qui dominatur animo suo expugnatore urbium.</lem>
+						<rdg wit="#Translation">In the same vein, consider Proverbs XVI: “A patient man is better than a strong man,  and he who is lord of his soul is better than a conqueror of cities.”</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

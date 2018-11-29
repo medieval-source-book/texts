@@ -1,0 +1,222 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>玉蝴蝶</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mareike E. Reisch</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">玉蝴蝶</witness>
+					<witness xml:id="Translation">To the Tune “Jade Butterfly”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"玉蝴蝶" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">玉蝴蝶</lem>
+						<rdg wit="#Translation">To the Tune “Jade Butterfly”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">誤入平康小巷</lem>
+						<rdg wit="#Translation">By mistake, I entered a narrow alley in the Pingkang Ward.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">畫簷深處</lem>
+						<rdg wit="#Translation">In the deep recess of the painted eaves,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">珠箔微褰</lem>
+						<rdg wit="#Translation">the pearl curtain slightly raised.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">羅綺叢中</lem>
+						<rdg wit="#Translation">Among the plain and patterned silk,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">偶認舊識嬋娟</lem>
+						<rdg wit="#Translation">I recognized a beauty who I used to know.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">翠眉開</lem>
+						<rdg wit="#Translation">Her dark eyebrows relaxed,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">嬌橫遠岫</lem>
+						<rdg wit="#Translation">like charmingly extending ridges.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">綠鬢嚲</lem>
+						<rdg wit="#Translation">Her drooping dark hair with a green sheen,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">濃染春煙</lem>
+						<rdg wit="#Translation">was richly infused with spring mist.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">憶情牽</lem>
+						<rdg wit="#Translation">I remembered the former love ties:</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">粉牆曾恁</lem>
+						<rdg wit="#Translation">over a white wall like this,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">窺宋三年</lem>
+						<rdg wit="#Translation">some girl had peaked at Song Yu for three years.</rdg>
+					</app>
+				</l>
+				<milestone unit="stanza"/>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">遷延</lem>
+						<rdg wit="#Translation">I stayed,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">珊瑚筵上</lem>
+						<rdg wit="#Translation">at the coral table.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">親持犀管</lem>
+						<rdg wit="#Translation">Holding a rhinoceros horn brush,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">旋疊香箋</lem>
+						<rdg wit="#Translation">folding the fragrant paper,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">要索新詞</lem>
+						<rdg wit="#Translation">she asked for a new lyric.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">殢人含笑立尊前</lem>
+						<rdg wit="#Translation">Tempting me with a smile, she stood in front of me,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">按新聲</lem>
+						<rdg wit="#Translation">following with the new song.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">珠喉漸穩</lem>
+						<rdg wit="#Translation">Her pearly voice grew steady.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">想舊意</lem>
+						<rdg wit="#Translation">Recalling our old love,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">波臉增妍</lem>
+						<rdg wit="#Translation">her radiant face became even more enticing.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">苦留連</lem>
+						<rdg wit="#Translation">She begged me to stay.</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">鳳衾鴛枕</lem>
+						<rdg wit="#Translation">Phoenix quilt and lovebird pillows,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">忍負良天</lem>
+						<rdg wit="#Translation">how could I bear to turn down this heavenly chance.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,221 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Ha qu’il m’ennuye</title>
+				<author>Fesneau/Agricola</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Ha qu’il m’ennuye</witness>
+					<witness xml:id="Translation">Oh how it troubles me!</witness>
+				</listWit>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Ha qu’il m’ennuye</lem>
+						<rdg wit="#Translation">Oh how it troubles me!</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Ha qu'il menuye
+						</lem>
+						<rdg wit="#Translation">Oh how it troubles me!</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">et que Je me treuve esbahye
+						</lem>
+						<rdg wit="#Translation">I find myself astonished</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">de ce que Je ne vous puis voir
+						</lem>
+						<rdg wit="#Translation">that I cannot see you.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">mon seul tout vueillez y pourvoir
+						</lem>
+						<rdg wit="#Translation">My one and only, please do what is necessary</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">se vous amez moy et ma vie
+						</lem>
+						<rdg wit="#Translation">if you love me and my life.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Jay des enuis
+						</lem>
+						<rdg wit="Translation">I have troubles</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">qui me tourmentent jours et nuits
+						</lem>
+						<rdg wit="Translation">tormenting me day and night</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">tant que Jen suis toute esperdue
+						</lem>
+						<rdg wit="Translation">to such a degree that I feel totally lost</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">car je ne puis [avoir] plaisir ne nulz de puis
+						</lem>
+						<rdg wit="Translation">for I have not been able to have any joy, nor anything else, since</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">que je vous ay perdu de veue
+						</lem>
+						<rdg wit="Translation">I lost you from my sight.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3">
+			<l n="11">
+					<app>
+						<lem wit="#Transcription">Je nay envye
+						</lem>
+						<rdg wit="Translation">I have no interest in anything</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">ne mon desir ne my convye
+						</lem>
+						<rdg wit="Translation">nor does desire drive me</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">puis que mieulx je ne puis avoir
+						</lem>
+						<rdg wit="Translation">because I cannot have anything better</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">fors de voz nouvelles savoir
+						</lem>
+						<rdg wit="Translation">than news of you,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">dailleurs ne puis estre esjouye
+						</lem>
+						<rdg wit="Translation">and I cannot be happy otherwise.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
+
+<!--
+
+	Ha qu'il mennuie
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->

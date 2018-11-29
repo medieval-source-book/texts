@@ -1,0 +1,575 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt' >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Concerning Precious Topaz</title>
+				<author>Nicolaus Pergamenus</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Dr. J. G. Th. Grässe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Irene Han</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De topasio pretioso</witness>
+					<witness xml:id="Translation">Concerning Precious Topaz</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+				<encodingDesc>
+			<projectDesc>
+            	<p>"Concerning Precious Topaz" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De topasio pretioso, dial. 16.</lem>
+						<rdg wit="#Translation">Concerning Precious Topaz, the sixteenth dialogue</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p>
+				<s n="1">
+					<app>
+						<lem wit="#Transcription">﻿Topasius, ut dicit Papias, est gemma, quæ omnium lapidum in se habet colores.</lem>
+						<rdg wit="#Translation">Topaz, as Papias writes, is a jewel that holds the colors of all other stones in itself.</rdg>
+					</app>
+				</s>
+				<s n="2">
+					<app>
+						<lem wit="#Transcription">Ysidor. Ethim. libro XVI. dicit, quod est gemma quædam ex virenti genere omnique colore splendens, inventa primum in Arabiæ insula, quæ dicitur Topazi, unde topazius dictus est ab insula.</lem>
+						<rdg wit="#Translation">Similarly, Isidor writes in book sixteen of the Etymologies that it is a primarily green-coloured jewel that also shines in every color, and was first discovered on an Arabian island called Topazi, whence topaz takes its name.</rdg>
+					</app>
+				</s>
+				<s n="3">
+					<app>
+						<lem wit="#Transcription">Quidam autem topacius de Arabia ductus est Romam et in ecclesia beati Petri super crucem collocatus est et consecratus est, in quo loco ab omnibus avide videbatur.</lem>
+						<rdg wit="#Translation">Once, a topaz was taken from Arabia to Rome, and placed above the cross in blessed Peter’s Church. It was consecrated there and admired enthusiastically by everyone.</rdg>
+					</app>
+				</s>
+				<s n="4">
+					<app>
+						<lem wit="#Transcription">Hic a persuasione in ima ductus ait: quid est semper in ecclesia manere et nunquam recedere nec aliquid de mundo sentire?</lem>
+						<rdg wit="#Translation">Convinced to exchange its lofty place for lower realms, the Topaz said, “Why must I always remain in the church and never leave, nor see anything of the world?</rdg>
+					</app>
+				</s>
+				<s n="5">
+					<app>
+						<lem wit="#Transcription">volo enim cito ad seculum redire, ut aliquantulum cum secularibus recreari possim in seculo et regnare cum Christo.</lem>
+						<rdg wit="#Translation">I desire to go back to the world for a short while, so that I might have a little recreation with those of the world and then reign with Christ.”</rdg>
+					</app>
+				</s>
+				<s n="6">
+					<app>
+						<lem wit="#Transcription">Cumque ad seculum reversus fuisset ac de sacrosaneta ecclesia recederet, ab illicitis concupiscentiis mundi captus exposuit se omnibus flagitiis.</lem>
+						<rdg wit="#Translation">However, after he had returned to the world and departed from the holy church, he was captivated by forbidden desires and exposed himself to sinful acts.</rdg>
+					</app>
+				</s>
+				<s n="7">
+					<app>
+						<lem wit="#Transcription">Ad extremum autem a barbaris repertus et ab ipsis incognitus collisus est et dispersus, ita quod nunquam comparuit.</lem>
+						<rdg wit="#Translation">Finally, the Topaz was discovered by barbarians, who did not recognise him. As a result, he was smashed and scattered so that he never appeared whole again.</rdg>
+					</app>
+				</s>
+				<s n="8">
+					<app>
+						<lem wit="#Transcription">Tandem confractus ait: qui de loco sacro pergit, justum est, si se dispergit.</lem>
+						<rdg wit="#Translation">Finally broken, the Topaz said: “He who leaves a holy place is justly destroyed.”</rdg>
+					</app>
+				</s>
+				<s n="9">
+					<app>
+						<lem wit="#Transcription">Ergo caveant religiosi ad seculum redire, ne similiter pereant.</lem>
+						<rdg wit="#Translation">Therefore, may the religious beware of going back to the world, lest they perish in the same way.</rdg>
+					</app>
+				</s>
+				<s n="10">
+					<app>
+						<lem wit="#Transcription">Concupiscentiæ enim sunt naufragia religiosorum.</lem>
+						<rdg wit="#Translation">After all, desire is a shipwreck for the pious.</rdg>
+					</app>
+				</s>
+				<s n="11">
+					<app>
+						<lem wit="#Transcription">Et ideo dicit Augustinus: sicut dilectio Dei est omnium virtutum fons, ita dilectio mundi est fons omnium vitiorum.</lem>
+						<rdg wit="#Translation">Similarly, Augustine writes, “Just as love of God is the font of all virtue, love of the world is the font of all sin.</rdg>
+					</app>
+				</s>
+				<s n="12">
+					<app>
+						<lem wit="#Transcription">Unde qui vult Deum possidere, mundo renuntiet, ut sit illi Deus beata possessio.</lem>
+						<rdg wit="#Translation">Hence, whoever wishes to attain God ought to renounce the world so that he might achieve the blessed attainment of God.”</rdg>
+					</app>
+				</s>
+				<s n="13">
+					<app>
+						<lem wit="#Transcription">Dicit Bernardus: perfectus servus Christi nihil habet nisi Christum et si aliquid præter Christum habet, perfectus non est.</lem>
+						<rdg wit="#Translation">Thus also Bernard: “The perfect servant of Christ possesses nothing except for Christ; if he possesses anything else, he is not perfect.”</rdg>
+					</app>
+				</s>
+				<s n="14">
+					<app>
+						<lem wit="#Transcription">Unde idem: qui spiritualibus bonis sunt dotati, terrenis negotiis non debent implicari.</lem>
+						<rdg wit="#Translation">Additionally, Bernard writes, “Whosoever is endowed with spiritual goods need not be implicated in worldly matters.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s n="1">
+					<app>
+						<lem wit="#Transcription">Legitur in Vitas patrum [sic], quod quidam frater interrogavit senem dicens: quid faciam, quia cogitatio mea me non dimittit, me nec una hora sedere in cella mea?</lem>
+						<rdg wit="#Translation">It is said in The Lives of the Fathers
+							<note type="critical" anchored="true">
+								<p>
+									There is a mistake in the Latin – marked by [sic]. <hi rend="italic">‘Legitur in Vitas patrum’</hi> should be <hi rend="italic">‘Legitur in Vitis patrum’</hi> as the preposition <hi rend="italic">‘in’</hi>, when denoting location, requires the ablative case.
+								</p>
+							</note>
+							 that a young monk was asking advice from an old counterpart. He said, “What should I do? My thoughts doesn’t leave me alone; I cannot meditate in my cell for even an hour.”</rdg>
+					</app>
+				</s>
+				<s n="2">
+					<app>
+						<lem wit="#Transcription">Et dicit ei senex: fili, revertere et sede in cella tua et labora manibus tuis et ora Deum incessanter et jacta cogitatum tuum in domino et cave, ne te quis seducat, ut exeas, et dicebat.</lem>
+						<rdg wit="#Translation">The old man responded, “Son, go away and sit in your cell. Work with your hands, and pray unceasingly to God, and cast your thoughts towards the Lord. Moreover, beware lest anyone should tempt you to exit your cell.”
+							<note type="critical" anchored="true">
+								<p>
+									There is a hanging <hi rend="italic">‘et dicebat’</hi> here, which may suggest that the old monk tells the following story.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="3">
+					<app>
+						<lem wit="#Transcription">Quidam secularis erat adolescens habens patrem et desiderabat fieri monachus.</lem>
+						<rdg wit="#Translation">There was, once, a young man of the world whose father was still alive. He wanted to become a monk.</rdg>
+					</app>
+				</s>
+				<s n="4">
+					<app>
+						<lem wit="#Transcription">Et dum multum supplicaret patri suo, ut dimitteret eum converti, non acquiescebat pater.</lem>
+						<rdg wit="#Translation">However, although he begged his father many times to allow him to take his vows, his father refused.</rdg>
+					</app>
+				</s>
+				<s n="5">
+					<app>
+						<lem wit="#Transcription">Postmodum autem rogatus a fidelibus amicis, vix acquievit.</lem>
+						<rdg wit="#Translation">Eventually, his father begrudgingly agreed, but only after been petitioned by his intimate friends.</rdg>
+					</app>
+				</s>
+				<s n="6">
+					<app>
+						<lem wit="#Transcription">Et egressus frater ille adolescens introivit monasterium et factus monachus cœpit omne opus monasterii perfecte perficere et jejunare quotidie.</lem>
+						<rdg wit="#Translation">The young man left his home and entered a monastery. He became a monk and began to carry out all of his monastic duties perfectly, taking care to fast daily.</rdg>
+					</app>
+				</s>
+				<s n="7">
+					<app>
+						<lem wit="#Transcription">Cœpit autem biduanas et triduanas abstinere, similiter autem et semel tantum in ebdomada refici.</lem>
+						<rdg wit="#Translation">Soon he was fasting for two or three days at a time, and once he ate only one meal from Sabbath to Sabbath.
+							<note type="critical" anchored="true">
+								<p>I.e. ‘within a whole week.’</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="8">
+					<app>
+						<lem wit="#Transcription">Videbat eum abbas suus et mirabatur et benedicebat dominum in abstinentia et labore ipsius.</lem>
+						<rdg wit="#Translation">The abbot watched him and marveled, and even blessed the Lord for the young monk’s abstinence and hard work.</rdg>
+					</app>
+				</s>
+				<s n="9">
+					<app>
+						<lem wit="#Transcription">Contigit autem post aliquod tempus, [quod] cœpit frater supplicari abbati suo dicens: rogo te, abba, ut dimittas me, et vadam in heremum.</lem>
+						<rdg wit="#Translation">After some time, however, the brother began to entreat the abbot, saying, “O abbot, I ask you to send me away. I must go into the wilderness.”</rdg>
+					</app>
+				</s>
+				<s n="10">
+					<app>
+						<lem wit="#Transcription">Dicit ei abbas: fili, noli hoc cogitare, non enim potes sufferre talem laborem propter temptationes diaboli et versutias ejus.</lem>
+						<rdg wit="#Translation">The abbot said to him, “My son, do not think of such things. You cannot bear that sort of trial, for the devil has tricks and temptations up his sleeve.
+							<note type="critical" anchored="true">
+								<p>‘To have [something] up his sleeve’ is an English idiom and not present in the original Latin.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="11">
+					<app>
+						<lem wit="#Transcription">Et si contigerit tibi temptatio, non invenies ibi, quod te consoletur a turbatione inimici, quæ tibi illata fuerit.</lem>
+						<rdg wit="#Translation"> If you were to be tempted, you would not find anything there which would save you from the devil’s disquiet, which will be imposed upon you.”</rdg>
+					</app>
+				</s>
+				<s n="12">
+					<app>
+						<lem wit="#Transcription">Ille autem cœpit amplius rogare, ut eum permitteret abire.</lem>
+						<rdg wit="#Translation">Nevertheless, the monk continued to beg the abbot for permission to leave.
+							<note type="critical" anchored="true">
+								<p>
+									<hi rend="italic">‘Frater’</hi> is used throughout for ‘monk’, literally meaning ‘brother’. However the word ‘monk’ is preferred as one would not translate <hi rend="italic">‘pater’</hi> in this context as ‘father’, but as ‘priest’. 
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="13">
+					<app>
+						<lem wit="#Transcription">Videns autem abbas ejus, quia eum retinere non poterat, facta oratione dimisit eum.</lem>
+						<rdg wit="#Translation">The abbot, seeing that that he could not restrain him, made a public prayer and sent him away.</rdg>
+					</app>
+				</s>
+				<s n="14">
+					<app>
+						<lem wit="#Transcription">Postmodum dicit abbati suo: rogo te, abba, ut concedas mihi, qui ostendat iter, quomodo ego pergere debeam.</lem>
+						<rdg wit="#Translation">Then the monk said to the abbot, “I ask you to grant me someone to show the road that I must take.”</rdg>
+					</app>
+				</s>
+				<s n="15">
+					<app>
+						<lem wit="#Transcription">Et ordinavit cum eo duos monachos monasterii et abierunt cum eo, ambulantibusque iis per heremum unam diem et alteram, defecerunt præ æstu et projicientes se in terram jacebant et soporati modice somno, ecce aquila venit percutiens alis suis, processit procul et sedit in terra.</lem>
+						<rdg wit="#Translation">The abbot assigned to him two monks, who were part of the same monastery, and they went off together. For two days they walked into the wilderness before they gave up. Collapsing due to the heat, they fell onto the ground and slept for a short while. An eagle arrived from above, beating his wings together; it then proceeded to a far-off place and sat upon the earth.</rdg>
+					</app>
+				</s>
+				<s n="16">
+					<app>
+						<lem wit="#Transcription">Et evigilantes aquilam viderunt et dixerunt ei: ecce angelus tuus, surge, sequere eum.</lem>
+						<rdg wit="#Translation">Waking up, the monks saw the eagle and said to their young brother, “Behold your angel. Arise: follow him.”</rdg>
+					</app>
+				</s>
+				<s n="17">
+					<app>
+						<lem wit="#Transcription">Et surgens valedicensque fratribus sequebatur eam et venit usque ubi stabat aquila ipsa.</lem>
+						<rdg wit="#Translation">Rising, he blessed his brothers and followed it, and reached the place where the eagle was found.</rdg>
+					</app>
+				</s>
+				<s n="18">
+					<app>
+						<lem wit="#Transcription">Quæ mox surgens volavit usque ad unum stadium et iterum sedit.</lem>
+						<rdg wit="#Translation">The eagle immediately rose up and flew a stade
+						<note type="critical" anchored="true">
+								<p>
+									A 'stade' is a Greek measure of distance, equivalent to approximately a furlong, or 607 feet.
+								</p>
+							</note> away, where it landed once more.</rdg>
+					</app>
+				</s>
+				<s n="19">
+					<app>
+						<lem wit="#Transcription">Similiter sequebatur eam frater ille.</lem>
+						<rdg wit="#Translation">Again, the monk followed;</rdg>
+					</app>
+				</s>
+				<s n="20">
+					<app>
+						<lem wit="#Transcription">Et iterum volavit et sedit non longe.</lem>
+						<rdg wit="#Translation">again, the eagle flew for a short distance and sat down.</rdg>
+					</app>
+				</s>
+				<s n="21">
+					<app>
+						<lem wit="#Transcription">Factum est vero hoc per horas tres.</lem>
+						<rdg wit="#Translation">This process repeated itself for three hours.</rdg>
+					</app>
+				</s>
+				<s n="22">
+					<app>
+						<lem wit="#Transcription">Postmodum autem, dum sequitur eam, divertit ipsa aquila in dexteram partem sequentis se et non comparuit.</lem>
+						<rdg wit="#Translation">The monk continued following, but then the eagle diverted his path eastwards, and did not show himself to his follower.</rdg>
+					</app>
+				</s>
+				<s n="23">
+					<app>
+						<lem wit="#Transcription">Frater vero ille nihilominus sequebatur eam et respiciens vidit tres arbores palmarum et fontem aquæ et speluncam et dixit: ecce locus, quem mihi dominus paravit!</lem>
+						<rdg wit="#Translation">Nevertheless the monk followed. As he looked back, however, he glimpsed three palm trees, a spring, and a cave, then said, “Behold this place which the Lord has prepared for me.”</rdg>
+					</app>
+				</s>
+				<s n="24">
+					<app>
+						<lem wit="#Transcription">Et ingressus sedit in ea sumens cibum dactilorum et de fonte aquam bibens; et fecit ibidem annos sex neminem videns.</lem>
+						<rdg wit="#Translation">He entered and sat down, consuming the dates and drinking water from the spring. He spent six years in that place, and saw no one during this time.</rdg>
+					</app>
+				</s>
+				<s n="25">
+					<app>
+						<lem wit="#Transcription">Et ecce una die venit ad eum diabolus in similitudine cujusdam abbatis senioris habens vultum terribilem.</lem>
+						<rdg wit="#Translation">One day the devil came to him in the semblance of an old abbot; he wore a terrible countenance.</rdg>
+					</app>
+				</s>
+				<s n="26">
+					<app>
+						<lem wit="#Transcription">Yidens autem eum frater ille timuit et procidens in orationem surrexit.</lem>
+						<rdg wit="#Translation">The monk was afraid and fell prostrate into prayer.</rdg>
+					</app>
+				</s>
+				<s n="27">
+					<app>
+						<lem wit="#Transcription">Et dicit ei diabolus: oremus iterum, frater!</lem>
+						<rdg wit="#Translation">After he had risen once more, the devil said to him: “ Let us pray again together, my brother!”</rdg>
+					</app>
+				</s>
+				<s n="28">
+					<app>
+						<lem wit="#Transcription">et cum surrexissent diabolus dixit: quantum temporis habes hic?</lem>
+						<rdg wit="#Translation">Once they had finished, the devil asked, “How much time have you passed here?”</rdg>
+					</app>
+				</s>
+				<s n="29">
+					<app>
+						<lem wit="#Transcription">Et respondit: habeo sex annos.</lem>
+						<rdg wit="#Translation">The monk answered, “Six years.”</rdg>
+					</app>
+				</s>
+				<s n="30">
+					<app>
+						<lem wit="#Transcription">Dicit ei dæmon: ecce te vicinum habui et non potui cognoscere nisi ante dies quatuor, quod hic habitares, et ego non longe habeo a te monasterium, et ecce anni sunt XI quod de monasterio non exivi nisi hodie, quia cognovi, quod in hic vicino habitares, et cogitavi mecum dicens, vadam ad hominem Dei istum et cum eo conferam, quod potest prodesse saluti animæ meæ, et hoc dico, frater, quod nihil proficimus sedentes in cellis istis, quia corpus et sanguinem Christi non percipimus, et timeo, ne efficiamur exteri ab eo, si nos ab hoc misterio elongaverimus.</lem>
+						<rdg wit="#Translation">The devil said to him, “How can this be? All this time I had you as a neighbor, and yet I did not know that you dwelt here until four days ago. I govern a monastery not far from you, and I did not leave it for eleven years except for today. I left only because I discovered that you lived in the vicinity. I thought to myself: ‘I will go to this man of God and confer with him, for he shall be able to do good for my soul.’ I tell you, my brother, that we do not accomplish anything by sitting in our cells, where we do not receive the body and blood of Christ.
+							<note type="critical" anchored="true">
+								<p>
+									In this case – and indeed throughout the rest of this dialogue – the term ‘cell’ likely means ‘cave’ rather than a small room within a building. 
+								</p>
+							</note>
+						 Indeed I dread that we shall alienate ourselves from Him if we remain separate from this mystery.</rdg>
+					</app>
+				</s>
+				<s n="31">
+					<app>
+						<lem wit="#Transcription">Sed dico tibi, frater, ecce hinc tribus millibus est monasterium habens presbiterum, eamus ergo dominica die post duas ebdomadas et accipiamus corpus et sanguinem Christi et revertamur ad cellas nostras.</lem>
+						<rdg wit="#Translation">Nevertheless, I assure you, brother, that there is a monastery with a priest just three miles from this spot. Let us therefore go there together on the Sunday after next and accept the body and blood of Christ, after which we will return to our cells.”</rdg>
+					</app>
+				</s>
+				<s n="32">
+					<app>
+						<lem wit="#Transcription">Placuit fratri suasio illa diabolica et veniente die dominica ecce diabolus venit et dicit ei: veniamus, quia hora est.</lem>
+						<rdg wit="#Translation">The devil’s advice pleased the brother. On the Sabbath, the devil came and said to the monk, “Let us go. The hour has come.”</rdg>
+					</app>
+				</s>
+				<s n="33">
+					<app>
+						<lem wit="#Transcription">Et exeuntes perrexerunt ad prædictum monasterium, ubi presbiter ille erat, et ingressi in ecclesiam miserunt se in orationem, et exsurgens ab oratione frater ille respiciens non invenit, qui adduxerat eum ibi, et dixit: ubi, putas, perrexit?</lem>
+						<rdg wit="#Translation">They left and, having arrived at the aforementioned monastery where the priest was,  entered the chapel and began to pray. Rising from his prayers, the monk looked back but could not find the one who had led him there. He said to himself, “Where do you think he has gone?</rdg>
+					</app>
+				</s>
+				<s n="34">
+					<app>
+						<lem wit="#Transcription">num ad commune necessarium ambulavit?</lem>
+						<rdg wit="#Translation">Surely he hasn’t gone to the outhouse?”</rdg>
+					</app>
+				</s>
+				<s n="35">
+					<app>
+						<lem wit="#Transcription">Et cum diu sustineret, non venit.</lem>
+						<rdg wit="#Translation">Although the monk waited for a long time, his companion did not return.</rdg>
+					</app>
+				</s>
+				<s n="36">
+					<app>
+						<lem wit="#Transcription">Postmodum autem exiens foras requirebat eum, et cum non reperisset, dixit ad fratres loci illius interrogans eos; ubi est abbas ille senex, qui mecum ingressus est in ecclesiam?</lem>
+						<rdg wit="#Translation">After a time he went out through the doors and sought him, and when he did not find him he spoke to the monks of that place, asking them, “Where is the aged abbot, who entered the chapel with me?”</rdg>
+					</app>
+				</s>
+				<s n="37">
+					<app>
+						<lem wit="#Transcription">Et dicunt ei: nos neminem vidimus alium nisi te tamen.</lem>
+						<rdg wit="#Translation">They said to him, “We have seen no man besides yourself.”</rdg>
+					</app>
+				</s>
+				<s n="38">
+					<app>
+						<lem wit="#Transcription">Tunc cogitavit frater ille, quod dæmon fuisset, et dixit: vide, cum qua argutia diabolus ejecit me de cella sua, sed tamen non me pœnitet, quia ad opus bonum veni, percipio corpus et sanguinem Christi et revertar in cellam meam!</lem>
+						<rdg wit="#Translation">The monk then realised that the abbot had been the devil, and said, “Look: with what sophistry did the devil expel me from my cell! Nevertheless, I regret nothing, for I came for a good reason. I have partaken in the body and blood of Christ, and now I shall return to my cell.”</rdg>
+					</app>
+				</s>
+				<s n="39">
+					<app>
+						<lem wit="#Transcription">Et post missas volentem reverti tenuit eum abbas monasterii ipsius dicens: nisi te refeceris, non dimittemus te.</lem>
+						<rdg wit="#Translation">After mass, the abbot of the monastery would not let the monk depart, though he desired to do so. The abbot said, “Unless you dine with us, we will not let you go.”</rdg>
+					</app>
+				</s>
+				<s n="40">
+					<app>
+						<lem wit="#Transcription">Et cum percepisset cibum et regredi vellet in cellam suam, ecce iterum diabolus venit in similitudine cujusdam juvenis secularis et cœpit eum respicere a summo capitis usque ad pedes et dicere: ipse est iste? non est hic.</lem>
+						<rdg wit="#Translation">After he had eaten and again expressed his desire to leave, the devil returned in the guise of a worldly young man; in this form, he looked the monk up and down, from head to toe. He then said, “Is this the man? No, it cannot be he.”</rdg>
+					</app>
+				</s>
+				<s n="41">
+					<app>
+						<lem wit="#Transcription">Et cœpit eum considerare et dixit ei frater: quem sic respicis?</lem>
+						<rdg wit="#Translation">The monk began to examine the young man, and said to him, “Whom do you look at in this way?”</rdg>
+					</app>
+				</s>
+				<s n="42">
+					<app>
+						<lem wit="#Transcription">At ille ait: puto, me cognoscis.</lem>
+						<rdg wit="#Translation">The young man responded, “I think that you know me.</rdg>
+					</app>
+				</s>
+				<s n="43">
+					<app>
+						<lem wit="#Transcription">Tamen post tantum tempus quomodo me habes cognoscere?</lem>
+						<rdg wit="#Translation">Do you recognise me after all this time?</rdg>
+					</app>
+				</s>
+				<s n="44">
+					<app>
+						<lem wit="#Transcription">Ego vicinus patris tui, filius illius.</lem>
+						<rdg wit="#Translation">I am your father’s neighbor, his son.</rdg>
+					</app>
+				</s>
+				<s n="45">
+					<app>
+						<lem wit="#Transcription">Quomodo? non est dictus pater tuus sic et mater tua tale nomen non habuit?</lem>
+						<rdg wit="#Translation">How now?  Was your father not called thus, and did your mother not have such-and-such a name?</rdg>
+					</app>
+				</s>
+				<s n="46">
+					<app>
+						<lem wit="#Transcription">Tu et sic non vocaris et mancipia illa et illa sic non sunt dieta?</lem>
+						<rdg wit="#Translation">Are you not also addressed so, and aren’t these your servants’ names?</rdg>
+					</app>
+				</s>
+				<s n="47">
+					<app>
+						<lem wit="#Transcription">Mater vero tua et soror tua ante tres annos mortuæ sunt.</lem>
+						<rdg wit="#Translation">Your mother and your sister died three years ago.</rdg>
+					</app>
+				</s>
+				<s n="48">
+					<app>
+						<lem wit="#Transcription">Pater autem tuus modo defunctus est et te fecit hæredem dicens: cui habeo dimittere substantiam meam nisi filio meo, viro sancto, qui reliquit sæculum et abiit post Deum?</lem>
+						<rdg wit="#Translation">Your father has recently died and made you his heir, saying, ‘To whom would I leave my possessions unless to my son, a holy man, who abandoned the world and went away in pursuit of God?</rdg>
+					</app>
+				</s>
+				<s n="49">
+					<app>
+						<lem wit="#Transcription">Ipsi dimitto omnia bona mea, modo autem qui timet Deum et seit, ubi est, dicat, ut veniens distrahat et eroget ea pauperibus pro anima mea et sua!</lem>
+						<rdg wit="#Translation">To him indeed I bequeath all my possessions. May some God-fearing man who knows my son’s whereabouts tell him that he may divide and distribute my estate among the poor, for the benefit of my soul and his.’</rdg>
+					</app>
+				</s>
+				<s n="50">
+					<app>
+						<lem wit="#Transcription">Et perrexerunt multi requirentes te et minime invenerunt, ego autem, veniens ex occasione propter quoddam opus hic, cognovi te esse, unde non facias moras, sed veni et vende omnia et fac secundum voluntatem patris tui.</lem>
+						<rdg wit="#Translation">Many men journeyed to find you and failed to do so. I, however, recognised you by chance when travelling here on an errand. Hence, do not delay, but come, sell all your possessions, and fulfill your father’s will.”</rdg>
+					</app>
+				</s>
+				<s n="51">
+					<app>
+						<lem wit="#Transcription">Respondens frater ille dixit: non necesse habeo reverti ad seculum.</lem>
+						<rdg wit="#Translation">The monk answered him, saying, “It is not necessary for me to go back to the world.”</rdg>
+					</app>
+				</s>
+				<s n="52">
+					<app>
+						<lem wit="#Transcription">Dixit ei diabolus: si non veneris et deperierit substantia illa, in conspectu Dei tu exinde reddes rationem.</lem>
+						<rdg wit="#Translation">The devil said, “If you do not come and your estate is dispersed in the meantime, you will have to settle your accounts before God.</rdg>
+					</app>
+				</s>
+				<s n="53">
+					<app>
+						<lem wit="#Transcription">Quid enim mali tibi dico, ut venias et eroges pauperibus et egenis quomodo bonus dispensator, ut non a meretricibus et male viventibus extricetur, quod pauperibus dimissum est?</lem>
+						<rdg wit="#Translation">Is it evil that I should encourage you to come help the poor and destitute as a good steward should, so that what was bequeathed to the poor is not taken instead by prostitutes and the debauched?</rdg>
+					</app>
+				</s>
+				<s n="54">
+					<app>
+						<lem wit="#Transcription">Aut quid onerosum est, ut venias et facias elemosinas secundum voluntatem patris tui pro anima ejus et revertaris in cellam tuam?</lem>
+						<rdg wit="#Translation">Or is it a great burden to come and perform charity according to the will of your father, for the good of his soul, and then return to your cell?”</rdg>
+					</app>
+				</s>
+				<s n="55">
+					<app>
+						<lem wit="#Transcription">Quid multa, suadens fratrem deposuit in seculum et venieus cum eo usque ad civitatem reliquit eum.</lem>
+						<rdg wit="#Translation">Saying much more,
+							<note type="critical" anchored="true">
+								<p>
+									<hi rend="italic">‘Quid multa’</hi>  does not only mean that the devil said much more, but expresses the narrator’s reluctance to go on listing what he has said. “What more should I say? In any case, the devil persuaded him...”
+								</p>
+							</note>
+						 he persuaded the monk and placed him back in the world; he accompanied the monk all the way to the city and left him there.</rdg>
+					</app>
+				</s>
+				<s n="56">
+					<app>
+						<lem wit="#Transcription">Yoluit autem frater ingredi in domum patris tamquam jam defuucto eo, et ecce ipse pater ejus vivus egrediebatur et videus non cognovit eum et ad eum ait: quis es tu?</lem>
+						<rdg wit="#Translation">The monk wanted to go into his father’s house, even though he was already dead. However he beheld his living father, who had seen him and was coming out of the house. Not recognising his son, he asked, “Who are you?”</rdg>
+					</app>
+				</s>
+				<s n="57">
+					<app>
+						<lem wit="#Transcription">Ipse vero turbatus nihil poterat respondere, et cœpit iteratis verbis pater ejus interrogare eum, unde esset.</lem>
+						<rdg wit="#Translation">Disturbed, the monk was not able to answer, and his father enquired again as to who he was using the same words.</rdg>
+					</app>
+				</s>
+				<s n="58">
+					<app>
+						<lem wit="#Transcription">Tunc confusus dixit ei: ego filius tuus.</lem>
+						<rdg wit="#Translation">Finally, the confused monk said, “I am your son.”</rdg>
+					</app>
+				</s>
+				<s n="59">
+					<app>
+						<lem wit="#Transcription">Et ait illi: ut quid reversus es?</lem>
+						<rdg wit="#Translation">His father responded, “Why have you come back?”</rdg>
+					</app>
+				</s>
+				<s n="60">
+					<app>
+						<lem wit="#Transcription">Qui erubescens dicere, quod verum erat, dixit: caritas tua me fecit reverti, quia desiderabam te.</lem>
+						<rdg wit="#Translation">Ashamed to tell the truth, the monk said, “Your love has caused me to return, for I missed you.”</rdg>
+					</app>
+				</s>
+				<s n="61">
+					<app>
+						<lem wit="#Transcription">Et remansit ibi et post aliquantum tempus iucurrit fornicationem et multis suppliciis afflictus a patre suo infelix ille non egit pœniteutiam, sed remansit in seculo.</lem>
+						<rdg wit="#Translation">He stayed there; after a while, he fornicated and was punished for it by his father. However, that wretched man did not do penance, but remained in the world.</rdg>
+					</app>
+				</s>
+				<s n="62">
+					<app>
+						<lem wit="#Transcription">Ideoque dico, fratres, quia monachus nunquam debet, quamvis suasus ab aliquo, egredi de cella sua.</lem>
+						<rdg wit="#Translation">Therefore I say, my brothers, that a monk should never – even when persuaded by others – leave his cell.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

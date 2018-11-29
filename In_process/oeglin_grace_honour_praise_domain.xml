@@ -1,0 +1,1062 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities; ]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Grace, honor and praise are her domain"</title>
+				<author>Erhard Oeglin</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan and Hannah Frakes</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.43r</p>
+				<p></p>
+				<listWit>
+					<witness xml:id="Transcription">"Zucht er und lob ir wonet bey"</witness>
+					<witness xml:id="Translation">"Grace, honor and praise are her domain"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Grace, honor and praise are her domain" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Zucht er und lob ir wonet bey</lem>
+						<rdg wit="#Translation">Grace, honor and praise are her domain</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<l n="1">
+				<app>
+					<lem wit="#Transcription">
+						Zucht er und lob ir wonet bey \ 
+					</lem>
+					<rdg wit="#Translation">
+						Grace, honor and praise are her domain;
+					</rdg>
+				</app>
+			</l>
+			<l n="2">
+				<app>
+					<lem wit="#Transcription">
+						gantz frey on alle rey \ 
+					</lem>
+					<rdg wit="#Translation">
+						Tof my free will, will no regret,
+					</rdg>
+				</app>
+			</l>
+			<l n="3">
+				<app>
+					<lem wit="#Transcription">
+						bin ich verphlicht zw dienen ir \ 
+					</lem>
+					<rdg wit="#Translation">
+						I am bound to serve her.
+					</rdg>
+				</app>
+			</l>
+			<l n="4">
+				<app>
+					<lem wit="#Transcription">
+						Sy hat fürwar das feinst geperd \ 
+					</lem>
+					<rdg wit="#Translation">
+						Truly, she has the finest bearing;
+					</rdg>
+				</app>
+			</l>
+			<l n="5">
+				<app>
+					<lem wit="#Transcription">
+						beschwert und höchlich mert \ sich hertzlich klag und sentlich gir \ 
+					</lem>
+					<rdg wit="#Translation">
+						 a heartful lament and yearning desire have afflicted me and grown immensely
+					</rdg>
+				</app>
+			</l>
+			<l n="6">
+				<app>
+					<lem wit="#Transcription">
+						seyd ich nu waiß zůkünnftig nat \ 
+					</lem>
+					<rdg wit="#Translation">
+						Since I found out there was trouble ahead,
+					</rdg>
+				</app>
+			</l>
+			<l n="7">
+				<app>
+					<lem wit="#Transcription">
+						kayn rat \ auff erd mich hellfen mag \
+					</lem>
+					<rdg wit="#Translation">
+						no earthly counsel can help me.
+					</rdg>
+				</app>
+			</l>
+			<l n="8">
+				<app>
+					<lem wit="#Transcription">
+						es ist am tag \ 
+					</lem>
+					<rdg wit="#Translation">
+						The days is here;
+					</rdg>
+				</app>
+			</l>
+			<l n="9">
+				<app>
+					<lem wit="#Transcription">
+						er hör mein klag \ 
+					</lem>
+					<rdg wit="#Translation">
+						hear my lament
+					</rdg>
+				</app>
+			</l>
+			<l n="10">
+				<app>
+					<lem wit="#Transcription">
+						die ich stätz trag \ 
+					</lem>
+					<rdg wit="#Translation">
+						which I must always bear;
+					</rdg>
+				</app>
+			</l>
+			<l n="11">
+				<app>
+					<lem wit="#Transcription">
+						thů gnad mein glück ee ich verzag. 
+					</lem>
+					<rdg wit="#Translation">
+						have mercy, oh, my fortune, before I abandon hope.
+					</rdg>
+				</app>
+			</l>
+			<l n="12">
+				<app>
+					<lem wit="#Transcription">
+						Recht als ayn wild kayn vernunft hab \ 
+					</lem>
+					<rdg wit="#Translation">
+						Just as a wild animal has no reason,
+					</rdg>
+				</app>
+			</l>
+			<l n="13">
+				<app>
+					<lem wit="#Transcription">
+						gar ab \ 
+					</lem>
+					<rdg wit="#Translation">
+						just as if
+					</rdg>
+				</app>
+			</l>
+			<l n="14">
+				<app>
+					<lem wit="#Transcription">
+						mein schatz und hab durch schaydens gwalt verlassen wirt \ 
+					</lem>
+					<rdg wit="#Translation">
+						I were bereaved of my treasure and wealth by the power of separation.
+					</rdg>
+				</app>
+			</l>
+			<l n="15">
+				<app>
+					<lem wit="#Transcription">
+						dardurch mein kranks und schwyrigs heetz \ 
+					</lem>
+					<rdg wit="#Translation">
+						 Because of this, my sick and wounded heart fell,
+					</rdg>
+				</app>
+			</l>
+			<l n="16">
+				<app>
+					<lem wit="#Transcription">
+						on scherrtz \ unsäglich schmertz \ 
+					</lem>
+					<rdg wit="#Translation">
+						in unspeakable anguish
+					</rdg>
+				</app>
+			</l>
+			<l n="17">
+				<app>
+					<lem wit="#Transcription">
+						mit seüfftzen vil im ellendt fyrt \ 
+					</lem>
+					<rdg wit="#Translation">
+						and with a groan, into misery, I kid you not!
+					</rdg>
+				</app>
+			</l>
+			<l n="18">
+				<app>
+					<lem wit="#Transcription">
+						ich glaub kain frewd sey mir beschert \ 
+					</lem>
+					<rdg wit="#Translation">
+						I don’t think I’ll be granted any joy,
+					</rdg>
+				</app>
+			</l>
+			<l n="19">
+				<app>
+					<lem wit="#Transcription">
+						verkert \ sich nicht mein schmertzlich wee \ 
+					</lem>
+					<rdg wit="#Translation">
+						unless my anguished torment changes course;
+					</rdg>
+				</app>
+			</l>
+			<l n="20">
+				<app>
+					<lem wit="#Transcription">
+						wie ichs nů dee \ 
+					</lem>
+					<rdg wit="#Translation">
+						however I turn,
+					</rdg>
+				</app>
+			</l>
+			<l n="21">
+				<app>
+					<lem wit="#Transcription">
+						gee oder stee \ 
+					</lem>
+					<rdg wit="#Translation">
+						walk or stand,
+					</rdg>
+				</app>
+			</l>
+			<l n="22">
+				<app>
+					<lem wit="#Transcription">
+						gleych wye der schnee \ ich armer bůb im layd vergee.
+					</lem>
+					<rdg wit="#Translation">
+						 I, poor lad, will vanish with sorrow, just like the snow.
+					</rdg>
+				</app>
+			</l>
+			<l n="23">
+				<app>
+					<lem wit="#Transcription">
+						Ich laß in reden was er will \ 
+					</lem>
+					<rdg wit="#Translation">
+						I’ll let him say what he wants; 
+					</rdg>
+				</app>
+			</l>
+			<l n="24">
+				<app>
+					<lem wit="#Transcription">
+						in still \ 
+					</lem>
+					<rdg wit="#Translation">
+						secretly
+					</rdg>
+				</app>
+			</l>
+			<l n="25">
+				<app>
+					<lem wit="#Transcription">
+						mich trübt so vill \ sein hertzlich layd mer dan ich klag \
+					</lem>
+					<rdg wit="#Translation">
+						his heartfelt pain saddens me, more than I express:
+					</rdg>
+				</app>
+			</l>
+			<l n="26">
+				<app>
+					<lem wit="#Transcription">
+						mir was vornye mein hertz so wunnd \ 
+					</lem>
+					<rdg wit="#Translation">
+						My heart has never felt so wounded.
+					</rdg>
+				</app>
+			</l>
+			<l n="27">
+				<app>
+					<lem wit="#Transcription">
+						die stund \ ist mir wol kund \ 
+					</lem>
+					<rdg wit="#Translation">
+						I’m well aware of what the bell tolls for;
+					</rdg>
+				</app>
+			</l>
+			<l n="28">
+				<app>
+					<lem wit="#Transcription">
+						mein schwere peyn dye ich stätz trag \ 
+					</lem>
+					<rdg wit="#Translation">
+						of the great pain which I must always endure.
+					</rdg>
+				</app>
+			</l>
+			<l n="29">
+				<app>
+					<lem wit="#Transcription">
+						glück durch dein hillff not wurd gewend \ behend \
+					</lem>
+					<rdg wit="#Translation">
+						Fortune, with your help, trouble could be deftly averted,
+					</rdg>
+				</app>
+			</l>
+			<l n="30">
+				<app>
+					<lem wit="#Transcription">
+						so ver er selber wult \ 
+					</lem>
+					<rdg wit="#Translation">
+						insofar as he wants it.
+					</rdg>
+				</app>
+			</l>
+
+
+
+			<l n="31">
+				<app loc="l31">
+					<lem wit="#Transcription">
+						mein gross unschult \
+					</lem>
+				</app>
+			</l>
+			<l n="31">
+				<app loc="l33">
+					<rdg wit="#Translation">
+						Help me, oh my fortune
+					</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult \ wenden in hult \ 
+					</lem>
+					<rdg wit="#Translation">
+						to turn, with my patience
+					</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app loc="l33">
+					<lem wit="#Transcription">hyllff schyr mein glück </lem>
+				</app>
+			</l>
+			<l n="33">
+				<app loc= "l31">
+					<rdg wit="#Translation">
+						my great innocence into favor;
+					</rdg>
+				</app>
+			</l>
+
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult / wenden in hult /
+					</lem>
+					<rdg wit="#Translation">
+						my great innocence into favor;
+					</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult / wenden in hult /
+					</lem>
+					<rdg wit="#Translation">
+						my great innocence into favor;
+					</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">
+						hyllff schyr mein glück 
+					</lem>
+					<rdg wit="#Translation">
+						Help me, oh, my fortune,
+					</rdg>
+				</app>
+			</l>
+
+
+
+
+mein gross unschult / durch mein gedult / wenden in hult / hyllff schyr mein glück
+
+Help me, oh my fortune, to turn, with my patience,
+My great innocence into favor;
+
+
+			<l n="30">
+				<app>
+					<lem wit="#Transcription">
+						mein gross unschult / 
+					</lem>
+					<rdg wit="#Translation">
+						
+					</rdg>
+				</app>
+			</l>
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">
+						durch mein gedult /
+					</lem>
+					<rdg wit="#Translation">
+						
+					</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">
+						wenden in hult /
+					</lem>
+					<rdg wit="#Translation">
+						
+					</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">
+						hyllff schyr mein glück
+					</lem>
+					<rdg wit="#Translation">
+						Help me, oh my fortune,
+					</rdg>
+				</app>
+			</l>
+			<l n="34">
+				<app>
+					<lem wit="#Transcription">
+						thue was ich sult. 
+					</lem>
+					<rdg wit="#Translation">
+						to do what I ought to do.
+					</rdg>
+				</app>
+			</l>
+			<l n="35">
+				<app>
+					<lem wit="#Transcription">
+						Schaffen nit vil ir süsse wort \ 
+					</lem>
+					<rdg wit="#Translation">
+						Her sweet words don’t achieve much;
+					</rdg>
+				</app>
+			</l>
+			<l n="36">
+				<app>
+					<lem wit="#Transcription">
+						zů hort und ser betort \ ist in mir mein hertz můt und syn \ 
+					</lem>
+					<rdg wit="#Translation">
+						my heart, spirit and mind are too hardened and have been played the fool;
+					</rdg>
+				</app>
+			</l>
+			<l n="37">
+				<app>
+					<lem wit="#Transcription">
+						ir gunst tet sich offt verkeren \ 
+					</lem>
+					<rdg wit="#Translation">
+						her favor often changed;
+					</rdg>
+				</app>
+			</l>
+			<l n="38">
+				<app>
+					<lem wit="#Transcription">
+						eren \ alpot meren \ will ich ir pryß wo ich nur bin \ 
+					</lem>
+					<rdg wit="#Translation">
+						her favor often changed; I will honor and keep praising her, wherever I am and wherever I go;
+					</rdg>
+				</app>
+			</l>
+			<l n="39">
+				<app>
+					<lem wit="#Transcription">
+						und far dahyn ellendiklich \ schayd ich \ in disem jamerstall \ 
+					</lem>
+					<rdg wit="#Translation">
+						 I walk away miserably when I leave her in this vale of tears; anxiety brings misfortune. 
+					</rdg>
+				</app>
+			</l>
+			<l n="40">
+				<app>
+					<lem wit="#Transcription">
+						dy wellt ist hol \ 
+					</lem>
+					<rdg wit="#Translation">
+						The world is hollow
+					</rdg>
+				</app>
+			</l>
+			<l n="41">
+				<app>
+					<lem wit="#Transcription">
+						und untrew vol \ 
+					</lem>
+					<rdg wit="#Translation">
+						and full of betrayal
+					</rdg>
+				</app>
+			</l>
+			<l n="42">
+				<app>
+					<lem wit="#Transcription">
+						ich wayß nit wie ichs versten sol.
+					</lem>
+					<rdg wit="#Translation">
+						I don’t know how I’m supposed to understand it. 
+					</rdg>
+				</app>
+			</l>
+			<l n="43">
+				<app>
+					<lem wit="#Transcription">
+						Thüe was ich wil so ist mein gunst \ 
+					</lem>
+					<rdg wit="#Translation">
+						Whatever I do, my favor is in vain;
+					</rdg>
+				</app>
+			</l>
+			<l n="44">
+				<app>
+					<lem wit="#Transcription">
+						umb sunst \ dye grosse prünst \ der trewen lieb myet mich schwerlich \ 
+					</lem>
+					<rdg wit="#Translation">
+						the great ardor of faithful love torments me grievously;
+					</rdg>
+				</app>
+			</l>
+			<l n="45">
+				<app>
+					<lem wit="#Transcription">
+						mir gschicht unrecht bey meinem aydt \ 
+					</lem>
+					<rdg wit="#Translation">
+						I’m being wronged, I swear!
+					</rdg>
+				</app>
+			</l>
+			<l n="46">
+				<app>
+					<lem wit="#Transcription">
+						mein zeyt \ on alle freyt \
+					</lem>
+					<rdg wit="#Translation">
+						I have to pass the time with no joy;
+					</rdg>
+				</app>
+			</l>
+			<l n="47">
+				<app>
+					<lem wit="#Transcription">
+						vertreiben můß den lon hab ich \ 
+					</lem>
+					<rdg wit="#Translation">
+						that’s my reward. 
+					</rdg>
+				</app>
+			</l>
+			<l n="48">
+				<app>
+					<lem wit="#Transcription">
+						mein allte trew bedenck gsell pass \ 
+					</lem>
+					<rdg wit="#Translation">
+						Sweetheart, think hard about how faithful I have always been,
+					</rdg>
+				</app>
+			</l>
+			<l n="49">
+				<app>
+					<lem wit="#Transcription">
+						und lass mich bleyben ewig dein \ 
+					</lem>
+					<rdg wit="#Translation">
+						and let me remain yours forevermore;
+					</rdg>
+				</app>
+			</l>
+			<l n="50">
+				<app>
+					<lem wit="#Transcription">
+						in güet erschein \ 
+					</lem>
+					<rdg wit="#Translation">
+						come to me in good cheer, 
+					</rdg>
+				</app>
+			</l>
+			<l n="51">
+				<app>
+					<lem wit="#Transcription">
+						vertreib mein peyn \ 
+					</lem>
+					<rdg wit="#Translation">
+						take away my pain
+					</rdg>
+				</app>
+			</l>
+			<l n="52">
+				<app>
+					<lem wit="#Transcription">
+						und laß mich sein \ 
+					</lem>
+					<rdg wit="#Translation">
+						and let me be
+					</rdg>
+				</app>
+			</l>
+			<l n="53">
+				<app>
+					<lem wit="#Transcription">
+						bevolhen dyr erbarmb dich mein.
+					</lem>
+					<rdg wit="#Translation">
+						 bound to you: have mercy on me!
+					</rdg>
+				</app>
+			</l>
+			<l n="54">
+				<app>
+					<lem wit="#Transcription">
+						Ja fraw dein red mein hertz vast yebt \ 
+					</lem>
+					<rdg wit="#Translation">
+						Yes, my lady, your words move my heart deeply;
+					</rdg>
+				</app>
+			</l>
+			<l n="55">
+				<app>
+					<lem wit="#Transcription">
+						 nw liebt \und unmass tryebt \ dein tugend groß mich armen brůder \ 
+					</lem>
+					<rdg wit="#Translation">
+						now your virtue beguiles and [at the same time] saddens, me, poor brother that I am, without measure.
+					</rdg>
+				</app>
+			</l>
+			<l n="56">
+				<app>
+					<lem wit="#Transcription">
+						du waist das ich an argen won \ lieb hon \ 
+					</lem>
+					<rdg wit="#Translation">
+						You know that I love you and trust you,
+					</rdg>
+				</app>
+			</l>
+			<l n="57">
+				<app>
+					<lem wit="#Transcription">
+						dich hösten kron \ und stätz bewar dein zucht und er \ 
+					</lem>
+					<rdg wit="#Translation">
+						my dearest treasure, and always maintain your favor and grace:
+					</rdg>
+				</app>
+			</l>
+			<l n="58">
+				<app>
+					<lem wit="#Transcription">
+						dan all mein frewd in ewr giet \ 
+					</lem>
+					<rdg wit="#Translation">
+						For all my joy lies in your goodness.
+					</rdg>
+				</app>
+			</l>
+			<l n="59">
+				<app>
+					<lem wit="#Transcription">
+						ich pitt \ 
+					</lem>
+					<rdg wit="#Translation">
+						I ask
+					</rdg>
+				</app>
+			</l>
+			<l n="60">
+				<app>
+					<lem wit="#Transcription">
+						verstet mich ewen recht \ 
+					</lem>
+					<rdg wit="#Translation">
+						and understand me right:
+					</rdg>
+				</app>
+			</l>
+			<l n="61">
+				<app>
+					<lem wit="#Transcription">
+						ich bin gantz schlecht \ 
+					</lem>
+					<rdg wit="#Translation">
+						I'm being completely honest;
+					</rdg>
+				</app>
+			</l>
+			<l n="62">
+				<app>
+					<lem wit="#Transcription">
+						darum an secht \ 
+					</lem>
+					<rdg wit="#Translation">
+						so look at me, 
+					</rdg>
+				</app>
+			</l>
+			<l n="63">
+				<app>
+					<lem wit="#Transcription">
+						getrewen knecht \ 
+					</lem>
+					<rdg wit="#Translation">
+						your faithful servant,
+					</rdg>
+				</app>
+			</l>
+			<l n="64">
+				<app>
+					<lem wit="#Transcription">
+						und uns bayde nit weitter schwecht. 
+					</lem>
+					<rdg wit="#Translation">
+						and don’t weaken us both anymore.
+					</rdg>
+				</app>
+			</l>
+			<l n="65">
+				<app>
+					<lem wit="#Transcription">
+						Nicht lass mich gen dir verhetzen \ letzen \ auch nit setzen \
+					</lem>
+					<rdg wit="#Translation">
+						Don’t let me defy you or stand in your way,
+					</rdg>
+				</app>
+			</l>
+			<l n="66">
+				<app>
+					<lem wit="#Transcription">
+						kan mich von dir kayns menschen list \ 
+					</lem>
+					<rdg wit="#Translation">
+						no human deception can take me away from you.
+					</rdg>
+				</app>
+			</l>
+			<l n="67">
+				<app>
+					<lem wit="#Transcription">
+						ach werden glück erbarmb dich mein \ 
+					</lem>
+					<rdg wit="#Translation">
+						Oh, dear fortune, have mercy on me;
+					</rdg>
+				</app>
+			</l>
+			<l n="68">
+				<app>
+					<lem wit="#Transcription">
+						vereyn solch schwere pein \ 
+					</lem>
+					<rdg wit="#Translation">
+						alleviate this grievous pain
+					</rdg>
+				</app>
+			</l>
+			<l n="69">
+				<app>
+					<lem wit="#Transcription">
+						durch deine gůt als frumb du bist \ 
+					</lem>
+					<rdg wit="#Translation">
+						with your goodness, for you are gracious. 
+					</rdg>
+				</app>
+			</l>
+			<l n="70">
+				<app>
+					<lem wit="#Transcription">
+						o mein hertz aller liebster gsell \ 
+					</lem>
+					<rdg wit="#Translation">
+						Oh, my heart’s dearest companion,
+					</rdg>
+				</app>
+			</l>
+			<l n="71">
+				<app>
+					<lem wit="#Transcription">
+						ich stell \ 
+					</lem>
+					<rdg wit="#Translation">
+						I place
+					</rdg>
+				</app>
+			</l>
+			<l n="72">
+				<app>
+					<lem wit="#Transcription">
+						mein trost und hayl in dich \ 
+					</lem>
+					<rdg wit="#Translation">
+						I place my comfort and salvation in your hands;
+					</rdg>
+				</app>
+			</l>
+			<l n="73">
+				<app>
+					<lem wit="#Transcription">
+						ich mayns treylich \ mein lieb an sich \ bit hertziklich \
+					</lem>
+					<rdg wit="#Translation">
+						 I mean it in good faith;  I ask you from the bottom of my heart, see my devotion:
+					</rdg>
+				</app>
+			</l>
+			<l n="74">
+				<app>
+					<lem wit="#Transcription">
+						deyn aygen bin glaub sicherlich.
+					</lem>
+					<rdg wit="#Translation">
+						I am yours for sure, believe me.
+					</rdg>
+				</app>
+			</l>
+			<l n="75">
+				<app>
+					<lem wit="#Transcription">
+						Ach gsell nit glaub ir trew sich an \ 
+					</lem>
+					<rdg wit="#Translation">
+						Oh, my lad, don’t believe [the slanderer], see her faithfulness,
+					</rdg>
+				</app>
+			</l>
+			<l n="76">
+				<app loc="l76">
+					<lem wit="#Transcription">
+						ob schon \ sein gwonlich lon \ 
+					</lem>
+				</app>
+			<l n="76">
+				<app loc="l77">
+					<rdg wit="#Translation">in case sorrowful love should give its usual reward,</rdg>
+				</app>
+			</l>
+			<l n="77">
+				<app loc="l77">
+					<lem wit="#Transcription">
+						traurige lieb erzaygen thůt \ 
+					</lem>
+				</app>
+			</l>
+			<l n="77">
+				<app loc="l76">
+					<rdg wit="#Translation">see her faithfulness,</rdg>
+				</app>
+			</l>
+			<l n="78">
+				<app>
+					<lem wit="#Transcription">
+						drumb laß nit ab deyn gmůt hyn lenck \ 
+					</lem>
+					<rdg wit="#Translation">
+						don’t give up, set your mind to it,
+					</rdg>
+				</app>
+			</l>
+			<l n="79">
+				<app>
+					<lem wit="#Transcription">
+						bedenck \ 
+					</lem>
+					<rdg wit="#Translation">
+						think about it,
+					</rdg>
+				</app>
+			</l>
+			<l n="80">
+				<app>
+					<lem wit="#Transcription">
+						on not nicht krenck \ dich selber han ayn gůten můt \
+					</lem>
+					<rdg wit="#Translation">
+						don’t hurt yourself unnecessarily: Be in good cheer.
+					</rdg>
+				</app>
+			</l>
+			<l n="81">
+				<app>
+					<lem wit="#Transcription">
+						der gleychen dw zart schöne fraw \ 
+					</lem>
+					<rdg wit="#Translation">
+						Likewise, you, gentle, beautiful lady,
+					</rdg>
+				</app>
+			</l>
+			<l n="82">
+				<app>
+					<lem wit="#Transcription">
+						an schaw \ sein klag und schmertzlich peyn \
+					</lem>
+					<rdg wit="#Translation">
+						see his sorrow and grievous pain.
+					</rdg>
+				</app>
+			</l>
+			<l n="83">
+				<app>
+					<lem wit="#Transcription">
+						den hertz verzeyn \ 
+					</lem>
+					<rdg wit="#Translation">
+						Lock your heart
+					</rdg>
+				</app>
+			</l>
+			<l n="84">
+				<app>
+					<lem wit="#Transcription">
+						kein frömbden scheyn \ nit lass darein \
+					</lem>
+					<rdg wit="#Translation">
+						and don't let any strange pretence enter it.
+					</rdg>
+				</app>
+			</l>
+			<l n="85">
+				<app>
+					<lem wit="#Transcription">
+						trew ist seltzam drumb hallt dich sein \ 
+					</lem>
+					<rdg wit="#Translation">
+						Loyalty is rare: therefore, stay with him.
+					</rdg>
+				</app>
+			</l>
+		</body>
+	</text>
+</TEI>
+
+<!--
+
+	Oeglin 39
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->

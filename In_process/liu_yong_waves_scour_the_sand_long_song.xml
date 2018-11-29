@@ -1,0 +1,259 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>浪淘沙慢</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mareike Reisch</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">浪淘沙慢</witness>
+					<witness xml:id="Translation">To the Tune “Waves Scour the Sand, Long Song”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"浪淘沙慢" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">浪淘沙慢</lem>
+						<rdg wit="#Translation">To the Tune “Waves Scour the Sand, Long Song”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">夢覺</lem>
+						<rdg wit="#Translation">I awaken from dream,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">透窗風一線</lem>
+						<rdg wit="#Translation">a thread of wind pierces through the window.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">寒燈吹息</lem>
+						<rdg wit="#Translation">I blow out the cold lamp.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">那堪酒醒</lem>
+						<rdg wit="#Translation">How can I bear to be sober?</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">又聞空階夜雨頻滴</lem>
+						<rdg wit="#Translation">Listening to the night rain dripping on the empty steps,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">嗟因循</lem>
+						<rdg wit="#Translation">sighing that my listlessness,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">久作天涯客</lem>
+						<rdg wit="#Translation">long makes me a traveler at heaven’s edge.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">負佳人</lem>
+						<rdg wit="#Translation">I have let the fair one down,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">幾許盟言</lem>
+						<rdg wit="#Translation">so many promises.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">便忍把</lem>
+						<rdg wit="#Translation">How could I have turned</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">從前歡會</lem>
+						<rdg wit="#Translation">the happy times in the past,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">陡頓翻成憂戚</lem>
+						<rdg wit="#Translation">suddenly into worry and regret?</rdg>
+					</app>
+				</l>
+				<milestone unit="stanza"/>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">愁極</lem>
+						<rdg wit="#Translation">In the gravest sorrow,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">再三追思</lem>
+						<rdg wit="#Translation">I recall again and again,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">洞房深處</lem>
+						<rdg wit="#Translation">in the depth of the chamber,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">幾度飲散歌闌</lem>
+						<rdg wit="#Translation">how many times drinks were over and songs ended.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">香暖鴛鴦被</lem>
+						<rdg wit="#Translation">The sweet warm mandarin duck quilt.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">豈暫時疏散</lem>
+						<rdg wit="#Translation">Even a temporary separation,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">費伊心力</lem>
+						<rdg wit="#Translation">would cost her heart’s strength.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">殢雲尤雨</lem>
+						<rdg wit="#Translation">In cloud-and-rain,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">有萬般千種</lem>
+						<rdg wit="#Translation">there is a thousand and a myriad kinds,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">相憐相惜</lem>
+						<rdg wit="#Translation">of love and tenderness.</rdg>
+					</app>
+				</l>
+				<milestone unit="stanza"/>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">恰到如今</lem>
+						<rdg wit="#Translation">Yet now,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">天長漏永</lem>
+						<rdg wit="#Translation">the days are long and the clock drips on and on.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">無端自家疏隔</lem>
+						<rdg wit="#Translation">For no reason, I am separated from her.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">知何時</lem>
+						<rdg wit="#Translation">Who knows when</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">卻擁秦雲態</lem>
+						<rdg wit="#Translation">I could hold the Qin cloud again?</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">願低幃昵枕</lem>
+						<rdg wit="#Translation">I wish to lower the curtains and sink to the pillows,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">輕輕細說與</lem>
+						<rdg wit="#Translation">whisper to her softly and slowly,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">江鄉夜夜</lem>
+						<rdg wit="#Translation">in the nights at this river town,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">數寒更思憶</lem>
+						<rdg wit="#Translation">how I yearned for her as I experienced the coldness.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,943 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sermon on the Coming of the Lord</title>
+				<author>Meister Eckhart</author>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Patric di Dio di Marco, Björn Buschbeck, Robert Forke, Mae Lyons-Penner and Kathryn Starkey</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan and Mae Lyons-Penner</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+                <publisher>Global Medieval Sourcebook</publisher>
+                <availability>
+                    <p></p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+                <listWit>
+                    <witness xml:id="Transcription">sermo de adventu domini</witness>
+                    <witness xml:id="Translation">Sermon on the coming of the Lord</witness>
+                </listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+            <head>
+                <title>
+                    <app>
+                        <lem wit="#Transcription">Item sermo de adventu domini</lem>
+                        <rdg wit="#Translation">Next: sermon on the coming of the Lord</rdg>
+                    </app>
+                </title>
+            </head>
+		</front>
+		<body>
+			<div n="1">
+				<p n="1">
+					<s>
+                        <app>
+                            <lem wit="#Transcription">In illo tempore missus est angelus Gabriei a deo.</lem>
+                            <rdg wit="#Translation">"In that time the angel Gabriel was sent by God.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ave gratia plena, dominus tecum.</lem>
+                            <rdg wit="#Translation">Hail, full of grace, the Lord be with you.”
+                                <note type="critical" anchored="true">
+                                    <p>Luke 1, 26 and 28. Latin quote that Eckhart uses to introduce his sermon and then translates in the following sentence in his exegesis.</p>
+                                </note>
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">dise wort beschribit sente Lucas: 'in der zit wart gesant ein engil Gabriel von Gode'.</lem>
+                            <rdg wit="#Translation">St. Luke wrote these words: In that time an angel named Gabriel was sent by God.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in wilchir zit?</lem>
+                            <rdg wit="#Translation">In what time?</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in den seis manden du Johannes Baptista was in siner müder libe.
+                            </lem>
+                            <rdg wit="#Translation">During the six months that John the Baptist was in his mother’s womb.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">der mich fragite: warumme beiden wir, warumme vasten wir, warumme tun wir alle unse were, warumme sin wir getouft, warumme ist Got mensche worden, daz diz hoiste was?</lem>
+                            <rdg wit="#Translation"> To whom who asks me why do we pray, why do we fast, why do we do all our works, why are we baptized, why did God become man, that this was the highest [act]?</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ich spreche, darumme daz Got geborin werde in der sele und di sele in Got geborin werde.</lem>
+                            <rdg wit="#Translation">I say, so that God [may] be born in the soul and the soul [may] be born in God.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">dar umme ist alle di schrift ge schriben, darumme hait Got di werlint geschaffin und alie englische nature daz Got geborin werde in der sele und di sele in Got geborin werde.</lem>
+                            <rdg wit="#Translation">To that end the whole scripture was written, to that end God created the world and all angelic natures: that God be born in the soul and the soul in God.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">allis kornes nature meinet weize und al metal meinet golt und alle geberunge meinet menschen darumme sprach ein Neister: 'so inyindit man kein dier, iz inhabe etwaz glichis dem menschin'.</lem>
+                            <rdg wit="#Translation">The nature of every grain tends
+                                <note type="critical" anchored="true">
+                                    <p>Middle High German "meinet" in this context implies the notion of directional intention.</p>
+                                </note>
+                            to [become] wheat and all metal tends to [become] gold and all birth tends to [become] human. For this reason, a scholar
+                                <note type="critical" anchored="true">
+                                    <p>Translates Middle High German "Meister", which can refer more broadly to a scholarly authority rather than being exclusively reserved for those, like Eckhart, who held a certain professorial position at the University in Paris.</p>
+                                </note>
+                            said: “Thus one finds no animal that doesn’t have some similarity to humankind.”
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in der zit in deme da diz wort zu dem erstin inphangin wirt in minir fornuft, da ist ez so lutir und so cleinlich, da ist ez ein wair wort er ez gebildit wirdit in mime gedanke.</lem>
+                            <rdg wit="#Translation">At the time at which the word is first received in my reason,
+                                <note type="critical" anchored="true">
+                                    <p>Alternatively, the intellect. Eckhart refers here to the faculty of the soul.</p>
+                                </note>
+                                it is so pure and so subtle, then it is a true word before it is formed in my thought.
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Zu dem drittin wirdit ez gesprochin uzwendic mit deme munde, und also in ist ez nicht dan ein offinbarunge des innerin wortis.</lem>
+                            <rdg wit="#Translation">Thirdly, it is spoken externally with the mouth and as such it is nothing more than a revelation of the inner word.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">also wirdit daz ewige wort gesprochin innewendic in deme herzin der sele, in derne innirsten, in deme lutirsten. </lem>
+                            <rdg wit="#Translation">In the same way, the eternal word is spoken inwardly in the heart of the soul, in the innermost part and in the purest.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in dene heubite der sele, daz ist in vormuftikeit: da geschihit di gebort inne.</lem>
+                            <rdg wit="#Translation">In the head of the soul, that is, in reason: there the birth takes place.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">der nicht dan einen ganzin won und eine hoffenunge hizu hette, der mochte gerne wizzin wi dise gebort geschihit und waz hi zu hilfit.</lem>
+                            <rdg wit="#Translation">He who has had nothing but the whole pleasure and hope might like to know how this birth happens and what assists it.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="2">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Sente Paulus sprichit: "in der udlide der zit samte Got sinen son".</lem>
+                            <rdg wit="#Translation">St. Paul says: “in the fullness of time God sent [forth] his son.”</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">sente Augustinus sprichit waz da si fullide der zit.</lem>
+                            <rdg wit="#Translation">St. Augustine explains what the fullness of time might be.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">“da numme zit inist, da ist fullide der zit' dan ist der tac fol alse des tages numme in ist, daz ist ein notwarheit.</lem>
+                            <rdg wit="#Translation">“Where there is no more time, there is the fullness of time.” Then the day is done when there is no more day. This is necessarily true.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">alle zit muiz da abe sin da sich dise gebort hebit, wan nicht in ist daz dise geburt also sere hindere alse zit und creature.</lem>
+                            <rdg wit="#Translation">All time must be flown when this birth begins, because there is nothing that prevents this birth more than time and creation.
+                                <note type="critical" anchored="true">
+                                    <p>The term creature here refers not to the act of creation, but to its result; all that is created must be abandoned to allow for the birth to take place.</p>
+                                </note>
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz ist ein gewis warheit daz zit Got noch di sele fon nature nicht beruren inmac.</lem>
+                            <rdg wit="#Translation">That is a certain truth that, by nature, time cannot touch either God or the soul.
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">mochte di sele fon zit herurt werdin, si inwere nicht sele, und mochte Got von zit berurt werdin, he in were nicht Got.</lem>
+                            <rdg wit="#Translation">If the soul could be touched by time it would not be the soul. Could God be touched by time, he would not be God.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">were abir daz di zit di sele beraren mochte, so inmochte Got nummir in ir geborin werdin.</lem>
+                            <rdg wit="#Translation">Yet were it so that time could touch the soul, God could no more be born in it.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da Got geboren sal werdin in der sele, da muiz alle zit abgewallin sin oder si muiz der zit intphallin sin mit willin oder mit begerunge.</lem>
+                            <rdg wit="#Translation">Since God shall be born in the soul, all time must have fallen away or the soul must have fallen out of time by will or by desire.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="3">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Ein andir sin fon fullide der zit, der di kunst hette und di macht daz he di zit und allis daz in der zit in seis tusint jarin ie geschach und daz noch geschehin sal biz an daz ende, her widir gezihen kunde in ein geginwertic nu, daz were fullide der zit.</lem>
+                            <rdg wit="#Translation">A second meaning of the fullness of time. Were there someone who had the skill and the power that he could retract into the here-and-now once again time and everything that ever happened in time in six thousand years and that is yet to happen before the end of time, that [state] would be the fullness of time.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz ist daz nu der ewekeit, da di sele in Gode alle dinc nuwe und frisch und geginwertic bekennit und in der lust alse di ich izunt geginwertic habe.</lem>
+                            <rdg wit="#Translation">That is the now of eternity, in which the soul recognizes all things new and fresh and present in God and in the pleasure that I am having in the here and now.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ich lais in einem buchilin der ez gronde konde, daz Got die werlint izunt machit alse an deme ersten tage du her di werlint geschuf.</lem>
+                            <rdg wit="#Translation">I read in a little book, --who could fathom that-- that God makes the world in this moment as on the first day when he created the world.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">hi ist Got riche und daz ist Godis riche.</lem>
+                            <rdg wit="#Translation">Here God is bountiful and that is God’s kingdom.
+                                <note type="critical" anchored="true"><p>The Middle High German wordplay on riche, which Eckhart uses here first as a predicative attribute for God ("powerfulness") and then as a genitive noun, cannot be repeated stylistically in English.</p>
+                                </note>
+                            </rdg>
+                        </app>
+                    </s>
+                     <s>
+                        <app>
+                            <lem wit="#Transcription">di sele in der Got sal geborin werden, der muiz di zit intphallin, und si muiz der zit intphallin und sal sich uf tragin und sal stein in eime inkaffine in disin richtum Godis.</lem>
+                            <rdg wit="#Translation">Time must fall away from the soul in which God shall be born, and it [the soul] must fall away from time, and it shall raise itself up and stand gazing into God’s bounty.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da ist wide one wide und breide one breide. </lem>
+                            <rdg wit="#Translation">Here there is wideness without width and broadness without breadth.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da bekennit di sele alle dinc und bekennit si da follincumen.</lem>
+                            <rdg wit="#Translation">Here the soul recognizes all things and recognizes them entirely.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="4">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Di meistere di da beschriben wi wit der himmil si: di minniste craft di in miner sele ist, di ist widir dan der wide himmil; ich geswige der fornufti keit: di ist wit one wide. </lem>
+                            <rdg wit="#Translation">To the scholars who describe how vast the heavens are: the lowest faculty
+                                <note type="critical" anchored="true"><p>Middle High German craft refers here to the faculties of the soul.</p>
+                                </note>that is in my soul, it is wider than the wide heavens; I do not speak of reason [the intellect]: that is wide without width.
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in deme heubite der sele, in fornuftikeit, in der bin ich also nahe der stait ubir tusint mile geinsit meris alse der stait da ich izunt inne stein.</lem>
+                            <rdg wit="#Translation">In the head of the soul, in reason, there I am as close to a place over a thousand miles across the sea as I am to the place where I am standing now.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in dirre wide und in disme richtumme Godis da bekennit di sele, alda inphellit ir nicht und da ist si nichtis wartinde.</lem>
+                            <rdg wit="#Translation">In this wideness and in this abundance of God, there the soul understands, there nothing falls away from it, and there it is waiting for nothing.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="5">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">“Der engl wart gesant.”</lem>
+                            <rdg wit="#Translation">“The angel was sent.”</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">di meistere sprechin daz der engile menige ist zal pobin zal.</lem>
+                            <rdg wit="#Translation">The scholars say that the multitude of angels is a number above numbers.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ir menige ist so groz daz si kein zal begrifen inmac.</lem>
+                            <rdg wit="#Translation">Their multitude is so great that no number can encompass it.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ir zal inmac joch nicht bedocht werdin.</lem>
+                            <rdg wit="#Translation">Their number cannot even be imagined.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">der undirscheit konde genemen one zal und one menige, deme werin hunderit alse ein.</lem>
+                            <rdg wit="#Translation">He who could conceive of difference without number, for him one hundred would be the same as one.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">werin hunderit personen in der gotheit, di undirscheit konde genemen one zal und one menige, der in bekente doch nicht dan ein.</lem>
+                            <rdg wit="#Translation">If there were one hundred people in the Godhead, he who could comprehend difference without number would not recognize more than one.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ez wonderin sich ungeleubege lude und etlichte ungelarte cristine lude und joch etliche phaffin wizzin da fon alse wenic alse ein stein: di nemen dri alse dri kuwe oder dri steine.</lem>
+                            <rdg wit="#Translation">Many unbelievers and many unlearned Christians [alike] wonder about this and even a lot of clerics know as little about this as a stone: they think of three as three cows or three stones.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">abir der undirscheit kan genemen in Gode one zal und one menige, der bekenit daz dri personen sin ein Got.</lem>
+                            <rdg wit="#Translation">But he who can comprehend difference in God without number and without quantity, he recognizes that three persons are one God.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="6">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Der engil ist ouch so hoch.</lem>
+                            <rdg wit="#Translation">The angel is also lofty in this manner.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">di beisten meistere sprechin daz iclich engil habe eine ganze nature.</lem>
+                            <rdg wit="#Translation">The best scholars say that each angel has a nature of its own.
+                                <note type="critical" anchored="true"><p>The Middle High German text writes "eine ganze nature", which literally translates as “a whole nature.” What is outlined here, however, is the thought that the angels each have their own singular nature. This theological thought explains why not all angels have been condemned as a punishment for Lucifer’s rebellion against God, while Adam and Eve’s sin resulted in humanity’s collective fall from grace; in contrast to the angels, human individuals do not have a nature of their own.</p>
+                                </note>
+                            </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">glichir wis alse ob ein meusche were daz alliz daz hette daz alle menschin ie gehattin und nu habin und ummir me gehabin sullin sn gewalt, wisheit und an allin dingin, daz were ein wonder, und so inwere he doch nicht dan ein mensche und were dan noch verre den engilin.</lem>
+                            <rdg wit="#Translation">Just as if there were a human who had everything that mankind ever had, now has, and shall always have in power, wisdom and all things, that would be a wonder and even then he would only be human and would still be far from the angels.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Also hait igelich engil eine ganze nature und ist gesunderit von deme anderin alse ein dier fon dem anderen, daz einir anderen nature ist.</lem>
+                            <rdg wit="#Translation">Thus every angel has a complete nature and is distinguished from the other like one animal from another that belongs to a different species.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">an dirre menige der engile ist Got riche, und der daz bekennit, der beken mit Godis riche.</lem>
+                            <rdg wit="#Translation">In this multitude of angels God is rich, and he who comprehends that comprehends God’s abundance.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">si bewisit Got riche, alse ein herre bewisit wirdit fon der menige sinir rittere.</lem>
+                            <rdg wit="#Translation">It demonstrates that God is abundant, just as a lord is represented by the number of his knights.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">darumme heizzit he in uns ein herre der here.</lem>
+                            <rdg wit="#Translation">Therefore he is named amongst us a lord of hosts.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">alle dise menige der engile, wi hoch si sint, di habin ein midewirken und helfin da zu da Got geborin wirdit in der sele.</lem>
+                            <rdg wit="#Translation">This whole multitude of angels, however lofty they are, contribute and help so that God may be born in the soul.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz ist si habin lust und freute und wonne in der geburt, si in wirkin nicht.</lem>
+                            <rdg wit="#Translation">That is, they have pleasure and joy and bliss in the birth, but they don’t effect it.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da in ist kein werc, wan Got der wirkit di geburt alleine, mer di engile habin ein dinisthaft werc hizu.</lem>
+                            <rdg wit="#Translation">There is no agency
+                                <note type="critical" anchored="true"><p>The negated term "werc", literally "work, deed, achievement", means here that the angels do not have the power to effect the birth for God is the sole agent.</p>
+                                </note>in it. God alone effects the birth, in sum the angels participate as servants.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">alliz daz dazu wirkit, daz ist eim dînisthaft werc.</lem>
+                            <rdg wit="#Translation">Everything that participates, that is an act of service.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="7">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Der engil was genant Gabriel.</lem>
+                            <rdg wit="#Translation">The angel was called Gabriel.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">he teit ouch swar, he hiz alse wenic Gabriel alse Cünrat.</lem>
+                            <rdg wit="#Translation">Whatever he claimed, his name was Gabriel as little as he was Conrad.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">niman inkan wizzin des engilis namen.</lem>
+                            <rdg wit="#Translation">Nobody can know the name of the angel.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da der engil genant ist, da inquam ni meister noch sin i zu.</lem>
+                            <rdg wit="#Translation">The angel’s name has never been attained by scholar nor understanding.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">vil lichte ist he nennelich.</lem>
+                            <rdg wit="#Translation">Perhaps he is nameless.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">di sele inhait ouch keinen namen; alse wenic aise man Gode eigenen namen vindin mac, also wenic mac man der sele eiginen namen vindin, alleine da groze buche fon geschriben sin.</lem>
+                            <rdg wit="#Translation">The soul too has no name; just as one cannot discover God’s own name, so one cannot discover the soul’s own name, even if large books have been written on this topic.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">abir da si ein uz lugin hait zu den werkin, da fone gibit man ir namen.</lem>
+                            <rdg wit="#Translation">But because it is oriented towards works, one names it according to this.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ein zimmirman daz en ist sin name nicht, mer den namen nimet her fon dem werke des he ein meistir ist.</lem>
+                            <rdg wit="#Translation">A carpenter - that is not his name, the name rather derives from the work of which he is a master.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">den namen Gabriel den nam he von dem werke des he ein bode was, wan Gabriel sprichit craft.</lem>
+                            <rdg wit="#Translation">Gabriel took his name from the work for which he was a messenger, as Gabriel signifies power.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in dirre geburt wirkit Got creftliche oder wirkit craft.</lem>
+                            <rdg wit="#Translation">In this birth God acts powerfully or effects power.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">waz meinit alle di craft der nature?</lem>
+                            <rdg wit="#Translation">What does all the power of nature intend?</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz si sich selbir wirkin wil.</lem>
+                            <rdg wit="#Translation">It strives to become itself.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">waz meinit alle di nature di da wirkit geberin?</lem>
+                            <rdg wit="#Translation">What does all the nature that effects birth intend?</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz si sich selbir wikim wil.</lem>
+                            <rdg wit="#Translation">It strives to become itself.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">di nature minez vader wolde wirkim in sinir nature einen vadir.</lem>
+                            <rdg wit="#Translation">The nature of my father wanted to produce a father according to his own nature.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">du des nicht geschin mochte, du wolde si ein wirkin daz ime allig dingis glich were, du der craft gebrach, du worchte si ein.</lem>
+                            <rdg wit="#Translation">Because that wasn’t possible, it wanted to bring about the thing that of all things was most similar to him. Because the power was lacking, it effected something</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">So si glichiste mochte, daz waz ein son.</lem>
+                            <rdg wit="#Translation">as similar as possible, that was a son.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da abir der craft noch me gebrichit oder ein andir ungevelle geschit, da wirkit si noch eime unglicheren menschen.</lem>
+                            <rdg wit="#Translation">But when the power is lacking even more, or another mishap intervenes, then it effects a more dissimilar person.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">abir in Gode ist volle craft, darumme wirkit her sin glich in siner geburt.</lem>
+                            <rdg wit="#Translation">But in God there is complete power, for that reason he creates his identical self
+                                <note type="critical" anchored="true"><p>Literally someone who equals him. i.e. his son. In Christianity, God father and son are identical.</p></note>
+                            in his own birth.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">allis daz Got ist an gewalt und an worheit und an wisheit, daz gebirit he alzumale in di sele.</lem>
+                            <rdg wit="#Translation">Everything that God is in force and in truth and in wisdom, he brings forth completely into the soul.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="8">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Sente Augustinus sprichit: 'waz die sele minnit, deme wirdit si glich.    </lem>
+                            <rdg wit="#Translation">St. Augustine says: “The soul becomes identical to that which it loves.
+                                <note type="critical" anchored="true"><p>Eckhart uses her the verb "minnen", a derivation of the noun "minne", i.e. the notion of love that is prevalent in courtly poetry.</p></note>
+                               
+</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">minnet si irdische dinc, so wirdit si irdisch.</lem>
+                            <rdg wit="#Translation">If it loves an earthly thing, it becomes earthly.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">minnit si Got, so mochte man fragin, wirdit si dam Got?'</lem>
+                            <rdg wit="#Translation">If it loves God, one may ask does it then become God?”</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">spreche ich daz, daz ludite ungelouplich den di zu krankin sin habin und ez nicht fornemen.</lem>
+                            <rdg wit="#Translation">If I should say that, it would sound unbelievable for those who are lacking sense and do not listen.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">mer sente Augustinus sprichit: 'ich inspreche ez nicht, Iner ich wise uch an di schrift, di da sprichit: “ich habe gesprochin daz ir Gode sit”'.</lem>
+                            <rdg wit="#Translation">Saint Augustine also says: “I do not say it, I rather point you to the scripture that says, 'I have said that you are Gods'”.
+                                <note type="critical" anchored="true"><p>Psalm 82,6.</p></note>
+                            </rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="9">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Der etwaz hette des richtummes da ich fore fon gesprochin habe, einen blic oder joch eine huffenunge oder eine zuforsicht, der forneme dit wol!</lem>
+                            <rdg wit="#Translation">Whoever might have some part of the abundance of which I have just spoken, a glimpse or even a hope or assurance, shall listen carefully to this!</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ez inwart nie gebort so sippe noch so glich noch so ein alse di Sele Gode wirdit in dirre geburt.</lem>
+                            <rdg wit="#Translation">Never was a birth so akin or so identical or so unified as the soul was to God in this birth.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ist ez daz ez an ichte gehinderit wirdit daz si nicht allis dingis glich in wirdit, daz in ist Godis schult nicht.</lem>
+                            <rdg wit="#Translation">If it is somehow prevented from becoming identical in all aspects, then this is not the fault of God.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">alse verre alse ir gebrechin intphallin, alse verre wirkit he si yme glich.</lem>
+                            <rdg wit="#Translation">To the extent that it lacks flaws he creates it identical to himself.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz der zimmerman nicht ein schone hus gewirkin inkan uze worwechtime huize, daz in ist sin schult nicht, ez gebrichit an deme hulze.</lem>
+                            <rdg wit="#Translation">That the carpenter can’t build an excellent house from worm-eaten wood, that is not his fault, it fails because of its wood.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">also ist ez an gotiichime wirkine in di sele.</lem>
+                            <rdg wit="#Translation">Thus it is with Godly acts upon the soul.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">mochte sich der minniste engil irbildin oder geborin werdin in der sele, da ingegin in were alle dise werlint nicht, wan in eime enigin funkeline dez engilis grunit, loubit und luchtit alliz daz in der werlinde ist.</lem>
+                            <rdg wit="#Translation">If the lowest angel wanted to be depicted or born in the soul, this whole world would be nothing in comparison, because everything that is in the world flourishes, blossoms, and shines in one single glimmer of the angel.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">mer dise gebort wirkit Got selbir.</lem>
+                            <rdg wit="#Translation">What is more, this birth is effected by God himself.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">der engil inmac da kein werc gewirkin wan ein dinistaft werc.</lem>
+                            <rdg wit="#Translation">The angel can perform no act but an act of service.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Ave daz ist 'one we'.</lem>
+                            <rdg wit="#Translation">‘Ave’ means ‘without suffering’.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">wer da ist one creature, der ist one we und one helle, und di allir minnes creature ist und hait, di hait allir minnist we.</lem>
+                            <rdg wit="#Translation">Whoever is without creation is free of suffering and from hell, and he who is and has the least creation, suffers least.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ich spreche ettiswanne ein wort: di der werlint allir minnist hait, der hait ir allir meist, nimannis ist di werlint also eigin also der alle di werlint gelazin hait.</lem>
+                            <rdg wit="#Translation">I said once these words: whoever has least of the world has most of it. No one possesses the world as much as he who has detached
+                                <note type="critical" anchored="true"><p>The Middle High German reads "gelazin", a derivation of "gelazzenheit" which is best translated as detachment; a central concept in Meister Eckhart.</p></note> 
+                            from it.</rdg>
+                        </app>
+                    </s>
+                    v
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">wizzit ir wo fone Got got ist?</lem>
+                            <rdg wit="#Translation">Do you know why God is God?</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da fon ist Got got daz he one creature ist.</lem>
+                            <rdg wit="#Translation">God is God because he is without creation.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">he innante sich nicht in der zit.</lem>
+                            <rdg wit="#Translation">He never named himself in time.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">in der zit ist creature und sunde und tot.</lem>
+                            <rdg wit="#Translation">In time is creation and sin and death.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">dise habin ein sippe sin in eime sinne, und wan di sele da der zit intphallin ist, darumme inist da noch we noch pine, joch ungemach wirdit ir da ein freude.</lem>
+                            <rdg wit="#Translation">In one sense these are related,
+                                <note type="critical" anchored="true"><p>"ein sippe sin" includes the noun for family, thus underlining that the relation between the mentioned terms is stronger than simply having something in common or sharing certain features.</p></note>and because the soul has then fallen away from time, for this reason there is then no suffering or pain, even misery there becomes joy for it [the soul].</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">allis daz ie bedacht mochte werdin fon lust, fon freude und fon wonne und fon minlichkeit, hebit man sii gegin der wonne di da ist im dirre geburt, daz inist nicht freude.</lem>
+                            <rdg wit="#Translation">If one weighed all that could ever be imagined of pleasure, joy, delight, and loveliness, it would be as nothing against the delight that is in this birth.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="10">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">'Gnaden vol', daz minuiste werc der gnadin ist hohir dan alle engile in der nature.</lem>
+                            <rdg wit="#Translation">‘Full of grace’. The lowest act of grace is higher than all the angels in their nature.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">sente Augustinus sprichit daz ein gnadinwerc daz Got wirkit, alse daz her einen sundere bekerit und zu eime gudin menschin machit, daz ist grozir dan daz Got eine nuwe werlint geschuffe.</lem>
+                            <rdg wit="#Translation">St. Augustine says that an act of grace that God carries out, such as converting a sinner and making him a good person, that is greater than if God created a new world.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">also licht ist Gode himmil und erde umme zu kerine alse mir ist ein aphil umane zu kerne in minir hant.</lem>
+                            <rdg wit="#Translation">Heaven and earth is so easy for God to turn as it is for me to turn an apple in my hand.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da gnade inne ist in der sele, daz ist so lutir und ist Gode so glich und so sippe, und gnade ist one werc, alse in der geburt, da ich fore von gesprochin habe, kein werc inist.</lem>
+                            <rdg wit="#Translation">Where grace is in the soul, it is so pure and so similar and akin to God and grace is unworked just as there is no work in the birth of which I have previously spoken.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">gnade inwirkit kein werc.</lem>
+                            <rdg wit="#Translation">Grace performs no work.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">sente Johannes ingeteit nikein zeichin.</lem>
+                            <rdg wit="#Translation">St. John never performed a sign.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz werc das der engil in Gode hait, daz ist so hoch daz mi kein meistir noch sin darzn mochte cumen daz si daz werc begrifin mochten.</lem>
+                            <rdg wit="#Translation">The work that the angel has in God is so lofty that no scholar or intellect
+                                <note type="critical" anchored="true"><p>Translates "sin", referring here to the human faculty of thought.</p></note>
+                            could achieve an understanding of the work.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">abir von dem werke vellit ein spon, alse da ein spon abe vellit von eime huis, den man abehauwit.</lem>
+                            <rdg wit="#Translation">But a splinter falls from the work, just as a splinter falls from a beam that a man cuts down.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">eyn blichin daz ist da da der engil mit sime nidersten den himmil berurit.</lem>
+                            <rdg wit="#Translation">There is a flash where the angel touches heaven with its lowest part.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da son grunit und bluwit und lebit alliz daz in dirre werlinde ist.</lem>
+                            <rdg wit="#Translation">From this everything that is in this world flowers and blossoms and lives.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="11">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">Ich spreche ettiswanne von zwein burnen.</lem>
+                            <rdg wit="#Translation">I spoke once of two fountains.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">alleine ez wonderliche lude, wir müzin sprechin noch unsime sinne.</lem>
+                            <rdg wit="#Translation">Even though it sounds strange, we have to speak according to our understanding.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">eyn burne da di gnade uz inspringit, ist da der vader uz gebirit sinen eyn geborin son; in deme selbin inspringit di gnade, und alda geit di gnade uz deme selbin burnen.</lem>
+                            <rdg wit="#Translation">There is one fountain from which grace springs, this is where the father gives birth to his son incarnate; grace springs from the same one, and precisely there grace flows from the same fountain.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">eyn andir burne ist da di creature uz Gode vlizin: der ist so verre von deme burnen da di gnade uz intspringit, alse der himmil ist von der erdin.</lem>
+                            <rdg wit="#Translation">There is another fountain where the creation flows out of God: this one is as far from the fountain where grace springs from as heaven is from the earth.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">gnade inwirkit nicht.</lem>
+                            <rdg wit="#Translation">Grace does not perform work.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da diz fuir ist in sinir nature, da inschaditis noch inburnit nicht.</lem>
+                            <rdg wit="#Translation">Where there is fire in its nature, it does not damage or burn.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">di hitze des fures di burnit.</lem>
+                            <rdg wit="#Translation">The heat of the fire burns.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">joch da di hitze ist in der nature des furis, da inburnit si nicht und ist unschedelich, joch da di hitze ist in deme fure, da ist si der rechtin nature des furis also verre alse der himmil ist von der erdin.</lem>
+                            <rdg wit="#Translation">Even there where the heat is in the nature of the fire it doesn’t burn and is harmless, even where the heat is in the fire, there it is as far from the real nature of the fire as the heaven is from the earth.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">gnade inwirkit kein werc.</lem>
+                            <rdg wit="#Translation">Grace performs no work.   </rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">si ist zu zart da zu.</lem>
+                            <rdg wit="#Translation">For it is too subtle for that.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">were ist ir also verre alse der himmil ist von der erdin.</lem>
+                            <rdg wit="#Translation">Work is thus as far from it as heaven is from the earth.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">eyn in sin und eyn ane haftin und ein mit Gode daz ist gnade, und da ist Got mide, wan daz volgit dar noch.</lem>
+                            <rdg wit="#Translation">Being in and attached to and one with God: that is grace, and God is there, because that is the consequence.</rdg>
+                        </app>
+                    </s>
+                </p>
+                <p n="12">
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">'Got muit dir'.</lem>
+                            <rdg wit="#Translation">‘God is with you’.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">da geschihit di geburt.</lem>
+                            <rdg wit="#Translation">There the birth takes place.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">ez emdarf nimannen unmogelich dunkin hizu zu cumene.</lem>
+                            <rdg wit="#Translation">No one must think it impossible to come here.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">waz schadit mir daz, wi swere ez ist, sint he ez wirkit?</lem>
+                            <rdg wit="#Translation">What harm does it do to me, however difficult it is, since he effects it?</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">alle sine gebot sint mir licht zu haldine.</lem>
+                            <rdg wit="#Translation">All his commandments are easy for me to adhere to.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">he heize mich joch alliz daz he wolle, des inachte ich nichtis nicht, daz ist mir alliz cleine, ob he mir sine gnade da zu gibit.</lem>
+                            <rdg wit="#Translation">Let him command anything he wants of me, I do not consider it anything at all, it is all easily bearable if he grants me his grace.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">z sprechin etliche si inhaben is nicht, so spreche ich: daz ist mir leit.</lem>
+                            <rdg wit="#Translation">Many say that they do not have it [grace], then I say: that pains me.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">e begeris du ez abir? 'nein'.</lem>
+                            <rdg wit="#Translation">But do you want it? ‘No’.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz ist mir noch leidir.</lem>
+                            <rdg wit="#Translation">That pains me even more.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">enmac man ez micht gehabin, so habe man doch eine begerunge darzu.</lem>
+                            <rdg wit="#Translation">If one cannot have it, one should still desire it.</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">David sprichit: 'ich habe begerit einir begerunge zu dinir gerechtikeit.'</lem>
+                            <rdg wit="#Translation">David says: “I have desired a desire for your justice.”</rdg>
+                        </app>
+                    </s>
+                    <s>
+                        <app>
+                            <lem wit="#Transcription">daz wir Godis also begeren daz her in uns geborin werdin wolle, des helf uns etc.</lem>
+                            <rdg wit="#Translation">Help us to so desire God that he will be born within us, etc.</rdg>
+                        </app>
+                    </s>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+<!--
+
+    Eckhart
+
+        TEI Encoding Specifications:
+
+            <lem> = transcription
+
+            <rdg> = translation
+
+            Tag numbering:
+                (<X> for example)
+                <X n="1"> 
+            
+            Stanza break:
+                <app>
+                    <lem wit="#Transcription"><milestone unit="stanza"/></lem>
+                    <rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+                </app>
+
+            Special Characters:
+                Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+                This chart is of the Medieval Unicode Font Initiative. In order to 
+                include one of these characters, enter the ampersand and following
+                letters followed by a semicolon (e.g. &odot;).
+
+            Language change: 
+                When the text changes language, use an extra modifier in your tag. 
+
+                For example: (a text changes to Latin)
+                    <l lang="la" n="4">
+                        <app>
+                            <lem wit="#Transcription"></lem>
+                            <rdg wit="#Translation"></rdg>
+                        </app>
+                    </l>
+
+                The modifier (xml:lang="?") is the critical insertion. 
+
+                Find the two letter identifier for the language you wish to specify 
+                @ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+                in the subtag category
+-->

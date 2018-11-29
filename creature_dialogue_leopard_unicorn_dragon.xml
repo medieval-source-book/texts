@@ -1,0 +1,214 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt' >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Concerning the Leopard and the Unicorn Who Fought the Dragon</title>
+				<author>Nicolaus Pergamenus</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Dr. J. G. Th. Grässe</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Irene Han</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">De leopardo et unicorni, qui pugnabant cum dracone</witness>
+					<witness xml:id="Translation">Concerning the Leopard and the Unicorn Who Fought the Dragon</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+				<encodingDesc>
+			<projectDesc>
+            	<p>"Concerning the Leopard and the Unicorn Who Fought the Dragon" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">De leopardo et unicorni, qui pugnabant cum dracone, dial. 88.</lem>
+						<rdg wit="#Translation">Concerning the Leopard and the Unicorn Who Fought the Dragon, the eighty-eighth dialogue</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p>
+				<s n="1">
+					<app>
+						<lem wit="#Transcription">﻿Leopardus, ut Solmus dicit, animal est generatum ex leone et pardo.</lem>
+						<rdg wit="#Translation">The leopard, as Solinus says, was born from the lion and the panther.</rdg>
+					</app>
+				</s>
+				<s n="2">
+					<app>
+						<lem wit="#Transcription">Horum feminæ sunt audaciores et fortiores maribus.</lem>
+						<rdg wit="#Translation">The females of this species are braver and stronger than the males.</rdg>
+					</app>
+				</s>
+				<s n="3">
+					<app>
+						<lem wit="#Transcription">Plinius: aliquis volens resistere leopardis furentibus, fricet allia inter manus, nee mora, leopardus resiliet nec resistet, quia odorem allii sustinere non potest.</lem>
+						<rdg wit="#Translation">Pliny writes that someone who wants to combat raging leopards should immediately rub garlic cloves between his hands. The leopard will retreat and fight no longer, since it cannot bear the odor of garlic.</rdg>
+					</app>
+				</s>
+				<s n="4">
+					<app>
+						<lem wit="#Transcription">Leopardus subrufum colorem habet, maculas per totum nigras; multo minores sunt quam leones.</lem>
+						<rdg wit="#Translation">Moreover, leopards are orange in color but covered in black spots, and are are much smaller than lions.</rdg>
+					</app>
+				</s>
+				<s n="5">
+					<app>
+						<lem wit="#Transcription">Leopardus, quando comedit aliquod venenum, stercus hominis quærit, quod comedit, et sanatur. Ambrosius.</lem>
+						<rdg wit="#Translation">Ambrose claims that if a leopard has eaten poison, it will seek out a man’s excrement, which, once consumed, heals it.</rdg>
+					</app>
+				</s>
+				<s n="6">
+					<app>
+						<lem wit="#Transcription">Hæ bestiæ sunt crudelissimæ naturaliter, ita quod sic domesticari non possunt, ut obliviscantur crudelitatis suæ.</lem>
+						<rdg wit="#Translation">These beasts are most cruel by nature, and cannot be tamed to forget their cruelty.</rdg>
+					</app>
+				</s>
+				<s n="7">
+					<app>
+						<lem wit="#Transcription">Domesticantur tamen ad venandum.</lem>
+						<rdg wit="#Translation">Nevertheless they can be trained to hunt.</rdg>
+					</app>
+				</s>
+				<s n="8">
+					<app>
+						<lem wit="#Transcription">Igitur dum ad prædam in venatione ducuntur, relaxantur, quam si quarto aut quinto saltu non potest capere, subsistit iratus fortiter, et nisi statim venator furenti bestiæ aliquam bestiam offerat, cujus sanguine placetur, irruit in venatorem vel quoscunque obvios, quia impossibile est placari eum nisi in sanguine.</lem>
+						<rdg wit="#Translation">When leopards are led to their prey in the course of a hunt, they become calm. However, if a leopard is unable to seize his prey in four or five leaps, he stops, profoundly angered. In such cases, unless a hunter offers some animal to the furious beast, so as to placate it with blood, it will charge at the hunter or whoever else happens to be in its way. It is impossible to calm a leopard down except by bloodshed.
+							<note type="critical" anchored="true">
+								<p>
+									More literally, ‘except in blood’.
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s n="9">
+					<app>
+						<lem wit="#Transcription">Hic pugnabat cum dracone, sed non prævalebat, propter quod ad unicornem perrexit et humiliter ipsum obsecravit dicens: eminens es ac virtuosus et doctus belli, peto obnixe, quod me defendas a furore draconis.</lem>
+						<rdg wit="#Translation">Once, a Leopard fought with a Dragon, but he did not prevail. Therefore, he headed to the Unicorn and humbly entreated him, saying, “You are lofty, and virtuous, and learned in war. I beseech you with all my heart to defend me from the Dragon’s madness.”</rdg>
+					</app>
+				</s>
+				<s n="10">
+					<app>
+						<lem wit="#Transcription">Unicornis autem se sublimare cœpit et audiens de se talia dici ait: verum dicis, quia doctus sum prælii, propterea optime defensabo te, noli pavere, cum enim aperiet draco os suum, in gutture ipsum cornu perforabo.</lem>
+						<rdg wit="#Translation">The Unicorn began to rise upon hearing such words spoken about himself. He said, “You speak truly, since I am battlewise, and I shall protect you in the best way possible. Do not fear, for when the Dragon opens his mouth I will pierce his throat with my horn.”</rdg>
+					</app>
+				</s>
+				<s n="11">
+					<app>
+						<lem wit="#Transcription">Cum autem ad draconem pariter venissent, leopardus bellum initiavit sperans de auxilio unicornis.</lem>
+						<rdg wit="#Translation">After they had found the Dragon together, the Leopard began the fight, pinning his hopes on the Unicorn’s help.</rdg>
+					</app>
+				</s>
+				<s n="12">
+					<app>
+						<lem wit="#Transcription">Draco vero certavit adversus eos et ignem et fœtorem ex ore emittebat, sed cum os aperiret, unicornis quam citius cucurrit volens ipsum in gutture transvibrare, draco vero agitavit caput et unicornis cornu in terram fixit dicens moriendo: qui pro alio vult pugnare, cupit se trucidare.</lem>
+						<rdg wit="#Translation">The Dragon fought against them, spitting out fire and fumes. When he opened his mouth, the Unicorn charged at him as swiftly as he could, aiming to pierce through his throat. However, the Dragon shook his head, and drove the Unicorn’s horn into the earth. As the Unicorn died, the Dragon said to him, “He who wants to fight for another desires to slay himself.</rdg>
+					</app>
+				</s>
+				<s n="13">
+					<app>
+						<lem wit="#Transcription">Sic enim stultum est, de se confidere ac de quo sibi non pertinet agonizare.</lem>
+						<rdg wit="#Translation">It is foolish to be so self-assured and to fight over that which does not concern you.”</rdg>
+					</app>
+				</s>
+				<s n="14">
+					<app>
+						<lem wit="#Transcription">Unde Eccl. XI<hi rend="sup()">0</hi>: de ea re, quæ te non molestat, ne certaveris.</lem>
+						<rdg wit="#Translation">Indeed, as Ecclesiastes XI says, “Do not fight on account of that which does not vex you.”</rdg>
+					</app>
+				</s>
+				<s n="15">
+					<app>
+						<lem wit="#Transcription">Ergo require in animo tuo a te ipso, quis es, quid facere vis, utrum factum illud ad te pertineat.</lem>
+						<rdg wit="#Translation">Make yourself certain as to who you are, what you desire to do, and whether the matter concerns you.</rdg>
+					</app>
+				</s>
+				<s n="16">
+					<app>
+						<lem wit="#Transcription">Ad minus ad alium te immiscere non debes.</lem>
+						<rdg wit="#Translation">At the very least, you should not implicate yourself with another.</rdg>
+					</app>
+				</s>
+				<s n="17">
+					<app>
+						<lem wit="#Transcription">Noli pro alio pugnare nec inter discordantes discordiam augere, sed fac, ut dicit Seneca: semper dissensio ab alio ineipiat, a te reconciliatio.</lem>
+						<rdg wit="#Translation">
+							Do not fight for someone else, and do not add fire to fire.
+							<note type="critical" anchored="true">
+								<p>
+									More literally, ‘Do not grow discord among those who are already in conflict.”
+								</p>
+							</note>
+							 Instead, follow the advice of Seneca: “Let conflict always begin from another, but let reconciliation always begin from you.”
+						</rdg>
+					</app>
+				</s>
+				<s n="18">
+					<app>
+						<lem wit="#Transcription">Quidam bellantes aggressi sunt inimicum, sed alius quidam cucurrit volens ipsum defendere et armavit se versus inimicos illius.</lem>
+						<rdg wit="#Translation">Once, some warriors attacked their enemy, but some other man hastened to the fight, wanting only to defend the enemy; he even took up arms against the warriors.</rdg>
+					</app>
+				</s>
+				<s n="19">
+					<app>
+						<lem wit="#Transcription">Illi autem dixerunt: amice, tibi injuriam non facimus, tolle quod tuum est et vade, quoniam de inimico nostro vindictam quærimus.</lem>
+						<rdg wit="#Translation">Nevertheless, the warriors said, “Friend, we shall do you no injury. Take what is yours and depart, for we seek vengeance from our enemy alone.”</rdg>
+					</app>
+				</s>
+				<s n="20">
+					<app>
+						<lem wit="#Transcription">Qui non acquiescens sermonibus corum ad bellum contra eos se paravit.</lem>
+						<rdg wit="#Translation">The man, refusing to take heed of their words, prepared himself for war against them.</rdg>
+					</app>
+				</s>
+				<s n="21">
+					<app>
+						<lem wit="#Transcription">Illi autem indignati cum inimico ipsum mutilaverunt.</lem>
+						<rdg wit="#Translation">Indignant, the warriors cut him down along with their enemy.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

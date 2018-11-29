@@ -1,0 +1,193 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Chastity of Mr. Wu’s Wife</title>
+				<author></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Likun Yang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Likun Yang</name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>Jordan Rosen-Kaplan</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<witness xml:id="Transcription">譚氏節操</witness>
+				<witness xml:id="Translation">The Chastity of Mr. Wu’s Wife</witness>
+				<p>Based on the Zhonghua Shuju edition: Hong, Mai. Yi Jian Zhi. Di 1 ban. ed. 4 vols. Beijing: Zhonghua shu ju : Xin hua shu dian Beijing fa xing suo fa xing. 1981.</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Chastity of Mr. Wu’s Wife" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal">
+			</variantEncoding>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">譚氏節操</lem>
+						<rdg wit="#Translation">The Chastity of Mr. Wu’s Wife</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<div n="1">
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">英州真陽縣曲江村人吳琦, 略知書. 其妻譚氏。</lem>
+							<rdg wit="#Translation">In the Qujiang Village of the Zhenyang County under the Yingzhou Prefecture, there was a man named Wu Qi who had received some education and had a wife from the Tan family.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">紹興五年閏二月, 本邑觀音山盜起, 攻剽鄉落。</lem>
+							<rdg wit="#Translation">In the second month of the fifth year of the Shaoxing era, some bandits emerged from the Guanying Mountain in the area and plundered many villages and counties.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">琪竄去。</lem>
+							<rdg wit="#Translation">Wu Qi ran away.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">譚氏與其女被執, 並鄰社村婦數人偕行。</lem>
+							<rdg wit="#Translation">His wife and their daughter were captured and joined other women captured from the same village.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">譚在眾中頗潔白, 盜欲妻之。</lem>
+							<rdg wit="#Translation">mong this group of women, Wu’s wife was one of the more attractive, so one of the bandits wanted to have sex with her.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">詬曰: “爾輩賊也。官軍旦夕且至。將為齏粉。我良家女。何肯為汝婦。”</lem>
+							<rdg wit="#Translation">A Wu’s wife scolded him, saying: “People like you are nothing but bandits. The military will arrive in no time and you all will be crushed. I am from a reputable family. How can I become your woman?”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">強之不已, 至於捶擊。</lem>
+							<rdg wit="#Translation">The bandit tried to force her into it but failed, and then hit her.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">愈極口肆罵, 竟斃於毒手。</lem>
+							<rdg wit="#Translation">Wu’s wife started shouting and ranting but in the end was killed by the bandit.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">後盜平, 鄰婦同執者皆還,</lem>
+							<rdg wit="#Translation">After the bandits were suppressed, the other captured women all returned home.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">曰: “使吳秀才妻不罵賊。今日亦歸矣。”</lem>
+							<rdg wit="#Translation">They said: “If Mr. Wu’s wife had not scolded the bandit, she could have returned home too.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">因備言其死狀, 吳生始知之。</lem>
+							<rdg wit="#Translation">When they described her death in great detail, Mr. Wu understood what happened.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">聞者高其節, 予嘗為之傳云。</lem>
+							<rdg wit="#Translation">All those who heard this story praised her chastity, and I therefore write this piece to spread her fame.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+<!--
+
+The Chastity of Mr. Wu's Wife
+
+TEI Encoding Specifications:
+
+<lem> = transcription
+
+<rdg> = translation
+
+Tag numbering:
+	(<X> for example)
+	<X n="1"> 
+
+Stanza break:
+	<app>
+		<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+		<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+	</app>
+
+Special Characters:
+	Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+	This chart is of the Medieval Unicode Font Initiative. In order to 
+	include one of these characters, enter the ampersand and following
+	letters followed by a semicolon (e.g. &odot;).
+
+Language change: 
+	When the text changes language, use an extra modifier in your tag. 
+
+	For example: (a text changes to Latin)
+		<l lang="la" n="4">
+			<app>
+				<lem wit="#Transcription"></lem>
+				<rdg wit="#Translation"></rdg>
+			</app>
+		</l>
+
+	The modifier (xml:lang="?") is the critical insertion. 
+
+	Find the two letter identifier for the language you wish to specify 
+	@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+	in the subtag category
+-->

@@ -1,0 +1,143 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title></title>
+				<author></author>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp></resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>TEI encoding by</resp>
+					<name>???</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p></p>
+				<p></p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p></p>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div>
+				<listWit>
+					<witness xml:id="Transcription">Sebastian Ilsung</witness>
+					<witness xml:id="Translation">Sebastian Ilsung</witness>
+				</listWit>
+			</div>
+		</front>
+		<body>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Sebastian Ilsungs Wallfart nach S. Iago und an andere h. Orte in Spanien, im Jahr 1446</lem>
+						<rdg wit="#Translation">Sebastian Ilsung’s pilgrimage to Santiago and other holy places in Spain, in the year 1446</rdg>
+					</app>
+				</title>
+			</head>
+			 <div n="1">
+				<p n="1">
+					<app>
+						<lem wit="#Transcription">Hie ist zu merken unnd zu wissen die grosse rais zu dem herren sannt Jacob unnd zu dem Finstern Stern, unnd die [lannd] die ich, Sebastian Ilsung, alle durchzogen hon, alls auf mein aygen kosst unnd darlegen. Unnd mit mir ain reyttenden botten, zu fuß ain bartzefant des hertzogen von Safoy, meins gnedigen herrnn. Der schuoff, das er hieraus mit mir reytten solt, alls ach beschach. Was er unnd zucht mir widerfahrenn ist, das ist auch ye nach dem kuertzstenn brieffen, unnd ain thayl was ich seltzams gesehen han, das namhafftigest, es wuerd sonst zu lanng. Unnd war hernach geschrieben statt unnd gemalt, das hat sich alls erganngen, in aller warheit, mit hilff des alemchtigen gotz unnd seiner lieben mutter unnd des lieben herrn sant Jacob. Unnd die rayß vollbracht ich in aim halben jar, da man zalt 1446 jar.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">Here is to register and to know about the great journey to the Lord of Saint Jacob, and to the dark star <note type="critical" anchored="true"> Hier braucht es definitiv eine Fußnote, denn Sebastian von Ilsung hat einen „Verständnisfehler“ in einen Schreibfehler umgewandelt = Finisterre </note> and about the countries  I, Sebastian Ilsung, crossed, all at my own cost and expenditure. And with me a mounted envoy, afoot a servant from the duke of Savoy, my gracious lord. He commanded, that hieraus he had to ride with me, as it also happened. What honor and courtesy I experienced, And what hereafter stands written or is painted, that happened, truthfully, with the help of the almighty God and his beloved mother and the dear lord Saint Jacob. And I accomplished the journey within half a year, in the year that is counted as 1446.</rdg>
+					</app>
+				</p>
+				<p n="2">
+					<app>
+						<lem wit="#Transcription">Hie soll man wissen wen [ich] Sebastian Ilsung bin zu Augspurg ausgeritten an dem nechsten montag nach dem palmtag des jars da man zalt 1446 jar. Da ritt ich zum ersten gein Memingen unnd macht mir ain kunttschafft mit dem hochmayster, der gab mir brieff an sein obersten zu sant Anthoni. Unnd befalch mich im unnd nam auch sein briester, denn verzert ich, was auch ain edelman. Der was mein dulmetsch bis [ich] in sein kloster kam. Auch der [h]ochmayster vonn Memingen ist vast vonn guttenn edlen geschlecht, denn sein freund unnd sein brueder seind vast mechtig unnd thetten mir groß er unnd zucht von seinen wegen. Darnach zog ich henn durch die edgenossen unnd ward uff dem weg gefanngen, darum daß man mainet, ich wer ein Esterreycher, darum das ich kraus har hett. Da wer vil von zu sagen, den ain rat zu Lutzernam der noet mich, das ich hinder ain ratt must schweren auff ain widerstellen. Allso kam es hernach dartzu, das mich die statt von Berrnn wider ledig machten, das ich mich niena dorfft stellen. Unnd wer lang davon zu sagen, wie es sich gemacht, das ich alls von kurtz unnderwegen laß. Den von Lutzern schrieben mir ain brieff unnd sagten mich aller glibnis ledig, den sy werden das woll unndericht.<note
+								type="gloss" anchored="true">GLOSS GOES HERE</note>
+							<note type="critical" anchored="true">
+								<p>CRITICAL NOTE GOES HERE</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">Here you shell know about the time when I, Sebastian Ilsung, rode out of Augsburg on the first Monday after Palm day of the year that is counted as 1446. First of all I rode there towards Memingen and made the acquaintance with the grand master who gave me a letter to his highest religious priest in Sant Antoni and recommended me to him. And I took also his priest, whom I provided with meals, he was also a nobleman. He was my interpreter until we reached his monastery. The grand master of Memingen is also a descendent of a greatly noble and lineage, since his friend and his brothers are very powerful and, thanks to him, they showed me great honor and courtesy. Thereafter I crossed the cantons and was taken captive on the way, that was so, because they thought I were an Austrian, that was so, because of my frizzy hair. There would be a lot to say about this case, because a council in Lucerne obliged me to make a caveat in front of a council. Thus it came afterwards, that the city of Bern acquitted me, so that I did not had to surrender. There would be a lot to talk about, how it took place, that I leave ignored for the sake of brevity. The council from Lucerne wrote me a letter and acquitted me from all pledges, because they were well informed.</rdg>
+					</app>
+				</p>
+				<p n="3">
+					<app>
+						<lem wit="#Transcription">Hie ist zu wissen das ich zoch den nechsten zuch gen Bern unnd gen Fryburg in Yechtlannd unnd darnach in Sofey gen Genefa, da helt der bapst Felix hoff unnd sein sun der hertzog vonn Sonon. Da ward mir gross er erbotten bei aim tanntz, da vil vonn zu sagen were. Der gesellt sich des babst kemerlin zu mir, ain deutscher, der sagt dem papst so vil, das er welt, das ich vir in kame, alls ach beschach, unnd er erbietten solt. Unnd zoch mich der babst Felix mit der hannd auff den obergesten staffel, da er sein fies auf hett. Das was ain große er, so nacht lat bey im kniegen. Unnd fraget mich mencherley von unserm bischoff hie unnd von der statt Augspurg wes sy were. Das sagt ich im unnd er gab mir sein bebschlichen segen unnd den frieden; es wer noch lanng zu sagen.</lem>
+						<rdg wit="#Translation">
+						</rdg>
+					</app>	
+				</p>	
+			</div>
+		</body>
+	</text>
+</TEI>
+
+<!--
+
+	Sebastian Ilsung
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
