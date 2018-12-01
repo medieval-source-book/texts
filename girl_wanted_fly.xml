@@ -9,26 +9,26 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>La Pucele qui vouloit voler</title>
+				<title>The Girl who Wanted to Fly</title>
 				<author>Anonymous</author>
-			<respStmt>
-				<resp>Transcription by</resp>
-				<name>J.Th. Verhulsdonck</name>
-			</respStmt>
-			<respStmt>
-				<resp>Translation by</resp>
-				<name>Michael Widner</name>
-			</respStmt>
-			<respStmt>
-				<resp>Digital Transcription by</resp>
-				<name>Clara Romani</name>
-			</respStmt>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>J.Th. Verhulsdonck</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Michael Widner</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Michael Widner</name><name>Clara Romani</name>
+				</respStmt>
+			</titleStmt>
 			<publicationStmt>
 				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
 					<p></p>
 				</availability>
-			</titleStmt>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
@@ -44,7 +44,7 @@
 			<sourceDesc>
 				<listWit>
 					<witness xml:id="Critical_Text">La pucele qui vouloit voler</witness>
-					<witness xml:id="Translation">The girl who wanted to fly</witness>
+					<witness xml:id="Translation">The Girl who Wanted to Fly</witness>
 					<witness xml:id="Witness_B">De la damoisele qui uost voler</witness>
 					<witness xml:id="Witness_E">De la pucelle qui vouloit voler</witness>
 					<witness xml:id="Witness_I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</witness>
@@ -53,7 +53,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"La pucele qui vouloit voler" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"The Girl who Wanted to Fly" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>

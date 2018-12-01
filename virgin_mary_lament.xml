@@ -12,15 +12,12 @@
 				<title>The Virgin Mary's Lament</title>
 				<author>Anonymous</author>
 				<respStmt>
-					<resp>Middle German text adapted from the edition by G. Kühl (1898), in Jahrbuch des Vereins für niederdeutsche Sprachforschung, 24.</resp>
-				</respStmt>
-				<respStmt>
 					<resp>Translation by</resp>
-					<name>Björn Buschbeck</name><name>Patrick Di Dio Di Marco</name><name>Robert Forke</name><name>Chris Hutchinson</name><name>Mae Lyons-Penner</name><name>Mareike Reisch</name>and<name>Kathryn Starkey</name>
+					<name>Björn Buschbeck</name><name>Kathryn Starkey</name><name>Mae Lyons-Penner</name><name>Robert Forke</name><name>Christopher Hutchinson</name><name>Mareike Reisch</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>Hannah Frakes</name><name>Jordan Rosen-Kaplan</name><name>Irene Han</name>and<name>Michael Widner</name>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name><name>Michael Widner</name><name>Irene Han</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -33,16 +30,13 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p>			
-					<variantEncoding method="parallel-segmentation" location="internal"/>
 					<listWit>
 						<witness xml:id="Transcription">Marienklage</witness>
 						<witness xml:id="Translation">The Virgin Mary's Lament</witness>
 					</listWit>
-				</p>
+					<p>Adapted from the edition by G. Kühl (1898), in Jahrbuch des Vereins für niederdeutsche Sprachforschung, 24.</p>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
 			<projectDesc>
             	<p>"The Virgin Mary's Lament" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
@@ -54,6 +48,7 @@
 				<segmentation>
 				</segmentation>
 			</editorialDecl>
+		<encodingDesc>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>

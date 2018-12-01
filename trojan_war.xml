@@ -13,16 +13,11 @@
 				<author>Anonymous</author>
 				<respStmt>
 					<resp>Translated by</resp>
-					<name>Björn K. Buschbeck</name>, <name>Robert Forke</name>, <name>Mae Lyons-Penner</name>, <name>Mareike Reisch</name>, <name>Kathleen Smith</name>, and <name>Kathryn Starkey</name>.
+					<name>Kathryn Starkey</name><name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Lyons-Penner</name><name>Mareike Reisch</name><name>Kathleen Smith</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Mae Lyons-Penner</name> and <name>Jordan Rosen-Kaplan</name>.
-				</respStmt>
-				<respStmt>
-					<resp>Based on the edition by</resp>
-					<name>A Bernoulli</name>
-					in Germania: Vierteljahrsschrift für deutsche Alterthumskunde, ed. Karl Bartsch, vol. 27, Vienna, 1883.
+					<name>Mae Lyons-Penner</name><name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -39,6 +34,7 @@
 					<witness xml:id="Transcription"></witness>
 					<witness xml:id="Translation"></witness>
 				</listWit>
+				<p>Based on the edition by A Bernoulli in Germania: Vierteljahrsschrift für deutsche Alterthumskunde, ed. Karl Bartsch, vol. 27, Vienna, 1883.</p>
 			</sourceDesc>
 		</fileDesc>
 		<projectDesc>

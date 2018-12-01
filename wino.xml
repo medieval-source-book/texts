@@ -9,20 +9,15 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Der Weinschwelg</title>
+				<title>The Wino</title>
 				<author>Anonymous</author>
 				<respStmt>
-					<resp>Transcriptions and Translations by</resp>
-					<name>Kathryn Starkey</name>
-					<name>Mae Lyons-Penner</name>
-					<name>Robert Forke</name>
-					<name>Björn K. Buschbeck</name>
-					<name>Kathleen Smith</name>
-					<name>Mareike E. Reisch</name>
+					<resp>Translation by</resp>
+					<name>Kathryn Starkey</name><name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Lyons-Penner</name><name>Mareike E. Reisch</name><name>Kathleen Smith</name>
 				</respStmt>
 				<respStmt>
-					<resp>TEI encoding by</resp>
-					<name>???</name>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>

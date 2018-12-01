@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>The Trust That I Have in You</title>
+				<title>"The trust that I have in you"</title>
 				<author></author>
 				<respStmt>
 					<resp></resp>
@@ -38,14 +38,21 @@
 					<witness xml:id="Transcription">La fiance que j'ay en vous</witness>
 					<witness xml:id="Translation">The trust that I have in you</witness>
 				</listWit>
-				<p></p>
-				<p></p>
+				<p> Chansonnier Nivelle de la Chausée (Paris, Bibliothèque Nationale de France, Département de Musique, Res. Vmc MS 57), ff.25v-26r</p>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
+		<projectDesc>
+            	<p>"The trust that I have in you" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
+		<encodingDesc>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
@@ -54,8 +61,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">La fiance que j'ay en vous</lem>
-						<rdg wit="#Translation">The trust that I have in you</rdg>
+						<lem wit="#Transcription">"La fiance que j'ay en vous"</lem>
+						<rdg wit="#Translation">"The trust that I have in you"</rdg>
 					</app>
 				</title>
 			</head>

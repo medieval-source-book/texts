@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>La visión de Filiberto</title>
+				<title>Filbert's Vision</title>
 				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -18,10 +18,6 @@
 				<respStmt>
 					<resp>Translation by</resp>
 					<name>Guinevere Allen</name>
-				</respStmt>
-				<respStmt>
-					<resp>Proofing by</resp>
-					<name>Heather McMichael</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -44,15 +40,19 @@
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc>
 			<projectDesc>
             	<p>"La visión de Filiberto" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
 				<segmentation>
 				</segmentation>
 			</editorialDecl>
+		<encodingDesc>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
@@ -1502,7 +1502,7 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Ad am gloria nos perduas ser amen.</lem>
-							<rdg wit="#Translation">No translation in document.</rdg>
+							<rdg wit="#Translation">Through God's glory may we be forgiven. Amen</rdg>
 						</app>
 					</s>
 				</p>
