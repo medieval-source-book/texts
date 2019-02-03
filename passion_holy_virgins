@@ -1,0 +1,1050 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Passion of Hope, Faith, Charity and Wisdom</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Astrid Khoo</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">The passion of the holy virgins</witness>
+					<witness xml:id="Translation">Passio sanctarum virginum</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Passion of Hope, Faith, Charity and Wisdom" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+		</front>
+		<body>
+			<div n="1">
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Here begins the passion of the holy virgins Hope, Faith, Charity, and their mother Wisdom (Kalends of August)</lem>
+							<rdg wit="#Translation">Here begins the passion of the holy virgins Hope, Faith, Charity, and their mother Wisdom (Kalends
+								<note ancored="true">
+									<p>The Kalends fall on the first day of the month.</p>
+								</note> of August)
+								</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div n="2">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Mulier quedam nomine Sapientia de genere primo ualde diues, Romam aduenit cum filiabus suis.</lem>
+							<rdg wit="#Translation">A certain woman by the name of Wisdom, who was very wealthy and of a most noble family, came to Rome with her daughters.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Hae decorissime nimium fuerunt.</lem>
+							<rdg wit="#Translation">They were exceedingly beautiful.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et cum ibi essent, cucurrerunt accipere signum Domini nostri et saluatoris Iesu Christi.</lem>
+							<rdg wit="#Translation">When they had arrived, they ran to receive the sign of our Lord and Savior, Jesus Christ, </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Erudite enim a matre fuerunt iam pridem, ut Christianitatis nomen firmiter tenerent.</lem>
+							<rdg wit="#Translation">for they had already been taught by their mother in such a way that they held on firmly to the name of Christianity.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae instructae a matre sanctis monitis, et Christi edocte eloquiis, proficiebant et crescebant cotidie in Dei timore.</lem>
+							<rdg wit="#Translation">Indeed, instructed by their mother in sacred counsels and educated through the sayings of Christ, they advanced and grew each day in their fear of God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Gaudebat quoque mater earum et exultabat in Domino: orans semper Dominum nostrum Iesum Christum, ut ampliorem fidem et tolerantiam daret paruulis eius, et in multa uirtute tolerantie proficerent.</lem>
+							<rdg wit="#Translation">Their mother also rejoiced and exulted in the Lord: she constantly prayed to our Lord Jesus Christ that he would give her little ones greater faith and endurance, as well as that they themselves would make great progress in the virtue of endurance.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">Rudem enim agebant aetatem, prophetarum quoque uerba in corde semper tractantes, et Deo psallentes erant.</lem>
+							<rdg wit="#Translation">Although they were young, they always turned over the words of the prophets in their hearts and sang psalms to God.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Euntibus uero illis ad aecclesiam suam, haec in corde suo cogitabant, ut pro Domino paterentur.</lem>
+							<rdg wit="#Translation">They thought about these things as they went to church, so that they could open themselves to the Lord.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et dum frequenter ad aecclesiam orandi causa irent, quidam maligno spiritu incitatus, uenit ad imperatorem et dixit ei, </lem>
+							<rdg wit="#Translation">While they often went to church to pray, someone incited by an evil spirit went to the emperor and said to him, </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">“Mulier quaedam cum tribus puellis nescio unde huc aduenit, et nostris matronis persuasit, ut colerent unum Deum et filium eius Iesum Christum, et fraudauit nos a matrimoniali coniugio.</lem>
+							<rdg wit="#Translation">“There is a certain woman with three daughters. I don’t know from where she has come to this place, but she has persuaded our married women to worship one God and his son Jesus Christ and has thus cheated us out of our marital rights
+								<note ancored="true">
+									<p>A "matrimoniali coniugio" is more literally translated as "our marital bond. </p>
+								</note>.
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nam ad cibum atque ad potum, iam nolunt, cum conuenire paeniter nolunt.”</lem>
+							<rdg wit="#Translation">For now our wives take interest in neither food nor water, and completely reject intercourse.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="3">
+					<s>
+						<app>
+							<lem wit="#Transcription">Audiens haec Adrianus, mox praetores misit qui eas exhiberent.</lem>
+							<rdg wit="#Translation">Hearing these words, Hadrian immediately sent praetors to summon them.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ibant Dei uirgines, cum matre sua gaudentes. Ut autem appropinquarent ad palatium regis, signauerunt se signaculo Christi.</lem>
+							<rdg wit="#Translation">The virgins of God came along rejoicing with their mother, and when they approached the palace of the emperor, they crossed themselves with the sign of Christ, </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Erat uero gratia Christi, confirmans eas.</lem>
+							<rdg wit="#Translation">whose grace was indeed present and gave them strength.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Intrantibus itaque eis in palatium, Adrianus intuebatur eas, et uidens earum facies gloriosas, obstupuit proper excellentem gloriam Dei, quibus respondere non potuit.</lem>
+							<rdg wit="#Translation">Therefore, as they entered into the palace, Hadrian watched them and saw their faces, which were full of glory. He was struck dumb by the extraordinary glory of God and had no response for them.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Post paululum autem uocans matrem uirginum, interrogauit eam dicens, “Cuius dignatatis es, uel quae circa te sunt?</lem>
+							<rdg wit="#Translation">However, after a short time he called the mother of the virgins and questioned her, saying, “What is your rank, and who are these girls around you?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ex corde enim fecistis haec in Romanorum ciuitate dominatores deos negantes, qui uniuersam urbem fabricauerunt; nomen uero tuum qui uocetur expone.”</lem>
+							<rdg wit="#Translation">For you have all intentionally committed these deeds, denying the gods in the city of the Romans, although they have made the whole city. Well, tell us the name by which you are called.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae dixit, “Christiana.”</lem>
+							<rdg wit="#Translation">She said, “Christian.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Adrianus imperator dixit, “Interrogo nomen commune secundum homines.”</lem>
+							<rdg wit="#Translation">The emperor Hadrian said, “I am asking for your common name as is customary among men.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="4">
+					<s>
+						<app>
+							<lem wit="#Transcription">Illa respondit, “Primum quidem ineffabili nomine Christiana sum; a parentibus uero nomen quod accepi, dicor Sapientia; de genere primo quod eminenti existens Italie.</lem>
+							<rdg wit="#Translation">She responded, “I am indeed first and foremost known by that unutterable name of ‘Christian’, but as for the name which I received from my parents, I am called Wisdom, and descended from the most noble family which presides over Italy.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Misericors uero et pius Dominus meus Iesus Christus.</lem>
+							<rdg wit="#Translation">However, my merciful and pious Lord is Jesus Christ.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Perduxit me in Romanorum ciuitatem, et donatas mihi ab ipso paruulas meas in castitate custodiens; efferam eas ei munus.”</lem>
+							<rdg wit="#Translation">He led me into the city of the Romans, and keeps my daughters, whom he gave to me, in a state of chastity. I shall present them as a gift to Him.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Audiens Adrianus sermones hos, iussit eam ad quendam primum ciuitatis Romanorum usque inquisitionis certamen consistere.</lem>
+							<rdg wit="#Translation">Hearing this speech, Hadrian ordered her to stay in the home of a certain noble of the city of the Romans until the interrogation.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="5">
+					<s>
+						<app>
+							<lem wit="#Transcription">Morantibus quoque his in domo Palladii cuiusdam sublimis, caepit beata Sapientia mater uirginum renouare filias suas in spiritu sancto, dicens eis, </lem>
+							<rdg wit="#Translation">While they were staying in the house of a certain high-ranking Palladius, the blessed Wisdom, mother of virgins, began to renew her daughters in the Holy Spirit, saying to them, </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">“Filiae meae, erudiui uos optimis litteris, nec autem custodite eas.</lem>
+							<rdg wit="#Translation">“My daughters, I have given you the best literary education, but do not hold on to this knowledge, </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In quem enim spem uestram posuistis, ipse uos ad certamen fidei uocat.</lem>
+							<rdg wit="#Translation">for He Himself, in whom you have placed your hope, is now calling you to a test of faith.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nolite ergo etatem uestram rudem attendere, sed Domini armis munite uos, meque uestram matrem conorate de uestro agone, ut liberetis me ab eo quod me onerauit peccato.</lem>
+							<rdg wit="#Translation">Do not therefore pay heed to your young age, but guard yourselves with the weapons of the Lord, and crown me, your mother, through your agony, so that you may free me from that sin which burdened me.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Si enim praemisero uos ad militiam ueri regis, magne iam legate praecedite me perfecte, et per uestram certamen etiam et ego innouata efficiar in regno caelesti, et aduocabunt me ad uos ii qui Deo placuerunt, et ego commorans uobiscum ero in aeternum.</lem>
+							<rdg wit="#Translation">For if I should send you ahead of me to the service of the true king, then go before me in perfection as great legates. Through your struggle, I shall also be made new in the kingdom of Heaven; those who have pleased God will call me to you, and I shall stay with you for eternity.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ita filiae meae et uiscera mea miseremini uestrae matri, et certate aduersus artifices maligne artis excitantes uobis tormenta.</lem>
+							<rdg wit="#Translation">In this way should you, my daughters and my hearts
+								<note ancored="true">
+									<p>"Viscera mea" in Ps. 102:1 is typically translated as "all that is within me"; as viscera can refer to any of the internal organs, however, the modern English term of affection, "my heart", is most evocative of Wisdom’s maternal love.</p>
+								</note>
+								, have mercy upon your mother, and fight against the practitioners of evil arts as they torture you.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Confitemini patrem Deum, eique unigenitum filium omnipotentem Iesum Christum Dominum nostrum, qui reddet coronam et praemium patientiae uestrae.”</lem>
+							<rdg wit="#Translation">Trust in God your Father, and in His only begotten son, the all-powerful Jesus Christ our Lord, who shall bestow a crown and prize upon you for your patience.”</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="6">
+					<s>
+						<app>
+							<lem wit="#Transcription">His autem sermonibus semninatis a matre in cordibus uirginum, spiritu parentalis sapientiae et uirtutis crescebant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Signo autem crucis per omnem horam non obliuiscebantur semper signari, orabant enim ut perfecte coronarentur, et praemium suae certaminis acciperent.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et ille animo uiuaces dicebant matri suae, “Domina mater nostra, gaudens et exultans perduc nos ante tribunal Adriani imperatoris, et uidebis fortissimum certamen nostrum, et confessionem fidei nostrae.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Saluator enim noster Iesus Christus, cuius castis eloquiis erudite sumus; ipse de caelo uidens finem et patientiam nostram, adortans nos dabit ad interrogationem responsum.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mater uero earum dicebat, “Filiae meae, ego quidem uos genui, sed nichil est uita huius mundi temporalis, quae ad modicum paret, postea uero exterminabitur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nunc sustinentes temporales penas, hereditabitis uitam aeternam, et ego exultans sequar uos, perfectas hostias uos offerens Domino.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="7">
+					<s>
+						<app>
+							<lem wit="#Transcription">Tribus itaque diebus transactis, iussit imperator Adrianus adduci eas, et cum ducerentur, sequebatur eas mater gaudens et exultans.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ut autem ingresse sunt Palatium, Adrianus imperator dixit ad eas, “O infantule sacratae; uideo uestram pulchritudinem, et compatior uobis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Rogo ergo uos, misereamini uestrae matri, et florem uestrae etatis nolite perdere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Credite mihi tamquam filie patri, et sacrificate dominatoribus totius orbis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et si in hoc consenseritis mihi, filias uos appellabo et in deliciis eritis, et erit magna gloria adolescentiae uestrae, si imperatoris filiae uocemini.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Uocabo prefectos, et locorum principes, duces, et senatum omnem, et militiam meam totam, legibus et uoluntatibus adoptionis filiarum exhibens haec omnia.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Si uero non credideritis mihi, multis uos tormentis subitiam, et spem uestram et delicata ac parua uestra membra male et pessime consumam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et quod superfuerit de membris uestris, canibus in escam periciam. Credite itaque mihi, priusquam incipiam excitare aduersus uos tormenta.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="8">
+					<s>
+						<app>
+							<lem wit="#Transcription">Beatae autem uirgines quasi ex uno ore dixerunt regi, “Nobis tales promissiones non sunt necessariae.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Uocantem enim nos nouimus, qui et suscipiet nos tamquam filias perfectas.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">In hoc enim arma ueritatis suscepimus, ut totius versutiae tuae machinis resistere possimus, et eius qui ad caelos est ascensus ianuas apertas ingrediamur.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ergo si qua habere te existimes tormenta admoue, ut per ea discas uirtutem quae in nobis est Domini nostri Iesu Christi, et saluatoris nostri.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Repletus autem furore Adrianus imperator, uocans matrem uirginum dixit, “Secundum profectum crescentium: dic nomina filiarum tuarum.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quae respondens dixit, “Prima filiarum mearum dicitur Spes, tempus uero etatis eius anni sunt duodecim.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Secunda quidem annorum est decem, nomen uero eius est Fides.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tertia autem filia mea Caritas dicitur, anni autem eius sunt nouem.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="9">
+					<s>
+						<app>
+							<lem wit="#Transcription">Tunc imperator uocans Spem, dixit ad eam, “Immola magne et sacre Diane.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Spes uero respondens ait, “O insipientia cecitatis humane.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Derelinquere me iubes Dominum qui fecit uerbo uniuersa, et adorare idola sine anima, et lapides insensatos.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Audiens imperator hos sermones, ira repletus, iussit eam expoliari et uirgis caedi, donec consentiret immolare.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et duodecim centurionibus mutatis, tactus plagarum in corpore eius non parebant.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et iussit gladio amputare mammas eius, tunc omnes qui ad spectaculum uenerant, uidentes eius aetatem rudem, et eminentem pulchritudinem, aliquanto quidem cesam, aliquanto ferro percisam, clamabant populi et dicebant, “Quid enim mali aliquid gesserunt puelle, ut tale sumant paenam?”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">De loco uero unde mammae fuerant percise, lactis fons pro sanguine defluebat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="10">
+					<s>
+						<app>
+							<lem wit="#Transcription">Spes uero dicebat imperatori, “Hae sunt minae tuae antiquissime?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ecce tot ac tantis centurionibus fatigatis torquendo me; nichil sensit caro mea plagarum tuarum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Nec uirgarum tactus in corpore meo est.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Membra mea amputasti, sed uide inique pro sanguine lac in terram defluere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Existimas autem, quod per haec tormenta transferre possis propositum quod in Christo est fidei, et confessionis meae.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde audi tiranne et scelerate, quia et si uultis mea membra amputare, nec sic confundar.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ego enim solidata sum in Christo, et non negabo meum dominatorem.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="11">
+					<s>
+						<app>
+							<lem wit="#Transcription">Furens uero Adrianus imperator iussit afferri craticulam, et subter poni flammam ignis ualidam nimis, ita ut craticula similis fieret igni, et sic sanctam Dei uirginem proieceret super eam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Spes uero non curabat ignis incendia, sed requiescebat in craticula tanquam nauis in tranquillitate maris, non illi appropinquantibus undis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Exclamatur autem uoce magna dicens, “Domine Iesu Christe respice ancillam tuam, et ne facias minui terrores ignis, ut possim resistere aduersus machinationes tiranni istius, et dissolue eius temporalem uirtutem.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Transactis autem horarum trium spatiis, ignis non tetigit eam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Adrianus uero imperator iussit tolli eam a craticula et poni in sartaginem, et praecepit picem, ceram, et bitumen in unum commisceri, ut feruor intolerabilis de sartagine ascenderet.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Spes autem respiciens in caelum, et inuocans omnium saluatorem, proiecit se in sataginem, et sic super eam requiescebat, quasi in rore de caelo descendente.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="12">
+					<s>
+						<app>
+							<lem wit="#Transcription">Adrianus uero imperator merens effectus est, pro eo quod non posset persuadere ei, ut immolaret, neque perdere eam in his penis quas exquirere potuit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cogitabat autem qua pena eam consumeret, postea uero consilium habuit, ut eam gladio perderet.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Audiens beata Spes terminum aduersus se a rege difinitum, gaudens deprecabatur matrem suam ut oraret, ut imminentem sibi prospectum efficaciter consequeretur, dicebatque sororibus suis, </lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">“Scitis unicae meae sorores cui consociatae et a quo signate sumus, et ipsa mater nos genuit, quam nunc uidemus gaudentem in passionibus nostris, ut perfectas nos uideat.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ne ergo contristemus sanctam matrem nostram, quae nos nouem mensibus in utero portauit, et in singulis dolores et parturiones sustinuit, cuius et lac ab uberibus sanctis percepimus, quae erudiuit nos in Domini sapientia, in uitam eternam nos uocans.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ego enim sorores meae quia uado uiam quam Dominus donare dignatus est, hortor ut et uos in illam inuiolate ingrediamini.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">De cetero dulcissime sorores, rogo per uestigia mea gradiamini, et honoretis in ea fraternitatis cognitionem, ut bona et maxima promissione pariter perfruamur in regno caelorum.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="13">
+					<s>
+						<app>
+							<lem wit="#Transcription">Et haec dicens, conplexa est matrem suam et osculata est eam, et postulans orauit, gaudebat autem et exultabat in Domino.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Similiter quoque et sorores suas osculata est, et recedens ab eis praeparauit se ad gladium, extendens ceruicem.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mater uero et sorores clamabant dicentes, “Bene domina nostra alacriter accede ad consummationem, ne metuas gladium, sed perfecte bonam uiam uade, ut et nos animequiores effecte; in tuam uiam bonam ambulantes resistamus tiranno, deuincamusque eius uanam fortitudinem, et consequamur te abeuntem in caelis.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cumque futurum esset ut gladio feriretur Spes, attollens manus orauit dicens, “Benedico te Domine Iesu Christe, qui peccatricem ancillam tuam in hoc stadio confortasti.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Memento Domine castissime matris, et unius ventris partus, sororumque mearum consumma passiones.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Suscipe Domine animam meam, et extollentem se tyrannum ne differas, sed corripe eius furorem et iram.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et haec dicens, gladio percussa est.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mater uero eius complectens osculata est eam, gaudens et benedicens Deum.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Haec uenerabili morte consummata est.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="14">
+					<s>
+						<app>
+							<lem wit="#Transcription">Hadrianus uero imperator uocans ad se Fidem deprecari eam cepit et dicere, “Filia crede mihi quasi patri, et adora sacram et maximam Dianam, et salueris incolumis.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Fides respondit, ‘Scito rex, quia nichil proficies in insanis ac uanis uerbis oblectans me.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ego enim sorori subsisto ei, quae consummata est.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ne ergo seducas te ipsum, sed age quod uis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Per uniuersa enim crudelia tua tormenta poteris agnoscere, quia ipsa me et eam quae defuncta est mater una genuit.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Adrianus uero imperator audiens sermones hos, sciens eius responsis quia nichil praeualere posset, iussit spoliatam eam contundi neruis.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cum igitur cederetur ipsa, et sex mutatis centurionibus atque defatigatis, Fides indeclinanter subportabat tormenta.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mater autem stans ad corpus eius, orauit dicens, “Domine Iesu Christe da tolerantiam filiae meae, ut et ipsam videam beate certantem, et perfectam sicut priorem meam filiam Spem.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et haec matre orante, et multam letitiam percipiente, Fides exclamauit dicens, “Domine Deus meus qui militare me tibi fecisti, da mihi sufferentiam et uictoriam.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="15">
+					<s>
+						<app>
+							<lem wit="#Transcription">Repenteque ad regem respondit, “Tiranne nequissime, odiens homines, si quid putas tormentorum pessimorum habere te infer.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Experimento enim scies, quod Dei uirtus est in me.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Audiens igitur Adrianus seuiebat uehementer, et multum cogitabat qua pena eam posset consumere, et consiliatus cum suis consiliariis, iussit eam in ignem mitti.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Cumque ingrederetur Fides in ignem, statim flamma ignis emarcuit, et Fides erat in medio ignis, orans Dominem et dicens,</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">“Ne abicias me Domine ancillam tuam, sed fac in patientia meam animam tuam gratiam possidere, ut misericordiam inuenire possim in conspectu tuo, nequissimum autem tyrannum corripe in sua uoluntate.”</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Haec audiens Adrianus imperator, iussit eam suspensam torqueri, et cum torqueretur, de eius membris decidebant carnes, cum distillatione unguentorum aromatum bene fragrantiam.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Subridensque dixit, “Tu quidem tyranne uides me modo cruciari nimis istis paenis; te autem Deus noster in praesenti torquebit, et in aeternum cruciabit.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Meam quoque animam nichil tetigit, sed sum salua sicut tu nunc uides.” </lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="16">
+					<s>
+						<app>
+							<lem wit="#Transcription">Tunc Adrianus praecepit afferri haeneum kacabum et mitti in eum picem, adipem, ceram et resinam, et sic succendi.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Kacabo autem feruente, et mixtis iis quae in eo erant, cepit ignis accendere.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tunc Adrianus imperator iussit mitti in eum Fidem.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mox ministri praeceptum imperatoris impleuerunt, et cum misissent eam in incendium, statim kacabus ut cera resolutus est.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Et ex incendio ignis qui in eo fuit, non pauci inflammati sunt circumstantes infideles.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
