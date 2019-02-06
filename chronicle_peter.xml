@@ -13,11 +13,11 @@
 				<author>Fernão Lopes</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name>Leonardo Grão Velloso Damato Oliveira</name>
+					<name>Leonardo Grao Velloso</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Leonardo Grão Velloso Damato Oliveira</name>
+					<name>Leonardo Grao Velloso</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -56,11 +56,6 @@
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
-	<facsimile>
-		<graphic url="BNP_IL-123_1r.jpg" xml:id="BNP_IL-123_1r"/>
-		<graphic url="BNP_IL-123_1v.jpg" xml:id="BNP_IL-123_1v"/>
-		<graphic url="BNP_IL-123_2r.jpg" xml:id="BNP_IL-123_2r"/>
-	</facsimile>
 	<text>
 		<front>
 			<head>
@@ -84,20 +79,33 @@
 				</p>
 			</div>
 			<div n="2">
-				<pb ed="#Transcription" facs="#BNP_IL-123_1r"/>
-				<pb ed="#Translation"/>
-				<fw facs="#BNP_IL-123_1r" type="header" place="margin-topright"></fw>
 				<p n="1">
 					<s>
 						<app>
 							<lem wit="#Transcription">[D]Eixados os modos e diffinçoões da justiça que per desvairadas guisas muitos em seus livros escrevem, soomente daquella pera que o real poderio foy estabelleçido, que he por serem os maos castigados e os booms viverem em paz, he nossa entemçom neeste prollogo muito curtamente fallar, nom come buscador de novas razoões per propria invençom achadas, mas come ajumtador, em huum breve moolho, dos ditos dalguns que nos prouguerom.</lem>
-							<rdg wit="#Translation">Having left aside the types and definitions of justice, which many write about in unreasonable ways,  it is our intention to speak very briefly of justice alone, which is the reason why royal power exists, namely to punish the evil people and to allow the good ones to live in peace. We wish to speak about justice not as seekers of new ways of understanding, which are found using personal creativity, but as collectors of sayings from writers who have contented us.</rdg>
+							<rdg wit="#Translation">Having left aside the types and definitions of justice,
+								<note anchored="true">
+									<p>Scholars say that this strange beginning, referencing another text in which Lopes would have already presented a discussion about the definitions of justice, points to the existence of another prologue, possibly a prologue to a lost chronicle that he might have written before writing the <hi rend="italic">Chronicle of Peter I</hi>, or another prologue to this same chronicle.</p>
+								</note>
+							 which many write about in unreasonable ways,
+							 	<note anchored="true">
+							 		<p>The Portuguese original, <hi rend="italic">desvairadas guisas</hi>, implies a sense that the writings are disorganized, unreasonable for not having a logic. <hi rend="italic">Desvairada/o</hi> means “that which lost its way.” This way of writing anticipates the next argument, against invention as a proper way of explaining justice. Fernão Lopes promises to tread paths already taken by previous writers, but in a more systematic way than the ones he criticizes.</p>
+							 	</note>
+							  it is our intention to speak very briefly of justice alone, which is the reason why royal power exists, namely to punish the evil people and to allow the good ones to live in peace. We wish to speak about justice not as seekers of new ways of understanding, which are found using personal creativity, but as collectors of sayings from writers who have contented us.
+								<note anchored="true">
+									<p>The argument behind this image is very illuminating, as Fernão Lopes frames his work as a writer who collects <hi rend="italic">ditos</hi> (sayings) from other writers, as opposed to framing himself as an inventor of a new concept or way of explaining justice. Arguments that ascribe authority to previous writers were very common in late medieval historical writing.</p>
+								</note>
+							</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
 							<lem wit="#Transcription">A huma por espertar os que ouvirem que entendam parte do que falla a estoria, a outra por seguirmos enteiramente a hordem do nosso razoado; no primeiro prollogo ja tangida.</lem>
-							<rdg wit="#Translation">We write this history this way, on the one hand, to edify those who will hear it, so that they may understand part of what it is about, and on the other hand, to strictly follow the order of our own plan, which we have already touched upon in the first prologue.</rdg>
+							<rdg wit="#Translation">We write this history this way, on the one hand, to edify those who will hear it, so that they may understand part of what it is about, and on the other hand, to strictly follow the order of our own plan, which we have already touched upon in the first prologue.
+								<note anchored="true">
+									<p>See first note.</p>
+								</note>
+							</rdg>
 						</app>
 					</s>
 				</p>
@@ -105,7 +113,11 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">E por quanto elRey dom pedro, cujo regnado se segue, husou da justiça, de que a deos mais praz que cousa boa, que o Rey possa fazer segumdo os santos escrevem, e alguums desejam saber que virtude he esta, e pois he neçessaria ao Rey, se o he assi ao povoo: nos naquele stillo que o simpresmente apanhamos: o podees ler per esta maneira.</lem>
-							<rdg wit="#Translation">And given that the king, Lord Peter, whose reign is narrated in the following chronicle, ruled with justice—an act more pleasing to God than anything else that a king might do, according to the writings of the saints—, and given that some wish to know what kind of virtue justice is, because it is necessary for both the King and the people, we have simply collected examples from his reign in this writing, as we have pointed out, so that you may read about his use of justice in this way.</rdg>
+							<rdg wit="#Translation">And given that the king, Lord Peter, whose reign is narrated in the following chronicle, ruled with justice—an act more pleasing to God than anything else that a king might do, according to the writings of the saints—, and given that some wish to know what kind of virtue justice is, because it is necessary for both the King and the people, we have simply collected examples from his reign in this writing, as we have pointed out,
+								<note anchored="true">
+									<p>Lopes is here referring back to the sentence where he says he is writing “as collectors who collect sayings from some writers.” Emphasizing an important point through referring back to it in the text was very common among chroniclers and writers of long prose. The emphasis is that Lopes is not inventing a classification of justice, but collecting real examples and presenting them together as an explanation of the idea of justice that he found in authoritative sources.</p>
+								</note>
+							so that you may read about his use of justice in this way.</rdg>
 						</app>
 					</s>
 				</p>
@@ -118,12 +130,12 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">assy que, quallquer que he justo, este compre toda a virtude, Porque a justiça, assi como lei de deos, 
-								<pb ed="#Transcription" facs="#BNP_IL-123_1v"/>
-								<pb ed="#Translation"/>
-								<fw facs="#BNP_IL-123_1v" type="header" place="margin-topright"></fw>
-								defende que nom fornigues, nem sejas gargantom.</lem>
-							<rdg wit="#Translation">Thus, anyone who is just simultaneously performs all virtues, because justice itself commands that thou shalt not fornicate, neither wilt thou be a glutton, just like the Laws of God command.</rdg>
+							<lem wit="#Transcription">assy que, quallquer que he justo, este compre toda a virtude, Porque a justiça, assi como lei de deos, defende que nom fornigues, nem sejas gargantom.</lem>
+							<rdg wit="#Translation">Thus, anyone who is just simultaneously performs all virtues, because justice itself commands that <hi rend="italic">thou shalt not fornicate, neither wilt thou be a glutton</hi>, just like the Laws of God command.
+							<note anchored="true">
+								<p>This statement seems to paraphrase the ten commandments (see Exodus 20:1-17), but, in fact, neither of these commands are included among the ten.</p>
+							</note>
+							</rdg>
 						</app>
 					</s>
 					<s>
@@ -243,16 +255,17 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">A terçeira razom se mostra da perfeiçom da bondade; por que em tom dizemos alguma cousa seer perfeita, quando fazer pode alguma semelhante a si, E por tanto se chama huuma cousa boa: quanto sua bondade se pode estender a outros, ao menos se quer per exemplo.</lem>
-							<rdg wit="#Translation">The third reason comes from the perfection of goodness, because we may rightfully call something perfect when it can make something in its own likeness.  And so something may be called good when its goodness can extend to others, or at least when it presents itself as an example to others.</rdg>
+							<rdg wit="#Translation">The third reason comes from the perfection of goodness, because we may rightfully call something perfect when it can make something in its own likeness
+								<note anchored="true">
+									<p>This argument about perfection as the attribute of that which can make something in its own likeness recalls Neo-Platonic theology about the idea of god as beautiful and good. Just as god can make beautiful and good things because he is perfect, so does the goodness of the king may extend to his subjects because goodness itself is perfect.
+									</p>
+								</note>
+							.  And so something may be called good when its goodness can extend to others, or at least when it presents itself as an example to others.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">e entom se 
-								<pb ed="#Transcription" facs="#BNP_IL-123_2r"/>
-								<pb ed="#Translation"/>
-								<fw facs="#BNP_IL-123_2r" type="header" place="margin-topright"></fw>
-								mostra per pratica quanto cada huum he boom, quando he posto em senhorio.</lem>
+							<lem wit="#Transcription">e entom se mostra per pratica quanto cada huum he boom, quando he posto em senhorio.</lem>
 							<rdg wit="#Translation">Thus, it is through one’s own acts that one shows how good one is, especially when one is ruling.</rdg>
 						</app>
 					</s>
@@ -275,7 +288,11 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Desta virtude da justiça, que poucos acha que a queiram por ospeda posto que Rainha, e senhora seja das outras virtudes segundo diz tulio: husou muito elRey Dom Pedro, segundo veer podem os que desejam de o saber, leemdo parte de sua estoria.</lem>
-							<rdg wit="#Translation">The king, Lord Peter, made vast use of this virtue of justice, a virtue that not too many people want as a guest within them, given that justice is the queen and ruler of all other virtues as Tully has said, as whosoever may wish to know will see by reading this account of his history.</rdg>
+							<rdg wit="#Translation">The king, Lord Peter, made vast use of this virtue of justice, a virtue that not too many people want as a guest within them, given that justice is the queen and ruler of all other virtues as Tully
+							<note anchored="true">
+								<p>Marcus Tully Cicero (106 B.C.E – 43 B.C.E), Roman statesman, orator, consul, and philosopher.</p>
+							</note>
+							 has said, as whosoever may wish to know will see by reading this account of his history.</rdg>
 						</app>
 					</s>
 				</p>
@@ -283,7 +300,7 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">E pois que elle com boom desejo por natural enclinaçam, refreou os males regendo bem seu Reino, ainda que outras mingoas per el passassem de que peendença podia fazer: de cuidar he que ouve ho galardom da justiça, cuja folha e fruito he, honrrada fama neste mundo, e perdurável folgança no outro.</lem>
-							<rdg wit="#Translation"></rdg>
+							<rdg wit="#Translation">And since he, voluntarily and because of his natural inclination, checked the advance of evil by ruling his Kingdom well, even though some other imperfections came to pass in the kingdom, whose account we could provide, we must consider that there was in his time the gift of justice, whose laurel and fruit is honorable fame in this world, and lasting happiness in the other.</rdg>
 						</app>
 					</s>
 				</p>
