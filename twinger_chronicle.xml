@@ -1,0 +1,170 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Chronicle [Prologue]</title>
+				<author>Jakob Twinger von Königshofen</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mae Lyons-Penner</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Stanford University Library MSS Codex 1061</p>
+				<listWit>
+					<witness xml:id="Transcription">Cronica [vorrede]</witness>
+					<witness xml:id="Translation">Chronicle [Prologue]</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Chronicle [Prologue]" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+	        	<p>This is a diplomatic transcription. Abbreviations have been expanded and are marked by square brackets. The characters "u" and "v", and "i" and "j", have been used to differentiate vowel and consonant. Where it is not clear whether a character is majuscule or minuscule, the transcriber has made a silent decision.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+					<p>The text has been segmented into sentences by the translator.</p>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="Stanford_MSS_Codex_1061.jpg" xml:id="Stanford_MSS_Codex_1061"/>
+	</facsimile>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">hie vohet an die vorrede In diser Cronica</lem>
+						<rdg wit="#Translation">Here begins the prologue to this chronicle</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<pb ed="#Transcription" facs="#Stanford_MSS_Codex_1061"/>
+			<fw facs="#Stanford_MSS_Codex_1061" type="header" place="margin-topright"></fw>
+			<div n="1">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">Man vindet in latine vil cronicken geschriben dz sint bücher von der zit die do sagent von keisern Bebsten un[d] von künigen un[d] ouch von anderen h[e]ren wie ir leben ist gesin und vo[n] etliche[n] geschihte[n] und manhafftigen dingen die vo[n] in oder bÿ iren zite[n] geschehen sint</lem>
+							<rdg wit="#Translation">One finds many chronicles written in Latin. They are books about time, which tell of emperors, popes, kings and of other lords too: how their lives were, and some events, and brave things that they did or which happened in their lifetimes.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Aber zů t[e]utsche vindet ma[n] sölicher bücher gar wenig wie doch etliche klůge leyen gern lesen von söliche[n] dingen als gelert pfaffen</lem>
+							<rdg wit="#Translation">But in German one finds very few such books, although some clever laypeople like to read about such things, just as educated priests do.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ouch hant die l[e]ute me lustes zů lesende von n[e]ueren dingen den[n] von alten un[d] ist doch von den striten Risen und vo[n] den anderen manhafftigen dingen die by n[e]ueren ziten sint geschehen aller min[n]est geschr[iben]</lem>
+							<rdg wit="#Translation">Also, people have more desire to read about more recent things than about ancient things and yet hardly anything has been written about the conflicts and voyages and other valiant things which have happened in recent times.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Darumb wil ich Jacob vo[n] künigßhofen ein priester zů Straßburg zů t[e]utsche schriben uß der cronicken die Martin[us] und Vincentius gemaht hand und uß andern büchern etliche ding die mich aller fürnemost un[d] lüstelich zů lesende duncke[n] und sunderlich von etlichen namhafftigen dingen die zů Straßb[ur]g od[er] zů Elsäß und in den landen nahe da by sint beschehen un[d] wil ouch zů yedem dinge setzen die zal der Jare von gottes gebürte dz ma[n] wissen und gerechen möge wie lang es sï dz es geschah od[er] aber bÿ welhes keysers oder küniges ziten geschehen sï dan[n] es spricht meister hugo vo[n] florencie dz ein geschehen ding von dem man nutz [NOTE scribal error] gesagen kan in welhem Jor oder by welhes küniges ziten es geschehen sï dz sol man sagen für ein sag mer un[d] nit für ein ware mere</lem>
+							<rdg wit="#Translation">Therefore I, Jacob von Königshofen, a priest in Strasbourg, shall put into German - drawing from the chronicles by Martinus and Vincentius as well as from other books - some things which seem to me of greatest importance and delightful to read; I shall especially write about some noteworthy things which have happened in Strasbourg or in Alsace and in the surrounding lands and I shall affix to each thing the number of years from God’s birth [NOTE] so that one may know and calculate how long ago it happened, or else in the times of which emperor or king it took place. For Master Hugo of Florence says that if something has happened but one cannot say in which year, or in the lifetime of which king, then one must treat it as an invented story and not as a true account.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ouch han ich zů den dingen die vor gottes gebürt geschehen sint gesetzt so vil jare als es was vor gottes geburt oder aber so vil jare als von Adam wz unz vff die zit als dz selbe ding geschah dz man ouch ein yegliches dinge un[d] materie die in disem bůch geschr[iben] stat dester baß gesůchen un[d] gefinden ku[e]nde Wo se stande dar umb hab ich dz bůch in sechs Capitel dz ist in sehs teil geteilt und wil hie mit kurtzen worte[n] vor begriffen von wz materie yeglich Capitel seit</lem>
+							<rdg wit="#Translation">For things which happened before God’s birth, I have also given the number of years before God’s birth, or else the number of years since Adam, that the thing happened. In order that one may better search and find the location of any thing or any matter that is written about in this book, I have divided it into six chapters, that is, into six parts, and here I shall briefly touch on the matter discussed in each chapter.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Und stot by yede[m] Capitel ein zal geschriben mit roter dinte die bezeich[n]et an welhem blatte an disem bůche dz selbe Capitel an vahet</lem>
+							<rdg wit="#Translation">And next to each chapter is a number in red ink which indicates the page in the book where that chapter begins. [NOTE]</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">dz erste capitel seit wie got die welt an vieng un[d] hymel und erde un[d] alle creatur beschuff von Adam un[d] von andern altvettern wie die Juden gefangen ware[n]t in Egipten lant die Moyses erledigte</lem>
+							<rdg wit="#Translation">The first chapter tells how God began the world and made heaven and earth and all the creatures; of Adam and of other ancient ancestors; how the Jews were captured in Egypt and were freed by Moses;</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Item vo[n] david un[d] von anderen künigen der Juden und der heyden untz an Julium den ersten keiser zů Rome</lem>
+							<rdg wit="#Translation">also of David and of other kings of the Jews and of the pagans up to Julius, the first emperor in Rome.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">under disen dingen wurt ouch geseit von der sint fluße vo[n] Troye un[d] [v]on dem grossen Allexander un[d] von den andern dingen die zů den ziten gewesen sint</lem>
+							<rdg wit="#Translation">Among these things, it also discusses the Flood, Troy, Alexander the Great, and other things that happened during those times.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dz ander Capitel seit von den keisern und Römschen künigen die do sint gewesen von gottes geburt unz man zalt tusent dr[e]ihundert un[d] n[e]unzig jar und seit ouch von iren geteten und leben und von anderen dingen die zů iren ziten geschehen sint un[d] vahet diß Capitel an der zal der bletter an</lem>
+							<rdg wit="#Translation">The second chapter tells of the emperors and the Roman kings from God’s birth [NOTE] until the year 1390 and also tells of their deeds and lives and of other things that happened during their times. This chapter begins on page number [NOTE].</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Das dritte capitel seit von allen den bebsten die sider gotz geburten gewesen sint und ouch von andern dingen *</lem>
+							<rdg wit="#Translation">The third chapter tells of all the popes since the birth of God [NOTE] and also of other things. * [NOTE]</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Item by einem yeglichem ding in dem sechsten capitel bet[e]utet die nach genden zahl do bÿ die jare von gottes gebürt die man do zů mal zalt do es geschah und die Rot zal do vor die bet[e]utet ein zal der bletter dis bůchß do die selbe materie gantz geschriben ist und dis Capitel hand hie ein ende</lem>
+							<rdg wit="#Translation">For every thing that is reported in the sixth chapter, the number that follows indicates the number of years that one must count from God’s birth until the time that it happened; the red number before it indicates a page number in this book where the same material is described in full [NOTE]. And here this chapter ends.</rdg>
+						</app>
+					</s>
+				</p>
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">*Dz vierde capittel ist vo[n] alle[n] byshöfen zů strosb[ur]g un[d] etwz vo[n] ire[n] getete[n]</lem>
+							<rdg wit="#Translation">* The fourth chapter is about all the bishops of Strasbourg and discusses some of their deeds.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Dz fu[e]nfte seit vo[n] weme die stat strosb[ur]g un[d] dz la[n]t by de[m] rine sine[n] urspru[n]g het un[d] wie es zů cristen[n] gloube[n] bekert wart un[d] vo[n] strite[n] reyse[n] geschelle[n] un[d] anderu[n]gen un[d] and[er]n nenhaftige[n] dinge[n] die do geshohe[n] sint</lem>
+							<rdg wit="#Translation">The fifth says who founded the city of Strasbourg and the land on the Rhine and how it was converted to the Christian faith, and tells of conflicts, voyages, disputes, changes and other noteworthy things that happened there.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -73,6 +73,12 @@
 			</head>
 		</front>
 		<body>
+			<pb ed="#Transcription" facs="#BNP_IL-123_1r"/>
+			<pb ed="#Transcription" facs="#BNP_IL-123_1v"/>
+			<pb ed="#Transcription" facs="#BNP_IL-123_2r"/>
+			<fw facs="#BNP_IL-123_1r" type="header" place="margin-topright"></fw>
+			<fw facs="#BNP_IL-123_1v" type="header" place="margin-topright"></fw>
+			<fw facs="#BNP_IL-123_2r" type="header" place="margin-topright"></fw>
 			<div n="1">
 				<p>
 					<s>
@@ -83,12 +89,6 @@
 					</s>
 				</p>
 			</div>
-			<pb ed="#Transcription" facs="#BNP_IL-123_1r"/>
-			<pb ed="#Transcription" facs="#BNP_IL-123_1v"/>
-			<pb ed="#Transcription" facs="#BNP_IL-123_2r"/>
-			<fw facs="BNP_IL-123_1r" type="header" place="margin-topright"></fw>
-			<fw facs="BNP_IL-123_1v" type="header" place="margin-topright"></fw>
-			<fw facs="BNP_IL-123_2r" type="header" place="margin-topright"></fw>
 			<div n="2">
 				<p n="1">
 					<s>
