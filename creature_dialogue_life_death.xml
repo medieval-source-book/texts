@@ -233,26 +233,7 @@
 							</rdg>
 						</app>
 					</s>
-<<<<<<< HEAD
-
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lhgh bcvem>--></p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p><!--This is an example note--></p>
-								</note>
-							</rdg>
-						</app>
-					</s>
-=======
->>>>>>> 2d1c1329babbc72cc5f13d420cb7a8e33b74e987
 				</p>
-
 				<p n="5">
 					<s>
 						<app>
@@ -431,6 +412,54 @@
 				</p>
 
 				<p n="8">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="9">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="10">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="11">
 					<s>
 						<app>
 							<lem wit="#Transcription">
