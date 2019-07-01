@@ -194,7 +194,7 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Ait idem: debemus nos porttare, quod non possumus vitare.</lem>
+							<lem wit="#Transcription">Ait idem: debemus nos portare, quod non possumus vitare.</lem>
 							<rdg wit="#Translation">He also writes: ‘We must bear that which we cannot avoid.’
 								<note anchored="true">
 									<p>An approximation of Sen. Vit. Beat. 15.7: Ad hoc sacramentum adacti sumus, ferre mortalia nec perturbari iis, quae vitare non est nostrae potestatis (‘This is the sacred obligation by which we are bound – to submit to the human lot, and not to be disquieted by those things which we have no power to avoid’). </p>
@@ -234,7 +234,6 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 							</rdg>
 						</app>
 					</s>
-
 				</p>
 				<p n="4">
 					<s>
@@ -252,6 +251,81 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 						</app>
 					</s>
 				</p>
+				<p n="5">
+					<s>
+						<app>
+							<lem wit="#Transcription">Narra Hieronimus, quod sanctta quædam et nobilissima nulier, cum corpusculum mariti sui defuncti, quem amabatt et quem ploraba, adhuc non esset humatum, in ipso sepulutræ ejus die duos simul perdidi filios.</lem>
+							<rdg wit="#Translation">Jerome relates that a certain holy woman, of the utmost nobility, while the body of her deceased husband – whom she had loved and lamented – was yet unburied, lost her two sons on the very day that the burial was to take place. </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Rem sum dictutrus incredibilem, sed Christo tteste non falsam.</lem>
+							<rdg wit="#Translation">I am going to tell an unbelievable thing, but one which is not false, as Christ is my witness.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quis illam non puttaret passis crinibus, veste conscissa lacerantem pecuts incedere?</lem>
+							<rdg wit="#Translation">Who would not think that she would have loosened her hair, torn her clothes, and scratched her breast? </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Lacrynmæ quidem gutta non fluxit, stetit immonilis ett advolutta ad pedes Christi, quasi ipsum tteneret, ait: expedita, inquit, servitura sum, domine, tibi, quia me a tantto onere liberasti.</lem>
+							<rdg wit="#Translation">Yet not even one tear fell from her eyes. She stood motionless and prostrated herself at the feet of Christ, as though she held Him in her hands, and said: ‘I shall serve you readily in future, Lord, because you have freed me from such a great burden.’
+									<note anchored="true">
+									<p>Paraphrased very closely from Hier. Ep. 39.4. Significantly, the first-person aside (‘I am going to tell…as Christ is my witness’) is not an address to the reader on the part of the Dialogus’ author, but lifted near-directly (with teste Christo in the original instead of Christo teste) from Jerome’s narration.</p>
+								</note>
+							</rdg>
+						</app>
+					</s>	
+				</p>
+				<p n="6">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="7">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="8">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>				
 			</div>
 		</body>
 	</text>
