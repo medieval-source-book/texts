@@ -505,15 +505,42 @@
 				<p n="9">
 					<s>
 						<app>
-							<lem wit="#Transcription">
+							<lem wit="#Transcription">Ecce gloria mundi qualiter clauditur!</lem>
+							<rdg wit="#Translation">Look how the glory of the world is confined!</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Clauditur in fovea fœtidissima, ubi ejus cor marcescit, emarcescunt oculi in sua fortitudine, aures cadunt de capite, nasus exstirpatur de facie, lingua putrescit in ore, co ejus crepat in corpore.</lem>
+							<rdg wit="#Translation">It is confined in the most stinking pit, where its heart withers. The eyes, too, wither in their strength, and the ears fall from the head. The nose is uprooted from the face, the tongue rots in the mouth, and the heart rattles in the body.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sed heu, heu mihi, domine, quid oculi delectabuntur videre pulchra, aures audire vana, nasus odorare suavia, lingua loqui turpia et inutilia, os degustare dulcia, cor cogitare vana et vilia.</lem>
+							<rdg wit="#Translation">But alas, alas for me, Lord: why will my eyes be pleased to see that which is beautiful, my ears to hear vanities, my nose to smell delicious things, my tongue to speak foul and useless words, my mouth to taste sweet foods, and my heart to ponder what is vain and inconsequential? </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde Bernardus: quid superbis, pulvis et cinis, cujus conceptus culpa, nasci miseria, vivere pœna et mori angustia?</lem>
+							<rdg wit="#Translation">Hence Bernard: ‘Why are you proud, dust and ash, having been conceived in sin and born in misery, to live in punishment and die in difficulty?’
 								<note anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+									<p>[Ps.-]Bernard of Clairvaux, Meditationes de humana conditione, PL 184, 0490B.</p>
 								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p><!--This is an example note--></p>
-								</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Praecipue enim, cum miser homo ad mortem vel ad senectutem declinat, cor ejus concutitur, caput affligitur, langnet spiritus, fœtet anhelitus, facies regatur, sttura curvatur, caligant oculi, vacillant articuli, nares defluunt, crines deficiunt, dentes putrescunt, vires amittit, modo lætus modo tristis modo informus efficitur.</lem>
+							<rdg wit="#Translation">After all, especially when a wretched man declines into death or old age, his heart is shaken and his head afflicted; his spirit languishes, breath stinks, face is wrinkled, spine curves, eyes grow foggy, joints waver, nostrils droop, hair disappears, teeth rot, and he loses his strength. He is first made happy, then sad, and then weak.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">O conditio misera, quare non advertis, quam miserabilis sit hæc vita?</lem>
+							<rdg wit="#Translation">O wretched condition, why do you not notice how miserable this life is? 
 							</rdg>
 						</app>
 					</s>
