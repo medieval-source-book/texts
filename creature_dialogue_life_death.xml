@@ -73,86 +73,140 @@
 				<p n="1">
 					<!--Paragraphs should be numbered-->
 					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
 						<app>
 							<lem wit="#Transcription">Mors secundum philosophum et æternum somnus, diviyum pavor, pauperum desiderium, incurabilis eventus, latro hominis, fuga vitæ, resolutio hominis.  </lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
-						</app>
-					</s>
-					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
-						<app>
-							<lem wit="#Transcription">Vita vero est bonorum lætitia, miserorum mœstitia.</lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
-						</app>
-					</s>
-					<s>
-
-						<app>
-							<lem wit="#Transcription">Vita vero est bonorum lætitia, miserorum mœstitia.</lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
+							<rdg wit="#Translation">Death, according to the Philosopher, is eternal sleep, the fear of the wealthy, tthe desire of th epoor, an irremediable outcome, the banditt of mankind, the rout of life, and Man's release.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
 							<lem wit="#Transcription">Vita vero est bonorum lætitia, miserorum mœstitia.</lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
+							<rdg wit="#Translation">Life, on the contrary, is the delight of the good and the grief of the evil.</rdg>
 						</app>
 					</s>
 					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
 						<app>
 							<lem wit="#Transcription">Et homo quidam juvenis formosus, immutabilis, misere mei et exaudi me, supplicium, quod a te exspecto, noli emittere ad me, aurum et argentum, lapides et quid quid vis, tibi dabo, tamtumnodo noli me tangere.</lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
+							<rdg wit="#Translation">Some young man, handsome, wealthy, strong, and healthy, approaches death and says: ‘O unchangeable Destiny, have pity upon me and hear my entreaty: that you not visit upon me the punishment which I expect from you. I shall give you gold and silver, precious stones, slaves
+								<note anchored="true">
+									<p>Mancipia often refers to property more generally; however, as possessiones is mentioned within this sentence, it is likely that the author refers to ‘slaves’, who along with ‘horses’ – the next item listed – would reasonably have populated the promised ‘estates, manors, palaces’, etc. </p>
+								</note>
+							, horses, estates, manors, palaces, property, and whatever you want, as long as you do not lay hands upon me.’ 
+							</rdg>
 						</app>
 					</s>
 				</p>
-
 				<p n="2">
 					<s>
 						<app>
-							<lem wit="#Transcription">Cui mors: impossibilia petis, o frater, non sunt petenda a Deonisi honesta et possibilia ideoque non sapienter locutus es,
-								quia dicitur homini, mors ubique te exspeetat et tu, si sapiens fueris, ubique eam exspeetabis.</lem>
-							<rdg wit="#Translation">Death said to him: ‘O brother, you ask for that which is impossible, and you should not ask anything from God unless that which is honorable and possible. Hence, you have not spoken wisely, and indeed it is said to Man, “Death awaits you everywhere and if you are wise, you shall expect Her everywhere too.”</rdg>
-						</app>
-					</s>
-
-					<s>
-						<app>
-							<lem wit="#Transcription">Dicitur enim Psalm. LXXXVUI: quis est homo, qui vivit et non videbit mortem? quasi dicat, nullus.</lem>
-							<rdg wit="#Translation">After all, Psalm 88 says “What man can live and not see death?”
+							<lem wit="#Transcription">
 								<note anchored="true">
-									<p> Psalm 88:49.</p>
+									<p>Cui mors : impossibilia petis , o frater , non sunt petenda a Deonisi honesta et possibilia ideoque non sapienter locutus es,
+										.... quia dicitur homini, mors ubique te exspeetat et tu, si sapiens fueris, ubique eam exspeetabis.</p>
 								</note>
-							as if to mean that there is no such man.</rdg>
-						</app>
-					</s>
-
-					<s>
-						<app>
-							<lem wit="#Transcription">Unde versus: per nullam sortem poteris evadere mortem.</lem>
-							<rdg wit="#Translation">Hence the verse: “You shall not be able to avoid death through any act of Fate.”
-								<note anchored = "true">
-									<p>A popular memento mori verse, inscribed below a painting in the 14th-century Benedictine monastery of Sacro Speco in Subiaco.</p>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p>Death said to him: ‘O brother, you ask for that which is impossible, and you should not ask anything from God unless that which is honorable and possible.Hence, you have not spoken wisely, and indeed it is said to Man, “Death awaits you everywhere and if you are wise, you shall expect Her everywhere too.”</p>
 								</note>
 							</rdg>
 						</app>
 					</s>
-
 					<s>
+						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
 						<app>
-							<lem wit="#Transcription">Mors resecat, mors omne necat, quod carne creatur.</lem>
-							<rdg wit="#Translation"> Death cuts off and kills everything which is created in flesh;</rdg>
+							<lem wit="#Transcription">Dicitur enim Psalm. LXXXVUI:quis est homo, qui vivit et non videbit mortem?</lem>
+							<rdg wit="#Translation">Dicitur enim Psalm. LXXXVUI: quis est homo, qui vivit et non videbit mortem?</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
-							<lem wit="#Transcription">Ergo patieuter recipe me , quia tibi nihil novi veni facere.</lem>
-							<rdg wit="#Translation"> accept me with equanimity, since I have not come to do anything out of the ordinary to you.’
-								<note anchored = "true">
-									<p>There is no indication as to when Death’s speech ends, but this point is a logical break, and the narrator certainly takes over by the end of this dialogue, for Death would ostensibly not end his speech with an ‘Amen’.</p>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p>quasi dicat, nullus. Unde versus: per nullam sortem poteris evadere mortem.</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p>Hence the verse: “You shall not be able to avoid death through any act of Fate.”</p>
 								</note>
 							</rdg>
 						</app>
 					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo patieuter recipe me , quia tibi nihil novi veni facere.</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo
+patieuter recipe me , quia tibi nihil novi veni facere.</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="3">
+					<s>
+						<app>
+							<lem wit="#Transcription">Ait enim Seneca: nemo tam imperitus est, ut nesciat se aliquando moriturum.</lem>
+							<rdg wit="#Translation">
+							After all, Seneca writes: ‘No one is so ignorant that he does 
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tamen, mors eum propere accesserit, tremis, ploras.</lem>
+							<rdg wit="#Translation">nevertheless, when death draws near, you tremble and cry.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quid fles, quid ploras, quia morieris, ad hanc legem natus?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quid tibi novi est?</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ad hanc legem natum es, hoc patri tuo accidit, hoc et matri et majoribus tuis, hoc omnibus ante tte, hoc omnibus post te, vita enim cum exceptione morttis data non est.</lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+
+				</p>
+				<p n="4">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
