@@ -233,6 +233,24 @@
 							</rdg>
 						</app>
 					</s>
+<<<<<<< HEAD
+
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lhgh bcvem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+=======
+>>>>>>> 2d1c1329babbc72cc5f13d420cb7a8e33b74e987
 				</p>
 
 				<p n="5">
@@ -346,16 +364,68 @@
 				<p n="7">
 					<s>
 						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p><!--This is an example note--></p>
-								</note>
-							</rdg>
+							<lem wit="#Transcription">Recitat Alfonsus in tractatu suo de prudentia, quod mortuo Alexandro, cum fieret ei sepulchrum aureum, conveneruntt ad eum plurimi philosophi, ex quibus unus dixit:</lem>
+							<rdg wit="#Translation">[St.] Alphonsus relates in his essay on wisdom that when Alexander died and a golden tomb was constructed for him, many philosophers gathered before it. One of them said,</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alexander ex auro fecit tthesaurum, nunc e contrario aurum de eo fevit thesaurum.</lem>
+							<rdg wit="#Translation">‘Alexander made a treasure out of gold, but now on the contrary it is gold which has made a treasure out of him.’</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius quoque dixit: Alexander heri populis imperabat, hobie populi imperant illi.</lem>
+							<rdg wit="#Translation">Moreover, another said: ‘Yesterday Alexander was leading his people, but today he is being led by the people.’</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius vero dixit: heri Alexander multos potuisset a morte liberare, hodie ipsius mortis jacula in se missa non potuit evitare.</lem>
+							<rdg wit="#Translation">Another, however, said:'Yesterday Alexander would have liberate many from death, today he cannot avoid sending the spike of his own death into himself.'</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius dixit: Alexander heri ducebat exercitum, hodie ab illis ducitur ad sepulturam.</lem>
+							<rdg wit="#Translation">Another said: ‘Yesterday Alexander was leading his army, but today he is being led by them to his burial.’ </rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius dixit: Alexander heri terram premebat et hodie ab ea premitur ipse.</lem>
+							<rdg wit="#Translation">Another said: ‘Yesterday Alexander weighed down the earth, but today he himself is being weighed down by it.’</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius dixit: heri Alexandrum gentes timebant, hodie eum vilem reputant.</lem>
+							<rdg wit="#Translation">Another said: ‘Yesterday the peoples feared Alexander, but today they hold him in contempt.’</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius dixit: Alexander heri amicos  hahuit, hodie æquales omnes habet.</lem>
+							<rdg wit="#Translation">Another said: ‘Yesterday Alexander had friends, but today he considers all men his equals.’</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Alius dixit: ei heri non sufficiebat totus mundus, hodie sepultura quinque pedum est contentus.</lem>
+							<rdg wit="#Translation">Another said: ‘Yesterday the entire world did not suffice for him, but today he is content with a grave spanning five feet.’</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Si quis ista consideraret, dictis, modis se refrenaret.</lem>
+							<rdg wit="#Translation">If anyone should consider these words, let him restrain himself within the allotted bounds.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
 				</p>
