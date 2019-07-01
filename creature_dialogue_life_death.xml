@@ -97,64 +97,14 @@
 					</s>
 				</p>
 				<p n="2">
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p>Cui mors : impossibilia petis , o frater , non sunt petenda a Deonisi honesta et possibilia ideoque non sapienter locutus es,
-										quia dicitur homini, mors ubique te exspeetat et tu, si sapiens fueris, ubique eam exspeetabis.</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p>Death said to him: ‘O brother, you ask for that which is impossible, and you should not ask anything from God unless that which is honorable and possible.Hence, you have not spoken wisely, and indeed it is said to Man, “Death awaits you everywhere and if you are wise, you shall expect Her everywhere too.”</p>
-								</note>
-							</rdg>
-						</app>
-					</s>
-					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
-						<app>
-							<lem wit="#Transcription">Dicitur enim Psalm. LXXXVUI:quis est homo, qui vivit et non videbit mortem?</lem>
-							<rdg wit="#Translation">Dicitur enim Psalm. LXXXVUI: quis est homo, qui vivit et non videbit mortem?</rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p>quasi dicat, nullus. Unde versus: per nullam sortem poteris evadere mortem.</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p>Hence the verse: “You shall not be able to avoid death through any act of Fate.”</p>
-								</note>
-							</rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo patieuter recipe me , quia tibi nihil novi veni facere.</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo
-patieuter recipe me , quia tibi nihil novi veni facere.</p>
-								</note>
-							</rdg>
-						</app>
-					</s>
+
 				</p>
+
 				<p n="3">
 					<s>
 						<app>
 							<lem wit="#Transcription">Ait enim Seneca: nemo tam imperitus est, ut nesciat se aliquando moriturum.</lem>
-							<rdg wit="#Translation">
-							After all, Seneca writes: ‘No one is so ignorant that he does
+							<rdg wit="#Translation">After all, Seneca writes: ‘No one is so ignorant that he does
 							</rdg>
 						</app>
 					</s>
@@ -268,21 +218,22 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 
 					<s>
 						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation">In the same place, Valerius reports that Xenophon, having heard of the death of his elder son, who had fallen in battle, was content merely to take off his garland, for he was conducting a regular sacrifice.</rdg>
+							<lem wit="#Transcription">Ibidem, quod Xenophon auclita morte filii sui majoris natu, qui in bello oeeiderat, coronam tarnen deponere contentus fuit.</lem>
+							<rdg wit="#Translation">In the same place, Valerius reports that Xenophon, having heard of the death of his elder son, who had fallen in battle, was content merely to take off his garland.</rdg>
 						</app>
 					</s>
 
 					<s>
 						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation">When he then asked how his son had died, and learned that he had perished while fighting most courageously, he replaced the garland upon his head and called the gods to whom he was sacrificing to witness that he felt more pleasure from his son’s bravery than bitterness from his death.
+							<lem wit="#Transcription">Agebat enim solemne sacrificium, deinde per25 contatus, quomodo oeeubuisset, ut audivit fortissime puguantem interiisse, capiti reposuit coronam et per numina, quibus sacrificabat , testatus est , majorem se ex virtute filii voluptatem quam ex morte amaritudinem sentire.</lem>
+							<rdg wit="#Translation">For instance, he was conducting a regular sacrifice, when he then asked how his son had died, and learned that he had perished while fighting most courageously, he replaced the garland upon his head and called the gods to whom he was sacrificing to witness that he felt more pleasure from his son’s bravery than bitterness from his death.
 								<note anchored="true">
 									<p>A summary, or rather a restructuring with large parts of the original Latin kept intact, of Val. Max. 5.10 ext.2. </p>
 								</note>
 							</rdg>
 						</app>
 					</s>
+<<<<<<< HEAD
 
 					<s>
 						<app>
@@ -298,7 +249,10 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 							</rdg>
 						</app>
 					</s>
+=======
+>>>>>>> 2d1c1329babbc72cc5f13d420cb7a8e33b74e987
 				</p>
+
 				<p n="5">
 					<s>
 						<app>
@@ -327,21 +281,86 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 								</note>
 							</rdg>
 						</app>
-					</s>	
+					</s>
 				</p>
+
 				<p n="6">
 					<s>
 						<app>
-							<lem wit="#Transcription">
+							<lem wit="#Transcription">Legitur in Chronicis imperatorum, quod uxor Octaviani tumulavit quendam filium suum nomine Drusum, et licet esset pagana, tarnen per magnum sensuui naturalem exsistentera. in se , deposuit omuia signa moeroris dicens: quid prodest timere, quod non potest evitari, et flere, quod, dum venerit, non potest revocari ?
 							</lem>
-							<rdg wit="#Translation">
+							<rdg wit="#Translation">One reads in the chronicles of the emperors that Octavian’s wife buried one of her sons by the name of Drusus, and even though she was a pagan, she nevertheless shed all signs of her grief through the help of some great and natural feeling which existed within her, saying, ‘What is the use of fearing that which cannot be avoided, and of weeping over that which cannot be called off once it has arrived?’
 								<note anchored="true">
-									<p><!--This is an example note--></p>
+									<p>Source untraceable; most likely from one of the hundreds of versions of Martin of Opava’s Chronicon Pontificum et Imperatorum (‘Chronicle of the Popes and Emperors’).</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde Seneca : nou affligitur sapiens filiorum amissione nee amicorum , eodem modo ferre potest illorum mortem, quo suam exspeetat.
+							</lem>
+							<rdg wit="#Translation">Hence Seneca: ‘The wise man is distressed neither by the loss of his sons nor that of his friends; he can endure their deaths in the same way as he expects his own.’
+								<note anchored="true">
+									<p>Sen. Ep. 74.30, slightly simplified; the original liberorum (‘children’) has been changed to filiorum (‘sons’), and eodem animo (‘in the same spirit’) to eodem modo (‘in the same way’). </p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Et quidem memoria mortis est quocldam frenum refrenans hominem, ne nimis effluat et discurrat per latitudines cupiditatum et libidinum.
+							</lem>
+							<rdg wit="#Translation">And indeed the memory of death is a type of harness which reins in Man, lest he should conduct himself too freely and run wild through the latitudes of his desires and lusts.
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mortis meditatio summa est philosophia, ut dicit Plato.
+							</lem>
+							<rdg wit="#Translation">As Plato says, ‘Practising how to die is the highest form of philosophy.’
+								<note anchored="true">
+									<p>The term meditatio mortis is distinctively Senecan (Sen. Ep. 54.2) but often associated with Plato’s Phaedo, where Socrates repeatedly associates this phrase (μελέτη θανάτου) with philosophy. </p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde dicitur in Vita Johannis elemosinarii, quod antiquitus, postquam imperator coronatus erat, statim ingrediebantur ad eum aedificatores monumentorum dicentes eidem: de quo vel de quali metallo jubes, imperator, fieri monumentum tuum ?
+							</lem>
+							<rdg wit="#Translation">Hence it is said in the Life of John the Almsgiver that in ancient times, after an emperor was crowned, builders of monuments would immediately go up to him and say: ‘From what or what sort of metal, Emperor, do you command your monument to be made?’
+								<note anchored="true">
+									<p>Paraphrased from the life of John (De sancto Iohanne Elemosinario), chapter 27 of the Golden Legend.</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Insinuantes hoc ei, ut sciret, quod bomo corruptibilis et transitorius esset, ut curam baberet animse suae et regnum pie disponeret et gubernaret, juxta illud Eccl.
+							</lem>
+							<rdg wit="#Translation">They made this suggestion to him so he would know that Man is destructible and fleeting, and would take thought for his soul by organizing as well as governing his kingdom with piety,
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">VII : memorare novissima tua et in aeternum non peccabis?
+							</lem>
+							<rdg wit="#Translation">according to that saying from Ecclesiastes 7: ‘Be mindful of your final end, and you shall never sin.
+								<note anchored="true">
+									<p>Ecclesiastes 7:40.</p>
 								</note>
 							</rdg>
 						</app>
 					</s>
 				</p>
+
 				<p n="7">
 					<s>
 						<app>
@@ -410,6 +429,7 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 						</app>
 					</s>
 				</p>
+
 				<p n="8">
 					<s>
 						<app>
@@ -425,7 +445,7 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 							</rdg>
 						</app>
 					</s>
-				</p>				
+				</p>
 			</div>
 		</body>
 	</text>
