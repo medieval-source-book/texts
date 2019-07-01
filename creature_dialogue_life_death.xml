@@ -233,22 +233,8 @@
 							</rdg>
 						</app>
 					</s>
-
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p><!--This is an example note--></p>
-								</note>
-							</rdg>
-						</app>
-					</s>
 				</p>
+
 				<p n="5">
 					<s>
 						<app>
@@ -277,21 +263,86 @@
 								</note>
 							</rdg>
 						</app>
-					</s>	
+					</s>
 				</p>
+
 				<p n="6">
 					<s>
 						<app>
-							<lem wit="#Transcription">
+							<lem wit="#Transcription">Legitur in Chronicis imperatorum, quod uxor Octaviani tumulavit quendam filium suum nomine Drusum, et licet esset pagana, tarnen per magnum sensuui naturalem exsistentera. in se , deposuit omuia signa moeroris dicens: quid prodest timere, quod non potest evitari, et flere, quod, dum venerit, non potest revocari ?
 							</lem>
-							<rdg wit="#Translation">
+							<rdg wit="#Translation">One reads in the chronicles of the emperors that Octavian’s wife buried one of her sons by the name of Drusus, and even though she was a pagan, she nevertheless shed all signs of her grief through the help of some great and natural feeling which existed within her, saying, ‘What is the use of fearing that which cannot be avoided, and of weeping over that which cannot be called off once it has arrived?’
 								<note anchored="true">
-									<p><!--This is an example note--></p>
+									<p>Source untraceable; most likely from one of the hundreds of versions of Martin of Opava’s Chronicon Pontificum et Imperatorum (‘Chronicle of the Popes and Emperors’).</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde Seneca : nou affligitur sapiens filiorum amissione nee amicorum , eodem modo ferre potest illorum mortem, quo suam exspeetat.
+							</lem>
+							<rdg wit="#Translation">Hence Seneca: ‘The wise man is distressed neither by the loss of his sons nor that of his friends; he can endure their deaths in the same way as he expects his own.’
+								<note anchored="true">
+									<p>Sen. Ep. 74.30, slightly simplified; the original liberorum (‘children’) has been changed to filiorum (‘sons’), and eodem animo (‘in the same spirit’) to eodem modo (‘in the same way’). </p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Et quidem memoria mortis est quocldam frenum refrenans hominem, ne nimis effluat et discurrat per latitudines cupiditatum et libidinum.
+							</lem>
+							<rdg wit="#Translation">And indeed the memory of death is a type of harness which reins in Man, lest he should conduct himself too freely and run wild through the latitudes of his desires and lusts.
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Mortis meditatio summa est philosophia, ut dicit Plato.
+							</lem>
+							<rdg wit="#Translation">As Plato says, ‘Practising how to die is the highest form of philosophy.’
+								<note anchored="true">
+									<p>The term meditatio mortis is distinctively Senecan (Sen. Ep. 54.2) but often associated with Plato’s Phaedo, where Socrates repeatedly associates this phrase (μελέτη θανάτου) with philosophy. </p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Unde dicitur in Vita Johannis elemosinarii, quod antiquitus, postquam imperator coronatus erat, statim ingrediebantur ad eum aedificatores monumentorum dicentes eidem: de quo vel de quali metallo jubes, imperator, fieri monumentum tuum ?
+							</lem>
+							<rdg wit="#Translation">Hence it is said in the Life of John the Almsgiver that in ancient times, after an emperor was crowned, builders of monuments would immediately go up to him and say: ‘From what or what sort of metal, Emperor, do you command your monument to be made?’
+								<note anchored="true">
+									<p>Paraphrased from the life of John (De sancto Iohanne Elemosinario), chapter 27 of the Golden Legend.</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+
+					<s>
+						<app>
+							<lem wit="#Transcription">Insinuantes hoc ei, ut sciret, quod bomo corruptibilis et transitorius esset, ut curam baberet animse suae et regnum pie disponeret et gubernaret, juxta illud Eccl.
+							</lem>
+							<rdg wit="#Translation">They made this suggestion to him so he would know that Man is destructible and fleeting, and would take thought for his soul by organizing as well as governing his kingdom with piety,
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">VII : memorare novissima tua et in aeternum non peccabis?
+							</lem>
+							<rdg wit="#Translation">according to that saying from Ecclesiastes 7: ‘Be mindful of your final end, and you shall never sin.
+								<note anchored="true">
+									<p>Ecclesiastes 7:40.</p>
 								</note>
 							</rdg>
 						</app>
 					</s>
 				</p>
+
 				<p n="7">
 					<s>
 						<app>
@@ -308,6 +359,7 @@
 						</app>
 					</s>
 				</p>
+
 				<p n="8">
 					<s>
 						<app>
@@ -323,7 +375,7 @@
 							</rdg>
 						</app>
 					</s>
-				</p>				
+				</p>
 			</div>
 		</body>
 	</text>
