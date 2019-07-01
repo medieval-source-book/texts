@@ -1,0 +1,102 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><!--Title in English--></title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				<listWit>
+					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Translation"><!--Title in English--></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"<!--Title in English-->" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
+						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<div n="1">
+				<!--Divisions should be used if your text has sections larger than paragraphs-->
+				<p n="1">
+					<!--Paragraphs should be numbered-->
+					<s>
+						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
+						<app>
+							<lem wit="#Transcription"><!--One unit of segmentation from the transcription (usually one sentence)--></lem>
+							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
