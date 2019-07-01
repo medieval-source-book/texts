@@ -85,12 +85,49 @@
 						<app>
 							<lem wit="#Transcription">
 								<note anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+									<p>Cui mors : impossibilia petis , o frater , non sunt petenda a Deonisi honesta et possibilia ideoque non sapienter locutus es,
+										.... quia dicitur homini, mors ubique te exspeetat et tu, si sapiens fueris, ubique eam exspeetabis.</p>
 								</note>
 							</lem>
 							<rdg wit="#Translation">
 								<note anchored="true">
-									<p><!--This is an example note--></p>
+									<p>Death said to him: ‘O brother, you ask for that which is impossible, and you should not ask anything from God unless that which is honorable and possible.Hence, you have not spoken wisely, and indeed it is said to Man, “Death awaits you everywhere and if you are wise, you shall expect Her everywhere too.”</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
+						<app>
+							<lem wit="#Transcription">Dicitur enim Psalm. LXXXVUI:quis est homo, qui vivit et non videbit mortem?</lem>
+							<rdg wit="#Translation">Dicitur enim Psalm. LXXXVUI: quis est homo, qui vivit et non videbit mortem?</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p>quasi dicat, nullus. Unde versus: per nullam sortem poteris evadere mortem.</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p>Hence the verse: “You shall not be able to avoid death through any act of Fate.”</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note anchored="true">
+									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo patieuter recipe me , quia tibi nihil novi veni facere.</p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note anchored="true">
+									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo
+patieuter recipe me , quia tibi nihil novi veni facere.</p>
 								</note>
 							</rdg>
 						</app>
