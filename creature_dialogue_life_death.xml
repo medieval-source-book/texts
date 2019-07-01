@@ -97,64 +97,14 @@
 					</s>
 				</p>
 				<p n="2">
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p>Cui mors : impossibilia petis , o frater , non sunt petenda a Deonisi honesta et possibilia ideoque non sapienter locutus es,
-										quia dicitur homini, mors ubique te exspeetat et tu, si sapiens fueris, ubique eam exspeetabis.</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p>Death said to him: ‘O brother, you ask for that which is impossible, and you should not ask anything from God unless that which is honorable and possible.Hence, you have not spoken wisely, and indeed it is said to Man, “Death awaits you everywhere and if you are wise, you shall expect Her everywhere too.”</p>
-								</note>
-							</rdg>
-						</app>
-					</s>
-					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
-						<app>
-							<lem wit="#Transcription">Dicitur enim Psalm. LXXXVUI:quis est homo, qui vivit et non videbit mortem?</lem>
-							<rdg wit="#Translation">Dicitur enim Psalm. LXXXVUI: quis est homo, qui vivit et non videbit mortem?</rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p>quasi dicat, nullus. Unde versus: per nullam sortem poteris evadere mortem.</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p>Hence the verse: “You shall not be able to avoid death through any act of Fate.”</p>
-								</note>
-							</rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note anchored="true">
-									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo patieuter recipe me , quia tibi nihil novi veni facere.</p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note anchored="true">
-									<p>Mors resecat, mors omne necat, quod carne creatur. Ergo
-patieuter recipe me , quia tibi nihil novi veni facere.</p>
-								</note>
-							</rdg>
-						</app>
-					</s>
+
 				</p>
+
 				<p n="3">
 					<s>
 						<app>
 							<lem wit="#Transcription">Ait enim Seneca: nemo tam imperitus est, ut nesciat se aliquando moriturum.</lem>
-							<rdg wit="#Translation">
-							After all, Seneca writes: ‘No one is so ignorant that he does
+							<rdg wit="#Translation">After all, Seneca writes: ‘No one is so ignorant that he does
 							</rdg>
 						</app>
 					</s>
@@ -269,15 +219,15 @@ patieuter recipe me , quia tibi nihil novi veni facere.</p>
 
 					<s>
 						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation">In the same place, Valerius reports that Xenophon, having heard of the death of his elder son, who had fallen in battle, was content merely to take off his garland, for he was conducting a regular sacrifice.</rdg>
+							<lem wit="#Transcription">Ibidem, quod Xenophon auclita morte filii sui majoris natu, qui in bello oeeiderat, coronam tarnen deponere contentus fuit.</lem>
+							<rdg wit="#Translation">In the same place, Valerius reports that Xenophon, having heard of the death of his elder son, who had fallen in battle, was content merely to take off his garland.</rdg>
 						</app>
 					</s>
 
 					<s>
 						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation">When he then asked how his son had died, and learned that he had perished while fighting most courageously, he replaced the garland upon his head and called the gods to whom he was sacrificing to witness that he felt more pleasure from his son’s bravery than bitterness from his death.
+							<lem wit="#Transcription">Agebat enim solemne sacrificium, deinde per25 contatus, quomodo oeeubuisset, ut audivit fortissime puguantem interiisse, capiti reposuit coronam et per numina, quibus sacrificabat , testatus est , majorem se ex virtute filii voluptatem quam ex morte amaritudinem sentire.</lem>
+							<rdg wit="#Translation">For instance, he was conducting a regular sacrifice, when he then asked how his son had died, and learned that he had perished while fighting most courageously, he replaced the garland upon his head and called the gods to whom he was sacrificing to witness that he felt more pleasure from his son’s bravery than bitterness from his death.
 								<note anchored="true">
 									<p>A summary, or rather a restructuring with large parts of the original Latin kept intact, of Val. Max. 5.10 ext.2. </p>
 								</note>
