@@ -10,10 +10,10 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Sermon on St. Nobody</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Radulphus</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Based on the edition by</resp>
+					<name>Martha Bayless (Bayless, Martha, ed. Fifteen Medieval Latin Parodies. Pontifical Institute of Medieval Studies, Toronto, 2018.)</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,9 +34,9 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Graz, Universitätsbibliothek 904, fols. 175r-176v.</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Transcription">Nemo</witness>
 					<witness xml:id="Translation">Sermon on St. Nobody</witness>
 				</listWit>
 			</sourceDesc>
@@ -61,7 +61,7 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
+						<lem wit="#Transcription">Nemo</lem>
 						<rdg wit="#Translation">Sermon on St. Nobody</rdg>
 					</app>
 				</title>
