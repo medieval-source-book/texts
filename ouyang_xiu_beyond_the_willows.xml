@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Waves Scour the Sand”-I Hold Up The Wine</title>
+				<title><!--Title in English--></title>
 				<author></author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -26,7 +26,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Nina Du</name>
+					<name><!--Your name--></name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -41,14 +41,14 @@
 			<sourceDesc>
 				 <p></p>
 				<listWit>
-					<witness xml:id="Transcription">浪淘沙</witness>
-					<witness xml:id="Translation">"To the tune “Waves Scour the Sand”-I Hold Up The Wine"</witness>
+					<witness xml:id="Transcription"><!--Short title in original language--></witness>
+					<witness xml:id="Translation"><!--Short title in English--></witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"To the tune “Waves Scour the Sand”-I Hold Up The Wine" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"<!--Full title in English-->" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
@@ -66,8 +66,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">浪淘沙</lem>
-						<rdg wit="#Translation">"To the tune “Waves Scour the Sand”-I Hold Up The Wine"</rdg>
+						<lem wit="#Transcription"><!--Full combined title in original language--></lem>
+						<rdg wit="#Translation"><!--Full combined title in English--></rdg>
 					</app>
 				</title>
 			</head>
@@ -77,75 +77,68 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">把酒祝東風。</lem>
-						<rdg wit="#Translation">I hold up the wine and toast the eastern wind,
+						<lem wit="#Transcription"><!--One line of original--></lem>
+						<rdg wit="#Translation"><!--One line of translation-->
+							<note anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
 						</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">且共從容。</lem>
-						<rdg wit="#Translation"> “Let us dally and not rush.”</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">垂楊紫陌洛城東。</lem>
-						<rdg wit="#Translation">Along the lilac-laden path with drooping willows in the east of Luoyang,
-</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">總是當時攜手處，</lem>
-						<rdg wit="#Translation">Is where we used to walk hand in hand,
-</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">游遍芳叢。</lem>
-						<rdg wit="#Translation">Roaming among the thickets of fragrance.
-							<note anchored="true">
-									<p>Refers to flowers.</p>
-								</note>
-						</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="2">
 				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">聚散苦匆匆。</lem>
-						<rdg wit="#Translation">Gathering together is always fleeting  and separating is always bitter ;
-</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">此恨無窮。</lem>
-						<rdg wit="#Translation">My regrets about this have no end.
-</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">今年花勝去年紅。</lem>
-						<rdg wit="#Translation">The flowers this year are redder than the last;
-</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">可惜明年花更好，</lem>
-						<rdg wit="#Translation"> It is a pity that when next year's ones are even better,</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">知與誰同。</lem>
-						<rdg wit="#Translation">I do not know with whom I will look at them.
-</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
