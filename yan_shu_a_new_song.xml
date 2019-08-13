@@ -1,0 +1,124 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Sands of the Washing Stream”-A New Song and A Cup Of Wine</title>
+				<author></author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p></p>
+				<listWit>
+					<witness xml:id="Transcription">浣溪沙</witness>
+					<witness xml:id="Translation">To the tune “Sands of the Washing Stream”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"To the tune “Sands of the Washing Stream”-A New Song and A Cup Of Wine" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">浣溪沙·一曲新詞酒一杯</lem>
+						<rdg wit="#Translation">To the tune “Sands of the Washing Stream”-A New Song and A Cup Of Wine</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">一曲新詞酒一杯。</lem>
+						<rdg wit="#Translation">A new song and a cup of wine
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">去年天氣舊亭臺。</lem>
+						<rdg wit="#Translation">On the old terrace in last year’s weather.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">夕陽西下幾時回。</lem>
+						<rdg wit="#Translation">The setting sun has gone west, when will it return?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="4"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">無可奈何花落去。</lem>
+						<rdg wit="#Translation">Helplessly, flowers fall and disappear;</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">似曾相識燕歸來。</lem>
+						<rdg wit="#Translation">As if in reminiscence, swallows come back again.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">小園香徑獨徘徊。</lem>
+						<rdg wit="#Translation">On the fragrant path
+							<note anchored="true">
+									<p> refers to a path filled with the fragrant scent of flowers</p>
+								</note>
+							 of the little garden, I linger alone.</rdg>
+					</app>
+				</l>				
+			</lg>
+		</body>
+	</text>
+</TEI>
