@@ -1,0 +1,159 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Magpie Treads the Branch”-The Chrysanthemums</title>
+				<author></author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p></p>
+				<listWit>
+					<witness xml:id="Transcription">鹊踏枝</witness>
+					<witness xml:id="Translation">To the tune “Magpie Treads the Branch”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"To the tune “Magpie Treads the Branch”-The Chrysanthemums" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">鹊踏枝·檻菊愁煙蘭泣露</lem>
+						<rdg wit="#Translation">To the tune “Magpie Treads the Branch”-The Chrysanthemums</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">檻菊愁煙蘭泣露。</lem>
+						<rdg wit="#Translation">The chrysanthemums by the railings wilt in the mist, the orchids weep dews.
+
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">羅幕輕寒，</lem>
+						<rdg wit="#Translation">Within the silk canopy
+							<note anchored="true">
+									<p>Refers to silky curtain, mostly used in wealthy families.</p>
+								</note>
+								, it is slightly cold;
+						</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">燕子雙飛去。</lem>
+						<rdg wit="#Translation">The swallows fly away in pairs.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">明月不諳離恨苦。</lem>
+						<rdg wit="#Translation">The bright moon does not understand the bitterness of parting regrets;</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">斜光到曉穿朱戶。</lem>
+						<rdg wit="#Translation">Its slanting light penetrates the rich houses until daybreak.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">昨夜西風凋碧樹。</lem>
+						<rdg wit="#Translation">Last night, the western wind withered the emerald tree.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">獨上高樓，</lem>
+						<rdg wit="#Translation">Alone, I ascended the high tower
+							<note anchored="true">
+									<p> Refers to an ancient Chinese tower, which is typically high and has many floors, originally for military usage, but when discarded, most towers became gathering places for poets alike.</p>
+								</note>
+								,
+						</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">望盡天涯路。</lem>
+						<rdg wit="#Translation">Staring at the end of the road that leads to the edge of the world. </rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">欲寄彩箋兼尺素。</lem>
+						<rdg wit="#Translation">I will send out letters on colored paper
+							<note anchored="true">
+									<p>Refers to the exquisite paper that people used to write poems or songs on.</p>
+								</note>
+							 and white silk,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">山長水闊知何處。</lem>
+						<rdg wit="#Translation">The mountain is wide and the water is vast, how do I know where you are?</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
