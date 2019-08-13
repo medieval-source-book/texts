@@ -1,0 +1,155 @@
+ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Magnolia Flower”-The Water In The Pond</title>
+				<author></author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p></p>
+				<listWit>
+					<witness xml:id="Transcription">木蘭花</witness>
+					<witness xml:id="Translation">To the tune “Magnolia Flower”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"To the tune “Magnolia Flower”-The Water In The Pond" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">木蘭花·池塘水綠風微暖</lem>
+						<rdg wit="#Translation">To the tune “Magnolia Flower”-The Water In The Pond</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">池塘水綠風微暖。</lem>
+						<rdg wit="#Translation">The water in the pond is green, and the wind is slightly warm.
+
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">記得玉真初見面。</lem>
+						<rdg wit="#Translation"> I remember meeting Yuzhen
+							<note anchored="true">
+									<p>Generally refers to beautiful singers and dancers.</p>
+								</note>
+								for the first time.
+						</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">重頭歌韻響錚琮，</lem>
+						<rdg wit="#Translation">The double-head song
+							<note anchored="true">
+									<p>If a tune has the same beat in its two stanzas, it is called a double-head song.</p>
+								</note>
+								is loud and emotional,
+						</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">入破舞腰紅亂旋。</lem>
+						<rdg wit="#Translation">As it entered the po chapter
+							<note anchored="true">
+									<p>The greater songs in the Tang and Song dynasties usually consist of three chapters, and po is the name of the final chapter, which is usually with a quick tempo. The character literally means “to break in” or “to break apart.”</p>
+								</note>
+								, her waist swung and her red skirt swirled.
+						</rdg>
+					</app>
+				</l>
+
+			</lg>
+			<lg n="2">
+				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">玉鉤闌下香階畔。</lem>
+						<rdg wit="#Translation">By the railings under the jade hooks
+							<note anchored="true">
+									<p>The curtain over the doorway is hung on jade hooks.</p>
+								</note>
+								and in front of the fragrant steps,
+						</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">醉後不知斜日晚。</lem>
+						<rdg wit="#Translation">I was drunk, not knowing that the sun had slanted and the time was late.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">當時共我賞花人，</lem>
+						<rdg wit="#Translation">The ones who appreciated the flowers with me at that time,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">點檢如今無一半。</lem>
+						<rdg wit="#Translation">Now as I count them, are fewer than half.</rdg>
+					</app>
+				</l>
+
+			</lg>
+		</body>
+	</text>
+</TEI>
