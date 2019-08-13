@@ -1,0 +1,154 @@
+ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Treading on the Sedges”-On The Narrow Path</title>
+				<author></author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p></p>
+				<listWit>
+					<witness xml:id="Transcription">踏莎行</witness>
+					<witness xml:id="Translation">To the tune “Treading on the Sedges”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"To the tune “Treading on the Sedges”-On The Narrow Path" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">踏莎行·小徑紅稀</lem>
+						<rdg wit="#Translation">To the tune “Treading on the Sedges”-On The Narrow Path</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">小徑紅稀，</lem>
+						<rdg wit="#Translation">On the narrow path, red flowers scatter.
+
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">芳郊綠徧。</lem>
+						<rdg wit="#Translation">The fragrant countryside is all in green.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">高臺樹色陰陰見。</lem>
+						<rdg wit="#Translation">The color of the trees upon the high terrace appears dark and shady.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">春風不解禁楊花，</lem>
+						<rdg wit="#Translation">The spring breeze does not know how to keep the catkin;</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">濛濛亂撲行人面。</lem>
+						<rdg wit="#Translation">The flying catkin flower petals fly randomly on the faces of passersby.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">翠葉藏鶯，</lem>
+						<rdg wit="#Translation">The verdant leaves hide the orioles;</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">珠簾隔燕。</lem>
+						<rdg wit="#Translation">The pearl curtain
+							<note anchored="true">
+									<p>Refers to a curtain made of strung pearls.</p>
+								</note>
+								separates the swallows
+								<note anchored="true">
+										<p>Swallows here refers to the girls behind the curtain. </p>
+									</note>
+									.
+						</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">爐香靜逐遊絲轉。</lem>
+						<rdg wit="#Translation">The incense burner quietly chases the twirling smoke.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">一場愁夢酒醒時，</lem>
+						<rdg wit="#Translation"> After a sorrowful dream, as I sober up, </rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">斜陽卻照深深院。</lem>
+						<rdg wit="#Translation">The slanting sun shines into the deep courtyard.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
