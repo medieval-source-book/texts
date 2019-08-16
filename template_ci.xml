@@ -64,13 +64,25 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 	<text>
 		<front>
 			<head>
-				<title>
+				<title type="main">
 					<app>
 						<lem wit="#Transcription"><!--Full combined title in original language--></lem>
 						<rdg wit="#Translation"><!--Full combined title in English--></rdg>
 					</app>
 				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
 			</head>
+			<div type="dedication">
+				<app>
+					<lem wit="#Transcription"><!--Dedication in original language--></lem>
+					<rdg wit="#Translation"><!--Dedication in English--></rdg>
+				</app>
+			</div>
 		</front>
 		<body>
 			<lg n="1">
