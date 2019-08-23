@@ -103,7 +103,15 @@
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">時時盞裏生紅浪。</lem>
+<<<<<<< HEAD
 						<rdg wit="#Translation">Red ripples keep appearing in the cups.
+=======
+						<rdg wit="#Translation">Red ripples
+							<note anchored="true">
+									<p>"Red ripples" refer to the scene when the lotus leaves wiggles, the shadow of the leave will reflect in the wine cup, and making it seem like there are red waves in the cup.</p>
+								</note>
+								keep appearing in the cups.
+>>>>>>> origin/master
 						</rdg>
 					</app>
 				</l>
@@ -118,11 +126,15 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">花腮酒面紅相向。</lem>
+<<<<<<< HEAD
 						<rdg wit="#Translation">The flowers' cheeks
 							<note anchored="true">
 									<p>Here refers to the lotuses.</p>
 								</note>
 							and the drinkers' faces are equally red.
+=======
+						<rdg wit="#Translation">The flowers’ cheeks and the drinkers’ faces are equally red,
+>>>>>>> origin/master
 						</rdg>
 					</app>
 				</l>
