@@ -9,12 +9,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune "The Fisherman Is Proud"-I suddenly heard</title>
-				<author></author>
-				<respStmt>
-					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
-				</respStmt>
+				<title>To the tune "The Fisherman Is Proud"&#x2014;"I suddenly heard"</title>
+				<author>Ouyang Xiu</author>
 				<respStmt>
 					<resp>Translation by</resp>
 					<name>Qian Jia</name>
@@ -30,7 +26,7 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
 					<p></p>
 				</availability>
@@ -39,16 +35,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p>Tang, Guizhang. <hi rend="italic">Quan Song ci</hi>. Volume 1. Beijing: Zhonghua shu ju. 1995. 129.</p>
 				<listWit>
-					<witness xml:id="Transcription">漁家傲</witness>
-					<witness xml:id="Translation">To the tune "The Fisherman Is Proud"</witness>
+					<witness xml:id="Transcription">漁家傲·花底忽聞敲兩槳</witness>
+					<witness xml:id="Translation">To the tune "The Fisherman Is Proud"&#x2014;"I suddenly heard"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"To the tune "The Fisherman Is Proud"-I suddenly heard" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"To the tune "The Fisherman Is Proud"&#x2014;"I suddenly heard"" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
@@ -66,8 +62,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">漁家傲·花底忽聞敲兩槳</lem>
-						<rdg wit="#Translation">To the tune "The Fisherman Is Proud"-I suddenly heard</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</title>
 			</head>
@@ -103,16 +99,7 @@
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">時時盞裏生紅浪。</lem>
-<<<<<<< HEAD
-						<rdg wit="#Translation">Red ripples keep appearing in the cups.
-=======
-						<rdg wit="#Translation">Red ripples
-							<note anchored="true">
-									<p>"Red ripples" refer to the scene when the lotus leaves wiggles, the shadow of the leave will reflect in the wine cup, and making it seem like there are red waves in the cup.</p>
-								</note>
-								keep appearing in the cups.
->>>>>>> origin/master
-						</rdg>
+						<rdg wit="#Translation">Red ripples keep appearing in the cups.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -126,16 +113,7 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">花腮酒面紅相向。</lem>
-<<<<<<< HEAD
-						<rdg wit="#Translation">The flowers' cheeks
-							<note anchored="true">
-									<p>Here refers to the lotuses.</p>
-								</note>
-							and the drinkers' faces are equally red.
-=======
-						<rdg wit="#Translation">The flowers’ cheeks and the drinkers’ faces are equally red,
->>>>>>> origin/master
-						</rdg>
+						<rdg wit="#Translation">The flowers’ cheeks and the drinkers’ faces are equally red,</rdg>
 					</app>
 				</l>
 				<l n="8">
