@@ -10,19 +10,18 @@
 		<fileDesc>
 			<titleStmt>
 				<title><!--Title in English--></title>
-				<author></author>
+				<author><!--Anonymous if unknown--></author>
 				<respStmt>
-					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Qian Jia</name>
+					<name><!--Add name--></name>
 				</respStmt>
 				<respStmt>
-					<resp>Notes by</resp>
-					<name>Nina Du</name>
-					<name>Runqi Zhang</name>
+					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
+					<name><!--Add name--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -30,16 +29,16 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
 				<listWit>
 					<witness xml:id="Transcription"><!--Short title in original language--></witness>
 					<witness xml:id="Translation"><!--Short title in English--></witness>
@@ -47,11 +46,12 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
             	<p>"<!--Full title in English-->" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
-         	</projectDesc>
+            </projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<punctuation marks="all"><!--Who is responsible for punctuation choices?--></punctuation>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
@@ -77,12 +77,6 @@
 					</app>
 				</title>
 			</head>
-			<div type="dedication">
-				<app>
-					<lem wit="#Transcription"><!--Dedication in original language--></lem>
-					<rdg wit="#Translation"><!--Dedication in English--></rdg>
-				</app>
-			</div>
 		</front>
 		<body>
 			<lg n="1">
@@ -90,10 +84,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-							<note anchored="true">
-									<p></p>
-								</note>
+						<rdg wit="#Translation"><!--One line of translation--><note anchored="true"><p><!--Insert note here--></p></note>
 						</rdg>
 					</app>
 				</l>
