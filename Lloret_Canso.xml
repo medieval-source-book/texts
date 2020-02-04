@@ -1,0 +1,402 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Underneath my forehead I carry your beautiful image"</title>
+				<author>Jordi de Sant Jordi</author>
+				<respStmt>
+					<resp>Transcrption by Albert Lloret</resp>
+					<namedigital> Digital reproduction of Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r </name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Albert Lloret</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Digital reproduction of Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r</p>
+				<listWit>
+					<witness xml:id="Transcription">"Jus lo front "</witness>
+					<witness xml:id="Translation">"Underneath my forehead "</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>"Underneath my forehead I carry your beautiful image" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            </projectDesc>
+			<editorialDecl>
+        		<punctuation marks="all"><!--Who is responsible for punctuation choices?--></punctuation>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">"Jus lo front port vostra bella semblança,"</lem>
+						<rdg wit="#Translation">"Underneath my forehead I carry your beautiful image"</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Jus lo front port vostra bella semblança,</lem>
+						<rdg wit="#Translation">Underneath my forehead I carry your beautiful image<note anchored="true"><p><!--Insert note here--></p></note>
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">de que mon cors nit e jorn fa gran festa;</lem>
+						<rdg wit="#Translation">That’s why I celebrate you, night and day;</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">que, remiran la molt bella figura,</lem>
+						<rdg wit="#Translation">For, by looking at your beautiful figure,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">de vostre ffaç m’es romassa l’empremta,</lem>
+						<rdg wit="#Translation">A trace of your face has remained in me.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">que ja per mort no se’n partra la forma,</lem>
+						<rdg wit="#Translation">Its shape won’t go away when I die,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">ans, quant seray del tot fores d’est segle,</lem>
+						<rdg wit="#Translation">Instead, when I will have entirely left this earthly life,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">cels qui lo cors portaran al sepulcre,</lem>
+						<rdg wit="#Translation">Those who will bring my body to the tomb,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">sobre me faç, veuran lo vostre signe.</lem>
+						<rdg wit="#Translation">Will find your sign on my face.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="9"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">Si com l’infants quant mira lo retaula</lem>
+						<rdg wit="#Translation">Like the little kid who watches the altarpiece</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">e, contemplant la pintur·ab himatges,</lem>
+						<rdg wit="#Translation">And contemplates the painting and its images,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">ab son net cor, no lo·n poden gens partre</lem>
+						<rdg wit="#Translation">With a pure heart, and doesn’t want to separate from it</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">(tant ha plasser de l’aur qui ll’environa),</lem>
+						<rdg wit="#Translation">(So much does he enjoy the gold that surrounds it),</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">atressi·m pren devan l’amoros sercle</lem>
+						<rdg wit="#Translation">That’s how I feel when I’m in front of the love circle</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">de vostre cors, que de tants bens s’anrama,</lem>
+						<rdg wit="#Translation">Of your figure, for it’s embellished with so many qualities</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">que, mentre·l vey, mas que Deu lo contemple;</lem>
+						<rdg wit="#Translation">That, while I’m watching it, I contemplate it better than God;</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">tant hay de joy per amor qui·m penetre.</lem>
+						<rdg wit="#Translation">This love that penetrates me brings me so much joy.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3">
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Aixi·m te pres e liatz en son carçre</lem>
+						<rdg wit="#Translation">That’s how he has me, captive and tied up, in his jail,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">amors ardents, com si·stes en hun coffre,</lem>
+						<rdg wit="#Translation">This ardent Love, as if I were inside a chest,</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">tancat jus claus, e tot mon cors fos dintre,</lem>
+						<rdg wit="#Translation">Locked in, all of me inside,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">on no pusques mover per null encontre.</lem>
+						<rdg wit="#Translation">Without a chance to break out.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Car tant es grans l’amor que us ay, e ferme,</lem>
+						<rdg wit="#Translation">So big is my love for you, and so steadfast,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">que lo meu cor no·s part punt per angoxa,</lem>
+						<rdg wit="#Translation">That my heart won’t move away, not one bit, out of anguish,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">bella, de vos, ans es ·say ferm com torres</lem>
+						<rdg wit="#Translation">From you, beautiful one, but will rather be strong as a tower</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">e sol amar a vos, blanxa colomba.</lem>
+						<rdg wit="#Translation">And will only love you, white dove.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4">
+				<l n="25"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">Bella sens par, ab la pressensa noble,</lem>
+						<rdg wit="#Translation">Unmatched beauty of noble presence</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">vostre bel cors bell fech Deu sobre totas,</lem>
+						<rdg wit="#Translation">God made your pretty body superior to any other,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">gays e donos, lluu pus que fina pedre,</lem>
+						<rdg wit="#Translation">Gay and gentle, brighter than a gemstone,</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">amoros, bels, plus penetrans que stella;</lem>
+						<rdg wit="#Translation">Loving, beautiful, more penetrating than a star;</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">d’on, quan vos vey ab les autres en flota,</lem>
+						<rdg wit="#Translation">For, when I spot you among other people,</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">les jusmetets  si com fay lo carvoncles,</lem>
+						<rdg wit="#Translation">You subdue them as does the carbuncle,</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">que de virtuts les finas pedres passa:</lem>
+						<rdg wit="#Translation">Which surpasses the qualities of any gemstone;</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">vos etz sus ley com l’estors sus l’esmirle.</lem>
+						<rdg wit="#Translation">You are above them, like the goshwak is above the merlin.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5">
+				<l n="33"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">L’amor que us hay en totes les part[s] m’ascle</lem>
+						<rdg wit="#Translation">My love for you is splintering every part of me,</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription"> quan non amech pus coralment nuls homens;</lem>
+						<rdg wit="#Translation">For no one has ever loved so sincerely;</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">tan fort·amor, com cesta que·l cor m’obre,</lem>
+						<rdg wit="#Translation">Such a strong love, like this one that opens my heart,</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription"> ne fonch  jamays en nul cors d’hom ne arme.</lem>
+						<rdg wit="#Translation">Has never been in anyone’s body or soul.</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Mas suy torbats que no fonch Aristotills,</lem>
+						<rdg wit="#Translation">I am more upset than Aristotle ever was</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription"> d’amor, qui m’art e mos sinch senys desferme.</lem>
+						<rdg wit="#Translation">For love, which burns me and unleashes my five senses.</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Co·l monjos bos que no·s part de la setla,</lem>
+						<rdg wit="#Translation">Like the good monk who does not leave his cell,</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">no·s part mon cors da vos, tant com dits d’ungle.</lem>
+						<rdg wit="#Translation">My heart does not move away from you, like the finger from the nail.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6">
+				<l n="41"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">Ho, cors donos, net de frau e delicte,</lem>
+						<rdg wit="#Translation">Oh, gentle lady, clean of deceit and offenses,</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">prenets de me pietats, bela dona,</lem>
+						<rdg wit="#Translation">Have pity on me, beautiful lady,</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">e no suffrats quez aman-vos peresca,</lem>
+						<rdg wit="#Translation">And don’t allow that I die by loving you,</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">pus qu·eu vos am may que nulls homs afferme,</lem>
+						<rdg wit="#Translation">For I love you more than anyone could affirm,</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">per que us suppley a vos, qu·etz le bells arbres</lem>
+						<rdg wit="#Translation">That is why I beg you—since you are the handsome tree</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">de tots bos fruyts, hon valors grans pren s·ombre,</lem>
+						<rdg wit="#Translation">Of all good fruits, where the high Worth rest on its shade—</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">que·m retenyats en vostra valent cambre,</lem>
+						<rdg wit="#Translation">To keep me in your prized chamber,</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription"> pus vostre suy e seray tant com visque.</lem>
+						<rdg wit="#Translation">For I am yours, and so will I be for as long as I live.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7">
+				<l n="49"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">Mos richs balays, cert, vos portats le timbre</lem>
+						<rdg wit="#Translation">My prized spinel, you certainly wear the crown</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">sus quantes son e·l mundenal registre,</lem>
+						<rdg wit="#Translation">Over all women in the worldy registry,</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">car tots jorns naix en vos cors, e revida,</lem>
+						<rdg wit="#Translation">For every day are born in you, and revive,</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">bondats, virtuts, mes qu·en Pantasilea.</lem>
+						<rdg wit="#Translation">Goodness and virtue, more than they ever did in Penthesilea.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
