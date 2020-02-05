@@ -9,8 +9,12 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune "The Fisherman Is Proud"&#x2014;"I suddenly heard"</title>
+				<title>"To the tune "The Fisherman Is Proud"—I suddenly heard"</title>
 				<author>Ouyang Xiu</author>
+				<respStmt>
+					<resp>Text based on </resp>
+					<name>Detail from 宋元集繪 冊 宋緙絲翠羽秋荷(Lotuses) , Anonymous,  National Palace Museum, Accession Number: K2A001246N000000001PAA pg. 129 Book 1</name>
+				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
 					<name>Qian Jia</name>
@@ -23,6 +27,7 @@
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal </name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -38,14 +43,14 @@
 				 <p>Tang, Guizhang. <hi rend="italic">Quan Song ci</hi>. Volume 1. Beijing: Zhonghua shu ju. 1995. 129.</p>
 				<listWit>
 					<witness xml:id="Transcription">漁家傲·花底忽聞敲兩槳</witness>
-					<witness xml:id="Translation">To the tune "The Fisherman Is Proud"&#x2014;"I suddenly heard"</witness>
+					<witness xml:id="Translation">To the tune "The Fisherman Is Proud</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the tune "The Fisherman Is Proud"&#x2014;"I suddenly heard"" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"To the tune "The Fisherman Is Proud"&#x2014;I suddenly heard" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>

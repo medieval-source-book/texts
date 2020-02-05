@@ -9,11 +9,12 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Spring in the Jade Building”-In a Tall Building</title>
-				<author></author>
+				<title>"To the tune “Spring in the Jade Building”—In a Tall Building"</title>
+				<author>Ouyang Xiu</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name>Detail from 宋米芾雲山煙樹(Smoke and Trees) 卷 , 米芾,  National Palace Museum, Accession Number: C2A000214N000000000PAH 135 Book 1
+					</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,6 +28,7 @@
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -67,7 +69,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">玉樓春·湖邊柳外樓高處</lem>
-						<rdg wit="#Translation">To the tune “Spring in the Jade Building”-In a Tall Building</rdg>
+						<rdg wit="#Translation">"To the tune “Spring in the Jade Building”-In a Tall Building"</rdg>
 					</app>
 				</title>
 			</head>
@@ -109,11 +111,7 @@
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">輕無管系狂無數。</lem>
-						<rdg wit="#Translation">Light without being tied down,
-							<note anchored="true">
-									<p>The Chinese characters 管束 literally mean "discipline" and "obstacle".</p>
-								</note>
-								wild and numerous,
+						<rdg wit="#Translation">Light without being tied down, wild and numerous,
 						</rdg>
 					</app>
 				</l>
