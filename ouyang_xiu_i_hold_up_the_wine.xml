@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Waves Scour the Sand” I Hold Up The Wine</title>
+				<title>"To the tune “Waves Scour the Sand” —I Hold Up The Wine"</title>
 				<author></author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name>Text based on Detail from 宋人洛陽耆英會圖(Wise Men Talking Together) 軸 , Anonymous,  National Palace Museum, Accession Number: K2A000173N000000000PAA pg. 141 Book 1<name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,6 +27,7 @@
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -42,7 +43,7 @@
 				 <p></p>
 				<listWit>
 					<witness xml:id="Transcription">浪淘沙</witness>
-					<witness xml:id="Translation">To the tune “Waves Scour the Sand”</witness>
+					<witness xml:id="Translation">"To the tune “Waves Scour the Sand” </witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -99,16 +100,12 @@
 					<app>
 						<lem wit="#Transcription">總是當時攜手處，</lem>
 						<rdg wit="#Translation">Is where we used to walk hand in hand,
-						</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">游遍芳叢。</lem>
 						<rdg wit="#Translation">Roaming among the thickets of fragrance.
-							<note anchored="true">
-									<p>Refers to flowers.</p>
-								</note>
 						</rdg>
 					</app>
 				</l>
@@ -117,7 +114,7 @@
 				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">聚散苦匆匆。</lem>
-						<rdg wit="#Translation">Gathering together is always fleeting  and separating is always bitter ;
+						<rdg wit="#Translation">Gathering together is always fleeting and separating is always bitter ;
 						</rdg>
 					</app>
 				</l>

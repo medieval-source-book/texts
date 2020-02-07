@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Spring in the Jade Building”-Since We Parted</title>
-				<author></author>
+				<title>"To the tune “Spring in the Jade Building”-Since We Parted"</title>
+				<author>Ouyang Xiu</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name> Detail from 宋夏珪真蹟(Two Men Talking) 卷 , 夏珪,  National Palace Museum, Accession Number: K2A000996N000000000PAA pg. 133 Book <1/name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,6 +27,7 @@
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal </name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -67,7 +68,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">玉春樓·別後不知君遠近</lem>
-						<rdg wit="#Translation">To the tune “Spring in the Jade Building”-Since We Parted</rdg>
+						<rdg wit="#Translation">"To the tune “Spring in the Jade Building”-Since We Parted"</rdg>
 					</app>
 				</title>
 			</head>
@@ -99,11 +100,7 @@
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">水闊魚沉何處問。</lem>
-						<rdg wit="#Translation">The water is wide and the fish has sunk,
-							<note anchored="true">
-									<p>Refers to the fact that there was no letter from him, a common idiom to express a lack of communication.</p>
-								</note>
-								where can I ask about you?</rdg>
+						<rdg wit="#Translation">The water is wide and the fish has sunk, where can I ask about you?</rdg>
 					</app>
 				</l>
 
@@ -112,11 +109,7 @@
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">夜深風竹敲秋韻。</lem>
-						<rdg wit="#Translation">The night is late, the wind-blown bamboos strike the autumn rhyme
-							<note anchored="true">
-									<p>Refers to "The Sound of Autumn", a famous song for a traditional Chinese string instrument Er Hu.</p>
-								</note>
-								.</rdg>
+						<rdg wit="#Translation">The night is late, the wind-blown bamboos strike the autumn rhyme.</rdg>
 					</app>
 				</l>
 				<l n="6">
