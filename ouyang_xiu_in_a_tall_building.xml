@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>"To the tune “Spring in the Jade Building”—In a Tall Building"</title>
+				<title>To the tune “Spring in the Jade Building”—"In a Tall Building"</title>
 				<author>Ouyang Xiu</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name>Detail from 宋米芾雲山煙樹(Smoke and Trees) 卷 , 米芾,  National Palace Museum, Accession Number: C2A000214N000000000PAH 135 Book 1
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.
 					</name>
 				</respStmt>
 				<respStmt>
@@ -32,16 +32,16 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.</p>
 				<listWit>
 					<witness xml:id="Transcription">玉樓春</witness>
 					<witness xml:id="Translation">To the tune “Spring in the Jade Building”</witness>
@@ -49,13 +49,14 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the tune “Spring in the Jade Building”-In a Tall Building" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Spring in the Jade Building”—"In a Tall Building" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -69,7 +70,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">玉樓春·湖邊柳外樓高處</lem>
-						<rdg wit="#Translation">"To the tune “Spring in the Jade Building”-In a Tall Building"</rdg>
+						<rdg wit="#Translation">To the tune “Spring in the Jade Building”—"In a Tall Building"</rdg>
 					</app>
 				</title>
 			</head>
