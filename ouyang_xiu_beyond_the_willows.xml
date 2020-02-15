@@ -13,7 +13,7 @@
 				<author>Ouyang Xiu </author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name>Detail from 宋元集繪 冊 宋緙絲翠羽秋荷(Lotuses),Anonymous, National Palace Museum, Accession Number: K2A001246N000000001PAA, pg. 140 Book 1</name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, pg. 140.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,35 +27,37 @@
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
-					<name> Manya Bansal </name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<hi rend="italic">The Global Medieval Sourcebook</hi>
 				<availability>
-					<p></p>
+					<hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.
+
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p>
+				 	Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, pg. 160.
+				 </p>
 				<listWit>
 					<witness xml:id="Transcription">臨江仙</witness>
-					<witness xml:id="Translation">"To The Tune “Immortal by The River”</witness>
+					<witness xml:id="Translation">To The Tune “Immortal by The River”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the tune “Immortal by the River”-Beyond The Willows" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"To the tune “Immortal by the River”-"Beyond The Willows" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
-        		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
-				</interpretation>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				<segmentation>
 				</segmentation>
 			</editorialDecl>
@@ -67,8 +69,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">臨江仙·柳外輕雷池上雨</lem>
-						<rdg wit="#Translation">"To The Tune “Immortal by The River”—Beyond The Willows"</rdg>>
+						<lem wit="#Transcription"> 臨江仙·柳外輕雷池上雨 </lem>
+						<rdg wit="#Translation"> To The Tune “Immortal by The River”—"Beyond The Willows" </rdg>
 					</app>
 				</title>
 			</head>
