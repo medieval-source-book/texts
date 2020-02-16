@@ -9,12 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Spring in the Jade Building”&amp;#8212;"In a Tall Building"</title>
-				<author>Ouyang Xiu</author>
+				<title>To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"</title>
+				<author>Su Shi</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.
-					</name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 303.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,7 +26,6 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Nina Du</name>
 					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
@@ -41,22 +39,23 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.</p>
+				 <p>YText based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 303. </p>
 				<listWit>
-					<witness xml:id="Transcription">玉樓春</witness>
-					<witness xml:id="Translation">To the tune “Spring in the Jade Building”</witness>
+					<witness xml:id="Transcription">菩薩蠻</witness>
+					<witness xml:id="Translation">To the tune “Bodhisattva Barbarians”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Spring in the Jade Building”—"In a Tall Building" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
         			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -67,10 +66,10 @@
 	<text>
 		<front>
 			<head>
-				<title>
+				<title type="main">
 					<app>
-						<lem wit="#Transcription">玉樓春·湖邊柳外樓高處</lem>
-						<rdg wit="#Translation">To the tune “Spring in the Jade Building”—"In a Tall Building"</rdg>
+						<lem wit="#Transcription">菩薩蠻 西湖</lem>
+						<rdg wit="#Translation">To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,61 +79,54 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">湖邊柳外樓高處。</lem>
-						<rdg wit="#Translation"> In a tall building behind the willows by the lakeside,
-							<note anchored="true">
-									<p></p>
-								</note>
-						</rdg>
+						<lem wit="#Transcription">秋風湖上蕭蕭雨</lem>
+						<rdg wit="#Translation">In the autumn wind, on the lake, the cold and sparing rain</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">望斷雲山多少路</lem>
-						<rdg wit="#Translation">How many roads in the misty mountains have I stared to the end of?</rdg>
+						<lem wit="#Transcription">使君欲去還留住。</lem>
+						<rdg wit="#Translation">Keeps the prefect when he is about to go. </rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">闌干倚遍使人愁，</lem>
-						<rdg wit="#Translation">I have leant against all the railings, feeling disheartened;</rdg>
+						<lem wit="#Transcription">今日漫留君。</lem>
+						<rdg wit="#Translation">Today, he is held back in vain;</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">又是天涯初日暮。</lem>
-						<rdg wit="#Translation">Again, the sun starts to set at the edge of the sky.</rdg>
+						<lem wit="#Transcription">明朝愁殺人。</lem>
+						<rdg wit="#Translation">Tomorrow, it will worry us to death.</rdg>
 					</app>
 				</l>
-
 			</lg>
 			<lg n="2">
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">輕無管系狂無數。</lem>
-						<rdg wit="#Translation">Light without being tied down, wild and numerous,
-						</rdg>
+						<lem wit="#Transcription">佳人千點淚。</lem>
+						<rdg wit="#Translation">The fair ones shed thousands of teardrops,</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">水畔花飛風裏絮。</lem>
-						<rdg wit="#Translation">Petals fly beside the water, willow catkins are blown by the wind.</rdg>
+						<lem wit="#Transcription">灑向長河水。</lem>
+						<rdg wit="#Translation">sprinkling onto the Long River.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">算伊渾似薄情郎，</lem>
-						<rdg wit="#Translation">They are just like my fickle lover, </rdg>
+						<lem wit="#Transcription">不用斂雙蛾。</lem>
+						<rdg wit="#Translation">There is no need to frown;</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">去便不來來便去。</lem>
-						<rdg wit="#Translation">Leaving without returning, coming and soon departing.</rdg>
+						<lem wit="#Transcription">路人啼更多。</lem>
+						<rdg wit="#Translation">the passersby will cry even more.</rdg>
 					</app>
 				</l>
-
 			</lg>
 		</body>
 	</text>
