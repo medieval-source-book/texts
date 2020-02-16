@@ -1,4 +1,4 @@
-ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
@@ -9,11 +9,11 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Treading on the Sedges”-On The Narrow Path</title>
-				<author></author>
+				<title>To the tune “Treading on the Sedges”&#8212;"On The Narrow Path"</title>
+				<author>Yan Shu</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 99.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,19 +27,20 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 99</p>
 				<listWit>
 					<witness xml:id="Transcription">踏莎行</witness>
 					<witness xml:id="Translation">To the tune “Treading on the Sedges”</witness>
@@ -47,13 +48,14 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the tune “Treading on the Sedges”-On The Narrow Path" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Treading on the Sedges”&#8212;"On The Narrow Path" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -67,7 +69,7 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<title>
 					<app>
 						<lem wit="#Transcription">踏莎行·小徑紅稀</lem>
-						<rdg wit="#Translation">To the tune “Treading on the Sedges”-On The Narrow Path</rdg>
+						<rdg wit="#Translation">To the tune “Treading on the Sedges”&#8212;"On The Narrow Path"</rdg>
 					</app>
 				</title>
 			</head>
@@ -78,15 +80,13 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">小徑紅稀，</lem>
-						<rdg wit="#Translation">On the narrow path, red flowers scatter.
-
-						</rdg>
+						<rdg wit="#Translation">On the narrow path, red flowers are few now,</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">芳郊綠徧。</lem>
-						<rdg wit="#Translation">The fragrant countryside is all in green.</rdg>
+						<rdg wit="#Translation">While the fragrant countryside is green throughout.</rdg>
 					</app>
 				</l>
 				<l n="3">
@@ -98,13 +98,13 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">春風不解禁楊花，</lem>
-						<rdg wit="#Translation">The spring breeze does not know how to keep the catkin;</rdg>
+						<rdg wit="#Translation">The spring breeze does not know to prevent the willow catkins</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">濛濛亂撲行人面。</lem>
-						<rdg wit="#Translation">The wind-borne catkin petals fly randomly onto the faces of passersby.</rdg>
+						<rdg wit="#Translation">from pelting the faces of passersby in a drizzle of fluff.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -122,18 +122,18 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 							<note anchored="true">
 									<p>Refers to a curtain made of strung pearls.</p>
 								</note>
-								separates the swallows
+								keeps the swallows
 								<note anchored="true">
 										<p>Swallows here refers to the girls behind the curtain. </p>
 									</note>
-									.
+									out.
 						</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">爐香靜逐遊絲轉。</lem>
-						<rdg wit="#Translation">The incense burner quietly chases the twirling smoke.</rdg>
+						<rdg wit="#Translation">The incense burner quietly chases the winding smoke.</rdg>
 					</app>
 				</l>
 				<l n="9">

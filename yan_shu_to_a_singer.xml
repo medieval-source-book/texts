@@ -1,4 +1,4 @@
-ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
@@ -9,11 +9,11 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Willows by the Mountain Pavilion”-To a Singer</title>
+				<title>To the tune “Willows by the Mountain Pavilion”&#8212;"To a Singer"</title>
 				<author></author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,12 +27,13 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
@@ -47,13 +48,14 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the tune “Willows by the Mountain Pavilion”-To a Singer" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Willows by the Mountain Pavilion”&#8212;"To a Singer" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -67,7 +69,7 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<title>
 					<app>
 						<lem wit="#Transcription">山亭柳·贈歌者</lem>
-						<rdg wit="#Translation">To the tune “Willows by the Mountain Pavilion”-To a Singer</rdg>
+						<rdg wit="#Translation">To the tune “Willows by the Mountain Pavilion”&#8212;"To a Singer"</rdg>
 					</app>
 				</title>
 			</head>
@@ -78,7 +80,7 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">家住西秦。</lem>
-						<rdg wit="#Translation">My family lives in the west of Qin,
+						<rdg wit="#Translation">My family lived in the west of Qin,
 
 						</rdg>
 					</app>
@@ -86,23 +88,23 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">賭博藝隨身。</lem>
-						<rdg wit="#Translation">I live by my skills and my talent in music and dancing;</rdg>
+						<rdg wit="#Translation">I lived by my skills and talent in dancing and song;</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">花柳上、鬥尖新。</lem>
-						<rdg wit="#Translation">In the whore houses I win by flowers and willows
+						<rdg wit="#Translation">among all the blossoms and willows
 							<note anchored="true">
-									<p>“Flowers and willows” is a euphemism for sexual  relationships between men and women.</p>
+									<p>“Blossoms and willows” is a euphemism for sexual  relationships between men and women.</p>
 								</note>
-							.</rdg>
+							, I vied to stand out.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">偶學念奴聲調，</lem>
-						<rdg wit="#Translation">Occasionally I imitate the tunes of Niannu
+						<rdg wit="#Translation">Occasionally I imitated the tunes of Niannu
 							<note anchored="true">
 									<p>Niannu is the name of a famous courtesan in the Tang dynasty, who was known for her excellence in singing.</p>
 								</note>
@@ -112,7 +114,7 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">有時高遏行雲。</lem>
-						<rdg wit="#Translation">Sometimes my voice can stop the floating clouds.</rdg>
+						<rdg wit="#Translation">my voice could halt floating clouds in their path.</rdg>
 					</app>
 				</l>
 				<l n="6">
@@ -128,7 +130,7 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">不負辛勤。</lem>
-						<rdg wit="#Translation">And that makes my efforts well-rewarded.</rdg>
+						<rdg wit="#Translation">my efforts were well-rewarded.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -137,47 +139,47 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">數年來往咸京道，</lem>
-						<rdg wit="#Translation">For years I have been traveling between Xianyang and the capital
+						<rdg wit="#Translation">For years now I have traveled between Xianyang and the capital
 							<note anchored="true">
 									<p>The singers usually travel a lot from work place to work place to accommodate the needs of officials.</p>
 								</note>
-							,</rdg>
+							.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">殘杯冷炙謾消魂。</lem>
-						<rdg wit="#Translation">The leftover wine and cold food vainly consume my soul.</rdg>
+						<rdg wit="#Translation">Leftover wine and cold food consume my spirit.</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">衷腸事、託何人。</lem>
-						<rdg wit="#Translation">To whom I can confide the things that are deep in my heart?</rdg>
+						<rdg wit="#Translation">To whom can I confide the things deep in my heart?</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">若有知音見採，</lem>
-						<rdg wit="#Translation">If someone who appreciates me would choose me,</rdg>
+						<rdg wit="#Translation">If a patron who appreciated me would choose me,</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">不辭遍唱陽春。</lem>
-						<rdg wit="#Translation"> I would willingly sing every one of the finest songs.</rdg>
+						<rdg wit="#Translation">I would willingly sing every one of the finest songs</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">一曲當筵落淚，</lem>
-						<rdg wit="#Translation">A song at the banquet, and my tears roll down.</rdg>
+						<rdg wit="#Translation">Now, a single song at the banquet and my tears start to fall.</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">重掩羅巾。</lem>
-						<rdg wit="#Translation">Once again, I cover my face with the silk kerchief.</rdg>
+						<rdg wit="#Translation">Once again, I hide my face with the silk kerchief.</rdg>
 					</app>
 				</l>
 			</lg>

@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Sands of the Washing Stream”-A New Song and A Cup Of Wine</title>
-				<author></author>
+				<title>To the tune “Sands of the Washing Stream”&#8212;"A New Song and A Cup Of Wine"</title>
+				<author>Yan Shu</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 89.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,19 +27,20 @@
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 89.</p>
 				<listWit>
 					<witness xml:id="Transcription">浣溪沙</witness>
 					<witness xml:id="Translation">To the tune “Sands of the Washing Stream”</witness>
@@ -47,13 +48,14 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the tune “Sands of the Washing Stream”-A New Song and A Cup Of Wine" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Sands of the Washing Stream”&#8212;"A New Song and A Cup Of Wine" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -67,7 +69,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">浣溪沙·一曲新詞酒一杯</lem>
-						<rdg wit="#Translation">To the tune “Sands of the Washing Stream”-A New Song and A Cup Of Wine</rdg>
+						<rdg wit="#Translation">To the tune “Sands of the Washing Stream”&#8212;"A New Song and A Cup Of Wine"</rdg>
 					</app>
 				</title>
 			</head>
@@ -78,7 +80,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">一曲新詞酒一杯。</lem>
-						<rdg wit="#Translation">A new song and a cup of wine
+						<rdg wit="#Translation">A single new song, a single cup of wine
 						</rdg>
 					</app>
 				</l>
@@ -99,13 +101,13 @@
 				<l n="4"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">無可奈何花落去。</lem>
-						<rdg wit="#Translation">Helplessly, flowers fall and disappear;</rdg>
+						<rdg wit="#Translation">There’s no help for it, the blossoms fall and disappear;</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">似曾相識燕歸來。</lem>
-						<rdg wit="#Translation">As if in reminiscence, swallows come back again.</rdg>
+						<rdg wit="#Translation">I seem to recognize them, the swallows come back again.</rdg>
 					</app>
 				</l>
 				<l n="6">

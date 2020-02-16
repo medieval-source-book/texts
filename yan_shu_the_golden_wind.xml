@@ -1,4 +1,4 @@
-ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!DOCTYPE TEI
 [
 <!ENTITY % Menota_entities SYSTEM
@@ -9,11 +9,11 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the Tune “Qingping Music”-The Golden Wind</title>
-				<author></author>
+				<title>To the Tune “Qingping Music”&#8212;"The Golden Wind"</title>
+				<author>Yan Shu</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers--></name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 92.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -27,19 +27,20 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p></p>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 92.</p>
 				<listWit>
 					<witness xml:id="Transcription">清平樂</witness>
 					<witness xml:id="Translation">To the Tune “Qingping Music”</witness>
@@ -47,13 +48,14 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"To the Tune “Qingping Music”-The Golden Wind" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the Tune “Qingping Music”&#8212;"The Golden Wind" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -67,7 +69,7 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<title>
 					<app>
 						<lem wit="#Transcription">清平樂·金風細細</lem>
-						<rdg wit="#Translation">To the Tune “Qingping Music”-The Golden Wind</rdg>
+						<rdg wit="#Translation">To the Tune “Qingping Music”&#8212;"The Golden Wind"</rdg>
 					</app>
 				</title>
 			</head>
@@ -122,13 +124,13 @@ ou<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">斜陽卻照闌干。</lem>
-						<rdg wit="#Translation">But the slanting sun is already shining on the railings.</rdg>
+						<rdg wit="#Translation">But the slanting sun still shines on the railing.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">雙燕欲歸時節，</lem>
-						<rdg wit="#Translation">It is the time when swallows are about to return in pairs;</rdg>
+						<rdg wit="#Translation">It is the time when swallows are about to depart in pairs;</rdg>
 					</app>
 				</l>
 				<l n="8">
