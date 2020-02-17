@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
-				<author></author>
+				<title>To the tune “Fortune Teller”&#8212;"The Waning Moon"</title>
+				<author>Su Shi</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965</name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 295.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -39,17 +39,17 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p>YText based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965 </p>
+				 <p>YText based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 295.</p>
 				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation">short title</witness>
+					<witness xml:id="Transcription">卜算子</witness>
+					<witness xml:id="Translation">To the tune “Fortune Teller”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Fortune Teller”&#8212;"The Waning Moon"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,9 +68,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">
-					<witness xml:id="Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">卜算子</lem>
+						<rdg wit="#Translation">To the tune “Fortune Teller”&#8212;"The Waning Moon"</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,52 +79,52 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">缺月挂疏桐，</lem>
+						<rdg wit="#Translation">The waning moon hangs on the thinning sycamore tree.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">漏斷人初靜。    </lem>
+						<rdg wit="#Translation">The dripping clock stops; all men become quiet.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">時見幽人獨往來，               </lem>
+						<rdg wit="#Translation">Sometimes I would see an isolated man come and go on his own</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"> </rdg>
+						<lem wit="#Transcription">縹緲孤鴻影。    </lem>
+						<rdg wit="#Translation">Like the distant and vague silhouette of a lone wild goose.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="2">
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">驚起卻回頭，    </lem>
+						<rdg wit="#Translation">Startled, it flies up and turns its head;</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">有恨無人省。    </lem>
+						<rdg wit="#Translation">It has resentment in its heart yet no one notices.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">揀盡寒枝不肯棲，               </lem>
+						<rdg wit="#Translation">Picking among all the cold branches, but not resting on any,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">寂寞沙洲冷。    </lem>
+						<rdg wit="#Translation">It is alone and abandoned on the freezing isle of sand.</rdg>
 					</app>
 				</l>
 			</lg>
