@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"</title>
+				<title>To the tune “The Moon Over the West River”&#8212;"Plum Blossom"</title>
 				<author>Su Shi</author>
 				<respStmt>
 					<resp>Text based on</resp>
-					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 303.</name>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -39,17 +39,17 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 303. </p>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
 				<listWit>
-					<witness xml:id="Transcription">菩薩蠻</witness>
-					<witness xml:id="Translation">To the tune “Bodhisattva Barbarians”</witness>
+					<witness xml:id="Transcription">西江月</witness>
+					<witness xml:id="Translation">To the tune “The Moon Over the West River”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “The Moon Over the West River”&#8212;"Plum Blossom"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +68,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">菩薩蠻 西湖</lem>
-						<rdg wit="#Translation">To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"</rdg>
+						<lem wit="#Transcription">西江月 梅花 </lem>
+						<rdg wit="#Translation">To the tune “The Moon Over the West River”&#8212;"Plum Blossom"</rdg>
 					</app>
 				</title>
 			</head>
@@ -79,52 +79,50 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">秋風湖上蕭蕭雨</lem>
-						<rdg wit="#Translation">In the autumn wind, on the lake, the cold and sparing rain</rdg>
+						<lem wit="#Transcription">玉骨那愁瘴霧，</lem>
+						<rdg wit="#Translation">Why would the jade bones (need to) worry about noxious air?</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">使君欲去還留住。</lem>
-						<rdg wit="#Translation">Keeps the prefect when he is about to go. </rdg>
+						<lem wit="#Transcription">冰肌自有仙風。         </lem>
+						<rdg wit="#Translation">The skin, translucent as ice, was naturally endowed with a transcendent temperament. </rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">今日漫留君。</lem>
-						<rdg wit="#Translation">Today, he is held back in vain;</rdg>
+						<lem wit="#Transcription">海仙時遣探芳叢。               </lem>
+						<rdg wit="#Translation">From time to time, the sea nymphs sent an envoy to explore this fragrant shrub:</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">明朝愁殺人。</lem>
-						<rdg wit="#Translation">Tomorrow, it will worry us to death.</rdg>
+						<lem wit="#Transcription">倒掛綠毛幺鳳。         </lem>
+						<rdg wit="#Translation">A green-feathered bird like a phoenix, hanging upside down.</rdg>
 					</app>
 				</l>
-			</lg>
-			<lg n="2">
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">佳人千點淚。</lem>
-						<rdg wit="#Translation">The fair ones shed thousands of teardrops,</rdg>
+						<lem wit="#Transcription">素面常嫌粉涴，         </lem>
+						<rdg wit="#Translation">The natural face never liked being smudged by powder;</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">灑向長河水。</lem>
-						<rdg wit="#Translation">sprinkling onto the Long River.</rdg>
+						<lem wit="#Transcription">洗妝不褪唇紅。         </lem>
+						<rdg wit="#Translation">After washing off its makeup, the rouge on its lips did not fade.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">不用斂雙蛾。</lem>
-						<rdg wit="#Translation">There is no need to frown;</rdg>
+						<lem wit="#Transcription">高情已逐曉雲空。  </lem>
+						<rdg wit="#Translation">My lofty longings chased after the dawn cloud and vanished,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">路人啼更多。</lem>
-						<rdg wit="#Translation">the passersby will cry even more.</rdg>
+						<lem wit="#Transcription">不與梨花同夢。         </lem>
+						<rdg wit="#Translation">Sharing no dreams with the pear blossoms.</rdg>
 					</app>
 				</l>
 			</lg>

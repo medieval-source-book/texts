@@ -1,0 +1,145 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Immortal by the River”&#8212;"Returning at Night to Linggao"</title>
+				<author>Su Shi</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 287.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 287. </p>
+				<listWit>
+					<witness xml:id="Transcription">臨江仙</witness>
+					<witness xml:id="Translation">To the tune “Immortal by the River”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Immortal by the river”&#8212;"Returning at Night to Linggao"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">臨江仙 夜歸臨皋 </lem>
+						<rdg wit="#Translation">To the tune “Immortal by the River”&#8212;"Returning at Night to Linggao"</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">夜飲東坡醒復醉，</lem>
+						<rdg wit="#Translation">Drinking at night on the Eastern Slope, I sobered up and got drunk again.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">歸來彷彿三更。 </lem>
+						<rdg wit="#Translation">When I arrived back home, it was about midnight.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">家童鼻息已雷鳴。 </lem>
+						<rdg wit="#Translation">My son was snoring like thunder,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">敲門都不應，    </lem>
+						<rdg wit="#Translation">Not responding, no matter how hard I knocked.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">倚杖聽江聲。   </lem>
+						<rdg wit="#Translation">Supported by a walking stick, I listened to the river.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">長恨此身非我有，               </lem>
+						<rdg wit="#Translation">I have long regretted that this body does not belong to me.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">何時忘卻營營。         </lem>
+						<rdg wit="#Translation">When can I stop pursuing fame and money?</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">夜闌風靜谷紋平。               </lem>
+						<rdg wit="#Translation">The night comes to an end, the wind stops, and the waves in theravine die down.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">小舟從此逝，    </lem>
+						<rdg wit="#Translation">Let me drift away on a small boat from now on,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">江海寄餘生。    </lem>
+						<rdg wit="#Translation">And entrust the rest of my life to rivers and seas.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
