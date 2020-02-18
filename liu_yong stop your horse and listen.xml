@@ -1,0 +1,211 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Stop Your Horse and Listen”&#8212;"Phoenix Pillows"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</p>
+				<listWit>
+					<witness xml:id="Transcription">駐馬聽</witness>
+					<witness xml:id="Translation">To the tune “Stop Your Horse and Listen”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Stop Your Horse and Listen”&#8212;"Phoenix Pillows" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">駐馬聽</lem>
+						<rdg wit="#Translation">To the tune “Stop Your Horse and Listen”&#8212;"Phoenix Pillows"</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">鳳枕鸞帷。</lem>
+						<rdg wit="#Translation">Phoenix pillows and peacock curtains.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">二三載，</lem>
+						<rdg wit="#Translation">For two or three years,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">如魚似水相知。</lem>
+						<rdg wit="#Translation">We were as intimate as fish and water.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">良天好景，</lem>
+						<rdg wit="#Translation">Good days and fine times,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">深憐多愛，</lem>
+						<rdg wit="#Translation">Deep affection and profuse love,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">無非儘意依隨。</lem>
+						<rdg wit="#Translation">I did nothing but following her wishes.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">奈何伊。</lem>
+						<rdg wit="#Translation">How come she</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">恣性靈、</lem>
+						<rdg wit="#Translation">Indulges herself</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">忒煞些兒。</lem>
+						<rdg wit="#Translation">So excessively?</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">無事孜煎，</lem>
+						<rdg wit="#Translation">For no reason, she fries me,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">萬回千度，</lem>
+						<rdg wit="#Translation">A thousand, ten thousand times &#8212;</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">怎忍分離。</lem>
+						<rdg wit="#Translation">Otherwise how could I bear to leave her?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">而今漸行漸遠，</lem>
+						<rdg wit="#Translation">Yet now the more I travel,  the further away she is.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">漸覺雖悔難追。</lem>
+						<rdg wit="#Translation">I gradually realized that, even though I regret leaving her, the past can never be retrieved.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">漫寄消寄息，</lem>
+						<rdg wit="#Translation">It is pointless to send letters and messages,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">終久奚為。</lem>
+						<rdg wit="#Translation">In the end, what will it do?</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">也擬重論繾綣，</lem>
+						<rdg wit="#Translation">I also considered restoring our intimacy,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">爭奈翻覆思維。</lem>
+						<rdg wit="#Translation">But I cannot help but think twice.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">縱再會，</lem>
+						<rdg wit="#Translation">Even if we reunite,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">只恐恩情，</lem>
+						<rdg wit="#Translation">I am afraid our love</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">難似當時。</lem>
+						<rdg wit="#Translation">Could hardly be what it was.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
