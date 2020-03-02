@@ -66,8 +66,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription"><!--Full combined title in original language--></lem>
-						<rdg wit="#Translation"><!--Full combined title in English--></rdg>
+						<lem wit="#Transcription"><!--Title as should be displayed above text--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text--></rdg>
 					</app>
 				</title>
 				<title type="sub">
