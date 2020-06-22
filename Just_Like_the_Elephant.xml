@@ -1,0 +1,527 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Just Like the Elephant</title>
+				<author>AUTHOR (DO WE DO ATTRIBUTIONS?)</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Carl Appel</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Johannes Jung Ruhland</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<availability>
+					<p></p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">Atressi cum l'orifans</witness>
+					<witness xml:id="Translation">Just Like the Elephant</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>Just Like the Elephant is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading. Transcriptions, translations, and critical notes are encoded in XML conforming to TEI (P5) guidelines. The original language text is contained within <lem> tags and translations within <rdg> tags. </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Atressi cum l'orifans</lem>
+						<rdg wit="#Translation">Just Like the Elephant</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Atressi cum l’orifans</lem>
+						<rdg wit="#Translation"> Just as the elephant</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">que, quan chai, no·s pot levar</lem>
+						<rdg wit="#Translation">Which, when it falls, cannot get up</rdg>
+					</app>
+				</l>
+				<l n="3"><space quantity="10" unit="chars"></space>
+					<app>
+						<lem wit="#Transcription">tro l’autre ab lor cridar</lem>
+						<rdg wit="#Translation">Until the others, through their trumpeting,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">de lor votz lo levon sus,</lem>
+						<rdg wit="#Translation">Make it stand up with the sounds they emit,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">et ieu vuelh segre aquel us</lem>
+						<rdg wit="#Translation">I too want to follow this custom,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">quar mos mesfagz es tan greus e pezans</lem>
+						<rdg wit="#Translation">Because my wrongdoing is such a heavy burden</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">que, si la cortz del Puey e lo bobans</lem>
+						<rdg wit="#Translation">That, if the court of Puy, and the pomp</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">e l’adregz pretz dels leials amadors</lem>
+						<rdg wit="#Translation">And the rightful merit of the true lovers</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">no·m relevon, ia mais no serai sors;</lem>
+						<rdg wit="#Translation">Do not get me back up, I will never be up on my feet again;</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">que denhesson per me clamar merce</lem>
+						<rdg wit="#Translation">So may they deign to plead for mercy on my behalf</rdg>
+					</app>
+				</l>				
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">lai on preiars ni razos no·m val re.</lem>
+						<rdg wit="#Translation">There where begging and arguing do not help me.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>					
+			</lg>
+			<lg n="2">
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">E s’ieu per los fis amans</lem>
+						<rdg wit="#Translation">And if I, thanks to the refined lovers,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">non puosc en ioy retornar,</lem>
+						<rdg wit="#Translation">Cannot recover my joyfulness,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">per tostemps lays mon chantar</lem>
+						<rdg wit="Translation">I will abandon my singing forever</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">que de mi no y a ren plus;</lem>
+						<rdg wit="Translation">Because there’s nothing left of me;</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">ans viurai cum lo reclus,</lem>
+						<rdg wit="Translation">Instead, I will be living like a recluse,</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">sols, ses solatz, qu’aitals es mos talans,</lem>
+						<rdg wit="Translation">Alone, without solace, for such is my state of mind;</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">quar ma vida m’es enuegz et afans</lem>
+						<rdg wit="Translation">Because my life bothers and pains me,</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">e gaugz m’es dols e plazers m’es dolors,</lem>
+						<rdg wit="Translation">And joy feels like sorrow and pleasure like pain,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">qu’ieu no suy ges de la maneira d’ors</lem>
+						<rdg wit="Translation">Because I am not at all like the Bear,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">que, qui be·l bat ni·l te vil ses merce,</lem>
+						<rdg wit="Translation">Which, when one beats it thoroughly and holds it in contempt, without mercy,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">adoncs engrayssa e melhuyra e reve.</lem>
+						<rdg wit="Translation">Fattens, improves, and flourishes.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3">
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Be sai qu’amors es tan grans</lem>
+						<rdg wit="#Translation">I know full well that love is so magnanimous</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">que leu me pot perdonar,</lem>
+						<rdg wit="#Translation">That it can easily forgive me,</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">s’ieu falhi per sobramar</lem>
+						<rdg wit="Translation">If I failed it by loving excessively</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">ni renhey cum Dedalus,</lem>
+						<rdg wit="Translation">Or if I behaved like Daedalus,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">que dis qu’elh era Jhezus</lem>
+						<rdg wit="Translation">Who said he was Jesus,</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">e volc volar al cel outracuians,</lem>
+						<rdg wit="Translation">And who wanted to fly to the sky in his arrogance</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">mas Dieus baisset l’orguel e lo sobrans;</lem>
+						<rdg wit="Translation">(But God abated his pride and his superiority);</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">e mos orguelhs non es res mas amors,</lem>
+						<rdg wit="Translation">And my pride is nothing but love,</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">per que merces mi deu faire socors,</lem>
+						<rdg wit="Translation">Which is why Mercy must come and rescue me,</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">que maint luec son on razos vens merce,</lem>
+						<rdg wit="Translation">For there are many instances in which arguing wins against mercy,</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">e luec on dregz ni razos no·s ave.</lem>
+						<rdg wit="Translation">And instances in which legitimacy and arguing do not prevail.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>			
+			</lg>
+			<lg n="4">
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">A tot lo mon suy clamans</lem>
+						<rdg wit="#Translation">I complain to everyone</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">de mi e de trop parlar;</lem>
+						<rdg wit="#Translation">About myself and about my vain discourse;</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">e s’ieu pogues contrafar</lem>
+						<rdg wit="Translation">And if I could imitate</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">fenix, don non es mas us</lem>
+						<rdg wit="Translation">The Phoenix, whose custom it is nothing less</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">que s’art e pueys restortz sus,</lem>
+						<rdg wit="Translation">Than to light up in flames and then to recover,</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">ieu m’arsera, quar suy tant malanans,</lem>
+						<rdg wit="Translation">I would light myself up in flames, because I am so unhappy,</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">e mos fals digz mensongiers e truans</lem>
+						<rdg wit="Translation">And my false, mendacious and vile utterance</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">resorsera en sospirs et en plors</lem>
+						<rdg wit="Translation">Will resuscitate as sighing and as weeping,</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">lai on beutatz e iovens e valors</lem>
+						<rdg wit="Translation">There where beauty and youthfulness and worth</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">es, que no y falh mas un pauc de merce,</lem>
+						<rdg wit="Translation">Are, for it does not take more than just a little of mercy</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">que no y sion assemblat tug li be.</lem>
+						<rdg wit="Translation">For there to be everything that is good in one place.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>			
+			</lg>
+			<lg n="5">
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Ma chansos er drogomans</lem>
+						<rdg wit="#Translation">My song will be a fixer</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">lai on ieu non aus anar</lem>
+						<rdg wit="#Translation">There where I do not dare to go</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">ni ab dregz huelhs regardar,</lem>
+						<rdg wit="Translation">Nor to look with a straight eye,</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">tan sui forfagz e aclus;</lem>
+						<rdg wit="Translation">So much am I guilty and constricted;</rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">e ia hom no m’en escus.</lem>
+						<rdg wit="Translation">And indeed no one seeks to justify me.</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">Mielhs-de-dona, que fugit ai dos ans,</lem>
+						<rdg wit="Translation">Best-of-a-Lady, from whom I have fled for two years,</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">er torn a vos doloiros e plorans;</lem>
+						<rdg wit="Translation">Now I turn to you in pain and crying;</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">aissi quo·l sers, que, quant a fag son cors,</lem>
+						<rdg wit="Translation">Like the Stag, which, when it has run away,</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">torna morir al crit dels cassadors,</lem>
+						<rdg wit="Translation">Returns to die when the hunters shout,</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">aissi torn ieu, domna, en vostra merce;</lem>
+						<rdg wit="Translation">So do I return, Lady, to your mercy;</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">mais vos no·n cal, si d’amor no·us sove.</lem>
+						<rdg wit="Translation">But you do not care, and you are forgetful about love.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>			
+			</lg>
+			<lg n="6">
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Tal senhor ai, en cui a tan de be</lem>
+						<rdg wit="#Translation">I have a lord in whom there is so much goodness</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">que·l iorn que·l vei non puosc faillir en re.</lem>
+						<rdg wit="#Translation">That when I saw him I could not wish for more.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>			
+			</lg>
+			<lg n="7">
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Belh Bericle, ioys e pretz vos mante;</lem>
+						<rdg wit="#Translation">Beautiful Beryl, joyfulness and worth assist you;</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">tot quan vuelh ai, quan de vos me sove.</lem>
+						<rdg wit="#Translation">I have all that I want when I think about you.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+					</app>
+				</l>			
+			</lg>							
+		</body>
+	</text>
+</TEI>
+
+<!--
+
+	Verse Template
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->
