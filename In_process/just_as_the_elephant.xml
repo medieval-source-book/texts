@@ -81,7 +81,7 @@
 						<rdg wit="#Translation">Which, when it falls, cannot get up</rdg>
 					</app>
 				</l>
-				<l n="3"><space quantity="10" unit="chars"></space>
+				<l n="3">
 					<app>
 						<lem wit="#Transcription">tro l’autre ab lor cridar</lem>
 						<rdg wit="#Translation">Until the others, through their trumpeting,</rdg>
@@ -134,13 +134,7 @@
 						<lem wit="#Transcription">lai on preiars ni razos no·m val re.</lem>
 						<rdg wit="#Translation">There where begging and arguing do not help me.</rdg>
 					</app>
-				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>					
+				</l>				
 			</lg>
 			<lg n="2">
 				<l n="12">
@@ -207,12 +201,6 @@
 					<app>
 						<lem wit="#Transcription">adoncs engrayssa e melhuyra e reve.</lem>
 						<rdg wit="Translation">Fattens, improves, and flourishes.</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
 					</app>
 				</l>
 			</lg>
@@ -283,13 +271,6 @@
 						<rdg wit="Translation">And instances in which legitimacy and arguing do not prevail.</rdg>
 					</app>
 				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
-				</l>			
-			</lg>
 			<lg n="4">
 				<l n="34">
 					<app>
@@ -355,12 +336,6 @@
 					<app>
 						<lem wit="#Transcription">que no y sion assemblat tug li be.</lem>
 						<rdg wit="Translation">For there to be everything that is good in one place.</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
 					</app>
 				</l>			
 			</lg>
@@ -430,12 +405,6 @@
 						<lem wit="#Transcription">mais vos no·n cal, si d’amor no·us sove.</lem>
 						<rdg wit="Translation">But you do not care, and you are forgetful about love.</rdg>
 					</app>
-				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
 				</l>			
 			</lg>
 			<lg n="6">
@@ -449,12 +418,6 @@
 					<app>
 						<lem wit="#Transcription">que·l iorn que·l vei non puosc faillir en re.</lem>
 						<rdg wit="#Translation">That when I saw him I could not wish for more.</rdg>
-					</app>
-				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
 					</app>
 				</l>			
 			</lg>
@@ -470,58 +433,8 @@
 						<lem wit="#Transcription">tot quan vuelh ai, quan de vos me sove.</lem>
 						<rdg wit="#Translation">I have all that I want when I think about you.</rdg>
 					</app>
-				</l>
-				<l>
-					<app>
-						<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-						<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-					</app>
 				</l>			
 			</lg>							
 		</body>
 	</text>
 </TEI>
-
-<!--
-
-	Verse Template
-
-		TEI Encoding Specifications:
-
-			<lem> = transcription
-
-			<rdg> = translation
-
-			Tag numbering:
-				(<X> for example)
-				<X n="1"> 
-			
-			Stanza break:
-				<app>
-					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
-					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
-				</app>
-
-			Special Characters:
-				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
-				This chart is of the Medieval Unicode Font Initiative. In order to 
-				include one of these characters, enter the ampersand and following
-				letters followed by a semicolon (e.g. &odot;).
-
-			Language change: 
-				When the text changes language, use an extra modifier in your tag. 
-
-				For example: (a text changes to Latin)
-					<l lang="la" n="4">
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</l>
-
-				The modifier (xml:lang="?") is the critical insertion. 
-
-				Find the two letter identifier for the language you wish to specify 
-				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-				in the subtag category
--->

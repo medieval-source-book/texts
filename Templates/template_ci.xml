@@ -41,8 +41,8 @@
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</p>
 				<listWit>
-					<witness xml:id="Transcription"></witness>
-					<witness xml:id="Translation"></witness>
+					<witness xml:id="Transcription"><!--Tune name ONLY in Chinese--></witness>
+					<witness xml:id="Translation"><!--Tune name ONLY in English--></witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
