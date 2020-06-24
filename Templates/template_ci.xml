@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title></title>
+				<title><!--In English following this example: To the tune “Jade Butterfly”&#8212;"By Mistake"--></title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -49,7 +49,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>T is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p><!--Title in English following this example: To the tune “Jade Butterfly”&#8212;"By Mistake"--> is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +68,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><!--Tune name ONLY in Chinese--></lem>
+						<rdg wit="#Translation"><!--Tune name ONLY in English--></rdg>
 					</app>
 				</title>
 			</head>
