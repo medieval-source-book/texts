@@ -66,8 +66,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription"><!--Title as should be displayed above text--></lem>
-						<rdg wit="#Translation"><!--Title as should be displayed above text--></rdg>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
 					</app>
 				</title>
 				<title type="sub">
