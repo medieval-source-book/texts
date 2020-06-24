@@ -9,15 +9,17 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Just Like the Elephant</title>
+				<title>"Just as the elephant"</title>
 				<author>Rigaut de Berbezilh</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name>Carl Appel</name>
 				</respStmt>
+				<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Johannes Jung Ruhland</name>
+					<name>Johannes Junge Ruhland</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -25,25 +27,25 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>TO BE DECIDED! SOMETHING ABOUT STANFORD</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'>CRITICAL INTRODUCTION GOES HERE</note>
 			</notesStmt>
 			<sourceDesc>
+				<p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
 				<listWit>
-					<witness xml:id="Transcription">Atressi cum l'orifans</witness>
-					<witness xml:id="Translation">Just Like the Elephant</witness>
+					<witness xml:id="Transcription">"Atressi cum l'orifans"</witness>
+					<witness xml:id="Translation">"Just as the elephant"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>Just Like the Elephant is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading. Transcriptions, translations, and critical notes are encoded in XML conforming to TEI (P5) guidelines. The original language text is contained within "lem" tags and translations within "rdg" tags. </p> 
+            	<p>"Just as the elephant" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading. Transcriptions, translations, and critical notes are encoded in XML conforming to TEI (P5) guidelines. The original language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags. </p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
