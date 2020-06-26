@@ -17,12 +17,11 @@
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Mae Lyons-Penner</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Mae Lyons-Penner</name>
-					<name>TEST</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -35,28 +34,25 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Paris Bibliothèque Nationale Française MS 20125, ff. 1r-2v.</p>
 				<listWit>
 					<witness xml:id="Transcription">Li prologue ou livre des estoires</witness>
 					<witness xml:id="Translation">Prologue to the Book of Histories</witness>
 				</listWit>
-				<p>Paris Bibliothèque Nationale Française MS 20125, ff. 1r-2v.</p>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
 		<projectDesc>
-            	<p>"The Prologue to the Book of Histories" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"The Prologue to the Book of Histories" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
-			</editorialDecl>
-		<encodingDesc>
-			<editorialDecl>
-				<p></p>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -273,7 +269,7 @@
 						<lem wit="#Transcription">Car il het raison et mesure,
 						</lem>
 						<rdg wit="Translation">Because he hates truth and self-restraint,
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>‘Raison’ can mean both what is true and what is just.</p>
 								<p>‘Mesure’ is an important virtue in medieval culture and can be variously translated as moderation, restraint, reason or good judgement.</p>
 							</note>
@@ -285,7 +281,7 @@
 						<lem wit="#Transcription">Bonté, loiauté et droiture.
 						</lem>
 						<rdg wit="Translation">Goodness, loyalty and justice.
-							<note anchored="true">
+							<note type= "critical" anchored="true">
 								<p>‘Droiture’ means moral or legal rectitude as well as fairness or justice.</p>
 							</note>
 						</rdg>
@@ -380,7 +376,7 @@
 						<lem wit="#Transcription">Ens en sains fons, si com il devrent
 						</lem>
 						<rdg wit="Translation">In the holy font, doing as they ought to,
-							<note anchored="true">
+							<note type= "critical" anchored="true">
 								<p>This is a reference to the Christian sacrament of baptism.</p>
 							</note>
 						</rdg>
@@ -391,7 +387,7 @@
 						<lem wit="#Transcription">E l'uile et la cresme recevrent
 						</lem>
 						<rdg wit="Translation">And received the oil and the chrism;
-							<note anchored="true">
+							<note type= "critical" anchored="true">
 								<p>Chrism is a consecrated oil used in the administration of certain Catholic sacraments, including baptism.</p>
 							</note>
 						</rdg>
@@ -549,7 +545,7 @@
 						<lem wit="#Transcription">Ens el pas de la mort passa;
 						</lem>
 						<rdg wit="Translation">He became mortal;
-							<note anchored="true">
+							<note type= "critical" anchored="true">
 								<p>The text literally states that he entered into proximity of death.</p>
 							</note>
 						</rdg>
@@ -651,7 +647,7 @@
 						<lem wit="#Transcription">Li siecles chascun jor enpire;
 						</lem>
 						<rdg wit="Translation">The world grows worse every day:
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>‘Siecles’ means both the world and the age; it is sometimes also used in the Middle Ages to mean ‘century’, following the Roman usage of ‘seculum’ (and in line with the modern French usage of ‘siècle’).</p>
 							</note>
 						</rdg>
@@ -753,7 +749,7 @@
 						<lem wit="#Transcription">Segnor, e n'esteroit mesure
 						</lem>
 						<rdg wit="Translation">Lords, wouldn’t it be reasonable
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>‘Mesure’, as previously noted, is an important virtue in medieval culture and can be variously translated as moderation, restraint, reason or good judgement.</p>
 							</note>
 						</rdg>
@@ -849,7 +845,7 @@
 						<lem wit="#Transcription">Ou mout avra sens et mesure.
 						</lem>
 						<rdg wit="Translation">In which there will be much meaning and good judgement.
-						<note anchored="true">
+						<note type="critical" anchored="true">
 								<p>‘Mesure’, as previously noted, is an important virtue in medieval culture and can be variously translated as moderation, restraint, reason or good judgement.</p>
 							</note>
 						</rdg>
@@ -1236,7 +1232,7 @@
 				<l n="155">
 					<app loc="l154">
 						<rdg wit="Translation">Just as I found it in Latin.
-												<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>This is a reference to the sources used by the author to compile this history.</p>
 							</note></rdg>
 					</app>
@@ -1608,7 +1604,7 @@
 						<lem wit="#Transcription">Selonc raison e conterai
 						</lem>
 						<rdg wit="Translation">And I will tell you
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>As noted above, 'raison’ can mean both what is true and what is just. Here, it is translated as 'truthfully' (see l.205).</p>
 							</note>
 						</rdg>
@@ -1703,7 +1699,7 @@
 						<lem wit="#Transcription">Regenerés ens es sains fons;
 						</lem>
 						<rdg wit="Translation">Reborn in the holy font;
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>As above, this is a reference to the Christian sacrament of baptism.</p>
 							</note>
 						</rdg>
@@ -1918,7 +1914,7 @@
 						<lem wit="#Transcription">Que, qui voudra raison entendre,
 						</lem>
 						<rdg wit="Translation">So that anyone who wants to hear the truth
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>As noted above, 'raison’ can mean both what is true and what is just.</p>
 							</note>
 						</rdg>
@@ -1943,7 +1939,7 @@
 						<lem wit="#Transcription">E d'estoire, sans nulle fable,
 						</lem>
 						<rdg wit="Translation">And composed of history without any fiction;
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>Perhaps unsurprisingly, this line has often been quoted in work on medieval historiography. The word ‘fable’ can mean an invention, a lie, or vain speech, and has been variously interpreted by historians.</p>
 							</note>
 						</rdg>
@@ -2025,7 +2021,7 @@
 						<lem wit="#Transcription">Por qu'il plaise le chastelain
 						</lem>
 						<rdg wit="Translation">To please the Chatelain
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>'Chatelain' is a medieval French title given to the lord of a castle or fortified place.</p>
 							</note>
 						</rdg>
@@ -2072,7 +2068,7 @@
 				<l n="267">
 					<app loc="l266">
 						<rdg wit="Translation">From Latin into the vernacular,
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>The word used is ‘romans’, which can refer either to the vernacular (contrasted with Latin), or to French in particular (contrasted with other vernacular languages).</p>
 							</note>
 						</rdg>
@@ -2168,7 +2164,7 @@
 						<lem wit="#Transcription">Ne soit il ja ens en sa vie.
 						</lem>
 						<rdg wit="Translation">In one’s life they are never far away.
-						<note anchored="true">
+						<note type="critical" anchored="true">
 								<p>The subject is singular in the original (‘the envious man’).</p>
 							</note>
 						</rdg>
