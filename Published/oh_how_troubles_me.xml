@@ -41,6 +41,7 @@
 				<p>Chansonnier Nivelle de la Chausée (Paris, Bibliothèque Nationale de France, Département de Musique, Res. Vmc MS 57), ff.79v-80r</p>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
 		<projectDesc>
             	<p>"Oh how it troubles me!" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
@@ -52,7 +53,6 @@
 				<segmentation>
 				</segmentation>
 			</editorialDecl>
-		<encodingDesc>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
 	</teiHeader>
