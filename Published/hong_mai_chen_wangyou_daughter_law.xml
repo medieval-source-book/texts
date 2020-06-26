@@ -34,19 +34,25 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Zhonghua Shuju edition: Hong, Mai. Yi Jian Zhi. Di 1 ban. ed. 4 vols. Beijing: Zhonghua shu ju : Xin hua shu dian Beijing fa xing suo fa xing. 1981.</p>
 				<listWit>
 					<witness xml:id="Transcription">陳王猷子妇</witness>
 					<witness xml:id="Translation">Chen Wangyou’s Daughter-in-Law</witness>
 				</listWit>
-				<p>Zhonghua Shuju edition: Hong, Mai. Yi Jian Zhi. Di 1 ban. ed. 4 vols. Beijing: Zhonghua shu ju : Xin hua shu dian Beijing fa xing suo fa xing. 1981.</p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Chen Wangyou’s Daughter-in-Law" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"Chen Wangyou’s Daughter-in-Law" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
-				<p></p>
+					<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Punctuation follows the edition.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal">
 			</variantEncoding>
@@ -158,7 +164,7 @@
 					</app>
 					<app>
 						<lem wit="#Transcription">
-							<s>又三月, 陳守卒於郡.</s>
+							<s>又三月, 陳守卒於郡。</s>
 						</lem>
 						<rdg wit="#Translation">
 							<s>After three months, the magistrate Chen died in the county.</s>
