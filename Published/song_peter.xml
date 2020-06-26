@@ -21,34 +21,34 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Mae Lyons-Penner</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Bayerische Staatsbibliothek Clm 6260 f.158v</p>
 				<listWit>
 					<witness xml:id="Transcription">Petruslied</witness>
 					<witness xml:id="Translation">The Song of Peter</witness>
 				</listWit>
-				<p>Bayerische Staatsbibliothek Clm 6260 f.158v</p>
 			</sourceDesc>
 		</fileDesc>
 			<projectDesc>
-            	<p>"The Song of Peter" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"The Song of Peter" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
-	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -99,7 +99,7 @@
 					<app>
 						<lem wit="#Transcription">den er uuili nerian. kirie eleison criste [eleyson]</lem>
 						<rdg wit="#Translation">those whom he wishes to save. Kyrie eleison. Christe eleison.
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>Peter’s words can possibly be understood as the key to the gates of Heaven. According to Haug (1991), p.1119, this idea is present in other Latin hymns.
 								</p>
 							</note>
@@ -114,7 +114,7 @@
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">do ginaden<note anchored="true">
+						<lem wit="#Transcription">do ginaden<note type="critical" anchored="true">
 								<p>This verse can also be found in Otfrid’s Gospel Harmony (I7,28), but with the Frankish form 'ginadon which results in an assonance instead of a rhyme.
 								</p>
 							</note>. kirie eleyson criste eleyson</lem>
