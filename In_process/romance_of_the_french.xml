@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Romance of the French &#40;Arflet&#41;</title>
+				<title>Romance of the French &#40;Alfred&#41;</title>
 				<author>André de Coutances</author>
 				<respStmt>
 					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Transcription by</resp>
@@ -37,7 +37,7 @@
 				 <p>British Library MS Additional 10289, 129v-123v</p>
 				<listWit>
 					<witness xml:id="Transcription">Le Roman des Franceis &#40;Arflet&#41;</witness>
-					<witness xml:id="Translation">Romance of the French &#40;Arflet&#41;</witness>
+					<witness xml:id="Translation">Romance of the French &#40;Alfred&#41;</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -1196,245 +1196,236 @@
 				</l>
 			</lg>
 			<lg n="44">
-				<l n="#">
+				<l n="173">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Franceis qui devant lui esterent</lem>
+						<rdg wit="#Translation">The French who were in front of him</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="174">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">D’aler en l’Isle se hasterent.</lem>
+						<rdg wit="#Translation">Made him hasten to the Île.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="175">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">A quelque paine l’i menerent;</lem>
+						<rdg wit="#Translation">They brought him there not without effort;</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="176">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Laissierent le, si retornerent.</lem>
+						<rdg wit="#Translation">They left him and went back.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="45">
-				<l n="#">
+				<l n="177">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Frolles remest sor son destrier,</lem>
+						<rdg wit="#Translation">Frollo remained on his horse,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="178">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Artur vit venir fort et fier;</lem>
+						<rdg wit="#Translation">He saw Arthur coming up towards him, strong and imposing;</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="179">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Lors n’out en lui que corrocier</lem>
+						<rdg wit="#Translation">He felt nothing but anger</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="180">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Quant vers lui le vit aprochier.</lem>
+						<rdg wit="#Translation">When he saw him getting close.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="46">
-				<l n="#">
+				<l n="181">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Andui es estruis s’afichierent,</lem>
+						<rdg wit="#Translation">They both settled firmly in their stirrup,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="182">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Si que, quant il s’entr’aprocherent,</lem>
+						<rdg wit="#Translation">So much so that, when they reached one another,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="183">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Amedous lor lances bruiserent</lem>
+						<rdg wit="#Translation">The two of them had their spears broken,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="184">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Et lor chevaus s’agenoillerent.</lem>
+						<rdg wit="#Translation">And their horses were forced onto their knees.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="47">
-				<l n="#">
+				<l n="185">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Frolles acuit a menecier</lem>
+						<rdg wit="#Translation">Frollo started proffering menaces</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="186">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Et Artur trait le brant d’acier;</lem>
+						<rdg wit="#Translation">And Arthur brandished his steel sword;</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="187">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Quant Frolles vit le cop haucier,</lem>
+						<rdg wit="#Translation">When Frollo saw the blow coming,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="188">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">A terre se lessa cachier</lem>
+						<rdg wit="#Translation">He let himself fall on the ground</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="48">
-				<l n="#">
+				<l n="189">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Et dist: ‘Merci, Artur, beau sire;</lem>
+						<rdg wit="#Translation">And said: ‘Please, Arthur, dear Sir;</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="190">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Je suis recreant, ne m’ocire.’</lem>
+						<rdg wit="#Translation">I’m a coward, don’t kill me!’</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="191">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Artur ne pout atremper s’ire,</lem>
+						<rdg wit="#Translation">Arthur could not restrain his anger,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="192">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Frolles ocist, n’en puis el dire.</lem>
+						<rdg wit="#Translation">And he killed Frollo, there’s nothing else to be said.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="49">
-				<l n="#">
+				<l n="193">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Franceis furent espoenté</lem>
+						<rdg wit="#Translation">The French were frightened</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="194">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Quant lor rei virent graventé.</lem>
+						<rdg wit="#Translation">When they saw their king knocked down.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="195">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">A Artur se sont presenté</lem>
+						<rdg wit="#Translation">They turned themselves in to Arthur,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="196">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Que d’eus face sa volenté.</lem>
+						<rdg wit="#Translation">So that he may do as he pleased with them.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="50">
-				<l n="#">
+				<l n="197">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Et il qui toz les voleit pendre,</lem>
+						<rdg wit="#Translation">And when Arthur, who wanted to have them all hanged,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="198">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Quant si humblement les vit rendre,</lem>
+						<rdg wit="#Translation">Saw them surrender so humbly,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="199">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ne vout envers Deu tant mesprendre;</lem>
+						<rdg wit="#Translation">Did not want to act reprehensibly towards God;</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="200">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Par tote France fist defendre</lem>
+						<rdg wit="#Translation">Across France, he forbad</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="51">
-				<l n="#">
+				<l n="201">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Que nul ne n’i eüst pendu.</lem>
+						<rdg wit="#Translation">That anyone should be hanged.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="202">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vie et menbre lor a rendu.</lem>
+						<rdg wit="#Translation">He returned life and limbs to them.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="203">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">En autre sens lor a vendu</lem>
+						<rdg wit="#Translation">And he dealt differently with them</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="204">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Que vers lui se sont defendu.</lem>
+						<rdg wit="#Translation">For having resisted him.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="52">
-				<l n="#">
+				<l n="205">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation-->
-						</rdg>
+						<lem wit="#Transcription">Quer il les mist toz en servage</lem>
+						<rdg wit="#Translation">Indeed, he enslaved them all,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="206">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ou encore est tot lor lignage;</lem>
+						<rdg wit="#Translation">And their descendants are still there;</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="207">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Iloc donna en eritage</lem>
+						<rdg wit="#Translation">There, Arthur bequeathed the legacy</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="208">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Artur, as Franceis, cuvertage.</lem>
+						<rdg wit="#Translation">Of serfdom upon the French.</rdg>
 					</app>
 				</l>
 			</lg>
