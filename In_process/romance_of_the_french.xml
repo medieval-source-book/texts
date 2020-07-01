@@ -1,0 +1,2744 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Romance of the French &#40;Alfred&#41;</title>
+				<author>André de Coutances</author>
+				<respStmt>
+					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Transcription by</resp>
+					<name>Johannes Junge Ruhland</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Johannes Junge Ruhland</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>British Library MS Additional 10289, 129v-123v</p>
+				<listWit>
+					<witness xml:id="Transcription">Le Roman des Franceis &#40;Arflet&#41;</witness>
+					<witness xml:id="Translation">Romance of the French &#40;Alfred&#41;</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Romance of the French &#40;Arflet&#41;" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">Ici se comence le romanz des Franceis</lem>
+						<rdg wit="#Translation">Here begins the romance of the French</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Reis Arflet de Nohundrelande</lem>
+						<rdg wit="#Translation">King Alfred of Northumberland</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">As boens beveors saluz mande,</lem>
+						<rdg wit="#Translation">Sends greetings to the good drinkers,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Les autres a maufez commande,</lem>
+						<rdg wit="#Translation">The others he commends to demons,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Quer il nes prise une alemande.</lem>
+						<rdg wit="#Translation">Because he does not value them much.<note type="critical" anchored="true"><p>Literally ‘he does not value them the price of an almond’.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Le viel Arflet fu son ancestre</lem>
+						<rdg wit="#Translation">Old Alfred was his ancestor,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Qui des guides fu sire et mestre.</lem>
+						<rdg wit="#Translation">He was the lord and master of banquets.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Cil si enbat destre et senestre</lem>
+						<rdg wit="#Translation">The other one throws himself from one side to the other</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Tant qu’il en set quanqu’en puet estre.</lem>
+						<rdg wit="#Translation">So much that he knows all about it.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3">
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Mestre est des cerveises estales,</lem>
+						<rdg wit="#Translation">He is the master of settled beer,
+						</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Bien les conoist bones et males;</lem>
+						<rdg wit="#Translation">He knows it good and bad;</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Bien est sire des escales<note type="critical" anchored="true"><p>escoles</p></note>,</lem>
+						<rdg wit="#Translation">He is the lord of drinking bowls,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Des gestinges et des ervales.</lem>
+						<rdg wit="#Translation">Of banquets and of feasts.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">De lui vos di en dreite fei</lem>
+						<rdg wit="#Translation">I tell you truthfully
+						</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Que sevent a beü sanz sei,</lem>
+						<rdg wit="#Translation">That he has often drank without thirst,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Et bien est veir que endreit sei</lem>
+						<rdg wit="#Translation">And it is true that he does not want</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Ne veut que dechie guersei.</lem>
+						<rdg wit="#Translation">Wassail to fall into disuse.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5">
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Rimé ont de lui li Franceis</lem>
+						<rdg wit="#Translation">The French have made some rhymes about him,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Lez le pot ou bollent VI peis;</lem>
+						<rdg wit="#Translation">Next to a pot where six peas were boiling;</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Par icestes meismes leis</lem>
+						<rdg wit="#Translation">By the same token, the English</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">S’en volent vengier li Engleis.</lem>
+						<rdg wit="#Translation">Want to take revenge.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6">
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Il ont dit que riens n’a valu,</lem>
+						<rdg wit="#Translation">The English said that it has not worked out,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Et donc à Arflet n’a chalu</lem>
+						<rdg wit="#Translation">And so Alfred did not care</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Que boté fu par Capalu</lem>
+						<rdg wit="#Translation">That king Arthur was thrown</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Li reis Artur en la palu;</lem>
+						<rdg wit="#Translation">Into the marsh by the cat Capalu;</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7">
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Et que le chat l’ocist de guerre,</lem>
+						<rdg wit="#Translation">And that the cat killed him at war,</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Puis passa outre en Engleterre,</lem>
+						<rdg wit="#Translation">And crossed the Channel into England,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Et ne fu pas lenz de conquerre;</lem>
+						<rdg wit="#Translation">And was quick to make conquests,</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Ainz porta corone en la terre,</lem>
+						<rdg wit="#Translation">So that he even wore a crown in those lands,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="8">
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Et fu sire de la contree.</lem>
+						<rdg wit="#Translation">And became the lord of the region.</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Ou ont itel fable trovee?</lem>
+						<rdg wit="#Translation">Where did they find such a tale?</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Mençonge est, Dex le set, provee:</lem>
+						<rdg wit="#Translation">It’s a proven lie, God knows it:</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Onc greignor ne fu encontree.</lem>
+						<rdg wit="#Translation">Never has one found a bigger one.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="9">
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Mes li chaitif, li espové,</lem>
+						<rdg wit="#Translation">But the miserable, the overwhelmed,</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Li mal peü, li tart cové,</lem>
+						<rdg wit="#Translation">The malnourished, the misbred,</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Li patarin, li endové,</lem>
+						<rdg wit="#Translation">The naughty, the possessed,</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Où ont-il d’autre contrové?</lem>
+						<rdg wit="#Translation">Where have they found these imaginary things?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="10">
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Trop ont dit d’Artur grant enfance,</lem>
+						<rdg wit="#Translation">They told enough silly tales about Arthur,</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">Quer Artu fu de tel puissance</lem>
+						<rdg wit="#Translation">Because Arthur was of such power</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Que Franceis conquist o sa lance:</lem>
+						<rdg wit="#Translation">That he conquered the French with his lance:</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">Mau eritage mist en France.</lem>
+						<rdg wit="#Translation">He placed a wicked lineage in France.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="11">
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">Bien savon que Bien et Belin,</lem>
+						<rdg wit="#Translation">We know well that Brenne and Belin,</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">Maximien et Costentin</lem>
+						<rdg wit="#Translation">Maximien and Constantin</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">Furent a Franceis mal veisin,</lem>
+						<rdg wit="#Translation">Were bad neighbours to the French,</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">Et France orent, ce est<note type="critical" anchored="true"><p>c'est</p></note> la fin.</lem>
+						<rdg wit="#Translation">And they had France in their power, that’s how it ends.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="12">
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">D’Engleterre furent tuit rei,</lem>
+						<rdg wit="#Translation">They were all kings of England,</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Chescun conquist France endroit sei,</lem>
+						<rdg wit="#Translation">Each one of them conquered France,</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">Chescun en pleis a le bofei,</lem>
+						<rdg wit="#Translation">Each one was full of pride when he pleaded,</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">Le gorgeïr et le desrei.</lem>
+						<rdg wit="#Translation">Full of garrulousness and of reckless conduct.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="13">
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">Au rei Artur le deraain,</lem>
+						<rdg wit="#Translation">To Arthur, the last king,</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">De celui sommes nos certain,</lem>
+						<rdg wit="#Translation">&#x2014;of him we are assured&#x2014;</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">Voudrent<note type="critical" anchored="true"><p>voudreit</p></note> fere plet, mes en vain,</lem>
+						<rdg wit="#Translation">They wanted to contest his power, but that was in vain,</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">Quer il les out bien sor<note type="critical" anchored="true"><p>sor sor</p></note> sa main. </lem>
+						<rdg wit="#Translation">Because he had them firmly in his command.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="14">
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">Quant de lor orguil s’averti,</lem>
+						<rdg wit="#Translation">When he noticed their arrogance,</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">Maugré eus toz les converti,</lem>
+						<rdg wit="#Translation">He turned them despite themselves,</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Et le païs acuverti:</lem>
+						<rdg wit="#Translation">And he subjected the land:</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Dites se ce est veir parti?</lem>
+						<rdg wit="#Translation">Tell me if that is a truthful distribution!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="15">
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">Jamés n’iert jor que il n’i pere;</lem>
+						<rdg wit="#Translation">There was not a day that he would not be seen;</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Douce esteit<note type="critical" anchored="true"><p>este</p></note> France, or est amere;</lem>
+						<rdg wit="#Translation">France used to be sweet, now it is bitter;</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Mout ourent en Artur dur pere,</lem>
+						<rdg wit="#Translation">They had a very harsh father in Arthur,</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">Sa sorvenue mout compere.</lem>
+						<rdg wit="#Translation">His arrival made a notable difference.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="16">
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">Mout fu Artur proz et corteis;</lem>
+						<rdg wit="#Translation">Arthur was very worthy and courtly;</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Quant out conquis Chartres et Bleis, </lem>
+						<rdg wit="#Translation">Once he conquered Chartres and Blois,</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">Et Orliens et tot Estampeis,</lem>
+						<rdg wit="#Translation">And Orléans and all of Étampes,</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">A Paris vint o ses Engleis.</lem>
+						<rdg wit="#Translation">He went to Paris with his Englishmen.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="17">
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">La vile asist, n’en dotez mie;</lem>
+						<rdg wit="#Translation">He besieged the city, let there be no doubt about it;</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">Mout out bone chevalerie</lem>
+						<rdg wit="#Translation">He had very good knights,</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">Et bien estruite et bien garnie,</lem>
+						<rdg wit="#Translation">Well trained and well-armed,</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">Si l’a fierement asallie.</lem>
+						<rdg wit="#Translation">So he bravely assailed it.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="18">
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">Engleis fierement asallirent,</lem>
+						<rdg wit="#Translation">The English bravely assailed,</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">Franceis merdement defendirent:</lem>
+						<rdg wit="#Translation">The French shittily defended:</rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription">Au premier assaut se rendirent,</lem>
+						<rdg wit="#Translation">With the first assault they surrendered,</rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription">Et hontosement s’en partirent.</lem>
+						<rdg wit="#Translation">And they went off full of shame.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="19">
+				<l n="73">
+					<app>
+						<lem wit="#Transcription">A cel partir fu apelee</lem>
+						<rdg wit="#Translation">From this departure came the name</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">Paris, ci n’a nul celee,</lem>
+						<rdg wit="#Translation">Paris, there’s nothing to hide about it,</rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription">Qui primes fu Termes nommee,</lem>
+						<rdg wit="#Translation">Which was initially called Termes,</rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription">Et mout ert de grant renommee.</lem>
+						<rdg wit="#Translation">And which had a great renown.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="20">
+				<l n="77">
+					<app>
+						<lem wit="#Transcription">Frolles ert apelé le reis,</lem>
+						<rdg wit="#Translation">Frollo was the name of the king</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription">Qu’Artur conquist o ses Engleis;</lem>
+						<rdg wit="#Translation">Whom Arthur vanquished with his English;</rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription">Et de Frolles sont dit Franceis:</lem>
+						<rdg wit="#Translation">And the French are named after Frollo:</rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription">Qui primes eurent non Bailleis.</lem>
+						<rdg wit="#Translation">Initially, they were called Bailleis.<note type="critical" anchored="true"><p> Probably ‘Galleis’, Gauls. Holden 1973, n. in v. 80</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="21">
+				<l n="81">
+					<app>
+						<lem wit="#Transcription">Frolles, qui de France fu sire,</lem>
+						<rdg wit="#Translation">Frollo, who was the lord of France,</rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Transcription">Ne sout que faire ne que dire;</lem>
+						<rdg wit="#Translation">Did not know what to do or to say;</rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Transcription">Grant mautalent out et grant ire:</lem>
+						<rdg wit="#Translation">He was very angry and upset:</rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Transcription">Franceis manda a un concire.</lem>
+						<rdg wit="#Translation">He convocated the French to a council.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="22">
+				<l n="85">
+					<app>
+						<lem wit="#Transcription">Li baron l’ont a ce amis</lem>
+						<rdg wit="#Translation">The barons persuaded him</rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Transcription">Qui ses messages a tramis</lem>
+						<rdg wit="#Translation">To send a messenger</rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Transcription">A Artur; si li a pramis</lem>
+						<rdg wit="#Translation">To Arthur; and so he promised him</rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Transcription">Qu’encor porroient estre amis,</lem>
+						<rdg wit="#Translation">That they could still be in good terms,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="23">
+				<l n="89">
+					<app>
+						<lem wit="#Transcription">Se de sa terre s’en issist</lem>
+						<rdg wit="#Translation">If he emptied the lands</rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Transcription">Que a mout grant tort saisseïst;</lem>
+						<rdg wit="#Translation">Which he had been ill advised to seize;</rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Transcription">Et s’il ne la guerpisseïst</lem>
+						<rdg wit="#Translation">But if he did not vacate the premises,</rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Transcription">De batalle le aasteïst</lem>
+						<rdg wit="#Translation">He would provoke him to combat,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="24">
+				<l n="93">
+					<app>
+						<lem wit="#Transcription">Par eus dous, que plus n’i eüst:</lem>
+						<rdg wit="#Translation">One on one, and he wouldn’t add anything to it:</rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Transcription">Eissi le voleit, ce seüst.</lem>
+						<rdg wit="#Translation">He made it known to him that those were his terms.</rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Transcription">Cous rendist qui cous receüst,</lem>
+						<rdg wit="#Translation">A blow was worth a blow,</rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Transcription">Et plus feïst qui plus peüst.</lem>
+						<rdg wit="#Translation">And who could do more should do more.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="25">
+				<l n="97">
+					<app>
+						<lem wit="#Transcription">Artur respondi: ‘Dex i valle;</lem>
+						<rdg wit="#Translation">Arthur replied: ‘God help me;</rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Transcription">Defendré mei, s’est qui m’asalle;</lem>
+						<rdg wit="#Translation">I will defend myself, if there’s someone to attack me;</rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Transcription">Seit à demein ceste batalle.’</lem>
+						<rdg wit="#Translation">Let the combat be scheduled for tomorrow,</rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Transcription">A Paris, en l’Isle, sanz falle,</lem>
+						<rdg wit="#Translation">In Paris, on the Île de la Cité, without fail.’</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="26">
+				<l n="101">
+					<app>
+						<lem wit="#Transcription">De ça et de la sunt certain</lem>
+						<rdg wit="#Translation">On this and on that side, they are assured</rdg>
+					</app>
+				</l>
+				<l n="102">
+					<app>
+						<lem wit="#Transcription">De la batalle a l’endemain:</lem>
+						<rdg wit="#Translation">That they will fight the next day:</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription">Qui veintra tot, eit en sa main</lem>
+						<rdg wit="#Translation">The winner would have possession</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription">Les bois, les viles et le plain.</lem>
+						<rdg wit="#Translation">Of the forests, the towns and the clear lands.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="27">
+				<l n="105">
+					<app>
+						<lem wit="#Transcription">Frolles durement menaça,</lem>
+						<rdg wit="#Translation">Frollo proffered strong menaces,</rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Transcription">De jurer ne s’apereça,</lem>
+						<rdg wit="#Translation">He did not tire of swearing,</rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Transcription">Dex tot par menbres depeça,</lem>
+						<rdg wit="#Translation">He completely dismembered the body of God,</rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Transcription">Que Artur mal s’i aproça.</lem>
+						<rdg wit="#Translation">Because Arthur came to do ill.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="28">
+				<l n="109">
+					<app>
+						<lem wit="#Transcription">Artur, qui n’out pas cuer de glace,</lem>
+						<rdg wit="#Translation">Arthur, who did not have a cold heart,</rdg>
+					</app>
+				</l>
+				<l n="110">
+					<app>
+						<lem wit="#Transcription">Preisa mout petit sa menace;</lem>
+						<rdg wit="#Translation">Cared very little about his threats;</rdg>
+					</app>
+				</l>
+				<l n="111">
+					<app>
+						<lem wit="#Transcription">Mieuz l’amast a tenir en place</lem>
+						<rdg wit="#Translation">He would have preferred him to stay in place</rdg>
+					</app>
+				</l>
+				<l n="112">
+					<app>
+						<lem wit="#Transcription">Que voer Dieu en mi la face.</lem>
+						<rdg wit="#Translation">Rather than seeing God face to face.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="29">
+				<l n="113">
+					<app>
+						<lem wit="#Transcription">Artur, qui out grant desierrer,</lem>
+						<rdg wit="#Translation">Arthur, who felt a great urge,</rdg>
+					</app>
+				</l>
+				<l n="114">
+					<app>
+						<lem wit="#Transcription">Se fist matin aparellier,</lem>
+						<rdg wit="#Translation">Had himself prepared early morning,</rdg>
+					</app>
+				</l>
+				<l n="115">
+					<app>
+						<lem wit="#Transcription">Lui et Labagu son destrier,</lem>
+						<rdg wit="#Translation">Himself and his horse Labagu,</rdg>
+					</app>
+				</l>
+				<l n="116">
+					<app>
+						<lem wit="#Transcription">Et se fist en l’Isle nagier.</lem>
+						<rdg wit="#Translation">And he had himself transported to the Île.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="30">
+				<l n="117">
+					<app>
+						<lem wit="#Transcription">Frolles jusqu’a tierce dormi,</lem>
+						<rdg wit="#Translation">Frollo slept until way after daybreak,</rdg>
+					</app>
+				</l>
+				<l n="118">
+					<app>
+						<lem wit="#Transcription">Et lors quant il se desdormi</lem>
+						<rdg wit="#Translation">And when he finished sleeping,</rdg>
+					</app>
+				</l>
+				<l n="119">
+					<app>
+						<lem wit="#Transcription">Endeseetes s’estormi</lem>
+						<rdg wit="#Translation">He abruptly rose,</rdg>
+					</app>
+				</l>
+				<l n="120">
+					<app>
+						<lem wit="#Transcription">Com se l’eüssent point formi.</lem>
+						<rdg wit="#Translation">As if ants had bitten him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="31">
+				<l n="121">
+					<app>
+						<lem wit="#Transcription">Franceis, qui moroient d’ennui,</lem>
+						<rdg wit="#Translation">The French, who were bored to death,</rdg>
+					</app>
+				</l>
+				<l n="122">
+					<app>
+						<lem wit="#Transcription">Li distrent: ‘Leverez-vos hui?’</lem>
+						<rdg wit="#Translation">Asked him: ‘Will you get up today?’</rdg>
+					</app>
+				</l>
+				<l n="123">
+					<app>
+						<lem wit="#Transcription">Il dist ‘aol!’, <note type="critical" anchored="true"><p>‘Aol’ stands for ‘oïl’ &#40;pronounced well&#41;, meaning yes. ‘Aol’ also means garlic; these lines contain an untranslatable pun that alludes to the French’s penchant for garlic expressed below. </p></note>et de nullui</lem>
+						<rdg wit="#Translation">He said ‘yeah’, and the French</rdg>
+					</app>
+				</l>
+				<l n="124">
+					<app>
+						<lem wit="#Transcription">N’ont Franceis aol fors de lui.</lem>
+						<rdg wit="#Translation">Use garlic because of no one else than him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="32">
+				<l n="125">
+					<app>
+						<lem wit="#Transcription">Tot en gesant, sans sei drecier,</lem>
+						<rdg wit="#Translation">Lying in bed, without getting up,</rdg>
+					</app>
+				</l>
+				<l n="126">
+					<app>
+						<lem wit="#Transcription">Se fist Frolles aparellier;</lem>
+						<rdg wit="#Translation">Frollo had himself prepared;</rdg>
+					</app>
+				</l>
+				<l n="127">
+					<app>
+						<lem wit="#Transcription">D’ilonc sunt Franceis costumier,</lem>
+						<rdg wit="#Translation">That is where the custom of the French comes from</rdg>
+					</app>
+				</l>
+				<l n="128">
+					<app>
+						<lem wit="#Transcription">Que en gesant se font chaucier.</lem>
+						<rdg wit="#Translation">To get dressed lying.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="33">
+				<l n="129">
+					<app>
+						<lem wit="#Transcription">Ainz que Frolles se fust armez</lem>
+						<rdg wit="#Translation">Before Frollo even got armed,</rdg>
+					</app>
+				</l>
+				<l n="130">
+					<app>
+						<lem wit="#Transcription">S’est tierce fiee pasmez;</lem>
+						<rdg wit="#Translation">He fainted three times;</rdg>
+					</app>
+				</l>
+				<l n="131">
+					<app>
+						<lem wit="#Transcription">Lors fu des Franceis mout blasmez,<note type="critical" anchored="true"><p>blasmet</p></note></lem>
+						<rdg wit="#Translation">The French blamed him strongly,</rdg>
+					</app>
+				</l>
+				<l n="132">
+					<app>
+						<lem wit="#Transcription">Mès il lor dist: ‘Ne vos tamez;</lem>
+						<rdg wit="#Translation">But he told them: ‘Don’t be afraid;</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="34">
+				<l n="133">
+					<app>
+						<lem wit="#Transcription">Ce me vient de grant hardement:</lem>
+						<rdg wit="#Translation">This is due to my great courage:</rdg>
+					</app>
+				</l>
+				<l n="134">
+					<app>
+						<lem wit="#Transcription">Mort est Artu veraement.’</lem>
+						<rdg wit="#Translation">Arthur is a dead man, to be sure.’</rdg>
+					</app>
+				</l>
+				<l n="135">
+					<app>
+						<lem wit="#Transcription">Lors les prist toz par serement,</lem>
+						<rdg wit="#Translation">He then took everyone’s oath</rdg>
+					</app>
+				</l>
+				<l n="136">
+					<app>
+						<lem wit="#Transcription">Qu’il tendront son commandement.</lem>
+						<rdg wit="#Translation">That they would follow his lead.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="35">
+				<l n="137">
+					<app>
+						<lem wit="#Transcription">‘Coment, dist-il, que il m’avienge,</lem>
+						<rdg wit="#Translation">He said, ‘Whatever happens to me,</rdg>
+					</app>
+				</l>
+				<l n="138">
+					<app>
+						<lem wit="#Transcription">De mes bones mors vos sovienge;</lem>
+						<rdg wit="#Translation">Remember my good mores;</rdg>
+					</app>
+				</l>
+				<l n="139">
+					<app>
+						<lem wit="#Transcription">Mar i aura cil qui Diu crienge</lem>
+						<rdg wit="#Translation">Ills will befall whoever fears God</rdg>
+					</app>
+				</l>
+				<l n="140">
+					<app>
+						<lem wit="#Transcription">Se leauté a homme tienge.</lem>
+						<rdg wit="#Translation">If he remains loyal to another man.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="36">
+				<l n="141">
+					<app>
+						<lem wit="#Transcription">Cruel seiez à desmesure,</lem>
+						<rdg wit="#Translation">Be excessively cruel,</rdg>
+					</app>
+				</l>
+				<l n="142">
+					<app>
+						<lem wit="#Transcription">Avel, fei mentie, perjure;</lem>
+						<rdg wit="#Translation">Stingy lying perjurers;</rdg>
+					</app>
+				</l>
+				<l n="143">
+					<app>
+						<lem wit="#Transcription">El vostre garder metez cure,</lem>
+						<rdg wit="#Translation">Dedicate yourselves to hoard your riches,</rdg>
+					</app>
+				</l>
+				<l n="144">
+					<app>
+						<lem wit="#Transcription">De l’autrui prenez a dreiture.</lem>
+						<rdg wit="#Translation">And feel entitled to take the riches of others.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="37">
+				<l n="145">
+					<app>
+						<lem wit="#Transcription">Artur vos voudra del suen tendre,</lem>
+						<rdg wit="#Translation">Arthur will want to give you some of his wealth,</rdg>
+					</app>
+				</l>
+				<l n="146">
+					<app>
+						<lem wit="#Transcription">Prenez-le sanz guerredon rendre;</lem>
+						<rdg wit="#Translation">Take it without returning the favor;</rdg>
+					</app>
+				</l>
+				<l n="147">
+					<app>
+						<lem wit="#Transcription">Ainz vos lessiez ardeir ou pendre</lem>
+						<rdg wit="#Translation">Go let yourselves be burned or hanged</rdg>
+					</app>
+				</l>
+				<l n="148">
+					<app>
+						<lem wit="#Transcription">Que le vostre veiez despendre.</lem>
+						<rdg wit="#Translation">Rather than seeing your riches being distributed.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="38">
+				<l n="149">
+					<app>
+						<lem wit="#Transcription">De dez seiez boens joeors</lem>
+						<rdg wit="#Translation">Be good at playing dice,</rdg>
+					</app>
+				</l>
+				<l n="150">
+					<app>
+						<lem wit="#Transcription">Et de Deu bons perjureors,</lem>
+						<rdg wit="#Translation">And be good perjurers toward God,</rdg>
+					</app>
+				</l>
+				<l n="151">
+					<app>
+						<lem wit="#Transcription">En autrui cort richeeors,</lem>
+						<rdg wit="#Translation">Be braggarts at other people’s courts,</rdg>
+					</app>
+				</l>
+				<l n="152">
+					<app>
+						<lem wit="#Transcription">Poi fesanz et boens vanteors.</lem>
+						<rdg wit="#Translation">Do little and boast well.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="39">
+				<l n="153">
+					<app>
+						<lem wit="#Transcription">Acreez, si ne rendez rien;</lem>
+						<rdg wit="#Translation">Take up credit, don’t return anything;</rdg>
+					</app>
+				</l>
+				<l n="154">
+					<app>
+						<lem wit="#Transcription">Haez ceus qui vos ferunt bien;</lem>
+						<rdg wit="#Translation">Hate those who act well towards you;</rdg>
+					</app>
+				</l>
+				<l n="155">
+					<app>
+						<lem wit="#Transcription">Plus ordement vivez que chien,</lem>
+						<rdg wit="#Translation">Live more filthily than dogs,</rdg>
+					</app>
+				</l>
+				<l n="156">
+					<app>
+						<lem wit="#Transcription">Et seiez tuit armeneisien.’</lem>
+						<rdg wit="#Translation">And be a bunch of miscreants!’</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="40">
+				<l n="157">
+					<app>
+						<lem wit="#Transcription">Frolles en France mist ces leis;</lem>
+						<rdg wit="#Translation">Frollo established these laws in France;</rdg>
+					</app>
+				</l>
+				<l n="158">
+					<app>
+						<lem wit="#Transcription">Bien le retindrent li Franceis,</lem>
+						<rdg wit="#Translation">The French kept them well, </rdg>
+					</app>
+				</l>
+				<l n="159">
+					<app>
+						<lem wit="#Transcription">Et encor i out il sordeis;</lem>
+						<rdg wit="#Translation">And there was even worse than that,</rdg>
+					</app>
+				</l>
+				<l n="160">
+					<app>
+						<lem wit="#Transcription">Mes je n’en diré or ampleis.</lem>
+						<rdg wit="#Translation">But I won’t say more about it now.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="41">
+				<l n="161">
+					<app>
+						<lem wit="#Transcription">Quant armé fu a quelque paine,</lem>
+						<rdg wit="#Translation">Once he was armed, not without difficulty,</rdg>
+					</app>
+				</l>
+				<l n="162">
+					<app>
+						<lem wit="#Transcription">Son mestre chambellenc aceine:</lem>
+						<rdg wit="#Translation">He called his chief servant and said:</rdg>
+					</app>
+				</l>
+				<l n="163">
+					<app>
+						<lem wit="#Transcription">‘Va tost, dist-il, et si te paine</lem>
+						<rdg wit="#Translation">‘Hurry up and do what you can</rdg>
+					</app>
+				</l>
+				<l n="164">
+					<app>
+						<lem wit="#Transcription">Que aie pullente aleine.’</lem>
+						<rdg wit="#Translation">To make me have a bad breath.’</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="42">
+				<l n="165">
+					<app>
+						<lem wit="#Transcription">Cil conut bien sa volenté,</lem>
+						<rdg wit="#Translation">The servant fully understood what he wanted,</rdg>
+					</app>
+				</l>
+				<l n="166">
+					<app>
+						<lem wit="#Transcription">Que d’allie s’ert dementé,</lem>
+						<rdg wit="#Translation">Because he was whining to get garlic,</rdg>
+					</app>
+				</l>
+				<l n="167">
+					<app>
+						<lem wit="#Transcription">Plain vessel l’en a presenté</lem>
+						<rdg wit="#Translation">So he offered him a full plate of it,</rdg>
+					</app>
+				</l>
+				<l n="168">
+					<app>
+						<lem wit="#Transcription">Et il en menja a plenté.</lem>
+						<rdg wit="#Translation">And the king ate plenty.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="43">
+				<l n="169">
+					<app>
+						<lem wit="#Transcription">Ne se pout Frolles atenir</lem>
+						<rdg wit="#Translation">Frollo could not restrain himself</rdg>
+					</app>
+				</l>
+				<l n="170">
+					<app>
+						<lem wit="#Transcription">Que des auz ne feïst venir,</lem>
+						<rdg wit="#Translation">From letting go a wind caused by the garlic,</rdg>
+					</app>
+				</l>
+				<l n="171">
+					<app>
+						<lem wit="#Transcription">Tant por usage maintenir,</lem>
+						<rdg wit="#Translation">In order as much to upkeep the tradition</rdg>
+					</app>
+				</l>
+				<l n="172">
+					<app>
+						<lem wit="#Transcription">Tant por Artur en sus tenir.</lem>
+						<rdg wit="#Translation">As to keep Arthur at a distance.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="44">
+				<l n="173">
+					<app>
+						<lem wit="#Transcription">Franceis qui devant lui esterent</lem>
+						<rdg wit="#Translation">The French who were in front of him</rdg>
+					</app>
+				</l>
+				<l n="174">
+					<app>
+						<lem wit="#Transcription">D’aler en l’Isle se hasterent.</lem>
+						<rdg wit="#Translation">Made him hasten to the Île.</rdg>
+					</app>
+				</l>
+				<l n="175">
+					<app>
+						<lem wit="#Transcription">A quelque paine l’i menerent;</lem>
+						<rdg wit="#Translation">They brought him there not without effort;</rdg>
+					</app>
+				</l>
+				<l n="176">
+					<app>
+						<lem wit="#Transcription">Laissierent le, si retornerent.</lem>
+						<rdg wit="#Translation">They left him and went back.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="45">
+				<l n="177">
+					<app>
+						<lem wit="#Transcription">Frolles remest sor son destrier,</lem>
+						<rdg wit="#Translation">Frollo remained on his horse,</rdg>
+					</app>
+				</l>
+				<l n="178">
+					<app>
+						<lem wit="#Transcription">Artur vit venir fort et fier;</lem>
+						<rdg wit="#Translation">He saw Arthur coming up towards him, strong and imposing;</rdg>
+					</app>
+				</l>
+				<l n="179">
+					<app>
+						<lem wit="#Transcription">Lors n’out en lui que corrocier</lem>
+						<rdg wit="#Translation">He felt nothing but anger</rdg>
+					</app>
+				</l>
+				<l n="180">
+					<app>
+						<lem wit="#Transcription">Quant vers lui le vit aprochier.</lem>
+						<rdg wit="#Translation">When he saw him getting close.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="46">
+				<l n="181">
+					<app>
+						<lem wit="#Transcription">Andui es estruis s’afichierent,</lem>
+						<rdg wit="#Translation">They both settled firmly in their stirrup,</rdg>
+					</app>
+				</l>
+				<l n="182">
+					<app>
+						<lem wit="#Transcription">Si que, quant il s’entr’aprocherent,</lem>
+						<rdg wit="#Translation">So much so that, when they reached one another,</rdg>
+					</app>
+				</l>
+				<l n="183">
+					<app>
+						<lem wit="#Transcription">Amedous lor lances bruiserent</lem>
+						<rdg wit="#Translation">The two of them had their spears broken,</rdg>
+					</app>
+				</l>
+				<l n="184">
+					<app>
+						<lem wit="#Transcription">Et lor chevaus s’agenoillerent.</lem>
+						<rdg wit="#Translation">And their horses were forced onto their knees.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="47">
+				<l n="185">
+					<app>
+						<lem wit="#Transcription">Frolles acuit a menecier</lem>
+						<rdg wit="#Translation">Frollo started proffering menaces</rdg>
+					</app>
+				</l>
+				<l n="186">
+					<app>
+						<lem wit="#Transcription">Et Artur trait le brant d’acier;</lem>
+						<rdg wit="#Translation">And Arthur brandished his steel sword;</rdg>
+					</app>
+				</l>
+				<l n="187">
+					<app>
+						<lem wit="#Transcription">Quant Frolles vit le cop haucier,</lem>
+						<rdg wit="#Translation">When Frollo saw the blow coming,</rdg>
+					</app>
+				</l>
+				<l n="188">
+					<app>
+						<lem wit="#Transcription">A terre se lessa cachier</lem>
+						<rdg wit="#Translation">He let himself fall on the ground</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="48">
+				<l n="189">
+					<app>
+						<lem wit="#Transcription">Et dist: ‘Merci, Artur, beau sire;</lem>
+						<rdg wit="#Translation">And said: ‘Please, Arthur, dear Sir;</rdg>
+					</app>
+				</l>
+				<l n="190">
+					<app>
+						<lem wit="#Transcription">Je suis recreant, ne m’ocire.’</lem>
+						<rdg wit="#Translation">I’m a coward, don’t kill me!’</rdg>
+					</app>
+				</l>
+				<l n="191">
+					<app>
+						<lem wit="#Transcription">Artur ne pout atremper s’ire,</lem>
+						<rdg wit="#Translation">Arthur could not restrain his anger,</rdg>
+					</app>
+				</l>
+				<l n="192">
+					<app>
+						<lem wit="#Transcription">Frolles ocist, n’en puis el dire.</lem>
+						<rdg wit="#Translation">And he killed Frollo, there’s nothing else to be said.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="49">
+				<l n="193">
+					<app>
+						<lem wit="#Transcription">Franceis furent espoenté</lem>
+						<rdg wit="#Translation">The French were frightened</rdg>
+					</app>
+				</l>
+				<l n="194">
+					<app>
+						<lem wit="#Transcription">Quant lor rei virent graventé.</lem>
+						<rdg wit="#Translation">When they saw their king knocked down.</rdg>
+					</app>
+				</l>
+				<l n="195">
+					<app>
+						<lem wit="#Transcription">A Artur se sont presenté</lem>
+						<rdg wit="#Translation">They turned themselves in to Arthur,</rdg>
+					</app>
+				</l>
+				<l n="196">
+					<app>
+						<lem wit="#Transcription">Que d’eus face sa volenté.</lem>
+						<rdg wit="#Translation">So that he may do as he pleased with them.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="50">
+				<l n="197">
+					<app>
+						<lem wit="#Transcription">Et il qui toz les voleit pendre,</lem>
+						<rdg wit="#Translation">And when Arthur, who wanted to have them all hanged,</rdg>
+					</app>
+				</l>
+				<l n="198">
+					<app>
+						<lem wit="#Transcription">Quant si humblement les vit rendre,</lem>
+						<rdg wit="#Translation">Saw them surrender so humbly,</rdg>
+					</app>
+				</l>
+				<l n="199">
+					<app>
+						<lem wit="#Transcription">Ne vout envers Deu tant mesprendre;</lem>
+						<rdg wit="#Translation">Did not want to act reprehensibly towards God;</rdg>
+					</app>
+				</l>
+				<l n="200">
+					<app>
+						<lem wit="#Transcription">Par tote France fist defendre</lem>
+						<rdg wit="#Translation">Across France, he forbad</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="51">
+				<l n="201">
+					<app>
+						<lem wit="#Transcription">Que nul ne n’i eüst pendu.</lem>
+						<rdg wit="#Translation">That anyone should be hanged.</rdg>
+					</app>
+				</l>
+				<l n="202">
+					<app>
+						<lem wit="#Transcription">Vie et menbre lor a rendu.</lem>
+						<rdg wit="#Translation">He returned life and limbs to them.</rdg>
+					</app>
+				</l>
+				<l n="203">
+					<app>
+						<lem wit="#Transcription">En autre sens lor a vendu</lem>
+						<rdg wit="#Translation">And he dealt differently with them</rdg>
+					</app>
+				</l>
+				<l n="204">
+					<app>
+						<lem wit="#Transcription">Que vers lui se sont defendu.</lem>
+						<rdg wit="#Translation">For having resisted him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="52">
+				<l n="205">
+					<app>
+						<lem wit="#Transcription">Quer il les mist toz en servage</lem>
+						<rdg wit="#Translation">Indeed, he enslaved them all,</rdg>
+					</app>
+				</l>
+				<l n="206">
+					<app>
+						<lem wit="#Transcription">Ou encore est tot lor lignage;</lem>
+						<rdg wit="#Translation">And their descendants are still there;</rdg>
+					</app>
+				</l>
+				<l n="207">
+					<app>
+						<lem wit="#Transcription">Iloc donna en eritage</lem>
+						<rdg wit="#Translation">There, Arthur bequeathed the legacy</rdg>
+					</app>
+				</l>
+				<l n="208">
+					<app>
+						<lem wit="#Transcription">Artur, as Franceis, cuvertage.</lem>
+						<rdg wit="#Translation">Of serfdom upon the French.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="53">
+				<l n="209">
+					<app>
+						<lem wit="#Transcription">Franceis en l’Isle s’en passerent,</lem>
+						<rdg wit="#Translation">The French went over to the Île,</rdg>
+					</app>
+				</l>
+				<l n="210">
+					<app>
+						<lem wit="#Transcription">Lor rei qui mort ert enporterent.</lem>
+						<rdg wit="#Translation">And they carried their dead king away.</rdg>
+					</app>
+				</l>
+				<l n="211">
+					<app>
+						<lem wit="#Transcription">En un grant feu le cors boterent</lem>
+						<rdg wit="#Translation">They threw him into a great fire</rdg>
+					</app>
+				</l>
+				<l n="212">
+					<app>
+						<lem wit="#Transcription">Que por lui ardre alumerent.</lem>
+						<rdg wit="#Translation">That they had lit to burn him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="54">
+				<l n="213">
+					<app>
+						<lem wit="#Transcription">Deables furent en agait</lem>
+						<rdg wit="#Translation">Devils were on the look-out,</rdg>
+					</app>
+				</l>
+				<l n="214">
+					<app>
+						<lem wit="#Transcription">Qui d’Enfer ourent le feu trait</lem>
+						<rdg wit="#Translation">They brought fire from Hell</rdg>
+					</app>
+				</l>
+				<l n="215">
+					<app>
+						<lem wit="#Transcription">Dont il alumerent l’atrait</lem>
+						<rdg wit="#Translation">To light the stake</rdg>
+					</app>
+				</l>
+				<l n="216">
+					<app>
+						<lem wit="#Transcription">Qui por Frolles ardeir fut fait.</lem>
+						<rdg wit="#Translation">Which was made to burn Frollo.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="55">
+				<l n="217">
+					<app>
+						<lem wit="#Transcription">Mout out cel feu male ensuiance,</lem>
+						<rdg wit="#Translation">This fire had very bad consequences,</rdg>
+					</app>
+				</l>
+				<l n="218">
+					<app>
+						<lem wit="#Transcription">Que d’iloc avient sanz dotance</lem>
+						<rdg wit="#Translation">Because there’s no doubt that it is the reason</rdg>
+					</app>
+				</l>
+				<l n="219">
+					<app>
+						<lem wit="#Transcription">Qu’encor en art en remenbrance</lem>
+						<rdg wit="#Translation">Why, in remembrance, the inhabitants of France</rdg>
+					</app>
+				</l>
+				<l n="220">
+					<app>
+						<lem wit="#Transcription">Del feu d’Enfer la gent de France.</lem>
+						<rdg wit="#Translation">Still burn in the fires of Hell.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="56">
+				<l n="221">
+					<app>
+						<lem wit="#Transcription">De Franceis prist Artur homage,</lem>
+						<rdg wit="#Translation">Arthur took homage from the French,</rdg>
+					</app>
+				</l>
+				<l n="222">
+					<app>
+						<lem wit="#Transcription">Et il establi par vitage</lem>
+						<rdg wit="#Translation">And he established that</rdg>
+					</app>
+				</l>
+				<l n="223">
+					<app>
+						<lem wit="#Transcription">IIII deniers de cuvertage</lem>
+						<rdg wit="#Translation">They should pay four <hi rend="italic">deniers</hi> in annual dues</rdg>
+					</app>
+				</l>
+				<l n="224">
+					<app>
+						<lem wit="#Transcription">Por raaindre lor chevelage.</lem>
+						<rdg wit="#Translation">As part of their condition of serfs.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="57">
+				<l n="225">
+					<app>
+						<lem wit="#Transcription">Assez trovent qui lor reconte</lem>
+						<rdg wit="#Translation">Numerous people remind them</rdg>
+					</app>
+				</l>
+				<l n="226">
+					<app>
+						<lem wit="#Transcription">Cest hontage, mes rien ne monte,</lem>
+						<rdg wit="#Translation">Of that shameful subjection, but to no avail,</rdg>
+					</app>
+				</l>
+				<l n="227">
+					<app>
+						<lem wit="#Transcription">De ce ne tienent plé ne conte,</lem>
+						<rdg wit="#Translation">They do not worry too much about it,</rdg>
+					</app>
+				</l>
+				<l n="228">
+					<app>
+						<lem wit="#Transcription">Car il ne sevent aveir honte.</lem>
+						<rdg wit="#Translation">Because they are unable to feel shame.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="58">
+				<l n="229">
+					<app>
+						<lem wit="#Transcription">Ja Franceis celui n’amera</lem>
+						<rdg wit="#Translation">A Frenchman will not hold dear</rdg>
+					</app>
+				</l>
+				<l n="230">
+					<app>
+						<lem wit="#Transcription">Qui bien et ennor li fera;</lem>
+						<rdg wit="#Translation">Someone who acts to their benefit;</rdg>
+					</app>
+				</l>
+				<l n="231">
+					<app>
+						<lem wit="#Transcription">Mes com il plus honi sera</lem>
+						<rdg wit="#Translation">But the more he is shamed,</rdg>
+					</app>
+				</l>
+				<l n="232">
+					<app>
+						<lem wit="#Transcription">Et il tanz gorgeiera.</lem>
+						<rdg wit="#Translation">The more he will pride himself.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="59">
+				<l n="233">
+					<app>
+						<lem wit="#Transcription">Quer savez que liu<note type="critical" anchored="true"><p>lui</p></note> u esrez,</lem>
+						<rdg wit="#Translation">Because you know that, in time and place,</rdg>
+					</app>
+				</l>
+				<l n="234">
+					<app>
+						<lem wit="#Transcription">Ja mar Franceis de rien crerrez:</lem>
+						<rdg wit="#Translation">It will amount to no good to trust a Frenchman;</rdg>
+					</app>
+				</l>
+				<l n="235">
+					<app>
+						<lem wit="#Transcription">Sel querez, ja nel troverez;</lem>
+						<rdg wit="#Translation">Seek him, you won’t find him;</rdg>
+					</app>
+				</l>
+				<l n="236">
+					<app>
+						<lem wit="#Transcription">Sel trovez, ja prou n’i aurez.</lem>
+						<rdg wit="#Translation">Find him, you will run into trouble.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="60">
+				<l n="237">
+					<app>
+						<lem wit="#Transcription">Quant li Franceis veut cort tenir,</lem>
+						<rdg wit="#Translation">When the Frenchman wants to gather his court</rdg>
+					</app>
+				</l>
+				<l n="238">
+					<app>
+						<lem wit="#Transcription">Et il se veut bel<note type="critical" anchored="true"><p>bieli</p></note> contenir,</lem>
+						<rdg wit="#Translation">And wants to make a nice impression,</rdg>
+					</app>
+				</l>
+				<l n="239">
+					<app>
+						<lem wit="#Transcription">Deu pain de segle fet venir</lem>
+						<rdg wit="#Translation">He orders two loaves of rye bread</rdg>
+					</app>
+				</l>
+				<l n="240">
+					<app>
+						<lem wit="#Transcription">Por sei richement contenir.</lem>
+						<rdg wit="#Translation">To give himself a worthy countenance.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="61">
+				<l n="241">
+					<app>
+						<lem wit="#Transcription">Et chescun en est par partie</lem>
+						<rdg wit="#Translation">Everyone individually gets</rdg>
+					</app>
+				</l>
+				<l n="242">
+					<app>
+						<lem wit="#Transcription">Sa dreite livreison partie.</lem>
+						<rdg wit="#Translation">His rightfully due amount.</rdg>
+					</app>
+				</l>
+				<l n="243">
+					<app>
+						<lem wit="#Transcription">La croste seivrent de la mie,</lem>
+						<rdg wit="#Translation">They remove the crust from the soft part,</rdg>
+					</app>
+				</l>
+				<l n="244">
+					<app>
+						<lem wit="#Transcription">Puis font entre els une aramie,</lem>
+						<rdg wit="#Translation">And they solemnly gather all together</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="62">
+				<l n="245">
+					<app>
+						<lem wit="#Transcription">De sopes faire en la paele;</lem>
+						<rdg wit="#Translation">In order to make a soup in a pot;</rdg>
+					</app>
+				</l>
+				<l n="246">
+					<app>
+						<lem wit="#Transcription">Qu’il n’i covent<note type="critical" anchored="true"><p>corent</p></note> autre escuele.</lem>
+						<rdg wit="#Translation">There’s no better dish for it.</rdg>
+					</app>
+				</l>
+				<l n="247">
+					<app>
+						<lem wit="#Transcription">A trere les y a berele,</lem>
+						<rdg wit="#Translation">A big turmoil arouses when they try to retrieve the bread,</rdg>
+					</app>
+				</l>
+				<l n="248">
+					<app>
+						<lem wit="#Transcription">Tel ore est qui n’est mie bele.</lem>
+						<rdg wit="#Translation">It sometimes becomes very ugly.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="63">
+				<l n="249">
+					<app>
+						<lem wit="#Transcription">Mes il font une autre veisdie,</lem>
+						<rdg wit="#Translation">But they also do another kind of trick,</rdg>
+					</app>
+				</l>
+				<l n="250">
+					<app>
+						<lem wit="#Transcription">Ne m’est or lai que nel vos die:</lem>
+						<rdg wit="#Translation">I don’t recoil from telling it to you:</rdg>
+					</app>
+				</l>
+				<l n="251">
+					<app>
+						<lem wit="#Transcription">Qu’a traire les n’i ait boisdie,<note type="critical" anchored="true"><p>bo…die</p></note></lem>
+						<rdg wit="#Translation">So that they can retrieve the bread without there being mischief,</rdg>
+					</app>
+				</l>
+				<l n="252">
+					<app>
+						<lem wit="#Transcription">Chescun d’un fil sa sope lie.</lem>
+						<rdg wit="#Translation">Everyone attaches his share of soup to a string.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="64">
+				<l n="253">
+					<app>
+						<lem wit="#Transcription">Un fil tient chescun en sa main</lem>
+						<rdg wit="#Translation">Everyone holds a string in his hand</rdg>
+					</app>
+				</l>
+				<l n="254">
+					<app>
+						<lem wit="#Transcription">Tant que il a trempé son pain;</lem>
+						<rdg wit="#Translation">So as to dip his piece of bread;</rdg>
+					</app>
+				</l>
+				<l n="255">
+					<app>
+						<lem wit="#Transcription">Si est de sa sope certain</lem>
+						<rdg wit="#Translation">And he is guaranteed to get soup</rdg>
+					</app>
+				</l>
+				<l n="256">
+					<app>
+						<lem wit="#Transcription">Tant commë il veit son fil sain.</lem>
+						<rdg wit="#Translation">As long as the string is intact.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="65">
+				<l n="257">
+					<app>
+						<lem wit="#Transcription">Mes quant il ront ou il desnoe,<note type="critical" anchored="true"><p>desnooe</p></note></lem>
+						<rdg wit="#Translation">But when it snaps or gets untied,</rdg>
+					</app>
+				</l>
+				<l n="258">
+					<app>
+						<lem wit="#Transcription">Que la soupe deu fil descroe,</lem>
+						<rdg wit="#Translation">So that the soup falls off the string,</rdg>
+					</app>
+				</l>
+				<l n="259">
+					<app>
+						<lem wit="#Transcription">Donc va a chose à male voe,</lem>
+						<rdg wit="#Translation">Things get tense,</rdg>
+					</app>
+				</l>
+				<l n="260">
+					<app>
+						<lem wit="#Transcription">Quer chescun dit que ele est soe.</lem>
+						<rdg wit="#Translation">Because everyone claims it is his.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="66">
+				<l n="261">
+					<app>
+						<lem wit="#Transcription">Dont orriez Dex desmembrer,</lem>
+						<rdg wit="#Translation">You would hear God being dismembered,</rdg>
+					</app>
+				</l>
+				<l n="262">
+					<app>
+						<lem wit="#Transcription">Ventre, langue, gorge, amenbrer;</lem>
+						<rdg wit="#Translation">His belly, tongue, and throat would all be mentioned;</rdg>
+					</app>
+				</l>
+				<l n="263">
+					<app>
+						<lem wit="#Transcription">Dieu ne porreit longues durer,</lem>
+						<rdg wit="#Translation">God couldn’t last very long</rdg>
+					</app>
+				</l>
+				<l n="264">
+					<app>
+						<lem wit="#Transcription">S’il en perout por son jurer.</lem>
+						<rdg wit="#Translation">If he were to endure all that swearing.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="67">
+				<l n="265">
+					<app>
+						<lem wit="#Transcription">Sovent i a meinte aatie</lem>
+						<rdg wit="#Translation">There often is a lot of rivalry</rdg>
+					</app>
+				</l>
+				<l n="266">
+					<app>
+						<lem wit="#Transcription">Et mainte colee partie;</lem>
+						<rdg wit="#Translation">And of blows handed out;</rdg>
+					</app>
+				</l>
+				<l n="267">
+					<app>
+						<lem wit="#Transcription">Mes il font une autre establie</lem>
+						<rdg wit="#Translation">But they have a different ordinance</rdg>
+					</app>
+				</l>
+				<l n="268">
+					<app>
+						<lem wit="#Transcription">Qui fet remaindre la folie:</lem>
+						<rdg wit="#Translation">That maintains the level of craziness.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="68">
+				<l n="269">
+					<app>
+						<lem wit="#Transcription">Et il jugent que cil qui a </lem>
+						<rdg wit="#Translation">And they decide that</rdg>
+					</app>
+				</l>
+				<l n="270">
+					<app>
+						<lem wit="#Transcription">Icel fil greignor dreit i a;</lem>
+						<rdg wit="#Translation">Whoever has the string has the greater right;</rdg>
+					</app>
+				</l>
+				<l n="271">
+					<app>
+						<lem wit="#Transcription">Sor sainz jure qui enlia</lem>
+						<rdg wit="#Translation">Whoever tied the soup</rdg>
+					</app>
+				</l>
+				<l n="272">
+					<app>
+						<lem wit="#Transcription">Cele sope qui deslia.</lem>
+						<rdg wit="#Translation">Claims he rightfully owns it.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="69">
+				<l n="273">
+					<app>
+						<lem wit="#Transcription">L’estrif remaint et la meslee</lem>
+						<rdg wit="#Translation">The dispute and the commotion do not settle</rdg>
+					</app>
+				</l>
+				<l n="274">
+					<app>
+						<lem wit="#Transcription">Quant il l’a a soe provee;</lem>
+						<rdg wit="#Translation">Once he has proven it is his;</rdg>
+					</app>
+				</l>
+				<l n="275">
+					<app>
+						<lem wit="#Transcription">Mes mout est sovent esgardee</lem>
+						<rdg wit="#Translation">But rather his piece of bread is glared at,</rdg>
+					</app>
+				</l>
+				<l n="276">
+					<app>
+						<lem wit="#Transcription">Et enviree et golosee.</lem>
+						<rdg wit="#Translation">Desired and coveted.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="70">
+				<l n="277">
+					<app>
+						<lem wit="#Transcription">Et quant il metent pot a feu,</lem>
+						<rdg wit="#Translation">And when they put the pot on the hearth,</rdg>
+					</app>
+				</l>
+				<l n="278">
+					<app>
+						<lem wit="#Transcription">Lez le pot asieent un queu;</lem>
+						<rdg wit="#Translation">They sit down a cook next to it;</rdg>
+					</app>
+				</l>
+				<l n="279">
+					<app>
+						<lem wit="#Transcription">Lors n’i aureit ne ris ne geu</lem>
+						<rdg wit="#Translation">He would not have a good time</rdg>
+					</app>
+				</l>
+				<l n="280">
+					<app>
+						<lem wit="#Transcription">Se il se parteit de cel leu.</lem>
+						<rdg wit="#Translation">If he were to leave from there.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="71">
+				<l n="281">
+					<app>
+						<lem wit="#Transcription">Trop i porroit mesavenir,</lem>
+						<rdg wit="#Translation">Great ills could befall him,</rdg>
+					</app>
+				</l>
+				<l n="282">
+					<app>
+						<lem wit="#Transcription">Sagement l’estuet contenir,</lem>
+						<rdg wit="#Translation">And he must behave and sit still,</rdg>
+					</app>
+				</l>
+				<l n="283">
+					<app>
+						<lem wit="#Transcription">Que por le bollon retenir</lem>
+						<rdg wit="#Translation">Because he must hold the spoon</rdg>
+					</app>
+				</l>
+				<l n="284">
+					<app>
+						<lem wit="#Transcription">Li estuet la cullier tenir.</lem>
+						<rdg wit="#Translation">To keep the broth from boiling over.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="72">
+				<l n="285">
+					<app>
+						<lem wit="#Transcription">Se li bollon n’alout a droit,</lem>
+						<rdg wit="#Translation">If the broth was not cooking right,</rdg>
+					</app>
+				</l>
+				<l n="286">
+					<app>
+						<lem wit="#Transcription">A la char qui cuit mescharroit,</lem>
+						<rdg wit="#Translation">It would be bad for the meat,</rdg>
+					</app>
+				</l>
+				<l n="287">
+					<app>
+						<lem wit="#Transcription">Quer tost fors del pot s’en saudroit</lem>
+						<rdg wit="#Translation">Because it would fall outside the pot</rdg>
+					</app>
+				</l>
+				<l n="288">
+					<app>
+						<lem wit="#Transcription">Des que li bollon l’asaudroit.</lem>
+						<rdg wit="#Translation">As soon as the broth would assail it.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="73">
+				<l n="289">
+					<app>
+						<lem wit="#Transcription">Si l’avreient<note type="critical" anchored="true"><p>l’aveient</p></note> perdue enfin,</lem>
+						<rdg wit="#Translation">They would really have lost the meat in the end</rdg>
+					</app>
+				</l>
+				<l n="290">
+					<app>
+						<lem wit="#Transcription">Quer le chat entrereit a fin,</lem>
+						<rdg wit="#Translation">Because the cat would come in,</rdg>
+					</app>
+				</l>
+				<l n="291">
+					<app>
+						<lem wit="#Transcription">Ou la sori ou<note type="critical" anchored="true"><p>et ou</p></note> le poucin</lem>
+						<rdg wit="#Translation">Or because either the mouse or the chick</rdg>
+					</app>
+				</l>
+				<l n="292">
+					<app>
+						<lem wit="#Transcription">Enportereit tot le bocin.</lem>
+						<rdg wit="#Translation">Would take the whole piece.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="74">
+				<l n="293">
+					<app>
+						<lem wit="#Transcription">A traire la deu pot s’esmaient;</lem>
+						<rdg wit="#Translation">They try hard to pull it out of the pot;</rdg>
+					</app>
+				</l>
+				<l n="294">
+					<app>
+						<lem wit="#Transcription">Et quant ce est qu’il s’i essaient,</lem>
+						<rdg wit="#Translation">And when they actually do give it a try,</rdg>
+					</app>
+				</l>
+				<l n="295">
+					<app>
+						<lem wit="#Transcription">Ce ne puet estre que il l’aient</lem>
+						<rdg wit="#Translation">It’s impossible for them to get it</rdg>
+					</app>
+				</l>
+				<l n="296">
+					<app>
+						<lem wit="#Transcription">Se tote l’eue anceis ne traient.</lem>
+						<rdg wit="#Translation">Unless they remove all the liquid first.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="75">
+				<l n="297">
+					<app>
+						<lem wit="#Transcription">Et quant l’eue en est puree,</lem>
+						<rdg wit="#Translation">And when the liquid is removed,</rdg>
+					</app>
+				</l>
+				<l n="298">
+					<app>
+						<lem wit="#Transcription">Chescun aguete, chescun bee,</lem>
+						<rdg wit="#Translation">Everyone watches with their mouth agape,</rdg>
+					</app>
+				</l>
+				<l n="299">
+					<app>
+						<lem wit="#Transcription">Chescun feit oreison privee</lem>
+						<rdg wit="#Translation">Everyone prays individually</rdg>
+					</app>
+				</l>
+				<l n="300">
+					<app>
+						<lem wit="#Transcription">Que Deux dont qu’ele seit trouvee.</lem>
+						<rdg wit="#Translation">That God may please help that the meat be found.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="76">
+				<l n="301">
+					<app>
+						<lem wit="#Transcription">Et quant il trovent cel merel,</lem>
+						<rdg wit="#Translation">And when they find the little piece,</rdg>
+					</app>
+				</l>
+				<l n="302">
+					<app>
+						<lem wit="#Transcription">Lors sachiez que mout lor est bel;</lem>
+						<rdg wit="#Translation">Be sure that they are really glad;</rdg>
+					</app>
+				</l>
+				<l n="303">
+					<app>
+						<lem wit="#Transcription">Gragnor joie en a eu hamel</lem>
+						<rdg wit="#Translation">A whole hamlet has felt greater joy for it</rdg>
+					</app>
+				</l>
+				<l n="304">
+					<app>
+						<lem wit="#Transcription">Que outre mer deu feut novel.</lem>
+						<rdg wit="#Translation">Than if they witnessed the fire light up again overseas.<note type="critical" anchored="true"><p>Allusion to the fire known to light up every Holy Saturday at the church of the Holy Sepulchre in Jerusalem.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="77">
+				<l n="305">
+					<app>
+						<lem wit="#Transcription">Donc est aporte li coteaus,</lem>
+						<rdg wit="#Translation">They bring forth a knife,</rdg>
+					</app>
+				</l>
+				<l n="306">
+					<app>
+						<lem wit="#Transcription">Si est detrenchié par morseaus</lem>
+						<rdg wit="#Translation">And the meat is cut into small pieces,</rdg>
+					</app>
+				</l>
+				<l n="307">
+					<app>
+						<lem wit="#Transcription">Petit, mes de tel granz seviaus</lem>
+						<rdg wit="#Translation">Of a size similar</rdg>
+					</app>
+				</l>
+				<l n="308">
+					<app>
+						<lem wit="#Transcription">Com cels dont<note type="critical" anchored="true"><p>donc</p></note> l’en guie as meriaus.</lem>
+						<rdg wit="#Translation">To what one uses for playing hopscotch.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="78">
+				<l n="309">
+					<app>
+						<lem wit="#Transcription">S’il avient que non per i ait,</lem>
+						<rdg wit="#Translation">If it so happens that the number of pieces is not right,</rdg>
+					</app>
+				</l>
+				<l n="310">
+					<app>
+						<lem wit="#Transcription">Iloc n’a mie grant dehait,</lem>
+						<rdg wit="#Translation">Dismay is limited,</rdg>
+					</app>
+				</l>
+				<l n="311">
+					<app>
+						<lem wit="#Transcription">Quer donc sont li dé avant tret:</lem>
+						<rdg wit="#Translation">Because they take out the dice:</rdg>
+					</app>
+				</l>
+				<l n="312">
+					<app>
+						<lem wit="#Transcription">Qui Dieu donra plus poinz, si l’ait.</lem>
+						<rdg wit="#Translation">He to whom God grants the highest number will get it.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="79">
+				<l n="313">
+					<app>
+						<lem wit="#Transcription">Lor dobliers volent nez tenir,</lem>
+						<rdg wit="#Translation">They don’t even want to hold their napkins,</rdg>
+					</app>
+				</l>
+				<l n="314">
+					<app>
+						<lem wit="#Transcription">Et c’est legier a avenir,</lem>
+						<rdg wit="#Translation">And that’s easily explainable,</rdg>
+					</app>
+				</l>
+				<l n="315">
+					<app>
+						<lem wit="#Transcription">Quer qui lor mengier veit fenir</lem>
+						<rdg wit="#Translation">Because whoever intends to eat up his meal</rdg>
+					</app>
+				</l>
+				<l n="316">
+					<app>
+						<lem wit="#Transcription">De lasté li puet sovenir.</lem>
+						<rdg wit="#Translation">Can be overcome by fatigue.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="80">
+				<l n="317">
+					<app>
+						<lem wit="#Transcription">Arflet tesmoignë en son brief</lem>
+						<rdg wit="#Translation">Alfred says in his letter</rdg>
+					</app>
+				</l>
+				<l n="318">
+					<app>
+						<lem wit="#Transcription">Qu’il menjuent tot lor relief;</lem>
+						<rdg wit="#Translation">That they eat everything that’s left over;</rdg>
+					</app>
+				</l>
+				<l n="319">
+					<app>
+						<lem wit="#Transcription">Ce est as povres grant meschief,</lem>
+						<rdg wit="#Translation">That’s a great pity for the poor,</rdg>
+					</app>
+				</l>
+				<l n="320">
+					<app>
+						<lem wit="#Transcription">Et si apelent de cest grief.</lem>
+						<rdg wit="#Translation">And they call out this injustice.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="81">
+				<l n="321">
+					<app>
+						<lem wit="#Transcription">Li chien se plaignent d’autre part</lem>
+						<rdg wit="#Translation">On another side, the dogs complain</rdg>
+					</app>
+				</l>
+				<l n="322">
+					<app>
+						<lem wit="#Transcription">Que quant l’os de la table part,</lem>
+						<rdg wit="#Translation">That when the bone leaves the table,</rdg>
+					</app>
+				</l>
+				<l n="323">
+					<app>
+						<lem wit="#Transcription">Tant lor vient megre et tant a tart</lem>
+						<rdg wit="#Translation">It reaches them so thin and so belatedly</rdg>
+					</app>
+				</l>
+				<l n="324">
+					<app>
+						<lem wit="#Transcription">Que de tot le trovent bastart;</lem>
+						<rdg wit="#Translation">That they deem it a fraud in any respect;</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="82">
+				<l n="325">
+					<app>
+						<lem wit="#Transcription">Ou li Franceis l’a tot mengié,</lem>
+						<rdg wit="#Translation">Either the Frenchman has eaten it entirely,</rdg>
+					</app>
+				</l>
+				<l n="326">
+					<app>
+						<lem wit="#Transcription">Ou il l’aura si pres rungié</lem>
+						<rdg wit="#Translation">Or he will have chewed it so closely</rdg>
+					</app>
+				</l>
+				<l n="327">
+					<app>
+						<lem wit="#Transcription">Que quant il li done congié</lem>
+						<rdg wit="#Translation">That when he gets rid of it, </rdg>
+					</app>
+				</l>
+				<l n="328">
+					<app>
+						<lem wit="#Transcription">De neent a le chien paié.</lem>
+						<rdg wit="#Translation">He will have given the dog nothing for his wait.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="83">
+				<l n="329">
+					<app>
+						<lem wit="#Transcription">D’iluec vient, nient d’autre nature,</lem>
+						<rdg wit="#Translation">From there and for no other reason comes</rdg>
+					</app>
+				</l>
+				<l n="330">
+					<app>
+						<lem wit="#Transcription">Quë il ont blanche endenteüre, </lem>
+						<rdg wit="#Translation">That they have white teeth,</rdg>
+					</app>
+				</l>
+				<l n="331">
+					<app>
+						<lem wit="#Transcription">Quer le rore de l’os lor cure<note type="critical" anchored="true"><p>330 and 331 inverted, with marginal reordering.</p></note></lem>
+						<rdg wit="#Translation">Because chewing bones makes their teeth</rdg>
+					</app>
+				</l>
+				<l n="332">
+					<app>
+						<lem wit="#Transcription">Les denz et blanchist et escure.</lem>
+						<rdg wit="#Translation">Healthy, and whitens them and cleans them.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="84">
+				<l n="333">
+					<app>
+						<lem wit="#Transcription">Quant li Franceis se fet seignier,</lem>
+						<rdg wit="#Translation">When the Frenchman undergoes bloodletting,</rdg>
+					</app>
+				</l>
+				<l n="334">
+					<app>
+						<lem wit="#Transcription">Si fet atorner mengier</lem>
+						<rdg wit="#Translation">He has a meal prepared</rdg>
+					</app>
+				</l>
+				<l n="335">
+					<app>
+						<lem wit="#Transcription">Dont<note type="critical" anchored="true"><p>donc</p></note> nus hom ne doit ja pleidier:</lem>
+						<rdg wit="#Translation">That no one should mention:</rdg>
+					</app>
+				</l>
+				<l n="336">
+					<app>
+						<lem wit="#Transcription">Ne s’en sareit fors els aidier,</lem>
+						<rdg wit="#Translation">Except for Frenchmen, no one would know how to go about it,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="85">
+				<l n="337">
+					<app>
+						<lem wit="#Transcription">S’il ne la vet de lor doutrine.</lem>
+						<rdg wit="#Translation">Unless he is one of their sort.</rdg>
+					</app>
+				</l>
+				<l n="338">
+					<app>
+						<lem wit="#Transcription">Vinee en gorge de geline,</lem>
+						<rdg wit="#Translation">Chicken throat stuffed with sorrel,</rdg>
+					</app>
+				</l>
+				<l n="339">
+					<app>
+						<lem wit="#Transcription">Si n’est pas deu tot orfeline,</lem>
+						<rdg wit="#Translation">And it doesn’t come alone,</rdg>
+					</app>
+				</l>
+				<l n="340">
+					<app>
+						<lem wit="#Transcription">Quer sel i metent et ferine,</lem>
+						<rdg wit="#Translation">Because they add salt and flour,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="86">
+				<l n="341">
+					<app>
+						<lem wit="#Transcription">Et porreiz et oignons et alz,</lem>
+						<rdg wit="#Translation">And leach and onion and garlic,</rdg>
+					</app>
+				</l>
+				<l n="342">
+					<app>
+						<lem wit="#Transcription">Et de lorer fere granz salz,</lem>
+						<rdg wit="#Translation">And they make a thick laurel sauce,</rdg>
+					</app>
+				</l>
+				<l n="343">
+					<app>
+						<lem wit="#Transcription">Et de l’escost estorcer chauz</lem>
+						<rdg wit="#Translation">And &#91;???&#93;</rdg>
+					</app>
+				</l>
+				<l n="344">
+					<app>
+						<lem wit="#Transcription">____________________</lem>
+						<rdg wit="#Translation">____________________<note type="critical" anchored="true"><p>The missing line is signalled by a tilde.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="87">
+				<l n="345">
+					<app>
+						<lem wit="#Transcription">Qui o les Franceis mengera,</lem>
+						<rdg wit="#Translation">Whoever eats with the French,</rdg>
+					</app>
+				</l>
+				<l n="346">
+					<app>
+						<lem wit="#Transcription">A quei que seit, escotera;</lem>
+						<rdg wit="#Translation">No matter the circumstances, will chip in;</rdg>
+					</app>
+				</l>
+				<l n="347">
+					<app>
+						<lem wit="#Transcription">Quer ou as<note type="critical" anchored="true"><p>al</p></note> noiz entenciera</lem>
+						<rdg wit="#Translation">Because a Frenchman will be content with walnuts</rdg>
+					</app>
+				</l>
+				<l n="348">
+					<app>
+						<lem wit="#Transcription">Ou des escaloignes fera</lem>
+						<rdg wit="#Translation">Or will have shallots</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="88">
+				<l n="349">
+					<app>
+						<lem wit="#Transcription">Franceis<note type="critical" anchored="true"><p>Fanee</p></note> a tot le mains venir</lem>
+						<rdg wit="#Translation">Brought to him</rdg>
+					</app>
+				</l>
+				<l n="350">
+					<app>
+						<lem wit="#Transcription">Por sei richement contenir;</lem>
+						<rdg wit="#Translation">To give himself a real treat;</rdg>
+					</app>
+				</l>
+				<l n="351">
+					<app>
+						<lem wit="#Transcription">Quer icel ne puet avenir</lem>
+						<rdg wit="#Translation">Because it can’t be the case</rdg>
+					</app>
+				</l>
+				<l n="352">
+					<app>
+						<lem wit="#Transcription">Que d’escot se sachent tenir</lem>
+						<rdg wit="#Translation">That they refrain from splitting up the bill</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="89">
+				<l n="353">
+					<app>
+						<lem wit="#Transcription">Tant com en lor contrees seient;</lem>
+						<rdg wit="#Translation">As long as they are at home;</rdg>
+					</app>
+				</l>
+				<l n="354">
+					<app>
+						<lem wit="#Transcription">Tant com en lor contrees seient;</lem>
+						<rdg wit="#Translation">But when they are not, they go about humming,</rdg>
+					</app>
+				</l>
+				<l n="355">
+					<app>
+						<lem wit="#Transcription">Et a autrui table richeent</lem>
+						<rdg wit="#Translation">And fill themselves up at other people’s tables,</rdg>
+					</app>
+				</l>
+				<l n="356">
+					<app>
+						<lem wit="#Transcription">Et blasment quanque il i veent.</lem>
+						<rdg wit="#Translation">And blame them whenever they don’t let them.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="90">
+				<l n="357">
+					<app>
+						<lem wit="#Transcription">Et quant il sont en lors ostex,</lem>
+						<rdg wit="#Translation">And when they are in their homes,</rdg>
+					</app>
+				</l>
+				<l n="358">
+					<app>
+						<lem wit="#Transcription">Si conoisson Franceis a tex,</lem>
+						<rdg wit="#Translation">The French are recognisable as such,</rdg>
+					</app>
+				</l>
+				<l n="359">
+					<app>
+						<lem wit="#Transcription">A tant merdes, à tant avex,</lem>
+						<rdg wit="#Translation">As stingy pieces of shit,</rdg>
+					</app>
+				</l>
+				<l n="360">
+					<app>
+						<lem wit="#Transcription">Qu’en les devreit tuer o pex.</lem>
+						<rdg wit="#Translation">So much so that one should kill them or do worse.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="91">
+				<l n="361">
+					<app>
+						<lem wit="#Transcription">André sa chartre fine a tant,</lem>
+						<rdg wit="#Translation">André finishes his charter at this point,</rdg>
+					</app>
+				</l>
+				<l n="362">
+					<app>
+						<lem wit="#Transcription">A Paris l’envoie batant;</lem>
+						<rdg wit="#Translation">And he sends it to Paris in haste;</rdg>
+					</app>
+				</l>
+				<l n="363">
+					<app>
+						<lem wit="#Transcription">Qui la lira seit en estant,</lem>
+						<rdg wit="#Translation">Whoever reads it should stand firmly on their feet,</rdg>
+					</app>
+				</l>
+				<l n="364">
+					<app>
+						<lem wit="#Transcription">Quer Franceis s’iront mout crestant;<note type="critical" anchored="true"><p>cresçant &#40;Holden&#41;</p></note></lem>
+						<rdg wit="#Translation">Because the French will strut like proud cocks.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="92">
+				<l n="365">
+					<app>
+						<lem wit="#Transcription">S’ele est sus Petit Pont retraite,</lem>
+						<rdg wit="#Translation">And the charter was made in Petit Pont,</rdg>
+					</app>
+				</l>
+				<l n="366">
+					<app>
+						<lem wit="#Transcription">Ou de colee ou de retraite</lem>
+						<rdg wit="#Translation">Where whoever reads it will get blows, stitches,</rdg>
+					</app>
+				</l>
+				<l n="367">
+					<app>
+						<lem wit="#Transcription">Ara celui la teste fraite</lem>
+						<rdg wit="#Translation">And have their head smashed</rdg>
+					</app>
+				</l>
+				<l n="368">
+					<app>
+						<lem wit="#Transcription">Qui la lira, s’il ne se gaite.</lem>
+						<rdg wit="#Translation">Unless they beware.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="93">
+				<l n="369">
+					<app>
+						<lem wit="#Transcription">Mout sera isnel de prinsaut</lem>
+						<rdg wit="#Translation">He will be quick and prompt</rdg>
+					</app>
+				</l>
+				<l n="370">
+					<app>
+						<lem wit="#Transcription">Se en Siene ne fet saut.</lem>
+						<rdg wit="#Translation">If he doesn’t jump into the Seine.</rdg>
+					</app>
+				</l>
+				<l n="371">
+					<app>
+						<lem wit="#Transcription">André prent congié, Dex vos saut!</lem>
+						<rdg wit="#Translation">André takes leave, God bless!</rdg>
+					</app>
+				</l>
+				<l n="372">
+					<app>
+						<lem wit="#Transcription">Mes savez qu’en sa chartre faut?</lem>
+						<rdg wit="#Translation">But do you know what’s missing from his charter?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="94">
+				<l n="373">
+					<app>
+						<lem wit="#Transcription">____________________</lem>
+						<rdg wit="#Translation">____________________</rdg>
+					</app>
+				</l>
+				<l n="374">
+					<app>
+						<lem wit="#Transcription">Et qu’il a oblié a dire,</lem>
+						<rdg wit="#Translation">And he forgot to say,</rdg>
+					</app>
+				</l>
+				<l n="375">
+					<app>
+						<lem wit="#Transcription">Por ce que il n’en veut mesdire</lem>
+						<rdg wit="#Translation">Because he doesn’t want to speak ill</rdg>
+					</app>
+				</l>
+				<l n="376">
+					<app>
+						<lem wit="#Transcription">Ne Franceis del tot desconfire.</lem>
+						<rdg wit="#Translation">Or completely defeat the French.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="95">
+				<l n="377">
+					<app>
+						<lem wit="#Transcription">Tirenlire est pain enallié</lem>
+						<rdg wit="#Translation">‘Tirenlire’ is bread rubbed with garlic,</rdg>
+					</app>
+				</l>
+				<l n="378">
+					<app>
+						<lem wit="#Transcription">Et o la douse d’al freié;</lem>
+						<rdg wit="#Translation">And with a fried garlic clove;</rdg>
+					</app>
+				</l>
+				<l n="379">
+					<app>
+						<lem wit="#Transcription">Ja Franceis ne sera hetié</lem>
+						<rdg wit="#Translation">A Frenchman will not rejoice</rdg>
+					</app>
+				</l>
+				<l n="380">
+					<app>
+						<lem wit="#Transcription">Le jor qu’il n’en seit comencié.</lem>
+						<rdg wit="#Translation">Unless he gets some for breakfast.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="96">
+				<l n="381">
+					<app>
+						<lem wit="#Transcription">Ce est un legier companage</lem>
+						<rdg wit="#Translation">It’s a light spread</rdg>
+					</app>
+				</l>
+				<l n="382">
+					<app>
+						<lem wit="#Transcription">Qui tot le cors lor asoage;</lem>
+						<rdg wit="#Translation">That restores their whole body;</rdg>
+					</app>
+				</l>
+				<l n="383">
+					<app>
+						<lem wit="#Transcription">Mes ja o Dieu n’ert heritage</lem>
+						<rdg wit="#Translation">But cursed by God be the one</rdg>
+					</app>
+				</l>
+				<l n="384">
+					<app>
+						<lem wit="#Transcription">Qui primes fist tel mariage!</lem>
+						<rdg wit="#Translation">Who first invented this pairing!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="97">
+				<l n="385">
+					<app>
+						<lem wit="#Transcription">Andreu a sa chartre finee;</lem>
+						<rdg wit="#Translation">André has finished his charter;</rdg>
+					</app>
+				</l>
+				<l n="386">
+					<app>
+						<lem wit="#Transcription">Bien l’ont li Engleis graantee,</lem>
+						<rdg wit="#Translation">The English have guaranteed</rdg>
+					</app>
+				</l>
+				<l n="387">
+					<app>
+						<lem wit="#Transcription">Que rien nule n’i ont trovee</lem>
+						<rdg wit="#Translation">That they found nothing in it</rdg>
+					</app>
+				</l>
+				<l n="388">
+					<app>
+						<lem wit="#Transcription">Qui ne seit verité provee.</lem>
+						<rdg wit="#Translation">That isn’t the proven truth.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="98">
+				<l n="389">
+					<app>
+						<lem wit="#Transcription">Bien l’ont graanté li Flamenc,</lem>
+						<rdg wit="#Translation">The Flemish have guaranteed it,</rdg>
+					</app>
+				</l>
+				<l n="390">
+					<app>
+						<lem wit="#Transcription">Et Borgueignon et Loherenc,</lem>
+						<rdg wit="#Translation">The Burgundians, the Lotharingians,</rdg>
+					</app>
+				</l>
+				<l n="391">
+					<app>
+						<lem wit="#Transcription">Que prendrei ge tot à renc.</lem>
+						<rdg wit="#Translation">Which I would all enlist.</rdg>
+					</app>
+				</l>
+				<l n="392">
+					<app>
+						<lem wit="#Transcription">Mes en verité vos aprenc</lem>
+						<rdg wit="#Translation">But let me tell you in truth</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="99">
+				<l n="393">
+					<app>
+						<lem wit="#Transcription">Que Engleis, Breton, Angevin,</lem>
+						<rdg wit="#Translation">That the English, the Bretons, the Angevins,</rdg>
+					</app>
+				</l>
+				<l n="394">
+					<app>
+						<lem wit="#Transcription">Mansel, Gascoign, et Peitevin,</lem>
+						<rdg wit="#Translation">Those from the Mans, the Gascons, the Poitevins,</rdg>
+					</app>
+				</l>
+				<l n="395">
+					<app>
+						<lem wit="#Transcription">Tienent Andreu a bon devin,</lem>
+						<rdg wit="#Translation">Believe André is a good fortune teller,</rdg>
+					</app>
+				</l>
+				<l n="396">
+					<app>
+						<lem wit="#Transcription">Quer partot dit veir. C’est la fin.</lem>
+						<rdg wit="#Translation">Because he tells the truth all the time. This is the end.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="100">
+				<l n="397">
+					<app>
+						<lem wit="#Transcription">Explicit Arflet.</lem>
+						<rdg wit="#Translation">Here ends ‘Alfred’</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="101">
+				<l n="398">
+					<app>
+						<lem wit="#Transcription">Hii sunt duodecim pares Francie.</lem>
+						<rdg wit="#Translation">These are the twelve peers of France.</rdg>
+					</app>
+				</l>
+				<l n="399">
+					<app>
+						<lem wit="#Transcription">Dux Burgondie.</lem>
+						<rdg wit="#Translation">The Duke of Burgundy.</rdg>
+					</app>
+				</l>
+				<l n="400">
+					<app>
+						<lem wit="#Transcription">Dux Normannie.</lem>
+						<rdg wit="#Translation">The Duke of Normandy.</rdg>
+					</app>
+				</l>
+				<l n="401">
+					<app>
+						<lem wit="#Transcription">Dux Aquitanie.</lem>
+						<rdg wit="#Translation">The Duke of Aquitaine.</rdg>
+					</app>
+				</l>
+				<l n="402">
+					<app>
+						<lem wit="#Transcription">Comes Flandrie.</lem>
+						<rdg wit="#Translation">The Count of Flanders.</rdg>
+					</app>
+				</l>
+				<l n="403">
+					<app>
+						<lem wit="#Transcription">Comes Campanie.</lem>
+						<rdg wit="#Translation">The Count of Champagne.</rdg>
+					</app>
+				</l>
+				<l n="404">
+					<app>
+						<lem wit="#Transcription">Comes Sancti Egidii.</lem>
+						<rdg wit="#Translation">The Count of Saint Giles.<note type="critical" anchored="true"><p>Toulouse</p></note></rdg>
+					</app>
+				</l>
+				<l n="405">
+					<app>
+						<lem wit="#Transcription">Archiepiscopus Remensis.</lem>
+						<rdg wit="#Translation">The Archbishop of Reims.</rdg>
+					</app>
+				</l>
+				<l n="406">
+					<app>
+						<lem wit="#Transcription">Archiepiscopus Lingolnensis.</lem>
+						<rdg wit="#Translation">The Archbishop of Langres.</rdg>
+					</app>
+				</l>
+				<l n="407">
+					<app>
+						<lem wit="#Transcription">Episcopus Beluacensis.</lem>
+						<rdg wit="#Translation">The Bishop of Beauvais.</rdg>
+					</app>
+				</l>
+				<l n="408">
+					<app>
+						<lem wit="#Transcription">Archiepiscopus Lugdunensis.</lem>
+						<rdg wit="#Translation">The Archbishop of Laon.</rdg>
+					</app>
+				</l>
+				<l n="409">
+					<app>
+						<lem wit="#Transcription">Episcopus Novioniensis.</lem>
+						<rdg wit="#Translation">The Bishop of Noyon.</rdg>
+					</app>
+				</l>
+				<l n="410">
+					<app>
+						<lem wit="#Transcription">Episcopus Cathalaunensis.</lem>
+						<rdg wit="#Translation">The Bishop of Châlons.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
