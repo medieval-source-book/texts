@@ -49,6 +49,7 @@
 				<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 				<interpretation>
 					<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+					<p>Because Arabic and Spanish do not have an exact phonetic-alphabetic makeup, there are some letters that serve only as representations of Spanish sounds &#40;e.g. “e” as in “en”&#41; and are represented with Arabic script, though they do not exist as independent letters in modern Arabic. Transcription practice has been to maximize clarity from the modern perspective without losing meaning, and as such, words and sentences have been broken up according to Spanish semantics. In other words, the text has been broken up retroactively into sentences that fit English syntactical convention. This is not always the case for articles, which may or may not be attached depending on the language of the word they’re describing, or the context in which they’re used. For example, Islamic words have their articles attached, as is customary in Arabic, whereas Spanish words generally have their articles detached.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
