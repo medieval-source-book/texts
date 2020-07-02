@@ -70,7 +70,7 @@
 			</head>
 		</front>
 		<body>
-			<div n="1">
+			<lg n="1">
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Atressi cum l’orifans</lem>
@@ -136,9 +136,11 @@
 						<lem wit="#Transcription">lai on preiars ni razos no·m val re.</lem>
 						<rdg wit="#Translation">There where begging and arguing do not help me.</rdg>
 					</app>
-				</l>				
-			</div>
-			<div n="2">
+				</l>
+				<lb>
+				</lb>				
+			</lg>
+			<lg n="2">
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">E s’ieu per los fis amans</lem>
@@ -205,8 +207,8 @@
 						<rdg wit="Translation">Fattens, improves, and flourishes.</rdg>
 					</app>
 				</l>
-			</div>
-			<div n="3">
+			</lg>
+			<lg n="3">
 				<l n="23">
 					<app>
 						<lem wit="#Transcription">Be sai qu’amors es tan grans</lem>
@@ -273,8 +275,8 @@
 						<rdg wit="Translation">And instances in which legitimacy and arguing do not prevail.</rdg>
 					</app>
 				</l>
-			</div>
-			<div n="4">
+			</lg>
+			<lg n="4">
 				<l n="34">
 					<app>
 						<lem wit="#Transcription">A tot lo mon suy clamans</lem>
@@ -341,8 +343,8 @@
 						<rdg wit="Translation">For there to be everything that is good in one place.</rdg>
 					</app>
 				</l>			
-			</div>
-			<div n="5">
+			</lg>
+			<lg n="5">
 				<l n="45">
 					<app>
 						<lem wit="#Transcription">Ma chansos er drogomans</lem>
@@ -409,8 +411,8 @@
 						<rdg wit="Translation">But you do not care, and you are forgetful about love.</rdg>
 					</app>
 				</l>			
-			</div>
-			<div n="6">
+			</lg>
+			<lg n="6">
 				<l n="56">
 					<app>
 						<lem wit="#Transcription">Tal senhor ai, en cui a tan de be</lem>
@@ -423,8 +425,8 @@
 						<rdg wit="#Translation">That when I saw him I could not wish for more.</rdg>
 					</app>
 				</l>			
-			</div>
-			<div n="7">
+			</lg>
+			<lg n="7">
 				<l n="58">
 					<app>
 						<lem wit="#Transcription">Belh Bericle, ioys e pretz vos mante;</lem>
@@ -437,7 +439,7 @@
 						<rdg wit="#Translation">I have all that I want when I think about you.</rdg>
 					</app>
 				</l>			
-			</div>							
+			</lg>							
 		</body>
 	</text>
 </TEI>
