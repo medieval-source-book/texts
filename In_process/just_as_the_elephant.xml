@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>"Just as the elephant"</title>
+				<title>"Just as the Elephant"</title>
 				<author>Rigaut de Berbezilh</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -45,7 +45,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Just as the elephant" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  </p> 
+            	<p>"Just as the Elephant" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  </p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
@@ -74,7 +74,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Atressi cum l’orifans</lem>
-						<rdg wit="#Translation">Just as the elephant</rdg>
+						<rdg wit="#Translation">Just as the Elephant</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -295,14 +295,14 @@
 				</l>
 				<l n="37">
 					<app>
-						<lem wit="#Transcription">fenix, don non es mas us</lem>
-						<rdg wit="Translation">The Phoenix, whose custom it is nothing less</rdg>
+						<lem wit="#Transcription">fenix, don non es mas us,</lem>
+						<rdg wit="Translation">The Phoenix, of which there is but one,</rdg>
 					</app>
 				</l>
 				<l n="38">
 					<app>
 						<lem wit="#Transcription">que s’art e pueys restortz sus,</lem>
-						<rdg wit="Translation">Than to light up in flames and then to recover,</rdg>
+						<rdg wit="Translation">Which lights up in flames and then recovers,</rdg>
 					</app>
 				</l>
 				<l n="39">
@@ -331,7 +331,7 @@
 				</l>
 				<l n="43">
 					<app>
-						<lem wit="#Transcription">es, que no y falh mas un pauc de merce,</lem>
+						<lem wit="#Transcription">es, que no y falh mas un pauc de merce</lem>
 						<rdg wit="Translation">Are, for it does not take more than just a little of mercy</rdg>
 					</app>
 				</l>
