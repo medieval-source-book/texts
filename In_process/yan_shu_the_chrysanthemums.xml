@@ -10,7 +10,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>To the tune “Magpie Treads the Branch”&#8212;"The Chrysanthemums"</title>
-				<author>Yan Shu</author>
+				<author>Yan Shu 晏殊</author>
 				<respStmt>
 					<resp>Text based on</resp>
 					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 91.</name>
@@ -28,6 +28,7 @@
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
 					<name>Manya Bansal</name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -48,13 +49,13 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
-			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Magpie Treads the Branch”&#8212;"The Chrysanthemums"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Magpie Treads the Branch”&#8212;"The Chrysanthemums" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
+				<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
         			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
@@ -68,8 +69,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">鹊踏枝·檻菊愁煙蘭泣露</lem>
-						<rdg wit="#Translation">To the tune “Magpie Treads the Branch”&#8212;"The Chrysanthemums"</rdg>
+						<lem wit="#Transcription">鹊踏枝</lem>
+						<rdg wit="#Translation">To the tune "Magpie Treads the Branch"</rdg>
 					</app>
 				</title>
 			</head>
@@ -88,7 +89,7 @@
 					<app>
 						<lem wit="#Transcription">羅幕輕寒，</lem>
 						<rdg wit="#Translation">Inside the silken bed canopy
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p>Refers to silky curtain, mostly used in wealthy families.</p>
 								</note>
 								, it is slightly cold;
@@ -125,7 +126,7 @@
 					<app>
 						<lem wit="#Transcription">獨上高樓，</lem>
 						<rdg wit="#Translation">Alone, I ascended the high tower
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p> Refers to an ancient Chinese tower, which is typically high and has many floors, originally for military usage, but when discarded, most towers became gathering places for poets alike.</p>
 								</note>
 								,
@@ -142,7 +143,7 @@
 					<app>
 						<lem wit="#Transcription">欲寄彩箋兼尺素。</lem>
 						<rdg wit="#Translation">I want to send letters on colored paper
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p>Refers to the exquisite paper that people used to write poems or songs on.</p>
 								</note>
 							 and white silk,</rdg>
