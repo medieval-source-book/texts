@@ -10,7 +10,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>To the tune “Magnolia Flower”&#8212;"The Water In The Pond"</title>
-				<author>Yan Shu</author>
+				<author>Yan Shu 晏殊</author>
 				<respStmt>
 					<resp>Text based on</resp>
 					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 96.</name>
@@ -28,6 +28,7 @@
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Nina Du</name>
 					<name>Manya Bansal</name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -50,11 +51,11 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Magnolia Flower”&#8212;"The Water In The Pond" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Magnolia Flower”&#8212;"The Water In The Pond" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
         			<punctuation marks="all">Punctuation follows the edition.</punctuation>
 				</interpretation>
 				<segmentation>
@@ -89,7 +90,7 @@
 					<app>
 						<lem wit="#Transcription">記得玉真初見面。</lem>
 						<rdg wit="#Translation"> I remember meeting Yuzhen
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p>Generally refers to beautiful singers and dancers.</p>
 								</note>
 								for the first time.
@@ -100,7 +101,7 @@
 					<app>
 						<lem wit="#Transcription">重頭歌韻響錚琮，</lem>
 						<rdg wit="#Translation">The double-head song
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p>If a tune has the same beat in its two stanzas, it is called a double-head song.</p>
 								</note>
 								is loud and emotional,
@@ -111,7 +112,7 @@
 					<app>
 						<lem wit="#Transcription">入破舞腰紅亂旋。</lem>
 						<rdg wit="#Translation">As it began the coda
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p>The greater songs in the Tang and Song dynasties usually consist of three chapters, and po is the name of the final chapter, which is usually with a quick tempo. The character literally means “to break in” or “to break apart.”</p>
 								</note>
 								, her waist swung and her red skirt swirled.
@@ -125,7 +126,7 @@
 					<app>
 						<lem wit="#Transcription">玉鉤闌下香階畔。</lem>
 						<rdg wit="#Translation">By the railings under the jade hooks
-							<note anchored="true">
+							<note type="critical" anchored="true">
 									<p>The curtain over the doorway is hung on jade hooks.</p>
 								</note>
 								and in front of the fragrant steps,
