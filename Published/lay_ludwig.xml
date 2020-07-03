@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Das Ludwigslied</title>
+				<title>The Lay of Ludwig</title>
 				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -27,13 +27,14 @@
 			<publicationStmt>
 				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Bibliothèque municipale, Valenciennes, Codex 150 f.141v-143r</p>
 				<listWit>
 					<witness xml:id="Transcription">Das Ludwigslied</witness>
 					<witness xml:id="Translation">The Lay of Ludwig</witness>
@@ -41,13 +42,13 @@
 			</sourceDesc>
 		</fileDesc>
 		<projectDesc>
-            	<p>"The Gosling" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"The Lay of Ludwig" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
-	        	<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -213,7 +214,7 @@
 					<app>
 						<lem wit="#Transcription">Heigun sa north-man. Harto bi-duuungan.</lem>
 						<rdg wit="#Translation">They are so oppressed by the Northmen!”
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p> north-man can be translated as normans or northmen, but in this case it is a reference to the vikings (who came from the north)</p>
 							</note>
 					</rdg>
@@ -402,7 +403,7 @@
 				<l n="55">
 					<app>
 						<lem wit="#Transcription">Gilobot si thiu godes kraft. Hluduig uuarth sigihaft</lem>
-						<rdg wit="#Translation">55 God's omnipotence was praised: Ludwig became a victor.</rdg>
+						<rdg wit="#Translation">God's omnipotence was praised: Ludwig became a victor.</rdg>
 					</app>
 				</l>
 				<l n="56">
@@ -414,7 +415,7 @@
 				<l n="57">
 					<app>
 						<lem wit="#Transcription">[U]uolar abur hluduig. Kuning u[n]s[er] fralig.</lem>
-						<rdg wit="#Translation">. But to you, Ludwig, salvation, you our king, in battle, full of happiness!</rdg>
+						<rdg wit="#Translation">But to you, Ludwig, salvation, you our king, in battle, full of happiness!</rdg>
 					</app>
 				</l>
 				<l n="58">
