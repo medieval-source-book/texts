@@ -21,13 +21,13 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Mae Lyons-Penner</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
@@ -43,12 +43,12 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Chronicle of King Peter I [Prologue]" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"Chronicle of King Peter I [Prologue]" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -95,15 +95,15 @@
 						<app>
 							<lem wit="#Transcription">[D]Eixados os modos e diffinçoões da justiça que per desvairadas guisas muitos em seus livros escrevem, soomente daquella pera que o real poderio foy estabelleçido, que he por serem os maos castigados e os booms viverem em paz, he nossa entemçom neeste prollogo muito curtamente fallar, nom come buscador de novas razoões per propria invençom achadas, mas come ajumtador, em huum breve moolho, dos ditos dalguns que nos prouguerom.</lem>
 							<rdg wit="#Translation">Having left aside the types and definitions of justice,
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>Scholars say that this strange beginning, referencing another text in which Lopes would have already presented a discussion about the definitions of justice, points to the existence of another prologue, possibly a prologue to a lost chronicle that he might have written before writing the <hi rend="italic">Chronicle of Peter I</hi>, or another prologue to this same chronicle.</p>
 								</note>
 							 which many write about in unreasonable ways,
-							 	<note anchored="true">
+							 	<note type="critical" anchored="true">
 							 		<p>The Portuguese original, <hi rend="italic">desvairadas guisas</hi>, implies a sense that the writings are disorganized, unreasonable for not having a logic. <hi rend="italic">Desvairada/o</hi> means “that which lost its way.” This way of writing anticipates the next argument, against invention as a proper way of explaining justice. Fernão Lopes promises to tread paths already taken by previous writers, but in a more systematic way than the ones he criticizes.</p>
 							 	</note>
 							  it is our intention to speak very briefly of justice alone, which is the reason why royal power exists, namely to punish the evil people and to allow the good ones to live in peace. We wish to speak about justice not as seekers of new ways of understanding, which are found using personal creativity, but as collectors of sayings from writers who have contented us.
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>The argument behind this image is very illuminating, as Fernão Lopes frames his work as a writer who collects <hi rend="italic">ditos</hi> (sayings) from other writers, as opposed to framing himself as an inventor of a new concept or way of explaining justice. Arguments that ascribe authority to previous writers were very common in late medieval historical writing.</p>
 								</note>
 							</rdg>
@@ -113,7 +113,7 @@
 						<app>
 							<lem wit="#Transcription">A huma por espertar os que ouvirem que entendam parte do que falla a estoria, a outra por seguirmos enteiramente a hordem do nosso razoado; no primeiro prollogo ja tangida.</lem>
 							<rdg wit="#Translation">We write this history this way, on the one hand, to edify those who will hear it, so that they may understand part of what it is about, and on the other hand, to strictly follow the order of our own plan, which we have already touched upon in the first prologue.
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>See first note.</p>
 								</note>
 							</rdg>
@@ -125,7 +125,7 @@
 						<app>
 							<lem wit="#Transcription">E por quanto elRey dom pedro, cujo regnado se segue, husou da justiça, de que a deos mais praz que cousa boa, que o Rey possa fazer segumdo os santos escrevem, e alguums desejam saber que virtude he esta, e pois he neçessaria ao Rey, se o he assi ao povoo: nos naquele stillo que o simpresmente apanhamos: o podees ler per esta maneira.</lem>
 							<rdg wit="#Translation">And given that the king, Lord Peter, whose reign is narrated in the following chronicle, ruled with justice—an act more pleasing to God than anything else that a king might do, according to the writings of the saints—, and given that some wish to know what kind of virtue justice is, because it is necessary for both the King and the people, we have simply collected examples from his reign in this writing, as we have pointed out,
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>Lopes is here referring back to the sentence where he says he is writing “as collectors who collect sayings from some writers.” Emphasizing an important point through referring back to it in the text was very common among chroniclers and writers of long prose. The emphasis is that Lopes is not inventing a classification of justice, but collecting real examples and presenting them together as an explanation of the idea of justice that he found in authoritative sources.</p>
 								</note>
 							so that you may read about his use of justice in this way.</rdg>
@@ -143,7 +143,7 @@
 						<app>
 							<lem wit="#Transcription">assy que, quallquer que he justo, este compre toda a virtude, Porque a justiça, assi como lei de deos, defende que nom fornigues, nem sejas gargantom.</lem>
 							<rdg wit="#Translation">Thus, anyone who is just simultaneously performs all virtues, because justice itself commands that <hi rend="italic">thou shalt not fornicate, neither wilt thou be a glutton</hi>, just like the Laws of God command.
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>This statement seems to paraphrase the ten commandments (see Exodus 20:1-17), but, in fact, neither of these commands are included among the ten.</p>
 							</note>
 							</rdg>
@@ -267,7 +267,7 @@
 						<app>
 							<lem wit="#Transcription">A terçeira razom se mostra da perfeiçom da bondade; por que em tom dizemos alguma cousa seer perfeita, quando fazer pode alguma semelhante a si, E por tanto se chama huuma cousa boa: quanto sua bondade se pode estender a outros, ao menos se quer per exemplo.</lem>
 							<rdg wit="#Translation">The third reason comes from the perfection of goodness, because we may rightfully call something perfect when it can make something in its own likeness
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>This argument about perfection as the attribute of that which can make something in its own likeness recalls Neo-Platonic theology about the idea of god as beautiful and good. Just as god can make beautiful and good things because he is perfect, so does the goodness of the king may extend to his subjects because goodness itself is perfect.
 									</p>
 								</note>
@@ -300,7 +300,7 @@
 						<app>
 							<lem wit="#Transcription">Desta virtude da justiça, que poucos acha que a queiram por ospeda posto que Rainha, e senhora seja das outras virtudes segundo diz tulio: husou muito elRey Dom Pedro, segundo veer podem os que desejam de o saber, leemdo parte de sua estoria.</lem>
 							<rdg wit="#Translation">The king, Lord Peter, made vast use of this virtue of justice, a virtue that not too many people want as a guest within them, given that justice is the queen and ruler of all other virtues as Tully
-							<note anchored="true">
+							<note type="critical" anchored="true">
 								<p>Marcus Tully Cicero (106 B.C.E – 43 B.C.E), Roman statesman, orator, consul, and philosopher.</p>
 							</note>
 							 has said, as whosoever may wish to know will see by reading this account of his history.</rdg>
