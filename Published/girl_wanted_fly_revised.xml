@@ -31,19 +31,16 @@
 			<publicationStmt>
 				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p>Paris, Bibliothèque nationale de France, français 1593, Anc. 7615
-					Bern, Burgerbibliothek, Cod. 354
-					Paris, Bibliothèque nationale de France, français, 25545, f. 4vb-5vb
-					http://www.e-codices.unifr.ch/en/searchresult/list/one/bbb/0354
-					http://gallica.bnf.fr/ark:/12148/btv1b10525826x/f18.image.r
-					http://gallica.bnf.fr/ark:/12148/btv1b6000803p/f383.item.r</p>
+				<p>Paris, Bibliothèque nationale de France, français 1593, Anc. 7615;
+					Bern, Burgerbibliothek, Cod. 354;
+					Paris, Bibliothèque nationale de France, français, 25545, f. 4vb-5vb</p>
 				<listWit>
 					<witness xml:id="Critical_Text">La pucele qui vouloit voler</witness>
 					<witness xml:id="Translation">The Girl who Wanted to Fly</witness>
@@ -55,12 +52,12 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"The Girl who Wanted to Fly" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"The Girl who Wanted to Fly" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
         			<p>When lines from one manuscript witness appear to be related closely to lines in another, regardless of order, they have been connected in the critical apparatus. For example, see B l.80, E l.75, an I l.91, in which the language between E and I match each other, but the sense matches that of B, which is the primary source of the critical text.</p>
         			<p>Critical notes throughout rely on the commentary found in the NRCF.</p>
 				</interpretation>
@@ -90,9 +87,11 @@
 					<pb ed="#Witness_E" facs="#BnF_fr1593_187r"/>
 					<pb ed="#Witness_I" facs="#BnF_fr25545_4v"/>
 					<app>
+						<lem wit="#Critical_Text">La pucele qui vouloit voler</lem>
 						<rdg wit="#Witness_B">De la damoisele qui uost voler</rdg>
 						<rdg wit="#Witness_E">De la pucelle qui vouloit voler</rdg>
 						<rdg wit="#Witness_I">Ci aprés commence d'une damoisele qui onques por nelui ne'se volt marier. Mais volt voler en l'aire</rdg>
+						<rdg wit="#Translation">The Girl who Wanted to Fly</rdg>
 					</app>
 				</title>
 			</head>
