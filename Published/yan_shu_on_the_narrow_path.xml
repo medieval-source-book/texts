@@ -76,7 +76,7 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1">
+			<lg n="1" type="stanza">
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
@@ -109,7 +109,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="2">
+			<lg n="2" type="stanza">
 				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">翠葉藏鶯，</lem>

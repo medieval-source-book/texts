@@ -76,7 +76,7 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1">
+			<lg n="1" type="stanza">
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
@@ -135,7 +135,7 @@
 				</l>
 			</lg>
 
-			<lg n="2">
+			<lg n="2" type="stanza">
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">數年來往咸京道，</lem>
