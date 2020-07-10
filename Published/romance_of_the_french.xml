@@ -75,7 +75,7 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1">
+			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Reis Arflet de Nohundrelande</lem>
@@ -101,7 +101,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="2">
+			<lg n="2" type="stanza">
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">Le viel Arflet fu son ancestre</lem>
@@ -127,7 +127,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="3">
+			<lg n="3" type="stanza">
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">Mestre est des cerveises estales,</lem>
@@ -154,7 +154,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="4">
+			<lg n="4" type="stanza">
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">De lui vos di en dreite fei</lem>
@@ -177,11 +177,11 @@
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">Ne veut que dechie guersei.</lem>
-						<rdg wit="#Translation">Wassail to fall into disuse.</rdg>
+						<rdg wit="#Translation"><hi rend="italic">Wassail</hi> to fall into disuse.</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="5">
+			<lg n="5" type="stanza">
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">Rimé ont de lui li Franceis</lem>
@@ -207,7 +207,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="6">
+			<lg n="6" type="stanza">
 				<l n="21">
 					<app>
 						<lem wit="#Transcription">Il ont dit que riens n’a valu,</lem>
@@ -233,7 +233,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="7">
+			<lg n="7" type="stanza">
 				<l n="25">
 					<app>
 						<lem wit="#Transcription">Et que le chat l’ocist de guerre,</lem>
@@ -259,7 +259,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="8">
+			<lg n="8" type="stanza">
 				<l n="29">
 					<app>
 						<lem wit="#Transcription">Et fu sire de la contree.</lem>
@@ -285,7 +285,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="9">
+			<lg n="9" type="stanza">
 				<l n="33">
 					<app>
 						<lem wit="#Transcription">Mes li chaitif, li espové,</lem>
@@ -311,7 +311,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="10">
+			<lg n="10" type="stanza">
 				<l n="37">
 					<app>
 						<lem wit="#Transcription">Trop ont dit d’Artur grant enfance,</lem>
@@ -337,7 +337,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="11">
+			<lg n="11" type="stanza">
 				<l n="41">
 					<app>
 						<lem wit="#Transcription">Bien savon que Bien et Belin,</lem>
@@ -363,7 +363,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="12">
+			<lg n="12" type="stanza">
 				<l n="45">
 					<app>
 						<lem wit="#Transcription">D’Engleterre furent tuit rei,</lem>
@@ -389,7 +389,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="13">
+			<lg n="13" type="stanza">
 				<l n="49">
 					<app>
 						<lem wit="#Transcription">Au rei Artur le deraain,</lem>
@@ -415,7 +415,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="14">
+			<lg n="14" type="stanza">
 				<l n="53">
 					<app>
 						<lem wit="#Transcription">Quant de lor orguil s’averti,</lem>
@@ -441,7 +441,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="15">
+			<lg n="15" type="stanza">
 				<l n="57">
 					<app>
 						<lem wit="#Transcription">Jamés n’iert jor que il n’i pere;</lem>
@@ -467,7 +467,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="16">
+			<lg n="16" type="stanza">
 				<l n="61">
 					<app>
 						<lem wit="#Transcription">Mout fu Artur proz et corteis;</lem>
@@ -493,7 +493,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="17">
+			<lg n="17" type="stanza">
 				<l n="65">
 					<app>
 						<lem wit="#Transcription">La vile asist, n’en dotez mie;</lem>
@@ -519,7 +519,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="18">
+			<lg n="18" type="stanza">
 				<l n="69">
 					<app>
 						<lem wit="#Transcription">Engleis fierement asallirent,</lem>
@@ -545,7 +545,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="19">
+			<lg n="19" type="stanza">
 				<l n="73">
 					<app>
 						<lem wit="#Transcription">A cel partir fu apelee</lem>
@@ -571,7 +571,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="20">
+			<lg n="20" type="stanza">
 				<l n="77">
 					<app>
 						<lem wit="#Transcription">Frolles ert apelé le reis,</lem>
@@ -597,7 +597,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="21">
+			<lg n="21" type="stanza">
 				<l n="81">
 					<app>
 						<lem wit="#Transcription">Frolles, qui de France fu sire,</lem>
@@ -623,7 +623,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="22">
+			<lg n="22" type="stanza">
 				<l n="85">
 					<app>
 						<lem wit="#Transcription">Li baron l’ont a ce amis</lem>
@@ -649,7 +649,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="23">
+			<lg n="23" type="stanza">
 				<l n="89">
 					<app>
 						<lem wit="#Transcription">Se de sa terre s’en issist</lem>
@@ -675,7 +675,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="24">
+			<lg n="24" type="stanza">
 				<l n="93">
 					<app>
 						<lem wit="#Transcription">Par eus dous, que plus n’i eüst:</lem>
@@ -701,7 +701,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="25">
+			<lg n="25" type="stanza">
 				<l n="97">
 					<app>
 						<lem wit="#Transcription">Artur respondi: ‘Dex i valle;</lem>
@@ -716,18 +716,18 @@
 				</l>
 				<l n="99">
 					<app>
-						<lem wit="#Transcription">Seit à demein ceste batalle.’</lem>
+						<lem wit="#Transcription">Seit a demein ceste batalle,</lem>
 						<rdg wit="#Translation">Let the combat be scheduled for tomorrow,</rdg>
 					</app>
 				</l>
 				<l n="100">
 					<app>
-						<lem wit="#Transcription">A Paris, en l’Isle, sanz falle,</lem>
+						<lem wit="#Transcription">A Paris, en l’Isle, sanz falle.’</lem>
 						<rdg wit="#Translation">In Paris, on the Île de la Cité, without fail.’</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="26">
+			<lg n="26" type="stanza">
 				<l n="101">
 					<app>
 						<lem wit="#Transcription">De ça et de la sunt certain</lem>
@@ -753,7 +753,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="27">
+			<lg n="27" type="stanza">
 				<l n="105">
 					<app>
 						<lem wit="#Transcription">Frolles durement menaça,</lem>
@@ -779,7 +779,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="28">
+			<lg n="28" type="stanza">
 				<l n="109">
 					<app>
 						<lem wit="#Transcription">Artur, qui n’out pas cuer de glace,</lem>
@@ -805,7 +805,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="29">
+			<lg n="29" type="stanza">
 				<l n="113">
 					<app>
 						<lem wit="#Transcription">Artur, qui out grant desierrer,</lem>
@@ -831,7 +831,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="30">
+			<lg n="30" type="stanza">
 				<l n="117">
 					<app>
 						<lem wit="#Transcription">Frolles jusqu’a tierce dormi,</lem>
@@ -857,7 +857,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="31">
+			<lg n="31" type="stanza">
 				<l n="121">
 					<app>
 						<lem wit="#Transcription">Franceis, qui moroient d’ennui,</lem>
@@ -883,7 +883,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="32">
+			<lg n="32" type="stanza">
 				<l n="125">
 					<app>
 						<lem wit="#Transcription">Tot en gesant, sans sei drecier,</lem>
@@ -909,7 +909,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="33">
+			<lg n="33" type="stanza">
 				<l n="129">
 					<app>
 						<lem wit="#Transcription">Ainz que Frolles se fust armez</lem>
@@ -930,12 +930,12 @@
 				</l>
 				<l n="132">
 					<app>
-						<lem wit="#Transcription">Mès il lor dist: ‘Ne vos tamez;</lem>
+						<lem wit="#Transcription">Mes il lor dist: ‘Ne vos tamez;</lem>
 						<rdg wit="#Translation">But he told them: ‘Don’t be afraid;</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="34">
+			<lg n="34" type="stanza">
 				<l n="133">
 					<app>
 						<lem wit="#Transcription">Ce me vient de grant hardement:</lem>
@@ -961,7 +961,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="35">
+			<lg n="35" type="stanza">
 				<l n="137">
 					<app>
 						<lem wit="#Transcription">‘Coment, dist-il, que il m’avienge,</lem>
@@ -987,7 +987,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="36">
+			<lg n="36" type="stanza">
 				<l n="141">
 					<app>
 						<lem wit="#Transcription">Cruel seiez à desmesure,</lem>
@@ -1013,7 +1013,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="37">
+			<lg n="37" type="stanza">
 				<l n="145">
 					<app>
 						<lem wit="#Transcription">Artur vos voudra del suen tendre,</lem>
@@ -1039,7 +1039,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="38">
+			<lg n="38" type="stanza">
 				<l n="149">
 					<app>
 						<lem wit="#Transcription">De dez seiez boens joeors</lem>
@@ -1065,7 +1065,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="39">
+			<lg n="39" type="stanza">
 				<l n="153">
 					<app>
 						<lem wit="#Transcription">Acreez, si ne rendez rien;</lem>
@@ -1091,7 +1091,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="40">
+			<lg n="40" type="stanza">
 				<l n="157">
 					<app>
 						<lem wit="#Transcription">Frolles en France mist ces leis;</lem>
@@ -1117,7 +1117,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="41">
+			<lg n="41" type="stanza">
 				<l n="161">
 					<app>
 						<lem wit="#Transcription">Quant armé fu a quelque paine,</lem>
@@ -1143,7 +1143,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="42">
+			<lg n="42" type="stanza">
 				<l n="165">
 					<app>
 						<lem wit="#Transcription">Cil conut bien sa volenté,</lem>
@@ -1169,7 +1169,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="43">
+			<lg n="43" type="stanza">
 				<l n="169">
 					<app>
 						<lem wit="#Transcription">Ne se pout Frolles atenir</lem>
@@ -1195,7 +1195,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="44">
+			<lg n="44" type="stanza">
 				<l n="173">
 					<app>
 						<lem wit="#Transcription">Franceis qui devant lui esterent</lem>
@@ -1221,7 +1221,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="45">
+			<lg n="45" type="stanza">
 				<l n="177">
 					<app>
 						<lem wit="#Transcription">Frolles remest sor son destrier,</lem>
@@ -1247,7 +1247,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="46">
+			<lg n="46" type="stanza">
 				<l n="181">
 					<app>
 						<lem wit="#Transcription">Andui es estruis s’afichierent,</lem>
@@ -1273,7 +1273,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="47">
+			<lg n="47" type="stanza">
 				<l n="185">
 					<app>
 						<lem wit="#Transcription">Frolles acuit a menecier</lem>
@@ -1299,7 +1299,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="48">
+			<lg n="48" type="stanza">
 				<l n="189">
 					<app>
 						<lem wit="#Transcription">Et dist: ‘Merci, Artur, beau sire;</lem>
@@ -1325,7 +1325,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="49">
+			<lg n="49" type="stanza">
 				<l n="193">
 					<app>
 						<lem wit="#Transcription">Franceis furent espoenté</lem>
@@ -1351,7 +1351,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="50">
+			<lg n="50" type="stanza">
 				<l n="197">
 					<app>
 						<lem wit="#Transcription">Et il qui toz les voleit pendre,</lem>
@@ -1377,7 +1377,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="51">
+			<lg n="51" type="stanza">
 				<l n="201">
 					<app>
 						<lem wit="#Transcription">Que nul ne n’i eüst pendu.</lem>
@@ -1403,7 +1403,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="52">
+			<lg n="52" type="stanza">
 				<l n="205">
 					<app>
 						<lem wit="#Transcription">Quer il les mist toz en servage</lem>
@@ -1429,7 +1429,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="53">
+			<lg n="53" type="stanza">
 				<l n="209">
 					<app>
 						<lem wit="#Transcription">Franceis en l’Isle s’en passerent,</lem>
@@ -1455,7 +1455,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="54">
+			<lg n="54" type="stanza">
 				<l n="213">
 					<app>
 						<lem wit="#Transcription">Deables furent en agait</lem>
@@ -1481,7 +1481,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="55">
+			<lg n="55" type="stanza">
 				<l n="217">
 					<app>
 						<lem wit="#Transcription">Mout out cel feu male ensuiance,</lem>
@@ -1507,7 +1507,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="56">
+			<lg n="56" type="stanza">
 				<l n="221">
 					<app>
 						<lem wit="#Transcription">De Franceis prist Artur homage,</lem>
@@ -1533,7 +1533,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="57">
+			<lg n="57" type="stanza">
 				<l n="225">
 					<app>
 						<lem wit="#Transcription">Assez trovent qui lor reconte</lem>
@@ -1559,7 +1559,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="58">
+			<lg n="58" type="stanza">
 				<l n="229">
 					<app>
 						<lem wit="#Transcription">Ja Franceis celui n’amera</lem>
@@ -1585,7 +1585,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="59">
+			<lg n="59" type="stanza">
 				<l n="233">
 					<app>
 						<lem wit="#Transcription">Quer savez que liu<note type="critical" anchored="true"><p>lui</p></note> u esrez,</lem>
@@ -1611,7 +1611,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="60">
+			<lg n="60" type="stanza">
 				<l n="237">
 					<app>
 						<lem wit="#Transcription">Quant li Franceis veut cort tenir,</lem>
@@ -1627,7 +1627,7 @@
 				<l n="239">
 					<app>
 						<lem wit="#Transcription">Deu pain de segle fet venir</lem>
-						<rdg wit="#Translation">He orders two loaves of rye bread</rdg>
+						<rdg wit="#Translation">He orders two loaves of rye bread<note type="critical" anchored="true"><p>Alternatively: He orders some rye bread</p></note></rdg>
 					</app>
 				</l>
 				<l n="240">
@@ -1637,7 +1637,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="61">
+			<lg n="61" type="stanza">
 				<l n="241">
 					<app>
 						<lem wit="#Transcription">Et chescun en est par partie</lem>
@@ -1663,7 +1663,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="62">
+			<lg n="62" type="stanza">
 				<l n="245">
 					<app>
 						<lem wit="#Transcription">De sopes faire en la paele;</lem>
@@ -1689,7 +1689,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="63">
+			<lg n="63" type="stanza">
 				<l n="249">
 					<app>
 						<lem wit="#Transcription">Mes il font une autre veisdie,</lem>
@@ -1715,7 +1715,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="64">
+			<lg n="64" type="stanza">
 				<l n="253">
 					<app>
 						<lem wit="#Transcription">Un fil tient chescun en sa main</lem>
@@ -1741,7 +1741,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="65">
+			<lg n="65" type="stanza">
 				<l n="257">
 					<app>
 						<lem wit="#Transcription">Mes quant il ront ou il desnoe,<note type="critical" anchored="true"><p>desnooe</p></note></lem>
@@ -1767,7 +1767,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="66">
+			<lg n="66" type="stanza">
 				<l n="261">
 					<app>
 						<lem wit="#Transcription">Dont orriez Dex desmembrer,</lem>
@@ -1793,7 +1793,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="67">
+			<lg n="67" type="stanza">
 				<l n="265">
 					<app>
 						<lem wit="#Transcription">Sovent i a meinte aatie</lem>
@@ -1819,7 +1819,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="68">
+			<lg n="68" type="stanza">
 				<l n="269">
 					<app>
 						<lem wit="#Transcription">Et il jugent que cil qui a </lem>
@@ -1845,7 +1845,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="69">
+			<lg n="69" type="stanza">
 				<l n="273">
 					<app>
 						<lem wit="#Transcription">L’estrif remaint et la meslee</lem>
@@ -1871,7 +1871,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="70">
+			<lg n="70" type="stanza">
 				<l n="277">
 					<app>
 						<lem wit="#Transcription">Et quant il metent pot a feu,</lem>
@@ -1897,7 +1897,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="71">
+			<lg n="71" type="stanza">
 				<l n="281">
 					<app>
 						<lem wit="#Transcription">Trop i porroit mesavenir,</lem>
@@ -1923,7 +1923,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="72">
+			<lg n="72" type="stanza">
 				<l n="285">
 					<app>
 						<lem wit="#Transcription">Se li bollon n’alout a droit,</lem>
@@ -1949,7 +1949,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="73">
+			<lg n="73" type="stanza">
 				<l n="289">
 					<app>
 						<lem wit="#Transcription">Si l’avreient<note type="critical" anchored="true"><p>l’aveient</p></note> perdue enfin,</lem>
@@ -1975,7 +1975,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="74">
+			<lg n="74" type="stanza">
 				<l n="293">
 					<app>
 						<lem wit="#Transcription">A traire la deu pot s’esmaient;</lem>
@@ -2001,7 +2001,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="75">
+			<lg n="75" type="stanza">
 				<l n="297">
 					<app>
 						<lem wit="#Transcription">Et quant l’eue en est puree,</lem>
@@ -2027,7 +2027,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="76">
+			<lg n="76" type="stanza">
 				<l n="301">
 					<app>
 						<lem wit="#Transcription">Et quant il trovent cel merel,</lem>
@@ -2053,7 +2053,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="77">
+			<lg n="77" type="stanza">
 				<l n="305">
 					<app>
 						<lem wit="#Transcription">Donc est aporte li coteaus,</lem>
@@ -2079,7 +2079,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="78">
+			<lg n="78" type="stanza">
 				<l n="309">
 					<app>
 						<lem wit="#Transcription">S’il avient que non per i ait,</lem>
@@ -2105,7 +2105,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="79">
+			<lg n="79" type="stanza">
 				<l n="313">
 					<app>
 						<lem wit="#Transcription">Lor dobliers volent nez tenir,</lem>
@@ -2131,7 +2131,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="80">
+			<lg n="80" type="stanza">
 				<l n="317">
 					<app>
 						<lem wit="#Transcription">Arflet tesmoignë en son brief</lem>
@@ -2157,7 +2157,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="81">
+			<lg n="81" type="stanza">
 				<l n="321">
 					<app>
 						<lem wit="#Transcription">Li chien se plaignent d’autre part</lem>
@@ -2183,7 +2183,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="82">
+			<lg n="82" type="stanza">
 				<l n="325">
 					<app>
 						<lem wit="#Transcription">Ou li Franceis l’a tot mengié,</lem>
@@ -2205,11 +2205,11 @@
 				<l n="328">
 					<app>
 						<lem wit="#Transcription">De neent a le chien paié.</lem>
-						<rdg wit="#Translation">He will have given the dog nothing for his wait.</rdg>
+						<rdg wit="#Translation">He will have given the dog nothing for its wait.</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="83">
+			<lg n="83" type="stanza">
 				<l n="329">
 					<app>
 						<lem wit="#Transcription">D’iluec vient, nient d’autre nature,</lem>
@@ -2235,7 +2235,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="84">
+			<lg n="84" type="stanza">
 				<l n="333">
 					<app>
 						<lem wit="#Transcription">Quant li Franceis se fet seignier,</lem>
@@ -2261,7 +2261,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="85">
+			<lg n="85" type="stanza">
 				<l n="337">
 					<app>
 						<lem wit="#Transcription">S’il ne la vet de lor doutrine.</lem>
@@ -2287,7 +2287,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="86">
+			<lg n="86" type="stanza">
 				<l n="341">
 					<app>
 						<lem wit="#Transcription">Et porreiz et oignons et alz,</lem>
@@ -2313,7 +2313,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="87">
+			<lg n="87" type="stanza">
 				<l n="345">
 					<app>
 						<lem wit="#Transcription">Qui o les Franceis mengera,</lem>
@@ -2339,7 +2339,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="88">
+			<lg n="88" type="stanza">
 				<l n="349">
 					<app>
 						<lem wit="#Transcription">Franceis<note type="critical" anchored="true"><p>Fanee</p></note> a tot le mains venir</lem>
@@ -2365,7 +2365,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="89">
+			<lg n="89" type="stanza">
 				<l n="353">
 					<app>
 						<lem wit="#Transcription">Tant com en lor contrees seient;</lem>
@@ -2391,7 +2391,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="90">
+			<lg n="90" type="stanza">
 				<l n="357">
 					<app>
 						<lem wit="#Transcription">Et quant il sont en lors ostex,</lem>
@@ -2417,7 +2417,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="91">
+			<lg n="91" type="stanza">
 				<l n="361">
 					<app>
 						<lem wit="#Transcription">André sa chartre fine a tant,</lem>
@@ -2443,7 +2443,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="92">
+			<lg n="92" type="stanza">
 				<l n="365">
 					<app>
 						<lem wit="#Transcription">S’ele est sus Petit Pont retraite,</lem>
@@ -2469,7 +2469,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="93">
+			<lg n="93" type="stanza">
 				<l n="369">
 					<app>
 						<lem wit="#Transcription">Mout sera isnel de prinsaut</lem>
@@ -2495,7 +2495,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="94">
+			<lg n="94" type="stanza">
 				<l n="373">
 					<app>
 						<lem wit="#Transcription">____________________</lem>
@@ -2521,7 +2521,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="95">
+			<lg n="95" type="stanza">
 				<l n="377">
 					<app>
 						<lem wit="#Transcription">Tirenlire est pain enallié</lem>
@@ -2547,7 +2547,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="96">
+			<lg n="96" type="stanza">
 				<l n="381">
 					<app>
 						<lem wit="#Transcription">Ce est un legier companage</lem>
@@ -2573,7 +2573,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="97">
+			<lg n="97" type="stanza">
 				<l n="385">
 					<app>
 						<lem wit="#Transcription">Andreu a sa chartre finee;</lem>
@@ -2599,7 +2599,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="98">
+			<lg n="98" type="stanza">
 				<l n="389">
 					<app>
 						<lem wit="#Transcription">Bien l’ont graanté li Flamenc,</lem>
@@ -2625,7 +2625,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="99">
+			<lg n="99" type="stanza">
 				<l n="393">
 					<app>
 						<lem wit="#Transcription">Que Engleis, Breton, Angevin,</lem>
@@ -2651,15 +2651,15 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="100">
+			<lg n="100" type="stanza">
 				<l n="397">
 					<app>
 						<lem wit="#Transcription">Explicit Arflet.</lem>
-						<rdg wit="#Translation">Here ends ‘Alfred’</rdg>
+						<rdg wit="#Translation">Here ends ‘Alfred.’</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="101">
+			<lg n="101" type="stanza">
 				<l n="398">
 					<app>
 						<lem wit="#Transcription">Hii sunt duodecim pares Francie.</lem>
@@ -2699,7 +2699,7 @@
 				<l n="404">
 					<app>
 						<lem wit="#Transcription">Comes Sancti Egidii.</lem>
-						<rdg wit="#Translation">The Count of Saint Giles.<note type="critical" anchored="true"><p>Toulouse</p></note></rdg>
+						<rdg wit="#Translation">The Count of Saint Giles.</rdg>
 					</app>
 				</l>
 				<l n="405">
