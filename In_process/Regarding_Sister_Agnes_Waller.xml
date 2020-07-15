@@ -13,7 +13,7 @@
 				<author>Various</author>
 				<respStmt>
 					<resp>Based on</resp>
-					<name>“Les ‘Vitae sororum’ d’Unterlinden: Édition critique du manuscrit 508 de la bibliothèque de Colmar”. Ed. Jeanne Ancelet-Hustache. Archives d’histoire doctrinale et littèraire du Moyen Âge vol. 5 (1930): 317–513.</name>
+					<name>“Les ‘Vitae sororum’ d’Unterlinden: Édition critique du manuscrit 508 de la bibliothèque de Colmar”. Ed. Jeanne Ancelet-Hustache. <hi rend="italic">Archives d’histoire doctrinale et littèraire du Moyen Âge </hi> vol. 5 (1930): 317–513.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -62,9 +62,9 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Item de sorore sancte memorie Agnete, Walleria <note type= "critical" anchored="true">
-									<p>The editor of the Vitae sororum, Jeanne Ancelet-Hustache, notes that a family of this name existed in Ribeauvillé around the time when Agnes would have lived; it is probable that she belonged to this family. See Ancelet-Hustache, “Les ‘Vitae sororum’ d’Unterlinden: Édition critique du manuscrit 508 de la Bibliothèque de Colmar,” in Archives de l’histoire doctrinale et littéraire du Moyen  ge vol. 5 (1930) note 1 p. 412.</p> </note> cognomento</lem>
-						<rdg wit="#Translation">Regarding Sister Agnes Waller of blessed memory</rdg>
+						<lem wit="#Transcription">Item de sorore sancte memorie Agnete, Wallaria cognomento</lem>
+						<rdg wit="#Translation">Regarding Sister Agnes Waller <note type= "critical" anchored="true">
+									<p>The editor of the Vitae sororum, Jeanne Ancelet-Hustache, notes that a family of this name existed in Ribeauvillé around the time when Agnes would have lived; it is probable that she belonged to this family. See Ancelet-Hustache, “Les ‘Vitae sororum’ d’Unterlinden: Édition critique du manuscrit 508 de la Bibliothèque de Colmar,” in Archives de l’histoire doctrinale et littéraire du Moyen  ge vol. 5 (1930) note 1 p. 412.</p> </note> of blessed memory</rdg>
 					</app>
 				</title>
 			</head>
@@ -95,19 +95,19 @@
 				<p n="3">
 					<s>
 						<app>
-							<lem wit="#Transcription">Uerum hiis ita gestis, tempus non multo post istabat, quo percipere debuit altaris uiuifica sacramenta.</lem>
+							<lem wit="#Transcription">Uerum hiis ita gestis, tempus non multo post instabat, quo percipere debuit altaris uiuifica sacramenta.</lem>
 							<rdg wit="#Translation">Not long after these things had happened, the time approached in which she was bound to receive the life-giving sacrament of the altar.</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Itaque interrogata a confessore suo utrum prius ex corde remitteret hiis qui se leserant, ed dicente eo quoniam aliter dare sibi minime presumeret sacrosanctum corbus Christi, tunc illa repente cum multa animi libertate respondens ait: "Si omnia mundi huis regna dicioni mee subiacerent, illis libencius renunciarem, quam unius momenti spacio carere vellem dulcissimo Deo meo; idcirco toto nunc ex corde ignosco et remitto eisdem, quod in me deliquerunt."</lem>
+							<lem wit="#Transcription">Itaque interrogata a confessore suo utrum prius ex corde remitteret hiis qui se leserant, ed dicente eo quoniam aliter dare sibi minime presumeret sacrosanctum corpus Christi, tunc illa repente cum multa animi libertate respondens ait: "Si omnia mundi huis regna dicioni mee subiacerent, illis libencius renunciarem, quam unius momenti spacio carere vellem dulcissimo Deo meo; idcirco toto nunc ex corde ignosco et remitto eisdem, quod in me deliquerunt."</lem>
 							<rdg wit="#Translation">She was asked by her confessor first whether she had left behind those things which are harmful to her, since, as he said, otherwise he would hardly presume to give her the holy body of Christ. Responding suddenly with a great outspokenness of mind, she said: "If all the kingdoms of this world were to submit themselves to my authority, gladly would I renounce them—that is how much I would be willing to deprive myself of them in one moment, for the sake of my most beloved God; on that account I now completely forgive and dismiss those things which were lacking in me."</rdg>
 						</app>
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Quibus dictis, tantam talemque uim sibi intulit remittendee, quod sanguis mox de imsius ore et naribus exiliuit, confessore suo presente pariter et uidente.</lem>
+							<lem wit="#Transcription">Quibus dictis, tantam talemque uim sibi intulit remittendo, quod sanguis mox de ipsius ore et naribus exiliuit, confessore suo presente pariter et uidente.</lem>
 							<rdg wit="#Translation">When she had said this, she felt such a great power, and so much of it, rush upon her in surrendering that suddenly blood burst forth from her mouth and nostrils. Her confessor was there with her and saw this.</rdg>
 						</app>
 					</s>
@@ -147,7 +147,7 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Quem iocunditate et leticia ineffabili intuens et agnoscens suum esse et omnium saluatorem, anima ipsius tota liquefacta est pre inmensa dulcidine et amore illius dulcissimi paruuli, eum sibi totis astringere affectibus desiderans, sed tamen danctum sanctorum manibus contingere non presumpsit.</lem>
+							<lem wit="#Transcription">Quem iocunditate et leticia ineffabili intuens et agnoscens suum esse et omnium saluatorem, anima ipsius tota liquefacta est pre inmensa dulcidine et amore illius dulcissimi paruuli, eum sibi totis astringere affectibus desiderans, sed tamen sanctum sanctorum manibus contingere non presumpsit.</lem>
 							<rdg wit="#Translation">Seeing him with unspeakable delight and happiness and recognizing him to be her saviour and the saviour of all, her entire soul was liquefied before the immense sweetness and love of this most charming child. She desired to grasp him to herself with complete affection, yet she did not presume to touch the holy of holies with her hands.</rdg>
 						</app>
 					</s>
@@ -165,7 +165,7 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Ceterum eandem uisionem triduo antequam de corpore migraret patefecit cuidam deuote ac fide digne sorori, qui mihi illam, quemadmodum simplicibus uerbis expressi, per ordinem enarrauit.</lem>
+							<lem wit="#Transcription">Ceterum eandem uisionem triduo antequam de corpore migraret patefecit cuidam deuote ac fide digne sorori, que mihi illam, quemadmodum simplicibus uerbis expressi, per ordinem enarrauit.</lem>
 							<rdg wit="#Translation">Three days before she died, God revealed the same vision to a certain sister, devoted and deserving in faith, who told it to me in succession, to the extent that it could be expressed in plain words.<note type= "critical" anchored="true"><p>This vision of the Christ child is a not uncommon occurrence in the Vitae sororum; the Christ child features prominently in the vitae of prioresses and lifelong choir nuns as well as widows and other women who had joined the monastery later in life. The author’s remark that it was explained to her “in plain words” may refer to a vision by one of the less educated or younger nuns.</p> </note></rdg>
 						</app>
 					</s>
