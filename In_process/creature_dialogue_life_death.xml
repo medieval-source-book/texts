@@ -43,12 +43,12 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"Concerning Life and Death" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -61,17 +61,14 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
-						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+						<lem wit="#Transcription">De vita et morte, dial. 122.</lem>
+						<rdg wit="#Translation">Concerning Life and Death, the hundred and twenty-second dialogue</rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
-			<div n="1">
-				<!--Divisions should be used if your text has sections larger than paragraphs-->
-				<p n="1">
-					<!--Paragraphs should be numbered-->
+				<p>
 					<s>
 						<app>
 							<lem wit="#Transcription">Mors secundum philosophum et æternum somnus, diviyum pavor, pauperum desiderium, incurabilis eventus, latro hominis, fuga vitæ, resolutio hominis.  </lem>
@@ -88,15 +85,13 @@
 						<app>
 							<lem wit="#Transcription">Et homo quidam juvenis formosus, immutabilis, misere mei et exaudi me, supplicium, quod a te exspecto, noli emittere ad me, aurum et argentum, lapides et quid quid vis, tibi dabo, tamtumnodo noli me tangere.</lem>
 							<rdg wit="#Translation">Some young man, handsome, wealthy, strong, and healthy, approaches death and says: ‘O unchangeable Destiny, have pity upon me and hear my entreaty: that you not visit upon me the punishment which I expect from you. I shall give you gold and silver, precious stones, slaves
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>Mancipia often refers to property more generally; however, as possessiones is mentioned within this sentence, it is likely that the author refers to ‘slaves’, who along with ‘horses’ – the next item listed – would reasonably have populated the promised ‘estates, manors, palaces’, etc. </p>
 								</note>
 							, horses, estates, manors, palaces, property, and whatever you want, as long as you do not lay hands upon me.’
 							</rdg>
 						</app>
 					</s>
-				</p>
-				<p n="2">
 					<s>
 						<app>
 							<lem wit="#Transcription">Cui mors : impossibilia petis , o frater , non sunt petenda a Deo nisi honesta et possibilia ideoque non sapienter locutus es, quia dicitur homini, mors ubique te exspeetat et tu, si sapiens fueris, ubique eam exspeetabis.</lem>
@@ -145,9 +140,6 @@
 							</rdg>
 						</app>
 					</s>
-				</p>
-
-				<p n="3">
 					<s>
 						<app>
 							<lem wit="#Transcription">Ait enim Seneca: nemo tam imperitus est, ut nesciat se aliquando moriturum.</lem>
@@ -231,9 +223,6 @@
 							</rdg>
 						</app>
 					</s>
-				</p>
-
-				<p n="4">
 					<s>
 						<app>
 							<lem wit="#Transcription">Narrat Valerius 1. V. c. X dicens, quod Anaxagoras audita morte filii respondit : nihil quidem inexspectatum aut novum nuntias,</lem>
@@ -244,7 +233,6 @@
 							</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">ego eum natum ex me sciebam esse mortalem,</lem>
@@ -255,21 +243,18 @@
 							</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">atque a lege naturae ac20 cipiendi Spiritus et redclencli legem didici, neminem mori, qui non vixerit, ita nee quidem vivere aliquem, qui non sit moriturus naturaliter.</lem>
 							<rdg wit="#Translation">I also learned that the terms upon which we receive breath and give it back are derived from the law of Nature, so that no one dies who has not lived, and likewise no one lives who will not die in accordance with his nature.’ </rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">Ibidem, quod Xenophon auclita morte filii sui majoris natu, qui in bello oeeiderat, coronam tarnen deponere contentus fuit.</lem>
 							<rdg wit="#Translation">In the same place, Valerius reports that Xenophon, having heard of the death of his elder son, who had fallen in battle, was content merely to take off his garland.</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">Agebat enim solemne sacrificium, deinde per25 contatus, quomodo oeeubuisset, ut audivit fortissime puguantem interiisse, capiti reposuit coronam et per numina, quibus sacrificabat , testatus est , majorem se ex virtute filii voluptatem quam ex morte amaritudinem sentire.</lem>
@@ -280,8 +265,6 @@
 							</rdg>
 						</app>
 					</s>
-				</p>
-				<p n="5">
 					<s>
 						<app>
 							<lem wit="#Transcription">Narra Hieronimus, quod sanctta quædam et nobilissima nulier, cum corpusculum mariti sui defuncti, quem amabatt et quem ploraba, adhuc non esset humatum, in ipso sepulutræ ejus die duos simul perdidi filios.</lem>
@@ -310,9 +293,6 @@
 							</rdg>
 						</app>
 					</s>
-				</p>
-
-				<p n="6">
 					<s>
 						<app>
 							<lem wit="#Transcription">Legitur in Chronicis imperatorum, quod uxor Octaviani tumulavit quendam filium suum nomine Drusum, et licet esset pagana, tarnen per magnum sensuui naturalem exsistentera. in se , deposuit omuia signa moeroris dicens: quid prodest timere, quod non potest evitari, et flere, quod, dum venerit, non potest revocari ?
@@ -335,7 +315,6 @@
 							</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">Et quidem memoria mortis est quocldam frenum refrenans hominem, ne nimis effluat et discurrat per latitudines cupiditatum et libidinum.
@@ -355,7 +334,6 @@
 							</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">Unde dicitur in Vita Johannis elemosinarii, quod antiquitus, postquam imperator coronatus erat, statim ingrediebantur ad eum aedificatores monumentorum dicentes eidem: de quo vel de quali metallo jubes, imperator, fieri monumentum tuum ?
@@ -367,7 +345,6 @@
 							</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">Insinuantes hoc ei, ut sciret, quod bomo corruptibilis et transitorius esset, ut curam baberet animse suae et regnum pie disponeret et gubernaret, juxta illud Eccl.
@@ -387,9 +364,6 @@
 							</rdg>
 						</app>
 					</s>
-				</p>
-
-				<p n="7">
 					<s>
 						<app>
 							<lem wit="#Transcription">Recitat Alfonsus in tractatu suo de prudentia, quod mortuo Alexandro, cum fieret ei sepulchrum aureum, conveneruntt ad eum plurimi philosophi, ex quibus unus dixit:</lem>
@@ -456,9 +430,6 @@
 							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
-				</p>
-
-				<p n="8">
 					<s>
 						<app>
 							<lem wit="#Transcription">Dicitur de vivente homine, quod quasi sterquinilium in fine perdetur, Job. XX.
@@ -481,7 +452,6 @@
 							</rdg>
 						</app>
 					</s>
-
 					<s>
 						<app>
 							<lem wit="#Transcription">Eccl. VII : ideirco attendite et considerate, quod in morte cujuscunque nasus frigescit, dentes nigrescunt, facies pallescit, venae et nervi corporis runipuntur, cor, ut dicitur, prae nimio calore dividitur , omnia nieinbra tamquam ligna et lapides arescunt.
@@ -491,18 +461,16 @@
 									<p>This text is not from Ecclesiastes 7, but adapted from one of Odo of Cheriton’s Sermones Dominicales (‘Dominican Sermons’), specifically that on fol. 251 of British Library Egerton MS 2890, beginning: Considera quod in morte cuiuscumque nasus frigescit…</p>
 								</note>
 							</rdg>
-						</app>
-					</s>
-					<s>
-						<app>
+					</app>
+				</s>
+				<s>
+					<app>
 							<lem wit="#Transcription">Nihil in mundo tarn abhourinabile et taediosum si5 cut cadaver mortui ; in aquis non projicitur, ne aquae inficiantur , in aere non suspenditur , ne aer corrumpatur, sed sicut venenum pessimum in foveam projicitur et, ne amplius videatur, terra super ipsum veiociter tumulatur.
 							</lem>
 							<rdg wit="#Translation">Nothing is more abominable and disgusting in the world than the corpse of a dead man: it is not thrown into the water lest it should contaminate the water, it is not hung in the air lest it should corrupt the air, but like the most foul poison it is thrown into a pit and earth is swiftly piled upon it in burial so that it is visible no longer.
 							</rdg>
 						</app>
 					</s>
-				</p>
-				<p n="9">
 					<s>
 						<app>
 							<lem wit="#Transcription">Ecce gloria mundi qualiter clauditur!</lem>
@@ -544,8 +512,6 @@
 							</rdg>
 						</app>
 					</s>
-				</p>
-				<p n="10">
 					<s>
 						<app>
 							<lem wit="#Transcription">Considera ergo genitores et paternos et antecessores, cum non eos invenies, et ut Bernardus inquit : die mihi, ubi sunt amatores mundi, qui ante pauca tempora nobiscum erant?</lem>
@@ -603,7 +569,6 @@
 						</app>
 					</s>
 				</p>
-			</div>
 		</body>
 	</text>
 </TEI>
