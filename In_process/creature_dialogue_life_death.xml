@@ -12,8 +12,8 @@
 				<title>Concerning Life and Death</title>
 				<author>Nicolaus Pergamenus</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name>Dr. J. G. Th. Grässe</name>
+					<resp>Based on the edition by</resp>
+					<name>Johann Georg Theodor Grässe</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,7 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Transcribed in</p><p>Johann Georg Theodor Grässe,<hi rend="italic>"> Die beiden ältesten lateinischen fabelbücher des mittelalters</hi> Tübingen: Litterarischer verein in Stuttgart, 1880, pp. 277-280</p>
 				<listWit>
 					<witness xml:id="Transcription">De vita et morte</witness>
 					<witness xml:id="Translation">Concering Life and Death</witness>
@@ -84,11 +84,10 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Et homo quidam juvenis formosus, immutabilis, misere mei et exaudi me, supplicium, quod a te exspecto, noli emittere ad me, aurum et argentum, lapides et quid quid vis, tibi dabo, tamtumnodo noli me tangere.</lem>
-							<rdg wit="#Translation">Some young man, handsome, wealthy, strong, and healthy, approaches death and says: ‘O unchangeable Destiny, have pity upon me and hear my entreaty: that you not visit upon me the punishment which I expect from you. I shall give you gold and silver, precious stones, slaves
-								<note  type="critical" type="critical" anchored="true">
+							<rdg wit="#Translation">Some young man, handsome, wealthy, strong, and healthy, approaches death and says: ‘O unchangeable Destiny, have pity upon me and hear my entreaty: that you not visit upon me the punishment which I expect from you. I shall give you gold and silver, precious stones, slaves,
+								<note  type="critical" anchored="true">
 									<p>Mancipia often refers to property more generally; however, as possessiones is mentioned within this sentence, it is likely that the author refers to ‘slaves’, who along with ‘horses’ – the next item listed – would reasonably have populated the promised ‘estates, manors, palaces’, etc. </p>
-								</note>
-							, horses, estates, manors, palaces, property, and whatever you want, as long as you do not lay hands upon me.’
+								</note> horses, estates, manors, palaces, property, and whatever you want, as long as you do not lay hands upon me.’
 							</rdg>
 						</app>
 					</s>
@@ -218,7 +217,7 @@
 							<lem wit="#Transcription">Unde nuntitta cuidam philosopho mortte filii ait: quoniam eum genui, inquit, morutrum scivi.</lem>
 							<rdg wit="#Translation">Hence some philosopher also responded thus, after the death of his son had been reported to him: ‘Given that I fathered him’, he said, ‘I knew that he must die.’
 								<note  type="critical" anchored="true">
-									<p>2 This line was spoken by no ‘philosopher’; it was originally spoken by Telamon, father of Ajax, in Ennius’ tragedy Telamo, line 319: ego cum genui tum morituros scivi et ei rei sustuli (‘When I fathered children, I knew that they must die, and I brought them up for this purpose’). The misattribution may have arisen from the transmission of these verses in Cic. Tusc. Disp. 3.13.28, or, more likely, in Sen. De Cons. 11.</p>
+									<p>This line was spoken by no ‘philosopher’; it was originally spoken by Telamon, father of Ajax, in Ennius’ tragedy Telamo, line 319: ego cum genui tum morituros scivi et ei rei sustuli (‘When I fathered children, I knew that they must die, and I brought them up for this purpose’). The misattribution may have arisen from the transmission of these verses in Cic. Tusc. Disp. 3.13.28, or, more likely, in Sen. De Cons. 11.</p>
 								</note>
 							</rdg>
 						</app>
