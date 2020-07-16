@@ -36,8 +36,8 @@
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">De vita et morte</witness>
+					<witness xml:id="Translation">Concering Life and Death</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -85,7 +85,7 @@
 						<app>
 							<lem wit="#Transcription">Et homo quidam juvenis formosus, immutabilis, misere mei et exaudi me, supplicium, quod a te exspecto, noli emittere ad me, aurum et argentum, lapides et quid quid vis, tibi dabo, tamtumnodo noli me tangere.</lem>
 							<rdg wit="#Translation">Some young man, handsome, wealthy, strong, and healthy, approaches death and says: ‘O unchangeable Destiny, have pity upon me and hear my entreaty: that you not visit upon me the punishment which I expect from you. I shall give you gold and silver, precious stones, slaves
-								<note type="critical" anchored="true">
+								<note  type="critical" type="critical" anchored="true">
 									<p>Mancipia often refers to property more generally; however, as possessiones is mentioned within this sentence, it is likely that the author refers to ‘slaves’, who along with ‘horses’ – the next item listed – would reasonably have populated the promised ‘estates, manors, palaces’, etc. </p>
 								</note>
 							, horses, estates, manors, palaces, property, and whatever you want, as long as you do not lay hands upon me.’
@@ -102,7 +102,7 @@
 						<app>
 							<lem wit="#Transcription">Dicitur enim Psalm. LXXXVUI: quis est homo, qui vivit et non videbit mortem?</lem>
 							<rdg wit="#Translation">After all, Psalm 88 says “What man can live and not see death?”
-								<note anchored="true">
+								<note type="critical"  anchored="true">
 									<p>Psalm 88:49. </p>
 								</note>
 							</rdg>
@@ -118,7 +118,7 @@
 						<app>
 							<lem wit="#Transcription">Unde versus: per nullam sortem poteris evadere mortem.</lem>
 							<rdg wit="#Translation">Hence the verse: “You shall not be able to avoid death through any act of Fate.”
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>A popular memento mori verse, inscribed below a painting in the 14th-century Benedictine monastery of Sacro Speco in Subiaco.</p>
 								</note>
 							</rdg>
@@ -134,7 +134,7 @@
 						<app>
 							<lem wit="#Transcription">Ergo patieuter recipe me , quia tibi nihil novi veni facere.</lem>
 							<rdg wit="#Translation">accept me with equanimity, since I have not come to do anything out of the ordinary to you.
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>There is no indication as to when Death’s speech ends, but this point is a logical break, and the narrator certainly takes over by the end of this dialogue, for Death would ostensibly not end his speech with an ‘Amen’. </p>
 								</note>
 							</rdg>
@@ -175,7 +175,7 @@
 						<app>
 							<lem wit="#Transcription">Lex universalis est, quæ jubet nasci et mori, hoc autem intelligas vitam gerendo.</lem>
 							<rdg wit="#Translation">It is a universal law which dictates that we be born and then die, and you should understand this in the course of living your life.'
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>These ideas are a loose paraphrase of Sen. Ep. 76.11-13.</p>
 								</note>
 							</rdg>
@@ -185,7 +185,7 @@
 						<app>
 							<lem wit="#Transcription">Ait idem: debemus nos portare, quod non possumus vitare.</lem>
 							<rdg wit="#Translation">He also writes: ‘We must bear that which we cannot avoid.’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>An approximation of Sen. Vit. Beat. 15.7: Ad hoc sacramentum adacti sumus, ferre mortalia nec perturbari iis, quae vitare non est nostrae potestatis (‘This is the sacred obligation by which we are bound – to submit to the human lot, and not to be disquieted by those things which we have no power to avoid’). </p>
 								</note>
 							</rdg>
@@ -207,7 +207,7 @@
 						<app>
 							<lem wit="#Transcription">Ego vadam magis ad eum, ipse non revertetutr ad me.</lem>
 							<rdg wit="#Translation">On the contrary, I shall go to him, but he will not come back to me.’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>2 Samuel 12:23.</p>
 								</note>
 							</rdg>
@@ -217,7 +217,7 @@
 						<app>
 							<lem wit="#Transcription">Unde nuntitta cuidam philosopho mortte filii ait: quoniam eum genui, inquit, morutrum scivi.</lem>
 							<rdg wit="#Translation">Hence some philosopher also responded thus, after the death of his son had been reported to him: ‘Given that I fathered him’, he said, ‘I knew that he must die.’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>2 This line was spoken by no ‘philosopher’; it was originally spoken by Telamon, father of Ajax, in Ennius’ tragedy Telamo, line 319: ego cum genui tum morituros scivi et ei rei sustuli (‘When I fathered children, I knew that they must die, and I brought them up for this purpose’). The misattribution may have arisen from the transmission of these verses in Cic. Tusc. Disp. 3.13.28, or, more likely, in Sen. De Cons. 11.</p>
 								</note>
 							</rdg>
@@ -227,7 +227,7 @@
 						<app>
 							<lem wit="#Transcription">Narrat Valerius 1. V. c. X dicens, quod Anaxagoras audita morte filii respondit : nihil quidem inexspectatum aut novum nuntias,</lem>
 							<rdg wit="#Translation">Valerius [Maximus] also tells this story at Book 5 Chapter 10 [of his Memorable Doings and Sayings], by noting that Anaxagoras, upon hearing of the death of his son, responded: ‘You announce to me nothing unexpected or new.
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>Novum also means ‘odd, strange’ in this context (cf. Hor. Carm. 1.2.6, nova monstra, ‘bizarre portents’).</p>
 								</note>
 							</rdg>
@@ -237,7 +237,7 @@
 						<app>
 							<lem wit="#Transcription">ego eum natum ex me sciebam esse mortalem,</lem>
 							<rdg wit="#Translation">I knew that he was born from me and mortal.
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>These first two clauses (nihil quidem…mortalem, corresponding to ‘You announce…and mortal’ in the translation) are taken almost word-for-word from Anaxagoras’ speech at Val. Max. 5.10 ext.3, but the following sentences in Anaxagoras’ purported response have been cobbled together from Valerius’ own comments, as set out a few lines below in the aforementioned chapter.</p>
 								</note>
 							</rdg>
@@ -259,7 +259,7 @@
 						<app>
 							<lem wit="#Transcription">Agebat enim solemne sacrificium, deinde per25 contatus, quomodo oeeubuisset, ut audivit fortissime puguantem interiisse, capiti reposuit coronam et per numina, quibus sacrificabat , testatus est , majorem se ex virtute filii voluptatem quam ex morte amaritudinem sentire.</lem>
 							<rdg wit="#Translation">For instance, he was conducting a regular sacrifice, when he then asked how his son had died, and learned that he had perished while fighting most courageously, he replaced the garland upon his head and called the gods to whom he was sacrificing to witness that he felt more pleasure from his son’s bravery than bitterness from his death.
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>A summary, or rather a restructuring with large parts of the original Latin kept intact, of Val. Max. 5.10 ext.2. </p>
 								</note>
 							</rdg>
@@ -287,7 +287,7 @@
 						<app>
 							<lem wit="#Transcription">Lacrynmæ quidem gutta non fluxit, stetit immonilis ett advolutta ad pedes Christi, quasi ipsum tteneret, ait: expedita, inquit, servitura sum, domine, tibi, quia me a tantto onere liberasti.</lem>
 							<rdg wit="#Translation">Yet not even one tear fell from her eyes. She stood motionless and prostrated herself at the feet of Christ, as though she held Him in her hands, and said: ‘I shall serve you readily in future, Lord, because you have freed me from such a great burden.’
-									<note anchored="true">
+									<note  type="critical" anchored="true">
 									<p>Paraphrased very closely from Hier. Ep. 39.4. Significantly, the first-person aside (‘I am going to tell…as Christ is my witness’) is not an address to the reader on the part of the Dialogus’ author, but lifted near-directly (with teste Christo in the original instead of Christo teste) from Jerome’s narration.</p>
 								</note>
 							</rdg>
@@ -298,7 +298,7 @@
 							<lem wit="#Transcription">Legitur in Chronicis imperatorum, quod uxor Octaviani tumulavit quendam filium suum nomine Drusum, et licet esset pagana, tarnen per magnum sensuui naturalem exsistentera. in se , deposuit omuia signa moeroris dicens: quid prodest timere, quod non potest evitari, et flere, quod, dum venerit, non potest revocari ?
 							</lem>
 							<rdg wit="#Translation">One reads in the chronicles of the emperors that Octavian’s wife buried one of her sons by the name of Drusus, and even though she was a pagan, she nevertheless shed all signs of her grief through the help of some great and natural feeling which existed within her, saying, ‘What is the use of fearing that which cannot be avoided, and of weeping over that which cannot be called off once it has arrived?’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>Source untraceable; most likely from one of the hundreds of versions of Martin of Opava’s Chronicon Pontificum et Imperatorum (‘Chronicle of the Popes and Emperors’).</p>
 								</note>
 							</rdg>
@@ -309,7 +309,7 @@
 							<lem wit="#Transcription">Unde Seneca : nou affligitur sapiens filiorum amissione nee amicorum , eodem modo ferre potest illorum mortem, quo suam exspeetat.
 							</lem>
 							<rdg wit="#Translation">Hence Seneca: ‘The wise man is distressed neither by the loss of his sons nor that of his friends; he can endure their deaths in the same way as he expects his own.’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>Sen. Ep. 74.30, slightly simplified; the original liberorum (‘children’) has been changed to filiorum (‘sons’), and eodem animo (‘in the same spirit’) to eodem modo (‘in the same way’). </p>
 								</note>
 							</rdg>
@@ -328,7 +328,7 @@
 							<lem wit="#Transcription">Mortis meditatio summa est philosophia, ut dicit Plato.
 							</lem>
 							<rdg wit="#Translation">As Plato says, ‘Practising how to die is the highest form of philosophy.’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>The term meditatio mortis is distinctively Senecan (Sen. Ep. 54.2) but often associated with Plato’s Phaedo, where Socrates repeatedly associates this phrase (μελέτη θανάτου) with philosophy. </p>
 								</note>
 							</rdg>
@@ -339,7 +339,7 @@
 							<lem wit="#Transcription">Unde dicitur in Vita Johannis elemosinarii, quod antiquitus, postquam imperator coronatus erat, statim ingrediebantur ad eum aedificatores monumentorum dicentes eidem: de quo vel de quali metallo jubes, imperator, fieri monumentum tuum ?
 							</lem>
 							<rdg wit="#Translation">Hence it is said in the Life of John the Almsgiver that in ancient times, after an emperor was crowned, builders of monuments would immediately go up to him and say: ‘From what or what sort of metal, Emperor, do you command your monument to be made?’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>Paraphrased from the life of John (De sancto Iohanne Elemosinario), chapter 27 of the Golden Legend.</p>
 								</note>
 							</rdg>
@@ -358,7 +358,7 @@
 							<lem wit="#Transcription">VII : memorare novissima tua et in aeternum non peccabis?
 							</lem>
 							<rdg wit="#Translation">according to that saying from Ecclesiastes 7: ‘Be mindful of your final end, and you shall never sin.
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>Ecclesiastes 7:40.</p>
 								</note>
 							</rdg>
@@ -426,12 +426,6 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
 							<lem wit="#Transcription">Dicitur de vivente homine, quod quasi sterquinilium in fine perdetur, Job. XX.
 							</lem>
 							<rdg wit="#Translation">It is said of a living man that ‘he will perish forever like his own dung’, Job 20.
@@ -446,7 +440,7 @@
 							<lem wit="#Transcription">Ideo praeeipitur Eccles. XXVI : mernento finis , melius est ad domum luctus ire quam ad domuru convivii; ibi enim finis eunetorum admonetur hominum et vivens cogitat, quid futurum sit ei, quia scilicet simili fine claudendus sit.
 							</lem>
 							<rdg wit="#Translation">Hence Ecclesiastes 26 commands: ‘Remember the end, it is better to visit the house of mourning than the house of partying, for there one is reminded of the end which befalls all men and, while alive, takes thought of what will happen to him, since he will certainly be confined by a similar end.’
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>None of the following text is from Ecclesiastes 26. Memento finis (‘Remember the end’) is from Sirach 36:10, and melius est…sit ei (‘It is better to…will happen to him’) is from Ecclesiastes 7:3. The last phrase, quia…claudendus sit (‘Since he will…similar end’) is an addition by the Dialogus’ author.</p>
 								</note>
 							</rdg>
@@ -457,7 +451,7 @@
 							<lem wit="#Transcription">Eccl. VII : ideirco attendite et considerate, quod in morte cujuscunque nasus frigescit, dentes nigrescunt, facies pallescit, venae et nervi corporis runipuntur, cor, ut dicitur, prae nimio calore dividitur , omnia nieinbra tamquam ligna et lapides arescunt.
 							</lem>
 							<rdg wit="#Translation">Ecclesiastes 7: Pay attention, therefore, and consider the fact that in death, everyone’s nose grows cold, their teeth grow black, their faces grow pale, the veins and nerves of their bodies break, and the heart, as they say, splits on account of excessive heat, and all the limbs dry out like timbers and stones.
-								<note anchored="true">
+								<note  type="critical" anchored="true">
 									<p>This text is not from Ecclesiastes 7, but adapted from one of Odo of Cheriton’s Sermones Dominicales (‘Dominican Sermons’), specifically that on fol. 251 of British Library Egerton MS 2890, beginning: Considera quod in morte cuiuscumque nasus frigescit…</p>
 								</note>
 							</rdg>
@@ -493,7 +487,7 @@
 						<app>
 							<lem wit="#Transcription">Unde Bernardus: quid superbis, pulvis et cinis, cujus conceptus culpa, nasci miseria, vivere pœna et mori angustia?</lem>
 							<rdg wit="#Translation">Hence Bernard: ‘Why are you proud, dust and ash, having been conceived in sin and born in misery, to live in punishment and die in difficulty?’
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>[Ps.-]Bernard of Clairvaux, Meditationes de humana conditione, PL 184, 0490B.</p>
 								</note>
 							</rdg>
@@ -530,8 +524,8 @@
 						<app>
 							<lem wit="#Transcription">certe quasi urnbra pertransierunt et in nihilum redacti sunt.</lem>
 							<rdg wit="#Translation"> Certainly they have fled on by like a shadow and been reduced to nothing.’
-								<note anchored="true">
-									<p>Ibid., 0491.</p>
+								<note type="critical" anchored="true">
+									<p>Bernard of Clairvaux, Meditationes de humana conditione, PL 184, 0491.</p>
 								</note>
 							</rdg>
 						</app>
@@ -540,7 +534,7 @@
 						<app>
 							<lem wit="#Transcription">Item Augustinus: vade ad sepulchrum, aeeipe ossa et discerne, si potes, quis dominus, quis servus , quis pulcher, quis deformis , quis nobilis, quis ignobilis, quis sapiens, quis ideota, et de hoc non poteris recognoscere.</lem>
 							<rdg wit="#Translation"> Likewise Augustine: ‘Go to the cemetery, take up the bones and discern, if you can, who was a master, who a servant, who handsome, who noble and who not noble, who wise, who an imbecile’.
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>Adapted from Augustine Ad fratres in eremo commorantes 48, PL 40, 1329. </p>
 								</note>
 								and you will not be able to infer about this.
