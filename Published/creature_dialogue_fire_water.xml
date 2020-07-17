@@ -34,6 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Transcribed in Johann Georg Theodor Grässe,<hi rend="italic>"> Die beiden ältesten lateinischen fabelbücher des mittelalters</hi> Tübingen: Litterarischer verein in Stuttgart, 1880, pp. 147-8.</p>
 				<listWit>
 					<witness xml:id="Transcription">De igne et aqua</witness>
 					<witness xml:id="Translation">Concerning Fire and Water</witness>
@@ -47,7 +48,7 @@
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
