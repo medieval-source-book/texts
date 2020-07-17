@@ -34,6 +34,8 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Nicolas de Bergame &#91;Nicholaus Pergamenus&#93;, <hi rend="italic>">Dialogus creaturarum, moralisatus, jucundus, fabulis plenus</hi>, Goudae, 1481</p>				
+				<p>Transcribed in Johann Georg Theodor Grässe,<hi rend="italic>"> Die beiden ältesten lateinischen fabelbücher des mittelalters</hi> Tübingen: Litterarischer verein in Stuttgart, 1880, pp. 139-140</p>
 				<listWit>
 					<witness xml:id="Transcription">De Saturno et nube</witness>
 					<witness xml:id="Translation">Concerning Saturn and the Cloud</witness>
@@ -42,12 +44,12 @@
 		</fileDesc>
 				<encodingDesc>
 			<projectDesc>
-            	<p>"Concerning Saturn and the Cloud" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"Concerning Saturn and the Cloud" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
