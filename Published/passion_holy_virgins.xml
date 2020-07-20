@@ -27,7 +27,7 @@
 			<publicationStmt>
 				<publisher>Global Medieval Sourcebook</publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
@@ -35,6 +35,7 @@
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
+					<p>Cambridge, Corpus Christi College, MS 462, ff. 136r-142v.</p>
 					<witness xml:id="Transcription">The Passion of the Holy Virgins</witness>
 					<witness xml:id="Translation">Passio sanctarum virginum</witness>
 				</listWit>
@@ -42,12 +43,12 @@
 		</fileDesc>
 				<encodingDesc>
 			<projectDesc>
-            	<p>"The Passion of the Holy Virgins: Hope, Faith, Charity, and their Mother, Wisdom" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"The Passion of the Holy Virgins: Hope, Faith, Charity, and their Mother, Wisdom" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  </p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -73,7 +74,7 @@
 						<app>
 							<lem wit="#Transcription">Incipit passio sanctarum virginum: Spei, Fidei, Karitatis, et matris earum Sapientiae [kal. Aug.]</lem>
 							<rdg wit="#Translation">Here begins the passion of the holy virgins Hope, Faith, Charity, and their mother Wisdom (Kalends
-								<note ancored="true">
+								<note type="critical" ancored="true">
 									<p>The Kalends fall on the first day of the month.</p></note>
 							 of August)</rdg>
 						</app>
@@ -136,7 +137,7 @@
 						<app>
 							<lem wit="#Transcription">Et dum frequenter ad aecclesiam orandi causa irent, quidam maligno spiritu incitatus, uenit ad imperatorem et dixit ei, “Mulier quaedam cum tribus puellis nescio unde huc aduenit, et nostris matronis persuasit, ut colerent unum Deum et filium eius Iesum Christum, et fraudauit nos a matrimoniali coniugio.</lem>
 							<rdg wit="#Translation">While they often went to church to pray, someone incited by an evil spirit went to the emperor and said to him, “There is a certain woman with three daughters. I don’t know from where she has come to this place, but she has persuaded our married women to worship one God and his son Jesus Christ and has thus cheated us out of our marital rights
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>A "matrimoniali coniugio" is more literally translated as "our marital bond. </p>
 								</note>.
 							</rdg>
@@ -260,7 +261,7 @@
 						<app>
 							<lem wit="#Transcription">Ita filiae meae et uiscera mea miseremini uestrae matri, et certate aduersus artifices maligne artis excitantes uobis tormenta.</lem>
 							<rdg wit="#Translation">In this way should you, my daughters and my hearts
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>"Viscera mea" in Ps. 102:1 is typically translated as "all that is within me"; as viscera can refer to any of the internal organs, however, the modern English term of affection, "my heart", is most evocative of Wisdom’s maternal love.</p>
 								</note>
 								, have mercy upon your mother, and fight against the practitioners of evil arts as they torture you.</rdg>
@@ -340,7 +341,7 @@
 						<app>
 							<lem wit="#Transcription">Et si in hoc consenseritis mihi, filias uos appellabo et in deliciis eritis, et erit magna gloria adolescentiae uestrae, si imperatoris filiae uocemini.</lem>
 							<rdg wit="#Translation">and if you should consent to me in this, I will call you my daughters and you will be among my treasures. You will be glorious young women indeed
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>"Erit magna gloria adolescentiae vestrae" literally means, "It will be a great glory to your adolescence".</p>
 								</note>
 							if you are called the daughters of the emperor.</rdg>
@@ -376,7 +377,7 @@
 						<app>
 							<lem wit="#Transcription">Beatae autem uirgines quasi ex uno ore dixerunt regi, “Nobis tales promissiones non sunt necessariae.</lem>
 							<rdg wit="#Translation">However, the blessed virgins said to the king as if with one voice
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>"Ex uno ore" is more literally translated as "with one mouth".</p>
 								</note>
 							: “We do not need such promises,  </rdg>
@@ -474,7 +475,7 @@
 						<app>
 							<lem wit="#Transcription">Spes uero dicebat imperatori, “Hae sunt minae tuae antiquissime?</lem>
 							<rdg wit="#Translation">Hope said to the emperor: “Are these your threats from before?
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>"Antiquissime" is either a feminine plural nominative adjective agreeing with minae, as translated here, or – in my view less likely – a vocative denoting Hadrian: "Old man".</p>
 								</note>
 							</rdg>
@@ -678,7 +679,7 @@
 						<app>
 							<lem wit="#Transcription">Ne ergo seducas te ipsum, sed age quod uis.</lem>
 							<rdg wit="#Translation">Therefore, do not lead yourself in circles,
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>"Ne...seducas" might more literally be translated as "Do not lead yourself astray".</p>
 								</note>
 							 but do what you wish, </rdg>
@@ -824,7 +825,7 @@
 						<app>
 							<lem wit="#Transcription">Ne ergo fatigeris soror mea Caritas, qui enim caritatem tribuit nobis, ipse est noster protector.”</lem>
 							<rdg wit="#Translation">Do not therefore fail in strength, my sister Charity, for He who gave us charity
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>The wordplay arising from "Charity...gave us charity" is intentional. Here, "charity" does not have philanthropic connotations but instead means "Christian love".</p>
 								</note>
 							is our protector.”</rdg>
@@ -898,7 +899,7 @@
 						<app>
 							<lem wit="#Transcription">“Ignorans quoniam ipse quae consummatae sunt animae, mea sunt uiscera quae idem seminauit pater, eademque genuit mater, eademque eruditae sumus doctrina, ipsas quoque uirtutes retinentes, in quibus sancte fuimus conuersantes.</lem>
 							<rdg wit="#Translation">“You do not know that my flesh is the same as that of those who have been martyred; the same father provided our seed and the same mother bore us. We were educated by the same principles, and we cling on to the same virtues through which we have always behaved in a holy manner.
-								<note ancored="true">
+								<note type="critical"  ancored="true">
 									<p>The text here is corrupt; after retinentes the scribe suggests a variant reading, in hisque consummare properamus, which would change the clause to: "We cling on to the same virtues in which we now hurry to achieve perfection".</p>
 								</note>
 							</rdg>
