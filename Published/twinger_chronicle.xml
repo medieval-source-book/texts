@@ -13,15 +13,15 @@
 				<author>Jakob Twinger von Königshofen</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name>Mae Lyons-Penner</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Mae Lyons-Penner</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Mae Lyons-Penner</name>
+					<name>Mae Velloso-Lyons</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -43,13 +43,13 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Chronicle [Prologue]" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>"Chronicle [Prologue]" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 	        	<p>This is a diplomatic transcription. Abbreviations have been expanded and are marked by square brackets. The characters "u" and "v", and "i" and "j", have been used to differentiate vowel and consonant. Where it is not clear whether a character is majuscule or minuscule, the transcriber has made a silent decision.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 					<p>The text has been segmented into sentences by the translator.</p>
@@ -97,11 +97,11 @@
 					</s>
 					<s>
 						<app>
-							<lem wit="#Transcription">Darumb wil ich Jacob vo[n] künigßhofen ein priester zů Straßburg zů t[e]utsche schriben uß der cronicken die Martin[us] und Vincentius gemaht hand und uß andern büchern etliche ding die mich aller fürnemost un[d] lüstelich zů lesende duncke[n] und sunderlich von etlichen namhafftigen dingen die zů Straßb[ur]g od[er] zů Elsäß und in den landen nahe da by sint beschehen un[d] wil ouch zů yedem dinge setzen die zal der Jare von gottes gebürte dz ma[n] wissen und gerechen möge wie lang es sï dz es geschah od[er] aber bÿ welhes keysers oder küniges ziten geschehen sï dan[n] es spricht meister hugo vo[n] florencie dz ein geschehen ding von dem man nutz<note anchored="true">
+							<lem wit="#Transcription">Darumb wil ich Jacob vo[n] künigßhofen ein priester zů Straßburg zů t[e]utsche schriben uß der cronicken die Martin[us] und Vincentius gemaht hand und uß andern büchern etliche ding die mich aller fürnemost un[d] lüstelich zů lesende duncke[n] und sunderlich von etlichen namhafftigen dingen die zů Straßb[ur]g od[er] zů Elsäß und in den landen nahe da by sint beschehen un[d] wil ouch zů yedem dinge setzen die zal der Jare von gottes gebürte dz ma[n] wissen und gerechen möge wie lang es sï dz es geschah od[er] aber bÿ welhes keysers oder küniges ziten geschehen sï dan[n] es spricht meister hugo vo[n] florencie dz ein geschehen ding von dem man nutz<note type="critical" anchored="true">
 									<p>This is a scribal error: the text should read "nit".</p>
 								</note> gesagen kan in welhem Jor oder by welhes küniges ziten es geschehen sï dz sol man sagen für ein sag mer un[d] nit für ein ware mere</lem>
 							<rdg wit="#Translation">Therefore I, Jacob von Königshofen, a priest in Strasbourg, shall put into German - drawing from the chronicles by Martinus and Vincentius as well as from other books - some things which seem to me of greatest importance and delightful to read; I shall especially write about some noteworthy things which have happened in Strasbourg or in Alsace and in the surrounding lands and I shall affix to each thing the number of years from God’s birth
-								<note anchored="true">
+								<note type="critical" anchored="true">
 									<p>i.e. the birth of Christ</p>
 								</note>
 							so that one may know and calculate how long ago it happened, or else in the times of which emperor or king it took place. For Master Hugo of Florence says that if something has happened but one cannot say in which year, or in the lifetime of which king, then one must treat it as an invented story and not as a true account.</rdg>
@@ -110,7 +110,7 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Ouch han ich zů den dingen die vor gottes gebürt geschehen sint gesetzt so vil jare als es was vor gottes geburt oder aber so vil jare als von Adam wz unz vff die zit als dz selbe ding geschah dz man ouch ein yegliches dinge un[d] materie die in disem bůch geschr[iben] stat dester baß gesůchen un[d] gefinden ku[e]nde Wo se stande dar umb hab ich dz bůch in sechs Capitel dz ist in sehs teil geteilt und wil hie mit kurtzen worte[n] vor begriffen von wz materie yeglich Capitel seit</lem>
-							<rdg wit="#Translation">For things which happened before God’s birth<note anchored="true">
+							<rdg wit="#Translation">For things which happened before God’s birth<note type="critical" anchored="true">
 									<p>i.e. the birth of Christ</p>
 								</note>, I have also given the number of years before God’s birth<note anchored="true">
 									<p>i.e. the birth of Christ</p>
@@ -120,7 +120,7 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Und stot by yede[m] Capitel ein zal geschriben mit roter dinte die bezeich[n]et an welhem blatte an disem bůche dz selbe Capitel an vahet</lem>
-							<rdg wit="#Translation">And next to each chapter is a number in red ink which indicates the page in the book where that chapter begins.<note anchored="true">
+							<rdg wit="#Translation">And next to each chapter is a number in red ink which indicates the page in the book where that chapter begins.<note type="critical" anchored="true">
 									<p>The copyist did not retain this feature of the original: no page numbers are given.</p>
 								</note></rdg>
 						</app>
@@ -146,9 +146,9 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Dz ander Capitel seit von den keisern und Römschen künigen die do sint gewesen von gottes geburt unz man zalt tusent dr[e]ihundert un[d] n[e]unzig jar und seit ouch von iren geteten und leben und von anderen dingen die zů iren ziten geschehen sint un[d] vahet diß Capitel an der zal der bletter an</lem>
-							<rdg wit="#Translation">The second chapter tells of the emperors and the Roman kings from God’s birth<note anchored="true">
+							<rdg wit="#Translation">The second chapter tells of the emperors and the Roman kings from God’s birth<note type="critical" anchored="true">
 									<p>i.e. the birth of Christ</p>
-								</note> until the year 1390 and also tells of their deeds and lives and of other things that happened during their times. This chapter begins on page number <note anchored="true">
+								</note> until the year 1390 and also tells of their deeds and lives and of other things that happened during their times. This chapter begins on page number <note type="critical" anchored="true">
 									<p>No page number given.</p>
 								</note>.</rdg>
 						</app>
@@ -156,9 +156,9 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Das dritte capitel seit von allen den bebsten die sider gotz geburten gewesen sint und ouch von andern dingen *</lem>
-							<rdg wit="#Translation">The third chapter tells of all the popes since the birth of God<note anchored="true">
+							<rdg wit="#Translation">The third chapter tells of all the popes since the birth of God<note type="critical"  anchored="true">
 									<p>i.e. the birth of Christ</p>
-								</note> and also of other things. *<note anchored="true">
+								</note> and also of other things. *<note type="critical" anchored="true">
 									<p>i.e. the birth of Christ</p>
 								</note>The scribe skipped several lines of the text while copying, which were then added at the bottom of the page and linked with an asterisk.</rdg>
 						</app>
@@ -166,9 +166,9 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Item by einem yeglichem ding in dem sechsten capitel bet[e]utet die nach genden zahl do bÿ die jare von gottes gebürt die man do zů mal zalt do es geschah und die Rot zal do vor die bet[e]utet ein zal der bletter dis bůchß do die selbe materie gantz geschriben ist und dis Capitel hand hie ein ende</lem>
-							<rdg wit="#Translation">For every thing that is reported in the sixth chapter, the number that follows indicates the number of years that one must count from God’s birth<note anchored="true">
+							<rdg wit="#Translation">For every thing that is reported in the sixth chapter, the number that follows indicates the number of years that one must count from God’s birth<note type="critical" anchored="true">
 									<p>i.e. the birth of Christ</p>
-								</note> until the time that it happened; the red number before it indicates a page number in this book where the same material is described in full<note anchored="true">
+								</note> until the time that it happened; the red number before it indicates a page number in this book where the same material is described in full<note type="critical" anchored="true">
 									<p>The final chapter is an alphabetical list of the events described in the chronicle, to help the reader navigate the material. The original text gives a fuller description of how this index is intended to work, which is abbreviated in this manuscript.</p>
 								</note>. And here this chapter ends.</rdg>
 						</app>
