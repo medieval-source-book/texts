@@ -63,8 +63,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
-						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+						<lem wit="#Transcription">Sortes apostolice ad explanandum</lem>
+						<rdg wit="#Translation">An Explanation of Divination Through the Apostles</rdg>
 					</app>
 				</title>
 			</head>
@@ -145,10 +145,112 @@
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="Translation"></rdg>
+						<lem wit="#Transcription">¶ .G significat unius hominis occisionis:</lem>
+						<rdg wit="Translation">¶ .G. signifies the murder of a man:
+							<note type= "critical" anchored="true"><p>Literally one man</p></note>
+						</rdg>
 					</app>	
 				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .H. significat femine occisionis:</lem>
+						<rdg wit="Translation">¶ .H. signifies a murdered woman:</rdg>
+					</app>	
+				</s>			
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .I. significat bonam 
+							<note type= "critical" anchored="true"><p>Rendered as bonā</p></note>
+						uitam:</lem>
+						<rdg wit="Translation">¶ .I. signifies good life:</rdg>
+					</app>	
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ K. significat iamnem 
+							<note type= "critical" anchored="true"><p>Likely a misspelling of inanem</p></note>
+						literarum:</lem>
+						<rdg wit="Translation">¶ .K. signifies vain
+							<note type= "critical" anchored="true"><p>Literally empty</p></note>
+						scholarship:</rdg>
+					</app>	
+				</s>	
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .L. significat gaudium:</lem>
+						<rdg wit="Translation">¶ .L. signifies delight:</rdg>
+					</app>	
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .M. significat medio:</lem>
+						<rdg wit="Translation">¶ .M. signifies division:
+							<note type= "critical" anchored="true"><p>In other mantic alphabets M often signifies something “mediocrem” or moderate.</p></note>
+						</rdg>
+					</app>	
+				</s>	
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .N. significat reuisitacionem:</lem>
+						<rdg wit="Translation">¶ .N. signifies a reappearance:</rdg>
+					</app>	
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .O. significat dure potestatem:</lem>
+						<rdg wit="Translation">¶ .O. signifes harsh power:</rdg>
+					</app>	
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .P. significat omnem salutem:</lem>
+						<rdg wit="Translation">¶ .P. signifies complete health:</rdg>
+					</app>	
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .Q. significat vitam uel cautelam:
+							<note type= "critical" anchored="true"><p>Rendered cautelā</p></note>
+						</lem>
+						<rdg wit="Translation">¶ .Q. signifies life or caution.</rdg>
+					</app>	
+				</s>	
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .R. significat restitutum uel uulneratum:</lem>
+						<rdg wit="Translation">¶ .R. signifies recovery or injury:</rdg>
+					</app>	
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .S. significat anum 
+							<note type= "critical" anchored="true"><p>Likely a misspelling of annum.</p></note>
+						sanitatem: </lem>
+						<rdg wit="Translation">¶ .S. signifies a healthy year:
+							<note type= "critical" anchored="true"><p>Presumably this is a healthy year, as written it reads literally “.S. signifies a healthy anus:”</p></note>
+						</rdg>
+					</app>	
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .T. significat iracundiam uel munitionem:</lem>
+						<rdg wit="Translation">¶ .T. signifies temper or defensiveness:</rdg>
+					</app>	
+				</s>	
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .V. significat mortem:
+							<note type= "critical" anchored="true"><p>Here readers have scratched away the word "mortem"</p></note>
+						</lem>
+						<rdg wit="Translation">¶ .V. signifies death:</rdg>
+					</app>	
+				</s>	
+				<s>
+					<app>
+						<lem wit="#Transcription">¶ .X. significat parentes obliuionem:</lem>
+						<rdg wit="Translation">¶ .X. signifies forgiving parents:</rdg>
+					</app>	
+				</s>														
 			</p>
 			<p n="2">
 					<s>
