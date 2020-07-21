@@ -36,7 +36,7 @@
 			<sourceDesc>
 				 <p>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, MS Ham. 390 f.26v</p>
 				<listWit>
-					<witness xml:id="Transcription">Sortes apostolice ad explanandum</witness>
+					<witness xml:id="Transcription">Sortes apostolite ad explanandum</witness>
 					<witness xml:id="Translation">An Explanation of Divination Through the Apostles</witness>
 				</listWit>
 			</sourceDesc>
@@ -50,7 +50,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
-        			<p>Pilcrows and linebreaks follow the manuscript.</p>
+        			<p>Pilcrows, punctuation, and linebreaks follow the manuscript.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -63,7 +63,7 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">Sortes apostolice ad explanandum</lem>
+						<lem wit="#Transcription">Sortes apostolite ad explanandum</lem>
 						<rdg wit="#Translation">An Explanation of Divination Through the Apostles</rdg>
 					</app>
 				</title>
