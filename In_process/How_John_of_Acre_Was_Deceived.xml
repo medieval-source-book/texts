@@ -1,0 +1,138 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>How John of Acre Was Deceived</title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Tirumular (Drew) Narayanan</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				<listWit>
+					<witness xml:id="Transcription"><!--Short title in original language--></witness>
+					<witness xml:id="Translation"><!--Short title in English--></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"How John of Acre Was Deceived" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">Comment mesire Jehad d'Acre, bouteillier de France qui faisoit le guet fu deceus d'aucuns Sarrazins qui requeroient le baptesme.</lem>
+						<rdg wit="#Translation">How Sir John of Acre, butler of France, qho was on guard, was deceived by some Saracens who requested baptism.</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+	<body>
+		<p n="1">
+			<s>
+				<app>
+					<lem wit="#Transcription">Un jour que le conte d'Eu, Auphons et mesire Jehan d'Acre son frere bouteillier de France faisoient le guet de nuis, avint que III chevaliers sarrazins vindrent au bouteillier, et le qequistrent que il fussent chrestiens; et en signe de loiauté leur mistrent leurs mains seur leurs chiez, et baisoient le mains de nos gens en signe de subjection, et se rendirent au bouteillier.</lem>
+					<rdg wit="#Translation">One day that Count Auphon of Eu and his brother Sir John of Acre, butler of France were on the night guard, three Saracen knights came to the butler and they requested to become Christians; in a sign of loyalty they put their hands to the heads and kissed the hands of our people as a sign of subjection and surrendered themselves to the butler.</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Li bouteilliers lis fist mener en son paveillon et ala tantost au roi Looys et le dist ce que li Sarrazin avoient fait, les quiex li rois commanda à garder bien diligaument.</lem>
+					<rdg wit="#Translation">The butler had them led to his pavilion and went immediately to King Louis, and told him what the Saracens had done, whom the king then commanded to guard very diligently.</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Aprèz ce, quant li bouteilliers fu retornez à son guet, cen autres Sarrazins geterent jus leurs lances et firent autel signe comme les autres III avoient fait, et vindrent au boutiellier et le requistrent le baptesme a grant instance.</lem>
+					<rdg wit="#Translation">After this, when the butler returned to his guard a hundred other Saracens threw down their lances and made the same signs as the three others had done and came to the butler and requested baptism with great insistence.</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Et ainsi comme li bouteilliers et sa gent entendoient à ce que les Sarrazins disoient, tout plain d'autres Sarrazins s'esmurent touz ensamble, lis lances levées et se firirent sus le bouteillier et sa gent, qi sue il les firent fuir et crier aus asmes, aus armes.</lem>
+					<rdg wit="#Translation">At the same time as the butler and his men heard what the Saracens were saying many other Saracens started moving all together, their lances lifted, attacked the butler and his men, so that the Saracens made the Christians flee and cry “to arms, to arms.”</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription"></lem>
+					<rdg wit="#Translation"></rdg>
+				</app>
+			</s>
+		</p>
+		<p n="2">
+			<s>
+				<app>
+					<lem wit="#Transcription"></lem>
+					<rdg wit="#Translation"></rdg>
+				</app>
+			</s>
+
+
+
+							
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							<note type= "critical" anchored="true">
+								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+							</note>
+						</lem>
+						<rdg wit="#Translation">
+							<note type= "critical" anchored="true">
+								<p><!--This is an example note--></p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
