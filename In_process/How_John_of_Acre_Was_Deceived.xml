@@ -134,43 +134,67 @@
 			</s>
 			<s>
 				<app>
-					<lem wit="#Transcription"></lem>
-					<rdg wit="#Translation"></rdg>
+					<lem wit="#Transcription">Ce que li Sarrazins sisoit fist le bouteillier espondre par I frere preecheur qui savoit bien larler la langue sarrazine.</lem>
+					<rdg wit="#Translation">What the Saracens said the butler had explained by one monk who knew well how to speak the Saracen language.</rdg>
 				</app>
 			</s>
 			<s>
 				<app>
-					<lem wit="#Transcription"></lem>
-					<rdg wit="#Translation"></rdg>
+					<lem wit="#Transcription">Et lors li dist le bouteillier que il ne se toutast pas, quar puis que il estoit venuz sus fiance aus chrestiens, il trouveroit foi en euls, et seust-il bien que li rois Looys estoit de si grant foi, que sa simple promesse, il ne l'avoit en nulle maniere trespassée.</lem>
+					<rdg wit="#Translation">And then the butler said he did not have any doubt, since the Saracen had to come to the Christians with trust, he found trust in them, and knew well the great trust of King Louis, that his simple promise he had not violated in any way.</rdg>
 				</app>
 			</s>
 			<s>
 				<app>
-					<lem wit="#Transcription"></lem>
-					<rdg wit="#Translation"></rdg>
+					<lem wit="#Transcription">Lors respondi li Sarrazins et dist: "Sire, je sai bien que vous m'avez souspeçonneus de ce fait, ja soit ce que je n'i aie coulpe; mès sachiez que ce a tout fait I mien envieus pour me grever.</lem>
+					<rdg wit="#Translation">When the Saracens responded and said “Sir, I know well that you do have suspicion of me for doing this thing, indeed on this I am not guilty; but know that everything was done by one person in order to injure me.</rdg>
 				</app>
 			</s>
 			<s>
 				<app>
-					<lem wit="#Transcription"></lem>
-					<rdg wit="#Translation"></rdg>
+					<lem wit="#Transcription">Nous sommes II grans soudoiers paraus sous le roy de Tuens, et avons chascun desous nou IIm et Vc chevaliers, et me compains que de pieça me get, set bien que vous me tenez, ja soit que je soie venus à vous de mon gré; et pour ce, fist-il faire et procura ceste bataille pour moi nuire, et si sai bien que nuls de mes chevaliers ne fu en ceste bataille pour vous nuire, ne ne vous fist conques mal, et que vous puissiez prover par ouvre ce que je vous di par bouche.</lem>
+					<rdg wit="#Translation">We are two commanders under the King of Tunis and we each have 2500 knights under us, and my companion who hates me, knowing well that you hold me, indeed that I came to you on my own free will; and for this, he made and procured this battle to harm me, and know well that none of my knights were in this battle to harm you nor ever did anything bad to you, and you can prove by an action what I tell you by mouth.</rdg>
 				</app>
 			</s>
-				<s>
-					<app>
-						<lem wit="#Transcription">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
-							</note>
-						</lem>
-						<rdg wit="#Translation">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note--></p>
-							</note>
-						</rdg>
-					</app>
-				</s>
-			</p>
-		</body>
+			<s>
+				<app>
+					<lem wit="#Transcription">Lassiez aler un de mos compaignons jusques à mes gens, et se il ne vous amaine plue de IIm Sarrazins qui vous amenront vitaille à vendrre et vous seront en aide, que vous faciez de moi ausi comme de traiteur desloial."</lem>
+					<rdg wit="#Translation">Release one of my companions to go to my men and if he does not lead more than 2000 Saracens who bring you victuals to sell and aid you, then you can do with me as you would a disloyal traitor.”</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Toutes ces choes dites, il enforma I poi à croire le bouteillier de ce que il disoit.</lem>
+					<rdg wit="#Translation">All these things said, the butler believed a little bit of what he 
+						<note type= "critical" anchored="true">
+							<p>the saracen commander</p>
+							</note> 
+					said.</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Et pour ce, lie bouteilliers vint au roy Looys et li dist ce que li Sarrazins qvoit raconté.</lem>
+					<rdg wit="#Translation">And for this, the butler came to the King Louis and he told him what the Saracens had reccounted.</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Mès li rois qui ne vout pas croire à leurs paroles, commanda que l'en les laissast aler aus autres Sarrazins.</lem>
+					<rdg wit="#Translation">But the king who did not want to believe their speech, commanded to let them go to the other Saracens.</rdg>
+				</app>
+			</s>
+			<s>
+				<app>
+					<lem wit="#Transcription">Lors tantost le bouteilleirs et le connestables le menerent et conduirent hors de l'ost; de qoui mount de gent murmurerent; et le maisrres des III Sarrazins dist que il revendriot l'endemain et acompliroir ce que il avoit promis; laquele chose il fist et acomplie, et fu mount léement receuz des autres Sarrazins qui cuidoient que il et ses compaignons fussent occis des chrestiens.</lem>
+					<rdg wit="#Translation">So then the butler and the constable led them 
+						<note type= "critical" anchored="true">
+							<p>the Saracens</p>
+							</note> 
+					away from the army; about which many of the men murmured; and the master of the three Saracens said that he would return the next day and accomplish what he had promised, which thing he did and accomplished, and was much happily received by the other Saracens who thought that he and his companions had been slain by the Christians.</rdg>
+				</app>
+			</s>
+		</p>
+	</body>
 	</text>
 </TEI>
