@@ -1,0 +1,231 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Dearest sight of my heart"</title>
+				<author>Erhard Oeglin</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.41r</p>
+				<listWit>
+					<witness xml:id="Transcription">"Hertz liebstes pyld"</witness>
+					<witness xml:id="Translation">"Dearest sight of my heart"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Dearest sight of my heart" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Linebreaks and punctuation follow the manuscript.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
+						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>						
+					<app>
+						<lem wit="#Transcription">Hertz liebstes pyld /</lem>
+						<rdg wit="#Translation">Dearest sight of my heart,</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">beweys dich mild /</lem>
+						<rdg wit="#Translation">show your gentleness</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">mit deiner lieb unnd gunst gen mir /</lem>
+						<rdg wit="#Translation">through your love and favor for me;</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">der gleich will ich /</lem>
+						<rdg wit="#Translation">and I will do the same,</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">wann ich han dich /</lem>
+						<rdg wit="#Translation">for I have chosen you,</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">nach lust und wunsch meins hertzen gier /</lem>
+						<rdg wit="#Translation">following the want and wish of my heartfelt desire,</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">er welt für all /</lem>
+						<rdg wit="#Translation">above all others</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">in disem tall /</lem>
+						<rdg wit="#Translation">in this valley</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">mit reichem schall / frey ich mich dein in erenn.</lem>
+						<rdg wit="#Translation">I delight in you with honor, and greatly rejoice.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>						
+					<app>
+						<lem wit="#Transcription">F Du solt hann /</lem>
+						<rdg wit="#Translation">F., wherever you go, you deserve my praise</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">auff aller pann /</lem>
+						<rdg wit="#Translation">above all others;</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">von mir für ander all den preyß /</lem>
+						<rdg wit="#Translation">you have no equals</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">in disem reich /</lem>
+						<rdg wit="#Translation">in this realm.</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">lebt nit dein gleich mit allem thun zucht perd und weyß /</lem>
+						<rdg wit="#Translation">no matter their conduct, cultivation, bearing or air.</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">da für dich acht /</lem>
+						<rdg wit="#Translation">So, take care,</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">mein hertz das lacht /</lem>
+						<rdg wit="#Translation">my heart rejoices</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">und stätz betracht /</lem>
+						<rdg wit="#Translation">and always aims</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">mein freüd mit dyr zů meren.</lem>
+						<rdg wit="#Translation">to increase its joy with you.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>						
+					<app>
+						<lem wit="#Transcription">Zů dyr ich mich freüntlich versich /</lem>
+						<rdg wit="#Translation">I am graciously disposed to you,</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">dein hertz mir gantz mir trewen sey /</lem>
+						<rdg wit="#Translation">may your heart be faithfully mine,</rdg>
+					</app>
+				</s>			
+				<s>						
+					<app>
+						<lem wit="#Transcription">die weyl dir gar an alles gfar /</lem>
+						<rdg wit="#Translation">?????</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">mich findest auch gerecht unnd frey / on all umb stendt</lem>
+						<rdg wit="#Translation">as you find me to be just and charitable, with no ill intentions, and straightforward.</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">von dir nit wendt /</lem>
+						<rdg wit="#Translation">I will not leave you</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">is in mein enndt /</lem>
+						<rdg wit="#Translation">until my end:</rdg>
+					</app>
+				</s>
+				<s>						
+					<app>
+						<lem wit="#Transcription">des thů ich dich geweren.</lem>
+						<rdg wit="#Translation">This I guarantee you.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
