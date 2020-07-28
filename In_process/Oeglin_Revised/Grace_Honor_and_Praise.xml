@@ -1,0 +1,103 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Grace, honor and praise are her domain"</title>
+				<author>Erhard Oeglin</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				<p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.43r</p>
+				<listWit>
+					<witness xml:id="Transcription">"Zucht er und lob ir wonet bey"</witness>
+					<witness xml:id="Translation">"Grace, honor and praise are her domain"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Grace, honor and praise are her domain" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
+						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<div n="1">
+				<!--Divisions should be used if your text has sections larger than paragraphs-->
+				<p n="1">
+					<!--Paragraphs should be numbered-->
+					<s>
+						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
+						<app>
+							<lem wit="#Transcription"><!--One unit of segmentation from the transcription (usually one sentence)--></lem>
+							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">
+								<note type= "critical" anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+								</note>
+							</lem>
+							<rdg wit="#Translation">
+								<note type= "critical" anchored="true">
+									<p><!--This is an example note--></p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
