@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>"Our vicar is on his way"</title>
+				<title>"Our vicar is away"</title>
 				<author>Erhard Oeglin</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -37,7 +37,7 @@
 				 <p>Bayerische Staatsbibliothek München 00082229 Rar.27 Stimme T f.47r</p>
 				<listWit>
 					<witness xml:id="Transcription">"Unser pfarrer ist auf der pan"</witness>
-					<witness xml:id="Translation">"Our vicar is on his way"</witness>
+					<witness xml:id="Translation">"Our vicar is away"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -76,7 +76,7 @@
 							Unser pfarrer ist auf der pan /
 						</lem>
 						<rdg wit="#Translation">
-							Our vicar is on his way.
+							Our vicar is away.
 						</rdg>
 					</app>
 				</s>
