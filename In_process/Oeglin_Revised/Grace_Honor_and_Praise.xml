@@ -69,35 +69,554 @@
 			</head>
 		</front>
 		<body>
-			<div n="1">
-				<!--Divisions should be used if your text has sections larger than paragraphs-->
-				<p n="1">
-					<!--Paragraphs should be numbered-->
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Zucht er und lob ir wonet bey /</lem>
+						<rdg wit="#Translation">Grace, honor and praise are her domain;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">gantz frey on alle rey /</lem>
+						<rdg wit="#Translation">Tof my free will, will no regret,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">bin ich verphlicht zw dienen ir /</lem>
+						<rdg wit="#Translation">I am bound to serve her.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Sy hat fürwar das feinst geperd /</lem>
+						<rdg wit="#Translation">Truly, she has the finest bearing;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">beschwert und höchlich mert / sich hertzlich klag und sentlich gir /</lem>
+						<rdg wit="#Translation">a heartful lament and yearning desire have afflicted me and grown immensely</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">seyd ich nu waiß zůkünnftig nat /</lem>
+						<rdg wit="#Translation">Since I found out there was trouble ahead,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">kayn rat / auff erd mich hellfen mag /</lem>
+						<rdg wit="#Translation">no earthly counsel can help me.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">es ist am tag /</lem>
+						<rdg wit="#Translation">The days is here;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">er hör mein klag /</lem>
+						<rdg wit="#Translation">hear my lament</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">die ich stätz trag /</lem>
+						<rdg wit="#Translation">which I must always bear;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">thů gnad mein glück ee ich verzag.</lem>
+						<rdg wit="#Translation">have mercy, oh, my fortune, before I abandon hope.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Recht als ayn wild kayn vernunft hab /</lem>
+						<rdg wit="#Translation">Just as a wild animal has no reason,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">gar ab /</lem>
+						<rdg wit="#Translation">just as if</rdg>
+					</app>
+				</s>
 					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
-						<app>
-							<lem wit="#Transcription"><!--One unit of segmentation from the transcription (usually one sentence)--></lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
-						</app>
-					</s>
-				</p>
-				<p n="2">
-					<s>
-						<app>
-							<lem wit="#Transcription">
-								<note type= "critical" anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note type= "critical" anchored="true">
-									<p><!--This is an example note--></p>
-								</note>
-							</rdg>
-						</app>
-					</s>
-				</p>
-			</div>
+					<app>
+						<lem wit="#Transcription">mein schatz und hab durch schaydens gwalt verlassen wirt /</lem>
+						<rdg wit="#Translation">I were bereaved of my treasure and wealth by the power of separation.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">dardurch mein kranks und schwyrigs heetz /</lem>
+						<rdg wit="#Translation"> Because of this, my sick and wounded heart fell,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">on scherrtz / unsäglich schmertz /</lem>
+						<rdg wit="#Translation">in unspeakable anguish</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mit seüfftzen vil im ellendt fyrt /</lem>
+						<rdg wit="#Translation">and with a groan, into misery, I kid you not!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ich glaub kain frewd sey mir beschert /</lem>
+						<rdg wit="#Translation">I don’t think I’ll be granted any joy,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">verkert / sich nicht mein schmertzlich wee /</lem>
+						<rdg wit="#Translation">unless my anguished torment changes course;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">wie ichs nů dee /</lem>
+						<rdg wit="#Translation">however I turn,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">gee oder stee /</lem>
+						<rdg wit="#Translation">walk or stand,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">gleych wye der schnee / ich armer bůb im layd vergee.</lem>
+						<rdg wit="#Translation">I, poor lad, will vanish with sorrow, just like the snow.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Ich laß in reden was er will /</lem>
+						<rdg wit="#Translation">I’ll let him say what he wants;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">in still /</lem>
+						<rdg wit="#Translation">secretly</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mich trübt so vill / sein hertzlich layd mer dan ich klag /</lem>
+						<rdg wit="#Translation">his heartfelt pain saddens me, more than I express:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mir was vornye mein hertz so wunnd /</lem>
+						<rdg wit="#Translation">My heart has never felt so wounded.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">die stund / ist mir wol kund /</lem>
+						<rdg wit="#Translation">I’m well aware of what the bell tolls for;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mein schwere peyn dye ich stätz trag /</lem>
+						<rdg wit="#Translation">of the great pain which I must always endure.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">glück durch dein hillff not wurd gewend / behend /</lem>
+						<rdg wit="#Translation">Fortune, with your help, trouble could be deftly averted,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">so ver er selber wult /</lem>
+						<rdg wit="#Translation">insofar as he wants it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mein gross unschult / durch mein gedult / wenden in hult / hyllff schyr mein glück</lem>
+						<rdg wit="#Translation">Help me, oh my fortune to turn, with my patience my great innocence into favor;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">thue was ich sult.</lem>
+						<rdg wit="#Translation">to do what I ought to do.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">Schaffen nit vil ir süsse wort /</lem>
+						<rdg wit="#Translation">Her sweet words don’t achieve much;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">zů hort und ser betort / ist in mir mein hertz můt und syn /</lem>
+						<rdg wit="#Translation">my heart, spirit and mind are too hardened and have been played the fool;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ir gunst tet sich offt verkeren /</lem>
+						<rdg wit="#Translation">her favor often changed;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">eren / alpot meren / will ich ir pryß wo ich nur bin /</lem>
+						<rdg wit="#Translation">her favor often changed; I will honor and keep praising her, wherever I am and wherever I go;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">und far dahyn ellendiklich / schayd ich / in disem jamerstall /</lem>
+						<rdg wit="#Translation">I walk away miserably when I leave her in this vale of tears; anxiety brings misfortune.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">dy wellt ist hol /</lem>
+						<rdg wit="#Translation">The world is hollow</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">und untrew vol /</lem>
+						<rdg wit="#Translation">and full of betrayal</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ich wayß nit wie ichs versten sol.</lem>
+						<rdg wit="#Translation">I don’t know how I’m supposed to understand it. </rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">Thüe was ich wil so ist mein gunst /</lem>
+						<rdg wit="#Translation">Whatever I do, my favor is in vain;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">umb sunst / dye grosse prünst / der trewen lieb myet mich schwerlich /</lem>
+						<rdg wit="#Translation">the great ardor of faithful love torments me grievously;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mir gschicht unrecht bey meinem aydt /</lem>
+						<rdg wit="#Translation">I’m being wronged, I swear!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mein zeyt / on alle freyt /</lem>
+						<rdg wit="#Translation">I have to pass the time with no joy;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">vertreiben můß den lon hab ich /</lem>
+						<rdg wit="#Translation">that’s my reward.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mein allte trew bedenck gsell pass /</lem>
+						<rdg wit="#Translation">Sweetheart, think hard about how faithful I have always been,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">und lass mich bleyben ewig dein /</lem>
+						<rdg wit="#Translation">and let me remain yours forevermore;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">in güet erschein /</lem>
+						<rdg wit="#Translation">come to me in good cheer,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">vertreib mein peyn /</lem>
+						<rdg wit="#Translation">take away my pain</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">und laß mich sein /</lem>
+						<rdg wit="#Translation">and let me be</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">bevolhen dyr erbarmb dich mein.</lem>
+						<rdg wit="#Translation">bound to you: have mercy on me!</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6"
+				<s>
+					<app>
+						<lem wit="#Transcription">Ja fraw dein red mein hertz vast yebt /</lem>
+						<rdg wit="#Translation">Yes, my lady, your words move my heart deeply;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">nw liebt / und unmass tryebt / dein tugend groß mich armen brůder /</lem>
+						<rdg wit="#Translation">now your virtue beguiles and [at the same time] saddens, me, poor brother that I am, without measure.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">du waist das ich an argen won / lieb hon / </lem>
+						<rdg wit="#Translation">You know that I love you and trust you,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">dich hösten kron / und stätz bewar dein zucht und er /</lem>
+						<rdg wit="#Translation">my dearest treasure, and always maintain your favor and grace:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">dan all mein frewd in ewr giet /</lem>
+						<rdg wit="#Translation">For all my joy lies in your goodness.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ich pitt /</lem>
+						<rdg wit="#Translation">I ask</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">verstet mich ewen recht /</lem>
+						<rdg wit="#Translation">and understand me right:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ich bin gantz schlecht /</lem>
+						<rdg wit="#Translation">I'm being completely honest;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">darum an secht /</lem>
+						<rdg wit="#Translation">so look at me,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">getrewen knecht /</lem>
+						<rdg wit="#Translation">your faithful servant,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">und uns bayde nit weitter schwecht.</lem>
+						<rdg wit="#Translation">and don’t weaken us both anymore.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription">Nicht lass mich gen dir verhetzen / letzen / auch nit setzen /</lem>
+						<rdg wit="#Translation">Don’t let me defy you or stand in your way,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">kan mich von dir kayns menschen list /</lem>
+						<rdg wit="#Translation">no human deception can take me away from you.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ach werden glück erbarmb dich mein /</lem>
+						<rdg wit="#Translation">Oh, dear fortune, have mercy on me;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">vereyn solch schwere pein /</lem>
+						<rdg wit="#Translation">alleviate this grievous pain</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">durch deine gůt als frumb du bist /</lem>
+						<rdg wit="#Translation">with your goodness, for you are gracious.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">o mein hertz aller liebster gsell /</lem>
+						<rdg wit="#Translation">Oh, my heart’s dearest companion,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ich stell /</lem>
+						<rdg wit="#Translation">I place</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">mein trost und hayl in dich /</lem>
+						<rdg wit="#Translation">I place my comfort and salvation in your hands;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ich mayns treylich \ mein lieb an sich \ bit hertziklich \</lem>
+						<rdg wit="#Translation">I mean it in good faith;  I ask you from the bottom of my heart, see my devotion:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">deyn aygen bin glaub sicherlich.</lem>
+						<rdg wit="#Translation">I am yours for sure, believe me.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="8">
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							Ach gsell nit glaub ir trew sich an /
+						</lem>
+						<rdg wit="#Translation">
+							Oh, my lad, don’t believe [the slanderer],
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							ob schon / sein gwonlich lon / traurige lieb erzaygen thůt /
+						</lem>
+						<rdg wit="#Translation">
+							see her faithfulness, in case sorrowful love should give its usual reward,
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							rumb laß nit ab deyn gmůt hyn lenck /
+						</lem>
+						<rdg wit="#Translation">
+							don’t give up, set your mind to it,
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							bedenck /
+						</lem>
+						<rdg wit="#Translation">
+							think about it,
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							on not nicht krenck / dich selber han ayn gůten můt /
+						</lem>
+						<rdg wit="#Translation">
+							don’t hurt yourself unnecessarily: Be in good cheer.
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							der gleychen dw zart schöne fraw /
+						</lem>
+						<rdg wit="#Translation">
+							Likewise, you, gentle, beautiful lady,
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							an schaw / sein klag und schmertzlich peyn /
+						</lem>
+						<rdg wit="#Translation">
+							see his sorrow and grievous pain.
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							den hertz verzeyn /
+						</lem>
+						<rdg wit="#Translation">
+							Lock your heart
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							kein frömbden scheyn / nit lass darein /
+						</lem>
+						<rdg wit="#Translation">
+							and don't let any strange pretence enter it.
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							trew ist seltzam drumb hallt dich sein.
+						</lem>
+						<rdg wit="#Translation">
+							Loyalty is rare: therefore, stay with him.
+						</rdg>
+					</app>
+				</s>
+			</p>
 		</body>
 	</text>
 </TEI>
