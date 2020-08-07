@@ -70,6 +70,38 @@
 		</front>
 		<body>
 			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Cartula, perge cito pelagi trans aequora cursu,</lem>
+						<rdg wit="#Translation">Go quickly, little letter, across the even surface of the sea.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Ostia piscosi flabris pete fortia Rheni,</lem>
+						<rdg wit="#Translation">Seek out on the breeze the strong harbors of the fish-laden Rhine,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Ingrediens rapidis pontum qua volvitur undis.</lem>
+						<rdg wit="#Translation">Which enters the sea where it is turned about with rushing waves.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Tum tua prelongo ducatur prora remulco,</lem>
+						<rdg wit="#Translation">Then your prow may be led by a very long tow-rope,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Ne cito retrorsum rapiatur flumine puppis.</lem>
+						<rdg wit="#Translation">Lest the vessel be seized back by the river.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">Si meus Albricus veniens occurat in amne</lem>
@@ -103,7 +135,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="2" type="stanza">
+			<lg n="3" type="stanza">
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">Hinc tua vela leva, fugiens Dorstada relinque:</lem>
@@ -143,7 +175,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="3" type="stanza">
+			<lg n="4" type="stanza">
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">Urbis Agripina 
@@ -199,7 +231,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="4" type="stanza">
+			<lg n="5" type="stanza">
 				<l n="25">
 					<app>
 						<lem wit="#Transcription">Atque sacerdotis Samuhelis tecta require</lem>
@@ -273,7 +305,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="5" type="stanza">
+			<lg n="6" type="stanza">
 				<l n="36">
 					<app>
 						<lem wit="#Transcription">Se te forte velit regis deducere ad aulam,</lem>
@@ -377,7 +409,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="6" type="stanza">
+			<lg n="7" type="stanza">
 				<l n="52">
 					<app>
 						<lem wit="#Transcription">Egregiam forsan venies Maggensis ad urbem</lem>
@@ -403,7 +435,7 @@
 					</app>
 				</l>
 			</lg>	
-			<lg n="7" type="stanza">
+			<lg n="8" type="stanza">
 				<l n="56">
 					<app>
 						<lem wit="#Transcription">O Bassine bone, Spirensis gloria plebis,</lem>
@@ -427,7 +459,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="8" type="stanza">
+			<lg n="9" type="stanza">
 				<l n="59">
 					<app>
 						<lem wit="#Transcription">Quis, Fulerade pius, lyrico te tangere plectro</lem>
@@ -463,7 +495,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="9" type="stanza">
+			<lg n="10" type="stanza">
 				<l n="64">
 					<app>
 						<lem wit="#Transcription">Heia age, carta, cito navem conscende paratam;</lem>
