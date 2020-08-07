@@ -9,19 +9,23 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter IV "Go quickly, little letter"</title>
-				<author>Alcuin</author>
+				<title><!--Title in English--></title>
+				<author><!--Anonymous if unknown--></author>
 				<respStmt>
-					<resp>Text based on</resp>
-					<name>Ernst Duemmler ed., Poetae Latini Aevi Carolini, Vol. I, MGH (Berlin: Weidmann, 1881), pp. 220-3</name>
+					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
+					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Samuel Cardwell</name>
+					<name><!--Add name--></name>
+				</respStmt>
+				<respStmt>
+					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
+					<name><!--Add name--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Danny Smith</name>
+					<name><!--Your name--></name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -36,14 +40,14 @@
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
 				<listWit>
-					<witness xml:id="Transcription">Carmen IV "Cartula, perge cito"</witness>
-					<witness xml:id="Translation">Letter IV "Go quickly, little letter"</witness>
+					<witness xml:id="Transcription"><!--Short title in original language--></witness>
+					<witness xml:id="Translation"><!--Short title in English--></witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Letter IV 'Go quickly, little letter'"is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading. 
+            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -64,6 +68,12 @@
 					<app>
 						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
 						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
 					</app>
 				</title>
 			</head>
