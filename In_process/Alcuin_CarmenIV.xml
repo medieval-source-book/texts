@@ -36,8 +36,8 @@
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription">Carmen IV "Cartula, perge cito"</witness>
+					<witness xml:id="Translation">Letter IV "Go quickly, little letter"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -66,122 +66,516 @@
 						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
 					</app>
 				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
-					</app>
-				</title>
 			</head>
 		</front>
 		<body>
+
+<note anchored="true" type="critical"><p><!--Insert note here--></p></note>
+
 			<lg n="1" type="stanza">
-				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation--><note anchored="true"><p><!--Insert note here--></p></note>
-						</rdg>
+						<lem wit="#Transcription">Cartula, perge cito pelagi trans aequora cursu,</lem>
+						<rdg wit="#Translation">Go quickly, little letter, across the even surface of the sea.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ostia piscosi flabris pete fortia Rheni,</lem>
+						<rdg wit="#Translation">Seek out on the breeze the strong harbors of the fish-laden Rhine,</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ingrediens rapidis pontum qua volvitur undis.</lem>
+						<rdg wit="#Translation">Which enters the sea where it is turned about with rushing waves.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Tum tua prelongo ducatur prora remulco,</lem>
+						<rdg wit="#Translation">Then your prow may be led by a very long tow-rope,</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ne cito retrorsum rapiatur flumine puppis.</lem>
+						<rdg wit="#Translation">Lest the vessel be seized back by the river.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Si meus Albricus veniens occurat in amne</lem>
+						<rdg wit="#Translation">If my Albricus 
+							<note anchored="true" type="critical"><p>Bishop of Utrecht (Traiectum), d.784.</p></note>
+						should come and meet you on the river,</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">'Vaccipotens praesul', properans tu dicito, 'salve',</lem>
+						<rdg wit="#Translation">Hastily say, “O Cow-Lord Bishop, greetings,”</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nam tibi Hadda prior nocte non amplius una</lem>
+						<rdg wit="#Translation">Because Prior Hadda will serve you honey and porridge and butter <note anchored="true" type="critical"><p>Alcuin uses a Germanicism butur (as opposed to butyrum).</p></note></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">In Traiect mel compultimque buturque ministrat:</lem>
+						<rdg wit="#Translation">In Utrecht, no more than a night’s walk from where you landed</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Utpute non oleum nec vinum Fresia fundit.</lem>
+						<rdg wit="#Translation">(Since Frisia pours out neither oil nor wine).</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="4">
+			<lg n="4" type="stanza">
 				<l n="11">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Hinc tua vela leva, fugiens Dorstada relinque:</lem>
+						<rdg wit="#Translation">Raise your sails here; flee and leave Dorestad 
+							<note anchored="true" type="critical"><p>A trading emporium in Frisia, a few miles downstream from Utrecht, now known as Wijk bij Duurstede.</p></note>
+						behind.</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Non tibi forte niger Hrotberct parat hospita tecta,</lem>
+						<rdg wit="#Translation">I suspect black Hrotberht will not prepare friendly lodging for you;</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Non amat ecce tuum carmen mercator avarus.</lem>
+						<rdg wit="#Translation">See, the greedy merchant does not love your song.</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sed diverte mei vatis tu litora Ione:</lem>
+						<rdg wit="#Translation">But pay a visit to the shores of my prophet Jonas.<note anchored="true" type="critical"><p>Otherwise unknown, although he must have been a reasonably significant individual, given that he is mentioned again alongside several very notable figures in line 42.</p></note></rdg>
 					</app>
 				</l>
 				<l n="15">
+					<app>
+						<lem wit="#Transcription">Est nam certa quies fessis venientibus illuc,</lem>
+						<rdg wit="#Translation">For there is surely rest for weary travellers in that place;</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Hic holus hospitibus, piscis hic, panis abundat.</lem>
+						<rdg wit="#Translation">Here vegetables, here fish and bread abound for guests.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5" type="stanza">
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Urbis Agripina 
+							<note anchored="true" type="critical"><p>Urbs Agripina</p></note>
+						tibi pandit, scio, tecta benigne:</lem>
+						<rdg wit="#Translation">I know the city of Cologne  will kindly spread out lodgings for you:</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Hic humili patrem Ricvulfum voce saluta;</lem>
+						<rdg wit="#Translation">Here greet father Ricwulf
+							<note anchored="true" type="critical"><p>Bishop of Cologne, 772–794.</p></note>
+						with humble voice;</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Dic: 'Tua laus mecum semper, dilecte, manebit'.</lem>
+						<rdg wit="#Translation">Say, “Your praise will remain with me always, beloved.”</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Hinc castella petes currenti nave per undas,</lem>
+						<rdg wit="#Translation">Here you will seek out the fortified towns with a ship running through the waves,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Donec ad optatae pertingas flustra Musellae.</lem>
+						<rdg wit="#Translation">Until you reach the calm waters of the pleasant Moselle.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Remigio postquam spatium sulcaveris amnem,</lem>
+						<rdg wit="#Translation">After you have plowed this wide river with your oar,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Hic tum siste ratem, puppis potiatur harena,</lem>
+						<rdg wit="#Translation">Make your raft to stand here – let your ship occupy the sand –</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Et pete Wilbrordi patris loca sancta pedester</lem>
+						<rdg wit="#Translation">And seek the holy places of father Willibrord 
+							<note anchored="true" type="critical"><p>Northumbrian missionary to the Frisians (c.658–739). Alcuin wrote a Life of Willibrord in both prose and verse.</p></note>
+						on foot.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6" type="stanza">
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Atque sacerdotis Samuhelis tecta require</lem>
+						<rdg wit="#Translation">Find the dwellings of the priest Samuel. 
+							<note anchored="true" type="critical"><p>Beornrad, Abbot of Echternach (where Willibrord was buried) 776–798, from 785/6 also archbishop of Sens, at whose request Alcuin wrote the Life of Willibrord.</p></note>
+						</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Castaldio portas plectro pulsare memento,</lem>
+						<rdg wit="#Translation">Remember to knock on the doors with Castalian lyre,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Constanter puero Pithea dic voce ministro:</lem>
+						<rdg wit="#Translation">Constantly saying with Pythean voice to the servant boy:</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">'Puplius Albinus me misit ab orbe Brittanno</lem>
+						<rdg wit="#Translation">“Puplius Albinus
+							<note anchored="true" type="critical"><p>In his later letters, Alcuin used the pseudonym Flaccus (“Flabby”) Albinus. “Puplius” here perhaps is meant to evoke Publius, the praenomen of the poets Virgil, Ovid and Statius. If the substitution of “pup” for “pub” is not due to scribal error, it is perhaps meant to suggest pupus/pupulus/pupillus – Alcuin is merely a “pupil” of the master poets.</p></note>
+						sent me from the British world</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Predulci dulcem patri perferre salutem'.</lem>
+						<rdg wit="#Translation">To bring sweet greetings to a most kind father”.</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Si tibi praesentis fuirit data copia verbi,</lem>
+						<rdg wit="#Translation">If an abundance of words is granted to you in person,</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Fusa solo supplex plantas tu lambe sacratas,</lem>
+						<rdg wit="#Translation">Pour it out and go down on your knees to kiss his holy heels,</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Dicque 'Valeto, pater Samuhel', dic 'Vive sacerdos'.</lem>
+						<rdg wit="#Translation">And say, “Farewell, father Samuel”, say, “Live well, priest!”</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Detege iam gremium, patres et profer honestos</lem>
+						<rdg wit="#Translation">Unlock your bounty and bring forth the honourable fathers</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Priscianum, Focam, tali quia munere gaudet,</lem>
+						<rdg wit="#Translation">Priscian and Foca,
+							<note anchored="true" type="critical"><p>Two fifth-century Latin grammarians.</p></note>
+						for he delights in such a gift – </rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Si non Deptunus pelago demerserit illos.</lem>
+						<rdg wit="#Translation">If Neptune hasn’t plunged them into the sea!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7" type="stanza">
+				<l n="36">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="16">
+				<l n="37">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="51">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="4">
+			<lg n="8" type="stanza">
+				<l n="52">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
 			</lg>	
-		</body>
+			<lg n="9" type="stanza">
+				<l n="56">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="10" type="stanza">
+				<l n="59">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="11" type="stanza">
+				<l n="64">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
