@@ -51,6 +51,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>While the poem is not translated into verse, linebreaks are preserved from the original. Stanza breaks have been added corresponding to the poem’s “frames”, as described by Sinisi.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -249,7 +250,7 @@
 				</l>
 				<l n="26">
 					<app>
-						<lem wit="#Transcription">Castaldio portas plectro pulsare memento,</lem>
+						<lem wit="#Transcription">Castalido portas plectro pulsare memento,</lem>
 						<rdg wit="#Translation">Remember to knock on the doors with Castalian lyre,</rdg>
 					</app>
 				</l>
@@ -307,7 +308,7 @@
 				</l>
 				<l n="35">
 					<app>
-						<lem wit="#Transcription">Si non Deptunus pelago demerserit illos.</lem>
+						<lem wit="#Transcription">Si non Neptunus pelago demerserit illos.</lem>
 						<rdg wit="#Translation">If Neptune hasn’t plunged them into the sea!</rdg>
 					</app>
 				</l>
@@ -359,7 +360,7 @@
 				</l>
 				<l n="43">
 					<app>
-						<lem wit="#Transcription">Vel quicumque velit mea redere viscere mursu:</lem>
+						<lem wit="#Transcription">Vel quicumque velit mea rodere viscere mursu:</lem>
 						<rdg wit="#Translation">Or of anyone who wishes to gnaw my flesh with biting.</rdg>
 					</app>
 				</l>
@@ -371,7 +372,7 @@
 				</l>
 				<l n="45">
 					<app>
-						<lem wit="#Transcription">Mormure ic tacito: 'Carthegita Patre valeto!</lem>
+						<lem wit="#Transcription">Mormure dic tacito: 'Cathegita Patre valeto!</lem>
 						<rdg wit="#Translation">Say quietly in a murmur, “Farewell, Peter my maestro! 
 							<note anchored="true" type="critical"><p>Cathegita, a rare word even in Greek (but cf. Matthew 23:10), occurs three times in Alcuin’s carmina</p></note>
 						</rdg>
@@ -535,7 +536,7 @@
 				</l>
 				<l n="69">
 					<app>
-						<lem wit="#Transcription">Deteneant stupidam spatio nec horae,</lem>
+						<lem wit="#Transcription">Deteneant stupidam spatio nec unius horae,</lem>
 						<rdg wit="#Translation">Hold you back, dumbstruck, for the space of even one hour,</rdg>
 					</app>
 				</l>
