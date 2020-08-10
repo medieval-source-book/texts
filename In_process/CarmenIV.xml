@@ -416,6 +416,92 @@
 					</app>
 				</l>
 			</lg>
+			<lg n="7" type="stanza">
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">Egregiam forsan venies Maggensis ad urbem</lem>
+						<rdg wit="#Translation">Perchance you will come to the excellent and unchanging city of Mainz;</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">Perpetuumque vale doctori dicito Lullo,</lem>
+						<rdg wit="#Translation">Say hello to the doctor Lull,</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">Ecclesiae specimen, sophiae qui splendor habetur,</lem>
+						<rdg wit="#Translation">A model for the church, who is considered the splendour of wisdom,</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Moribus et vita tanto condignus honore.</lem>
+						<rdg wit="#Translation">Worthy of such honour for his customs and life.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="8" type="stanza">
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">O Bassine bone, Spirensis gloria plebis,</lem>
+						<rdg wit="#Translation">O good Bassinus,
+							<note anchored="true" type="critical"><p>Bishop of Speyer until 782.</p></note>
+						glory of the people of Speyer:</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">Me, rogo, commenda Paulo, pater alme, patrono,</lem>
+						<rdg wit="#Translation">I ask you, nourishing father, to commend me to your patron Paul,
+							<note anchored="true" type="critical"><p>Paul the Deacon, the highly influential Lombard scholar.</p></note>
+						</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Cuius et alma domus fratres nos fecerat ambos.</lem>
+						<rdg wit="#Translation">Whose nourishing house had made us both brothers.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="9" type="stanza">
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Quis, Fulerade pius, lyrico te tangere plectro</lem>
+						<rdg wit="#Translation">Who will dare to touch you, pious Fulerad,
+							<note anchored="true" type="critical"><p>Abbot of Saint-Denis, near Paris (d.784). This is an odd departure from the main route of the letter’s journey. Given that the poem survives in a Saint-Denis manuscript, I wonder if these lines represent an off-the-cuff addition to the poem, unless Alcuin expected Bassinus to pass the cartula on to Fulerad (perhaps making the poem a kind of Rhineland travelogue addressed to Fulerad).</p></note>
+						with a plucked lyric?</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">Audebit? meritis Musarum carmina vincis.</lem>
+						<rdg wit="#Translation">You surpass the songs of the muses with your merits.</rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">Nunc tamen hanc ederam circum sine timpora sacra</lem>
+						<rdg wit="#Translation">But now let this ivy creep around your holy temples,
+							<note anchored="true" type="critical"><p>Cf. Virgil, Eclogues, 8.11-13.</p></note>
+						</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Serpere, summe pater, tibimet bonitate sueta,</lem>
+						<rdg wit="#Translation">High father, through your kind goodness,</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">Vel demitte semel memet tibi dicere salve.</lem>
+						<rdg wit="#Translation">Or let me just once say ‘greetings’ to you.</rdg>
+					</app>
+				</l>
+			</lg>	
 		</body>
 	</text>
 </TEI>
