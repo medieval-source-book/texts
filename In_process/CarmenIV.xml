@@ -108,6 +108,40 @@
 					</app>
 				</l>
 			</lg>
+			<lg n="2" type="stanza">
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Si meus Albricus veniens occurat in amne</lem>
+						<rdg wit="#Translation">If my Albricus 
+							<note anchored="true" type="critical"><p>Bishop of Utrecht (Traiectum), d.784.</p></note>
+						should come and meet you on the river,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">'Vaccipotens praesul', properans tu dicito, 'salve',</lem>
+						<rdg wit="#Translation">Hastily say, “O Cow-Lord Bishop, greetings,”</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Nam tibi Hadda prior nocte non amplius una</lem>
+						<rdg wit="#Translation">Because Prior Hadda will serve you honey and porridge and butter <note anchored="true" type="critical"><p>Alcuin uses a Germanicism butur (as opposed to butyrum).</p></note></rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">In Traiect mel compultimque buturque ministrat:</lem>
+						<rdg wit="#Translation">In Utrecht, no more than a night’s walk from where you landed</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Utpute non oleum nec vinum Fresia fundit.</lem>
+						<rdg wit="#Translation">(Since Frisia pours out neither oil nor wine).</rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
