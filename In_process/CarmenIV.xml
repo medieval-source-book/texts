@@ -142,6 +142,46 @@
 					</app>
 				</l>
 			</lg>
+			<lg n="3" type="stanza">
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Hinc tua vela leva, fugiens Dorstada relinque:</lem>
+						<rdg wit="#Translation">Raise your sails here; flee and leave Dorestad 
+							<note anchored="true" type="critical"><p>A trading emporium in Frisia, a few miles downstream from Utrecht, now known as Wijk bij Duurstede.</p></note>
+						behind.</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Non tibi forte niger Hrotberct parat hospita tecta,</lem>
+						<rdg wit="#Translation">I suspect black Hrotberht will not prepare friendly lodging for you;</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Non amat ecce tuum carmen mercator avarus.</lem>
+						<rdg wit="#Translation">See, the greedy merchant does not love your song.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Sed diverte mei vatis tu litora Ione:</lem>
+						<rdg wit="#Translation">But pay a visit to the shores of my prophet Jonas.<note anchored="true" type="critical"><p>Otherwise unknown, although he must have been a reasonably significant individual, given that he is mentioned again alongside several very notable figures in line 42.</p></note></rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Est nam certa quies fessis venientibus illuc,</lem>
+						<rdg wit="#Translation">For there is surely rest for weary travellers in that place;</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Hic holus hospitibus, piscis hic, panis abundat.</lem>
+						<rdg wit="#Translation">Here vegetables, here fish and bread abound for guests.</rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
