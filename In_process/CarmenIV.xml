@@ -501,7 +501,15 @@
 						<rdg wit="#Translation">Or let me just once say ‘greetings’ to you.</rdg>
 					</app>
 				</l>
-			</lg>	
+			</lg>
+			<lg n="10" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
