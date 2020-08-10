@@ -34,7 +34,8 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				<p>Paris BNF MS Latin 528 f.140v</p>
+				<p>Published in Ernst Duemmler ed., Poetae Latini Aevi Carolini, Vol. I, MGH (Berlin: Weidmann, 1881), pp. 220-3</p>
 				<listWit>
 					<witness xml:id="Transcription">Carmen IV "Cartula, perge cito"</witness>
 					<witness xml:id="Translation">Letter IV "Go quickly, little letter"</witness>
@@ -517,7 +518,7 @@
 				<l n="66">
 					<app>
 						<lem wit="#Transcription">Materies auri non te, rogo, fulva retardet,</lem>
-						<rdg wit="#Translation"I pray that no yellow matter of gold may slow you down,></rdg>
+						<rdg wit="#Translation">I pray that no yellow matter of gold may slow you down,</rdg>
 					</app>
 				</l>
 				<l n="67">
