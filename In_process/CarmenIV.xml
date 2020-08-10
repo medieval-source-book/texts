@@ -182,6 +182,62 @@
 					</app>
 				</l>
 			</lg>
+			<lg n="4" type="stanza">
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Urbis Agripina 
+							<note anchored="true" type="critical"><p>Urbs Agripina</p></note>
+						tibi pandit, scio, tecta benigne:</lem>
+						<rdg wit="#Translation">I know the city of Cologne  will kindly spread out lodgings for you:</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Hic humili patrem Ricvulfum voce saluta;</lem>
+						<rdg wit="#Translation">Here greet father Ricwulf
+							<note anchored="true" type="critical"><p>Bishop of Cologne, 772–794.</p></note>
+						with humble voice;</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Dic: 'Tua laus mecum semper, dilecte, manebit'.</lem>
+						<rdg wit="#Translation">Say, “Your praise will remain with me always, beloved.”</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Hinc castella petes currenti nave per undas,</lem>
+						<rdg wit="#Translation">Here you will seek out the fortified towns with a ship running through the waves,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Donec ad optatae pertingas flustra Musellae.</lem>
+						<rdg wit="#Translation">Until you reach the calm waters of the pleasant Moselle.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Remigio postquam spatium sulcaveris amnem,</lem>
+						<rdg wit="#Translation">After you have plowed this wide river with your oar,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Hic tum siste ratem, puppis potiatur harena,</lem>
+						<rdg wit="#Translation">Make your raft to stand here – let your ship occupy the sand –</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Et pete Wilbrordi patris loca sancta pedester</lem>
+						<rdg wit="#Translation">And seek the holy places of father Willibrord 
+							<note anchored="true" type="critical"><p>Northumbrian missionary to the Frisians (c.658–739). Alcuin wrote a Life of Willibrord in both prose and verse.</p></note>
+						on foot.</rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
