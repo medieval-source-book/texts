@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Gallic Travels</title>
+				<title>Gregory the Great’s Gallic Travels</title>
 				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -17,15 +17,11 @@
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name><!--Add name--></name>
-				</respStmt>
-				<respStmt>
-					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
-					<name><!--Add name--></name>
+					<name>Alexandra Reider</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name><!--Your name--></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -38,10 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				 <p>Oxford, St John’s College, MS 28, fol. 6v</p>
 				<listWit>
 					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Translation">Gregory the Great’s Gallic Travels</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -82,7 +78,7 @@
 			<p n="1">
 				<s>
 					<app>
-						<lem wit="#Transcription">Gregorius urbis romę æpiscopus hunc librum pastoralis curę scripsit pro excusatione episcoporum eo quod pelagius illius nutritor et romanę æcclesię princeps eum rogabat.</lem>
+						<lem wit="#Transcription">Gregorius urbis romę æp<i>iscopus</i> hunc libru<i>m</i> pastoralis curę scripsit pro excusatione episcoporum eo quod pelagius illius nutritor et romanę æcclesię princeps eum rogabat.</lem>
 						<rdg wit="#Translation">Gregory, bishop of the city of Rome, wrote this book of pastoral care for the benefit of bishops because Pelagius, his mentor and head of the Roman church,</rdg>
 					</app>
 				</s>
@@ -112,136 +108,26 @@
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">et alii putant quia imperatoris de gothis vel insani regis romanorum tempore hic liber conscriptus est in quo narrat gregorius opusesse difficile principatum æcclesię;</lem>
+						<rdg wit="#Translation">And others think that this book, in which Gregory recounts that leadership of the Church is difficult work, was begun at the time of the emperor of the Goths or of the demented leader of the Romans.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sanctus gregorius. annis. xiii. et. mensibus. x. et diebus. ix. rexit æcclesiam;</lem>
+						<rdg wit="#Translation">St. Gregory ruled the Church for thirteen years and ten months and nine days.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Gregorius grece uigil latine.</lem>
+						<rdg wit="#Translation">“Gregorius” in Greek means vigil [“alert”] in Latin,</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-			</p>
-			<p n="2">
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>-->
-									
-								</p>
-							</note>
-						</lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">et a uerbo gregorio. iii. coniugationes. quia inuenitur gregorite id est uigilate</lem>
+						<rdg wit="#Translation">and from the word “Gregorius” come three etymological connections because “gregorite” – that is, vigilate [“you (pl.) watch”] – is found.</rdg>
 					</app>
 				</s>
 			</p>
