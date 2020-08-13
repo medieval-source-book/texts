@@ -10,10 +10,10 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Gallic Travels</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Anonymous</author>
 				<respStmt>
-					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
+					<resp>Transcription by</resp>
+					<name>Alexandra Reider</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -79,72 +79,172 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1" type="stanza">
-				<!--Each stanza needs its own line group <lg>-->
-				<l n="1">
+			<p n="1">
+				<s>
 					<app>
-						<lem wit="#Transcription"><!--One line of original--></lem>
-						<rdg wit="#Translation"><!--One line of translation--><note anchored="true"><p><!--Insert note here--></p></note>
-						</rdg>
+						<lem wit="#Transcription">Gregorius urbis romę æpiscopus hunc librum pastoralis curę scripsit pro excusatione episcoporum eo quod pelagius illius nutritor et romanę æcclesię princeps eum rogabat.</lem>
+						<rdg wit="#Translation">Gregory, bishop of the city of Rome, wrote this book of pastoral care for the benefit of bishops because Pelagius, his mentor and head of the Roman church,</rdg>
 					</app>
-				</l>
-				<l n="2">
+				</s>
+				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"> ut post se episcopi locum tenuisset.</lem>
+						<rdg wit="#Translation">asked that he take the place of bishop after him.</rdg>
 					</app>
-				</l>
-				<l n="3">
+				</s>
+				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">et in gallia lugdunensi conscripsit huius libri incepta.</lem>
+						<rdg wit="#Translation">And in Lyonnais Gaul he composed the beginnings of this book</rdg>
 					</app>
-				</l>
-				<l n="4">
+				</s>
+				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">et in gallia belgica consummata est id est in ciuitate que dicitur brigalis</lem>
+						<rdg wit="#Translation">and in Belgian Gaul it was completed, that is, in the city that is called Bruges,</rdg>
 					</app>
-				</l>
-				<l n="5">
+				</s>
+				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">quia gregorius principatum uitare uolens in occidentales plagas gallorum fugerat.</lem>
+						<rdg wit="#Translation">because Gregory, wanting to avoid leadership, had fled to the western regions of Gaul.</rdg>
 					</app>
-				</l>
-			</lg>
-			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				</s>
+				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</l>
-				<l n="7">
+				</s>
+				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</l>
-				<l n="8">
+				</s>
+				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</l>
-				<l n="9">
+				</s>
+				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</l>
-				<l n="10">
+				</s>
+				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</l>
-			</lg>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">
+							<note type= "critical" anchored="true">
+								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>-->
+									
+								</p>
+							</note>
+						</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+			</p>
 		</body>
 	</text>
 </TEI>
