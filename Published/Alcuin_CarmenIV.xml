@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Letter IV "Go quickly, little letter"</title>
+				<title>Song IV "Go quickly, little letter"</title>
 				<author>Alcuin</author>
 				<respStmt>
 					<resp>Transcription based on</resp>
@@ -38,13 +38,13 @@
 				<p>Published in Ernst Duemmler ed., Poetae Latini Aevi Carolini, Vol. I, MGH (Berlin: Weidmann, 1881), pp. 220-3</p>
 				<listWit>
 					<witness xml:id="Transcription">Carmen IV "Cartula, perge cito"</witness>
-					<witness xml:id="Translation">Letter IV "Go quickly, little letter"</witness>
+					<witness xml:id="Translation">Song IV "Go quickly, little letter"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Letter IV 'Go quickly, little letter'"is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading. 
+            	<p>"Song IV 'Go quickly, little letter'"is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading. 
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -379,7 +379,7 @@
 				<l n="46">
 					<app>
 						<lem wit="#Transcription">Herculeo sevus clavo 
-							<note anchored="true" type="critical"><p>Ms. clavo, following emendation of Schaller (1970)</p></note>
+							<note anchored="true" type="critical"><p>Ms. claro, following emendation of Schaller (1970)</p></note>
 						ferit ille, caveto'!</lem>
 						<rdg wit="#Translation">Beware! That savage strikes with a Herculean club.”</rdg>
 					</app>
