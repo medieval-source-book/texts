@@ -37,7 +37,7 @@
 				 <p>Oxford, St John’s College, MS 28, fol. 6v</p>
 				<listWit>
 					<witness xml:id="Transcription">De origine regulae pastoralis [preface]</witness>
-					<witness xml:id="Translation">Gregory the Great’s Gallic Travels</witness>
+					<witness xml:id="Translation">On the Origin of the <i>Pastoral Care</i></witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -64,7 +64,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">De origine regulae pastoralis [preface]</lem>
-						<rdg wit="#Translation">Gregory the Great’s Gallic Travels</rdg>
+						<rdg wit="#Translation">On the Origin of the <i>Pastoral Care</i></rdg>
 					</app>
 				</title>
 			</head>
@@ -73,7 +73,7 @@
 			<p n="1">
 				<s>
 					<app>
-						<lem wit="#Transcription">Gregorius urbis romę æp<i>iscopus</i> hunc libru<i>m</i> pastoralis curę scripsit pro excusatione episcoporum eo quod pelagius illius nutritor et romanę æcclesię princeps eum rogabat.</lem>
+						<lem wit="#Transcription">Gregorius urbis romę æpiscopus hunc librum pastoralis curę scripsit pro excusatione episcoporum eo quod pelagius illius nutritor et romanę æcclesię princeps eum rogabat.</lem>
 						<rdg wit="#Translation">Gregory, bishop of the city of Rome, wrote this book of pastoral care for the benefit of bishops because Pelagius, his mentor and head of the Roman church,</rdg>
 					</app>
 				</s>
