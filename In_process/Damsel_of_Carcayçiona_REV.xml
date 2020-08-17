@@ -43,13 +43,13 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English Translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new Translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English Translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
-	        	<p>Transcriptions and Translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and Translations within &lt;rdg&gt; tags.</p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative Translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -132,16 +132,18 @@
 				</s>
 				<s>
 					<app>
-						<lem wit="Transcription"></lem>
-						<rdg wit="Translation"></rdg>
+						<lem wit="Transcription">يَا بًدْرَا / ءَاشْتُشْ خَلَاقَذُشْ دَا اُنْبَارَاشْ اِ مُجَارَاشْ نُفُوَارُنْ / خَلَافَذُشْ شِنُ بًرَ كُمَارْ اِ بَابَارْ بٌوَاشْ كُنْ / بِيَانَا كَا اَ كِيَانْ فَزَا تَلَاشْ غَرَسِيَشْ دَا لَشْ // اَغَرَدَاسْكَمُشْ بٌوَاشْ يُ يَا بًدْرَا اَ كِيَانْ / لُاَغَرَدَاسَارَا</lem>
+						<rdg wit="Translation">“Father, these creations of men and women were created only to eat and drink; so, it is appropriate that we should give thanks to the one who makes such graces. So father, whom do I thank?”</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="Transcription"></lem>
-						<rdg wit="Translation"></rdg>
+						<lem wit="Transcription">دِيشُ ءَالْبًدْرَا اَ مِي يَا فِجَ كَا يُ / ءَا فَاجٌ غَرَسِيَ شُبْرَا تِي دِيشُ لَفِجَ اِ تُ يَا بًدْرَا / ا َكِيَانْلُ اَغَرَدَاسَاشْ دِيشُ يَا فِجَ ءَاشْتَشْ / غَرَسِيَشْ اَنْلَشْ ءَارَادَذُ نُوَاشُشْ اَنْتَابًشَذُشْ / اُنُشْ دَا اُتْرُشْ دِيشُ لَفِجَ يَا بًدْرَا كِيَانْلُ / كُمَانْسُ اِ كِيَانْلُ اَكَبَرَ كَا تُبًدْرَا اِ تُ / اَوَالُ مُرِيَارُنْ بٌوَاشْ كِيَانْفِزُ ءَاشْتَشْ غَرَسِيَشْ / ا ِكِيَانْلَشْ ءَارَاذَرَ اِ كِيَانْ خَلَاقُ لَشْجَانْتَاشْ / دِيشُ ءَالْرًايْ يَا فِجَ يُتَا دَرَا تُ شَانٌرْ اِ شَانٌرْ / دَا تُشْ بًدْرَاشْ اَكَالْ كَا نُ ءَا كُنُسِدُ اُتْرُشَا / نٌرْ شِنُ ءَالْ</lem>
+						<rdg wit="Translation">The father said: “To me, daughter, for I have brought grace upon you.” The daughter said: “And you, father, whom do you thank for it?” He said: “Daughter, these blessings have been inherited by our predecessors, one from another.” The daughter said: “Father, who started this and who will end it, for your father and your grandfather perished? Who made these blessings and who will inherit them, and who created people?” The king said: “Daughter, I will give you your lord and the lord of your parents. I have not known another lord except him.”</rdg>
 					</app>
 				</s>
+			</p>
+			<p n="7">
 				<s>
 					<app>
 						<lem wit="Transcription"></lem>
