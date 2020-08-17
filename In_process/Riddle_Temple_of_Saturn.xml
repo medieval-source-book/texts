@@ -9,8 +9,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
+				<title>Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet</title>
+				<author>Anonymous, Arabic Translation att. to Ḥunayn ibn Isḥāq</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name>Joshua Mugler</name>
@@ -36,14 +36,14 @@
 			<sourceDesc>
 				 <p>Fondation Georges et Mathilde Salem MS Syr 6, fol. 82v-83r</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription">نسخة اللغز الذي قيل انها وجدت في هيكل زحل مكتوبة في لوح ذهب</witness>
+					<witness xml:id="Translation">Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -115,56 +115,76 @@
 					</app>
 				</l>
 			</lg>
+		<div>
 			<p n="1">
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال اذا ما صعد البخار الرطب من قعر البحر وانعقد في الجو سحابا هاطلا فجرت الاودية ولثقت الطرق واظلم نور الشمس والقمر فلم يعرف الليل من النهار وانقطعت السبل واغلقت ابواب المدينة ودعا كل ذي نفس الى ما اعد لنفسه</lem>
+						<rdg wit="#Translation">He said: When humid vapor rose from the depth of the sea and thickened in the air as clouds, coursing down so that the riverbeds flowed, the pathways were turned to mud, and the light of the sun and the moon grew dark, so night was not known from day, the roads were cut off, and the gates of the city were closed, and everyone with a soul called upon what they had prepared for themselves.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وخلا الملك في قبة فرشها الرياضي راكبا فرسا يحجبه جارية راكبة اسد.</lem>	
+						<rdg wit="#Translation">And the king secluded himself in a dome furnished with gardens, riding a horse that he kept hidden like a slave woman riding a lion.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">واستدعا من وزيره ما رفعوا اليه اعوانه.</lem>
+						<rdg wit="#Translation">He asked of his vizier what his servants had set before him, and was taken up with the administration of his affairs and his kingdom.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">واخذ من تدبير امره ومملكته.</lem>
+						<rdg wit="#Translation">Then it became fixed in his mind that if he lived he would die, and if he died he would live, and if he destroyed his kingdom, his soul would be saved, and if he saved the servants of his kingdom, his soul would be destroyed.</rdg>
 						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-					<s>
-						<app>
-							<lem wit="#Transcription"></lem>
-							<rdg wit="#Translation"></rdg>
-						</app>
-					</s>
-				</p>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاستقر الامر عنده انه ان عاش مات وان مات عاش وان اهلك مملكته انحفظت نفسه وان حفظ اعوان مملكته هلكت نفسه.</lem>
+						<rdg wit="#Translation">So he preferred death over life, and saved himself rather than his kingdom and his subjects.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاثر الموت على الحياة وحفظ نفسه على مملكته ورعيته وفي تضاعيف فكره انقشع الغمام وطلع المنيران في القوس وقد كانا غابا في العقد الشمالي.</lem>
+						<rdg wit="#Translation">Between the lines of his thought the clouds were scattered, and the two lights rose in Sagittarius after they had been hidden away in the northern node.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتم الى الجند والرعية ما خامر قلب الملك فهما بالارتفاع به.</lem>
+						<rdg wit="#Translation">Then what had seized the heart of the king came to pass for the army and the subjects, so they were being wiped out by it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وفار التنور من الصنوبرة فارسل عليهم طوفان ريح وماء ولم يحدث شيا من غير شي فاجراه كالمد وعاش مستانسا بالوحدة. فمن ضحك بكا ومن بكا ضحك.</lem>
+						<rdg wit="#Translation">And water gushed forth from within the oven, so he sent upon them a typhoon of wind and water, and nothing came from nothing, so he made it flow as a flood.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والسلم على النفوس القريبة من مبديها.</lem>
+						<rdg wit="#Translation">And he lived on in intimate acquaintance with his own solitude.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والرحمة على البعيدة لتلحق بها.</lem>
+						<rdg wit="#Translation">So whoever laughed wept, and whoever wept laughed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والسبح لناظم الكل.</lem>
+						<rdg wit="#Translation">Peace upon the souls that are close to their Creator, and mercy upon those far away so that they might catch up to them, and glory to the one who arranges all things.</rdg>
+					</app>
+				</s>
+			</p>
+		</div>
 			<lg n="6" type="stanza">
 				<l n="6">
 					<app>
