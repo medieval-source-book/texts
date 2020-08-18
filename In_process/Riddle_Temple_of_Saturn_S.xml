@@ -1,0 +1,198 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet</title>
+				<author>Anonymous, Arabic Translation att. to Ḥunayn ibn Isḥāq</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Joshua Mugler</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Joshua Mugler</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Fondation Georges et Mathilde Salem MS Syr 6, fol. 82v-83r</p>
+				<listWit>
+					<witness xml:id="Transcription">نسخة اللغز الذي قيل انها وجدت في هيكل زحل مكتوبة في لوح ذهب</witness>
+					<witness xml:id="Translation">Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+		<div>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">>ܒܣܡ ܐܠܐܒ ܘܐܠܐܒܢ ܘܐܠܪܘܚ ܐܠܩܕܤ ܐܠܐܗ ܘܐܚܕ</lem>
+						<rdg wit="#Translation">In the name of the Father and the Son and the Holy Spirit, one God</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">نسخة اللغز الذي قيل انها وجدت في هيكل زحل مكتوبة في لوح ذهب</lem>
+						<rdg wit="#Translation">Copy of the riddle that was said to have been found in the temple of Saturn written on a golden tablet</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">نقل حنين ابن اسحق وجده في الصحف القديمة</lem>
+						<rdg wit="#Translation">Translation of Ḥunayn ibn Isḥāq, who found it in ancient pages</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">وتفسيرها للاب مار عمنويل مطران باجرمي</lem>
+						<rdg wit="#Translation">And a commentary on it by Father ʻAmanúʼél, metropolitan of Bét Garmay</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">وهذه هي</lem>
+						<rdg wit="#Translation">Here it is:</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال اذا ما صعد البخار الرطب من قعر البحر وانعقد في الجو سحابا هاطلا فجرت الاودية ولثقت الطرق واظلم نور الشمس والقمر فلم يعرف الليل من النهار وانقطعت السبل واغلقت ابواب المدينة ودعا كل ذي نفس الى ما اعد لنفسه</lem>
+						<rdg wit="#Translation">He said: When humid vapor rose from the depth of the sea and thickened in the air as clouds, coursing down so that the riverbeds flowed, the pathways were turned to mud, and the light of the sun and the moon grew dark, so night was not known from day, the roads were cut off, and the gates of the city were closed, and everyone with a soul called upon what they had prepared for themselves.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وخلا الملك في قبة فرشها الرياضي راكبا فرسا يحجبه جارية راكبة اسد.</lem>	
+						<rdg wit="#Translation">And the king secluded himself in a dome furnished with gardens, riding a horse that he kept hidden like a slave woman riding a lion.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">واستدعا من وزيره ما رفعوا اليه اعوانه.</lem>
+						<rdg wit="#Translation">He asked of his vizier what his servants had set before him, and was taken up with the administration of his affairs and his kingdom.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">واخذ من تدبير امره ومملكته.</lem>
+						<rdg wit="#Translation">Then it became fixed in his mind that if he lived he would die, and if he died he would live, and if he destroyed his kingdom, his soul would be saved, and if he saved the servants of his kingdom, his soul would be destroyed.</rdg>
+						</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاستقر الامر عنده انه ان عاش مات وان مات عاش وان اهلك مملكته انحفظت نفسه وان حفظ اعوان مملكته هلكت نفسه.</lem>
+						<rdg wit="#Translation">So he preferred death over life, and saved himself rather than his kingdom and his subjects.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاثر الموت على الحياة وحفظ نفسه على مملكته ورعيته وفي تضاعيف فكره انقشع الغمام وطلع المنيران في القوس وقد كانا غابا في العقد الشمالي.</lem>
+						<rdg wit="#Translation">Between the lines of his thought the clouds were scattered, and the two lights rose in Sagittarius after they had been hidden away in the northern node.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتم الى الجند والرعية ما خامر قلب الملك فهما بالارتفاع به.</lem>
+						<rdg wit="#Translation">Then what had seized the heart of the king came to pass for the army and the subjects, so they were being wiped out by it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وفار التنور من الصنوبرة فارسل عليهم طوفان ريح وماء ولم يحدث شيا من غير شي فاجراه كالمد وعاش مستانسا بالوحدة. فمن ضحك بكا ومن بكا ضحك.</lem>
+						<rdg wit="#Translation">And water gushed forth from within the oven, so he sent upon them a typhoon of wind and water, and nothing came from nothing, so he made it flow as a flood.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والسلم على النفوس القريبة من مبديها.</lem>
+						<rdg wit="#Translation">And he lived on in intimate acquaintance with his own solitude.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والرحمة على البعيدة لتلحق بها.</lem>
+						<rdg wit="#Translation">So whoever laughed wept, and whoever wept laughed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والسبح لناظم الكل.</lem>
+						<rdg wit="#Translation">Peace upon the souls that are close to their Creator, and mercy upon those far away so that they might catch up to them, and glory to the one who arranges all things.</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">تم اللغز. يتلوه التفسير</lem>
+						<rdg wit="#Translation">The riddle has ended. The commentary follows.</rdg>
+					</app>
+				</s>
+			</p>
+		</div>
+		</body>
+	</text>
+</TEI>
