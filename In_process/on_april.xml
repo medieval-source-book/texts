@@ -20,12 +20,8 @@
 					<name><!--Add name--></name>
 				</respStmt>
 				<respStmt>
-					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
-					<name><!--Add name--></name>
-				</respStmt>
-				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -78,6 +74,9 @@
 				</title>
 			</head>
 		</front>
+
+<note anchored="true" type="critical"><p></p></note>
+
 		<body>
 			<lg n="1" type="stanza">
 				<l n="1">
@@ -88,26 +87,26 @@
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"><note anchored="true" type="critical"><p></p></note></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ܘܰܒܗܰܒܳܒ̈ܐܶ ܠܛܘܪ݂ܳܐ ܘܕܰܒܪܳܐ ܫܘܒܚܳܐ ܐܰܠܒܶܫ܂</lem>
+						<rdg wit="#Translation">And in glory has clothed mountain and pasture with flowers</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ܒܰܚܠܘܠ ܘܰܪܕܳܐ ܠܦܰܩܚ̈ܐܶ ܐܡܺ̈ܝܢܐܶ ܩܪܳܐ ܐܳܦ ܟܰܢܶܫ܃</lem>
+						<rdg wit="#Translation">At the wedding feast of the rose, it invited, indeed, gathered blossoms as guests</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ܘܰܕܡܶܢ ܓܢܘܢܳܐ ܢܶܦܘܩ ܚܰܬܢܳܐ ܐܘܪܚܳܐ ܕܳܪܶܫ܀</lem>
+						<rdg wit="#Translation">And prepared the way for the bridegroom to leave the bridal chamber.</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ܕܡܽܘܬ݁ ܟܰܠ̈ܬܳܐ ܗܳܐ ܐܶܨܛܰܒܬܘ̄ ܦܰܩ̈ܚܼܝ ܕܰܒܪܳܐ܃</lem>
+						<rdg wit="#Translation"><space quantity="10" unit="chars"></space>Blossoms of the field are adorned like beautiful brides</rdg>
 					</app>
 				</l>
 				<l n="6">
