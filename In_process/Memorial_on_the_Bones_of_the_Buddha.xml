@@ -10,18 +10,18 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Memorial on the Bones of the Buddha</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Han Yu 韓愈</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>From the edition in</resp>
+					<name>Han Yu 韓愈, Han changli ji 韓昌黎集 (Collected Works of Han Changli), 2 vols, (Beijing: Shangwu yinshuguan, c. 1930), vol. II, 39:7:34-37.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Geoff Humble</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -34,16 +34,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Han Yu 韓愈, Han changli ji 韓昌黎集 (Collected Works of Han Changli), 2 vols, (Beijing: Shangwu yinshuguan, c. 1930), vol. II, 39:7:34-37.</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">論佛骨表</witness>
+					<witness xml:id="Translation">論佛骨表</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Memorial on the Bones of the Buddha" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -72,33 +72,373 @@
 			<p n="1">
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">臣某言：伏以佛者，夷狄之一法耳。</lem>
+						<rdg wit="#Translation">Your humble servant submits: this practice of bowing to the Buddha is merely a philosophy of the Yi and the Di [i.e., people beyond the civilized realm].</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">自後漢時流入中國，上古未嘗有也。</lem>
+						<rdg wit="#Translation">Flowing into to China during the Later Han, it had not been present in ancient times.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">昔者黃帝在位百年，年百一十歲；少昊在位八十年，年百歲；顓頊在位七十九年，年九十八歲；帝嚳在位七十年，年百五歲；帝堯在位九十八年，年百一十八歲；帝 舜及禹，年皆百歲。</lem>
+						<rdg wit="#Translation">Of the ancients, Huangdi 黃帝was on the throne for a century, and lived to be 110; 
+							<note type= "critical" anchored="true">
+							<p>Huangdi 黃帝, the mythical ‘Yellow Emperor,’ was traditionally regarded as having ruled c. 2698–2598 BCE, and popularly regarded as one of the ‘Five Emperors,’ sage rulers and common ancestors of the Han Chinese.</p>
+							</note>
+						Shao Hao 少昊 ruled for 80 years, dying at 100; 
+							<note type= "critical" anchored="true">
+							<p>Shao Hao 少昊, traditionally regarded as having ruled around 2598-2525 BCE, and according to some accounts the son of the Yellow Emperor, is also included as one of the ‘Five Emperors’ in some accounts.</p>
+							</note>
+						Zhuan Xu 顓頊 kept his throne for 79 years, living to be 98; 
+							<note type= "critical" anchored="true">
+							<p>Zhuan Xu 顓頊, also known as Gaoyang 高陽, is traditionally regarded as being the grandson of the Yellow Emperor, and regarded as another of the Five Emperors.</p>
+							</note>
+						Di Ku 帝嚳 ruled for 70 years and lived to 105; 
+							<note type= "critical" anchored="true">
+							<p>Di Ku 帝嚳, or Emperor Ku, traditionally regarded as the grandson of Shao Hao, and another of the Five Emperors, ruling at some point in the 25th century BCE.</p>
+							</note>
+						Di Yao 帝堯 had 98 years on the throne and lived to be 118;
+							<note type= "critical" anchored="true">
+							<p>Di Yao 帝堯, or Emperor Yao, traditionally regarded as the second son of Di Ku and one of the Five Emperors, reigning across the 24th and 23rd centuries BCE.</p>
+							</note>
+						Emperors Shun 舜 and Yu 禹 both lived to be 100.
+							<note type= "critical" anchored="true">
+							<p>Shun 舜 is sometimes counted as one of the Five Emperors, and reportedly gave up his throne, at the age of 100, to Yu 禹, the founder of the Xia夏 dynasty, traditionally dated to 2207-1766 BCE.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">此時天下太平，百姓安樂壽考，然而中國未有佛也。</lem>
+						<rdg wit="#Translation">At that time the world was peaceful and happy, the common people living long and joyful lives, but China did not yet have Buddhism.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">其後殷湯亦年百歲，湯孫太戊在位七十五年，武丁在位五十九年，書史不言其年壽所極，推其年數，蓋亦俱不減百歲；</lem>
+						<rdg wit="#Translation">After this, Tang 湯 of Yin 殷 lived to 100 too, Tang's grandson Tai Wu 太戊 was on the throne for 75 years, Wu Ding 武丁 was on the throne 59 years, and although the books of history do not give his final age, if one had to guess it would most likely not fall short of a century.
+							<note type= "critical" anchored="true">
+							<p>Tang 湯, Taiwu 太戊 (or Dawu 大戊) and Wuding 武丁 are all regarded as emperors of the Yin 殷, or Shang 商, dynasty, traditionally dated as 1766 to 1122 BCE.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">周文王年九十七歲，武王年九十三歲，穆王在位百年：此時佛法亦未入中國，非因事佛而致然也。</lem>
+						<rdg wit="#Translation">King Wen of Zhou 周文王 lived to be 97, King Wu 武王 lived to 93, King Mu 穆王 ruled for 100 years: 
+							<note type= "critical" anchored="true">
+							<p>King Wen 文王 was active under the last years of the Shang, while his son King Wu 武王 established the Zhou周dynasty, ruling during the 11th century BCE, and  King Mu 穆王, also of the Zhou 周, ruled during the 10th century BCE.</p>
+							</note>
+						at this time too Buddhism had not yet arrived in China, and this [longevity] was not a result of serving the Buddha.</rdg>
 					</app>
 				</s>
 			</p>
 			<p n="2">
 				<s>
 					<app>
+						<lem wit="#Transcription">漢明帝時始有佛法，明帝在位纔十八年耳。</lem>
+						<rdg wit="#Translation">Buddhism began to arrive in China at the time of Emperor Ming 明 of the Han, and Mingdi was only on the throne for 18 years.
+							<note type= "critical" anchored="true">
+							<p>Emperor Ming 明 of the Eastern Han dynasty (25-220 CE), r. 57-75 CE.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">其後亂亡相繼，運祚不長。</lem>
+						<rdg wit="#Translation">Afterwards chaos and the fall [of dynasties] followed in quick succession, and no dynasty was fated to last.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">宋、齊、梁、陳、元魏已下，事佛漸謹，年代尤促。</lem>
+						<rdg wit="#Translation">Under the Song 宋, the Qi 齊, the Liang 梁, the Chen 陳, the Yuan Wei 元魏 and their successors, the Buddha was served ever more sincerely, and the [lifespan of their] dynasties became [ever more] especially brief.
+							<note type= "critical" anchored="true">
+							<p>The [Liu] Song 宋 (420-479), the Qi 齊 (479-502), the Liang 梁 (550-557) and the Chen 陳 (557-589) were southern dynasties that arose in the southeast of China.  The Yuan Wei 元魏, also known as the Northern Wei 北魏, ruled northern parts of China from 386 to 534 CE.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">惟梁武帝在位四十八年，前後三度捨身施佛，宗廟之祭不用牲牢，晝日一食止於菜果，其後竟為侯景所逼，餓死臺城，國亦尋滅。</lem>
+						<rdg wit="#Translation">Only Emperor Wu of the Liang 梁武帝
+							<note type= "critical" anchored="true">
+							<p>Emperor Wu of the Liang 梁武帝, r. 502-549.</p>
+							</note>
+						retained his throne for 48 years; he tried to offer himself to the Buddha three times in all, and cut down the offerings at the Imperial Ancestral Temple - instead of giving livestock [three times per day] this fell to once per day and even then to mere fruit and vegetables. Eventually he was forced out by rebellion and starved at Taicheng 臺城, and soon the dynasty was destroyed too.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">事佛求福，乃更得禍。</lem>
+						<rdg wit="#Translation">Serving the Buddha to seek happiness thus brings only calamity.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">由此觀之，佛不足事，亦可知矣。</lem>
+						<rdg wit="#Translation">From this one sees that Buddha is not worth serving - this can be quite clearly understood.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n='3'>
+				<s>
+					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>-->
-									
-								</p>
-							</note>
-						</lem>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
