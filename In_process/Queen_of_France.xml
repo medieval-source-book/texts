@@ -10,10 +10,10 @@
 		<fileDesc>
 			<titleStmt>
 				<title>The Queen of France</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Schondoch</author>
 				<respStmt>
-					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
+					<resp>Transcribed by</resp>
+					<name>Jana Koepcke</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -38,9 +38,9 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				 <p>Heidelberg Hs. 1012 (olim Ashburnham Place, Cod. 486)</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
+					<witness xml:id="Transcription">The Queen of France</witness>
 					<witness xml:id="Translation"><!--Short title in English--></witness>
 				</listWit>
 			</sourceDesc>
@@ -72,7 +72,7 @@
 				</title>
 				<title type="sub">
 					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<lem wit="#Transcription">Des konings boich von franckrich geit hijr ain</lem>
 						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
 					</app>
 				</title>
@@ -151,91 +151,91 @@
 					<app>
 						<lem wit="#Transcription">&#91;Der künig hette ein marschalg&#93;</lem>
 						<rdg wit="#Translation">&#91;Now the king had a marshal.&#93;
-							<note anchored="true"><p>Line 11a was taken from Strippel because the rhyme scheme and the subsequent text talk about an unknown “er”; it looks like the scribe made a mistake and forgot to copy this line (p. 213, l.13).</p></note>
+							<note anchored="true" type="critical"><p>Line 11a was taken from Strippel because the rhyme scheme and the subsequent text talk about an unknown “er”; it looks like the scribe made a mistake and forgot to copy this line (p. 213, l.13).</p></note>
 						</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Den moyst man forten ouer all</lem>
+						<rdg wit="#Translation">Everyone had to fear him everywhere,</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Alles daz er geboyt</lem>
+						<rdg wit="#Translation">And everything that he ordered</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Da von die koningynnen qwam // yn noit</lem>
+						<rdg wit="#Translation">Because of him, the queen faced great hardship</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want dye koningynnen</lem>
+						<rdg wit="#Translation">because he begged her</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dye bat er vmb dye mynne</lem>
+						<rdg wit="#Translation">for her love,</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want hey ir dick heymlichen waz</lem>
+						<rdg wit="#Translation">as he often met with her in private.</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Myt eren sij doch vor yeme genaß</lem>
+						<rdg wit="#Translation">She overcame him with her honor,</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz sij durch falsche bede</lem>
+						<rdg wit="#Translation">for such a treacherous plea</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nye ouell dayt gedede</lem>
+						<rdg wit="#Translation">would never make her commit such an evil deed,</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want sij versagede yeme dogen // clich</lem>
+						<rdg wit="#Translation">and she refused him as she should.</rdg>
 					</app>
 				</l>
 				<l n="22">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Zu yeme so sprach dye mynnenclich</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="23">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">War vmb mudes du myr dez</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="24">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Du weyß doch woil <hi rend="strikethrough">wez</hi> durch // weß</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="25">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Willen du daz laissen salt</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
