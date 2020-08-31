@@ -20,10 +20,6 @@
 					<name>Jana Koepcke</name>
 				</respStmt>
 				<respStmt>
-					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
-					<name><!--Add name--></name>
-				</respStmt>
-				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Danny Smith</name>
 				</respStmt>
@@ -40,14 +36,14 @@
 			<sourceDesc>
 				 <p>Heidelberg Hs. 1012 (olim Ashburnham Place, Cod. 486)</p>
 				<listWit>
-					<witness xml:id="Transcription">The Queen of France</witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription"><!--Short title in Original Language--></witness>
+					<witness xml:id="Translation">The Queen of France</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"The Queen of France" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -82,8 +78,8 @@
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"><hi rend="underline">D</hi>Ye schrijfft bedudet so waz geschach</lem>
-						<rdg wit="#Translation">This text tells what happened</rdg>
+						<lem wit="#Transcription">*D*Ye schrijfft bedudet so waz geschach</lem>
+						<rdg wit="#Translation">*T*his text tells what happened</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -241,884 +237,892 @@
 				</l>
 				<l n="26">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Myn herre der ist dijr also holt</lem>
 						<rdg wit="#Translation">on account of my lord, who holds you in such high esteem.</rdg>
 					</app>
 				</l>
 				<l n="27">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Er hat gesat yn dyne hant</lem>
 						<rdg wit="#Translation">He has placed in your hands</rdg>
 					</app>
 				</l>
 				<l n="28">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Burge stede vnde wijde lant</lem>
 						<rdg wit="#Translation">castles, cities, and wide lands,</rdg>
 					</app>
 				</l>
 				<l n="29">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Durch daz du syn geweldich bist</lem>
 						<rdg wit="#Translation">and put you in charge of them.</rdg>
 					</app>
 				</l>
 				<l n="30">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Durch got layß mich ain argelist</lem>
 						<rdg wit="#Translation">For the sake of Our Lord, spare me your malicious tricks</rdg>
 					</app>
 				</l>
 				<l n="31">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Belyuen vnd bede mich nit me</lem>
 						<rdg wit="#Translation">and do not ask me again</rdg>
 					</app>
 				</l>
 				<l n="32">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Daz myr gee ain myne ere</lem>
 						<rdg wit="#Translation">for anything that compromises my honor.”</rdg>
 					</app>
 				</l>
 				<l n="33">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*Er marschalck vngetruwe sprach</lem>
+						<rdg wit="#Translation">*T*he faithless marshal said:</rdg>
 					</app>
 				</l>
 				<l n="34">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Myr ist vmmer nuwee</lem>
+						<rdg wit="#Translation">“The torment and suffering of my heart</rdg>
 					</app>
 				</l>
 				<l n="35">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vngemach vnd hertzen leyt</lem>
+						<rdg wit="#Translation">are renewed daily.
+							<note anchored="true" type="critical"><p>The syntax has been changed in the English translation for clarity of meaning.</p></note>
+						</rdg>
 					</app>
 				</l>
 				<l n="36">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Auch hain ich ain vnderscheit</lem>
+						<rdg wit="#Translation">What’s more, I have loved you ceaselessly</rdg>
 					</app>
 				</l>
 				<l n="37">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Gedynet von kindez yogent</lem>
+						<rdg wit="#Translation">since I was young.</rdg>
 					</app>
 				</l>
 				<l n="38">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nu laissent mich uwer dogen</lem>
+						<rdg wit="#Translation">Now let me enjoy a secret affair with you</rdg>
 					</app>
 				</l>
 				<l n="39">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Geneyssen vnd horent mich</lem>
+						<rdg wit="#Translation">and grant me my pleas,</rdg>
 					</app>
 				</l>
 				<l n="40">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vill zarte frauwe mynnenclich</lem>
+						<rdg wit="#Translation">dearest, beloved lady.”</rdg>
 					</app>
 				</l>
 				<l n="41">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*O sprach die zarte mynnenclich</lem>
+						<rdg wit="#Translation">*T*he lovely and sweet one replied:</rdg>
 					</app>
 				</l>
 				<l n="42">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jch nemen is uff die true myn</lem>
+						<rdg wit="#Translation">“On my honor, I swear,</rdg>
 					</app>
 				</l>
 				<l n="43">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Erlaysse mich deser bede</lem>
+						<rdg wit="#Translation">spare me this request</rdg>
 					</app>
 				</l>
 				<l n="44">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ee dan daz ich dich erwede</lem>
+						<rdg wit="#Translation">or I promise</rdg>
 					</app>
 				</l>
 				<l n="45">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Brenghe jn leyt vnd vngemach</lem>
+						<rdg wit="#Translation">to inflict on you pain and trouble.”</rdg>
 					</app>
 				</l>
 				<l n="46">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Der marschalg gedohte</lem>
+						<rdg wit="#Translation">The marshal thought:</rdg>
 					</app>
 				</l>
 				<l n="47">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">O avee und owach
+							<note anchored="true" type="critical"><p>“sprach” at the end of line 46 was substituted by “gedohte” taken from Strippel because the subsequent text makes clear that the marshal would never talk about his evil thoughts before taking leave of the queen (p. 220, l. 48); she is ignorant of his evil intentions.</p></note>
+						</lem>
+						<rdg wit="#Translation">“Oh, woe is me! Alas!</rdg>
 					</app>
 				</l>
 				<l n="48">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Leget sij is mynem herren vor</lem>
+						<rdg wit="#Translation">If she passes this on to my lord,</rdg>
 					</app>
 				</l>
 				<l n="49">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">So weyß ich wail daz ich verlore</lem>
+						<rdg wit="#Translation">I know for certain that I will lose</rdg>
 					</app>
 				</l>
 				<l n="50">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Lijff ere vnde alle myn guet</lem>
+						<rdg wit="#Translation">my life, my honorable position at court, and all my possessions.”</rdg>
 					</app>
 				</l>
 				<l n="51">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Da myt der marschalk von ir schiet</lem>
+						<rdg wit="#Translation">With this the marshal took leave of her,</rdg>
 					</app>
 				</l>
 				<l n="52">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde ginck gedencken euen</lem>
+						<rdg wit="#Translation">and he left thinking about</rdg>
 					</app>
 				</l>
 				<l n="53">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Wie er dye fraue brecht vmb ir // leuen</lem>
+						<rdg wit="#Translation">how to take the lady’s life.</rdg>
 					</app>
 				</l>
 				<l n="54">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*Er koningk eyns seden plach</lem>
+						<rdg wit="#Translation">*T*he king was in the habit of</rdg>
 					</app>
 				</l>
 				<l n="55">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Wanne er schinen sach den // dach</lem>
+						<rdg wit="#Translation">getting up in a noble manner,</rdg>
 					</app>
 				</l>
 				<l n="56">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">So stunt er uff von hoger art</lem>
+						<rdg wit="#Translation">at daybreak,</rdg>
 					</app>
 				</l>
 				<l n="57">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dar lijße von der frauen zart</lem>
+						<rdg wit="#Translation">and leaving the sweet lady</rdg>
 					</app>
 				</l>
 				<l n="58">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vff daz er sij slayffen lyeß</lem>
+						<rdg wit="#Translation">sleeping there,</rdg>
 					</app>
 				</l>
 				<l n="59">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Als yn syne dogent daz hyeß</lem>
+						<rdg wit="#Translation">as his good manners demanded of him,</rdg>
 					</app>
 				</l>
 				<l n="60">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want sij waz der iare nyt alt</lem>
+						<rdg wit="#Translation">for she was young.</rdg>
 					</app>
 				</l>
 				<l n="61">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">So fore er iagen jn den walt</lem>
+						<rdg wit="#Translation">He went hunting in the woods,</rdg>
 					</app>
 				</l>
 				<l n="62">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Bijssen vnde beyssen</lem>
+						<rdg wit="#Translation">with hunting dogs and with falcons.</rdg>
 					</app>
 				</l>
 				<l n="63">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Der koningk hat auch geheissen</lem>
+						<rdg wit="#Translation">The king had also ordered</rdg>
 					</app>
 				</l>
 				<l n="64">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz man besluysse keyn durre</lem>
+						<rdg wit="#Translation">that no door be locked</rdg>
 					</app>
 				</l>
 				<l n="65">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want der marschalk were dar vor</lem>
+						<rdg wit="#Translation">because the marshal oversaw that.</rdg>
 					</app>
 				</l>
 				<l n="66">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Also wail getruwet er dem bosewicht</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">That is how much he trusted the villain;</hi></rdg>
 					</app>
 				</l>
 				<l n="67">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Er enwist von syner falscheit nyt</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">he knew nothing of his treachery.</hi></rdg>
 					</app>
 				</l>
 				<l n="68">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*Er koningk auch erzogen hat</lem>
+						<rdg wit="#Translation">*T*he king had also raised</rdg>
 					</app>
 				</l>
 				<l n="69">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Eyn getwerg ane al missedait</lem>
+						<rdg wit="#Translation">a blameless dwarf,</rdg>
 					</app>
 				</l>
 				<l n="70">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Es lach vnde slyeff jn dem saille</lem>
+						<rdg wit="#Translation">who rested and slept in the great hall.</rdg>
 					</app>
 				</l>
 				<l n="71">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dez nam der feyge marschalk war</lem>
+						<rdg wit="#Translation">The cowardly marshal took him,</rdg>
 					</app>
 				</l>
 				<l n="72">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde laicht is der frauen jn die arm</lem>
+						<rdg wit="#Translation">put him into the lady’s arms,</rdg>
 					</app>
 				</l>
 				<l n="73">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde decket es sere warm</lem>
+						<rdg wit="#Translation">covered him up</rdg>
 					</app>
 				</l>
 				<l n="74">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde kerde es zu yrrer bruste</lem>
+						<rdg wit="#Translation">and turned him to her breast,</rdg>
 					</app>
 				</l>
 				<l n="75">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz sij is werlich nyt enwiste</lem>
+						<rdg wit="#Translation">and she did not notice what was happening.</rdg>
 					</app>
 				</l>
 				<l n="76">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde macht er sich dannen balde</lem>
+						<rdg wit="#Translation">Then he quickly departed</rdg>
 					</app>
 				</l>
 				<l n="#77">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Zu deme selbn walde</lem>
+						<rdg wit="#Translation">for the woods,</rdg>
 					</app>
 				</l>
 				<l n="78">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jn snellicher lijst</lem>
+						<rdg wit="#Translation">full speed,</rdg>
 					</app>
 				</l>
 				<l n="79">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Da er synen herren wiste</lem>
+						<rdg wit="#Translation">where he knew his lord was hunting.</rdg>
 					</app>
 				</l>
 				<l n="80">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*O er den koning ain sach</lem>
+						<rdg wit="#Translation">*A*s soon as he spied the king,</rdg>
 					</app>
 				</l>
 				<l n="81">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vsser faltschem munde er sprach</lem>
+						<rdg wit="#Translation">he spoke deceitful words:</rdg>
 					</app>
 				</l>
 				<l n="82">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Layssent uwer jagen hi belyuen</lem>
+						<rdg wit="#Translation">“Stop your hunting right now.</rdg>
 					</app>
 				</l>
 				<l n="83">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jr sullent anders bedryuen</lem>
+						<rdg wit="#Translation">You should chase something else,</rdg>
 					</app>
 				</l>
 				<l n="84">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz uch nu me zu hertzen gait</lem>
+						<rdg wit="#Translation">that lies closer to your heart</rdg>
 					</app>
 				</l>
 				<l n="85">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde kummerlichen mach werden rait</lem>
+						<rdg wit="#Translation">and that can only with great difficulty be turned from wrong to right.”</rdg>
 					</app>
 				</l>
 				<l n="86">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Der koning sprach waz mach dat // syn</lem>
+						<rdg wit="#Translation">The king said: “What might that be?”</rdg>
 					</app>
 				</l>
 				<l n="87">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Der marschalk sprach de koningynne</lem>
+						<rdg wit="#Translation">The marshal replied: “The queen,</rdg>
 					</app>
 				</l>
 				<l n="88">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sij pleget falscher mynne</lem>
+						<rdg wit="#Translation">she is an adulteress,</rdg>
 					</app>
 				</l>
 				<l n="89">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jr sullent nu werden jnne</lem>
+						<rdg wit="#Translation">and you have to see it for yourself.</rdg>
 					</app>
 				</l>
 				<l n="90">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Koment mit mir drade</lem>
+						<rdg wit="#Translation">Come with me quickly,</rdg>
 					</app>
 				</l>
 				<l n="91">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jr fyndent sij ain faltscher dade</lem>
+						<rdg wit="#Translation">you will catch her in the act of infidelity.”</rdg>
 					</app>
 				</l>
 				<l n="92">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*Er koning sere erschrackt</lem>
+						<rdg wit="#Translation">*T*he king was very shocked</rdg>
 					</app>
 				</l>
 				<l n="93">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jagen er nit langer enplach</lem>
+						<rdg wit="#Translation">and he stopped the hunt.</rdg>
 					</app>
 				</l>
 				<l n="94">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jn zorne fore er weder heym</lem>
+						<rdg wit="#Translation">Furious, he rode home.</rdg>
 					</app>
 				</l>
 				<l n="95">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er fant die zarte wandels kein</lem>
+						<rdg wit="#Translation">He found the dearest one as before,</rdg>
 					</app>
 				</l>
 				<l n="96">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dan noch slayffen ain dem bette</lem>
+						<rdg wit="#Translation">still sleeping in her bed,</rdg>
 					</app>
 				</l>
 				<l n="97">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde sach wo sij hatte</lem>
+						<rdg wit="#Translation">and saw that she had by her side</rdg>
 					</app>
 				</l>
 				<l n="98">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz getwerch ain alle schult</lem>
+						<rdg wit="#Translation">the blameless dwarf.</rdg>
 					</app>
 				</l>
 				<l n="99">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz nam er mit vngedolt</lem>
+						<rdg wit="#Translation">He lifted the dwarf up swiftly and angrily</rdg>
 					</app>
 				</l>
 				<l n="100">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Alda myt synen henden</lem>
+						<rdg wit="#Translation">with his hands</rdg>
 					</app>
 				</l>
 				<l n="101">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde sluyche is weder dye wende</lem>
+						<rdg wit="#Translation">and slammed him against the wall–</rdg>
 					</app>
 				</l>
 				<l n="102">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vmb schult da id nye vmb warff</lem>
+						<rdg wit="#Translation">All for a crime that the dwarf never committed–</rdg>
 					</app>
 				</l>
 				<l n="103">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Byß id von synen henden starff</lem>
+						<rdg wit="#Translation">until the king had killed the dwarf.</rdg>
 					</app>
 				</l>
 				<l n="104">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*Ye frauwe erwacht vnd sprach</lem>
+						<rdg wit="#Translation">*T*he lady awoke and asked:</rdg>
 					</app>
 				</l>
 				<l n="105">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Here waz ist uwer vngemach</lem>
+						<rdg wit="#Translation">“Sire, what troubles you,</rdg>
 					</app>
 				</l>
 				<l n="106">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz yr sijt zornes also voll</lem>
+						<rdg wit="#Translation">that you are so full of anger?”</rdg>
 					</app>
 				</l>
 				<l n="107">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er sprach du bose schande</lem>
+						<rdg wit="#Translation">He replied: “You worthless disgrace,</rdg>
 					</app>
 				</l>
 				<l n="108">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Du weist doch waill</lem>
+						<rdg wit="#Translation">you know why!</rdg>
 					</app>
 				</l>
 				<l n="109">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sych wye schenlich du hij lijgest</lem>
+						<rdg wit="#Translation">Look at how shamefully you lie here</rdg>
 					</app>
 				</l>
 				<l n="110">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde mich mit falscheit ouergist</lem>
+						<rdg wit="#Translation">and how you drown me in deceit</rdg>
 					</app>
 				</l>
 				<l n="111">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Myt dyner faltscher mynne</lem>
+						<rdg wit="#Translation">with your adultery!”</rdg>
 					</app>
 				</l>
 				<l n="112">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Herre behaldent uwer synne</lem>
+						<rdg wit="#Translation">“Sire, be reasonable,”</rdg>
 					</app>
 				</l>
 				<l n="113">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sprach dye edel fraue zart</lem>
+						<rdg wit="#Translation">said the noble and tender lady,</rdg>
 					</app>
 				</l>
 				<l n="114">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Got weyß woil daz ich nye schuldich enwart</lem>
+						<rdg wit="#Translation">“God knows, I am not guilty</rdg>
 					</app>
 				</l>
 				<l n="115">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Ayn dyessen lesterlichen sachen</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">of such immoral actions.</hi></rdg>
 					</app>
 				</l>
 				<l n="116">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">So wye es sich auch hait gemacht</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">Whatever might have happened,</hi></rdg>
 					</app>
 				</l>
 				<l n="117">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Daz muß uch got geuen zu erkennen</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">God will unveil the truth to you</hi></rdg>
 					</app>
 				</l>
 				<l n="118">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Vnd mich von dießer vnschult nemen</hi>
+							<note anchored="true" type="critical"><p>“vnschult” was translated as “schult” because the queen is talking about how God will prove that she is innocent not guilty; “vnschult” seems to be a scribal error.</p></note>
+						</lem>
+						<rdg wit="#Translation"><hi rend="italic">and take me from this blame.”</hi></rdg>
 					</app>
 				</l>
 				<l n="119">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er sprach swich vnd rede nyt</lem>
+						<rdg wit="#Translation">He replied: “Silence! Do not speak!</rdg>
 					</app>
 				</l>
 				<l n="120">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ich hain ain dyeßer geschiecht</lem>
+						<rdg wit="#Translation">I find this matter</rdg>
 					</app>
 				</l>
 				<l n="121">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Also lesterlichen funden</lem>
+						<rdg wit="#Translation">so degrading</rdg>
 					</app>
 				</l>
 				<l n="122">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz du zu dyesen stunden</lem>
+						<rdg wit="#Translation">that you have at this hour</rdg>
 					</app>
 				</l>
 				<l n="123">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz leuen moys verloren hain</lem>
+						<rdg wit="#Translation">lost your life,</rdg>
 					</app>
 				</l>
 				<l n="124">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Als balde ich es gefugen kan</lem>
+						<rdg wit="#Translation">as soon as I can bring it about!”</rdg>
 					</app>
 				</l>
 				<l n="125">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*O fugede es got daz da bij lach</lem>
+						<rdg wit="#Translation">*N*ow as God designed, there lived nearby</rdg>
 					</app>
 				</l>
 				<l n="126">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Eyn furste der hies hertzoch lupolt</lem>
+						<rdg wit="#Translation">a prince, named Duke Leopold.</rdg>
 					</app>
 				</l>
 				<l n="127">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Als es got fugen wulde</lem>
+						<rdg wit="#Translation">As God had intended,</rdg>
 					</app>
 				</l>
 				<l n="128">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Der erhorte daz gebroche</lem>
+						<rdg wit="#Translation">he heard of the crime.</rdg>
 					</app>
 				</l>
 				<l n="129">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnd er waz von dez konings geslecht</lem>
+						<rdg wit="#Translation">He belonged to the royal family,</rdg>
 					</app>
 				</l>
 				<l n="130">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er waz dez koningx suster kint</lem>
+						<rdg wit="#Translation">he was the king’s sister’s child,</rdg>
 					</app>
 				</l>
 				<l n="131">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Als men noch beschreben fynt</lem>
+						<rdg wit="#Translation">as it is written in the books,</rdg>
 					</app>
 				</l>
 				<l n="132">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er waz von oysterich genant</lem>
+						<rdg wit="#Translation">and he was from Austria.</rdg>
 					</app>
 				</l>
 				<l n="133">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er lyeff da er den fursten fant</lem>
+						<rdg wit="#Translation">He hurried to the lord.</rdg>
 					</app>
 				</l>
 				<l n="134">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Er sprach herre was zornent ir</lem>
+						<rdg wit="#Translation">He asked: “Sire, why are you so angry?</rdg>
 					</app>
 				</l>
 				<l n="135">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">durch got daz sult yr sagen mir.
+							<note anchored="true" type="critical"><p>“durch got” at the end of line 134 drifted onto the wrong line. Staying true to the rhyme and for clarity of meaning “durch got” was moved to the beginning of line 135.</p></note>
+						</lem>
+						<rdg wit="#Translation">In God’s name, tell me.”</rdg>
 					</app>
 				</l>
 				<l n="136">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Do sprach der edel koning rijch</lem>
+						<rdg wit="#Translation">There the noble and highborn king replied:</rdg>
 					</app>
 				</l>
 				<l n="137">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">O neue layß erbarmen dich</lem>
+						<rdg wit="#Translation">“Oh nephew, take pity on me!</rdg>
 					</app>
 				</l>
 				<l n="138">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Myn hertzeleyt is also groiß</lem>
+						<rdg wit="#Translation">My heart’s suffering is very great.</rdg>
 					</app>
 				</l>
 				<l n="139">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sijch wie dye schande ain eren blois</lem>
+						<rdg wit="#Translation">Just look at how this disgrace</rdg>
 					</app>
 				</l>
 				<l n="140">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">So lesterlichen geworffen hait</lem>
+						<rdg wit="#Translation">has so degradingly attacked my honor</rdg>
 					</app>
 				</l>
 				<l n="141">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz ir nummer mach werden rait</lem>
+						<rdg wit="#Translation">that it can never be made right again.”</rdg>
 					</app>
 				</l>
 				<l n="142">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*D*O sprach der hirtzoch lu // polt</lem>
+						<rdg wit="#Translation">*T*hen Duke Leopold said:</rdg>
 					</app>
 				</l>
 				<l n="143">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">So werdent mir nummer holt</lem>
+						<rdg wit="#Translation">“Even though you may never grant me your favor again:</rdg>
 					</app>
 				</l>
 				<l n="144">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Myn fraue nye kein schult gewan</lem>
+						<rdg wit="#Translation">my lady is blameless.</rdg>
 					</app>
 				</l>
 				<l n="145">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Yemant mach sij verraden hain</lem>
+						<rdg wit="#Translation">Someone must have betrayed her;</rdg>
 					</app>
 				</l>
 				<l n="146">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Want ich nye faltscheit an ir sach</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">I have never seen deceit in her.”</hi></rdg>
 					</app>
 				</l>
 				<l n="147">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Der koning myt zorne sprach</lem>
+						<rdg wit="#Translation">The king replied with anger:</rdg>
 					</app>
 				</l>
 				<l n="148">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Sij moyß verbyrnen uff eyner hort</lem>
+						<rdg wit="#Translation">“Let her be burned at the stake!”</rdg>
 					</app>
 				</l>
 				<l n="149">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Neyn sprach der herre erent die frucht</lem>
+						<rdg wit="#Translation">“No”, said the Duke, “honor the child</rdg>
 					</app>
 				</l>
 				<l n="150">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dye sij yn yrrem lijff dreyt</lem>
+						<rdg wit="#Translation">she carries in her womb.</rdg>
 					</app>
 				</l>
 				<l n="151">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dodent ir sij es wirt uch leyt</lem>
+						<rdg wit="#Translation">If you kill her it will cause you grief</rdg>
 					</app>
 				</l>
 				<l n="152">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want ir anders kein erben hait</lem>
+						<rdg wit="#Translation">because you have no other heir.</rdg>
 					</app>
 				</l>
 				<l n="153">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Burge stede vnde wijde lant</lem>
+						<rdg wit="#Translation">Castles, cities, and wide lands</rdg>
 					</app>
 				</l>
 				<l n="154">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dye yr billich sullont erffen</lem>
+						<rdg wit="#Translation">which you will pass on by right,</rdg>
 					</app>
 				</l>
 				<l n="155">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Willent yr sij verderffen</lem>
+						<rdg wit="#Translation">do you want to ruin all that?</rdg>
 					</app>
 				</l>
 				<l n="156">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">*N*Eyn werder herre dont so wail</lem>
+						<rdg wit="#Translation">*N*o, noble Sire, act in such a way</rdg>
 					</app>
 				</l>
 				<l n="157">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Daz ich uch vmmer danck sal</lem>
+						<rdg wit="#Translation">that I will be obliged to you forever:</rdg>
 					</app>
 				</l>
 				<l n="158">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Geuent ir frijst laist sij genesen</lem>
+						<rdg wit="#Translation">let her live until she gives birth,</rdg>
 					</app>
 				</l>
 				<l n="159">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vff daz ich uwer dyner moge wesen</lem>
+						<rdg wit="#Translation">and I will continue to serve you,</rdg>
 					</app>
 				</l>
 				<l n="160">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Also ich bin gewesten</lem>
+						<rdg wit="#Translation">as I have in the past.</rdg>
 					</app>
 				</l>
 				<l n="161">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nye kein schult wart so grois // nye</lem>
+						<rdg wit="#Translation">No guilt is so great</rdg>
 					</app>
 				</l>
 				<l n="162">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Da enwer eyn deill genaden ain</lem>
+						<rdg wit="#Translation">that it does not deserve a portion of mercy.</rdg>
 					</app>
 				</l>
 				<l n="163">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Nu layst sij herre genyessen myn</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">Now let her be for my sake, Sire,</hi></rdg>
 					</app>
 				</l>
 				<l n="164">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde ere <hi rend="strikethrough">dy</hi> <hi rend="italic">maria</hi> die koningynne</lem>
+						<rdg wit="#Translation">and honor the Queen <hi rend="italic">Mary,</hi></rdg>
 					</app>
 				</l>
 				<l n="165">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dye reyne mait die got gebar</lem>
+						<rdg wit="#Translation">the pure maiden, who gave birth to God,</rdg>
 					</app>
 				</l>
 				<l n="166">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Vnde nement uwer dogent war</lem>
+						<rdg wit="#Translation">and show your virtue</rdg>
 					</app>
 				</l>
 				<l n="167">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Durch ere aller reyner wijff</lem>
+						<rdg wit="#Translation">on behalf of the purest woman,</rdg>
 					</app>
 				</l>
 				<l n="168">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Want sij jn yrrem lijff</lem>
+						<rdg wit="#Translation">because the queen carries in her body</rdg>
 					</app>
 				</l>
 				<l n="169">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dreyt eyne swere burde</lem>
+						<rdg wit="#Translation">a heavy burden.</rdg>
 					</app>
 				</l>
 				<l n="170">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Jch weyß dat sij nye enwurde</lem>
+						<rdg wit="#Translation">I know that she is not</rdg>
 					</app>
 				</l>
 				<l n="171">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Schuldich ain deser dait</lem>
+						<rdg wit="#Translation">guilty of this misdeed,</rdg>
 					</app>
 				</l>
 				<l n="172">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">So wye es sich gefuget hait</lem>
+						<rdg wit="#Translation">however it transpired.”</rdg>
 					</app>
 				</l>
 				<l n="173">
