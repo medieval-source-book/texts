@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>How John of Acre Was Deceived</title>
-				<author><!--Anonymous if unknown--></author>
+				<title>How Sir John of Acre, butler of France, who was on guard, was deceived by some Saracens who requested baptism</title>
+				<author>Guillaume de Nangis</author>
 				<respStmt>
-					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
+					<resp>Text based on</resp>
+					<name>Viard, Jules. <hi rend=italic>Les Grandes Chroniques De France.</hi> Vol. 10, Société De L'Histoire De France, 1920.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,10 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				 <p><ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=royal_ms_16_g_vi_fs001r">London, British Library Royal MS 16 G VI ff. 442r-442v</ref></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription">Comment Jehan d'Acre fu deceus</witness>
+					<witness xml:id="Translation">How John of Acre was Deceived</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
