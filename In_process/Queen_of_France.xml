@@ -34,9 +34,9 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p>Heidelberg Hs. 1012 (olim Ashburnham Place, Cod. 486)</p>
+				 <p><ref target="https://digi.ub.uni-heidelberg.de/diglit/heidhs1012/0503">Heidelberg Hs. 1012 (olim Ashburnham Place, Cod. 486) ff. 249r- 254v</ref></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in Original Language--></witness>
+					<witness xml:id="Transcription">Die Königin von Frankreich</witness>
 					<witness xml:id="Translation">The Queen of France</witness>
 				</listWit>
 			</sourceDesc>
@@ -50,6 +50,12 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>u/v- spelling and i/j- spelling follow the manuscript, e.g. Heid. Hs. 1012 vnd > Standard Middle High German und; Heid. Hs. 1012 ouer > Standard Middle High German ober; Heid. Hs. 1012 dye > Standard Middle High German diu/die; Heid. Hs. 1012 lijff > Standard Middle High German lîp.</p>
+        			<p>Separate and compound spelling are not normalized to standard Middle High German but rather follow the manuscript and no punctuation has been added (no periods, question marks, or exclamation points; no commas, semicolons, or colons; no dashes, or hyphens; no brackets, braces, or parentheses; and no apostrophes or quotation marks).</p>
+        			<p>To give a visual impression of the original manuscript’s structure and composition lombards, red initials indicating new paragraphs, are marked by with *asterisks*. Scribal corrections, deletions and additions, mostly indicated by the rubricator with red ink, are also recorded. Crossed out letters and words in the manuscript are crossed out in the edition as well.</p>
+        			<p>For the sake of the edition’s readability and following standard practice abbreviations and diacritical signs are expanded, and the descending s (ſ), which appears internally and initially but not at the end of words, is replaced with the round s.</p>
+        			<p>The rubricator’s red-ink flourishes have been disregarded after carefully analyzing their semiotic meaning. The flourishes are only used when there is an empty space on a line between the rhyme word, which is always placed at the end of a line, and the line delineating the end of the column. Which suggests that these flourishes are only decorative because they ensure that the manuscript looks uniform. The scribe at times ran out of room while writing and completed a line in an adjacent empty space. In some of these cases, the rubricator drew a red-ink line indicating where the final phrase belonged. These final phrases were added and marked by double slashes. This edition also follows the rubricator’s red-ink line indication in the manuscript, which at times deviates from the scribe’s lines. </p>
+        			<p>In only three places, where Heid. Hs. 1012 appears to be flawed, it is amended in a clearly referenced manner. The supplements were made according to the latest edition of "The Queen of France" by Jutta Strippel (1978) and are placed in square brackets. Additions in comparison to Strippel’s edition are marked by italics.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
