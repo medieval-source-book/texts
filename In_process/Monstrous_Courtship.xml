@@ -17,11 +17,11 @@
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Sam Lasman</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -72,7 +72,7 @@
 			<lg n="1" type="stanza">
 				<l n="1-">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">قطعه ای از بهمن نامه ی ایرانشاه بن ابی الخر</lem>
 						<rdg wit="#Translation">Excerpt from the <hi rend="italic">Bahmannāmeh</hi> of Irānshāh ebn-e Abi-l-Khayr</rdg>
 					</app>
 				</l>
@@ -80,7 +80,7 @@
 			<lg n="2" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"><note anchored="true"><p></p></note></lem>
+						<lem wit="#Transcription">برفتند ازینسان سه روز و سه شب XXX شکم گرسنه ناچریده به لب</lem>
 						<rdg wit="#Translation">They went on like this, three days and three nights, bellies hungry, lips famished.</rdg>
 					</app>
 				</l>
