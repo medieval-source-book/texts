@@ -12,8 +12,8 @@
 				<title>A Monstrous Courtship</title>
 				<author>Hakim Irānshāh ebn-e Abi-l-Khayr</author>
 				<respStmt>
-					<resp>Transcription based on</resp>
-					<name>the lithograph compiled by Rostam Pur Bahrām Sorush Tafti. Bambaʼī: Matbaʻ-i Faiz Rasān, 1325 [1908].</name>
+					<resp>Supplemented by the edition in</resp>
+					<name>al-Shāfiʿī, M. 1911. Dīwān al-Imām Muḥammad ibn Idrīs al-Shāfiʿī, ed. Maḥmūd Ibrāhīm Haybah. al-Qāhirah: Maṭbaʿat al-Taqaddum</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,10 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Trancription based onthe lithograph compiled by Rostam Pur Bahrām Sorush Tafti. Bambaʼī: Matbaʻ-i Faiz Rasān, 1325 [1908].</p>
 				<listWit>
 					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Translation">A Monstrous Courtship</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
