@@ -10,22 +10,18 @@
 		<fileDesc>
 			<titleStmt>
 				<title>On the Merciful God and on the Birds' Glorification</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Sanā’ī of Ghazna</author>
 				<respStmt>
 					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
 					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name><!--Add name--></name>
-				</respStmt>
-				<respStmt>
-					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
-					<name><!--Add name--></name>
+					<name>Navid Saberi-Najafi</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -40,8 +36,8 @@
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription">در توحید خداوند غفور و تسبیح طیور فرماید</witness>
+					<witness xml:id="Translation">On the Merciful God and on the Birds’ Glorifications</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -66,8 +62,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
-						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+						<lem wit="#Transcription">در توحید خداوند غفور و تسبیح طیور فرماید</lem>
+						<rdg wit="#Translation">On the Merciful God and on the Birds’ Glorifications</rdg>
 					</app>
 				</title>
 				<title type="sub">
@@ -82,31 +78,31 @@
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">ارناهج هرابرگد رادناهج تسارآ<space quantity="15" unit="chars"></space>ار نامز و ار نی مز ، درک نیرب دلخ نوچ</lem>
+						<lem wit="#Transcription"><seg>آراست جهاندار دگرباره جهانرا</seg><seg>چون خُلد برین کرد، زمین را و زمان را</seg></lem>
 						<rdg wit="#Translation">Once again, God beautified the world,<lb/>Turned the Earth and time into the Most Exalted Paradise.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><seg>فرمود که تا چرخ یکی دور دگر کرد</seg><seg>خورشید بپیمود مسیر دَوَران را</seg></lem>
+						<rdg wit="#Translation">As soon as the firmament made one orbit, He ordered<lb/>The sun to travel its circular path.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><seg>ایدون که بیاراست مرآن پیرِ خرِفرا</seg><seg>کاید حسد، از تازگیش، تازه جوان را</seg></lem>
+						<rdg wit="#Translation">He beautified that senile, old man in a way that<lb/>His sprightliness enkindled the fair sapling’s envy.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription"><space quantity="15" unit="chars"></space></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription"><space quantity="15" unit="chars"></space></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
