@@ -12,8 +12,8 @@
 				<title>On the Merciful God and on the Birds' Glorification</title>
 				<author>Sanā’ī of Ghazna</author>
 				<respStmt>
-					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
+					<resp>Text based on</resp>
+					<name>Sanā’ī al-Ghaznavī, Abū al-Majd Majdūd ibn Ādam. Huva kitāb-i mustaṭāb-i kullīyāt. Bombay: Khan Sahib M.M. Shirazi, 1328 [1910].</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,7 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				 <p><ref target="https://www.loc.gov/item/2013415205/">Sanā’ī al-Ghaznavī, Abū al-Majd Majdūd ibn Ādam. Huva kitāb-i mustaṭāb-i kullīyāt. Bombay: Khan Sahib M.M. Shirazi, 1328 [1910].</ref></p>
 				<listWit>
 					<witness xml:id="Transcription">در توحید خداوند غفور و تسبیح طیور فرماید</witness>
 					<witness xml:id="Translation">On the Merciful God and on the Birds’ Glorifications</witness>
@@ -50,6 +50,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>In the transcription, punctuation marks and diacritics have been used to aid the reader. The English translation has attempted to preserve the Persian text’s elevated diction.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
