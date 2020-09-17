@@ -36,20 +36,21 @@
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription">قافية الهمزة</witness>
+					<witness xml:id="Translation">The Hamzah Rhyme</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"The Hamzah Rhyme" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>For clarification, I have added diacritics to letters left unmarked in this edition.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -68,13 +69,21 @@
 				</title>
 				<title type="sub">
 					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+						<lem wit="#Transcription">من ديوان الشافعي</lem>
+						<rdg wit="#Translation">from the Dīwān al-Shāfiʿī</rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
+			<lg n="0" type="stanza">
+				<l n="0">
+					<app>
+						<lem wit="#Transcription">من ديوان الشافعي</lem>
+						<rdg wit="#Translation">from the Dīwān al-Shāfiʿī</rdg>
+					</app>
+				</l>
+			</lg>
 			<lg n="1">
 				<l n="1">
 					<app>
