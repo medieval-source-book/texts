@@ -10,7 +10,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Noble prayer said when standing before kings, known by experience to be beneficial (God most high willing)</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Abū Nuʻaym al-Iṣbahānī [att.]</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name>Joshua Mugler</name>
@@ -50,6 +50,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>I have transcribed and translated the text from Khalidi MS 214, its only known copy in this form. I have generally maintained the spelling of the manuscript, including frequent omission of the Arabic letter hamzah (ء) that marks the glottal stop, but have standardized the dots on several letters that sometimes appear without them. The manuscript includes a surprising number of short vowel and case markings, but these have been omitted in transcription. There are few punctuation marks in the text, as with most pre-modern Arabic texts, and I have added a few additional periods to help organize the sentences. I have retained masculine language for God to reflect the usage of the Arabic text. -Translator</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -106,395 +107,218 @@
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">فجئت الى بابه فامرت من دق عليه فابطأ الجواب فعلمت أنه يصلي فوقفت حتى فرغ من صلاته.</lem>
 						<rdg wit="#Translation">I came to his door and commanded someone to knock, but he was slow to answer.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">I learned that he was praying, so I waited until he finished his prayer.</rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">ففتح الباب فسلمت عليه وقلت له اجب امير المومنين.</lem>
 						<rdg wit="#Translation">He opened the door and I greeted him and said, “Answer the Commander of the Faithful.”</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">He said, “To hear is to obey.” He renewed his ablutions, did two cycles of prayer, and left, walking until we reached the curtain.</rdg>
+						<lem wit="#Transcription">فقال سمعا وطاعة.</lem>
+						<rdg wit="#Translation">He said, “To hear is to obey.”</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فجدد الوضوء وركع ركعتين وخرج يمشي حتى وصلنا الى الستر.</lem>
+						<rdg wit="#Translation">He renewed his ablutions, did two cycles of prayer, and left, walking until we reached the curtain.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">فقلت له يا ابا عبد الله قف هنا لتستريح الى ان استاذن فدخلت على امير المومنين فاذا هو على حالة غضبه.</lem>
+						<rdg wit="#Translation">I told him, “Abū ʻAbd Allāh, wait here and relax until I call you in.” I went in to the Commander of the Faithful, who was still angry.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فلما راني قال اين الحجازي قلت عند الستر قال مره بالدخول.</lem>
+						<rdg wit="#Translation">When he saw me, he said, “Where is the Ḥijāzī?” I said, “At the curtain.” He said, “Command him to enter.”</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فخرجت اليه وقلت له بسم الله.</lem>
+						<rdg wit="#Translation">So I went out and said to him, “In the name of God.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">فدخل يمشي مطمئنا غير فزع ولا خائف ولا قلق ولا منزعج ثم بدا يحرك شفتيه ووجهه مستنير.</lem>
+						<rdg wit="#Translation">He went in, walking serenely, neither dismayed nor frightened nor worried nor uneasy. Then he began moving his lips and his face was illuminated.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فلما دخل وبصر به امير المومنين قام اليه واستقبله وجعل يقبل بين عينيه وابتهج به وقال له مرحبا بأبي عبد الله لم لا تزرنا وتكون عندنا فانني اليك مشتاق.</lem>
+						<rdg wit="#Translation">When he entered and the Commander of the Faithful saw him, he stood and welcomed him and began kissing him between the eyes. He was happy and said, “Welcome, Abū ʻAbd Allāh! Why have you not visited us, when you’re in town and I’ve been missing you?”</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">واجلسه مكانه وقعد الى جانبه وتحدث معه ساعة ثم أمر له ببدرة من الذهب.</lem>
+						<rdg wit="#Translation">He had him sit in his place, sat next to him, and talked with him for a while, then ordered that he be given a huge quantity of gold.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فقال الشافعي رضي الله عنه لا رأي لي فيه فسأله ان يقبله والج عليه فقبله غير مكترث به.</lem>
+						<rdg wit="#Translation">Al-Shāfiʻī—God be pleased with him—said, “I have no interest in it.” But he asked him to accept it and kept pestering him, so he accepted it with indifference.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم قال له الرشيد يا ابا عبد الله ما طلبناك الا لننال من بركتك ونحظي بمشاهدتك.</lem>
+						<rdg wit="#Translation">Then al-Rashīd said to him, “Abū ʻAbd Allāh, we only summoned you to obtain some blessing from you and to gain an audience with you.”</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ثم امرني ان أرده الى داره وان احمل البدرة بين يديه.</lem>
+						<rdg wit="#Translation">Then he commanded me to return him to his home and to take the gold along.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فلما خرجنا جعل يعطي كل من رآه وكل من سأله يمينا وشمالا حتى وصل الى منزله وما معه شيء منها.</lem>
+						<rdg wit="#Translation">When we went out, he began to give it to everyone he saw and everyone who asked, left and right, until he arrived at home and none of it remained.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما دخل منزله واطمان به الجلوس جلست بين يديه وقلت له يا ابا عبد الله قد عرفت محبتي لك وشفقتي عليك واني شاهدت غضب امير المومنين في ابتداء طلبه لك ثم لما دخلت عليه رايت منه من التواضع والتودد والاجلال والاكرام لك ما سرني</lem>
+						<rdg wit="#Translation">When he had entered his home and was sitting peacefully, I sat before him and said, “Abū ʻAbd Allāh, you know my love and affection for you. I saw the anger of the Commander of the Faithful when he first summoned you, then when you went before him, I saw his humility and friendliness, treating you with an honor and deference that delighted me.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">وكنت رايتك تحرك شفتيك عند دخولك عليه فبالذي سكن غضبه وسخره الا ما علمتني ما كنت تقوله عند دخولك معي اليه.</lem>
+						<rdg wit="#Translation">I saw you moving your lips when you went in before him, so what else could have calmed his anger and contempt? Teach me what you were saying when you and I went in before him.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="8">
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال حدثني مالك عن نافع عن ابن عمر رضي الله عنه وعنهم اجمعين ان رسول الله صلى الله عليه وسلم قراه يوم الاحزاب فهزمهم الله ونصره عليهم وهو</lem>
+						<rdg wit="#Translation">He said, “Mālik reported to me from Nāfiʻ, from Ibn ʻUmar—God be pleased with him and with them all—that the Messenger of God—God’s peace and blessings be upon him—recited it on the Day of the Confederates, so God routed them and gave him victory over them. It is:</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="9">
+				<s>
+					<app>
+						<lem wit="#Transcription">اعوذ بالله من الشيطان الرجيم بسم الله الرحمن الرحيم شهد الله أنه لا إله إلا هو والملائكة وأولوا العلم قائما بالقسط لا إله إلا هو العزيز الحكيم إن الدين عند الله الإسلام.</lem>
+						<rdg wit="#Translation">“I seek refuge in God from Satan the damned, in the name of God, merciful and compassionate. ‘God testifies that there is no god but him—as do the angels and those with knowledge—upholding justice. There is no god but him, Mighty and Wise. Religion in the sight of God is Islam.’<note type= "critical" anchored="true"><p>Qurʼan, Āl ʻImrān 3:18-19.</p></note></rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ثم قال وأنا أشهد بما شهد به وأستودع الله هذه الشهادة وهذه الشهادة وديعة لي عند الله إلى يوم القيمة</lem>
+						<rdg wit="#Translation">Then he said, I also testify to what he has testified, and I place this testimony as a deposit with God. This testimony is my deposit with God until the day of resurrection.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">أللهم أعوذ بنور قدسك وعظيم بركتك وعظمه طهارتك وبركة جلالك من كل أفة وعاهة ومن طوارق الليل والنهار إلا طارقا يطرق بخير</lem>
+						<rdg wit="#Translation">God, I seek refuge in the light of your holiness, the power of your blessing, the greatness of your purity, the blessing of your majesty, from every harm and malady and the misfortunes of night and day, that the traveler may arrive safely.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">يا رحمن أللهم أنت غياثي فبك أستغيث وانت ملاذي فبك ألوذ وأنت عياذي فبك أعوذ وأنت جاري فبك أستجير</lem>
+						<rdg wit="#Translation">Merciful God, you are my help, so I seek help with you! You are my shelter, so I seek shelter with you! You are my refuge, so I seek refuge with you! You are my protection, so I seek protection with you!</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">يا من ذلت له رقاب الجبابرة وخضعت له أعناق الفراعنة</lem>
+						<rdg wit="#Translation">You, before whom the necks of tyrants are humbled and to whom those of pharaohs submit!</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">اعوذ بك من خزيك ومن كشف سترك ومن نسيان ذكرك والإنصراف عن شكرك أنا في حرزك وتحت كنفك</lem>
+						<rdg wit="#Translation">I seek refuge in you from disgrace before you, from the opening of your veil, from forgetting to remember you, from neglecting to give you thanks. I am in your sanctuary, beneath your wing.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ليلي وهناري ونومي ورقادي وظعني وأسفاري وحركاتي وسكناتي وحياتي ومماتي وجميع ساعاتي وأوقاتي ذكرك شعاري وثناؤك دثاري</lem>
+						<rdg wit="#Translation">My night and my day, my sleeping and my lying down, my setting out and my traveling, my moving and my resting, my living and my dying, and all of my hours and times, your remembrance is on my lips and your praise covers me.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">أشهد أن لا إله إلا أنت ولا إله غيرك ولا معبود سواك تشريفا لعظمتك وتكريما لسبحات وجهك وإقرارا لصمدانيتك واعترافا بوحدانيتك وتنزيها لك عما يقول الكافرون والظالمون والجاحدون تعاليت عن ذلك علوا كبيرا</lem>
+						<rdg wit="#Translation">I testify that there is no god but you, there is no god beside you, there is no one worshiped except you, exalting your greatness, honoring the glory of your face, declaring your eternity and confessing your oneness, affirming that you are above all that the unbelievers and the unjust and the deniers say of you. You are highly exalted above that!</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">أللهم أجرني من خزيك ومن شر عبادك واضرب علي سرادقات حفظك وعنايتك وجد علي منك بخير يا أرحم الراحمين</lem>
+						<rdg wit="#Translation">God, protect me from disgrace before you and from the wickedness of your slaves! Pitch for me the pavilions of your preservation and your providence! Generously grant me your blessing, most merciful of the merciful!</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">إلهي كيف أخاف وأنت أملي أم كيف أضام وعليك توكلي أم كيف أقهر وأنت ذخري أم كيف أغلب وعليك في كل الأمور اعتمادي</lem>
+						<rdg wit="#Translation">My God, how can I fear, when you are my hope? How can I be harmed, when my trust is in you? How can I be overcome, when you are my treasure? How can I be defeated, when I rely upon you in all things?</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ضربت وجه كل حاسد حسد وراصد رصد وطالم كند بقل هو الله أحد الله الصمد لم يلد ولم يولد ولم يكن له كفوا أحد.</lem>
+						<rdg wit="#Translation">I strike the face of every envier who envies, every watcher who watches, everyone unjust and ungrateful, with ‘Say: He is God the one, God the eternal, he does not beget and he is not begotten, and there is none equal to him.’”<note type= "critical" anchored="true"><p>Qurʼan, al-Ikhlāṣ 112.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="10">
+				<s>
+					<app>
+						<lem wit="#Transcription">قال الفضل</lem>
+						<rdg wit="#Translation">Al-Faḍl said:</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="11">
+				<s>
+					<app>
+						<lem wit="#Transcription">فحفظت هذه الكلمات من الشافعي رضي الله عنه ولم أزل أتردد إلى بيته حتى حفظتها حفظا جيدا وما دخلت على هارون الرشيد إلا وقرأتها ودعوت بها بكرة وعشية.</lem>
+						<rdg wit="#Translation">So I memorized these words from al-Shāfiʻī - God be pleased with him — and I did not stop returning to his house until I had memorized them well, and I never went in before Hārūn al-Rashīd without reciting them and praying them, morning or evening.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">فوالله ما عدت رأيت منه ما أكره ولا حرد علي يوما ولا غضب علي ببركة هذا الدعاء الشريف وبركة الشافعي رضي الله عنه.</lem>
+						<rdg wit="#Translation">By God, I no longer received anything unpleasant from him, he was not annoyed with me for even a day, and he was never angry with me, by the blessing of this noble prayer and the blessing of al-Shāfiʻī, God be pleased with him.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="12">
+				<s>
+					<app>
+						<lem wit="#Transcription">وأعاد علينا وعلى المسلمين من بركة هذا الدعاء الشريف أمين.</lem>
+						<rdg wit="#Translation">May the blessing of this noble prayer continue to be upon us and upon the Muslims, amen.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p></note>
-						</lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">وصلى الله على سيدنا محمد وأله وصحبه وسلم.</lem>
+						<rdg wit="#Translation">God’s peace and blessings be upon our lord Muḥammad and his family and companions.</rdg>
 					</app>
 				</s>
 			</p>
