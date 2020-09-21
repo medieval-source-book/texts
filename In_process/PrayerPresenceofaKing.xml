@@ -21,7 +21,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Danny SMith</name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -34,9 +34,9 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p><ref target="https://www.vhmml.org/readingRoom/view/509737"> Khalidi Library (Jerusalem) MS 214, fol. 59r-61v</ref></p>
 				<listWit>
-					<witness xml:id="Transcription">دعا شريف يقال عند مقابلة الملوك نافع مجرب ان شا (الله تعالى)</witness>
+					<witness xml:id="Transcription">دعا شريف يقال عند مقابلة الملوك نافع مجرب ان شا الله تعالى</witness>
 					<witness xml:id="Translation">Noble prayer said when standing before kings, known by experience to be beneficial (God most high willing)</witness>
 				</listWit>
 			</sourceDesc>
