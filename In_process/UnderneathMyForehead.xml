@@ -12,8 +12,8 @@
 				<title>"Underneath my forehead I carry your beautiful image"</title>
 				<author>Jordi de Sant Jordi</author>
 				<respStmt>
-					<resp>Transcrption by Albert Lloret</resp>
-					<name> Digital reproduction of Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r </name>
+					<resp>Transcription By by</resp>
+					<name>Albert Lloret</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -21,7 +21,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Manya Bansal</name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -34,22 +34,22 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p>Digital reproduction of Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r</p>
+				 <p><ref target="http://zaguan.unizar.es/record/535?ln=en">Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r</ref></p>
 				<listWit>
-					<witness xml:id="Transcription">"Jus lo front "</witness>
-					<witness xml:id="Translation">"Underneath my forehead "</witness>
+					<witness xml:id="Transcription">"Jus lo front port vostra bella semblança"</witness>
+					<witness xml:id="Translation">"Underneath my forehead I carry your beautiful image"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
-			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"Underneath my forehead I carry your beautiful image" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
-            </projectDesc>
+            	<p>"Underneath my forehead I carry your beautiful image" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
 			<editorialDecl>
-        		<punctuation marks="all"><!--Who is responsible for punctuation choices?--></punctuation>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -62,20 +62,27 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">"Jus lo front port vostra bella semblança,"</lem>
-						<rdg wit="#Translation">"Underneath my forehead I carry your beautiful image"</rdg>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
 					</app>
 				</title>
 			</head>
 		</front>
+
+<note anchored="true"><p></p></note> 
+
 		<body>
-			<lg n="1">
-				<!--Each stanza needs its own line group <lg>-->
+			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Jus lo front port vostra bella semblança,</lem>
-						<rdg wit="#Translation">Underneath my forehead I carry your beautiful image<note anchored="true"><p><!--Insert note here--></p></note>
-						</rdg>
+						<rdg wit="#Translation">Underneath my forehead I carry your beautiful image,</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -121,8 +128,8 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="2">
-				<l n="9"><!--Lines are continuously numbered through the song so check that they are correct-->
+			<lg n="2" type="stanza">
+				<l n="9">
 					<app>
 						<lem wit="#Transcription">Si com l’infants quant mira lo retaula</lem>
 						<rdg wit="#Translation">Like the little kid who watches the altarpiece</rdg>
@@ -171,7 +178,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="3">
+			<lg n="3" type="stanza">
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">Aixi·m te pres e liatz en son carçre</lem>
@@ -221,11 +228,11 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="4">
-				<l n="25"><!--Lines are continuously numbered through the song so check that they are correct-->
+			<lg n="4" type="stanza">
+				<l n="25">
 					<app>
 						<lem wit="#Transcription">Bella sens par, ab la pressensa noble,</lem>
-						<rdg wit="#Translation">Unmatched beauty of noble presence</rdg>
+						<rdg wit="#Translation">Unmatched beauty of noble presence,</rdg>
 					</app>
 				</l>
 				<l n="26">
@@ -254,7 +261,7 @@
 				</l>
 				<l n="30">
 					<app>
-						<lem wit="#Transcription">les jusmetets  si com fay lo carvoncles,</lem>
+						<lem wit="#Transcription">les jusmetets<note anchored="true"><p>Correcting <hi rend="italic">iustametz.</hi></p></note> si com fay lo carvoncles,</lem>
 						<rdg wit="#Translation">You subdue them as does the carbuncle,</rdg>
 					</app>
 				</l>
@@ -267,12 +274,12 @@
 				<l n="32">
 					<app>
 						<lem wit="#Transcription">vos etz sus ley com l’estors sus l’esmirle.</lem>
-						<rdg wit="#Translation">You are above them, like the goshwak is above the merlin.</rdg>
+						<rdg wit="#Translation">You are above them, like the goshawk is above the merlin.</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="5">
-				<l n="33"><!--Lines are continuously numbered through the song so check that they are correct-->
+			<lg n="5" type="stanza">
+				<l n="33">
 					<app>
 						<lem wit="#Transcription">L’amor que us hay en totes les part[s] m’ascle</lem>
 						<rdg wit="#Translation">My love for you is splintering every part of me,</rdg>
@@ -280,19 +287,19 @@
 				</l>
 				<l n="34">
 					<app>
-						<lem wit="#Transcription"> quan non amech pus coralment nuls homens;</lem>
+						<lem wit="#Transcription">quan non amech pus coralment nuls homens;</lem>
 						<rdg wit="#Translation">For no one has ever loved so sincerely;</rdg>
 					</app>
 				</l>
 				<l n="35">
 					<app>
-						<lem wit="#Transcription">tan fort·amor, com cesta que·l cor m’obre,</lem>
+						<lem wit="#Transcription"> tan fort·amor, com cesta que·l cor m’obre,</lem>
 						<rdg wit="#Translation">Such a strong love, like this one that opens my heart,</rdg>
 					</app>
 				</l>
 				<l n="36">
 					<app>
-						<lem wit="#Transcription"> ne fonch  jamays en nul cors d’hom ne arme.</lem>
+						<lem wit="#Transcription">ne fonch<note anchored="true"><p>Correcting <hi rend="italic">fonchs.</hi></p></note> jamays en nul cors d’hom ne arme.</lem>
 						<rdg wit="#Translation">Has never been in anyone’s body or soul.</rdg>
 					</app>
 				</l>
@@ -304,7 +311,7 @@
 				</l>
 				<l n="38">
 					<app>
-						<lem wit="#Transcription"> d’amor, qui m’art e mos sinch senys desferme.</lem>
+						<lem wit="#Transcription">d’amor, qui m’art e mos sinch senys desferme.</lem>
 						<rdg wit="#Translation">For love, which burns me and unleashes my five senses.</rdg>
 					</app>
 				</l>
@@ -321,8 +328,8 @@
 					</app>
 				</l>
 			</lg>
-			<lg n="6">
-				<l n="41"><!--Lines are continuously numbered through the song so check that they are correct-->
+			<lg n="6" type="stanza">
+				<l n="41">
 					<app>
 						<lem wit="#Transcription">Ho, cors donos, net de frau e delicte,</lem>
 						<rdg wit="#Translation">Oh, gentle lady, clean of deceit and offenses,</rdg>
@@ -366,13 +373,13 @@
 				</l>
 				<l n="48">
 					<app>
-						<lem wit="#Transcription"> pus vostre suy e seray tant com visque.</lem>
+						<lem wit="#Transcription">pus vostre suy e seray tant com visque.</lem>
 						<rdg wit="#Translation">For I am yours, and so will I be for as long as I live.</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="7">
-				<l n="49"><!--Lines are continuously numbered through the song so check that they are correct-->
+			<lg n="7" type="stanza">
+				<l n="49">
 					<app>
 						<lem wit="#Transcription">Mos richs balays, cert, vos portats le timbre</lem>
 						<rdg wit="#Translation">My prized spinel, you certainly wear the crown</rdg>
