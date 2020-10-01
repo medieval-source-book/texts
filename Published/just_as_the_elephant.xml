@@ -12,12 +12,6 @@
 				<title>"Just as the Elephant"</title>
 				<author>Rigaut de Berbezilh</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name>Carl Appel</name>
-				</respStmt>
-				<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
-				<respStmt>
 					<resp>Translation by</resp>
 					<name>Johannes Junge Ruhland</name>
 				</respStmt>
@@ -36,7 +30,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				<p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				<p>Appel, Carl, ed. 1920. Provenzalische Chrestomathie. Mit Abriss Der Formenlehre Und Glossar. 5th ed. Leipzig: Reisland, 70–71, item 29.</p>
 				<listWit>
 					<witness xml:id="Transcription">"Atressi cum l'orifans"</witness>
 					<witness xml:id="Translation">"Just as the elephant"</witness>
