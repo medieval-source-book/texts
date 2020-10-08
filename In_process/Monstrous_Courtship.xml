@@ -36,7 +36,7 @@
 			<sourceDesc>
 				 <p>Trancription based on the lithograph compiled by Rostam Pur Bahrām Sorush Tafti. Bambaʼī: Matbaʻ-i Faiz Rasān, 1325 [1908].</p>
 				<listWit>
-					<witness xml:id="Transcription">قطعه ای از بهمن نامه ی ایرانشاه بن ابی الخیر</witness>
+					<witness xml:id="Transcription">قطعه&#x200c;ای از بهمن&#x200c;نامه&#x200c;ی ایرانشاه بن ابی الخیر</witness>
 					<witness xml:id="Translation">A Monstrous Courtship</witness>
 				</listWit>
 			</sourceDesc>
@@ -72,7 +72,7 @@
 			<lg n="1" type="stanza">
 				<l n="1-">
 					<app>
-						<lem wit="#Transcription">قطعه ای از بهمن نامه ی ایرانشاه بن ابی الخیر</lem>
+						<lem wit="#Transcription">قطعه&#x200c;ای از بهمن&#x200c;نامه&#x200c;ی ایرانشاه بن ابی الخیر</lem>
 						<rdg wit="#Translation">Excerpt from the <hi rend="italic">Bahmannāmeh</hi> of Irānshāh ebn-e Abi-l-Khayr</rdg>
 					</app>
 				</l>
