@@ -34,16 +34,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Rhegius, Urbanus, Juan Pérez, and L. de Usoz y Río. Breve Tratado De Doctrina : Util Para Todo Cristiano. Ahora fielmente reimpreso. [San Sebastian: Impr. de I.R. Baroja], 1852.</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">Breve tratado de doctrina útil para todo cristiano</witness>
+					<witness xml:id="Translation">A brief treatise of doctrine useful for every Christian</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"A brief treatise of doctrine useful for every Christian" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -68,15 +68,12 @@
 				</title>
 				<title type="sub">
 					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<lem wit="#Transcription">Prologo del autor</lem>
 						<rdg wit="#Translation">Author’s Prologue</rdg>
 					</app>
 				</title>
 			</head>
 		</front>
-
-<note type= "critical" anchored="true"><p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p></note>
-
 		<body>
 			<p n="1">
 				<s>
@@ -368,7 +365,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¡O, gente miserable y ciega, y casi desauciada de remedio!</lem>
-						<rdg wit="#Translation">Oh, miserable and blind people, who are on your deathbeds without a cure!<note type= "critical" anchored="true"><p><hi rend="italic">Desauziada de remedio</hi>, translated as on your deathbeds without a cure. <hi rend="italic">Desauziar</hi>, today <hi rend="italic">desahuciar</hi>, means to declare terminally ill or to have not hope for especially in a medical context. <hi rend="italic">De remedio</hi> emphasizes this medical register suggesting that the people who are blinded by Catholic doctrine are terminally ill with no hope of a spiritual cure.</p></rdg>
+						<rdg wit="#Translation">Oh, miserable and blind people, who are on your deathbeds without a cure!<note type= "critical" anchored="true"><p><hi rend="italic">Desauziada de remedio</hi>, translated as on your deathbeds without a cure. <hi rend="italic">Desauziar</hi>, today <hi rend="italic">desahuciar</hi>, means to declare terminally ill or to have not hope for especially in a medical context. <hi rend="italic">De remedio</hi> emphasizes this medical register suggesting that the people who are blinded by Catholic doctrine are terminally ill with no hope of a spiritual cure.</p></note></rdg>
 					</app>
 				</s>
 			</p>
@@ -388,1243 +385,387 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¿Qué camino acertado sino seguir á Jesús Cristo que es el camino, la verdad, y la vida?</lem>
-						<rdg wit="#Translation"></rdg>
+						<rdg wit="#Translation">What other right path can be found except by following Jesus Christ who is the way, the truth, and the life?</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription">¿Qué otro Concilio sino el que fue tenido en el cielo y después revelado al Mundo por Jesús Cristo, que nos es dado del Padre por Maestro y Enseñador.</lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">¿Qué otro Concilio sino el que fue tenido en el cielo y después revelado al Mundo por Jesús Cristo, que nos es dado del Padre por Maestro y Enseñador.?</lem>
+						<rdg wit="#Translation">What other council is there but the one held in heaven and then revealed to the world through Jesus Christ, who is given to us from the Father as Master and Teacher?</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription">Qué puede mandar el Concilio de los hombres congregados en su propio nombre á titulo de Dios sino cosas humanas? </lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">¿Qué puede mandar el Concilio de los hombres congregados en su propio nombre á titulo de Dios sino cosas humanas?</lem>
+						<rdg wit="#Translation">What other mandates can a council of men who, under the pretext of God’s name, congregate in their own name create except for human things?</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">¿Qué hay que esperar pues ya tenemos todos los artículos del Concilio de Dios resumidos en el Nuevo Testamento donde nos es mandado oír y seguir á Jesús Cristo?</lem>
+						<rdg wit="#Translation">What is there to wait for since we already have all the articles of God’s Council resumed in the New Testament, which commands us to hear and follow Jesus Christ?</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Si esto no mandan los Concilios ¿de que sirven?</lem>
+						<rdg wit="#Translation">If the Councils do not mandate this, what good are they?</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">y si mandan esto ya está mandado y declarado por el Señor.</lem>
+						<rdg wit="#Translation">And even if they do mandate this, it has already been mandated and declared by God.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">No resta sino ponerlo en ejecución.</lem>
+						<rdg wit="#Translation">The only thing that remains is to put it in action.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">A estos infamadores de la verdad puede se les decir lo que respondió el Señor Jesús Cristo a los Saduceos: vosotros andáis errados, porque no sabéis las Escrituras, ni la virtud de Dios. </lem>
+						<rdg wit="#Translation">To those who defame the truth respond with exactly what the Lord Jesus Christ said to the Sadducees, “you walk in error because you do not know the Scriptures or the truth of God.”</rdg>
 					</app>
 				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-
 			</p>
-			<p n="2">
+			<p n="11">
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Por manera, que les viene todo su mal de estar enemistados con la palabra de Dios, y de no leerla, ni entenderla, y de poner estanque de ella los que tienen poder y autoridad, con hacer que ninguno la lea, ni la entienda, sino a la manera de ellos, es a saber, que con mortalísimo odio la aborrezcan y persigan.</lem>
+						<rdg wit="#Translation">Those with power and authority have an evil antagonism against God’s Word because they do not read or understand it, and they dam it up to ensure that no one else reads or understands it in any way contrary to their own understanding.</rdg>
 					</app>
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription">
-							
-							</note>
-						</lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">De aquí es, que estos que quieren ser tenidos por padres y lumbreras de los otros, condenan tan furiosamente a los inocentes, así a los que la enseñan como a los que la aprenden, sin oírlos, ni examinar la causa, ni pesarla con justas balanzas,</lem>
+						<rdg wit="#Translation">By this we know that they abhor, reject, and persecute God’s Word with a deadly hatred. Consequently, those who want to be considered fathers and luminaries by others so furiously condemn the innocent—those who teach this doctrine and those who learn it—without hearing them, nor examining the cause, nor measuring it with just balances.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">contentos con solo saber que siguen esta doctrina Evangélica, para tenerlos por errados y herejes, y darlos luego por condenados, pensando que en matarlos hacen a Dios grande servicio.</lem>
+						<rdg wit="#Translation">Instead, they are content with the mere knowledge that they follow this Evangelic doctrine to call them errant heretics and to convict them as <hi rend="italic">condenados</hi>, thinking that by killing them, they do God a great service.<note type= "critical" anchored="true"><p><hi rend="italic">Condenado</hi>, or the condemned, is left here in Spanish because it is as direct of an allusion to the Inquisition that Pérez makes in this text. <hi rend="italic">Condenado</hi> was the phrase the Inquisition would use to declare someone as guilty and then would have them either repent through confession or would deliver their punishment. In Pérez’s case his verdict was <hi rend="italic">condenado</hi> for his “Lutheran” heresies, and <hi rend="italic">relejado en estatua</hi>, as the consequence of the verdict. This whole passage uniquely addresses Inquisitional authorities, specifically identifying those with political power and authority and criticizing them for abuses.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="12">
+				<s>
+					<app>
+						<lem wit="#Transcription">No son, cierto, regidos estos varones sangrientos por el espíritu y mansedumbre de Cristo, el cual anda a buscar los errados, para reducirlos al camino de la verdad, a los llagados, para atarles y sanarles su llagas: a los pobres para enriquecerlos con sus bienes, y no para hacerles tratamientos contrarios;</lem>
+						<rdg wit="#Translation">Truly, these men with bloody hands are not governed by the spirit and gentleness of Christ, who searches for those who have gone astray to show them the path of truth, for the broken to bind up and heal their wounds, for the poor to enrich them with his own goods, and not to give them the opposite treatments.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">pero son regidos por el espíritu de aquel que tiene por deleite matar y derramar sangre humana y que no puede sufrir la claridad de las obras y maravillas de Dios.</lem>
+						<rdg wit="#Translation">Instead they are governed by the spirit of him who delights in killing and spilling human blood, and who cannot withstand the brightness of the works and wonders of God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y por tanto estos no pueden sufrir esta doctrina, ni conocer al Señor cuya es, ni ver los milagros que el día de hoy por ella hace en los que las reciben, sacándolos del poder de Satanás, haciéndolos los lobos ovejas, de osos y leones, corderos: de engañados y engañadores, maestros de verdad, de hijos tinieblas hijos de luz.</lem>
+						<rdg wit="#Translation">And because they cannot bear this doctrine, nor know its Lord, nor see these miracles he works today in those who receive it: he removes them from the power of Satan and makes the wolves into sheep, the bears and lions into lambs, and the deceived and the deceivers into teachers of the truth into sons of darkness into sons of light.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="13">
+				<s>
+					<app>
+						<lem wit="#Transcription">However, may those with the true desire to know the Lord consider our doctrine— or better yet, the doctrine of Jesus Christ, Lord and Redeemer of the world—and see that all we intend through this doctrine is to give God the honor he deserves and to men the glory that he sends.</lem>
+						<rdg wit="#Translation">Pero los que con verdadero deseo de conocer al Señor, consideraren nuestra doctrina, o por mejor decir, la de Jesús Cristo, Señor y Redentor del mundo, y lo que por ella pretendemos, que es, dar a Dios la honra que se le debe, y a los hombres la que el manda,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">atinarán al blanco, y vista claramente la verdad, juzgarán mui de otra manera que los otros, que son amadores de las tinieblas.</lem>
+						<rdg wit="#Translation">They will thus hit the mark and, seeing the truth clearly, they will judge those who are lovers of darkness very differently.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Otra cosa, cierto, es el Evangelio, que las exposiciones que los hombres le han dado de sus propias cabezas sin sentimiento ni espíritu de Dios, aplicándolo, no para conocer y seguir a Jesús Cristo, y mortificar los afectos de la carne y mundo, sino para cubrir sus propios errores, en que fueron enseñados y criados.</lem>
+						<rdg wit="#Translation">The Gospel is something other than the expositions that men have given it from their own heads without the sense or the spirit of God, not using it to know and follow Jesus Christ and to put to death the desires of the flesh and the world, but instead to cover their own errors in which they were taught and raised.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">En sola la Escritura Divina está la pureza de la verdad,</lem>
+						<rdg wit="#Translation">The purity of the truth only exists in the Holy Scriptures.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y á ella nos manda el Señor por sus Evangelistas y Profetas que la vamos á buscar.</lem>
+						<rdg wit="#Translation">The Lord sends us to the Scriptures through his evangelists and prophets so that we will search for it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Las exposiciones de los hombres, por santos que hayan sido, no son Sagrada Escritura, ni tienen aquellos quilates de verdad ni aquel Espíritu con que ella fue escrita.</lem>
+						<rdg wit="#Translation">Human explanations, saints though they might have been, are not Sacred Scripture, nor do they have those carats of truth, nor that Spirit with which the Scriptures were written.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque muchos de ellos erraron en sus doctrinas, y se desdijeron después de lo que primero habían enseñado;</lem>
+						<rdg wit="#Translation">Many of them erred in their doctrines and they later contradicted what they had at first taught;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> como hizo San Agustín en el libro de sus Retrataciones, y otros muchos como Origines, San Jerónimo, San Cipriano.</lem>
+						<rdg wit="#Translation">like Saint Augustine did in the book of his Retractions, and many others like Origen, Saint Jerome, and Saint Cyprian.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Donde se manifiesta que no hablaban con tal espíritu cual el de los Apóstoles.</lem>
+						<rdg wit="#Translation">So then, it is clear that they did not speak from the same spirit as the Apostles.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque el Espíritu Santo, que hablaba por su boca de ellos, no puede errar, mas antes enseña toda verdad, como se lo había prometido el Señor antes de subida al cielo.</lem>
+						<rdg wit="#Translation">Because the Holy Spirit, who did speak through their mouths, cannot err, but rather he teaches every truth, as the Lord promised before ascending to heaven.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Yo os enviaré les dice el Espíritu Santo, y él os enseñará toda verdad, y os declarará las cosas que os he dicho.</lem>
+						<rdg wit="#Translation">“I will send you,” he tells them, “the Holy Spirit, and he will teach you every truth, and will declare to you what I have told you.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="14">
+				<s>
+					<app>
+						<lem wit="#Transcription">Pero el Espíritu de los hombres puede errar, y muchas veces yerra, en daño suyo, y de los otros.</lem>
+						<rdg wit="#Translation">Now, there is a great risk and danger in the business of our salvation in following warped and half-blind rules made by men who are blind and poorly qualified to guide others.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y porque en el negocio de nuestra salud se corre grande riesgo y peligro en seguir reglas combadas y tuertas de hombres, los cuales son ciegos de suyo, y mal propios para ser guías de otros, es necesario á él que no se quiere perder, seguir regla tan derecha que no pueda engañar á los que se rijeren por ella.</lem>
+						<rdg wit="#Translation">Therefore, it is necessary for him who does not want to be lost to follow the rule that is so straight it could not trick those who are guided by it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Esta es la regla del Evangelio, que es toda divina.</lem>
+						<rdg wit="#Translation">This rule is perfectly divine and comes from the Gospel.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">La cual tiene por Autor á El que es Verdad y Sabiduría eterna de Dios, que ni engaña ni puede engañar.</lem>
+						<rdg wit="#Translation">Its author is the One who is the eternal Truth and Wisdom of God, who neither deceives nor can deceive.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por tanto queremos antes creer al Evangelio y seguir lo que él es infalible, cierto, inmudable, y no contiene que verdad y ellos son mentirosos, mudables, y variables, </lem>
+						<rdg wit="#Translation">Therefore, we want to believe the Gospel and follow it before we believe in men. It is infallible, certain, immutable, and contains nothing but truth. Yet their rules lie and are ever-changing and variable.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y no nos son dados por regla de conocer y agradar á Dios.</lem>
+						<rdg wit="#Translation">They are not given to us as the rule to know and to please God.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="15">
+				<s>
+					<app>
+						<lem wit="#Transcription">Mas ha ya de quinientos años cuando estaba el mundo lleno de tinieblas que muchos hombres sofistas, y otros que no lo eran, hicieron diversos comentarios, glosas, exposiciones, nuevas leyes y tradiciones, allende de las que estaban antes hechas,</lem>
+						<rdg wit="#Translation">When the world was full of darkness over 500 years ago, many sophists, and others who were not, made many commentaries, annotations, explanations and new laws and traditions beyond the ones established earlier.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">las cuales fueron fácilmente recibidas de todos, sembradas e esparcidas por la Cristiandad.</lem>
+						<rdg wit="#Translation">Their works were sown and dispersed by Christianity and were easily received by all.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y fueron tantos y en tan grande numero que la verdadera simiente, que es el Evangelio, fue de tal manera con ellas cubierto y sepultado, que ya casi no se veía, ni divisaba.</lem>
+						<rdg wit="#Translation">There were so many of them in such a massive quantity that they covered and buried the true seed of the Gospel so that it could barely be seen or perceived.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque en lugar de él, fueron recibidas, obedecidas y seguidas, mucho mas que si fueran palabra de Dios, con ser á la verdad no otra cosa que pája.</lem>
+						<rdg wit="#Translation">These new laws were received in place of God’s Word and were much better obeyed and followed than if they had been God’s Word, while in truth being nothing but chaff.<note type= "critical" anchored="true"><p><hi rend="italic">Paja</hi>, translated chaff, is listed in Percivals’ 1591 dictionary as meaning “chaffe, strawe, litter” (NTLlE). This likely alludes to biblical passages referring to chaff separated from the wheat to be cast into a fire (Matthew 3:12).</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y el verdadero Evangelio quedó en un perpetuo silencio, tanto que se vino á olvidar aun hasta los vocablos de él, y los maestros y enseñadores de los pueblos no lo sabían</lem>
+						<rdg wit="#Translation">The true Gospel remained in a perpetual silence, to the extent that even its very words were forgotten, and the teachers and instructors of the towns knew nothing of it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y erales un lenguaje bárbaro y no entendido;</lem>
+						<rdg wit="#Translation">To them it was a barbaric language they could not understand.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">pues á estas doctrinas, leyes y tradiciones de hombres (cosa aborrecible delante de Dios) llaman ellos la doctrina Antigua, y por mantenerla y defenderla acosan, destierran, infaman, persiguen, y matan á los Santos, y discípulos de Jesús Cristo y desechan el verdadero Evangelio que Dios por su sola bondad nos ha restituido—</lem>
+						<rdg wit="#Translation">Consequently, they now call human doctrines, laws and traditions (a detestable thing before God), “ancient doctrine,” and they relentlessly pursue, exile, defame, persecute, and kill the saints and disciples of Jesus Christ for upholding and defending it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y dicen que es doctrina nueva y engañadora, y que incurren en muchos peligros los que la siguen,</lem>
+						<rdg wit="#Translation">They cast out the true Gospel that God in his goodness has restored to us, saying that it is new and deceitful doctrine and that those who follow it fall into many dangers.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">que se suman todos en ser herejes y caer en las manos de los enemigos de ella.</lem>
+						<rdg wit="#Translation">They lump them all together as heretics and place them in the hands of this doctrine’s enemies.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="16">
+				<s>
+					<app>
+						<lem wit="#Transcription">Vean lo que enseñamos y predicamos,</lem>
+						<rdg wit="#Translation">Let them see what we teach and preach.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">lean con paciencia nuestros libros, como nosotros leemos los suyos, y hallarán con verdad (si con todo tienen ojos para ver, y orejas para oír) que tenemos la verdadera y antigua doctrina venida del cielo y revelada por el Espíritu Santo; que es el Evangelio Eterno de Dios;</lem>
+						<rdg wit="#Translation">Let them read our books with patience, just as we read theirs, and if they have eyes to see and ears to hear, they will find with truth that we have the true and ancient doctrine from heaven, revealed by the Holy Spirit, and that God’s Gospel is eternal.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">que son las promesas de su reconciliación prometidas y cumplidas en su Hijo Unigénito;</lem>
+						<rdg wit="#Translation">The promises of his reconciliation are promised and fulfilled by his only-begotten Son,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">que es aquel admirable misterio de la piedad y misericordia que ha Dios habido de nosotros:</lem>
+						<rdg wit="#Translation">who is that the wonderful mystery of the pity and mercy God has had on us.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el cual (como dice San Pablo á Timoteo) fue manifestado en carne, justificado en Espíritu, visto de los Ángeles, predicado por los Apóstoles y discípulos de Jesús Cristo á las gentes de tal manera que fue creído en el mundo, y después recibido en gloria.</lem>
+						<rdg wit="#Translation">He is the one who, as Saint Paul says to Timothy, was made flesh, justified in Spirit, seen by the Angels, preached by the Apostles and disciples of Jesus Christ to all people in such a way that it was believed in all the world, and then received in glory.<note type= "critical" anchored="true"><p>Here Pérez interestingly introduces the relevance of reading with the aim of reconciliation.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="17">
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Son por ventura nuevas tales cosas?</lem>
+						<rdg wit="#Translation">Is there any chance these are new things?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el Padre Celestial, como dice el mismo Apóstol á los Efesios, nos eligió en Cristo antes de la fundación del mundo, para que fuésemos Santos y irreprensibles delante de él en caridad.</lem>
+						<rdg wit="#Translation">The Heavenly Father, as the same apostle says to the Ephesians, “He chose us in Christ before the foundation of the world in order that we might be saintly and blameless before him in love.<note type= "critical" anchored="true"><p>Pérez here draws from Ephesians 1:4-7. Interestingly, of the verifiable editions readily available, Pérez punctuates this verse in alignment to the punctuation in this translation. Editions of the Bible in Spanish and in English, however, link “in love” or “en caridad” (in modern translations, “en amor”) to the start of the second sentence, changing the verse to read, “….to be holy and blameless in his sight. In love he predestined us.”</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y nos predestinó para adoptarnos por hijos en Jesús Cristo, según su buena voluntad, para alabanza de la gloria de su gracia por la cual nos ha hecho agradables a sí.</lem>
+						<rdg wit="#Translation">And he predestined us to adopt us as sons in Jesus Christ, according to his good will, for the praise of the glory of his grace by which we have been made pleasing to him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por el cual tenemos redención por su sangre y remisión de pecados, según las riquezas de su gracia.</lem>
+						<rdg wit="#Translation">By which we have redemption by his blood and the remission of sins, according to the riches of his grace.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="18">
+				<s>
+					<app>
+						<lem wit="#Transcription">Todas estas cosas son parte de aquel grande secreto y admirable consejo de Dios, por el cual había deliberado de antes que fuese fundando el mundo de salvarnos por tal media y llamarnos con una santa vocación,</lem>
+						<rdg wit="#Translation">All of these things are part of that great secret and wonderful counsel from God, by which he had determined even before the world was founded to save us in this way and call us to a holy calling.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">no por nuestras obras, sino según su santa gracia, la cual nos es dada por Jesús Cristo antes de todos tiempos: mas ahora es cumplida por la manifestación que nos ha hecho Jesús Cristo, mostrándose en forma de hombre,</lem>
+						<rdg wit="#Translation">This was not because of our works, but in accordance with his holy grace, which was granted to us through Jesus Christ before time, but now it is fulfilled by Jesus Christ’s sign to us, revealing himself in the form of man.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el cual destruyó la muerte y ha revelado la vida en luz y en inmortalidad.</lem>
+						<rdg wit="#Translation">He is the one who destroyed death and who has revealed life in light and immortality.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Visto pues y considerado que son estas cosas tan antiguas, y que de tantos tiempos acá han sido sembradas, anunciadas, y predicadas por el mundo, ¿Como son estos tan desvergonzados, en llamarlas nueva doctrina?</lem>
+						<rdg wit="#Translation">So then, having seen and considered that these things are so ancient and have been sown, announced, and preached throughout the world even from so long ago, how are these men still so unashamed to call them new doctrine?</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="19">
+				<s>
+					<app>
+						<lem wit="#Transcription">¡Oh, miserables hombres!</lem>
+						<rdg wit="#Translation">Oh, miserable men!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">cesad ya de blasfemar tan desacatadamente: y dad gloria á Dios con nosotros y reverenciad su verdad como conviene.</lem>
+						<rdg wit="#Translation">Immediately cease such disrespectful blasphemies, give glory to God with us and revere his truth as is fitting.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">No se os haga de mal desdeciros de los engaños en que estáis, porque no vengáis á ser endurecidos con los reprobados que no quieren creer á la verdad, pero aprueban sus injusticias y errores.</lem>
+						<rdg wit="#Translation">Do not become evil—rid yourselves of the deceptions that trap you so that you do not become hardened with the condemned who do not want to believe truth but approve of their own injustices and errors.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por el amor, pues, que debo á todo Cristiano, quise hacer este Tratado, harto breve, llamado la doctrina Nueva y Antigua, por el cual se podrá fácilmente conocer si somos, con razón o sin ella, llamados predicadores y seguidores de nueva doctrina.</lem>
+						<rdg wit="#Translation">For the love that I owe to every Christian, I wanted to write this fairly short Treatise, naming the new and old doctrine, so that one could easily know if we are rightly called preachers and followers of new doctrine or not.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y así en él se puede saber y entender cómo es confundida la nueva doctrina por la antigua, para responder á los que ciegos de sus intereses, olvidados de los juicios y castigos de Dios, tienen tan perdida la vergüenza, que se osan oponer y hacer contradicción a Jesús Cristo, batallando contra su santo Evangelio, lo cual es una averiguación y testimonio cierto de su condenación.</lem>
+						<rdg wit="#Translation">And so, by this Treatise, you can know and understand exactly how the new doctrine is confused for the old, so you can respond to those who are blinded by their own interests, who forget the judgments and punishments of God, and who have entirely lost all shame to the point that they dare to oppose and contradict Jesus Christ, and fight against his holy Gospel, which is a verification and testament to their condemnation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="20">
+				<s>
+					<app>
+						<lem wit="#Transcription">Por tanto, os ruego á todos hermanos muy amados en el Señor, que la estudiéis y entendáis que la doctrina Nueva es la de los hombres, contraria y repugnante á la que vino del Cielo,</lem>
+						<rdg wit="#Translation">Therefore, I beg you, all my brothers and sisters whom I deeply love in the Lord, that you would study and understand that the New Doctrine is the one produced by men and is contrary and repugnant to the doctrine from Heaven.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y la Antigua es de Dios, para que recibiéndola y sujetándoos á ella, seáis salvos con salud eterna, y en lo mismo tengáis firmísimo testimonio de ser hijos del Altísimo, y herederos para siempre de su celestial Reino.</lem>
+						<rdg wit="#Translation">Know also that the Ancient Doctrine is from God and that by receiving and submitting yourselves to it, you will be saved with eternal life, and in the same you will have exceptionally firm testimony of being children of the Most High, the heirs forever to his heavenly kingdom.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Amen.</lem>
+						<rdg wit="#Translation">Amen.</rdg>
 					</app>
 				</s>
 			</p>
