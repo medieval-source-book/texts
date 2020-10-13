@@ -10,14 +10,14 @@
 		<fileDesc>
 			<titleStmt>
 				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Poggio Bracciolini</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name><!--Name of editor if based on published edition--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Robin Wahlsten Böckerman</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -69,31 +69,1010 @@
 			</head>
 		</front>
 		<body>
-			<div n="1">
-				<!--Divisions should be used if your text has sections larger than paragraphs-->
+			<div>
 				<p n="1">
-					<!--Paragraphs should be numbered-->
 					<s>
-						<!--Sentences should not be numbered. Sentences should follow the transcription, even if it means multiple sentences under one <rdg>. If the transcription is not segmented into sentences and it is preferable not to do so, another form of segmentation should be determined in discussion with the series editor before encoding.-->
 						<app>
-							<lem wit="#Transcription"><!--One unit of segmentation from the transcription (usually one sentence)--></lem>
-							<rdg wit="#Translation"><!--The translation which accords with the above unit from the transcription--></rdg>
+							<lem wit="#Transcription"><hi rend="italic">Ne Aemuli Carpant Facetiarum Opus, Propter Eloquentiae Tenuitatem.</hi></lem>
+							<rdg wit="#Translation"><hi rend="italic">So that rivals do not slander this collection of jokes for its inelegance</hi></rdg>
 						</app>
 					</s>
 				</p>
 				<p n="2">
 					<s>
 						<app>
-							<lem wit="#Transcription">
-								<note type= "critical" anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
-								</note>
-							</lem>
-							<rdg wit="#Translation">
-								<note type= "critical" anchored="true">
-									<p><!--This is an example note--></p>
-								</note>
-							</rdg>
+							<lem wit="#Transcription">Multos futuros esse arbitror qui has nostras confabulationes, tum ut res leves et viro gravi indignas reprehendant, tum in eis ornatiorem dicendi modum et maiorem eloquentiam requirant.</lem>
+							<rdg wit="#Translation">I think there will be many who will condemn these conversations of ours, either because they are not serious and unworthy of a dignified man, or because they are in need of a more embellished mode of speech and more eloquence.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quibus ego si respondeam, legisse me nostros Maiores, prudentissimos ac doctissimos viros, facetiis, iocis et fabulis delectatos, non reprehensionem, sed laudem meruisse, satis mihi factum ad illorum existimationem putabo.</lem>
+							<rdg wit="#Translation">But if I reply that I have read our forefathers - those wise and learned men who found delight in jokes, jests, and stories – I think that I will earn praise, not reprehension, since I have done enough to gain their appreciation.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="3">
+					<s>
+						<app>
+							<lem wit="#Transcription">Nam quid mihi turpe esse putem hac in re, quandoquidem in ceteris nequeo, illorum imitationem sequi,</lem>
+							<rdg wit="#Translation">For why should I consider it a shameful thing to follow their models in this area, (since I am not able to do so in others).</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">et hoc idem tempus quod reliqui in circulis et coetu hominum confabulando conterunt, in scribendi cura consumere, praesertim cum neque labor inhonestus sit, et legentes aliqua iucunditate possit afficere?</lem>
+							<rdg wit="#Translation">While others waste time conversing in their social circles and groups, I make an effort to write, and especially since it is no dishonest work and can bring the readers some joy.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Honestum est enim ac ferme necessarium, certe quod sapientes laudarunt, mentem nostram variis cogitationibus ac molestiis oppressam, recreari quandoque a continuis curis, et eam aliquo iocandi genere ad hilaritatem remissionemque converti.</lem>
+							<rdg wit="#Translation">For it is a noble and almost a necessary thing to restore our minds that are oppressed by so many thoughts and troubles (the wise ones certainly approve of this), and to sometimes turn them from constant worry to cheerfulness and relaxation with the genre of jokes.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Eloquentiam vero in rebus infimis, vel in his in quibus ad verbum vel facetiae exprimendae sunt, vel aliorum dicta referenda, quaerere, hominis nimium curiosi esse videtur.</lem>
+							<rdg wit="#Translation">However, to seek eloquence in these low matters, which are represented either word-for-word, or as jokes, or reported as the sayings of somebody else, would seem to be a bit too much for a diligent man.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sunt enim quaedam quae ornatius nequeant describi, cum ita recensenda sint, quemadmodum protulerunt ea hi qui in confabulationibus coniiciuntur.</lem>
+							<rdg wit="#Translation">There are indeed some things which cannot be portrayed in a more embellished manner, since these things should be recounted in the same way as they were told by those who had these conversations.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="4">
+					<s>
+						<app>
+							<lem wit="#Transcription">Existimabunt aliqui forsan hanc meam excusationem ab ingenii culpa esse profectam, quibus ego quoque assentior.</lem>
+							<rdg wit="#Translation">Some will perhaps think that my excuses derive from a lack of skill, and I agree with these people.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Modo ipsi eadem ornatius politiusque describant, quod ut faciant exhortor, quo lingua Latina etiam levioribus in rebus hac nostra aetate fiat opulentior.</lem>
+							<rdg wit="#Translation">I really encourage them to write similar things in a more embellished and refined way, so that the Latin language of our time may be richer even where these very light matters are concerned.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Proderit enim ad eloquentiae doctrinam ea scribendi exercitatio.</lem>
+							<rdg wit="#Translation">For the practice of writing these stories will benefit the study of eloquence.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Ego quidem experiri volui, an multa quae Latine dici difficulter existimantur, non absurde scribi posse viderentur,</lem>
+							<rdg wit="#Translation">Indeed, I wanted to examine whether many of these things that are thought difficult to express in Latin, could be regarded as possible to write down in a non-absurd way.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">in quibus cum nullus ornatus, nulla amplitudo sermonis adhiberi queat, satis erit ingenio nostro, si non inconcinne omnino videbuntur a me referri.</lem>
+							<rdg wit="#Translation">These things cannot be combined with embellishment and high style, so it will be enough as far as my ability is concerned if people think that I have not told the stories in a completely inelegant way.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="5">
+					<s>
+						<app>
+							<lem wit="#Transcription">Verum facessant ab istarum Confabulationum lectione (sic enim eas appellari volo) qui nimis rigidi censores, aut acres existimatores rerum existunt.</lem>
+							<rdg wit="#Translation">Truly, they who appear as overly strict censors or bitter critics may avoid reading these Conversations (for this is what I want them to be called).</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">A facetis enim et humanis (sicut Lucilius a Consentinis et Tarentinis) legi cupio.</lem>
+							<rdg wit="#Translation">For I wish them to be read by elegant and refined people (as Lucilius was by the Consentians and the Tarentines).</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Quod si rusticiores erunt, non recuso quin sentiant quod volunt, modo scriptorem ne culpent, qui ad levationem animi haec et ad ingenii exercitium scripsit.</lem>
+							<rdg wit="#Translation">If they should be too unsophisticated, I do not object to their thinking what they want, as long as they do not blame the author, who wrote this to raise his spirit and to practice his skill.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div>
+				<p n="6">
+					<s>
+						<app>
+							<lem wit="#Transcription">De Homine Insulso Qui Existimavit Duos Cunnos In Uxore</lem>
+							<rdg wit="#Translation">About the stupid man who thought his wife had two pussies</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="7">
+					<s>
+						<app>
+							<lem wit="#Transcription">Homo e nostris rusticanus, et haud multum prudens, certe in coitu mulierum rudis, sumpta uxore,</lem>
+							<rdg wit="#Translation">There was a man from our part of the country who had taken a wife. He was a bumpkin, not very sensible and surely very ignorant when it came to sleeping with women.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">cum illa aliquando in lecto renes versus (uerso) virum volvens, nates in eius gremio posuisset, erecto telo uxorem casu cognovit.</lem>
+							<rdg wit="#Translation">One night when they were in bed, she turned her back to him placing her buttocks in his lap and he got to know his wife by chance with his spear raised.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Admiratusque postmodum et rogans mulierem, an duos cunnos haberet, cum illa annuisset:</lem>
+							<rdg wit="#Translation">Afterwards he was amazed and asked the woman whether she had two pussies and when she confirmed this he said:</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">'Ho, ho,' inquit, 'mihi unus (unus mihi) satis est, alter vero superfluus.'</lem>
+							<rdg wit="#Translation">“ha-ha, one is enough for me, the other one is superfluous!”</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="8">
+					<s>
+						<app>
+							<lem wit="#Transcription">Tum callida uxor, quae a Sacerdote parochiano diligebatur:</lem>
+							<rdg wit="#Translation">The sly wife, who was loved by a parish priest, then said:</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">'Possumus,' inquit, 'ex hoc (+altero) eleemosynam facere; demus eum Ecclesiae et Sacerdoti nostro, cui haec res erit gratissima, et tibi nihil oberit, cum unus sufficiat tibi.'</lem>
+							<rdg wit="#Translation">“In that case we can make alms of it and give it to the church and our priest, for whom this would be very pleasing; and this would cause you no grief, since one is enough for you.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Assentit vir uxori, et in gratiam sacerdotis, et ut se onere superfluo levaret.</lem>
+							<rdg wit="#Translation">The man agreed, both to gain the priest’s favour and to rid himself of a superfluous burden.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="9">
+					<s>
+						<app>
+							<lem wit="#Transcription">Igitur, eo vocato ad cenam, causaque exposita, cum sumpto cibo lectum unum tres ingrederentur,</lem>
+							<rdg wit="#Translation">So, the priest was invited for dinner, the reason was disclosed and after they had eaten all three of them went to bed.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">ita ut mulier media esset, vir anteriori parte, posteriori alter ex dono uteretur,</lem>
+							<rdg wit="#Translation">They lay so that the woman was in the middle and the husband made use of the front part, while the other was given use of the rear part as a gift.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Sacerdos famelicus concupitique cibi avidus, prior aggreditur aciem sibi commissam:</lem>
+							<rdg wit="#Translation">The priest, who was starved and greedy for this longed-for food, was first to approach the battle array entrusted to him.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">qua in re uxor quoque submurmurans strepitum quemdam edebat.</lem>
+							<rdg wit="#Translation">Because of this the wife was moaning and made a little noise.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Tunc vir timens ne partes suas aggrederetur:</lem>
+							<rdg wit="#Translation">The man feared that the priest was approaching his domains and said:</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">'Serva,' inquit, 'amice, inter nos conventa, et tua portione utere, meam intactam relinquens.'</lem>
+							<rdg wit="#Translation">”Friend, stick to the agreement we made and make use only of your portion, leave mine alone!”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Huic Sacerdos: 'Det mihi gratiam Deus,' inquit, 'nam tua parvi facio (facton ut vid.), ut bonis tantum Ecclesiae uti possim.'</lem>
+							<rdg wit="#Translation">The priest replied: “God give me mercy, for I do not value your part much, as long as I can use the property of the church.”</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">His verbis acquiescens stultus ille, quod Ecclesiae concesserat, libere uti iussit.</lem>
+							<rdg wit="#Translation">The stupid man was satisfied with this and insisted that the priest freely use that which he had granted to the church.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div>
+				<p n="10">
+					<s>
+						<app>
+							<lem wit="#Transcription"><hi rend="italic">De Meretrice Conquerente De Tonsoris Maleficio</hi></lem>
+							<rdg wit="#Translation"><hi rend="italic">About the prostitute who complained about the barber’s evil deed</hi></rdg>
+						</app>
+					</s>
+				</p>
+				<p n="11">
+					<s>
+						<app>
+							<lem wit="#Transcription">Magistratus est Florentiae, quem Officiales honestatis vocant:</lem>
+							<rdg wit="#Translation">In Florence there is a magistracy called the Office of Respectability,</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">horum praecipua cura est in iure meretricibus dicendo, curandoque ut in omni civitate absque molestia esse possint.</lem>
+							<rdg wit="#Translation">whose main responsibility it is to preside over legal matters pertaining to prostitutes and to make sure that they can work untroubled all through the city.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="12">
+					<s>
+						<app>
+							<lem wit="#Transcription">Accessit ad eos semel meretrix, questa iniuriam damnumque a tonsore illatum,</lem>
+							<rdg wit="#Translation">Once a prostitute came to this office and complained that she had suffered injury and damage from a barber.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">qui in balneum accersitus ab ea ut partes inferiores raderet, rasorio ita cunni partem incidit, ut pluribus diebus homines admittere nequivisset,</lem>
+							<rdg wit="#Translation">He had been summoned to the baths to shave her nether parts, but he had cut a part of the pussy with the razor so bad that she could not receive men for several days.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">ex quo damni infecti illum accusabat, amissi lucri restitutionem petens.</lem>
+							<rdg wit="#Translation">For this she accused him of anticipated damage and asked to be repaid the lost income.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="13">
+					<s>
+						<app>
+							<lem wit="#Transcription">Quaeritur quae sit futura sententia?</lem>
+							<rdg wit="#Translation">One wonders what the judgment might be?</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div>
+				<p n="14">
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
 						</app>
 					</s>
 				</p>
