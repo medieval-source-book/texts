@@ -12,8 +12,8 @@
 				<title>The brilliant Dante’s joke</title>
 				<author>Poggio Bracciolini</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Transcription from</resp>
+					<name>Basel 1538 (Reprinted in Poggio Bracciolini, Scripta in editione Basilensi anno 1538 collata. Ed. Riccardo Fulbini. Turin: Bottega d'Erasmo, 1964.)</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,7 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p><<ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032427r">Paris, BnF Latin 8770a</ref></p>
 				<listWit>
 					<witness xml:id="Transcription">Iocatio Dantis clarissimi</witness>
 					<witness xml:id="Translation">The brilliant Dante’s joke</witness>
