@@ -1,0 +1,118 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The debate between a Florentine and a Venetian</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				<listWit>
+					<witness xml:id="Transcription">Disceptatio Inter Florentinum Et Venetum</witness>
+					<witness xml:id="Translation">The debate between a Florentine and a Venetian</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The debate between a Florentine and a Venetian" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Facetia 81</lem>
+						<rdg wit="#Translation">Joke 81</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Venetis foedus erat cum Duce Mediolani ad decennium.</lem>
+						<rdg wit="#Translation">There had been an alliance between Venice and the duke of Milan for a decade.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Interim primo inter Florentinos Ducemque orto bello, cum Florentinorum res deteriori loco viderentur, Veneti Ducem haud quicquam hostile timentem adorti, rupto foedere, Brixiam occuparunt:</lem>
+						<rdg wit="#Translation">Meanwhile a war had arisen between Florence and the duke, then at a point when the Florentines seemed to be losing the Venetians broke the alliance and attacked the duke, who did not suspect a thing, and occupied Brescia.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">veriti ne, si Dux superior esset, omnis belli moles in se verteretur.</lem>
+						<rdg wit="#Translation">They feared that if the duke would win, then the whole war apparatus might be turned against them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Florentino Venetoque postmodum de hac re disceptantibus, cum Venetus diceret:</lem>
+						<rdg wit="#Translation">When later on a Florentine and a Venetian were debating this thing, the Venetian said:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'Nobis libertatem debetis: nam nostra opera liberi estis.'</lem>
+						<rdg wit="#Translation">“You owe us your liberty: for you are free because of our work.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'Hoc nequaquam verum est,' inquit ad retundendam illius petulantiam Florentinus:</lem>
+						<rdg wit="#Translation">To rebut the impudent Venetian the Florentine said: “That’s not true at all!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'non enim nos liberos esse fecistis, sed nos vos reddidimus proditores.'</lem>
+						<rdg wit="#Translation">For you did not free us, but rather we made you traitors.”</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

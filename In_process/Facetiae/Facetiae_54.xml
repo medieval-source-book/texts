@@ -1,0 +1,106 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>About the man who wounded Ridolfo (II da Varano di Camerino) with an arrow</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				<listWit>
+					<witness xml:id="Transcription">De Quodam Qui Redolphum Sagittando Vulneravit</witness>
+					<witness xml:id="Translation">About the man who wounded Ridolfo (II da Varano di Camerino) with an arrow</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"About the man who wounded Ridolfo (II da Varano di Camerino) with an arrow" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Facetia 54</lem>
+						<rdg wit="#Translation">Joke 54</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Viri nonnulli Camerinenses extra urbem exercitii causa sagittando tempus terebant.</lem>
+						<rdg wit="#Translation">Some men from Camerino were passing the time outside of the city by practicing archery.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum quispiam sagittam incautius emisisset, astantem procul Redolphum leviter vulneravit.</lem>
+						<rdg wit="#Translation">When one of them fired an arrow carelessly, it happened to lightly wound Ridolfo, who was standing nearby.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Capto illo, cum variae de poena inferenda sententiae dicerentur, et, ut quisque acerrime sentiret, ita se maxime Principi gratificaturum putaret, unus censuit manum illi esse amputandum, ne amplius arcu uteretur.</lem>
+						<rdg wit="#Translation">The man was captured and different punishments were discussed, some thought it had to be very harsh so that it would be most pleasing to the prince, and one man even thought that the archer’s hand should be amputated so that he could never use a bow again.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> Redolphus liberum hominem dimitti iussit, dicens, illam futuram fuisse utilem sententiam, si id ante acceptum vulnus consilium dedisset.</lem>
+						<rdg wit="#Translation">But Ridolfo ordered the archer to be set free and said that this would have been a useful punishment, if the man had given the advice before he was wounded.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Plena prudentiae et humanitatis responsio.</lem>
+						<rdg wit="#Translation">An answer full of wisdom and humanity.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
