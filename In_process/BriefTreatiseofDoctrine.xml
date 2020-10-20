@@ -9,8 +9,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>A brief treatise of doctrine useful for every Christian</title>
-				<author>Attributed to Juan Perez de Piñeda</author>
+				<title>A Brief Treatise of Doctrine Useful for Every Christian</title>
+				<author>Juan Perez de Piñeda (att.)</author>
 				<respStmt>
 					<resp>Transcription based on</resp>
 					<name>Pérez, Juan. Breve Tratado De Doctrina. Barcelona: Librería de D. Gómez Flores, 1982.</name>
@@ -37,13 +37,13 @@
 				 <p>Rhegius, Urbanus, Juan Pérez, and L. de Usoz y Río. Breve Tratado De Doctrina : Util Para Todo Cristiano. Ahora fielmente reimpreso. [San Sebastian: Impr. de I.R. Baroja], 1852.</p>
 				<listWit>
 					<witness xml:id="Transcription">Breve tratado de doctrina útil para todo cristiano</witness>
-					<witness xml:id="Translation">A brief treatise of doctrine useful for every Christian</witness>
+					<witness xml:id="Translation">A Brief Treatise of Doctrine Useful for Every Christian</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"A brief treatise of doctrine useful for every Christian" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"A Brief Treatise of Doctrine Useful for Every Christian" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -195,7 +195,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">Ya el Señor, pues muestra tener piedad de nosotros, in nos comienza a abrir los ojos para conocerle, y andar por el derecho camino, que guía a la vida, no debemos suportar mas tan turo cautiverio, sino reducirnos a la libertad que por su clemencia nos tiene dada, que es, no depender de hombres, en el negocio de nuestra salud, sino de sola su palabra,</lem>
-						<rdg wit="#Translation"></rdg>
+						<rdg wit="#Translation">Given that the Lord already shows to have mercy on us, and that he begins the opening of our eyes and sets us on the straight path that leads to life, we should not endure any longer under such harsh captivity, but instead return to the liberty he has given to us in his mercy, which is to not depend on men for the negotiation of our salvation, but instead to depend solely on his word.</rdg>
 					</app>
 				</s>
 				<s>
@@ -315,7 +315,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">y á los que la enseñan, como Dios les manda, Noveleros, sediciosos, alborotadores de las repúblicas, cosa es, cierto, de grande admiración e espanto.</lem>
-						<rdg wit="#Translation">And that they would call those who teach this doctrine as God commanded them to, inventors, rebels, and conspirators against the republic, is surely a thing of great astonishment and fright./note><note type= "critical" anchored="true"><p><hi rend="italic">Alborotadores de las repúblicas</hi>, translated as conspirators against the state. <hi rend="italic">Alborotadores</hi> are those who commit sedition. As Cascardi notes, república was a word frequently used by humanists to describe the commonwealth, the people, that comprised a nation. There was an immense concern about the socio-political impacts of literature, and writers of doctrine were considered threats to the state. However, it should be noted by the modern reader that <hi rend="italic">república</hi> did not mean a republic form of government in its modern sense as Europe was still solidly in the era of monarchies. Cascardi, “What the Canon Said,” 22–23.</p></rdg>
+						<rdg wit="#Translation">And that they would call those who teach this doctrine as God commanded them to, inventors, rebels, and conspirators against the republic, is surely a thing of great astonishment and fright./note><note type= "critical" anchored="true"><p><hi rend="italic">Alborotadores de las repúblicas</hi>, translated as conspirators against the state. <hi rend="italic">Alborotadores</hi> are those who commit sedition. As Cascardi notes, república was a word frequently used by humanists to describe the commonwealth, the people, that comprised a nation. There was an immense concern about the socio-political impacts of literature, and writers of doctrine were considered threats to the state. However, it should be noted by the modern reader that <hi rend="italic">república</hi> did not mean a republic form of government in its modern sense as Europe was still solidly in the era of monarchies. Cascardi, “What the Canon Said,” 22–23.</p></note></rdg>
 					</app>
 				</s>
 				<s>
