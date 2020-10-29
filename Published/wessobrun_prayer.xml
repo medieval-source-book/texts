@@ -16,8 +16,12 @@
 					<name>Hannah Frakes</name>
 				</respStmt>
 				<respStmt>
+					<resp>Edited by</resp>
+					<name>Björn Buschbeck</name>
+				</respStmt>
+				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Hannah Frakes</name>
+					<name>Hannah Frakes and Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -80,77 +84,104 @@
 						</l>
 						<l n="3">
 							<app>
-								<lem wit="#Transcription">noh paum ... noh pereg ni uuas,</lem>
-								<rdg wit="#Translation">Nor was there tree or mountain</rdg>
+								<lem wit="#Transcription">noh paum ... noh pereg ni uuas, ni ... nohheinîig,</lem>
+								<rdg wit="#Translation">Nor was there tree ... nor mountain nor…. anything,</rdg>
 							</app>
 						</l>
 						<l n="4">
 							<app>
-								<lem wit="#Transcription">ni ... nohheinîig noh sunna ni scein,</lem>
-								<rdg wit="#Translation">No….[undecipherable] anything, nor did the sun shine</rdg>
+								<lem wit="#Transcription">noh sunna ni scein</lem>
+								<rdg wit="#Translation">nor did the sun shine,</rdg>
 							</app>
 						</l>
 						<l n="5">
 							<app>
-								<lem wit="#Transcription">no mâno ni liuhta, noh der mâreo sêo.</lem>
-								<rdg wit="#Translation">No moon did glow, nor [was there] the splendid sea.</rdg>
+								<lem wit="#Transcription">no mâno ni liuhta,</lem>
+								<rdg wit="#Translation">nor did the moon glow,</rdg>
 							</app>
 						</l>
 						<l n="6">
 							<app>
-								<lem wit="#Transcription">Dô dâr niuuiht ni uuas enteo ni uuenteo,</lem>
-								<rdg wit="#Translation">When there was nothing, there was no end and no change,</rdg>
+								<lem wit="#Transcription">noh der mâreo sêo.</lem>
+								<rdg wit="#Translation">nor [was there] the great sea.</rdg>
 							</app>
 
 						</l>
 						<l n="7">
 							<app>
-								<lem wit="#Transcription">enti dô uuas der eino almahtîco cot, </lem>
-								<rdg wit="#Translation">There was the one almighty God,</rdg>
+								<lem wit="#Transcription">Dô dâr niuuiht ni uuas enteo ni uuenteo,</lem>
+								<rdg wit="#Translation">When there was nothing, neither end nor change,</rdg>
 							</app>
 						</l>
 						<l n="8">
 							<app>
-								<lem wit="#Transcription">manno miltisto, enti dâr uuârun auh manake mit inan </lem>
-								<rdg wit="#Translation">Of all the most generous, and there </rdg>
+								<lem wit="#Transcription">enti dô uuas der eino almahtîco cot, manno miltisto, </lem>
+								<rdg wit="#Translation">there was the one almighty God, the most generous of all beings,</rdg>
 							</app>
 						</l>
 						<l n="9">
 							<app>
-								<lem wit="#Transcription">cootlîhhe geistâ. enti cot heilac ...</lem>
-								<rdg wit="#Translation">were with him many glorious spirits. And holy God…</rdg>
+								<lem wit="#Transcription">enti dâr uuârun auh manake mit inan cootlîhhe geistâ.</lem>
+								<rdg wit="#Translation">and with him there were many glorious spirits.</rdg>
 							</app>
 						</l>
 						<l n="10">
 							<app>
-								<lem wit="#Transcription">Cot almahtico, du himil enti erda gaworachtos, enti du </lem>
-								<rdg wit="#Translation">Almighty God you created heaven and earth, and you 
-								</rdg>
+								<lem wit="#Transcription">enti cot heilac…</lem>
+								<rdg wit="#Translation">And the holy God…</rdg>
 							</app>
 						</l>
 						<l n="11">
 							<app>
-								<lem wit="#Transcription">mannun so manac coot forgapi, forgip mir in dino ganada rehta </lem>
-
-								<rdg wit="#Translation">have given men so many good gifts. In your mercy, give me the right
+								<lem wit="#Transcription">Cot almahtico,</lem>
+								<rdg wit="#Translation">Almighty God,
 								</rdg>
 							</app>
 						</l>
 						<l n="12">
 							<app>
-								<lem wit="#Transcription">galaupa enti cotan willeon, wistom enti spachida enti craft,</lem>
-
-								<rdg wit="#Translation">faith and good will, wisdom and cleverness and strength
+								<lem wit="#Transcription">du himil enti erda gaworachtos,</lem>
+								<rdg wit="#Translation">You who created heaven and earth,
 								</rdg>
 							</app>
 						</l>
 						<l n="13">
 							<app>
-								<lem wit="#Transcription">tiuflun za widarstantanne, enti arc za piwisanne endi dinan</lem>
-								<rdg wit="#Translation">To resist the devil and to shun evil and </rdg>
+								<lem wit="#Transcription">enti du mannun so manac coot forgapi,</lem>
+								<rdg wit="#Translation">And gave men so many good blessings,</rdg>
 							</app>
 						</l>
 						<l n="14">
+							<app>
+								<lem wit="#Transcription">forgip mir in dino ganada</lem>
+								<rdg wit="#Translation">in your mercy, grant me</rdg>
+							</app>
+						</l>
+						<l n="15">
+							<app>
+								<lem wit="#Transcription">rehta galaupa</lem>
+								<rdg wit="#Translation">true faith</rdg>
+							</app>
+						</l>
+						<l n="16">
+							<app>
+								<lem wit="#Transcription">enti cotan willeon,</lem>
+								<rdg wit="#Translation">and good will,</rdg>
+							</app>
+						</l>
+						<l n="17">
+							<app>
+								<lem wit="#Transcription">wistom enti spachida enti craft,</lem>
+								<rdg wit="#Translation">wisdom and cleverness and strength</rdg>
+							</app>
+						</l>
+						<l n="18">
+							<app>
+								<lem wit="#Transcription">tiuflun za widarstantanne, enti arc za piwisanne endi dinan</lem>
+								<rdg wit="#Translation">to resist the devil, and to shun evil and</rdg>
+							</app>
+						</l>
+						<l n="19">
 							<app>
 								<lem wit="#Transcription">willeon za gauurchanne.</lem>
 								<rdg wit="#Translation">to work your will.</rdg>
