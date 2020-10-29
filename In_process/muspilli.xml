@@ -12,8 +12,8 @@
 				<title>Muspilli</title>
 				<author>Anonymous</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name>Hannah Frakes</name>
+					<resp>Transcription based on</resp>
+					<name>Horst Dieter Schlosser, Althochdeutsche Literatur. Mit altniederdeutschen Textbeispielen. Auswahl mit Übertragungen und Kommentar, Berlin: Erich Schmidt Verlag 2004, pp. 82–86.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -25,16 +25,16 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Global Medieval Sourcebook</publisher>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
 				<availability>
-					<p></p>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
 				</availability>
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
-				<note type='critIntro'></note>
 			</notesStmt>
 			<sourceDesc>
+				<p></p>
 				<listWit>
 					<witness xml:id="Transcription">Muspilli</witness>
 					<witness xml:id="Translation">Muspilli</witness>
@@ -43,10 +43,15 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Muspilli" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
-         	</projectDesc>
+            	<p>"Muspilli" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+ 			</projectDesc>
 			<editorialDecl>
-				<p></p>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
 			</editorialDecl>
 			<variantEncoding method="parallel-segmentation" location="internal"/>
 		</encodingDesc>
@@ -66,334 +71,334 @@
 			<lg>
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">...sin tac piqueme daz er touuan scal.</lem>
-						<rdg wit="#Translation">...his day will come, when he shall die</rdg>
+						<lem wit="#Transcription">...sin tac piqueme, daz er touuan scal.</lem>
+						<rdg wit="#Translation">...his day comes, when he has to die.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">uuanta sàr sô sih diu sêla in den sind arhevit,</lem>
-						<rdg wit="#Translation">and immediately afterwards, when the soul is on its way</rdg>
+						<lem wit="#Transcription">uuanta sar so sih diu sela in den sind arhevit</lem>
+						<rdg wit="#Translation">Immediately afterwards, when the soul starts its journey</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">enti si den lîhhamun likkan làzzit,</lem>
+						<lem wit="#Transcription">enti si den lihhamun likkan lazzit,</lem>
 						<rdg wit="#Translation">and leaves the body behind,</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">sô quimit ein herí fona himilzungalon,</lem>
-						<rdg wit="#Translation">then an army/host comes from the heavens</rdg>
+						<lem wit="#Transcription">so quimit ein heri fona himilzungalon,</lem>
+						<rdg wit="#Translation">then a host comes from the heaven’s firmament</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">daz andar fona pehhe: dar pàgant siu umpi.</lem>
+						<lem wit="#Transcription">daz andar fona pehhe: dar pagant siu umpi.</lem>
 						<rdg wit="#Translation">And another from hell: then they will fight for her [i. e. the soul].</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">sorgen mac diu sèla unzi diu suona argêt,</lem>
-						<rdg wit="#Translation">The soul is anxious until the decision is made,</rdg>
+						<lem wit="#Transcription">Sorgen mac diu sela, unzi diu suona arget,</lem>
+						<rdg wit="#Translation">The soul has to worry until the judgement is made,</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">za uuederemo lierje si gihalôl uuerde.</lem>
-						<rdg wit="#Translation">As to which host it is brought</rdg>
+						<lem wit="#Transcription">za uuederemo herie si gihalot uuerde.</lem>
+						<rdg wit="#Translation">As to which host she is brought.</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">ipu sia daz Satanâzses kisindi kiuuinnit,</lem>
-						<rdg wit="#Translation">For if Satan’s servants win</rdg>
+						<lem wit="#Transcription">uuanta ipu sia daz Satanazses kisindi kiuuinnit,</lem>
+						<rdg wit="#Translation">For if Satan’s retainers win her,</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">daz leitit sia sàr dar iru leid uuirdit,</lem>
-						<rdg wit="#Translation">They will lead her [the soul] to a place of pain,</rdg>
+						<lem wit="#Transcription">daz leitit sia sar dar iru leid uuirdit,</lem>
+						<rdg wit="#Translation">They promptly lead her [the soul] to a place where pain awaits her,</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">in fuir enti in instri dazi ist rehto virinlih ding.</lem>
-						<rdg wit="#Translation">Into fire and gloom: that is a truly horrible thing.</rdg>
+						<lem wit="#Transcription">in fuir enti in finstri: daz ist rehto uirinlih ding.</lem>
+						<rdg wit="#Translation">Into fire and darkness: that is a truly horrible verdict.</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
-						<lem wit="#Transcription">upi sia kihalônt die die dar fona himile quemant,</lem>
+						<lem wit="#Transcription">Upi sia auar kihalont die, die dar fona himile quemant,</lem>
 						<rdg wit="#Translation">But if she is taken by those who come from heaven</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">enti si dero engilo eigan uuirdit,</lem>
-						<rdg wit="#Translation">and becomes a companion of the angels</rdg>
+						<rdg wit="#Translation">And is claimed by the angels,</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription">die pringent sia iif sàr in himilo rihhi:</lem>
-						<rdg wit="#Translation">They bring her up into the heavenly kingdom</rdg>
+						<lem wit="#Transcription">die pringent sia sar uf in himilo rihi:</lem>
+						<rdg wit="#Translation">They promptly bring her up into the heavenly kingdom</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription">dâri ist lip àno tôd, Höht àno finstri,</lem>
-						<rdg wit="#Translation">Where there is life without death and light without darkness,</rdg>
+						<lem wit="#Transcription">dar ist lip ano tod, lioht ano finstri,</lem>
+						<rdg wit="#Translation">Where there is life without death, light without darkness,</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
-						<lem wit="#Transcription">selida àno sorgûn: dàr nist siuh neoman.</lem>
-						<rdg wit="#Translation">A home without worry, where no one is sick.</rdg>
+						<lem wit="#Transcription">selida ano sorgun: dar nist neoman siuh.</lem>
+						<rdg wit="#Translation">A refuge without worry: there nobody suffers sickness.</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
-						<lem wit="#Transcription">denne in pardisu der man pu kiuuinnit,</lem>
-						<rdg wit="#Translation">When one has won a place in paradise,</rdg>
+						<lem wit="#Transcription">denne der man in pardisu pu kiuuinnit,</lem>
+						<rdg wit="#Translation">For if a person wins a place in paradise,</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription">hûs in himile, dàr quimit imo hilfâ kinuok.</lem>
-						<rdg wit="#Translation">A house in heaven – there he will be given much help.</rdg>
+						<lem wit="#Transcription">hus in himile, dar quimit imo hilfa kinuok.</lem>
+						<rdg wit="#Translation">A house in heaven, he will find a lot of support there.</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription">pidiu ist dürft mihhil daz se pidenehanne</lem>
-						<rdg wit="#Translation">Thus the need is great for every man</rdg>
+						<lem wit="#Transcription">Pidiu ist durft mihhil</lem>
+						<rdg wit="#Translation">Thus the need is great</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription">allero manno uuelihhemo, daz in es sin muot kispanc</lem>
-						<rdg wit="#Translation">For his [spirit/heart]
+						<lem wit="#Transcription">allero manno uuelihemo, daz in es sin muot kispane,</lem>
+						<rdg wit="#Translation">for everybody, that his [spirit/heart]
 						<note anchored="true">
-								<p>the correct translation of “muot” controversial. A large camp of scholars translate it as “spirit” ( “der Geist” in modern German), although others translate it as "heart".</p>
-							</note> to be moved,</rdg>
+								<p>The correct translation of “muot” is controversial. A large camp of scholars translate it as “spirit” ( “der Geist” in modern German), although others translate it as "heart".</p>
+							</note>is moved</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription">daz er kotes uuillun kerno tuoe</lem>
-						<rdg wit="#Translation">That he gladly does god’s will</rdg>
+						<lem wit="#Transcription">daz er kotes uuillun kerno tuo</lem>
+						<rdg wit="#Translation">to gladly do God’s will</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
-						<lem wit="#Transcription">enti hellà fuir harto uuise,</lem>
-						<rdg wit="#Translation">And firmly avoids hellfire,</rdg>
+						<lem wit="#Transcription">enti hella fuir harto uuise,</lem>
+						<rdg wit="#Translation">And firmly avoid hellfire,</rdg>
 					</app>
 				</l>
 				<l n="22">
 					<app>
-						<lem wit="#Transcription">pehhes pina: dàr piutit Satanâz</lem>
-						<rdg wit="#Translation">Hell’s pain: there the oldest Satan serves</rdg>
+						<lem wit="#Transcription">pehhes pina. dar piutit Satanaz altist</lem>
+						<rdg wit="#Translation">Hell’s pain: there, the ancient Satan waits</rdg>
 					</app>
 				</l>
 				<l n="23">
 					<app>
-						<lem wit="#Transcription">der altisto heizzan laue. sô mac huckan za diu</lem>
-						<rdg wit="#Translation">hot fire. Therefore he, who knows himself</rdg>
+						<lem wit="#Transcription">heizzan lauc. so mac huckan za diu,</lem>
+						<rdg wit="#Translation">With hot fire. Therefore he, who knows himself</rdg>
 					</app>
 				</l>
 				<l n="24">
 					<app>
-						<lem wit="#Transcription">sorgen dràto, der sih suntîgen uueiz</lem>
+						<lem wit="#Transcription">sorgen drato, der sih suntigen uueiz.</lem>
 						<rdg wit="#Translation">to be sinful, shall think about this with great worry.</rdg>
 					</app>
 				</l>
 				<l n="25">
 					<app>
-						<lem wit="#Transcription">uuë demo in vinstri seal sino virinà stûen,</lem>
-						<rdg wit="#Translation">Woe to him who shall atone for his sins in darkness</rdg>
+						<lem wit="#Transcription">uue demo in uinstri scal sino uirina stuen,</lem>
+						<rdg wit="#Translation">Woe to him who has to atone for his sins in darkness</rdg>
 					</app>
 				</l>
 				<l n="26">
 					<app>
-						<lem wit="#Transcription">prinnan in pehbe: daz ist rehto paluuic dink,</lem>
-						<rdg wit="#Translation">and burn in hell. It is a truly horrible thing,</rdg>
+						<lem wit="#Transcription">prinnan in pehhe: daz ist rehto paluuic dink,</lem>
+						<rdg wit="#Translation">and burn in hell. It is a truly horrible judgement,</rdg>
 					</app>
 				</l>
 				<l n="27">
 					<app>
-						<lem wit="#Transcription">daz der man harét ze gote enti imo hilfa ni quimit</lem>
-						<rdg wit="#Translation">When one calls to God and receives no help.</rdg>
+						<lem wit="#Transcription">daz der man haret ze gote enti imo hilfa ni quimit.</lem>
+						<rdg wit="#Translation">When somebody calls upon God and receives no help.</rdg>
 					</app>
 				</l>
 				<l n="28">
 					<app>
-						<lem wit="#Transcription">uuânit sih kinàdà diu uuênaga sèla,</lem>
-						<rdg wit="#Translation">The wretched soul hopes for mercy:</rdg>
+						<lem wit="#Transcription">uuanit sih kinada diu uuenaga sela.</lem>
+						<rdg wit="#Translation">The wretched soul hopes for mercy,</rdg>
 					</app>
 				</l>
 				<l n="29">
 					<app>
-						<lem wit="#Transcription">ni ist in lu hue tin himiliskin gote:</lem>
-						<rdg wit="#Translation">But it is not remembered by the heavenly god,</rdg>
+						<lem wit="#Transcription">ni ist in kihuctin himiliskin gote,</lem>
+						<rdg wit="#Translation">But she is not remembered by the heavenly God,</rdg>
 					</app>
 				</l>
 				<l n="30">
 					<app>
-						<lem wit="#Transcription">uuanta hiar in uueroltî after ni uuerkôta. – </lem>
-						<rdg wit="#Translation">Because it has not acted accordingly here in the world.</rdg>
+						<lem wit="#Transcription">uuanta hiar in uuerolti aftar ni uuerkota.</lem>
+						<rdg wit="#Translation">because she has not proven herself worthy here in the world.</rdg>
 					</app>
 				</l>
 				<l n="31">
 					<app>
-						<lem wit="#Transcription">Sô der mahtigo khuninc daz mahal kipannit,</lem>
-						<rdg wit="#Translation">When the powerful King orders judgement</rdg>
+						<lem wit="#Transcription">So denne der mahtigo khuninc daz mahal kipannit,</lem>
+						<rdg wit="#Translation">And when the powerful King proclaims the day of judgement</rdg>
 					</app>
 				</l>
 				<l n="32">
 					<app>
-						<lem wit="#Transcription">dara seal chunno queman to kilibhaz,</lem>
-						<rdg wit="#Translation">Every kin must come there, </rdg>
+						<lem wit="#Transcription">dara scal queman queman chunno kilihaz.</lem>
+						<rdg wit="#Translation">Every kin must come there.</rdg>
 					</app>
 				</l>
 				<l n="33">
 					<app>
-						<lem wit="#Transcription">ni kitar parno nohhein den pan furisizzan,</lem>
-						<rdg wit="#Translation">no child will dare to reject the command</rdg>
+						<lem wit="#Transcription">denne ni kitar parno nohhein den pan furisizzan,</lem>
+						<rdg wit="#Translation">No child of man can dare to reject this command,</rdg>
 					</app>
 				</l>
 				<l n="34">
 					<app>
-						<lem wit="#Transcription">ni allero manno kilih ze demo uiahale sculi;</lem>
-						<rdg wit="#Translation">there is no one among men who shall not go to this judgement.</rdg>
+						<lem wit="#Transcription">nio allero manno uuelih ze demo mahale sculi.</lem>
+						<rdg wit="#Translation">[assuming] that not everybody had to attend this judgement.</rdg>
 					</app>
 				</l>
 				<l n="35">
 					<app>
-						<lem wit="#Transcription">dàr scal er vora rihhe az rahhu stantan,</lem>
+						<lem wit="#Transcription">Dar scal er uora demo rihhe az rahhu stantan,</lem>
 						<rdg wit="#Translation">There he shall give account to the Almighty
 							<note anchored="true">
-								<p>“rahha stantan” is a legal technical term meaning “to give an account for sth.”. The expression is still used in modern German as “Rechenschaft stehen”.</p>
+								<p>“rahha stantan” is a legal technical term meaning “to give an account for something.”. The expression is still used in modern German as “Rechenschaft stehen”.</p>
 							</note>
 						</rdg>
 					</app>
 				</l>
 				<l n="36">
 					<app>
-						<lem wit="#Transcription">pidaz er in uueroltî kiuuerkôt hapéta. -</lem>
+						<lem wit="#Transcription">pi daz er in uuerolti kiuuerkot hapeta.</lem>
 						<rdg wit="#Translation">for what he has done in this world.</rdg>
 					</app>
 				</l>
 				<l n="37">
 					<app>
-						<lem wit="#Transcription">Daz hôrtih rahhôn dia uueroltrehtuuison,</lem>
+						<lem wit="#Transcription">daz hortih rahhon dia uueroltrehuuison,</lem>
 						<rdg wit="#Translation">I have heard the wise men of the world tell</rdg>
 					</app>
 				</l>
 				<l n="38">
 					<app>
-						<lem wit="#Transcription">daz sculi der antichristo mil Èliase pagan.</lem>
+						<lem wit="#Transcription">daz sculi der antichristo mil Eliase pagan.</lem>
 						<rdg wit="#Translation">That the antichrist shall fight against Elijah.</rdg>
 					</app>
 				</l>
 				<l n="39">
 					<app>
-						<lem wit="#Transcription">der uuarc ist kiuuâfanit. uuirdit untar in uuic arhapan.</lem>
+						<lem wit="#Transcription">der uuarch ist kiuuafanit, denne uuirdit untar in uuic arhapan.</lem>
 						<rdg wit="#Translation">The fiend is armed, and then the fight between them will start.</rdg>
 					</app>
 				</l>
 				<l n="40">
 					<app>
-						<lem wit="#Transcription">khenfun sint so kreftic diu kôsa ist sô mihhil.</lem>
-						<rdg wit="#Translation">The fighters are so powerful, the cause is so crucial</rdg>
+						<lem wit="#Transcription">khenfun sint so kreftic, diu kosa ist so mihhil:</lem>
+						<rdg wit="#Translation">The fighters are so powerful, the cause is so crucial:</rdg>
 					</app>
 				</l>
 				<l n="41">
 					<app>
-						<lem wit="#Transcription">Elias stritit pi den puiiigon lip:</lem>
+						<lem wit="#Transcription">Elias stritit pi den ewiigon lip,</lem>
 						<rdg wit="#Translation">Elijah fights for eternal life,</rdg>
 					</app>
 				</l>
 				<l n="42">
 					<app>
-						<lem wit="#Transcription">uuili dên rehtkernôn daz lilihi kistarkan; </lem>
-						<rdg wit="#Translation">He wants to secure the kingdom for the righteous:</rdg>
+						<lem wit="#Transcription">uuili din rehtkernon daz rihhi kistarkan.</lem>
+						<rdg wit="#Translation">He wants to secure the realm for the righteous</rdg>
 					</app>
 				</l>
 				<l n="43">
 					<app>
 						<lem wit="#Transcription">pidiu scal imo helfan der himiles kiuualtit.</lem>
-						<rdg wit="#Translation">he who rules in heaven shall help him with this.</rdg>
+						<rdg wit="#Translation">He who rules in heaven shall help him with this.</rdg>
 					</app>
 				</l>
 				<l n="44">
 					<app>
-						<lem wit="#Transcription">der antichristo stêt pi demo altfiante,</lem>
+						<lem wit="#Transcription">der antichristo stet pi demo altfiante,</lem>
 						<rdg wit="#Translation">The antichrist stands with the ancient foe,</rdg>
 					</app>
 				</l>
 				<l n="45">
 					<app>
-						<lem wit="#Transcription">stêt pi Satanàse, der inan varsenkan scal:</lem>
+						<lem wit="#Transcription">stet pi Satanase, der inan uarsenkan scal.</lem>
 						<rdg wit="#Translation">Stands with Satan, who wants to destroy him [Elijah]:</rdg>
 					</app>
 				</l>
 				<l n="46">
 					<app>
-						<lem wit="#Transcription">scal er in deru uuicsteti uuntèr pivallan</lem>
-						<rdg wit="#Translation">But he [the antichrist] will fall on the battlefield</rdg>
+						<lem wit="#Transcription">pidiu scal er in deru uuicsteti uuunt pivallan</lem>
+						<rdg wit="#Translation">But he [the antichrist] will fall wounded on this battlefield,</rdg>
 					</app>
 				</l>
 				<l n="47">
 					<app>
-						<lem wit="#Transcription">enti in demo sinde sigalôs uuerdan.</lem>
+						<lem wit="#Transcription">enti in demo sinde sigalos uuerdan.</lem>
 						<rdg wit="#Translation">And in this way be without victory.</rdg>
 					</app>
 				</l>
 				<l n="48">
 					<app>
-						<lem wit="#Transcription">doh uuànit des vilo uiäsero gotmanno</lem>
+						<lem wit="#Transcription">Doh uuanit des uilo gotmanno,</lem>
 						<rdg wit="#Translation">Yet many men of God believe</rdg>
 					</app>
 				</l>
 				<l n="49">
 					<app>
-						<lem wit="#Transcription">daz der uuiho in demo uulge aruuartit uuerde.</lem>
+						<lem wit="#Transcription">daz Elias in demo uuige aruuartit uuerde.</lem>
 						<rdg wit="#Translation">That Elijah will be wounded in the battle.</rdg>
 					</app>
 				</l>
 				<l n="50">
 					<app>
-						<lem wit="#Transcription">so daz Elíases pluot in erda kitriufit,</lem>
+						<lem wit="#Transcription">so daz Eliases pluot in erda kitriufit,</lem>
 						<rdg wit="#Translation">So when Elijah’s blood drips on the earth,</rdg>
 					</app>
 				</l>
 				<l n="51">
 					<app>
-						<lem wit="#Transcription">so inprinnant die pergâ, poum ni kistentit</lem>
-						<rdg wit="#Translation">The mountains will catch fire and no tree will still stand,</rdg>
+						<lem wit="#Transcription">so inprinnant die perga, poum ni kistentit</lem>
+						<rdg wit="#Translation">The mountains catch fire and no single tree on earth</rdg>
 					</app>
 				</l>
 				<l n="52">
 					<app>
-						<lem wit="#Transcription">einic in erdu ahà sdr artruknênt,</lem>
-						<rdg wit="#Translation">Not a single one on the earth, all water dries up,</rdg>
+						<lem wit="#Transcription">enihc in erdu, aha artruknent,</lem>
+						<rdg wit="#Translation">remains standing, all waters dry up,</rdg>
 					</app>
 				</l>
 				<l n="53">
 					<app>
-						<lem wit="#Transcription">muor varsuuilhit sih, suilizôt lougiu </lem>
-						<rdg wit="#Translation">The moor swallows itself, the heavens will burn slowly with flame,</rdg>
+						<lem wit="#Transcription">muor uarsuuilhit sih, suilizot lougiu der himil,</lem>
+						<rdg wit="#Translation">The moor swallows itself, the heaven perishes in flames,</rdg>
 					</app>
 				</l>
 				<l n="54">
 					<app>
-						<lem wit="#Transcription">der himil, mano vallit, prinnit mittilagart,</lem>
-						<rdg wit="#Translation">The moon falls, middle earth burns.
-						<note anchored="true">
+						<lem wit="#Transcription">mano uallit, prinnit mittilagart,</lem>
+						<rdg wit="#Translation">The moon falls, Middle Earth burns.
+						<note anchored="true" type="critical">
 								<p>“mittilagart” could also be translated as “Midgard”, (although the phrase "middle earth" is now well known to readers of Tolkein) which was the name of the human realm in Norse and Germanic myth. It is an interesting example of the mixing of pagan cosmological models with Christian apocalyptic narrative.</p>
 							</note>
 						</rdg>
@@ -401,290 +406,304 @@
 				</l>
 				<l n="55">
 					<app>
-						<lem wit="#Transcription">stèn ni kistentit denne stûatago in lant</lem>
-						<rdg wit="#Translation">Stones will not stand fast, then judgement day comes to the land,</rdg>
+						<lem wit="#Transcription">sten ni kistentit eikin in erdu, uerit denne tuatago in lant,</lem>
+						<rdg wit="#Translation">Stones do not stand fast by their owners on earth, and then judgement day comes upon the land,</rdg>
 					</app>
 				</l>
 				<l n="56">
 					<app>
-						<lem wit="#Transcription">verit mit diu vuiru viriho uuisón,</lem>
+						<lem wit="#Transcription">uerit mit diu uuiru uiriho uuison.</lem>
 						<rdg wit="#Translation">Comes with fire to afflict the people:</rdg>
 					</app>
 				</l>
 				<l n="57">
 					<app>
-						<lem wit="#Transcription">dâr ni mac mâc helfan vora démo muspille.</lem>
-						<rdg wit="#Translation">No kinsman can help another in the face of the Muspilli.</rdg>
+						<lem wit="#Transcription">Dar ni mac denne mak helfan uora demo muspille.</lem>
+						<rdg wit="#Translation">No kinsman can help the other in the face of the Muspilli.<note anchored="true" type="critical">
+								<p>The exact translation and etymology of “muspille” is unclear. Later Nordic sources suggest that it roughly means “destruction of the world by fire”.</p>
+							</note></rdg>
 					</app>
 				</l>
 				<l n="58">
 					<app>
-						<lem wit="#Transcription">denne daz preita uuasal allaz varprennit</lem>
-						<rdg wit="#Translation">Then over the whole width of the world, everything burns</rdg>
+						<lem wit="#Transcription">denne daz preita uuasal allaz uarprennit</lem>
+						<rdg wit="#Translation">And when the whole circle of the world burns,</rdg>
 					</app>
 				</l>
 				<l n="59">
 					<app>
-						<lem wit="#Transcription">enti vuir enti luft iz allaz arfurpit,</lem>
-						<rdg wit="#Translation">And the fire and the air, everything is purified.</rdg>
+						<lem wit="#Transcription">enti uuir enti luft iz allaz arfurpit,</lem>
+						<rdg wit="#Translation">and a storm of fire and air annihilates everything,</rdg>
 					</app>
 				</l>
 				<l n="60">
 					<app>
-						<lem wit="#Transcription">uuàr ist diu marha, dar man mit sinèn màgon piec?</lem>
-						<rdg wit="#Translation">Where is then the homeland, for which one had fought before together with one’s kinsman?</rdg>
+						<lem wit="#Transcription">uuar ist denne diu marha, dar man dar eo mit sinen magon piehc?</lem>
+						<rdg wit="#Translation">Where is then the homeland, for which one before had fought together with one’s kinsmen?</rdg>
 					</app>
 				</l>
 				<l n="61">
 					<app>
-						<lem wit="#Transcription">diu marha ist farprunnan, diu sèla stet piduungan,</lem>
-						<rdg wit="#Translation">The homeland is burned. The soul stands defeated,</rdg>
+						<lem wit="#Transcription">Diu marha ist farprunnan, diu sela stet piduungan,</lem>
+						<rdg wit="#Translation">The homeland is burned, the soul stands defeated,</rdg>
 					</app>
 				</l>
 				<l n="62">
 					<app>
-						<lem wit="#Transcription">ni uueiz mit uuiu puaze: sàr verit si za uuize. –</lem>
-						<rdg wit="#Translation">Not knowing how to atone: but soon it will face punishment.</rdg>
+						<lem wit="#Transcription">ni uueiz mit uuiu puaze: sar verit si za uuize.</lem>
+						<rdg wit="#Translation">Not knowing how to atone: soon she will face punishment.</rdg>
 					</app>
 				</l>
 				<l n="63">
 					<app>
-						<lem wit="#Transcription">pidiu ist demo manne guot, denne er ze mahale quimit,</lem>
-						<rdg wit="#Translation">Therefore it is good for a man, when he comes to the trial,</rdg>
+						<lem wit="#Transcription">Pidiu ist demo manne so guot, denner ze demo mahale quimit,</lem>
+						<rdg wit="#Translation">Therefore it is good for a man, when he comes to the tribunal,</rdg>
 					</app>
 				</l>
 				<l n="64">
 					<app>
-						<lem wit="#Transcription">daz er rahhôno uuelihha rehto arteile:</lem>
-						<rdg wit="#Translation">To have everything rightly judged.</rdg>
+						<lem wit="#Transcription">daz er rahono uueliha rehto arteile.</lem>
+						<rdg wit="#Translation">To have always delivered rightful judgements.</rdg>
 					</app>
 				</l>
 				<l n="65">
 					<app>
-						<lem wit="#Transcription">ni darf er sorgen, denne er ze deru suonu quimit.</lem>
-						<rdg wit="#Translation">Then he must not worry when he comes to the judgment.</rdg>
+						<lem wit="#Transcription">Denne ni darf er sorgen, denne er ze deru suonu quimit.</lem>
+						<rdg wit="#Translation">Then he needs not to worry when he faces this trial.</rdg>
 					</app>
 				</l>
 				<l n="66">
 					<app>
-						<lem wit="#Transcription">ni uueiz der uuênago man uuelihhan urteil er habet,</lem>
-						<rdg wit="#Translation">The deplorable man does not know what sentence awaits him</rdg>
+						<lem wit="#Transcription">ni uueiz der uuenago man uuielihan uuartil er habet,</lem>
+						<rdg wit="#Translation">A weak person does not know what sentence awaits him,</rdg>
 					</app>
 				</l>
 				<l n="67">
 					<app>
-						<lem wit="#Transcription">denner mit den miatön marrit daz rehta,</lem>
-						<rdg wit="#Translation">When he hinders justice with bribery,</rdg>
+						<lem wit="#Transcription">denner mit den miaton marrit daz rehta,</lem>
+						<rdg wit="#Translation">when he breaks the law with bribery,</rdg>
 					</app>
 				</l>
 				<l n="68">
 					<app>
-						<lem wit="#Transcription">daz der tiuval dâr pi kitarnit stentit.</lem>
-						<rdg wit="#Translation">That the he cloaked devil stands there:</rdg>
+						<lem wit="#Transcription">daz der tiuual dar pi kitarnit stentit.</lem>
+						<rdg wit="#Translation">And that the devil hides close to him,</rdg>
 					</app>
 				</l>
 				<l n="69">
 					<app>
-						<lem wit="#Transcription">der hapêt in ruovu rahhôno uuelihha</lem>
-						<rdg wit="#Translation">He quietly takes into account</rdg>
+						<lem wit="#Transcription">der hapet in ruouu rahono uueliha,</lem>
+						<rdg wit="#Translation">and quietly takes into account every evil deed</rdg>
 					</app>
 				</l>
 				<l n="70">
 					<app>
-						<lem wit="#Transcription">daz der man èr enti sid upiles kifrumita,</lem>
-						<rdg wit="#Translation">every evil deed the man does, has done, and will do</rdg>
+						<lem wit="#Transcription">daz der man er enti sid upiles kifrumita,</lem>
+						<rdg wit="#Translation">that this person has done and will do,</rdg>
 					</app>
 				</l>
 				<l n="71">
 					<app>
-						<lem wit="#Transcription">daz er iz allaz kisagêt denne er ze deru suonu quimit.</lem>
-						<rdg wit="#Translation">And he reports all this when he [the man] goes to judgement.</rdg>
+						<lem wit="#Transcription">daz er iz allaz kisaget, denne er ze deru suono quimit.</lem>
+						<rdg wit="#Translation">In order to report it all when he [the man] faces the trial.</rdg>
 					</app>
 				</l>
 				<l n="72">
 					<app>
-						<lem wit="#Transcription">ni scolta manno nohhein miatun intfàhan.- -</lem>
-						<rdg wit="#Translation">Therefore, a man should never accept bribes.</rdg>
+						<lem wit="#Transcription">Ni scolta manno nohhein miatun intfahan.</lem>
+						<rdg wit="#Translation">Therefore, nobody should ever accept bribes.</rdg>
 					</app>
 				</l>
 				<l n="73">
 					<app>
-						<lem wit="#Transcription">So daz himilisca horn kihlutit uuirdit</lem>
+						<lem wit="#Transcription">So daz himilisca horn kilutit uuirdit</lem>
 						<rdg wit="#Translation">When the heavenly horn is blown</rdg>
 					</app>
 				</l>
 				<l n="74">
 					<app>
-						<lem wit="#Transcription">enti sih der suanari ana den sind arhevit,der da suannan scal toten enti lepenten</lem>
-						<rdg wit="#Translation">And the judge will raise himself up, who shall judge the dead and the living</rdg>
+						<lem wit="#Transcription">enti sih der suanari ana den sind arheuit,</lem>
+						<rdg wit="#Translation">And the judge, who shall judge the dead</rdg>
 					</app>
 				</l>
 				<l n="75">
 					<app>
-						<lem wit="#Transcription">denne hevit sih mit imo herio meista,</lem>
-						<rdg wit="#Translation">And with him the army of the lord will rise</rdg>
+						<lem wit="#Transcription">der da suannan scal toten enti lepenten,</lem>
+						<rdg wit="#Translation">and the living, will start his journey,</rdg>
 					</app>
 				</l>
 				<l n="76">
 					<app>
-						<lem wit="#Transcription">daz ist alla sô paid imo man kipâgan ni mak.</lem>
-						<rdg wit="#Translation">Which is so brave that no one can outfight it.</rdg>
+						<lem wit="#Transcription">denne heuit sih mit imo herio meista.</lem>
+						<rdg wit="#Translation">the largest host will rise together with him.</rdg>
 					</app>
 				</l>
 				<l n="77">
 					<app>
-						<lem wit="#Transcription">verit er ze deru mahalsteti deru dàr gimarchôt ist:</lem>
-						<rdg wit="#Translation">Then he will go to the judgement place, which is determined,</rdg>
+						<lem wit="#Transcription">daz ist allaz so pald, daz imo nioman kipagan ni mak.</lem>
+						<rdg wit="#Translation">This [host] is so brave that no one can stand up against it.</rdg>
 					</app>
 				</l>
 				<l n="78">
 					<app>
-						<lem wit="#Transcription">dar uuirdit diu suona dia man dar io sagêta.</lem>
-						<rdg wit="#Translation">That is where the trial that we spoke of will take place.</rdg>
+						<lem wit="#Transcription">Denne uerit er ze deru mahalsteti, deru dar kimarchot ist,</lem>
+						<rdg wit="#Translation">Then he will go to the judgement place, which is staked out,</rdg>
 					</app>
 				</l>
 				<l n="79">
 					<app>
-						<lem wit="#Transcription">denne varant engilâ uper dio marhà,</lem>
-						<rdg wit="#Translation">Then Angels will travel over the homeland,</rdg>
+						<lem wit="#Transcription">dar uuirdit diu suona, dia man dar io sageta.</lem>
+						<rdg wit="#Translation">That is where the trial will take place as it has been proclaimed.</rdg>
 					</app>
 				</l>
 				<l n="80">
 					<app>
-						<lem wit="#Transcription">uuecchant deotá uuíssant ze dinge.</lem>
-						<rdg wit="#Translation">Waking the dead and calling them to the thing</rdg>
+						<lem wit="#Transcription">Denne uarant engila uper dio marha,</lem>
+						<rdg wit="#Translation">Angels will then travel over the land,</rdg>
 					</app>
 				</l>
 				<l n="81">
 					<app>
-						<lem wit="#Transcription">seal manno gilih fona deru moltu arstên,</lem>
-						<rdg wit="#Translation">Then all men have to resurrect from the dust,</rdg>
+						<lem wit="#Transcription">uuechant deota, uuissant ze dinge.</lem>
+						<rdg wit="#Translation">wake the dead, call them to the judgement.</rdg>
 					</app>
 				</l>
 				<l n="82">
 					<app>
-						<lem wit="#Transcription">ar dero lèuuo vazzôn: scal imo avar sin lip piqueman</lem>
-						<rdg wit="#Translation">Relieve themselves of the burden of the grave: he [everyone] shall regain his body,</rdg>
+						<lem wit="#Transcription">denne scal manno gilih fona deru moltu arsten,</lem>
+						<rdg wit="#Translation">Then everybody will resurrect from the dust,</rdg>
 					</app>
 				</l>
 				<l n="83">
 					<app>
-						<lem wit="#Transcription">daz er sin relit alla kirahhôn muozzi</lem>
-						<rdg wit="#Translation">So that he can fairly explain himself</rdg>
+						<lem wit="#Transcription">Lossan si ar dero leuuo vazzon, scal imo auar sin lip piqueman,</lem>
+						<rdg wit="#Translation">Release himself from the burden of the grave: he shall regain his body,</rdg>
 					</app>
 				</l>
 				<l n="84">
 					<app>
-						<lem wit="#Transcription">enti imo after sinên tàtin arteilit uuerde.</lem>
-						<rdg wit="#Translation">And be judged for his deeds,</rdg>
+						<lem wit="#Transcription">daz er sin reht allaz kirahhn muozzi</lem>
+						<rdg wit="#Translation">So that he can fairly answer for everything</rdg>
 					</app>
 				</l>
 				<l n="85">
 					<app>
-						<lem wit="#Transcription">denne der gisizzit der dâr suonnan scal</lem>
-						<rdg wit="#Translation">Then he sits, the one who tries in court</rdg>
+						<lem wit="#Transcription">enti imo after sinen tatin arteilit uuerde.</lem>
+						<rdg wit="#Translation">And be judged for his deeds.</rdg>
 					</app>
 				</l>
 				<l n="86">
 					<app>
-						<lem wit="#Transcription">enti arteillan seal töten enti quekkhèn,</lem>
-						<rdg wit="#Translation">and judges the dead and the living,</rdg>
+						<lem wit="#Transcription">Denne der gisizzit, der dâr suonnan scal</lem>
+						<rdg wit="#Translation">Then he sits down, the one who shall try in court</rdg>
 					</app>
 				</l>
 				<l n="87">
 					<app>
-						<lem wit="#Transcription">denne stët dâr umpi engilo menigi,</lem>
-						<rdg wit="#Translation">With him sits the heavenly host,</rdg>
+						<lem wit="#Transcription">enti arteillan scal toten enti quekkhen,</lem>
+						<rdg wit="#Translation">And pass judgement over the dead and the living;</rdg>
 					</app>
 				</l>
 				<l n="88">
 					<app>
-						<lem wit="#Transcription">guotero gomôno garuuist sô mihhil,</lem>
-						<rdg wit="#Translation">and a great choir of good men:</rdg>
+						<lem wit="#Transcription">denne stet dar umpi engilo menigi,</lem>
+						<rdg wit="#Translation">The host of angels surrounds him,</rdg>
 					</app>
 				</l>
 				<l n="89">
 					<app>
-						<lem wit="#Transcription">dara quirait ze rihtungu sô vilo dia dàr ar resti ûf arstènt</lem>
-						<rdg wit="#Translation">So many come to judgement who have arisen from their rest.</rdg>
+						<lem wit="#Transcription">guotero gomono: gart ist so mihhil,</lem>
+						<rdg wit="#Translation">and [many] good men: The place [of judgement] is large,</rdg>
 					</app>
 				</l>
 				<l n="90">
 					<app>
-						<lem wit="#Transcription">sô dâr manno nohhein uuiht pimtdan ni mak.</lem>
-						<rdg wit="#Translation">There no one can hide anything,</rdg>
+						<lem wit="#Transcription">dara quimit ze deu rihtungu so uilo, dia dar ar resti arstent</lem>
+						<rdg wit="#Translation">And so many who have arisen from their rest come to the trial.</rdg>
 					</app>
 				</l>
 				<l n="91">
 					<app>
-						<lem wit="#Transcription">dàr seal hant sprehhan houpit sekkan,</lem>
-						<rdg wit="#Translation">Or else the hand will speak and the head will talk,</rdg>
+						<lem wit="#Transcription">so dar manno nohhein uuiht pimidan ni mak,</lem>
+						<rdg wit="#Translation">Nobody can hide anything there,</rdg>
 					</app>
 				</l>
 				<l n="92">
 					<app>
-						<lem wit="#Transcription">altero lido uuelih ùnzi den luzigun vinger,</lem>
-						<rdg wit="#Translation">Every limb down to the smallest finger,</rdg>
+						<lem wit="#Transcription">dar scal denne hant sprehhan, houpit sagen,</lem>
+						<rdg wit="#Translation">Or else the hand will speak, the head will talk,</rdg>
 					</app>
 				</l>
 				<l n="93">
 					<app>
-						<lem wit="#Transcription">uuaz er untar mannun mordes kifrumita.</lem>
-						<rdg wit="#Translation">What murder they committed for this man.</rdg>
+						<lem wit="#Transcription">allero lido uuelihc unzi in den luzigun uinger,</lem>
+						<rdg wit="#Translation">Every limb down to the smallest finger,</rdg>
 					</app>
 				</l>
 				<l n="94">
 					<app>
-						<lem wit="#Transcription">dâr ni ist sô listic man, der dàr uuiht arliugan megi,</lem>
-						<rdg wit="#Translation">Therefore no man is cunning enough to be able to tell a lie there</rdg>
+						<lem wit="#Transcription">uuaz er untar mannun mordes kifrumita.</lem>
+						<rdg wit="#Translation">What murder it has committed amongst men.</rdg>
 					</app>
 				</l>
 				<l n="95">
 					<app>
-						<lem wit="#Transcription">daz cr kitarne tàto dehheina,</lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Dar ni ist eo so listic man, der dar iouuiht arliugan megi,</lem>
+						<rdg wit="#Translation">Therefore nobody is cunning enough to be able to tell a lie there</rdg>
 					</app>
 				</l>
 				<l n="96">
 					<app>
-						<lem wit="#Transcription">niz al fora khuninge kichundit uuerde,</lem>
-						<rdg wit="#Translation">in order to disguise a deed,</rdg>
+						<lem wit="#Transcription">daz er kitarnan megi tato dehheina,</lem>
+						<rdg wit="#Translation">Or to hide any deed:</rdg>
 					</app>
 				</l>
 				<l n="97">
 					<app>
-						<lem wit="#Transcription">ûzzan er [iz mit alamuasnu furimegi</lem>
-						<rdg wit="#Translation">unless he has atoned for his sins (line 98)</rdg>
+						<lem wit="#Transcription">niz al fora demo khuninge kichundit uuerde,</lem>
+						<rdg wit="#Translation">It will still be revealed in front of the king</rdg>
 					</app>
 				</l>
 				<l n="98">
 					<app>
-						<lem wit="#Transcription">enti] mit fastûn dio virinâ kipuazti.</lem>
-						<rdg wit="#Translation">With almsgiving and fasting. (line 97)</rdg>
+						<lem wit="#Transcription">uzzan er iz mit alamusanu furimegi</lem>
+						<rdg wit="#Translation">unless he can compensate for it with alms [he has given],</rdg>
 					</app>
 				</l>
 				<l n="99">
 					<app>
-						<lem wit="#Transcription">ni sorgé der gipuazzit hapêt, denner ze deru suonu quimit uuirdit denne furi kitragan daz frôno chrùci,</lem>
-						<rdg wit="#Translation">Therefore he, who has atoned, need not worry when he comes to judgement. Then the sacred cross is brought out,</rdg>
+						<lem wit="#Transcription">enti mit fastun dio uirina kipuazti.</lem>
+						<rdg wit="#Translation">And has atoned for the crimes with fasting.</rdg>
 					</app>
 				</l>
 				<l n="100">
 					<app>
-						<lem wit="#Transcription">dàr der héligo Christ ana arhangan uuard,</lem>
-						<rdg wit="#Translation">Upon which the holy Christ was crucified,</rdg>
+						<lem wit="#Transcription">Denne der paldet, der gipuazzit hapet, denner ze deru suonu quimit.</lem>
+						<rdg wit="#Translation">Therefore he, who has atoned, needs not to worry when he comes to this judgement.</rdg>
 					</app>
 				</l>
 				<l n="101">
 					<app>
-						<lem wit="#Transcription">augit er dio mâsun dio er in menniski</lem>
-						<rdg wit="#Translation">And then he shows the scars that he received as a man,</rdg>
+						<lem wit="#Transcription">uuirdit denne furi kitragan daz frono chruci,</lem>
+						<rdg wit="#Translation">Then the noble cross will be carried forward,</rdg>
 					</app>
 				</l>
 				<l n="102">
 					<app>
-						<lem wit="#Transcription">duruh desse maneunnes minna...</lem>
-						<rdg wit="#Translation">That he obtained through his love of mankind.</rdg>
+						<lem wit="#Transcription">dar der heligo Christ ana arhangan uuard,</lem>
+						<rdg wit="#Translation">Upon which the holy Christ was crucified,</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription">denne augit er dio masun, dio er in deru menniski anfenc,</lem>
+						<rdg wit="#Translation"And he will show the wounds that he received as a man,</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription">duruh desse mancunnes minna f[ardoleta]...</lem>
+						<rdg wit="#Translation">That he had obtained for his love of mankind.</rdg>
 					</app>
 				</l>
 			</lg>
