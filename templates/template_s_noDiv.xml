@@ -62,20 +62,14 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
-						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
 			<p n="1">
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
 				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
@@ -90,6 +84,37 @@
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+
 				<s>
 					<app>
 						<lem wit="#Transcription">
