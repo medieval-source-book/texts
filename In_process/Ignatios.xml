@@ -9,11 +9,11 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
+				<title>Memorial of our father Ignatios, Patriarch of Constantinople</title>
+				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<name>Lora Webb</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,16 +34,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p><ref target="https://digi.vatlib.it/view/MSS_Vat.gr.1613">Vatican, Ms.Vat.gr.1613, p.134</ref></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">μνήμη τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰγατίου πατριάρχου Κωνσταντινουπόλεως</witness>
+					<witness xml:id="Translation">Memorial of our father Ignatios, Patriarch of Constantinople</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Memorial of our father Ignatios, Patriarch of Constantinople" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
