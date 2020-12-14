@@ -1,0 +1,172 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>So that rivals do not slander this collection of jokes for its inelegance</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription from</resp>
+					<name>Basel 1538 (Reprinted in Poggio Bracciolini, Scripta in editione Basilensi anno 1538 collata. Ed. Riccardo Fulbini. Turin: Bottega d'Erasmo, 1964.)</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032427r">Paris, BnF Latin 8770a</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Ne Aemuli Carpant Facetiarum Opus, Propter Eloquentiae Tenuitatem</witness>
+					<witness xml:id="Translation">So that rivals do not slander this collection of jokes for its inelegance</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"So that rivals do not slander this collection of jokes for its inelegance" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Multos futuros esse arbitror qui has nostras confabulationes, tum ut res leves et viro gravi indignas reprehendant, tum in eis ornatiorem dicendi modum et maiorem eloquentiam requirant.</lem>
+						<rdg wit="#Translation">I think there will be many who will condemn these conversations of ours, either because they are not serious and unworthy of a dignified man, or because they are in need of a more embellished mode of speech and more eloquence.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Quibus ego si respondeam, legisse me nostros Maiores, prudentissimos ac doctissimos viros, facetiis, iocis et fabulis delectatos, non reprehensionem, sed laudem meruisse, satis mihi factum ad illorum existimationem putabo.</lem>
+						<rdg wit="#Translation">But if I reply that I have read our forefathers - those wise and learned men who found delight in jokes, jests, and stories – I think that I will earn praise, not reprehension, since I have done enough to gain their appreciation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Nam quid mihi turpe esse putem hac in re, quandoquidem in ceteris nequeo, illorum imitationem sequi,</lem>
+						<rdg wit="#Translation">For why should I consider it a shameful thing to follow their models in this area, (since I am not able to do so in others).</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et hoc idem tempus quod reliqui in circulis et coetu hominum confabulando conterunt, in scribendi cura consumere, praesertim cum neque labor inhonestus sit, et legentes aliqua iucunditate possit afficere?</lem>
+						<rdg wit="#Translation">While others waste time conversing in their social circles and groups, I make an effort to write, and especially since it is no dishonest work and can bring the readers some joy.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Honestum est enim ac ferme necessarium, certe quod sapientes laudarunt, mentem nostram variis cogitationibus ac molestiis oppressam, recreari quandoque a continuis curis, et eam aliquo iocandi genere ad hilaritatem remissionemque converti.</lem>
+						<rdg wit="#Translation">For it is a noble and almost a necessary thing to restore our minds that are oppressed by so many thoughts and troubles (the wise ones certainly approve of this), and to sometimes turn them from constant worry to cheerfulness and relaxation with the genre of jokes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Eloquentiam vero in rebus infimis, vel in his in quibus ad verbum vel facetiae exprimendae sunt, vel aliorum dicta referenda, quaerere, hominis nimium curiosi esse videtur.</lem>
+						<rdg wit="#Translation">However, to seek eloquence in these low matters, which are represented either word-for-word, or as jokes, or reported as the sayings of somebody else, would seem to be a bit too much for a diligent man.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Sunt enim quaedam quae ornatius nequeant describi, cum ita recensenda sint, quemadmodum protulerunt ea hi qui in confabulationibus coniiciuntur.</lem>
+						<rdg wit="#Translation">There are indeed some things which cannot be portrayed in a more embellished manner, since these things should be recounted in the same way as they were told by those who had these conversations.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Existimabunt aliqui forsan hanc meam excusationem ab ingenii culpa esse profectam, quibus ego quoque assentior.</lem>
+						<rdg wit="#Translation">Some will perhaps think that my excuses derive from a lack of skill, and I agree with these people.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Modo ipsi eadem ornatius politiusque describant, quod ut faciant exhortor, quo lingua Latina etiam levioribus in rebus hac nostra aetate fiat opulentior.</lem>
+						<rdg wit="#Translation">I really encourage them to write similar things in a more embellished and refined way, so that the Latin language of our time may be richer even where these very light matters are concerned.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Proderit enim ad eloquentiae doctrinam ea scribendi exercitatio.</lem>
+						<rdg wit="#Translation">For the practice of writing these stories will benefit the study of eloquence.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Ego quidem experiri volui, an multa quae Latine dici difficulter existimantur, non absurde scribi posse viderentur,</lem>
+						<rdg wit="#Translation">Indeed, I wanted to examine whether many of these things that are thought difficult to express in Latin, could be regarded as possible to write down in a non-absurd way.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">in quibus cum nullus ornatus, nulla amplitudo sermonis adhiberi queat, satis erit ingenio nostro, si non inconcinne omnino videbuntur a me referri.</lem>
+						<rdg wit="#Translation">These things cannot be combined with embellishment and high style, so it will be enough as far as my ability is concerned if people think that I have not told the stories in a completely inelegant way.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">Verum facessant ab istarum Confabulationum lectione (sic enim eas appellari volo) qui nimis rigidi censores, aut acres existimatores rerum existunt.</lem>
+						<rdg wit="#Translation">Truly, they who appear as overly strict censors or bitter critics may avoid reading these Conversations (for this is what I want them to be called).</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">A facetis enim et humanis (sicut Lucilius a Consentinis et Tarentinis) legi cupio.</lem>
+						<rdg wit="#Translation">For I wish them to be read by elegant and refined people (as Lucilius was by the Consentians and the Tarentines).</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Quod si rusticiores erunt, non recuso quin sentiant quod volunt, modo scriptorem ne culpent, qui ad levationem animi haec et ad ingenii exercitium scripsit.</lem>
+						<rdg wit="#Translation">If they should be too unsophisticated, I do not object to their thinking what they want, as long as they do not blame the author, who wrote this to raise his spirit and to practice his skill.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

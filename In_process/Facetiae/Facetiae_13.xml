@@ -1,0 +1,124 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The saying of the cook of the famous duke of Milan</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription from</resp>
+					<name>Basel 1538 (Reprinted in Poggio Bracciolini, Scripta in editione Basilensi anno 1538 collata. Ed. Riccardo Fulbini. Turin: Bottega d'Erasmo, 1964.)</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032427r">Paris, BnF Latin 8770a</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Dictum Coci Illustrissimo Duci Mediolanensi Habitum</witness>
+					<witness xml:id="Translation">The saying of the cook of the famous duke of Milan</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The saying of the cook of the famous duke of Milan" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Facetia XIII</lem>
+						<rdg wit="#Translation">Joke 13</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Dux Mediolani senior, Princeps in omnibus rebus elegantiae singularis, habebat cocum egregium quem usque ad Gallos ad perdiscenda obsonia miserat.</lem>
+						<rdg wit="#Translation">The older duke of Milan, a most refined ruler when all things were concerned, had a distinguished cook, whom he sent all the way to France to fully learn their dishes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Bello, quod ingens cum Florentinis Dux habuit, cum ei aliquando non satis prosper nuntius advenisset, admodum turbavit Ducis mentem.</lem>
+						<rdg wit="#Translation">Once during the war, which the great duke waged against Florence, the duke became very upset because he had received less than favourable news.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Oblatis postmodum ad mensam epulis, sapores nescio quos cum Dux improbasset, epulas insuper, ut non rite conditas, esset aspernatus,</lem>
+						<rdg wit="#Translation">Later on at dinner a feast was presented, but the duke had rejected several sauces and had even spurned a dish for not being correctly spiced.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">accitum cocum veluti ignarum artis aspere increpavit.</lem>
+						<rdg wit="#Translation">The cook was summoned and severely rebuked for not knowing his art.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Tum ille, ut erat liberior in eloquendo:</lem>
+						<rdg wit="#Translation">Since he was quite unrestrained in speaking out, the cook then said:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'Si Florentini,' inquit, 'tibi gustum atque appetitum auferunt, quae mea est culpa?</lem>
+						<rdg wit="#Translation">“If the Florentines have taken away your taste and appetite, why is that my fault?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cibi enim mei sapidi sunt, et summa arte compositi: sed te nimium concalefaciunt, et appetitum auferunt Florentini.'</lem>
+						<rdg wit="#Translation">My food is well-tasting and made with the highest skill: but the Florentines have roasted you thoroughly and taken away your appetite.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Risit ille, ut erat humanissimus, coci facetam in respondendo libertatem.</lem>
+						<rdg wit="#Translation">The duke, who was very humane, laughed at the cook’s elegant reply and the liberty he took.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

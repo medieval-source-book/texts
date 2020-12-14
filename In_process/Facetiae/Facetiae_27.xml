@@ -1,0 +1,116 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The pregnant sister of the citizen of Constance</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription from</resp>
+					<name>Basel 1538 (Reprinted in Poggio Bracciolini, Scripta in editione Basilensi anno 1538 collata. Ed. Riccardo Fulbini. Turin: Bottega d'Erasmo, 1964.)</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032427r">Paris, BnF Latin 8770a</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Civis Constantiae Soror Gravida Facta</witness>
+					<witness xml:id="Translation">The pregnant sister of the citizen of Constance</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The pregnant sister of the citizen of Constance" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Facetia XXVII</lem>
+						<rdg wit="#Translation">Joke 27</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Nobilis Episcopus ex Britanniis, ad ostendendam quam tunc multi requirebant Concilii Constantiensis libertatem, in magno Praelatorum conventu hoc attulit testimonium.</lem>
+						<rdg wit="#Translation">A noble bishop from Britain gave this testimony at a big meeting of the prelates as a demonstration of the liberty that many then sought at the Council of Constance.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Fuisse ait Constantiae civem, cuius soror innupta gravida facta erat.</lem>
+						<rdg wit="#Translation">He said that there was a citizen in Constance whose unmarried sister had become pregnant.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum fratri tumor ventris innotuisset, accepto gladio, quid id esset, aut unde id prodisset, quaesivit, percussori similis.</lem>
+						<rdg wit="#Translation">When he discovered her swelling belly, he grabbed his sword like a murderer and demanded to know what this was and who had caused it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Tum iuvenis exterrita, id esse Concilii opus, seque ex Concilio praegnantem.</lem>
+						<rdg wit="#Translation">The young terrified woman then said that this was the Council’s doing and that she had become pregnant from the Council.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Hoc intellecto frater, Concilii metu ac reverentia, sororem impunitam reliquit.</lem>
+						<rdg wit="#Translation">When the brother realised this, he let the sister off unpunished out of fear and respect for the Council.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum ceteri aliarum rerum libertatem quaererent, ille praetulit licentiam futuendi.</lem>
+						<rdg wit="#Translation">When some would seek liberty with regard to other things, he preferred the liberty to fuck.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

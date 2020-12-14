@@ -40,7 +40,9 @@
 			<sourceDesc>
 				 <p></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
+					<witness xml:id="Quechua"><!--Short title in original language--></witness>
+					<witness xml:id="Latin"><!--Short title in original language--></witness>
+					<witness xml:id="Spanish"><!--Short title in original language--></witness>
 					<witness xml:id="Translation"><!--Short title in English--></witness>
 				</listWit>
 			</sourceDesc>
@@ -66,81 +68,165 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
-						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
-					</app>
-				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+						<lem wit="#Quechua">Cumac Nusta</lem>
+						<rdg wit="#Latin">Pulchra Nimpha</rdg>
+						<rdg wit="#Spanish">Hermesa denzella</rdg>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
-			<lg n="1" type="stanza">
+			<lg n="1">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Quechua">Cumac Nusta</lem>
+						<rdg wit="#Latin">Pulchra Nimpha</rdg>
+						<rdg wit="#Spanish">Hermesa denzella</rdg>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Toralláyquim</lem>
+						<rdg wit="#Latin">Frater tuus</rdg>
+						<rdg wit="#Spanish">Aquese tu hermano</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Puyñuy quita</lem>
+						<rdg wit="#Latin">Vrnam tuam</rdg>
+						<rdg wit="#Spanish">El tu cantaríllo</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Paquir cayan</lem>
+						<rdg wit="#Latin">Nunc infringit</rdg>
+						<rdg wit="#Spanish">Lo esta quebrantando,</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Hina mantara</lem>
+						<rdg wit="#Latin">Cuius iectus</rdg>
+						<rdg wit="#Spanish">Y de aquaesta causa</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-			</lg>
-			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Cunuñunun</lem>
+						<rdg wit="#Latin">Tonat fulget</rdg>
+						<rdg wit="#Spanish">Truena y relampaguea</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Ylla pántac</lem>
+						<rdg wit="#Latin">Fulminatque</rdg>
+						<rdg wit="#Spanish">Tambié cayen rayos.</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Camri Nústa</lem>
+						<rdg wit="#Latin">Sed tu Ninpha</rdg>
+						<rdg wit="#Spanish">Tu real denzella</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Vnuy quita</lem>
+						<rdg wit="#Latin">Tuam limpham</rdg>
+						<rdg wit="#Spanish">Tus muy lindas aguas</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Quechua">Par̄a múnquí</lem>
+						<rdg wit="#Latin">Fundens pluis</rdg>
+						<rdg wit="#Spanish">Nos daras llouiendo</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Quechua">May ñimpiri</lem>
+						<rdg wit="#Latin">Interdumque</rdg>
+						<rdg wit="#Spanish">Tambien a les vezes</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Quechua">Chíchi múnquí</lem>
+						<rdg wit="#Latin">Grandinem, seu</rdg>
+						<rdg wit="#Spanish">Granizar nos has</rdg>
+						<rdg wit="#Translation">Lorem impum</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Quechua">Rítî rúrac</lem>
+						<rdg wit="#Latin">Niuem mittis</rdg>
+						<rdg wit="#Spanish">Neuaras assí niesmo.</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Quechua">Pacha rúrac</lem>
+						<rdg wit="#Latin">Mundi faetor</rdg>
+						<rdg wit="#Spanish">El hazedor del mundo</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Quechua">Pacha cámac</lem>
+						<rdg wit="#Latin">Pacha camac,</rdg>
+						<rdg wit="#Spanish">El Dios que le anima</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Quechua">Vira cócha</lem>
+						<rdg wit="#Latin">Vira cocha</rdg>
+						<rdg wit="#Spanish">El Gran Vira cocha</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Quechua">Cay hínàpac</lem>
+						<rdg wit="#Latin">Ad hoc munus</rdg>
+						<rdg wit="#Spanish">Para aqueste oficío</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Quechua">Churasúnqui</lem>
+						<rdg wit="#Latin">Te sufficit</rdg>
+						<rdg wit="#Spanish">Ya te colocaron</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Quechua">Camasúnqui</lem>
+						<rdg wit="#Latin">Ac prefecít</rdg>
+						<rdg wit="#Spanish">Y te dieron alma.</rdg>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>

@@ -1,0 +1,119 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Your friend whomever you repugn repugns"</title>
+				<author>Muḥammad ibn Idrīs al-Shāfiʿī</author>
+				<respStmt>
+					<resp>Transcriped from</resp>
+					<name> al-Shāfiʿī, M. 1999. Dīwān al-Shāfiʿī: al-Imām al-Faqīh Abū ʿAbd Allāh Muḥammad ibn Idrīs al-Shāfiʿī, ed. Mujāhid Muṣṭafā Bahjat. Dimashq: Dār al-Qalam, page 97.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Sherif Abdelkarim</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p> al-Shāfiʿī, M. 1999. Dīwān al-Shāfiʿī: al-Imām al-Faqīh Abū ʿAbd Allāh Muḥammad ibn Idrīs al-Shāfiʿī, ed. Mujāhid Muṣṭafā Bahjat. Dimashq: Dār al-Qalam, page 97.</p>
+				<listWit>
+					<witness xml:id="Transcription">"صديقك من يعادي من تعادي"</witness>
+					<witness xml:id="Translation">"Your friend whomever you repugn repugns"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Your friend whomever you repugn repugns" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>For clarification, I have added diacritics to letters left unmarked in this edition.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">من ديوان الشافعي</lem>
+						<rdg wit="#Translation">from Dīwān al-Shāfiʿī</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">صديقك مَن يُعادي مَن تُعادي<space quantity="10" unit="chars"></space>بطول الدَّهر ما سجع الحمامُ</lem>
+						<rdg wit="#Translation">Your friend whomever you repugn repugns<lb/><space quantity="10" unit="chars"></space>So long as pigeons coo;</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">ويُوفي الدَّينَ عنك بغير مَطْلٍ<space quantity="10" unit="chars"></space>ولا يمنُن به أبَداً دوامُ</lem>
+						<rdg wit="#Translation">Pays without delay your debt,<lb/><space quantity="10" unit="chars"></space>Never guilting you it.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">فإن صافى صديقك مَن تعادي<space quantity="10" unit="chars"></space>ويفرح حين ترشُقُك السِّهامُ</lem>
+						<rdg wit="#Translation">Should your friend your foe underwrite,<lb/><space quantity="10" unit="chars"></space>Enjoying arrows’ flight,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">فذاك هو العدوُّ بغير شكٍّ<space quantity="10" unit="chars"></space>تجنَّبه فصُحبته حرام</lem>
+						<rdg wit="#Translation">Then surely <hi rend="italic">he’s</hi> the foe, no doubt.<lb/><space quantity="10" unit="chars"></space>Quit him. His friendship’s out.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">فإنَّا قد سمعنا بيت شعرٍ<space quantity="10" unit="chars"></space>شبيه الدُّر زينُه النِّظامُ:</lem>
+						<rdg wit="#Translation">We heard a verse,<lb/><space quantity="10" unit="chars"></space>Pearly in its framework:</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">"إذا وافى صديقك مَن تُعادي<space quantity="10" unit="chars"></space>فقد عاداك، وانفَصَل الكلامُ"</lem>
+						<rdg wit="#Translation">“Once your friend your foe upholds he<lb/><space quantity="10" unit="chars"></space>Crosses, end of story.”</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

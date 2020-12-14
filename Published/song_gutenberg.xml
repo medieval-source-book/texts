@@ -12,8 +12,8 @@
 				<title>The Song of Gutenberg</title>
 				<author>Hans Folz</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name>Christopher Hutchinson</name>
+					<resp>Transcription based on</resp>
+					<name>August Mayer, Die meisterlieder des Hans Folz aus der Müchener Originalhandschrift und der Weimarer Handschrift Q.566. Berlin: Weidmann, 1908.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -33,7 +33,8 @@
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
-			<sourceDesc>			
+			<sourceDesc>
+				<p>Weimar, Herzogin Anna Amalia Bibliothek MS. Q 566</p>			
 				<listWit>
 					<witness xml:id="Transcription">Gutenberglied</witness>
 					<witness xml:id="Translation">The Song of Gutenberg</witness>

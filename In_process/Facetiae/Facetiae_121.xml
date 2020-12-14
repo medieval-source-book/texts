@@ -1,0 +1,112 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The brilliant Dante’s joke</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription from</resp>
+					<name>Basel 1538 (Reprinted in Poggio Bracciolini, Scripta in editione Basilensi anno 1538 collata. Ed. Riccardo Fulbini. Turin: Bottega d'Erasmo, 1964.)</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032427r">Paris, BnF Latin 8770a</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Iocatio Dantis clarissimi</witness>
+					<witness xml:id="Translation">The brilliant Dante’s joke</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The brilliant Dante’s joke" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Facetia CXXI</lem>
+						<rdg wit="#Translation">Joke 121</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Dantes, Poeta noster, cum exul Senis esset, et aliquando in ecclesia Minorum, cubito super altare posito, cogitabundus aliquid secretius scrutaretur animo,</lem>
+						<rdg wit="#Translation">When our poet Dante was in exile in Siena, he was once in a mendicant church where he was searching his soul and privately pondering something.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">accessit ad eum quidam, nescio quid molestius petens.</lem>
+						<rdg wit="#Translation">A man then walked up to him and asked something very annoying.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Tum Dantes: 'Dic mihi,' inquit, 'quae est maxima omnium belluarum?'</lem>
+						<rdg wit="#Translation">To which Dante replied: “Tell me, which is the biggest of all animals?”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">At ille: -- 'Elephas,' respondit.</lem>
+						<rdg wit="#Translation">“The elephant”, the man replied.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cui Dantes:</lem>
+						<rdg wit="#Translation">Dante then told him:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'O elephas! sine me,' inquit, 'maiora verbis tuis cogitantem, noli esse molestus.'</lem>
+						<rdg wit="#Translation">“Oh elephant, leave me alone to ponder things greater than your words and stop being annoying!"</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

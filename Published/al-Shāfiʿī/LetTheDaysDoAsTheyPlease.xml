@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>The Hamzah Rhyme</title>
+				<title>"Let the days do as they please"</title>
 				<author>Muḥammad ibn Idrīs al-Shāfiʿī</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -34,16 +34,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS, or bibliographic information of published edition--></p>
+				 <p>al-Shāfiʿī, M. 1911. Dīwān al-Imām Muḥammad ibn Idrīs al-Shāfiʿī, ed. Maḥmūd Ibrāhīm Haybah. al-Qāhirah: Maṭbaʿat al-Taqaddum, page 8.</p>
 				<listWit>
-					<witness xml:id="Transcription">قافية الهمزة</witness>
-					<witness xml:id="Translation">The Hamzah Rhyme</witness>
+					<witness xml:id="Transcription">دع الأيام تفعل ما تشاء</witness>
+					<witness xml:id="Translation">"Let the days do as they please"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"The Hamzah Rhyme" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Let the days do as they please" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -116,7 +116,7 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">ولا ترج السماحة من بخيل<space quantity="10" unit="chars"></space>فما في النار للظمآن ماء</lem>
-						<rdg wit="#Translation">Expect no bounty from the miser;<lb/><space quantity="10" unit="chars"></space>Hell provides no water for the parched.</rdg>
+						<rdg wit="#Translation">Expect no bounty from the miser;<lb/><space quantity="10" unit="chars"></space>Jehennem waters not the parched.</rdg>
 					</app>
 				</l>
 				<l n="8">
@@ -134,7 +134,7 @@
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">إذا ما كنت ذا قلب قنوع<space quantity="10" unit="chars"></space>فأنت ومالك الدنيا سواء</lem>
-						<rdg wit="#Translation">If you possess a satisfied heart,<lb/><space quantity="10" unit="chars"></space>You amount to a king of the earth.</rdg>
+						<rdg wit="#Translation">If you possess a satisfied heart,<lb/><space quantity="10" unit="chars"></space>You own the world.</rdg>
 					</app>
 				</l>
 				<l n="11">

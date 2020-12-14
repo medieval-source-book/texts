@@ -12,16 +12,20 @@
 				<title>The Lay of Ludwig</title>
 				<author>Anonymous</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name>Hannah Frakes (from edition)</name>
+					<resp>Transcription based on</resp>
+					<name>Horst Dieter Schlosser, Althochdeutsche Literatur. Mit altniederdeutschen Textbeispielen. Auswahl mit Übertragungen und Kommentar, Berlin: Erich Schmidt Verlag 2004, pp. 82–86.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
 					<name>Hannah Frakes</name>
 				</respStmt>
 				<respStmt>
+					<resp>Edited by</resp>
+					<name>Björn Buschbeck</name>
+				</respStmt>
+				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Hannah Frakes</name>
+					<name>Hannah Frakes and Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -72,362 +76,361 @@
 			<lg>
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">Einan kuning uueiz ih. Heizsit her hluduig.</lem>
-						<rdg wit="#Translation">I know a king, Ludwig is his name</rdg>
+						<lem wit="#Transcription">Einan kuning uueiz ih, Heizsit her Hluduig,</lem>
+						<rdg wit="#Translation">I know a king, Ludwig is his name,</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">Ther gerno gode thionot. Ih uueiz her Imos lonot.</lem>
-						<rdg wit="#Translation">Who gladly serves God. I know it was worthwhile for him.</rdg>
+						<lem wit="#Transcription">Ther gerno gode thionot: Ih uueiz her imos lonot.</lem>
+						<rdg wit="#Translation">who gladly serves God: I know that he will reward him for this.</rdg>
 					</app>
 				</l>
 				<l n="3"><space quantity="10" unit="chars"></space>
 					<app>
-						<lem wit="#Transcription">Kind uuarth her faterlos. Thes uuarth Imo sar buoz</lem>
-						<rdg wit="#Translation">As a child he was fatherless. There was a replacement for him</rdg>
+						<lem wit="#Transcription">Kind uuarth her faterlos, Thes uuarth imo sar buoz:</lem>
+						<rdg wit="#Translation">He lost his father when he was a child but soon was compensated for it:</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">Holoda Inan truhtin. Magaczogo uuarth her sin.</lem>
-						<rdg wit="#Translation">The lord himself helped him and was his guardian.</rdg>
+						<lem wit="#Transcription">Holoda Inan truhtin, Magaczogo uuarth her sin.</lem>
+						<rdg wit="#Translation">The Lord himself adopted him and became his guardian.</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">Gab her imo dugidi. Fronisc gi-thigini.</lem>
-						<rdg wit="#Translation">He gave Ludwig companions, a kingly entourage,</rdg>
+						<lem wit="#Transcription">Gab her imo dugidi, Fronisc githigini,</lem>
+						<rdg wit="#Translation">He gave Ludwig virtues, a royal entourage,</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">Stuol hier In urankon. So bruche her es lango</lem>
-						<rdg wit="#Translation">The throne of the Franks, For a long time he rejoiced in these gifts!</rdg>
+						<lem wit="#Transcription">Stuol hier in Urankon. So bruche her es lango!</lem>
+						<rdg wit="#Translation">the throne here in Francia. May he enjoy these gifts for a long time!</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">Thaz gi-deilder thanne. Sar mit karlemanne.</lem>
-						<rdg wit="#Translation">The Lordship was shared with Karlmann, </rdg>
+						<lem wit="#Transcription">Thaz gideilder thanne Sar mit karlemanne,</lem>
+						<rdg wit="#Translation">He soon shared all this with Karlmann,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">Bruoder sinemo. Thia czala uuunniono.</lem>
-						<rdg wit="#Translation">his brother, the sum of the pleasures.</rdg>
+						<rdg wit="#Translation">his brother, the sum of pleasures.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">So thaz uuarth al gendiot. Koron uuolda sin god.</lem>
-						<rdg wit="#Translation">After this was accomplished. God would test him [to see if]</rdg>
+						<lem wit="#Transcription">So thaz uuarth al gendiot, Koron uuolda sin god,</lem>
+						<rdg wit="#Translation">After this was done, God wanted to test him [to see]</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">Ob her arbeidi. So Iung tholon mahti.</lem>
-						<rdg wit="#Translation">if he could endure hardship while so young</rdg>
+						<lem wit="#Transcription">Ob her arbeidi So iung tholon mahti.</lem>
+						<rdg wit="#Translation">If he, who was still so young, could endure hardship.</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
-						<lem wit="#Transcription">Lietz her heidine man. Ober seo lidan.</lem>
-						<rdg wit="#Translation">He let heathens come over the sea,</rdg>
+						<lem wit="#Transcription">Lietz her heidine man  Ober seo lidan,</lem>
+						<rdg wit="#Translation">He let heathens come from across the sea,</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription">Thiot urancono. Manon sun-diono.</lem>
-						<rdg wit="#Translation">so the Franks would pay for their sins.
-						</rdg>
+						<lem wit="#Transcription">Thiot Urankono Manon sundiono.</lem>
+						<rdg wit="#Translation">To admonish the Franks for their sins.</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription">Sume sar uer-lorane. Uuurdun sum erkorane .</lem>
-						<rdg wit="#Translation">Some would be lost immediately, others would be chosen for eternal salvation</rdg>
+						<lem wit="#Transcription">Sume sar uerlorane Uuurdun sum erkorane.</lem>
+						<rdg wit="#Translation">Some were lost immediately, others were chosen for eternal salvation.</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription">Haranskara tholota. Ther er misselebeta .</lem>
-						<rdg wit="#Translation">Severe punishments must be suffered by those who have lived in sin.</rdg>
+						<lem wit="#Transcription">Haranskara tholota Ther er misselebeta.</lem>
+						<rdg wit="#Translation">Severe punishments now were endured by those who earlier on had lived sinfully.</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
-						<lem wit="#Transcription">Ther ther thanne thiob uuas. Ind er thanana ginas.</lem>
-						<rdg wit="#Translation">Those who had been thieves began to fast, </rdg>
+						<lem wit="#Transcription">Ther ther thanne thiob uuas, Ind er thanana ginas,</lem>
+						<rdg wit="#Translation">Who previously had been a thief and had survived, now began to fast:</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">Nam sina uaston. Sidh uuarth her guot man.</lem>
-						<rdg wit="#Translation">in this way they saved themselves and became good people.</rdg>
+						<rdg wit="#Translation">Thus he saved himself and became a good man.</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription">Sum uuas luginari. Sum skachari .</lem>
-						<rdg wit="#Translation">Another was a liar, another a robber</rdg>
+						<lem wit="#Transcription">Sum uuas luginari, Sum skachari,</lem>
+						<rdg wit="#Translation">One man was a liar, the other a bandit,</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription">Sum fol loses. Ind er gi-buozta sih thes.</lem>
-						<rdg wit="#Translation">a third lived without any control. He too freed himself through penitence.</rdg>
+						<lem wit="#Transcription">Sum fol loses, Ind er gibuozta sih thes.</lem>
+						<rdg wit="#Translation">The third lived without any control, and he did penance for it.</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription">Kuning uuas er-uirrit. Thaz richi al girrit.</lem>
-						<rdg wit="#Translation">The king was far away. The kingdom was beset by troubles.</rdg>
+						<lem wit="#Transcription">Kuning uuas eruirrit, thaz richi al girrit,</lem>
+						<rdg wit="#Translation">The king was far away, the realm was beset by troubles,</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription">Uuas er-bolgan krist. Leidhor thes Ingald iz.</lem>
-						<rdg wit="#Translation">The holy Christ was full of wrath. The kingdom must atone for this!</rdg>
+						<lem wit="#Transcription">Uuas erbolgan Krist: Leidhor thes ingald iz!</lem>
+						<rdg wit="#Translation">Christ was full of wrath: woe, it [i.e. the realm] had to atone for it!</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
-						<lem wit="#Transcription">Thoh er-barmedes got. Uuuisser alla thia not.</lem>
-						<rdg wit="#Translation">But God was also full of mercy. He knew how dangerous it was</rdg>
+						<lem wit="#Transcription">Thoh erbarmedes got, Uuisser alla thia not,</lem>
+						<rdg wit="#Translation">But God was also full of mercy. He knew of all the danger,</rdg>
 					</app>
 				</l>
 				<l n="22">
 					<app>
-						<lem wit="#Transcription">Hiez her hluduigan. Tharot sar ritan.</lem>
-						<rdg wit="#Translation">so he commanded Ludwig, </rdg>
+						<lem wit="#Transcription">Hiez her Hluduigan. Tharot sar ritan:</lem>
+						<rdg wit="#Translation">And so he commanded Ludwig to ride there immediately:</rdg>
 					</app>
 				</l>
 				<l n="23">
 					<app>
-						<lem wit="#Transcription">Hluduig kuning min. Hilph · minan liutin.</lem>
-						<rdg wit="#Translation">“Ludwig my king, help my people!
+						<lem wit="#Transcription">“Hluduig, kuning min, Hilph minan liutin!</lem>
+						<rdg wit="#Translation">“Ludwig, my king, help my people!
 						</rdg>
 					</app>
 				</l>
 				<l n="24">
 					<app>
-						<lem wit="#Transcription">Heigun sa north-man. Harto bi-duuungan.</lem>
-						<rdg wit="#Translation">They are so oppressed by the Northmen!”
+						<lem wit="#Transcription">Heigun sa Northman Harto bi-duuungan.”</lem>
+						<rdg wit="#Translation">The Northmen have subdued them viciously!”
 							<note type="critical" anchored="true">
-								<p> north-man can be translated as normans or northmen, but in this case it is a reference to the vikings (who came from the north)</p>
+								<p> Northman can be translated as normans or northmen, but in this case it is a reference to the vikings (who came from the north)</p>
 							</note>
 					</rdg>
 					</app>
 				</l>
 				<l n="25">
 					<app>
-						<lem wit="#Transcription">Thanne sprah hluduig. Herro so duon ih.</lem>
-						<rdg wit="#Translation">Ludwig replied “Lord,</rdg>
+						<lem wit="#Transcription">Thanne sprah Hluduig: “Herro, so duon ih,</lem>
+						<rdg wit="#Translation">Ludwig then replied: “Lord,</rdg>
 					</app>
 				</l>
 				<l n="26">
 					<app>
-						<lem wit="#Transcription">Dot ni rette mir iz. Al thaz . thu gibiudist.</lem>
-						<rdg wit="#Translation">if death does not hinder me, I will do all that you command”</rdg>
+						<lem wit="#Transcription">Dot ni rette mir iz, Al thaz du gibiudist.”</lem>
+						<rdg wit="#Translation">if death does not hinder me, I will do all that you command.”</rdg>
 					</app>
 				</l>
 				<l n="27">
 					<app>
-						<lem wit="#Transcription">Tho nam her godes urlub. Huob her gundfanon uf.</lem>
-						<rdg wit="#Translation">he obeyed his God, he raised the war banner </rdg>
+						<lem wit="#Transcription">Tho nam her godes urlub, Huob her gundfanon uf,</lem>
+						<rdg wit="#Translation">He obtained permission from God, he raised the war banner,</rdg>
 					</app>
 				</l>
 				<l n="27">
 					<app>
-						<lem wit="#Transcription">Reit her thara In urankon. Ingagan north-mannon.</lem>
-						<rdg wit="#Translation">and rode against the northmen in the land of the Franks.</rdg>
+						<lem wit="#Transcription">Reit her thara in Urankon Ingagan Northmannon.</lem>
+						<rdg wit="#Translation">and rode out to Frankia against the Northmen.</rdg>
 					</app>
 				</l>
 				<l n="28">
 					<app>
-						<lem wit="#Transcription">Gode thancodun. The sin bei-dodun.</lem>
-						<rdg wit="#Translation">God was thankful, having awaited him.</rdg>
+						<lem wit="#Transcription">Gode thancodun, The sin beidodun,</lem>
+						<rdg wit="#Translation">Those who had waited for him thanked God.</rdg>
 					</app>
 				</l>
 				<l n="29">
 					<app>
-						<lem wit="#Transcription">Quadhun al fro min. So lango bei-don uuir thin.</lem>
-						<rdg wit="#Translation">All said: “Lord, we have waited so long for you!” </rdg>
+						<lem wit="#Transcription">Quadhun al: “fro min, So lango beidon uuir thin.”</lem>
+						<rdg wit="#Translation">All said: “Lord, we have waited so long for you!”</rdg>
 					</app>
 				</l>
 				<l n="30">
 					<app>
-						<lem wit="#Transcription">Thanne sprah luto. Hluduig ther guoto.</lem>
-						<rdg wit="#Translation">But with a louder voice Ludwig said </rdg>
+						<lem wit="#Transcription">Thanne sprah luto Hluduig ther guoto:</lem>
+						<rdg wit="#Translation">But in a loud voice the noble Ludwig said:</rdg>
 					</app>
 				</l>
 				<l n="32">
 					<app>
-						<lem wit="#Transcription">Trostet hiu gi-selleon. Mine not-stallon.</lem>
-						<rdg wit="#Translation">“Congratulations to you, my companions in arms and my friends,</rdg>
+						<lem wit="#Transcription">“Trostet hiu, gisellion, Mine notstallon!</lem>
+						<rdg wit="#Translation">“Compose yourself, my friends and companions in arms!</rdg>
 					</app>
 				</l>
 				<l n="33">
 					<app>
-						<lem wit="#Transcription">Hera santa mih god. Ioh mir selbo gibod</lem>
-						<rdg wit="#Translation">God sent me and commanded me himself</rdg>
+						<lem wit="#Transcription">Hera santa mih god Ioh mir selbo gibod,</lem>
+						<rdg wit="#Translation">God sent me and commanded me himself to fight here if it would help you</rdg>
 					</app>
 				</l>
 				<l n="34">
 					<app>
-						<lem wit="#Transcription">Ob hiu rat thuhti. Thaz ih hier ge-uuhti.</lem>
-						<rdg wit="#Translation">to fight here if it would help you </rdg>
+						<lem wit="#Transcription">Ob hiu rat thuhti, Thaz ih hier geuuhti.</lem>
+						<rdg wit="#Translation">and not to spare myself till I have saved you.</rdg>
 					</app>
 				</l>
 				<l n="35">
 					<app>
 						<lem wit="#Transcription">Mih selbon ni sparoti. Un-c ih hiu gi-neriti .</lem>
-						<rdg wit="#Translation">and not to spare me till I have saved you. </rdg>
+						<rdg wit="#Translation">and not to spare myself till I have saved you.</rdg>
 					</app>
 				</l>
 				<l n="36"><space quantity="10" unit="chars"></space>
 					<app>
-						<lem wit="#Transcription">Nu uuill ih thaz mir uolgon.     Alle godes holdon.</lem>
-						<rdg wit="#Translation">Now it is my wish that all of you who stand in god’s grace will follow me.</rdg>
+						<lem wit="#Transcription">Nu uuillih, thaz mir uolgon Alle godes holdon.</lem>
+						<rdg wit="#Translation">Now it is my wish that all of you who stand in God’s grace shall follow me.</rdg>
 					</app>
 				</l>
 				<l n="37">
 					<app>
-						<lem wit="#Transcription">Gi-skerit ist thiu hier-uuist. So lango so uuili krist.</lem>
-						<rdg wit="#Translation">Our earthly being is measured according to the will of holy Christ.</rdg>
+						<lem wit="#Transcription">Giskerit ist thiu hieruuist So lango so uuili krist.</lem>
+						<rdg wit="#Translation">Our earthly existence is measured according to the will of holy Christ.</rdg>
 					</app>
 				</l>
 				<l n="38">
 					<app>
-						<lem wit="#Transcription">Uuili her unsa hina-uarth. Thero habet her giuualt.</lem>
-						<rdg wit="#Translation">If he wants our death, he has that power. </rdg>
+						<lem wit="#Transcription">Uuili her unsa hinauarth, Thero habet her giuualt.</lem>
+						<rdg wit="#Translation">If he wants our death, he has that power.</rdg>
 					</app>
 				</l>
 				<l n="39">
 					<app>
-						<lem wit="#Transcription">So uuer so hier In ellian. Gi-duot godes uuillion.</lem>
-						<rdg wit="#Translation">I shall reward whoever bravely accomplishes god’s will,</rdg>
+						<lem wit="#Transcription">So uuer so hier in ellian, Giduot godes uuillion,</lem>
+						<rdg wit="#Translation">I will reward whoever bravely fulfills God’s will,</rdg>
 					</app>
 				</l>
 				<l n="40">
 					<app>
-						<lem wit="#Transcription">Quimit he gi-sund uz. Ih gi-lonon Imoz.</lem>
-						<rdg wit="#Translation">Should they survive the battle. If he falls in battle,</rdg>
+						<lem wit="#Transcription">Quimit her gisund uz, Ih gilonon imoz,</lem>
+						<rdg wit="#Translation">Should they survive the battle. But if they fall in battle,</rdg>
 					</app>
 				</l>
 				<l n="41">
 					<app>
-						<lem wit="#Transcription">Bilibit her thar Inne. Sinemo kunnie.</lem>
-						<rdg wit="#Translation">I shall give the reward to his relatives</rdg>
+						<lem wit="#Transcription">Bilibit her thar inne, Sinemo kunnie.”</lem>
+						<rdg wit="#Translation">I shall give the reward to their relatives.”</rdg>
 					</app>
 				</l>
 				<l n="42">
 					<app>
-						<lem wit="#Transcription">Tho nam her skild Indi sper. Ellianlicho reit her.</lem>
-						<rdg wit="#Translation">At this he took a shield and a spear. </rdg>
+						<lem wit="#Transcription">Tho nam her skild indi sper, Ellianlicho reit her</lem>
+						<rdg wit="#Translation">With this he took up shield and spear.</rdg>
 					</app>
 				</l>
 				<l n="43">
 					<app>
-						<lem wit="#Transcription">Uuolder uuar er-rah-chon. Sina uuidar-sah-chon.</lem>
-						<rdg wit="#Translation">He rode bravely ahead. He wanted to speak clearly with his enemy.</rdg>
+						<lem wit="#Transcription">Uuolder uuar errahchon Sinan uuidarsahchon.</lem>
+						<rdg wit="#Translation">He rode bravely ahead of everyone: he wanted to get a good look at his enemies.</rdg>
 					</app>
 				</l>
 				<l n="44">
 					<app>
-						<lem wit="#Transcription">Tho ni uuas iz buro-lang. Fand her thia north-man</lem>
+						<lem wit="#Transcription">Tho ni uuas iz burolang, Fand her thia Northman.</lem>
 						<rdg wit="#Translation">After a short time he came across the northmen.</rdg>
 					</app>
 				</l>
 				<l n="45">
 					<app>
-						<lem wit="#Transcription">Gode lob sageda. Her sihit thes her gereda.</lem>
-						<rdg wit="#Translation">He praised God, now he shall see what he desires!</rdg>
+						<lem wit="#Transcription">Gode lob sageda, Her sihit thes her gereda.</lem>
+						<rdg wit="#Translation">He praised God, now he shall see what he had desired!</rdg>
 					</app>
 				</l>
 				<l n="46">
 					<app>
-						<lem wit="#Transcription">Ther kuning reit kuono. Sang lioth frano.</lem>
-						<rdg wit="#Translation">The King burst forth, a sacred song on his lips,</rdg>
+						<lem wit="#Transcription">Ther kuning reit kuono, Sang lioth frono,</lem>
+						<rdg wit="#Translation">The King bravely burst forth, a pious song on his lips,</rdg>
 					</app>
 				</l>
 				<l n="47">
 					<app>
-						<lem wit="#Transcription">Ioh alle saman sungun. Kirrie-leison.</lem>
-						<rdg wit="#Translation">and his men all together sang “Kyrie Eleison”.</rdg>
+						<lem wit="#Transcription">Ioh alle saman sungun: “Kyrrieleison.”</lem>
+						<rdg wit="#Translation">and his men all together joined in singing “Kyrie Eleison”.</rdg>
 					</app>
 				</l>
 				<l n="48">
 					<app>
-						<lem wit="#Transcription">Sang uuas gi-sungan. Uuig uuas bi-gunnan.</lem>
-						<rdg wit="#Translation">The song was sung, the battle was begun. </rdg>
+						<lem wit="#Transcription">Sang uuas gisungan, Uuig uuas bigunnan.</lem>
+						<rdg wit="#Translation">The song was sung, the battle was begun.</rdg>
 					</app>
 				</l>
 				<l n="49">
 					<app>
-						<lem wit="#Transcription">Bluot skein In uuangon.     Spilodun ther urankon.</lem>
-						<rdg wit="#Translation">The blood shone in their cheeks, and the Franks joyfully chased [the enemy].</rdg>
+						<lem wit="#Transcription">Bluot skein In uuangon, Spilodun ther urankon.</lem>
+						<rdg wit="#Translation">The blood shone in their cheeks, the Franks chased [the enemy].</rdg>
 					</app>
 				</l>
 				<l n="50">
 					<app>
-						<lem wit="#Transcription">Thar uaht thegeno gelih.     Nichein soso hluduig.</lem>
+						<lem wit="#Transcription">Thar uaht thegeno gelih, Nichein soso Hluduig:</lem>
 						<rdg wit="#Translation">Every warrior fought, but non like Ludwig,</rdg>
 					</app>
 				</l>
 				<l n="51">
 					<app>
-						<lem wit="#Transcription">Snel Indi kuoni. Thaz uuas Imo gekunni</lem>
-						<rdg wit="#Translation">so brave and so bold? He was born for it.</rdg>
+						<lem wit="#Transcription">snel indi kuoni, thaz uuas imo gekunni.</lem>
+						<rdg wit="#Translation">so skillful and so bold: he was born for this.</rdg>
 					</app>
 				</l>
 				<l n="52">
 					<app>
-						<lem wit="#Transcription">Suman thuruh-skluog her. Suman thuruh-stah her.</lem>
-						<rdg wit="#Translation">He pierced one, he stabbed another.</rdg>
+						<lem wit="#Transcription">Suman thuruhskluog her, Suman thuruhstah her.</lem>
+						<rdg wit="#Translation">He smote one, he stabbed another.</rdg>
 					</app>
 				</l>
 				<l n="53">
 					<app>
-						<lem wit="#Transcription">Her skancta ce hanton. Sinan fianton</lem>
-						<rdg wit="#Translation">Without rest he poured out his enemy’s</rdg>
+						<lem wit="#Transcription">Her skancta cehanton Sinan fianton</lem>
+						<rdg wit="#Translation">Without rest he poured out bitter drink to his enemies.</rdg>
 					</app>
 				</l>
 				<l n="54">
 					<app>
 						<lem wit="#Transcription">Bitteres lides. So uue hin hio thes libes.</lem>
-						<rdg wit="#Translation">bitter drink. Woe to their lives!</rdg>
+						<rdg wit="#Translation">Woe forever to their lives!</rdg>
 					</app>
 				</l>
 				<l n="55">
 					<app>
-						<lem wit="#Transcription">Gilobot si thiu godes kraft. Hluduig uuarth sigihaft</lem>
-						<rdg wit="#Translation">God's omnipotence was praised: Ludwig became a victor.</rdg>
+						<lem wit="#Transcription">Gilobot si thiu godes kraft: Hluduig uuarth sigihaft;</lem>
+						<rdg wit="#Translation">God Almighty be praised: Ludwig was victorious.</rdg>
 					</app>
 				</l>
 				<l n="56">
 					<app>
-						<lem wit="#Transcription">[I]oh allen heiligon thanc. Sin uuarth ther sigi-kamf</lem>
-						<rdg wit="#Translation">Thanks also to all saints! His victory was won.</rdg>
+						<lem wit="#Transcription">Ioh allen heiligon thanc! Sin uuarth ther sigikamf.</lem>
+						<rdg wit="#Translation">Thanks be also to all saints! His fight led to victory.</rdg>
 					</app>
 				</l>
 				<l n="57">
 					<app>
-						<lem wit="#Transcription">[U]uolar abur hluduig. Kuning u[n]s[er] fralig.</lem>
-						<rdg wit="#Translation">But to you, Ludwig, salvation, you our king, in battle, full of happiness!</rdg>
+						<lem wit="#Transcription">Uuolar abur Hluduig, Kuning uuigsalig!</lem>
+						<rdg wit="#Translation">But hail to Ludwig, our king who is full of good fortune in battle!</rdg>
 					</app>
 				</l>
 				<l n="58">
 					<app>
-						<lem wit="#Transcription">[S]o garo so-s er hio uuas. So uuar so-s es thurft uuas.</lem>
-						<rdg wit="#Translation">He was always there, where his help was needed.</rdg>
+						<lem wit="#Transcription">So garo soser hio uuas, So uuar soses thurft uuas.</lem>
+						<rdg wit="#Translation">He was always where his help was needed.</rdg>
 					</app>
 				</l>
 				<l n="59">
 					<app>
-						<lem wit="#Transcription">Gi-halde inan thruhtin. Bi sinan ergrehtin.</lem>
-						<rdg wit="#Translation">God the Lord always keep him in his grace!</rdg>
+						<lem wit="#Transcription">Gihalde inan thruhtin Bi sinan ergrehtin.</lem>
+						<rdg wit="#Translation">May God the Lord always keep him in his grace!</rdg>
 					</app>
 				</l>
 			</lg>

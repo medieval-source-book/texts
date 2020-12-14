@@ -1,0 +1,170 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>About the stupid man who thought his wife had two pussies</title>
+				<author>Poggio Bracciolini</author>
+				<respStmt>
+					<resp>Transcription from</resp>
+					<name>Basel 1538 (Reprinted in Poggio Bracciolini, Scripta in editione Basilensi anno 1538 collata. Ed. Riccardo Fulbini. Turin: Bottega d'Erasmo, 1964.)</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Robin Wahlsten Böckerman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032427r">Paris, BnF Latin 8770a</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">De Homine Insulso Qui Existimavit Duos Cunnos In Uxore</witness>
+					<witness xml:id="Translation">About the stupid man who thought his wife had two pussies</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"About the stupid man who thought his wife had two pussies" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Facetia V</lem>
+						<rdg wit="#Translation">Joke 5</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Homo e nostris rusticanus, et haud multum prudens, certe in coitu mulierum rudis, sumpta uxore,</lem>
+						<rdg wit="#Translation">There was a man from our part of the country who had taken a wife. He was a bumpkin, not very sensible and surely very ignorant when it came to sleeping with women.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">cum illa aliquando in lecto renes versus (uerso) virum volvens, nates in eius gremio posuisset, erecto telo uxorem casu cognovit.</lem>
+						<rdg wit="#Translation">One night when they were in bed, she turned her back to him placing her buttocks in his lap and he got to know his wife by chance with his spear raised.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Admiratusque postmodum et rogans mulierem, an duos cunnos haberet, cum illa annuisset:</lem>
+						<rdg wit="#Translation">Afterwards he was amazed and asked the woman whether she had two pussies and when she confirmed this he said:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'Ho, ho,' inquit, 'mihi unus (unus mihi) satis est, alter vero superfluus.'</lem>
+						<rdg wit="#Translation">“ha-ha, one is enough for me, the other one is superfluous!”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Tum callida uxor, quae a Sacerdote parochiano diligebatur:</lem>
+						<rdg wit="#Translation">The sly wife, who was loved by a parish priest, then said:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'Possumus,' inquit, 'ex hoc (+altero) eleemosynam facere; demus eum Ecclesiae et Sacerdoti nostro, cui haec res erit gratissima, et tibi nihil oberit, cum unus sufficiat tibi.'</lem>
+						<rdg wit="#Translation">“In that case we can make alms of it and give it to the church and our priest, for whom this would be very pleasing; and this would cause you no grief, since one is enough for you.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Assentit vir uxori, et in gratiam sacerdotis, et ut se onere superfluo levaret.</lem>
+						<rdg wit="#Translation">The man agreed, both to gain the priest’s favour and to rid himself of a superfluous burden.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Igitur, eo vocato ad cenam, causaque exposita, cum sumpto cibo lectum unum tres ingrederentur,</lem>
+						<rdg wit="#Translation">So, the priest was invited for dinner, the reason was disclosed and after they had eaten all three of them went to bed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ita ut mulier media esset, vir anteriori parte, posteriori alter ex dono uteretur,</lem>
+						<rdg wit="#Translation">They lay so that the woman was in the middle and the husband made use of the front part, while the other was given use of the rear part as a gift.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Sacerdos famelicus concupitique cibi avidus, prior aggreditur aciem sibi commissam:</lem>
+						<rdg wit="#Translation">The priest, who was starved and greedy for this longed-for food, was first to approach the battle array entrusted to him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">qua in re uxor quoque submurmurans strepitum quemdam edebat.</lem>
+						<rdg wit="#Translation">Because of this the wife was moaning and made a little noise.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Tunc vir timens ne partes suas aggrederetur:</lem>
+						<rdg wit="#Translation">The man feared that the priest was approaching his domains and said:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">'Serva,' inquit, 'amice, inter nos conventa, et tua portione utere, meam intactam relinquens.'</lem>
+						<rdg wit="#Translation">”Friend, stick to the agreement we made and make use only of your portion, leave mine alone!”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Huic Sacerdos: 'Det mihi gratiam Deus,' inquit, 'nam tua parvi facio (facton ut vid.), ut bonis tantum Ecclesiae uti possim.'</lem>
+						<rdg wit="#Translation">The priest replied: “God give me mercy, for I do not value your part much, as long as I can use the property of the church.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">His verbis acquiescens stultus ille, quod Ecclesiae concesserat, libere uti iussit.</lem>
+						<rdg wit="#Translation">The stupid man was satisfied with this and insisted that the priest freely use that which he had granted to the church.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
