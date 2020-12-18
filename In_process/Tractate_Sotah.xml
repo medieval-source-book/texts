@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
+				<title>Babylonian Talmud, Tractate Sotah, 7a-8b</title>
 				<author><!--Anonymous if unknown--></author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -43,7 +43,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Babylonian Talmud, Tractate Sotah, 7a-8b" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -63,7 +63,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
-						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+						<rdg wit="#Translation">Babylonian Talmud, Tractate Sotah, 7a-8b</rdg>
 					</app>
 				</title>
 				<title type="sub">
@@ -78,7 +78,7 @@
 			<p n="1">
 				<s>
 					<app>
-						<lem wit="#Transcription">מתני׳ היו מעלין אותה לבית דין הגדול שבירושלים ומאיימין עליה כדרך שמאיימין על עדי נפשות <note type= "critical" anchored="true"><p>ואומרין, ואומרים (Liss 1977: 66-67, nn. 67-69).</p></note><hi rend="underline">ואומר</hi> לה בתי הרבה יין עושה הרבה שחוק עושה הרבה ילדות עושה הרבה שכנים הרעים עושין<hi rend="underline">עשי</hi><note type= "critical" anchored="true"><p>אל תעשי לשמו, עשי למען שמו (Liss 1977: 67, nn. 81-82).</p></note>לשמו הגדול שנכתב בקדושה שלא ימחה על המים</lem>
+						<lem wit="#Transcription">מתני׳ היו מעלין אותה לבית דין הגדול שבירושלים ומאיימין עליה כדרך שמאיימין על עדי נפשות <hi rend="underline">ואומר</hi><note type= "critical" anchored="true"><p>ואומרין, ואומרים (Liss 1977: 66-67, nn. 67-69).</p></note>לה בתי הרבה יין עושה הרבה שחוק עושה הרבה ילדות עושה הרבה שכנים הרעים עושין <hi rend="underline">עשי</hi><note type= "critical" anchored="true"><p>אל תעשי לשמו, עשי למען שמו (Liss 1977: 67, nn. 81-82).</p></note>לשמו הגדול שנכתב בקדושה שלא ימחה על המים</lem>
 						<rdg wit="#Translation">Mishnah: They would take her up to the High Court in Jerusalem and admonish her in the same way that they admonish witnesses in capital cases. And <hi rend="underline">he</hi><note type= "critical" anchored="true"><p>Tannaitic sources differ on whether "he" refers to the priest (Sifre Numbers 12) or a member of the court (Rabbi Yosi bar Ḥaninah, folio 7b below, may take either position.) Medieval witnesses (Meiri, Maimonides) have the plural ("they say"), clearly referring to the court, as do generally good Mishnah mss. (Parma, Kaufmann; the latter might be corrected to that reading.)</p></note>says to her, “My daughter, much wine, much levity, much childishness, and many bad neighbors cause [sin]. <hi rend="underline">Cause [rather] this [confession] for</hi><note type= "critical" anchored="true"><p>The reading in the majority of mss., also reflected in a different formulation of Sifre Numbers, is "Do not cause his great name..." Other mss. read "…for the sake of His great name." The printers have conflated the two readings.</p></note>His great Name, written in holiness, that it may not be blotted out by the waters.”</rdg>
 					</app>
 				</s>
@@ -86,10 +86,12 @@
 			<p n="2">
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ואומר לפניה דברים <hi rend="underline">שאינם כדי</hi><note type= "critical" anchored="true"><p>שאינה כדאי (Liss 1977: 68, nn. 86 and 92).</p></note> לשומען היא וכל משפחת בית אביה</lem>
+						<rdg wit="#Translation">And he tells her of things that <hi rend="underline">one</hi><note type= "critical" anchored="true"><p> Rashi and most mss.: "she should not hear." Rashi comments that she is not permitted to hear the sins of the patriarchs [Mishnah, tractate Megillah 4:10: the sin of Reuben may be "recited but not translated in public"] but this case is an exception, as it may elicit her confession (like Judah and Reuben, who "confessed and were not ashamed"–see 7b below.) Meiri adds that the patriarchs' sins and confessions will overwhelm even the most intransigent sotah–even if she is surrounded by the supportive presence of "her father's house." Meiri therefore interprets the Mishnah as "things that she cannot [bear to] hear," rather than simply "she should not hear."</p></note>should not hear, [neither she] nor any relation of her father’s house.</rdg>
 					</app>
 				</s>
+			</p>
+			<p n="3">
 				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
