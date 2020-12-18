@@ -7,6 +7,48 @@
 >
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
+			<tagsDecl>
+				  <rendition xml:id="l-indent-01" n="tiebp:l-indent-01" scheme="css">
+				  	display:block;
+				  	padding-left:4em;
+				  	text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-02" n="tiebp:l-indent-02" scheme="css">
+				    display:block;
+				    padding-left:6em;
+				    text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-03" n="tiebp:l-indent-03" scheme="css">
+				    display:block;
+				    padding-left:8em;
+				    text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-04" n="tiebp:l-indent-04" scheme="css">
+				    display:block;
+				    padding-left:10em;
+				    text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-05" n="tiebp:l-indent-05" scheme="css">
+				    display:block;
+				    padding-left:12em;
+				    text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-06" n="tiebp:l-indent-06" scheme="css">
+				    display:block;
+				    padding-left:14em;
+				    text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-07" n="tiebp:l-indent-07" scheme="css">
+				    display:block;
+				    padding-left:16em;
+				    text-indent:-2em;
+				  </rendition>
+				  <rendition xml:id="l-indent-08" n="tiebp:l-indent-08" scheme="css">
+				    display:block;
+				    padding-left:18em;
+				    text-indent:-2em;
+				  </rendition>
+			</tagsDecl>
 		<fileDesc>
 			<titleStmt>
 				<title>Babylonian Talmud, Tractate Sotah, 7a-8b</title>
@@ -110,13 +152,13 @@
 			</p>
 			<div2>
 			<lg type="stanza">
-				<l>
+				<l rendition="l-indent-01">
 					<app>
 						<lem wit="#Transcription"><hi rend="underline">רבו</hi>סרבי<note type= "critical" anchored="true"><p>סותרו (Liss 1977: 71, n. 126).</p></note> יהודה אומר אם היה לבה נאה לא היה מגלהו ואם היה שערה נאה לא היה סותר היתה מתכסה בלבנים מכסה בשחורים היה<note type= "critical" anchored="true"><p>היו (Liss 1977: 71, n. 134).</p></note>עליה כלי זהב</lem>
 						<rdg wit="#Translation">Rabbi Yehudah says: If her chest was attractive, he wouldn’t expose it, and if her hair was attractive, he wouldn’t uncover [it]<note type= "critical" anchored="true"><p>The object pronoun is missing in Vilna, but not in most other witnesses.</p></note>[and unbraid it].</rdg>
 					</app>
 				</l>
-				<l>
+				<l rendition="l-indent-02">
 					<app>
 						<lem wit="#Transcription">וקטליאות נזמים וטבעות מעבירין ממנה כדי לנוולה<note type= "critical" anchored="true"><p>לביישה (בגליון: לנוולה). כ׳׳י אוקספורד, 2675,2.</p></note>ואחר כך מביא חבל מצרי<note type= "critical" anchored="true"><p>חבל המצרי (Liss 1977: 72, n. 10).</p></note>וקושרו למעלה מדדיה</lem>
 						<rdg wit="#Translation">If she was dressed in white, he dresses her in black; if she had on<note type= "critical" anchored="true"><p>Most other witness have, correctly, the plural: "if gold jewelry, etc., were [Vilna: was] on her."</p></note> gold jewelry, chokers, nose-rings, rings: they take them off her in order to sully<note type= "critical" anchored="true"><p>Ms. Oxford 2675,2: shame [in margin: sully]. This variant reveals the social function of the act.</p></note> her. After that, [the priest] takes a reed<note type= "critical" anchored="true"><p>Most witnesses: "the reed rope" [ḥevel ha-mitsri]. Rabbi Yitsḥaq comments, in the earlier parallel in the Palestinian Talmud (Sotah 1:6): "because she acted according to the deeds of the Egyptians [ha-mitsrim]," i.e. fornication (see Ezek. 16:26–also a key intertext of this Mishnah.) Maimonides (Mishneh Torah, Sotah 3:11) preserves that position. However, as Rashi notes, the word actually comes from netser ("reed"), as in Babylonian Talmud, tractate Eruvin 58a: "a rope of reeds [netsarim] for a sotah." See editor's note in Albeck's edition of Mishnah Nashim, 381.</p></note>rope and ties it above her breasts.</rdg>
@@ -125,7 +167,7 @@
 				<l>
 					<app>
 						<lem wit="#Transcription">וכל הרוצה לראות בא<note type= "critical" anchored="true"><p>לראות בה בא (Liss 1977: 72, n. 15).</p></note>לראות חוץ מעבדיה ושפחותיה מפני שלבה גס בהן<note type= "critical" anchored="true"><p>גס בה (Liss 1977: 73 n. 23).</p></note>וכל<note type= "critical" anchored="true"><p>ושאר כל הנשים (Liss 1977: 73 n. 24).</p></note>הנשים מותרות<note type= "critical" anchored="true"><p>מוֹתְרוֹת (חייבות – Liss 1977: 73 n. 25).</p></note>לראותה שנאמר ונוסרו כל הנשים ולא תעשינה כזמתכנה</lem>
-						<rdg wit="#Translation">And everyone who wants to gaze may come,<note type= "critical" anchored="true"><p>Several witnesses, including Rashi and the Gemara (8b below): "to gaze upon her may come." The phrase "upon her" (bah) likely fell out, due to similarity to the adjacent word "come" (ba’). More importantly, this translation of the implied modal ("may") reflects only Rava's reading of the Mishnah at folio 8b in the Gemara (II.c.iii below): anyone, male or female, may come to gaze, but women who attend must gaze. Abbaye holds that only women may attend and they are permitted–but not obligated–to gaze.</p></note>except male slaves and maidservants, for she is shameless<note type= "critical" anchored="true"><p>As Rosen-Zvi shows (2012: 89-92)–with the exception of the parallel at Tosefta Sotah 1:6–this phrase [literally, <hi rend="italic">her heart swells</hi>] usually means that a woman is "shameless" before her social inferiors, rather than "emboldened" by her social peers. He applies the more usual sense here. Rashi, by contrast, reads it in the unusual sense of "emboldened," as is clear from his reading ("her heart swells <hi rend="italic">within her</hi>") and his comment ("When a person sees the members of his household, his resolve is strengthened and he does not become afraid or confess.") See Meiri's interpretation of the clause "nor any of her father's house" along the same lines, n. 3 above.</p></note>before them. And all women<note type= "critical" anchored="true"><p>Meiri: "all <hi rend="italic">other</hi> women," i.e., other than her maidservants.</p></note>are permitted<note type= "critical" anchored="true"><p>The debate over <hi rend="italic">may vs. must</hi> come (see critical note above) led Shlomo Adani (d. 1629) to "correct" the <hi rend="italic">Mishnah</hi> in line with the <hi rend="italic">Gemara</hi> by re-vocalizing and glossing the word as <hi rend="italic">obligated</hi>. Yet, if that were the reading known to Abbaye &#38; Rava, their subsequent debate could never have arisen.</p></note>to see her, as it is said: that all womenmay be taught not to do after your lewdness. [Ezek. 23:48] [I.a.]</rdg>
+						<rdg wit="#Translation">And everyone who wants to gaze may come,<note type= "critical" anchored="true"><p>Several witnesses, including Rashi and the Gemara (8b below): "to gaze upon her may come." The phrase "upon her" (bah) likely fell out, due to similarity to the adjacent word "come" (ba’). More importantly, this translation of the implied modal ("may") reflects only Rava's reading of the Mishnah at folio 8b in the Gemara (II.c.iii below): anyone, male or female, may come to gaze, but women who attend must gaze. Abbaye holds that only women may attend and they are permitted–but not obligated–to gaze.</p></note>except male slaves and maidservants, for she is shameless<note type= "critical" anchored="true"><p>As Rosen-Zvi shows (2012: 89-92)–with the exception of the parallel at Tosefta Sotah 1:6–this phrase [literally, <hi rend="italic">her heart swells</hi>] usually means that a woman is "shameless" before her social inferiors, rather than "emboldened" by her social peers. He applies the more usual sense here. Rashi, by contrast, reads it in the unusual sense of "emboldened," as is clear from his reading ("her heart swells <hi rend="italic">within her</hi>") and his comment ("When a person sees the members of his household, his resolve is strengthened and he does not become afraid or confess.") See Meiri's interpretation of the clause "nor any of her father's house" along the same lines, n. 3 above.</p></note>before them. And all women<note type= "critical" anchored="true"><p>Meiri: "all <hi rend="italic">other</hi> women," i.e., other than her maidservants.</p></note>are permitted<note type= "critical" anchored="true"><p>The debate over <hi rend="italic">may vs. must</hi> come (see critical note above) led Shlomo Adani (d. 1629) to "correct" the <hi rend="italic">Mishnah</hi> in line with the <hi rend="italic">Gemara</hi> by re-vocalizing and glossing the word as <hi rend="italic">obligated</hi>. Yet, if that were the reading known to Abbaye &#38; Rava, their subsequent debate could never have arisen.</p></note>to see her, as it is said: that all womenmay be taught not to do after your lewdness. [Ezek. 23:48]</rdg>
 					</app>
 				</l>
 			</lg>
@@ -138,6 +180,12 @@
 					<rdg wit="#Translation">Gemara:</rdg>
 					</app>
 			</stage>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[I.a.]</lem>
+					<rdg wit="#Translation">[I.a.]</rdg>
+				</app>
+			</stage>			
 			<p>
 				<s>
 					<app>
