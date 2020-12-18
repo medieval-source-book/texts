@@ -17,7 +17,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>James Redfield</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -63,12 +63,6 @@
 				<title>
 					<app>
 						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
-						<rdg wit="#Translation">Babylonian Talmud, Tractate Sotah, 7a-8b</rdg>
-					</app>
-				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
 						<rdg wit="#Translation">Rabbinic Rites of the Suspected Adulteress</rdg>
 					</app>
 				</title>
@@ -92,6 +86,164 @@
 				</s>
 			</p>
 			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">אם אמרה טמאה אני שוברת כתובתה ויוצאת ואם אמרה טהורה אני מעלין אותה <hi rend="underline">לשער המזרח</hi><note type= "critical" anchored="true"><p>שערי המזרח (Liss 1977: 69, nn. 100-101).</p></note>שעל פתח שער נקנור ששם משקין את הסוטות ומטהרין את היולדות ומטהרין את המצורעין</lem>
+						<rdg wit="#Translation">If she said, “I am defiled,” she writes a receipt for her marriage-contract and she is released. But if she said, “I am pure,” they take her up to the <hi rend="underline">Eastern Gate</hi>,<note type= "critical" anchored="true"><p>Many witnesses and parallels read: "Eastern gates." Rashi reads "Eastern gate" and comments that this is the outer gate from which one entered the Temple Mount–not the Niqanor or "upper" gate, which he places between the women's courtyard and the courtyard of Israelites. Most other commentators read the Eastern and Niqanor gates as identical, as does Rashi himself in his commentary to Numbers (5:18). This contradiction may arise from Rashi's reading of this Mishnah in the Gemara (bottom of 7b below), where the stam adds that "they take her up" from gate to gate "in order to wear her out." In this context, then, Rashi sees the Niqanor Gate as the "upper gate," with the sotah going up and down between the two gates. But as Saul Lieberman notes in his commentary to the parallel at Tosefta Sotah 1:4 (New York: JTS, 1967, vol. 8, 613), both ms. Parma of the Mishnah here and ms. Vienna of the Tosefta lack "Niqanor." That name seems to have crept in later, as a clarification. The original reading was likely closer to Josephus, Antiquities III.6, who refers simply to "the gates which face toward the Temple."</p></note>at the entryway of the Niqanor Gate, where they give the sotah [bitter waters] to drink, and purify a [recently] delivered woman, and purify those with skin-affliction.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription"><hi rend="underline">וכהן</hi> אוחז בבגדיה אם נקרעו נקרעו ואם נפרמו נפרמו עד שהוא מגלה את לבה וסותר את שערה</lem>
+						<rdg wit="#Translation">And <hi rend="underline">a</hi><note type= "critical" anchored="true"><p>Medieval commentators (Tosafot; Meiri) and a parallel (Numbers Rabbah) read "the priest," i.e. the priest who is chosen by lot to expose her body (Tosefta Sotah 1:7)–not just any priest. This reading is even reflected in the Gemara itself (II.b.iii below.)</p></note>priest seizes her clothes–if they are torn, they are torn; if they are ripped, they are ripped–until he exposes her chest, and he uncovers her hair [and unbraids it].</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription"><hi rend="underline">רבו</hi>סרבי<note type= "critical" anchored="true"><p>סותרו (Liss 1977: 71, n. 126).</p></note> יהודה אומר אם היה לבה נאה לא היה מגלהו ואם היה שערה נאה לא היה סותר היתה מתכסה בלבנים מכסה בשחורים היה<note type= "critical" anchored="true"><p>היו (Liss 1977: 71, n. 134).</p></note>עליה כלי זהב</lem>
+						<rdg wit="#Translation"><space quantity="10" unit="chars"></space>Rabbi Yehudah says: If her chest was attractive, he wouldn’t expose it, and if her hair was attractive, he wouldn’t uncover [it]<note type= "critical" anchored="true"><p>The object pronoun is missing in Vilna, but not in most other witnesses.</p></note>[and unbraid it].</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6">
+				<s>
+					<app>
+						<lem wit="#Transcription">וקטליאות נזמים וטבעות מעבירין ממנה כדי לנוולה<note type= "critical" anchored="true"><p>לביישה (בגליון: לנוולה). כ׳׳י אוקספורד, 2675,2.</p></note>ואחר כך מביא חבל מצרי<note type= "critical" anchored="true"><p>חבל המצרי (Liss 1977: 72, n. 10).</p></note>וקושרו למעלה מדדיה</lem>
+						<rdg wit="#Translation">If she was dressed in white, he dresses her in black; if she had on<note type= "critical" anchored="true"><p>Most other witness have, correctly, the plural: "if gold jewelry, etc., were [Vilna: was] on her."</p></note> gold jewelry, chokers, nose-rings, rings: they take them off her in order to sully<note type= "critical" anchored="true"><p>Ms. Oxford 2675,2: shame [in margin: sully]. This variant reveals the social function of the act.</p></note> her. After that, [the priest] takes a reed<note type= "critical" anchored="true"><p>Most witnesses: "the reed rope" [ḥevel ha-mitsri]. Rabbi Yitsḥaq comments, in the earlier parallel in the Palestinian Talmud (Sotah 1:6): "because she acted according to the deeds of the Egyptians [ha-mitsrim]," i.e. fornication (see Ezek. 16:26–also a key intertext of this Mishnah.) Maimonides (Mishneh Torah, Sotah 3:11) preserves that position. However, as Rashi notes, the word actually comes from netser ("reed"), as in Babylonian Talmud, tractate Eruvin 58a: "a rope of reeds [netsarim] for a sotah." See editor's note in Albeck's edition of Mishnah Nashim, 381.</p></note>rope and ties it above her breasts.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
 				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
