@@ -137,8 +137,8 @@
 			</stage>
 			<stage>
 				<app>
-					<lem wit="#Transcription">[I.a.]</lem>
-					<rdg wit="#Translation">[I.a.]</rdg>
+					<lem wit="#Transcription">[I.a]</lem>
+					<rdg wit="#Translation">[I.a]</rdg>
 				</app>
 			</stage>			
 			<p>
@@ -167,8 +167,8 @@
 			</p>
 			<stage>
 				<app>
-					<lem wit="#Transcription">[I.b.]</lem>
-					<rdg wit="#Translation">[I.b.]</rdg>
+					<lem wit="#Transcription">[I.b]</lem>
+					<rdg wit="#Translation">[I.b]</rdg>
 				</app>
 			</stage>	
 			<p>
@@ -245,38 +245,47 @@
 			</lg>
 			<stage>
 				<app>
-					<lem wit="#Transcription">[I.a.]</lem>
-					<rdg wit="#Translation">[I.a.]</rdg>
+					<lem wit="#Transcription">[I.c]</lem>
+					<rdg wit="#Translation">[I.c]</rdg>
 				</app>
 			</stage>
 			<p>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">אם אמרה טמאה אני וכו'</lem>
+						<rdg wit="#Translation"><hi rend="italic">If she said, “I am defiled”</hi> etc. [<hi ren="italic">she writes a receipt for her marriage-contract and she is released</hi>].</rdg>
 					</app>
 				</s>
+			</p>
+			<p>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">שמעת מינה כותבין שובר אמר אביי תני מקרעת</lem>
+						<rdg wit="#Translation">Learn from this that one does write a receipt [rather than tearing up the contract].</rdg>
 					</app>
 				</s>
-				<s>
+			</p>
+			<lg rend="indent1">
+				<l>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">א"ל רבא והא שוברת קתני</lem>
+						<rdg wit="#Translation">Abbaye said: Teach it [as] “tears up” [rather than “writes”, which supports the opposite derivation: one does not write a receipt but tears up the original].</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+			</lg>
+			<lg rend="indent1">
+				<l>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">אלא אמר רבא במקום שאין כותבין כתובה עסקינן</lem>
+						<rdg wit="#Translation">Rava said to Abbaye: But look, ‘writes a receipt’ is what it teaches!</rdg>
 					</app>
-				</s>
+				</l>
+			</lg>
+
+			
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">ואם אמרה טהורה אני מעלין אותה לשערי מזרח מעלין אותה</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
