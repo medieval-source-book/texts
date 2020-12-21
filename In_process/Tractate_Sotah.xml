@@ -69,7 +69,6 @@
 			</head>
 		</front>
 		<body>
-			<div1>
 			<stage>
 				<app>
 					<lem wit="#Transcription">מתני׳</lem>
@@ -108,7 +107,6 @@
 					</app>
 				</s>
 			</p>
-			<div2>
 			<lg rend="indent1">
 				<l>
 					<app>
@@ -116,22 +114,21 @@
 						<rdg wit="#Translation">Rabbi Yehudah says: If her chest was attractive, he wouldn’t expose it, and if her hair was attractive, he wouldn’t uncover [it]<note type= "critical" anchored="true"><p>The object pronoun is missing in Vilna, but not in most other witnesses.</p></note>[and unbraid it].</rdg>
 					</app>
 				</l>
-				<l>
+			</lg>
+			<p>
+				<s>
 					<app>
 						<lem wit="#Transcription">וקטליאות נזמים וטבעות מעבירין ממנה כדי לנוולה<note type= "critical" anchored="true"><p>לביישה (בגליון: לנוולה). כ׳׳י אוקספורד, 2675,2.</p></note>ואחר כך מביא חבל מצרי<note type= "critical" anchored="true"><p>חבל המצרי (Liss 1977: 72, n. 10).</p></note>וקושרו למעלה מדדיה</lem>
 						<rdg wit="#Translation">If she was dressed in white, he dresses her in black; if she had on<note type= "critical" anchored="true"><p>Most other witness have, correctly, the plural: "if gold jewelry, etc., were [Vilna: was] on her."</p></note> gold jewelry, chokers, nose-rings, rings: they take them off her in order to sully<note type= "critical" anchored="true"><p>Ms. Oxford 2675,2: shame [in margin: sully]. This variant reveals the social function of the act.</p></note> her. After that, [the priest] takes a reed<note type= "critical" anchored="true"><p>Most witnesses: "the reed rope" [ḥevel ha-mitsri]. Rabbi Yitsḥaq comments, in the earlier parallel in the Palestinian Talmud (Sotah 1:6): "because she acted according to the deeds of the Egyptians [ha-mitsrim]," i.e. fornication (see Ezek. 16:26–also a key intertext of this Mishnah.) Maimonides (Mishneh Torah, Sotah 3:11) preserves that position. However, as Rashi notes, the word actually comes from netser ("reed"), as in Babylonian Talmud, tractate Eruvin 58a: "a rope of reeds [netsarim] for a sotah." See editor's note in Albeck's edition of Mishnah Nashim, 381.</p></note>rope and ties it above her breasts.</rdg>
 					</app>
-				</l>
-				<l>
+				</s>
+				<s>
 					<app>
 						<lem wit="#Transcription">וכל הרוצה לראות בא<note type= "critical" anchored="true"><p>לראות בה בא (Liss 1977: 72, n. 15).</p></note>לראות חוץ מעבדיה ושפחותיה מפני שלבה גס בהן<note type= "critical" anchored="true"><p>גס בה (Liss 1977: 73 n. 23).</p></note>וכל<note type= "critical" anchored="true"><p>ושאר כל הנשים (Liss 1977: 73 n. 24).</p></note>הנשים מותרות<note type= "critical" anchored="true"><p>מוֹתְרוֹת (חייבות – Liss 1977: 73 n. 25).</p></note>לראותה שנאמר ונוסרו כל הנשים ולא תעשינה כזמתכנה</lem>
 						<rdg wit="#Translation">And everyone who wants to gaze may come,<note type= "critical" anchored="true"><p>Several witnesses, including Rashi and the Gemara (8b below): "to gaze upon her may come." The phrase "upon her" (bah) likely fell out, due to similarity to the adjacent word "come" (ba’). More importantly, this translation of the implied modal ("may") reflects only Rava's reading of the Mishnah at folio 8b in the Gemara (II.c.iii below): anyone, male or female, may come to gaze, but women who attend must gaze. Abbaye holds that only women may attend and they are permitted–but not obligated–to gaze.</p></note>except male slaves and maidservants, for she is shameless<note type= "critical" anchored="true"><p>As Rosen-Zvi shows (2012: 89-92)–with the exception of the parallel at Tosefta Sotah 1:6–this phrase [literally, <hi rend="italic">her heart swells</hi>] usually means that a woman is "shameless" before her social inferiors, rather than "emboldened" by her social peers. He applies the more usual sense here. Rashi, by contrast, reads it in the unusual sense of "emboldened," as is clear from his reading ("her heart swells <hi rend="italic">within her</hi>") and his comment ("When a person sees the members of his household, his resolve is strengthened and he does not become afraid or confess.") See Meiri's interpretation of the clause "nor any of her father's house" along the same lines, n. 3 above.</p></note>before them. And all women<note type= "critical" anchored="true"><p>Meiri: "all <hi rend="italic">other</hi> women," i.e., other than her maidservants.</p></note>are permitted<note type= "critical" anchored="true"><p>The debate over <hi rend="italic">may vs. must</hi> come (see critical note above) led Shlomo Adani (d. 1629) to "correct" the <hi rend="italic">Mishnah</hi> in line with the <hi rend="italic">Gemara</hi> by re-vocalizing and glossing the word as <hi rend="italic">obligated</hi>. Yet, if that were the reading known to Abbaye &#38; Rava, their subsequent debate could never have arisen.</p></note>to see her, as it is said: that all womenmay be taught not to do after your lewdness. [Ezek. 23:48]</rdg>
 					</app>
-				</l>
-			</lg>
-		</div2>
-		</div1>
-		<div1>
+				</s>
+			</p>
 			<stage>
 				<app>
 					<lem wit="#Transcription">גמ׳</lem>
@@ -182,61 +179,77 @@
 					</app>
 				</s>
 			</p>
-			<p rend="indent1">
-				<s>
+			<lg rend="indent1">
+				<l>
 					<app>
 						<lem wit="#Transcription">ת"ר אומר לפניה דברים של הגדה ומעשים שאירעו בכתובים הראשונים כגון אשר חכמים יגידו ולא כחדו מאבותם יהודה הודה ולא בוש מה היה סופו נחל חיי העולם הבא ראובן הודה ולא בוש מה היה סופו נחל חיי העולם הבא ומה שכרן</lem>
 						<rdg wit="#Translation">Our rabbis taught [in a baraita]: He tells her of things of lore and deeds that transpired in the early Writings, for instance, Which wise men have told from their fathers, and not hid it [Job 15:18]: Judah confessed and was not ashamed. What end did he come to? He inherited the life of the world to come. Reuben confessed and was not ashamed. What end did he come to? He inherited the life of the world to come. And what was their reward?</rdg>
 					</app>
-				</s>
-			</p>
-			<p rend="indent2">
-				<s>
+				</l>
+			</lg>
+			<lg rend="indent2">
+				<l>
 					<app>
 						<lem wit="#Transcription">מה שכרן כדקא אמרינן</lem>
 						<rdg wit="#Translation">– What was their reward?! It’s just as we are saying, [the life of the world to come–isn't that enough]?!</rdg>
 					</app>
-				</s>
-			</p>
-			<p rend="indent3">
-				<s>
+				</l>
+			</lg>
+			<lg rend="indent3">
+				<l>
 					<app>
 						<lem wit="#Transcription">אלא מה שכרן בעולם הזה</lem>
 						<rdg wit="#Translation">–But [the question was], “What was their reward in this world?”</rdg>
 					</app>
-				</s>
-			</p>
+				</l>
+			</lg>
+			<lg rend="indent4">
+				<l>
+					<app>
+						<lem wit="#Transcription">להם לבדם נתנה הארץ ולא עבר זר בתוכם</lem>
+						<rdg wit="#Translation">–“Unto whom alone the earth was given, and no stranger passed among them.” [Job 15:19.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3">
+				<l>
+					<app>
+						<lem wit="#Transcription">בשלמא ביהודה אשכחן דאודי דכתיב ויכר יהודה ויאמר צדקה ממני אלא ראובן מנלן דאודי</lem>
+						<rdg wit="#Translation">– That is suitable for Judah, we do find that he confesses, for it is written, And Judah acknowledged them, and said, She hath been more righteous than I.<note type= "critical" anchored="true"><p>Or: “She is/was right, it is mine.”</p></note>[Gen. 38:26.] But Reuben, from where do we [know] that he confesses?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent4">
+				<l>
+					<app>
+						<lem wit="#Transcription">דא"ר שמואל בר נחמני אמר ר' יוחנן מאי דכתיב יחי ראובן ואל ימות וזאת ליהודה כל אותן שנים שהיו ישראל במדבר היו עצמותיו של יהודה מגולגלין בארון עד שעמד משה ובקש עליו רחמים אמר לפניו רבש"ע מי גרם לראובן שהודה יהודה וזאת ליהודה מיד שמע ה' קול יהודה על איבריה לשפא ולא הוה קא מעיילין ליה למתיבתא דרקיעא ואל עמו תביאנו ולא הוה קא ידע משקל ומטרח בשמעתא בהדי רבנן ידיו רב לו לא הוה קא סלקא ליה שמעתא אליבא דהילכתא ועזר מצריו תהיה</lem>
+						<rdg wit="#Translation">–For R. Shmuel bar Nahmani said that R. Yohanan said: Why is it written, “Let Reuben live, and not die […] And this is [the blessing] of Judah”? [Deut. 33:6-7. Why is this the only blessing of the tribes which begins <hi rend="underline">And this, indicating some connection between the blessing of Reuben and the blessing of Judah?- Rashi</hi>]. All those years that Israel were in the wilderness, Judah’s bones were rolling in the coffin, until Moses arose and begged for mercy for him. He said before Him, “Lord of the universe, who caused Reuben to confess? Judah! Yet this is [the so-called blessing] of Judah?!” Right away  “The Lord heard the voice of Judah…” [Deut. 33:7, modified.] Each limb went into its socket. But they still would not bring him up to the academy of the firmament [so Moses continued] ‘bring him unto his people’ [Deut. 33:7]. And [when he arrived] he still did not know [the art of] dialectic in the oral tradition among those teachers of ours, [so Moses continued] ‘let his hands [i.e. his ability] be sufficient [rav, pun on "a rabbi"] for him’ [Deut. 33:7]. He still could not establish the tradition according to the law, [so Moses said] ‘and be thou an help unto him from his enemies’ [Deut. 33:7. This entire paragraph = Babylonian Talmud tractate Makkot 11b].</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3">
+				<l>
+					<app>
+						<lem wit="#Transcription">בשלמא יהודה דאודי כי היכי דלא תישרף תמר אלא ראובן למה ליה דאודי והאמר רב ששת חציף עלי (בר ישראל) דמפריט חטאיה</lem>
+						<rdg wit="#Translation">– That is suitable [to show] that <hi rend="italic">Judah</hi> confesses: it was so that Tamar would not be burnt. But Reuben, why did he [have to] confess? After all, Rav Sheshet has said, ‘To me, (a son of Israel)<note type= "critical" anchored="true"><p>Vilna places this scandalous phrase in parentheses. Liss (1977, 79 n. 114) notes that Rashi and other witnesses read simply "one." The censors added it, he says, "because it is the practice of Christians to confess their sins in detail." See also Babylonian Talmud tractate Berakhot 34b.</p></note>one who confesses his sins in detail is scandalous!’</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent4">
+				<l>
+					<app>
+						<lem wit="#Transcription">כי היכי דלא ליחשדו אחוהי</lem>
+						<rdg wit="#Translation">–It was so that his brothers would not be suspected.</rdg>
+					</app>
+				</l>
+			</lg>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[I.a.]</lem>
+					<rdg wit="#Translation">[I.a.]</rdg>
+				</app>
+			</stage>
 			<p>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
 				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
@@ -329,7 +342,6 @@
 					</app>
 				</s>
 			</p>
-		</div1>
 		</body>
 	</text>
 </TEI>
