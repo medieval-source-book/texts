@@ -21,7 +21,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -37,7 +37,7 @@
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
 				<listWit>
 					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Translation">Babylonian Talmud, Tractate Sotah, 7a-8b</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -73,13 +73,13 @@
 				<app>
 					<lem wit="#Transcription">מתני׳</lem>
 					<rdg wit="#Translation">Mishnah:</rdg>
-					</app>
+				</app>
 			</stage>
 			<p>
 				<s>
 					<app>
-						<lem wit="#Transcription">מתני׳ היו מעלין אותה לבית דין הגדול שבירושלים ומאיימין עליה כדרך שמאיימין על עדי נפשות <hi rend="underline">ואומר</hi><note type= "critical" anchored="true"><p>ואומרין, ואומרים (Liss 1977: 66-67, nn. 67-69).</p></note>לה בתי הרבה יין עושה הרבה שחוק עושה הרבה ילדות עושה הרבה שכנים הרעים עושין <hi rend="underline">עשי</hi><note type= "critical" anchored="true"><p>אל תעשי לשמו, עשי למען שמו (Liss 1977: 67, nn. 81-82).</p></note>לשמו הגדול שנכתב בקדושה שלא ימחה על המים</lem>
-						<rdg wit="#Translation">Mishnah: They would take her up to the High Court in Jerusalem and admonish her in the same way that they admonish witnesses in capital cases. And <hi rend="underline">he</hi><note type= "critical" anchored="true"><p>Tannaitic sources differ on whether "he" refers to the priest (Sifre Numbers 12) or a member of the court (Rabbi Yosi bar Ḥaninah, folio 7b below, may take either position.) Medieval witnesses (Meiri, Maimonides) have the plural ("they say"), clearly referring to the court, as do generally good Mishnah mss. (Parma, Kaufmann; the latter might be corrected to that reading.)</p></note>says to her, “My daughter, much wine, much levity, much childishness, and many bad neighbors cause [sin]. <hi rend="underline">Cause [rather] this [confession] for</hi><note type= "critical" anchored="true"><p>The reading in the majority of mss., also reflected in a different formulation of Sifre Numbers, is "Do not cause his great name..." Other mss. read "…for the sake of His great name." The printers have conflated the two readings.</p></note>His great Name, written in holiness, that it may not be blotted out by the waters.”</rdg>
+						<lem wit="#Transcription">מתני׳ היו מעלין אותה לבית דין הגדול שבירושלים ומאיימין עליה כדרך שמאיימין על עדי נפשות ואומר<note type= "critical" anchored="true"><p>ואומרין, ואומרים (Liss 1977: 66-67, nn. 67-69).</p></note>לה בתי הרבה יין עושה הרבה שחוק עושה הרבה ילדות עושה הרבה שכנים הרעים עושין עשי<note type= "critical" anchored="true"><p>אל תעשי לשמו, עשי למען שמו (Liss 1977: 67, nn. 81-82).</p></note>לשמו הגדול שנכתב בקדושה שלא ימחה על המים</lem>
+						<rdg wit="#Translation">Mishnah: They would take her up to the High Court in Jerusalem and admonish her in the same way that they admonish witnesses in capital cases. And he<note type= "critical" anchored="true"><p>Tannaitic sources differ on whether "he" refers to the priest (Sifre Numbers 12) or a member of the court (Rabbi Yosi bar Ḥaninah, folio 7b below, may take either position.) Medieval witnesses (Meiri, Maimonides) have the plural ("they say"), clearly referring to the court, as do generally good Mishnah mss. (Parma, Kaufmann; the latter might be corrected to that reading.)</p></note>says to her, “My daughter, much wine, much levity, much childishness, and many bad neighbors cause [sin]. <hi rend="underline">Cause [rather] this [confession] for</hi><note type= "critical" anchored="true"><p>The reading in the majority of mss., also reflected in a different formulation of Sifre Numbers, is "Do not cause his great name..." Other mss. read "…for the sake of His great name." The printers have conflated the two readings.</p></note>His great Name, written in holiness, that it may not be blotted out by the waters.”</rdg>
 					</app>
 				</s>
 			</p>
@@ -369,32 +369,43 @@
 					<rdg wit="#Translation">[II.b.ii]</rdg>
 				</app>
 			</stage>
-			<lg>
-				<l n="#">
+			<lg rend="indent2" type="stanza">
+				<l>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">ת"ר אין משקין שתי סוטות כאחת כדי שלא יהא לבה גס בחבירתה</lem>
+						<rdg wit="#Translation">Our rabbis taught [in a <hi rend="italic">baraita</hi>]: One may not give two <hi rend="italic">sotot</hi> the bitter waters to drink at the same [time], so that one will not embolden her fellow [in that case, a <hi rend="italic">sotah</hi> who <hi rend="italic">would</hi> have confessed does not because she sees another maintain her innocence- Rashi. See also critical note above.]</rdg>
 					</app>
 				</l>
 			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">רבי יהודה אומר לא מן השם הוא זה אלא אמר קרא אותה לבדה</lem>
+						<rdg wit="#Translation">R. Yehudah says: That is not the reason! Rather, Scripture said, [<hi rend="italic">The priest shall charge</hi>] <hi rend="italic">her</hi> [Num. 5:19], [and her] alone.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">ות"ק הכתיב אותה</lem>
+						<rdg wit="#Translation">But as for the <hi rend="italic">Tanna</hi> [behind that <hi rend="italic">baraita</hi>], is not ‘her’ [indeed] written! [What could he possibly have been thinking, as he also knew the verse?]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">ת"ק ר"ש היא דדריש טעם דקרא ומה טעם קאמר מה טעם אותה לבדה כדי שלא יהא לבה גס בחבירתה</lem>
+						<rdg wit="#Translation">–Its Teacher is R. Shimon, who interprets the <hi rend="italic">rationale</hi> of Scripture. And he is saying, “What is the rationale for [the verse to say] ‘<hi rend="italic">her</hi>’ alone? So that one will not embolden her fellow.” [Therefore, he agrees on the rule, but supplies a rationale for it.]</rdg>
+					</app>
+				</l>
+			</lg>
+
+
+
+
+
 			<p>
 				<s>
 					<app>
