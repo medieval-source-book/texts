@@ -107,7 +107,7 @@
 					</app>
 				</s>
 			</p>
-			<lg rend="indent1">
+			<lg rend="indent1" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription"><hi rend="underline">רבו</hi>סרבי<note type= "critical" anchored="true"><p>סותרו (Liss 1977: 71, n. 126).</p></note> יהודה אומר אם היה לבה נאה לא היה מגלהו ואם היה שערה נאה לא היה סותר היתה מתכסה בלבנים מכסה בשחורים היה<note type= "critical" anchored="true"><p>היו (Liss 1977: 71, n. 134).</p></note>עליה כלי זהב</lem>
@@ -401,7 +401,181 @@
 					</app>
 				</l>
 			</lg>
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">מאי בינייהו</lem>
+						<rdg wit="#Translation">What is the [practical] difference between [“R. Shimon”/R. Yehudah]?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">איכא בינייהו רותתת</lem>
+						<rdg wit="#Translation">– The [practical] difference between them arises [in the case of] a woman who is shaking. [In that case, there is no danger that two <hi rend="italic">sotot</hi> ‘embolden’ each other. So, according to “R. Shimon,” in that case, one <hi rend="italic">could make</hi> two <hi rend="italic">sotot</hi> drink at the same time. R. Yehudah would still disagree, because the verse says '<hi rend="italic">her</hi>' alone.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent4" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">ורותתת מי משקין והא אין עושין מצות חבילות חבילות</lem>
+						<rdg wit="#Translation">–But who would make a shaking woman drink [at the same time as another woman]? After all, 'one should not fulfill commandments as a package'! [= tractate <hi rend="italic">Berakhot</hi> 49a.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent4" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">דתנן אין משקין שתי סוטות כאחת ואין מטהרין שני מצורעין כאחת ואין רוצעין שני עבדים כאחת ואין עורפין שתי עגלות כאחת לפי שאין עושין מצות חבילות חבילות</lem>
+						<rdg wit="#Translation">For we have learned [in a <hi rend="italic">baraita</hi>]: One should not make two <hi rend="italic">sotot</hi> drink at the same time, nor purify two people with skin-affliction at the same time, nor pierce the ears of two slaves at the same time, nor break the necks of two heifers at the same time, because one should not fulfill commandments as a package [! This refutes the exception to the rule against making two <hi rend="italic">sotot</hi> drink at the same time that was just attributed to "R. Shimon," i.e., in the case of a "shaking" <hi rend="italic">sotah</hi>, who cannot "embolden" her fellow.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent5" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אמר אביי ואיתימא רב כהנא לא קשיא כאן בכהן אחד כאן בשני כהנים</lem>
+						<rdg wit="#Translation">Abbaye said (and some say it was Rav Kahana): ‘It is not difficult [to defeat this refutation of "R. Shimon's" exception and save his position.] Here, [this <hi rend="italic">baraita</hi> against 'packaging' two commandments] is about a <hi rend="italic">single</hi> priest. [Whereas] here [in the exception attributed to "R. Shimon," where a shaking <hi rend="italic">sotah</hi> is made to drink at the same time as another,] it is about two priests [who administer the rite to one <hi rend="italic">sotah</hi> each. Therefore, neither of the priests is ‘fulfilling commandments as a package.'].</rdg>
+					</app>
+				</l>
+			</lg>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.b.iii]</lem>
+					<rdg wit="#Translation">[II.b.iii]</rdg>
+				</app>
+			</stage>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">והכהן אוחז בבגדיה</lem>
+						<rdg wit="#Translation"><hi rend="italic">And the Priest seizes her clothes.</hi></rdg>
+					</app>
+				</s>
+			</p>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">תנו רבנן ופרע את ראש האשה אין לי אלא ראשה גופה מנין</lem>
+						<rdg wit="#Translation">Our rabbis taught [in a <hi rend="italic">baraita</hi>]: <hi rend="italic">…and uncover the woman’s head…</hi> [Num. 5:18]. [From this] I have only her <hi rend="italic">head</hi>. Whence [do we derive] <hi rend="italic">her body</hi>?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">ת"ל האשה</lem>
+						<rdg wit="#Translation">–[That is] the lesson of the statement ‘<hi rend="italic">the woman</hi>’ [which is superfluous in this verse and, therefore, must refer to an additional item––her body].</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אם כן מה ת"ל ופרע את ראשה מלמד שהכהן סותר את שערה </lem>
+						<rdg wit="#Translation">If so, what is the lesson of the statement ‘and [the priest shall] uncover the woman’s <hi rend="italic">head</hi>’ [!? If he uncovers her <hi rend="italic">body</hi>, then doesn't this include the head?] –It is teaching that the priest uncovers her hair [and unbraids it. The superfluous word <hi rend="italic">head</hi> must refer to an additional action—unbraiding her hair].</rdg>
+					</app>
+				</l>
+			</lg>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.c]</lem>
+					<rdg wit="#Translation">[II.c]</rdg>
+				</app>
+			</stage>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">ר' יהודה אומר אם היה לבה וכו'</lem>
+						<rdg wit="#Translation"><hi rend="italic">Rabbi Yehudah says: If her chest was, etc. [attractive, he wouldn’t expose it, and if her hair was attractive, he wouldn’t uncover [it and unbraid it]].</hi></rdg>
+					</app>
+				</s>
+			</p>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.c.i]</lem>
+					<rdg wit="#Translation">[II.c.i]<note type= "critical" anchored="true"><p>This entire sub-section is paralleled in tractate <hi rend="italic">Sanhedrin</hi>, 45a. It is a direct expansion of the earlier parallel at the Palestinian Talmud, tractate <hi rend="italic">Sotah</hi> 1:5.</p></note></rdg>
+				</app>
+			</stage>			
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">למימרא דר' יהודה חייש להרהורא ורבנן לא חיישי והא איפכא שמעינן להו</lem>
+						<rdg wit="#Translation">Is this to say that R. Yehudah was worried about arousal [in the audience], whereas our rabbis [the majority behind this <hi rend="italic">mishnah</hi>, who do not restrict exposure] are <hi rend="italic">not</hi> worried [?!] Yet we have heard them [argue] the reverse!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">דתניא האיש מכסין אותו פרק אחד מלפניו והאשה שני פרקים אחד מלפניה ואחד מלאחריה מפני שכולה ערוה דברי רבי יהודה וחכ"א האיש נסקל ערום ואין האשה נסקלת ערומה</lem>
+						<rdg wit="#Translation">For it was taught [in a <hi rend="italic">baraita</hi>], “We cover a man [condemned to death] with one piece in front, but a woman with two pieces–one in front, one in back–for all of her is nakedness. The words of R. Yehudah. But the Sages say: A man is stoned naked, but a woman is not stoned naked.” [If R. Yehudah was more worried about arousal than the Sages, why didn't he simply agree with their 'not stoned naked' position? If the sages of the <hi rend="italic">mishnah</hi> were less worried about arousal than him, then why did they disallow a woman to be stoned naked?]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אמר רבה הכא טעמא מאי שמא תצא מב"ד זכאית ויתגרו בה פרחי כהונה התם הא מסתלקא</lem>
+						<rdg wit="#Translation">Rabbah said: Here [in the case of a <hi rend="italic">sotah</hi> with an attractive chest], what is the reason [for R. Yehudah’s worry]? Perhaps she will get out of the court [innocent] and the 'buds of the priesthood' [novices] will be aroused by her [and pursue her for the rest of her life - Rashi.] Whereas there [in the <hi rend="italic">baraita</hi> regarding a woman who is stoned naked], well, she has already expired [so they will not pursue her. The difference between R. Yehudah and the majority of the <hi rend="italic">mishnah</hi> is not about exposure <hi rend="italic">per se</hi>--it is about the possible effect of her exposure on the novice priests.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">		
+				<l>
+					<app>
+						<lem wit="#Transcription">וכי תימא אתי לאיגרויי באחרניית' האמר רבא גמירי דאין יצר הרע שולט אלא במה שעיניו רואות</lem>
+						<rdg wit="#Translation">–But should you retort: He [a novice] will get aroused by <hi rend="italic">other</hi> women [and so, even if he cannot pursue her , R. Yehudah's worry <hi rend="italic">also</hi> applies to a woman who is stoned to death], as for that, Rava has said: “I have a tradition [from my teachers – Rashi] that the Evil Impulse governs only what one’s eyes see.” [Arousal cannot transfer from one woman to another, so this retort is invalid.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אמר רבא דר' יהודה אדר' יהודה קשיא דרבנן אדרבנן ל"ק</lem>
+						<rdg wit="#Translation">Rava said: "Is there a difficulty [due to conflict between one statement] of R. Yehudah and another, but no difficulty [due to such a conflict between statements] of our rabbis?!? [Why would the sages behind the <hi rend="italic">mishnah</hi> allow exposing the body of a <hi rend="italic">sotah</hi>, whereas the sages behind the <hi rend="italic">baraita</hi> do not support exposing the body of a woman who is stoned? This seems self-contradictory.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אלא אמר רבא דר' יהודה אדר' יהודה ל"ק כדשנין</lem>
+						<rdg wit="#Translation">Rather, said Rava, “There is no difficulty [due to conflict between one statement] of R. Yehudah and another,” as we have [just] resolved. [He is only worried about the "buds of the priesthood," and they can only be aroused by the sight of an exposed <hi rend="italic">sotah</hi>.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
 
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
 
 
 
@@ -413,22 +587,10 @@
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
+			</p>
 				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-
-				<s>
-					<app>
-						<lem wit="#Transcription">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>-->
-									
-								</p>
-							</note>
-						</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
