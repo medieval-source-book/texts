@@ -179,7 +179,7 @@
 					</app>
 				</s>
 			</p>
-			<lg rend="indent1">
+			<lg rend="indent1" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">ת"ר אומר לפניה דברים של הגדה ומעשים שאירעו בכתובים הראשונים כגון אשר חכמים יגידו ולא כחדו מאבותם יהודה הודה ולא בוש מה היה סופו נחל חיי העולם הבא ראובן הודה ולא בוש מה היה סופו נחל חיי העולם הבא ומה שכרן</lem>
@@ -187,7 +187,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent2">
+			<lg rend="indent2" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">מה שכרן כדקא אמרינן</lem>
@@ -195,7 +195,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent3">
+			<lg rend="indent3" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">אלא מה שכרן בעולם הזה</lem>
@@ -203,7 +203,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent4">
+			<lg rend="indent4" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">להם לבדם נתנה הארץ ולא עבר זר בתוכם</lem>
@@ -211,7 +211,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent3">
+			<lg rend="indent3" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">בשלמא ביהודה אשכחן דאודי דכתיב ויכר יהודה ויאמר צדקה ממני אלא ראובן מנלן דאודי</lem>
@@ -219,7 +219,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent4">
+			<lg rend="indent4" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">דא"ר שמואל בר נחמני אמר ר' יוחנן מאי דכתיב יחי ראובן ואל ימות וזאת ליהודה כל אותן שנים שהיו ישראל במדבר היו עצמותיו של יהודה מגולגלין בארון עד שעמד משה ובקש עליו רחמים אמר לפניו רבש"ע מי גרם לראובן שהודה יהודה וזאת ליהודה מיד שמע ה' קול יהודה על איבריה לשפא ולא הוה קא מעיילין ליה למתיבתא דרקיעא ואל עמו תביאנו ולא הוה קא ידע משקל ומטרח בשמעתא בהדי רבנן ידיו רב לו לא הוה קא סלקא ליה שמעתא אליבא דהילכתא ועזר מצריו תהיה</lem>
@@ -227,7 +227,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent3">
+			<lg rend="indent3" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">בשלמא יהודה דאודי כי היכי דלא תישרף תמר אלא ראובן למה ליה דאודי והאמר רב ששת חציף עלי (בר ישראל) דמפריט חטאיה</lem>
@@ -235,7 +235,7 @@
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent4">
+			<lg rend="indent4" type="stanza">
 				<l>
 					<app>
 						<lem wit="#Transcription">כי היכי דלא ליחשדו אחוהי</lem>
@@ -265,66 +265,137 @@
 					</app>
 				</s>
 			</p>
-			<lg rend="indent1">
+			<lg rend="indent1" type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">א"ל רבא והא שוברת קתני</lem>
+						<lem wit="#Transcription">אמר אביי תני מקרעת</lem>
 						<rdg wit="#Translation">Abbaye said: Teach it [as] “tears up” [rather than “writes”, which supports the opposite derivation: one does not write a receipt but tears up the original].</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg rend="indent1">
+			<lg rend="indent1" type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">אלא אמר רבא במקום שאין כותבין כתובה עסקינן</lem>
+						<lem wit="#Transcription">א"ל רבא והא שוברת קתני</lem>
 						<rdg wit="#Translation">Rava said to Abbaye: But look, ‘writes a receipt’ is what it teaches!</rdg>
 					</app>
 				</l>
 			</lg>
-
-			
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אלא אמר רבא במקום שאין כותבין כתובה עסקינן</lem>
+						<rdg wit="#Translation">Rather, Rava said: We are dealing with a locality where one does not write a marriage-contract [therefore, there is nothing to tear up! Rather, we rely on the fixed prices for dissolution of the contract set by the court, and cannot bring evidence from this tradition for a receipt- Rashi.]</rdg>
+					</app>
+				</l>
+			</lg>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.a]</lem>
+					<rdg wit="#Translation">[II.a]</rdg>
+				</app>
+			</stage>
+			<p>
 				<s>
 					<app>
 						<lem wit="#Transcription">ואם אמרה טהורה אני מעלין אותה לשערי מזרח מעלין אותה</lem>
-						<rdg wit="#Translation"></rdg>
+						<rdg wit="#Translation"><hi rend="italic">But if she said, “I am pure,” they take her up to the Eastern Gate.</hi></rdg>
 					</app>
 				</s>
+			</p>
+			<lg rend="indent1">
+				<l>
+					<app>
+						<lem wit="#Transcription">התם קיימא</lem>
+						<rdg wit="#Translation">“They take her <hi rend="italic">up</hi>”? She’s standing there [already]!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">דמסקינן לה ומחתינן לה כדי לייגעה דתניא רבי שמעון בן אלעזר אומר בית דין מסיעין את העדים ממקום למקום כדי שתטרף דעתן עליהן ויחזרו בהן</lem>
+						<rdg wit="#Translation">[It means] that they drag her up and down in order to tire her. For as it was taught [in a <hi rend="italic">baraita</hi>]: R. Shimon ben Elazar says: A court moves the witnesses from place to place, so that their minds will become addled and they will retract [if they were lying].</rdg>
+					</app>
+				</l>
+			</lg>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.b]</lem>
+					<rdg wit="#Translation">[II.b]</rdg>
+				</app>
+			</stage>
+			<p>
 				<s>
+					<app>
+						<lem wit="#Transcription">ששם משקין את הסוטות וכו'</lem>
+						<rdg wit="#Translation"><hi rend="italic">where they give the sotah [bitter waters] to drink [and purify a [recently] delivered woman, and purify those with skin-affliction].</hi></rdg>
+					</app>
+				</s>
+			</p>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.b.i]</lem>
+					<rdg wit="#Translation">[II.b.i]</rdg>
+				</app>
+			</stage>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">בשלמא סוטות דכתיב והעמיד הכהן את האשה לפני ה' מצורעין נמי דכתיב והעמיד הכהן המטהר וגו' אלא יולדת מאי טעמא</lem>
+						<rdg wit="#Translation">[The Eastern Gate] is suitable for <hi rend="italic">sotot</hi>, for it is written, And the priest shall set the woman before the Lord [Num. 5:18]. [And it is suitable] those with skin-affliction as well, for it is written, <hi rend="italic">And the priest shall set the man [to be] cleansed</hi> etc. [Lev. 14:11, KJV modified.] But [as for] <hi rend="italic">a [recently] delivered woman</hi>, what is the reason [for this location of the rite of purification]?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אילימא משום דאתיין וקיימין אקורבנייהו דתניא אין קרבנו של אדם קרב אלא אם כן עומד על גביו אי הכי זבין וזבות נמי</lem>
+						<rdg wit="#Translation">If you say it is because these women [are supposed to] bring and stand over their offerings (as it was taught [in a baraita], "A person’s offering is not presented unless he is standing over it"), [but these woman are ritually impure and so they stand as close as possible; beside the outer, Niqanor Gate, which is not sanctified– Rashi. See the critical note above.] then men and women with genital discharge as well [should be required to stand at the Eastern Gate, but this mishnah did not say so]!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אה"נ ותנא חדא מינייהו נקט</lem>
+						<rdg wit="#Translation">–Yes, it is so! But the <hi rend="italic">Tanna</hi> [behind this mishnah] marked one of them, [the women, to represent multiple kinds of people who bring offerings, but are impure, and therefore stand at this gate].</rdg>
+					</app>
+				</l>
+			</lg>
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.b.ii]</lem>
+					<rdg wit="#Translation">[II.b.ii]</rdg>
+				</app>
+			</stage>
+
+				<l n="#">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="#">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="#">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="#">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</s>
+				</l>
+
+
 				<s>
 					<app>
 						<lem wit="#Transcription"></lem>
