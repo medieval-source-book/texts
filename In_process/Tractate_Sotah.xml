@@ -666,40 +666,58 @@
 					</app>
 				</l>
 			</lg>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-
-
-
+			<stage>
+				<app>
+					<lem wit="#Transcription">[II.c.iii]</lem>
+					<rdg wit="#Translation">[II.c.iii]</rdg>
+				</app>
+			</stage>
+			<p>
 				<s>
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">וכל הרוצה לראות בה יראה וכו'</lem>
+						<rdg wit="#Translation"><hi rend="italic">And anyone who wants to look at her, may look</hi>, etc.</rdg>
 					</app>
 				</s>
 			</p>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">הא גופא קשיא אמרת כל הרוצה לראות בה רואה אלמא לא שנא גברי ולא שנא נשי</lem>
+						<rdg wit="#Translation">This is self-contradictory! You say, <hi rend="italic"><hi rend="underline">anyone</hi></hi> <hi rend="italic">who wants to look at her, may look</hi>; hence, it makes no difference if they are men or women,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">והדר תני כל הנשים מותרות לראותה נשים אין אנשים לא</lem>
+						<rdg wit="#Translation">but then [this <hi rend="italic">mishnah</hi>] teaches, And <hi rend="italic">all <hi rend="underline">women</hi> are permitted to see her</hi>. Women, yes; men, no.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">אמר אביי תרגמה אנשים אמר ליה רבא והא כל הרוצה לראות בה רואה קתני</lem>
+						<rdg wit="#Translation">Abbaye said: “Interpret [the term "anyone" as] about <hi rend="italic">women</hi> [only].”</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">אלא אמר רבא כל הרוצה לראות בה רואה לא שנא גברי ולא שנא נשי ונשים חייבות לראותה שנאמר</lem>
+						<rdg wit="#Translation">Rava replied: “But it [explicitly says], ‘And <hi rend="italic">anyone</hi> who wants to look at her, <hi rend="italic">may look</hi>’!"</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg rend="indent3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"> ונוסרו כל הנשים ולא תעשינה כזמתכנה</lem>
+						<rdg wit="#Translation">Rather, Rava said, “Anyone who wants to look at her, may look: it makes no difference whether they are men or women. But women are <hi rend="italic">obligated</hi> to see her, as it is said, <hi rend="italic">that all women may be taught not to do after your lewdness</hi>” [Ezek. 23:48].</rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
