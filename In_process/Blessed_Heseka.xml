@@ -1,0 +1,246 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regarding blessed Haseka, virgin recluse in Westphalia</title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				<listWit>
+					<witness xml:id="Transcription">De B. Haseka, virgine reclusa in Westphalia</witness>
+					<witness xml:id="Translation">Regarding blessed Haseka, virgin recluse in Westphalia</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Regarding blessed Haseka, virgin recluse in Westphalia" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Regarding blessed Haseka, virgin recluse in Westphalia</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Beata Soror Haseka de partibus Rheni oriunda, in virginitatis puritate et gloria perseverans, juxta ecclesiam in Schermbecke, quae est proxima monasterio Sichemensi, triginta et sex annis inclusa permansit.</lem>
+						<rdg wit="#Translation">Blessed Sister Haseka, coming from the regions of the Rhine and persevering in the purity of virginity and in glory, lived for thirty-six years as a recluse next to the church in Schermbeck, which is near the monastery of Sichem.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">She considered as her sustenance a daily offering, and by the work which was possible for her she conducted her life in great simplicity and singular patience.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">She was always eagerly providing for and attending to whatever God conveyed to her in the collection of singular grace, hiding and restoring the sweat of her lips in heaven, rather than in the faithlessness of human company,<note type= "critical" anchored="true"><p><hi rend="italic">custodis arculae labiorum ac orium humanorum</hi>: literally, “of the keeper of the little box of human lips and mouths”. I interpret this as referring more generally to human company here.</p></note>so that he might raise her up with a magnitude of revelations.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Indeed the Lord desired to be revealed to her for the glory of his name, and these things known are written here.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Once, by a certain exchange, according to God, and for her work and that of her attendant,<note type= "critical" anchored="true"><p><hi rend="italic">Conservae suae</hi>: literally, “her co-servant”. This may be the author imparting more humility to Haseka, by implying that she is a servant (presumably, of God). I translate “conserva” as “her attendant” here since it seems that this woman was actually Haseka’s attendant of some kind (she is later called “ministra”). It was common for recluses – unable to leave their dwellings – to have servants or attendants who could run errands and manage the recluse’s affairs outside of the anchorhold.</p></note>butter was donated which was stinking and rancid because of its old age.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">After it had been placed in a coffer for some days, Sister Berta, Haseka’s attendant, was no longer able or willing to tolerate the stink, and she prepared to remove it from her presence in whatever way possible.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">When Sister Haseka realized this, kneeling, she said: “Lord, may this butter be such that we will eat it in your name.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">All things are in your sovereignty; by your power and goodness you extract, when you want to, the good from the bad: if you desire, you are able to make this butter good.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">When they sat down at the little table, which was thin to fit the space, one inside and the other outside,<note type= "critical" anchored="true"><p>This may imply something like the following configuration : one woman (Haseka, probably) was sitting inside the anchorhold, and the other (Berta, presumably) was sitting outside of the door, with the table in between them. This may also imply that the anchorhold was too small to accommodate both of them and the table.</p></note>the said butter was discovered to be fresh, as if it had been churned that same day.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Blessing the all-powerful God, in jubilation and festivity of the heart, they ate it every day.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Blessed Sister Haseka chose her place of burial at the monastery of Sichem, just as she was bound by holy obedience to the same place because of the habit of the monks which she had chosen, carrying it for the whole time of her religious life.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">On 26 January 1261 she died.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">The brothers of the monastery, both monks and lay brothers, came with a vehicle and wanted to carry off the body of their ward for burial.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">A certain black monk who was at that time celebrating the office there, ministering in the name of his monastery, did not permit this to be done, flailing his arms and boorishly red in the face<note type= "critical" anchored="true"><p><hi rend="italic">robore rusticorum</hi>: literally, “with the redness of country people”. “<hi rend="italic">Rusticus</hi>” can refer simply to a peasant or country person, or, in the case of a value judgement, a coarse, brutish person or lout. In this case, I suspect the author is implying that this monk is an unmannered person, casting doubt onto his monastery’s claims to Haseka’s body.</p></note>– and so on the third day he buried her in the church.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Meanwhile the brothers<note type= "critical" anchored="true"><p>Of the monastery of Sichem.</p></note>concealed their injury.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">When this was brought to the attention of the diocesan bishop, he ordered in a letter that Haseka’s body should be given to the monastery by virtue of her obedience to them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">When the monks arrived solemnly at the door of the monastery to receive her body, there were laypeople there of both sexes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">They saw the face of the holy Virgin, who died and was buried for many days, but now seemed lively and rosy, as if she were a freshly-bathed girl and not an aged, dead woman.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">The soil was so lacking in any stench from her body that all who were there and saw her placed in the tomb and soon covered by earth marvelled greatly.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">Blessed Sister Haseka crossed over<note type= "critical" anchored="true"><p><hi rend="italic">obiit</hi>: since Haseka is already dead, I translate “<hi rend="italic">obiit</hi>” as “crossed over” rather than “died”. The author may be implying that, once buried in the graveyard of her choice, Haseka’s earthly remains can truly be considered at rest.</p></note>the next night, after the feast of the conversion of St Paul the Apostle, and was buried under a very wide stone at the entrance to the chapter house of the monastery of Sichem, on the 13th of March.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">We believe in her merits and prayers before God and we are confident that she will be helped.<note type= "critical" anchored="true"><p><hi rend="italic">adjuvari</hi>: i.e. helped to attain salvation.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
