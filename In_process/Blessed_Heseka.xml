@@ -10,18 +10,18 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Regarding blessed Haseka, virgin recluse in Westphalia</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Hermannus Greven</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Transcription from</resp>
+					<name>Acta sanctorum quotquot toto orbe coluntur, vel a catholicis scriptoribus celebrantur. Editio novissima. Ed. Joanne Carnandet. 26 January, vol. 3, 373–374. Paris: V. Palmé, 1863.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Laura Moncion</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -34,7 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>“Vita beatae Hasekae v. reclusae in Germania”. Acta sanctorum quotquot toto orbe coluntur, vel a catholicis scriptoribus celebrantur. Editio novissima. Ed. Joanne Carnandet. 26 January, vol. 3, 373–374. Paris: V. Palmé, 1863.</p>
 				<listWit>
 					<witness xml:id="Transcription">De B. Haseka, virgine reclusa in Westphalia</witness>
 					<witness xml:id="Translation">Regarding blessed Haseka, virgin recluse in Westphalia</witness>
@@ -62,8 +62,8 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">De B. Haseka, virgine reclusa in Westphalia</lem>
-						<rdg wit="#Translation">Regarding blessed Haseka, virgin recluse in Westphalia</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</title>
 			</head>
