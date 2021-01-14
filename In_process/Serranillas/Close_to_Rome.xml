@@ -1,0 +1,360 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Close to Rome</title>
+				<author>Carvajal</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Marco Lobascio</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Marco Lobascio</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Albert Lloret</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="http://bdh-rd.bne.es/viewer.vm?id=0000051837">Madrid, Biblioteca Nacional de España, VITR/17/7, fol. 154r-155r.</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Acerca Roma</witness>
+					<witness xml:id="Translation">Close to Rome</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Close to Rome" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Veniendo de la Campanna,</lem>
+						<rdg wit="#Translation">As I came from Campagna,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">y'el sol se retraya,</lem>
+						<rdg wit="#Translation">The sun was already setting,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">vi pastora muy loçana</lem>
+						<rdg wit="#Translation">I saw a shepherdess of great beauty</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">que su ganado recogia.</lem>
+						<rdg wit="#Translation">Collecting her flock.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Cabellos ruuios pintados,</lem>
+						<rdg wit="#Translation">Blond-colored hair,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">los beços gordos bermeios,</lem>
+						<rdg wit="#Translation">Plump red lips,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">oios uerdes et resgados,</lem>
+						<rdg wit="#Translation">Green almond-shaped eyes,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">dientes blancos et pareios;</lem>
+						<rdg wit="#Translation">White teeth, all alike,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">guirlanda traya de rama,</lem>
+						<rdg wit="#Translation">A wreath of twigs she carried,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">cantando alegre uenia</lem>
+						<rdg wit="#Translation">She walked singing merrily,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">e sy bien era uillana</lem>
+						<rdg wit="#Translation">And although she was a peasant</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">fija de algo parescia.</lem>
+						<rdg wit="#Translation">She looked like a noblewoman.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3" type="stanza">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">El arreo de su persona:</lem>
+						<rdg wit="#Translation">As to her garments,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">saya negra de sayal,</lem>
+						<rdg wit="#Translation">A black skirt made of rough cloth,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">de yed[r]a<note type= "critical" anchored="true"><p>Correcting <hi rend="italic">yeda</hi>.</p></note>traya una sona,</lem>
+						<rdg wit="#Translation">She wore a belt made of ivy,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">syn pintura artificial,</lem>
+						<rdg wit="#Translation">No artificial colors,</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">libre, suelta, suffragana,</lem>
+						<rdg wit="#Translation">Free, agile, obedient,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">padre et madre obedescia</lem>
+						<rdg wit="#Translation">She obeyed her mother and father.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">e si bien era uillana</lem>
+						<rdg wit="#Translation">And although she was a peasant</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">fija d’algo parescia.</lem>
+						<rdg wit="#Translation">She looked like a noblewoman.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4" type="stanza">
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">“De seda rica nin grana</lem>
+						<rdg wit="#Translation">‟Of fine silk or riches</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">non e deseo nin menos cura”.</lem>
+						<rdg wit="#Translation">I have no desire, nor do I care.”</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Vestida de gruessa lana,</lem>
+						<rdg wit="#Translation">Dressed in coarse wool,</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">hornada de fermosura,</lem>
+						<rdg wit="#Translation">Adorned with beauty,</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">quando llueue en su cabana</lem>
+						<rdg wit="#Translation">When it rained in her hut</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">çamarra et fuego tenia</lem>
+						<rdg wit="#Translation">She had sheepskin and a fire,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">e sy bien era uillana</lem>
+						<rdg wit="#Translation">And although she was a peasant</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">fija d’algo parescia.</lem>
+						<rdg wit="#Translation">She looked like a noblewoman.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5" type="stanza">
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">“Entre io et mi carillo</lem>
+						<rdg wit="#Translation">‟My lover and I</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">ganamos buena soldada;</lem>
+						<rdg wit="#Translation">Earn a good living;</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">sonando mi caramillo,</lem>
+						<rdg wit="#Translation">Playing my flute</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">biuo io mucho pagada;</lem>
+						<rdg wit="#Translation">I live much content my life.</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">leche, queso et cuaiada</lem>
+						<rdg wit="#Translation">Milk, cheese, and curd</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">iamas non me fallescia”.</lem>
+						<rdg wit="#Translation">I never lacked.”</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">E sy bien era uillana</lem>
+						<rdg wit="#Translation">And although she was a peasant</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">fija d’algo parescia.</lem>
+						<rdg wit="#Translation">She looked like a noblewoman.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6" type="stanza">
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">“De triumphos et grandes honores</lem>
+						<rdg wit="#Translation">‟About triumphs and great honors</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">yo non curo en negund tiempo;</lem>
+						<rdg wit="#Translation">I will not ever care;</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">fortuna nin sus errores</lem>
+						<rdg wit="#Translation">Fortune and its changes</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">non dauan pensamiento;</lem>
+						<rdg wit="#Translation">Do not worry me.</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">de toda pompa mundana</lem>
+						<rdg wit="#Translation">Of all earthly pomp</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">muy poca estima fasia”.</lem>
+						<rdg wit="#Translation">I had little consideration.”</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">E sy bien era uillana</lem>
+						<rdg wit="#Translation">And although she was a peasant</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">fija d’algo parescia.</lem>
+						<rdg wit="#Translation">She looked like a noblewoman.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

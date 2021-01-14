@@ -38,22 +38,23 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><ref target=""></ref></p>
+				 <p><ref target="http://bdh-rd.bne.es/viewer.vm?id=0000051837">Madrid, Biblioteca Nacional de España, VITR/17/7, fol. 136v-137r.</ref></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Short title in original language--></witness>
-					<witness xml:id="Translation"><!--Short title in English--></witness>
+					<witness xml:id="Transcription">Entre Sesa et Cintura</witness>
+					<witness xml:id="Translation">Between Sessa and Cintura</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Between Sessa and Cintura" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The text has been punctuated. Word separation and capitalization follow modern usage.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -72,8 +73,8 @@
 				</title>
 				<title type="sub">
 					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+						<lem wit="#Transcription">A la princep[e]sa de Rosano</lem>
+						<rdg wit="#Translation">To the princess of Rossano</rdg>
 					</app>
 				</title>
 			</head>
@@ -82,66 +83,176 @@
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Entre Sesa et Cintura</lem>
+						<rdg wit="#Translation">Between Sessa and Cintura</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">caçando por la trauiesa,</lem>
+						<rdg wit="#Translation">While hunting across the countryside,</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">tope dama que dehesa</lem>
+						<rdg wit="#Translation">I came upon a lady who like a goddess</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="5">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">parescia en su fermosura.</lem>
+						<rdg wit="#Translation">Looked; such was her beauty.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Pense que fuese Diana</lem>
+						<rdg wit="#Translation">I thought she was Diana,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">que caçasse las siluestras,</lem>
+						<rdg wit="#Translation">Hunting wild beasts,</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">o aquella que lla<note type= "critical" anchored="true"><p>In the MS <hi rend="italic">quella</hi></p></note>mançana</lem>
+						<rdg wit="#Translation">Or her who the apple</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">gano a las biuas muestras.<note type= "critical" anchored="true"><p>correcting <hi rend="italic">nuestras</hi> (Scoles 1967: 118n8)</p></note></lem>
+						<rdg wit="#Translation">Demonstrably won.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">“Soys humana criatura?”</lem>
+						<rdg wit="#Translation">“Are you a human creature?”</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">dixe, et dixo, non con priessa,</lem>
+						<rdg wit="#Translation">I said, and she said with no hurry,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">“Si sennor, et principessa</lem>
+						<rdg wit="#Translation">“Yes sir, and the Princess</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">de Rosano por uentura”.</lem>
+						<rdg wit="#Translation">Of Rossano by good fortune.”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3" type="stanza">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">O, flor de toda bellesa,</lem>
+						<rdg wit="#Translation">Oh, flower of extreme beauty,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">o, templo de honestidat,</lem>
+						<rdg wit="#Translation">Oh, temple of honesty,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">palacio de gentilesa,</lem>
+						<rdg wit="#Translation">Palace of courtesy,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">fundamiento de bondat,</lem>
+						<rdg wit="#Translation">Foundation of goodness,</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">mi sententia uos condena;</lem>
+						<rdg wit="#Translation">My sentence condemns you;</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">que si en aquel templo de Baris</lem>
+						<rdg wit="#Translation">If you had been in that temple of Bari</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">uos fallara l’ynfante Paris,</lem>
+						<rdg wit="#Translation">And had met Prince Paris,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">non fuera robada Elena.</lem>
+						<rdg wit="#Translation">Helen would not have been stolen away.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4" type="stanza">
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Nin de Bersabe, Dauid</lem>
+						<rdg wit="#Translation">Neither by Bathsheba, David</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">non se dexara vençer,</lem>
+						<rdg wit="#Translation">Would have been conquered,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">nin Usrias tornara en lid </lem>
+						<rdg wit="#Translation">Nor Uriah would have returned to the battle</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">por sus dias fenescer;</lem>
+						<rdg wit="#Translation">To end his days;</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">tanto soys de gracia llena</lem>
+						<rdg wit="#Translation">For you are so full of grace</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">que si iuntas uos mirara,</lem>
+						<rdg wit="#Translation">That had [Achilles] seen the two of you next to each other,</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">muy menos se enamorara</lem>
+						<rdg wit="#Translation">He would have never fallen in love</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Archiles de Poliçena.</lem>
+						<rdg wit="#Translation">with Polyxena.</rdg>
 					</app>
 				</l>
 			</lg>
