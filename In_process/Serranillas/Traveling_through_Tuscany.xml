@@ -1,0 +1,361 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Traveling through Tuscany</title>
+				<author>Carvajal</author>
+				<respStmt>
+					<resp>Transcription By</resp>
+					<name>Paulina Ochoa Figueroa</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Paulina Ochoa Figueroa</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Albert Lloret</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="http://bdh-rd.bne.es/viewer.vm?id=0000051837">Madrid, Biblioteca Nacional de España, VITR/17/7, fol. 153r-154r.</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Passando por la Toscana</witness>
+					<witness xml:id="Translation">Traveling through Tuscany</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Traveling through Tuscany" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The text has been punctuated. Word separation and capitalization follow modern usage. Elisions have been marked with an apostrophe.ß</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Passando por la Toscana,</lem>
+						<rdg wit="#Translation">Traveling through Tuscany,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">entre Sena et Florencia,</lem>
+						<rdg wit="#Translation">between Siena and Florence,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">vi dama gentil galana</lem>
+						<rdg wit="#Translation">I saw an elegant gentle lady</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">digna de grand reuerencia.</lem>
+						<rdg wit="#Translation">Worthy of great reverence.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Cara tenia de romana,</lem>
+						<rdg wit="#Translation">She had the face of a Roman,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">tocadura purtoguesa,</lem>
+						<rdg wit="#Translation">A Portuguese headdress,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">el ayre de castellana,</lem>
+						<rdg wit="#Translation">And air of a Castilian,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">vestida como senesa</lem>
+						<rdg wit="#Translation">Was dressed like a Sienese,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">discretamente, non uana;</lem>
+						<rdg wit="#Translation">Discreetly, not vain;</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">yo le fise reuerencia</lem>
+						<rdg wit="#Translation">I bowed to her</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">y ella, con mucha prudencia,</lem>
+						<rdg wit="#Translation">And she, very cautiously, </rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">bien mostro ser cortesana.</lem>
+						<rdg wit="#Translation">Did prove to be courteous.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3" type="stanza">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Assy entramos por Sena,</lem>
+						<rdg wit="#Translation">That is how we entered Siena</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">fablando de compannia,</lem>
+						<rdg wit="#Translation">Conversing in company</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">con plaser auiendo pena</lem>
+						<rdg wit="#Translation">With pleasure and sorrow</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">del pesar que me plasia.</lem>
+						<rdg wit="#Translation">For a grief that pleased me.</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Sy se dilatara el dia</lem>
+						<rdg wit="#Translation">If the day had been extended</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">o la noche nos tomara,</lem>
+						<rdg wit="#Translation">Or the night had arrived,</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">tan grand fuego se encendia</lem>
+						<rdg wit="#Translation">Such great fire would have been ignited</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">que toda la tierra quemara.</lem>
+						<rdg wit="#Translation">That it would have burned the earth out.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4" type="stanza">
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Vestia de blancho domasquino,</lem>
+						<rdg wit="#Translation">Dressed in white damask,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">camurra al touillo cortada,</lem>
+						<rdg wit="#Translation">Gamurra cut at the ankle</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">ençima de un uelud fino</lem>
+						<rdg wit="#Translation">Over a fine velvet,</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">un luto la falda rastrada;</lem>
+						<rdg wit="#Translation">A mourning skirt down to the floor;</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">ponposa et agraciada,</lem>
+						<rdg wit="#Translation">Pompous and graceful,</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">una inuencion traya</lem>
+						<rdg wit="#Translation">A verse she carried with her</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">por letras que non entendia,</lem>
+						<rdg wit="#Translation">With letters she did not understand,</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">de perlas la manga bordada.</lem>
+						<rdg wit="#Translation">On the sleeves embroidered with pearls.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5" type="stanza">
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Item mas, traya un ioyel</lem>
+						<rdg wit="#Translation">In addition, she wore a little jewel</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">de richas piedras pesantes,</lem>
+						<rdg wit="#Translation">Of rich heavy stones,</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">un balax y entorno d’el</lem>
+						<rdg wit="#Translation">A purple spinel and, around it,</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">çafis, rubis et dyamantes</lem>
+						<rdg wit="#Translation">Sapphires, rubies, and diamonds</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">firmando sobre la fruente</lem>
+						<rdg wit="#Translation">Fixed on her forehead</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">con muy grande resplandor,</lem>
+						<rdg wit="#Translation">With such a great glow;</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">pero dauale el fauor</lem>
+						<rdg wit="#Translation">But what favored her the most</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Su gesto lyndo, plasiente.</lem>
+						<rdg wit="#Translation">Was her pleasant, beautiful countenance.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6" type="stanza">
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">En su fabla, uestir et ser</lem>
+						<rdg wit="#Translation">In her speech, dress, and demeanor</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">non mostraua ser de mandra.</lem>
+						<rdg wit="#Translation">She did not appear to be rustic,</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Queriendo su nonbre saber,</lem>
+						<rdg wit="#Translation">Wanting to know her name</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">respondiome que Casandra.</lem>
+						<rdg wit="#Translation">She told me it was Casandra.</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">Yo con tal nonbre oyr</lem>
+						<rdg wit="#Translation">At just hearing such a name,</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">muy alegre desperte</lem>
+						<rdg wit="#Translation">I woke up much delighted.</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">e tan solo me falle</lem>
+						<rdg wit="#Translation">And I found myself so lonely</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">que por Dios pense morir.</lem>
+						<rdg wit="#Translation">That by god I thought I would die.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
