@@ -9,23 +9,23 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
+				<title>Between Sessa and Cintura</title>
+				<author>Carvajal</author>
 				<respStmt>
-					<resp><!--If based on an edition, enter "Text based on", otherwise enter "Transcription by"-->Text based on</resp>
-					<name><!--Bibliographical reference of the edition, including page numbers, or shelf mark of MS--></name>
+					<resp>Transcription by</resp>
+					<name>Virginia Correia</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name><!--Add name--></name>
+					<name>Virginia Correia</name>
 				</respStmt>
 				<respStmt>
-					<resp><!--Where notes are by a different person, enter "Notes by", otherwise delete--></resp>
-					<name><!--Add name--></name>
+					<resp>Introduction by</resp>
+					<name>Albert Lloret</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
