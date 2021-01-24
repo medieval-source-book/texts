@@ -1,0 +1,480 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The loss of Buda and Captivity of Bálint Török</title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Maria Dobozy</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target=""></ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Buda veszéséröl és Terek Bálint fogságárol</witness>
+					<witness xml:id="Translation">The loss of Buda and Captivity of Bálint Török</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The loss of Buda and Captivity of Bálint Török" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Siralom adaték sok rendbéli népnek,<lb/>Ki hírével lészön föld kerekségének,<lb/>Mert vége lőn immár mi víg életünknek,<lb/>Eszt tevé fogsága kegyös vezérünknek.</lem>
+						<rdg wit="#Translation">Lamentation is the fate of many regular soldiers<lb/>on hearing the tidings going around the entire globe<lb/>because our joy-filled life has come to an end,<lb/>caused by the imprisonment of our benevolent commander.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Esztökben vegyétök ez úrnak fogságát,<lb/>Jó Terek Bálintnak tőlünk így elváltát,<lb/>Lám, minden értötte jámborul szolgáltát,<lb/>Mindenik urának mindönben hív voltát.</lem>
+						<rdg wit="#Translation">Keep secure in your memory the captivity of this magnate<lb/>the forced departure of trustworthy Bálint Török.<lb/>Everyone can well see his dependable service<lb/>as well as his unfailing loyalty toward each of his lords.<note type= "critical" anchored="true"><p>This appears to imply that Bálint Török has been loyal to 3 parties in sequence, that is,  Ferdinand of Austria, Sultan Suleiman, and King János I Szapolya of Hungary. See Ferenc Szakály. <hi rend="italic">Tinódi Sebesytén Kronika</hi>. Budapest: Europa Kiado, 1984 p. 570.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Benn Erdélyben lőn János király halála,<lb/>Ottan ő udvara igen megpusztula,<lb/>Urakban egynéhány mert ott meghasonla,<lb/>Kik miatt ez ország ím mind elpusztula.</lem>
+						<rdg wit="#Translation">When King János died in Transylvania<note type= "critical" anchored="true"><p>John (János) I Szapolya, Governor (<hi rend="italic">voivode</hi>) of Transylvania and King of Hungary, 1526-1540.</p></note><lb/>His court there turned barren as<lb/>several of the magnates split into factions;<lb/>because of them this entire country crumbles.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Ágyúkkal némötök ottan készülének,<lb/>Kincses Buda alá hamar sietének,<lb/>Törést és nagy rontást ők nagyot tevének,<lb/>Azért az Budában nem férköszhetének.</lem>
+						<rdg wit="#Translation">The Germans made ready their canons<note type= "critical" anchored="true"><p>The besiegers are called “Germans” and their place of origin is called Germany, although these are German speakers and other mercenaries from Habsburg territories, and not necessarily imperial troops.</p></note><lb/>in their hurry to reach treasured Buda.<lb/>They succeeded in a great breaching of walls<lb/>but they cannot occupy the castle of Buda.<note type= "critical" anchored="true"><p>Begun March 12, 1541 by Ferdinand’s army, the siege lasted 6 months.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Serénsége vala jó Terek Bálintnak,<lb/>Mert igen hív vala az király fiának,<lb/>És ővéle öszve az szegín országnak,<lb/>Rettenetös vala mind az némöt pártnak.</lem>
+						<rdg wit="#Translation">Worthy Bálint Török is much occupied<lb/>because he’s completely faithful to the king’s son<note type= "critical" anchored="true"><p>This is John Sigismund, King elect of Hungary and Prince of Transylvania, 1540-1571.</p></note><lb/>binding himself to the struggling nation<lb/>and intimidating the Habsburg party.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Terek császár hallá némötnek erejét,<lb/>Hamar készítteté az ő nagy erejét,<lb/>Basáit, szancsákit, sok rendbéli népét,<lb/>Memhet basát hagyá, mint császári képét.</lem>
+						<rdg wit="#Translation">The Turkish Sultan learns the strength of the German troops<lb/>and quickly assembles his strong forces,<lb/>collects his pashas, sanjaks and many regular troops,<lb/>appoints Mehmet pasha his commander-in-chief.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Igen parancsolá császár az basának,<lb/>Hitöt, szép szót írna az magyar uraknak,<lb/>Jelösben mindennél jó Terek Bálintnak,<lb/>Szóval, ajándékval magad ajáld annak.</lem>
+						<rdg wit="#Translation">The Sultan issues orders to his pasha to send<lb/>with sweet words assurances to the Hungarian magnates<lb/>and most especially to daring Bálint Török:<lb/>“With words and gifts seek his good will.”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="8" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Az basa indula, Eszékre ha juta,<lb/>Jó Terek Bálintnak hamar elírata,<lb/>Nagy szép szókkal őtet hozzá hívattatá,<lb/>Minden jóval lenne, császár aszt fogatta.</lem>
+						<rdg wit="#Translation">And the pasha set out, arriving in Eszék<note type= "critical" anchored="true"><p>Osijek, Croatia</p></note><lb/>rapidly sending to brave Bálint Török<lb/>his summons with many gracious words:<lb/>“All will go well; the sultan has promised”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="9" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Nagy gongya lőn erre jó Terek Bálintnak,<lb/>Eszt ő megjelönté fő-fő szolgáinak,<lb/>Oly tanács adaték ez nemes úrfinak,<lb/>Hitlevelét kérje az terek császárnak.</lem>
+						<rdg wit="#Translation">This missive worries Török gravely,<lb/>he conveys this to his most trusted retainers.<lb/>They advise the nobly born man to<lb/>ask for safe conduct from the Turkish sultan.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="10" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">Úrfi így felele bánatos beszédben:<lb/>„Ha én hitöt kérök az én levelemben,<lb/>Kezd kétségök lenni az én hívségömben,<lb/>De csak bízom magam én jó Istenömben.</lem>
+						<rdg wit="#Translation">The nobleman responds with sorrowful words<lb/>“If I ask for safe conduct in my letter<lb/>then they will begin to question my loyalty.<lb/>Thus I place my trust in my own true God.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="11" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="12" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="13" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="14" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="15" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="16" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="17" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="18" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="19" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="20" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="21" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="22" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="23" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="24" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="25" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="26" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="27" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="28" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="29" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="30" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="31" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="32" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="33" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="34" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="35" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="36" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="37" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="38" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="39" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="40" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="41" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="42" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="43" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="44" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="45" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="46" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="47" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="48" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="49" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="50" type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
