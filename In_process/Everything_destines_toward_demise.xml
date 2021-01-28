@@ -50,6 +50,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Arabic diacritics adjusted for readability.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -162,139 +163,139 @@
 				</l>
 				<l n="15">
 					<app>
-						<lem wit="#Transcription">يا بني تغلبٍ قتلتُم قتيلاً<space quantity="10" unit="chars"></space>ما سمعنا بمثله في الخوالي</lem>
+						<lem wit="#Transcription">يا بني تغلبٍ خذوا الحِذر إنَّا<space quantity="10" unit="chars"></space>قد شربنا بكأس موتٍ زُلال</lem>
 						<rdg wit="#Translation">Banī Taghlib! Take heed:<lb/><space quantity="10" unit="chars"></space>We drank pure Death indeed.</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
-						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space> لقِحَتْ حرْبُ وائلٍ عن حِيالِ</lem>
+						<lem wit="#Transcription">يا بني تغلبٍ قتلتُم قتيلاً<space quantity="10" unit="chars"></space>ما سمعنا بمثله في الخوالي</lem>
 						<rdg wit="#Translation">Banī Taghlib! You killed a precious slain,<lb/><space quantity="10" unit="chars"></space>We haven’t heard his likes before.</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>ليس قولي يُرادُ لكنْ فِعَالي</lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>لقِحَتْ حرْبُ وائلٍ عن حِيالِ</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<note type= "critical" anchored="true"><p>In the original Arabic, the repeated command verb employed, “qarribā,” takes the dual form, although a plural audience is targeted. Classical Arabic poets rely on this addressing of two imaginary bystanders for dramatic effect, most famously Imruʾ al-Qays (d.c.545) in his ode’s opening, “Qifā nabki min dhikrā ḥabīb wa-manzili” (“Stop! Let’s weep, recalling lover and lodge”).</p></note><lb/><space quantity="10" unit="chars"></space>Wāʾil’s war bore fruit, after infertility.</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>ليس قولي يُرادُ لكنْ فِعَالي</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>I don’t mean words, but deeds.</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>جَدَّ نَوْحُ النِّساءِ بالأعوالِ</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>The women’s wails turned earnest.</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>شابَ رأسي وأنكرتني القوالي</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>My head greyed; haters knew me not.</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>للسُّرى والغُدُوِّ والآصال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>For riding: nighttime, morning, afternoon.</rdg>
 					</app>
 				</l>
 				<l n="22">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>طال لَيْلي على اللّيالي الطِّوال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>My night’s surpassed the longest nights.</rdg>
 					</app>
 				</l>
 				<l n="23">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>لاعتناق الأبطال بالأبطال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>For engagement: Champions 'gainst Champions.</rdg>
 					</app>
 				</l>
 				<l n="24">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>واعْدِلا عن مقالَةِ الجُهَّال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>Discard the talk of the untaught.</rdg>
 					</app>
 				</l>
 				<l n="25">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>ليس قلبي عن القتال بِسَال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>My heart will not forgo warring.</rdg>
 					</app>
 				</l>
 				<l n="26">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>كُلَّما هبَّ ريحُ ذَيْلِ الشَّمال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>Even as Boreas’ tailwind roared.</rdg>
 					</app>
 				</l>
 				<l n="27">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>لبجيرٍ مُفَكِّك الأغلال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>For Bujayr, Breaker of the chains.</rdg>
 					</app>
 				</l>
 				<l n="28">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>لكريمٍ مُتَوَّجٍ بالجمال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>For a noble, Beauty-crowned</rdg>
 					</app>
 				</l>
 				<l n="29">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>لا نَبيعُ الرِّجال بيْعَ النِّعال</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>We don’t sell men the sale of shoes.<note type= "critical" anchored="true"><p>See Introduction.</p></note></rdg>
 					</app>
 				</l>
 				<l n="30">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّبا مربَطَ النَّعامة منّي<space quantity="10" unit="chars"></space>لبجيرٍ فداهُ عَمِّي وخالي</lem>
 						<rdg wit="#Translation">Draw Naʿāmah’s harness near—<lb/><space quantity="10" unit="chars"></space>For Bujayr, my uncles be ransomed!</rdg>
 					</app>
 				</l>
 				<l n="31">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّباها لِحَيِّ تغلِبَ شُوساً<space quantity="10" unit="chars"></space>لاعتناق الكُماةِ يوم القتال</lem>
 						<rdg wit="#Translation">Bring it— to haughty Taghlib,<lb/><space quantity="10" unit="chars"></space>For the braves’ embrace the day of battle.</rdg>
 					</app>
 				</l>
 				<l n="32">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّباها وقرِّبا لَأْمَتي دِرْ<space quantity="10" unit="chars"></space>عاً دِلاصاً تَرُدُّ حَدَّ النِّبال</lem>
 						<rdg wit="#Translation">Bring it— and bring my breastplate,<lb/><space quantity="10" unit="chars"></space>A sleek cuirass, blunts arrows’ edge.</rdg>
 					</app>
 				</l>
 				<l n="33">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">قرِّباها بِمُرْهفاتٍ حدادٍ<space quantity="10" unit="chars"></space>لِقِراعِ الأبطال يوم النِّزال</lem>
 						<rdg wit="#Translation">Bring it— with slashing swords,<lb/><space quantity="10" unit="chars"></space>For the clash of heavies on battle day.</rdg>
 					</app>
 				</l>
 				<l n="34">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">رُبَّ جيشٍ لَقِيتُهُ يَمطُرُ المَوْ<space quantity="10" unit="chars"></space>تَ على هيْكَلٍ خفيفِ الجِلال</lem>
 						<rdg wit="#Translation">Likely I faced an army, hurling<lb/><space quantity="10" unit="chars"></space>Death from lightly-armored chargers.</rdg>
 					</app>
 				</l>
 				<l n="35">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">سائِلوا كِنْدَةَ الكِرامَ وبكراً<space quantity="10" unit="chars"></space>واسألوا مَذْحِجاً وحيَّ هلال</lem>
 						<rdg wit="#Translation">Ask noble Kinda, inquire into Bakr,<lb/><space quantity="10" unit="chars"></space>Interrogate Madhḥij and Hilāl.<note type= "critical" anchored="true"><p>Kinda, Bakr, Madhḥij, Hilāl: notable Arabian tribes.</p></note></rdg>
 					</app>
 				</l>
 				<l n="36">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">إذ أتَوْنا بعسْكَرٍ ذي زُههاءٍ<space quantity="10" unit="chars"></space>مُكْفَهِرِّ الأذى شديدِ المَصال</lem>
 						<rdg wit="#Translation">When they reached us with a massive troop,<lb/><space quantity="10" unit="chars"></space>Ready to attack, severe in their seizure;</rdg>
 					</app>
 				</l>
 				<l n="37">
 					<app>
-						<lem wit="#Transcription"><space quantity="10" unit="chars"></space></lem>
+						<lem wit="#Transcription">فَقَرَيْناه حين رام قِرانا<space quantity="10" unit="chars"></space>كُلَّ ماضي الذُّبابِ عضْبِ الصِّقال</lem>
 						<rdg wit="#Translation">When they craved congress we met them,<lb/><space quantity="10" unit="chars"></space>Welcomed every keen sword’s edge.</rdg>
 					</app>
 				</l>
