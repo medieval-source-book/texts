@@ -50,6 +50,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p> Punctuation has been kept as is in Minge's transcription, but the translation interprets raised dots variously as commas, semicolons, and periods as necessary for English sentence structure.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -63,7 +64,7 @@
 				<title>
 					<app>
 						<lem wit="#Transcription">τῆ αὐτῆ ἡμέρα μνήμη τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰγατίου πατριάρχου Κωνσταντινουπόλεως·</lem>
-						<rdg wit="#Translation">On the same day, the memorial of our father Ignatios, patriarch of Constantinople.</rdg>
+						<rdg wit="#Translation">On the same day, the memorial of our father Ignatios, patriarch of Constantinople.<note type= "critical" anchored="true"><p>The manuscript lists consecutively all saints commemorated on the same day. Ignatios’ feast day is October 23.</p></note></rdg>
 					</app>
 				</title>
 			</head>
@@ -72,7 +73,7 @@
 			<p n="1">
 				<s>
 					<app>
-						<lem wit="#Transcription">Ὁ ἐν ἀγίοις πατὴρ ἡμῶν Ἰγνάτιος. γέγονε μὲν υἱὸς Μιχαὴλ βασιλέως· ἀδελφὸς δὲ Θεοφίλου καὶ ἔγγων<note type= "critical" anchored="true"><p>Barsanti transcribes ἒκγονος, grandson; C. Barsanti, "Le architetture ‘ad limitem’ del Menologio di Basilio II (Cod. Vat. Greco 1613) e la miniatura con la commemorazione del Patriarca Ignazio," Commentari: rivista di critica e storia dell' arte 28(1977): n. 67.</p></note>Νικηφόρου τῶν βασιλέων·</lem>
+						<lem wit="#Transcription">Ὁ ἐν ἀγίοις πατὴρ ἡμῶν Ἰγνάτιος. γέγονε μὲν υἱὸς Μιχαὴλ βασιλέως· ἀδελφὸς δὲ Θεοφίλου καὶ ἔγγων<note type= "critical" anchored="true"><p>Minge transcribes ἒκγονος, grandson; "Menologium Basilianum, ex editione cardinalis Albani, pars I," <hi rend="italic">in Leontos Diakonou Historia</hi>, edited by Jacques Paul Migne, Patrologiæ cursus completus, Series Græca (Turnhout: Typographi Brepols Editores Pontificii), ch 138, pg. 123-124.</p></note>Νικηφόρου τῶν βασιλέων·</lem>
 						<rdg wit="#Translation">Our father among the saints Ignatios was born son of emperor Michael;<note type= "critical" anchored="true"><p>Michael I Rangabe (r. 811-13)</p></note> and [was] brother of emperor Theophilos<note type= "critical" anchored="true"><p>Probably Theophylact, eldest son of Michael I Rangabe.</p></note>and grandson of emperor Nikephoros.<note type= "critical" anchored="true"><p>Nikephoros I (r. 802-11)</p></note></rdg>
 					</app>
 				</s>
@@ -88,7 +89,7 @@
 			<p n="3">
 				<s>
 					<app>
-						<lem wit="#Transcription">εἶτα προεχειρίσθη και πατριάρχης Κωνσταντινουπόλεως· καὶ ἐκράτησεν ἔτη ἔνδεκα μῆνας πέντε· καὶ μετὰ ταῦτα ἐξεβλήθη ὑπὸ Μιχαὴλ βασιλέως·<note type= "critical" anchored="true"><p>Barsanti transcribes this as βασι λεώς.</p></note>ἀντ᾽ἀυτοῦ πατριάρχην ποιήσαντος. Φώτιον γενόμενον πρότερον μοναχόν·</lem>
+						<lem wit="#Transcription">εἶτα προεχειρίσθη και πατριάρχης Κωνσταντινουπόλεως· καὶ ἐκράτησεν ἔτη ἔνδεκα μῆνας πέντε· καὶ μετὰ ταῦτα ἐξεβλήθη ὑπὸ Μιχαὴλ βασιλέως·<note type= "critical" anchored="true"><p>Barsanti transcribes this as βασι λεώς; C. Barsanti, "Le architetture ‘ad limitem’ del Menologio di Basilio II (Cod. Vat. Greco 1613) e la miniatura con la commemorazione del Patriarca Ignazio," Commentari: rivista di critica e storia dell' arte 28(1977): n. 67.</p></note>ἀντ᾽ἀυτοῦ πατριάρχην ποιήσαντος. Φώτιον γενόμενον πρότερον μοναχόν·</lem>
 						<rdg wit="#Translation">Then he was appointed patriarch of Constantinople, and he held the position for eleven years and five months; and after these things he was expelled by emperor Michael;<note type= "critical" anchored="true"><p>Michael III (r. 842-67)</p></note>in his place he made Photios, having first become a monk, patriarch.<note type= "critical" anchored="true"><p>This is not the typical narrative for Ignatios; see intro.</p></note></rdg>
 					</app>
 				</s>
