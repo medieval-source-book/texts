@@ -12,8 +12,8 @@
 				<title>"Everything destines toward demise"</title>
 				<author>al-Ḥārith ibn ʿUbād</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Text based on</resp>
+					<name>Cheikho, L. 1890. Kitāb Shuʿarāʾ al-Naṣrāniyyah. Vol. 1. Beirut: Maṭbaʿat al-Ābāʾ al-Mursilīn al-Yasūʿiyyīn fī Bayrūt, pages 271-273.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,7 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><ref target=""></ref></p>
+				 <p>Transcription based on Cheikho, L. 1890. Kitāb Shuʿarāʾ al-Naṣrāniyyah. Vol. 1. Beirut: Maṭbaʿat al-Ābāʾ al-Mursilīn al-Yasūʿiyyīn fī Bayrūt, pages 271-273.</p>
 				<listWit>
 					<witness xml:id="Transcription">كل شيء مصيره للزوال</witness>
 					<witness xml:id="Translation">"Everything destines toward demise"</witness>
@@ -110,13 +110,13 @@
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">وتساقى الكُماةُ سُمًّا نقيعاً<space quantity="10" unit="chars"></space>وبدا البيضُ من قباب الحِجَال</lem>
-						<rdg wit="#Translation">The courageous exchanged fatal raids.<lb/><space quantity="10" unit="chars"></space>Whites appeared from canopies’ bellies,<note type= "critical" anchored="true"><p>“Whites” here perhaps refers to the warriors’ unsheathed, shining weapons, or more likely to the faces of the Banī Bakr’s women, peeking out of their enclosures. This latter reading lends itself to the verse that follows, as it does the legend of al-Ḥārith’s entrance into the fight. As medieval commentators have it, the fateful day he joined the battle would be remembered as the Day of Shearing (<hi rend="italic">Yawm al-Taḥāluq</hi>), or the Day of Haircutting Past the Earlobes (<hi rend="italic">Yawm Taḥlāq al-Limam</hi>), on account of Bakr’s cutting their hair in order for their women to identify them on the battlefield: al-Ḥārith had ordered them to attend the battle to finish off Taghlib’s wounded and nurse their own.</p></note></rdg>
+						<rdg wit="#Translation">The courageous exchanged fatal raids.<lb/><space quantity="10" unit="chars"></space>Whites appeared from canopies’ bellies,<note type= "critical" anchored="true"><p>“Whites” here perhaps refers to the warriors’ unsheathed, shining weapons, or more likely to the faces of the Banī Bakr’s women, peeking out of their enclosures. This latter reading lends itself to the verse that follows, as it does the legend of al-Ḥārith’s entrance into the fight. As medieval commentators have it, the fateful day he joined the battle would be remembered as the Day of Shearing (<hi rend="italic">Yawm al-Taḥāluq</hi>), or the Day of Haircutting Past the Earlobes (<hi rend="italic">Yawm Taḥlāq al-Limam</hi>), on account of Bakr’s cutting their hair in order for their women to identify them on the battlefield: al-Ḥārith had ordered them to attend the battle to finish off Taghlib’s wounded and nurse their own. The white faces may also refer to Taghlib’s own women, about to be despoiled.</p></note></rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">وسَعَتْ كلُّ حُرَّة الوجهِ تدعو<space quantity="10" unit="chars"></space>يا لبكرٍ غرَّاءَ كالتِّمثال</lem>
-						<rdg wit="#Translation">While every freewoman raced, calling,<lb/><space quantity="10" unit="chars"></space>“Bakr!”—comparably honorable.</rdg>
+						<rdg wit="#Translation">Every freewoman raced, calling,<lb/><space quantity="10" unit="chars"></space>“Bakr!”—comparably honorable.</rdg>
 					</app>
 				</l>
 				<l n="8">
