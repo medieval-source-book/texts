@@ -78,8 +78,32 @@
 			<lg n="1">
 				<l>
 					<app>
-						<lem wit="#Transcription">何となく今夜ひさへこそ待たれけれあかぬ<note type= "critical" anchored="true"><p>In many versions of the text there is the variant あかぬ (not be satisfied) instead of あはぬ (not meet). I have chosen the former because scholars seem to have converged on that variant and because it is more emotionally complex, and therefore better coheres with Eifuku’s tendency to explore such emotional complexity.</p></note>昨日の心習ひに</lem>
-						<rdg wit="#Translation">I don’t know why, since<lb/>he won’t come back tonight, but<lb/>I expect him to.<lb/>Yesterday, I wanted more;<lb/>my heart now won’t stop wanting.</rdg>
+						<lem wit="#Transcription">何となく</lem>
+						<rdg wit="#Translation">I don’t know why, since<lb/><lb/><lb/><lb/></rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">今夜ひさへこそ</lem>
+						<rdg wit="#Translation">he won’t come back tonight, but</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">待たれけれ</lem>
+						<rdg wit="#Translation">I expect him to.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">あかぬ<note type= "critical" anchored="true"><p>In many versions of the text there is the variant あかぬ (not be satisfied) instead of あはぬ (not meet). I have chosen the former because scholars seem to have converged on that variant and because it is more emotionally complex, and therefore better coheres with Eifuku’s tendency to explore such emotional complexity.</p></note>昨日の</lem>
+						<rdg wit="#Translation">Yesterday, I wanted more;</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">心習ひに</lem>
+						<rdg wit="#Translation">my heart now won’t stop wanting.</rdg>
 					</app>
 				</l>
 			</lg>
