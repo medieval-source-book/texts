@@ -71,12 +71,6 @@
 						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
 					</app>
 				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
-					</app>
-				</title>
 			</head>
 		</front>
 		<body>
@@ -84,8 +78,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">Partiendo de Roma, passando Marino</lem>
-						<rdg wit="#Translation">Outside of Rome, crossing Marino,</note> 
-						</rdg>
+						<rdg wit="#Translation">Outside of Rome, crossing Marino,</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -147,7 +140,7 @@
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">tuerta de un oio, ynbifia, barbuda,</lem>
-						<rdg wit="#Translation">Blind in one eye, hunchbacked, bearded, </rdg>
+						<rdg wit="#Translation">Blind in one eye, hunchbacked, bearded,</rdg>
 					</app>
 				</l>
 				<l n="12">
