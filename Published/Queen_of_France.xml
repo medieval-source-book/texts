@@ -52,10 +52,10 @@
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
         			<p>u/v- spelling and i/j- spelling follow the manuscript, e.g. Heid. Hs. 1012 vnd > Standard Middle High German und; Heid. Hs. 1012 ouer > Standard Middle High German ober; Heid. Hs. 1012 dye > Standard Middle High German diu/die; Heid. Hs. 1012 lijff > Standard Middle High German lîp.</p>
         			<p>Separate and compound spelling are not normalized to standard Middle High German but rather follow the manuscript and no punctuation has been added (no periods, question marks, or exclamation points; no commas, semicolons, or colons; no dashes, or hyphens; no brackets, braces, or parentheses; and no apostrophes or quotation marks).</p>
-        			<p>To give a visual impression of the original manuscript’s structure and composition lombards, red initials indicating new paragraphs, are marked by with *asterisks*. Scribal corrections, deletions and additions, mostly indicated by the rubricator with red ink, are also recorded. Crossed out letters and words in the manuscript are crossed out in the edition as well.</p>
+        			<p>Scribal corrections, deletions and additions, mostly indicated by the rubricator with red ink, are recorded. Crossed out letters and words in the manuscript are crossed out in the edition as well.</p>
         			<p>For the sake of the edition’s readability and following standard practice abbreviations and diacritical signs are expanded, and the descending s (ſ), which appears internally and initially but not at the end of words, is replaced with the round s.</p>
         			<p>The rubricator’s red-ink flourishes have been disregarded after carefully analyzing their semiotic meaning. The flourishes are only used when there is an empty space on a line between the rhyme word, which is always placed at the end of a line, and the line delineating the end of the column. Which suggests that these flourishes are only decorative because they ensure that the manuscript looks uniform. The scribe at times ran out of room while writing and completed a line in an adjacent empty space. In some of these cases, the rubricator drew a red-ink line indicating where the final phrase belonged. These final phrases were added and marked by double slashes. This edition also follows the rubricator’s red-ink line indication in the manuscript, which at times deviates from the scribe’s lines. </p>
-        			<p>In only three places, where Heid. Hs. 1012 appears to be flawed, it is amended in a clearly referenced manner. The supplements were made according to the latest edition of "The Queen of France" by Jutta Strippel (1978) and are placed in square brackets. Additions in comparison to Strippel’s edition are marked by italics.</p>
+        			<p>In only three places, where Heid. Hs. 1012 appears to be flawed, it is amended in a clearly referenced manner. Additions in comparison to Strippel’s edition are marked by italics. Letters and words crossed out in Heid. Hs. 1012 are marked with a <hi rend="strikethrough">strikethrough</hi> and the final phrase of a line written in an adjacent empty space in Heid. Hs. 1012 is marked with double slash marks.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -84,8 +84,8 @@
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">*D*Ye schrijfft bedudet so waz geschach</lem>
-						<rdg wit="#Translation">*T*his text tells what happened</rdg>
+						<lem wit="#Transcription">DYe schrijfft bedudet so waz geschach</lem>
+						<rdg wit="#Translation">This text tells what happened</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -145,15 +145,8 @@
 				</l>
 				<l n="11">
 					<app>
-						<lem wit="#Transcription">Dat er yr jn hoger eren jach</lem>
+						<lem wit="#Transcription">Dat er yr jn hoger eren jach<note type= "critical" anchored="true"><p>There is a lacuna between ll. 11 and 12 which I have emended following Strippel: “Now the king had a marshal.” (p. 213, l.13).</p></note></lem>
 						<rdg wit="#Translation">held her in the highest esteem.</rdg>
-					</app>
-				</l>
-				<l n="11a">
-					<app>
-						<lem wit="#Transcription">&#91;Der künig hette ein marschalg&#93;</lem>
-						<rdg wit="#Translation">&#91;Now the king had a marshal.&#93;<note anchored="true" type="critical"><p>Line 11a was taken from Strippel because the rhyme scheme and the subsequent text talk about an unknown “er”; it looks like the scribe made a mistake and forgot to copy this line (p. 213, l.13).</p></note>
-						</rdg>
 					</app>
 				</l>
 				<l n="12">
@@ -284,8 +277,8 @@
 				</l>
 				<l n="33">
 					<app>
-						<lem wit="#Transcription">*D*Er marschalck vngetruwe sprach</lem>
-						<rdg wit="#Translation">*T*he faithless marshal said:</rdg>
+						<lem wit="#Transcription">DEr marschalck vngetruwe sprach</lem>
+						<rdg wit="#Translation">The faithless marshal said:</rdg>
 					</app>
 				</l>
 				<l n="34">
@@ -333,8 +326,8 @@
 				</l>
 				<l n="41">
 					<app>
-						<lem wit="#Transcription">*D*O sprach die zarte mynnenclich</lem>
-						<rdg wit="#Translation">*T*he lovely and sweet one replied:</rdg>
+						<lem wit="#Transcription">Do sprach die zarte mynnenclich</lem>
+						<rdg wit="#Translation">The lovely and sweet one replied:</rdg>
 					</app>
 				</l>
 				<l n="42">
@@ -412,8 +405,8 @@
 				</l>
 				<l n="54">
 					<app>
-						<lem wit="#Transcription">*D*Er koningk eyns seden plach</lem>
-						<rdg wit="#Translation">*T*he king was in the habit of</rdg>
+						<lem wit="#Transcription">Der koningk eyns seden plach</lem>
+						<rdg wit="#Translation">The king was in the habit of</rdg>
 					</app>
 				</l>
 				<l n="55">
@@ -496,8 +489,8 @@
 				</l>
 				<l n="68">
 					<app>
-						<lem wit="#Transcription">*D*Er koningk auch erzogen hat</lem>
-						<rdg wit="#Translation">*T*he king had also raised</rdg>
+						<lem wit="#Transcription">Der koningk auch erzogen hat</lem>
+						<rdg wit="#Translation">The king had also raised</rdg>
 					</app>
 				</l>
 				<l n="69">
@@ -568,8 +561,8 @@
 				</l>
 				<l n="80">
 					<app>
-						<lem wit="#Transcription">*D*O er den koning ain sach</lem>
-						<rdg wit="#Translation">*A*s soon as he spied the king,</rdg>
+						<lem wit="#Transcription">Do er den koning ain sach</lem>
+						<rdg wit="#Translation">As soon as he spied the king,</rdg>
 					</app>
 				</l>
 				<l n="81">
@@ -640,8 +633,8 @@
 				</l>
 				<l n="92">
 					<app>
-						<lem wit="#Transcription">*D*Er koning sere erschrackt</lem>
-						<rdg wit="#Translation">*T*he king was very shocked</rdg>
+						<lem wit="#Transcription">Der koning sere erschrackt</lem>
+						<rdg wit="#Translation">The king was very shocked</rdg>
 					</app>
 				</l>
 				<l n="93">
@@ -712,8 +705,8 @@
 				</l>
 				<l n="104">
 					<app>
-						<lem wit="#Transcription">*D*Ye frauwe erwacht vnd sprach</lem>
-						<rdg wit="#Translation">*T*he lady awoke and asked:</rdg>
+						<lem wit="#Transcription">Dye frauwe erwacht vnd sprach</lem>
+						<rdg wit="#Translation">The lady awoke and asked:</rdg>
 					</app>
 				</l>
 				<l n="105">
@@ -839,8 +832,8 @@
 				</l>
 				<l n="125">
 					<app>
-						<lem wit="#Transcription">*D*O fugede es got daz da bij lach</lem>
-						<rdg wit="#Translation">*N*ow as God designed, there lived nearby</rdg>
+						<lem wit="#Transcription">Do fugede es got daz da bij lach</lem>
+						<rdg wit="#Translation">Now as God designed, there lived nearby</rdg>
 					</app>
 				</l>
 				<l n="126">
@@ -942,8 +935,8 @@
 				</l>
 				<l n="142">
 					<app>
-						<lem wit="#Transcription">*D*O sprach der hirtzoch lu // polt</lem>
-						<rdg wit="#Translation">*T*hen Duke Leopold said:</rdg>
+						<lem wit="#Transcription">Do sprach der hirtzoch lu // polt</lem>
+						<rdg wit="#Translation">Then Duke Leopold said:</rdg>
 					</app>
 				</l>
 				<l n="143">
@@ -1026,8 +1019,8 @@
 				</l>
 				<l n="156">
 					<app>
-						<lem wit="#Transcription">*N*Eyn werder herre dont so wail</lem>
-						<rdg wit="#Translation">*N*o, noble Sire, act in such a way</rdg>
+						<lem wit="#Transcription">Neyn werder herre dont so wail</lem>
+						<rdg wit="#Translation">No, noble Sire, act in such a way</rdg>
 					</app>
 				</l>
 				<l n="157">
@@ -1128,8 +1121,8 @@
 				</l>
 				<l n="173">
 					<app>
-						<lem wit="#Transcription">*D*O sprach der koning zu hant</lem>
-						<rdg wit="#Translation">*T*hen the king said quickly:</rdg>
+						<lem wit="#Transcription">Do sprach der koning zu hant</lem>
+						<rdg wit="#Translation">Then the king said quickly:</rdg>
 					</app>
 				</l>
 				<l n="174">
@@ -1170,8 +1163,8 @@
 				</l>
 				<l n="180">
 					<app>
-						<lem wit="#Transcription">*D*Er hirtzoch von oesterich</lem>
-						<rdg wit="#Translation">*T*he Duke of Austria</rdg>
+						<lem wit="#Transcription">Der hirtzoch von oesterich</lem>
+						<rdg wit="#Translation">The Duke of Austria</rdg>
 					</app>
 				</l>
 				<l n="181">
@@ -1278,8 +1271,8 @@
 				</l>
 				<l n="198">
 					<app>
-						<lem wit="#Transcription">*D*Er rijtter nam die fraue zart</lem>
-						<rdg wit="#Translation">*T*he knight took the sweet lady</rdg>
+						<lem wit="#Transcription">Der rijtter nam die fraue zart</lem>
+						<rdg wit="#Translation">The knight took the sweet lady</rdg>
 					</app>
 				</l>
 				<l n="199">
@@ -1471,7 +1464,7 @@
 				<l n="230">
 					<app>
 						<lem wit="#Transcription">Js macht dijr swartz dinen lijff</lem>
-						<rdg wit="#Translation">“It makes your body all black,”</rdg>
+						<rdg wit="#Translation">“It makes your body all black”,</rdg>
 					</app>
 				</l>
 				<l n="231">
@@ -1482,8 +1475,8 @@
 				</l>
 				<l n="232">
 					<app>
-						<lem wit="#Transcription">*D*O sprach der koler sunder haß</lem>
-						<rdg wit="#Translation">*T*he collier replied kindly:</rdg>
+						<lem wit="#Transcription">Do sprach der koler sunder haß</lem>
+						<rdg wit="#Translation">The collier replied kindly:</rdg>
 					</app>
 				</l>
 				<l n="233">
@@ -1554,8 +1547,8 @@
 				</l>
 				<l n="244">
 					<app>
-						<lem wit="#Transcription">*D*O sprach auer dye koningyn // nen</lem>
-						<rdg wit="#Translation">*T*he queen responded:</rdg>
+						<lem wit="#Transcription">Do sprach auer dye koningyn // nen</lem>
+						<rdg wit="#Translation">The queen responded:</rdg>
 					</app>
 				</l>
 				<l n="245">
@@ -1656,8 +1649,8 @@
 				</l>
 				<l n="261">
 					<app>
-						<lem wit="#Transcription">*D*Er koler dede daz sij hin hies</lem>
-						<rdg wit="#Translation">*T*he collier did as he was told by her.</rdg>
+						<lem wit="#Transcription">Der koler dede daz sij hin hies</lem>
+						<rdg wit="#Translation">The collier did as he was told by her.</rdg>
 					</app>
 				</l>
 				<l n="262">
@@ -1680,15 +1673,8 @@
 				</l>
 				<l n="265">
 					<app>
-						<lem wit="#Transcription">Er galt yr waz sij wulde</lem>
+						<lem wit="#Transcription">Er galt yr waz sij wulde<note type= "critical" anchored="true"><p>There is a lacuna between ll. 265 and 266 which I have emended following Strippel: “and needed” (p. 257, l. 258).</p></note></lem>
 						<rdg wit="#Translation">He bought her what she wanted</rdg>
-					</app>
-				</l>
-				<l n="265a">
-					<app>
-						<lem wit="#Transcription">[Und was si haben solte]</lem>
-						<rdg wit="#Translation">[and needed.]<note anchored="true" type="critical"><p>Line 265a was taken from Strippel to stay true to the rhyme (p. 257, l. 258).</p></note>
-						</rdg>
 					</app>
 				</l>
 				<l n="266">
@@ -1777,8 +1763,8 @@
 				</l>
 				<l n="280">
 					<app>
-						<lem wit="#Transcription">*D*O lach der ritter dort ermordt</lem>
-						<rdg wit="#Translation">*T*he murdered knight lay there,</rdg>
+						<lem wit="#Transcription">Do lach der ritter dort ermordt</lem>
+						<rdg wit="#Translation">The murdered knight lay there,</rdg>
 					</app>
 				</l>
 				<l n="281">
@@ -1909,8 +1895,8 @@
 				</l>
 				<l n="302">
 					<app>
-						<lem wit="#Transcription">*D*Er hont forte do den doit</lem>
-						<rdg wit="#Translation">*N*ow fearing death,</rdg>
+						<lem wit="#Transcription">Der hont forte do den doit</lem>
+						<rdg wit="#Translation">Now fearing death,</rdg>
 					</app>
 				</l>
 				<l n="303">
@@ -2072,7 +2058,7 @@
 				<l n="329">
 					<app>
 						<lem wit="#Transcription"><hi rend="italic">Jch gedencken vnde wenen</hi></lem>
-						<rdg wit="#Translation"><hi rend="italic">“I think and believe,”</hi></rdg>
+						<rdg wit="#Translation"><hi rend="italic">„I think and believe”,</hi></rdg>
 					</app>
 				</l>
 				<l n="330">
@@ -2138,8 +2124,8 @@
 				</l>
 				<l n="340">
 					<app>
-						<lem wit="#Transcription"><hi rend="italic"></hi>*E*R sprach nu wil ich woil syen</lem>
-						<rdg wit="#Translation"><hi rend="italic">*H*e said: “Now, let’s see</hi></rdg>
+						<lem wit="#Transcription"><hi rend="italic"></hi>Er sprach nu wil ich woil syen</lem>
+						<rdg wit="#Translation"><hi rend="italic">He said: “Now, let’s see</hi></rdg>
 					</app>
 				</l>
 				<l n="341">
@@ -2264,8 +2250,8 @@
 				</l>
 				<l n="361">
 					<app>
-						<lem wit="#Transcription">*D*az der koning hogeborn</lem>
-						<rdg wit="#Translation">*T*hat the highborn king</rdg>
+						<lem wit="#Transcription">Daz der koning hogeborn</lem>
+						<rdg wit="#Translation">That the highborn king</rdg>
 					</app>
 				</l>
 				<l n="362">
@@ -2373,8 +2359,8 @@
 				</l>
 				<l n="379">
 					<app>
-						<lem wit="#Transcription">*D*O sprach der hirtzoch dogentlich</lem>
-						<rdg wit="#Translation">*T*he virtuous Duke said:</rdg>
+						<lem wit="#Transcription">Do sprach der hirtzoch dogentlich</lem>
+						<rdg wit="#Translation">The virtuous Duke said:</rdg>
 					</app>
 				</l>
 				<l n="380">
@@ -2535,8 +2521,8 @@
 				</l>
 				<l n="406">
 					<app>
-						<lem wit="#Transcription">*D*Er marschalk sich jn sorgen ramp</lem>
-						<rdg wit="#Translation">*T*ormented by fear, the marshal</rdg>
+						<lem wit="#Transcription">Der marschalk sich jn sorgen ramp</lem>
+						<rdg wit="#Translation">Tormented by fear, the marshal</rdg>
 					</app>
 				</l>
 				<l n="407">
@@ -2614,8 +2600,8 @@
 				</l>
 				<l n="419">
 					<app>
-						<lem wit="#Transcription">*D*Er koning eyn alden rijtter ain sach</lem>
-						<rdg wit="#Translation">*T*he king spied an old knight</rdg>
+						<lem wit="#Transcription">Der koning eyn alden rijtter ain sach</lem>
+						<rdg wit="#Translation">The king spied an old knight</rdg>
 					</app>
 				</l>
 				<l n="420">
@@ -2638,16 +2624,9 @@
 				</l>
 				<l n="423">
 					<app>
-						<lem wit="#Transcription">Daz ich myn recht er fulle</lem>
-						<rdg wit="#Translation">because you have seen so much,<note anchored="true" type="critical"><p>The syntax has been changed in the English translation for clarity of meaning.</p></note>
+						<lem wit="#Transcription">Daz ich myn recht er fulle<note type= "critical" anchored="true"><p>Strippel’s edition includes the following line: “Wie man hie kempfen sülle” (p. 282, l. 380). This line from Strippel is included in the translation to stay true to the rhyme.</p></note></lem>
+						<rdg wit="#Translation">because you have seen so much,<note anchored="true" type="critical"><p>There is a lacuna between ll. 423 and 424 which I have emended following Strippel: “and how the trial by combat should take place here,” (p. 282, l. 380).</p></note>
 						</rdg>
-					</app>
-				</l>
-				<l n="423a">
-					<app>
-						<lem wit="#Transcription">[Wie man hie kempfen sülle]<note anchored="true" type="critical"><p>Line 423a was taken from Strippel to stay true to the rhyme (p. 282, l. 380).</p></note>
-						</lem>
-						<rdg wit="#Translation">[and how the trial by combat should take place here,]</rdg>
 					</app>
 				</l>
 				<l n="424">
@@ -2688,8 +2667,8 @@
 				</l>
 				<l n="430">
 					<app>
-						<lem wit="#Transcription">*D*Er rijtter sprach ich weis wail</lem>
-						<rdg wit="#Translation">*T*he knight said: “I know very well</rdg>
+						<lem wit="#Transcription">Der rijtter sprach ich weis wail</lem>
+						<rdg wit="#Translation">The knight said: “I know very well</rdg>
 					</app>
 				</l>
 				<l n="431">
@@ -2772,8 +2751,8 @@
 				</l>
 				<l n="444">
 					<app>
-						<lem wit="#Transcription"><hi rend="italic">*D*O fraget man vmb die slecht vnd auch die crumme</hi></lem>
-						<rdg wit="#Translation"><hi rend="italic">*A*ll were asked if this was just or unjust.</hi></rdg>
+						<lem wit="#Transcription"><hi rend="italic">Do fraget man vmb die slecht vnd auch die crumme</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">All were asked if this was just or unjust.</hi></rdg>
 					</app>
 				</l>
 				<l n="445">
@@ -2886,8 +2865,8 @@
 				</l>
 				<l n="463">
 					<app>
-						<lem wit="#Transcription">*E*R spranck mit eyn sprung snel</lem>
-						<rdg wit="#Translation">*S*wiftly it leapt</rdg>
+						<lem wit="#Transcription">Er spranck mit eyn sprung snel</lem>
+						<rdg wit="#Translation">Swiftly it leapt</rdg>
 					</app>
 				</l>
 				<l n="464">
@@ -2970,8 +2949,8 @@
 				</l>
 				<l n="477">
 					<app>
-						<lem wit="#Transcription">*D*O daz der koning horde</lem>
-						<rdg wit="#Translation">*W*hen the king heard this</rdg>
+						<lem wit="#Transcription">Do daz der koning horde</lem>
+						<rdg wit="#Translation">When the king heard this</rdg>
 					</app>
 				</l>
 				<l n="478">
@@ -3042,8 +3021,8 @@
 				</l>
 				<l n="489">
 					<app>
-						<lem wit="#Transcription">*D*O sprach der morder segeloiß</lem>
-						<rdg wit="#Translation">*T*he defeated murderer replied:</rdg>
+						<lem wit="#Transcription">Do sprach der morder segeloiß</lem>
+						<rdg wit="#Translation">The defeated murderer replied:</rdg>
 					</app>
 				</l>
 				<l n="490">
@@ -3168,8 +3147,8 @@
 				</l>
 				<l n="510">
 					<app>
-						<lem wit="#Transcription">*D*Er koning schre owee owach</lem>
-						<rdg wit="#Translation">*T*he king screamed: “Oh, woe is me! Alas!</rdg>
+						<lem wit="#Transcription">Der koning schre owee owach</lem>
+						<rdg wit="#Translation">The king screamed: “Oh, woe is me! Alas!</rdg>
 					</app>
 				</l>
 				<l n="511">
@@ -3288,8 +3267,8 @@
 				</l>
 				<l n="530">
 					<app>
-						<lem wit="#Transcription">*D*Er koning sprach sage bosewigt</lem>
-						<rdg wit="#Translation">*T*he king said: “Tell me, villain,</rdg>
+						<lem wit="#Transcription">Der koning sprach sage bosewigt</lem>
+						<rdg wit="#Translation">The king said: “Tell me, villain,</rdg>
 					</app>
 				</l>
 				<l n="531">
@@ -3361,8 +3340,8 @@
 				</l>
 				<l n="542">
 					<app>
-						<lem wit="#Transcription">*D*Er koninck den hencker hies</lem>
-						<rdg wit="#Translation">*T*he king ordered the executioner</rdg>
+						<lem wit="#Transcription">Der koninck den hencker hies</lem>
+						<rdg wit="#Translation">The king ordered the executioner</rdg>
 					</app>
 				</l>
 				<l n="543">
@@ -3548,8 +3527,8 @@
 				</l>
 				<l n="573">
 					<app>
-						<lem wit="#Transcription">*S*y lyeff uff die burg zu hant</lem>
-						<rdg wit="#Translation">*S*he ran right to the castle,</rdg>
+						<lem wit="#Transcription">Sy lyeff uff die burg zu hant</lem>
+						<rdg wit="#Translation">She ran right to the castle,</rdg>
 					</app>
 				</l>
 				<l n="574">
@@ -3644,8 +3623,8 @@
 				</l>
 				<l n="589">
 					<app>
-						<lem wit="#Transcription">*D*O sprach die fraue dogentlich</lem>
-						<rdg wit="#Translation">*T*he virtuous lady replied:</rdg>
+						<lem wit="#Transcription">Do sprach die fraue dogentlich</lem>
+						<rdg wit="#Translation">The virtuous lady replied:</rdg>
 					</app>
 				</l>
 				<l n="590">
@@ -3740,8 +3719,8 @@
 				</l>
 				<l n="605">
 					<app>
-						<lem wit="#Transcription">*D*Er koning fragede den selben knecht</lem>
-						<rdg wit="#Translation">*T*he king asked this merchant:</rdg>
+						<lem wit="#Transcription">Der koning fragede den selben knecht</lem>
+						<rdg wit="#Translation">The king asked this merchant:</rdg>
 					</app>
 				</l>
 				<l n="606">
@@ -3860,8 +3839,8 @@
 				</l>
 				<l n="625">
 					<app>
-						<lem wit="#Transcription">*E*R sprach uff die true myn</lem>
-						<rdg wit="#Translation">*H*e said: “I pledge on my honor,</rdg>
+						<lem wit="#Transcription">Er sprach uff die true myn</lem>
+						<rdg wit="#Translation">He said: “I pledge on my honor,</rdg>
 					</app>
 				</l>
 				<l n="626">
@@ -3932,8 +3911,8 @@
 				</l>
 				<l n="637">
 					<app>
-						<lem wit="#Transcription">*D*Er koning waz der meren fro</lem>
-						<rdg wit="#Translation">*T*his news pleased the king,</rdg>
+						<lem wit="#Transcription">Der koning waz der meren fro</lem>
+						<rdg wit="#Translation">This news pleased the king,</rdg>
 					</app>
 				</l>
 				<l n="638">
@@ -4028,8 +4007,8 @@
 				</l>
 				<l n="653">
 					<app>
-						<lem wit="#Transcription">*D*Er koning sich bedaichte</lem>
-						<rdg wit="#Translation">*T*he king came to a decision.</rdg>
+						<lem wit="#Transcription">Der koning sich bedaichte</lem>
+						<rdg wit="#Translation">The king came to a decision.</rdg>
 					</app>
 				</l>
 				<l n="654">
@@ -4178,8 +4157,8 @@
 				</l>
 				<l n="678">
 					<app>
-						<lem wit="#Transcription">*D*Er koning dede waz man jn hieß</lem>
-						<rdg wit="#Translation">*T*he king did as he was told</rdg>
+						<lem wit="#Transcription">Der koning dede waz man jn hieß</lem>
+						<rdg wit="#Translation">The king did as he was told</rdg>
 					</app>
 				</l>
 				<l n="679">
@@ -4358,8 +4337,8 @@
 				</l>
 				<l n="708">
 					<app>
-						<lem wit="#Transcription">*O* zarte wijff ain argelist</lem>
-						<rdg wit="#Translation">*O*h, sweet lady without guile,</rdg>
+						<lem wit="#Transcription">O zarte wijff ain argelist</lem>
+						<rdg wit="#Translation">Oh, sweet lady without guile,</rdg>
 					</app>
 				</l>
 				<l n="709">
@@ -4422,13 +4401,13 @@
 						<rdg wit="#Translation">His misery moved her heart.</rdg>
 					</app>
 				</l>
-				<l n="718a">
+				<l n="719">
 					<app>
 						<lem wit="#Transcription"><hi rend="strikethrough">Do koste er sij</hi></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="719">
+				<l n="719a">
 					<app>
 						<lem wit="#Transcription">Den koning sij lijfflich vmb fing</lem>
 						<rdg wit="#Translation">She embraced the king lovingly.</rdg>
@@ -4460,8 +4439,8 @@
 				</l>
 				<l n="724">
 					<app>
-						<lem wit="#Transcription">*E*R kuste yr augen vnd geleder</lem>
-						<rdg wit="#Translation">*H*e kissed her eyes and limbs.</rdg>
+						<lem wit="#Transcription">Er kuste yr augen vnd geleder</lem>
+						<rdg wit="#Translation">He kissed her eyes and limbs.</rdg>
 					</app>
 				</l>
 				<l n="725">
@@ -4623,8 +4602,8 @@
 				</l>
 				<l n="751">
 					<app>
-						<lem wit="#Transcription">*D*Er koning eme alle syn armoidt verdreiff</lem>
-						<rdg wit="#Translation">*T*he king rid him of all of his poverty.</rdg>
+						<lem wit="#Transcription">Der koning eme alle syn armoidt verdreiff</lem>
+						<rdg wit="#Translation">The king rid him of all of his poverty.</rdg>
 					</app>
 				</l>
 				<l n="752">

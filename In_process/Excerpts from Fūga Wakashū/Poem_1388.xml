@@ -1,0 +1,88 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>From the 5th Book of Love. Poem 1388.</title>
+				<author>Eifuku Mon'in 永福門院</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>国歌大観 : 五句索引 歌集部 (Kokka taikan: goku sakuin); Kyōbunsha; Date published: 1918</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Scott Stevens</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://dl.ndl.go.jp/info:ndljp/pid/936605">国歌大観 : 五句索引 歌集部 (Kokka taikan: goku sakuin); Kyōbunsha; Date published: 1918</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">戀歌五、1388</witness>
+					<witness xml:id="Translation">From the 5th Book of Love. Poem 1388.</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"From the 5th Book of Love. Poem 1388." is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">題志らず</lem>
+						<rdg wit="#Translation">Topic unknown.</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l>
+					<app>
+						<lem wit="#Transcription">人の捨てし哀を獨り身にとめて歎き殘れるはてぞ久しき<note type= "critical" anchored="true"><p>One significant variant for poem #1388 is the word 悲しき (sad, tragic) in some manuscripts instead of 久しき (long ago), which appears in the Kokka taikan transcription.</p></note></lem>
+						<rdg wit="#Translation">Loved ones tossed aside<lb/>tenderness, which, all alone,<lb/>I’ve been clinging to.<lb/>I grieve, long since left behind<lb/>to face the end of my life.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

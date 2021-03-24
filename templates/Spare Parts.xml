@@ -34,13 +34,43 @@ Sentences
 
 <note type= "critical" anchored="true"><p></p></note>
 
+<space quantity="10" unit="chars"></space>
 
+
+				<l>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
 				<l n="#">
 					<app>
 						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="#">

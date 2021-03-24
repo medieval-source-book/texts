@@ -1,0 +1,243 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regarding an outrageous incident at the University of Paris</title>
+				<author>Johannes de Reno</author>
+				<respStmt>
+					<resp>Text based on by</resp>
+					<name>Auctarium Chartularii Universitatis Parisiensis [ACUP]: Liber Procuratorum Nationis Anglicanae (Alemanniae), vol. II: Ab Anno 1406 usque ad Annum 1466, ed. H. S Denifle and E. L. M. Chatelain (Paris, 1897)</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Teresa Barucci</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Auctarium Chartularii Universitatis Parisiensis [ACUP]: Liber Procuratorum Nationis Anglicanae (Alemanniae), vol. II: Ab Anno 1406 usque ad Annum 1466, ed. H. S Denifle and E. L. M. Chatelain (Paris, 1897)</p>
+				<listWit>
+					<witness xml:id="Transcription">De enormis casu in Universitate Parisiensis</witness>
+					<witness xml:id="Translation">Regarding an outrageous incident at the University of Paris</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Regarding an outrageous incident at the University of Paris" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Facta congregacione Universitatis apud Sanctum Bernardum die secunda mensis Januarii super duobus articulis.</lem>
+						<rdg wit="#Translation">On the second day of the month of January, the university congregation met at the Collège des Bernardins to discuss two matters.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Primus erat ad reparandum et reformandum casum instum enormem, qui accidit inter illud collegium notabile Harricurie et magistrum domus Chirene in vico Cythare</lem>
+						<rdg wit="#Translation">The first one was the reparation and rectification of the outrageous incident which had occurred between the illustrious Collège d’Harcourt and the master of the Chirene house in rue de la Harpe.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">qui casus habuit ortum de uno equo mortuo ducto a domo illius domus predicte usque ad hostium dicti venerabilis collegii,  </lem>
+						<rdg wit="#Translation">According to public knowledge, the incident originated around a dead horse brought from the house of the master of the said house to the entrance of the distinguished Collège. […] </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">secundum quo omnibus erat notum. […] Et ut in posterum remaneat in memoria hominum, casus erat iste.</lem>
+						<rdg wit="#Translation">The facts of the incident are reported here, so that they might remain in the memory of men in the future.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+
+				<s>
+					<app>
+						<lem wit="#Transcription">Erat quidam equus ductus de domo Chirenis predicta, et postquam venerat ante portam collegii venerabilis Harricurie, predictus equus remansit mortuus,</lem>
+						<rdg wit="#Translation">A certain horse was conducted out of the Chirene house, and when it arrived in front of the door of the distinguished Collège d’Harcourt, it died; </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et qui primo ducebat equum, dimittendo equum ivit ad domum suam.</lem>
+						<rdg wit="#Translation">the person who was at first leading the horse went back to their house leaving the horse behind. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Postquam magistri et scolares collegii predicti perceperant illud cadavar fore ante hostium ipsorum, et perceperant quod venerat de domo Chirenis, et istud erat circa horam sextam post vesperas:</lem>
+						<rdg wit="#Translation">After vespers, at around six o’clock, the masters and students of the Collège noticed the carcass in front of their entrance door, and realised that it came from the Chirene house.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">duo vel tres scolares ibant de collegio predicto usque ad domum predictam et instabant circa hospitem domus, ut removeret istud cadavar de collegio ipsorum.</lem>
+						<rdg wit="#Translation">Two or three students then went from the Collège to the said house and pressed its host for the removal of the carcass from their Collège. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Primo respondebat: byen, tantoct. Isti scolares recesserunt, et post septimam, postquam nullum viderant qui ammoveret illud cadavar, ipsi scolares iterato adibant domum predictam et instabant secundum quod prius. </lem>
+						<rdg wit="#Translation">At first, the host replied: Well, immediately. The students withdrew, and after seven o’clock, when they had not seen anyone moving the carcass, they went to the house a second time and repeated their request. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Et respondebat iste dominus de Chirenis scolaribus valde perverse isto modo scilicet: </lem>
+						<rdg wit="#Translation">And the master of the Chirene house replied to the students in this extremely wicked way:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">"Et quomodo, domini mei, equus exivit vivus de domo mea, et quomodo potest esse mortuus ante domum vestram, multum miror;</lem>
+						<rdg wit="#Translation">"My lords, I am greatly surprised at how it is possible that the horse left my house alive and is now dead in front of yours.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">est ibi, dicit ipse, ymago nostre Domine super hostium vestrum; credo vere quod equus fecit sibi reverenciam, sicud in nocte Nativitatis bos et azinus.</lem>
+						<rdg wit="#Translation">There is an image of our Lord above your door; I sincerely believe that the horse was just paying reverence to it, like the ox and the donkey on the night of the Nativity. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Ay, domini mei, levetis caudam equi et respiciatis in culo, bene videbitis utrum ne vivat, et eciam respiciatis in ore; vere non potest esse mortuus.</lem>
+						<rdg wit="#Translation">Yes, my lords, if you lift the tail of the horse and look in its ass, you will clearly see whether it is dead, and look in its mouth too; it truly cannot be dead. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Bene scio quod vivit."</lem>
+						<rdg wit="#Translation">I know very well that it is alive."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Et ista responsio videbatur multum proterva illis scolaribus abeuntibus, [qui] traxerunt equum de collegio, unus per caudam, alter per pedes, etc., usque ad domum Chyrenis, et vocando hospitem dixerunt:</lem>
+						<rdg wit="#Translation">This reply seemed very wicked to the students as they were walking off, and they therefore dragged the horse from the Collège all the way to the Chirene house, one by its tail, one by its hoof, etc., and as a way of summoning the host said: </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">"Ecce nos, Malgeti, respiciatis equum vestrum".</lem>
+						<rdg wit="#Translation">"Here we are, Malgeti, look at your horse."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Et quibusdam intrantibus domum clausa fuit janua, et infra limen et hostium domus remansit pes unius scolarium, et fortiter clamabat.</lem>
+						<rdg wit="#Translation">And while they were entering the house, the portal was closed, and the foot of a student  remained stuck between the street and the door, and he was loudly screaming.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Alii illud videntes tantum fecerunt, quod hostium aperiebatur, et recesserunt ad collegium. </lem>
+						<rdg wit="#Translation">Seeing this, the others managed to have the door reopened, and the students withdrew to the Collège. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Deinde circa duodecimam horam, omnibus quasi existentibus in lecto, venit hospes Chyrenis cum aliquibus aliis, scilicet duobus militibus hospitibus in domo sua, et clamabant ad adjutorium regis: </lem>
+						<rdg wit="#Translation">Afterwards, at around midnight, when almost everybody was in their bed, the host of the Chirene house arrived with some others, certainly with two soldiers who were guests in his house, and they were crying for royal support:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">"Ecce istos Normanos de collegio Harricurie, qui sunt traditores regis et regni et duci Burgundie!"</lem>
+						<rdg wit="#Translation">"Behold, the Normans of the Collège d’Harcourt, who are traitors to the King, the Kingdom, and the Duke of Burgundy!"</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Et secundum statuta burgensium quilibet posuit se in armis, et veniens ante collegium quilibet clamabat:</lem>
+						<rdg wit="#Translation">And according to the statutes, every burgher armed himself, and going before the Collège was screaming: </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">"frangatis hostia et muros" etc., et erant bene in numero armati CCC ante collegium illud, et fregerunt hostia et intraverunt clamantes "ad mortem",</lem>
+						<rdg wit="#Translation">"let’s break the doors and the walls" etc., and then there were three hundred well-armed people before the Collège, and they shattered the doors and entered shouting "to death",</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et fregerunt bene viginti januas camerarum, et nullum reperiebant armatum in dicto collegio, […] et clamabant: "Ponamus ignem!"</lem>
+						<rdg wit="#Translation"> and very much destroyed twenty room doors, although they could not find anyone who was armed in the Collège, […] and were shouting: "Set fire!" </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Et tunc veniebat prepositus Parysiensis et omnia disposuit ad melius.</lem>
+						<rdg wit="#Translation">Then the provost of Paris arrived and redressed the situation.</rdg>
+					</app>
+				</s>	
+				<s>
+					<app>
+						<lem wit="#Transcription">Et erant duo scolares de domo capti et duo fortiter volnerati. </lem>
+						<rdg wit="#Translation">And two students were seized from the house, and two others were severely injured.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Et iste est casus de quo prius tangebatur, quem in plena congregacione narraverunt duo magistri in theologya de collegio. </lem>
+						<rdg wit="#Translation">This is the incident which has been previously touched upon, which two masters in Theology from the Collège recounted before the entire congregation.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Et concludebat nacio, quod iste hospes detineretur in carceribus, quousque nobis fieret emenda condigna.</lem>
+						<rdg wit="#Translation">And the nation concluded that the host would have been detained in prison until an appropriate compensation had been made to us. </rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

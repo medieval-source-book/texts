@@ -1,0 +1,246 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Regarding blessed Haseka, virgin recluse in Westphalia</title>
+				<author>Hermannus Greven</author>
+				<respStmt>
+					<resp>Transcription from</resp>
+					<name>Acta sanctorum quotquot toto orbe coluntur, vel a catholicis scriptoribus celebrantur. Editio novissima. Ed. Joanne Carnandet. 26 January, vol. 3, 373–374. Paris: V. Palmé, 1863.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Laura Moncion</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>“Vita beatae Hasekae v. reclusae in Germania”. Acta sanctorum quotquot toto orbe coluntur, vel a catholicis scriptoribus celebrantur. Editio novissima. Ed. Joanne Carnandet. 26 January, vol. 3, 373–374. Paris: V. Palmé, 1863.</p>
+				<listWit>
+					<witness xml:id="Transcription">De B. Haseka, virgine reclusa in Westphalia</witness>
+					<witness xml:id="Translation">Regarding blessed Haseka, virgin recluse in Westphalia</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Regarding blessed Haseka, virgin recluse in Westphalia" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Beata Soror Haseka de partibus Rheni oriunda, in virginitatis puritate et gloria perseverans, juxta ecclesiam in Schermbecke, quae est proxima monasterio Sichemensi, triginta et sex annis inclusa permansit.</lem>
+						<rdg wit="#Translation">Blessed Sister Haseka, who came from the regions of the Rhine and persevered in the purity and glory of virginity, lived for 36 years as a recluse next to the church in Schermbeck, which is near the monastery of Sichem.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Quae inde stipem cotidianam percipiens victus sui, et labore possibilitatis suae, in multa simplicitate et patientia singulari vitam suam transegit:</lem>
+						<rdg wit="#Translation">She considered as her sustenance a daily offering,<note type= "critical" anchored="true"><p>Most likely an offering of food or goods, i.e. she lived on alms.</p></note>and she conducted her life in great simplicity and singular patience by the work which was possible for her.<note type= "critical" anchored="true"><p>The author most likely means prayer here, but recluses were also known to engage in some work which could be done from the cell, such as embroidery or copying manuscripts.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">studiose semper providens et procurans quidquid ei Deus in collatione gratiae singularis contulisset, occultans, et in coelo sudores laborum suorum reponens, non in infida custodis arculae labiorum ac orium humanorum, ne eam extolleret magnitudo revelationum.</lem>
+						<rdg wit="#Translation">She was always eagerly making provision for and attending to whatever God conveyed to her in the collection of singular grace; she hid herself<note type= "critical" anchored="true"><p>i.e. from people</p></note>and restored the weariness of her lips in heaven, rather than in the faithlessness of human company,<note type= "critical" anchored="true"><p><hi rend="italic">custodis arculae labiorum ac orium humanorum</hi>: literally, “of the keeper of the little box of human lips and mouths”. I interpret this as referring more generally to human company here.</p></note>so that He might raise her up by the greatness of revelations.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Quae autem Dominus voluit revelari pro nominis sui gloria, haec cognita sunt conscripta.</lem>
+						<rdg wit="#Translation">Indeed the Lord wanted to be revealed to her for the glory of his name, and these things which are known are written down here.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">On a certain occasion, for God and for her work and that of her attendant,<note type= "critical" anchored="true"><p><hi rend="italic">Conservae suae</hi>: literally, “her co-servant”. This may be the author imparting more humility to Haseka, by implying that she is a servant (presumably, of God). I translate “conserva” as “her attendant” here since it seems that this woman was actually Haseka’s attendant of some kind (she is later called “ministra”). It was common for recluses – unable to leave their dwellings – to have servants or attendants who could run errands and manage the recluse’s affairs outside of the anchorhold.</p></note>butter was donated which was stinking and rancid because of its old age.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum enim quadam vice propter Deum et pro labore suo et conservae suae donatum esset butyrum prae vetustate sua foetidum ac corruptum, et post dies aliquot in cista locatum, cum foetorem Soror Berta ministra sua nec posset aut vellet tolerare, paravit illud a se quomodolibet elongare.</lem>
+						<rdg wit="#Translation">After it had been placed away in a coffer for some days, Sister Berta, Haseka’s attendant, was no longer able or willing to tolerate the stink. She prepared to remove it from her presence in any way possible.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Quod Soror Haseka cum comperisset, positis genibus suis, dixit : Domine butyrum istud qualecumque sit, in nomine tuo comedemus.</lem>
+						<rdg wit="#Translation">When Sister Haseka realized this, kneeling, she said: “Lord, may this butter be such that we will eat it in your name.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">In ditione tua cuncta sunt posita; potestate et virtute tua de malo elicis, cum volueris, bonum : bonum etiam, si volueris, efficere poteris hoc butyrum.</lem>
+						<rdg wit="#Translation">All things are in your sovereignty; by your power and goodness you extract the good from the bad when you desire: if you want to, you are able to make this butter good.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum igitur ad mensulam tenuem pro loci opportunitate, una intra, altera vero extra assedisset, prolatum butyrum ita recens est inventum, ac si eodem die lacte agitato fuisset elixum.</lem>
+						<rdg wit="#Translation">When they sat down at the little table (thin enough to fit the space), with one inside and the other outside,<note type= "critical" anchored="true"><p>This may imply something like Haseka sitting inside the anchorhold while Berta sat outside; nevertheless they share a table. This may also imply that the anchorhold was too small to accommodate both of them and the table.</p></note>the said butter was discovered to be fresh, as if it had been churned that same day.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Benedicentes igitur omnipotentem Deum, deinceps illud in cordis jubilo atque tripudio singulis diebus comederunt.</lem>
+						<rdg wit="#Translation">Blessing the all-powerful God, in jubilation and festivity of the heart, they ate it every day.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum autem beata Soror Haseka apud monasterium Sichemense, tamquam eidem loco sancta obedientia obligata, quia ipsum quem elegerat portans toto conversationis suae tempore habitum monachorum, sepulturam eligisset,</lem>
+						<rdg wit="#Translation">Blessed Sister Haseka chose her place of burial at the monastery of Sichem, just as she was bound by holy obedience to the same place because of the habit of the monks which she had chosen, carrying it for the whole time of her religious life.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et anno gratiae millesimo ducentesimo sexagesimo primo, VII. Kal. Febr. in Domino obdormisset,</lem>
+						<rdg wit="#Translation">On 26 January 1261 she died.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Fratres monasterii tam monachi quam conversi cum vehiculo venerunt, et corpus alumnae suae ad sepeliendum tollere voluterunt.</lem>
+						<rdg wit="#Translation">The brothers of the monastery, both monks and lay brothers, came with a vehicle and wanted to carry off the body of their ward for burial.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Quod niger quidam monachus eo tempore divina ibi celebrans, nomine monasterii sui procurans, accersito sibi brachio et robore rusticorum fieri non permisit;</lem>
+						<rdg wit="#Translation">A certain black monk who was at that time celebrating the office there, ministering in the name of his monastery, did not permit this to be done, flailing his arms and boorishly red in the face<note type= "critical" anchored="true"><p><hi rend="italic">robore rusticorum</hi>: literally, “with the redness of country people”. “<hi rend="italic">Rusticus</hi>” can refer simply to a peasant or country person, or, in the case of a value judgement, a coarse, brutish person or lout. In this case, I suspect the author is implying that this monk is an unmannered person, casting doubt onto his monastery’s claims to Haseka’s body.</p></note>– and so on the third day he buried her in the church.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et sic Fratribus injuriam suam dissimulantibus eam in ecclesia dia tertia sepelivit.</lem>
+						<rdg wit="#Translation">Meanwhile the brothers<note type= "critical" anchored="true"><p>Of the monastery of Sichem.</p></note>concealed their injury.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum autem res ad notitiam Episcopi dioecesani devenisset, praecepit etiam per litteras in virtute obedientiae monasterio dari corpus.</lem>
+						<rdg wit="#Translation">When this was brought to the attention of the diocesan bishop, he ordered in a letter that Haseka’s body should be given to the monastery by virtue of her obedience to them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cum igitur ad susceptionem corporis ad portam monasterii solenniter occurrentibus monachis, adessent saeculares utriusque sexus,</lem>
+						<rdg wit="#Translation">When the monks arrived solemnly at the door of the monastery to receive her body, there were laypeople there of both sexes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">viderunt faciem Virginis sacrae, quae mortua et sepulta fuerat diebus multis, ita vividam et rubentum, ut quasi juvencula balneata, non vetula mortua videretur.</lem>
+						<rdg wit="#Translation">They saw the face of the holy Virgin, who died and was buried for many days, but now seemed lively and rosy, as if she were a freshly-bathed girl and not an aged, dead woman.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Fuitque tam expers omnis foetoris ejus corporis gleba, ut omnes qui aderant et viderunt eam in sepulcro locatam et mox terra operiendam valde mirarentur.</lem>
+						<rdg wit="#Translation">The soil was so lacking in any stench from her body that all who were there and saw her placed in the tomb and soon covered by earth marvelled greatly.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Obiit autem beata Soror Haseka nocte proxima post diem Conversionis S. Pauli Apostoli, et sepulta est sub lapide latiore ad introitum domus capituli Sichemensis monasterii tertia decima mensis Martii,</lem>
+						<rdg wit="#Translation">Blessed Sister Haseka crossed over<note type= "critical" anchored="true"><p><hi rend="italic">obiit</hi>: since Haseka is already dead, I translate “<hi rend="italic">obiit</hi>” as “crossed over” rather than “died”. The author may be implying that, once buried in the graveyard of her choice, Haseka’s earthly remains can truly be considered at rest.</p></note>the next night, after the feast of the conversion of St Paul the Apostle, and was buried under a very wide stone at the entrance to the chapter house of the monastery of Sichem, on the 13th of March.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">cujus meritis et precibus apud Dominum nos credimus et confidimus adjuvari.</lem>
+						<rdg wit="#Translation">We believe in her merits and prayers before God and we are confident that she will be helped.<note type= "critical" anchored="true"><p><hi rend="italic">adjuvari</hi>: i.e. helped to attain salvation.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">Apparuit vero sacra Dei famula, postquam defuncta fuit, in somnis cuidam nobili ac devotae viduae, dicens ei : Noli dubium gerere, sed firmissime crede, et nullatenus dubites, quin quicumque ad mei memoriam confugerint, in suis sint necessitatibus et angustiis auxilium per Dei gratiam obtenturi.</lem>
+						<rdg wit="#Translation">This holy maidservant of God appeared, after she had died, to a certain noble and devoted widow in a dream, saying to her: “Do not doubt, but believe most firmly, and do not ever doubt that anyone taking refuge in memory of me may be held fast by the grace and the help of God in their necessities and in their anxieties.”</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">Porro illa excitata a somno et visioni congratulans,</lem>
+						<rdg wit="#Translation">Then the widow, awoken by the dream and vision, rejoiced.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">cum secundo tenuiter obdormisset, vidit iterato beatam Virginem eadam constantissime repetentem, ut repetitio sermonis esse probaretur affirmatio veritatis.</lem>
+						<rdg wit="#Translation">When again she fell lightly asleep, she saw again the same blessed Virgin, constantly repenting, so that the repetition of the word was proven to be the affirmation of the truth.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Nec hactenus tantum extentam credimus Dei manum, sed magis adhuc pro nominis sui gloria extendendam.</lem>
+						<rdg wit="#Translation">Thus far we did not believe that the hand of God was so much extended, but it is about to be extended more for the glory of his name.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Jam enim ad ejus tumulum fideles luminaria transmittunt, et pro incommodis sublevandis accedunt.</lem>
+						<rdg wit="#Translation">Already the faithful cast their eyes on her tomb, and approach it in order to lighten their troubles.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Amen.</lem>
+						<rdg wit="#Translation">Amen.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
