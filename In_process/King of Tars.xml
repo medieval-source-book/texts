@@ -9,19 +9,23 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Regarding an outrageous incident at the University of Paris</title>
-				<author>Johannes de Reno</author>
+				<title><!--Title in English--></title>
+				<author><!--Anonymous if unknown--></author>
 				<respStmt>
-					<resp>Text based on by</resp>
-					<name>Auctarium Chartularii Universitatis Parisiensis [ACUP]: Liber Procuratorum Nationis Anglicanae (Alemanniae), vol. II: Ab Anno 1406 usque ad Annum 1466, ed. H. S Denifle and E. L. M. Chatelain (Paris, 1897)</name>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name>Teresa Barucci</name>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name></name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Runqi Zhang</name>
+					<name></name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -34,16 +38,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p>Auctarium Chartularii Universitatis Parisiensis [ACUP]: Liber Procuratorum Nationis Anglicanae (Alemanniae), vol. II: Ab Anno 1406 usque ad Annum 1466, ed. H. S Denifle and E. L. M. Chatelain (Paris, 1897)</p>
+				 <p><ref target=""></ref></p>
 				<listWit>
-					<witness xml:id="Transcription">De enormis casu in Universitate Parisiensis</witness>
-					<witness xml:id="Translation">Regarding an outrageous incident at the University of Paris</witness>
+					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Translation"><!--Title in English--></witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Regarding an outrageous incident at the University of Paris" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Wandering lost, it was already night" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -60,190 +64,2167 @@
 	<text>
 		<front>
 			<head>
-				<title>
+				<title type="main">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
-			<p n="1">
-				<s>
+			<lg n="1" type="stanza">
+				<l n="1">
 					<app>
-						<lem wit="#Transcription">Facta congregacione Universitatis apud Sanctum Bernardum die secunda mensis Januarii super duobus articulis.</lem>
-						<rdg wit="#Translation">On the second day of the month of January, the university congregation met at the Collège des Bernardins to discuss two matters.</rdg>
+						<lem wit="#Transcription">Herkneþ to me boþe eld & ȝing,</lem>
+						<rdg wit="#Translation">Listen to me, both old and young,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="2">
 					<app>
-						<lem wit="#Transcription">Primus erat ad reparandum et reformandum casum instum enormem, qui accidit inter illud collegium notabile Harricurie et magistrum domus Chirene in vico Cythare</lem>
-						<rdg wit="#Translation">The first one was the reparation and rectification of the outrageous incident which had occurred between the illustrious Collège d’Harcourt and the master of the Chirene house in rue de la Harpe.</rdg>
+						<lem wit="#Transcription">For Maries loue þat swete þing,</lem>
+						<rdg wit="#Translation">For the love of Mary, that precious woman,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="3">
 					<app>
-						<lem wit="#Transcription">qui casus habuit ortum de uno equo mortuo ducto a domo illius domus predicte usque ad hostium dicti venerabilis collegii,  </lem>
-						<rdg wit="#Translation">According to public knowledge, the incident originated around a dead horse brought from the house of the master of the said house to the entrance of the distinguished Collège. […] </rdg>
+						<lem wit="#Transcription">Al hou a wer bigan</lem>
+						<rdg wit="#Translation">About how a war began</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="4">
 					<app>
-						<lem wit="#Transcription">secundum quo omnibus erat notum. […] Et ut in posterum remaneat in memoria hominum, casus erat iste.</lem>
-						<rdg wit="#Translation">The facts of the incident are reported here, so that they might remain in the memory of men in the future.</rdg>
+						<lem wit="#Transcription">Bitvene a trewe Cristen king</lem>
+						<rdg wit="#Translation">Between a true, Christian king</rdg>
 					</app>
-				</s>
-			</p>
-			<p n="2">
-
-				<s>
+				</l>
+				<l n="5">
 					<app>
-						<lem wit="#Transcription">Erat quidam equus ductus de domo Chirenis predicta, et postquam venerat ante portam collegii venerabilis Harricurie, predictus equus remansit mortuus,</lem>
-						<rdg wit="#Translation">A certain horse was conducted out of the Chirene house, and when it arrived in front of the door of the distinguished Collège d’Harcourt, it died; </rdg>
+						<lem wit="#Transcription">& an heþen heye lording,</lem>
+						<rdg wit="#Translation">And a pagan high lord,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="6">
 					<app>
-						<lem wit="#Transcription">et qui primo ducebat equum, dimittendo equum ivit ad domum suam.</lem>
-						<rdg wit="#Translation">the person who was at first leading the horse went back to their house leaving the horse behind. </rdg>
+						<lem wit="#Transcription">Of Dames þe soudan.</lem>
+						<rdg wit="#Translation">The sultan of Damascus.</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="7">
 					<app>
-						<lem wit="#Transcription">Postquam magistri et scolares collegii predicti perceperant illud cadavar fore ante hostium ipsorum, et perceperant quod venerat de domo Chirenis, et istud erat circa horam sextam post vesperas:</lem>
-						<rdg wit="#Translation">After vespers, at around six o’clock, the masters and students of the Collège noticed the carcass in front of their entrance door, and realised that it came from the Chirene house.</rdg>
+						<lem wit="#Transcription">Þe king of Tars hadde a wiue,</lem>
+						<rdg wit="#Translation">The King of Tars had [married] a wife,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="8">
 					<app>
-						<lem wit="#Transcription">duo vel tres scolares ibant de collegio predicto usque ad domum predictam et instabant circa hospitem domus, ut removeret istud cadavar de collegio ipsorum.</lem>
-						<rdg wit="#Translation">Two or three students then went from the Collège to the said house and pressed its host for the removal of the carcass from their Collège. </rdg>
+						<lem wit="#Transcription">Feirer miȝt non ben oliue</lem>
+						<rdg wit="#Translation">Of whom any man could say</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="9">
 					<app>
-						<lem wit="#Transcription">Primo respondebat: byen, tantoct. Isti scolares recesserunt, et post septimam, postquam nullum viderant qui ammoveret illud cadavar, ipsi scolares iterato adibant domum predictam et instabant secundum quod prius. </lem>
-						<rdg wit="#Translation">At first, the host replied: Well, immediately. The students withdrew, and after seven o’clock, when they had not seen anyone moving the carcass, they went to the house a second time and repeated their request. </rdg>
+						<lem wit="#Transcription">Þat ani wiȝt telle can.</lem>
+						<rdg wit="#Translation">A lovelier woman had never lived.</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="10">
 					<app>
-						<lem wit="#Transcription">Et respondebat iste dominus de Chirenis scolaribus valde perverse isto modo scilicet: </lem>
-						<rdg wit="#Translation">And the master of the Chirene house replied to the students in this extremely wicked way:</rdg>
+						<lem wit="#Transcription">A douhter þai hadde hem bitven,</lem>
+						<rdg wit="#Translation">Between them they bore a daughter,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="11">
 					<app>
-						<lem wit="#Transcription">"Et quomodo, domini mei, equus exivit vivus de domo mea, et quomodo potest esse mortuus ante domum vestram, multum miror;</lem>
-						<rdg wit="#Translation">"My lords, I am greatly surprised at how it is possible that the horse left my house alive and is now dead in front of yours.</rdg>
+						<lem wit="#Transcription">Non feirer woman miȝt ben,</lem>
+						<rdg wit="#Translation">Than whom no woman might be lovelier,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="12">
 					<app>
-						<lem wit="#Transcription">est ibi, dicit ipse, ymago nostre Domine super hostium vestrum; credo vere quod equus fecit sibi reverenciam, sicud in nocte Nativitatis bos et azinus.</lem>
-						<rdg wit="#Translation">There is an image of our Lord above your door; I sincerely believe that the horse was just paying reverence to it, like the ox and the donkey on the night of the Nativity. </rdg>
+						<lem wit="#Transcription">As white as feþer of swan.</lem>
+						<rdg wit="#Translation">As white as the feather of a swan.</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="13">
 					<app>
-						<lem wit="#Transcription">Ay, domini mei, levetis caudam equi et respiciatis in culo, bene videbitis utrum ne vivat, et eciam respiciatis in ore; vere non potest esse mortuus.</lem>
-						<rdg wit="#Translation">Yes, my lords, if you lift the tail of the horse and look in its ass, you will clearly see whether it is dead, and look in its mouth too; it truly cannot be dead. </rdg>
+						<lem wit="#Transcription">Þe meiden was schast & bliþe of chere,</lem>
+						<rdg wit="#Translation">The maiden was chaste and happy in appearance,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="14">
 					<app>
-						<lem wit="#Transcription">Bene scio quod vivit."</lem>
-						<rdg wit="#Translation">I know very well that it is alive."</rdg>
+						<lem wit="#Transcription">Wiþ rode red so blosme on brere,</lem>
+						<rdg wit="#Translation">With cheeks as red as a flower on a bush,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="15">
 					<app>
-						<lem wit="#Transcription">Et ista responsio videbatur multum proterva illis scolaribus abeuntibus, [qui] traxerunt equum de collegio, unus per caudam, alter per pedes, etc., usque ad domum Chyrenis, et vocando hospitem dixerunt:</lem>
-						<rdg wit="#Translation">This reply seemed very wicked to the students as they were walking off, and they therefore dragged the horse from the Collège all the way to the Chirene house, one by its tail, one by its hoof, etc., and as a way of summoning the host said: </rdg>
+						<lem wit="#Transcription">& eyȝen stepe & gray;</lem>
+						<rdg wit="#Translation">And [with] bright grey eyes;</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="16">
 					<app>
-						<lem wit="#Transcription">"Ecce nos, Malgeti, respiciatis equum vestrum".</lem>
-						<rdg wit="#Translation">"Here we are, Malgeti, look at your horse."</rdg>
+						<lem wit="#Transcription">Wiþ lowe scholders & white swere,</lem>
+						<rdg wit="#Translation">With low shoulders and a white neck,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="17">
 					<app>
-						<lem wit="#Transcription">Et quibusdam intrantibus domum clausa fuit janua, et infra limen et hostium domus remansit pes unius scolarium, et fortiter clamabat.</lem>
-						<rdg wit="#Translation">And while they were entering the house, the portal was closed, and the foot of a student  remained stuck between the street and the door, and he was loudly screaming.</rdg>
+						<lem wit="#Transcription">Hir forto sen was gret preier</lem>
+						<rdg wit="#Translation">To court her was the wish</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="18">
 					<app>
-						<lem wit="#Transcription">Alii illud videntes tantum fecerunt, quod hostium aperiebatur, et recesserunt ad collegium. </lem>
-						<rdg wit="#Translation">Seeing this, the others managed to have the door reopened, and the students withdrew to the Collège. </rdg>
+						<lem wit="#Transcription">Of princes proud in play.</lem>
+						<rdg wit="#Translation">Of proud and youthful princes.</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="19">
 					<app>
-						<lem wit="#Transcription">Deinde circa duodecimam horam, omnibus quasi existentibus in lecto, venit hospes Chyrenis cum aliquibus aliis, scilicet duobus militibus hospitibus in domo sua, et clamabant ad adjutorium regis: </lem>
-						<rdg wit="#Translation">Afterwards, at around midnight, when almost everybody was in their bed, the host of the Chirene house arrived with some others, certainly with two soldiers who were guests in his house, and they were crying for royal support:</rdg>
+						<lem wit="#Transcription">Þe los of hir gan spring wide</lem>
+						<rdg wit="#Translation">The talk of her did spread about</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="20">
 					<app>
-						<lem wit="#Transcription">"Ecce istos Normanos de collegio Harricurie, qui sunt traditores regis et regni et duci Burgundie!</lem>
-						<rdg wit="#Translation">"Behold, the Normans of the Collège d’Harcourt, who are traitors to the King, the Kingdom, and the Duke of Burgundy!"</rdg>
+						<lem wit="#Transcription">In oþer londes bi ich a side;</lem>
+						<rdg wit="#Translation">In other countries on every side;</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="21">
 					<app>
-						<lem wit="#Transcription">Et secundum statuta burgensium quilibet posuit se in armis, et veniens ante collegium quilibet clamabat:</lem>
-						<rdg wit="#Translation">And according to the statutes, every burgher armed himself, and going before the Collège was screaming: </rdg>
+						<lem wit="#Transcription">So þe soudan herd it say.</lem>
+						<rdg wit="#Translation">So the sultan heard it spoken.</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="22">
 					<app>
-						<lem wit="#Transcription">"frangatis hostia et muros" etc., et erant bene in numero armati CCC ante collegium illud, et fregerunt hostia et intraverunt clamantes "ad mortem",</lem>
-						<rdg wit="#Translation">"let’s break the doors and the walls" etc., and then there were three hundred well-armed people before the Collège, and they shattered the doors and entered shouting "to death",</rdg>
+						<lem wit="#Transcription">Him þouȝt his hert it brast o fiue</lem>
+						<rdg wit="#Translation">He thought his heart would break in five pieces</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="23">
 					<app>
-						<lem wit="#Transcription">et fregerunt bene viginti januas camerarum, et nullum reperiebant armatum in dicto collegio, […] et clamabant: "Ponamus ignem!"</lem>
-						<rdg wit="#Translation"> and very much destroyed twenty room doors, although they could not find anyone who was armed in the Collège, […] and were shouting: "Set fire!" </rdg>
+						<lem wit="#Transcription">Bot ȝif he miȝt haue hir to wiue</lem>
+						<rdg wit="#Translation">Unless he could have her as his wife,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="24">
 					<app>
-						<lem wit="#Transcription">Et tunc veniebat prepositus Parysiensis et omnia disposuit ad melius.</lem>
-						<rdg wit="#Translation">Then the provost of Paris arrived and redressed the situation.</rdg>
+						<lem wit="#Transcription">Þat was so feir a may.</lem>
+						<rdg wit="#Translation">[She] Who was so lovely a maiden.</rdg>
 					</app>
-				</s>	
-				<s>
+				</l>
+			</lg>
+			<lg n="3" type="stanza">
+				<l n="25">
 					<app>
-						<lem wit="#Transcription">Et tunc veniebat prepositus Parysiensis et omnia disposuit ad melius.</lem>
-						<rdg wit="#Translation">Then the provost of Paris arrived and redressed the situation.</rdg>
+						<lem wit="#Transcription">His messangers he gan calle,</lem>
+						<rdg wit="#Translation">He did summon all his messengers,</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="26">
 					<app>
-						<lem wit="#Transcription">Et erant duo scolares de domo capti et duo fortiter volnerati. </lem>
-						<rdg wit="#Translation">And two students were seized from the house, and two others were severely injured.</rdg>
+						<lem wit="#Transcription">& bad hem wiȝtly wenden alle</lem>
+						<rdg wit="#Translation">And ordered them all to go quickly</rdg>
 					</app>
-				</s>
-			</p>
-			<p n="3">
-				<s>
+				</l>
+				<l n="27">
 					<app>
-						<lem wit="#Transcription">Et iste est casus de quo prius tangebatur, quem in plena congregacione narraverunt duo magistri in theologya de collegio. </lem>
-						<rdg wit="#Translation">This is the incident which has been previously touched upon, as two masters in Theology from the Collège recounted before the entire congregation.</rdg>
+						<lem wit="#Transcription">To hir fader, þe king;</lem>
+						<rdg wit="#Translation">To her father, the king;</rdg>
 					</app>
-				</s>
-				<s>
+				</l>
+				<l n="28">
 					<app>
-						<lem wit="#Transcription">Et concludebat nacio, quod iste hospes detineretur in carceribus, quousque nobis fieret emenda condigna.</lem>
-						<rdg wit="#Translation">And the nation concluded that the host would have been detained in prison until an appropriate compensation had been made to us. </rdg>
+						<lem wit="#Transcription">& seyd he wald, houso it bifalle,</lem>
+						<rdg wit="#Translation">He said whatever it takes, he would</rdg>
 					</app>
-				</s>
-			</p>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">His douhter cloþe in riche palle,</lem>
+						<rdg wit="#Translation">Dress his daughter in royal robes</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">& spouse hir wiþ his ring.</lem>
+						<rdg wit="#Translation">And wed her with his ring.</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">& ȝif he nold, wiþouten feyl,</lem>
+						<rdg wit="#Translation">If he would not, then without fail,</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">He wald hir win in batayl</lem>
+						<rdg wit="#Translation">He would win her in battle</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Wiþ mani an heye lording.</lem>
+						<rdg wit="#Translation">With many a high lord.</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Þe messangers forþ þai went</lem>
+						<rdg wit="#Translation">The messengers set out</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">To don þe soudans comandment</lem>
+						<rdg wit="#Translation">To obey the sultan’s command</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Wiþouten ani duelling.</lem>
+						<rdg wit="#Translation">Without any delay.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4" type="stanza">
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Þan þe king of Tars þis vnderstode,</lem>
+						<rdg wit="#Translation">Once the King of Tars learned this,</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">Almest for wretþe he wex ner wode,</lem>
+						<rdg wit="#Translation">He almost nearly went mad out of anger</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">& seyd þus in sawe,</lem>
+						<rdg wit="#Translation">And by his words said this:</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">‘Bi him þat dyed on þe rode,</lem>
+						<rdg wit="#Translation">“By He who died on the cross,</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">Ich wald arst spille min hert-blode</lem>
+						<rdg wit="#Translation">I would sooner shed my heart’s blood</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">In bateyl to ben yslawe.</lem>
+						<rdg wit="#Translation">And be killed in battle.</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">Y nold hir ȝiue a Sarazin</lem>
+						<rdg wit="#Translation">I will never give her to a Muslim</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">For alle þe lond þat is mine;</lem>
+						<rdg wit="#Translation">For all the land I rule,</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Þe deuel him arst todrawe.</lem>
+						<rdg wit="#Translation">Let the devil sooner hang him!</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Bot sche wil wiþ hir gode wille</lem>
+						<rdg wit="#Translation">Unless, with her consent, she will</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">Be wedded to him hirselue to spille;</lem>
+						<rdg wit="#Translation">Be married to him and spoil herself.</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">Hir þouȝtes nouȝt y no knawe,</lem>
+						<rdg wit="#Translation">I ought not to know her thoughts,</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5" type="stanza">
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">Ac y schal wite ar þan ȝe pas.’</lem>
+						<rdg wit="#Translation">“But I shall learn them before anything happens.”</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">His douhter anon was brouȝt in plas,</lem>
+						<rdg wit="#Translation">His daughter was brought before him at once,</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">& he axed hir biliue,</lem>
+						<rdg wit="#Translation">And he asked her immediately:</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">‘Douhter, þe soudan of Damas</lem>
+						<rdg wit="#Translation">“Daughter, the sultan of Damascus</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">ȝernes forto se þi fas,</lem>
+						<rdg wit="#Translation">Longs to see your face</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">& wald þe haue to wiue.</lem>
+						<rdg wit="#Translation">And would take you as his wife.</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Waldestow, douhter, for tresour,</lem>
+						<rdg wit="#Translation">Daughter, would you for his riches</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Forsake Ihesus our saueour,</lem>
+						<rdg wit="#Translation">Turn back on Jesus, our saviour,</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">Þat suffred woundes fiue?’</lem>
+						<rdg wit="#Translation">Who suffered five wounds?”</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Þe maiden answerd wiþ mild mod</lem>
+						<rdg wit="#Translation">The maiden answered with mild manner</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Biforn hir fader þer sche stode,</lem>
+						<rdg wit="#Translation">From where she stood before her father:</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">‘Nay lord, so mot y þriue.</lem>
+						<rdg wit="#Translation">“Never, lord, so let me live!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6" type="stanza">
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">Ihesu, mi Lord in trinite,</lem>
+						<rdg wit="#Translation">“Jesus, my Lord in trinity,</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Lat me neuer þat day yse</lem>
+						<rdg wit="#Translation">Let me never see the day</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">A tirant forto take.</lem>
+						<rdg wit="#Translation">I marry a tyrant.</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">O God & persones þre</lem>
+						<rdg wit="#Translation">One [Almighty] God, [who is in] three persons,</rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">For Marie loue, þi moder fre,</lem>
+						<rdg wit="#Translation">For the love of Mary, Your queenly mother,</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">ȝif him arst tene & wrake.’</lem>
+						<rdg wit="#Translation">Sooner give him pain and retribution.”</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">Þe king seyd ‘douhter, be stille.</lem>
+						<rdg wit="#Translation">The king said: “Daughter, be at ease.</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">Þou schalt neuer be wedded him tille,</lem>
+						<rdg wit="#Translation">You shall never be married to him,</rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">For no bost he can make.</lem>
+						<rdg wit="#Translation">No matter what threats he makes.</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">Y schal him sende word oȝein</lem>
+						<rdg wit="#Translation">I shall send him reply</rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription">Þat alle his þouȝtes ben in vein,</lem>
+						<rdg wit="#Translation">That all his advances are in vain,</rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription">For þou hast him forsake.’</lem>
+						<rdg wit="#Translation">Because you have rejected him.”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7" type="stanza">
+				<l n="73">
+					<app>
+						<lem wit="#Transcription">Riȝt be þe self messangers</lem>
+						<rdg wit="#Translation">By the same messengers</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">Þat com fro þe soudan fers,</lem>
+						<rdg wit="#Translation">That came from the wicked sultan,</rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription">Þis wordes he him sent,</lem>
+						<rdg wit="#Translation">[The king] sent him back these words:</rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription">Þat sche leued nouȝt on his maners;</lem>
+						<rdg wit="#Translation">That she did not believe in his principles,</rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Transcription">Sche nold nouȝt leten hir preiers</lem>
+						<rdg wit="#Translation">[And] She would never cease her prayers</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription">To God omnipotent.</lem>
+						<rdg wit="#Translation">To God omnipotent.</rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription">He bad him tak anoþer thouȝt,</lem>
+						<rdg wit="#Translation">He suggested [to the sultan] that he reconsider,</rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription">For of his douhter no tit him nouȝt</lem>
+						<rdg wit="#Translation">Because he was not entitled to his daughter</rdg>
+					</app>
+				</l>
+				<l n="81">
+					<app>
+						<lem wit="#Transcription">For tresore no for rent.</lem>
+						<rdg wit="#Translation">Neither for his riches nor for purchase.</rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Transcription">Þe messangers herd him þus seyn,</lem>
+						<rdg wit="#Translation">So the messengers heard him say,</rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Transcription">Wiþ þat word þai turned oȝain</lem>
+						<rdg wit="#Translation">[And] With that word they turned back</rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Transcription">& to þe soudan þai went.</lem>
+						<rdg wit="#Translation">And returned to the sultan.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="8" type="stanza">
+				<l n="85">
+					<app>
+						<lem wit="#Transcription">As þe soudan sat at his des,</lem>
+						<rdg wit="#Translation">They came into the hall (87)</rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Transcription">Yserued of þe first mes,</lem>
+						<rdg wit="#Translation">As the sultan sat upon his throne, (85)</rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Transcription">Þai com into þe halle.</lem>
+						<rdg wit="#Translation">Having eaten the morning meal. (86)</rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Transcription">Bifor þo princes prout in pres</lem>
+						<rdg wit="#Translation">Before the battle-hardened princes</rdg>
+					</app>
+				</l>
+				<l n="89">
+					<app>
+						<lem wit="#Transcription">Her tale to telle wiþouten les</lem>
+						<rdg wit="#Translation">They fell down upon their knees (90)</rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Transcription">On knes þai gun doun falle.</lem>
+						<rdg wit="#Translation">To tell their tale, without any deceit. (89)</rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Transcription">Þai seyd ‘sir, þe king of Tars</lem>
+						<rdg wit="#Translation">They said: “Sire, the King of Tars</rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Transcription">Of wicked wordes is nouȝt scars;</lem>
+						<rdg wit="#Translation">Is not wanting of wicked words.</rdg>
+					</app>
+				</l>
+				<l n="93">
+					<app>
+						<lem wit="#Transcription">Heþen hounde he gan þe calle,</lem>
+						<rdg wit="#Translation">‘Pagan hound’ he did call you,</rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Transcription">& ar he ȝiue his douhter þe t[i]lle</lem>
+						<rdg wit="#Translation">And [said that] before he his gives his daughter up to you</rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Transcription">Þine hert-blod he will sp[i]lle,</lem>
+						<rdg wit="#Translation">He will shed your heart’s blood,</rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Transcription">& þine barouns alle.’</lem>
+						<rdg wit="#Translation">And [the blood] of all your barons.”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="9" type="stanza">
+				<l n="97">
+					<app>
+						<lem wit="#Transcription">When þe soudan þis wordes herd,</lem>
+						<rdg wit="#Translation">When the sultan heard these words,</rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Transcription">Also a wilde bore he ferd;</lem>
+						<rdg wit="#Translation">He acted like a wild boar.</rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Transcription">His robe he rent adoun,</lem>
+						<rdg wit="#Translation">He tore apart his robes,</rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Transcription">His here he rent of heued & berd.</lem>
+						<rdg wit="#Translation">[And] He pulled the hair from his head and beard.</rdg>
+					</app>
+				</l>
+				<l n="101">
+					<app>
+						<lem wit="#Transcription">He schuld venge him wiþ his swerd,</lem>
+						<rdg wit="#Translation">He swore on the saint [prophet] Muhammad (102)</rdg>
+					</app>
+				</l>
+				<l n="102">
+					<app>
+						<lem wit="#Transcription">He swore bi seyn Mahoun.</lem>
+						<rdg wit="#Translation">That he should avenge himself with his sword. (101)</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription">Þe table so heteliche he smot</lem>
+						<rdg wit="#Translation">He struck the table so hatefully</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription">It fel into þe flore fot-hot,</lem>
+						<rdg wit="#Translation">That it crashed down to the floor,</rdg>
+					</app>
+				</l>
+				<l n="105">
+					<app>
+						<lem wit="#Transcription">& [he] loked as a lyoun.</lem>
+						<rdg wit="#Translation">And [he] looked like a lion.</rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Transcription">Al þat he rauȝt he smot doun riȝt:</lem>
+						<rdg wit="#Translation">Everything that he touched, he struck down:</rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Transcription">Seriaunt, squier, clerk & kniȝt,</lem>
+						<rdg wit="#Translation">Sergeant, squire, clerk, and knight,</rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Transcription">Boþe erl & baroun.</lem>
+						<rdg wit="#Translation">Both earl and baron.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="10" type="stanza">
+				<l n="109">
+					<app>
+						<lem wit="#Transcription">Al þus þe soudan ferd, y pliȝt,</lem>
+						<rdg wit="#Translation">Indeed, the sultan acted thusly</rdg>
+					</app>
+				</l>
+				<l n="110">
+					<app>
+						<lem wit="#Transcription">Al þat day & alle þat niȝt;</lem>
+						<rdg wit="#Translation">All the day and all the night;</rdg>
+					</app>
+				</l>
+				<l n="111">
+					<app>
+						<lem wit="#Transcription">Noman miȝt him schast.</lem>
+						<rdg wit="#Translation">Not a man could handle him.</rdg>
+					</app>
+				</l>
+				<l n="112">
+					<app>
+						<lem wit="#Transcription">Amorwe, when it was liȝt,</lem>
+						<rdg wit="#Translation">In the morning, when it was light,</rdg>
+					</app>
+				</l>
+				<l n="113">
+					<app>
+						<lem wit="#Transcription">His messangers he sent ful riȝt</lem>
+						<rdg wit="#Translation">Right away he sent his messengers</rdg>
+					</app>
+				</l>
+				<l n="114">
+					<app>
+						<lem wit="#Transcription">For his barouns wel fast</lem>
+						<rdg wit="#Translation">Posthaste to his barons</rdg>
+					</app>
+				</l>
+				<l n="115">
+					<app>
+						<lem wit="#Transcription">Þat þai com to his parlement</lem>
+						<rdg wit="#Translation">So that they meet in his war-room</rdg>
+					</app>
+				</l>
+				<l n="116">
+					<app>
+						<lem wit="#Transcription">For to heren his iugement,</lem>
+						<rdg wit="#Translation">To hear his plan,</rdg>
+					</app>
+				</l>
+				<l n="117">
+					<app>
+						<lem wit="#Transcription">Boþe lest & mast.</lem>
+						<rdg wit="#Translation">From both the least to the greatest.</rdg>
+					</app>
+				</l>
+				<l n="118">
+					<app>
+						<lem wit="#Transcription">When þe parlement was pleyner,</lem>
+						<rdg wit="#Translation">When the council of war was assembled</rdg>
+					</app>
+				</l>
+				<l n="119">
+					<app>
+						<lem wit="#Transcription">Þo bispac þe soudan fer,</lem>
+						<rdg wit="#Translation">The mighty sultan spoke,</rdg>
+					</app>
+				</l>
+				<l n="120">
+					<app>
+						<lem wit="#Transcription">& seyd to hem in hast:</lem>
+						<rdg wit="#Translation">And said to them in haste:</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="11" type="stanza">
+				<l n="121">
+					<app>
+						<lem wit="#Transcription">‘Lordinges’ he seyd ‘what to red?’</lem>
+						<rdg wit="#Translation">“Lords,” he said, “give me your advice.</rdg>
+					</app>
+				</l>
+				<l n="122">
+					<app>
+						<lem wit="#Transcription">Me haþ ben don a gret misdede</lem>
+						<rdg wit="#Translation">I have been terribly insulted</rdg>
+					</app>
+				</l>
+				<l n="123">
+					<app>
+						<lem wit="#Transcription">Of Tars, þe Cristen king</lem>
+						<rdg wit="#Translation">By the Christian King of Tars!</rdg>
+					</app>
+				</l>
+				<l n="124">
+					<app>
+						<lem wit="#Transcription">Y bede him boþe lond & lede</lem>
+						<rdg wit="#Translation">I offered to him both [my] land and [my] subjects</rdg>
+					</app>
+				</l>
+				<l n="125">
+					<app>
+						<lem wit="#Transcription">For his douhter, worþliche in wede,</lem>
+						<rdg wit="#Translation">For his daughter, desirable in marriage,</rdg>
+					</app>
+				</l>
+				<l n="126">
+					<app>
+						<lem wit="#Transcription">To han wed hir wiþ ring.</lem>
+						<rdg wit="#Translation">To have married her with my ring.</rdg>
+					</app>
+				</l>
+				<l n="127">
+					<app>
+						<lem wit="#Transcription">& he me sent word ogain</lem>
+						<rdg wit="#Translation">He has sent me reply</rdg>
+					</app>
+				</l>
+				<l n="128">
+					<app>
+						<lem wit="#Transcription">In bateyl y schuld arst be sleyn</lem>
+						<rdg wit="#Translation">That I should sooner be slain in battle</rdg>
+					</app>
+				</l>
+				<l n="129">
+					<app>
+						<lem wit="#Transcription">& mani an heye lording.</lem>
+						<rdg wit="#Translation">And [with] many a high lord.</rdg>
+					</app>
+				</l>
+				<l n="130">
+					<app>
+						<lem wit="#Transcription">& certes he schal be forsworn -</lem>
+						<rdg wit="#Translation">Indeed, he shall be destroyed -</rdg>
+					</app>
+				</l>
+				<l n="131">
+					<app>
+						<lem wit="#Transcription">Wroþerhele þan was he born -</lem>
+						<rdg wit="#Translation">Rather he was born into misfortune -</rdg>
+					</app>
+				</l>
+				<l n="132">
+					<app>
+						<lem wit="#Transcription">Bot y þerto it bring.</lem>
+						<rdg wit="#Translation">Than to [the destruction] I will bring.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="12" type="stanza">
+				<l n="133">
+					<app>
+						<lem wit="#Transcription">& þerfore ich haue after ȝou sent,</lem>
+						<rdg wit="#Translation">“That is why I have sent for you</rdg>
+					</app>
+				</l>
+				<l n="134">
+					<app>
+						<lem wit="#Transcription">& asembled here þis parlement,</lem>
+						<rdg wit="#Translation">And here assembled this council of war,</rdg>
+					</app>
+				</l>
+				<l n="135">
+					<app>
+						<lem wit="#Transcription">To wite ȝour conseyle.’</lem>
+						<rdg wit="#Translation">To seek your advice.”</rdg>
+					</app>
+				</l>
+				<l n="136">
+					<app>
+						<lem wit="#Transcription">& alle þai seyd wiþ gode entent</lem>
+						<rdg wit="#Translation">They all said, in good faith,</rdg>
+					</app>
+				</l>
+				<l n="137">
+					<app>
+						<lem wit="#Transcription">Þai were at his comandment,</lem>
+						<rdg wit="#Translation">[That] they awaited his command,</rdg>
+					</app>
+				</l>
+				<l n="138">
+					<app>
+						<lem wit="#Transcription">Certeyn, wiþouten feile.</lem>
+						<rdg wit="#Translation">Surely, and without fail:</rdg>
+					</app>
+				</l>
+				<l n="139">
+					<app>
+						<lem wit="#Transcription">Riȝt bi þat day a fourtenniȝt</lem>
+						<rdg wit="#Translation">Within fourteen days of that meeting</rdg>
+					</app>
+				</l>
+				<l n="140">
+					<app>
+						<lem wit="#Transcription">Þai schul ben alle redi diȝt</lem>
+						<rdg wit="#Translation">They should all be made ready</rdg>
+					</app>
+				</l>
+				<l n="141">
+					<app>
+						<lem wit="#Transcription">Wiþ helme [&] hauberk of meile.</lem>
+						<rdg wit="#Translation">With helms [and] coats of mail.</rdg>
+					</app>
+				</l>
+				<l n="142">
+					<app>
+						<lem wit="#Transcription">& whan þai were so at his hest,</lem>
+						<rdg wit="#Translation">When they were thus at his command,</rdg>
+					</app>
+				</l>
+				<l n="143">
+					<app>
+						<lem wit="#Transcription">Þe soudan made a riche fest</lem>
+						<rdg wit="#Translation">The sultan prepared a sumptuous feast</rdg>
+					</app>
+				</l>
+				<l n="144">
+					<app>
+						<lem wit="#Transcription">For loue of his bateyle.</lem>
+						<rdg wit="#Translation">To celebrate the campaign.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="13" type="stanza">
+				<l n="145">
+					<app>
+						<lem wit="#Transcription">Þe soudan gaderd a rout vnride</lem>
+						<rdg wit="#Translation">The sultan mustered up a massive force</rdg>
+					</app>
+				</l>
+				<l n="146">
+					<app>
+						<lem wit="#Transcription">Of Sarraȝins of michel pride</lem>
+						<rdg wit="#Translation">Of Muslims great in pride</rdg>
+					</app>
+				</l>
+				<l n="147">
+					<app>
+						<lem wit="#Transcription">Opon þe king to (to) wende.</lem>
+						<rdg wit="#Translation">To sally against the king.</rdg>
+					</app>
+				</l>
+				<l n="148">
+					<app>
+						<lem wit="#Transcription">Þe king of Tars herd sey þat tide,</lem>
+						<rdg wit="#Translation">The King of Tars heard rumors of war;</rdg>
+					</app>
+				</l>
+				<l n="149">
+					<app>
+						<lem wit="#Transcription">He gadred his ost bi ich a side,</lem>
+						<rdg wit="#Translation">He massed his army on every side,</rdg>
+					</app>
+				</l>
+				<l n="150">
+					<app>
+						<lem wit="#Transcription">Al þat he miȝt ofsende.</lem>
+						<rdg wit="#Translation">All whom he could summon.</rdg>
+					</app>
+				</l>
+				<l n="151">
+					<app>
+						<lem wit="#Transcription">Þan bigan wretþe to wake,</lem>
+						<rdg wit="#Translation">Then they began to grow angry,</rdg>
+					</app>
+				</l>
+				<l n="152">
+					<app>
+						<lem wit="#Transcription">For þat mariage miȝt nouȝt take</lem>
+						<rdg wit="#Translation">So that marriage might not take [away]</rdg>
+					</app>
+				</l>
+				<l n="153">
+					<app>
+						<lem wit="#Transcription">Of þat maiden hende.</lem>
+						<rdg wit="#Translation">That gentle maiden.</rdg>
+					</app>
+				</l>
+				<l n="154">
+					<app>
+						<lem wit="#Transcription">Of bateyl þai gun sett a day,</lem>
+						<rdg wit="#Translation">They did prepare a day for the battle,</rdg>
+					</app>
+				</l>
+				<l n="155">
+					<app>
+						<lem wit="#Transcription">Of seynt Eline, þe þridde in May.</lem>
+						<rdg wit="#Translation">[The day] of Saint Helen, the third of May.</rdg>
+					</app>
+				</l>
+				<l n="156">
+					<app>
+						<lem wit="#Transcription">No lenger no wald þai lende.</lem>
+						<rdg wit="#Translation">They would permit no delay.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="14" type="stanza">
+				<l n="157">
+					<app>
+						<lem wit="#Transcription">Þe soudan com wiþ his pouwer,</lem>
+						<rdg wit="#Translation">The sultan came with his forces</rdg>
+					</app>
+				</l>
+				<l n="158">
+					<app>
+						<lem wit="#Transcription">Wiþ briȝt armour & brod baner</lem>
+						<rdg wit="#Translation">To fight upon the field, (172)</rdg>
+					</app>
+				</l>
+				<l n="159">
+					<app>
+						<lem wit="#Transcription">Into þe feld to fiȝt,</lem>
+						<rdg wit="#Translation">With sixty-thousand fearsome Muslims (173)</rdg>
+					</app>
+				</l>
+				<l n="160">
+					<app>
+						<lem wit="#Transcription">Wiþ sexti þousend Sarraȝins fer,</lem>
+						<rdg wit="#Translation">[Bearing] bright armor and lofty banners, (171)</rdg>
+					</app>
+				</l>
+				<l n="161">
+					<app>
+						<lem wit="#Transcription">Þat alle þe feldes fer & ner</lem>
+						<rdg wit="#Translation">So that all the fields near and far</rdg>
+					</app>
+				</l>
+				<l n="162">
+					<app>
+						<lem wit="#Transcription">Wiþ helmes lemed liȝt.</lem>
+						<rdg wit="#Translation">Gleamed with the light from their helms.</rdg>
+					</app>
+				</l>
+				<l n="163">
+					<app>
+						<lem wit="#Transcription">Þe king of Tars com wiþ his ost,</lem>
+						<rdg wit="#Translation">The King of Tars came with his army,</rdg>
+					</app>
+				</l>
+				<l n="164">
+					<app>
+						<lem wit="#Transcription">Wiþ gret pride & michel bost,</lem>
+						<rdg wit="#Translation">With great pride and haughty boast,</rdg>
+					</app>
+				</l>
+				<l n="165">
+					<app>
+						<lem wit="#Transcription">Wiþ mani an hardi kniȝt.</lem>
+						<rdg wit="#Translation">[And] with many a manly knight.</rdg>
+					</app>
+				</l>
+				<l n="166">
+					<app>
+						<lem wit="#Transcription">& aiþer ost gan oþer aseyle;</lem>
+						<rdg wit="#Translation">Either army did close with the other;</rdg>
+					</app>
+				</l>
+				<l n="167">
+					<app>
+						<lem wit="#Transcription">Þer miȝt men se a strong bateyle</lem>
+						<rdg wit="#Translation">There men might see a battle</rdg>
+					</app>
+				</l>
+				<l n="168">
+					<app>
+						<lem wit="#Transcription">Þat grimli was of siȝt.</lem>
+						<rdg wit="#Translation">Which was gruesome to look upon.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="15" type="stanza">
+				<l n="169">
+					<app>
+						<lem wit="#Transcription">Þer hewe houndes on Cristenmen</lem>
+						<rdg wit="#Translation">There the [pagan] hounds cut down [with their swords] Christian men</rdg>
+					</app>
+				</l>
+				<l n="170">
+					<app>
+						<lem wit="#Transcription">& feld hem doun bi niȝen & ten.</lem>
+						<rdg wit="#Translation">And cut them down [thinned their ranks] by nines and tens.</rdg>
+					</app>
+				</l>
+				<l n="171">
+					<app>
+						<lem wit="#Transcription">So wilde þai were & wode</lem>
+						<rdg wit="#Translation">So frenzied and angry were they</rdg>
+					</app>
+				</l>
+				<l n="172">
+					<app>
+						<lem wit="#Transcription">Þat men miȝt sen alle þe fen</lem>
+						<rdg wit="#Translation">That men might see [lying] upon the ground</rdg>
+					</app>
+				</l>
+				<l n="173">
+					<app>
+						<lem wit="#Transcription">Of Cristen boþe fremd & ken;</lem>
+						<rdg wit="#Translation">Christian men both stranger and family;</rdg>
+					</app>
+				</l>
+				<l n="174">
+					<app>
+						<lem wit="#Transcription">Þe valays ren on blod.</lem>
+						<rdg wit="#Translation">The valleys ran wet with [their] blood.</rdg>
+					</app>
+				</l>
+				<l n="175">
+					<app>
+						<lem wit="#Transcription">Þe soudan & his folk þat stounde</lem>
+						<rdg wit="#Translation">That moment, the sultan and his men</rdg>
+					</app>
+				</l>
+				<l n="176">
+					<app>
+						<lem wit="#Transcription">Hewe adoun wiþ grimli wounde</lem>
+						<rdg wit="#Translation">Cut down [repulsed] with gruesome wounds</rdg>
+					</app>
+				</l>
+				<l n="177">
+					<app>
+						<lem wit="#Transcription">Mani a frely fode.</lem>
+						<rdg wit="#Translation">Many a valiant assault.</rdg>
+					</app>
+				</l>
+				<l n="178">
+					<app>
+						<lem wit="#Transcription">Allas, to wele sped Mahoun.</lem>
+						<rdg wit="#Translation">Alas! Muhammad sped to victory.</rdg>
+					</app>
+				</l>
+				<l n="179">
+					<app>
+						<lem wit="#Transcription">Þe Cristenmen ȝede al adoun;</lem>
+						<rdg wit="#Translation">The Christian men suffered such a defeat,</rdg>
+					</app>
+				</l>
+				<l n="180">
+					<app>
+						<lem wit="#Transcription">Was nouȝt þat hem wiþstode.</lem>
+						<rdg wit="#Translation">[That] there was no one who withstood [the enemy].</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="16" type="stanza">
+				<l n="181">
+					<app>
+						<lem wit="#Transcription">Þe king of Tars seye þat siȝt,</lem>
+						<rdg wit="#Translation">The King of Tars saw the sight;</rdg>
+					</app>
+				</l>
+				<l n="182">
+					<app>
+						<lem wit="#Transcription">For wretþe he was neye wode, apliȝt.</lem>
+						<rdg wit="#Translation">Indeed, he had nearly gone mad with anger.</rdg>
+					</app>
+				</l>
+				<l n="183">
+					<app>
+						<lem wit="#Transcription">He hent in hond a spere,</lem>
+						<rdg wit="#Translation">He hefted a spear in his hand,</rdg>
+					</app>
+				</l>
+				<l n="184">
+					<app>
+						<lem wit="#Transcription">& to þe soudan he rode ful riȝt,</lem>
+						<rdg wit="#Translation">And he rode hard upon the sultan.</rdg>
+					</app>
+				</l>
+				<l n="185">
+					<app>
+						<lem wit="#Transcription">Wiþ a stroke o[f] michel miȝt</lem>
+						<rdg wit="#Translation">He took him to the ground (186)</rdg>
+					</app>
+				</l>
+				<l n="186">
+					<app>
+						<lem wit="#Transcription">To grounde he gan him bere.</lem>
+						<rdg wit="#Translation">With a stroke of mighty power (185).</rdg>
+					</app>
+				</l>
+				<l n="187">
+					<app>
+						<lem wit="#Transcription">Þer he hadde þe soudan slawe,</lem>
+						<rdg wit="#Translation">There he would have killed the sultan,</rdg>
+					</app>
+				</l>
+				<l n="188">
+					<app>
+						<lem wit="#Transcription">Ac ten þousend of heþen lawe</lem>
+						<rdg wit="#Translation">But ten-thousand of the pagan faith</rdg>
+					</app>
+				</l>
+				<l n="189">
+					<app>
+						<lem wit="#Transcription">Saued him in þat were.</lem>
+						<rdg wit="#Translation">Saved him from that danger.</rdg>
+					</app>
+				</l>
+				<l n="190">
+					<app>
+						<lem wit="#Transcription">Þai sett him on a ful gode stede</lem>
+						<rdg wit="#Translation">They set him on a freshened horse</rdg>
+					</app>
+				</l>
+				<l n="191">
+					<app>
+						<lem wit="#Transcription">Þat was so gode at eueri nede</lem>
+						<rdg wit="#Translation">Which was so responsive to every command</rdg>
+					</app>
+				</l>
+				<l n="192">
+					<app>
+						<lem wit="#Transcription">Þat noman miȝt him dere.</lem>
+						<rdg wit="#Translation">hat no man could contest him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="17" type="stanza">
+				<l n="193">
+					<app>
+						<lem wit="#Transcription">& when he was opon his stede,</lem>
+						<rdg wit="#Translation">When [the sultan] sat upon his horse,</rdg>
+					</app>
+				</l>
+				<l n="194">
+					<app>
+						<lem wit="#Transcription">Him þouȝt he brend so spark on glede</lem>
+						<rdg wit="#Translation">They imagined he burned like an ember on a coal</rdg>
+					</app>
+				</l>
+				<l n="195">
+					<app>
+						<lem wit="#Transcription">For ire & for envie.</lem>
+						<rdg wit="#Translation">Out of anger and of spite.</rdg>
+					</app>
+				</l>
+				<l n="196">
+					<app>
+						<lem wit="#Transcription">He fauȝt so he wald wede;</lem>
+						<rdg wit="#Translation">He fought as if he was mad;</rdg>
+					</app>
+				</l>
+				<l n="197">
+					<app>
+						<lem wit="#Transcription">Alle þat he hit he maked blede.</lem>
+						<rdg wit="#Translation">All that he struck, he made it bleed.</rdg>
+					</app>
+				</l>
+				<l n="198">
+					<app>
+						<lem wit="#Transcription">‘Help, Mahoun’ he gan crie.</lem>
+						<rdg wit="#Translation">“Help, Muhammad!” he did shout.</rdg>
+					</app>
+				</l>
+				<l n="199">
+					<app>
+						<lem wit="#Transcription">Mani helme þer was ofweued,</lem>
+						<rdg wit="#Translation">There were many helms struck off,</rdg>
+					</app>
+				</l>
+				<l n="200">
+					<app>
+						<lem wit="#Transcription">& mani bacinet tocleued,</lem>
+						<rdg wit="#Translation">Many visors [were] sliced in half,</rdg>
+					</app>
+				</l>
+				<l n="201">
+					<app>
+						<lem wit="#Transcription">& sadles fel emtye.</lem>
+						<rdg wit="#Translation">And saddles [were] fallen empty.</rdg>
+					</app>
+				</l>
+				<l n="202">
+					<app>
+						<lem wit="#Transcription">Mani swerd & mani scheld</lem>
+						<rdg wit="#Translation">Many swords and many shields</rdg>
+					</app>
+				</l>
+				<l n="203">
+					<app>
+						<lem wit="#Transcription">& mani kniȝt lay in þe feld</lem>
+						<rdg wit="#Translation">And many knights lay [dead] on the field</rdg>
+					</app>
+				</l>
+				<l n="204">
+					<app>
+						<lem wit="#Transcription">Of Cristen compeynie.</lem>
+						<rdg wit="#Translation">Among the Christian army.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="18" type="stanza">
+				<l n="205">
+					<app>
+						<lem wit="#Transcription">Þe king of Tars seye him so ride;</lem>
+						<rdg wit="#Translation">The King of Tars saw him riding thusly;</rdg>
+					</app>
+				</l>
+				<l n="206">
+					<app>
+						<lem wit="#Transcription">He fleye, & durst nouȝt abide,</lem>
+						<rdg wit="#Translation">He fled, and dared not linger,</rdg>
+					</app>
+				</l>
+				<l n="207">
+					<app>
+						<lem wit="#Transcription">Homward to his cite.</lem>
+						<rdg wit="#Translation">Back home to his city.</rdg>
+					</app>
+				</l>
+				<l n="208">
+					<app>
+						<lem wit="#Transcription">Þe Sarraȝins folwed in þat tide,</lem>
+						<rdg wit="#Translation">The Muslims followed in that instance</rdg>
+					</app>
+				</l>
+				<l n="209">
+					<app>
+						<lem wit="#Transcription">& slouȝ adoun bi ich a side</lem>
+						<rdg wit="#Translation">And struck down on every side</rdg>
+					</app>
+				</l>
+				<l n="210">
+					<app>
+						<lem wit="#Transcription">Þat Cristen folk so fre.</lem>
+						<rdg wit="#Translation">The noble, Christian people.</rdg>
+					</app>
+				</l>
+				<l n="211">
+					<app>
+						<lem wit="#Transcription">Þritti þousend þer were yslawe</lem>
+						<rdg wit="#Translation">There were slain thirty-thousand</rdg>
+					</app>
+				</l>
+				<l n="212">
+					<app>
+						<lem wit="#Transcription">Of kniȝtes of Cristen lawe,</lem>
+						<rdg wit="#Translation">Knights of the Christian faith,</rdg>
+					</app>
+				</l>
+				<l n="213">
+					<app>
+						<lem wit="#Transcription">& þat was gret pite.</lem>
+						<rdg wit="#Translation">And such a shame it was!</rdg>
+					</app>
+				</l>
+				<l n="214">
+					<app>
+						<lem wit="#Transcription">Amorwe, for her boþer sake,</lem>
+						<rdg wit="#Translation">In the morning, for both of their benefit,</rdg>
+					</app>
+				</l>
+				<l n="215">
+					<app>
+						<lem wit="#Transcription">Trewes þai gun bitven hem take,</lem>
+						<rdg wit="#Translation">They did make a truce between them,</rdg>
+					</app>
+				</l>
+				<l n="216">
+					<app>
+						<lem wit="#Transcription">A moneþ & dayes þre.</lem>
+						<rdg wit="#Translation">For one month and three days [in duration].</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="19" type="stanza">
+				<l n="217">
+					<app>
+						<lem wit="#Transcription">On a day þe king sat in his halle,</lem>
+						<rdg wit="#Translation">One day, the king sat in his hall</rdg>
+					</app>
+				</l>
+				<l n="218">
+					<app>
+						<lem wit="#Transcription">& made grete diol wiþalle,</lem>
+						<rdg wit="#Translation">And became utterly lost in sorrow,</rdg>
+					</app>
+				</l>
+				<l n="219">
+					<app>
+						<lem wit="#Transcription">For his folk were forlore.</lem>
+						<rdg wit="#Translation">For his people were hopeless.</rdg>
+					</app>
+				</l>
+				<l n="220">
+					<app>
+						<lem wit="#Transcription">His douhter com clad in palle,</lem>
+						<rdg wit="#Translation">His daughter came wearing robes,</rdg>
+					</app>
+				</l>
+				<l n="221">
+					<app>
+						<lem wit="#Transcription">Adoun on knes sche gan to falle,</lem>
+						<rdg wit="#Translation">And she did fall on her knees,</rdg>
+					</app>
+				</l>
+				<l n="222">
+					<app>
+						<lem wit="#Transcription">& seyd wiþ sikeing sore,</lem>
+						<rdg wit="#Translation">And said with deep sighing:</rdg>
+					</app>
+				</l>
+				<l n="223">
+					<app>
+						<lem wit="#Transcription">‘Sir, lete me be þe soudans wiif,</lem>
+						<rdg wit="#Translation">“Sire, let me be the sultan’s wife,</rdg>
+					</app>
+				</l>
+				<l n="224">
+					<app>
+						<lem wit="#Transcription">& rere namore cuntek no striif</lem>
+						<rdg wit="#Translation">And cause neither calamity nor strife</rdg>
+					</app>
+				</l>
+				<l n="225">
+					<app>
+						<lem wit="#Transcription">As haþ ben here bifore.</lem>
+						<rdg wit="#Translation">As there has been here since.</rdg>
+					</app>
+				</l>
+				<l n="226">
+					<app>
+						<lem wit="#Transcription">For me haþ mani man ben schent,</lem>
+						<rdg wit="#Translation">Many a man has been slain for me;</rdg>
+					</app>
+				</l>
+				<l n="227">
+					<app>
+						<lem wit="#Transcription">Cites nomen & tounes brent.</lem>
+						<rdg wit="#Translation">Cities [have been] captured and towns [have been] burnt.</rdg>
+					</app>
+				</l>
+				<l n="228">
+					<app>
+						<lem wit="#Transcription">Allas, þat ich was bore.</lem>
+						<rdg wit="#Translation">Alas, that I was ever born!</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="20" type="stanza">
+				<l n="229">
+					<app>
+						<lem wit="#Transcription">Fader, y wil serue at wille</lem>
+						<rdg wit="#Translation">“Father, I will willingly serve</rdg>
+					</app>
+				</l>
+				<l n="230">
+					<app>
+						<lem wit="#Transcription">Þe soudan boþe loude & stille,</lem>
+						<rdg wit="#Translation">The sultan, both loud and soft [no matter the conditions],</rdg>
+					</app>
+				</l>
+				<l n="231">
+					<app>
+						<lem wit="#Transcription">& leue on God almiȝt.</lem>
+						<rdg wit="#Translation">And trust in the almighty God.</rdg>
+					</app>
+				</l>
+				<l n="232">
+					<app>
+						<lem wit="#Transcription">Bot it so be, he schal þe spille,</lem>
+						<rdg wit="#Translation">Or else, he shall kill you,</rdg>
+					</app>
+				</l>
+				<l n="233">
+					<app>
+						<lem wit="#Transcription">& alle þi lond take him tille,</lem>
+						<rdg wit="#Translation"> And take all of your land for himself,</rdg>
+					</app>
+				</l>
+				<l n="234">
+					<app>
+						<lem wit="#Transcription">Wiþ bateyle & wiþ fiȝt.</lem>
+						<rdg wit="#Translation">In battle and with war.</rdg>
+					</app>
+				</l>
+				<l n="235">
+					<app>
+						<lem wit="#Transcription">Certes y nil no lenger dreye</lem>
+						<rdg wit="#Translation">Surely I will no longer bear</rdg>
+					</app>
+				</l>
+				<l n="236">
+					<app>
+						<lem wit="#Transcription">Þat Cristen folk for me dye;</lem>
+						<rdg wit="#Translation">A Christian people to die for me;</rdg>
+					</app>
+				</l>
+				<l n="237">
+					<app>
+						<lem wit="#Transcription">It were a diolful siȝt.’</lem>
+						<rdg wit="#Translation">It is so sorrowful a sight.”</rdg>
+					</app>
+				</l>
+				<l n="238">
+					<app>
+						<lem wit="#Transcription">Þe king of Tars answerd þo,</lem>
+						<rdg wit="#Translation">Then the King of Tars answered,</rdg>
+					</app>
+				</l>
+				<l n="239">
+					<app>
+						<lem wit="#Transcription">As man þat was in sorwe & wo,</lem>
+						<rdg wit="#Translation">A man who was in sorrow and woe,</rdg>
+					</app>
+				</l>
+				<l n="240">
+					<app>
+						<lem wit="#Transcription">Vnto þat bird briȝt</lem>
+						<rdg wit="#Translation">To that lovely lady:</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="21" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">‘Now douhter, blisced mot þou be</lem>
+						<rdg wit="#Translation">“Now, daughter, may you be blessed</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Of Ihesu Crist in trinite</lem>
+						<rdg wit="#Translation">By Jesus Christ in trinity</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Þe time þat þou were bore;</lem>
+						<rdg wit="#Translation">From the hour that you were born.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">For þou wilt saue þi moder & me</lem>
+						<rdg wit="#Translation">Because you will save your mother and me,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Al þi preier graunt y þe</lem>
+						<rdg wit="#Translation">I [will] allow everything for which you have asked,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Astow hast seyd bifore.’</lem>
+						<rdg wit="#Translation">Just as you have said before.”</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">‘F[a]der’ sche seyd ‘wiþouten duelling,</lem>
+						<rdg wit="#Translation">“Father,” she said, “without delay,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">For Ihesus loue, heuen-king,</lem>
+						<rdg wit="#Translation">For the love of Jesus, heaven’s king,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">ȝif it þi wille wore,</lem>
+						<rdg wit="#Translation">If it were your will,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Do now swiþe þat y war þere</lem>
+						<rdg wit="#Translation">Act now, that I will be there</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Ar ani more sorwe arere</lem>
+						<rdg wit="#Translation">Before any more sorrow arises,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Þat ȝe be nouȝt forlore.’</lem>
+						<rdg wit="#Translation">So that you will not be hopeless.”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="22" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Þe king of Tars, wiþ gode entent,</lem>
+						<rdg wit="#Translation">The King of Tars, with good intent,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Hastilich after his wiif he sent,</lem>
+						<rdg wit="#Translation">Called for his wife immediately,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Þat leuedi þat was so hende.</lem>
+						<rdg wit="#Translation">The lady who was so gentle.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">When sche was comen in present</lem>
+						<rdg wit="#Translation">When she had arrived in [his] presence</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">He seyd ‘dame, our douhter haþ ment</lem>
+						<rdg wit="#Translation">He said: “Dame, our daughter has decided</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">To þe soudan to wende.</lem>
+						<rdg wit="#Translation">To go over to the sultan.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Do loke what rede is now at þe,</lem>
+						<rdg wit="#Translation">See if there is any advice you have [to give],</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">For now er here bot we þre,</lem>
+						<rdg wit="#Translation">Since there are only us three</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">To saue Cristen kende.’</lem>
+						<rdg wit="#Translation">To save the Christian people.”</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Þe quene answerd wiþouten feile,</lem>
+						<rdg wit="#Translation">The queen answered without mistake:</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">‘Y no schal neuer þerto conseyle</lem>
+						<rdg wit="#Translation">“No, I shall never suggest that</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Our douhter forto schende.’</lem>
+						<rdg wit="#Translation">Our daughter be put to shame.”</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="23" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Þe maiden was ful of sorwe & wo.</lem>
+						<rdg wit="#Translation">The maiden was full of sorrow and woe.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">‘Merci’ sche crid hir moder þo</lem>
+						<rdg wit="#Translation">“Have mercy,” she cried to her mother then</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Wiþ a wel reweful steuen.</lem>
+						<rdg wit="#Translation">With such a pitiful voice.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">‘Moder, it is nouȝt long ago</lem>
+						<rdg wit="#Translation">“Mother, it was not long ago</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">For me were slawe kniȝtes þro,</lem>
+						<rdg wit="#Translation">That valiant knights were slain for me,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Þritti þousende & seuen.</lem>
+						<rdg wit="#Translation">Thirty-thousand and seven [of them].</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Forþi y wil suffre no lenger þrawe</lem>
+						<rdg wit="#Translation">Therefore, I will no longer endure</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Þat Cristen folk be for me slawe,</lem>
+						<rdg wit="#Translation">Christian men to be slain for me,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Wiþ þe grace of God in heuen.’</lem>
+						<rdg wit="#Translation">By the grace of God in heaven.”</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Þus þe maiden wiþ wordes stille</lem>
+						<rdg wit="#Translation">Thus, with gentle words the maiden</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Brouȝt hem boþe in better wille</lem>
+						<rdg wit="#Translation">Led them both to better understanding</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Wiþ resoun riȝt & euen.</lem>
+						<rdg wit="#Translation">By her honest and impartial judgment.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="24" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">& when þai were þus at on,</lem>
+						<rdg wit="#Translation">When they were in unison,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Messangers þai sent anon</lem>
+						<rdg wit="#Translation">They at once sent messengers</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Vnto þat riche soudan.</lem>
+						<rdg wit="#Translation">To the wealthy sultan.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">To make his frende þat were his fon,</lem>
+						<rdg wit="#Translation">To make [themselves] his friends that were his enemies,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">& for he schuld his men nouȝt slon</lem>
+						<rdg wit="#Translation">And so [that] he should not slay his men,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">His douhter he graunt him þan.</lem>
+						<rdg wit="#Translation">[The king] then gave to him his daughter.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Þe messangers nold no leng abide;</lem>
+						<rdg wit="#Translation">The messengers would no longer wait;</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">To þe soudan þai went þat tide,</lem>
+						<rdg wit="#Translation">They went to the sultan that moment,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">& þus þai tel him gan.</lem>
+						<rdg wit="#Translation">And thus they did tell him.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">When þo letters weren yradde</lem>
+						<rdg wit="#Translation">Then when the letters were read</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Þe soudan was boþe bliþe & glad,</lem>
+						<rdg wit="#Translation">The sultan was both happy and glad,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">& so was mani a man.</lem>
+						<rdg wit="#Translation">And so were many men.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="25" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">So glad he was in al maners</lem>
+						<rdg wit="#Translation">He was so pleased in every way that</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">He cleped to him of his pers,</lem>
+						<rdg wit="#Translation">He summoned from his councilors to himself</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Doukes, princes & kinges.</lem>
+						<rdg wit="#Translation">Dukes, princes, and kings.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Into a chaumber þai went yfers</lem>
+						<rdg wit="#Translation">Together they went into a store-room</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">To diȝt vnto þe messangers</lem>
+						<rdg wit="#Translation">To make ready for the messengers</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Gode stones & riche ringes.</lem>
+						<rdg wit="#Translation">Precious gems and expensive rings.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Bi conseyl of þe lordinges alle</lem>
+						<rdg wit="#Translation">By the council of all his lords,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Þe soudan dede bring into þe halle</lem>
+						<rdg wit="#Translation">The sultan did bring into the hall</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">ȝiftes & riche þinges,</lem>
+						<rdg wit="#Translation">Gifts and lavish trinkets,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">& ȝaf to hem gret plente,</lem>
+						<rdg wit="#Translation">And gave a great abundance to them,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">To þe messangers wiþ hert fre,</lem>
+						<rdg wit="#Translation">To the messengers, out of his noble heart,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">& þonked hem her tidinges</lem>
+						<rdg wit="#Translation">And thanked them for their news.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="26" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">& seyd he was alle at his wille,</lem>
+						<rdg wit="#Translation">He said he was in full agreement,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Arliche & late, loude & stille,</lem>
+						<rdg wit="#Translation">Whether early or late [no matter the time], loud or soft,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">To help him at his nede;</lem>
+						<rdg wit="#Translation">To help [the king] with his request;</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">No more folk nold he spille.</lem>
+						<rdg wit="#Translation">He would not kill any more people.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Þe messangers went þe king tille</lem>
+						<rdg wit="#Translation">The messengers went to the king</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">& told him of þat dede.</lem>
+						<rdg wit="#Translation">And told him of that deed [the sultan’s response].</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Þe king & þe quene also</lem>
+						<rdg wit="#Translation">The king and also the queen</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Boþen hem was wele & wo,</lem>
+						<rdg wit="#Translation">Were both of them happy and sad,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">In rime also we rede.</lem>
+						<rdg wit="#Translation">In the verses which we read.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Gret ioie þai hadde, wiþouten les,</lem>
+						<rdg wit="#Translation">They were greatly relieved, without deceit,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">For þat þe soudan wald haue pes</lem>
+						<rdg wit="#Translation">Because the sultan would have peace</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">On Cristen felawerede.</lem>
+						<rdg wit="#Translation">With Christian fellowship.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="27" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Þe first day of Iulii tide,</lem>
+						<rdg wit="#Translation">On the first day of July,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Þe soudan nold no leng abide,</lem>
+						<rdg wit="#Translation">The sultan would no longer wait.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">To þe king of Tars he sent</lem>
+						<rdg wit="#Translation">He sent to the King of Tars</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Kniȝtes fele & michel pride</lem>
+						<rdg wit="#Translation">Many knights of great strength</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">& riche iewels, is nouȝt to hide,</lem>
+						<rdg wit="#Translation">And jewels too precious to keep hidden away,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">To ȝif to his present.</lem>
+						<rdg wit="#Translation">To give [to the King] as his bride-price.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Þe messangers, wiþouten duelling,</lem>
+						<rdg wit="#Translation">The messengers, without delay,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Com to Tars, bifor þe king,</lem>
+						<rdg wit="#Translation">Came before the King of Tars</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">To haue his douhter gent.</lem>
+						<rdg wit="#Translation">To receive his gentle daughter.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Þai welcomed hem wiþ glad chere.</lem>
+						<rdg wit="#Translation">They welcomed him with a happy appearance.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Of gret pite, now may ȝe here,</lem>
+						<rdg wit="#Translation">[They appeared] deeply grieved, now you may hear,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">To chaumber when þai went.</lem>
+						<rdg wit="#Translation">When they went into the bedroom.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="28" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Þai maden cri & michel wo</lem>
+						<rdg wit="#Translation">They wept and grieved sorely</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">For þai schuld her douhter forgo</lem>
+						<rdg wit="#Translation">Because they should give up their daughter</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">& to þe soudan hir sende.</lem>
+						<rdg wit="#Translation">And send her to the sultan.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Þe maiden preyd hem boþe þo</lem>
+						<rdg wit="#Translation">Then the maiden begged both of them</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Þat þai schuld bi her conseyl do</lem>
+						<rdg wit="#Translation">That they should act on her advice</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">To sauen Cristen kende.</lem>
+						<rdg wit="#Translation">To save the Christian people:</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">‘For y wil suffre no lenger þrawe</lem>
+						<rdg wit="#Translation">“For I will no longer endure</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Þat Cristen folk be for me slawe.’</lem>
+						<rdg wit="#Translation">Christian people to be slain for me.”</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">To halle þai gun wende,</lem>
+						<rdg wit="#Translation">They did return to the hall</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">& welcomed þo messangers</lem>
+						<rdg wit="#Translation">And welcomed those messengers</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Þat com from þe soudan fers</lem>
+						<rdg wit="#Translation">That came from the wicked sultan</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Wiþ wordes fre & hende.</lem>
+						<rdg wit="#Translation">With noble and pleasing words.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="29" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
 		</body>
 	</text>
 </TEI>
