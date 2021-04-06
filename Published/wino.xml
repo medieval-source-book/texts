@@ -16,6 +16,10 @@
 					<name>Kathryn Starkey</name><name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Velloso-Lyons</name><name>Mareike E. Reisch</name><name>Kathleen Smith</name>
 				</respStmt>
 				<respStmt>
+					<resp>Text based on the edition by</resp>
+					<name>Hanns Fischer</name>
+				</respStmt>
+				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Jordan Rosen-Kaplan</name>
 				</respStmt>
@@ -30,6 +34,7 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
+				<p>Der Stricker. <hi rend="italic">Fünfzehn kleine Verserzählungen mit einem Anhang: Der Weinschwelg.</hi> Edited by Hanns Fischer. Tübingen: Max Niemeyer, 1960.</p>
 				<listWit>
 					<witness xml:id="Transcription">Der Weinschwelg</witness>
 					<witness xml:id="Translation">The Wino</witness>
@@ -44,7 +49,6 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
-        			<p>Abbreviations in the Old High German text are expanded, spelling and punctuation otherwise follow the manuscript.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
