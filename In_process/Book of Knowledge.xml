@@ -43,7 +43,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"An account of how the Cypriots gained victory over Alexandria" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -64,12 +64,6 @@
 					<app>
 						<lem wit="#Transcription">ذكر كيفية ظفر القبرسي بالإسكندرية</lem>
 						<rdg wit="#Translation"></rdg>
-					</app>
-				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
 					</app>
 				</title>
 			</head>
@@ -542,14 +536,14 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">و لا تغضب السوقى# فيالحبة ترضيه</lem>
-						<rdg wit="#Translation">Don’t anger the vendor # every penny makes him gay</rdg>
+						<lem wit="#Transcription">و لا تغضب السوقى<space quantity="10" unit="chars"></space>فيالحبة ترضيه</lem>
+						<rdg wit="#Translation">Don’t anger the vendor<space quantity="10" unit="chars"></space>every penny makes him gay</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">و اخذ الفلس من يديه #كآخذ الضرس من فيه</lem>
-						<rdg wit="#Translation">As if pulling his molar # From ‘em, yank that coin away</rdg>
+						<lem wit="#Transcription">و اخذ الفلس من يديه<space quantity="10" unit="chars"></space>كآخذ الضرس من فيه</lem>
+						<rdg wit="#Translation">As if pulling his molar<space quantity="10" unit="chars"></space>From ‘em, yank that coin away</rdg>
 					</app>
 				</l>
 			</lg>
@@ -748,8 +742,8 @@
 			<lg type="stanza">
 					<l>
 					<app>
-						<lem wit="#Transcription">قضاء المهيمن لا يدفع # إذا حل من ذا له يمنع</lem>
-						<rdg wit="#Translation">Who can deny or prevent # the fate of the Omnipotent?</rdg>
+						<lem wit="#Transcription">قضاء المهيمن لا يدفع<space quantity="10" unit="chars"></space>إذا حل من ذا له يمنع</lem>
+						<rdg wit="#Translation">Who can deny or prevent<space quantity="10" unit="chars"></space>the fate of the Omnipotent?</rdg>
 					</app>
 				</l>
 			</lg>
@@ -764,8 +758,8 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">و إذا أراد الله إنفاذ القضا # لم يكن فيه لمخلوق مفر</lem>
-						<rdg wit="#Translation">If Allah wants it that way # who can run away?</rdg>
+						<lem wit="#Transcription">و إذا أراد الله إنفاذ القضا<space quantity="10" unit="chars"></space>لم يكن فيه لمخلوق مفر</lem>
+						<rdg wit="#Translation">If Allah wants it that way<space quantity="10" unit="chars"></space>who can run away?</rdg>
 					</app>
 				</l>
 			</lg>
@@ -926,14 +920,14 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">قد ولت المسلمون لما  # باللبس و افاهم جنود</lem>
-						<rdg wit="#Translation">The Muslims fled when # the armed men seized them</rdg>
+						<lem wit="#Transcription">قد ولت المسلمون لما<space quantity="10" unit="chars"></space>باللبس و افاهم جنود</lem>
+						<rdg wit="#Translation">The Muslims fled when<space quantity="10" unit="chars"></space>the armed men seized them</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">و كيف لا يهربون منهم  # و الناس لحم و هم حديد</lem>
-						<rdg wit="#Translation">How could they not flee # since they were meat for the block?</rdg>
+						<lem wit="#Transcription">و كيف لا يهربون منهم<space quantity="10" unit="chars"></space>و الناس لحم و هم حديد</lem>
+						<rdg wit="#Translation">How could they not flee<space quantity="10" unit="chars"></space>since they were meat for the block?</rdg>
 					</app>
 				</l>
 			</lg>
@@ -1270,8 +1264,8 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">سيترك الجامعون ما جمعوا  #  و يحصد الزارعون ما زرعوا</lem>
-						<rdg wit="#Translation">The collectors will abandon what they collected  # And the planters will harvest what they planted.</rdg>
+						<lem wit="#Transcription">سيترك الجامعون ما جمعوا<space quantity="10" unit="chars"></space>و يحصد الزارعون ما زرعوا</lem>
+						<rdg wit="#Translation">The collectors will abandon what they collected<space quantity="10" unit="chars"></space>And the planters will harvest what they planted.</rdg>
 					</app>
 				</l>				
 			</lg>
@@ -1678,8 +1672,8 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">و إذا غلا شيء على تركه # فيكون أرخص ما يكون</lem>
-						<rdg wit="#Translation">If you need something so much # its value is less than when it was dear</rdg>
+						<lem wit="#Transcription">و إذا غلا شيء على تركه<space quantity="10" unit="chars"></space>فيكون أرخص ما يكون</lem>
+						<rdg wit="#Translation">If you need something so much<space quantity="10" unit="chars"></space>its value is less than when it was dear</rdg>
 					</app>
 				</l>
 			</lg>
@@ -1896,8 +1890,8 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">إذا كنت ألقى البؤس عند أحبتي# ترى عند أعدائي يكون دوائي</lem>
-						<rdg wit="#Translation">When I find desperation with my kin, # I see the remedy in my enemy.</rdg>
+						<lem wit="#Transcription">إذا كنت ألقى البؤس عند أحبتي<space quantity="10" unit="chars"></space>ترى عند أعدائي يكون دوائي</lem>
+						<rdg wit="#Translation">When I find desperation with my kin,<space quantity="10" unit="chars"></space>I see the remedy in my enemy.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -2564,20 +2558,20 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">يا لها من كسرة يجبرها # من إذا شاء للكسر جبر</lem>
-						<rdg wit="#Translation">Oh to set the broken limb # he who wants it to be set</rdg>
+						<lem wit="#Transcription">يا لها من كسرة يجبرها<space quantity="10" unit="chars"></space>من إذا شاء للكسر جبر</lem>
+						<rdg wit="#Translation">Oh to set the broken limb<space quantity="10" unit="chars"></space>he who wants it to be set</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">بالمقر الأشرف العالى الذي # جوده كالشمس في الأرض انتشر</lem>
-						<rdg wit="#Translation">From his high honored stance # whose bounty covers the earth like the sun</rdg>
+						<lem wit="#Transcription">بالمقر الأشرف العالى الذي<space quantity="10" unit="chars"></space>جوده كالشمس في الأرض انتشر</lem>
+						<rdg wit="#Translation">From his high honored stance<space quantity="10" unit="chars"></space>whose bounty covers the earth like the sun</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">يلبغا ليث الوغا من سيفه # للطغاة المارقين لم يذر</lem>
-						<rdg wit="#Translation">the sword of Yalbughā, lion of war, # tyrannical renegades never escape.</rdg>
+						<lem wit="#Transcription">يلبغا ليث الوغا من سيفه<space quantity="10" unit="chars"></space>للطغاة المارقين لم يذر</lem>
+						<rdg wit="#Translation">the sword of Yalbughā, lion of war,<space quantity="10" unit="chars"></space>tyrannical renegades never escape.</rdg>
 					</app>
 				</l>								
 			</lg>
@@ -2592,38 +2586,38 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">ملأ البر جيوشا شُوسها # من أولى العزم صناديد غرر</lem>
-						<rdg wit="#Translation">The mainland filled up # with armies most loyal unconquerable men of action,<note type= "critical" anchored="true"><p>“Men of action” (من أولى العزم) is a common epithet for the most important prophets: Noah, Abraham, Moses, Mahomet and sometimes for Isaac, Jacob, David, Job and Jesus.</p></note></rdg>
+						<lem wit="#Transcription">ملأ البر جيوشا شُوسها<space quantity="10" unit="chars"></space>من أولى العزم صناديد غرر</lem>
+						<rdg wit="#Translation">The mainland filled up<space quantity="10" unit="chars"></space>with armies most loyal unconquerable men of action,<note type= "critical" anchored="true"><p>“Men of action” (من أولى العزم) is a common epithet for the most important prophets: Noah, Abraham, Moses, Mahomet and sometimes for Isaac, Jacob, David, Job and Jesus.</p></note></rdg>
 					</app>
 				</l>	
 				<l>
 					<app>
-						<lem wit="#Transcription">و خيول صافنات ضُمَّر# للقا الأعدا لها كَرُّ و فر</lem>
-						<rdg wit="#Translation">Horses standing one foot raised, # prepared to meet an enemy who would turn around and flee</rdg>
+						<lem wit="#Transcription">و خيول صافنات ضُمَّر<space quantity="10" unit="chars"></space>للقا الأعدا لها كَرُّ و فر</lem>
+						<rdg wit="#Translation">Horses standing one foot raised,<space quantity="10" unit="chars"></space>prepared to meet an enemy who would turn around and flee</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">قادها الليث المصور يلبغا # من على الديِن بمرأة خفر</lem>
-						<rdg wit="#Translation">The vice-like lion Yalbughā led them # -whoever is religious will protect women</rdg>
+						<lem wit="#Transcription">قادها الليث المصور يلبغا<space quantity="10" unit="chars"></space>من على الديِن بمرأة خفر</lem>
+						<rdg wit="#Translation">The vice-like lion Yalbughā led them<space quantity="10" unit="chars"></space>-whoever is religious will protect women</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">يأخذ الثأر من الأعداء فلم  # يلق للأعداء في الثغر أثر</lem>
-						<rdg wit="#Translation">He took revenge on the enemy; # but there was no trace of them on the inlet</rdg>
+						<lem wit="#Transcription">يأخذ الثأر من الأعداء فلم<space quantity="10" unit="chars"></space>يلق للأعداء في الثغر أثر</lem>
+						<rdg wit="#Translation">He took revenge on the enemy;<space quantity="10" unit="chars"></space>but there was no trace of them on the inlet</rdg>
 					</app>
 				</l>	
 				<l>
 					<app>
-						<lem wit="#Transcription">بل هم لما رأوا جيشه #  أقبلت تحربهم مثل المطر</lem>
+						<lem wit="#Transcription">بل هم لما رأوا جيشه<space quantity="10" unit="chars"></space>أقبلت تحربهم مثل المطر</lem>
 						<rdg wit="#Translation">For when they saw his army # advancing on them like the rain</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">أيقنوا ألا نجاة لهم # من عظيم حربه إلا السفر</lem>
-						<rdg wit="#Translation">They knew for certain there was no way # out of the war, except flight.</rdg>
+						<lem wit="#Transcription">أيقنوا ألا نجاة لهم<space quantity="10" unit="chars"></space>من عظيم حربه إلا السفر</lem>
+						<rdg wit="#Translation">They knew for certain there was no way<space quantity="10" unit="chars"></space>out of the war, except flight.</rdg>
 					</app>
 				</l>						
 			</lg>
@@ -2670,56 +2664,56 @@
 			<lg type="stanza">
 				<l>
 					<app>
-						<lem wit="#Transcription">يتم و بنّا فما قرّت جوارحناشوقا إليكم و لا جفّت مآقينا</lem>
-						<rdg wit="#Translation">We were separated. Never will our spirit cease, # longing for you, nor will our emotions wane.</rdg>
+						<lem wit="#Transcription">يتم و بنّا فما قرّت جوارحناشوقا<space quantity="10" unit="chars"></space>إليكم و لا جفّت مآقينا</lem>
+						<rdg wit="#Translation">We were separated. Never will our spirit cease,<space quantity="10" unit="chars"></space>longing for you, nor will our emotions wane.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">نكاد نحن تناجيكم ضمائرنا # يقضى علينا الأسى لولا تآسينا </lem>
-						<rdg wit="#Translation">When our souls yearned for you, # sorrow would have been our demise, had we not endured.</rdg>
+						<lem wit="#Transcription">نكاد نحن تناجيكم ضمائرنا<space quantity="10" unit="chars"></space>يقضى علينا الأسى لولا تآسينا </lem>
+						<rdg wit="#Translation">When our souls yearned for you,<space quantity="10" unit="chars"></space>sorrow would have been our demise, had we not endured.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">حالت لفقدكم أيامنا فعدت # سودا و كانت بكم بيضا ليالينا</lem>
-						<rdg wit="#Translation">Our days darkened with your loss, # while our nights were bright in your presence.</rdg>
+						<lem wit="#Transcription">حالت لفقدكم أيامنا فعدت<space quantity="10" unit="chars"></space>سودا و كانت بكم بيضا ليالينا</lem>
+						<rdg wit="#Translation">Our days darkened with your loss,<space quantity="10" unit="chars"></space>while our nights were bright in your presence.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">إذا جانب العيس طلق من تآلفنا # و مورد اللهو صاف من تصافينا</lem>
-						<rdg wit="#Translation">When life was no longer in unison, # and when our pleasure's fount was as pure as our harmony.</rdg>
+						<lem wit="#Transcription">إذا جانب العيس طلق من تآلفنا<space quantity="10" unit="chars"></space>و مورد اللهو صاف من تصافينا</lem>
+						<rdg wit="#Translation">When life was no longer in unison,<space quantity="10" unit="chars"></space>and when our pleasure's fount was as pure as our harmony.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">و إذا هصرنا غصون الأنس دانية # قطوفها فجنينا منه ما شينما</lem>
-						<rdg wit="#Translation">Branches of concord were lowered, # and we harvested whatever we desired.</rdg>
+						<lem wit="#Transcription">و إذا هصرنا غصون الأنس دانية<space quantity="10" unit="chars"></space>قطوفها فجنينا منه ما شينما</lem>
+						<rdg wit="#Translation">Branches of concord were lowered,<space quantity="10" unit="chars"></space>and we harvested whatever we desired.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">إن الزمان الذي مازال يضحكنا # أنا بقربهم قد عاد يبكينا</lem>
-						<rdg wit="#Translation">The time that used to make us laugh # in each other's company now makes us weep.</rdg>
+						<lem wit="#Transcription">إن الزمان الذي مازال يضحكنا<space quantity="10" unit="chars"></space>أنا بقربهم قد عاد يبكينا</lem>
+						<rdg wit="#Translation">The time that used to make us laugh<space quantity="10" unit="chars"></space>in each other's company now makes us weep.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">فانحل ما كان معقودا بأنفسنا  # و ابتثّ ما كان موصولا بأيدينا</lem>
-						<rdg wit="#Translation">What was knotted in our souls came undone, # and what our hands joined, came unclasped.</rdg>
+						<lem wit="#Transcription">فانحل ما كان معقودا بأنفسنا<space quantity="10" unit="chars"></space>و ابتثّ ما كان موصولا بأيدينا</lem>
+						<rdg wit="#Translation">What was knotted in our souls came undone,<space quantity="10" unit="chars"></space>and what our hands joined, came unclasped.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">لم نعتقد بعدكم إلا الوفاء لكم # رأيا و لم نتقلد غيره دينا</lem>
-						<rdg wit="#Translation">Loyalty to you, once you departed, # was the only doctrine we could adorn.</rdg>
+						<lem wit="#Transcription">لم نعتقد بعدكم إلا الوفاء لكم<space quantity="10" unit="chars"></space>رأيا و لم نتقلد غيره دينا</lem>
+						<rdg wit="#Translation">Loyalty to you, once you departed,<space quantity="10" unit="chars"></space>was the only doctrine we could adorn.</rdg>
 					</app>
 				</l>
 				<l>
 					<app>
-						<lem wit="#Transcription">لا تحبوا نأيكم عنا يغيّرنا # إن طال ما غيّر النآى المُحِبِّينَا</lem>
-						<rdg wit="#Translation">Don't believe that our separation will change us, # as it has changed other lovers.<note type= "critical" anchored="true"><p>We read the last word in the verse as al-muḥibbīnā and have vocalized it as such.</p></note></rdg>
+						<lem wit="#Transcription">لا تحبوا نأيكم عنا يغيّرنا<space quantity="10" unit="chars"></space>إن طال ما غيّر النآى المُحِبِّينَا</lem>
+						<rdg wit="#Translation">Don't believe that our separation will change us,<space quantity="10" unit="chars"></space>as it has changed other lovers.<note type= "critical" anchored="true"><p>We read the last word in the verse as al-muḥibbīnā and have vocalized it as such.</p></note></rdg>
 					</app>
 				</l>
 			</lg>
