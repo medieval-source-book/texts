@@ -52,8 +52,8 @@
 			<sourceDesc>
 				 <p><ref target="">Prague, National Library of the Czech Republic 54 K 15.192</ref></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">Death of King John</witness>
+					<witness xml:id="Translation">Smrt krále Jana</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -82,79 +82,67 @@
 						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
 					</app>
 				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
-					</app>
-				</title>
 			</head>
 		</front>
 		<body>
 			<lg>
-                <l n="1">„Klimberče mladý, praviť krátce,</l>
+                <l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">„Klimberče mladý, praviť krátce,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="2">pomni, [žes] 
-                    <note n="1">
-                        žes] 
-                        <hi rend="italic">doplněno Lupáčem </hi></note>měl dobrého otce,</l>
+                <l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">pomni, [žes]<note anchored="true" type="critical">žes] <hi rend="italic">doplněno Lupáčem </hi></note>měl dobrého otce,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="3">jehož nikto zlým nevinil</l>
+                <l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">jehož nikto zlým nevinil</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="4">a mnoho dobrého činil.</l>
+                <l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">a mnoho dobrého činil.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="5">A sáms také rytieř smělý,</l>
+                <l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">A sáms také rytieř smělý,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="6">mladý, dobrý druh dospělý,</l>
+                <l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">mladý, dobrý druh dospělý,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="7">vědě
-                    <note n="2">
-                        vědě] Wiediem 
-                        <hi rend="italic">tisk</hi></note>, že mne neodvedeš,</l>
+                <l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">vědě <note type="critical" anchored="true">vědě] Wiediem <hi rend="italic">tisk</hi></note>, že mne neodvedeš,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="8">než úfámť, že mne dovedeš,</l>
+                <l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">než úfámť, že mne dovedeš,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="9">kdež pokuši svého meče.“</l>
+                <l n="9">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">kdež pokuši svého meče.“</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="10">K králi vece: „Nemiež péče.</l>
+                <l n="10">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">K králi vece: „Nemiež péče.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
@@ -551,144 +539,141 @@
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="75">Tu svietieše Zlaté 
-                    <note n="6">
-                        Zlaté] zlatte 
-                        <hi rend="italic">tisk </hi></note>kolo,</l>
+                <l n="75">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Tu svietieše Zlaté <note type="critical" anchored="true">Zlaté] zlatte <hi rend="italic">tisk </hi></note>kolo,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="76">pod nímž nebieše úpolo</l>
+                <l n="76">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">pod nímž nebieše úpolo</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="77">mladému dobrému druhu</l>
+                <l n="77">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">mladému dobrému druhu</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="78">zpodjéti tak práci tuhú:</l>
+                <l n="78">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">zpodjéti tak práci tuhú:</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="79">Klimberkovi šlechetnému,</l>
+                <l n="79">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Klimberkovi šlechetnému,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="80">v svém životě udatnému,</l>
+                <l n="80">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">v svém životě udatnému,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="81">jenž nedbaje nic o škodě,</l>
+                <l n="81">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">jenž nedbaje nic o škodě,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="82">věrně sloužil své hospodě,</l>
+                <l n="82">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">věrně sloužil své hospodě,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="83">pomně na otce, na děda,</l>
+                <l n="83">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">pomně na otce, na děda,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="84">nepřátelóm bieše běda;</l>
+                <l n="84">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">nepřátelóm bieše běda;</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="85">každýho, kam se obrátil,</l>
+                <l n="85">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">každýho, kam se obrátil,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="86">bil, sekl, buodl, v hlavy mlátil.</l>
+                <l n="86">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">bil, sekl, buodl, v hlavy mlátil.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="87">A pan Valkún z Bořešína</l>
+                <l n="87">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">A pan Valkún z Bořešína</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="88">věda, že boj ctná novina,</l>
+                <l n="88">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">věda, že boj ctná novina,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="89">dá nejednu prudkú ránu,</l>
+                <l n="89">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">dá nejednu prudkú ránu,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="90">vždy se boda po svém pánu.</l>
+                <l n="90">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">vždy se boda po svém pánu.</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="91">Z Rožďalovic Ješek mladý</l>
+                <l n="91">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Z Rožďalovic Ješek mladý</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="92">podlé své rytířské vnady</l>
+                <l n="92">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">podlé své rytířské vnady</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="93">v dobrých činech nemeškáše,</l>
+                <l n="93">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">v dobrých činech nemeškáše,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="94">vždy se po svém pánu bráše;</l>
+                <l n="94">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">vždy se po svém pánu bráše;</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="95">dvoje křídle podlé vuole</l>
+                <l n="95">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">dvoje křídle podlé vuole</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="96">půl zlaté a půl sokolé,</l>
+                <l n="96">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">půl zlaté a půl sokolé,</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-                <l n="97">pod těma dva vlastná bratry</l>
+                <l n="97">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">pod těma dva vlastná bratry</lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
