@@ -1,0 +1,1012 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Captivity of Peter Perény, István Majlád and Bálint Törö</title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Maria Dobozy</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target=""></ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Príni Péternek, Majlát Istvánnak és Terek Bálintnak fogságokról</witness>
+					<witness xml:id="Translation">The Captivity of Peter Perény, István Majlád and Bálint Törö</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Wandering lost, it was already night" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Sírva veszíköl mast szegín Magyarország,</lem>
+						<rdg wit="#Translation">Poor Hungary now sounds the hue and cry</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Mert tőle távozék hangosság, vigaság,</lem>
+						<rdg wit="#Translation">Because its merriment is silenced,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Belőle kikele sok fénös gazdagság,</lem>
+						<rdg wit="#Translation">Much splendid wealth departs,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">És fogságban esék egynéhány uraság.</lem>
+						<rdg wit="#Translation">And many a lord falls into captivity.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Ezön örvend, vigad az terek császárság,</lem>
+						<rdg wit="#Translation">The Turkish Sultan is gleeful and cheered about this.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Hogy magyar urakban vagyon oly bolondság,</lem>
+						<rdg wit="#Translation">The Hungarian lords are deluded enough</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Hiszik, hogy őbenne vagyon oly jámborság,</lem>
+						<rdg wit="#Translation">To believe that he is so humble</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Hogy fogadásában nem volna ravasság.</lem>
+						<rdg wit="#Translation">That his oaths are without cunning.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3" type="stanza">
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Bolondság tőletök fejenként magyarok,</lem>
+						<rdg wit="#Translation">Hungarians, this is foolish of every one of you.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Terek álnok hitit meg nem gondoljátok,</lem>
+						<rdg wit="#Translation">You don’t even reflect on the perfidious beliefs of the Turks</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Maga csak tőlem es sokszor hallottátok,</lem>
+						<rdg wit="#Translation">Although you have heard it often from me as well.</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Sok fejedelmeket mind csaltak, tudgyátok.</lem>
+						<rdg wit="#Translation">They have duped many a lord; mark my word.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="4" type="stanza">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Az tereknek hiti erőssen aszt tartja,</lem>
+						<rdg wit="#Translation">The faith of the Turks strongly asserts that if,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Ha hittel, szép szóval kavort megcsalhattya,</lem>
+						<rdg wit="#Translation">With promises, sweet words they deceive a non-believer</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Ajándokkal, vagy lopva elragadhattya,</lem>
+						<rdg wit="#Translation">And attract him with gifts or capture him,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Isten azért néki mennyországot adgya.</lem>
+						<rdg wit="#Translation">God will give them heaven in return.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="5" type="stanza">
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Sőt ugyan nagy parancsolat ez űkösztök,</lem>
+						<rdg wit="#Translation">Indeed, it is quite an important commandment to them</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Miként az szeretet parancsolat néktök,</lem>
+						<rdg wit="#Translation">Whereas to you, the commandment is love.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Ha az szeretetöt ti jól tisztölnétök,</lem>
+						<rdg wit="#Translation">If you truly honored love,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Az terek hitinek bizon nem hinnétök.</lem>
+						<rdg wit="#Translation">Then surely you would not believe the Porte’s promises.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="6" type="stanza">
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Tuggyátok, magyarok, hírösök valátok,</lem>
+						<rdg wit="#Translation">Hungarians, know that you were famous</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Míg nagy szeretettel egymást hallgatátok,</lem>
+						<rdg wit="#Translation">As long as you listened to each other with great love.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">De mihelt kösztetök ti meghasonlátok,</lem>
+						<rdg wit="#Translation">Yet soon your divisiveness split you into factions.</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Ottan országtokban, ím, mint pusztulátok.</lem>
+						<rdg wit="#Translation">So there you see how in your own country you perished.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="7" type="stanza">
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Ím az terek császár mindezön öröle,</lem>
+						<rdg wit="#Translation">The Turkish Sultan is glad for this habit</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Álnok hálója ottan elteröle,</lem>
+						<rdg wit="#Translation">When he casts his deceiving net.</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Jelös főhalakat véle megkeröle,</lem>
+						<rdg wit="#Translation">He scoops up the high-ranking fish</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Kikkel gazdagságot, sok szépségöt lele.</lem>
+						<rdg wit="#Translation">From whom he collects great, resplendent wealth.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="8" type="stanza">
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Álnok hálójában egyször el-béejté</lem>
+						<rdg wit="#Translation">At one point he captures in his treacherous net</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Az jó Príni Pétört mikort elviteté,</lem>
+						<rdg wit="#Translation">The stalwart Peter Perényi whom he has taken away.<note anchored="true"><p>Called Príni in the songs, Peter Perényi (1502-1548) was the wealthy landowner and voivoda (ruler) of Transylvania and also the Guardian of the Hungarian Crown. He assisted at the coronation of King John I Szapolya in 1526, and the coronation of the competing Archduke Ferdinand of Austria in 1527. Perényi primarily supported Ferdinand.</p></note></rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Hitit, fogadását császár elfelejté,</lem>
+						<rdg wit="#Translation">The sultan’s promises and oaths are now forgotten</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Az nemes úrfiat nagy fogságban veté.</lem>
+						<rdg wit="#Translation">And the noble lord is thrown into prison.<note anchored="true"><p>Perényi was imprisoned twice by the Porte, in 1529, and 1532. The first time he was ransomed. Tinódi refers here to the second when the Porte required that he send his son to Constantinople in exchange. See Ferenc Szakály. <hi rend="italic">Tinódi Sebesytén Kronika</hi>. Budapest: Europa Kiado, 1984, p. 571.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="9" type="stanza">
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Nagy somma kincsével magát ő megváltá,</lem>
+						<rdg wit="#Translation">Perényi would ransom himself with his great fortune</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">De semmi lőn néki kincse oda-volta,</lem>
+						<rdg wit="#Translation">But this wealth now avails him little.</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Csak fiátúl ne lészön vala megválta,</lem>
+						<rdg wit="#Translation">He regains freedom only by giving his son in exchange.</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Kit, nem lőn mit tenni, császárnak hozata.</lem>
+						<rdg wit="#Translation">There was no choice but to have him sent to the Porte.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="10" type="stanza">
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Vala nagy bánatja szép asszon társának,</lem>
+						<rdg wit="#Translation">His wife is overcome with deep sorrow.</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">Fiát, hogy megérté, vinnék az császárnak,</lem>
+						<rdg wit="#Translation">When she hears her son is to be taken to the sultan,</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Erő szakaszkodék kezének, lábának,</lem>
+						<rdg wit="#Translation">Her arms and legs go numb</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">Földhöz öté magát, ott sokan sírának.</lem>
+						<rdg wit="#Translation">As she collapses on the ground. Many a lamentation begins.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="11" type="stanza">
+				<l n="41">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="12" type="stanza">
+				<l n="45">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="13" type="stanza">
+				<l n="49">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="14" type="stanza">
+				<l n="53">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="15" type="stanza">
+				<l n="57">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="16" type="stanza">
+				<l n="61">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="17" type="stanza">
+				<l n="65">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="18" type="stanza">
+				<l n="69">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="19" type="stanza">
+				<l n="73">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="20" type="stanza">
+				<l n="77">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="21" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="22" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="23" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="24" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="25" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="26" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="27" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="28" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="29" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="30" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="31" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="32" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="33" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="34" type="stanza">
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
