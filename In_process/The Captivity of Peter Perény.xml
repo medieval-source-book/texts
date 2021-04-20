@@ -267,7 +267,7 @@
 				<l n="30">
 					<app>
 						<lem wit="#Transcription">Az jó Príni Pétört mikort elviteté,</lem>
-						<rdg wit="#Translation">The stalwart Peter Perényi whom he has taken away.<note anchored="true"><p>Called Príni in the songs, Peter Perényi (1502-1548) was the wealthy landowner and voivoda (ruler) of Transylvania and also the Guardian of the Hungarian Crown. He assisted at the coronation of King John I Szapolya in 1526, and the coronation of the competing Archduke Ferdinand of Austria in 1527. Perényi primarily supported Ferdinand.</p></note></rdg>
+						<rdg wit="#Translation">The stalwart Peter Perényi whom he has taken away.<note anchored="true" type="critical"><p>Called Príni in the songs, Peter Perényi (1502-1548) was the wealthy landowner and voivoda (ruler) of Transylvania and also the Guardian of the Hungarian Crown. He assisted at the coronation of King John I Szapolya in 1526, and the coronation of the competing Archduke Ferdinand of Austria in 1527. Perényi primarily supported Ferdinand.</p></note></rdg>
 					</app>
 				</l>
 				<l n="31">
@@ -279,7 +279,7 @@
 				<l n="32">
 					<app>
 						<lem wit="#Transcription">Az nemes úrfiat nagy fogságban veté.</lem>
-						<rdg wit="#Translation">And the noble lord is thrown into prison.<note anchored="true"><p>Perényi was imprisoned twice by the Porte, in 1529, and 1532. The first time he was ransomed. Tinódi refers here to the second when the Porte required that he send his son to Constantinople in exchange. See Ferenc Szakály. <hi rend="italic">Tinódi Sebesytén Kronika</hi>. Budapest: Europa Kiado, 1984, p. 571.</p></note></rdg>
+						<rdg wit="#Translation">And the noble lord is thrown into prison.<note anchored="true" type="critical"><p>Perényi was imprisoned twice by the Porte, in 1529, and 1532. The first time he was ransomed. Tinódi refers here to the second when the Porte required that he send his son to Constantinople in exchange. See Ferenc Szakály. <hi rend="italic">Tinódi Sebesytén Kronika</hi>. Budapest: Europa Kiado, 1984, p. 571.</p></note></rdg>
 					</app>
 				</l>
 			</lg>
@@ -397,14 +397,14 @@
 				<l n="50">
 					<app>
 						<lem wit="#Transcription">Kucsig Bali béköt, kinek aszt jelönté,</lem>
-						<rdg wit="#Translation">Kucsuk Bali Beg, whom he informed<note anchored="true"><p>Kucsuk is probably Malkoçoğlu Bali Bey (1495–1555) who became the governor of Buda eyalet Feb 1542 - May 1543.</p></note> 
+						<rdg wit="#Translation">Kucsuk Bali Beg, whom he informed<note anchored="true" type="critical"><p>Kucsuk is probably Malkoçoğlu Bali Bey (1495–1555) who became the governor of Buda eyalet Feb 1542 - May 1543.</p></note> 
 						</rdg>
 					</app>
 				</l>
 				<l n="51">
 					<app>
 						<lem wit="#Transcription">Hogy az Majlát Istvánt ő el-kihitetné,</lem>
-						<rdg wit="#Translation">That he should lay a trap for István Majlád<note anchored="true"><p>István Majlád (1502-1550) voivode (ruler) of Transylvania, supporter of the Habsburgs was taken prisoner in 1541 during the Turkish campaign in Transylvania and later died in captivity.</p></note> 
+						<rdg wit="#Translation">That he should lay a trap for István Majlád<note anchored="true" type="critical"><p>István Majlád (1502-1550) voivode (ruler) of Transylvania, supporter of the Habsburgs was taken prisoner in 1541 during the Turkish campaign in Transylvania and later died in captivity.</p></note> 
 						</rdg>
 					</app>
 				</l>
@@ -457,7 +457,7 @@
 				<l n="59">
 					<app>
 						<lem wit="#Transcription">Az moldvai vajda: Pétör vajda vala,</lem>
-						<rdg wit="#Translation">Peter, the voivode of Moldova<note anchored="true"><p>Peter Rareş, voivode campaigned with Kucsuk Bali Beg at that time, Szakaly, pp.571-2.</p></note></rdg>
+						<rdg wit="#Translation">Peter, the voivode of Moldova<note anchored="true" type="critical"><p>Peter Rareş, voivode campaigned with Kucsuk Bali Beg at that time, Szakaly, pp.571-2.</p></note></rdg>
 					</app>
 				</l>
 				<l n="60">
@@ -477,7 +477,7 @@
 				<l n="62">
 					<app>
 						<lem wit="#Transcription">Három szegín bojért előhozatának,</lem>
-						<rdg wit="#Translation">They engage three poor boyars,<note anchored="true"><p>Romanian privileged landed gentry.</p></note></rdg>
+						<rdg wit="#Translation">They engage three poor boyars,<note anchored="true" type="critical"><p>Romanian privileged landed gentry.</p></note></rdg>
 					</app>
 				</l>
 				<l n="63">
@@ -509,7 +509,7 @@
 				<l n="67">
 					<app>
 						<lem wit="#Transcription">Ím, három fővajdát küldünk kegyelmének,</lem>
-						<rdg wit="#Translation">Then three ranking voivodes will be sent to his lordship,<note anchored="true"><p>The term for a Transylvanian ruler.</p></note></rdg>
+						<rdg wit="#Translation">Then three ranking voivodes will be sent to his lordship,<note anchored="true" type="critical"><p>The term for a Transylvanian ruler.</p></note></rdg>
 					</app>
 				</l>
 				<l n="68">
@@ -541,7 +541,7 @@
 				<l n="72">
 					<app>
 						<lem wit="#Transcription">Kinek odamente lőn nagy kellemetös.</lem>
-						<rdg wit="#Translation">Once he is outside, he encounters a cruel surprise.<note anchored="true"><p>Taken prisoner in July, 1541.</p></note></rdg>
+						<rdg wit="#Translation">Once he is outside, he encounters a cruel surprise.<note anchored="true" type="critical"><p>Taken prisoner in July, 1541.</p></note></rdg>
 					</app>
 				</l>
 			</lg>
@@ -624,366 +624,344 @@
 				</l>
 			</lg>
 			<lg n="22" type="stanza">
-				<l n="#">
+				<l n="85">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Ez lőn Terek Bálint, ki jó vitéz vala,</lem>
+						<rdg wit="#Translation">This catch is Bálint Török, the excellent warrior<note anchored="true" type="critical"><p>Török (1502–1550) is the protagonist of “The Loss of Buda” song, that tells of his fighting against the Habsburg army and his imprisonment. At the writing of this poem, he was thought to be held in Belgrade.</p></note></rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="86">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Kinek terek császár sok hitöt ád vala,</lem>
+						<rdg wit="#Translation">To whom the Turkish Sultan made many promises</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="87">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Az basák, szancsákok hitöt adtak vala,</lem>
+						<rdg wit="#Translation">And pashas, sanjaks gave vows, then</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="88">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Szép ajándékokval őt elcsalták vala.</lem>
+						<rdg wit="#Translation">Together with precious gifts they lured him away.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="23" type="stanza">
-				<l n="#">
+				<l n="89">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Terek Bálint, kiknek oly igen hitt vala,</lem>
+						<rdg wit="#Translation">Bálint Török who has such true devotion</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="90">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Hívségét hercegnek úgy mutattya vala,</lem>
+						<rdg wit="#Translation">And demonstrated his loyalty to the Crown Prince<note anchored="true" type="critical"><p>This is the rex electus John II Sigismund, the infant son and heir of John I.</p></note></rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="91">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Mindeneknél feljebb némöttel vív vala,</lem>
+						<rdg wit="#Translation">Above all, as he battled against the Germans</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="92">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Teste szakadását ő nem szánja vala.</lem>
+						<rdg wit="#Translation">Paying no heed to his own life.<note anchored="true" type="critical"><p>This stanza and the next refer to events in “The Loss of Buda and Captivity of Bálint Török.”</p></note></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="24" type="stanza">
-				<l n="#">
+				<l n="93">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Intése nem teccék az Príni Pétörnek,</lem>
+						<rdg wit="#Translation">With his commitment Perényi disagreed</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="94">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ki megmondta vala ez nemes vitéznek</lem>
+						<rdg wit="#Translation">Since he already told this worthy soldier</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="95">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Minden csalárdságát az császár hitinek,</lem>
+						<rdg wit="#Translation">About all the guile behind the sultan’s vows.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="96">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">De ő bátorsággal álla vitésségnek.</lem>
+						<rdg wit="#Translation">But Török upholds his valiant stance undaunted.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="25" type="stanza">
-				<l n="#">
+				<l n="97">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Nagy sokan terekek azon csudálának,</lem>
+						<rdg wit="#Translation">A great many Turks are in awe because</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="98">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Hogy bátrobb vitézt ők soha nem láttanak,</lem>
+						<rdg wit="#Translation">They have never seen a more courageous fighter.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="99">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">De aszt őfelőle mondák bolondságnak,</lem>
+						<rdg wit="#Translation">And yet they call it folly that he</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="100">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Hogy il igön elhitt török szép szavának.</lem>
+						<rdg wit="#Translation">Really believed the sweet words of the Turks.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="26" type="stanza">
-				<l n="#">
+				<l n="101">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Óh, ez nemes vitéz mely igen csalaték,</lem>
+						<rdg wit="#Translation">Oh, this noble warrior was painfully deceived.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="102">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Hiti az császárnak mind elfeletteték,</lem>
+						<rdg wit="#Translation">The Sultan’s promises were all forgotten, every one</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="103">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Mert ő megfogaték és aláviteték,</lem>
+						<rdg wit="#Translation">When he was arrested and taken away.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="104">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Minden szép javitúl ő megfosztattaték.</lem>
+						<rdg wit="#Translation">They stripped him of all his privileges and possessions.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="27" type="stanza">
-				<l n="#">
+				<l n="105">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Duna mellett mongyák Nándorfejérvárba</lem>
+						<rdg wit="#Translation">By the Danube in Belgrade they claim</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="106">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Csak harmadmagával tartják nagy fogságba,</lem>
+						<rdg wit="#Translation">He is kept in captivity with two others.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="107">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Mast es mondgyák, vagyon nagy bátorságába,</lem>
+						<rdg wit="#Translation">They also say he is very brave.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="108">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Mit tőle kívánnak, aszt nem fogattába.</lem>
+						<rdg wit="#Translation">Whatever they want from him, he refuses.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="28" type="stanza">
-				<l n="#">
+				<l n="109">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Hallottam példába régen, hogy mondották,</lem>
+						<rdg wit="#Translation">A long time ago I heard a saying that</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="110">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Az jó acélt soha úgy nem paskolhattyák,</lem>
+						<rdg wit="#Translation">Good steel cannot be transformed</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="111">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Tiszta vassá őtet hogy ellágyíthassák,</lem>
+						<rdg wit="#Translation">Into pliable metal by hammering.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="112">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Hogy soha acélnak őtet ne mondhassák.</lem>
+						<rdg wit="#Translation">So they can never say he isn’t made of steel.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="29" type="stanza">
-				<l n="#">
+				<l n="113">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Fohászkodik mostan sok gyakor sírásval</lem>
+						<rdg wit="#Translation">Your wife with your two noble sons</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="114">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Asszony-feleségöd az két szép fiadval,</lem>
+						<rdg wit="#Translation">Is praying now amidst much weeping</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="115">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Mert ők élnek mostan az nagy árvaságval,</lem>
+						<rdg wit="#Translation">Because they are currently living in dire orphan status</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="116">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nagy sok bosszúságval, gyámoltalanságval.</lem>
+						<rdg wit="#Translation">In vexation, in helplessness.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="30" type="stanza">
-				<l n="#">
+				<l n="117">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Örömök soholt nincs te jó szolgáidnak,</lem>
+						<rdg wit="#Translation">No joy do your good servants find anywhere,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="118">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Kik szível szeretnek, gyakran fohászkodnak,</lem>
+						<rdg wit="#Translation">Those who love you are in frequent prayer.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="119">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Egynéhán közzülök tétova búdosnak,</lem>
+						<rdg wit="#Translation">A few are tentatively hiding away</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="120">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ha megszabadulnál mégis sokan várnak.</lem>
+						<rdg wit="#Translation">yet should you be freed, many still await you.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="31" type="stanza">
-				<l n="#">
+				<l n="121">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Csuda mint ohítnak az te jó barátid,</lem>
+						<rdg wit="#Translation">Marvel at what your excellent friends desire,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="122">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Még azok is, hogy kik voltak ellenségid,</lem>
+						<rdg wit="#Translation">Even those who were your enemies.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="123">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Lennének nagy somma kinccsel segétségid,</lem>
+						<rdg wit="#Translation">They would aid you with their great wealth</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="124">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Csak kiválthatnának az te szeretőid.</lem>
+						<rdg wit="#Translation">If only your loved ones could ransom you.<note type="critical" anchored="true"><p></p></note></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="32" type="stanza">
-				<l n="#">
+				<l n="125">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Jól értitök immár hitit az tereknek,</lem>
+						<rdg wit="#Translation">You now understand well the faith of the Turks.</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="126">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Urak úgy higgyetök hitetlenségöknek,</lem>
+						<rdg wit="#Translation">My Lords, knowing this, believe their faithlessness and</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="127">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Egymást szeressétök, jobb ti fejetöknek,</lem>
+						<rdg wit="#Translation">Love each other, the better to save your own heads</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="128">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Úgy lészen romlása gonosz terök népnek.</lem>
+						<rdg wit="#Translation">And the better to ruin the wicked Turks.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="33" type="stanza">
-				<l n="#">
+				<l n="129">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
+						<lem wit="#Transcription">Tanácsot sokáig, kérlek, ne tarcsatok,</lem>
+						<rdg wit="#Translation">Don’t hold lengthy councils, I beseech you</rdg>
+					</app>
+				</l>
+				<l n="130">
+					<app>
+						<lem wit="#Transcription">Ha ez két víz között ti lakni akartok,</lem>
+						<rdg wit="#Translation">If you want to live between these two rivers.
+							<note anchored="true" type="critical"><p>The reference here is to the region between the Danube and Tisza rivers.</p></note> 
 						</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="131">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Mert ha csak hallgattok, szömben ti nem vívtok,</lem>
+						<rdg wit="#Translation">For if you merely keep quiet and do not attack directly,</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="132">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Félök, hogy sokáig itt nem uralkottok.</lem>
+						<rdg wit="#Translation">I fear you won’t be in control here for long.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="34" type="stanza">
-				<l n="#">
+				<l n="133">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
+						<lem wit="#Transcription">Ezörötszáznegyven és két esztendőben</lem>
+						<rdg wit="#Translation">In the year one thousand, five hundred and forty-two,</rdg>
+					</app>
+				</l>
+				<l n="134">
+					<app>
+						<lem wit="#Transcription">Baronyában ki szörzé Szent György innepébe,</lem>
+						<rdg wit="#Translation">This song was composed on St. George’s Day in Baranya.
+							<note anchored="true" type="critical"><p>Baranya county, southwestern Hungary.</p></note> 
 						</rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="135">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nevét jelöntötte versnek kezdésében,</lem>
+						<rdg wit="#Translation">His name is stated in the acrostics<note anchored="true" type="critical"><p>The date of the song is April 24, 1542. Tinódi refers here to the acrostic in this poem: <hi rend="italic">Sebastianus Literatus de Tinodh föcit(E)</hi> (Scholar Sebastian Tinódi made it).</p></note></rdg>
 					</app>
 				</l>
-				<l n="#">
+				<l n="136">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="#">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ez urakról való megemlékösztében.</lem>
+						<rdg wit="#Translation">In remembrance of these magnates.</rdg>
 					</app>
 				</l>
 			</lg>
