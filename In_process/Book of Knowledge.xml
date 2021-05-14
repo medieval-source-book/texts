@@ -12,8 +12,8 @@
 				<title>An account of how the Cypriots gained victory over Alexandria</title>
 				<author>Al-Nuwayri al-Iskandarani</author>
 				<respStmt>
-					<resp>Transcription from</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Transcription based on</resp>
+					<name>Nuwayrī, Muḥammad ibn al-Qāsim al-Iskandarānī  al-, et al. كتاب الإلمام: بالإعلام فيما جرت به الأحكام والأمور المقضية في وقعة الإسكندرية. دائرة المعارف العثمانية, 1968.</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -34,10 +34,10 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Transcription based on Nuwayrī, Muḥammad ibn al-Qāsim al-Iskandarānī  al-, et al. كتاب الإلمام: بالإعلام فيما جرت به الأحكام والأمور المقضية في وقعة الإسكندرية. دائرة المعارف العثمانية, 1968.</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">ذكر كيفية ظفر القبرسي بالإسكندرية</witness>
+					<witness xml:id="Translation">An account of how the Cypriots gained victory over Alexandria</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -62,7 +62,7 @@
 			<head>
 				<title>
 					<app>
-						<lem wit="#Transcription">ذكر كيفية ظفر القبرسي بالإسكندرية</lem>
+						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</title>
