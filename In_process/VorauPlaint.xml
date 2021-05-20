@@ -1,0 +1,5063 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vorau Plaint of Sin</title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target=""></ref></p>
+				<listWit>
+					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Translation"><!--Title in English--></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>Vorau Plaint of Sin is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="81">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="85">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="89">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="93">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="97">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="101">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="102">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="105">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="109">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="110">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="111">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="112">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="113">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="114">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="115">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="116">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="117">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="118">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="119">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="120">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="121">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="122">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="123">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="124">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="125">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="126">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="127">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="128">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="129">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="130">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="131">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="132">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="133">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="134">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="135">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="136">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="137">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="138">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="139">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="140">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="141">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="142">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="143">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="144">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="145">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="146">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="147">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="148">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="149">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="150">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="151">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="152">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="153">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="154">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="155">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="156">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="157">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="158">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="159">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="160">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="161">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="162">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="163">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="164">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="165">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="166">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="167">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="168">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="169">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="170">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="171">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="172">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="173">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="174">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="175">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="176">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="177">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="178">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="179">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="180">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="181">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="182">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="183">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="184">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="185">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="186">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="187">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="188">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="189">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="190">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="191">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="192">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="193">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="194">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="195">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="196">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="197">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="198">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="199">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="200">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="201">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="202">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="203">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="204">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="205">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="206">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="207">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="208">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="209">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="210">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="211">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="212">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="213">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="214">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="215">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="216">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="217">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="218">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="219">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="220">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="221">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="222">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="223">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="224">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="225">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="226">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="227">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="228">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="229">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="230">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="231">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="232">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="233">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="234">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="235">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="236">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="237">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="238">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="239">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="240">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="241">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="242">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="243">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="244">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="245">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="246">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="247">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="248">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="249">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="250">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="251">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="252">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="253">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="254">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="255">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="256">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="257">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="258">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="259">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="260">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="261">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="262">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="263">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="264">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="265">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="266">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="267">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="268">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="269">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="270">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="271">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="272">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="273">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="274">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="275">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="276">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="277">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="278">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="279">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="280">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="281">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="282">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="283">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="284">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="285">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="286">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="287">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="288">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="289">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="290">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="291">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="292">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="293">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="294">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="295">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="296">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="297">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="298">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="299">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="300">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="301">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="302">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="303">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="304">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="305">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="306">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="307">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="308">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="309">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="310">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="311">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="312">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="313">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="314">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="315">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="316">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="317">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="318">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="319">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="320">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="321">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="322">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="323">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="324">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="325">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="326">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="327">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="328">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="329">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="330">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="331">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="332">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="333">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="334">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="335">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="336">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="337">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="338">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="339">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="340">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="341">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="342">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="343">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="344">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="345">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="346">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="347">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="348">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="349">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="350">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="351">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="352">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="353">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="354">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="355">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="356">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="357">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="358">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="359">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="360">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="361">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="362">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="363">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="364">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="365">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="366">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="367">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="368">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="369">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="370">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="371">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="372">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="373">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="374">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="375">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="376">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="377">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="378">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="379">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="380">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="381">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="382">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="383">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="384">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="385">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="386">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="387">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="388">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="389">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="390">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="391">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="392">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="393">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="394">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="395">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="396">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="397">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="398">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="399">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="400">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="401">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="402">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="403">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="404">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="405">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="406">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="407">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="408">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="409">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="410">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="411">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="412">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="413">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="414">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="415">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="416">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="417">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="418">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="419">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="420">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="421">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="422">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="423">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="424">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="425">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="426">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="427">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="428">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="429">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="430">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="431">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="432">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="433">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="434">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="435">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="436">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="437">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="438">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="439">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="440">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="441">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="442">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="443">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="444">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="445">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="446">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="447">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="448">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="449">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="450">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="451">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="452">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="453">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="454">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="455">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="456">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="457">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="458">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="459">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="460">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="461">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="462">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="463">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="464">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="465">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="466">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="467">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="468">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="469">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="470">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="471">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="472">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="473">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="474">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="475">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="476">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="477">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="478">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="479">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="480">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="481">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="482">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="483">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="484">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="485">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="486">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="487">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="488">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="489">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="490">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="491">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="492">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="493">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="494">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="495">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="496">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="497">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="498">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="499">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="500">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="501">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="502">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="503">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="504">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="505">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="506">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="507">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="508">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="509">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="510">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="511">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="512">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="513">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="514">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="515">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="516">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="517">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="518">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="519">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="520">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="521">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="522">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="523">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="524">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="525">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="526">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="527">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="528">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="529">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="530">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="531">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="532">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="533">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="534">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="535">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="536">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="537">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="538">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="539">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="540">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="541">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="542">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="543">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="544">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="545">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="546">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="547">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="548">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="549">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="550">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="551">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="552">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="553">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="554">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="555">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="556">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="557">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="558">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="559">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="#">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+
+			</lg>
+		</body>
+	</text>
+</TEI>
