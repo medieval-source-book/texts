@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “A Single Cutting of Plum Blossom”&#8212;"The Red Lotus"</title>
+				<title>To the tune “Yearning for the Prince”&#8212;"Wind Comes"</title>
 				<author>Li Qingzhao</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -41,15 +41,15 @@
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
 				<listWit>
-					<witness xml:id="Transcription">一剪梅</witness>
-					<witness xml:id="Translation">To the tune “A Single Cutting of Plum Blossom”</witness>
+					<witness xml:id="Transcription">怨王孫</witness>
+					<witness xml:id="Translation">To the tune “Yearning for the Prince”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “A Single Cutting of Plum Blossom”&#8212;"The Red Lotus"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Yearning for the Prince”&#8212;"Wind Comes"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +68,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">一剪梅</lem>
-						<rdg wit="#Translation">To the tune “A Single Cutting of Plum Blossom”&#8212;"The Red Lotus"</rdg>
+						<lem wit="#Transcription">怨王孫</lem>
+						<rdg wit="#Translation">To the tune “Yearning for the Prince”&#8212;"Wind Comes"</rdg>
 					</app>
 				</title>
 			</head>
@@ -79,38 +79,38 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">紅藕香殘玉簟秋。</lem>
-						<rdg wit="#Translation">The red lotus fragrance still lingered on the jade-like mat in autumn.</rdg>
+						<lem wit="#Transcription">湖上風來波浩渺。</lem>
+						<rdg wit="#Translation">Wind comes from the lake and the waves are misty and grand.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">輕解羅裳，</lem>
-						<rdg wit="#Translation">I gently untied my silk gown,</rdg>
+						<lem wit="#Transcription">秋已暮、</lem>
+						<rdg wit="#Translation">The autumn is late;</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">獨上蘭舟。</lem>
-						<rdg wit="#Translation">and boarded the thoroughwort boat.</rdg>
+						<lem wit="#Transcription">紅稀香少。</lem>
+						<rdg wit="#Translation">the reds are rare and the fragrance faint.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">雲中誰寄錦書來，</lem>
-						<rdg wit="#Translation">Who would send the brocade letter from the clouds?</rdg>
+						<lem wit="#Transcription">水光山色與人親，</lem>
+						<rdg wit="#Translation">The radiance of the water and the colors of the mountain are friendly to the people.</rdg>
 					</app>
 				</l>
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">雁字回時，</lem>
-						<rdg wit="#Translation">When the wild geese return in the form of the character “one”, </rdg>
+						<lem wit="#Transcription">說不儘、</lem>
+						<rdg wit="#Translation">One cannot talk enough</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">月滿西樓。</lem>
-						<rdg wit="#Translation">moonlight will fill up the western tower.</rdg>
+						<lem wit="#Transcription">無窮好。</lem>
+						<rdg wit="#Translation">about their endless beauty.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -118,38 +118,38 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">花自飄零水自流。</lem>
-						<rdg wit="#Translation">The flower withers alone and the water flows on its own,</rdg>
+						<lem wit="#Transcription">蓮子已成荷葉老。</lem>
+						<rdg wit="#Translation">The lotus seeds are ripe and the leaves are old,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">一種相思，</lem>
-						<rdg wit="#Translation">the same kind of yearning,</rdg>
+						<lem wit="#Transcription">清露洗、</lem>
+						<rdg wit="#Translation">Clear dew washes over</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">兩處閒愁。</lem>
-						<rdg wit="#Translation">pointless sorrow in two locations.</rdg>
+						<lem wit="#Transcription">蘋花汀草。</lem>
+						<rdg wit="#Translation">the duckweed and the water-grass. </rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">此情無計可消除，</lem>
-						<rdg wit="#Translation">There is no way of dispelling this feeling;</rdg>
+						<lem wit="#Transcription">眠沙鷗鷺不回頭，</lem>
+						<rdg wit="#Translation">Gulls and egrets sleep on the sand without turning their heads,</rdg>
 					</app>
 				</l>
 				<l n="11"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">才下眉頭，</lem>
-						<rdg wit="#Translation">as soon as it steps down from the eyebrows,</rdg>
+						<lem wit="#Transcription">似也恨、</lem>
+						<rdg wit="#Translation">as if they resent me</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription">卻上心頭。</lem>
-						<rdg wit="#Translation">it mounts to the heart.</rdg>
+						<lem wit="#Transcription">人歸早。</lem>
+						<rdg wit="#Translation">for returning too early.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -157,5 +157,6 @@
 		</body>
 	</text>
 </TEI>
+
 
 
