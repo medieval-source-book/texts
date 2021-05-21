@@ -1,1 +1,235 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Always Having Fun”&#8212;"The Setting Sun" </title>
+				<author>Li Qingzhao</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
+				<listWit>
+					<witness xml:id="Transcription">永遇樂</witness>
+					<witness xml:id="Translation">To the tune “Always Having Fun”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Always Having Fun”&#8212;"The Setting Sun" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">永遇樂</lem>
+						<rdg wit="#Translation">To the tune “Always Having Fun”&#8212;"The Setting Sun" </rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">落日鎔金，</lem>
+						<rdg wit="#Translation">The setting sun is like melted gold;</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">暮雲合璧，</lem>
+						<rdg wit="#Translation">the evening cloud circles the jade disc.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">人在何處。</lem>
+						<rdg wit="#Translation">Where do I find myself?</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">染柳煙濃。</lem>
+						<rdg wit="#Translation">The willows are tinted with heavy mist;</rdg>
+					</app>
+				</l>
+				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">吹梅笛怨，</lem>
+						<rdg wit="#Translation">the flute plays the regretful tune “Plum Blossoms Fall.”</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">春意知幾許。</lem>
+						<rdg wit="#Translation">Who knows how much spring feeling is left?</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">元宵佳節，</lem>
+						<rdg wit="#Translation">It is the First Full Moon Festival.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">融和天氣，</lem>
+						<rdg wit="#Translation">The weather is nice and balmy,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">次第豈無風雨。</lem>
+						<rdg wit="#Translation">but how will there not be wind or rain in an instant?</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">來相召、</lem>
+						<rdg wit="#Translation">Someone invited me,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">香車寶馬，</lem>
+						<rdg wit="#Translation">sending a fragrant carriage and fine horses;</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">謝他酒朋詩侶。</lem>
+						<rdg wit="#Translation">yet I refused to be his companion for wine and songs.</rdg>
+					</app>
+				</l>
+			</lg>
+
+			<lg n="2">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">中州盛日，</lem>
+						<rdg wit="#Translation">In the glorious days in the Middleland, </rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">閨門多暇，</lem>
+						<rdg wit="#Translation">there was so much leisure in the women’s quarters.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">記得偏重三五。</lem>
+						<rdg wit="#Translation">I remember how Three Five was grandly celebrated. </rdg>
+					</app>
+				</l>
+				<l n="16"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">鋪翠冠兒，</lem>
+						<rdg wit="#Translation">The kingfisher-feather caps,</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">撚金雪柳，</lem>
+						<rdg wit="#Translation">the gold thread wrapping the snowy willows,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">簇帶爭濟楚。</lem>
+						<rdg wit="#Translation">all kinds of hair ornaments, competing with one another in gorgeousness.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">如今憔悴，</lem>
+						<rdg wit="#Translation">Now I am haggard and sallow,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">風鬟霜鬢，</lem>
+						<rdg wit="#Translation">With wind-blown hair and frost-touched temples.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">怕見夜間出去。</lem>
+						<rdg wit="#Translation">I refrain from going out at night.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">不如向、</lem>
+						<rdg wit="#Translation">It is better to</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">簾兒底下，</lem>
+						<rdg wit="#Translation">hide behind the lowered curtains,</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">聽人笑語。</lem>
+						<rdg wit="#Translation">listening to the talk and laughter of others.</rdg>
+					</app>
+				</l>
+			</lg>
+
+		</body>
+	</text>
+</TEI>
+
+
+
 
