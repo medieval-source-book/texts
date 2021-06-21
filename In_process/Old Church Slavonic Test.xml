@@ -82,14 +82,16 @@
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">а вы плотници сѹще. а пристави мъ вы хоромъ рѹбити. и начѧ Дьнѣ</lem>
-						<rdg wit="#Translation">This is a line of the text from their site</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">1. Нь и срачиньскыи началникь, злыи пррокъ Бохмитъ иǀ лживыи изъ единаго колѣна родомъ Измаилова с҃наǀ Авраамлѧ.</lem>
-						<rdg wit="#Translation">This is a line of text from the document they sent</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
@@ -105,6 +107,38 @@
 					</app>
 				</l>
 				<l n="5">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="10">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>

@@ -1,0 +1,944 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Death of King John</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Andrea Svobodová</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Matouš Turek</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Sarah Gráfová</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Jan Čermák</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Jan Biederman</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Václav Žůrek</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="">Prague, National Library of the Czech Republic 54 K 15.192</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Death of King John</witness>
+					<witness xml:id="Translation">Smrt krále Jana</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Death of King John" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+                <l n="1">
+					<app>
+						<lem wit="#Transcription">„Klimberče mladý, praviť krátce,</lem>
+						<rdg wit="#Translation">“Young Klimberg<note type="critical" anchored="true"><hi rend="italic">Henry of Klingenberg was a member of a noble family originally from Swabia that settled in Bohemia approximately in the 13th century. The name is probably related to the castle of Klingenberg in Austria rather than  to the German name for the Czech royal castle of Zvíkov (Klingenberk). Henry’s father, John of Klingenberg, actively supported King John of Luxembourg in both his political and his military interests; in addition, he joined the King in the crusade against the Prussians between 1336 and 1337 (Žalud, “Několik poznámek”, pp. 229–30).</hi></note>, I tell you briefly,</rdg>
+					</app>
+				</l>
+                <l n="2">
+					<app>
+						<lem wit="#Transcription">pomni, [žes]<note anchored="true" type="critical">žes] <hi rend="italic">doplněno Lupáčem </hi></note>měl dobrého otce,</lem>
+						<rdg wit="#Translation">Remember that you had a good father</rdg>
+					</app>
+				</l>
+                <l n="3">
+					<app>
+						<lem wit="#Transcription">jehož nikto zlým nevinil</lem>
+						<rdg wit="#Translation">Who was by none accused of wrong</rdg>
+					</app>
+				</l>
+                <l n="4">
+					<app>
+						<lem wit="#Transcription">a mnoho dobrého činil.</lem>
+						<rdg wit="#Translation">And did much good</rdg>
+					</app>
+				</l>
+                <l n="5">
+					<app>
+						<lem wit="#Transcription">A sáms také rytieř smělý,</lem>
+						<rdg wit="#Translation">And you too are yourself a brave knight,</rdg>
+					</app>
+				</l>
+                <l n="6">
+					<app>
+						<lem wit="#Transcription">mladý, dobrý druh dospělý,</lem>
+						<rdg wit="#Translation">A young, good, grown fellow.</rdg>
+					</app>
+				</l>
+                <l n="7">
+					<app>
+						<lem wit="#Transcription">vědě <note type="critical" anchored="true">vědě] Wiediem <hi rend="italic">tisk</hi></note>, že mne neodvedeš,</lem>
+						<rdg wit="#Translation">I know that you will not lead me away,</rdg>
+					</app>
+				</l>
+                <l n="8">
+					<app>
+						<lem wit="#Transcription">než úfámť, že mne dovedeš,</lem>
+						<rdg wit="#Translation">But hope that you will lead me there</rdg>
+					</app>
+				</l>
+                <l n="9">
+					<app>
+						<lem wit="#Transcription">kdež pokuši svého meče.“</lem>
+						<rdg wit="#Translation">Where I can try my sword.”</rdg>
+					</app>
+				</l>
+                <l n="10">
+					<app>
+						<lem wit="#Transcription">K králi vece: „Nemiež péče.</lem>
+						<rdg wit="#Translation">To the King he says: “Do not worry!</rdg>
+					</app>
+				</l>
+                <l n="11">
+					<app>
+						<lem wit="#Transcription">Tvé slovo, jaks řekl, zuostane</lem>
+						<rdg wit="#Translation">Your word shall stand just as you have said it,</rdg>
+					</app>
+				</l>
+                <l n="12">
+					<app>
+						<lem wit="#Transcription">a se tak líbost tvá stane.</lem>
+						<rdg wit="#Translation">And your will shall thus become deed.</rdg>
+					</app>
+				</l>
+                <l n="13">
+					<app>
+						<lem wit="#Transcription">Popros Boha za svou duši,</lem>
+						<rdg wit="#Translation">“Pray to God for your soul!</rdg>
+					</app>
+				</l>
+                <l n="14">
+					<app>
+						<lem wit="#Transcription">boď oř, v ten čas sobě tuši</lem>
+						<rdg wit="#Translation">Spur on the horse! Now hope for that place</rdg>
+					</app>
+				</l>
+                <l n="15">
+					<app>
+						<lem wit="#Transcription">tam, kdež se již, jako známy,</lem>
+						<rdg wit="#Translation">Where, as is known to us,</rdg>
+					</app>
+				</l>
+                <l n="16">
+					<app>
+						<lem wit="#Transcription">jeliž v soudný den shledámy.“</lem>
+						<rdg wit="#Translation">Only on Judgement Day shall we meet again.”</rdg>
+					</app>
+				</l>
+                <l n="17">
+					<app>
+						<lem wit="#Transcription">Jakž to vece, tak se zdrže,<note type="critical" anchored="true">zdrže] zdrzyeze <hi rend="italic">tisk</hi></note></lem>
+						<rdg wit="#Translation">As he said that, he halted briefly.</rdg>
+					</app>
+				</l>
+                <l n="18">
+					<app>
+						<lem wit="#Transcription">pan Henrich se po něm zdviže.</lem>
+						<rdg wit="#Translation">Lord Heinrich<note type="critical" anchored="true"><hi rend="italic">Lord Heinrich is probably Henry the Monk of Basel, who appears in other sources as a close adviser to the King of Bohemia and thence to Philippe VI. </hi></note>rose after him,</rdg>
+					</app>
+				</l>
+                <l n="19">
+					<app>
+						<lem wit="#Transcription">S ním šel<note type="critical" anchored="true">šel] ſe <hi rend="italic">tisk </hi></note>na harc podlé toho</lem>
+						<rdg wit="#Translation">And with him there went into the fray</rdg>
+					</app>
+				</l>
+                <l n="20">
+					<app>
+						<lem wit="#Transcription">ctné dobré družiny mnoho,</lem>
+						<rdg wit="#Translation">A good, large, valorous retinue</rdg>
+					</app>
+				</l>
+                <l n="21">
+					<app>
+						<lem wit="#Transcription">jeho hesla volajíce,</lem>
+						<rdg wit="#Translation">Calling out his battle cries,</rdg>
+					</app>
+				</l>
+                <l n="22">
+					<app>
+						<lem wit="#Transcription">v srdci tuto mysl majíce,</lem>
+						<rdg wit="#Translation">Having in their hearts the thought</rdg>
+					</app>
+				</l>
+                <l n="23">
+					<app>
+						<lem wit="#Transcription">žeť nelze podlé své hospody</lem>
+						<rdg wit="#Translation">That in the company of their lord</rdg>
+					</app>
+				</l>
+                <l n="24">
+					<app>
+						<lem wit="#Transcription">dojíti smrtedlné škody.</lem>
+						<rdg wit="#Translation">They shall come not to deathly harm.</rdg>
+					</app>
+				</l>
+                <l n="25">
+					<app>
+						<lem wit="#Transcription">Nepřítelé sobě stesku,</lem>
+						<rdg wit="#Translation">The foe lamented</rdg>
+					</app>
+				</l>
+                <l n="26">
+					<app>
+						<lem wit="#Transcription">když Supovo křídle blesku,</lem>
+						<rdg wit="#Translation">As the Vulture’s wings <note type="critical" anchored="true"><hi rend="italic">The poet here alludes to the black vulture’s wings traditionally depicted on the coat of arms of Bohemian rulers from the Přemyslid dynasty. John of Luxembourg accepted them as a symbol of continuity linking him to the original Bohemian royal dynasty from which his first wife, Elizabeth of Bohemia, was descended. The vulture’s wing on the crest of the helmet is clearly visible in illuminations depicting the Přemyslid kings Wenceslas I, Přemysl Otakar II, and John of Luxembourg in the Codex of Jan of Gelnhausen written at the turn of the 15th century. The same coat of arms is present also in the illumination depicting the Přemyslid King Wenceslas II in the Manesse Codex. Such facts challenge the legend that the Black Prince took three peacock feathers from the crest of John of Luxembourg upon finding his body and symbolically subsumed them into the badge of the Prince of Wales along with the Bohemian King’s purported motto “Ich diene” (in its shortened form, Ich dien). According to one unverified theory,  John’s motto may have been confused with the Welsh expression “Eich Dyn” [your man], which was supposed to reflect the positive relationship between the Prince and the Welsh soldiers (Vlček, Jak zemřeli, p. 78).</hi></note>glinted</rdg>
+					</app>
+				</l>
+                <l n="27">
+					<app>
+						<lem wit="#Transcription">pod němaž ten rytíř drahý</lem>
+						<rdg wit="#Translation">And below them the beloved knight</rdg>
+					</app>
+				</l>
+                <l n="28">
+					<app>
+						<lem wit="#Transcription">křičieše své heslo: „Z Prahy!“</lem>
+						<rdg wit="#Translation">Cried out his battle cry “From Prague!”<note anchored="true" type="critical"><hi rend="italic">It was a medieval tradition to use as a war cry the name of the country, county, or town with which the fighting side was associated. In this way, the war cry not only fortified the soldiers themselves but also served to identify their allegiance. The Czech war cry of “Prague!” mentioned in the poem was customary in Bohemia. It was used, for instance, by the Bohemian armies in the Battle on the Marchfeld on 26 August 1278.</hi></note></rdg>
+					</app>
+				</l>
+                <l n="29">
+					<app>
+						<lem wit="#Transcription">I hna v nepřátelský hluk</lem>
+						<rdg wit="#Translation">And rushed forth into the enemy host</rdg>
+					</app>
+				</l>
+                <l n="30">
+					<app>
+						<lem wit="#Transcription">bez rozpači jako kluk,</lem>
+						<rdg wit="#Translation">Without hesitation, like a bolt,</rdg>
+					</app>
+				</l>
+                <l n="31">
+					<app>
+						<lem wit="#Transcription">přeprudce rozmáchav ony</lem>
+						<rdg wit="#Translation">Wildly flourishing those</rdg>
+					</app>
+				</l>
+                <l n="32">
+					<app>
+						<lem wit="#Transcription">přežádúcie zlaté<note type="critical" anchored="true">zlaté] zlatto <hi rend="italic">tisk </hi></note> zvony,</lem>
+						<rdg wit="#Translation">Exquisite golden spurs</rdg>
+					</app>
+				</l>
+                <l n="33">
+					<app>
+						<lem wit="#Transcription">jimaž oř upomínáše,</lem>
+						<rdg wit="#Translation">With which he urged the steed<note anchored="true" type="critical"><hi rend="italic">The Czech word “oř” commonly means a horse, but in this context it surely means a warhorse or destrier.</hi></note></rdg>
+					</app>
+				</l>
+                <l n="34">
+					<app>
+						<lem wit="#Transcription">na němžto se vzpodjímáše,</lem>
+						<rdg wit="#Translation">Upon whose back he rose,</rdg>
+					</app>
+				</l>
+                <l n="35">
+					<app>
+						<lem wit="#Transcription">dělaje rytířské skutky</lem>
+						<rdg wit="#Translation">Doing knightly deedsb/</rdg>
+					</app>
+				</l>
+                <l n="36">
+					<app>
+						<lem wit="#Transcription">svým nepřátelům pro smutky,</lem>
+						<rdg wit="#Translation">To bring torment to the foe,</rdg>
+					</app>
+				</l>
+                <l n="37">
+					<app>
+						<lem wit="#Transcription">dávaje jim hrozné rány</lem>
+						<rdg wit="#Translation">Landing terrible blows on them</rdg>
+					</app>
+				</l>
+                <l n="38">
+					<app>
+						<lem wit="#Transcription">skrze tvrdé, husté brány,</lem>
+						<rdg wit="#Translation">Through hard, thick mail.</rdg>
+					</app>
+				</l>
+                <l n="39">
+					<app>
+						<lem wit="#Transcription">čině ořem i sám sebú,</lem>
+						<rdg wit="#Translation">Busying both his warhorse and himself,</rdg>
+					</app>
+				</l>
+                <l n="40">
+					<app>
+						<lem wit="#Transcription">nelituje rukú obú,</lem>
+						<rdg wit="#Translation">Not averse to using both his hands,</rdg>
+					</app>
+				</l>
+                <l n="41">
+					<app>
+						<lem wit="#Transcription">jimaž zabyle kvapieše,</lem>
+						<rdg wit="#Translation">Wildly did he flail them,</rdg>
+					</app>
+				</l>
+                <l n="42">
+					<app>
+						<lem wit="#Transcription">což kde jima polapieše,</lem>
+						<rdg wit="#Translation">nd whatsoever they did catch</rdg>
+					</app>
+				</l>
+                <l n="43">
+					<app>
+						<lem wit="#Transcription">to všecko bylo zkaženo,</lem>
+						<rdg wit="#Translation">Was all undone,</rdg>
+					</app>
+				</l>
+                <l n="44">
+					<app>
+						<lem wit="#Transcription">sečeno i rozraženo.</lem>
+						<rdg wit="#Translation">Cut and cast asunder.</rdg>
+					</app>
+				</l>
+                <l n="45">
+					<app>
+						<lem wit="#Transcription">Jeho dobrodrustva zřiece,</lem>
+						<rdg wit="#Translation">As they saw his feats,</rdg>
+					</app>
+				</l>
+                <l n="46">
+					<app>
+						<lem wit="#Transcription">snažiechu se tu vždy viece</lem>
+						<rdg wit="#Translation">They tried ever harder,</rdg>
+					</app>
+				</l>
+                <l n="47">
+					<app>
+						<lem wit="#Transcription">ty všecky, ktož podlé něho</lem>
+						<rdg wit="#Translation">All those who around him were</rdg>
+					</app>
+				</l>
+                <l n="48">
+					<app>
+						<lem wit="#Transcription">byli hlédajíce jeho,</lem>
+						<rdg wit="#Translation">And watching him.</rdg>
+					</app>
+				</l>
+                <l n="49">
+					<app>
+						<lem wit="#Transcription">srazichu se s nepřátely</lem>
+						<rdg wit="#Translation">They clashed with their enemies,</rdg>
+					</app>
+				</l>
+                <l n="50">
+					<app>
+						<lem wit="#Transcription">svými rytieřskými diely,</lem>
+						<rdg wit="#Translation">In their knightly deeds,</rdg>
+					</app>
+				</l>
+                <l n="51">
+					<app>
+						<lem wit="#Transcription">obcházejíc se uctivě,</lem>
+						<rdg wit="#Translation">Comporting themselves with honour,</rdg>
+					</app>
+				</l>
+                <l n="52">
+					<app>
+						<lem wit="#Transcription">noži, meči pamětlivě</lem>
+						<rdg wit="#Translation">With their daggers and swords intently</rdg>
+					</app>
+				</l>
+                <l n="53">
+					<app>
+						<lem wit="#Transcription">sekúc, bodúc ze vší síly,</lem>
+						<rdg wit="#Translation">Hewing and stabbing with all their might,</rdg>
+					</app>
+				</l>
+                <l n="54">
+					<app>
+						<lem wit="#Transcription">z ořóv ostrohami žíly</lem>
+						<rdg wit="#Translation">Tearing out their warhorses’ veins</rdg>
+					</app>
+				</l>
+                <l n="55">
+					<app>
+						<lem wit="#Transcription">derúce, bodúce na ně,</lem>
+						<rdg wit="#Translation">As they pierced them with their spurs,</rdg>
+					</app>
+				</l>
+                <l n="56">
+					<app>
+						<lem wit="#Transcription">chtíc sobě dobyti pláně</lem>
+						<rdg wit="#Translation">Striving to gain control of the battlefield</rdg>
+					</app>
+				</l>
+                <l n="57">
+					<app>
+						<lem wit="#Transcription">a k lepši se bráti spíše.</lem>
+						<rdg wit="#Translation">And keen to gain the upper hand.</rdg>
+					</app>
+				</l>
+                <l n="58">
+					<app>
+						<lem wit="#Transcription">Tu Červená ruože ktvieše,</lem>
+						<rdg wit="#Translation">There the Red ROSE<note type="critical" anchored="true"><hi rend="italic">The heraldic reference is intended to evoke the coat of arms of Henry II of Rosenberg, who participated in the battle. Henry was the son of Peter I of Rosenberg, lord chamberlain of Bohemia. The House of Rosenberg was an old Bohemian noble family holding dominion in southern Bohemia. The family went back to the noble Witikonid (Vítkovci) dynasty of the 12th to 13th centuries, which traditionally ranked among those influential Czech noble families associated with royalty and high politics (Žalud, “Několik poznámek”, p. 234).</hi></note>bloomed</rdg>
+					</app>
+				</l>
+                <l n="59">
+					<app>
+						<lem wit="#Transcription">majíc rubínovo stkvěnie.</lem>
+						<rdg wit="#Translation">With the refulgence of a ruby;</rdg>
+					</app>
+				</l>
+                <l n="60">
+					<app>
+						<lem wit="#Transcription">Jádro její podlé chtění</lem>
+						<rdg wit="#Translation">Its centre, as bespoke,</rdg>
+					</app>
+				</l>
+                <l n="61">
+					<app>
+						<lem wit="#Transcription">z arabského zlatta stkvieše,</lem>
+						<rdg wit="#Translation">Gleamed with Arabian gold.</rdg>
+					</app>
+				</l>
+                <l n="62">
+					<app>
+						<lem wit="#Transcription">pod nížto rytíř se držieše,</lem>
+						<rdg wit="#Translation">Below it the steadfast knight,</rdg>
+					</app>
+				</l>
+                <l n="63">
+					<app>
+						<lem wit="#Transcription">husté cesty v nepřátelech čině –</lem>
+						<rdg wit="#Translation">Clearing many a path through the enemy —</rdg>
+					</app>
+				</l>
+                <l n="64">
+					<app>
+						<lem wit="#Transcription">toť náleží ctné hrdině –</lem>
+						<rdg wit="#Translation">As befits the valorous hero! —</rdg>
+					</app>
+				</l>
+                <l n="65">
+					<app>
+						<lem wit="#Transcription">i nevyhybujíc se nikomu,</lem>
+						<rdg wit="#Translation">And avoiding none,</rdg>
+					</app>
+				</l>
+                <l n="66">
+					<app>
+						<lem wit="#Transcription">vždy se bera k miestu tomu,</lem>
+						<rdg wit="#Translation">He always made for that place</rdg>
+					</app>
+				</l>
+                <l n="67">
+					<app>
+						<lem wit="#Transcription">kde by ten skutek ukázal,</lem>
+						<rdg wit="#Translation">Where he might perform that deed,</rdg>
+					</app>
+				</l>
+                <l n="68">
+					<app>
+						<lem wit="#Transcription">ač by o něm kdo otázal,</lem>
+						<rdg wit="#Translation">That, if any should enquire</rdg>
+					</app>
+				</l>
+                <l n="69">
+					<app>
+						<lem wit="#Transcription">by to bylo u paměti</lem>
+						<rdg wit="#Translation">It would remain in the memory</rdg>
+					</app>
+				</l>
+                <l n="70">
+					<app>
+						<lem wit="#Transcription">i to mohli pověděti</lem>
+						<rdg wit="#Translation">And might be related</rdg>
+					</app>
+				</l>
+                <l n="71">
+					<app>
+						<lem wit="#Transcription">dobří lidé bez příroka</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="72">
+					<app>
+						<lem wit="#Transcription">na každý čas, rok od roka,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="73">
+					<app>
+						<lem wit="#Transcription">až ta Róže tak osvětla,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="74">
+					<app>
+						<lem wit="#Transcription">jakž při Lvu vždy věrně květla.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="75">
+					<app>
+						<lem wit="#Transcription">Tu svietieše Zlaté <note type="critical" anchored="true">Zlaté] zlatte <hi rend="italic">tisk </hi></note>kolo,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="76">
+					<app>
+						<lem wit="#Transcription">pod nímž nebieše úpolo</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="77">
+					<app>
+						<lem wit="#Transcription">mladému dobrému druhu</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="78">
+					<app>
+						<lem wit="#Transcription">zpodjéti tak práci tuhú:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="79">
+					<app>
+						<lem wit="#Transcription">Klimberkovi šlechetnému,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="80">
+					<app>
+						<lem wit="#Transcription">v svém životě udatnému,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="81">
+					<app>
+						<lem wit="#Transcription">jenž nedbaje nic o škodě,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="82">
+					<app>
+						<lem wit="#Transcription">věrně sloužil své hospodě,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="83">
+					<app>
+						<lem wit="#Transcription">pomně na otce, na děda,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="84">
+					<app>
+						<lem wit="#Transcription">nepřátelóm bieše běda;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="85">
+					<app>
+						<lem wit="#Transcription">každýho, kam se obrátil,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="86">
+					<app>
+						<lem wit="#Transcription">bil, sekl, buodl, v hlavy mlátil.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="87">
+					<app>
+						<lem wit="#Transcription">A pan Valkún z Bořešína</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="88">
+					<app>
+						<lem wit="#Transcription">věda, že boj ctná novina,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="89">
+					<app>
+						<lem wit="#Transcription">dá nejednu prudkú ránu,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="90">
+					<app>
+						<lem wit="#Transcription">vždy se boda po svém pánu.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="91">
+					<app>
+						<lem wit="#Transcription">Z Rožďalovic Ješek mladý</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="92">
+					<app>
+						<lem wit="#Transcription">podlé své rytířské vnady</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="93">
+					<app>
+						<lem wit="#Transcription">v dobrých činech nemeškáše,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="94">
+					<app>
+						<lem wit="#Transcription">vždy se po svém pánu bráše;</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="95">
+					<app>
+						<lem wit="#Transcription">dvoje křídle podlé vuole</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="96">
+					<app>
+						<lem wit="#Transcription">půl zlaté a půl sokolé,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="97">
+					<app>
+						<lem wit="#Transcription">pod těma dva vlastná bratry</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="98">
+					<app>
+						<lem wit="#Transcription">tu té<note type="critical" anchored="true">té] we <hi rend="italic">tisk </hi></note>fleminkové chatry</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="99">
+					<app>
+						<lem wit="#Transcription">porazišta velmi mnoho.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="100">
+					<app>
+						<lem wit="#Transcription">Také nezameška toho</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="101">
+					<app>
+						<lem wit="#Transcription">v také bitvě že pan Vilém</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="102">
+					<app>
+						<lem wit="#Transcription">na svém oři prudkém, čilém</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="103">
+					<app>
+						<lem wit="#Transcription">řka: „Neželím smutku vina!“<note type="critical" anchored="true">Neželím smutku vina] <hi rend="italic">Nejisté čtení, nelze vyloučit interpretaci </hi>Neželím smutku vína.</note></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="104">
+					<app>
+						<lem wit="#Transcription">Tu též pan Záviš z Jimlína</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="105">
+					<app>
+						<lem wit="#Transcription">a z Kozojed pan Dalibor</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="106">
+					<app>
+						<lem wit="#Transcription">hnašta v nepřátelský sbor</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="107">
+					<app>
+						<lem wit="#Transcription">mužně beze všeho strachu,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="108">
+					<app>
+						<lem wit="#Transcription">s nímaž dobří mnozí hnachu:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="109">
+					<app>
+						<lem wit="#Transcription">Friček, Tyč, pan<note anchored="true" type="critical">pan] <hi rend="italic">Jireček ve své edici bez poznámky odstranil kvůli nadbytečnosti slabik.</hi></note>Benešek, Lyšek,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="110">
+					<app>
+						<lem wit="#Transcription">sahajíce chvalných výšek,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="111">
+					<app>
+						<lem wit="#Transcription">z Pavlovic pan Kunart mužný,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="112">
+					<app>
+						<lem wit="#Transcription">Johan, syn jeho sestry družný:</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="113">
+					<app>
+						<lem wit="#Transcription">ijedné chvíle neždáše,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="114">
+					<app>
+						<lem wit="#Transcription">každý tam pospěšně hnáše.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="115">
+					<app>
+						<lem wit="#Transcription">Arberkéř<note type="critical" anchored="true">Arberkéř] Ar berkeř<hi rend="italic">tisk </hi></note>se ctně vzpomenu,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="116">
+					<app>
+						<lem wit="#Transcription">po svém pánu jako vzplanu.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="117">
+					<app>
+						<lem wit="#Transcription">Pan Tegl z Řieda jako Turka,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="118">
+					<app>
+						<lem wit="#Transcription">syn Hertvíkóv z Tegenburka,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="119">
+					<app>
+						<lem wit="#Transcription">pan z Malvelzada, dobré plémě,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="120">
+					<app>
+						<lem wit="#Transcription">Fricendorl z rakouské země,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="121">
+					<app>
+						<lem wit="#Transcription">jeden z plodu mužné vnady,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="122">
+					<app>
+						<lem wit="#Transcription">z Bavor Tušek, rytíř mladý,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="123">
+					<app>
+						<lem wit="#Transcription">všichni hnachu v houf protivný,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="124">
+					<app>
+						<lem wit="#Transcription">druh nad druha více silný,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="125">
+					<app>
+						<lem wit="#Transcription">nelitujíc smrtedlné škody,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="126">
+					<app>
+						<lem wit="#Transcription">stojíc podlé své hospody,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="127">
+					<app>
+						<lem wit="#Transcription">děláše řitířské činy.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="128">
+					<app>
+						<lem wit="#Transcription">Křiče Miličín: „Na ně, hrdiny!</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="129">
+					<app>
+						<lem wit="#Transcription">Z Vlašimě Člun polovičný,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="130">
+					<app>
+						<lem wit="#Transcription">ctný pan Bolek<note type="critical" anchored="true">Bolek] Bolek (Bolech)<hi rend="italic">tisk</hi></note>, rytíř sličný,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="131">
+					<app>
+						<lem wit="#Transcription">nesmúti Róže ani Člunu,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="132">
+					<app>
+						<lem wit="#Transcription">nemeškaje po ních lunu</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="133">
+					<app>
+						<lem wit="#Transcription">svým nepřátelóm na škodu.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="134">
+					<app>
+						<lem wit="#Transcription">Pomně svou dobrou úrodu,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="135">
+					<app>
+						<lem wit="#Transcription">že měl otce šlechetného,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="136">
+               		<app>
+						<lem wit="#Transcription">jenž podlé rytířstvie svého</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="137">
+                	<app>
+						<lem wit="#Transcription">činil dobrodružsky všady</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="138">
+					<app>
+						<lem wit="#Transcription">v silných bojích i jinady,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="139">
+                	<app>
+						<lem wit="#Transcription">jakž mu byla ctná mysl dána,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="140">
+                	<app>
+						<lem wit="#Transcription">až pod korúhví svého pána</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="141">
+                	<app>
+						<lem wit="#Transcription">zabit u boji před Lavú,</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+                <l n="142">
+					<app>
+						<lem wit="#Transcription">pod túž rytířskú postavú.</lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

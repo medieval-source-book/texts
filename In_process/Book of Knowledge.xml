@@ -1,0 +1,2730 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>An account of how the Cypriots gained victory over Alexandria</title>
+				<author>Al-Nuwayri al-Iskandarani</author>
+				<respStmt>
+					<resp>Transcription based on</resp>
+					<name>Nuwayrī, Muḥammad ibn al-Qāsim al-Iskandarānī  al-, et al. كتاب الإلمام: بالإعلام فيما جرت به الأحكام والأمور المقضية في وقعة الإسكندرية. دائرة المعارف العثمانية, 1968.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>David Joseph Wrisley</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Transcription based on Nuwayrī, Muḥammad ibn al-Qāsim al-Iskandarānī  al-, et al. كتاب الإلمام: بالإعلام فيما جرت به الأحكام والأمور المقضية في وقعة الإسكندرية. دائرة المعارف العثمانية, 1968.</p>
+				<listWit>
+					<witness xml:id="Transcription">ذكر كيفية ظفر القبرسي بالإسكندرية</witness>
+					<witness xml:id="Translation">An account of how the Cypriots gained victory over Alexandria</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"An account of how the Cypriots gained victory over Alexandria" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك أن نائب السلطان بثغر الإسكندرية، وهو الأمير خليل صلاح الدين بن عرام كان غائبا عن الثغر المذكور بالحجاز الشريف بسبب الحج،</lem>
+						<rdg wit="#Translation">The prince Ṣalāḥ al-Dīn ibn ʿArām, the vice-sultan was absent from the inlet of Alexandria, since he was in Holy Hijaz to complete his hajj,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان نائبا عنه فيه بإشارة الأمير الاتبكى يلبغا الخاسكى أمير يسمى جنغرا.</lem>
+						<rdg wit="#Translation">Meanwhile, the Atabeg prince Yalbughā al-Khāssikiyy, also known as "Janghara," was acting in his place.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما دخل جنغرا المذكور الإسكندرية رأى طوائفها المتطوعة الحارسة لميناءها تنجر عليه بالجزيرة</lem>
+						<rdg wit="#Translation">When Janghara came to Alexandria, he saw the reserve guard regiments in the port advancing onto the peninsula.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بقسيّهم الجرخ الموترة و أعلامهم الحرير المنشورة ، مع ما بأيديهم من المزاريق و الرماح ، و الدرق و الصفاح و الزرد النضيد ، و مصفحات الحديد ، و النفط الطيار، الصاعد منه لهب النار،</lem>
+						<rdg wit="#Translation">They brandished well-strung bows and displayed silk banners, carrying javelins, lances, shields, halberds, layered coats of mail and armor and blazing Greek fire.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هم بملبوسهم المختلف الألوان ، كالزهر في البستان.</lem>
+						<rdg wit="#Translation">They wore so many colors that they looked like flowers in a garden.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما عاينهم جنغرا بكى و قال: # هؤلاء أهل الجنة لرباطهم و جهادهم في سبيل الله # قد طاب و الله العيش بقوة هذا الجيش # لو اتى إلى الإسكندرية جميع نصارى الرومانية، ما قدروا على هذا الجيش الثقيل على الإسكندرية ، بل يكسرون النصارى، و يصيرونهم قتلى أسارى</lem>
+						<rdg wit="#Translation">When he spotted them, tears fell from his eyes and he said: # “These are the people of paradise. Look at their devotion and how they strive in the cause of Allah. # How delightful our life has become, oh Allah, thanks to the strength of this army. # If all the Christians would come to Alexandria, not only could they not fend off this mighty army, but they would be broken, left dead or hostaged."</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">			
+				<s>
+					<app>
+						<lem wit="#Transcription">فأقام جنغرا بالإسكندرية من شوال سنة ست و ستين و سبعمائة إلى المحرم</lem>
+						<rdg wit="#Translation">Janghara was in Alexandria for three months from Shawwal in the year 766 until Muharram.<note type= "critical" anchored="true"><p>The author uses the Hijri calendar here, Shawwal being the tenth month and Muharram being the first. This means that Janghara arrived in Alexandria around July 1365 CE.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ينظر لتلك الطوائف التي لكل طائفة منها ليلة في الأسبوع تبيت تحرس بساحل الميناء،</lem>
+						<rdg wit="#Translation">He saw the regiments that took turns each day of the week watching over the coastal port.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ربما بات ليالي في الغرفة التي على باب مسجد تربة طغية، و يقدم قدامه قانوسين أكرتين مقابل باب المسجد المذكور.</lem>
+						<rdg wit="#Translation">He even slept nights in a small room near the Turbat Ṭāghiyya mosque in front of which he had placed two lanterns completely full of oil.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و تأتي طائفة الزراقين يطلقون النفط</lem>
+						<rdg wit="#Translation">The regiment known as the "Blue Regiment" came and was launching burning oil. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هو ينظر من طيقان الغرفة المذكورة إلى الشرار الطيار، و اللوالب التي تدور بألوان النار، من الخضرة و الصفرة، و البياض و الحمرة.</lem>
+						<rdg wit="#Translation">Janghara caught a glimpse through the arrow hole in the room's wall of the flying sparks and the spinning flamethrowers combusting in all colors, from green to yellow, white to red.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">فيحصل بذلك الإنشراح، من العشى إلى الصباح،</lem>
+						<rdg wit="#Translation">He feasted his eyes on this display from dusk to dawn.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و يبتهج أيضا بنظره إلى كثرة الخلائق المنتشرة على الساحل من الرماة و العوام،</lem>
+						<rdg wit="#Translation">It brought him joy also to see so many people spread out on the coastal front line, military and civilians alike.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قد نصب لهم سوق فيه من أصناف المأكول يشترون و يأكلون، # و من ماء الروايا و القرب التي تحمل من البلد إليهم يشربون.</lem>
+						<rdg wit="#Translation">A market was set up for them with all kinds of food to buy and eat, # and waterskins were brought from inland so they could drink.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فإذا أصبحوا إنتظمت الطائفة التي باتت تحرس مدخل البلد في همة و جلد، و كثرة و مدد،</lem>
+						<rdg wit="#Translation">In the morning, the large regiment that had guarded the city entrance all night got back into formation with zeal and vigor, and in great numbers.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتجتمع لدخولهم الرجال و النسوان، ينظرون لأقوام كزهر بستان، من حسن الملابس و بياض تلك الطبالس،</lem>
+						<rdg wit="#Translation">The city’s men and women gathered together for the occasion, and they saw the regiments, their beautiful clothes and their white robes looked like flowers in a garden.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">فتزغرتن لهم النسوان إعلانا، عند مشاهدتهن لهم عيانا، و الأبواق حينئذ تصرخ، و الكوسات تدق، و المزامر تزمر،</lem>
+						<rdg wit="#Translation">Upon seeing them, the ladies announcing their arrival by ululating and the horns blew, the symbols clashed and the mizāmir<note type= "critical" anchored="true"><p>An oboe-like wind instrument.</p></note>bellowed. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و الأعلام منشورة، و المباخر بالطيب معمورة،</lem>
+						<rdg wit="#Translation">Flags waved and censers were lit and an aromatic smoke wafted through the air.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و دخانها يفوح، فتنبسط لتلك الروائح الأرجة كل روح،</lem>
+						<rdg wit="#Translation">Each and every soul took pleasure in these beautiful smells.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">والناس في فرح و سرور، لرؤية ذلك الجيش المحبور المهتز له الشوارع و الدور.</lem>
+						<rdg wit="#Translation">And the people were delighted to see the victorious army, the houses and streets shaking with the regiments’ advance.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فينما هم كذلك على عادتهم مستمرون، و في ثغرهم مطمئنون، و لا تروعهم الأعداء و لا راوا مكروها أبدا، إذ دهمهم صاحب قبرس اللعين، في جنده الضالين، شتت شملهم أجمعين، فروا منه في البلدان،</lem>
+						<rdg wit="#Translation">As was their custom—self-assured on their inlet—their faces did not betray the slightest fear of the enemy, nor did they see the deception or the coming attack of the cursed Cypriots and their infidel soldiers—may Allah scatter them about and make them run back to their countries.<note type= "critical" anchored="true"><p>The Cypriots mentioned in this passage refer to the armies of King Peter I of Cyprus (Pierre I de Lusignan).</p></note></rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">و دخل البلد باطمئنان،</lem>
+						<rdg wit="#Translation">And the regiments entered the city with ease.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك في يوم الجمعة الثاني و العشرين من المحرم سنة سبع و ستين و سبعمائة، و النيل منتشر على البلاد،</lem>
+						<rdg wit="#Translation">This was on Friday, 22 Muharram 767, when the Nile River spilled over its banks.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قصد الملعون باتيانه ذلك الزمن لتتعوق النجدة من مصر لبعد الطريق من الجبل،</lem>
+						<rdg wit="#Translation">The cursed [Cypriots] planned to come at that very moment to forestall reinforcements arriving from Cairo on account of the long distance across the terrain.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فنال الخبيث قصده في ذلك اليوم و الذي بعده، و تحصن قبل إتيان النجدة بمراكبه،</lem>
+						<rdg wit="#Translation">That day the sly Cypriots managed to do just that, securing their position before help came by boat.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و فرح بسلامة نفسه و مكاسبه، فلو كان بها أمراء مجردة ما نال الخبيث منها ثمن زردة،</lem>
+						<rdg wit="#Translation">The Cypriots were happy on account of their own safety and their gain.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">فلو كان بها أمراء مجردة ما نال الخبيث منها ثمن زردة # لكن كان ذلك في الكتاب مسطورا، و كان أمر الله قدرا مقدورا.</lem>
+						<rdg wit="#Translation">If there had been powerful princes nearby the sly Cypriots would not have gained a penny, # but alas it was meant to be, and by Allah's will, it was fated to happen.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">عن يزيد بن حبيب أن عمرو بن العاص  رضي الله عنه لما فتح الإسكندرية، # و رأى بيوتها و بناءها مفروغا منها همّ أن يسكنها</lem>
+						<rdg wit="#Translation">Yazīd ibn Ḥabīb said that when ʿAmr ibn al-ʿĀṣ—may Allah be pleased with him—first conquered Alexandria # he found its home and its buildings empty and he thought that he should live there.<note type= "critical" anchored="true"><p>Amr ibn al-ʿĀṣ led the Muslim conquest of Egypt and the surrender of Alexandria in the early years of Islam, 641 or 642 CE.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قال: مساكن قد كفيناها،# فكتب إلى عمر بن الخطاب رضي الله عنه يستأذنه في ذلك،</lem>
+						<rdg wit="#Translation">He said: “these dwellings will suffice for us” # and he wrote to ʿUmar ibn al-Khaṭṭāb—may Allah be pleased with him—asking him to accept that they live there.<note type= "critical" anchored="true"><p>Umar ibn al-Khaṭṭāb was one of the most important of the companions of the Prophet Muhammad.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال عمر لرسوله: هل يحول بيني و بين المسلمين ماء؟</lem>
+						<rdg wit="#Translation">Umar inquired of his messenger : “Is there water between me and the Muslims?”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال: نعم يا أمير المؤمنين، إذا جرى النيل،</lem>
+						<rdg wit="#Translation">The latter responded: “Yes, Prince of the Faithful, provided the Nile flows.”</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">فكتب عمر إلى عمرو: إني لا أحب أن تنزل المسلمين منزلا يحول الماء بيني و بينهم في شتاء و لا صيف إلا إذا كثروا،</lem>
+						<rdg wit="#Translation">So, ‘Umar wrote to ‘Amr: “I do not like that the Muslims are settled in a place separated from us by water—in winter as in summer—except if they are outnumbered.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتحول عمرو بن العاص من الإسكندرية إلى مصر،</lem>
+						<rdg wit="#Translation">So, ʿAmr ibn al-ʿĀṣ left Alexandria for Cairo.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">فعل ذلك عمر بن الخطاب رضي الله عنه خوفا على المسلمين لقلتهم بها، و بعد المسافة إليها، في إبان النيل لدورة الطريق في الجبل للنجدة.</lem>
+						<rdg wit="#Translation">ʿUmar ibn al-Khaṭṭāb —may Allah be pleased with him— had said that out of precaution, since so few Muslims lived in Alexandria and the course of the Nile through the hills would make it dangerous if ever he needed to send help.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فأرسل إليها عمرو بن العاص حينئذ قبائل العرب من لخم و جذام و كندة و الأزد و حضرموت و خزاعة و المزائسة مركزين قاطنين بها لحراستها،</lem>
+						<rdg wit="#Translation">‘Amr ibn al-ʿĀṣ sent them people from the Arabian tribes: Lakhm, Judhām, Kinda, al-Azd, Ḥaḍramawt, Khuzāʿa, and al-Muzayna and he settled them in two groups for protection.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلخم نزلت بالمكان المعروف بكوم الدكة، و جذام نزلت ببركة جذام، و كندة نزلت بالبراكل، و الأزد نزلت بحارة الأزدى،</lem>
+						<rdg wit="#Translation">The Lakhm lived in a place known as Kūm al-Dikka, the Judhām in Birkat Judhām, the Kinda in Barākil, and al-Azd in Ḥārat al-Azdiyy.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">و حضرموت نزلت بحارة الحضارمة و خزاعة و المزاينة نزلوا بناحية بوقير شرقى الإسكندرية من ظاهرها، يحرسون ميناءها،</lem>
+						<rdg wit="#Translation">Ḥaḍramawt settled in Ḥārat al-Ḥaḍārima, and Khuzāʿa settled with al-Muzayna in the direction of Abūqīr in the eastern outskirts of Alexandria where they guarded its port.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و الذين نزلوا باطن الاسكندرية من القبائل المذكورين عليهم إدراك الميناءين الشرقية و الغربية "بجزيرة الإسكندرية".</lem>
+						<rdg wit="#Translation">Those from the abovementioned tribes who lived in the center of Alexandria watched over two ports, one to the east and one to the west of the peninsula.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذرية هؤلاء القبائل إلى الآن في سنة   خمس و سبعين و سبعمائة يسفرون في الإسكندرية بالقبائل، لهم أخبار،</lem>
+						<rdg wit="#Translation">The descendants of those tribes are today in the year 775 still known as the “tribes” in Alexandria.<note type= "critical" anchored="true"><p>The perspective from which Al-Nuwayri al-Iskandarani is narrating here is that of 775 H / 1372 CE, meaning that he wrote the Kitab al-Ilmam at the end of his life.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هم ثلاث مائة و ثلاثون مقدما، تحت يد كل مقدم جماعة من القبائل</lem>
+						<rdg wit="#Translation">They have thirty-three leaders who act as the guardians of their ancestral traditions.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">لم يخرجوا عن طريق لبوس العرب،</lem>
+						<rdg wit="#Translation">They still dress in Arab garb.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">بل يسدلون العذبات و يفرجون درائعهم، على جارى عادة العربان من أسلافهم،</lem>
+						<rdg wit="#Translation">The cloth on their turban hangs low and they brandish their shields just like their Arabian ancestors did.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قطع عمرو بن العاص من أصحابه لرباط الإسكندرية: ربع الناس، و ربع في السواحل، و النصف مقيمون معه بمصر،</lem>
+						<rdg wit="#Translation">ʿAmr ibn al-ʿĀṣ divided up his men, a quarter of them to protect Alexandria, another quarter for the coastline, while the remaining half of them stayed with him in Cairo.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان يصير بالإسكندرية خاصة الربع في الصيف بقدر ستة أشهر، و تعقب بعدهم شانية ستة أشهر</lem>
+						<rdg wit="#Translation">In Alexandria half of them would stay for six months, and then next rotation would come for the rest of the year.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود إلى ذكر كيفية إتيان القبرسى إلى الإسكندرية و ظفره بها،</lem>
+						<rdg wit="#Translation">Let us return to the account of how the Cypriots came to Alexandria and captured it.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك أنه لما كان في يوم الأربعاء العشرين من المحرم سنة سبع و ستين و سبعمائة ظهر في البحر مراكب مغرّبة و مشرقة،</lem>
+						<rdg wit="#Translation">On Wednesday, 20 Muharram in the year 767, boats appeared at sea to the east and the west.<note type= "critical" anchored="true"><p>This date places the raid in October 1365.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">زعم أهل الإسكندرية أنهم تجار البنادقة ينتظرونهم يأتون بمتاجرهم على جارى عادتهم في كل سنة،</lem>
+						<rdg wit="#Translation">The Alexandrians thought that they were the Venetian merchants whose goods were long awaited each year.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت تجار المسلمين جلبوا لهم من اليمن أصناف البهار يبيعونها عليهم، و يتعوضون عنها من متاجرهم،</lem>
+						<rdg wit="#Translation">The Muslims traders used to bring all kinds of spices from Yemen [to Alexandria] and sell or barter them with the Venetians.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما لم يدخلوا الميناء باتت الناس في خوف شديد بسببهم،</lem>
+						<rdg wit="#Translation">When the boats did not enter the port, the people of Alexandria were very scared.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما أصبح يوم الخميس أقبلت المراكب الكثيرة، طالبة ساحل الجزيرة، منشورة قلاعها كالقصور البيض،</lem>
+						<rdg wit="#Translation">On Thursday, many more boats arrived and prepared to touch down on the peninsula, looming on the horizon like turrets of white castles.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">فصار الناس في الطويل العريض، من كثرة لهجهم، و حرّ و هجهم،</lem>
+						<rdg wit="#Translation">The people in Alexandria all lined up and were fervently and nervously asking each other about the scene.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و تلك المراكب مقلعة آتية، قد ملأت البحر من كل ناحية، فلم تزل تشق البحر كالزلزلة،</lem>
+						<rdg wit="#Translation">The boats approached, filling the sea from all directions, and parting it like an earthquake splits the land.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">إلى أن حطّت قلاعها ببحر السلسلة، و ذلك من جهة الباب الأخضر المسدود بعد الوقعة بالجير و الحجر،</lem>
+						<rdg wit="#Translation">Finally, the strongholds stopped in the sea in formation on the side of the Green Gate<note type= "critical" anchored="true"><p>For the names of the gates of the city of Alexandria, we follow the translations found in Atiya [1938], where provided.</p></note>—this is the very gate that after the raid had been sealed up with lime and stone.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم فتح بعد ذلك، و رُكّبت عليه أبوابه الأول و الثاني و الثالث المتجددة،</lem>
+						<rdg wit="#Translation">Since then, it has been made functional again with the opening of three new gates.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك في يوم الوقعة سنة سبع و ستين و سبعمائة في ولاية الأمير سيف الدين الأكز بالإسكندرية،</lem>
+						<rdg wit="#Translation">The events of the Cypriot raid took place in 767 in the <hi rend="italic">wilāyya</hi><note type= "critical" anchored="true"><p>The rough equivalent in Arabic of domain or jurisdiction.</p></note>of Prince Sayf al-Dīn al-Akaz and in the city of Alexandria.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">و سيأتي ذكر ولايته بها و ما فعل فيها إن شاء الله تعالى.</lem>
+						<rdg wit="#Translation">Insha'Allah, an account of his <hi rend="italic">wilāyya</hi>, and what happened in it, will be presented below.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود، و لما أرست المراكب الحربية ببحر السلسلة مبرزة عن الساحل اعتدت أهل الإسكندرية للقتال، و الحرب و النزال،</lem>
+						<rdg wit="#Translation">Let us return to the account: when the war boats anchored at sea, visible from the shore, the people of Alexandria prepared themselves for war.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتعمرت القلاع التي من جهة البحر و الجزيرة، بالرماة الكثيرة،</lem>
+						<rdg wit="#Translation">The fortresses filled up from both the sides—the sea and of the peninsula—with many men ready to hurl weapons.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و انتشرت الناس على السور، و صار برماة الجرخ معمورا.</lem>
+						<rdg wit="#Translation">The people spread out along the fortress walls and they filled up with javelin throwers.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فخرج من مراكب الفرنج قارب يحبس الميناء بقميرة،</lem>
+						<rdg wit="#Translation">The Franks left their boats in small dinghies to reconnoiter the port by moonlight.</rdg>
+					</app>
+				</s>				
+				<s>
+					<app>
+						<lem wit="#Transcription">فرمى المسلمون عليه بالسهام.# فولى هاربا حتى لصق بالمراكب.</lem>
+						<rdg wit="#Translation">The Muslims shot arrows at them # and they hurried back to their boats.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما كان بعد الغروب وُقدت الفوانيس على السور، فضاء السور بالنور،</lem>
+						<rdg wit="#Translation">At sunset they lit their lanterns on the walls, filling the space with light.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و بان المسلمون متأهبين، و بالسور محدقين،</lem>
+						<rdg wit="#Translation">The Muslims appeared ready and were gazing over the walls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و العدو خانس لم يتحرك من الموضع الذي أرسى به، # و صارت تلك المراكب منضّمة بعضها إلى بعض كالطوف الصغير، في البحر الكبير،</lem>
+						<rdg wit="#Translation">The infernal enemy did not move from the spot at which they anchored # and their boats were all grouped together so they looked like a single small raft floating in a big sea.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاستهون المسلمون أمره و قالوا: ما يقدر هذا على هذه المدينة، المسورة الحصينة، و القلاع المشيدة المتينة،</lem>
+						<rdg wit="#Translation">The Muslims underestimated the danger, saying: “They can do nothing to this city. It is walled and fortified, and the fortresses are strong and enduring.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما كان بعد طلوع الشمس من يوم الجمعة انتشر على الساحل بالجزيرة خلق من المسلمين كثيرة،</lem>
+						<rdg wit="#Translation">When the sun rose on Friday morning, many Muslims had already deployed onto the coast of the peninsula.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">منهم من معه سيفه و ترسه، # و منهم من معه نيله و قوسه، # و منهم من معه رمحه و خنجره، # و منهم من ليس عليه سوى ثوبه الذي يستره،</lem>
+						<rdg wit="#Translation">Some of them were carrying swords and shields, # others bows and arrows, # or javelins and daggers, # or even some wearing only ordinary clothing.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و بعضهم قد لبس الزرد المنضد، # و بعضهم من هو عار مجرد، #</lem>
+						<rdg wit="#Translation">Some of them were wearing a coat of mail, # others were simply unarmed. #</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت الباعة خرجوا من البلد بطالبهم و قدورهم و دسوتهم ملآنة بالطعام،</lem>
+						<rdg wit="#Translation">Food sellers came out of the city carrying trays, pots and containers full of things to eat.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">يبيعونها على من بالجزيرة من الخاص و العام، و ذلك من ليلة الخميس ليكسبوا في معايشهم</lem>
+						<rdg wit="#Translation">Throughout Thursday night they sold their food to everyone, in order to make their living.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هم معلنون بلعن كل راهب و قسيس، و ذلك من غير خوف من المراكب التي رثيت يوم الأربعاء في البحر، # ثم إنهم ما فزعوا من الإفرنج باجتماع أفروطتهم يوم الخميس،</lem>
+						<rdg wit="#Translation">As they worked they cursed the monks and priests, but without the slightest fear of the boats that appeared Wednesday at sea, # nor were they alarmed by the Franks collective advances on Thursday.<note type= "critical" anchored="true"><p>The expression Franks is a generic term for the various Christian participants in the raid under the leadership of the King of Cyprus.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بل صاروا يلعنون القبرسى كلعنهم الإبليس، لأمنهم فيما تقدم لهم من بيعهم على الطوائف المتقدم ذكرهم،</lem>
+						<rdg wit="#Translation">They were cursing the Cypriots as if they were Iblīs,<note type= "critical" anchored="true"><p>The name for Lucifer in Islam.</p></note> as they complacently served their food to the many regiments mentioned above. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكان أحدهم يغضب إذا نقص له المشترى حبة أو حبتين، و يفرح إذا غلب المشتري بحبة واحدة،</lem>
+						<rdg wit="#Translation">One of them would get furious if the men took one or two bites too many; on the other hand, if the seller cheated his buyer out of one or two bites he was thrilled.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فيصير البائع كما قال الشاعر:</lem>
+						<rdg wit="#Translation">As the old poem about the seller goes:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">و لا تغضب السوقى<space quantity="10" unit="chars"></space>فيالحبة ترضيه</lem>
+						<rdg wit="#Translation">Don’t anger the vendor<space quantity="10" unit="chars"></space>every penny makes him gay</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">و اخذ الفلس من يديه<space quantity="10" unit="chars"></space>كآخذ الضرس من فيه</lem>
+						<rdg wit="#Translation">As if pulling his molar<space quantity="10" unit="chars"></space>From ‘em, yank that coin away</rdg>
+					</app>
+				</l>
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصاروا يشترون من الباعة و يأكلون، كما كانوا في خروجهم مع الطوائف يعهدون،</lem>
+						<rdg wit="#Translation">They bought and ate from the foodsellers, when they would come out with the army regiments.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ليس كل منهم مفكر في أسطول الفرنج و لا منه خائف،</lem>
+						<rdg wit="#Translation">They were not much thinking of the Frankish fleet, nor were they particularly scared.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صارت الحرافيش و العوام يشتمون القبرسى بالصريح، و يسبونه بكل لفظ قبيح،</lem>
+						<rdg wit="#Translation">The rabble and the riffraff were openly cursing the Cypriots, with all kinds of expletives.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و القبرسى يسمعهم من مراكبه و هو ساكت،</lem>
+						<rdg wit="#Translation">The Cypriots could hear them from their boats, but they stayed silent.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كل من معه لم ينطق بكلمة</lem>
+						<rdg wit="#Translation">None of their men uttered a word.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بل كل منهم صامت،</lem>
+						<rdg wit="#Translation">They just stayed silent.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقيل: إن القبرسى رمى من أعدى الجزيرة في الليل جواسيسه في زيّ لباس المسلمين، مستعربين كالشياطين،# فاحتاطوا بالمسلمين متجسسين،</lem>
+						<rdg wit="#Translation">It was said: “From the tip of the peninsula at night, the Cypriot king sent his spies dressed in Muslim garb, speaking strange Arabic. # They encircled the Muslims, spying on them.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فرأوهم من لباس الحرب عاريين،</lem>
+						<rdg wit="#Translation">Then the Cypriots noticed that they were not donning war garb.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاشتروا من كما قيل من المأكول و أتوا به لصاحب قبرس بالأسطول،</lem>
+						<rdg wit="#Translation">The Cypriots bought some food and brought it back to the leader of the fleet.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قالوا له: ليس بالجزيرة أحد من الشجعان، و ليس بها إلا من هو من لباس الحرب عريان،</lem>
+						<rdg wit="#Translation">They told him: “There are no intrepid men on the peninsula, and no one is dressed in war garb.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">يأكلون و يشربون، و بعضهم يحفر في الرمل حفائر و بها ينامون.</lem>
+						<rdg wit="#Translation">Instead, they are eating and drinking, and some of them are even sleeping in the sand.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="8">
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما كان بها قبل طلوع الشمس من يوم  الجمعة أقبلت العربان، من كل ناحية و مكان،</lem>
+						<rdg wit="#Translation">Before sunrise on Friday morning, the Arabs<note type= "critical" anchored="true"><p>The Arabs here refer to the military reinforcements coming from Cairo.</p></note>arrived from all directions.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قد تخللوا بالكسيان،</lem>
+						<rdg wit="#Translation">The infiltrated the city wearing their usual garb.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت النسوان ينظرن إلى مراكب الفرنج من رؤس الكيمان، التي هي داخل السور، المشرفة على القبور،</lem>
+						<rdg wit="#Translation">The women were watching the Frankish boats from the observation towers in the walls overlooking the cemetery.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فزرغتت النسوان لتلك العربان.# و قلن: قد أتت الشجعان، يقتلون عباد الصلبان،</lem>
+						<rdg wit="#Translation">They ululated when they saw the Arabs and said, # “The heroes have just arrived and they are going to kill the cross worshippers."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصاروا يتطاردون على خيولهم تحت الكيمان،</lem>
+						<rdg wit="#Translation">They were running their horses around below the observation towers.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قد أرخوا لها الأعتة عند سماعهم الزغرتة</lem>
+						<rdg wit="#Translation">When they heard the ululation, they gave the horses free reign.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و تلك العربان من كثرتهم كالمطر، خارجين من الباب الأخضر،# فصاروا في الجزيرة كالجراد المنتشر، و كل من سرابيل الحرب منقشر، # ليس مع كل واحد منهم غير سيفه الأجرب و رمحه، قاصدا إما لقتله أو لجرحه،</lem>
+						<rdg wit="#Translation">The Arabs rushed out of the Green Gate like a flash flood onto the peninsula, # like a swarm of locusts, each donning a worn coat of mail, # and in their hands only a tired sword or a spear to kill or maim.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال أحد المغاربة و غيره للأمير جنغرا:  #هذا عدو ثقيل و قد خرجت الناس من الثغر عرايا للبلايا، # و المصلحة دخولهم المدينة، يتحصنون بأسوارها الحصينة، و يقاتلون من خلف الأسوار،#  ليظن العدو أن خلفها كل رجل كالأسد المغوار،# يذيقونه برميهم عليه الشدة، إلى أن تصل من مصر النجدة،</lem>
+						<rdg wit="#Translation">A Maghribian and some others addressed prince Janghara saying: # “This enemy is so strong, and people rushed away from the inlet unarmed, # but for their own sake they should return to the fortress to be protected by its great walls and fight behind them # so that the enemy would think that each city dweller is as ferocious as a lion. # This way they would have tasted hard fighting until help had arrived from Cairo."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال ممن له رباط بالجزيرة، قد انصرف على بنائه ألوف كبيرة، بنيت بين مقابر الأموات، لمبيت طوائف القاعات : # ما نترك هؤلاء الفرنج الذين كل منهم رجس مقامر، يطؤون بأرجلهم ترب المقابر،</lem>
+						<rdg wit="#Translation">A man who had built an inn<note type= "critical" anchored="true"><p>The Arabic here is ribāṭ, but to distinguish between this kind of urban construction for travellers and the fortifications also known as ribāṭ, we have used the word inn.</p></note>at great cost, located on the peninsula between the many tombs of the cemetery for housing the regiments, spoke up: # “We are not going to let those filthy gambling Franks desecrate the ground in our cemetery.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قالوا ذلك خوفا على ربطهم تخربها الفرنج إذا نزلوا الجزيرة يجمعوهم الكثيرة،</lem>
+						<rdg wit="#Translation">They spoke out, afraid that the Franks would destroy their inn if many of them flooded the peninsula.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال عبد الله التاجر المغربي لجنغرا:# دخول المسلمين البلد أصلح لهم،</lem>
+						<rdg wit="#Translation">ʿAbd Allah the Maghribian merchant told Janghara # “It’s better if we let the Muslims into the city.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقالت أرباب الربط : # أنتم يا مغاربة ! أخبرتم بلدكم طرابلس بأخذ الفرنج،# و تريدون أن تخربوا ربط المسلمين بدخول المسلمين للبلد.  # لا كيد لكم و لا كرامة بل نمتعهم النزول من المراكب، و نذيقهم بالسهام العذاب الواصب.</lem>
+						<rdg wit="#Translation">The inhabitants of the ribats responded: # “Oh you Maghribian people! Your city of Tripoli was destroyed by the Franks, # and in turn, you want to destroy our Muslim homes by letting in the Bedouins camped outside the city. # You have neither scruples nor dignity. # We want to prevent Cypriots from coming off their boats and to do so will inflict great harm by shooting arrows at them.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="9">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم لما كان بعد وقعة القبرسى بسنتين رسم السلطان الملك الأشرف شعبان بهدم ما تجدد في الجزيرة من الربط و القصور # و احترازا من العدو أن ينزلها فيجد مأوى يؤريه و يجد ما يشرب من صهاريجها المملوءة بماء الأمطار،</lem>
+						<rdg wit="#Translation">Two years after the events of the Cypriot raid, the Sultan Shʿabān ordered the demolition of the ribats and castles that had been restored on the peninsula, # so that, if ever the enemy were to settle in them, they would not find a ceiling to shelter them, nor would they quench their thirst from the rain-filled cisterns.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فهدمت تلك الربط و القصور،</lem>
+						<rdg wit="#Translation">So these ribats and castles were demolished.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ولو كان المسلمون تركوا للقبرسى الجزيرة و تحصنوا بالسور. # و قاتلوا من ورائه كل رجس كفور، لكان المسلمون بتحصينهم بالثغر، سلموا من القتل و النهب و الأسر،</lem>
+						<rdg wit="#Translation">By choosing to take refuge inside the city walls [during the raid], leaving the peninsula to the Cypriots, # the Muslims could fight those filthy infidels from behind the walls and be protected on the inlet from murder, pillage and hostage taking.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ما كان عليهم من إخراب الفرنج للربط المبنية، لسلامة الإسكندرية، من أذى الملة النصرانية،</lem>
+						<rdg wit="#Translation">All this precaution was taken for the safety of Alexandria in order to prevent the Franks from destroying homes and protect the city dwellers from the wrath of the Christians.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فالذين خافوا على ربطهم تخربت، و دورهم التي داخل البلد نهبت،</lem>
+						<rdg wit="#Translation">Those who preferred not to take such action had their homes that were situated inside the city pillaged.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك بالرأي الغير صائب، حتى حلت بهم المصائب،</lem>
+						<rdg wit="#Translation">They were wrong to take this decision and a catastrophe befell them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">لكن القضاء إذا نزل لا يرد، و إذا أراد الله بحكم نفذ،</lem>
+						<rdg wit="#Translation">When fate gets in the way we cannot reverse it, and if Allah wants it so, so it will be.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال بعضهم:</lem>
+						<rdg wit="#Translation">Some have written:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+					<l>
+					<app>
+						<lem wit="#Transcription">قضاء المهيمن لا يدفع<space quantity="10" unit="chars"></space>إذا حل من ذا له يمنع</lem>
+						<rdg wit="#Translation">Who can deny or prevent<space quantity="10" unit="chars"></space>the fate of the Omnipotent?</rdg>
+					</app>
+				</l>
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قال الآخر:</lem>
+						<rdg wit="#Translation">And someone else has written:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">و إذا أراد الله إنفاذ القضا<space quantity="10" unit="chars"></space>لم يكن فيه لمخلوق مفر</lem>
+						<rdg wit="#Translation">If Allah wants it that way<space quantity="10" unit="chars"></space>who can run away?</rdg>
+					</app>
+				</l>
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="10">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود إلى ركون الأمير جنغرا لكلام أصحاب الربط و تركه لما قاله له عبد الله التاجر المغربي.</lem>
+						<rdg wit="#Translation">Let us return to prince Janghara's reliance on the opinion of the inhabitants of the ribats and his disregard of the Maghribian merchant ʿAbd Allah.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكان جواب جنغرا لعبد الله التاجر المذكور # :لست أترك أحدا من الفرنج يصل إلى الساحل و لو قطعت متى الأوداج، و نفذت المقاتل، # و إذا أراد الله أن يلطف بعبده ألهمه حسن التدبير، و إذا خذله شتت رأيه،</lem>
+						<rdg wit="#Translation">Janghara responded to ʿAbd Allah in the following manner, # “I will not allow a single Frank to reach the coast even if they were to slit my jugular vein and I were to have no more fighters. # If Allah wants to protect His servant, then He will guide him in making the right decision. If He were to forsake him, he would blur his reason."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن الفرنج صاروا بمراكبهم ينظرون أحوال الناس، فلم يروا إلا من هو عار من اللباس،</lem>
+						<rdg wit="#Translation">Meanwhile, the Franks were watching the people from their boats, but set their sights on the ones who were unarmed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فطمعوا فيهم، و زحفوا بغراب التقدمة إليهم،</lem>
+						<rdg wit="#Translation">They moved forward with knives in hand.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فنزلت إليه طائفة من المغاربة خائضين في الماء، ناوشوا من فيه القتال و الحرب و النزال،</lem>
+						<rdg wit="#Translation">A Maghribian regiment came down to them wading through the water and they started to fight and attack each other.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و مسكوا الغراب يأيديهم،</lem>
+						<rdg wit="#Translation">They grabbed the Franks' knives with their hands.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و طلبوا من الزراقين النار ليحرقوه، # فلم يأت أحد بشرارة، و ذلك لقلة همتهم، و تهاونهم و غفلتهم،</lem>
+						<rdg wit="#Translation">They asked the Blue Regiment for fire so they could burn them, # but no one brought any since they were all so lazy, neglectful and heedless.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاستعجلوهم بالنار، فرموا بمدفع فيه نار كنار الحلفاء، # فوقع في الماء فانطفأ،</lem>
+						<rdg wit="#Translation">They scurried to prepare the flames, and shot cannons with fire burning like dry grass ablaze, # but alas it fell in the water and was extinguished.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن المغاربة و أصحاب الغراب ضربوا بعضهم بعضا بالسيوف إلى أن قتلت المغاربة في تلك المحاربة،</lem>
+						<rdg wit="#Translation">The Maghribians and the knife-bearing Franks fought, striking each other with their swords until the Maghribians lost their lives in that battle.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فحينئذ دخل الغراب الساحل، و تبعه آخر كان يرمي بالسهام،</lem>
+						<rdg wit="#Translation">At that time, the Franks reached the shore, followed by archers.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما دخل البر تتابعت الغربان داخلة من أماكن متفرقة،</lem>
+						<rdg wit="#Translation">When the knife-bearers arrived on land, they entered the city from many different points.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فنزلت الفرنج سريعا من مراكبها بخيلها و رجلها وقت ضحى نهار يوم الجمعة إلى البر،</lem>
+						<rdg wit="#Translation">The Franks alighted quickly from their boats either on horseback or on foot during the day on Friday.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فرمت الخيالة المسلمون بالسهام،</lem>
+						<rdg wit="#Translation">Horsemen shot the Muslims with arrows.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">تقدمهم أصحاب الدرق و السيوف مشاة على الأقدام.</lem>
+						<rdg wit="#Translation">The shield and sword-bearers marched ahead on foot.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما رأت الباعة للطعام الذين كان كل واحد منهم يحلّق على الحبة و الحبتين، ترك ماعونه و هرب حافيا بغير نعلين،</lem>
+						<rdg wit="#Translation">When the foodsellers—set on selling even just a small amount of grain—saw the invaders, they abandoned their pots and ran off on foot.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فمنهم من نجا من الكفرة، و منهم من صارت هامته على الأرض مكركرة،</lem>
+						<rdg wit="#Translation">Some of them escaped the danger of the infidels; others were brought to their mercy by them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت الفرنج مسربلة بالزرد النضيد، متجلببة بصفائح الحديد، # على رؤوسهم الخود اللامعة، و بأيديهم السيوف القاطعة،</lem>
+						<rdg wit="#Translation">The Franks were wearing coats of mail layered with plates of armor. # On their heads were lustrous helmets, and in their hands were trenchant swords.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قد تنكبوا القسى الموتورة، و رفعوا أعلام الصلبان المنشورة،</lem>
+						<rdg wit="#Translation">They mounted strung bows on their shoulders and raised high the banner of the cross.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صاروا يرمون على المسلمين، فارتشقت سهامهم في أهل الإيمان،</lem>
+						<rdg wit="#Translation">They begin to fire at the Muslims, and to pelt both this people of faith and their Arabian horses with arrows.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و في خيول العربان، فهجت بهم تلك الخيول في كل جهة و مكان، فانهزموا إلى ناحية السور،</lem>
+						<rdg wit="#Translation">The horses all ran off in every direction and the Muslims fled towards the ramparts.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصار جيش المسلمين بهزيمة العربان مكسورا، و لا عادوا قابلوا الفرنج الكلاب، بل دخلوا البلد غائرين من الأبواب،</lem>
+						<rdg wit="#Translation">The Muslim army was thwarted by the defeat of the Arabs, and the Muslims did not come back to confront the Frankish dogs, but instead they rushed back into the city through the gates.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت الفرنج لابسين الحديد من الفرق إلى القدم، و المسلمين كلحم على وضم،</lem>
+						<rdg wit="#Translation">Whereas the Franks were wearing armor from head to toe, the Muslims were like meat on the chopping block.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكيف يقاتل اللحم الحديد، و كيف يبرز العارى لمن كس الزرد النضيد،</lem>
+						<rdg wit="#Translation">And how does meat escape the cleaver? How does someone who is unarmed stand up to another wearing a coat of mail?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فانهزم المسلمون و ولوا، و من الكفار فروا، # فقال الشاعر في ذلك:</lem>
+						<rdg wit="#Translation">The Muslims were vanquished and ran off to escape from the infidels. # The poet says about them:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">قد ولت المسلمون لما<space quantity="10" unit="chars"></space>باللبس و افاهم جنود</lem>
+						<rdg wit="#Translation">The Muslims fled when<space quantity="10" unit="chars"></space>the armed men seized them</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">و كيف لا يهربون منهم<space quantity="10" unit="chars"></space>و الناس لحم و هم حديد</lem>
+						<rdg wit="#Translation">How could they not flee<space quantity="10" unit="chars"></space>since they were meat for the block?</rdg>
+					</app>
+				</l>
+			</lg>
+			<p n="11">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن أهل الإسكندرية لما راوا ما لم يعهدوه أبدا، و لا شاهدوه على طول المدى، رجفت منهم القلوب،</lem>
+						<rdg wit="#Translation">Then the people of Alexandria witnessed what they had never seen before in their whole lives, their hearts pounding with fear.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صار كل واحد من عقله مسلوبا، لما رأوا من الرؤوس الطائرة، و الخيول الغائرة،</lem>
+						<rdg wit="#Translation">Each one of them was confounded as they saw heads flying, and the horses rushing in.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتزاحموا على الأبواب بعضهم على بعض،</lem>
+						<rdg wit="#Translation">They cowered together at the gates.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصاروا موتى بالطول و العرض،</lem>
+						<rdg wit="#Translation">Death was everywhere to be found.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ثبت بعض الناس و قاتل و هو مجتهد، حتى قتل من الفرنج ما تيسر له قبل أن استشهد،</lem>
+						<rdg wit="#Translation">Some people stayed put, facing the enemy with faith and determination, doing what they could, resisting and killing the Franks, before they themselves were martyred.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قيل: إن محمد الشريف الجزار هجم على الفرنج بساطور المجزرة، جعل عظام جماعة منهم مكسرة، و هو يقول: الله أكبر!</lem>
+						<rdg wit="#Translation">It was said that Muhammad al-Sharīf the butcher attacked the Franks with the slaughterhouse cleaver, and that he broke all their bones, exclaiming: “Allahu akbar!"</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قتل من كفر؛ إلى أن تكاثرت عليه منهم جماعة كبيرة، فاستشهد رحمه الله بالجزيرة،</lem>
+						<rdg wit="#Translation">He killed the raiding infidels, and then, a big group of them rallied against him and he was martyred on the peninsula—may Allah have mercy upon him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و رئى بعض فقهاء المكاتب و يعرف بالفقيه محمد ابن الطفال و هو قاصد الفرنج بسيفه،</lem>
+						<rdg wit="#Translation">One could see some jurist shaykhs: one of whom was Muhammad ibn al-Ṭufāl who charged the Franks with his sword.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقيل له : تموت يا فقيه محمد !</lem>
+						<rdg wit="#Translation">Someone told him: "You are going to die Shaykh Muhammad!"</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال: إذا أسعد و أصير مجاورا للنبي محمد، و أيّ موتة أحسن من الجهاد في سبيل الله لأصير إلى الجنة.</lem>
+						<rdg wit="#Translation">And he responded: “That makes me even happier since I will be next to the Prophet Muhammad. What death could be better than fighting the enemy in the cause of Allah, since I will go to paradise.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هجم فيهم فصار يضربهم و يضربونه إلى أن رزق الشهادة، و ختم له بالسعادة.</lem>
+						<rdg wit="#Translation">He charged the Franks and they exchanged blows until Allah bestowed martyrdom upon him and finally he attained happiness.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="12">
+				<s>
+					<app>
+						<lem wit="#Transcription">روى أن عمرو بن الجموح كان أعرج شديد العرج و كان له بنون أربعة مثل الأسد، #  يشهدون مع رسول الله صلى الله عليه و سلم المشاهد،</lem>
+						<rdg wit="#Translation">It is believed that ʿAmr ibn al-Jamūḥ used to limp, yet he had four sons with the strength of lions # who participated in the war with Allah's Messenger<note type= "critical" anchored="true"><p>The Prophet Muhammad.</p></note>—Peace be upon him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما كان يوم وقعة أحد أرادوا حبسه عن الخروج و قالوا له: إن الله عذرك بقوله ليس على الأعمى حرج و لا على الأعرج حرج،</lem>
+						<rdg wit="#Translation">On the day of the Battle of Uhud,<note type= "critical" anchored="true"><p>One of the most famous battles of early Islam (23 March 625) which followed the Battle of Badr. Muhammad and men faced the Quraysh tribe in this battle, located about 8 km from Madina.</p></note>his sons tried to prevent him from leaving to war, telling him: “Allah will forgive you, for he said in the Qur'an that 'There is no fault in the blind, and there is no fault in the lame.'”<note type= "critical" anchored="true"><p>Qur’an, Sūrat al-Nūr 24:61 (tr. Arberry).</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فأتى رسول الله صلى الله عليه و سلم فقال: يا رسول الله إن بني يريدون حبسى عن هذا الوجه و الخروج معك فيه، فوالله إني لأرجو أن أطأ بعرجي هذه في الجنة!</lem>
+						<rdg wit="#Translation">So ʿAmr went to the Allah's Messenger—Peace be upon him—and told him: “O Messenger of Allah, my sons want to keep me from this confrontation and from going with you. By Allah, I hope to limp all the way to paradise!”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال رسول الله صلى الله عليه و سلم: أما أنت فقد عذرك الله فلا جهاد عليك، و قال لبنيه: ما عليكم ألا تمنعوه. لعل الله يرزقه الشهادة، فخرج معه</lem>
+						<rdg wit="#Translation">And Allah's Messenger—Peace be upon him—responded: "Allah forgives you. You have no obligation to do so." Then the Prophet said to the man’s sons: “Do not forbid him. Perhaps Allah wants to bestow martyrdom upon him.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فخرج معه فقتل رحمه الله</lem>
+						<rdg wit="#Translation">So the man left with the Prophet and he died—May Allah have mercy upon him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="13">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود إلى ذكر من قاتل بالجزيرة من المسلمين للفرنج الكافرين،</lem>
+						<rdg wit="#Translation">Let us return to the account of the battle on the peninsula between the Muslims and the infidel Franks.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك أن جماعة من رماة قاعة القرافة المتطوعة لما حوصروا في الرباط #  الذي عمره لهم الشيخ الصالح أبو عبد الله محمد بن سلام #  خارج  باب البحر بالجزيرة بسبب مبيتهم فيه و صلواتهم و ذكرهم #  ليلة خروج طائفتهم ترابط به،</lem>
+						<rdg wit="#Translation">A group of reserve lance throwers from the Armory were surrounded in the ribat # which Shaykh AbuʿAbd Allah Muhammad ibn Salām had built for them on the peninsula outside of the Sea Gate for their housing, prayers and meditation, # on the very night their group had been stationed there.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان بناؤه قبل الوقعة بما يزيد على سنة، قيل:إنه انصرف على عمارته ثمانمائة دينار،</lem>
+						<rdg wit="#Translation">It had been built just more than a year before the events and it was said that he had spent 800 dinars on its construction.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما تكاثرت الفرنج حول الرباط صارت رماة المسلمين في أعلاه يرمون على الفرنج بسهامهم، فقتلوا من الفرنج جماعة.</lem>
+						<rdg wit="#Translation">When the Franks surrounded the ribat, the Muslims throwers perched on high began to shoot arrows at them, managing to kill a group of Franks.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما نفذت سهامهم عمدوا إلى شرفات الرباط صاروا يهدمونها و يرمون الفرنج بأحجارها إلى أن نفذت حجارة الشراريف منهم فانقطع رميهم،</lem>
+						<rdg wit="#Translation">When they ran out of arrows, they went to the terraces, smashing them and throwing rocks at the Franks until they ran out of rocks and had nothing left to throw.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكسرت الفرنج شبابيك الرباط المذكور و صعدوا إليهم،</lem>
+						<rdg wit="#Translation">So the Franks broke the windows of the ribat and climbed up to where the Muslims were.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما صارت الفرنج معهم صاحوا بأجمعهم: يا لمحمد! و صمتوا فلم يسمع لهم بعد ذلك صوت،</lem>
+						<rdg wit="#Translation">When the Franks reached them, the Muslims cried in unison “Oh Muhammad!” and after that, there was not a sound to be heard.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">اخبر عنهم بذلك عبد الله ابن الفقيه أبي بكر قيم مسجد القشميري،</lem>
+						<rdg wit="#Translation">ʿAbd Allah, son of the jurist Abu Bakr the custodian of the Qashmīriyy mosque, recounted this story about them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">كان مختفيا بصهريج المذكور،</lem>
+						<rdg wit="#Translation">He had been hidden inside a cistern at that very same spot.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فذبحهم الفرنج عن آخرهم بخناجرهم، فصارت أدميتهم تجري من ميازيب الرباط المذكور كجري الأمطار حين إبانها منها،</lem>
+						<rdg wit="#Translation">The Franks slaughtered the Muslims with their daggers and their blood flowed in the gutters of the ribat like running stormwater.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قيل: كان عدد المذبوحين فوق سطح الرباط من المسلمين الزيادة عن الثلاثين،</lem>
+						<rdg wit="#Translation">It was said that the number of Muslims slaughtered on the ribat’s roof surpassed thirty.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فطوبى لهم إذ رزقوا الشهادة، و ختم لهم بالسعادة.</lem>
+						<rdg wit="#Translation">Blessing be upon them for they were bestowed martyrdom and attained happiness.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="14">
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما رجع من خرج من الإسكندرية فارا من الفرنج من أبواب البر#  كما سيأتي ذكر صفة فرارهم، و عاينوا القتلى المطروحين بالأرض داخل البلد و خارجه بالجزيرة.</lem>
+						<rdg wit="#Translation">Those who had fled Alexandria to escape from the Franks through the Land Gate # —and the accounts of their flight will come later—witnessed the dead bodies lying on the ground on the peninsula, both inside and outside of the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قصدوا رباط بن سلام المذكور، فرأوا تحت الميازيب دماء كثيرة جامدة،</lem>
+						<rdg wit="#Translation">They went towards the ribat of ibn Salām and they saw lots of coagulated blood at the mouth of the gutters.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصعدوا إلى سطحه فوجدوا الرماة قد ذبحوا، و بالجنة قد فرحوا و ربحوا،</lem>
+						<rdg wit="#Translation">They went up to the roof and they found the slaughtered throwers who had been rewarded with paradise.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فحفر لهم خارج الرباط قبر مقسع و دفنوهم فيه رحمة الله عليهم،</lem>
+						<rdg wit="#Translation">Outside the ribat they dug a wide mass grave to bury the dead—may Allah rest their souls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكانوا كما قال الله تعالى في أمثالهم # و قتلوا و قُتلوا لا كفرن تنهم سيئاتهم و لا دخلتهم جنت تجري من تحتها الأنهرثوابا من عند الله و الله عنده حسن الثواب.</lem>
+						<rdg wit="#Translation">As Allah said for those like them who # “fought, and were slain—I shall surely acquit them of their evil deeds, and I shall admit them to gardens underneath which rivers flow. A reward from Allah. And Allah—with Him is the fairest reward.”<note type= "critical" anchored="true"><p>Qur’an, Sūrat al-'Imran 3:195 (tr. Arberry)</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال المؤلف غفر الله له و للمسلمين أجمعين: حدثني الشيخ الصالح أحمد بن النشائى شيخ رماة قاعة القرافة بالإسكندرية قال:# حدثني محمد الخياط بعد قدومه من مدينة قبرس مع من حضر من أسارى الإسكندرية الراجمين إليها منها #  قال: كنت مع رماة المسلمين على سطح رباط البن سلام حين صعدت الفرنج إلينا،# فصاروا يذبحون الرماة و أنا اضطرب من الخوف، فتركوني حيا لصغر سني.</lem>
+						<rdg wit="#Translation">The author of this book wrote—may Allah forgive him, his parents and all Muslims—that Shaykh Aḥmad ibn al-Nashāʾiyy who was shaykh of the Armory group in Alexandria told me: # “Muhammad al-Khayāṭ told me that after he returned from Cyprus with the hostages who had been taken in Alexandria, # ‘I was with the Muslim throwers on the roof of the ribat of ibn Salām when the Franks climbed it up. # When they began to slaughter the throwers, I was overtaken by fear. They spared me from death on account of my youth.'"</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أما حسين البياع فإنهم لما قصدوا  ذبحه ضحك لهم فضحكت الفرنج لضحكه و قالوا:اتركوه لأنه ضحك موضع الخوف.</lem>
+						<rdg wit="#Translation">Husayn the merchant laughed at the Franks when they came to murder him, and the Franks laughed back. They said: "Spare him. He laughs out of fear.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال: فأسرنا الإثنين، فحزن حسين بعد ذلك و بكى؛ # فلما رجعنا مع أسارى الإسكندرية في البحر، فعندما رآها حسين المذكور قام قائما على قدميه، و صرخ فوقع مغشيا عليه، # فحركناه فوجدناه ميتا، فحصل له سعادة لخروجه من أرض الكافرين، و فرحة لرؤية لبلد المسلمين، # فكان بكرم الله من أهل الجنة الفرحين المستبشرين.</lem>
+						<rdg wit="#Translation">Muhammad recounted: “They took the two of us hostage and sadness overcame Husayn and he began to cry. # And when we eventually returned back across the sea with the Alexandrian hostages, and Husayn saw them he stood up, cried out and fainted. # We shook him but we found him dead. He attained happiness just by leaving the land of the Infidel, and was thrilled to see Muslim lands again. # Allah granted him entry into the people of paradise, the happy, the joyful."</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="15">
+				<s>
+					<app>
+						<lem wit="#Transcription">عن فضالة بن عبد الله انه سمع عمر بن الخطاب رضي الله عنه يقول: # الشهداء أربعة: فرجل مؤمن جيد الإيمان لقى العدو فصدق الله حتى قتل فذلك الذي يرفع إليه الناس أعينهم يوم القيامة هكذا - و رفع رأسه حتى وقعت قلنسيته،# و رجل مؤمن جيد الإيمان لقى العدو كأنما يضرب جلده يشوك الطلح من الجبن أتاه سهم غرب فقتله فهو في الدرجة الثانية، #  و رجل مؤمن خلط عملا صالحا و آخر سيئا، لقى العدو فصدق الله حتى قتل فذلك في الدرجة الرابعة،</lem>
+						<rdg wit="#Translation">Faḍāla ibn ʿAbd Allah heard ʿUmar ibn al-Khaṭṭāb—may Allah be pleased with him—say: # "there are four types of martyrs: the believer with good faith who meets the enemy and holds true to Allah until he is killed. This person people will look up to on the day of final judgement, so high up that their cap falls off. # The second is the believer of good faith who meets the enemy as if his skin had been pierced with acacia thorns frontally, and a sharp arrow comes and kills him. He is on the second level. # The fourth level is for the believer who does as many bad deeds as good ones, and he meets the enemy, holding true to Allah until he dies."<note type= "critical" anchored="true"><p>The third kind of martyr is not given in the original text.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سيأتي ذكر الشهداء و فضلهم إن شاء الله تعالى</lem>
+						<rdg wit="#Translation">Insha'Allah, an account of the martyrs and their works, will come later.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="16">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود. و لما رأى الشيخ محمد بن سلام ما فُعل برباطه من أخذ بابه و شبابيكه النحاس و كسر قناديله و حرق سقف إيوانه و قتل رماة المسلمين</lem>
+						<rdg wit="#Translation">Let us return to when Shaykh Muhammad ibn Salām saw what was done to his ribat, how the door and the copper windows had been pillaged, how the lamps were broken, how the roof of his iwān<note type= "critical" anchored="true"><p>An iwān is a large sitting room.</p></note>was burnt, and how the Muslim throwers were killed there.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بكى و تألم على ما رأى و شاهد،</lem>
+						<rdg wit="#Translation">He cried and suffered over what he witnessed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فسدّ حينئذ شبابيكه و بابه بالحجارة، ثم إنه عمّره ثانيا في ستة إحدى و سبعين و سبعمائة،</lem>
+						<rdg wit="#Translation">He had sealed in the windows and the doors with rocks, then he moved back into it in 771.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصار كما كان أولا، لكنه أتى سقف إيوانه بالحجارة لا بالخشب حتى لا يصير للنار فيه عمل إن حدث أمر،</lem>
+						<rdg wit="#Translation">His ribat now looks just as it was when it was new, except that this time he vaulted the ceiling of the iwān with stone, rather than the original wood, just in case they tried to burn it again.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هذا الرجل و هو محمد بن سلام المذكور صاحب هذا الرباط من عباد الله الصالحين المتصدقين،</lem>
+						<rdg wit="#Translation">The ribat's owner, Muhammad ibn Salām, is among Allah’s pious charitable servants.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">له صدقات جارية على أهل الصلاح و المساكين، صدقاته في السر و الإعلان، بالدراهم و الخرفان،</lem>
+						<rdg wit="#Translation">He gives alms regularly to the pious and poor, both anonymously and publicly, in the form of money or sheep.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">يفرق الضحايا في عيد النحر فوق المائة خروف.</lem>
+						<rdg wit="#Translation">He gives away more than a hundred sheep on Eid al-Adha.<note type= "critical" anchored="true"><p>Eid al-Adha (The Feast of Sacrifice) falls two months and ten days after the end of the month of Ramadan. Typically, Muslims slaughter sheep for Eid al-Adha.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و يكسي جامع الإسكندرية الغربى بالحصر صفوفا بعد صفوف،</lem>
+						<rdg wit="#Translation">He donated the money for the floors of the western Alexandrian mosque to be covered with rows and rows of mats.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فجزاه الله عن فعله خيرا،</lem>
+						<rdg wit="#Translation">May Allah bless him for that!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقاعة الخرافة التي هي برسم الرماة المتطوعة من بعض وقوفاته.</lem>
+						<rdg wit="#Translation">The Armory belonging to the reserve throwers was among his endowments.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ينفعه أجرها في حياته و مماته.</lem>
+						<rdg wit="#Translation">He derives reward from his good deeds in this life and beyond.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فمن فرش رقد. و من زرع حصد،</lem>
+						<rdg wit="#Translation">For he who lays down his mattress, sleeps, and he who plants, reaps the harvest.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال الشاعر:</lem>
+						<rdg wit="#Translation">The poet wrote:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">سيترك الجامعون ما جمعوا<space quantity="10" unit="chars"></space>و يحصد الزارعون ما زرعوا</lem>
+						<rdg wit="#Translation">The collectors will abandon what they collected<space quantity="10" unit="chars"></space>And the planters will harvest what they planted.</rdg>
+					</app>
+				</l>				
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">فأهل الصدقات يتسالون من الله الحسنات، ومع ارتفاع الدرجات في الجنات،</lem>
+						<rdg wit="#Translation">Those who are generous in almsgiving receive merits from Allah, rising to special heights of heaven.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتشبهوا بهم تكوفوا مثلهم، إن القشبه بالكرام فلاح.</lem>
+						<rdg wit="#Translation">Imitate those people, be like them, since imitation of generosity brings salvation.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="17">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود إلى  ذكر خبر الإسكندرية، و ذلك أن الامير جنغرا المتقدم ذكره</lem>
+						<rdg wit="#Translation">Let us return to the account of Alexandria and the aforementioned prince Janghara.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">لما رأى الناس فروا من بين يديه و من خلفه و عن يمينه و شماله بلذع سهام الفرنج، و التذع هو أيضا بها،</lem>
+						<rdg wit="#Translation">He saw the people fleeing behind him, to the right and to the left of him, stung by the Franks’ sharp arrows, and he felt their pain.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سال دمه من نصلها،</lem>
+						<rdg wit="#Translation">His blood dripped from the arrowheads.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ندم على مخالفته لقول القائل له: ادخل بالناس ليتحصنوا بأسوارها الحصينة: يقاتلوا الفرنج الكفار بسهامهم من كوى الأسوار، إلى أن تأتي النجدة، في أقرب مدة ليزول بحضورها عن المسلمين الشدة.</lem>
+						<rdg wit="#Translation">He regretted having disagreed with what they told him: "Go inside with the people to shield yourselves behind the fortified walls and fight the infidel Franks by shooting them with arrows through the murder-holes in the fortification until help arrives. Soon their arrival will lighten the pressure on the Muslims.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتيقن حينئذ أن عدم خروجهم من الأبواب، كان عين الصواب، و أن الذي أشار عليه بعدم دخولهم البلد، كان فيه أليم العذاب، و صار كل منهم بالفرار مركونا، ببلد البسلقون، و بلد الكريون، و غيرهما من البلاد، الدانية و البعاد.</lem>
+						<rdg wit="#Translation">He knew then that had they not gone out through the gates, they would have been safe, and that the choice not to go into the city had caused tortuous pain, and that everyone has had to flee to take refuge in al-Baslqūn, al-Karyūn or other villages, both near and far from Alexandria.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="18">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن جنغرا قصد ناحية المطرق المحاذى لدار السلطان غربى الإسكندرية من ظاهر سورها،</lem>
+						<rdg wit="#Translation">Then Janghara went to the nearby area of al-Matriq, in front of the sultan’s house to the west of Alexandria beyond its walls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">خائضا بفرسه في الماء و من تبعه من المسلمين،</lem>
+						<rdg wit="#Translation">He waded through the water on horseback with his men, the Muslims.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فدخل الإسكندرية من باب الخوخة،</lem>
+						<rdg wit="#Translation">He entered Alexandria through the Gate of Necropolis.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فأتى بيت المال، أخذ ما كان فيه من ذهب و فضة أخرجهما من باب البر،</lem>
+						<rdg wit="#Translation">He came to the Treasury, took its gold and silver out through the Land Gate.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أمر بتجار الفرنج و قناصلهم و كانوا نحو خمسين بالإسكندرية مقيمين، أخرجهم من باب البر، وجّههم إلى ناحية دمنهور بعد أن امتنعوا من الخروج مع الجبلية المرسمين عليهم.</lem>
+						<rdg wit="#Translation">He ordered the fiftysome Frankish merchants and their consuls residing in Alexandria to leave in the direction of Damanhūr after they refused to leave first with the highland guard assigned to them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فعند ذلك ضرب أحد الجبلية عنق إفرنجي منهم بسيفه،</lem>
+						<rdg wit="#Translation">After that, one of the highlanders slit the throat of one of the Franks.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فحين رأوا ذلك خافوا أن تضرب أعناقهم. فأذعنوا بالخروج سرعة.</lem>
+						<rdg wit="#Translation">Upon seeing him do that, the other Franks feared he would do the same to them, and so they left rather quickly.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فخرجت الجبلية بهم مسلسلين إلى جهة دمنهور،</lem>
+						<rdg wit="#Translation">The guard took them out chained together in the direction of Damanhūr.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان خروجهم بهم حين انضمام العدو إلى القرب من السور، فرماهم المسلمون من أعلى السور بالسهام فلم يقدروا على الوصول إليه.</lem>
+						<rdg wit="#Translation">They left together, just as the enemy had almost reached the walls and the Muslims began to shoot them with arrows from high up, preventing the group from reuniting with the enemy.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="19">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن الفرنج عمدوا إلى بتّيّة خشب ملأوها حريقا و قصدوا بها حرق باب البحر بكركرتها بآسنة الرماح،</lem>
+						<rdg wit="#Translation">Then the Franks made a wooden barrel full of flaming oil so they could burn down the Sea Gate by shooting fireballs on the tip of the javelins.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتتابعت عليهم السهام من أعلى السور. فقتل من الفرنج جماعة،</lem>
+						<rdg wit="#Translation">The arrows which continued to shower down upon them from up on the wall killed a group of Franks.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فحاروا في أمرهم ما ذا يفعلونه،</lem>
+						<rdg wit="#Translation">The Franks then consulted with each other about what to do next.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتركوا البتّية تقد بنارها بعيدا من الباب، و رجعوا إلى ناحية الميناء الشرقية</lem>
+						<rdg wit="#Translation">They left the barrel spitting fire far from the wall and they went back in the direction of the Eastern port.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و نظروا فلم يجدوا على السور من تلك الجهة أحدا و لا ثم خندقا يمنع من الصعود إلى السور، # فدرجوا إلى جهة باب الديوان،</lem>
+						<rdg wit="#Translation">They looked around, and finding no one on that side of the wall, nor a trench preventing them from climbing up on it, # they headed for Customs Gate.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">أحرقوه و دخلوا مع ما نصبوا هناك من السلالم الخشب المفصلة،</lem>
+						<rdg wit="#Translation">They burnt it and entered it, using wooden ladders made to rest up against the walls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">صعدوا عليها السور،</lem>
+						<rdg wit="#Translation">They scaled the walls using the ladders.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما رآهم المسلمون الذين على السور من البعد</lem>
+						<rdg wit="#Translation">The Muslims saw the Franks at a distance from up on the walls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قد صعدوه و بينهم و بين الفرنج قلعة عالية غير نافذة إليهم شردوا طالبين النجدة منهم لكثرتهم و لتحققهم بأن الفرنج ملكت البلد،</lem>
+						<rdg wit="#Translation">They climbed up and saw that between them and the Franks there was turret they couldn't access, so the Muslims took flight and called out for help from the rest, since they were all but sure that the Franks had taken control of the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقتل من المسلمين من أدركته الفرنج،</lem>
+						<rdg wit="#Translation">Every Muslim whom the Franks encountered was killed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سلم منهم من خرج من أبواب البر،</lem>
+						<rdg wit="#Translation">Those who left through the Land Gates were saved.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلو كان السور الذي يلي البحر جميعه معمرا بالرجال من جهة الديوان و الصناعة سلمت منهم الإسكندرية، #  و إنما قال شمس الدين أن غراب كاتب الديوان وشمس الدين بن أبي عذيبة الناظر : # أغلقوا باب الديوان الذي يلى البلد لئلا تنقل التجار بضائعها منه إلى البلد، فتضيع الحقوق التي عليها،</lem>
+						<rdg wit="#Translation">Had the sea-facing walls been full of men on the side of the Customs Gate and al-Sīnāʾa, Alexandria would have been spared, # whereas Shams al-Dīn ibn Gharāb, writer at the Diwan, and Shams al-Dīn ibn abī ʿAdhība al-Nāẓir both said: # “The Customs Gate next to the city had been bolted so that the merchants could not bring their merchandise into the city, and that the inhabitants of the city could preserve their exclusive privileges to the trade."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقفل الباب، فلذلك امتنعت الرماة من تلك الجهة من السور، # فذلك رأى العدو جهة خالية دخل البلد منها،</lem>
+						<rdg wit="#Translation">So the gate was locked, preventing the throwers from accessing that side of the wall, # and the enemy found an unmanned place through which they penetrated into the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قيل: إن بن غراب المذكور كان متعاملا مع صاحب قبرس عليها، #  و إن صاحب قبرس أتاها قبل الوقعة في زي تاجر آواه ابن غراب المذكور مدة،</lem>
+						<rdg wit="#Translation">It was said that Ibn Gharāb was collaborating with the Cypriot leader and that before the raid, # the Cypriot leader had come to the city at the invitation of Ibn Gharāb dressed as a merchant.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصار القبرسى يتمشى بالبلد من جملة الفرنج التي بها تجارا</lem>
+						<rdg wit="#Translation">The Cypriot regularly walked around the city with other resident Frankish merchants.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وهو يكفيها، و ينظر أحوال الناس بها،</lem>
+						<rdg wit="#Translation">He was sizing up the city, and its inhabitants.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما علم ذلك بعد الوقعة [وسط] الأمير صلاح الدين بن عرام بعد قدومه من الحجاز شمس الدين بن غراب المذكور و علقه قطعتين على باب رشيد.<note type= "critical" anchored="true"><p>We omit the word "وسط" that Atiya also finds puzzling at this location in the text.</p></note></lem>
+						<rdg wit="#Translation">When the prince Ṣalāḥ al-Dīn ibn ʿArām returned from Hijaz and found out about it after the raid, he chopped the aforementioned Shams al-Dīn ibn Gharāb into two pieces, hanging both of them on the Rashid Gate.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلو فتح باب الديوان الذي يلي البلد # قاتل المسلمون الفرنج من أعلى سوره،# ووجدوا ما يقوتهم بالأكل من نقل الشام،# و كانت أصحاب البضائع تحرسها و يطعمون منها المجاهدين .</lem>
+						<rdg wit="#Translation">Had they opened up the Customs Gate next to the city, # the Muslims would have fought the Franks from up on the wall # and they would have had enough merchandise from Damascus to eat their fill, # for the merchants would have guarded their goods and fed the fighters.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="20">
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما لم يكن للأمير جنغرا رأى صائب، و قفل ابن غراب و الناظر لباب الديوان#  أخذت الفرنج البلد منه و نفذت المقادير من كل كبير. من أهل الثغر و صغير،</lem>
+						<rdg wit="#Translation">As the prince Janghara’s opinion was misguided and Ibn Gharāb and the gatekeeper had locked the Customs Gate, # the Franks captured the city from every young and old inhabitant of the inlet.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فمنهم من قتل و منهم من أسر،# و منهم من سلم و منهم من كسر،</lem>
+						<rdg wit="#Translation">Some were killed, others were taken hostage. # Some were saved, others were crushed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و منهم من هرب، بعد أن ألقى سلاحه و اضطرب،</lem>
+						<rdg wit="#Translation">Even others escaped after they threw down their arms and panicked.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و منهم من ترك وطنه و تغرّب،# و منهم من ازدحم في الأبواب و مات،# و منهم من اقتقر و بلى بالشتات،</lem>
+						<rdg wit="#Translation">Some of them left their country bitterly. # Some crowded at the gates and then perished. # Some were ruined and cursed to be scattered all over.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فما أسرع ما أخذ الثغر.#  و ما أعجل ما انكوى قلوب أهله بالجمر.</lem>
+						<rdg wit="#Translation">The city's inlet was captured so quickly # that the hearts of its people smoldered with sorrow.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ظفرت به الفرنج في اليوم الذي نزلوا فيه من مراكبهم إلى البر،</lem>
+						<rdg wit="#Translation">The Franks captured the city the very same day that they stepped off of their boats onto the mainland.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و لا أمسك بالحصار يومين، # بل أخذ من المسلمين في ساعتين،</lem>
+						<rdg wit="#Translation">The Franks' siege did not even take two days, # instead they defeated the Muslims in two hours.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قد قيل: إن الحصار للمدن و الحصون تمسك السنة و السنتين.</lem>
+						<rdg wit="#Translation">People usually say that a siege of cities and fortifications usually takes a year or two.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="21">
+				<s>
+					<app>
+						<lem wit="#Transcription">أخبرني الشيخ الفقيه العالم الفاضل المدرس أبو عمرو التونسى عن جده لأمه قال # : إني من أهل مدينة لُرقة ببر الأندلس، و إن الفرنج حاصرتها و أنا بها مدة تزيد عن ثلاث و عشرين سنة، # و بنوا إلى جنبها بلدا، و انتهى أمر المسلمين فيها إلى أن كان الرجل يخرج بالطبق فيه الذهب و الجوهر و لم يجد من يملأه له عوض ذلك قمحا ولا شعيرا، # و لا بقى عندهم كلب و لا هرّ و لا فأر حتى أكلوه، و وقدوا سقوف ديارهم تحت قدور عصائدهم،</lem>
+						<rdg wit="#Translation">Abū ʿAmr al-Tūnisiyy, the learned, commendable teacher, shaykh and theologian, told me about his maternal grandfather who recounted the following: # “I am of the people of the city of Lorca in al-Andalus and I was in my city as it was besieged by the Franks for more than 23 years. # They built a city next to it. Toward the end of the siege, the Muslims were in such dire straits that someone could go out with a plate full of gold and jewels and could not even barter them for some wheat and barley. # There were no dogs or cats or rats left since they had eaten them all. They had even taken the wood from their roofs and their houses and burned it underneath their vats of gruel."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و بعد ذلك صالحوا الفرنج على أنفسهم، و خرجوا بعد المدة المذكورة فتسلمتها الفرنج بعد تلك المدة الطويلة،</lem>
+						<rdg wit="#Translation">After that, the people of Lorca surrendered to the Franks and left, giving up after a long siege.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أهل الإسكندرية تسلمتها الفرنج منهم في بعض يوم بقرارهم منها، و عندهم ما يأكلون و يشربون إلى أن تصل إليهم النجدة من مصر،</lem>
+						<rdg wit="#Translation">On the other hand, the people of Alexandria left their own city in less than a day, even though they had enough food and water to last until help came from Cairo, and that is when the Franks captured the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلا حول و لا قوة الا بالله العلي العظيم، و لكن هكذا قُدّر،</lem>
+						<rdg wit="#Translation">Unfortunately, it was fated to happen this way—there is no power and might, except in Allah.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أيضا لو أقاموا ببلدهم. و رمى كل واحد من أعلى داره على الفرنج بالحجار، سلمت لهم ما في الدار،</lem>
+						<rdg wit="#Translation">If the Muslims had stayed in the city, all throwing stones at the Franks from the roofs of their houses, their belongings would have been saved.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">كفعل ابن نخالة كاتب المحجة على بيع الثمرة البساتين يرميه  # هو و رجاله على الفرنج بالحجار، من أعلى الديار،</lem>
+						<rdg wit="#Translation">Ibn Nakhāla, the scribe of al-Mahajja on which the produce of the orchards was sold, did just that, throwing stones with his men at the Franks from the roofs of their houses.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلم يوجد بالحجة بعد ذلك علج يمر بها، بل أخذت الفرنج حذرهم منها،</lem>
+						<rdg wit="#Translation">After that, not a single hooligan would enter this area and the Franks took great care there.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فسلمت ديار المحجة من النهب.</lem>
+						<rdg wit="#Translation">This way the houses of al-Mahajja were saved from pillaging.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="22">
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما دخل الإسكندرية الأمير الاتابكى يلبغا الخاسكي بعد الوقعة #  قيل له ذلك، فقال:# إذا كان النخال حفظ جهته فكيف لو كان دقيقا أو سويقا كان حمى البلد و لم يدخل اليه من الإفرنج أحد</lem>
+						<rdg wit="#Translation">When the Atabeg prince Yalbughā al-Khāssikiyy came into Alexandria after the events, # he was told what had happened and even he responded: # “If each person had protected his own land, no matter his stature, the city would have been saved and no Franks would have made their way in.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="23">
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان فرار أهل الإسكندرية من الفرنج من باب السدرة و باب الزهرى و باب رشيد، بعد زحام شديد،</lem>
+						<rdg wit="#Translation">The people of Alexandria escaped from the Franks, squeezing through the crowded Gate of the Pillar, al-Zuhri Gate and Rashid Gate.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فمنهم من أدركته الفرنج بباب السدرة قتلته،# و منهم من أسرته،# و منهم من نزل من السور في الجبال و العمائم،# فعطب العاطب و سلم السالم،</lem>
+						<rdg wit="#Translation">Some of them were caught by the Franks at the Gate of the Pillar and were killed. # Some were taken hostage. # Some escaped by climbing down ropes or turbans tied together. # Some were injured, others made it down safely.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صعدت الفرنج على أعلى باب السدرة نصبت عليها الصلبان،</lem>
+						<rdg wit="#Translation">The Franks climbed up on the top of the Gate of the Pillar and they raised the cross.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صار كل واحد من المسلمين برؤيته للفرنج كالهائم الولهان،</lem>
+						<rdg wit="#Translation">All the Muslims were spellbound, even terrified, at the sight of what the Franks had done.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان خروج أهل الإسكندرية من الأبواب، من أعجب العجاب،  # و ذلك لازدحامهم و هلاك بعضهم من قوة الزحمة</lem>
+						<rdg wit="#Translation">The exodus of the Alexandrians from the gates was a most startling thing to see, # as the mob of people squeezed through the doors trampling and killing some of them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و في ذلك الوقت نزعت من قلوبهم الرحمة، فخرج من الأبواب ألوف مؤلفة، بتوحيد الله معترفة،</lem>
+						<rdg wit="#Translation">In this very moment, their hearts were emptied of mercy, and thousands of them—all believers in the unity of Allah—went pouring out of the gates.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فامتلأت منهم الغيطان و البلدان،</lem>
+						<rdg wit="#Translation">Nearby cities and oases filled up with these people.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و نهب بعضهم العربان، و غلا السعر بينهم، ما جلبته الباعة إليهم من البلدان،</lem>
+						<rdg wit="#Translation">The Bedouins robbed them and the sellers in those places sold goods to them at very high prices.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فباعوا الغالي بالرخيص،</lem>
+						<rdg wit="#Translation">They bartered expensive goods for next to nothing.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صار كل منهم على تحصيل القوت حريصا،</lem>
+						<rdg wit="#Translation">They all wanted to buy food and hoard it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و لا أمكنهم ترك القوت لزيادة الغلاء، #  و لا رجعوا إلى قول الشاعر في بيته السائر بين الملأ، و هو:</lem>
+						<rdg wit="#Translation">No one was able to give away their food since it all was so dear, # nor did they take heed of what the poet wrote in his well-known verse:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">و إذا غلا شيء على تركه<space quantity="10" unit="chars"></space>فيكون أرخص ما يكون</lem>
+						<rdg wit="#Translation">If you need something so much<space quantity="10" unit="chars"></space>its value is less than when it was dear</rdg>
+					</app>
+				</l>
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">إذا غلا لأن الجوع ما معه صبر، و لأنه في الفؤاد أحر من الجمر.</lem>
+						<rdg wit="#Translation">Hunger has no patience, and when it is deep inside us, it burns hotter than hot coals.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سيأتي فيما يرد من هذا الكتاب خير الأمير سلار، الذي حوى من الأموال التي هي كالبحر الزخار، و من الحبوب ما ضاقت به الشؤن الكثيرة،</lem>
+						<rdg wit="#Translation">Later in this book will come an account of prince Silār who amassed money like an overflowing ocean and so much grain that he was at a loss of what to do with it all.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و مات بشهوة كسرة خبز أو لعقة من عصيدة و حريرة</lem>
+						<rdg wit="#Translation">He died of hunger for just a crumb of bread or a lick of gruel or soup.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">حتى قيل : إنه أكل أخفافه و أكتافه من شدة الجوع.</lem>
+						<rdg wit="#Translation">It was even said of him that he ate both his toes and his clothes. That is how hungry he was!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سيأتي أيضا ذكر ما حصل لبعض الناس في الغلاء من البلاء إن شاء الله تعالى</lem>
+						<rdg wit="#Translation">An account will follow—Insha'Allah—also concerning the misfortunes of many people when the prices went up.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="24">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود ثم أنه لما حصل الغلاء بين أهل الإسكندرية، الذين فروا من الملة النصرانية،</lem>
+						<rdg wit="#Translation">Let us return to the people of Alexandria who fled from the Christians and what happened to them when the prices rose.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">منهم من باع ما عليه من فوطة و فاضل قميص،</lem>
+						<rdg wit="#Translation">Some of them had to sell off their linens and whatever shirts they had left.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و منهم من باع ما يتدفأ به من جبة و فرو مصيص،#  و ذلك لخروجهم من بلدهم سرعة، و ليس مع بعضهم درهم ولا قطفة،</lem>
+						<rdg wit="#Translation">Some of them sold the jubba and the coarse pelts that used to keep them warm, # since they had fled their city in such a hurry that they took nothing with them, neither money, nor food.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بل تركوا ديارهم مغلقة الابواب،</lem>
+						<rdg wit="#Translation">They just locked their doors and left.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">كسرتها و رتعت فيها الإفرنج الكلاب،</lem>
+						<rdg wit="#Translation">The Franks—those dogs—came and broke the doors down and revelled as they forced their way in.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فنهبتها من الحوانيت و الفنادق، و حملت ما فيها على الجمال و البغال و الحمير و الأيانق،</lem>
+						<rdg wit="#Translation">They plundered the stores and the fonduks and took all the camels, mules, donkeys and she-camels they liked.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم قتلوا من اختفى عند مصادفتهم له من كبير و صغير،</lem>
+						<rdg wit="#Translation">They killed the animals that ran away, both young and old, when they found them again.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و عرقبوا المواشي فمنهم هالك و كسير، ثم انهم أحرقوا القباسر و الخانات،</lem>
+						<rdg wit="#Translation">They hamstrung the livestock, killing some and crippling others, and then set barracks and khans ablaze.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أفسدوا النسوان و البنات،</lem>
+						<rdg wit="#Translation">They violated the women and the girls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كسر كل علج مارد، قناديل الجوامع و المساجد.</lem>
+						<rdg wit="#Translation">The heartless infidels shattered the lamps of the mosques.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و علقوا على السور أعلام الصلبان،</lem>
+						<rdg wit="#Translation">They hung crosses on the walls.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أسروا الرجال و النساء و الإماء و الولدان،</lem>
+						<rdg wit="#Translation">They took the men, the women, the slaves and the children all hostage.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قتلوا كل شيخ عاجز، حتى المجانين و البلهاء و العجائز،</lem>
+						<rdg wit="#Translation">They even killed all the old and infirm, even the insane, the idiots and the elderly.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ضاع الناس في خروجهم من أبواب المدينة، ما استخفوا حمله من ذهب و مصاغ للزينة، و ذلك من قوة الزحمة،</lem>
+						<rdg wit="#Translation">While leaving the gates of the city, some people lost the gold and jewelry they tried to carry away with them as they were desperately trying to escape through the crowds.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و طلب النجاة بقوة همة، فمن الناس من خرج بما كان معه،# و منهم من ضاع ما معه في تلك الزحمة المفظعة،</lem>
+						<rdg wit="#Translation">Some of them made it out with what they had, # others lost everything in that terrible commotion.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و منهم من ضاع ماله الذي خرج به بين الأبواب،</lem>
+						<rdg wit="#Translation">Some of them just lost the money they were carrying.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صار من ضياعه في حسرة و اكتئاب.</lem>
+						<rdg wit="#Translation">This loss plunged them into grief and distress.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="25">
+				<s>
+					<app>
+						<lem wit="#Transcription">قيل: إن بعض تجار الأعاجم خرج من باب رشيد و معه جراب فيه ستة آلاف دينار،</lem>
+						<rdg wit="#Translation">The story has it that one of foreign merchants went out through Rashid Gate carrying a pouch full of six thousand dinars.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فمن قوة الزحمة في الباب سقط من بين يديه، بعد أن كان قابضا عليه،</lem>
+						<rdg wit="#Translation">From the great disorder at the gate, even though he was clutching onto his pouch, it fell from his hands.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فما قدر على الإنحناء يأخذه من الأرض #  من قوة ازدحام الناس بعضهم لبعض،</lem>
+						<rdg wit="#Translation">He was unable to lean down to pick it back up from the ground # since there were so many people pushing and shoving.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بل دفعه من كان خلفه فخرج صحيح البدن من الباب،# مجروح القلب من ضياع الجراب،</lem>
+						<rdg wit="#Translation">Those behind him pushed him through the gate and he made it out safe and sound, # but broken-hearted since he lost his money pouch.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فتفتت أكباده، و عدم نومه و رقاده، و صار إلى الجنون انقياده،</lem>
+						<rdg wit="#Translation">His loss made his spirit crumble, he could not sleep and he was driven to insanity.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و زال عنه عقله و إرشاده،</lem>
+						<rdg wit="#Translation">He lost his mind and reason.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصار يستغيث فلا يغاث،</lem>
+						<rdg wit="#Translation">He called out for help, but in vain.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و نحل جسمه حتى صارت عظامه كالرفات،</lem>
+						<rdg wit="#Translation">His body became emaciated until he was bony as a skeleton.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم حصل له بذلك الضرر و البؤس،</lem>
+						<rdg wit="#Translation">He was surrounded by contradiction and calamity.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">لما أحيطت به العكوس و النحوس،</lem>
+						<rdg wit="#Translation">He was struck by evil and desperation.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصارت الأحباب تلومه على ضيعة الجراب،#  فأنشد من لوعة الاكتئاب:</lem>
+						<rdg wit="#Translation">All his kin blamed him for losing the pouch # and he sang out in sad agony:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">إذا كنت ألقى البؤس عند أحبتي<space quantity="10" unit="chars"></space>ترى عند أعدائي يكون دوائي</lem>
+						<rdg wit="#Translation">When I find desperation with my kin,<space quantity="10" unit="chars"></space>I see the remedy in my enemy.</rdg>
+					</app>
+				</l>
+			</lg>
+			<p n="26">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن الفرنج فعلوا بالإسكندرية ما تقدم ذكره من نهب بعد كسر، و قتل و إحراق و أسر،</lem>
+						<rdg wit="#Translation">The Franks did in Alexandria all of what was recounted above, pillaging, destruction, murdering, burning and capturing hostages.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">من نصر يوم الجمعة إلى آخر يوم السبت ثانيه.</lem>
+						<rdg wit="#Translation">And this took place from Friday evening until the end of the day on Saturday.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكان مما أحرقوا حوانيت الصرف بكمالها، و سوق القشاشين بالمعاريج، و الحوانيت الملاصقة لقيسارية الأعاجم من خارجها من الجهة الشرقية،</lem>
+						<rdg wit="#Translation">They completely burnt the money lenders, the straw market in al-Ma’arij and the stores attached to the foreigners’ barracks outside on its eastern side.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و حوانيت شارع المرجانيين و بعض فنادقه و فندق الطبيبة مع فندق الجوكندار، و فندق الدمامني الذي بسوق الجوار،  # و وكالة الكستان، المقابلة للجامع الجيوشي بالقرب من العطارين مع سوق الخشابين،</lem>
+						<rdg wit="#Translation">In addition, they burned stores on al-Marjāniyyīn Street, some of the fonduks<note type= "critical" anchored="true"><p>A fonduk is a location commercial or trade establishment, sometimes housing traders or travelers.</p></note>—including al-Ṭabība, al-Jūkandār and al-Damāminiyy—inside the al-Jawār Market, # and the linen market facing the al-Juyūchiyy mosque, near the perfume and wood markets.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أحرقوا أيضا درازي مدرسة بن حباسة مع سقف الإيوان،</lem>
+						<rdg wit="#Translation">They also burned the balustrade of the Ibn Ḥabāsa madrassa and the ceiling of the iwān.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و عبثوا بكل ناحية و مكان، و أحرقوا باب مدرسة الفخر القريبة من باب رشيد،</lem>
+						<rdg wit="#Translation">They plundered here and there and they burnt the door of the al-Fakhr madrassa near Rashid Gate.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و عبث بإحراق بعض حوانيت الحجة كل علج مريد.</lem>
+						<rdg wit="#Translation">The cruel infidels set fire to some of the stores in al-Muhajja.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="27">
+				<s>
+					<app>
+						<lem wit="#Transcription">ذكر لي شيخ يسكن بالحجة قال: كنت مختفيا بأعلى دارى في مكان أنظر من كوة صغيرة، # فرأيت الفرنج يأتون إلى الحانوت المغلوق الباب،# فيمد أحدهم على بابه خطة سوداء و يخط من فوقها خطة حمراء،# و يلقم الخط النار فيلتهب الباب بسرعة،</lem>
+						<rdg wit="#Translation">An old man living in al-Muhajja told me: “I was hiding high up inside my house and was looking through a small attic window. # I saw the Franks come to the locked stores. # One of them painted a black line on the door, then a red line on top of it. # The fire devoured the line and quickly burnt down the door."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قيل: إن الفرنج يستصحبون معهم حلق الحراقات المغموسة بالزيت و القطران و الزفت و النفط، #  فيضع أحدهم الحلقة الواحدة في نصل السهم الموضوع على متن قوس الركاب و يلقم الحلقة النار و يفك الوتر من الجوزة، فيخرج السهم صاعدا إلى السقف يركز فيه فيلتهب الخشب بسرعة، # فينزل إلى الأرض يحرق كل ما في البيت مما ليس لحملهم به حاجة، # يفعلون ذلك نكاية للمسلمين، لعنة الله على الفرنج أجمعين.</lem>
+						<rdg wit="#Translation">It was said: ‘The Franks take along rings of tinder dipped in oil, tar, bitumen and naphtha. # The Franks put one of those rings on the arrowhead, place the arrow in the bow, light it and release the arrow from the bow and the arrow flies up to the roof, sticks to it and sets the wood immediately afire. # The ceiling falls to the ground and burns everything in the house that they have not taken with them. # The Franks do this just to spite the Muslims—may Allah curse them all!’”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="28">
+				<s>
+					<app>
+						<lem wit="#Transcription">و سأذكر الآن ما كانت الملوك تفعله من الحريق لفتح المدن و الحصون إن شاء الله تعالى؛</lem>
+						<rdg wit="#Translation">I will now recall—Insha'Allah —how incendiary kings acted in their conquests of cities and citadels.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ذكروا أن الإسكندر كان يفتح المدائن بالحجارة، حجارة قد هيأها،</lem>
+						<rdg wit="#Translation">They say that Alexander used to conquer cities with stones that had been pre-treated.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و حمل معه حريقا يعالجه أهل الروم،#  فيطلى به الحجارة، ثم يضرب بها المدائن،</lem>
+						<rdg wit="#Translation">He would carry combustibles made by the Byzantines # with which he would coat the stones and then launch them on cities.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلا يقع الحجر منها على حجر و لا مدر و لا خشب إلا أحرقه في أسرع من طرفة عين،</lem>
+						<rdg wit="#Translation">When these weapons would fall on the city, there was neither stone, nor mud nor wood that would not combust in a blink of an eye.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وكان مسيره في الأرض رحمة للمؤمنين، وعذابا للكافرين،</lem>
+						<rdg wit="#Translation">Alexander's advance across lands brought mercy to the faithful and suffering to the infidel.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و النار أيضا من أشد العمل في استفتاح الحصون،  # كما فعل الإسكندر في مدينة من مدائن الهند بناؤها خشب الساج و القنا،</lem>
+						<rdg wit="#Translation">Fire was one of the most efficient ways of conquering citadels, # and this is how he conquered a city in India built of teak and canna.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك أنه حاصرها أياما كثيرة،  # وكان فيها حمام دواجن، فأمر الإسكندر بصيدها فاصطيدت،</lem>
+						<rdg wit="#Translation">He would besiege the city for many days, # and Alexander would have their messenger pigeons caught.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم علق في أرجلها قوارير النفط و النار،  # و خلى عنها فرجعت إلى أوكارها و أوطانها بالمدينة،</lem>
+						<rdg wit="#Translation">Then, he would attach small bottles of naphtha and fire to their leg # and release them to return to their sheltered nests in the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فجعلت القوارير تنكسر و تشعل النار حتى أضرمت المدينة نارا،</lem>
+						<rdg wit="#Translation">The flasks would explode and flames would break out, causing the city to catch fire.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و خرج أهلها عنها هربا، فأخذهم أسرى،</lem>
+						<rdg wit="#Translation">The inhabitants of the city would escape from the flames and Alexander would capture them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">وقد امتثل هذا بعض الملوك بعد الإسكندر في مدينة حصينة كثيرة الأهل أطال مقامه عليها،</lem>
+						<rdg wit="#Translation">Many kings for a long time after Alexander used this stratagem for highly-populated, fortified cities under siege.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت سطوحهم مؤلفة بالحلفاء و البردى لكثرة الأمطار بها و دوامها عليها،</lem>
+						<rdg wit="#Translation">The roofs in the city were made of papyrus and esparto grass to protect the people from the heavy continuous rains.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاتخذ من الورق الصيني طيارات،# و عمد إليها في ليلة شديدة الريح و الظلة</lem>
+						<rdg wit="#Translation">The kings would make kites out of Chinese paper # and bring them on a gloomy windy night.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فشد في أذانها قوارير النفط و النار،</lem>
+						<rdg wit="#Translation">They would attach small bottles of naphtha and fire to the tails of the kites.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و لذع الورق بالنار المحشوة بالنفط،  و طيرها نحو مدينتهم،</lem>
+						<rdg wit="#Translation">They would light the paper kites on fire and would fly them in the direction of the cities along with the naphtha bottles.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما أظلتهم قطعت خيوطها تلك النار،#  فتنافطت عليهم، فاشتعلت مدينتهم نارا</lem>
+						<rdg wit="#Translation">When the kites flew over the target the fire would consume the string # and the burning kites would fall on the city, catching it on fire.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ففتحوا أبوابها، و خرجوا هاربين منها.</lem>
+						<rdg wit="#Translation">The people would open their gates and escape.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="29">
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذكروا أن ملكين من الهند اقتتلا، # فقهر أحدهما صاحبه حتى صار إلى قلة و ذلة،</lem>
+						<rdg wit="#Translation">According to legend, two kings of India had a fight # and one of them subdued the other into wretchedness and submission.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما اشتد عليه الأمر دعا وزيرا #  كان لأبيه شيخا كبيرا له تجربة،</lem>
+						<rdg wit="#Translation">As the situation weighed upon him, the subdued king called upon his father’s advisor # who happened to be a very wise old man.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان قد جفاه و اقصاه قبل ذلك،</lem>
+						<rdg wit="#Translation">Previously he had shunned him and had kept his distance.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقال له:#  قد وقعنا فيما ترى، فما عندك ؟</lem>
+						<rdg wit="#Translation">The king said to him: # “As you can see, we are in fix. Can you help us out?”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قال له:# مر أصحابك فليعد كل واحد منهم كركيا، و هم اثنا عشر ألفا،</lem>
+						<rdg wit="#Translation">His advisor responded: # “Demand that each and every one of twelve thousand supporters prepare a crane."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فأعدوا اثنى عشر ألف كركي،</lem>
+						<rdg wit="#Translation">And so they prepared twelve thousand cranes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم أمر أن يتخذ لها سلاسل رقاق كالخيوط تشد في أرجلها  # و تسرج القناديل بفتائلها، ثم يخلى عن الكراكي في الليل المظلم،</lem>
+						<rdg wit="#Translation">Then he instructed him to take wire-thin chains and attach them to the cranes’ legs, # then to light the wicks of the lanterns, and release the cranes to fly into the darkness of night.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ففعل ذلك  # و خلى عنها فعلت في الجو فصرخت</lem>
+						<rdg wit="#Translation">The subdued king did just that. # He released the cranes, they flew up in the air, crying out.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصارت تلك القناديل تسرج في الليل بين السماء و الأرض و أظلت عسكر عدوه،</lem>
+						<rdg wit="#Translation">The lamps glowed in the night between land and sky, and flew over the enemy’s army.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فنظر العدو إلى النيران في الهواء، و سمعوا صراخ الكراكي</lem>
+						<rdg wit="#Translation">The enemy watched the light in the air and heard the cries and clamour of the cranes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و حملبتها فظنوا أنه أمر من السماء،</lem>
+						<rdg wit="#Translation">They believed erroneously that what was happening was coming from the heavens.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاستعظموا ذلك و شغلهم عن التحرر و الاحتراز،#  فهجم عليهم ذلك الملك الذي كادهم بهذه المكيدة هو و جيشه</lem>
+						<rdg wit="#Translation">Distracted by this false sign and caught off guard by the subdued king's ruse, # they were then attacked by his army.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاصطلهم و قتلهم،</lem>
+						<rdg wit="#Translation">He rooted them out and killed them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فحصل له العز بعد الذلة بهذه الحيلة المجلة.</lem>
+						<rdg wit="#Translation">Whereas previously he had been belittled, he attained glory using this brilliant stratagem.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="30">
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذكروا أن الإسكندر كتب إلى معلمه أرسطاطاليس:# إني هجمت على أمة لا يحصون عددا، و لا يطاقون شدة و بأسا#  فأشر علي،</lem>
+						<rdg wit="#Translation">Legend has it that Alexander wrote to his tutor Aristotle the following: # “I am attacking a nation of vast population, who can tolerate such force and misfortune. # Give me advice what to do.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فكتب إليه: إن هؤلاء القوم لا نقدر عليهم بالمحاربة. و أمكن بالحيل اللطيفة،# فاتخذ ألف فرس بفرسانها من نحاس أجوف تمشونها بلوالب و في أيدي فرسانها النيازك.# و أشمل النيران في أجوافها لنخرج من مناخرها و أفواه فرسانها، # ثم عودها خيلكم لتأنس بها، فإذا آنست بها فانشب الحرب بينك و بين القوم. ثم انهزم عنها و خلّ تلك الخيول بفرسانها النحاس،</lem>
+						<rdg wit="#Translation">Aristotle responded: “These peoples must not be fought by force, but rather by intelligent stratagems. # Construct a thousand mounted horses, all automata made out of hollow copper, and make them advance mechanically, with the copper horsemen brandishing short spears. # Light fires inside of them so that the horses' noses and riders' mouths belch fire. Train your horses to be accustomed to the fire so that they do not fear it. # Once they have learned to bear it, initiate battle between you and those people. Then, begin to retreat, leaving the fabricated horses with their copper humanoids.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ففعل،</lem>
+						<rdg wit="#Translation">So Alexander did this.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما هجمت عليها خيل القوم رجعن ناكصة بهم نافرة من تلك النيران التي خرجت من أفواه الفرسان النحاس و من مناخر الخيل النحاس،</lem>
+						<rdg wit="#Translation">When the enemy’s horses attacked Alexander’s automata, they recoiled from them, running away from the fire of their noses and mouths.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاستعظموا ذلك و شغلهم عن التحرز و الاحتراز، فشد عليهم عند ذلك الإسكندر فاصطلمهم و قتلهم.</lem>
+						<rdg wit="#Translation">They were distracted by this scene, and were caught off guard, and Alexander was able to root them out and kill them.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="31">
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذكروا عن أصحاب الأترسة لما لقوا عدوهم # أشاروا إلى خيل عدوهم بالتماثيل المشوهة الهائلة الوحشة المنظر،</lem>
+						<rdg wit="#Translation">Legend has it that when the shield-bearers encountered their opponents, # they made sure that the enemy’s horses saw their frightening, huge, monstrous statues.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما رأتها خيل العدو نفرت منها و رُدّت على أعقابها،</lem>
+						<rdg wit="#Translation">When the enemy’s horses saw them they turned back and ran away.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فانهزم العدو و انتصروا عليه.</lem>
+						<rdg wit="#Translation">This is how the enemy was vanquished, and how Alexander proclaimed victory over them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">انتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="32">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود إلى ذكر ما فعلته الفرنج أيضا بالإسكندرية.</lem>
+						<rdg wit="#Translation">Let us return to the account of what the Franks did in Alexandria.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن الملاعين أحرقوا فندق الكيتلانيين و فندق الجنوبيين و فندق الموزه و فندق المرسلين،#  فصارت النار تعمل في البندق و البضائع التي لم تجد لها محملا معهم لإشحان مراكبهم</lem>
+						<rdg wit="#Translation">This cursed people burned down Fonduk al-Kitlāniyyīn, Fonduk al-Janūbiyyīn, Fonduk al-Mawza and Fonduk al-Mursalīn, # and the fire began to consume the bullets and various merchandise that the Franks had not already managed to stash on their boats.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">بما أخذوه من أموال الإسكندرية.</lem>
+						<rdg wit="#Translation">They also stole a lot of Alexandrian currency.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="33">
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم كسرت الفرنج أيضا حوانيت الشماعين و البياعين بعد نهب قياسر البزازين،</lem>
+						<rdg wit="#Translation">The Franks ransacked the stores of the candlemakers and the merchants, after having pillaged al-Bazāzīn property.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كسروا ما فيها من الأوعية و الأواني و الأعقاق و البرائي، فصارت ملقاه مطروحة في الطرقات # قد سأل ما فيها من زيت و عسل و سمن و غير ذلك،</lem>
+						<rdg wit="#Translation">They smashed the containers, the dishes, the water jars and the earthenware on the ground, # and the liquids in them—oil, honey, butter and other substances—started flowing in the streets.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كسروا أيضا حوانيت الصاغة،#  أخذوا ما فيها من مال و مصاغ،</lem>
+						<rdg wit="#Translation">The Franks also destroyed the jewelry shops, # stealing whatever money and gold they found.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">كما أخذوا من حوانيت الصرف ما كان بها من دنانير و دراهم.</lem>
+						<rdg wit="#Translation">They stole from the money lenders all the dinars and dirhams they could.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و نهبوا أقمشة التجار المصريين و الشاميين،#  المحزومة المهيأة للسفر بها لمصر و الشام،</lem>
+						<rdg wit="#Translation">They looted the textiles from the Cairene and Damascene sellers # that were all bundled up ready for export to Cairo and al-Shām.<note type= "critical" anchored="true"><p>The name in Arabic for Greater Syria.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و نهبوا أيضا الحرير الذي قدمت به تجار الأعاجم و غيرهم إلى الإسكندرية  # و كانت عدة قناطير.</lem>
+						<rdg wit="#Translation">Then, they stole the silk that the merchants, foreigners and other people brought to Alexandria. # The theft amounted to several kantars.<note type= "critical" anchored="true"><p>A kantar is an old measurement roughly the same as a hundredweight.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و نهبوا من الدور الأموال و الأقمشة و المصاغ و الفرش و البسط و النحاس و غيره،</lem>
+						<rdg wit="#Translation">They looted money, cloth, jewelry, furniture, carpets, copper and even more from homes.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أخذوا معهم باب المنار الذي كان عمره الأمير صلاح الدين بن عرام قبل الوقعة # على الأساس الذي كان أسسه الملك المنصور قلاون و بطلت عمارته،</lem>
+						<rdg wit="#Translation">They took with them the Lighthouse Gate, a new gate which had been erected by the prince Ṣalāḥ al-Dīn ibn ʿArām before the raid, # on the same foundations where the construction on King al-Mansūr Qalāwūn’s gate had been started, but then abandoned.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فعمل بن عرام عليه حصنا دائرا،</lem>
+						<rdg wit="#Translation">Ibn ʿArām had built out of it a reinforced, circular wall.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم أخذت الفرنج أيضا شبابيك قبة تربة طغية التي بالجزيرة، # و احرقوا سقوف الربط التي بها،</lem>
+						<rdg wit="#Translation">The Franks also stole the windows from the dome of the Turbat Ṭāghiyya mosque on the peninsula # and they burnt the beamed ceilings in it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و هي التي خافت عليها أصحابها من الإفرنج قبل نزول الفرنج من مراكبهم،</lem>
+						<rdg wit="#Translation">The owners had feared that the Franks would do such a thing before the Franks had even disembarked from their boats.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="34">
+				<s>
+					<app>
+						<lem wit="#Transcription">و كسروا قناديلها و قناديل المزارات، # و أفدوا قصور الجزيرة و تربها، # و كسروا أعمدة قبة منير مصلى العيد و عمودي ضرائح قبة تربة الأمير طغية و الأمير بلاط</lem>
+						<rdg wit="#Translation">The Franks broke the lamps of mosques and those of the shrines of holy men, # they ruined the peninsula’s palaces and cemeteries, # and they smashed the columns of the ‘Aid prayer room's domed minbar as well as two columns of the domed mausoleums of Prince Ṭāghiyya and Prince Balāt.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">اللذين فيهما تاريخ وفاتهما و# كانا مموهين بالذهب و اللازورد،</lem>
+						<rdg wit="#Translation">Those columns had carved upon them the dates of their deaths # and they were decorated with gold and lapus lazuli.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و قلعوا حلقتي باب المدرسة الخلاصية التي عمرها نور الدين ابن خلاص،</lem>
+						<rdg wit="#Translation">They tore off the two large door knockers of the entrance of the al-Khulāsiyya madrassa that had been built by Nūr al-Dīn ibn Khalās.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانا من النحاس المخرم، فعمل لباب المدرسة المذكورة غيرهما بعد أشهر من حين الوقعة،</lem>
+						<rdg wit="#Translation">These knockers were made of filigreed copper. # Within months of the raid on Alexandria, they had been replaced on the madrassa's door.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أخذوا منها كرسى الربعة و بيتها،</lem>
+						<rdg wit="#Translation">Then, the Franks took a chair and its cover from the madrassa’s rab‘a.<note type= "critical" anchored="true"><p>The meaning of this word is not clear, but from context, it is a set of furnishings.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانا من النحاس الأندلسي المخرم المنزل فيهما اليقات الفضة بدائرهما،</lem>
+						<rdg wit="#Translation">They were both made of Andalusian filigreed copper and set with precious stones surrounded by silver.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">لم يُرَ مثلهما حسن صنعة و تدقيق تخريم،</lem>
+						<rdg wit="#Translation">No one had ever seen such high quality manufacture and such precise filigree.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و تركوا أجزاء الربعة المذكورة الثلاثين جزءا مطروحة بالمدرسة المذكورة لم يأخذوا جزءا واحدا،</lem>
+						<rdg wit="#Translation">Of the thirty pieces making up the rab‘a was made up of thirty pieces, they only took this one.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و صعدوا صومعة المدرسة النابلسية #  فوجدوا فيها جمال الدين ابن يانيها مختفيا منهم بها،</lem>
+						<rdg wit="#Translation">The Franks climbed the minaret of the al-Nābulsiyya madrassa # and they found Jamāl al-Dīn ibn Yānīha, the son of its builder, hiding from them up there.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان شيخا كبيرا ضعيف البنية، فألقوه على رأسه من أعلاها إلى الأرض</lem>
+						<rdg wit="#Translation">He was an old shaykh, weak in stature, and when the Franks flung him from the top of the minaret, he fell to the ground landing on his head.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فاندقت عنقه فمات شهيدا رحمه الله.</lem>
+						<rdg wit="#Translation">His neck snapped and he died a martyr—may Allah have mercy upon him.<note type= "critical" anchored="true"><p>This passage is quoted verbatim by the historian al-Maqrīzī (1364–1442) in his work al-Sulūk li-Ma‘rifat Duwal al-Mulūk.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="35">
+				<s>
+					<app>
+						<lem wit="#Transcription">وقتلوا من وجدوه بالجوامع و المساجد.# وأقاموا بالإسكندرية العرابد،</lem>
+						<rdg wit="#Translation">The Franks slaughtered anyone they found in the mosques # and they wreaked general havoc on the city of Alexandria.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقتلوا الناس في الدور و الحمامات و الشوارع و الخانات،  # و كانت الفرنج تخرج بالنهب من الإسكندرية إلى مراكبهم على الإبل و الخيل و البغال و الحمير.</lem>
+						<rdg wit="#Translation">They killed people in their homes, in the hammams, in the streets and in the khans # and the Franks hauled all their loot out to their boats, including dromedaries, horses, mules and donkeys.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما فرغوا من النهب و قضوا اربهم من البلد # طعنوها بالرماح، و عرقبوها بالصفاح،</lem>
+						<rdg wit="#Translation">When they had finished looting and had satisfied their desires in the city, # they stabbed the remaining animals with lances and hamstrung them with the flats of their swords.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فصارت مطروحة بالجزيرة و البلد لم يعلم لها عدد</lem>
+						<rdg wit="#Translation">There were so many animals left this way on the peninsula and in the city that you could hardly count them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فهلكت و جافت فأحرقها المسلمون بالنار لتزول رائحة جيفها،</lem>
+						<rdg wit="#Translation">Later, the animals died and started to dry up, so the Muslims burnt the corpses to get rid of the stench.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن الفرنج تحصنوا بمراكبهم بعد وقرها و إشحانها بما نهبوه،#  و كانت تزيد على سبعين مركبا،</lem>
+						<rdg wit="#Translation">The Franks secured their position in their boats after having filled them up with loot #—there were over seventy of them!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و تركوا بالساحل فضلات البهار التي لم يجدوا لها محملا، # فرجع إلى أربابه، من وجد علامة عليه أخذه.</lem>
+						<rdg wit="#Translation">The Franks left all the spices they could not carry away on the coastlines. #  Eventually those spices made it back to their owners, each of whom located his sacks by the labels on them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم إن مراكب الفرنج ثقلت بما فيها # فصاروا يلقون ما فيها في البحر على ما قيل لتخف من كثرة الوسق،</lem>
+						<rdg wit="#Translation">The boats were so heavy with all that was amassed in them # that the Franks began to jettison some of the goods, so as to lighten them from excessive load.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان الغواصون يرفعون النحاس و غيره بناحية بوقير.</lem>
+						<rdg wit="#Translation">Divers from around Abūqīr plunged in the sea to recover the copper and other valuable goods.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="36">
+				<s>
+					<app>
+						<lem wit="#Transcription">و لو لا لطف الله تعالى بعباده المسلمين بحرقهم باب رشيد و باب الزهرى # كانت الفرنج ملكت البلد و حصل التعب في خلاصها #  كما حصل في طرابلس الغرب و مدينة انطاكيا ببر التركية.</lem>
+						<rdg wit="#Translation">Had it not been for the kindness of Allah towards His faithful Muslims while Rashid Gate and al-Zuhri Gate were being burnt, # the Franks would have taken the city and it would have been very hard to deliver it, # as was the case for Tripoli in the West and the city of Antakya in Turkey.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">سيأتي فيما يرد من هذا الكتاب ذكر ظفر الفرنج بهما إن شاء الله تعالى،</lem>
+						<rdg wit="#Translation">Later in this book will be related—Insha'Allah —how the Franks triumphed in those cities.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و لطف الله تعالى بعباده المسلمين في عدم معرفة الفرنج لقصر السلاح الذي بالموضع المعروف بالإسكندرية بالزربية # لو فهموه أحرقوا جميع ما فيه من السلاح المدخر من عهد الملوك السالفة # رحمة الله عليهم.</lem>
+						<rdg wit="#Translation">By the benevolence of Allah the Franks did not know of the storehouse full of weapons, the famous site in Alexandria known as the Corral # —since had they known about this location, they would have burnt all of the weapons stockpiled in the days of the previous kings—# may Allah have mercy upon them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فقد وضعوا فيه من الأسلحة الكثيرة ما ليس لعددها حصر.</lem>
+						<rdg wit="#Translation">So many weapons are stored there that there is no way we could even count them all.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="37">
+				<s>
+					<app>
+						<lem wit="#Transcription">ذكر أبو العباس أحمد شيخ رماة قاعة القرافة المرصدة لسلاح الجهاد المتطوع به،  # بها ستين ألف سهم من بعض السهام التي في أحد بيوت قاعة من قاعاته،</lem>
+						<rdg wit="#Translation">Abū al-ʿAbbās Aḥmad, the leader of the Armory throwers—a reserve battalion that oversaw the Armory—# reported that there were sixty thousand arrows in just one of the sections of the storehouse.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">قيل: إن فيه عدة قاعات، في كل قاعة عدة بيوت،# في كل بيت آلاف مؤلفة من السهام إلى غيرها من السيوف و الرماح و المزاريق و الأتراس، و الخوذ و القنابر و الزرد و الزرديات و الأطواق و القرقلات و السواعد و الركب و الساقات و الأقدام الحديد و القسى الملولبة و الجرخ، و الركاب و الأعلام. # ما لا ينحصر بالأقلام # ثم فيه أيضا من حجارة العلاج و المدافع و النفط و البارود و حبل الحروف و مكايدها كثير،</lem>
+						<rdg wit="#Translation">He said: “There were many sections in it, and in each section, many rooms. # In each room there were thousands of arrows in addition to swords, lances, javelins, shields, helmets, full magazines, coats of mail, pliers, girdles, qarqalāt, targes, stirrups, greaves, sabatons, spiral-decorated breastplates, jirikh, saddles and flags, # so many indeed that the pen cannot describe them all. # There were also stones for throwing, cannons, oil, bullets, and many tricks and traps for war."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلو علمت به الفرنج أحرقته سريعا،</lem>
+						<rdg wit="#Translation">Had the Franks had known about this stockpile, they would have burnt it right away.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فحصل اللطف الكبير من اللطف الخبير# لعدم معرفتهم إياه بعد أن أتوا إلى بابه</lem>
+						<rdg wit="#Translation">Such great benevolence came from the Omniscient Kind One, # that the Franks were not aware of the presence of arms even though they had stood at the very door of the storehouse.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ظنوا أنه أحد أبواب المدينة،</lem>
+						<rdg wit="#Translation">They thought it was only one of the gates of the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">خافوا من كسر بابه ليكون وراءه كمين يطبق عليهم.</lem>
+						<rdg wit="#Translation">They were afraid to break open the door, lest there be an ambush that would trap them.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="38">
+				<s>
+					<app>
+						<lem wit="#Transcription">قال المؤلف غفر الله له و لوالديه و للمسلمين أجمعين: # حدثني الشيخ الصالح أبو عبد الله محمد بن يوسف حارس القصر المذكور و يعرف بابن قراجا. قال# : كنت ليه بمفردي لما دخلت الفرنج الإسكندرية، فأغلقت بابه، # و قرأت حزب سيدي الشيخ الصالح أبى الحسن الشاذلي ، و إذا بالفرنج أتوا إلى الزربية فيهم خيالة و مشاة، # و كنت صعدت أعلى القصر، فصرت أنظر إليهم من شقوق في حائطه. فطلع بعضهم على زلاقة بابه ، # و صاروا يتشاورون في أمره ، و كنت أعددت لنفسي مكانا أختفي به إن دخلوه . # لكن خفت أن يحرقوه فأهلك بالنار.# فوقفوا ساعة و تركوه و مضوا، # فرأى أحدهم صبيا بالزربية يعدو سريعا عند معاينتهم لهم ، فعدا الإفرنجي خلفه ، فلما أحس به الصبي وقف باهتا من الخوف، # فضربه الإفرنجي بسيفه فالتقى الصبي الضربة بيده اليسرى، فطارت يده إلى الأرض،# ثم ضربه ضربة أخرى على عانقه، فوقع على شقه الأيمن مستقبلا القبلة ، # ومضى وتركه # فصار الصبي ينش الذباب بيده اليمنى عن وجهه و جراحه# و هو راقد، و ما أمكننى النزول من القصر إليه خوفا من رجوع الفرنج إلى الزربية، # فصار الصبي مطروحا بالأرض إلى أن مات شهيدا رحمه الله.</lem>
+						<rdg wit="#Translation">The author—may Allah pardon him, his parents and all Muslims— # recounted that Shaykh al-Sāliḥ abū ʿAbd Allah Muhammad ibn Yūsuf, the storehouse guard, also known as Ibn Qarāja, had said: # “I was in alone in the storehouse when the Franks entered Alexandria and so I locked myself inside. # I was reading the set portion of prayer from Shaykh al-Sāliḥ abī al-Ḥasan al-Shādhiliyy, and that is when the Franks arrived at the Corral full of horses and infantrymen. # I climbed up to the top of the storehouse and was watching them from the crevices in the walls and some of them turned their glance up at the eaves of the door. # They began to consult with each other on what to do, and I was preparing a space to hide myself in case they came in. # I was afraid that they would burn it and I would die in the fire. # They stayed outside for an hour, then left and moved on. # One of them spotted a boy in the Corral who ran off quickly and one of the Franks ran after him, and when the boy sensed his presence, he froze, pale with fear.  # The Frank struck him with his sword and sliced the boy's left hand off. It fell to the ground. # He struck him a second time on his shoulder and the boy fell on his right side in the direction of the qibla. # After this, the Frank took off, leaving the boy on the ground. # The boy started to swat away flies from his face and his wounds with his right hand. # The boy lay on the ground, but I could not go down from my hiding place in case the Franks returned to the Corral. # The boy stayed on the ground until he died a martyr—may Allah have mercy upon him."</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">إنتهى.</lem>
+						<rdg wit="#Translation">End of quotation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="39">
+				<s>
+					<app>
+						<lem wit="#Transcription">نعود إلى ذكر ما أحرقته الفرنج أيضا الإسكندرية،  # و ذلك أنهم أحرقوا أبواب البحر الأول و الثاني، و أبواب الباب الأخضر الثلاثة، و باب الخوخة و المجانيق التي كانت بالصناعتين الشرقية و الغربية،</lem>
+						<rdg wit="#Translation">Let us return to the account of what the Franks burnt in Alexandria. # They burnt the first and second doors of the Sea Gate, as well as the Green Gate, and the Gate of Necropolis and al-Majaniq Gate in the eastern and western manufacturing quarters.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كانت أهل الإسكندرية وقت هزيمتهم أخرقوا أغربة كانت بالصناعة الشرقية لئلا تأخذهم الفرنج،</lem>
+						<rdg wit="#Translation">When they lost, the Alexandrians burnt sword blades that were in the eastern manufacturing quarter, lest the Franks run away with them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما رأتهم الفرنج محروقة أحرقتهم بالنار،</lem>
+						<rdg wit="#Translation">When the Franks found them singed, they burned them completely.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ثم أحرقت الفرنج أيضا دار الطراز و الديوان بعد أن أخذوا ما في دار الطراز من الاستعمالات الرفيعة الأثمان،</lem>
+						<rdg wit="#Translation">Then the Franks burned an embroidery shop and its diwan after they had taken everything of value and quality from it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و أحرقوا أيضا قلعة ضرغام، و المكان المعروف بالكدس، و كان يرسم الاستعمالات أيضا.</lem>
+						<rdg wit="#Translation">They also burned Ḍirghām Tower and the place known as al-Kads which also had valuable amenities.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="40">
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان مدة إقامة الفرنج من حين أتوا إلى الإسكندرية، و ظفروا بها  # إلى آخر من سافر منهم ثمانية أيام،</lem>
+						<rdg wit="#Translation">From the moment when the Franks arrived in Alexandria and claimed victory over it # until the departure of the very last one of them passed a total of eight days.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و ذلك أنهم أتوها يوم الخميس حادي عشرين المحرم سنة سبع و ستين و سبعمائة، # و سافر آخرهم يوم الخميس الثامن والعشرين من الشهر المذكور،</lem>
+						<rdg wit="#Translation">They arrived Thursday, the 21st of Muharram in the year 767 # and the last one of them left on Thursday 28th of the same month.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و كان سبب إقامتهم تلك الأيام لينظروا من البحر من يأتي من النجدة من مصر،</lem>
+						<rdg wit="#Translation">They stayed that long in order to watch from the sea if help would come for the Alexandrians from Cairo.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فلما عاينوا و هم بمراكبهم العساكر أقبلت كالجراد المنتشر يقدمها الأمير الاتابكى يلبغا الخاسكي،</lem>
+						<rdg wit="#Translation">From their boats, the Franks witnessed the military advance like a swarm of locusts, led by the Atabeg prince Yalbughā al-Khāssikiyy.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">سافروا كما قال بعضهم في المرئية رثى بها الإسكندرية:</lem>
+						<rdg wit="#Translation">The Franks sailed away, as in an elegy written for Alexandria:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">يا لها من كسرة يجبرها<space quantity="10" unit="chars"></space>من إذا شاء للكسر جبر</lem>
+						<rdg wit="#Translation">Oh to set the broken limb<space quantity="10" unit="chars"></space>he who wants it to be set</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">بالمقر الأشرف العالى الذي<space quantity="10" unit="chars"></space>جوده كالشمس في الأرض انتشر</lem>
+						<rdg wit="#Translation">From his high honored stance<space quantity="10" unit="chars"></space>whose bounty covers the earth like the sun</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">يلبغا ليث الوغا من سيفه<space quantity="10" unit="chars"></space>للطغاة المارقين لم يذر</lem>
+						<rdg wit="#Translation">the sword of Yalbughā, lion of war,<space quantity="10" unit="chars"></space>tyrannical renegades never escape.</rdg>
+					</app>
+				</l>								
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">و منها:</lem>
+						<rdg wit="#Translation">And the poem continues:</rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">ملأ البر جيوشا شُوسها<space quantity="10" unit="chars"></space>من أولى العزم صناديد غرر</lem>
+						<rdg wit="#Translation">The mainland filled up<space quantity="10" unit="chars"></space>with armies most loyal unconquerable men of action,<note type= "critical" anchored="true"><p>“Men of action” (من أولى العزم) is a common epithet for the most important prophets: Noah, Abraham, Moses, Mahomet and sometimes for Isaac, Jacob, David, Job and Jesus.</p></note></rdg>
+					</app>
+				</l>	
+				<l>
+					<app>
+						<lem wit="#Transcription">و خيول صافنات ضُمَّر<space quantity="10" unit="chars"></space>للقا الأعدا لها كَرُّ و فر</lem>
+						<rdg wit="#Translation">Horses standing one foot raised,<space quantity="10" unit="chars"></space>prepared to meet an enemy who would turn around and flee</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">قادها الليث المصور يلبغا<space quantity="10" unit="chars"></space>من على الديِن بمرأة خفر</lem>
+						<rdg wit="#Translation">The vice-like lion Yalbughā led them<space quantity="10" unit="chars"></space>-whoever is religious will protect women</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">يأخذ الثأر من الأعداء فلم<space quantity="10" unit="chars"></space>يلق للأعداء في الثغر أثر</lem>
+						<rdg wit="#Translation">He took revenge on the enemy;<space quantity="10" unit="chars"></space>but there was no trace of them on the inlet</rdg>
+					</app>
+				</l>	
+				<l>
+					<app>
+						<lem wit="#Transcription">بل هم لما رأوا جيشه<space quantity="10" unit="chars"></space>أقبلت تحربهم مثل المطر</lem>
+						<rdg wit="#Translation">For when they saw his army # advancing on them like the rain</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">أيقنوا ألا نجاة لهم<space quantity="10" unit="chars"></space>من عظيم حربه إلا السفر</lem>
+						<rdg wit="#Translation">They knew for certain there was no way<space quantity="10" unit="chars"></space>out of the war, except flight.</rdg>
+					</app>
+				</l>						
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سيأتي هذه المرثاة بكمالها و اسم مؤلفها إن شاء الله تعالى.</lem>
+						<rdg wit="#Translation">Insha'Allah, this elegy in its entirety along with the name of its author will follow later.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="41">
+				<s>
+					<app>
+						<lem wit="#Transcription">و قيل: إن الفرنج استصحبوا معهم من أسارى الإسكندرية نحو خمسة آلاف نفر</lem>
+						<rdg wit="#Translation">The account has it that the Franks took hostages with them, around five thousand.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ما بين مسلم و مسلمة و يهودي ذمى و يهودية و نصراني ذمى و نصرانية و إماء و أطفال # . و الله أعلم بعدتهم، # ففرقوهم بأرض الرومانية ، و استرقوهم بعد الحرية،</lem>
+						<rdg wit="#Translation">They were Muslim men and women, free Jewish men and women, free Christian men and women, slave women and children#—Allah knows how many of them there were—# and they sold them all throughout the lands of <hi rend="italic">Romanie</hi>,<note type= "critical" anchored="true"><p>Romanie here is used in the sense of the land of Franks to the East.</p></note>robbing them of their freedom.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">فخزنت عليهم أهاليهم الحزن الشديد الدي ليس فوقه مزيد</lem>
+						<rdg wit="#Translation">The hostages' families experienced the most intense grief that one can imagine.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و سيأتي فيما يرد من هذا الكتاب لمع من أخبار الأسارى المذكورين إن شاء الله تعالى</lem>
+						<rdg wit="#Translation">Later in this book, Insha'Allah, will come a short account of what happened to those hostages.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">و الله در القائل حيث قال في المعنى:</lem>
+						<rdg wit="#Translation">The excellence of the one who wrote the following lines comes from Allah:<note type= "critical" anchored="true"><p>These nine verses are taken from the famous fifty-two line "Nūniyya" poem by the Andalusian poet Ibn Zaydūn. Notably absent from the way that al-Nuwayri selects and orders the lines of the poem are the more erotic sentiments and scenes of wine drinking—ostensibly an adaptation for the case of the loss of the city and the hostages.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<lg type="stanza">
+				<l>
+					<app>
+						<lem wit="#Transcription">يتم و بنّا فما قرّت جوارحناشوقا<space quantity="10" unit="chars"></space>إليكم و لا جفّت مآقينا</lem>
+						<rdg wit="#Translation">We were separated. Never will our spirit cease,<space quantity="10" unit="chars"></space>longing for you, nor will our emotions wane.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">نكاد نحن تناجيكم ضمائرنا<space quantity="10" unit="chars"></space>يقضى علينا الأسى لولا تآسينا </lem>
+						<rdg wit="#Translation">When our souls yearned for you,<space quantity="10" unit="chars"></space>sorrow would have been our demise, had we not endured.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">حالت لفقدكم أيامنا فعدت<space quantity="10" unit="chars"></space>سودا و كانت بكم بيضا ليالينا</lem>
+						<rdg wit="#Translation">Our days darkened with your loss,<space quantity="10" unit="chars"></space>while our nights were bright in your presence.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">إذا جانب العيس طلق من تآلفنا<space quantity="10" unit="chars"></space>و مورد اللهو صاف من تصافينا</lem>
+						<rdg wit="#Translation">When life was no longer in unison,<space quantity="10" unit="chars"></space>and when our pleasure's fount was as pure as our harmony.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">و إذا هصرنا غصون الأنس دانية<space quantity="10" unit="chars"></space>قطوفها فجنينا منه ما شينما</lem>
+						<rdg wit="#Translation">Branches of concord were lowered,<space quantity="10" unit="chars"></space>and we harvested whatever we desired.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">إن الزمان الذي مازال يضحكنا<space quantity="10" unit="chars"></space>أنا بقربهم قد عاد يبكينا</lem>
+						<rdg wit="#Translation">The time that used to make us laugh<space quantity="10" unit="chars"></space>in each other's company now makes us weep.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">فانحل ما كان معقودا بأنفسنا<space quantity="10" unit="chars"></space>و ابتثّ ما كان موصولا بأيدينا</lem>
+						<rdg wit="#Translation">What was knotted in our souls came undone,<space quantity="10" unit="chars"></space>and what our hands joined, came unclasped.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">لم نعتقد بعدكم إلا الوفاء لكم<space quantity="10" unit="chars"></space>رأيا و لم نتقلد غيره دينا</lem>
+						<rdg wit="#Translation">Loyalty to you, once you departed,<space quantity="10" unit="chars"></space>was the only doctrine we could adorn.</rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription">لا تحبوا نأيكم عنا يغيّرنا<space quantity="10" unit="chars"></space>إن طال ما غيّر النآى المُحِبِّينَا</lem>
+						<rdg wit="#Translation">Don't believe that our separation will change us,<space quantity="10" unit="chars"></space>as it has changed other lovers.<note type= "critical" anchored="true"><p>We read the last word in the verse as al-muḥibbīnā and have vocalized it as such.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">إنتهى.</lem>
+						<rdg wit="#Translation">End of section.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
