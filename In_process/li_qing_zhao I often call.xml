@@ -49,7 +49,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “As if in a dream”&#8212;"I Often Recall" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “As If in a Dream”&#8212;"I Often Recall" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -69,7 +69,7 @@
 				<title type="main">
 					<app>
 						<lem wit="#Transcription">如夢令</lem>
-						<rdg wit="#Translation">To the tune “As if in a dream”&#8212;"I Often Recall"</rdg>
+						<rdg wit="#Translation">To the tune “As If in a Dream”&#8212;"I Often Recall"</rdg>
 					</app>
 				</title>
 			</head>
@@ -97,7 +97,7 @@
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">誤入藕花深處。/lem>
+						<lem wit="#Transcription">誤入藕花深處。</lem>
 						<rdg wit="#Translation">I mistakenly walked deep into the lotuses. </rdg>
 					</app>
 				</l>
