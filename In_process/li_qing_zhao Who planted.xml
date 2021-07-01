@@ -37,6 +37,7 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>In this <hi rend="italic">ci</hi>, Li Qingzhao employs the image of banana trees to obliquely convey the speaker's state of mind. In the first stanza, she considers their visual impact: how the trees block the sunlight; the way their leaves resemble hearts. The speaker's own heartbreak is signalled at the start of the second stanza, in which the poet evokes the sound of rain dripping from the banana leaves and the discontent that it provokes. The characterization of the speaker as a "northerner" suggests that this <hi rend="italic">ci</hi> may be conveying the poet's own feelings: she was forced to migrate to the south following the conquest of Kaifeng and the collapse of the Northern Song Dynasty.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
@@ -113,7 +114,7 @@
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">傷心枕上三更雨，</lem>
-						<rdg wit="#Translation">Heartbroken on the pillow, the rain in the third hour</rdg>
+						<rdg wit="#Translation">Heartbroken on the pillow, the rain in the third hour<note anchored="true">The third hour of the traditional Chinese clock refers to the period between 11pm and 1am.</note></rdg>
 					</app>
 				</l>
 				<l n="7">
@@ -131,7 +132,7 @@
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">愁損北人，</lem>
-						<rdg wit="#Translation">It saddens the northerner,</rdg>
+						<rdg wit="#Translation">It saddens the northerner<note anchored="true">The poet-speaker refers to herself here.</note>,</rdg>
 					</app>
 				</l>
 				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->

@@ -37,6 +37,7 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>Li Qingzhao wrote this <hi rend="italic">ci</hi>> during her marriage, which was marked by long separations from her husband due to his work. Like other <hi rend="italic">ci</hi> which she composed, it captures the loneliness of a speaker whose feelings jar against the happy scenes around her. In this case, the mention of the festival of Double Ninth (a harvest festival associated with expressions of gratitude) emphasises her alienation. Festivals such as this were occasions to gather together and socialize, but here we encounter the speaker entirely alone.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
@@ -86,19 +87,19 @@
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">瑞腦銷金獸。</lem>
-						<rdg wit="#Translation">The dragon-brain incense melts in the metal beast.</rdg>
+						<rdg wit="#Translation">The dragon-brain<note anchored="true">The “dragon brain incense” refers to a type of incense made from a subspecies of camphor tree, which was thought to look like a dragon.</note> incense melts in the metal beast<note anchored="true">The "metal beast" refers to the incense holder, many of which were shaped like animals.</note>.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">佳節又重陽，</lem>
-						<rdg wit="#Translation">It is again the festival of Double Ninth.</rdg>
+						<rdg wit="#Translation">It is again the festival of Double Ninth<note anchored="true">The Double Ninth Festival is one of the most important traditional festivals in China. It takes place annually in early fall, the traditional harvest time, and thanks is given for nature's bounty.</note>.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">玉枕紗廚，</lem>
-						<rdg wit="#Translation">Jade pillow and gauze canopy;</rdg>
+						<rdg wit="#Translation">Jade pillow<note anchored="true"> In this period, wealthy individuals would sometimes sleep on a hard pillow made of carved jade.</note> and gauze canopy;</rdg>
 					</app>
 				</l>
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
@@ -137,7 +138,7 @@
 				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">人比黃花瘦。</lem>
-						<rdg wit="#Translation">I am thinner than the yellow flower.</rdg>
+						<rdg wit="#Translation">I<note anchored="true">The character 人, translated here as "I", literally means "the person", but refers to the speaker.</note> am thinner than the yellow flower.</rdg>
 					</app>
 				</l>
 			</lg>

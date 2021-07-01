@@ -37,6 +37,7 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>Li Qingzhao wrote in a note accompanying this <hi rend="italic">ci</hi> that it was inspired by Ouyang Xiu’s “To the tune of ‘Butterfly love’", which she greatly admired. Both <hi rend="italic">ci</hi> have a similar theme--the speaker's regret--and share a similar opening image of a courtyard (in Ouyang Xiu's version: "The courtyard is deep, how many layers of depth are there?”).</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
@@ -104,7 +105,7 @@
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">人客建康城。</lem>
-						<rdg wit="#Translation">I am a stranger in Jiankang City.</rdg>
+						<rdg wit="#Translation">I am a stranger in Jiankang City<note anchored="true">Both Moling and Jiankang are alternative names for the city of Nanjing, which is located in present-day Jiangsu Province, China.</note>.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -131,7 +132,7 @@
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">試燈無意思，</lem>
-						<rdg wit="#Translation">I have no interest in the lantern trial,</rdg>
+						<rdg wit="#Translation">I have no interest in the lantern trial<note anchored="true">The fifth day of the first month in the lunar calendar is the Lantern Festival, which is celebrated with grand lantern displays. These displays are practiced beforehand in “lantern trials.”</note>,</rdg>
 					</app>
 				</l>
 				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
