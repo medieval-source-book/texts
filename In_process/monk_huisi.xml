@@ -1,0 +1,228 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Chen Dynasty Monk Huisi of the Great Southern Peak Hengshan</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Sengxiang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Records of the Transmission of the Dharma Flower</p>
+				<listWit>
+					<witness xml:id="Transcription">陳南岳衡山釋慧思</witness>
+					<witness xml:id="Translation">Chen Dynasty Monk Huisi of the Great Southern Peak Hengshan</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Chen Dynasty Monk Huisi of the Great Southern Peak Hengshan" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">釋慧思。姓俗李氏。項城 武津人也。</lem>
+						<rdg wit="#Translation">Monk Huisi, whose lay surname was Li, was a person from Xiangcheng, in Wujin county.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">兒時因夢梵僧勸令入佛道。</lem>
+						<rdg wit="#Translation">As a child he dreamed that an Indian monk urged him to take up the Buddhist path.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">又夢數僧訓以齋戒日惟一食。不受別供。</lem>
+						<rdg wit="#Translation"> In another dream, many monks trained him in the ways of renouncing food and drink. He ate just once a day, refusing other offerings.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">時見朋類。誦法華經。情深樂重。</lem>
+						<rdg wit="#Translation">One time, observing his companions reciting the Dharma Flower Scripture, he felt profound emotions and intense joy.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">先未曾誦。</lem>
+						<rdg wit="#Translation">Until then he had never recited it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">日從他借經。於空塚中。獨自看之。</lem>
+						<rdg wit="#Translation">On that day he borrowed the scripture from someone and, alone among abandoned grave mounds, he read it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">無人教授。日夜悲泣。</lem>
+						<rdg wit="#Translation">With no-one to teach it to him, he wept day and night.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">塚是非人所居。</lem>
+						<rdg wit="#Translation">These tombs were home to inhuman creatures.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">恐畏非一。</lem>
+						<rdg wit="#Translation">His share of fears was not small.</rdg>
+					</app>
+				</s>
+				<s>
+                					<app>
+						<lem wit="#Transcription">移託古城。鑿穴居止。</lem>
+						<rdg wit="#Translation">He therefore moved to the old city wall and carved out a hollow space to live within.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">晝則乞食。</lem>
+						<rdg wit="#Translation">In the day he begged for food.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">夜不眠寢。</lem>
+						<rdg wit="#Translation">At night he did not sleep.</rdg>
+					</app>
+				</s>
+                				<s>
+					<app>
+						<lem wit="#Transcription">向經流淚。頂禮不休。</lem>
+						<rdg wit="#Translation">Facing the scripture, shedding tears, he prostrated without rest.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">其年夏多雨。</lem>
+						<rdg wit="#Translation">In the summer of that year it rained heavily.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">雨穴濕蒸。</lem>
+						<rdg wit="#Translation">Rainwater made his hollow wet and steamy.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">舉身浮腫。行止不能。</lem>
+						<rdg wit="#Translation">His entire body became so swollen with dropsy that he could no longer move.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">而怱心對經。心力彌壯。</lem>
+						<rdg wit="#Translation">Yet he turned his mind urgently toward the scripture and his mental power filled him with strength.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">忽覺消滅平服如故。</lem>
+						<rdg wit="#Translation">All of a sudden, his condition evaporated and his health was restored, as before.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">夢普賢乘六牙白象。來摩頂而去。</lem>
+						<rdg wit="#Translation">He dreamed that Samantabhadra, riding a six-tusked white elephant, came to him, rubbed his head, and then left.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">法華一部。曾未識文。自然解了。</lem>
+						<rdg wit="#Translation">Every part of the Dharma Flower Scripture whose words he once could not comprehend, he now freely understood.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">所摩之處。自然隱起如肉髻。</lem>
+						<rdg wit="#Translation">The place where Samantabhadra had touched him freely rose up, like a flesh topknot.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">凡十年之中。誦法華聲不輟。</lem>
+						<rdg wit="#Translation">For ten whole years he recited the Dharma Flower, the sound of his voice unceasing.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">復悟法華三昧大乘法門。</lem>
+						<rdg wit="#Translation">Consequently, he realized the Dharma Flower Samādhi, Gateway to the Dharma of the Great Vehicle:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">境界明了位至六根淨。</lem>
+						<rdg wit="#Translation">the level of clear understanding, the stage which completely purifies the six sense faculties.</rdg>
+					</app>
+				</s>
+            </p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">出傳中。<note type= "critical" anchored="true"><p>Excerpted from 法華傳記 <hi rend="italic">Fahua zhuanji</hi>, T vol. 51 no. 2068, 59a29-59b13.</p></note></lem>
+						<rdg wit="#Translation">Taken from the records.</rdg>
+					</app>
+				</s>                
+			</p>
+		</body>
+	</text>
+</TEI>
