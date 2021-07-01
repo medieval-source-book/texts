@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Yearning for the Prince”&#8212;"Wind Comes"</title>
+				<title>To the tune “Southland Song”&#8212;"In the Sky"</title>
 				<author>Li Qingzhao</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -37,19 +37,20 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>This melancholic <hi rend="italic">ci</hi>> evokes the speaker's sorrow, contrasting her tumultuous inner world and time-worn domestic space with the serene and dispassionate universe beyond. The imagery of garments emphasizes that it is a woman's experience which is being captured here.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
 				<listWit>
-					<witness xml:id="Transcription">怨王孫</witness>
-					<witness xml:id="Translation">To the tune “Yearning for the Prince”</witness>
+					<witness xml:id="Transcription">南歌子</witness>
+					<witness xml:id="Translation">To the tune “Southland Song”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Yearning for the Prince”&#8212;"Wind Comes"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Southland Song”&#8212;"In the Sky"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +69,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">怨王孫</lem>
-						<rdg wit="#Translation">To the tune “Yearning for the Prince”&#8212;"Wind Comes"</rdg>
+						<lem wit="#Transcription">南歌子</lem>
+						<rdg wit="#Translation">To the tune “Southland Song”&#8212;"In the Sky"</rdg>
 					</app>
 				</title>
 			</head>
@@ -79,77 +80,65 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">湖上風來波浩渺。</lem>
-						<rdg wit="#Translation">Wind comes from the lake and the waves are misty and grand.</rdg>
+						<lem wit="#Transcription">天上星河轉，</lem>
+						<rdg wit="#Translation">In the sky, the Starry River<note anchored="true"> "Starry River" refers to the Milky Way.</note> turns;</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">秋已暮、</lem>
-						<rdg wit="#Translation">The autumn is late;</rdg>
+						<lem wit="#Transcription">人間簾幕垂。</lem>
+						<rdg wit="#Translation">In the human world, the curtain droops.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">紅稀香少。</lem>
-						<rdg wit="#Translation">the reds are rare and the fragrance faint.</rdg>
+						<lem wit="#Transcription">涼生枕簟淚痕滋。</lem>
+						<rdg wit="#Translation">The autumn chill rises from my pillow and my tears spread more and more around the mat.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">水光山色與人親，</lem>
-						<rdg wit="#Translation">The radiance of the water and the colors of the mountain are friendly to the people.</rdg>
+						<lem wit="#Transcription">起解羅衣聊問、</lem>
+						<rdg wit="#Translation">I sit up to untie my silk gown, and ask</rdg>
 					</app>
 				</l>
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">說不儘、</lem>
-						<rdg wit="#Translation">One cannot talk enough</rdg>
-					</app>
-				</l>
-				<l n="6">
-					<app>
-						<lem wit="#Transcription">無窮好。</lem>
-						<rdg wit="#Translation">about their endless beauty.</rdg>
+						<lem wit="#Transcription">夜何其。</lem>
+						<rdg wit="#Translation">what time of night it is.</rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="2">
 				<!--Each stanza needs its own line group <lg>-->
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">翠貼蓮蓬小，</lem>
+						<rdg wit="#Translation">The emerald that adorned the lotus seed-pod<note anchored="true">This line refers to the floral pattern embroidered on fine clothing.</note> is smaller;</rdg>
+					</app>
+				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">蓮子已成荷葉老。</lem>
-						<rdg wit="#Translation">The lotus seeds are ripe and the leaves are old,</rdg>
+						<lem wit="#Transcription">金銷藕葉稀。</lem>
+						<rdg wit="#Translation">The gold that covered the lotus leaves is sparse<note anchored="true">These descriptions of decorative objects point to how the same object appears less precious or beautiful to the speaker because of her state of mind.</note>.</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">清露洗、</lem>
-						<rdg wit="#Translation">Clear dew washes over</rdg>
+						<lem wit="#Transcription">舊時天氣舊時衣。</lem>
+						<rdg wit="#Translation">Old weather and old clothes;</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">蘋花汀草。</lem>
-						<rdg wit="#Translation">the duckweed and the water-grass. </rdg>
+						<lem wit="#Transcription">只有情懷不似、</lem>
+						<rdg wit="#Translation">Only my feelings are not the way</rdg>
 					</app>
 				</l>
-				<l n="10">
+				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">眠沙鷗鷺不回頭，</lem>
-						<rdg wit="#Translation">Gulls and egrets sleep on the sand without turning their heads,</rdg>
-					</app>
-				</l>
-				<l n="11"><!--Lines are continuously numbered through the song so check that they are correct-->
-					<app>
-						<lem wit="#Transcription">似也恨、</lem>
-						<rdg wit="#Translation">as if they resent me</rdg>
-					</app>
-				</l>
-				<l n="12">
-					<app>
-						<lem wit="#Transcription">人歸早。</lem>
-						<rdg wit="#Translation">for returning too early.</rdg>
+						<lem wit="#Transcription">舊家時。</lem>
+						<rdg wit="#Translation">They were before.</rdg>
 					</app>
 				</l>
 			</lg>
