@@ -1,0 +1,257 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Prussian Chronicle (Vol. 1)</title>
+				<author>Simon Grunau</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Perlbach, M., Philippi, R., and Wagner, P., Duncker and Humblot</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Thomas Hewitt</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>This text is an excerpt from Simon Grunau’s Preussische Chronik, or Prussian Chronicle. The text is written in the Early New High German language (Frühneuhochdeutsch), and scholars believe that it was completed by around 1530. It was composed in Prussia (which today spans northern Poland and Russia’s Kaliningrad Oblast), most likely in the vicinity of Gdańsk.</p>
+                <p>Little is known about the author Simon Grunau. He was a Dominican friar, born in Tolkmitsk in Prussia (which is near today’s Elbląg, Poland). He seems to have lived most of his life in Gdańsk, where he was particularly active preaching amongst the burghers. At the time when Grunau was writing, the position of the Dominican Order in Prussia was uncertain, not least due to the spread of Lutheranism across Prussia during the 1520s. The Lutheran Reformation had quickly reached and taken hold in Prussia, and this was a key concern for Grunau, not only due to Luther’s rejection of papal authority and monasticism, but also the social and doctrinal changes emerging as a result of Luther’s confrontation with the Catholic Church. In 1525, the Teutonic Order, the religious military order who had governed the majority of Prussia since the mid-thirteenth century, converted to Lutheranism and transformed their Catholic monastic state into a secular Lutheran Duchy. The impacts of these events are reflected in Grunau’s chronicle, highlighted by his open hostility to both Lutheranism and Duke Albert of Prussia (the first Duke of Prussia, and previous Grandmaster (leader) of the Teutonic Order).</p>
+                <p>Grunau’s chronicle purports to give an account of the history of Prussia from the beginning of time until around 1530, and as such contains a wide variety of socioeconomic, religious and political narratives. In addition to exploring the pre-Christian lives of the Prussians and the religious changes mentioned above, Grunau interweaves passages concerning economic themes such as taxation and price and currency fluctuations, as well as political themes such as relations between Prussia, Poland and the Holy Roman Empire.</p>
+                <p>The chronicle is a compilation of material from numerous sources, both narrative (other chronicles such as that of Peter von Dusburg) and documentary (such as the Treaty of Christburg, a legal and peace agreement between the Teutonic Order and Prussian tribes), as well as Grunau’s own experiences and material likely invented or seriously embellished by Grunau himself. As a result, its reliability and veracity are in question, and Grunau’s chronicle has often been wrongly dismissed as unworthy of study for this reason. There are numerous lines of enquiry still open with Grunau’s work, not least with respect to why and how he embellished his material, and what new narratives and identities he created in doing so.</p>
+                <p>The excerpt included in the Global Medieval Sourcebook is an interesting account of the supposed pantheon of gods worshipped by the pre-Christian Prussians before the thirteenth century, combined with details of how they came to be deified and what exactly their worship entailed. Within this there are several elements: first, the obviously ritualistic elements of the ‘pagan’ worship of these gods, with gruesome sacrifice and quasi-ghostlike hauntings; second, the more worldly offerings Grunau suggests (such as various crops and animals), providing information about food and drink either found in Prussia or commonly known to his readers at the time. Finally, Grunau explores the foundation mythology of the Prussian people (the ‘Cimbri’ and ‘Bruteni’), in attempts to reimagine Prussian identity and heritage in a period of intense conflict and division. It is this external imagining of a different religion and culture which is most interesting, and the way in which Grunau uses it to delineate a Prussian identity. These are themes which are still incredibly relevant today. By studying embellished or imagined narratives, we can better understand the agendas of those writing them.</p>
+                <p>A comprehensive approach to the language, origin and mythology of the Baltic people (although his argument is unfairly dismissive of Grunau).</p>
+                <p>Bojtar, E., Foreword to the past: A Cultural History of the Baltic People, trans. Rédet, S. and Webb, M. Central European University Press, 2000, Budapest</p>
+                <p>A general history of the period and region.</p>
+                <p>Christiansen, E., The Northern Crusades, 2nd edn., Penguin, 1997, London.</p>
+                <p>This collection of essays provides an excellent discussion of fact and fiction in medieval narrative sources.</p>
+                <p>Verbeke, W., Milis, L., &amp; Goossens, J., Medieval narrative sources: A gateway into the medieval mind, Leuven University Press, 2005, Leuven.</p>
+                <p>For an accessible chronicle of the history of Prussia, this translation of Nicolaus von Jeroschin’s work by Mary Fischer is essential.</p>
+                <p>The Chronicle of Prussia by Nicholaus von Jeroschin: A History of the Teutonic Knights in Prussia 1190-1331, trans. Fischer, M., Routledge, 2010, Ashgate, Farnham.</p>
+                <p>A discussion of pre-Christian religious life in Prussia.</p>
+                <p>Wadyl, S., ‘The sacred sphere of Prussian Life in the Early Middle ages’, in Sacred Space in the State of the Teutonic Order in Prussia, ed. J. Wenta, Nicholas Copernicus University Press, 2013, Toruń.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p><hi rend="italic">Simon Grunaus Preussische Chronik</hi>, volume 1, eds Perlbach, M., Philippi, R., and Wagner, P., Duncker and Humblot, 1876, Leipzig.</p>
+				<listWit>
+					<witness xml:id="Transcription">Preussische Chronik</witness>
+					<witness xml:id="Translation">Prussian Chronicle</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Prussian Chronicle" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>The printed edition from which this translation has been produced is a critical composition of several manuscripts of Grunau’s chronicle, some of which are no longer extant. Trust has been placed in the edition, due to both the editorial methods employed, and comparison with a sixteenth century copy of the autograph manuscript for fidelity. The use of multiple manuscript copies for the edition provides more confidence with regards to copying errors, and where inconsistencies between the manuscripts appear, editorial footnotes have been made. There are around ten remaining copies or partial copies of the manuscript, although the autograph manuscript is believed to have been lost when Königsberg State and University Library was destroyed during the Second World War. The number of copies and their varied locations (including Stockholm, Toruń, Berlin, Dresden, Vilnius and Gdańsk) is suggestive of a broad textual transmission, and there were claims that Grunau’s narratives were still widely circulating into the nineteenth century.</p>
+                    <p>For the translation itself several dictionaries were consulted, such as the Frühneuhochdeutsches Wörterbuch by Oskar Reichmann and the Kleines Frühneuhochdeutsches Wörterbuch by Christa Baufeld. To maintain fidelity with the original, proper nouns have remained untranslated and with their original spellings, and where possible syntax has been preserved; occasionally it was necessary to modify this to make the English translation more readable.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Vonn dem namen der Preuschen abgöttir vor der zeit der bekehrungk.</lem>
+						<rdg wit="#Translation">Of the names of the Prussian false gods before the time of the conversion.</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+            <p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Von anbegin die einwoner des landes zu Preussen wusten noch von gotte noch von gotthin zu sagin, sundir die sonne sie geerht haben.</lem>
+						<rdg wit="#Translation">From the beginning, the inhabitants of the land of Prussia knew neither of god nor gods to speak of, rather they honoured<note type= "critical" anchored="true"><p>In the sense of worshipped, or venerated.</p></note> the sun.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">Do aber die Cimbri qwomen, die brochten mit ihn 3 bilde ihrer abgotte, den einen Patollo sie nanten, das ander Potrimpo, das dritte Perkuno.</lem>
+						<rdg wit="#Translation">Then, however, the Cimbri came; they brought with them three images of their false gods: one they called Patollo, the second Potrimpo, the third Perkuno.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Diese zu wirdigen sie haben gezwungen ire nogwer und sie moste sie fur almechtige gotthe halten.</lem>
+						<rdg wit="#Translation">To honour these gods, the Cimbri conquered their neighbours, and forced them to consider their gods as all-powerful<note type= "critical" anchored="true"><p>A more literal translation might be ‘to honour these gods, they conquered their neighbours and they [then] had to consider them as almighty gods.’ However, the multiple indefinite pronouns are less clear in English.</p></note>.</rdg>
+					</app>
+				</s>
+            </p>
+            <p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Patollo der obirster abgott der Bruteni also ettwan genant die einwoner Brudenie itzundt Preussen genant.</lem>
+						<rdg wit="#Translation">Patollo [was] the highest<note type= "critical" anchored="true"><p>More literally ‘most superior’, but in the sense of most senior or highest.</p></note> false god of the Bruteni, as the inhabitants of Brudenie, now called Prussia, were formerly known.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Dieser war ein irschrocklicher got des nachtes spuck im hause zu treiben sunderlich in den hofen der edlinge.</lem>
+						<rdg wit="#Translation">He was a terrifying god of the night, haunting houses [and] floating, particularly in the courtyards of nobles.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Voraus er unsinnigk thette, wen man des Kirwaidens beful nit hilt, und qwam viel mol, wie ehr ettlich erschreckt des nachts, domit sie den todt dovon hetten.</lem>
+						<rdg wit="#Translation">Above all, he would act unreasonably if the command of the high priest was not followed, and came many times;  he so frightened some during the night, that they died from it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">So imandt war und seinem bilde zu Rickoyott ein erungk gelobet hette, so er is nicht balde hilt, er mit seim schuldiger dy passio spilte, und sein opphir war alles theuer dingk.</lem>
+						<rdg wit="#Translation">If someone had promised an honour to his image in Rickoyott, <note type= "critical" anchored="true"><p>According to the author Simon Grunau, Rickoiot (or Rickoyot, the spelling varies) was the most important site of worship for the ancient Prussians, comprised principally of a huge oak tree and the images of the Prussian gods. The site was a pseudo-monastery where priests, priestesses and the high priest both resided, worshipped and served the gods. However, there is little evidence for the existence of an exact site of Rickoiot, and in creating his Rickoiot, Grunau almost certainly combined elements of Peter von Dusburg’s ‘Romovia’ and descriptions of other religious sites such as Adam of Bremen’s description of a sacred tree at Uppsala.</p></note>and he did not fulfil the promise soon, then [Patollo] played out the Passion with the offender, and his sacrifice was all expensive things.</rdg>
+					</app>
+				</s>
+            </p>
+            <p n="3">
+                <s>
+					<app>
+						<lem wit="#Transcription">So war er auch ein got der todtin.</lem>
+						<rdg wit="#Translation">Thus he was also a god of the dead.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">So imandt man starb und man wolt bekarjen<note type= "critical" anchored="true"><p>Bekargen → to live a poor and meagre life.</p></note> die oppherungk der götthin und erungen den waydtlotten, so qwam er ins gehoffte des vorstorbenen und spuchte die nacht, und sie wenig ader nix thettin, er qwam widder, sie musten me thun und gebin, quam er zum dritten mole, so muste man menschin blut opphirn.</lem>
+						<rdg wit="#Translation">If someone died and one wanted to be niggardly with the sacrifice to the gods and the tributes for the priests, then he [Patollo] came into the farmstead of the deceased and haunted in the night. And if they did little or nothing, he came again, [and] they had to do and give more. If he came for a third time, then human blood must be sacrificed.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Darumb mit namen nicht lange geharret, man qwam ken Rickoiot und gab eim waidlotten ein gobe, und dieser im schnet eine wunden in den arm, domit das blut herausliff, noch welchem man horte ein brummen in der eichen, und dis war ein zechen, und es solt vorricht sein, und qwam dornoch nimmer wider und spuchte.</lem>
+						<rdg wit="#Translation">Therefore with names not long delayed<note type= "critical" anchored="true"><p>The meaning of this particular clause is not clear; one interpretation is that once identified or named, one would not delay in coming to Rickoiot to give the appropriate veneration.</p></note>, one came to Rickoiot and gave a gift to a priest; this priest cut his arm<note type= "critical" anchored="true"><p>Literally ‘cut a wound on his arm’.</p></note>, so that blood flowed out, after which one heard a humming in the oak tree. This was a sign, that the matter was satisfied, <note type= "critical" anchored="true"><p>The issue of not having performed adequate worship should be settled, in the sense of ‘usually this would be enough to resolve matters’.</p></note>and thereafter [Patollo] came and haunted no more.</rdg>
+					</app>
+				</s>
+            </p>
+            <p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">Potrimppo der ander abgott der von Brudenia war, und dieser war ein gott des gluckis in streitten und sust in anderen sachin.</lem>
+						<rdg wit="#Translation">Potrimppo was the second false god from Brudenia, and this one was a god of good fortune in conflicts and in other things.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">Wen man diesem Potrimppo sust ein ehr solt thun, der waydlotte muste 3 tage fasten und auff der blosen erden schlaffen, und weiroch zum irsten must man in dem feuer burnen, das mit waxe irnehrt werde, und dieser teuffel auch wolt, man solt ein kindtlein tödten zu ehre, und man is auch thette.</lem>
+						<rdg wit="#Translation">When one wanted to honour this Potrimppo, the priest had to fast for three days and sleep on the bare earth; above all, incense had to be burned in the fire, which had been fed with wax. And this devil also wanted a small child to be killed to honour him, and this was also done.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Uber die mosze Patollo Potrimppo hetten ein wolgefallen in menschin blute, so man is im vorgos zur ehre vor der eichen.</lem>
+						<rdg wit="#Translation">Patollo and Potrimppo had a lust for human blood beyond measure, <note type= "critical" anchored="true"><p>Mosze → Mose or Mosse → Masse</p></note>thus one shed it in his<note type= "critical" anchored="true"><p>The switch to the singular here may simply be to keep the focus on Patollo; whilst both Patollo and Potrimppo have the lust for human blood, Grunau has already discussed the worship of Potrimppo and thus this particular reference is reserved for Patollo.</p></note> honour before the oak tree. </rdg>
+					</app>
+				</s>
+            </p>
+            <p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">Perkuno war der dritt abgott, und man in anruffte umbs gewitters willen, domit sie regen hetten und schon wetter zu seiner zeit und in der donner und blix kein schaden thett, und so is qwam, und ein gewitter war im gantze lande und wo dy woren, die diesen gott anbeten, sie knitten sich nieder und schrien: dewus Perkuno abselo mus, wen sie dis vor ein festes hilten, zu der zeit des gewitters ire gotthe mit dem kirwaiden und mit anderen waidlotten redte, und sie gobin is auch ausz vor ein worheit, und sie mit in geret hetten und dem folcke stetis wu was neues einsatzten zu halten.</lem>
+						<rdg wit="#Translation">Perkuno was the third false god, and one called upon him for the sake of the weather, so that they would have rain and nice weather at the right time and thunder and lightening would do no damage. And thus it happened, that a storm was in the whole country and there where those who prayed to this god were, they knelt down and cried: dewus Perkuno abselo mus;<note type= "critical" anchored="true"><p>This phrase seems to be borrowed from an early Latvian language, loosely translating to ‘God Perkuno, have mercy on us’. See Putelis, A., ‘Historical Sources for the Study of Latvian Mythology’, in Lyle, E. eds, <hi rend="italic">Cosmos: the Journal of the Traditional Cosmology Society</hi>, Vol. 19, 1, 2003, p. 78.</p></note> if they performed this before a feast day, at the time of the storm their god spoke with the high priest and with other priests. And they passed it off as a truth, that they had spoken with him, and [said] constantly to the people what new commitments they should maintain.</rdg>
+					</app>
+				</s>
+            </p>
+            <p n="6">
+                <s>
+					<app>
+						<lem wit="#Transcription">Wurschayto abir Borsskayto war der fierde abgot.</lem>
+						<rdg wit="#Translation">Wurschayto or Borsskayto was the fourth false god.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Die 3 genanten götthe Patollo, Potrimppo, Perkuno man nindert mit oppherungk mochte ehren den zu Rickoyott, do ir bilde stundt in der eichen, diesem Borskaiten abir sie mochtenn im opphernn in allen dorffernn, wo ag ein eiche stunt.</lem>
+						<rdg wit="#Translation">Nowhere except at Rickoyott, where their images stood in the oak tree, could one honour the three aforementioned gods Patollo, Potrimppo and Perkuno. However, they could sacrifice to this Borskaiten in all villages where an oak tree also stood.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Diesen die Bruden in selber zu einem gott irwelten, wen is war ihr kirwait gewesen Bruteno und er sich mit Witouito irem konige und seinen brudern selbir geopphirt umb gnade willen der gantzen gemein.</lem>
+						<rdg wit="#Translation">This one the Brudeni themselves chose as a god; when he was their high priest Bruteno, he and Witouito their king (his own brother) sacrificed themselves for the sake of mercy for the whole community.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Das oppher, das man im that, war ein jung fich, und dis so is zu Wurschayto aber Borszkayto qweme und is solt bitten den gott, und er den dienern sein wulte vil fich geben und is gesundt behalten.</lem>
+						<rdg wit="#Translation">The sacrifice that one made to him was a young animal, and this if it came to Wurschayto or Borszkayto and it should be a request to the god, and to those who wanted to be his servants he would give many animals and keep them healthy.</rdg>
+					</app>
+				</s>
+            </p>
+            <p n="7">
+                <s>
+					<app>
+						<lem wit="#Transcription">Szwaybrotto war der funffte gott, und in auch selber die Brudeni einen gott gemacht haben um der liebe willen, wen so er ihr koning war und Witowuto genant mit seinem bruder Bruteno dem kirwaiten; sie sich lebendigk vorbrandten vor der eichen, wie den obene ist gesagtt worden, mit welchem tode die Bruteni meinten, die zwene bruder hetten gottheit irlangt und sessen bey in.</lem>
+						<rdg wit="#Translation">Szwaybrotto was the fifth god, and the Brudeni themselves had made a god of him too for the sake of love.<note type= "critical" anchored="true"><p>Presumably the implication here is out of their love for him, and desire that he should remain with them in some form.</p></note> When he was their king and called Witowuto, they burned him alive before the oak tree, along with his brother Bruteno, the high priest, as stated above. The Bruteni believed that through this death the two brothers had attained divinity and remained with them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Diesem man auch uberall oppherte vor einer eichen und war ein gott, der in bescherte vil hunner, gense, entvogil und man im muste opphiren ein jungk sogefarckill.</lem>
+						<rdg wit="#Translation">To this god, too, one sacrificed anywhere before an oak tree. And he was a god who gave them many chickens, geese and ducks, and one had to sacrifice a young piglet to him.</rdg>
+					</app>
+				</s>
+            </p>
+            <p n="8">
+                <s>
+					<app>
+						<lem wit="#Transcription">Curcho war der 6. gott, und diesen sie hetten von den Masuren genomen.</lem>
+						<rdg wit="#Translation">Curcho was the sixth god, and this one they had adopted from the Masovians.<note type= "critical" anchored="true"><p>The Duchy of Masovia lay to the south of Prussia, and from the middle of the fourteenth century was formally a fief of the Polish crown. Aleks Pluskowski discusses some of the archaeological evidence for a cult of Curcho and his or her worship in his book <hi rend="italic">Holy War and Colonisation: The Archaeology of the Prussian Crusade</hi>, (London, 2012), pp 70-4.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Darumb auff der stel itzundt Heiligenbeil genant sein bilt und eiche mit dem feuer war, und do man brandte gedrossen korne, wezen adir meel, honigk, milch und dergleichen.</lem>
+						<rdg wit="#Translation">Therefore, in the place now called Heiligenbeil<note type= "critical" anchored="true"><p>There is still a town at this location, called Mamonovo, in the Kaliningrad Oblast. The name <hi rend="italic">Heiligenbeil</hi> means ‘Holy Axe’ and William Urban attributes this name to a legend claiming that a group of missionaries used an axe to cut down a nearby tree which had been worshipped by the Prussians (See Urban, W., <hi rend="italic">The Samogitian Crusade</hi>, (Chicago, 2006), pp 158-9. Wigand von Marburg (A chronicler of the Teutonic Order) narrates that there was an Augustinian Monastery founded there around 1370 (<hi rend="italic">Chronica nova Prutenica</hi>).</p></note> stood his image and oak tree with the fire, and there one burned threshed grain, wheat or flour, honey, milk and the like.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Diesem man auch vorbrandte zur ehren die ersten garben des getreides und solchir manirung vil.</lem>
+						<rdg wit="#Translation">To honour this god one also burned the first sheaves of corn and many of such manner of things.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">So ist am Hockerlande am habe ein stein genant zum heiligen stein, auff diesem ein iglicher fischer im den irsten fisch zur ehren vorbrandte, dan er im gerne irgreiff.</lem>
+						<rdg wit="#Translation">At the port in Hockerlande<note type= "critical" anchored="true"><p>According to Grunau, Hockerland(e) was a previous name of Pogesania, a region of Prussia. In his narrative Hockerland was named after its ruler ‘Hoggo’, and its enduring name of Pogesania was derived from his daughter.</p></note> there is a stone known as the holy stone, upon which a common fisherman burned the first fish in his honour, which he [Curcho] gladly took from him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Und ein solchs man auch andirswu thun mochte, idoch alhie war seine sonderliche stelle zu dem lobe.</lem>
+						<rdg wit="#Translation">And such a thing could be done elsewhere too, however this was his particular place of worship.</rdg>
+					</app>
+				</s>
+            </p>
+		</body>
+	</text>
+</TEI>
