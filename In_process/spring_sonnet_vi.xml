@@ -1,0 +1,181 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Spring – The Hecatomb for Diane, VI</title>
+				<author>Théodore Agrippa d’Aubigné</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Henri Weber</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Nora Baker</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Nora Baker</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>Best known for his civil war epic Les Tragiques, Théodore Agrippa d’Aubigné (1552-1630) spent his early years in the thrall of Diane Salviati. Salviati was the niece of Cassandra, the muse of the famous French poet Ronsard. D’Aubigné’s work Le Printemps – ‘Spring’ – is composed of two parts. The first is a compilation of one hundred sonnets dedicated to his beloved, entitled L’hécatombe à Diane. The word ‘hecatomb’ evokes a sacrificial practice in Ancient Greece, where one hundred cattle or other livestock would be slaughtered in honour of the gods. Though the goal of d’Aubigné’s sonnets is ostensibly to praise Diane, his imagery is characteristically visceral, flavoured by his experience of the violence of France’s Wars of Religion (1562-1598). Diane’s family sheltered d’Aubigné following the St. Bartholomew’s Day Massacre in 1572, but, as she  was Catholic and d’Aubigné Protestant, their love was not to be. The author’s later works express some wistful reflections on the youthful exuberance that led him to idolize this unattainable woman. It is thought that L’hécatombe à Diane and the latter section of Le Printemps, the Stances et Odes, were composed in the early 1570s.</p>
+                <p>Perry, Kathleen A. “Motherhood and Martyrdom in the Poetry of Théodore Agrippa d'Aubigné.” Neophilologus, vol. 76, no. 2, 1992, pp. 198–211., doi:10.1007/bf00210169.</p>
+                <p>An analysis of the effects of d’Aubigné’s turbulent childhood on the representation of women in his poetry, with particular reference to the parallels drawn between Diane Salviati and the hunter goddess Diana/Artemis of classical lore.</p>
+                <p>“Martyrdom, Anatomy, and the Ethics of Metaphor in d’Aubigné’s L’Hécatombe à Diane and Les Tragiques.” Love's Wounds: Violence and the Politics of Poetry in Early Modern Europe, by Cynthia Nyree Nazarian, Cornell University Press, 2016, pp. 117–179.</p>
+                <p>An examination of civil war violence reflected in love poetry.</p>
+                <p>Perry, Kathleen A. “A Re-Evaluation of Agrippa d'Aubigné's « Printemps »: Youthful Love or Mature Theology?” Bibliothèque d'Humanisme et Renaissance, vol. 51, no. 1, 1989, pp. 107–122.</p>
+                <p>Argues for the consideration of the poems of the Printemps as condemnations of the Catholic Church.</p>
+                <p>Perry Long, Kathleen A. “Victim of Love: The Poetics and Politics of Violence in 'Le Printemps' of Théodore Agrippa d'Aubigné.” Translating Desire in Medieval and Early Modern Culture, edited by Craig A. Berry and Heather Richardson Hayton, Arizona Center for Medieval and Renaissance Studies Press, 2005, pp. 31–47. Medieval and Renaissance Texts and Studies.</p>
+                <p>An exploration of Petrarchan and Catullan aspects of d’Aubigné’s early poetry.</p>
+                <p>Kuperty-Tsur, Nadine. “The Saint Bartholomew's Day Massacre and Baroque Tendencies in France: The Impact of Religious Turmoils on the Aesthetics of the French Renaissance.” Poetics Today, Translated by Sam W. Bloom, vol. 28, no. 1, 2007, pp. 117–142., doi:10.1215/03335372-2006-017.</p>
+                <p>A look at the influence of the Wars of Religion on Early Modern French poetry in general, and on a poem from Le Printemps in particular.</p>
+
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target=""></ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Le Printemps – L’hécatombe à Diane, VI</witness>
+					<witness xml:id="Translation">The Spring – The Hecatomb for Diane, VI</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Spring – The Hecatomb for Diane, VI" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>I have reproduced and rendered in English two sonnets from the Hécatombe for which no other translation appears to be available, with notes indicating places in the text where the author has crossed out initial words and added new ones (I follow Henri Weber’s 1960 critical edition of the Printemps in this regard). The present transcription is based on the manuscript holding entitled ‘Théodore Agrippa d'Aubigné. Le Printemps et divers textes’ in the Archives Tronchin 157 at the Geneva Public Library (Bibliothèque de Genève). This manuscript can be consulted here : https://archives.bge-geneve.ch/ark:/17786/vtaac0b3ff1aa240f22/dao/0#id:1767626689?gallery=true&amp;brightness=100.00&amp;contrast=100.00&amp;center=689.570,-1832.348&amp;zoom=6&amp;rotation=0.000. The folio numbers for the translated sonnets are f.77v-78. Other manuscript exemplars of this work can be found in the Bibliothèque de la Société de l’Histoire du Protestantisme Français (ms.816/12), and in the aforementioned Archives Tronchin 159.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">Le Printemps – L’hécatombe à Diane, VI</lem>
+						<rdg wit="#Translation">The Spring – The Hecatomb for Diane, VI</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Hardy, j’entreprendray <del>bravement</del> de te rendre eternelle</lem>
+						<rdg wit="#Translation">Boldly I will undertake to render you eternal,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Targuant de mes escrips ton nom contre la mort</lem>
+						<rdg wit="#Translation">Shielding<note type= "critical" anchored="true"><p>From the Middle French ‘targe’ meaning ‘shield’.</p></note> with my writing your name against death;</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Mais en t’eternisant, je ne travaille fort</lem>
+						<rdg wit="#Translation">But in eternalizing you, I need barely work<note type= "critical" anchored="true"><p>Literally “I do not work hard”</p></note>:</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Ta perfection n’est en aucun poinct mortelle</lem>
+						<rdg wit="#Translation">Your perfection is in no way mortal.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Rien n’est mortel en toy ta chasteté est telle</lem>
+						<rdg wit="#Translation">Nothing in you is mortal, and your chastity is such</rdg>
+					</app>
+				</l>
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">Que le temps envieux ne luy peut faire tort</lem>
+						<rdg wit="#Translation">That jealous time cannot do it wrong.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Tes dons thresors du Ciel, ton Nom exemptz du port</lem>
+						<rdg wit="#Translation">Your gifts, treasures from Heaven, your name, exempt from the port</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Et du fleuve d’oubly ont la vue immortelle.</lem>
+						<rdg wit="#Translation">And from the river of forgetfulness, have immortal life.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Mesmes ce livre heureux vivra infiniment</lem>
+						<rdg wit="#Translation">Even this happy book will live infinitely</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Pource que l’infiny sera son argument</lem>
+						<rdg wit="#Translation">For the infinite will be its subject.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Or ie ren graces aux Dieux de ce que i’ay servie</lem>
+						<rdg wit="#Translation">However, I thank the Gods for that which I have served:</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription"><del>M</del>Toute perfection de grace &amp; de beauté</lem>
+						<rdg wit="#Translation">All perfection of grace and of beauty;</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Mais ie me plein à eux que ta severité</lem>
+						<rdg wit="#Translation">But I bemoan to them that your severity,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Comme sont les vertus, aussi est infinie</lem>
+						<rdg wit="#Translation">Like your<note type= "critical" anchored="true"><p>Literally ‘the virtues’, but I have changed this to a personal pronoun in English.</p></note> virtues, is also infinite.</rdg>
+					</app>
+				</l>
+		</body>
+	</text>
+</TEI>
