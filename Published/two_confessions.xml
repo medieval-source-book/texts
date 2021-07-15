@@ -1,0 +1,1324 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Two Confessions</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Margreet De Rooij, Eva Dirschka, Matthieu Martin, Elizabeth Milne, Nina Profazi, and Myrto Provida</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Margreet De Rooij, Eva Dirschka, Matthieu Martin, Elizabeth Milne, Nina Profazi, and Myrto Provida</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Margreet De Rooij, Eva Dirschka, Matthieu Martin, Elizabeth Milne, Nina Profazi, and Myrto Provida</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p><hi rend="italic">The Two Confessions (Dÿ zwu peicht)</hi> is an anonymously written story of which the oldest version dates from the second quarter of the 14th century. The manuscript on which this edition and translation are based was composed in the third quarter of the fifteenth century in the region of Northern Bavaria. The story belongs to the genre of “Märe”, i.e. stories handed down anonymously, shaped by literary conventions, aimed at entertainment and without any higher rhetorical, religious or critical claims.</p>
+				<p>Some context concerning religious practice is in order here. Confession is a sacrament most frequently associated with the Christian faith of Catholicism. In confession, the believer confesses their sins anonymously to a priest, who as an ordained representative of God has the authority to absolve sin and assign penance. In the late Middle Ages, the sacrament of confession worked somewhat differently than in modern Catholicism. It was not anonymous, took place less frequently, and there was a kind of “emergency provision” for confessing to a lay person (someone who is not clergy). It is also worth noting that in the Middle Ages, priests were always men.</p>
+				<p><hi rend="italic">The Two Confessions</hi> tells the story of a husband and wife who decide to confess their sins to one another. The wife initiates the process and is the first to confess; her husband’s question of whether she has had any other man leads her to confess to having slept with a total of twelve men in the village: the young shepherd, the lord’s messenger, the priest, the judge, the cellarer, the lord’s cook, the old shepherd, the neighbour’s son and three of his companions, and finally the sacristan. Against the husband’s complaints about her infidelity, the wife explains that each affair was to the advantage of their household: sleeping with the shepherd in lieu of making the traditional small payment for services, the lord’s messenger will take them under his protection, the cellarer and the cook provide them food and drink, and so on. Accepting his wife’s reasoning, the husband forgives her, and it is then his turn to confess. The husband confesses to having taken pleasure from touching their maid’s hand while they were on the field together. For this, the wife demands as penance that he cut off his hand and undertake a pilgrimage to Rome. She argues that her actions were borne out of wanting to provide for their household and good standing, whereas his indiscretion was purely out of lust for the maid. The husband pleads with his wife for mercy, until she instructs him to lead his life more truthfully going forward and then, assuming the role traditionally reserved for a male priest, uses Latin to absolve him of sin.</p>
+				<p>The modern reader may appreciate the entertaining and comical depiction of married life in the German Middle Ages through reading <hi rend="italic">The Two Confessions</hi>. The story is quite literally a “he said, she said”: a man and a woman offer contradictory explanations of the same event with the reader being presented only with the spoken exchange and no kind of description. This simplistic yet direct style draws in readers, who might find themselves impressed by the extravagance of the wife’s confession and her subsequent furor at her husband having touched the maid’s hand. Gender, power, and the hierarchy of German society in the late Middle Ages all interrelate with each other in <hi rend="italic">The Two Confessions</hi>.</p>
+				<p><hi rend="italic">The Two Confessions</hi> survives in five manuscripts dating from the fourteenth to the mid-fifteenth century: Berlin, Staatsbibliothek Preuβischer Kulturbesitz, Ms. germ. oct. 1430 (B), Karlsruhe, Badische Landesbibliothek, Karlsruhe 408 (K), Donaueschingen 104, (Do), Vienna (Österreichische Nationalbibliothek, Cod. 3027 (W), and Munich, Bayerische Staatsbibliothek, cgm 714 (M), which is the text transcribed and translated here.</p>
+				<p>Because the versions of <hi rend="italic">The Two Confessions</hi> in these five manuscripts differ to varying degrees from one another, scholars have divided them into two distinct groupings: <hi rend="italic">Die zwei Beichten A</hi> (versions Do, K, W, and B) and <hi rend="italic">Die zwei Beichten B</hi> (version M). Version M, the one presented here, is distinct in its setting, the role of the spouses, the number of lovers and the reason for the affairs. In <hi rend="italic">Die Zwei Beichten A</hi>, the story is set at Easter. The couple is snowed in, preventing them from doing their yearly confession to a priest, which prompts the husband to suggest they confess to each other. This setting is absent in M, where the wife proposes the confession time while sitting at the fire. In M, the story ends with the wife taking on the role of the priest and, after a tongue-lashing, grants the husband absolution, whereas in the other versions the husband gets beaten with a broom. In some versions (Do and K), the story ends with a moral, either asking God to shame “false wives” (Do) or advising husbands not to ask questions of their wives that they don’t want to know the answer to (K). The number of lovers in M is high (12) as compared to Do (4) and K (5), but not as high as in version W (21). However, the motivation for having slept with them in M is only economical; in the other versions there are a variety of reasons besides economical gain: violence, lust, pity.</p>
+				<p><hi rend="italic">Die zwei Beichten</hi> is titled <hi rend="italic">Dÿ zwu peicht</hi> and appears in cgm 714, on fol. 431r-441v, which is housed in the Bayerischen Staatsbibliothek München (Bavarian State Library in Munich). With its 204 lines, it is one of the longer versions of this tale. The manuscript is dated to the third quarter of the 15th century and was written in Nordbairisch (a North-Bavarian variety of Middle High German) on paper. Cgm 714 is a compilation manuscript that contains rhymed couplet texts largely belonging to the genres of  Minnerede (texts about love), Mären (comic tales) and Fastnachtsspiele (carnival plays).</p>
+				<p>“Die zwei Beichten A.” In <hi rend="italic">Deutsche Versnovellistick des 13. bis 15. Jahrhunderts</hi>, edited by Klaus Ridder and Hans-Joachim Ziegeler, 112–30. Schwabe Verlag, 2020.</p>
+				<p>Fischer, H. <hi rend="italic">Die deutsche Märendichtung des 15. Jahrhunderts</hi>. Münchener Texte und Untersuchungen zur Deutschen Literatur des Mittelalters. Beck, 1966. https://books.google.ca/books?id=fuYfAQAAIAAJ.</p>
+				<p>Rasmussen, Ann Marie. “Gender und Subjektivität im Märe die zwei Beichten (A und B).” edited by Martin Baisch, Jutta Eming, Hendrikje Haufe, and Andrea Sieber, 271–87. Ulrike Helmer Verlag, 2005.</p>
+				<p>Schneider, Karin. “cgm 714: Minnereden • Mären • Fastnachtsspiele.” In <hi rend="italic">Die deutschen Handschriften der Bayerischen Staatsbibliothek München: cgm 691-867</hi>, Altera., 79–89. Otto Harrassowitz, 1984. daten.digitale-sammlungen.de/0010/bsb00106375/images/index.html?id=00106375&amp;groesser=&amp;fip=193.174.98.30&amp;no=&amp;seite=81.</p>
+				<p>Schröder, Werner. “Die zwei Beichten A und die zwei Beichten B.” In <hi rend="italic">Die deutsche Literatur des Mittelalters. Verfasserlexikon</hi>, 2nd ed., 1615–17. Verfasserlexikon 10. Berlin, 1977ff.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://daten.digitale-sammlungen.de/~db/0002/bsb00024106/images/index.html?seite=430&amp;fip=193.174.98.30">Munich, Bayerische Staatsbibliothek, cgm 714</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Dÿ zwu peicht</witness>
+					<witness xml:id="Translation">The Two Confessions</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Two Confessions" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The diplomatic transcription in this diplomatic edition strives to retain the original manuscript’s structure by recording scribal corrections and deletions. Crossed out letters and words in the manuscript have been kept and are crossed out in this edition as well. Abbreviations are expanded, indicated by square brackets, and insertions are indicated with angle brackets.  Variations of the different renderings of the letter “u”- (likely included to indicate different sounds) have been unified to the modern “u” spelling. The descending s (ſ) is replaced with the round s; the sz-spellings are kept, but again, the descending s (ſ) is replaced with the round s. The spacing between prefixes and word stems are inconsistent and are frequently seen in instances where the preface “ver” precedes a verb. The inconsistencies in word spacing have been faithfully transcribed throughout.  No punctuation has been added in the transcription of the manuscript.</p>
+                    <p>What is interesting in this manuscript are inclusions of discourse markers which are known in conversation analysis as words or phrases that play a role in managing the flow and structure of discourse. The discourse markers in this edition are the words: “joo” translated as “oh” and  “eÿ” translated as “well”.</p> 
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">Dÿ zwu peicht</lem>
+						<rdg wit="#Translation">The Two Confessions</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Es was gar ain guter man</lem>
+						<rdg wit="#Translation">There was once a good man.
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Der het ain frauen wol getha[n]</lem>
+						<rdg wit="#Translation">He had an attractive wife.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Die was im liep als sein leÿp</lem>
+						<rdg wit="#Translation">She was as dear to him as his life</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Wann es was ein schönsz weÿp</lem>
+						<rdg wit="#Translation">because she was a beautiful woman.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Zu einer zeÿt er peÿ ÿr sasz</lem>
+						<rdg wit="#Translation">Once he was sitting at her side</rdg>
+					</app>
+				</l>
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">In gutem mut on allen hasz</lem>
+						<rdg wit="#Translation">in a good mood without misgivings.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Do sie nu ain weil sassen in dem gute[n] mut</lem>
+						<rdg wit="#Translation">When they been sitting a while in this good mood,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Die frau sprach nu dünckt dich gut</lem>
+						<rdg wit="#Translation">the wife said: “If you think it’s a good idea,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">So wil ich werlich peichten dir</lem>
+						<rdg wit="#Translation">I will confess honestly to you</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Das du wider peichtest mir</lem>
+						<rdg wit="#Translation">so that afterward you confess to me.”</rdg>
+					</app>
+				</l>
+                <l n="11">
+					<app>
+						<lem wit="#Transcription">Er sprach frau das solsein</lem>
+						<rdg wit="#Translation">He said: “Wife that shall be;</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Beÿ den rehten treuen mein</lem>
+						<rdg wit="#Translation">I vow to do so faithfully.</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Du solt reht peÿhten mir</lem>
+						<rdg wit="#Translation">You shall rightly confess to me</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Also wil ich auch dir</lem>
+						<rdg wit="#Translation">and so I will likewise to you.”</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Dÿe frau sprach das sol sein</lem>
+						<rdg wit="#Translation">The wife said: “This shall be.</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Das schwer ich auf dÿ treue mein</lem>
+						<rdg wit="#Translation">This I swear to you on my honour.”</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Der man sprach nu sag mir an</lem>
+						<rdg wit="#Translation">The husband said: “Now tell me,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Hastu zu mir ÿendert kain[en] man</lem>
+						<rdg wit="#Translation">did you have any man other than me?</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Die frau sprach treun ja ich</lem>
+						<rdg wit="#Translation">The wife said: “Goodness me, yes.</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Des dorffs hirten willen thet ich</lem>
+						<rdg wit="#Translation">I did the village shepherd’s will.”</rdg>
+					</app>
+				</l>
+                <l n="21">
+					<app>
+						<lem wit="#Transcription">Do sprach zu ÿr der arm ma[n]</lem>
+						<rdg wit="#Translation">Then the poor husband said to her,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Warümb hastu das gethan</lem>
+						<rdg wit="#Translation">“Why have you done this?”</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Die frau sprach ich tets ümb das</lem>
+						<rdg wit="#Translation">The wife said: “I did it so that</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Das er uns icht würd gehasz</lem>
+						<rdg wit="#Translation">he would not treat us ill</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Und uns der tzinsz liesz freÿ</lem>
+						<rdg wit="#Translation">and not charge us the usual fee.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Darümb lag ich ÿm peÿ</lem>
+						<rdg wit="#Translation">That is why I lay with him.”</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Hastus gethan ümb das</lem>
+						<rdg wit="#Translation">“If that is why you did it</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">So pin ich dir nit gehas</lem>
+						<rdg wit="#Translation">then I bear you no ill will.”</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Der man sprach nu sag an</lem>
+						<rdg wit="#Translation">The husband said: ”Now tell me,</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Hastu süst keinen man</lem>
+						<rdg wit="#Translation">did you have no other man?”</rdg>
+					</app>
+				</l>
+                <l n="31">
+					<app>
+						<lem wit="#Transcription">Do sprach die frau seuberlich</lem>
+						<rdg wit="#Translation">The wife said innocently:</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Lieber herr traun ja ich</lem>
+						<rdg wit="#Translation">“Dear husband, goodness me, yes.”</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Do kom des herrn pot</lem>
+						<rdg wit="#Translation">“When the lord’s messenger showed up,</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Da gieng ich zu im trot</lem>
+						<rdg wit="#Translation">I went to him quickly.</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Er pat mich ümb die mÿnne mein</lem>
+						<rdg wit="#Translation">He begged me for my love,</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Da thet ich auch den willen sein</lem>
+						<rdg wit="#Translation">so I also did his will,</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Das er unsz nit<note type= "critical" anchored="true"><p>From the context of the story, it is clear the scribe missed signalling a negation of the action. Hanns Fischer (1966) came to the same conclusion in his work. We have chosen to include the word “nit” (not) here in the transcript.</p></note> vorm herrn ver redt</lem>
+						<rdg wit="#Translation">so that he would not bad mouth us to the lord</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">Und uns in seiner schirmung het</lem>
+						<rdg wit="#Translation">and have us under his protection.</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">Nu sih mein lieber man</lem>
+						<rdg wit="#Translation">Now see, my dear husband,</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">Darümb so hab ichs gethan</lem>
+						<rdg wit="#Translation">that is why I did it.”</rdg>
+					</app>
+				</l>
+                <l n="41">
+					<app>
+						<lem wit="#Transcription">Der man sprach hastus darümb getha[n]</lem>
+						<rdg wit="#Translation">The husband said: “If that is why you did it</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">So musz ich dich unverdacht lan</lem>
+						<rdg wit="#Translation">then I must not blame you.”</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">Der man sprach aber alls ee</lem>
+						<rdg wit="#Translation">The husband asked her, as before,</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">Ob sie het keinen mee</lem>
+						<rdg wit="#Translation">if she had had any more.</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Joo sprach die frau wol gethan</lem>
+						<rdg wit="#Translation">“Oh,” said the attractive wife,</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Der pfaff ist auch mein man</lem>
+						<rdg wit="#Translation">“The priest is also my man.”</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">Er sprach liebe fraue mein</lem>
+						<rdg wit="#Translation">He said: “My dear wife,</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">Warümb thustu den willen sein</lem>
+						<rdg wit="#Translation">why do you do his will?”</rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">Ich thetz in keÿm argen nit</lem>
+						<rdg wit="#Translation">“I did not do it out of spite,</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">Neur das er got für uns pit</lem>
+						<rdg wit="#Translation">but only so that he would plead with God for us.”</rdg>
+					</app>
+				</l>
+                <l n="51">
+					<app>
+						<lem wit="#Transcription">Der man sprach iszs darümb geschehe[n]</lem>
+						<rdg wit="#Translation">The husband said: “If that is why it happened</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">So musz ich dirs aber über sehen</lem>
+						<rdg wit="#Translation">then I have to overlook what you did.”</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">Die frau sprach ich habs ÿe drüm than</lem>
+						<rdg wit="#Translation">The wife said: “I have always done it for that reason</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">Darümb scholtu mich unverdacht lan</lem>
+						<rdg wit="#Translation">so you should not hold it against me.”</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">Er fragt dÿ frauen aber wider</lem>
+						<rdg wit="#Translation">He asked the wife yet again</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">Ob sie keinen het gehabt sider</lem>
+						<rdg wit="#Translation">if she had not had another since then.</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">Sie sprach joo pisz mir nit gefer</lem>
+						<rdg wit="#Translation">She said: “Oh, don’t be angry with me.</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">Ich het auch den richter</lem>
+						<rdg wit="#Translation">I also had the judge.”</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">Eÿ sprach der arm man</lem>
+						<rdg wit="#Translation">“Alas,” said the poor husband.</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">Warümb hastu das gethan</lem>
+						<rdg wit="#Translation">“Why did you do that?”</rdg>
+					</app>
+				</l>
+                <l n="61">
+					<app>
+						<lem wit="#Transcription">Das thet ich ümb das</lem>
+						<rdg wit="#Translation">“I did it so that</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">Das er uns nicht wer gehas</lem>
+						<rdg wit="#Translation">he would bear us no ill will,</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">Und liesz uns des dienstz freÿ</lem>
+						<rdg wit="#Translation">and release us from service.</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">Darümb lag ich ÿm peÿ</lem>
+						<rdg wit="#Translation">That is why I lay with him.</rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">Und thet es auch umb das</lem>
+						<rdg wit="#Translation">And I also did it so that</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">Ob uns ÿemant wer gehas</lem>
+						<rdg wit="#Translation">if anyone bore ill will towards us,</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">Der über uns thet clagen</lem>
+						<rdg wit="#Translation">who brought a lawsuit against us,</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">Und uns gen ÿm thet versagen</lem>
+						<rdg wit="#Translation">and denounced us to him,</rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">Das du der pusz werst rfreÿ<note type= "critical" anchored="true"><p>In the manuscript, what appears to be the letter “r” precedes the word “freÿ.” It was not crossed out by the scribe. We have included the letter “r,” and show it here crossed out.</p></note></lem>
+						<rdg wit="#Translation">so that you would be absolved of blame.”</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">Der man sprach das seÿ</lem>
+						<rdg wit="#Translation">The husband said: “So be it.</rdg>
+					</app>
+				</l>
+                <l n="71">
+					<app>
+						<lem wit="#Transcription">Nu sag liebe frau mir an</lem>
+						<rdg wit="#Translation">Now tell me dear wife</rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription">Hasztusz darümb gethan</lem>
+						<rdg wit="#Translation">(if that is why you did it,</rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Transcription">So mag ich dirsz verdenken nicht</lem>
+						<rdg wit="#Translation">then I can’t blame you for it),</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">Ist es war ümb die geschicht</lem>
+						<rdg wit="#Translation">is that the truth about why it happened?”</rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription">Ja auff dÿ treue mein</lem>
+						<rdg wit="#Translation">“Yes, on my honour,</rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription">Ich thet es ümb den willn dein</lem>
+						<rdg wit="#Translation">I did it for your sake.”</rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Transcription">Der man sprach sag liebe fraue mir</lem>
+						<rdg wit="#Translation">The husband said: “Tell me dear wife,</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription">Schol ich schier pusz setzen dir</lem>
+						<rdg wit="#Translation">shall I now set you your penance?”</rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription">Die frau sprach wie pistu ain kalp</lem>
+						<rdg wit="#Translation">The wife said: “How calf-like you are!<note type= "critical" anchored="true"><p>To preserve source text imagery “wie pistu ain kalp” (how are you a calf) was translated as “how calf-like you are.”</p></note></rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription">Ich hab kaum gepeichtet halp</lem>
+						<rdg wit="#Translation">I have hardly confessed the half of it.</rdg>
+					</app>
+				</l>
+                <l n="81">
+					<app>
+						<lem wit="#Transcription">Der kellner und des herrn koch</lem>
+						<rdg wit="#Translation">The lord’s cellarer and his cook,</rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Transcription">Die kamen auch zu mir doch</lem>
+						<rdg wit="#Translation">indeed they came to me too.</rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Transcription">Die prachten mir flaysch prot un[d] pir</lem>
+						<rdg wit="#Translation">They brought me meat, bread and beer.</rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Transcription">Das gab ich auch offt dir</lem>
+						<rdg wit="#Translation">I often gave that to you as well,</rdg>
+					</app>
+				</l>
+				<l n="85">
+					<app>
+						<lem wit="#Transcription">Damit spart wir unser gut</lem>
+						<rdg wit="#Translation">in order to save our own provisions.</rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Transcription">Darümb so hab nit pösen mut</lem>
+						<rdg wit="#Translation">So don’t be angry</rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Transcription">Auff mich mein lieber man</lem>
+						<rdg wit="#Translation">with me, my dear husband.</rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Transcription">Die peicht wirt schir ain end han</lem>
+						<rdg wit="#Translation">The confession will soon be at an end.</rdg>
+					</app>
+				</l>
+				<l n="89">
+					<app>
+						<lem wit="#Transcription">Wann wer sein sünd wil leichten</lem>
+						<rdg wit="#Translation">Because whoever intends to lighten the burden of their sin,</rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Transcription">Der musz sein sund ÿe gar peühten<note type= "critical" anchored="true"><p>This is a variant spelling of  “peichten.”</p></note></lem>
+						<rdg wit="#Translation">they must always fully confess it.</rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Transcription">Ir ist kaum noch zwen</lem>
+						<rdg wit="#Translation">There are only about two more,</rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Transcription">Als ich in meim synn kan verstën</lem>
+						<rdg wit="#Translation">as far as I can tell.</rdg>
+					</app>
+				</l>
+				<l n="93">
+					<app>
+						<lem wit="#Transcription">Der alltt hirt kam mir auch zu</lem>
+						<rdg wit="#Translation">The old shepherd also came to me.</rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Transcription">Das was ainsz schmorgens fru</lem>
+						<rdg wit="#Translation">It was early one morning</rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Transcription">Do ich das vih ausz traÿb</lem>
+						<rdg wit="#Translation">when I was driving the cattle out</rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Transcription">Und verr da hinten plaÿb</lem>
+						<rdg wit="#Translation">and I stayed behind out there.</rdg>
+					</app>
+				</l>
+				<l n="97">
+					<app>
+						<lem wit="#Transcription">Do warff er mich ÿns gras</lem>
+						<rdg wit="#Translation">Then he threw me into the grass</rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Transcription">Und thet mir was sein will was</lem>
+						<rdg wit="#Translation">and did to me as he wished.</rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Transcription">Auff genad gethet ich das do</lem>
+						<rdg wit="#Translation">I did that there out of mercy,</rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Transcription">Mein lieber wirt des glaub also</lem>
+						<rdg wit="#Translation">believe me, my dear spouse.</rdg>
+					</app>
+				</l>
+				<l n="101">
+					<app>
+						<lem wit="#Transcription">Das hüt gelt hab ich verricht</lem>
+						<rdg wit="#Translation">I paid the tending fee</rdg>
+					</app>
+				</l>
+				<l n="102">
+					<app>
+						<lem wit="#Transcription">Mit dem selbigen geschicht</lem>
+						<rdg wit="#Translation">with this same act.”</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription">Nu sag an waÿstu icht mer</lem>
+						<rdg wit="#Translation">“Now, do you have anything else to tell me?”</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription">Ja auff mein ër</lem>
+						<rdg wit="#Translation">“Yes, on my honour,</rdg>
+					</app>
+				</l>
+				<l n="105">
+					<app>
+						<lem wit="#Transcription">Unsers nachpern sun da peÿ</lem>
+						<rdg wit="#Translation">our neighbours’ son; and the</rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Transcription">Bracht er frischer gesellen dreÿ</lem>
+						<rdg wit="#Translation">three young companions he brought with him.</rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Transcription">Die haben gelob[t]<note type= "critical" anchored="true"><p>This is a correction by the rubricator (the “t” was later inserted in red ink.)</p></note> alle mir</lem>
+						<rdg wit="#Translation">They all promised me</rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Transcription">Sie wollen sein peholffen dir</lem>
+						<rdg wit="#Translation">They all promised me</rdg>
+					</app>
+				</l>
+				<l n="109">
+					<app>
+						<lem wit="#Transcription">Ob dirsz gescheh ÿendert not</lem>
+						<rdg wit="#Translation">If any adversity came upon you,</rdg>
+					</app>
+				</l>
+				<l n="110">
+					<app>
+						<lem wit="#Transcription">So wollen [sy]<note type= "critical" anchored="true"><p>This is a correction by the rubricator (the “sy” was later inserted in red ink.)
+</p></note> gen mit dir ÿn[en] tot</lem>
+						<rdg wit="#Translation">that they would be willing to go to death with you.</rdg>
+					</app>
+				</l>
+				<l n="111">
+					<app>
+						<lem wit="#Transcription">Sih das thet ich zu hilffe dir</lem>
+						<rdg wit="#Translation">See? I did it to help you.</rdg>
+					</app>
+				</l>
+				<l n="112">
+					<app>
+						<lem wit="#Transcription">Nicht lieber ma[n] verkers mir</lem>
+						<rdg wit="#Translation">Dear husband, don’t hold it against me.”</rdg>
+					</app>
+				</l>
+				<l n="113">
+					<app>
+						<lem wit="#Transcription">Do sprach der gut man</lem>
+						<rdg wit="#Translation">Then the good man said:</rdg>
+					</app>
+				</l>
+				<l n="114">
+					<app>
+						<lem wit="#Transcription">Wirt es icht schier ain e[n]d han</lem>
+						<rdg wit="#Translation">“Will this ever have an end?”</rdg>
+					</app>
+				</l>
+				<l n="115">
+					<app>
+						<lem wit="#Transcription">Sie sprach ja herr zu diser stund</lem>
+						<rdg wit="#Translation">She said: “Yes husband, at this time</rdg>
+					</app>
+				</l>
+				<l n="116">
+					<app>
+						<lem wit="#Transcription">Thu ich dir auch noch zwen kund</lem>
+						<rdg wit="#Translation">I tell you of two more tidings.</rdg>
+					</app>
+				</l>
+				<l n="117">
+					<app>
+						<lem wit="#Transcription">Zu mir kam der meszner</lem>
+						<rdg wit="#Translation">The sacristan also</rdg>
+					</app>
+				</l>
+				<l n="118">
+					<app>
+						<lem wit="#Transcription">Gegangen auch da her</lem>
+						<rdg wit="#Translation">came over to me.</rdg>
+					</app>
+				</l>
+				<l n="119">
+					<app>
+						<lem wit="#Transcription">Der hat auch mit mir gespilt</lem>
+						<rdg wit="#Translation">He also played with me</rdg>
+					</app>
+				</l>
+				<l n="120">
+					<app>
+						<lem wit="#Transcription">Damit ich sein huld pehielt</lem>
+						<rdg wit="#Translation">so that I would keep his favour</rdg>
+					</app>
+				</l>
+				<l n="121">
+					<app>
+						<lem wit="#Transcription">Das er mir dÿ kirch auff schlos</lem>
+						<rdg wit="#Translation">and he would unlock the church for me</rdg>
+					</app>
+				</l>
+				<l n="122">
+					<app>
+						<lem wit="#Transcription">Wenn ich wolt es ÿn nit verdros</lem>
+						<rdg wit="#Translation">whenever I want without him getting annoyed.</rdg>
+					</app>
+				</l>
+				<l n="123">
+					<app>
+						<lem wit="#Transcription">Für alle die in dem dorff sein</lem>
+						<rdg wit="#Translation">For everyone who is in the village,</rdg>
+					</app>
+				</l>
+				<l n="124">
+					<app>
+						<lem wit="#Transcription">Thut er auch den willen mein</lem>
+						<rdg wit="#Translation">he also does my will.</rdg>
+					</app>
+				</l>
+				<l n="125">
+					<app>
+						<lem wit="#Transcription">Des lonsz des geb wir nicht</lem>
+						<rdg wit="#Translation">We don’t make any payment for this.</rdg>
+					</app>
+				</l>
+				<l n="126">
+					<app>
+						<lem wit="#Transcription">Also hab ichs ver richt</lem>
+						<rdg wit="#Translation">That’s how I’ve set it up.</rdg>
+					</app>
+				</l>
+				<l n="127">
+					<app>
+						<lem wit="#Transcription">Wann es ist ain guter kneht</lem>
+						<rdg wit="#Translation">Because he is a good lad,</rdg>
+					</app>
+				</l>
+				<l n="128">
+					<app>
+						<lem wit="#Transcription">Er tet mirs dreu mal das ist sein reht</lem>
+						<rdg wit="#Translation">he did it to me three times (that is his right)</rdg>
+					</app>
+				</l>
+				<l n="129">
+					<app>
+						<lem wit="#Transcription">Und thet es gar schier dar</lem>
+						<rdg wit="#Translation">and did it there quickly and right away,</rdg>
+					</app>
+				</l>
+				<l n="130">
+					<app>
+						<lem wit="#Transcription">Das sein nyemant wurd gewar</lem>
+						<rdg wit="#Translation">so that no one would know.</rdg>
+					</app>
+				</l>
+				<l n="131">
+					<app>
+						<lem wit="#Transcription">Lieber man ich waÿsz nichtz dartzu</lem>
+						<rdg wit="#Translation">Dear husband, I know nothing more.</rdg>
+					</app>
+				</l>
+				<l n="132">
+					<app>
+						<lem wit="#Transcription">Setz mir darfür dy pusz nu</lem>
+						<rdg wit="#Translation">Impose penance on me for this now.</rdg>
+					</app>
+				</l>
+				<l n="133">
+					<app>
+						<lem wit="#Transcription">Nach genad des pit ich dich</lem>
+						<rdg wit="#Translation">I ask you for mercy!</rdg>
+					</app>
+				</l>
+				<l n="134">
+					<app>
+						<lem wit="#Transcription">Mit faszten nicht peschwer mich</lem>
+						<rdg wit="#Translation">Don’t burden me with fasting,</rdg>
+					</app>
+				</l>
+				<l n="135">
+					<app>
+						<lem wit="#Transcription">Mit peten und auch nit mit wache[n]</lem>
+						<rdg wit="#Translation">with prayer or with keeping vigil,</rdg>
+					</app>
+				</l>
+				<l n="136">
+					<app>
+						<lem wit="#Transcription">Noch süst mit andern sachen</lem>
+						<rdg wit="#Translation">or with other things</rdg>
+					</app>
+				</l>
+				<l n="137">
+					<app>
+						<lem wit="#Transcription">Wann ich pin ain kranckes weÿp</lem>
+						<rdg wit="#Translation">because I am a weak woman</rdg>
+					</app>
+				</l>
+				<l n="138">
+					<app>
+						<lem wit="#Transcription">Und hab einen schweren leÿp</lem>
+						<rdg wit="#Translation">and have a heavy body."</rdg>
+					</app>
+				</l>
+				<l n="139">
+					<app>
+						<lem wit="#Transcription">Er sprach mein liebs liep das sol sein</lem>
+						<rdg wit="#Translation">He said: “My dear love, it shall be so</rdg>
+					</app>
+				</l>
+				<l n="140">
+					<app>
+						<lem wit="#Transcription">Wann du pedenkst den frumen mein</lem>
+						<rdg wit="#Translation">because you care about my welfare.”</rdg>
+					</app>
+				</l>
+				<l n="141">
+					<app>
+						<lem wit="#Transcription">Er sprach nach genad setz ich dir</lem>
+						<rdg wit="#Translation">He said: “I now impose on you, mercifully,</rdg>
+					</app>
+				</l>
+				<l n="142">
+					<app>
+						<lem wit="#Transcription">Das scholtu fürwar glauben mir</lem>
+						<rdg wit="#Translation">(you must truly believe me),</rdg>
+					</app>
+				</l>
+				<l n="143">
+					<app>
+						<lem wit="#Transcription">Dir seÿ nu ain urkünd</lem>
+						<rdg wit="#Translation">let it be announced to you</rdg>
+					</app>
+				</l>
+				<l n="144">
+					<app>
+						<lem wit="#Transcription">Das du fürpas nÿmer thust sund</lem>
+						<rdg wit="#Translation">that you must never, ever sin again.</rdg>
+					</app>
+				</l>
+				<l n="145">
+					<app>
+						<lem wit="#Transcription">Von gots gewalt seÿ dir ver geben</lem>
+						<rdg wit="#Translation">With God’s power may you now be forgiven.</rdg>
+					</app>
+				</l>
+				<l n="146">
+					<app>
+						<lem wit="#Transcription">Nu pehallt die pusz gar eben</lem>
+						<rdg wit="#Translation">Now keep away from sin as your penance.”</rdg>
+					</app>
+				</l>
+				<l n="147">
+					<app>
+						<lem wit="#Transcription">Sie sprach nu sag an lieber man</lem>
+						<rdg wit="#Translation">She said: “Now tell me, dear husband,</rdg>
+					</app>
+				</l>
+				<l n="148">
+					<app>
+						<lem wit="#Transcription">Was sünd hastu gethan</lem>
+						<rdg wit="#Translation">what sins have you committed?”</rdg>
+					</app>
+				</l>
+				<l n="149">
+					<app>
+						<lem wit="#Transcription">Er sprach lieber peichtiger mein</lem>
+						<rdg wit="#Translation">He said: “My dear confessor,</rdg>
+					</app>
+				</l>
+				<l n="150">
+					<app>
+						<lem wit="#Transcription">Du scholt mir auch genedig sein</lem>
+						<rdg wit="#Translation">you need to show me mercy too.</rdg>
+					</app>
+				</l>
+				<l n="151">
+					<app>
+						<lem wit="#Transcription">Ich gieng mit unser maÿt auffs velt</lem>
+						<rdg wit="#Translation">I went out to the field with our maid –</rdg>
+					</app>
+				</l>
+				<l n="152">
+					<app>
+						<lem wit="#Transcription">Das seÿ dir in der peicht gemelt</lem>
+						<rdg wit="#Translation">this is reported to you in confession.</rdg>
+					</app>
+				</l>
+				<l n="153">
+					<app>
+						<lem wit="#Transcription">Do graÿff ich ÿr an dÿ hant</lem>
+						<rdg wit="#Translation">Then I touched her hand</rdg>
+					</app>
+				</l>
+				<l n="154">
+					<app>
+						<lem wit="#Transcription">Davon mir lust ward pekant</lem>
+						<rdg wit="#Translation">and derived pleasure from this.”</rdg>
+					</app>
+				</l>
+				<l n="155">
+					<app>
+						<lem wit="#Transcription">Sie sprach mit ungedult</lem>
+						<rdg wit="#Translation">She said impatiently:</rdg>
+					</app>
+				</l>
+				<l n="156">
+					<app>
+						<lem wit="#Transcription">Schlah ab dÿe hant für dÿ schult</lem>
+						<rdg wit="#Translation">“Cut off your hand for this transgression!”</rdg>
+					</app>
+				</l>
+				<l n="157">
+					<app>
+						<lem wit="#Transcription">Er sprach du hast gethan vil mer den[n] ich</lem>
+						<rdg wit="#Translation">He said: “You have done much more than me</rdg>
+					</app>
+				</l>
+				<l n="158">
+					<app>
+						<lem wit="#Transcription">Das über sach ich alles gütlich</lem>
+						<rdg wit="#Translation">and I graciously overlooked it all.”</rdg>
+					</app>
+				</l>
+				<l n="159">
+					<app>
+						<lem wit="#Transcription">Die frau sprach hastu doch wol v[er]nu[m]en</lem>
+						<rdg wit="#Translation">The wife said: “But surely you understood</rdg>
+					</app>
+				</l>
+				<l n="160">
+					<app>
+						<lem wit="#Transcription">Das ichs neur thet ümb unsern frume[n]</lem>
+						<rdg wit="#Translation">that I only did it for our benefit.</rdg>
+					</app>
+				</l>
+				<l n="161">
+					<app>
+						<lem wit="#Transcription">An deinem wir keinen frumen <del>han</del><note type= "critical" anchored="true"><p>Crossed out by the rubricator (in red ink.)</p></note> neme[n]</lem>
+						<rdg wit="#Translation">Your action brought us no benefit.</rdg>
+					</app>
+				</l>
+				<l n="162">
+					<app>
+						<lem wit="#Transcription">Ich müst mich gar ser schemen</lem>
+						<rdg wit="#Translation">I would have to be very ashamed</rdg>
+					</app>
+				</l>
+				<l n="163">
+					<app>
+						<lem wit="#Transcription">Das sie scholt mein frau sein</lem>
+						<rdg wit="#Translation">to have her as my lady,</rdg>
+					</app>
+				</l>
+				<l n="164">
+					<app>
+						<lem wit="#Transcription">Die selb pösz pfüllstosserein</lem>
+						<rdg wit="#Translation">that common filthy tramp.<note type= "critical" anchored="true"><p>The translators were unable to find another attestation of this vivid word which consists of three parts: pfüll which means filth; stosser which means tramp, and the ein which is the feminine ending.</p></note></rdg>
+					</app>
+				</l>
+				<l n="165">
+					<app>
+						<lem wit="#Transcription">Bin ich nit vil schöner denn <del>ich</del> sie</lem>
+						<rdg wit="#Translation">Am I not much fairer than she is?</rdg>
+					</app>
+				</l>
+				<l n="166">
+					<app>
+						<lem wit="#Transcription">Das pekenn du selber hie</lem>
+						<rdg wit="#Translation">Admit it right now!”</rdg>
+					</app>
+				</l>
+				<l n="167">
+					<app>
+						<lem wit="#Transcription">Joo du liebe fraue mein</lem>
+						<rdg wit="#Translation">“Oh yes, you, my dear lady.</rdg>
+					</app>
+				</l>
+				<l n="168">
+					<app>
+						<lem wit="#Transcription">Du pist gegen ÿr ain kaÿserein</lem>
+						<rdg wit="#Translation">You are an empress next to her!”</rdg>
+					</app>
+				</l>
+				<l n="169">
+					<app>
+						<lem wit="#Transcription">Sie sprach<note type= "critical" anchored="true"><p>“Sprach” added to the text. It follows the convention the scribe has used to introduce speech.</p></note> warümb hastus denn gethan</lem>
+						<rdg wit="#Translation">She said: “Then why did you do it,</rdg>
+					</app>
+				</l>
+				<l n="170">
+					<app>
+						<lem wit="#Transcription">Du rehter schnöder pöser man</lem>
+						<rdg wit="#Translation">you truly lowdown, vile man?”</rdg>
+					</app>
+				</l>
+				<l n="171">
+					<app>
+						<lem wit="#Transcription">Er sprach ich thets on allen arge[n] lÿst</lem>
+						<rdg wit="#Translation">He said: “My intentions were not evil.</rdg>
+					</app>
+				</l>
+				<l n="172">
+					<app>
+						<lem wit="#Transcription">Wann du mir süst laÿder gram pist</lem>
+						<rdg wit="#Translation">I did it because you are usually so cross with me.”</rdg>
+					</app>
+				</l>
+				<l n="173">
+					<app>
+						<lem wit="#Transcription">Wie möcht ich euch holt gesein</lem>
+						<rdg wit="#Translation">“How could I possibly be well disposed to you</rdg>
+					</app>
+				</l>
+				<l n="174">
+					<app>
+						<lem wit="#Transcription">Wenn ÿr so schier ver gesztt mein</lem>
+						<rdg wit="#Translation">when you forget me so quickly?</rdg>
+					</app>
+				</l>
+				<l n="175">
+					<app>
+						<lem wit="#Transcription">Wist ich kan euch nit ver geben</lem>
+						<rdg wit="#Translation">Know this! I cannot forgive you</rdg>
+					</app>
+				</l>
+				<l n="176">
+					<app>
+						<lem wit="#Transcription">Die grossen sünd das merckt eben</lem>
+						<rdg wit="#Translation">these grave sins, mark my words!</rdg>
+					</app>
+				</l>
+				<l n="177">
+					<app>
+						<lem wit="#Transcription">Gee hin gen Rom pald und trot</lem>
+						<rdg wit="#Translation">Go to Rome soon and get there quickly,</rdg>
+					</app>
+				</l>
+				<l n="178">
+					<app>
+						<lem wit="#Transcription">Ümb die selben missetot</lem>
+						<rdg wit="#Translation">because of this misdeed.</rdg>
+					</app>
+				</l>
+				<l n="179">
+					<app>
+						<lem wit="#Transcription">Ir habt geprochen eur ee</lem>
+						<rdg wit="#Translation">You have broken your marriage vows.</rdg>
+					</app>
+				</l>
+				<l n="180">
+					<app>
+						<lem wit="#Transcription">Ich glaub euch fürpas nÿmer mee</lem>
+						<rdg wit="#Translation">I can’t believe a word you say anymore!”</rdg>
+					</app>
+				</l>
+				<l n="181">
+					<app>
+						<lem wit="#Transcription">Er sprach frau thu sein nicht</lem>
+						<rdg wit="#Translation">He said: “Lady, don’t do this!</rdg>
+					</app>
+				</l>
+				<l n="182">
+					<app>
+						<lem wit="#Transcription">Es wer mÿr gar ain schwer geschicht</lem>
+						<rdg wit="#Translation">It would be very difficult for me.</rdg>
+					</app>
+				</l>
+				<l n="183">
+					<app>
+						<lem wit="#Transcription">Ich wils peÿ meinen treuen jehen</lem>
+						<rdg wit="#Translation">I will swear on my honour</rdg>
+					</app>
+				</l>
+				<l n="184">
+					<app>
+						<lem wit="#Transcription">Es schol dir nÿmer mer not geschehen</lem>
+						<rdg wit="#Translation">that you shall never be in distress again.</rdg>
+					</app>
+				</l>
+				<l n="185">
+					<app>
+						<lem wit="#Transcription">Thu mir genad des pit ich dich</lem>
+						<rdg wit="#Translation">Show me mercy, I beg you!</rdg>
+					</app>
+				</l>
+				<l n="186">
+					<app>
+						<lem wit="#Transcription">Ich han dirs auch gethan sicherlich</lem>
+						<rdg wit="#Translation">I have surely shown it to you.”</rdg>
+					</app>
+				</l>
+				<l n="187">
+					<app>
+						<lem wit="#Transcription">Sie sprach nain es mag nit gesein</lem>
+						<rdg wit="#Translation">She said: “No, it cannot be.</rdg>
+					</app>
+				</l>
+				<l n="188">
+					<app>
+						<lem wit="#Transcription">Du must darümb leÿden dÿ pein</lem>
+						<rdg wit="#Translation">You have to suffer the consequences.”</rdg>
+					</app>
+				</l>
+				<l n="189">
+					<app>
+						<lem wit="#Transcription">Genad liebe fraue mein</lem>
+						<rdg wit="#Translation">“Mercy, my dear lady!</rdg>
+					</app>
+				</l>
+				<l n="190">
+					<app>
+						<lem wit="#Transcription">Was du wilt das musz sein</lem>
+						<rdg wit="#Translation">Your will shall be done.”</rdg>
+					</app>
+				</l>
+				<l n="191">
+					<app>
+						<lem wit="#Transcription">Sie sprach für das creutz leg dich dÿmütigklich</lem>
+						<rdg wit="#Translation">She said: “Lie down before the cross humbly</rdg>
+					</app>
+				</l>
+				<l n="192">
+					<app>
+						<lem wit="#Transcription">Nacket so wil ich mit gerten schlahe[n] dich</lem>
+						<rdg wit="#Translation">and naked and I shall beat you with a switch!”</rdg>
+					</app>
+				</l>
+				<l n="193">
+					<app>
+						<lem wit="#Transcription">Er sprach auf genad knie ich für dich</lem>
+						<rdg wit="#Translation">He said: “I kneel before you begging for mercy!</rdg>
+					</app>
+				</l>
+				<l n="194">
+					<app>
+						<lem wit="#Transcription">Und schlach und rauff und mörde mich</lem>
+						<rdg wit="#Translation">Go ahead, beat and whip and murder me,</rdg>
+					</app>
+				</l>
+				<l n="195">
+					<app>
+						<lem wit="#Transcription">Seÿt es nit anders mag gesein</lem>
+						<rdg wit="#Translation">since it cannot be otherwise.</rdg>
+					</app>
+				</l>
+				<l n="196">
+					<app>
+						<lem wit="#Transcription">Es laÿd Jhesus auch für dÿ sünde mein</lem>
+						<rdg wit="#Translation">Jesus suffered for my sins too.”</rdg>
+					</app>
+				</l>
+				<l n="197">
+					<app>
+						<lem wit="#Transcription">Sie sprach wol hin mein lieber kneht</lem>
+						<rdg wit="#Translation">She said: “Well then, my dear fellow,</rdg>
+					</app>
+				</l>
+				<l n="198">
+					<app>
+						<lem wit="#Transcription">Die genad ist pesser denn das <del>got</del> reht</lem>
+						<rdg wit="#Translation">mercy is better than justice.</rdg>
+					</app>
+				</l>
+				<l n="199">
+					<app>
+						<lem wit="#Transcription">Vor got sey dir ver geben</lem>
+						<rdg wit="#Translation">Before God, you are forgiven.</rdg>
+					</app>
+				</l>
+				<l n="200">
+					<app>
+						<lem wit="#Transcription">Hallt fürpas pas dein <del>leben</del> eelichs lebe[n]</lem>
+						<rdg wit="#Translation">Lead your marital life better</rdg>
+					</app>
+				</l>
+				<l n="201">
+					<app>
+						<lem wit="#Transcription">Wenn du pis her hast gethan</lem>
+						<rdg wit="#Translation">than you have done thus far,</rdg>
+					</app>
+				</l>
+				<l n="202">
+					<app>
+						<lem wit="#Transcription">So will ich dir abschlahen den pan</lem>
+						<rdg wit="#Translation">and I shall lift your excommunication.</rdg>
+					</app>
+				</l>
+				<l n="203">
+					<app>
+						<lem wit="#Transcription">In gotes namen alsus</lem>
+						<rdg wit="#Translation">In God’s name thus</rdg>
+					</app>
+				</l>
+				<l n="204">
+					<app>
+						<lem wit="#Transcription">O filius et spiritus sanctus</lem>
+						<rdg wit="#Translation">o filius et spiritus sanctus.”</rdg>
+					</app>
+				</l>
+
+		</body>
+	</text>
+</TEI>

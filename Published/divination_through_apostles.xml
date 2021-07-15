@@ -80,13 +80,13 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">Inprimis cantent 
-							<note type= "critical" anchored="true"><p>Rendered as cantēt</p></note> 
+							<note type= "critical" anchored="true"><p><hi rend="italic">Cantent</hi> is rendered as <hi rend="italic">cantēt</hi></p></note> 
 						unum psalmum 
-							<note type= "critical" anchored="true"><p>Rendered as psalmū</p></note> 
+							<note type= "critical" anchored="true"><p><hi rend="italic">Psalmum</hi> is rendered as <hi rend="italic">psalmū</hi></p></note> 
 						cum 
-							<note type= "critical" anchored="true"><p>Rendered as cū</p></note>
+							<note type= "critical" anchored="true"><p><hi rend="italic">Cum</hi> is rendered as <hi rend="italic">cū</hi></p></note>
 						oratione dominica.
-							<note type= "critical" anchored="true"><p>Rendered as dnīca</p></note>
+							<note type= "critical" anchored="true"><p><hi rend="italic">Dominica</hi> is rendered as <hi rend="italic">dnīca</hi></p></note>
 						</lem>
 						<rdg wit="Translation">First a psalm is to be sung as a prayer to the Lord.</rdg>
 					</app>	
@@ -94,7 +94,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">deuota mente. Ut dominus 
-							<note type= "critical" anchored="true"><p>Dominus here is endered as ds with a macron. In a printed edition of this text Adolf Tobler transcribes this as "deus" but given that elsewhere in the MS a macron represents a missing M "dominus" seems like a more accurate transcription. See Adolf Tober, Die altvenezianische Übersetzung der Sprüche des Dionysius Cato. Abhandlungen der königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1883. Philosophisch-historische Classe 1, Berlin, 1883, 86</p></note> 
+							<note type= "critical" anchored="true"><p><hi rend="italic">Dominus</hi> here is endered as ds with a macron. In a printed edition of this text Adolf Tobler transcribes this as "<hi rend="italic">deus</hi>" but given that elsewhere in the MS a macron represents a missing M "<hi rend="italic">dominus</hi>" seems like a more accurate transcription. See Adolf Tober, <hi rend="italic">Die altvenezianische Übersetzung der Sprüche des Dionysius Cato</hi>. Abhandlungen der königlichen Akademie der Wissenschaften zu Berlin aus dem Jahre 1883. Philosophisch-historische Classe 1, Berlin, 1883, 86</p></note> 
 						manifestet ei quod querit.</lem>
 						<rdg wit="Translation">The mind having thus been dedicated, the Lord reveals what you ask.</rdg>
 					</app>	
@@ -102,7 +102,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">Postea aperiat psalterium. et prima litera que tibi aparuerit 
-							<note type= "critical" anchored="true"><p>Abbreviated aperueīt but likely a misspelling of apparuerit.</p></note>
+							<note type= "critical" anchored="true"><p>This is an abbreviated form of <hi rend="italic">aperueīt</hi>, but it is also likely a misspelling of <hi rend="italic">apparuerit</hi>.</p></note>
 						cognosce eam. et videbis quod queris:</lem>
 						<rdg wit="Translation">Afterward, open a psalter and consider the first letter that will appear to you and you will see what you seek:</rdg>
 					</app>	
@@ -147,7 +147,7 @@
 					<app>
 						<lem wit="#Transcription">¶ .G significat unius hominis occisionis:</lem>
 						<rdg wit="Translation">¶ .G. signifies the murder of a man:
-							<note type= "critical" anchored="true"><p>Literally one man</p></note>
+							<note type= "critical" anchored="true"><p>Literally it means one man.</p></note>
 						</rdg>
 					</app>	
 				</s>				
@@ -160,7 +160,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¶ .I. significat bonam 
-							<note type= "critical" anchored="true"><p>Rendered as bonā</p></note>
+							<note type= "critical" anchored="true"><p><hi rend="italic">Bonam</hi> is rendered as <hi rend="italic">bonā</hi>></p></note>
 						uitam:</lem>
 						<rdg wit="Translation">¶ .I. signifies good life:</rdg>
 					</app>	
@@ -168,10 +168,10 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¶ K. significat iamnem 
-							<note type= "critical" anchored="true"><p>Likely a misspelling of inanem</p></note>
+							<note type= "critical" anchored="true"><p><hi rend="italic">Iamnem</hi> is likely a misspelling of <hi rend="italic">inanem</hi></p></note>
 						literarum:</lem>
 						<rdg wit="Translation">¶ .K. signifies vain
-							<note type= "critical" anchored="true"><p>Literally empty</p></note>
+							<note type= "critical" anchored="true"><p>Literally this means empty.</p></note>
 						scholarship:</rdg>
 					</app>	
 				</s>	
@@ -210,7 +210,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¶ .Q. significat vitam uel cautelam:
-							<note type= "critical" anchored="true"><p>Rendered cautelā</p></note>
+							<note type= "critical" anchored="true"><p><hi rend="italic">Cautelam</hi> is rendered <hi rend="italic">cautelā</hi></p></note>
 						</lem>
 						<rdg wit="Translation">¶ .Q. signifies life or caution.</rdg>
 					</app>	
@@ -224,7 +224,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¶ .S. significat anum 
-							<note type= "critical" anchored="true"><p>Likely a misspelling of annum.</p></note>
+							<note type= "critical" anchored="true"><p><hi rend="italic">Anum</hi> is likely a misspelling of <hi rend="italic">annum</hi>.</p></note>
 						sanitatem: </lem>
 						<rdg wit="Translation">¶ .S. signifies a healthy year:
 							<note type= "critical" anchored="true"><p>Presumably this is a healthy year, as written it reads literally “.S. signifies a healthy anus:”</p></note>
@@ -240,7 +240,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">¶ .V. significat mortem:
-							<note type= "critical" anchored="true"><p>Here readers have scratched away the word "mortem"</p></note>
+							<note type= "critical" anchored="true"><p>Here readers have scratched away the word "<hi rend="italic">mortem</hi>"</p></note>
 						</lem>
 						<rdg wit="Translation">¶ .V. signifies death:</rdg>
 					</app>	

@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Revealing Inmost Feelings”&#8212;"At Night"</title>
+				<title>To the tune “Bodhisattva Barbarian”&#8212;"The Wind is Gentle"</title>
 				<author>Li Qingzhao</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -37,19 +37,20 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>This is one of Li Qingzhao's last works. She composed it when she had already moved to the south in her later life, and it captures her struggle with homesickness.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
 				<listWit>
-					<witness xml:id="Transcription">訴衷情</witness>
-					<witness xml:id="Translation">To the tune “Revealing Inmost Feelings”</witness>
+					<witness xml:id="Transcription">菩薩蠻</witness>
+					<witness xml:id="Translation">To the tune “Bodhisattva Barbarian”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Revealing Inmost Feelings”&#8212;"At Night"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Bodhisattva Barbarian”&#8212;"The Wind is Gentle" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +69,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">訴衷情</lem>
-						<rdg wit="#Translation">To the tune “Revealing Inmost Feelings”&#8212;"At Night"</rdg>
+						<lem wit="#Transcription">菩薩蠻</lem>
+						<rdg wit="#Translation">To the tune “Bodhisattva Barbarian”&#8212;"The Wind is Gentle"</rdg>
 					</app>
 				</title>
 			</head>
@@ -79,65 +80,52 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">夜來沉醉卸妝遲。</lem>
-						<rdg wit="#Translation">At night, I was drunk and did not take off my makeup.</rdg>
+						<lem wit="#Transcription">風柔日薄春猶早。</lem>
+						<rdg wit="#Translation">The wind is gentle, the sunlight soft; it is still early spring.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">梅萼插殘枝。</lem>
-						<rdg wit="#Translation">The plum blossom petals withered on the twig.</rdg>
+						<lem wit="#Transcription">夾衫乍著心情好。</lem>
+						<rdg wit="#Translation">Quickly putting on my double-layered coat, I am in a good mood.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">酒醒熏破春睡，</lem>
-						<rdg wit="#Translation">As I sobered up, their smell broke the spring sleep;</rdg>
+						<lem wit="#Transcription">睡起覺微寒。</lem>
+						<rdg wit="#Translation">As I rise, I feel a slight chill.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">夢斷不成歸。</lem>
-						<rdg wit="#Translation">the dream ended before I was able to reach home. </rdg>
+						<lem wit="#Transcription">梅花鬢上殘。</lem>
+						<rdg wit="#Translation">The plum blossom<note anchored="true">This refers to makeup made from plum blossoms, which would be used like foundation.</note> is smudged into my hair.</rdg>
 					</app>
 				</l>
 			</lg>
-
 			<lg n="2">
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">人悄悄，</lem>
-						<rdg wit="#Translation">There was no sound of people,</rdg>
+						<lem wit="#Transcription">故鄉何處是。</lem>
+						<rdg wit="#Translation">Where is my hometown?</rdg>
 					</app>
-				</l>	
+				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">月依依。</lem>
-						<rdg wit="#Translation">The moon lingered on,</rdg>
+						<lem wit="#Transcription">忘了除非醉。</lem>
+						<rdg wit="#Translation">Only in drunkenness could I forget.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">翠簾垂。</lem>
-						<rdg wit="#Translation">The emerald curtain rolled down.</rdg>
+						<lem wit="#Transcription">沈水臥時燒。</lem>
+						<rdg wit="#Translation">I lit the incense before I lay down.</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">更挼殘蕊，</lem>
-						<rdg wit="#Translation">Again, I pinched the leftover petals,</rdg>
-					</app>
-				</l>
-				<l n="9">
-					<app>
-						<lem wit="#Transcription">更撚餘香，</lem>
-						<rdg wit="#Translation">Again, I rubbed the remaining fragrance,</rdg>
-					</app>
-				</l>
-				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
-					<app>
-						<lem wit="#Transcription">更得些時。</lem>
-						<rdg wit="#Translation">Again, I obtained some more time. </rdg>
+						<lem wit="#Transcription">香消酒未消。</lem>
+						<rdg wit="#Translation">The incense smoke has all disappeared, but the wine has not yet gone.</rdg>
 					</app>
 				</l>
 			</lg>

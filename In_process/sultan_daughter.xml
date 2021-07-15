@@ -1,0 +1,2517 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM '../menota/menota-entities.txt'>
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Sultan's Daughter in the Flower Garden</title>
+                <author>Anonymous</author>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name>Johannes Bolte</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Sara S. Poor</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Introduction by</resp>
+                    <name>Sara S. Poor</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded in TEI P5 XML by</resp>
+                    <name>Dante Zhu</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <hi rend="italic">The Global Medieval Sourcebook</hi>
+                </publisher>
+                <availability>
+                    <p>
+                        <hi rend="italic">The Global Medieval Sourcebook</hi>
+                        is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note anchored="true"></note>
+                <p>The Sultan’s Daughter in the Flower Garden is a 400-line rhymed couplet text in Middle High German that was probably composed anonymously in the 14th century. Categorized in scholarship as a “Klosterlegende”  or monastery legend, but also exhibiting characteristics of saints’ lives, courtship narratives, stories of noble “heathens” who convert, as well as of docta ignorantia (learned ignorance) and Marian literature, the narrative was probably translated from a no longer extant Latin source and is also transmitted in low German prose versions, as well as in song form. While the prose versions have a “modest” transmission in late medieval manuscripts and early modern prints, the songs’ reception stretches into the eighteenth and nineteenth centuries. The Middle High German rhymed couplet version presented here appears, however, in only two late fifteenth-century manuscripts: Berlin, Staatsbibiliothek Preussischer Kulturbesitz, mgo 222, dated to after 1475, and Budapest, Bibl. et Archivum P. P. Franciscanorum, Cod. Esztergom 11, dated to around 1500. Both manuscripts were produced in the southern German-speaking areas and tell the following story: After learning of the arrival of a foreign nobleman whom her father wishes her to wed, the daughter of the Sultan of Babylon goes into their beautiful garden. Among the flowers, she marvels at the beauty of the lilies, whereupon an angel appears and recruits her to worship the God who made them, as long as she can commit to complete chastity. She agrees and he whisks her 3000 miles away, instructing her in the Christian mysteries along the way. The angel delivers her to a convent. where she is accepted, baptized, educated, and eventually becomes abbess.</p>
+                <p>The dominant aspects of the tale situate it most comfortably in the traditions of Marian literature and docta ignorantia narratives. The references to lilies, to chastity, and to the annunciation from the angel in an enclosed garden come into greater relief in the Berlin manuscript compilation, which includes a number of other texts relating to the Marian tradition (e.g., a pater noster exegesis, a treatise about the rosary, a devotion to Mary, a set of Marian miracles, and an allegory about the heart as cloister). This focus corresponds to the known ownership of the manuscript, which, as indicated in the pastedown on the inside front cover, was a reformed convent of Augustinian nuns in Inzigkofen, a town located about 25 miles north of Lake Constance. In contrast, the Budapest manuscript, most likely produced in a Franciscan context, seems more interested in instructing an audience of lay noblemen in the benefits of giving up their sinful behavior and embracing a more chaste existence for the sake of their fate in the afterlife. Accordingly, the other texts included in the Budapest compilation, many more of which are in verse—as opposed to the Berlin manuscript, where only the Sultan’s Daughter text is rhymed—focus on the concepts of sin and confession (e.g., model confession texts, a Latin catalogue of sins, verse prayer for a good end, a Totentanz, the dream vision of Tundalus, a section from the Lucidarius on the afterlife, and two secular rhymed couplet tales: The Count of Savoy and The Knight in the Chapel).</p>
+                <p>The text is noteworthy more for its content than for its poetic attributes, the rhymes and imagery being relatively mundane. The combination of the variety of narrative models into one tale is of interest, however, as well as the miraculous trajectory of the clever maiden from an object of exchange between men in Babylon to model Christian, scribe, teacher, and ultimately abbess of a German convent. In addition, the focus in the text on the choice to obey the angel, that is, on the maiden’s agency in determining her fate, is also striking.</p>
+                <p>Poor, Sara S. “Imagining the Origins of a Clever Woman: The ‘Sultanstochter’ and the Path to Learning in the Late Medieval Devotional Book.” In Mendicant Gender Discourse(s) - Comparative Studies, Reti Medievali 41 (forthcoming, 2021). </p>
+                <p>Thorough introduction to the text, including detailed analysis of manuscript context.</p>
+                <p>Poor, Sara S. “Women Teaching Men in the Medieval Devotional Imagination.” In Partners in Spirit: Women, Men, and Religious Life in Germany, 1100-1500, edited by Fiona J. Griffiths and Julie Hotchin. Turnhout, Belgium: Brepols, 2014. 339–65.</p>
+                <p>Readings of late medieval German narratives of docta ignorantia featuring women, the manuscripts that transmit them, and the historical context.</p>
+                <p>Morgan, Ben. “The Pleasure of the Text: What Two Manuscripts Can Tell Us About Becoming God.” Medieval Mystical Theology 23, no. 1 (2014): 52–64.</p>
+                <p>Examination of the Kirchheim reception of the related narrative, the Sister Catherine Treatise, with a focus on its theological content.</p>
+                <p>Winston-Allen, Anne. Stories of the Rose: The Making of the Rosary in the Middle Ages. University Park, Penn: Pennsylvania State University Press, 1997.</p>
+                <p>Informative study of the late medieval Marian literature through the evolution of the rosary and the poems, texts, and gardens associated with it. Includes excellent bibliography and also many illustrations.</p>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <ref target="https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN853499047">
+                        Bolte,Johannes. “Die Sultanstochter im Blumengarten,”
+                        <hi rend="italic">Zeitschrift für deutsches Altertum und deutsche Literatur 34 (1890)</hi>
+                        : 18–31.
+                    </ref>
+                </p>
+                <listWit>
+                    <witness xml:id="Transcription">Die Sultanstochter im Blumengarten</witness>
+                    <witness xml:id="Translation">The Sultan's Daughter in the Flower Garden</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    "The Sultan's Daughter in the Flower Garden" is published by
+                    <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>
+                    , a free, open access, and open source compendium of medieval texts in their original languages and in English translation.
+                    <hi rend="italic">GMS</hi>
+                    comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The
+                    <hi rend="italic">GMS</hi>
+                    platform includes critical introductions as well as sources for further reading.
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+                <interpretation>
+                    <p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>The Middle High German text supplied here is based on Johannes Bolte’s 1890 edition, published in the Zeitschrift für deutsches Altertum (volume 34, pages 18-31), which is a diplomatic transcription of the Berlin manuscript (fols. 160r–170v). I have adopted Bolte’s diacritics where possible. These include the regular umlaut as well as an accent aigu (´), which Bolte also used to indicate an umlauted vowel (presumably because the superscript e in the manuscript looks more like an accent than an e). Dipthongized vowels like a, u, and o, which in the manuscript are indicated with superscripts, have been written out as av, uo, and ov. Superscript abbreviations for er, en, and em have been written out as well. The manuscript often uses a v to represent the vowel u and when this is umlauted, that is also indicated with what looks like an accent (instead of the umlaut or an e over the vowel). In the transcription here, these have been changed to ú (as in úmmer and úber). Bolte’s suggestions for emendations have been adopted and appear in square brackets. My own interjections appear in parentheses. I have also consulted, where necessary, both manuscripts as well as Vizkeletey’s edition of the Budapest manuscript published in 2013 (András Vizkelety, “‘Die Sultanstochter im Blumengarten’ in einer ehemaligen Güssinger Handschrift (A szultánkisasszony a virágok közt. Verses novella egy Németújvárról elszármazott kódexben); Tanulmányok Mollay Károly születésének 100. évfordulójára [Studien zum 100. Geburtstag von Karl Mollay],” Soproni Szemle [Ödenburger Rundschau] 4 (2013): 440–53), as indicated in the footnotes.</p>
+                </interpretation>
+                <segmentation></segmentation>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal" />
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>
+                <title type="main">
+                    <app>
+                        <lem wit="#Transcription">Die Sultanstochter im Blumengarten</lem>
+                        <rdg wit="#Translation">The Sultan's Daughter in the Flower Garden</rdg>
+                    </app>
+                </title>
+                <title type="sub">
+                    <app>
+                        <lem wit="#Transcription">
+                            <!--Subtitle in original language-->
+                        </lem>
+                        <rdg wit="#Translation">
+                            <!--Subtitle in English-->
+                        </rdg>
+                    </app>
+                </title>
+            </head>
+        </front>
+        <body>
+            <l n="1">
+                <app>
+                    <lem wit="#Transcription">In der statt zuo Babilon</lem>
+                    <rdg wit="#Translation">In the city of Babylon</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <lem wit="#Transcription">da sass ain herre rich vnd schún,</lem>
+                    <rdg wit="#Translation">lived a wealthy and handsome lord</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <lem wit="#Transcription">der selb was gar ain erlich man</lem>
+                    <rdg wit="#Translation">who was a very honorable man,</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <lem wit="#Transcription">vnd gewaltig — —<note type= "critical" anchored="true"><p>Bolte suggests that the line is incomplete and offers “als ain soldan” as a completion. The Budapest manuscript for this line is: “gewaltig vnd säldenreich” (powerful and fortunate).</p></note></lem>
+                    <rdg wit="#Translation">as well as powerful. </rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <lem wit="#Transcription">der hett ain dochter, die was kluog,</lem>
+                    <rdg wit="#Translation">This lord had a daughter who was clever,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <lem wit="#Transcription">zúchtig was siú genuog,</lem>
+                    <rdg wit="#Translation">and also very well-mannered.</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <lem wit="#Transcription">onmavssen schún vnd tugentrich,</lem>
+                    <rdg wit="#Translation">Immeasurably beautiful and rich in virtue,</rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <lem wit="#Transcription">in allen landen was ir nit gelich.</lem>
+                    <rdg wit="#Translation">there was no one like her in the whole world.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <lem wit="#Transcription">in sinen hof ain bömgart was,</lem>
+                    <rdg wit="#Translation">In the lord’s courtyard, there was a garden</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <lem wit="#Transcription">da sprungent bluoman vnd öch gras,</lem>
+                    <rdg wit="#Translation">where flowers grew as well as grass.</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <lem wit="#Transcription">der was wonneclich vnd schún, </lem>
+                    <rdg wit="#Translation">It was delightful and beautiful — </rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <lem wit="#Transcription">die fogel sungent süss gedoen,</lem>
+                    <rdg wit="#Translation">The birds sang sweet melodies, while</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <lem wit="#Transcription">vil rosen dar in sprungent,</lem>
+                    <rdg wit="#Translation">many roses were sprouting and</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <lem wit="#Transcription"><hi rend="italic">[vil gilgen us dem grase drungent,]</hi><note type= "critical" anchored="true"><p>As with this verse, text appearing inside square brackets hereafter indicates an addition or emendation by the editor, Johannes Bolte, that is not present in the Berlin manuscript.</p></note></lem>
+                    <rdg wit="#Translation">[many lilies pressed up through the grass].</rdg>
+                </app>
+            </l>
+            <l n="15">
+                <app>
+                    <lem wit="#Transcription">der bavm bluot was rovt vnd wiss,</lem>
+                    <rdg wit="#Translation">The blossoms of the plants were red and white;</rdg>
+                </app>
+            </l>
+            <l n="16">
+                <app>
+                    <lem wit="#Transcription">es was ain irdesch paradiss. </lem>
+                    <rdg wit="#Translation">it was an earthly paradise.</rdg>
+                </app>
+            </l>
+            <l n="17">
+                <app>
+                    <lem wit="#Transcription">dú iunkfrovw dáglich dar in gieng,</lem>
+                    <rdg wit="#Translation">The maiden went there daily.</rdg>
+                </app>
+            </l>
+            <l n="18">
+                <app>
+                    <lem wit="#Transcription">ir gebett siú allweg anfieng,</lem>
+                    <rdg wit="#Translation">She always began her prayers there,</rdg>
+                </app>
+            </l>
+            <l n="19">
+                <app>
+                    <lem wit="#Transcription">mit guoter andavcht sú das lass,</lem>
+                    <rdg wit="#Translation">and read them with devotion,</rdg>
+                </app>
+            </l>
+            <l n="20">
+                <app>
+                    <lem wit="#Transcription">als sú das gelert was.</lem>
+                    <rdg wit="#Translation">just as she had been taught.</rdg>
+                </app>
+            </l>
+            <l n="21">
+                <app>
+                    <lem wit="#Transcription">da warent gilgen vnd rosen vil</lem>
+                    <rdg wit="#Translation">There were many lilies and roses</rdg>
+                </app>
+            </l>
+            <l n="22">
+                <app>
+                    <lem wit="#Transcription">vnd ander bluoman <hi rend="italic">[als man wil].</hi></lem>
+                    <rdg wit="#Translation">and other flowers [as is said].</rdg>
+                </app>
+            </l>
+            <l n="23">
+                <app>
+                    <lem wit="#Transcription">diu junkfrow schûn vnd zart</lem>
+                    <rdg wit="#Translation">The beautiful and tender maiden</rdg>
+                </app>
+            </l>
+            <l n="24">
+                <app>
+                    <lem wit="#Transcription">ainem hochen herren sú gemáchelt ward,</lem>
+                    <rdg wit="#Translation">was betrothed to a noble lord </rdg>
+                </app>
+            </l>
+            <l n="25">
+                <app>
+                    <lem wit="#Transcription">der kam mit ainem her dar schuon,</lem>
+                    <rdg wit="#Translation">Who was coming there with a great army.</rdg>
+                </app>
+            </l>
+            <l n="26">
+                <app>
+                    <lem wit="#Transcription">des ward im trurun benomen:</lem>
+                    <rdg wit="#Translation">His sadness was being taken away,</rdg>
+                </app>
+            </l>
+            <l n="27">
+                <app>
+                    <lem wit="#Transcription">er wund, er sólt frólich hochzit havn,</lem>
+                    <rdg wit="#Translation">for he thought he was going to have a happy marriage;</rdg>
+                </app>
+            </l>
+            <l n="28">
+                <app>
+                    <lem wit="#Transcription">es mocht im nit also ergavn.</lem>
+                    <rdg wit="#Translation">but in the end, this wasn’t possible for him.</rdg>
+                </app>
+            </l>
+            <l n="29">
+                <app>
+                    <lem wit="#Transcription">vil schún in ir vatter empfieng,</lem>
+                    <rdg wit="#Translation">Her father received him very well.</rdg>
+                </app>
+            </l>
+            <l n="30">
+                <app>
+                    <lem wit="#Transcription">haimlich sú zuo dem vatter gieng,</lem>
+                    <rdg wit="#Translation">Unbeknownst to him (the suitor)<note type= "critical" anchored="true"><p>Insertions in parentheses are my clarifications.</p></note>, she went to her father</rdg>
+                </app>
+            </l>
+            <l n="31">
+                <app>
+                    <lem wit="#Transcription">flisseclich sú in batt,</lem>
+                    <rdg wit="#Translation">and eagerly asked him</rdg>
+                </app>
+            </l>
+            <l n="32">
+                <app>
+                    <lem wit="#Transcription">dz er ir erlopti ain haimlich statt,</lem>
+                    <rdg wit="#Translation">for permission to go to a hidden place</rdg>
+                </app>
+            </l>
+            <l n="33">
+                <app>
+                    <lem wit="#Transcription">da sú ir bett avn allen spot</lem>
+                    <rdg wit="#Translation">where she could say her prayers</rdg>
+                </app>
+            </l>
+            <l n="34">
+                <app>
+                    <lem wit="#Transcription">spráchin irem herren got.</lem>
+                    <rdg wit="#Translation">to her lord God without reproach.</rdg>
+                </app>
+            </l>
+            <l n="35">
+                <app>
+                    <lem wit="#Transcription">er sprach: vil liebunn tochter min,</lem>
+                    <rdg wit="#Translation">He said, my dearest daughter,</rdg>
+                </app>
+            </l>
+            <l n="36">
+                <app>
+                    <lem wit="#Transcription">es sol dir erlovpt sin.</lem>
+                    <rdg wit="#Translation">yes, you may.</rdg>
+                </app>
+            </l>
+            <l n="37">
+                <app>
+                    <lem wit="#Transcription">des selben mavls diu iunkfrovwe rain</lem>
+                    <rdg wit="#Translation">At once this pure maiden</rdg>
+                </app>
+            </l>
+            <l n="38">
+                <app>
+                    <lem wit="#Transcription">gieng in den garten aber allain,</lem>
+                    <rdg wit="#Translation">went into the garden again, alone — </rdg>
+                </app>
+            </l>
+            <l n="39">
+                <app>
+                    <lem wit="#Transcription">siú wolt niement mit ir lavn;</lem>
+                    <rdg wit="#Translation">she did not want to have anyone with her;</rdg>
+                </app>
+            </l>
+            <l n="40">
+                <app>
+                    <lem wit="#Transcription">schún rosen sach siú bi ir stavn,</lem>
+                    <rdg wit="#Translation">Standing near her she saw beautiful roses,</rdg>
+                </app>
+            </l>
+            <l n="41">
+                <app>
+                    <lem wit="#Transcription">si fand da ainen gilgen stok,</lem>
+                    <rdg wit="#Translation">and among them she found a great lily stalk</rdg>
+                </app>
+            </l>
+            <l n="42">
+                <app>
+                    <lem wit="#Transcription">dar vz gewachsen ain michel zog,</lem>
+                    <rdg wit="#Translation">out of which grew</rdg>
+                </app>
+            </l>
+            <l n="43">
+                <app>
+                    <lem wit="#Transcription">vil gilgen schún die warent her,</lem>
+                    <rdg wit="#Translation">many beautiful lilies — they were glorious.</rdg>
+                </app>
+            </l>
+            <l n="44">
+                <app>
+                    <lem wit="#Transcription">dar an kam ir gedank vil ser,</lem>
+                    <rdg wit="#Translation">Her thoughts then turned in earnest to the fact</rdg>
+                </app>
+            </l>
+            <l n="45">
+                <app>
+                    <lem wit="#Transcription">das niemand anderst wárin got,</lem>
+                    <rdg wit="#Translation">that, if she could, she wanted to do the bidding</rdg>
+                </app>
+            </l>
+            <l n="46">
+                <app>
+                    <lem wit="#Transcription">kúnd si, si wolt tuon sin gebott.</lem>
+                    <rdg wit="#Translation">of no other than the true God.</rdg>
+                </app>
+            </l>
+            <l n="47">
+                <app>
+                    <lem wit="#Transcription">sú gedavcht: ach got, wie schún der ist,</lem>
+                    <rdg wit="#Translation">She thought: “Ah God, how beautiful is he</rdg>
+                </app>
+            </l>
+            <l n="48">
+                <app>
+                    <lem wit="#Transcription">der des gewalt havt vnd den list,</lem>
+                    <rdg wit="#Translation">who has the power and intelligence</rdg>
+                </app>
+            </l>
+            <l n="49">
+                <app>
+                    <lem wit="#Transcription">das es das schópfen kan!</lem>
+                    <rdg wit="#Translation">to be able to create this!</rdg>
+                </app>
+            </l>
+            <l n="50">
+                <app>
+                    <lem wit="#Transcription">ach got, sách ich den selben man, </lem>
+                    <rdg wit="#Translation">Ah, God, if I saw this man,</rdg>
+                </app>
+            </l>
+            <l n="51">
+                <app>
+                    <lem wit="#Transcription">ich welt in anbetten fúr got</lem>
+                    <rdg wit="#Translation">I would pray to him as to a God</rdg>
+                </app>
+            </l>
+            <l n="52">
+                <app>
+                    <lem wit="#Transcription">vnd welt ovch gern behalten sin gebott,</lem>
+                    <rdg wit="#Translation">and would also gladly follow his commands,</rdg>
+                </app>
+            </l>
+            <l n="53">
+                <app>
+                    <lem wit="#Transcription">ich welt im uff die trúwe min</lem>
+                    <rdg wit="#Translation">I would truly </rdg>
+                </app>
+            </l>
+            <l n="54">
+                <app>
+                    <lem wit="#Transcription">úmmer vndertánig sin.</lem>
+                    <rdg wit="#Translation">always want to be subject to him.”</rdg>
+                </app>
+            </l>
+            <l n="55">
+                <app>
+                    <lem wit="#Transcription">dz fúgt er wol in kurczer frist:</lem>
+                    <rdg wit="#Translation">God brought this to pass a short time later:</rdg>
+                </app>
+            </l>
+            <l n="56">
+                <app>
+                    <lem wit="#Transcription">nun merkent, wem got genádig ist,</lem>
+                    <rdg wit="#Translation">now, please take note: to whomever God is merciful,</rdg>
+                </app>
+            </l>
+            <l n="57">
+                <app>
+                    <lem wit="#Transcription">wem gnavd von im geschechen sol,</lem>
+                    <rdg wit="#Translation">and on whomever he bestows his grace,</rdg>
+                </app>
+            </l>
+            <l n="58">
+                <app>
+                    <lem wit="#Transcription">dz kan er bald fúgen wol.</lem>
+                    <rdg wit="#Translation">He can certainly make this happen quickly.</rdg>
+                </app>
+            </l>
+            <l n="59">
+                <app>
+                    <lem wit="#Transcription">dz merk ich bi dem wunder wol,</lem>
+                    <rdg wit="#Translation">This is definitely what I take from the miracle</rdg>
+                </app>
+            </l>
+            <l n="60">
+                <app>
+                    <lem wit="#Transcription">wie es der selbun magt ergieng.</lem>
+                    <rdg wit="#Translation">that happened to this maiden.</rdg>
+                </app>
+            </l>
+            <l n="61">
+                <app>
+                    <lem wit="#Transcription">es was ir desmavls vmb kainen spott,</lem>
+                    <rdg wit="#Translation">Her words were not in jest: </rdg>
+                </app>
+            </l>
+            <l n="62">
+                <app>
+                    <lem wit="#Transcription">ir gefiel recht wol der gilgen got,</lem>
+                    <rdg wit="#Translation">she really did like the God of the lilies.</rdg>
+                </app>
+            </l>
+            <l n="63">
+                <app>
+                    <lem wit="#Transcription">ir kam von himel ain liechter schin,</lem>
+                    <rdg wit="#Translation">A bright radiance then came down to her from heaven — </rdg>
+                </app>
+            </l>
+            <l n="64">
+                <app>
+                    <lem wit="#Transcription">got der wolt ir genádig sin:</lem>
+                    <rdg wit="#Translation">it was God who wished to bestow grace upon her —</rdg>
+                </app>
+            </l>
+            <l n="65">
+                <app>
+                    <lem wit="#Transcription">ain schúner engel kam do dar.</lem>
+                    <rdg wit="#Translation">and a beautiful angel appeared.</rdg>
+                </app>
+            </l>
+            <l n="66">
+                <app>
+                    <lem wit="#Transcription">do siú des engels ward gewar,</lem>
+                    <rdg wit="#Translation">When she became aware of the angel,</rdg>
+                </app>
+            </l>
+            <l n="67">
+                <app>
+                    <lem wit="#Transcription">von siner schúni si erschrak,</lem>
+                    <rdg wit="#Translation">she shrank back in fear from his beauty</rdg>
+                </app>
+            </l>
+            <l n="68">
+                <app>
+                    <lem wit="#Transcription">dz siú vf der erde lag;</lem>
+                    <rdg wit="#Translation">falling to the earth;</rdg>
+                </app>
+            </l>
+            <l n="69">
+                <app>
+                    <lem wit="#Transcription">do gefiel er ir ie bas,</lem>
+                    <rdg wit="#Translation">but then he pleased her more and more,</rdg>
+                </app>
+            </l>
+            <l n="70">
+                <app>
+                    <lem wit="#Transcription">das was sinem<note type= "critical" anchored="true"><p>Bolte misreads the manuscript here as “siú”, but what he read as a u is clearly an n, which would make the diacritic an abbreviation for, in this case, em. This reading is confirmed by the other manuscript witness (which was unknown to Bolte), which for this line reads: “Das auch seinem recht was vnd ist” (emphasis added).</p></note> recht wissent daz</lem>
+                    <rdg wit="#Translation">which he found well and good, since he knew </rdg>
+                </app>
+            </l>
+            <l n="71">
+                <app>
+                    <lem wit="#Transcription">das guot gaist liebent sich.</lem>
+                    <rdg wit="#Translation">that good spirits love one another</rdg>
+                </app>
+            </l>
+            <l n="72">
+                <app>
+                    <lem wit="#Transcription">die boesen <hi rend="italic">[aber]</hi> laident sich.</lem>
+                    <rdg wit="#Translation">while evil ones hate each other.</rdg>
+                </app>
+            </l>
+            <l n="73">
+                <app>
+                    <lem wit="#Transcription">der engel nam si bi der hand</lem>
+                    <rdg wit="#Translation">The angel took her by the hand</rdg>
+                </app>
+            </l>
+            <l n="74">
+                <app>
+                    <lem wit="#Transcription">— — — — — — — — —<note type= "critical" anchored="true"><p> A series of em-dashes indicates a line that is missing.</p></note></lem>
+                    <rdg wit="#Translation">— — — — — — — — —<note type= "critical" anchored="true"><p>In the Budapest manuscript, line 74: “ir was gen ym gemant” (she was driven towards him)?</p></note></rdg>
+                </app>
+            </l>
+            <l n="75">
+                <app>
+                    <lem wit="#Transcription">do siú den erst ansach,</lem>
+                    <rdg wit="#Translation">When she first looked at him directly,</rdg>
+                </app>
+            </l>
+            <l n="76">
+                <app>
+                    <lem wit="#Transcription">vil zúchteklich si zuo im sprach:</lem>
+                    <rdg wit="#Translation">She spoke to him very courteously:</rdg>
+                </app>
+            </l>
+            <l n="77">
+                <app>
+                    <lem wit="#Transcription">eya, vil lieber herren min,</lem>
+                    <rdg wit="#Translation">“Ah, my very dear lord,</rdg>
+                </app>
+            </l>
+            <l n="78">
+                <app>
+                    <lem wit="#Transcription">tuo mir uff siner gnavden schin</lem>
+                    <rdg wit="#Translation">reveal (explain?) the light of His grace to me</rdg>
+                </app>
+            </l>
+            <l n="79">
+                <app>
+                    <lem wit="#Transcription">vnd hab mir es nit fúr ainen spott:</lem>
+                    <rdg wit="#Translation">and don’t make fun of me:</rdg>
+                </app>
+            </l>
+            <l n="80">
+                <app>
+                    <lem wit="#Transcription">sag mir, bist du der hailig got?</lem>
+                    <rdg wit="#Translation">Tell me, are you the holy God?</rdg>
+                </app>
+            </l>
+            <l n="81">
+                <app>
+                    <lem wit="#Transcription">wan so wil ich dir dienen wol,</lem>
+                    <rdg wit="#Translation">For if so, I wish verily to serve you,</rdg>
+                </app>
+            </l>
+            <l n="82">
+                <app>
+                    <lem wit="#Transcription">darnavch stavt mins hertzen begierd.</lem>
+                    <rdg wit="#Translation">My heart’s desire is set on this.”</rdg>
+                </app>
+            </l>
+            <l n="83">
+                <app>
+                    <lem wit="#Transcription">er sprach: nain, ich bin sin knecht.</lem>
+                    <rdg wit="#Translation">He said: “No, I am his servant.</rdg>
+                </app>
+            </l>
+            <l n="84">
+                <app>
+                    <lem wit="#Transcription">junkfrow kluog, gesich mich recht</lem>
+                    <rdg wit="#Translation">Clever maiden, behold me truly</rdg>
+                </app>
+            </l>
+            <l n="85">
+                <app>
+                    <lem wit="#Transcription">vnd merk, wie ain tropf múg gesin</lem>
+                    <rdg wit="#Translation">and observe how (small) a drop (of water) is in comparison </rdg>
+                </app>
+            </l>
+            <l n="86">
+                <app>
+                    <lem wit="#Transcription">gen dem mer vnd gen den Rin,</lem>
+                    <rdg wit="#Translation">to the sea and to the Rhine.</rdg>
+                </app>
+            </l>
+            <l n="87">
+                <app>
+                    <lem wit="#Transcription">noch klainer ist die schúni min</lem>
+                    <rdg wit="#Translation">Even smaller is my radiance </rdg>
+                </app>
+            </l>
+            <l n="88">
+                <app>
+                    <lem wit="#Transcription">gen dem liebsten edeln herren min.</lem>
+                    <rdg wit="#Translation">in comparison to my dearest noble lord.</rdg>
+                </app>
+            </l>
+            <l n="89">
+                <app>
+                    <lem wit="#Transcription">ob du im geren dienen wilt</lem>
+                    <rdg wit="#Translation">If you really want to serve Him</rdg>
+                </app>
+            </l>
+            <l n="90">
+                <app>
+                    <lem wit="#Transcription">vnd dich sines dienstes nit beuilt,</lem>
+                    <rdg wit="#Translation">and you do not commend yourself to his service,</rdg>
+                </app>
+            </l>
+            <l n="91">
+                <app>
+                    <lem wit="#Transcription">dz ravt ich dir vff die trúwen min,</lem>
+                    <rdg wit="#Translation">Then I counsel you truly</rdg>
+                </app>
+            </l>
+            <l n="92">
+                <app>
+                    <lem wit="#Transcription">des soltu mir gefölgig sin.</lem>
+                    <rdg wit="#Translation">To do as I say.”</rdg>
+                </app>
+            </l>
+            <l n="93">
+                <app>
+                    <lem wit="#Transcription">des engels schúni ducht si gröss,</lem>
+                    <rdg wit="#Translation">She thought the angel’s glow was glorious,</rdg>
+                </app>
+            </l>
+            <l n="94">
+                <app>
+                    <lem wit="#Transcription">wie lútzel si der red verdross.</lem>
+                    <rdg wit="#Translation">how little she was burdened<note type= "critical" anchored="true"><p>Also possible, “bored.”</p></note> by his speech!</rdg>
+                </app>
+            </l>
+            <l n="95">
+                <app>
+                    <lem wit="#Transcription">si sprach: vil lieber herre min,</lem>
+                    <rdg wit="#Translation">She said: “my very dear lord</rdg>
+                </app>
+            </l>
+            <l n="96">
+                <app>
+                    <lem wit="#Transcription">ich wil dir gern gefölgig sin;</lem>
+                    <rdg wit="#Translation">I will gladly do as you say:</rdg>
+                </app>
+            </l>
+            <l n="97">
+                <app>
+                    <lem wit="#Transcription">wist ich nun, wz im wär gezám.</lem>
+                    <rdg wit="#Translation">if only I knew what would be suitable for Him,</rdg>
+                </app>
+            </l>
+            <l n="98">
+                <app>
+                    <lem wit="#Transcription">oder was dienstes er von mir nám,</lem>
+                    <rdg wit="#Translation">or what service He would accept from me!</rdg>
+                </app>
+            </l>
+            <l n="99">
+                <app>
+                    <lem wit="#Transcription">des welt ich úmer haben ruom</lem>
+                    <rdg wit="#Translation">For this (service) I would wish always to have renown forever</rdg>
+                </app>
+            </l>
+            <l n="100">
+                <app>
+                    <lem wit="#Transcription">vnd welt es willenclichen tuon.</lem>
+                    <rdg wit="#Translation">and would do it willingly.”</rdg>
+                </app>
+            </l>
+            <l n="101">
+                <app>
+                    <lem wit="#Transcription">er sprach: so solt du kúnsch sin.</lem>
+                    <rdg wit="#Translation">He said: “Then you must be chaste.”</rdg>
+                </app>
+            </l>
+            <l n="102">
+                <app>
+                    <lem wit="#Transcription">si sprach: ach sússer herre min,</lem>
+                    <rdg wit="#Translation">She said: “Ah, my sweet lord,</rdg>
+                </app>
+            </l>
+            <l n="103">
+                <app>
+                    <lem wit="#Transcription">ich fúrcht, es si versummet gar,</lem>
+                    <rdg wit="#Translation">I fear, it is too late,</rdg>
+                </app>
+            </l>
+            <l n="104">
+                <app>
+                    <lem wit="#Transcription">man wil hinacht <hi rend="italic">[min]</hi> nemen war</lem>
+                    <rdg wit="#Translation">There is someone who intends to take me right after this;<note type= "critical" anchored="true"><p>“War nemen” in this context also means to know physically, as in have sex with.</p></note></rdg>
+                </app>
+            </l>
+            <l n="105">
+                <app>
+                    <lem wit="#Transcription">er ist ietz hie vff minen schaden,</lem>
+                    <rdg wit="#Translation">he is here now, to my detriment.</rdg>
+                </app>
+            </l>
+            <l n="106">
+                <app>
+                    <lem wit="#Transcription">ich welt, ich wár im entladen.</lem>
+                    <rdg wit="#Translation">I wish, I were released from him.”<note type= "critical" anchored="true"><p>“Ich welt, ich wár im entladen…” literally, I wish I was unloaded from him, as in property (the verb is used both in connection with unloading a horse, and also the unloading of one’s emotions such as sorrow and guilt).</p></note></rdg>
+                </app>
+            </l>
+            <l n="107">
+                <app>
+                    <lem wit="#Transcription">er sprach: ich gib dir noch wol rät,</lem>
+                    <rdg wit="#Translation">He said: “I will tell you what to do</rdg>
+                </app>
+            </l>
+            <l n="108">
+                <app>
+                    <lem wit="#Transcription">ob es an dinem willen stät;</lem>
+                    <rdg wit="#Translation">if that is your will;</rdg>
+                </app>
+            </l>
+            <l n="109">
+                <app>
+                    <lem wit="#Transcription">glob mir, ich hilff dir uss <hi rend="italic">[der]</hi> novt!</lem>
+                    <rdg wit="#Translation">Believe me, I will help you out of this fix!”</rdg>
+                </app>
+            </l>
+            <l n="110">
+                <app>
+                    <lem wit="#Transcription">ir baid hend sy im dar bott:</lem>
+                    <rdg wit="#Translation">She offered him both her hands:</rdg>
+                </app>
+            </l>
+            <l n="111">
+                <app>
+                    <lem wit="#Transcription">ich wil dir úmmer gehorsam sin</lem>
+                    <rdg wit="#Translation">“I will be obedient to you forever</rdg>
+                </app>
+            </l>
+            <l n="112">
+                <app>
+                    <lem wit="#Transcription">úmer <hi rend="italic">[unz]</hi> vff das ende min.</lem>
+                    <rdg wit="#Translation">and ever until my death.”</rdg>
+                </app>
+            </l>
+            <l n="113">
+                <app>
+                    <lem wit="#Transcription">er graiff ir linden an ir hand,</lem>
+                    <rdg wit="#Translation">He took her gently by the hand,</rdg>
+                </app>
+            </l>
+            <l n="114">
+                <app>
+                    <lem wit="#Transcription">vff zoch er si ze hand,</lem>
+                    <rdg wit="#Translation">and whisked her off immediately,</rdg>
+                </app>
+            </l>
+            <l n="115">
+                <app>
+                    <lem wit="#Transcription">er fuort si in ainer clainer wil</lem>
+                    <rdg wit="#Translation">moving her in a short span of time</rdg>
+                </app>
+            </l>
+            <l n="116">
+                <app>
+                    <lem wit="#Transcription">me denn trútusent mil.</lem>
+                    <rdg wit="#Translation">more than three thousand miles away.</rdg>
+                </app>
+            </l>
+            <l n="117">
+                <app>
+                    <lem wit="#Transcription">es ducht si gar ain kurtzer weg,</lem>
+                    <rdg wit="#Translation">Yet it seemed to her a very short journey,</rdg>
+                </app>
+            </l>
+            <l n="118">
+                <app>
+                    <lem wit="#Transcription">si kam weder vff brugg noch vff steg.</lem>
+                    <rdg wit="#Translation">for she tread on neither bridge nor path.</rdg>
+                </app>
+            </l>
+            <l n="119">
+                <app>
+                    <lem wit="#Transcription">vil zart vnd súss was sin ler.</lem>
+                    <rdg wit="#Translation">Very tender and sweet was the teaching</rdg>
+                </app>
+            </l>
+            <l n="120">
+                <app>
+                    <lem wit="#Transcription">die er si lert vff dem ker,</lem>
+                    <rdg wit="#Translation">that he taught her on the way.</rdg>
+                </app>
+            </l>
+            <l n="121">
+                <app>
+                    <lem wit="#Transcription">in ain closter er si bravcht.</lem>
+                    <rdg wit="#Translation">He brought her to a cloister.</rdg>
+                </app>
+            </l>
+            <l n="122">
+                <app>
+                    <lem wit="#Transcription">dz hett ir gemachel nit gedavcht.</lem>
+                    <rdg wit="#Translation">This would not have occurred to her betrothed!</rdg>
+                </app>
+            </l>
+            <l n="123">
+                <app>
+                    <lem wit="#Transcription">er wolt ir mit fróden niemen<note type= "critical" anchored="true"><p>“niemen” is clearly a variant spelling of “nemen” here.</p></note> war,</lem>
+                    <rdg wit="#Translation">He truly wanted to have the joy of knowing her,<note type= "critical" anchored="true"><p>See above, note 5.</p></note></rdg>
+                </app>
+            </l>
+            <l n="124">
+                <app>
+                    <lem wit="#Transcription">sin fród was im gezukt gar,</lem>
+                    <rdg wit="#Translation">but his joy was wrenched away from him.</rdg>
+                </app>
+            </l>
+            <l n="125">
+                <app>
+                    <lem wit="#Transcription">irem vatter er do wider seit, </lem>
+                    <rdg wit="#Translation">To her father he then said</rdg>
+                </app>
+            </l>
+            <l n="126">
+                <app>
+                    <lem wit="#Transcription">dz er in betrogen hett,</lem>
+                    <rdg wit="#Translation">that he had betrayed him</rdg>
+                </app>
+            </l>
+            <l n="127">
+                <app>
+                    <lem wit="#Transcription">an tavber<note type= "critical" anchored="true"><p>Bolte misreads the initial letter as c and in his edition where he has “cáber [?].” The manuscript clearly shows a t in “taber” (here with a dipthongized vowel, “tavber”) means “fortress/castle” (fol. 163r).</p></note> fuor er von dannan.</lem>
+                    <rdg wit="#Translation">and then he left the castle and departed from that place.</rdg>
+                </app>
+            </l>
+            <l n="128">
+                <app>
+                    <lem wit="#Transcription">ir vatter was ain trurig man</lem>
+                    <rdg wit="#Translation">Her father was a sad man</rdg>
+                </app>
+            </l>
+            <l n="129">
+                <app>
+                    <lem wit="#Transcription">vnd tett im des von herczen novt.</lem>
+                    <rdg wit="#Translation">and this matter gave him great pain. </rdg>
+                </app>
+            </l>
+            <l n="130">
+                <app>
+                    <lem wit="#Transcription">er wust, das si nun lang wer tovt,</lem>
+                    <rdg wit="#Translation">Yet only when he realized that she was probably long dead,</rdg>
+                </app>
+            </l>
+            <l n="131">
+                <app>
+                    <lem wit="#Transcription">erst huob sich sin novt.</lem>
+                    <rdg wit="#Translation">did he really begin to grieve.</rdg>
+                </app>
+            </l>
+            <l n="132">
+                <app>
+                    <lem wit="#Transcription">	Disen haiden súllen wir trurun lavn</lem>
+                    <rdg wit="#Translation">	We should let this heathen mourn</rdg>
+                </app>
+            </l>
+            <l n="133">
+                <app>
+                    <lem wit="#Transcription">vnd wider zuo der iunkfröwun gan.</lem>
+                    <rdg wit="#Translation">and return (our attention) to the maiden.</rdg>
+                </app>
+            </l>
+            <l n="134">
+                <app>
+                    <lem wit="#Transcription">nun hórent aber gern dz:</lem>
+                    <rdg wit="#Translation">Now listen to this!</rdg>
+                </app>
+            </l>
+            <l n="135">
+                <app>
+                    <lem wit="#Transcription">der engel, der fieng an</lem>
+                    <rdg wit="#Translation">The angel, he began</rdg>
+                </app>
+            </l>
+            <l n="136">
+                <app>
+                    <lem wit="#Transcription">vnd seit ir vil súss,</lem>
+                    <rdg wit="#Translation">to tell her very sweetly</rdg>
+                </app>
+            </l>
+            <l n="137">
+                <app>
+                    <lem wit="#Transcription">wie got die kúnschen magt grúst,</lem>
+                    <rdg wit="#Translation">how God greets chaste maidens,</rdg>
+                </app>
+            </l>
+            <l n="138">
+                <app>
+                    <lem wit="#Transcription">vnd wie vil gnavden diú kúnschait havt,</lem>
+                    <rdg wit="#Translation">And how much grace is in the chastity</rdg>
+                </app>
+            </l>
+            <l n="139">
+                <app>
+                    <lem wit="#Transcription">der si mit rainen<note type= "critical" anchored="true"><p>Bolte’s “ramen”  has been corrected to “rainen” after consulting the manuscript (fol 163b).</p></note> herczen treit.</lem>
+                    <rdg wit="#Translation">that they bear in a pure heart.</rdg>
+                </app>
+            </l>
+            <l n="140">
+                <app>
+                    <lem wit="#Transcription">er sprach: Kúnschait ist min schwester,</lem>
+                    <rdg wit="#Translation">He said: “Chastity is my sister </rdg>
+                </app>
+            </l>
+            <l n="141">
+                <app>
+                    <lem wit="#Transcription">— — — — — —</lem>
+                    <rdg wit="#Translation">— — — — — — —</rdg>
+                </app>
+            </l>
+            <l n="142">
+                <app>
+                    <lem wit="#Transcription">vnd der engel dre in dem himelrich sint,</lem>
+                    <rdg wit="#Translation">and also (the sister) of the angels who are in heaven,</rdg>
+                </app>
+            </l>
+            <l n="143">
+                <app>
+                    <lem wit="#Transcription">siú ist der gilgen gottes kind,</lem>
+                    <rdg wit="#Translation">and she is the child of the God of the lilies.</rdg>
+                </app>
+            </l>
+            <l n="144">
+                <app>
+                    <lem wit="#Transcription">Kúnsch ist des obrosten gemachel,</lem>
+                    <rdg wit="#Translation">Chastity is the most supreme spouse,</rdg>
+                </app>
+            </l>
+            <l n="145">
+                <app>
+                    <lem wit="#Transcription">Liebin ist vil sterker denn stachel.</lem>
+                    <rdg wit="#Translation">love is stronger than a stinger.”</rdg>
+                </app>
+            </l>
+            <l n="146">
+                <app>
+                    <lem wit="#Transcription">er seit ir sússikait noch gar vil,</lem>
+                    <rdg wit="#Translation">He told her many more sweet things,</rdg>
+                </app>
+            </l>
+            <l n="147">
+                <app>
+                    <lem wit="#Transcription">wie hoch got die kúnschait setzen wil:</lem>
+                    <rdg wit="#Translation">like how high God wishes to elevate Chastity:</rdg>
+                </app>
+            </l>
+            <l n="148">
+                <app>
+                    <lem wit="#Transcription">got nimpt si vornan an den tantz,</lem>
+                    <rdg wit="#Translation">God chooses her before all others in the dance;</rdg>
+                </app>
+            </l>
+            <l n="149">
+                <app>
+                    <lem wit="#Transcription">kúnschait ist aller tugent ain krantz.</lem>
+                    <rdg wit="#Translation">Chastity is a crown of all the virtues.</rdg>
+                </app>
+            </l>
+            <l n="150">
+                <app>
+                    <lem wit="#Transcription">von got vnd von Maria zart</lem>
+                    <rdg wit="#Translation">Of God and of tender Maria</rdg>
+                </app>
+            </l>
+            <l n="151">
+                <app>
+                    <lem wit="#Transcription">kunt er, wie diú sin muoter ward</lem>
+                    <rdg wit="#Translation">he informed her: how she became His mother</rdg>
+                </app>
+            </l>
+            <l n="152">
+                <app>
+                    <lem wit="#Transcription">vnd in enpfieng vn ovch gebar,</lem>
+                    <rdg wit="#Translation">and conceived and also bore Him;</rdg>
+                </app>
+            </l>
+            <l n="153">
+                <app>
+                    <lem wit="#Transcription">ir leben vnd ir liden gar,</lem>
+                    <rdg wit="#Translation">of her life and all her suffering, and</rdg>
+                </app>
+            </l>
+            <l n="154">
+                <app>
+                    <lem wit="#Transcription">wie got an dem crútz erstarb,</lem>
+                    <rdg wit="#Translation">how God died on the cross</rdg>
+                </app>
+            </l>
+            <l n="155">
+                <app>
+                    <lem wit="#Transcription">da mit er ´vns vil gnavd erwarb;</lem>
+                    <rdg wit="#Translation">so that He could attain grace for us.</rdg>
+                </app>
+            </l>
+            <l n="156">
+                <app>
+                    <lem wit="#Transcription">von got vnd aller himel schar</lem>
+                    <rdg wit="#Translation">He told her of God and </rdg>
+                </app>
+            </l>
+            <l n="157">
+                <app>
+                    <lem wit="#Transcription">seit er ir, von ordnung gar</lem>
+                    <rdg wit="#Translation">of the entire heavenly throng and of the whole order of things;</rdg>
+                </app>
+            </l>
+            <l n="158">
+                <app>
+                    <lem wit="#Transcription">er was ir ain wiser vor.</lem>
+                    <rdg wit="#Translation">He was a wise mentor to her.</rdg>
+                </app>
+            </l>
+            <l n="159">
+                <app>
+                    <lem wit="#Transcription">er fuort si in zu dem tor</lem>
+                    <rdg wit="#Translation">He took her to the tower </rdg>
+                </app>
+            </l>
+            <l n="160">
+                <app>
+                    <lem wit="#Transcription">des fröwen closters in der nacht,</lem>
+                    <rdg wit="#Translation">of a convent during the night.</rdg>
+                </app>
+            </l>
+            <l n="161">
+                <app>
+                    <lem wit="#Transcription">daz tett er als mit gottes macht</lem>
+                    <rdg wit="#Translation">He did this with God’s might</rdg>
+                </app>
+            </l>
+            <l n="162">
+                <app>
+                    <lem wit="#Transcription">durch gantz wand mit beschlossener túr:</lem>
+                    <rdg wit="#Translation">through thick walls and locked door:</rdg>
+                </app>
+            </l>
+            <l n="163">
+                <app>
+                    <lem wit="#Transcription">ain vil grovss wunder ich spúr.</lem>
+                    <rdg wit="#Translation">In this I detect a very great miracle!</rdg>
+                </app>
+            </l>
+            <l n="164">
+                <app>
+                    <lem wit="#Transcription">vil lins er si da nider liess,</lem>
+                    <rdg wit="#Translation">He lowered her down gently</rdg>
+                </app>
+            </l>
+            <l n="165">
+                <app>
+                    <lem wit="#Transcription">fuor den altavr er sie do sitzen hiess,</lem>
+                    <rdg wit="#Translation">in front of the altar and then bid her sit down.</rdg>
+                </app>
+            </l>
+            <l n="166">
+                <app>
+                    <lem wit="#Transcription">an di guoten statt</lem>
+                    <rdg wit="#Translation">He bade her to sit still</rdg>
+                </app>
+            </l>
+            <l n="167">
+                <app>
+                    <lem wit="#Transcription">still (sy) sitzent er si battr,</lem>
+                    <rdg wit="#Translation">in this good spot</rdg>
+                </app>
+            </l>
+            <l n="168">
+                <app>
+                    <lem wit="#Transcription">bis das die frowen kámen</lem>
+                    <rdg wit="#Translation">until the ladies came</rdg>
+                </app>
+            </l>
+            <l n="169">
+                <app>
+                    <lem wit="#Transcription">vnd disiú már vernáment.</lem>
+                    <rdg wit="#Translation">and heard her tale.</rdg>
+                </app>
+            </l>
+            <l n="170">
+                <app>
+                    <lem wit="#Transcription">sie tett alles das, das er sie hiess.</lem>
+                    <rdg wit="#Translation">	She did everything he asked.</rdg>
+                </app>
+            </l>
+            <l n="171">
+                <app>
+                    <lem wit="#Transcription">ainen liehten schin er vmb si liess,</lem>
+                    <rdg wit="#Translation">He [then] surrounded her in a bright light,</rdg>
+                </app>
+            </l>
+            <l n="172">
+                <app>
+                    <lem wit="#Transcription">ainen brieff gab er ir do in die hand,</lem>
+                    <rdg wit="#Translation">and in her hand, he put a letter</rdg>
+                </app>
+            </l>
+            <l n="173">
+                <app>
+                    <lem wit="#Transcription">dar an menig schún geschrift was</lem>
+                    <rdg wit="#Translation">that contained much beautiful writing —</rdg>
+                </app>
+            </l>
+            <l n="174">
+                <app>
+                    <lem wit="#Transcription">dz edel wunder avne wank,</lem>
+                    <rdg wit="#Translation">this noble miracle tale in its entirety;</rdg>
+                </app>
+            </l>
+            <l n="175">
+                <app>
+                    <lem wit="#Transcription">ir baider red kurcz vnd lang</lem>
+                    <rdg wit="#Translation">what each of them said, the angel and the good maiden, </rdg>
+                </app>
+            </l>
+            <l n="176">
+                <app>
+                    <lem wit="#Transcription">dez engels vnd der iunkfrovwun guot,</lem>
+                    <rdg wit="#Translation">whether brief or lengthy;</rdg>
+                </app>
+            </l>
+            <l n="177">
+                <app>
+                    <lem wit="#Transcription">vnd was sie hett in irem muot,</lem>
+                    <rdg wit="#Translation">what she had in her mind;</rdg>
+                </app>
+            </l>
+            <l n="178">
+                <app>
+                    <lem wit="#Transcription">vnd wer si vor was vnd wie si kam dar,</lem>
+                    <rdg wit="#Translation">and who she was before and how she came there.</rdg>
+                </app>
+            </l>
+            <l n="179">
+                <app>
+                    <lem wit="#Transcription">dz was schún geschriben an</lem>
+                    <rdg wit="#Translation">All that was beautifully written down</rdg>
+                </app>
+            </l>
+            <l n="180">
+                <app>
+                    <lem wit="#Transcription">mit rotem gold, vnd wer es las,</lem>
+                    <rdg wit="#Translation">in red gold letters, and whoever read it</rdg>
+                </app>
+            </l>
+            <l n="181">
+                <app>
+                    <lem wit="#Transcription">der sach, daz si ain haidin was</lem>
+                    <rdg wit="#Translation">saw that she was a heathen</rdg>
+                </app>
+            </l>
+            <l n="182">
+                <app>
+                    <lem wit="#Transcription">vnd den tovff noch nie empfieng.</lem>
+                    <rdg wit="#Translation">and had not yet been baptized.</rdg>
+                </app>
+            </l>
+            <l n="183">
+                <app>
+                    <lem wit="#Transcription">der engel si vor dem altar lie;</lem>
+                    <rdg wit="#Translation">The angel left her in front of the altar.</rdg>
+                </app>
+            </l>
+            <l n="184">
+                <app>
+                    <lem wit="#Transcription">dise red, die er mit ir tett,</lem>
+                    <rdg wit="#Translation">She found the teaching that he had given her</rdg>
+                </app>
+            </l>
+            <l n="185">
+                <app>
+                    <lem wit="#Transcription">ducht si minneclich vnd súss.</lem>
+                    <rdg wit="#Translation">lovely and sweet.</rdg>
+                </app>
+            </l>
+            <l n="186">
+                <app>
+                    <lem wit="#Transcription">der engel si vil geren sach,</lem>
+                    <rdg wit="#Translation">She gladly gazed at the angel.</rdg>
+                </app>
+            </l>
+            <l n="187">
+                <app>
+                    <lem wit="#Transcription">vil zartlich vnd schuon si zuo im sprach:</lem>
+                    <rdg wit="#Translation">Very tenderly and beautifully she said to him:</rdg>
+                </app>
+            </l>
+            <l n="188">
+                <app>
+                    <lem wit="#Transcription">ach lieber herr vnd engel min,</lem>
+                    <rdg wit="#Translation">“Ah, my dear lord and angel,</rdg>
+                </app>
+            </l>
+            <l n="189">
+                <app>
+                    <lem wit="#Transcription">lavss mich dir enpholchen sin;</lem>
+                    <rdg wit="#Translation">Allow me to be received by you,</rdg>
+                </app>
+            </l>
+            <l n="190">
+                <app>
+                    <lem wit="#Transcription">ich havn mich dir ergeben gar,</lem>
+                    <rdg wit="#Translation">I have given myself to you completely,</rdg>
+                </app>
+            </l>
+            <l n="191">
+                <app>
+                    <lem wit="#Transcription">nim min in minen nöten war!</lem>
+                    <rdg wit="#Translation">Take me in my moment of need!<note type= "critical" anchored="true"><p>The verb is again “warnemen” and her address here to the angel echoes the language of marriage/sex that she rejected with the earthly lord. No doubt, this serves as evidence for the reader that she is still a heathen, a novice in Christian behavior, and that she still has a lot to learn.</p></note></rdg>
+                </app>
+            </l>
+            <l n="192">
+                <app>
+                    <lem wit="#Transcription">din red ist zuker súss,</lem>
+                    <rdg wit="#Translation">Your words are as sweet as sugar,</rdg>
+                </app>
+            </l>
+            <l n="193">
+                <app>
+                    <lem wit="#Transcription">minen herren du mir grúss;</lem>
+                    <rdg wit="#Translation">Greet my lord for me;</rdg>
+                </app>
+            </l>
+            <l n="194">
+                <app>
+                    <lem wit="#Transcription">mit dienst bin ich im berait,</lem>
+                    <rdg wit="#Translation">I am ready to serve Him,</rdg>
+                </app>
+            </l>
+            <l n="195">
+                <app>
+                    <lem wit="#Transcription">mit willeklicher arbait.</lem>
+                    <rdg wit="#Translation">With willing toil.</rdg>
+                </app>
+            </l>
+            <l n="196">
+                <app>
+                    <lem wit="#Transcription">wan vatter vnd muoter vnd magen min,</lem>
+                    <rdg wit="#Translation">For your sake I am leaving </rdg>
+                </app>
+            </l>
+            <l n="197">
+                <app>
+                    <lem wit="#Transcription">die lassen ich durch den willen din,</lem>
+                    <rdg wit="#Translation">my father, mother, and kin </rdg>
+                </app>
+            </l>
+            <l n="198">
+                <app>
+                    <lem wit="#Transcription">grossen richtum lavss ich faren.</lem>
+                    <rdg wit="#Translation">and I am letting go of great wealth.</rdg>
+                </app>
+            </l>
+            <l n="199">
+                <app>
+                    <lem wit="#Transcription">sag im, er sóll mich wol bewaren!</lem>
+                    <rdg wit="#Translation">Tell Him to protect me well!</rdg>
+                </app>
+            </l>
+            <l n="200">
+                <app>
+                    <lem wit="#Transcription">vnd <hi rend="italic">[grúss]</hi> ovch mir die maget súss,</lem>
+                    <rdg wit="#Translation">And also greet the sweet virgin [Mary] from me,</rdg>
+                </app>
+            </l>
+            <l n="201">
+                <app>
+                    <lem wit="#Transcription">von der du mir vil havst geseit,</lem>
+                    <rdg wit="#Translation">about whom you have told me so much,</rdg>
+                </app>
+            </l>
+            <l n="202">
+                <app>
+                    <lem wit="#Transcription">die die kúnschait des ersten anfieng;</lem>
+                    <rdg wit="#Translation">and who was the first to be chaste;</rdg>
+                </app>
+            </l>
+            <l n="203">
+                <app>
+                    <lem wit="#Transcription">sag ir, durch ir kind sitz ich hie</lem>
+                    <rdg wit="#Translation">Tell her, I have sat down and am sitting here </rdg>
+                </app>
+            </l>
+            <l n="204">
+                <app>
+                    <lem wit="#Transcription">vnd si allain gesessen,</lem>
+                    <rdg wit="#Translation">because of her child and her alone,</rdg>
+                </app>
+            </l>
+            <l n="205">
+                <app>
+                    <lem wit="#Transcription">si sol min nit vergessen;</lem>
+                    <rdg wit="#Translation">and that she should not forget me.</rdg>
+                </app>
+            </l>
+            <l n="206">
+                <app>
+                    <lem wit="#Transcription">dz zimpt iren gnavden wol,</lem>
+                    <rdg wit="#Translation">That would befit her great compassion well,</rdg>
+                </app>
+            </l>
+            <l n="207">
+                <app>
+                    <lem wit="#Transcription">wan ich nit waiss, wav ich sol.</lem>
+                    <rdg wit="#Translation">for otherwise, I do not know where I should (turn).”</rdg>
+                </app>
+            </l>
+            <l n="208">
+                <app>
+                    <lem wit="#Transcription">vil zartlich schied er do von ir,</lem>
+                    <rdg wit="#Translation">Then he very tenderly took his leave.</rdg>
+                </app>
+            </l>
+            <l n="209">
+                <app>
+                    <lem wit="#Transcription">er sprach: wiss, iunkrow, got ist mit dir.</lem>
+                    <rdg wit="#Translation">He said: “Know this, maiden, God is with you.”</rdg>
+                </app>
+            </l>
+            <l n="210">
+                <app>
+                    <lem wit="#Transcription">	Nun wist si nit, wa siú sass,</lem>
+                    <rdg wit="#Translation">	Now, she did not know where she was,</rdg>
+                </app>
+            </l>
+            <l n="211">
+                <app>
+                    <lem wit="#Transcription">diú sprach des landes ir unbekant wz.</lem>
+                    <rdg wit="#Translation">nor was the language of the land familiar to her. </rdg>
+                </app>
+            </l>
+            <l n="212">
+                <app>
+                    <lem wit="#Transcription">diú áptissinn des closters da</lem>
+                    <rdg wit="#Translation">The abbess of the cloister</rdg>
+                </app>
+            </l>
+            <l n="213">
+                <app>
+                    <lem wit="#Transcription">diu kam gegangen iesa</lem>
+                    <rdg wit="#Translation">came along just then</rdg>
+                </app>
+            </l>
+            <l n="214">
+                <app>
+                    <lem wit="#Transcription">navch ir aller gewonhait</lem>
+                    <rdg wit="#Translation">which was her regular habit — </rdg>
+                </app>
+            </l>
+            <l n="215">
+                <app>
+                    <lem wit="#Transcription">sú was táglich des ersten berait,</lem>
+                    <rdg wit="#Translation">She was always the first to be ready</rdg>
+                </app>
+            </l>
+            <l n="216">
+                <app>
+                    <lem wit="#Transcription">da man got dienen solt,</lem>
+                    <rdg wit="#Translation">when it was time to sing the office.</rdg>
+                </app>
+            </l>
+            <l n="217">
+                <app>
+                    <lem wit="#Transcription">in dem kor si wolt.</lem>
+                    <rdg wit="#Translation">(And so) she headed to the choir.</rdg>
+                </app>
+            </l>
+            <l n="218">
+                <app>
+                    <lem wit="#Transcription">do siu aller erst tratt hin in,</lem>
+                    <rdg wit="#Translation">At the moment she stepped into the choir,</rdg>
+                </app>
+            </l>
+            <l n="219">
+                <app>
+                    <lem wit="#Transcription">si sach die maget vnd den schin;</lem>
+                    <rdg wit="#Translation">She saw the maiden surrounded by light;</rdg>
+                </app>
+            </l>
+            <l n="220">
+                <app>
+                    <lem wit="#Transcription">vil bald kert siú sich wider uss,</lem>
+                    <rdg wit="#Translation">She turned around quickly and went back out.</rdg>
+                </app>
+            </l>
+            <l n="221">
+                <app>
+                    <lem wit="#Transcription">siu liuff bald in das schlavfhuss,</lem>
+                    <rdg wit="#Translation">She sped to the dormitory</rdg>
+                </app>
+            </l>
+            <l n="222">
+                <app>
+                    <lem wit="#Transcription">diu frowan siu bald wakt</lem>
+                    <rdg wit="#Translation">Where she immediately woke the ladies, though calmly</rdg>
+                </app>
+            </l>
+            <l n="223">
+                <app>
+                    <lem wit="#Transcription">vil schuon, dz si si nit erschrakti.</lem>
+                    <rdg wit="#Translation">So that they wouldn’t be alarmed.</rdg>
+                </app>
+            </l>
+            <l n="224">
+                <app>
+                    <lem wit="#Transcription">do siu si all ze samen bravcht,</lem>
+                    <rdg wit="#Translation">When she had brought them all together,</rdg>
+                </app>
+            </l>
+            <l n="225">
+                <app>
+                    <lem wit="#Transcription">siu seit in, was si sach vnd bedavcht;</lem>
+                    <rdg wit="#Translation">She told them what she saw and thought;</rdg>
+                </app>
+            </l>
+            <l n="226">
+                <app>
+                    <lem wit="#Transcription">siu sprach: ich wil hiut veriechen,</lem>
+                    <rdg wit="#Translation">She said: “I want to tell you today,</rdg>
+                </app>
+            </l>
+            <l n="227">
+                <app>
+                    <lem wit="#Transcription">ich havn Mariun selb gesechen,</lem>
+                    <rdg wit="#Translation">That I have seen Mary herself,</rdg>
+                </app>
+            </l>
+            <l n="228">
+                <app>
+                    <lem wit="#Transcription">diu wil úns hiut erun;</lem>
+                    <rdg wit="#Translation">She wants to honor us today;</rdg>
+                </app>
+            </l>
+            <l n="229">
+                <app>
+                    <lem wit="#Transcription">zuo der sond wir keren</lem>
+                    <rdg wit="#Translation">We should return to her</rdg>
+                </app>
+            </l>
+            <l n="230">
+                <app>
+                    <lem wit="#Transcription">vnd sóllent si enphavchen.</lem>
+                    <rdg wit="#Translation">And should welcome her.”</rdg>
+                </app>
+            </l>
+            <l n="231">
+                <app>
+                    <lem wit="#Transcription">siu begund vor an hin gavchen,</lem>
+                    <rdg wit="#Translation">She rushed ahead of them,</rdg>
+                </app>
+            </l>
+            <l n="232">
+                <app>
+                    <lem wit="#Transcription">nach ir was gavch in allen,</lem>
+                    <rdg wit="#Translation">and all of them rushed after her</rdg>
+                </app>
+            </l>
+            <l n="233">
+                <app>
+                    <lem wit="#Transcription">si hettent sich navch erfallen.</lem>
+                    <rdg wit="#Translation">so fast that they almost fell down.</rdg>
+                </app>
+            </l>
+            <l n="234">
+                <app>
+                    <lem wit="#Transcription">si savchent die iunkfrovwen sin</lem>
+                    <rdg wit="#Translation">They saw the maiden </rdg>
+                </app>
+            </l>
+            <l n="235">
+                <app>
+                    <lem wit="#Transcription">vil herlich sitzen in iren schin.</lem>
+                    <rdg wit="#Translation">Sitting nobly in the light.</rdg>
+                </app>
+            </l>
+            <l n="236">
+                <app>
+                    <lem wit="#Transcription">si vielent fúr si an ir knie,</lem>
+                    <rdg wit="#Translation">They fell to their knees before her,</rdg>
+                </app>
+            </l>
+            <l n="237">
+                <app>
+                    <lem wit="#Transcription">Salue regina sungent si,</lem>
+                    <rdg wit="#Translation">[and] sang the Salve Regina,</rdg>
+                </app>
+            </l>
+            <l n="238">
+                <app>
+                    <lem wit="#Transcription">dz betút: gotwilkomen kúnginn,</lem>
+                    <rdg wit="#Translation">which means: “God welcome you, Queen.</rdg>
+                </app>
+            </l>
+            <l n="239">
+                <app>
+                    <lem wit="#Transcription">von vns solt du gegrússet sin.</lem>
+                    <rdg wit="#Translation">May you receive our greeting!”</rdg>
+                </app>
+            </l>
+            <l n="240">
+                <app>
+                    <lem wit="#Transcription">hie von ich nit me sagen wil.</lem>
+                    <rdg wit="#Translation">About that I have nothing more to say.</rdg>
+                </app>
+            </l>
+            <l n="241">
+                <app>
+                    <lem wit="#Transcription">der eren was ir doch ze vil,</lem>
+                    <rdg wit="#Translation">This honor was of course too much for her (the maiden).</rdg>
+                </app>
+            </l>
+            <l n="242">
+                <app>
+                    <lem wit="#Transcription">súss sungent ir múnd rot,</lem>
+                    <rdg wit="#Translation">Their red mouths sang sweetly</rdg>
+                </app>
+            </l>
+            <l n="243">
+                <app>
+                    <lem wit="#Transcription">den brief siu der áptissinen bot.</lem>
+                    <rdg wit="#Translation">as she offered the letter to the abbess</rdg>
+                </app>
+            </l>
+            <l n="244">
+                <app>
+                    <lem wit="#Transcription">vil bald siu den úber las</lem>
+                    <rdg wit="#Translation">who read through it quickly</rdg>
+                </app>
+            </l>
+            <l n="245">
+                <app>
+                    <lem wit="#Transcription">vnd las, wie es ergangen was.</lem>
+                    <rdg wit="#Translation">and saw how things had gone.</rdg>
+                </app>
+            </l>
+            <l n="246">
+                <app>
+                    <lem wit="#Transcription">diss wunders wavrent sie alle frow,</lem>
+                    <rdg wit="#Translation">They were all happy about this miracle</rdg>
+                </app>
+            </l>
+            <l n="247">
+                <app>
+                    <lem wit="#Transcription">dz si got geeret hett also</lem>
+                    <rdg wit="#Translation">that God had thus honored them</rdg>
+                </app>
+            </l>
+            <l n="248">
+                <app>
+                    <lem wit="#Transcription">fúr allú klóster in dem land,</lem>
+                    <rdg wit="#Translation">above all other cloisters in the land</rdg>
+                </app>
+            </l>
+            <l n="249">
+                <app>
+                    <lem wit="#Transcription">den er sóllich botschaft litzel sant;</lem>
+                    <rdg wit="#Translation">to which He had sent no such message;</rdg>
+                </app>
+            </l>
+            <l n="250">
+                <app>
+                    <lem wit="#Transcription">vil fród an iren hertzen lag,</lem>
+                    <rdg wit="#Translation">Their hearts were filled with great joy</rdg>
+                </app>
+            </l>
+            <l n="251">
+                <app>
+                    <lem wit="#Transcription">si erbietten des tags.</lem>
+                    <rdg wit="#Translation">(while) they waited for the day to dawn.</rdg>
+                </app>
+            </l>
+            <l n="252">
+                <app>
+                    <lem wit="#Transcription">ir aller sprách was ir vnkund,</lem>
+                    <rdg wit="#Translation">Their language was entirely unknown to her,</rdg>
+                </app>
+            </l>
+            <l n="253">
+                <app>
+                    <lem wit="#Transcription">vil schier funden si den fund,</lem>
+                    <rdg wit="#Translation">and so the sisters very quickly realized </rdg>
+                </app>
+            </l>
+            <l n="254">
+                <app>
+                    <lem wit="#Transcription">dz si hain santent in die statt</lem>
+                    <rdg wit="#Translation">that they should send a messenger into the city,</rdg>
+                </app>
+            </l>
+            <l n="255">
+                <app>
+                    <lem wit="#Transcription">ainen botten, der den bischof batt,</lem>
+                    <rdg wit="#Translation">who would ask the bishop</rdg>
+                </app>
+            </l>
+            <l n="256">
+                <app>
+                    <lem wit="#Transcription">das er kám zuo in dar</lem>
+                    <rdg wit="#Translation">to come to them</rdg>
+                </app>
+            </l>
+            <l n="257">
+                <app>
+                    <lem wit="#Transcription">vnd des wunders námi war.</lem>
+                    <rdg wit="#Translation">and see the miracle.</rdg>
+                </app>
+            </l>
+            <l n="258">
+                <app>
+                    <lem wit="#Transcription">vil pfaffent er do zuo im nam,</lem>
+                    <rdg wit="#Translation">The Bishop gathered many clerics around him</rdg>
+                </app>
+            </l>
+            <l n="259">
+                <app>
+                    <lem wit="#Transcription">mit fróden er do zuo in kam,</lem>
+                    <rdg wit="#Translation">and then gladly went to them.</rdg>
+                </app>
+            </l>
+            <l n="260">
+                <app>
+                    <lem wit="#Transcription">den brief er do úber lass,</lem>
+                    <rdg wit="#Translation">He then read through the letter</rdg>
+                </app>
+            </l>
+            <l n="261">
+                <app>
+                    <lem wit="#Transcription">er sach, das si ain haidin was</lem>
+                    <rdg wit="#Translation">and saw that she was a heathen</rdg>
+                </app>
+            </l>
+            <l n="262">
+                <app>
+                    <lem wit="#Transcription">vnd das diss alles got wolt,</lem>
+                    <rdg wit="#Translation">and that God wished</rdg>
+                </app>
+            </l>
+            <l n="263">
+                <app>
+                    <lem wit="#Transcription">das man si da tóffen solt.</lem>
+                    <rdg wit="#Translation">her to be baptized.</rdg>
+                </app>
+            </l>
+            <l n="264">
+                <app>
+                    <lem wit="#Transcription">do er den brief hett vss gelesen,</lem>
+                    <rdg wit="#Translation">When he had read the letter to the end,</rdg>
+                </app>
+            </l>
+            <l n="265">
+                <app>
+                    <lem wit="#Transcription">er wolt do selb ir tott wesen</lem>
+                    <rdg wit="#Translation">He himself wanted to be her Godfather</rdg>
+                </app>
+            </l>
+            <l n="266">
+                <app>
+                    <lem wit="#Transcription">vnd töft si selb mit siner hand</lem>
+                    <rdg wit="#Translation">and he baptized her with his own hand</rdg>
+                </app>
+            </l>
+            <l n="267">
+                <app>
+                    <lem wit="#Transcription">vff der fart. diú äptissin si tovd fand</lem>
+                    <rdg wit="#Translation">while he was there. The abbess </rdg>
+                </app>
+            </l>
+            <l n="268">
+                <app>
+                    <lem wit="#Transcription">an allen sachen,</lem>
+                    <rdg wit="#Translation">found her dead<note type= "critical" anchored="true"><p>The Berlin manuscript has “tõd” here, which could be a mis-writing of “totte” or “tottin” (meaning patroness or Godmother). See footnote 11 for the reading of the Budapest manuscript.</p></note></rdg>
+                </app>
+            </l>
+            <l n="269">
+                <app>
+                    <lem wit="#Transcription">als man ain gaistlich mensch </lem>
+                    <rdg wit="#Translation">in (to?) all things,</rdg>
+                </app>
+            </l>
+            <l n="270">
+                <app>
+                    <lem wit="#Transcription">sol machen.</lem>
+                    <rdg wit="#Translation">as a spiritual person should be.<note type= "critical" anchored="true"><p>It's possible some lines are missing here. The Budapest manuscript has the following for this passage, which is also somewhat difficult to interpret: “Er pesneid si do in weis gewand/ Das pracht man dar mit list/ Sy stuend czu der selben frist/ vnd auch auf der selben vart/ die aptissin do ir got ward/ Do sy nun was christin worden/ Do gaben sy ir den orden.” (Then he dressed her in white clothing -- that was cleverly done -- She stood at the same time and at the same time, the abbess then became her Godmother. When she had become a Christian, the abbess gave (taught) her the rule.)</p></note></rdg>
+                </app>
+            </l>
+            <l n="271">
+                <app>
+                    <lem wit="#Transcription">do si was crastan worden,</lem>
+                    <rdg wit="#Translation">When she had become a Christian,</rdg>
+                </app>
+            </l>
+            <l n="272">
+                <app>
+                    <lem wit="#Transcription">do gab siu ir den orden</lem>
+                    <rdg wit="#Translation">she (the abbess) then gave her the rule</rdg>
+                </app>
+            </l>
+            <l n="273">
+                <app>
+                    <lem wit="#Transcription">vnd die pfrúnd zem kloster.</lem>
+                    <rdg wit="#Translation">and her dowry to the cloister.</rdg>
+                </app>
+            </l>
+            <l n="274">
+                <app>
+                    <lem wit="#Transcription">da man schloft sy in gewand,</lem>
+                    <rdg wit="#Translation">Then they dressed her in a robe</rdg>
+                </app>
+            </l>
+            <l n="275">
+                <app>
+                    <lem wit="#Transcription">daz wz graw — — — —<note type= "critical" anchored="true"><p>Bolte assumes missing text here, as well as an additional missing line (not included in the line count).</p></note></lem>
+                    <rdg wit="#Translation">That was gray. — — —</rdg>
+                </app>
+            </l>
+            <l n="276">
+                <app>
+                    <lem wit="#Transcription">si wavrent all des wunders frow,</lem>
+                    <rdg wit="#Translation">They were all happy about the miracle</rdg>
+                </app>
+            </l>
+            <l n="277">
+                <app>
+                    <lem wit="#Transcription">Te deum laudamus sungent si do,</lem>
+                    <rdg wit="#Translation">and then they sang Te deum laudamus,</rdg>
+                </app>
+            </l>
+            <l n="278">
+                <app>
+                    <lem wit="#Transcription">die priester alt vnd iung</lem>
+                    <rdg wit="#Translation">all the priests, old and young</rdg>
+                </app>
+            </l>
+            <l n="279">
+                <app>
+                    <lem wit="#Transcription">vnd di gantz samnung,</lem>
+                    <rdg wit="#Translation">and the whole assembly.</rdg>
+                </app>
+            </l>
+            <l n="280">
+                <app>
+                    <lem wit="#Transcription">diss lob si sungent avne spott</lem>
+                    <rdg wit="#Translation">They sang this earnestly</rdg>
+                </app>
+            </l>
+            <l n="281">
+                <app>
+                    <lem wit="#Transcription">der rosen vnd der gilgen got.</lem>
+                    <rdg wit="#Translation">to the God of roses and lilies.</rdg>
+                </app>
+            </l>
+            <l n="282">
+                <app>
+                    <lem wit="#Transcription">dar navch hiess man si leren,</lem>
+                    <rdg wit="#Translation">After that they had her taught –</rdg>
+                </app>
+            </l>
+            <l n="283">
+                <app>
+                    <lem wit="#Transcription">ir hail dz wolt sich meren;</lem>
+                    <rdg wit="#Translation">her holiness wanted to grow!</rdg>
+                </app>
+            </l>
+            <l n="284">
+                <app>
+                    <lem wit="#Transcription">siu gelernet in kurtzer frist,</lem>
+                    <rdg wit="#Translation">She learned in a short time</rdg>
+                </app>
+            </l>
+            <l n="285">
+                <app>
+                    <lem wit="#Transcription">dz siu kund aller hand list</lem>
+                    <rdg wit="#Translation">that she had all kinds of ability</rdg>
+                </app>
+            </l>
+            <l n="286">
+                <app>
+                    <lem wit="#Transcription">singen, lesen vnd schriben,</lem>
+                    <rdg wit="#Translation">In singing, reading, and writing, </rdg>
+                </app>
+            </l>
+            <l n="287">
+                <app>
+                    <lem wit="#Transcription">— — — — — —</lem>
+                    <rdg wit="#Translation">— — — — — — — </rdg>
+                </app>
+            </l>
+            <l n="288">
+                <app>
+                    <lem wit="#Transcription">ir tugent was mengualt vnd grovss,</lem>
+                    <rdg wit="#Translation">Her virtue was manifold and great:</rdg>
+                </app>
+            </l>
+            <l n="289">
+                <app>
+                    <lem wit="#Transcription">allú wisshait ir zuo floss.</lem>
+                    <rdg wit="#Translation">all wisdom flowed to her.</rdg>
+                </app>
+            </l>
+            <l n="290">
+                <app>
+                    <lem wit="#Transcription">diu áptissin dar navch starb,</lem>
+                    <rdg wit="#Translation">Soon thereafter, the abbess died.</rdg>
+                </app>
+            </l>
+            <l n="291">
+                <app>
+                    <lem wit="#Transcription">ir lútzel navch ir ampt warb,</lem>
+                    <rdg wit="#Translation">Few of the sisters applied for her office,</rdg>
+                </app>
+            </l>
+            <l n="292">
+                <app>
+                    <lem wit="#Transcription">wan si ducht allgemain,</lem>
+                    <rdg wit="#Translation">For it seemed to them all</rdg>
+                </app>
+            </l>
+            <l n="293">
+                <app>
+                    <lem wit="#Transcription">wie disiu iunkfrow rain</lem>
+                    <rdg wit="#Translation">that this pure maiden</rdg>
+                </app>
+            </l>
+            <l n="294">
+                <app>
+                    <lem wit="#Transcription">vnder in diu best wár úber all;</lem>
+                    <rdg wit="#Translation">was the best of all among them.</rdg>
+                </app>
+            </l>
+            <l n="295">
+                <app>
+                    <lem wit="#Transcription">dar zuo gäben si die wal,</lem>
+                    <rdg wit="#Translation">For this reason, they voted</rdg>
+                </app>
+            </l>
+            <l n="296">
+                <app>
+                    <lem wit="#Transcription">dz si diu áptissin sólt sin,</lem>
+                    <rdg wit="#Translation">that she should be the abbess</rdg>
+                </app>
+            </l>
+            <l n="297">
+                <app>
+                    <lem wit="#Transcription">diu da vor was ein ha<hi rend="italic">[i]</hi></lem>
+                    <rdg wit="#Translation">who had previously been a heathen.</rdg>
+                </app>
+            </l>
+            <l n="298">
+                <app>
+                    <lem wit="#Transcription">niement hie voll sagen kan,</lem>
+                    <rdg wit="#Translation">No one here can really say</rdg>
+                </app>
+            </l>
+            <l n="299">
+                <app>
+                    <lem wit="#Transcription">wes glúks dz kloster do gewan</lem>
+                    <rdg wit="#Translation">how much good fortune the convent won</rdg>
+                </app>
+            </l>
+            <l n="300">
+                <app>
+                    <lem wit="#Transcription">an eren vnd an guot,</lem>
+                    <rdg wit="#Translation">in honor and in goodness because of this.</rdg>
+                </app>
+            </l>
+            <l n="301">
+                <app>
+                    <lem wit="#Transcription">dz geschuof diu wolgemuot; </lem>
+                    <rdg wit="#Translation">This created an atmosphere of good will and well-being.</rdg>
+                </app>
+            </l>
+            <l n="302">
+                <app>
+                    <lem wit="#Transcription">mit wishiat kund siu des klosters pflegen,</lem>
+                    <rdg wit="#Translation">She was able to manage the cloister with wisdom,</rdg>
+                </app>
+            </l>
+            <l n="303">
+                <app>
+                    <lem wit="#Transcription">got der het ir sinen segen</lem>
+                    <rdg wit="#Translation">for God had sent her his blessing</rdg>
+                </app>
+            </l>
+            <l n="304">
+                <app>
+                    <lem wit="#Transcription">vnd alles hail zuo gesent.</lem>
+                    <rdg wit="#Translation">and everything holy.</rdg>
+                </app>
+            </l>
+            <l n="305">
+                <app>
+                    <lem wit="#Transcription">wie schön si das wolt, si lert </lem>
+                    <rdg wit="#Translation">As beautifully as she wanted, she taught</rdg>
+                </app>
+            </l>
+            <l n="306">
+                <app>
+                    <lem wit="#Transcription">si all tugend nacht vnd tag,</lem>
+                    <rdg wit="#Translation">them all the virtues night and day;</rdg>
+                </app>
+            </l>
+            <l n="307">
+                <app>
+                    <lem wit="#Transcription">wie lútzel si dar an erlag.</lem>
+                    <rdg wit="#Translation">How little she lay down on the job!</rdg>
+                </app>
+            </l>
+            <l n="308">
+                <app>
+                    <lem wit="#Transcription">von kúnschait lert si zuo aller zit,</lem>
+                    <rdg wit="#Translation">She taught of chastity at all times:</rdg>
+                </app>
+            </l>
+            <l n="309">
+                <app>
+                    <lem wit="#Transcription">siu lert, was genavd dar an lit;</lem>
+                    <rdg wit="#Translation">She taught about the grace that is inherent in it;</rdg>
+                </app>
+            </l>
+            <l n="310">
+                <app>
+                    <lem wit="#Transcription">von der kúnschait besunder</lem>
+                    <rdg wit="#Translation">and of chastity in particular,</rdg>
+                </app>
+            </l>
+            <l n="311">
+                <app>
+                    <lem wit="#Transcription">seit siu menig wunder,</lem>
+                    <rdg wit="#Translation">she told many miracle stories,</rdg>
+                </app>
+            </l>
+            <l n="312">
+                <app>
+                    <lem wit="#Transcription">wan dz was ir vil wol kunt</lem>
+                    <rdg wit="#Translation">for these were made known to her</rdg>
+                </app>
+            </l>
+            <l n="313">
+                <app>
+                    <lem wit="#Transcription">worden von des engels mund.</lem>
+                    <rdg wit="#Translation">by the angel’s mouth.</rdg>
+                </app>
+            </l>
+            <l n="314">
+                <app>
+                    <lem wit="#Transcription">ir ler was guot vnd rain,</lem>
+                    <rdg wit="#Translation">Her teaching was good and pure</rdg>
+                </app>
+            </l>
+            <l n="315">
+                <app>
+                    <lem wit="#Transcription">noch sússer denne der huonig sain,</lem>
+                    <rdg wit="#Translation">even sweeter than honey.</rdg>
+                </app>
+            </l>
+            <l n="316">
+                <app>
+                    <lem wit="#Transcription">siu lert si allen, das si sturben,</lem>
+                    <rdg wit="#Translation">She taught them all, so that when she died</rdg>
+                </app>
+            </l>
+            <l n="317">
+                <app>
+                    <lem wit="#Transcription">dz si gottes huld erwurben.</lem>
+                    <rdg wit="#Translation">She would attain God’s favor.</rdg>
+                </app>
+            </l>
+            <l n="318">
+                <app>
+                    <lem wit="#Transcription">siu was áptissin drissig iar,</lem>
+                    <rdg wit="#Translation">She was abbess for thirty years,</rdg>
+                </app>
+            </l>
+            <l n="319">
+                <app>
+                    <lem wit="#Transcription">siu dienot got avn alle swavr.</lem>
+                    <rdg wit="#Translation">serving God without any difficulty.</rdg>
+                </app>
+            </l>
+            <l n="320">
+                <app>
+                    <lem wit="#Transcription">der engel dar navch zuo ir kam,</lem>
+                    <rdg wit="#Translation">At the end of this time, the angel who had</rdg>
+                </app>
+            </l>
+            <l n="321">
+                <app>
+                    <lem wit="#Transcription">der si dórt vss dem garten nam,</lem>
+                    <rdg wit="#Translation">taken her out of the garden came to her</rdg>
+                </app>
+            </l>
+            <l n="322">
+                <app>
+                    <lem wit="#Transcription">er sprach: iunkfrow, diu zit ist hie,</lem>
+                    <rdg wit="#Translation">and said: “Maiden, the time has come,</rdg>
+                </app>
+            </l>
+            <l n="323">
+                <app>
+                    <lem wit="#Transcription">du havst misstretten nie,</lem>
+                    <rdg wit="#Translation">You have never had a misstep,</rdg>
+                </app>
+            </l>
+            <l n="324">
+                <app>
+                    <lem wit="#Transcription">du havst behalten min gebott;</lem>
+                    <rdg wit="#Translation">and have followed my orders;</rdg>
+                </app>
+            </l>
+            <l n="325">
+                <app>
+                    <lem wit="#Transcription">der rosen vnd der gilgen got</lem>
+                    <rdg wit="#Translation">The God of roses and lilies</rdg>
+                </app>
+            </l>
+            <l n="326">
+                <app>
+                    <lem wit="#Transcription">havt mich gesant zuo dir,</lem>
+                    <rdg wit="#Translation">has sent me to you — </rdg>
+                </app>
+            </l>
+            <l n="327">
+                <app>
+                    <lem wit="#Transcription">her navch dir stavt mins hertzen begir.</lem>
+                    <rdg wit="#Translation">my heart’s desire is longing for you.</rdg>
+                </app>
+            </l>
+            <l n="328">
+                <app>
+                    <lem wit="#Transcription">du solt dich cristanlich bewaren,</lem>
+                    <rdg wit="#Translation">See that you keep Christian rule</rdg>
+                </app>
+            </l>
+            <l n="329">
+                <app>
+                    <lem wit="#Transcription">so wil ich bald navch dir faren</lem>
+                    <rdg wit="#Translation">and I will come for you soon,</rdg>
+                </app>
+            </l>
+            <l n="330">
+                <app>
+                    <lem wit="#Transcription">von hút an dem dritten tag,</lem>
+                    <rdg wit="#Translation">three days from today.</rdg>
+                </app>
+            </l>
+            <l n="331">
+                <app>
+                    <lem wit="#Transcription">da von merk eben, was ich dir sag.</lem>
+                    <rdg wit="#Translation">Mark you well what I tell you now:</rdg>
+                </app>
+            </l>
+            <l n="332">
+                <app>
+                    <lem wit="#Transcription">so erzaig wir dir, das ich dir verhiess,</lem>
+                    <rdg wit="#Translation">in this way we will fulfill the promise I made you</rdg>
+                </app>
+            </l>
+            <l n="333">
+                <app>
+                    <lem wit="#Transcription">do du den haiden faren liest.</lem>
+                    <rdg wit="#Translation">When you left the heathen.”</rdg>
+                </app>
+            </l>
+            <l n="334">
+                <app>
+                    <lem wit="#Transcription">dú iunkfrow ward der red frow,</lem>
+                    <rdg wit="#Translation">This speech made the maiden happy,</rdg>
+                </app>
+            </l>
+            <l n="335">
+                <app>
+                    <lem wit="#Transcription">sinem sússen rat folget siu do,</lem>
+                    <rdg wit="#Translation">and so she followed his sweet counsel</rdg>
+                </app>
+            </l>
+            <l n="336">
+                <app>
+                    <lem wit="#Transcription">die frowan hiess si kommen dar.</lem>
+                    <rdg wit="#Translation">and called the ladies to her.</rdg>
+                </app>
+            </l>
+            <l n="337">
+                <app>
+                    <lem wit="#Transcription">do kament si vnd nament war,</lem>
+                    <rdg wit="#Translation">When they came and heard</rdg>
+                </app>
+            </l>
+            <l n="338">
+                <app>
+                    <lem wit="#Transcription">was siu in seit an der stund,</lem>
+                    <rdg wit="#Translation">what she said at that moment,</rdg>
+                </app>
+            </l>
+            <l n="339">
+                <app>
+                    <lem wit="#Transcription">in ward ain laidiges már kunt.</lem>
+                    <rdg wit="#Translation">a sad tale was made known to them.</rdg>
+                </app>
+            </l>
+            <l n="340">
+                <app>
+                    <lem wit="#Transcription">siu gab in do iren getrúwen ravt,</lem>
+                    <rdg wit="#Translation">She gave them her true counsel,</rdg>
+                </app>
+            </l>
+            <l n="341">
+                <app>
+                    <lem wit="#Transcription">si hiess si baidú frú vnd spavt</lem>
+                    <rdg wit="#Translation">she bid them love God diligently</rdg>
+                </app>
+            </l>
+            <l n="342">
+                <app>
+                    <lem wit="#Transcription">got flisseclichen minnen</lem>
+                    <rdg wit="#Translation">both morning and night</rdg>
+                </app>
+            </l>
+            <l n="343">
+                <app>
+                    <lem wit="#Transcription">mit hertzen vnd sinnen</lem>
+                    <rdg wit="#Translation">with heart and mind,</rdg>
+                </app>
+            </l>
+            <l n="344">
+                <app>
+                    <lem wit="#Transcription">vnd mit fliss all tugent havn,</lem>
+                    <rdg wit="#Translation">and keenly uphold all the virtues,</rdg>
+                </app>
+            </l>
+            <l n="345">
+                <app>
+                    <lem wit="#Transcription">so mócht es in och wol ergavn.</lem>
+                    <rdg wit="#Translation">so that it would go well for them.</rdg>
+                </app>
+            </l>
+            <l n="346">
+                <app>
+                    <lem wit="#Transcription">ir aller iavmer der was grovss,</lem>
+                    <rdg wit="#Translation">Their shared grief was so great</rdg>
+                </app>
+            </l>
+            <l n="347">
+                <app>
+                    <lem wit="#Transcription">das wasser inen vss den ovgen floss</lem>
+                    <rdg wit="#Translation">that tears flowed out of their eyes,</rdg>
+                </app>
+            </l>
+            <l n="348">
+                <app>
+                    <lem wit="#Transcription">sie wundent all ir hend;</lem>
+                    <rdg wit="#Translation">and they wounded all of their hands (from wringing).</rdg>
+                </app>
+            </l>
+            <l n="349">
+                <app>
+                    <lem wit="#Transcription">hie nam ir gewalt ain end,</lem>
+                    <rdg wit="#Translation">Thus ended her rule (as abbess):</rdg>
+                </app>
+            </l>
+            <l n="350">
+                <app>
+                    <lem wit="#Transcription">des dritten tags do lag si tovd,</lem>
+                    <rdg wit="#Translation">On the third day she lay dead,</rdg>
+                </app>
+            </l>
+            <l n="351">
+                <app>
+                    <lem wit="#Transcription">also schied sy von aller novt.</lem>
+                    <rdg wit="#Translation">and she departed from all sorrow.</rdg>
+                </app>
+            </l>
+            <l n="352">
+                <app>
+                    <lem wit="#Transcription">des selben tags kam der engel </lem>
+                    <rdg wit="#Translation">On the same day, the angel came</rdg>
+                </app>
+            </l>
+            <l n="353">
+                <app>
+                    <lem wit="#Transcription">vnd nam ir sel zartlich mit im</lem>
+                    <rdg wit="#Translation">and gently took her soul with him</rdg>
+                </app>
+            </l>
+            <l n="354">
+                <app>
+                    <lem wit="#Transcription">und fuort si in das himelrich</lem>
+                    <rdg wit="#Translation">and led her to heaven</rdg>
+                </app>
+            </l>
+            <l n="355">
+                <app>
+                    <lem wit="#Transcription">zuo andren mágten minneclich, </lem>
+                    <rdg wit="#Translation">to the other loving maidens.</rdg>
+                </app>
+            </l>
+            <l n="356">
+                <app>
+                    <lem wit="#Transcription">da ward er all ir fród gantz,</lem>
+                    <rdg wit="#Translation">In this way, he became the fulfillment of all their joy:</rdg>
+                </app>
+            </l>
+            <l n="357">
+                <app>
+                    <lem wit="#Transcription">er fuort si an der iunkfrowan tantz.</lem>
+                    <rdg wit="#Translation">He brought her to the dance of the virgins.</rdg>
+                </app>
+            </l>
+            <l n="358">
+                <app>
+                    <lem wit="#Transcription">gross iamer sich hie huob,</lem>
+                    <rdg wit="#Translation">Great lament arose here (on earth)</rdg>
+                </app>
+            </l>
+            <l n="359">
+                <app>
+                    <lem wit="#Transcription">vil erlich man si do begruob,</lem>
+                    <rdg wit="#Translation">as they buried her with honor</rdg>
+                </app>
+            </l>
+            <l n="360">
+                <app>
+                    <lem wit="#Transcription">ob irem grab si sungen:</lem>
+                    <rdg wit="#Translation">and sang over her grave:</rdg>
+                </app>
+            </l>
+            <l n="361">
+                <app>
+                    <lem wit="#Transcription">ir ist recht wol gelungen.</lem>
+                    <rdg wit="#Translation">She had had a great success:</rdg>
+                </app>
+            </l>
+            <l n="362">
+                <app>
+                    <lem wit="#Transcription">got selber gen ir gie</lem>
+                    <rdg wit="#Translation">God himself had gone to her;</rdg>
+                </app>
+            </l>
+            <l n="363">
+                <app>
+                    <lem wit="#Transcription">gar wunneclich vnd minneclich er sie empfieng,</lem>
+                    <rdg wit="#Translation">joyfully and full of love he had received her</rdg>
+                </app>
+            </l>
+            <l n="364">
+                <app>
+                    <lem wit="#Transcription">er fuort si an der engel schar:</lem>
+                    <rdg wit="#Translation">and led her to the host of angels.</rdg>
+                </app>
+            </l>
+            <l n="365">
+                <app>
+                    <lem wit="#Transcription">got helff vns allen zuo ir dar.</lem>
+                    <rdg wit="#Translation">God help us all to join her.</rdg>
+                </app>
+            </l>
+            <l n="366">
+                <app>
+                    <lem wit="#Transcription">	Diss sol man geren hóren lesen,</lem>
+                    <rdg wit="#Translation">	This [tale] should be gladly heard told</rdg>
+                </app>
+            </l>
+            <l n="367">
+                <app>
+                    <lem wit="#Transcription">der der kúnschait dester hólder well wesen;</lem>
+                    <rdg wit="#Translation">To anyone who wishes to be that much more beholden to chastity;</rdg>
+                </app>
+            </l>
+            <l n="368">
+                <app>
+                    <lem wit="#Transcription">wan wer die kúnschait lieb havt,</lem>
+                    <rdg wit="#Translation">For whoever holds chastity dear,</rdg>
+                </app>
+            </l>
+            <l n="369">
+                <app>
+                    <lem wit="#Transcription">dem mag es hie och wol ergavn,</lem>
+                    <rdg wit="#Translation">for him it will go well in this life,</rdg>
+                </app>
+            </l>
+            <l n="370">
+                <app>
+                    <lem wit="#Transcription">wer sich ir versummet havt,</lem>
+                    <rdg wit="#Translation">Whoever neglects it,</rdg>
+                </app>
+            </l>
+            <l n="371">
+                <app>
+                    <lem wit="#Transcription">dem wil ich geben den ravt,</lem>
+                    <rdg wit="#Translation">him I would counsel</rdg>
+                </app>
+            </l>
+            <l n="372">
+                <app>
+                    <lem wit="#Transcription">das er si geren behalt;</lem>
+                    <rdg wit="#Translation">to preserve it gladly;</rdg>
+                </app>
+            </l>
+            <l n="373">
+                <app>
+                    <lem wit="#Transcription">wan got der kúnschait walt</lem>
+                    <rdg wit="#Translation">For God governs chastity </rdg>
+                </app>
+            </l>
+            <l n="374">
+                <app>
+                    <lem wit="#Transcription">vnd die vil lieb muoter sin,</lem>
+                    <rdg wit="#Translation">and His very dear mother,</rdg>
+                </app>
+            </l>
+            <l n="375">
+                <app>
+                    <lem wit="#Transcription">die hoch himel kúnigin vnd kaiserin,</lem>
+                    <rdg wit="#Translation">the high Queen and Empress of heaven,</rdg>
+                </app>
+            </l>
+            <l n="376">
+                <app>
+                    <lem wit="#Transcription">die wz die erst, die kúnschait erkos,</lem>
+                    <rdg wit="#Translation">she was the first to choose chastity.</rdg>
+                </app>
+            </l>
+            <l n="377">
+                <app>
+                    <lem wit="#Transcription">da von ir hail ist worden grovss,</lem>
+                    <rdg wit="#Translation">because of which her holiness has greatly increased</rdg>
+                </app>
+            </l>
+            <l n="378">
+                <app>
+                    <lem wit="#Transcription">dar nach vil menig iunkfrow her,</lem>
+                    <rdg wit="#Translation">and after which very many maidens followed her,</rdg>
+                </app>
+            </l>
+            <l n="379">
+                <app>
+                    <lem wit="#Transcription">dis von ir havnd genomen ler.</lem>
+                    <rdg wit="#Translation">(that is, they followed) this lesson from her hand.</rdg>
+                </app>
+            </l>
+            <l n="380">
+                <app>
+                    <lem wit="#Transcription">den kúnschen git si hochen lon,</lem>
+                    <rdg wit="#Translation">She gives high praise to the chaste ones,</rdg>
+                </app>
+            </l>
+            <l n="381">
+                <app>
+                    <lem wit="#Transcription">sie setzt in vff der mágte kron.</lem>
+                    <rdg wit="#Translation">she places the maidenly crown upon their heads.</rdg>
+                </app>
+            </l>
+            <l n="382">
+                <app>
+                    <lem wit="#Transcription">wer aber sich ir versummet havt,</lem>
+                    <rdg wit="#Translation">However, he who has neglected it,</rdg>
+                </app>
+            </l>
+            <l n="383">
+                <app>
+                    <lem wit="#Transcription">der tuo sich der vnkúnsch wider ab</lem>
+                    <rdg wit="#Translation">if he rids himself once again of corruption</rdg>
+                </app>
+            </l>
+            <l n="384">
+                <app>
+                    <lem wit="#Transcription">vnd hab dar an vil státten muot,</lem>
+                    <rdg wit="#Translation">and then is very steadfast in this,</rdg>
+                </app>
+            </l>
+            <l n="385">
+                <app>
+                    <lem wit="#Transcription">so mag sin ding noch werden guot.</lem>
+                    <rdg wit="#Translation">then things can improve for him.</rdg>
+                </app>
+            </l>
+            <l n="386">
+                <app>
+                    <lem wit="#Transcription">wer unkúnsch lavt, e das sú in laut,</lem>
+                    <rdg wit="#Translation">Whoever relinquishes corruption, before it spoils him,</rdg>
+                </app>
+            </l>
+            <l n="387">
+                <app>
+                    <lem wit="#Transcription">eye wie wol es im ergavt!</lem>
+                    <rdg wit="#Translation">ah, how well it will go for him!</rdg>
+                </app>
+            </l>
+            <l n="388">
+                <app>
+                    <lem wit="#Transcription">dz sag ich mannen vnd wiben,</lem>
+                    <rdg wit="#Translation">This I say to men and women:</rdg>
+                </app>
+            </l>
+            <l n="389">
+                <app>
+                    <lem wit="#Transcription">das si vil stát dar an beliben</lem>
+                    <rdg wit="#Translation">that they remain steadfast in this</rdg>
+                </app>
+            </l>
+            <l n="390">
+                <app>
+                    <lem wit="#Transcription">vnd folgen miner lere <hi rend="italic">[n]</hi></lem>
+                    <rdg wit="#Translation">and follow my teaching</rdg>
+                </app>
+            </l>
+            <l n="391">
+                <app>
+                    <lem wit="#Transcription">vnd sich da von kere <hi rend="italic">[n]</hi>.</lem>
+                    <rdg wit="#Translation">and turn away from corruption.</rdg>
+                </app>
+            </l>
+            <l n="392">
+                <app>
+                    <lem wit="#Transcription">her Salomon gesprochen havt,</lem>
+                    <rdg wit="#Translation">Lord Solomon has said</rdg>
+                </app>
+            </l>
+            <l n="393">
+                <app>
+                    <lem wit="#Transcription">das fliechen si der beste ravt.</lem>
+                    <rdg wit="#Translation">that being clean is the best advice.<note type= "critical" anchored="true"><p>Cleanliness is next to Godliness?</p></note></rdg>
+                </app>
+            </l>
+            <l n="394">
+                <app>
+                    <lem wit="#Transcription">wer kúnsche beliben well vnd das mag tuon,</lem>
+                    <rdg wit="#Translation">Whoever wants to and is able to remain chaste,</rdg>
+                </app>
+            </l>
+            <l n="395">
+                <app>
+                    <lem wit="#Transcription">dem git got grovssen luon.</lem>
+                    <rdg wit="#Translation">God will give him great praise.</rdg>
+                </app>
+            </l>
+            <l n="396">
+                <app>
+                    <lem wit="#Transcription">got der git im die obrosten kruon</lem>
+                    <rdg wit="#Translation">God will give him the highest crown</rdg>
+                </app>
+            </l>
+            <l n="397">
+                <app>
+                    <lem wit="#Transcription">in sinem hóchsten tron.</lem>
+                    <rdg wit="#Translation">in his highest throne.</rdg>
+                </app>
+            </l>
+            <l n="398">
+                <app>
+                    <lem wit="#Transcription">da mit havt diss buoch ain end,</lem>
+                    <rdg wit="#Translation">Herewith the book is at an end,</rdg>
+                </app>
+            </l>
+            <l n="399">
+                <app>
+                    <lem wit="#Transcription">got vns sinen hailigen segen send</lem>
+                    <rdg wit="#Translation">may God send us His holy blessing</rdg>
+                </app>
+            </l>
+            <l n="400">
+                <app>
+                    <lem wit="#Transcription">vnd verlich vns allen ain guotes end. Amen</lem>
+                    <rdg wit="#Translation">and solemnly grant us all a good end.  Amen</rdg>
+                </app>
+            </l>
+        </body>
+    </text>
+</TEI>
