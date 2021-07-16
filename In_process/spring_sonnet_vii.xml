@@ -1,0 +1,181 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Spring – The Hecatomb for Diane, VII</title>
+				<author>Théodore Agrippa d’Aubigné</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Henri Weber</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Nora Baker</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Nora Baker</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>Best known for his civil war epic Les Tragiques, Théodore Agrippa d’Aubigné (1552-1630) spent his early years in the thrall of Diane Salviati. Salviati was the niece of Cassandra, the muse of the famous French poet Ronsard. D’Aubigné’s work Le Printemps – ‘Spring’ – is composed of two parts. The first is a compilation of one hundred sonnets dedicated to his beloved, entitled L’hécatombe à Diane. The word ‘hecatomb’ evokes a sacrificial practice in Ancient Greece, where one hundred cattle or other livestock would be slaughtered in honour of the gods. Though the goal of d’Aubigné’s sonnets is ostensibly to praise Diane, his imagery is characteristically visceral, flavoured by his experience of the violence of France’s Wars of Religion (1562-1598). Diane’s family sheltered d’Aubigné following the St. Bartholomew’s Day Massacre in 1572, but, as she  was Catholic and d’Aubigné Protestant, their love was not to be. The author’s later works express some wistful reflections on the youthful exuberance that led him to idolize this unattainable woman. It is thought that L’hécatombe à Diane and the latter section of Le Printemps, the Stances et Odes, were composed in the early 1570s.</p>
+                <p>Perry, Kathleen A. “Motherhood and Martyrdom in the Poetry of Théodore Agrippa d'Aubigné.” Neophilologus, vol. 76, no. 2, 1992, pp. 198–211., doi:10.1007/bf00210169.</p>
+                <p>An analysis of the effects of d’Aubigné’s turbulent childhood on the representation of women in his poetry, with particular reference to the parallels drawn between Diane Salviati and the hunter goddess Diana/Artemis of classical lore.</p>
+                <p>“Martyrdom, Anatomy, and the Ethics of Metaphor in d’Aubigné’s L’Hécatombe à Diane and Les Tragiques.” Love's Wounds: Violence and the Politics of Poetry in Early Modern Europe, by Cynthia Nyree Nazarian, Cornell University Press, 2016, pp. 117–179.</p>
+                <p>An examination of civil war violence reflected in love poetry.</p>
+                <p>Perry, Kathleen A. “A Re-Evaluation of Agrippa d'Aubigné's « Printemps »: Youthful Love or Mature Theology?” Bibliothèque d'Humanisme et Renaissance, vol. 51, no. 1, 1989, pp. 107–122.</p>
+                <p>Argues for the consideration of the poems of the Printemps as condemnations of the Catholic Church.</p>
+                <p>Perry Long, Kathleen A. “Victim of Love: The Poetics and Politics of Violence in 'Le Printemps' of Théodore Agrippa d'Aubigné.” Translating Desire in Medieval and Early Modern Culture, edited by Craig A. Berry and Heather Richardson Hayton, Arizona Center for Medieval and Renaissance Studies Press, 2005, pp. 31–47. Medieval and Renaissance Texts and Studies.</p>
+                <p>An exploration of Petrarchan and Catullan aspects of d’Aubigné’s early poetry.</p>
+                <p>Kuperty-Tsur, Nadine. “The Saint Bartholomew's Day Massacre and Baroque Tendencies in France: The Impact of Religious Turmoils on the Aesthetics of the French Renaissance.” Poetics Today, Translated by Sam W. Bloom, vol. 28, no. 1, 2007, pp. 117–142., doi:10.1215/03335372-2006-017.</p>
+                <p>A look at the influence of the Wars of Religion on Early Modern French poetry in general, and on a poem from Le Printemps in particular.</p>
+
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target=""></ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Le Printemps – L’hécatombe à Diane, VII</witness>
+					<witness xml:id="Translation">The Spring – The Hecatomb for Diane, VII</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Spring – The Hecatomb for Diane, VII" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>I have reproduced and rendered in English two sonnets from the Hécatombe for which no other translation appears to be available, with notes indicating places in the text where the author has crossed out initial words and added new ones (I follow Henri Weber’s 1960 critical edition of the Printemps in this regard). The present transcription is based on the manuscript holding entitled ‘Théodore Agrippa d'Aubigné. Le Printemps et divers textes’ in the Archives Tronchin 157 at the Geneva Public Library (Bibliothèque de Genève). This manuscript can be consulted here : https://archives.bge-geneve.ch/ark:/17786/vtaac0b3ff1aa240f22/dao/0#id:1767626689?gallery=true&amp;brightness=100.00&amp;contrast=100.00&amp;center=689.570,-1832.348&amp;zoom=6&amp;rotation=0.000. The folio numbers for the translated sonnets are f.77v-78. Other manuscript exemplars of this work can be found in the Bibliothèque de la Société de l’Histoire du Protestantisme Français (ms.816/12), and in the aforementioned Archives Tronchin 159.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">Le Printemps – L’hécatombe à Diane, VII</lem>
+						<rdg wit="#Translation">The Spring – The Hecatomb for Diane, VII</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+            <l n="1">
+                <app>
+                    <lem wit="#Transcription">D’un outrageux combat, la fortune &amp; l’amour</lem>
+                    <rdg wit="#Translation">With<note type= "critical" anchored="true"><p>I’ve opted for ‘with’ rather than a more literal ‘from’ or ‘of’ because it sounded more natural to me in English.</p></note> an outrageous combat fortune and love</rdg>
+                </app>
+            </l>
+            <l n="2">
+                <app>
+                    <lem wit="#Transcription">Me veulent ruiner &amp; me veulent bien faire</lem>
+                    <rdg wit="#Translation">Wish to ruin me and wish to do me good.</rdg>
+                </app>
+            </l>
+            <l n="3">
+                <app>
+                    <lem wit="#Transcription">L’amour me veut aider, &amp; fortune contraire </lem>
+                    <rdg wit="#Translation">Love wants to help me, fortune on the contrary</rdg>
+                </app>
+            </l>
+            <l n="4">
+                <app>
+                    <lem wit="#Transcription">Le brouille ne le trompant de quelque nouveau tour</lem>
+                    <rdg wit="#Translation">Upturns it with some new trick<note type= "critical" anchored="true"><p>I’ve chosen to just write ‘trick’ once here, for the sake of the flow of the text, even though ‘trompant’ and ‘tour’ could both be rendered in English as versions of ‘trick.’</p></note>.</rdg>
+                </app>
+            </l>
+            <l n="5">
+                <app>
+                    <lem wit="#Transcription">L’un fit dedans les yeux de Diane seiour.</lem>
+                    <rdg wit="#Translation">One stays a while in Diane’s eyes,</rdg>
+                </app>
+            </l>
+            <l n="6">
+                <app>
+                    <lem wit="#Transcription">Luy embrasa le cœur &amp; l’ame debonnaire,</lem>
+                    <rdg wit="#Translation">Sets alight her heart and good-natured soul;</rdg>
+                </app>
+            </l>
+            <l n="7">
+                <app>
+                    <lem wit="#Transcription">L’autre luy opposa une troupe adversaire</lem>
+                    <rdg wit="#Translation">The other opposes him with an enemy troop<note type= "critical" anchored="true"><p>The ‘him’ being opposed in this line (and the ‘his’ referred to in the subsequent line) refer to Love; Fortune is bringing an enemy troop against Love.</p></note></rdg>
+                </app>
+            </l>
+            <l n="8">
+                <app>
+                    <lem wit="#Transcription">De malheurs pour sa mort, &amp; pour mon dernier jour</lem>
+                    <rdg wit="#Translation">Of misfortunes for his death, and for my last day.</rdg>
+                </app>
+            </l>
+            <l n="9">
+                <app>
+                    <lem wit="#Transcription">Diane assiste moy, nostre perte est comune</lem>
+                    <rdg wit="#Translation">Diane attends me, our loss is mutual;</rdg>
+                </app>
+            </l>
+            <l n="10">
+                <app>
+                    <lem wit="#Transcription">Faisons rompre le col à l’amour, à injuste fortune</lem>
+                    <rdg wit="#Translation">Let us break the neck of unjust fortune—</rdg>
+                </app>
+            </l>
+            <l n="11">
+                <app>
+                    <lem wit="#Transcription">Inconstante, fascheuse, &amp; qui nous a trahis</lem>
+                    <rdg wit="#Translation">Inconsistent, adverse, and who has betrayed us.</rdg>
+                </app>
+            </l>
+            <l n="12">
+                <app>
+                    <lem wit="#Transcription">Combattans pour l’amour, c’est pour nous ma maistresse</lem>
+                    <rdg wit="#Translation">Fighting<note type= "critical" anchored="true"><p>Véronique Ferrer’s 2019 critical edition adds a note to clarify the intention of the word ‘combattant’, or ‘fighting’, in this instance: “To be understood in the sense of “by fighting for love, we fight for ourselves.” The poet here subverts the traditional motif of the combat between love and fortune, a common cause for lovers’ separation, by envisaging their loving union as a defensive weapon.” (Ferrer, Véronique, editor. “Hécatombe à Diane.” <hi rend="italic">Le Printemps</hi>, by Théodore Agrippa d’Aubigné, Librairie Droz, 2019, p. 56 (in French)).</p></note> for love, it [love] is for us, my mistress,</rdg>
+                </app>
+            </l>
+            <l n="13">
+                <app>
+                    <lem wit="#Transcription">Loge le dans mon cœur &amp; au tien ma Deesse</lem>
+                    <rdg wit="#Translation">Lodge it in my heart, and in yours, my goddess,</rdg>
+                </app>
+            </l>
+            <l n="14">
+                <app>
+                    <lem wit="#Transcription">Qu’il ait passages forts, la langue &amp; le pais.</lem>
+                    <rdg wit="#Translation">So that it may have safe passage, both the language<note type= "critical" anchored="true"><p>Henri Weber’s 1960 critical edition of the Printemps explains that references to ‘having the language’ were common wartime allusions: “The general sense of the verse is thus: that love may keep the country by possessing its main access points and the complicity of inhabitants who give him all necessary information.” (Weber, Henri, editor. “L'hécatombe à Diane.” <hi rend="italic">Le Printemps: L'hécatombe à Diane et Les Stances</hi>, by Théodore Agrippa d'Aubigné, Presses Universitaires de France, 1960, p. 64, n. 5 (in French)).</p></note> and the land.</rdg>
+                </app>
+            </l>
+		</body>
+	</text>
+</TEI>
