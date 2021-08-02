@@ -10,7 +10,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Vorau Plaint of Sin</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
 					<name>Sarah Bowden</name>
@@ -35,25 +35,37 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note anchored="true"></note>
+				<p>The Vorau Plaint of Sin, written in the second half of the twelfth century in the south-eastern German lands, is a substantial poem addressed to God in the voice of a sinner. The poem is conventionally counted as part of a small sub-genre of Early Middle High German religious poetry known as the ‘Sündenklage’, or ‘plaint of sin’. These poems – there is also the Millstatt Plaint of Sin, the closely related Rheinau Paul and the more simplistic Uppsala Plaint of Sin – all have at their heart a confession of sinfulness and a prayer to God for mercy, and are thought to have taken their inspiration from the more practical text-type of the German confession (‘Beichte’). These confessions, generalized first-person confessions in prose, are transmitted widely from the ninth century and had a variety of liturgical and devotional functions. 
+				Yet the Vorau Plaint of Sin is not simply a confession of sin, but rather a relatively complex meditation on human sinfulness and atonement more broadly. At its heart is an attempt to make sense of sin through an emphasis on its integral role in the dynamic system of redemption and salvation. The poem stresses the unavoidability of the fact of sin: the sins of man are a necessary prerequisite for the redemptive role of Christ. Yet this does not mean that the sinner should not feel contrition for what he has done, and the poem is rich with tension between an insistence on the contrition and weakness of the self on the one hand and his metaphysical self-confidence and self-awareness on the other. The result is a poem that will be rewarding to readers interested in attitudes towards sinfulness, and how sinfulness intersects with humanity, metaphysics and devotion.
+				The Vorau Plaint of Sin is found in two manuscripts. It is transmitted in complete form in a substantial, multi-text codex (Vorau, Stiftsbibliothek Cod. 276 (see below)) and in partial form in Zwettl, Stiftsbibliothek Cod. 73, a twelfth-century Hrabanus Maurus manuscript.</p>
+				<p>Vorau, Stiftsbibliothek Cod. 276 is a major anthology of ‘Early Middle High German’ verse texts. The Vorau manuscript was made in the last quarter of the twelfth century in the southern German lands, probably in Vorau itself: an abbey of Augustinian canons in the Steiermark, in the far east of what is now Austria. It has been suggested that the manuscript was made in the monastic-aristocratic nexus formed by the monastery and the family of its founder, Margrave Ottakar III, and although there is no concrete evidence for this thesis it seems plausible. Measuring 450 x 325cm, the Vorau manuscript is a substantial, high-quality object consisting of two fascicles (or independent ‘booklets’), one German and one Latin. The German fascicle begins with the earliest extant witness of the Kaiserchronik (Chronicle of Emperors), followed by the Vorau Books of Moses and twelve shorter German verse works on primarily biblical and religious themes. Setting aside the Kaiserchronik, the manuscript is constructed along a loosely chronological path from the creation of the world to the Last Judgement, with the texts following a path from the Old Testament to Alexander the Great, finishing with the New Testament and the end of the world. The Vorau Plaint of Sin is positioned between the works of Frau Ava and the Song of Ezzo, which also deal with the life of Christ and the fate of mankind. It is unclear when the German fascicle was first bound together with the Latin fascicle, which contains Otto of Freising’s chronicle of the house of Hohenstaufen, the Gesta Friderici imperatoris.</p>
+				<p>Bowden, Sarah, ‘Vorauer Sammlung und Zwettler Federproben: Die Vorauer Sündenklage in der literarischen Sammelpraxis des 12. Jahrhunderts’, in Sammeln als literarische Praxis im Mittelalter und in der frühen Neuzeit, ed. by Mark Chinca, Manfred Eikelmann, Michael Stolz and Christopher Young (Tübingen: Narr, forthcoming 2021).
+				On the transmission of the Vorau Plaint of Sin.</p>
+				<p>Haug, Walter, ‘Literature, allegory and salvation: theoretical positions in Early Middle High German’, in Haug, Vernacular Literary Theory in the Middle Ages, trans. by Joanna M. Catling, Cambridge Studies in Medieval Literature, 29 (Cambridge: CUP, 1997), pp. 46–74.
+				A introduction to the content and style of German religious poetry of the twelfth century, focusing on salvation and praise. </p>
+				<p>Schafferhoher, Gernot, and Martin Schubert, ‘Vorau’, in Schreiborte des deutschen Mittelalters. Skriptorien – Werke – Mäzene, ed. by Martin Schubert (Berlin/Boston: de Gruyter, 2013), pp. 513–35.
+				A comprehensive introduction to the Vorau codex, with references to the extensive scholarship on this manuscript.</p>
+				<p>Kaiserchronik digital, Elektronische Ausgabe, ed. by Mark Chinca, Helen Hunter, Jürgen Wolf, Christopher Young (Heidelberg: Universitätsbibliothek, 2018), (https://doi.org/10.11588/edition.kcd)
+				Online edition of all redactions of the Kaiserchronik, including a full digitization of the Vorau codex.</p>
 			</notesStmt>
 			<sourceDesc>
-				 <p><ref target="">Vorau, Stiftsbibl., Cod. 276</ref></p>
+				 <p>Vorau, Stiftsbibl., Cod. 276</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">Vorauer Sündenklage</witness>
+					<witness xml:id="Translation">Vorau Plaint of Sin</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>Vorau Plaint of Sin is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Vorau Plaint of Sin" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>This edition is a transcription of the text as presented in Vorau 276. I have followed the punctuation in the manuscript to divide the text into lines and have also reproduced any mid-line punctus. On occasion I have included a line break where punctus is missing to preserve the rhyme scheme. Initials have been reproduced as capitals in bold. I have made no further emendations to the text of the manuscript and have reproduced all scribal errors. These are mostly very small, but towards the end of the poem they increase and there appear to be some lines or words missing (purely for reasons of sense; there is no empty space left by the scribe). This may indicate some problems with the source from which the scribe was copying or a simple loss of concentration. I have marked the end of folios with |.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
