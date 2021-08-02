@@ -12,8 +12,8 @@
 				<title>The King of Tars</title>
 				<author>Anonymous</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Based on the edition by</resp>
+					<name>David Burnley and Alison Wiggins</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
@@ -40,7 +40,7 @@
 			<sourceDesc>
 				 <p><ref target=""></ref></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Transcription">Þe King of Tars</witness>
 					<witness xml:id="Translation">The King of Tars</witness>
 				</listWit>
 			</sourceDesc>
