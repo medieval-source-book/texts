@@ -1,0 +1,196 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Six Beats”&#8212;"Green shades"</title>
+				<author>Yan Jidao</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, </name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>In this ci, Yan Jidao adopts the perspective of a young woman longing for her lover. The poet creates an intimate scene through the careful depiction of details―the woman painting her eyebrows, writing songs, and compulsively rereading the letters from her lover while alone in her chamber.</p>
+                <p>Yan Jidao 晏幾道 was the son of the eminent ci poet Yan Shu 晏殊. Together, Yan Jidao and Yan Shu are often referred to as “double Yan”, with Yan Jidao being the “Little Yan 小晏” and Yan Shu being the “Big Yan 大晏”, reflecting the fact that during their lifetimes they were both the iconic poets of the wǎnyuē (婉约, "graceful") subgenre of ci. Unlike his father, who held a prestigious state position alongside a blooming poetry career, Yan Jidao led a far more arduous life. As the seventh son of Yan Shu, he was born into a noble and wealthy family, and had little interest in officialdom at a young age. His lifestyle was extravagant, filled with luxurious banquets, joyous travels with friends, and beautiful courtesans.</p>
+                <p>After Yan Shu passed away in Yan Jidao's late teens, the young man realized the imminent financial difficulties which would befall him and abandoned his previously extravagant lifestyle, devoting himself to a political career. However, he struggled to replicate his father's success and was framed for his involvement in the movement against Wang Anshi’s New Policies (a series of government reforms), which led to him being jailed. Even though he was quickly released, this incident did huge damage to both his political career and his finances. In his later years, he returned to writing ci, and started compiling a collection of his own works, called Little Mountain Ci (小山词) . In the prologue to this collection, he wrote: “I now think of the ones who once drank with me. Some of them have passed away; others fell prey to illness. I read through my collection as if reliving my past sadnesses, joys, separations and gatherings, which now are like fantasies, or a sudden lighting strike, or a faded dream. Thus I could only cover my pages and mourn, for time slips away too fast, and past joys are illusory and unreal.”</p>
+                <p>As a poet of the wǎnyuē subgenre, Yan Jidao’s lyrics pay great attention to romantic affairs with courtesans. Compared to his contemporaries, Yan Jidao focuses more on the existential and emotional aspect rather than the physical aspect of these affairs, and incorporates more introspection into his poems. Because of the occurrence of specific names and locations in his ci, some of his ci invite a biographical reading. However, as ci are song lyrics intended for multiple performances by different singers on different occasions, there is also a universal character to the sentiments evoked in Yan Jidao’s ci which transcends the poet’s personal experiences.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</p>
+				<listWit>
+					<witness xml:id="Transcription">六麼令</witness>
+					<witness xml:id="Translation">To the tune “Six Beats”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>To the tune “Six Beats”&#8212;"Green shades" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">六麼令</lem>
+						<rdg wit="#Translation">To the tune “Six Beats”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">綠陰春盡，</lem>
+						<rdg wit="#Translation">Green shades of the trees mark the end of spring;</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">飛絮繞香閣。</lem>
+						<rdg wit="#Translation">catkins fly around the fragrant pavilion.<note type= "critical" anchored="true"><p>Here the “fragrant pavilion” (香閣) refers to the residence of the speaker.</p></note></rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">晚來翠眉宮樣，</lem>
+						<rdg wit="#Translation">As night falls, I paint my eyebrows in the style that is popular within the palace,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">巧把遠山學。</lem>
+						<rdg wit="#Translation">which delicately resembles the curve of the faraway mountains.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">一寸狂心未說，</lem>
+						<rdg wit="#Translation">The wilderness in my heart is not spoken,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">已向橫波覺。</lem>
+						<rdg wit="#Translation">but the waves radiating from my eyes<note type= "critical" anchored="true"><p>“Waves radiating from my eyes” (橫波) refers to the emotions of the woman expressed by her eyes.</p></note> tell you the secret.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">畫簾遮匝。</lem>
+						<rdg wit="#Translation">Painted curtains shield me,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">新翻曲妙，</lem>
+						<rdg wit="#Translation">and my newly-written song is marvelous.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">暗許閒人帶偷掐。</lem>
+						<rdg wit="#Translation">I secretly allow the passers-by to overhear it, snatch it away and learn its rhythms.</rdg>
+					</app>
+				</l>                
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">前度書多隱語，</lem>
+						<rdg wit="#Translation">In your last letter you used many cryptic words;</rdg>
+					</app>
+				</l>
+                <l n="11">
+					<app>
+						<lem wit="#Transcription">意淺愁難答。</lem>
+						<rdg wit="#Translation">although not hard to decipher, I worry that it’s hard for me to answer.</rdg>
+					</app>
+				</l>
+                <l n="12">
+					<app>
+						<lem wit="#Transcription">昨夜詩有回紋，</lem>
+						<rdg wit="#Translation">Yesterday night your poem had palindromes<note type= "critical" anchored="true"><p>This means that the lyrics she sang would have read the same forwards as backwards.</p></note>.</rdg>
+					</app>
+				</l>
+                <l n="13">
+					<app>
+						<lem wit="#Transcription">韻險還慵押。</lem>
+						<rdg wit="#Translation">The rhymes are precarious and tricky; I’m too lazy to follow.</rdg>
+					</app>
+				</l>
+                <l n="14">
+					<app>
+						<lem wit="#Transcription">都待笙歌散了，</lem>
+						<rdg wit="#Translation">When the songs fade,</rdg>
+					</app>
+				</l>
+                <l n="15">
+					<app>
+						<lem wit="#Transcription">記取留時霎。</lem>
+						<rdg wit="#Translation">please remember the transience of your visit.</rdg>
+					</app>
+				</l>
+                <l n="16">
+					<app>
+						<lem wit="#Transcription">不消紅蠟。</lem>
+						<rdg wit="#Translation">No need to waste a red candle<note type= "critical" anchored="true"><p>This suggests that there is no need to carry a candle to light the way, because of the moonlight.</p></note>,</rdg>
+					</app>
+				</l>
+                <l n="17">
+					<app>
+						<lem wit="#Transcription">閒雲歸後，</lem>
+						<rdg wit="#Translation">for as the idle clouds return,</rdg>
+					</app>
+				</l>
+                <l n="18">
+					<app>
+						<lem wit="#Transcription">月在庭花舊闌角。</lem>
+						<rdg wit="#Translation">moonlight shall light the old corner of the fences, just by the courtyard flowers.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
