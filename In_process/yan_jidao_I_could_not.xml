@@ -1,0 +1,138 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Qingping Music”&#8212;"I could not"</title>
+				<author>Yan Jidao</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, </name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>In this song, a farewell scene between a courtesan and her lover is depicted from the perspective of the courtesan. The lyrics convey both her sadness at his departure and her anger at the lack of commitment he has shown. Her complex emotions towards him reveal her deep love but also her powerlessness as a courtesan. An interesting image used here is the willow tree. This tree is a common symbol of farewell and separation in Chinese poetry, since in ancient China there was a tradition of giving a willow branch to a person about to depart. Another image worth mentioning is “cloud and rain” (雲雨), which is a euphemism for passionate sex, particularly within a relationship fated not to last. The expression comes from a writer, Song Yu 宋玉, who lived during the Warring States period (453–221 BCE). In his Song of Gao Tang (高唐赋), he narrates a brief love affair between the Huai King of Chu 楚怀王 and a mountain fairy which takes place in the king’s dream; in this dream, the mountain fairy describes her residence after their lovemaking as “made from the cloud in the morning, but comprised of rain in the evening”. “Cloud and rain” later became a common euphemism for sex in Chinese poetry.</p>
+                <p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+                <p>Yan Jidao 晏幾道 was the son of the eminent ci poet Yan Shu 晏殊. Together, Yan Jidao and Yan Shu are often referred to as “double Yan”, with Yan Jidao being the “Little Yan 小晏” and Yan Shu being the “Big Yan 大晏”, reflecting the fact that during their lifetimes they were both the iconic poets of the wǎnyuē (婉约, "graceful") subgenre of ci. Unlike his father, who held a prestigious state position alongside a blooming poetry career, Yan Jidao led a far more arduous life. As the seventh son of Yan Shu, he was born into a noble and wealthy family, and had little interest in officialdom at a young age. His lifestyle was extravagant, filled with luxurious banquets, joyous travels with friends, and beautiful courtesans.</p>
+                <p>After Yan Shu passed away in Yan Jidao's late teens, the young man realized the imminent financial difficulties which would befall him and abandoned his previously extravagant lifestyle, devoting himself to a political career. However, he struggled to replicate his father's success and was framed for his involvement in the movement against Wang Anshi’s New Policies (a series of government reforms), which led to him being jailed. Even though he was quickly released, this incident did huge damage to both his political career and his finances. In his later years, he returned to writing ci, and started compiling a collection of his own works, called Little Mountain Ci (小山词) . In the prologue to this collection, he wrote: “I now think of the ones who once drank with me. Some of them have passed away; others fell prey to illness. I read through my collection as if reliving my past sadnesses, joys, separations and gatherings, which now are like fantasies, or a sudden lighting strike, or a faded dream. Thus I could only cover my pages and mourn, for time slips away too fast, and past joys are illusory and unreal.”</p>
+                <p>As a poet of the wǎnyuē subgenre, Yan Jidao’s lyrics pay great attention to romantic affairs with courtesans. Compared to his contemporaries, Yan Jidao focuses more on the existential and emotional aspect rather than the physical aspect of these affairs, and incorporates more introspection into his poems. Because of the occurrence of specific names and locations in his ci, some of his ci invite a biographical reading. However, as ci are song lyrics intended for multiple performances by different singers on different occasions, there is also a universal character to the sentiments evoked in Yan Jidao’s ci which transcends the poet’s personal experiences.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</p>
+				<listWit>
+					<witness xml:id="Transcription">清平樂</witness>
+					<witness xml:id="Translation">To the tune “Qingping Music”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>To the tune “Qingping Music”&#8212;"I could not" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">清平樂</lem>
+						<rdg wit="#Translation">To the tune “Qingping Music”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">留人不住。</lem>
+						<rdg wit="#Translation">I could not make him stay.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">醉解蘭舟去。</lem>
+						<rdg wit="#Translation">In drunkenness, he unmoored the magnolia boat and left.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">一棹碧濤春水路。</lem>
+						<rdg wit="#Translation">Pushing the green waves with a paddle,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">過盡曉鶯啼處。</lem>
+						<rdg wit="#Translation">he passed all the spots where the dawn orioles cried.</rdg>
+					</app>
+				</l>
+
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">渡頭楊柳青青。</lem>
+						<rdg wit="#Translation">At the port, the willows<note type= "critical" anchored="true"><p>See Introduction for a discussion of the image of willow trees.</p></note> are green;</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">枝枝葉葉離情。</lem>
+						<rdg wit="#Translation">the twigs and leaves are full of parting sorrow.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">此後錦書休寄，</lem>
+						<rdg wit="#Translation">After your departure, do not send me any letters.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">畫樓雲雨無憑。</lem>
+						<rdg wit="#Translation">In the painted building<note type= "critical" anchored="true"><p>The “painted building” (畫樓) refers to a highly ornate building. It implies a place of entertainment or a brothel, as it was a well-known trope that such establishments were so profitable that their buildings were often the most expensively and lavishly decorated in the town or city.</p></note>, cloud and rain<note type= "critical" anchored="true"><p>See Introduction for a discussion of the term "cloud and rain" (雲雨).</p></note> does not mean commitment.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

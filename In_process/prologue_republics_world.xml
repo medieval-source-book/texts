@@ -1,0 +1,190 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Prologue to Republics of the World</title>
+				<author><!--Anonymous if unknown--></author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				<listWit>
+					<witness xml:id="Transcription">Prologo a las Republicas del Mundo</witness>
+					<witness xml:id="Translation">Prologue to Republics of the World</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Prologue to Republics of the World" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">PROLOGO DIRIGIDO ALA S.C.R.M. del Rey don Philippe, II. de las Españas, nuestro Señor</lem>
+						<rdg wit="#Translation">PROLOGUE WRITTEN FOR H.R.S.R. King Philip II, of the Spanish kingdoms, our Liege</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">S.C.R.M.</lem>
+						<rdg wit="#Translation">S.C.R.M.<note anchored="true"><p>SCRM is the king’s title, as it was used since Charles V, Philip II’s father, which means “Sacred Catholic Royal Majesty.”</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">A LOS Reales pies de V.M. pongo las Republicas del mundo que yo he escripto, para que queden llenas de esplendor y de immortalidad, como lo quedó la figura de Phidias en la celada de la diosa Pallas.</lem>
+						<rdg wit="#Translation">At your majesty’s royal feet I lay the <hi rend="italic">Republics of the World</hi><note anchored="true"><p>I.e. the book itself, in reference to the book’s title</p></note>, which I have written so that they may be full of splendor and immortal renown, just like Phidias’s statue of the goddess Athena’s helm.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Comencé en mi juventud esta obra y acabe la en los treynta y nueve años de mi edad, trabajando continuamente en ella, assegurando mis esperanças y su buena dicha en que avia de servir con esta labor a V.M. porque estoy cierto que aunque los negocios arduos pueden divertir a los grandes Reyes de la dulçura de la lection, a lo menos no dexan por esso de favorecer las letras y las artes.</lem>
+						<rdg wit="#Translation">I began this work in my youth and finished it at thirty-nine years of age, continuously laboring over it, keeping my hopes up that I would one day serve your royal majesty with this work. For I am certain that even though tough matters may divert great kings’ attention from the pleasure of learning, at least they do not cease to favor the arts and letters on that account.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">No creo que el aver gastado mucho tiempo en este genero de lection enflaquecerá a la obra, pues si se mirare atentamente, ninguna cosa ay en el mundo que consigo trayga curiosidad que no esté aqui. Solo trances de armas, caydas de Principes, y reveses de fortuna faltan, pero de esse menester bastantemente emos escripto en las Monarchias, como ya por Memorial lo dixe a V.M. el año passado.  </lem>
+						<rdg wit="#Translation">I do not believe that my having spent much time on this kind of learning will weaken this work, because, if carefully examined, one will see that there is nothing in the world worthy of our curiosity that does not appear in this work. Only clashes of weapons, falls of princes, and reversals of fortune are missing, but on this subject we have written enough in The Monarchies<note anchored="true"><p>Jerónimo Román wrote another work called <hi rend="italic">Memoriales de las monarquías del mundo</hi>, which is what he references as “The Monarchies.” For Román, <hi rend="italic">The Monarchies</hi> was the correlate volume to the <hi rend="italic">Republics of the World</hi>.</p></note>, as I already told Your Majesty last year.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">Todo genero de letras es grato, pero aquel que trata de variedad es más apacible, porque el ingenio humano como no pueda tener constancia en una cosa, recrease quando vee otra de que no tenia noticia.</lem>
+						<rdg wit="#Translation">All genres of writing are worthy; however, the one that deals with a variety of subjects is most pleasant, because human intellect cannot sustain a focus on one thing alone, and it rejoices when it encounters something it did not know before.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">No creo que es ageno de monge averme dado a tanta variedad de lection, debaxo de nombre de historia, pues solo este estilo de escrivir pertenece solamente a los Ecclesiasticos y a las personas mas religiosas, porque el primer libro que vuo en el mundo fue historia, que fue el Genesis, y escriviolo Moysen, que fue sacerdote, capitan y sancto, y todo lo de mas que toca a historia en la sagrada escriptura lo escrivieron, o Profetas, o Pontifices.</lem>
+						<rdg wit="#Translation">I do not believe that it is unfit for a monk to have devoted himself to various kinds of learning within the subject of history, because this genre of writing is the only one to belong exclusively to the clergy and to the people who are most religious, since the first book that the world saw was one of history: that was Genesis, written by Moses, who was a priest, a captain and a saint; and everything else in Holy Scripture that belongs to the subject of history was written by either prophets or religious authorities.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Entre los Chaldeos los sacerdotes escrivian las cosas que hazian los Reyes, y en Roma el Pontifice Maximo estava obligado a concertar los Annales de la republica.</lem>
+						<rdg wit="#Translation">Among the Chaldeans, the priests were the ones who wrote about the deeds of kings, and in Ancient Rome it was the <hi rend="italic">Pontifex Maxiumus</hi>							<note type= "critical" anchored="true"><p>I.e. the high priest of the <hi rend="italic">Collegium Pontificum</hi> in ancient Rome. It was the most important position in the ancient Roman religion and, as Román states, the position also included the task of keeping records of the Roman republic’s past.</p></note> who had to oversee the republic’s annals.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">De manera que no deshara mi profesion el aver gastado muchos años en esta diversidad de cosas reduzidas a historia.</lem>
+						<rdg wit="#Translation">And so, my having spent many years with this variety of topics belonging to history will not undo my profession.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">Suelen en este lugar los auctores enfalçar a los Principes que intitulan sus trabajos, y mostrar la dificultad que tuvo la obra, mas yo para lo primero no soy bastante, ni ay necesidad, pues por todo el mundo ay levantados trppheos en nombre de V.M.</lem>
+						<rdg wit="#Translation">names their works bear, as it is for authors to describe how difficult it was to write them. But I am not sufficiently qualified for the first task, nor is there any need for it, as all over the world many have lifted trophies in Your Majesty’s name.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">En lo segundo no ay para que yo enfalce la obra, porque para que ella tenga fuerças bastame a mi que V.M. se tenga por servido de mis estudios y llamolos mios, porque por mi trabajo, y sin favor humano aprendi lo que se, por lo qual Artaxerxes estimó en muchó una mançana que le dio un labrador, pareciendo le buena, y preguntando le, que de que arbol la avia cogido, respondió:</lem>
+						<rdg wit="#Translation">With respect to the second custom, there is no need for me to praise this work because for me it is enough that Your Majesty consider himself well served by my labors. And I call those labors mine as it was due to my efforts, and to no other human aid, that I have learned what I have. It was for that same reason that Artaxerxes much appreciated an apple that a farmer gave him.<note type= "critical" anchored="true"><p>This seems to be a reference to Artaxerxes II, the King of Kings of the Achaemenid Empire from 404 BC until his death in 358 BC. He was called the Mnemon by Greek authors, which means “having good memory.” His generosity towards the givers of gifts, however small, is chronicled in Plutarch’s <hi rend="italic">The Parallel Lives</hi>.</p></note> Because it seemed to him that the apple was good, Artaxerxes asked the farmer from which apple tree he had gathered it, to which the farmer responded:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">“Señor, de uno que yo planté y he labrado con mis manos.”</lem>
+						<rdg wit="#Translation">“My lord, from a tree I planted myself and upon which I toiled with my own hands.”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por lo qual estimó en más el presente.</lem>
+						<rdg wit="#Translation">For that reason, Artaxerxes appreciated the gift even more.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Yo no offrezco agua en las palmas, como el otro la dio a Dario rey Persa, ni mançana a Artaxerxes, mas lection universal, y que ningun Griego, ni Latino se occupó en semejante exercicio.</lem>
+						<rdg wit="#Translation">I do not bring you water with my own hands, as another brought to Darius, King of Persia, nor do I bring you an apple, but rather a universal teaching, which no Greek nor Roman has carried out in similar way.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y pues aquellos fueron premiados por tan pequeños servicios, y es loada de los auctores la liberalidad de aquellos grandes Reyes.</lem>
+						<rdg wit="#Translation">And those Greeks and Romans were awarded for such small services, and we know from other authors that those great kings were very liberal.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Yo solo me contentaré con que V.M. reciba alegremente esta mi obra, como el Inclyto rey don Joan el II, vuestro quarto aguelo recibió de un simple pastrocillo una perdiz, estando en la torre de Montalvan, echando mano de la sencillez del çagal y no del don.</lem>
+						<rdg wit="#Translation">I will be contented with Your Majesty’s happily receiving my work, just like the illustrious King John II, your fourth- degree grandfather<note type= "critical" anchored="true"><p>King John II was Philip II’s grandfather’s (the Portuguese king, Manuel I).</p></note> who received a quail from a simple young shepherd when he was in the tower of Montalban, which he then appreciated not because of the gift itself, but because of the shepherd’s simplicity.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6">
+				<s>
+					<app>
+						<lem wit="#Transcription">De V.M.R. humilde vassallo que sus reales manos besa</lem>
+						<rdg wit="#Translation">Your Royal Majesty’s humble servant who kisses your royal hands,</rdg>
+					</app>
+				</s>				
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription">F. Hieronymo Roman</lem>
+						<rdg wit="#Translation">Father Jeronimo Roman</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
