@@ -54,8 +54,8 @@
 			<sourceDesc>
 				 <p>Transcription based on Cheikho, L. 1890. Kitāb Shuʿarāʾ al-Naṣrāniyyah. Vol. 1. Beirut: Maṭbaʿat al-Ābāʾ al-Mursilīn al-Yasūʿiyyīn fī Bayrūt, pages 271-273.</p>
 				<listWit>
-					<witness xml:id="Transcription">كل شيء مصيره للزوال</witness>
-					<witness xml:id="Translation">"Everything destines toward demise"</witness>
+					<witness xml:id="Transcription">"كل شيء مصيره للزوال"</witness>
+					<witness xml:id="Translation">"Everything’s destined toward demise"</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -98,7 +98,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">كل شيءٍ مصيره للزوال<space quantity="10" unit="chars"></space>غير ربي وصالح الأعمال</lem>
-						<rdg wit="#Translation">Everything destines toward demise<lb/><space quantity="10" unit="chars"></space>Besides my Master<note anchored="true" type="critical"><p>Allah.</p></note> and good works.</rdg>
+						<rdg wit="#Translation">Everything’s destined toward demise<lb/><space quantity="10" unit="chars"></space>Besides my Master<note anchored="true" type="critical"><p>Allah.</p></note> and good works.</rdg>
 					</app>
 				</l>
 				<l n="2">
