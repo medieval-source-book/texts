@@ -23,6 +23,7 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -49,7 +50,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +69,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">菩薩蠻 西湖</lem>
-						<rdg wit="#Translation">To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu at West Lake"</rdg>
+						<lem wit="#Transcription">菩薩蠻·西湖</lem>
+						<rdg wit="#Translation">To the tune “Bodhisattva Barbarians”&#8212;"Sending off Shugu<note type= "critical" anchored="true"><p>Chen Shugu was the prefect of Hangzhou, the city where Su Shi was posted.</p></note> at West Lake<note type= "critical" anchored="true"><p>West Lake is a freshwater lake in the city of Hangzhou.</p></note>"</rdg>
 					</app>
 				</title>
 			</head>
@@ -86,7 +87,7 @@
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">使君欲去還留住。</lem>
-						<rdg wit="#Translation">Keeps the prefect when he is about to go. </rdg>
+						<rdg wit="#Translation">keeps him<note type= "critical" anchored="true"><p>Refers to Chen Shugu.</p></note> when he is about to go.</rdg>
 					</app>
 				</l>
 				<l n="3">
@@ -98,7 +99,7 @@
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">明朝愁殺人。</lem>
-						<rdg wit="#Translation">Tomorrow, it will worry us to death.</rdg>
+						<rdg wit="#Translation">tomorrow, the sorrow will kill us.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -106,19 +107,19 @@
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">佳人千點淚。</lem>
-						<rdg wit="#Translation">The fair ones shed thousands of teardrops,</rdg>
+						<rdg wit="#Translation">The fair ones<note type= "critical" anchored="true"><p>The fair ones are the courtesans at the farewell banquet for Shugu.</p></note> shed thousands of teardrops,</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">灑向長河水。</lem>
-						<rdg wit="#Translation">sprinkling onto the Long River.</rdg>
+						<rdg wit="#Translation">sprinkling onto the Long River<note type= "critical" anchored="true"><p>“Long River” here refers to Qiantang River.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">不用斂雙蛾。</lem>
-						<rdg wit="#Translation">There is no need to frown;</rdg>
+						<rdg wit="#Translation">There is no need to frown<note type= "critical" anchored="true"><p>The literal translation is “There is no need to frown the silkworm moth tentacles”. “Silkworm moth tentacles” (蛾) refers to women’s beautiful eyebrows due to their resemblance in shape.</p></note>;</rdg>
 					</app>
 				</l>
 				<l n="8">
