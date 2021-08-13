@@ -32,6 +32,34 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>This text is an adaptation into Middle Welsh prose of Gerald of Wales’s report of the discovery and public exhumation of Arthur and Guinevere’s graves at Glastonbury in 1190 or 1191 and the subsequent reburial of their bones in a marble tomb. Historians have interpreted this event as a ploy by Henry II of England to crush Welsh belief in Arthur’s messianic return, a belief Gerald disparages in his account of the event.</p>
+
+				<p>Gerald’s full account of the exhumation is in Speculum Ecclesiae ii.8–10 with an abridged version in De principis instructione i.20. The Welsh text uses both as sources. The text contains the characteristic elements of Welsh “prose translation style” defined by Brynley Roberts, typical of the numerous texts translated from Latin into Middle Welsh. These features include introducing a subordinate clause with the construction pan yw, the perfective particle ry, and rendering Notandum est (“it is observed”) as Bit honneit. The Welsh translator/adaptor does not however imitate the ornate Latin style that Gerald adopts when describing a monk being led astray by Guinevere’s beautiful hair; instead the translator simplifies and abbreviates the passage’s periodic style.</p>
+
+				<p>The earliest manuscript, Aberystwyth, National Library of Wales, Llanstephan 4, c.1400, which contains saints’ lives, fables, and translations of Visio Pauli and St Patrick’s Purgatory, places the text in a milieu of popular adaptations of Latin and French texts into Middle Welsh in the fourteenth and fifteenth centuries, including the Vulgate Grail cycle, the Charlemagne cycle, Geoffrey of Monmouth’s De gestis Britonum, and Honorius Augustodunensis’s Imago mundi. The manuscript shares a scribe with the Red Book of Hergest, a large compendium of Middle Welsh prose and poetry created under the patronage of Welsh nobleman Hopcyn ap Tomos, linking it to a literary renaissance in South Wales spurred by the interests of post-conquest Welsh nobility. The translation is therefore secular, non-monastic, professional, and intended for a lay audience.</p>
+
+				<p>This text constitutes a rare example of the reception of Gerald of Wales’s writing in Wales. Both De principis instructione and Speculum ecclesiae survive in one manuscript each, leaving behind little information about patterns of wider circulation. One can only speculate about whether they were commonly known in Wales. However, there is circumstantial evidence that the manuscript of Speculum ecclesiae came from Llanthony Secunda Priory in Gloucestershire, offering a point of entry into Wales. The Welsh text cites Drych yr Eglwys (“Mirror of Princes”) as a source, indicating the translator knew the Latin source by name. External accounts of the exhumation of Arthur’s bones are also found in chronicles including Higden’s Polychronicon, the Annals of Margam, and Ralph of Coggeshall’s Chronicon Anglicanum, indicating that the story of Arthur’s grave was available to Welsh scribes in several forms.</p>
+
+				<p>Though the event may have been staged as a propaganda piece intended to quash Welsh belief in Arthur’s return, its translation into Welsh c.1400 suggests continued interest in the exhumation as antiquarian or legendary history. In fact, there was sustained interest into the fifteenth century in Arthur’s tomb at Glastonbury, as others have discussed, indicating continued symbolic relevance of Arthur as a figure of political unity and dominance. Edward I had the bones translated from the lady chapel to the high altar in 1278 and Edward III came to Glastonbury to visit the tomb in 1331. James Carley argues that Henry V staged another excavation in the 1420s, indicated by a letter to the abbot inquiring about new archaeological finds. It is tempting to associate interest in Arthur’s messianic return with the rebellion of Owain Glyn Dŵr taking place around the time the manuscript was made. Ongoing use of political prophecies to influence opinion about Owain Glyn Dŵr attests to the continued importance in the early fifteenth century of the idea of a messianic savior, or mab darogan “son of prophecy,” predicted to deliver the Welsh from English oppression. However, it is not certain whether this text had perceived prophetic or historical value for the manuscript’s compilers. Without putting too fine a point on generic differences in Middle Welsh writing, the contents of Llanstephan 4 could suggest that Claddedigaeth Arthur was associated with visionary, religious, and moralizing works rather than prophecy or history.</p>
+
+				<p>This edition is a transcription from Aberystwyth, National Library of Wales, Llanstephan 4, c.1400, ff. 505r-509r, the earliest witness to Version A of the text. Llanstephan 4 was originally part of a composite owned by Edward Lhuyd called Didrefn Gasgliad (“haphazard miscellany”) that was split up into the first four Llanstephan manuscripts, now in the National Library of Wales. Llanstephan 4 shares a scribe, X91, with the Red Book of Hergest and several other manuscripts. Preceding the text in the Llanstephan 4 is a fragment of “The Birth of Arthur,” an account of Arthur’s birth and early life. The title Claddedigaeth Arthur (“burial of Arthur”) is modern.</p>
+
+				<p>The text exists in two versions. Version A is extant in the following manuscripts:
+
+				Aberystwyth, NLW MS Llanstephan 4, c. 1400, scribe: X91
+				Aberystwyth, NLW MS Llanstephan 2, s. xv2/2, scribe: X93
+				Cardiff, Central Library MS 4.22, c. 1717-18
+				Cardiff, Central Library MS 2.40, c. 1714
+				
+				Llanstephan 2, also part of the composite Didrefn Gasgliad, is very close to Llanstephan 4 but not a direct copy. The two Cardiff manuscripts are copies of Llanstephan 4. 
+
+				Version B is extant in the following manuscripts:
+
+				London, British Library, Cotton Vitellius C. ix, s. xvi, scribe: Morris Kyffin for John Dee
+				
+				Aberystwyth, NLW MS Llanstephan 150, s. xviii, scribe of Moses Williams
+				
+				<p>Dates are from Huws (forthcoming). As discussed by Lloyd-Morgan 2016 and Russell 2005, Cotton Vitellius C. ix version is particularly interesting for having been reworked from an earlier version. Extant in a manuscript in the possession of John Dee by the 1580s, the text follows the Latin Life of Gruffudd ap Cynan in the manuscript and exhibits similar revisions by a sixteenth-century scribe. The scribe’s reworkings include minor clarifications, stylistic adjustments, and additions, such as a date for Arthur’s death (AD 542). It could be that the scribe was working with another account of the event, different from the extant witnesses to Gerald of Wales’s De principis instructione and Speculum ecclesiae.</p>
 			</notesStmt>
 			<sourceDesc>
 				<listWit>
@@ -47,7 +75,7 @@
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The text is transcribed from Aberystwyth, National Library of Wales, Llanstephan 4, c.1400, ff. 505r-509r. Capitalization, word spacing, and punctuation has been added. In areas where the manuscript is abraded, supplied text is indicated by brackets. Missing text is supplied from version of the text in Llanstephan 201. The text has also been edited by Lewis and Bruce 1912 and Evans 1968.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
