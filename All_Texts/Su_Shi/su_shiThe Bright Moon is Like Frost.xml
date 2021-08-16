@@ -1,0 +1,229 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Always Encountering Joy”&#8212;"The Bright Moon is Like Frost"</title>
+				<author>Su Shi</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 302.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 302. </p>
+				<listWit>
+					<witness xml:id="Transcription">永遇樂   </witness>
+					<witness xml:id="Translation">To the tune “Always Encountering Joy”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Always Encountering Joy”&#8212;"The Bright Moon is Like Frost" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">永遇樂   </lem>
+						<rdg wit="#Translation">To the tune “Always Encountering Joy”&#8212;"The Bright Moon is Like Frost"</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">明月如霜， </lem>
+						<rdg wit="#Translation">The moon shines so brightly that it looks like frost covers the ground,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">好風如水，  </lem>
+						<rdg wit="#Translation">The autumn wind is cool like water,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">清景無限。  </lem>
+						<rdg wit="#Translation">The pure view of autumn is boundless.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">曲港跳魚， </lem>
+						<rdg wit="#Translation">In the winding pond, fish jump; </rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">圓荷瀉露，        </lem>
+						<rdg wit="#Translation">Dew drops fall from the round lotus leaves. </rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">寂寞無人見。    </lem>
+						<rdg wit="#Translation">No one notices the stillness.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">紞如三鼓，</lem>
+						<rdg wit="#Translation">Bum and brum, the drum of midnight,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">鏗然一葉， </lem>
+						<rdg wit="#Translation">Loud and clear, a leaf falls.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">黯黯夢雲驚斷。</lem>
+						<rdg wit="#Translation">In the darkness, my dream of cloud is abruptly cut short.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">夜茫茫，   </lem>
+						<rdg wit="#Translation">The night is vast and obscure,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">重尋無處，</lem>
+						<rdg wit="#Translation">Nowhere could I find the happiness and sorrow in my life again.</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">覺來小園行遍。	</lem>
+						<rdg wit="#Translation">Woken up, I walk around in the small garden.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="13"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">天涯倦客，</lem>
+						<rdg wit="#Translation">I am an exhausted traveler at the edge of the world,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">山中歸路，</lem>
+						<rdg wit="#Translation">Longing to return to the mountains.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">望斷故園心眼。  </lem>
+						<rdg wit="#Translation">I stare in the direction of my hometown yet it is so far away that my eyes wear out. </rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">燕子樓空，</lem>
+						<rdg wit="#Translation">The Swallow Tower is empty.</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">佳人何在，</lem>
+						<rdg wit="#Translation">Where is the fair one?</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">空鎖樓中燕。 </lem>
+						<rdg wit="#Translation">The swallow is locked in the empty tower.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">古今如夢，  </lem>
+						<rdg wit="#Translation">The past and the present are like dreams;</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">何曾夢覺，  </lem>
+						<rdg wit="#Translation">when do we ever wake up from them?</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">但有舊歡新怨。  </lem>
+						<rdg wit="#Translation">There is just old love and new regrets.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">異時對，</lem>
+						<rdg wit="#Translation">In some future time,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">黃樓夜景，</lem>
+						<rdg wit="#Translation">In the night scene of the Yellow Tower, </rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">爲餘浩嘆。 </lem>
+						<rdg wit="#Translation">I hope that someone will utter a long sigh for me.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

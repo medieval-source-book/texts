@@ -1,0 +1,180 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Joys of Day and Night”&#8212;"The bedroom remembers the day we first met"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 15.</p>
+				<listWit>
+					<witness xml:id="Transcription">晝夜樂 </witness>
+					<witness xml:id="Translation">To the tune “Joys of Day and Night”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>To the tune “Joys of Day and Night”&#8212;"The bedroom remembers the day we first met" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        			<p>Punctuation follows the edition.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">晝夜樂 </lem>
+						<rdg wit="#Translation">To the tune “Joys of Day and Night”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">洞房記得初相遇。</lem>
+						<rdg wit="#Translation">The bedroom remembers the day we first met,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">便只合、長相聚。</lem>
+						<rdg wit="#Translation">It seemed that we would be together forever.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">何期小會幽歡， </lem>
+						<rdg wit="#Translation">How could I have known that an encounter of secret joy</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">變作離情別緒。</lem>
+						<rdg wit="#Translation">Would end in the pain and sorrow of parting?</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">況值闌珊春色暮。</lem>
+						<rdg wit="#Translation">Not to mention that it happened when the declining spring beauty came to its end.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">對滿目、亂花狂絮。</lem>
+						<rdg wit="#Translation">Facing a full sight of disarrayed flowers and whirling catkins,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">直恐好風光，  </lem>
+						<rdg wit="#Translation">I worried that good times</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">盡隨伊歸去。</lem>
+						<rdg wit="#Translation">Would all go away with him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">一場寂寞憑誰訴。</lem>
+						<rdg wit="#Translation">A plight of loneliness&#8212; whom should I talk to?</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">算前言、總輕負。</lem>
+						<rdg wit="#Translation">People say that words in the past are always easy to discard.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">早知恁的難拚，</lem>
+						<rdg wit="#Translation">Had I only realized how hard it is to leave the words behind!</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">悔不當時留住。</lem>
+						<rdg wit="#Translation">I regret that I did not make him stay.</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">其奈風流端正外，</lem>
+						<rdg wit="#Translation">What can I do besides be charming and good mannered?</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">更別有、繫人心處 </lem>
+						<rdg wit="#Translation">He, too, has something that ties one’s heart. </rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">一日不思量，</lem>
+						<rdg wit="#Translation">Even when I am not thinking about him the entire day, </rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">也攢眉千度。</lem>
+						<rdg wit="#Translation">My eyebrows frown a thousand times.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,229 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Still Wind and Waves”&#8212;"Since the Spring Came"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 29.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 29.</p>
+				<listWit>
+					<witness xml:id="Transcription">定風波</witness>
+					<witness xml:id="Translation">To the tune “Still Wind and Waves”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Still Wind and Waves”&#8212;"Since the Spring Came" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">定風波</lem>
+						<rdg wit="#Translation">To the tune “Still Wind and Waves”&#8212;"Since the Spring Came"</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">自春來、</lem>
+						<rdg wit="#Translation">Since the spring came,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">慘綠愁紅，</lem>
+						<rdg wit="#Translation">I am saddened by the green and worried by the red.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">芳心是事可可。</lem>
+						<rdg wit="#Translation">My girlish heart cares about nothing.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">日上花梢，</lem>
+						<rdg wit="#Translation">The sun ascends the flowery branch,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">鶯穿柳帶，</lem>
+						<rdg wit="#Translation">The orioles fly through the willow twigs;</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">猶壓香衾臥。 </lem>
+						<rdg wit="#Translation">I am still lying under the fragrant quilt.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">暖酥消，</lem>
+						<rdg wit="#Translation">My warm and soft skin wastes away;</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">膩雲嚲。</lem>
+						<rdg wit="#Translation">My shiny cloud-like hair droops down.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">終日厭厭倦梳裹。</lem>
+						<rdg wit="#Translation">Listless all day, I am tired of putting on makeup.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">無那。</lem>
+						<rdg wit="#Translation">What can I do?</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">恨薄情一去，</lem>
+						<rdg wit="#Translation">I resent that ever since the fickle one left,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">音書無個。</lem>
+						<rdg wit="#Translation">There is not a single message from him.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">早知恁麼。</lem>
+						<rdg wit="#Translation">If only I knew (it would be like this).</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">悔當初、 </lem>
+						<rdg wit="#Translation">I regret back then,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">        不把雕鞍鎖。</lem>
+						<rdg wit="#Translation">That I did not lock away his carved saddle,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">向雞窗、</lem>
+						<rdg wit="#Translation">I should have made him face the chicken window,</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">只與蠻箋象管，</lem>
+						<rdg wit="#Translation">Giving him only colorful paper and an ivory brush,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">拘束教吟課。</lem>
+						<rdg wit="#Translation">Restraining him and asking him to chant and recite.</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">鎮相隨，</lem>
+						<rdg wit="#Translation">I should have been with him all day,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">莫拋躲。</lem>
+						<rdg wit="#Translation">Not letting him avoid me.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">針線閒拈伴伊坐。</lem>
+						<rdg wit="#Translation"> With needles and threads, sitting beside him.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">和我。</lem>
+						<rdg wit="#Translation">Promise me</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">免使年少，</lem>
+						<rdg wit="#Translation">That we won’t let our youth</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">光陰虛過。</lem>
+						<rdg wit="#Translation">Pass away in vain.  </rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
