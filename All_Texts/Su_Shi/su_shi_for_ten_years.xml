@@ -23,6 +23,7 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -68,8 +69,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">江神子 乙卯正月二十日夜記夢</lem>
-						<rdg wit="#Translation">To the tune “River God”&#8212;"Recording the Dream on the Night of the Twentieth of the First Month of 1075 CE"</rdg>
+						<lem wit="#Transcription">江神子·乙卯正月二十日夜記夢</lem>
+						<rdg wit="#Translation">To the tune “River God”<note type= "critical" anchored="true"><p>This tune also goes by the name “River Town”, and “River Town” is the tune name for another of Su Shi’s poems in the collection, “Hunting in Mizhou”.</p></note>&#8212;"Recording the Dream on the Night of the Twentieth of the First Month of 1075 CE"</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,7 +81,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">十年生死兩茫茫。</lem>
-						<rdg wit="#Translation">For ten years, the dead and the living have been distantly apart.</rdg>
+						<rdg wit="#Translation">For ten years, the dead and the living have been separated by a vast and obscure distance<note type= "critical" anchored="true"><p>Su Shi’s first wife, Wang Fu, died in 1065 CE; by the time he wrote this song, it had been ten years since her death.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -98,7 +99,7 @@
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">千里孤墳,</lem>
-						<rdg wit="#Translation">The solitary grave, a thousand miles away,</rdg>
+						<rdg wit="#Translation">The solitary grave, a thousand miles away,<note type= "critical" anchored="true"><p>Wang Fu was buried in Meizhou, far away from Su Shi’s current location in Mizhou.</p></note></rdg>
 					</app>
 				</l>
 				<l n="5">
@@ -116,13 +117,13 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">塵滿面,</lem>
-						<rdg wit="#Translation">Dust all over my face, </rdg>
+						<rdg wit="#Translation">Dust all over my face<note type= "critical" anchored="true"><p>During the Song Dynasty, people traveled by horse and carriage, and “Dust all over my face” implies that the poet traveled a lot during the ten years. It also suggests that a lot had happened to him, and that complicated life experiences had made the older poet very different from his younger self.</p></note>, </rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">鬢如霜。</lem>
-						<rdg wit="#Translation">And temple hair like frost.</rdg>
+						<rdg wit="#Translation">and the hair at my temples like frost.</rdg>
 					</app>
 				</l>
 				<l n="9">
@@ -142,7 +143,7 @@
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">正梳妝。</lem>
-						<rdg wit="#Translation">You were combing your hair and doing your makeup.</rdg>
+						<rdg wit="#Translation">you were combing your hair and doing your makeup.</rdg>
 					</app>
 				</l>
 				<l n="12">
@@ -154,31 +155,25 @@
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">惟有淚千行。</lem>
-						<rdg wit="#Translation">Only thousands of lines of tears coursed down. </rdg>
+						<rdg wit="#Translation">only thousands of lines of tears coursed down. </rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">料得年年腸斷處,</lem>
+						<rdg wit="#Translation">I know your heart breaks for me year after year</rdg>
 					</app>
 				</l>
 				<l n="15">
-					<app>
-						<lem wit="#Transcription">料得年年腸斷處,</lem>
-						<rdg wit="#Translation">Year after year, I picture the place that breaks my heart,</rdg>
-					</app>
-				</l>
-				<l n="16">
 					<app>
 						<lem wit="#Transcription">明月夜,</lem>
 						<rdg wit="#Translation">On moonlit nights,</rdg>
 					</app>
 				</l>
-				<l n="17">
+				<l n="16">
 					<app>
 						<lem wit="#Transcription">短松岡。</lem>
-						<rdg wit="#Translation">Upon the hill with the low pine trees.</rdg>
+						<rdg wit="#Translation">upon the hill with the low pine trees.</rdg>
 					</app>
 				</l>
 			</lg>

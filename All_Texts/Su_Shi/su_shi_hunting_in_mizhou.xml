@@ -23,6 +23,7 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -49,7 +50,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>"<!--Full title in English-->" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “River Town”&#8212;"Hunting in Mizhou" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,7 +69,7 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">江城子 密州出獵</lem>
+						<lem wit="#Transcription">江城子·密州出獵</lem>
 						<rdg wit="#Translation">To the tune “River Town”&#8212;"Hunting in Mizhou"</rdg>
 					</app>
 				</title>
@@ -98,13 +99,13 @@
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">錦帽貂裘,</lem>
-						<rdg wit="#Translation">I am capped in brocades and clothed in a mink fur coat,</rdg>
+						<rdg wit="#Translation">I am capped in brocades and clothed in a mink fur coat<note type= "critical" anchored="true"><p>Refers to the typical hunting attire of a prefect at that time.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">千騎卷平岡。</lem>
-						<rdg wit="#Translation">And thousands of cavalrymen are sweeping the smooth hillside.</rdg>
+						<rdg wit="#Translation">And thousands of cavalrymen are sweeping the smooth hillside.<note type= "critical" anchored="true"><p>The speaker uses “thousands of” as an exaggeration to emphasize the size of his retinue and the grandeur of the occasion.</p></note></rdg>
 					</app>
 				</l>
 				<l n="6">
@@ -122,7 +123,7 @@
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">看孫郎。</lem>
-						<rdg wit="#Translation">like Sun Quan.</rdg>
+						<rdg wit="#Translation">like Sun Quan.<note type= "critical" anchored="true"><p>Sun Quan (182-252 CE) was the ruler of the State of Wu during the Three Kingdoms period (220-280 CE). He once pursued a tiger on horseback, managing to kill it even though it had bitten his horse. Here the speaker compares himself to Sun Quan.</p></note></rdg>
 					</app>
 				</l>
 			</lg>
@@ -130,13 +131,13 @@
 				<l n="9"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">酒酣胸膽尚開張。</lem>
-						<rdg wit="#Translation">As I drink to satisfaction, my heart and bosom open up even more.</rdg>
+						<rdg wit="#Translation">As I drink to satisfaction, my chest opens and my courage is strengthened.</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">鬢微霜。</lem>
-						<rdg wit="#Translation">My temples are touched by frost, </rdg>
+						<rdg wit="#Translation">My temples are touched by frost<note type= "critical" anchored="true"><p> This implies that the poet is already old and has white hair at his temples.</p></note>, </rdg>
 					</app>
 				</l>
 				<l n="11">
@@ -148,13 +149,13 @@
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">持節雲中。</lem>
-						<rdg wit="#Translation">Going to Yunzhong with a Fu Jie;</rdg>
+						<rdg wit="#Translation">Feng Tang, who went to Yunzhong<note type= "critical" anchored="true"><p>Yunzhong was the name of a place in present-day Inner Mongolia.</p></note> with a Fu Jie<note type= "critical" anchored="true"><p>During the Song Dynasty, a “Fu Jie” was a staff that symbolized the court’s pardon of an official.</p></note>:</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">何日遣馮唐。</lem>
-						<rdg wit="#Translation">When will the court dispatch Fengtang to pardon Wei Shang?</rdg>
+						<rdg wit="#Translation">when will the court dispatch him<note type= "critical" anchored="true"><p>The implication here is “When will the court dispatch Feng Tang to pardon Wei Shang?”, with the poet using Wei Shang to represent himself. The Prefect of Yunzhong, Wei Shang, successfully defeated the invading Xiongnu troops but was deprived of his official title because his battle report stated a number of enemies killed that was six fewer than the actual number. Feng Tang, a court official, defended the prefect and convinced Emperor Wen of Han (r. 180-157 BCE) that his sentence was too severe. The emperor thus sent Feng Tang to pardon the prefect and restore the latter’s title. Here the speaker refers to himself as the prefect and hopes to retrieve the court’s trust and favor. The order of the words in the original has been modified in the translation to make the sentence easier to understand. The literal translation of this line and the preceding line is: “Going into Yunzhong with a Fu Jie; / When will the court dispatch Feng Tang?”</p></note>?</rdg>
 					</app>
 				</l>
 				<l n="14">
@@ -166,13 +167,13 @@
 				<l n="15">
 					<app>
 						<lem wit="#Transcription">西北望,</lem>
-						<rdg wit="#Translation">Aim to the northwest,</rdg>
+						<rdg wit="#Translation">aim to the northwest,</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">射天狼。</lem>
-						<rdg wit="#Translation">And shoot down Sirius.</rdg>
+						<rdg wit="#Translation">and shoot down Sirius<note type= "critical" anchored="true"><p>In ancient China, “Sirius” was the name given to a star that was commonly believed to control warfare. “Shoot down Sirius” indicates the speaker’s wish to defeat major rivaling states, very likely the Western Xia in the northwest, which was a great threat to the Northern Song court.</p></note>.</rdg>
 					</app>
 				</l>
 			</lg>
