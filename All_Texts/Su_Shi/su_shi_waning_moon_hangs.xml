@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Fortune Teller”&#8212;"The Waning Moon"</title>
+				<title>To the tune “Fortune Teller”&#8212;"The Waning Moon Hangs on the Thinning Sycamore Tree"</title>
 				<author>Su Shi</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -37,6 +39,11 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>Su Shi was demoted and transferred to Huangzhou when he opposed reforms to the Imperial Examination System (which selected new civil servants) instituted by the Song Court chancellor, Wang Anshi. Despite his diminished circumstances, he remained defiant and criticized others for going along with the reforms. In this song, he compares himself to a lone wild goose (鸿), conveying both pride in his choices and the loneliness of his new position. The wild goose was often used by Chinese poets to represent heroic figures with grand ambitions. A good example can be found in the <hi rend="italic">Records of the Grand Historian (史记)</hi> by Sima Qian 司马迁, where a rebellion leader disparages his opponents with the following line: “How could swallows and sparrows understand the ambitions of wild geese and swans?”</p>
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+				<p>Su Shi is one of the most popular Chinese poets of all time, and certainly one of the best-known poets of the Song Dynasty. Among his many roles - principled politician, esteemed poet, celebrated calligrapher - he was also a major reformer of the ci genre. Before Su Shi, the primary form of ci was wǎnyuē (婉约, "graceful"). This was considered to be an inferior form of literature due to its thematic focus on love and desire and its association with the courtesans who usually performed it. Su Shi wrote lyrics on a broad range of non-traditional topics, often closely related to his own life experience. His compositions dealt with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service. As a pioneer of the háofàng (豪放, "bold") type of ci, he incorporated references to typically masculine pursuits, including frequent use of a hunting motif. He also frequently incorporated ideas from Buddhist philosophy and allusions to political events, which usually appeared only in more elevated forms of poetry.</p>
+				<p>Although Su Shi was a highly-regarded poet during his lifetime, his political career was consistently unfortunate. In 1066, he was forced to leave the Court when he openly opposed the chancellor’s socio-economic reforms, known as the New Policies. Over the next thirteen years, he was frequently demoted, serving as prefect or sub-prefect in Hangzhou, Mizhou, Xuzhou and Huzhou. Many of his ci reference these postings and the exhaustion of constant travel. A report about the troubling economic conditions of local people written while he was prefect of Huzhou landed him in prison for three months. He was finally sent back to Hangzhou and given a job with no salary. Although living in poverty, he grew fond of Hangzhou and wrote many of his most famous ci there.</p>
+				<p>Because of the occurrence of specific real names and locations in Su Shi's lyrics, as well as the introductory notes he wrote to accompany many of them, his lyrics often invite a biographical reading. This differentiates him from other ci poets featured in this collection, whose writings did not usually reference their own lives in such a direct way. Yet although Su Shi's lyrics evoke specific lived experiences, the enduring popularity of his poetry is due, in part, to the fact that diverse audiences can identify with the feelings he describes.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 295.</p>
@@ -49,12 +56,13 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Fortune Teller”&#8212;"The Waning Moon"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Fortune Teller”&#8212;"The Waning Moon Hangs on the Thinning Sycamore Tree" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
-        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+					<punctuation marks="all">Punctuation follows the edition.</punctuation>
 
 				</interpretation>
 				<segmentation>
@@ -69,13 +77,22 @@
 				<title type="main">
 					<app>
 						<lem wit="#Transcription">卜算子</lem>
-						<rdg wit="#Translation">To the tune “Fortune Teller”&#8212;"The Waning Moon"</rdg>
+						<rdg wit="#Translation">To the tune “Fortune Teller”</rdg>
 					</app>
 				</title>
 			</head>
 		</front>
 		<body>
 			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l>
+					<app>
+						<lem wit="#Transcription"><hi rend="italic">黃州定慧院寓居作</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">Composed while lodging at Dinghui Monastery in Huangzhou<note type= "critical" anchored="true"><p>Su Shi was banished to Huangzhou. Without a place to live, and shunned by the locals who feared being implicated if they associated with him, he had no choice but to lodge at the monastery.</p></note></hi></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
@@ -85,45 +102,45 @@
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">漏斷人初靜。    </lem>
-						<rdg wit="#Translation">The dripping clock stops; all men become quiet.</rdg>
+						<lem wit="#Transcription">漏斷人初靜。</lem>
+						<rdg wit="#Translation">The dripping clock stops<note type= "critical" anchored="true"><p>The dripping clock is a water clock; when all the water drips down, the clock stops, indicating that it is midnight.</p></note>; all men become quiet.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">時見幽人獨往來，               </lem>
+						<lem wit="#Transcription">時見幽人獨往來，</lem>
 						<rdg wit="#Translation">Sometimes I would see an isolated man come and go on his own</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">縹緲孤鴻影。    </lem>
-						<rdg wit="#Translation">Like the distant and vague silhouette of a lone wild goose.</rdg>
+						<lem wit="#Transcription">縹緲孤鴻影。</lem>
+						<rdg wit="#Translation">like the distant and vague silhouette of a lone wild goose.</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="2">
+			<lg n="3">
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">驚起卻回頭，    </lem>
+						<lem wit="#Transcription">驚起卻回頭，</lem>
 						<rdg wit="#Translation">Startled, it flies up and turns its head;</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">有恨無人省。    </lem>
+						<lem wit="#Transcription">有恨無人省。</lem>
 						<rdg wit="#Translation">It has resentment in its heart yet no one notices.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">揀盡寒枝不肯棲，               </lem>
-						<rdg wit="#Translation">Picking among all the cold branches, but not resting on any,</rdg>
+						<lem wit="#Transcription">揀盡寒枝不肯棲，</lem>
+						<rdg wit="#Translation">Picking from all the cold branches<note type= "critical" anchored="true"><p>There is a Chinese proverb that “good birds choose branches (that suit them) to rest on”, which means that good officials should choose their kings carefully to ensure that they (the officials) will be allowed to pursue their ambitions. Here, Su Shi depicts the goose’s refusal to pick from the branches to imply that he is unwilling to pursue his political ambitions any further.</p></note>, but not resting on any,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">寂寞沙洲冷。    </lem>
+						<lem wit="#Transcription">寂寞沙洲冷。</lem>
 						<rdg wit="#Translation">It is alone and abandoned on the freezing isle of sand.</rdg>
 					</app>
 				</l>

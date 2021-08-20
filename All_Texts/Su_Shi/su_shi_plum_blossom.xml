@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “The Moon Over the West River”&#8212;"Plum Blossom"</title>
+				<title>To the tune “The Moon Over the West River”&#8212;Plum Blossom</title>
 				<author>Su Shi</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -37,6 +39,11 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>This ci was written in 1096 CE, when Su Shi was sixty years old. It is a eulogy for Zhaoyun, who was a longtime female companion of Su Shi in his later life. The precise nature of her role (concubine, female servant, or courtesan accepted into his household) is contested by the scholars. Zhaoyun had accompanied the speaker to Huizhao in Guangdong, a coastal province in southeast China, when he was demoted by the Song court. The lyrics seem to be describing plum blossoms, but are actually using the image of a plum blossom as an extended metaphor for Zhaoyun’s beauty and pure heart. In Chinese culture, it is traditionally believed that the plum blossom flourishes in harsh conditions, blooming only in the winter. The metaphor therefore highlights how she was able to thrive in difficult circumstances.</p>
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+				<p>Su Shi is one of the most popular Chinese poets of all time, and certainly one of the best-known poets of the Song Dynasty. Among his many roles - principled politician, esteemed poet, celebrated calligrapher - he was also a major reformer of the ci genre. Before Su Shi, the primary form of ci was wǎnyuē (婉约, "graceful"). This was considered to be an inferior form of literature due to its thematic focus on love and desire and its association with the courtesans who usually performed it. Su Shi wrote lyrics on a broad range of non-traditional topics, often closely related to his own life experience. His compositions dealt with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service. As a pioneer of the háofàng (豪放, "bold") type of ci, he incorporated references to typically masculine pursuits, including frequent use of a hunting motif. He also frequently incorporated ideas from Buddhist philosophy and allusions to political events, which usually appeared only in more elevated forms of poetry.</p>
+				<p>Although Su Shi was a highly-regarded poet during his lifetime, his political career was consistently unfortunate. In 1066, he was forced to leave the Court when he openly opposed the chancellor’s socio-economic reforms, known as the New Policies. Over the next thirteen years, he was frequently demoted, serving as prefect or sub-prefect in Hangzhou, Mizhou, Xuzhou and Huzhou. Many of his ci reference these postings and the exhaustion of constant travel. A report about the troubling economic conditions of local people written while he was prefect of Huzhou landed him in prison for three months. He was finally sent back to Hangzhou and given a job with no salary. Although living in poverty, he grew fond of Hangzhou and wrote many of his most famous ci there.</p>
+				<p>Because of the occurrence of specific real names and locations in Su Shi's lyrics, as well as the introductory notes he wrote to accompany many of them, his lyrics often invite a biographical reading. This differentiates him from other ci poets featured in this collection, whose writings did not usually reference their own lives in such a direct way. Yet although Su Shi's lyrics evoke specific lived experiences, the enduring popularity of his poetry is due, in part, to the fact that diverse audiences can identify with the feelings he describes.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
@@ -49,12 +56,13 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “The Moon Over the West River”&#8212;"Plum Blossom"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “The Moon Over the West River”&#8212;Plum Blossom is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
-        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+					<punctuation marks="all">Punctuation follows the edition.</punctuation>
 
 				</interpretation>
 				<segmentation>
@@ -68,8 +76,14 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">西江月 梅花 </lem>
-						<rdg wit="#Translation">To the tune “The Moon Over the West River”&#8212;"Plum Blossom"</rdg>
+						<lem wit="#Transcription">西江月</lem>
+						<rdg wit="#Translation">To the tune “The Moon Over the West River”</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">梅花</lem>
+						<rdg wit="#Translation">Plum Blossom</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,49 +94,49 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">玉骨那愁瘴霧，</lem>
-						<rdg wit="#Translation">Why would the jade bones (need to) worry about noxious air?</rdg>
+						<rdg wit="#Translation">Why would the jade bones (need to) worry about noxious air<note type= "critical" anchored="true"><p>Huizhou, in China's far south, was considered uninhabitable due to its hot and humid weather. Northerners believed that its air contained harmful vapors.</p></note>?</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">冰肌自有仙風。         </lem>
-						<rdg wit="#Translation">The skin, translucent as ice, was naturally endowed with a transcendent temperament. </rdg>
+						<lem wit="#Transcription">冰肌自有仙風。</lem>
+						<rdg wit="#Translation">The skin, translucent as ice<note type= "critical" anchored="true"><p>Imagery of ice and jade was used to convey the beauty of women’s bodies, clean like ice and smooth like jade. It comes from a philosophical work by Zhuangzi, in which he uses “skin of ice and bones of jade” to describe a deity living in the Gu Ye Mountain. The phrase suggests an otherworldly quality to Zhaoyun's beauty.</p></note>, was naturally endowed with a transcendent temperament. </rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">海仙時遣探芳叢。               </lem>
-						<rdg wit="#Translation">From time to time, the sea nymphs sent an envoy to explore this fragrant shrub:</rdg>
+						<lem wit="#Transcription">海仙時遣探芳叢。</lem>
+						<rdg wit="#Translation">From time to time, the sea nymphs<note type= "critical" anchored="true"><p>According to Chinese mythology, four dragon kings control the sea, but nymphs who live beneath the waves maintain its balance. This line implies that the plum blossom/Zhaoyun was so extraordinary that even the sea nymphs sought to learn about it/her.</p></note> sent an envoy to explore this fragrant shrub<note type= "critical" anchored="true"><p>Refers to the plum blossom.</p></note>:</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">倒掛綠毛幺鳳。         </lem>
-						<rdg wit="#Translation">A green-feathered bird like a phoenix, hanging upside down.</rdg>
+						<lem wit="#Transcription">倒掛綠毛幺鳳。</lem>
+						<rdg wit="#Translation">a green-feathered bird like a phoenix, hanging upside down<note type= "critical" anchored="true"><p>This image of a remarkable bird as the envoy emphasises the specialness of the object of its research: the plum blossom/Zhaoyun. The phoenix has a special significance in Chinese mythology, and the color green is often associated with purity and luxury (and the jade already mentioned).</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">素面常嫌粉涴，         </lem>
+						<lem wit="#Transcription">素面常嫌粉涴，</lem>
 						<rdg wit="#Translation">The natural face never liked being smudged by powder;</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">洗妝不褪唇紅。         </lem>
-						<rdg wit="#Translation">After washing off its makeup, the rouge on its lips did not fade.</rdg>
+						<lem wit="#Transcription">洗妝不褪唇紅。</lem>
+						<rdg wit="#Translation">after washing off its makeup, the rouge on its lips did not fade.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">高情已逐曉雲空。  </lem>
-						<rdg wit="#Translation">My lofty longings chased after the dawn cloud and vanished,</rdg>
+						<lem wit="#Transcription">高情已逐曉雲空。</lem>
+						<rdg wit="#Translation">My lofty longings chased after the dawn cloud<note type= "critical" anchored="true"><p>The "dawn cloud" (曉雲, Xiao Yun) is a coded reference to Zhaoyun (朝雲): the only difference between the two Chinese words is the first character, yet these characters (曉 and 朝) are synonymous in Chinese, both meaning dawn, so the full expression means "dawn cloud" in both cases. Su Shi is using word play to hint that he’s writing about Zhaoyun.</p></note> and vanished,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">不與梨花同夢。         </lem>
-						<rdg wit="#Translation">Sharing no dreams with the pear blossoms.</rdg>
+						<lem wit="#Transcription">不與梨花同夢。</lem>
+						<rdg wit="#Translation">Sharing no dreams with the pear blossoms<note type= "critical" anchored="true"><p>This is a reference to a poem by a famous Tang Dynasty poet, Wang Changling 王昌龄. In the only surviving line of the poem, Wang Changling writes that after he saw plum blossoms, he dreamt of pear blossoms. By contrast, the final line here implies that Su Shi will not be dreaming of pear blossoms, i.e. he won't think of Zhaoyun (his plum blossom) and dream of another woman (a pear blossom), and will remain faithful to his memory of her.</p></note>.</rdg>
 					</app>
 				</l>
 			</lg>
