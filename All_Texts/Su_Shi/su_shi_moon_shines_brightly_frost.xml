@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -37,11 +39,18 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>In 1078 CE, the poet was the Prefect of Xuzhou. The poem was written when he spent a night in the Swallow Tower, one of the five most famous towers in Xuzhou, and dreamt about Guan Panpan, a courtesan who dwelt in Swallow Tower during the Tang Dynasty (618-907 CE). Su Shi had an unfortunate political career, during which he was often exiled and reassigned. His feelings about this can be seen in the first three lines of the second stanza, in which the poet expresses his exhaustion from all the travelling required by his constant reassignments, as well as his longing for his hometown. This world-weariness spurs philosophical reflections on life, which he regards as dream-like and illusory. The sentiment that all lived experience is a dream strongly connotes Buddhist thought, specifically one of the Buddist classic texts, the Diamond Sutra.</p>
+				<p>The Diamond Sutra is an important Buddhist scripture which contains the discourse of the Buddha to a senior monk, Subhuti. The major themes are anatman (not-self), the emptiness of all phenomena and the liberation of all beings from attachments. Buddhism developed in China during the Tang Dynasty (618-907 CE) and the Five Dynasties period (907-960 CE), and continued to prosper under the Song Dynasty. The Song Dynasty government supported and organized the translation and publication of various Sutras; multiple commentaries on Sutras were also produced during this period. Most of the Song Dynasty emperors either believed in Buddhism or supported its spread. The most dominant faction was the Zen Buddhism of Mahāyāna Buddhism, and the Diamond Sutra was considered to be one of their most influential texts, well-known both to the non-secular and secular world.</p>
+				<p>Su Shi himself was highly influenced by Buddhism; his brother was very invested in Buddhist philosophy and practices, as were his second wife, Wang Runzhi, and his later partner, Zhaoyun. Throughout his life, he befriended many monks and incorporated Buddhist practices into his life through copying Sutras, building pagodas and temples and painting figures of Buddha. Su Shi’s lines on the dream-like quality of existence in this ci likely comes from the four-line gatha at the end of Section 26 of the Diamond Sutra: “All conditioned phenomena are like a dream, like an illusion, like a bubble, like a shadow. Like dew or like a flash of lighting; thus we shall perceive them.” Su Shi wrote in a later essay that these four lines of Buddhist scripture were the final words spoken by Zhaoyun before her death. Because of this, Su Shi built a pavilion named “Six Likes” to commemorate her.</p>
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+				<p>Su Shi is one of the most popular Chinese poets of all time, and certainly one of the best-known poets of the Song Dynasty. Among his many roles - principled politician, esteemed poet, celebrated calligrapher - he was also a major reformer of the ci genre. Before Su Shi, the primary form of ci was wǎnyuē (婉约, "graceful"). This was considered to be an inferior form of literature due to its thematic focus on love and desire and its association with the courtesans who usually performed it. Su Shi wrote lyrics on a broad range of non-traditional topics, often closely related to his own life experience. His compositions dealt with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service. As a pioneer of the háofàng (豪放, "bold") type of ci, he incorporated references to typically masculine pursuits, including frequent use of a hunting motif. He also frequently incorporated ideas from Buddhist philosophy and allusions to political events, which usually appeared only in more elevated forms of poetry.</p>
+				<p>Although Su Shi was a highly-regarded poet during his lifetime, his political career was consistently unfortunate. In 1066, he was forced to leave the Court when he openly opposed the chancellor’s socio-economic reforms, known as the New Policies. Over the next thirteen years, he was frequently demoted, serving as prefect or sub-prefect in Hangzhou, Mizhou, Xuzhou and Huzhou. Many of his ci reference these postings and the exhaustion of constant travel. A report about the troubling economic conditions of local people written while he was prefect of Huzhou landed him in prison for three months. He was finally sent back to Hangzhou and given a job with no salary. Although living in poverty, he grew fond of Hangzhou and wrote many of his most famous ci there.</p>
+				<p>Because of the occurrence of specific real names and locations in Su Shi's lyrics, as well as the introductory notes he wrote to accompany many of them, his lyrics often invite a biographical reading. This differentiates him from other ci poets featured in this collection, whose writings did not usually reference their own lives in such a direct way. Yet although Su Shi's lyrics evoke specific lived experiences, the enduring popularity of his poetry is due, in part, to the fact that diverse audiences can identify with the feelings he describes.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 302. </p>
 				<listWit>
-					<witness xml:id="Transcription">永遇樂   </witness>
+					<witness xml:id="Transcription">永遇樂</witness>
 					<witness xml:id="Translation">To the tune “Always Encountering Joy”</witness>
 				</listWit>
 			</sourceDesc>
@@ -54,7 +63,8 @@
 			<editorialDecl>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
-        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+					<punctuation marks="all">Punctuation follows the edition.</punctuation>
 
 				</interpretation>
 				<segmentation>
@@ -68,8 +78,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">永遇樂   </lem>
-						<rdg wit="#Translation">To the tune “Always Encountering Joy”&#8212;"The Bright Moon is Like Frost"</rdg>
+						<lem wit="#Transcription">永遇樂</lem>
+						<rdg wit="#Translation">To the tune “Always Encountering Joy”</rdg>
 					</app>
 				</title>
 			</head>
@@ -77,40 +87,55 @@
 		<body>
 			<lg n="1">
 				<!--Each stanza needs its own line group <lg>-->
+				<l>
+					<app>
+						<lem wit="#Transcription"><hi rend="italic">彭城夜宿燕子樓</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">Staying the night in the Swallow Tower in Pengcheng</hi></rdg>
+					</app>
+				</l>
+				<l>
+					<app>
+						<lem wit="#Transcription"><hi rend="italic">夢盼盼因作此詞</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">and dreaming about Panpan, I composed this song.<note type= "critical" anchored="true"><p>Pengcheng was the name of a place near present-day Xuzhou, Jiangsu Province. Guan Panpan was a courtesan and became the concubine of a Tang Dynasty general. She swore to remain chaste for her lover and kept that promise for ten years after her lover’s death, until she herself passed away. The Swallow Tower was where she lived alone after her lover's death.</p></note></hi></rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">明月如霜， </lem>
+						<lem wit="#Transcription">明月如霜，</lem>
 						<rdg wit="#Translation">The moon shines so brightly that it looks like frost covers the ground,</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">好風如水，  </lem>
-						<rdg wit="#Translation">The autumn wind is cool like water,</rdg>
+						<lem wit="#Transcription">好風如水，</lem>
+						<rdg wit="#Translation">the pleasant wind is cool like water,</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">清景無限。  </lem>
-						<rdg wit="#Translation">The pure view of autumn is boundless.</rdg>
+						<lem wit="#Transcription">清景無限。</lem>
+						<rdg wit="#Translation">the pure view is boundless.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">曲港跳魚， </lem>
-						<rdg wit="#Translation">In the winding pond, fish jump; </rdg>
+						<lem wit="#Transcription">曲港跳魚，</lem>
+						<rdg wit="#Translation">In the winding pond<note type= "critical" anchored="true"><p>This probably refers to a U-shaped pond.</p></note>, fish jump; </rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">圓荷瀉露，        </lem>
-						<rdg wit="#Translation">Dew drops fall from the round lotus leaves. </rdg>
+						<lem wit="#Transcription">圓荷瀉露，</lem>
+						<rdg wit="#Translation">dew drops fall from the round lotus leaves. </rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">寂寞無人見。    </lem>
-						<rdg wit="#Translation">No one notices the stillness.</rdg>
+						<lem wit="#Transcription">寂寞無人見。</lem>
+						<rdg wit="#Translation"> [they are] lonely, for no one sees.</rdg>
 					</app>
 				</l>
 				<l n="7">
@@ -121,36 +146,36 @@
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">鏗然一葉， </lem>
-						<rdg wit="#Translation">Loud and clear, a leaf falls.</rdg>
+						<lem wit="#Transcription">鏗然一葉，</lem>
+						<rdg wit="#Translation">loud and clear—a leaf falls<note type= "critical" anchored="true"><p>The speaker uses hyperbole, comparing the sound of a leaf falling to the beat of a drum to emphasize the quietness of the night.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">黯黯夢雲驚斷。</lem>
-						<rdg wit="#Translation">In the darkness, my dream of cloud is abruptly cut short.</rdg>
+						<rdg wit="#Translation">In the darkness, my dream of cloud<note type= "critical" anchored="true"><p>“Dream of cloud” alludes to a work by Song Yu 宋玉, who lived during the Warring States period (453–221 BCE). This work, the <hi rend="italic">Song of Gao Tang (高唐赋)</hi>, narrates a brief love affair between the Huai King of Chu 楚怀王 and a mountain fairy which takes place in the king’s dream; in this dream, the mountain fairy describes her residence after their lovemaking as “made from the cloud in the morning, but comprised of rain in the evening”. The imagery of cloud and rain is often used as a euphemism for sexual intercourse in Chinese poetry. Here, however, the context indicates that the "dream of cloud" simply refers to meeting a beautiful woman (Guan Panpan) in a dream.</p></note> is abruptly cut short.</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">夜茫茫，   </lem>
+						<lem wit="#Transcription">夜茫茫，</lem>
 						<rdg wit="#Translation">The night is vast and obscure,</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">重尋無處，</lem>
-						<rdg wit="#Translation">Nowhere could I find the happiness and sorrow in my life again.</rdg>
+						<rdg wit="#Translation">nowhere could I find the things [that I dreamt of] again.</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription">覺來小園行遍。	</lem>
-						<rdg wit="#Translation">Woken up, I walk around in the small garden.</rdg>
+						<lem wit="#Transcription">覺來小園行遍。</lem>
+						<rdg wit="#Translation">Awoken, I walk around in the small garden.</rdg>
 					</app>
 				</l>
 			</lg>
-			<lg n="2">
+			<lg n="3">
 				<l n="13"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
 						<lem wit="#Transcription">天涯倦客，</lem>
@@ -160,19 +185,19 @@
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">山中歸路，</lem>
-						<rdg wit="#Translation">Longing to return to the mountains.</rdg>
+						<rdg wit="#Translation">longing to return to the mountains.</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
-						<lem wit="#Transcription">望斷故園心眼。  </lem>
+						<lem wit="#Transcription">望斷故園心眼。</lem>
 						<rdg wit="#Translation">I stare in the direction of my hometown yet it is so far away that my eyes wear out. </rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">燕子樓空，</lem>
-						<rdg wit="#Translation">The Swallow Tower is empty.</rdg>
+						<rdg wit="#Translation">The Swallow Tower<note type= "critical" anchored="true"><p>See first note, above.</p></note> is empty.</rdg>
 					</app>
 				</l>
 				<l n="17">
@@ -183,25 +208,25 @@
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription">空鎖樓中燕。 </lem>
+						<lem wit="#Transcription">空鎖樓中燕。</lem>
 						<rdg wit="#Translation">The swallow is locked in the empty tower.</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription">古今如夢，  </lem>
+						<lem wit="#Transcription">古今如夢，</lem>
 						<rdg wit="#Translation">The past and the present are like dreams;</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription">何曾夢覺，  </lem>
+						<lem wit="#Transcription">何曾夢覺，</lem>
 						<rdg wit="#Translation">when do we ever wake up from them?</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
-						<lem wit="#Transcription">但有舊歡新怨。  </lem>
+						<lem wit="#Transcription">但有舊歡新怨。</lem>
 						<rdg wit="#Translation">There is just old love and new regrets.</rdg>
 					</app>
 				</l>
@@ -214,12 +239,12 @@
 				<l n="23">
 					<app>
 						<lem wit="#Transcription">黃樓夜景，</lem>
-						<rdg wit="#Translation">In the night scene of the Yellow Tower, </rdg>
+						<rdg wit="#Translation">In the night scene of the Yellow Tower,<note type= "critical" anchored="true"><p>Yellow Tower is another famous tower near present-day Xuzhou, Jiangsu Province. Su Shi renovated the Yellow Tower while he was posted in Pengcheng.</p></note></rdg>
 					</app>
 				</l>
 				<l n="24">
 					<app>
-						<lem wit="#Transcription">爲餘浩嘆。 </lem>
+						<lem wit="#Transcription">爲餘浩嘆。</lem>
 						<rdg wit="#Translation">I hope that someone will utter a long sigh for me.</rdg>
 					</app>
 				</l>
