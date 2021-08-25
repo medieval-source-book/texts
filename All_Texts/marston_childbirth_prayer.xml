@@ -73,7 +73,7 @@
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>This text was transcribed from Marston MS 22, ff. 91v-92r, which is held in the Beinecke Rare Book and Manuscript Library. A digitization can be viewed online here: https://collections.library.yale.edu/catalog/2013548. Some spellings have been standardized and errors corrected. All occurrences of the letters “u” and “v” are preserved in their original form. Contractions have been expanded (expansions are not indicated). Punctuation follows the original but with modernized punctuation marks. Capitalization follows modern conventions.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -124,7 +124,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">Qui formasti Adam de limo terre mulieremque de latere eius formans ei inconiugium sociasti,</lem>
-						<rdg wit="#Translation">who formed Adam from the dust of the earth, and forming woman from his side,joined her and him in matrimony,</rdg>
+						<rdg wit="#Translation">who formed Adam from the dust of the earth, and forming woman from his side, joined her and him in matrimony,</rdg>
 					</app>
 				</s>
 				<s>

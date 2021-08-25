@@ -1,1 +1,286 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>In Honor of St. Augustine</title>
+				<author>Adam of St. Victor</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>“In Honor of St. Augustine” is a 12th-century sequence attributed to Adam of St. Victor (d. 1146), who served at Notre Dame Cathedral in Paris and later at the nearby Abbey of Saint Victor. As one of the most prominent authors of hymns and sequences from this period, he was acquainted with various important theologians at the time, such as Peter Abelard and Hugh of St. Victor.</p>
+
+				<p>The central feature of this sequence is the image of heaven that it provides. During its performance, two groups of singers would sing the same text, with the second group starting later than the first group, creating a layered sonic effect. In this way, the images of heaven which are present in the text would be layered over one another, generating a complexity of sound and meaning which would resonate against the walls of the church or cathedral and offer an earthly simulation of heaven's beauty. One interesting aspect of the text is that it mentions specific worries which will not exist in heaven (“enemy attacks”, “mob strikes”), giving us insight into what people in twelfth century Paris were most concerned about.</p>
+ 
+				<p>This sequence is written to be sung at the feast day of St. Augustine (354-430 CE) on August 28th. St. Augustine was a prolific theologian and philosopher and by the High Middle Ages (c.1000-1250 CE) had become the most important thinker for medieval Christians in Western Europe. Some of his most notable works are The City of God, On Christian Doctrine, and his Confessions. The typical practice on Saints’ Days was for Christians to sing hymns, recite prayers and observe relics, such as fragments of the saint’s clothing or their bodily remains. “In Honor of St. Augustine” would have been incorporated into this kind of celebratory liturgy.</p>
+ 
+				<p>Liturgical music of the medieval church comprised diverse forms which each served different purposes: the antiphon, the responsorium, the sequence, etc. The sequence would be performed directly before the reading of the Gospel and after the singing of “Alleluia”. As a form, it is composed of a series of rhymed, metrical couplets of varying lengths. “In Honor of St. Augustine” was probably sung in both parish churches and monastic settings; its manuscript transmission suggests that it may even have been sung in the Middle East by Christian crusaders. It seems to have been a popular hymn, as it has come down to us in many manuscripts and was translated into several other European languages during the medieval period.</p>
+
+				<p>This edition is based on ​​Cambridge, Corpus Christi College, MS 253. Besides “In Honor of St. Augustine”, the manuscript contains selections from Augustine’s theological works, his Confessions, and a guide to living a Christian life for soldiers by Ferrandus, deacon of Carthage (d. 546/7). The works by Augustine are in a fine hand, with exceptional illuminated initials. “In Honor of St. Augustine” is in a twelfth-century hand and appears with musical notation on a three-line stave. There are also some late medieval additions at the end of the manuscript.</p>
+
+				<p>Fassler, Margot E. The Virgin of Chartres: Making History through Liturgy and the Arts. Yale University Press, 2010, pp. 151-154 
+				
+				An analysis of the liturgical usage of “In Honor of St. Augustine” and a transcription and translation of the text as transmitted in Chartres BM MS 529. Fassler discusses the presumed association of this text with the rule of St. John in the Valley.</p>
+
+				<p>Brown, Peter. The Cult of the Saints: Its Rise and Function in Latin Christianity. , 2015. 
+				
+				A foundational work on the worship of saints in the Middle Ages.</p>
+				
+				<p>Dyer, Joseph. “The Bible in the Medieval Liturgy, c. 600–1300.” The New Cambridge History of the Bible, by Richard Marsden and E. Ann Matter, vol. 2, Cambridge University Press, Cambridge, 2012, pp. 659–679. New Cambridge History of the Bible.
+ 				
+ 				An overview of the liturgy in the medieval church, including discussion of the performance of psalms and hymns.</p>
+
+ 				<p>Lyon, Elizabeth Lucia. "Affection, Attention, and the Will: Medieval Models of Devout Chant." International Review of the Aesthetics and Sociology of Music 49, no. 1, 2018, pp 3-28. 
+
+ 				Presents three possible interpretations regarding the efficacy of music and chants in medieval liturgy.
+ 				</p>
+
+			</notesStmt>
+			<sourceDesc>
+				 <p>Cambridge, Corpus Christi College, MS 253, ff.140v-141r</p>
+				<listWit>
+					<witness xml:id="Transcription">In Honor of St. Augustine</witness>
+					<witness xml:id="Translation">Hymnus in honorem Sancti Augustini</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Marston Childbirth Prayer" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The Latin text presented here has been transcribed from ​​Cambridge, Corpus Christi College, MS 253, ff.140v-141r. A digitization of this manuscript can be viewed online here: https://parker.stanford.edu/parker/catalog/dy778wn8940. All occurrences of the letters “u” and “v” are preserved in their original form. Contractions have been expanded (expansions are not indicated). Punctuation follows the original but with modernized punctuation marks. Capitalization follows modern conventions.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+				<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Interni festi gaudia nostra sonet armonia. </lem>
+						<rdg wit="#Translation">Let the harmony of the feast inside our heart sound our happiness,
+							<note anchored="true"><p></p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Quo mens in se pacifica vera frequentat sabbata.</lem>
+						<rdg wit="#Translation">Through which our spirit is at peace in itself and keeps the Sabbath truly.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Mundi cordis laetitia odorans uera gaudia. </lem>
+						<rdg wit="#Translation">Let the joy of the pure heart spread<note anchored="true"><p>Literal meaning is “spread the scent of”. The use of sensory vocabulary here reinforces the idea that the listeners are intended to experience heaven through all their senses.</p></note> true happiness,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Quibus praegustat avida quae sit sanctorum gloria. </lem>
+						<rdg wit="#Translation">Through which the faithful one shall have a foretaste of the glory of the saints.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Qua laetatur in patria caelicolarum curia.</lem>
+						<rdg wit="#Translation">With this glory, the court of the heavenly beings rejoices in their homeland,<note anchored="true"><p>Here and below, I translated "patria" as "homeland", but it could also be translated as "fatherland".</p></note></rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Regem donantem praemia sua cernens in gloria. </lem>
+						<rdg wit="#Translation">Beholding the king in glory, who is offering his own prizes:</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Beata illa patria quae nescit nisi gaudia </lem>
+						<rdg wit="#Translation">Blessed is that homeland that knows nothing but happiness,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">nam cives huius patriae non cessant laudes canere.</lem>
+						<rdg wit="#Translation">For the people of that land do not stop singing its praises.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Quos ille dulcor afficit quem nullus maeror inficit</lem>
+						<rdg wit="#Translation">These are the ones whom sweetness affects and no sorrow infects,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">quos nullus hostis impetit nullusque turbo concutit.</lem>
+						<rdg wit="#Translation">Whom no enemy attacks, and no mob strikes.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Ubi dies clarissima melior est quam milis.</lem>
+						<rdg wit="#Translation">There it is the brightest day, better than a thousand days, </rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Luce lucens praefulgida plena Dei notitia.</lem>
+						<rdg wit="#Translation">Shining with a shining light, full of knowledge of God</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Quam mens humana capere nec lingua valet promere.</lem>
+						<rdg wit="#Translation">That the human mind may not capture nor the tongue express</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Donec vitae victoria commutet haec mortalia.</lem>
+						<rdg wit="#Translation">Until the victory of life entirely alters these mortal beings,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Quando Deus est omnia: vita virtus scientia.</lem>
+						<rdg wit="#Translation">When God is everything: life, virtue, knowledge,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Victus vestis et cetera quae uelle potest mens pia.</lem>
+						<rdg wit="#Translation">Nourishment, garments, and all other things that a pious mind can wish for.</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Hoc in hac valle misera meditetur mens sobria.</lem>
+						<rdg wit="#Translation">A sober mind meditates upon this<note anchored="true"><p>That is, the ideas about heaven and the afterlife presented above.</p></note> in this miserable valley:</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Hoc per soporem sentiat hoc attendat dum uigolat.</lem>
+						<rdg wit="#Translation">So that it<note anchored="true"><p>The mind.</p></note> may sense this through sleep and pay attention to it while awake,</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Quo mundi post exsilia coronetur in patria.</lem>
+						<rdg wit="#Translation">And after periods of exile from the world, may be crowned in the homeland<note anchored="true"><p>This refers to heaven.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Ac in decoris gloria regem laudet per saecula.</lem>
+						<rdg wit="#Translation">And in the glory of beauty, may praise the King<note anchored="true"><p>This refers to God.</p></note> through all ages.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Harum laudum praeconia imitatur ecclesia.</lem>
+						<rdg wit="#Translation">The Church imitates the proclamation of these praises</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">Cum recensentur annua sanctorum natalitia.</lem>
+						<rdg wit="#Translation">When the annual birthdays of the saints are counted;<note anchored="true"><p>This refers to the celebration of the saints’ lives through liturgies which are repeated annually.</p></note></rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Dum post peracta proelia digna redduntur praemia. </lem>
+						<rdg wit="#Translation">While after the battles have been fought, worthy gifts are distributed</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Pro passione rosea pro castitate candida.</lem>
+						<rdg wit="#Translation">For rosy passion and for white chastity,<note anchored="true"><p>This is a deliberate color contrast, indicating that the visual sense is being drawn on here too.</p></note> </rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Datur et torques aurea pro doctrina catholica.</lem>
+						<rdg wit="#Translation">And a golden wreath is given for the catholic teaching</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Qua praefulget Augustinus in summi regis curia.</lem>
+						<rdg wit="#Translation">On account of which Augustine shines forth in the court of the Supreme King<note anchored="true"><p>This refers to God.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Cuius librorum copia fides firmatur unica.</lem>
+						<rdg wit="#Translation">Through the abundance of his<note anchored="true"><p>This refers to Augustine.</p></note> books, the single faith is strengthened</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Hinc et mater ecclesia uitat errorum devia.</lem>
+						<rdg wit="#Translation">And the Mother Church avoids straying into error.</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Huius sequi vestigia ac praedicare dogmata.</lem>
+						<rdg wit="#Translation">May our Mother grant that we follow in his footsteps and preach his teachings</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Fide recta ac fervida det nobis mater gratia. Amen.</lem>
+						<rdg wit="#Translation">with grace with righteous and ardent faith. Amen.<note anchored="true"><p>The syntax of this line and the penultimate line has been adjusted in the translation for clarity.</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
 
