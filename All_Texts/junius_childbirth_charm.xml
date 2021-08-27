@@ -59,7 +59,7 @@
 				 <p>Oxford Bodleian Library, MS Junius 85/86, fol. 17r</p>
 				<listWit>
 					<witness xml:id="Transcription">Junius Peperit Charm</witness>
-					<witness xml:id="Translation">Junius Peperit Charm</witness>
+					<witness xml:id="Translation">Maria virgo peperit Christum</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
@@ -94,7 +94,7 @@
 			<p n="1">
 				<s>
 					<app>
-						<lem wit="#Transcription">Maria uirgo peperit Christum. Elizabet sterelis peperit Johannem Baptistam. </lem>
+						<lem wit="#Transcription">Maria virgo peperit Christum. Elizabet sterelis peperit Johannem Baptistam. </lem>
 						<rdg wit="#Translation">The Virgin Mary gave birth to Christ. The infertile Elizabeth gave birth to John the Baptist.</rdg>
 					</app>
 				</s>
@@ -130,7 +130,7 @@
 				</s>
 				<s>
 					<app>
-						<lem wit="#Transcription">ueni foras</lem>
+						<lem wit="#Transcription">veni foras</lem>
 						<rdg wit="#Translation">“Lazarus, come out!”</rdg>
 					</app>
 				</s>
