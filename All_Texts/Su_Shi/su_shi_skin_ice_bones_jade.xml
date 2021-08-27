@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Song of the Immortal in the Grotto”&#8212;"Skin of Ice and Bones of Jade"</title>
+				<title>To the tune “Song of the Immortal in the Grotto”&#8212;Skin of Ice and Bones of Jade</title>
 				<author>Su Shi</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -37,6 +39,11 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>When Su Shi was seven years old, he heard a song to the tune “Song of the Immortal in the Grotto”, composed by the Lord of Shu, a ruler during the period of the Five Dynasties and Ten Kingdoms (907-960 CE). Forty years later, he could only vaguely recall the first two lines of the song and used his imagination to complete it himself. The lyrics describe the beauty of the Lord of Shu’s concubine following an amorous encounter at his palace in Sichuan Province, southwest China.</p>
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+				<p>Su Shi is one of the most popular Chinese poets of all time, and certainly one of the best-known poets of the Song Dynasty. Among his many roles - principled politician, esteemed poet, celebrated calligrapher - he was also a major reformer of the ci genre. Before Su Shi, the primary form of ci was wǎnyuē (婉约, "graceful"). This was considered to be an inferior form of literature due to its thematic focus on love and desire and its association with the courtesans who usually performed it. Su Shi wrote lyrics on a broad range of non-traditional topics, often closely related to his own life experience. His compositions dealt with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service. As a pioneer of the háofàng (豪放, "bold") type of ci, he incorporated references to typically masculine pursuits, including frequent use of a hunting motif. He also frequently incorporated ideas from Buddhist philosophy and allusions to political events, which usually appeared only in more elevated forms of poetry.</p>
+				<p>Although Su Shi was a highly-regarded poet during his lifetime, his political career was consistently unfortunate. In 1066, he was forced to leave the Court when he openly opposed the chancellor’s socio-economic reforms, known as the New Policies. Over the next thirteen years, he was frequently demoted, serving as prefect or sub-prefect in Hangzhou, Mizhou, Xuzhou and Huzhou. Many of his ci reference these postings and the exhaustion of constant travel. A report about the troubling economic conditions of local people written while he was prefect of Huzhou landed him in prison for three months. He was finally sent back to Hangzhou and given a job with no salary. Although living in poverty, he grew fond of Hangzhou and wrote many of his most famous ci there.</p>
+				<p>Because of the occurrence of specific real names and locations in Su Shi's lyrics, as well as the introductory notes he wrote to accompany many of them, his lyrics often invite a biographical reading. This differentiates him from other ci poets featured in this collection, whose writings did not usually reference their own lives in such a direct way. Yet although Su Shi's lyrics evoke specific lived experiences, the enduring popularity of his poetry is due, in part, to the fact that diverse audiences can identify with the feelings he describes.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 279. </p>
@@ -49,12 +56,13 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Song of the Immortal in the Grotto”&#8212;"Skin of Ice and Bones of Jade"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Song of the Immortal in the Grotto”&#8212;Skin of Ice and Bones of Jade is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
         			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
-        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+					<punctuation marks="all">Punctuation follows the edition.</punctuation>
 
 				</interpretation>
 				<segmentation>
@@ -68,8 +76,14 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">洞仙歌·冰肌玉骨	</lem>
-						<rdg wit="#Translation">To the tune “Song of the Immortal in the Grotto”&#8212;"Skin of Ice and Bones of Jade"</rdg>
+						<lem wit="#Transcription">洞仙歌</lem>
+						<rdg wit="#Translation">To the tune “Song of the Immortal in the Grotto”</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">冰肌玉骨</lem>
+						<rdg wit="#Translation">Skin of Ice and Bones of Jade</rdg>
 					</app>
 				</title>
 			</head>
@@ -77,203 +91,209 @@
 		<body>
 			<lg n="1">
 				<!--Each stanza needs its own line group <lg>-->
-				<l n="1">
+				<l>
 					<app>
-						<lem wit="#Transcription">余七歲時見眉山老尼姓朱</lem>
-						<rdg wit="#Translation">When I was seven, I once met an old nun from Meishan whose surname was Zhu,</rdg>
+						<lem wit="#Transcription"><hi rend="italic">余七歲時見眉山老尼姓朱</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">When I was seven, I once met an old nun from Meishan<note type= "critical" anchored="true"><p>Meishan was Su Shi's hometown, in present-day Sichuan Province.</p></note> whose surname was Zhu,</hi></rdg>
 					</app>
 				</l>
-				<l n="2">
+				<l>
 					<app>
-						<lem wit="#Transcription">忘其名， </lem>
-						<rdg wit="#Translation">But I have forgotten her given name.</rdg>
+						<lem wit="#Transcription"><hi rend="italic">忘其名，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">but I have forgotten her given name.</hi></rdg>
 					</app>
 				</l>
-				<l n="3">
+				<l>
 					<app>
-						<lem wit="#Transcription">年九十餘，          </lem>
-						<rdg wit="#Translation">She was more than ninety years old.</rdg>
+						<lem wit="#Transcription"><hi rend="italic">年九十餘，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">She was more than ninety years old.</hi></rdg>
 					</app>
 				</l>
-				<l n="4">
+				<l>
 					<app>
-						<lem wit="#Transcription">自言：</lem>
-						<rdg wit="#Translation">She said that </rdg>
+						<lem wit="#Transcription"><hi rend="italic">自言：</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">She said that</hi></rdg>
 					</app>
 				</l>
-				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">嘗隨其師入蜀主孟昶宮中   </lem>
-						<rdg wit="#Translation">She used to accompany her master to the palace of Meng Chang, who is the Lord of Shu. </rdg>
+						<lem wit="#Transcription"><hi rend="italic">嘗隨其師入蜀主孟昶宮中</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">she used to accompany her master to the palace of Meng Chang, who is the Lord of Shu.</hi></rdg>
 					</app>
 				</l>
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">一日大熱，             </lem>
-						<rdg wit="#Translation">One day, there was a great heat.</rdg>
+						<lem wit="#Transcription"><hi rend="italic">一日大熱，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">One day, there was a great heat.</hi></rdg>
 					</app>
 				</l>
-				<l n="7"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">蜀主與花蕊夫人夜起避暑摩訶池上</lem>
-						<rdg wit="#Translation">The Lord of Shu and Lady Flower Bud got up at night  to enjoy the cool air outdoors by the Mahe Pond.</rdg>
+						<lem wit="#Transcription"><hi rend="italic">蜀主與花蕊夫人夜起避暑摩訶池上</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">The Lord of Shu and Lady Huarui<note type= "critical" anchored="true"><p>Lady Huarui 花蕊夫人 was the Lord of Shu's favorite concubine and a poet in her own right. "Lady Huarui" was not her birth name, but rather given to her by the Lord of Shu after her appearance was compared to the pistil of a flower ("huarui" is the Chinese word for pistil).</p></note> got up at night  to enjoy the cool air outdoors by the Maha Pond.<note type= "critical" anchored="true"><p>“Maha” means great in Sanskrit. Situated in Sichuan, “Maha Pond” is a large pond in the palace of the Lord of Shu.</p></note></hi></rdg>
 					</app>
 				</l>
-				<l n="8"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">作一詞。</lem>
-						<rdg wit="#Translation">He composed a song</rdg>
+						<lem wit="#Transcription"><hi rend="italic">作一詞。</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">He composed a song</hi></rdg>
 					</app>
 				</l>
-				<l n="9"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">朱具能記之。  </lem>
-						<rdg wit="#Translation">And Zhu remembered the entire piece.</rdg>
+						<lem wit="#Transcription"><hi rend="italic">朱具能記之。</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">And Zhu remembered the entire piece.</hi></rdg>
 					</app>
 				</l>
-				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">今四十年，</lem>
-						<rdg wit="#Translation">It has been forty years </rdg>
+						<lem wit="#Transcription"><hi rend="italic">今四十年，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">It has been forty years</hi></rdg>
 					</app>
 				</l>
-				<l n="11"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">朱已死 ，         </lem>
-						<rdg wit="#Translation">That Zhu has been dead;</rdg>
+						<lem wit="#Transcription"><hi rend="italic">朱已死，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">that Zhu has been dead;</hi></rdg>
 					</app>
 				</l>
-				<l n="12"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">人無知此詞者。</lem>
-						<rdg wit="#Translation">No one else knows this song. </rdg>
+						<lem wit="#Transcription"><hi rend="italic">人無知此詞者。</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">No one else knows this song.</hi></rdg>
 					</app>
 				</l>
-				<l n="13"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">但記其首兩句， </lem>
-						<rdg wit="#Translation">I can only remember the first couple of lines. </rdg>
+						<lem wit="#Transcription"><hi rend="italic">但記其首兩句，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">I can only remember the first couple of lines.</hi> </rdg>
 					</app>
 				</l>
-				<l n="14"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">暇日尋味，</lem>
-						<rdg wit="#Translation">During my leisure time I savored it：</rdg>
+						<lem wit="#Transcription"><hi rend="italic">暇日尋味，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">During my leisure time I savored it：</hi></rdg>
 					</app>
 				</l>
-				<l n="15"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">豈洞仙歌令乎，</lem>
-						<rdg wit="#Translation">Isn’t it to the tune of “Song of the Immortal in the Grotto”?</rdg>
+						<lem wit="#Transcription"><hi rend="italic">豈洞仙歌令乎，</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">isn’t it to the tune of “Song of the Immortal in the Grotto”?</hi></rdg>
+					</app>
+				</l>
+				<l><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription"><hi rend="italic">乃為足之</hi></lem>
+						<rdg wit="#Translation"><hi rend="italic">I have thus composed the rest of the piece to make up for the missing part.</hi></rdg>
 					</app>
 				</l>
 			</lg>
 			<lg n="2">
-				<l n="16"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l n="1"><!--Lines are continuously numbered through the song so check that they are correct-->
 					<app>
-						<lem wit="#Transcription">冰肌玉骨，               </lem>
-						<rdg wit="#Translation">Skin of ice and bones of jade,</rdg>
+						<lem wit="#Transcription">冰肌玉骨，</lem>
+						<rdg wit="#Translation">Skin of ice and bones of jade,<note type= "critical" anchored="true"><p>This is a phrase used to describe the beauty of women’s bodies, clean like ice and smooth like jade. It comes from a philosophical work by Zhuangzi, in which he uses “skin of ice and bones of jade” to describe a deity living in the Gu Ye Mountain. The phrase suggests a somewhat otherworldly beauty.</p></note></rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">自清涼無汗。</lem>
+						<rdg wit="#Translation">are naturally fresh and cool, with no sweat.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">水殿風來暗香滿。</lem>
+						<rdg wit="#Translation">A light wind blows in the palace upon the water, infusing it with a subtle aroma.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">繡簾開、</lem>
+						<rdg wit="#Translation">The embroidered curtain is lifted:</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">一點明月窺人.</lem>
+						<rdg wit="#Translation">a fraction of the bright moon light is used<note type= "critical" anchored="true"><p>By the Lord of Shu.</p></note> to peek at the beauty.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">人未寢、</lem>
+						<rdg wit="#Translation">The beauty has not yet slept,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">倚枕釵橫鬢亂。</lem>
+						<rdg wit="#Translation">leaning on the pillow, with her hairpin laid aside and the hair at her temples unkempt.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">起來攜素手，</lem>
+						<rdg wit="#Translation">She gets out of bed and I hold her fair hands;</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">庭戶無聲，</lem>
+						<rdg wit="#Translation">the courtyard is silent.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">時見疏星度河漢。</lem>
+						<rdg wit="#Translation">From time to time, scattered stars are seen crossing the Milky Way.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">試問夜如何，</lem>
+						<rdg wit="#Translation">She asks: what time of night is it?</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">夜已三更，</lem>
+						<rdg wit="#Translation">It is already midnight.</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">金波淡，</lem>
+						<rdg wit="#Translation">The golden wave<note type= "critical" anchored="true"><p>Here the “golden wave” refers to the moonlight.</p></note> of moonlight is fading;</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">玉繩低轉。</lem>
+						<rdg wit="#Translation">the Jade Rope<note type= "critical" anchored="true"><p>“The Jade Rope” is the name of the two stars to the north of the fifth star of the Dipper. In autumn, when the Jade Rope moves to the northwest and slowly descends, it is usually close to daybreak.</p></note> descends.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">但屈指、</lem>
+						<rdg wit="#Translation">She counts on her fingers:</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">西風幾時來，</lem>
+						<rdg wit="#Translation">when will the west wind<note type= "critical" anchored="true"><p>Western wind is an image with multiple meanings in Chinese poetry. Here it is most likely used to endow the line with a melancholic tone.</p></note> come?</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription">自清涼無汗。    </lem>
-						<rdg wit="#Translation">Are naturally fresh and cool, with no sweat.</rdg>
+						<lem wit="#Transcription">又不道、</lem>
+						<rdg wit="#Translation">Without noticing,</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription">水殿風來暗香滿。           </lem>
-						<rdg wit="#Translation">A light wind blows in the palace on the Mahe Pond, infusing it with a subtle aroma.  </rdg>
-					</app>
-				</l>
-				<l n="19">
-					<app>
-						<lem wit="#Transcription">繡簾開、                     </lem>
-						<rdg wit="#Translation">The embroidered curtain is lifted: </rdg>
-					</app>
-				</l>
-				<l n="20">
-					<app>
-						<lem wit="#Transcription">一點明月窺人.</lem>
-						<rdg wit="#Translation">A fraction of the bright moon light is used to peek at the beauty.</rdg>
-					</app>
-				</l>
-				<l n="21">
-					<app>
-						<lem wit="#Transcription">人未寢、                     </lem>
-						<rdg wit="#Translation">The beauty has not yet slept,</rdg>
-					</app>
-				</l>
-				<l n="22">
-					<app>
-						<lem wit="#Transcription">倚枕釵橫鬢亂。         </lem>
-						<rdg wit="#Translation">Leaning on the pillow, with her hairpin laid aside and temple hair unkempt.</rdg>
-					</app>
-				</l>
-				<l n="23">
-					<app>
-						<lem wit="#Transcription">起來攜素手，    </lem>
-						<rdg wit="#Translation">She gets out of bed and I hold her fair hands;</rdg>
-					</app>
-				</l>
-				<l n="24">
-					<app>
-						<lem wit="#Transcription">庭戶無聲，                 </lem>
-						<rdg wit="#Translation">The courtyard is silent.</rdg>
-					</app>
-				</l>
-				<l n="25">
-					<app>
-						<lem wit="#Transcription">時見疏星度河漢。               </lem>
-						<rdg wit="#Translation">From time to time, scattered stars are seen crossing the Milky Way.</rdg>
-					</app>
-				</l>
-				<l n="26">
-					<app>
-						<lem wit="#Transcription">試問夜如何，    </lem>
-						<rdg wit="#Translation">She asks: what time of night is it?</rdg>
-					</app>
-				</l>
-				<l n="27">
-					<app>
-						<lem wit="#Transcription">夜已三更，                 </lem>
-						<rdg wit="#Translation">It is already midnight.</rdg>
-					</app>
-				</l>
-				<l n="28">
-					<app>
-						<lem wit="#Transcription">金波淡，                     </lem>
-						<rdg wit="#Translation">The golden wave of moonlight is fading;</rdg>
-					</app>
-				</l>
-				<l n="29">
-					<app>
-						<lem wit="#Transcription">玉繩低轉。                 </lem>
-						<rdg wit="#Translation">The Jade Rope turns low. </rdg>
-					</app>
-				</l>
-				<l n="30">
-					<app>
-						<lem wit="#Transcription">但屈指、                     </lem>
-						<rdg wit="#Translation">She counts on her fingers:</rdg>
-					</app>
-				</l>
-				<l n="31">
-					<app>
-						<lem wit="#Transcription">西風幾時來，    </lem>
-						<rdg wit="#Translation">When will the west wind come?</rdg>
-					</app>
-				</l>
-				<l n="32">
-					<app>
-						<lem wit="#Transcription">又不道</lem>
-						<rdg wit="#Translation">Without noticing, </rdg>
-					</app>
-				</l>
-				<l n="33">
-					<app>
-						<lem wit="#Transcription">流年暗中偷換   </lem>
+						<lem wit="#Transcription">流年暗中偷換</lem>
 						<rdg wit="#Translation">the fleeting years are secretly stolen away.</rdg>
 					</app>
 				</l>

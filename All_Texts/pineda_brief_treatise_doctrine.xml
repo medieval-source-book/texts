@@ -1,0 +1,774 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A Brief Treatise of Doctrine Useful for Every Christian</title>
+				<author>Juan Perez de Piñeda (att.)</author>
+				<respStmt>
+					<resp>Transcription based on</resp>
+					<name>Pérez, Juan. Breve Tratado De Doctrina. Barcelona: Librería de D. Gómez Flores, 1982.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Kathryn Phipps</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Rhegius, Urbanus, Juan Pérez, and L. de Usoz y Río. Breve Tratado De Doctrina : Util Para Todo Cristiano. Ahora fielmente reimpreso. [San Sebastian: Impr. de I.R. Baroja], 1852.</p>
+				<listWit>
+					<witness xml:id="Transcription">Breve tratado de doctrina útil para todo cristiano</witness>
+					<witness xml:id="Translation">A Brief Treatise of Doctrine Useful for Every Christian</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"A Brief Treatise of Doctrine Useful for Every Christian" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"><!--Title in original language, which may be a longer form than that used elsewhere--></lem>
+						<rdg wit="#Translation"><!--Title in English, which may be a longer form than that used elsewhere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">Prologo del autor</lem>
+						<rdg wit="#Translation">Author’s Prologue</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Por único remedio y defensa, nos dejo Dios su palabra, para que guiados por ella, le supiésemos servir, y nos acorriésemos a el, para ser ayudados en toda necesidad.</lem>
+						<rdg wit="#Translation">As our sole remedy and defense, God left us his word to guide us so that we might understand how to serve him and run to his aid, so that we may be helped in all our needs.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Mas cuando por la malicia de los hombres es corrompida y falsada, o se enseña en su lugar doctrinas humanas, de necesidad son por ellas inducidos en error los que las creen, y vienes a henchirse de ignorancia y de escrúpulos sin saber lo que agrada a Dios, ni el como se ha de hacer, ni adonde han de acudir por socorro en sus trabajos.</lem>
+						<rdg wit="#Translation">However, when men corrupt and falsify his word through malice, or when they teach human doctrines in its place, it forces the people who believe them to inherently be in error. Their followers become stuffed full of scruples and ignorance, and they do not know what pleases God, nor how one might please him, nor from where they can find help in their works.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque solos los que signen a Cristo, y siguenlo los que abrazan su pura palabra, tienen este saber y claridad.</lem>
+						<rdg wit="#Translation">It is only those who follow Christ (those who embrace his pure word truly follow him) who have this knowledge and clarity.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Para que pudiésemos evitar estos daños, y que no fuésemos engañados con tomar la doctrina de los hombres por la de Dios, y las corrupciones con que falsifican su palabra, por la pureza con que el la tiene dada, nos manda el mismo por su Apóstol probar todas las cosas, y retener lo que es bueno:</lem>
+						<rdg wit="#Translation">In the hope that we would avoid these mistakes and not be tricked into confusing the doctrine of men and their corruption through the falsification of his word with the doctrine of God and his purity in giving it, God himself, through his Apostle, commands us to put everything to the test and to keep only what is good.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y que no creamos a todo espíritu, sino que probemos los espíritus, si son de Dios, cuya palabra es el toque, donde se debe hacer esta prueba y examen.</lem>
+						<rdg wit="#Translation">Let us not believe every spirit. Instead we test the spirits to see if they are of God, whose word is the touchstone on which we must test and examine them.<note type= "critical" anchored="true"><p><hi rend="italic">El toque</hi>, translated touchstone, refers to the exam that metalworkers use to test the quality of a metal.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">Por tanto es necesario, que tenga tal sentido el Cristiano, que pueda discernir entre la verdadera, y la falsa: entre la que es de Dios, y la de los hombres, para que conocida y desechada la una coma mala y perniciosa, pueda seguir la otra, y asegurar se por ella de lo que Dios le promete, y requiere del.</lem>
+						<rdg wit="#Translation">Therefore, it is necessary that the Christian be of sound mind so that he may discern between what is true and what is false, between what is of God and what is of man, so that by recognizing and tossing out one as evil and pernicious, he may follow the other and to make sure of what God promises him and requires of him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Saber hacer este juicio lo debe tener por una de las cosas mas propias que le pertenecen, pues depende de ello su salud.</lem>
+						<rdg wit="#Translation">Knowing how to make this judgment should be considered one of the greatest personal responsibilities that belong to him because his salvation depends on this.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">Pero Satanás por medio de sus ministros ha siempre trabajando por privar nos de esto que tan conjunto y anexo es a nuestra Cristiandad: y ha llegado a tanto con su diligencia que hubo de acabar con nosotros, que solamente aprobásemos, o condenásemos, lo que ellos aprobasen, o condenásemos, lo que ellos aprobasen, o condeñasen: que tuviésemos por santo y bueno, lo que ellos santificasen, y por malo aquello que dicen por tal.</lem>
+						<rdg wit="#Translation">But Satan has always worked through his ministers to sever us from this capacity, which is so attached and connected to our Christianity, and he has diligently accomplished this by stopping our own judgment, so that we only approve and condemn what they approve and condemn, and that we take for holy and good whatever they say is sanctified, and for evil whatever they say is evil.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y que así estuviésemos siempre pendientes de ellos: de suerte que ni hablásemos, ni sintiésemos de otra manera que nos hubiesen ellos enseñado.</lem>
+						<rdg wit="#Translation">They do this so that we become eternally dependent on them, in the hopes that we would never speak or feel anything but what they have taught us.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Trajeron-nos por esta vía a una miserable servidumbre harto mas intolerable y dura, que la que sufrió el pueblo de Dios en Egipto, y en Babilonia debajo de tan crueles tiranos.</lem>
+						<rdg wit="#Translation">In this way they bring us into a miserable servitude, even more intolerable and difficult than the one the people of God suffered in Egypt and in Babylon under such cruel tyrants.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Vinieron de esta manera a despojarnos del ser de hombres y quitarnos enteramente el juicio de la razón, en querer que tomásemos gusto en lo que a ellos les sabía bien. Y haciéndonos recibir por verdadero Dios al falso que ellos mismos habían inventado, para dar hartura a sus vientres.</lem>
+						<rdg wit="#Translation">They came to strip away our very humanity and to deprive us entirely of judgment and reason, hoping that we might take pleasure in whatever seems good to them and making us welcome the false god that they themselves had invented as the true one, just so they could fill their stomachs.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">Y así no nos quedó mas de la figura de hombres.</lem>
+						<rdg wit="#Translation">With this, we are left with nothing but the form of man.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque el hombre sin juicio mayormente en cosa tan importante como es la de su salud, ya no es hombre, sino inferior a los animales que de todo punto perecen.</lem>
+						<rdg wit="#Translation">For man without better judgment in something so important as salvation, is no longer man, but is inferior to the animals he now resembles in every respect.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Cautivaron nos las consciencias trayéndolas aperadas con cargas insufribles: obligándolas a cosas que Dios aborrece, y defiende por su ley, y privaron-las de la libertad de obedecer y arrimarse a su palabra.</lem>
+						<rdg wit="#Translation">They captivated our consciences, chaining them with insufferable loads, forcing them to things God abhors and prohibits in his law, and depriving them of the freedom to obey and draw closer to his word.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Con habernos criado y rescatado Jesús Cristo, y estar por esta razón sumamente obligados a su servicio como vasallos suyos, enemistaron-nos con él, y hicieron-nos siervos del Anticristo.</lem>
+						<rdg wit="#Translation">Having been raised and resurrected by Jesus Christ and being for that reason entirely obliged to his service as his vassals, we made ourselves his enemies and servants of the Antichrist.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">En lugar de adorar a Dios, y depender totalmente del, han nos hecho adorar a los palos y a las piedras figurados, y vestidos como hombres y mujeres, y a depender y poner en ellos nuestra confianza:</lem>
+						<rdg wit="#Translation">Instead of adoring God and depending on him completely, we have been forced to worship figures made of sticks and rocks that are dressed like men and women, and to trust and put our confidence in them.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">teniéndonos de esta manera avasallados, metieron mano en nuestras haciendas hasta haberlas casi todo chupado.</lem>
+						<rdg wit="#Translation">Having thus made us their subjects, they dipped their hands into our livelihood<note type= "critical" anchored="true"><p><hi rend="italic">Hazienda</hi>, translated livelihood, refers to the goods, possessions, riches of an individual, frequently tied to land and property</p></note>until it was almost drained empty.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y finalmente pusieron nos en venta para hacer de nosotros y con nosotros lo que bien les estuviese, como lo tenía tanto antes dicho Apóstol S. Pedro, y como claramente lo muestran ya los daños y calamidades en que por esta causa hemos incurrido.</lem>
+						<rdg wit="#Translation">Finally, they put us on sale to do to us whatever is best for them, just as the Apostle Saint Peter said so long before, and just as the injuries and calamities we have already endured for this reason so clearly demonstrate.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">Ya el Señor, pues muestra tener piedad de nosotros, in nos comienza a abrir los ojos para conocerle, y andar por el derecho camino, que guía a la vida, no debemos suportar mas tan turo cautiverio, sino reducirnos a la libertad que por su clemencia nos tiene dada, que es, no depender de hombres, en el negocio de nuestra salud, sino de sola su palabra,</lem>
+						<rdg wit="#Translation">Given that the Lord already shows to have mercy on us, and that he begins the opening of our eyes and sets us on the straight path that leads to life, we should not endure any longer under such harsh captivity, but instead return to the liberty he has given to us in his mercy, which is to not depend on men for the negotiation of our salvation, but instead to depend solely on his word.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y por ella condenar y desechar constantemente todo lo que le contradice por antiguo, autorizado, y aprobado que sea de ellos, porque nos lo tiene así Dios mandado.</lem>
+						<rdg wit="#Translation">By it we can condemn and perpetually cast out anything that contradicts him regardless of however old, authorized, and approved it might be, because God has not mandated it to us.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6">
+				<s>
+					<app>
+						<lem wit="#Transcription">Estos pues que han sido autores de nuestros engaños, crueles carniceros de nuestras conciencias, y ladrones de nuestras haciendas, y los discípulos de ellos como los descubre ahora la verdad que resplandece de lo alto, por no perder el señorío que tan impíamente se han usurpado sobre las consciencias ajenas, llenos ahora de furor, hacen grande fuerza, para que llamemos tinieblas a la luz de la palara que Dios nos comunica. Por la cual se nos da a conocer por Padre: y llamemos luz a las tinieblas y engaños que hasta ahora han enseñado, y todavía enseñan con tanta pertinacia.</lem>
+						<rdg wit="#Translation">These men — the authors of our deception, the cruel carnivores of our consciences, and thieves of our livelihoods (as the truth that shines from on high reveals them to be) - and their disciples are now raging so that they do not lose the dominion over other peoples’ consciences which they have so impiously usurped. They exert enormous effort to force us to call the light, the word that God communicates to us and that by which we come to know him as Father, “darkness,” and to make us call the darkness and trickery that they have taught until now and continue to teach with such obstinacy, “light.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription">Para este fin a la doctrina que es luz traída del cielo por el autor de la luz, la infaman por diversas vías, y la llaman nueva, para que extrañados por esta vía, in enemistados los hombres con ella, no le den orejas ni la reciban:</lem>
+						<rdg wit="#Translation">To this end, they defame the doctrine of light brought down from heaven by the author of light through diverse ways. Moreover, they call it new so that with people thus estranged and made enemy to it, they do not hear or receive it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> y así se queden ellos todavía en su autoridad, y no pierdan las ganancias acostumbradas.</lem>
+						<rdg wit="#Translation">Consequently, they keep men under their authority, and they do not lose the profits to which they have grown accustomed.<note type= "critical" anchored="true"><p>Pérez here references the ways the church profited off of its laity, a common complaint for reformers. The customary penalty for those excommunicated from the church was the confiscation of goods, where the Inquisition retained all of the property of the condemned.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Ingenio es este del demonio, y frutos son de su espíritu en los que son regidos por el.</lem>
+						<rdg wit="#Translation">This is the devil’s invention, the fruits in those that are governed by him are from his spirit.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Llamar así a la doctrina de Dios, no es cosa reciente, ni ha poco que comenzó, ni es pequeño el número de las ánimas perdidas por dar crédito a los que así la infaman.</lem>
+						<rdg wit="#Translation">Now, it is nothing new to treat the doctrine of God like this, nor did it begin recently, and it is not it a small number of souls who have been lost for believing those who so defame it in this way.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="8">
+				<s>
+					<app>
+						<lem wit="#Transcription">Cuenta San Marco, que después de haber echado Jesús Cristo un demonio del cuerpo de un hombre, quedaron maravillados de ver tal cosa los que se hallaron presentes, y decían ¿que es esto? ¿que nueva doctrina es esta? Por estar ignorantes de la verdad, les parecía que era cosa nueva la palabra de Dios, contenida en toda la divina Escritura, siendo la cosa mas antigua que jamás hubo entre los hombres.</lem>
+						<rdg wit="#Translation">Saint Mark recounts that after Jesus cast a demon out of a man’s body, those that were present there were amazed and said, “What is this? What new doctrine is it?” because they were ignorant of the truth. It seemed to them that God’s Word—that which is contained in all of the divine Scriptures, being the oldest thing that ever was among men—was something new.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Que cosa sea Evangelio, y quien Jesús Cristo Autor de el, cual sea su virtud y eficacia, y enseñar por él á los Cristianos á conocer á Dios, no es cosa nueva, como aquellos pensaban entonces, y como falsamente piensan también el día de hoy los hombres que están engañados y metidos todavía en sus errores.</lem>
+						<rdg wit="#Translation">The Gospel and its author, Jesus Christ, and all their power and efficacy, are not new, nor is it new to teach Christians through the Gospel to know God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque por virtud del Evangelio echó Dios el demonio de los primeros padres, y los reconcilió consigo.</lem>
+						<rdg wit="#Translation">By the power of the Gospel, God cast out the demon from the first fathers and reconciled them to him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">El Evangelio predicaron los patriarcas y profetas; esta reinó desde el principio, en todos los que verdaderamente fueron pueblo de Dios, y por él fueron salvos:</lem>
+						<rdg wit="#Translation">This is the Gospel the patriarchs and prophets preached: The Gospel reigned since the beginning in all who were truly people of God, and they were all saved by it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">á él tuvieron siempre recurso los fieles en todos sus males y trabajos; este fue desde el principio prometido de Dios por salud y remedio del genero humano:</lem>
+						<rdg wit="#Translation">In all their woes and works, the faithful always had it as a recourse, and it was promised by God since the beginning as the salvation and remedy for all mankind.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el Evangelio enseñó Jesús Cristo venido al mundo, y este mismo mandó á sus discípulos que enseñasen á los hombres.</lem>
+						<rdg wit="#Translation">The Gospel shows that Jesus Christ came to the world, and he himself commanded his disciples teach the world.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">A San Pablo, porque era fiel, y lo enseñaba con la pureza que lo había recibido de Jesús Cristo, lo llamaban en Atenas, Novelero, Enseñador de nueva doctrina.</lem>
+						<rdg wit="#Translation">In Athens, they called Saint Paul an inventor and teacher of new doctrine because he was faithful and taught the Gospel with the purity that it received from Jesus Christ.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Pero quien eran, veamos, los que le dan tal nombre.</lem>
+						<rdg wit="#Translation">But let us see who those men who called him such a name truly were.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">No otros por cierto sino aquellos que estaban hinchados con las ciencias humanas, y los discípulos de ellos y la gente ignorante y entenebrecida.</lem>
+						<rdg wit="#Translation">They were none others but those who were stuffed full of human knowledge and their disciples, and other ignorant and unenlightened people.<note type= "critical" anchored="true"><p><hi rend="italic">Entenebrecida</hi>, translated unenlightened, has to do with those raised and kept in darkness. Rather than unenlightened, with connotes a lack of light, <hi rend="italic">entenebrecida</hi> implies more of being kept in darkness, and importantly, has no connection to the Enlightenment, in Spanish <hi rend="italic">Renacimiento</hi></p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Mas no porque ellos la infamaban, era nueva, ni dejaba de tener su verdad y eficacia, ni de haberla recibido de Dios, ni de ser la primera que hubo en el mundo.</lem>
+						<rdg wit="#Translation">But this doctrine did not become new just because they defamed it, nor did it lose its truth and efficacy, nor did it cease to be received from God as the first doctrine that came into the world.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Que la llamasen así los paganos no es de maravillar, porque o habían oído tal cosa,</lem>
+						<rdg wit="#Translation">That pagans would call it new is not surprising because they would not have heard of such a thing.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">pero que en el día de hoy, los que se llaman pueblo Cristiano, los que han recibido el bautismo, que confiesan creer el símbolo de los Apóstoles, y que en la oración Dominica llaman á Dios por el nombre de Padre, y dicen que viven en la esperanza de la vida eterna, la llamen Nueva,</lem>
+						<rdg wit="#Translation">What is surprising is that today, those who call themselves the Christian people, those that have been baptized and who profess belief in the symbol of the Apostles, and who in the Dominican prayer call God by the name Father, and who say that they live in the hope of eternal life, would call it new!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y á los que la enseñan, como Dios les manda, Noveleros, sediciosos, alborotadores de las repúblicas, cosa es, cierto, de grande admiración e espanto.</lem>
+						<rdg wit="#Translation">And that they would call those who teach this doctrine as God commanded them to, inventors, rebels, and conspirators against the republic, is surely a thing of great astonishment and fright.<note type= "critical" anchored="true"><p><hi rend="italic">Alborotadores de las repúblicas</hi>, translated as conspirators against the state. <hi rend="italic">Alborotadores</hi> are those who commit sedition. As Cascardi notes, república was a word frequently used by humanists to describe the commonwealth, the people, that comprised a nation. There was an immense concern about the socio-political impacts of literature, and writers of doctrine were considered threats to the state. However, it should be noted by the modern reader that <hi rend="italic">república</hi> did not mean a republic form of government in its modern sense as Europe was still solidly in the era of monarchies. Cascardi, “What the Canon Said,” 22–23.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Donde se ve claramente cuanta es la ira de Dios, que reposa sobre los hombres por el pecado.</lem>
+						<rdg wit="#Translation">From this it is clear how great the wrath of God is against these men because of their sin.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Qué otra cosa es esto, sino llamarse Cristianos, y juntamente ignorar su proprio nombre, y ser capitales enemigos de su verdadero salud, y correr desapoderadamente a ser despeñados en perdición?</lem>
+						<rdg wit="#Translation">What else is this, but simultaneously to call themselves Christians and to ignore their own name, to be the greatest enemies to their true salvation, and to run so furiously only to be thrown off a cliff into perdition?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Dicen, que se guarden de esta doctrina que es nueva y fabricada de los herejes: como si aquellos a quien ellos ponen tal nombre, por abrazar la doctrina y justicia del cielo, fuesen autores del Evangelio, y como si fuese el Evangelio seminario de herejías.</lem>
+						<rdg wit="#Translation">They claim they are protecting themselves from this new doctrine fabricated by heretics, as if those whom they malign for embracing the doctrine and righteousness of heaven were themselves the authors of the Gospel, and as if the Gospel were a seminary for heresies.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="9">
+				<s>
+					<app>
+						<lem wit="#Transcription">La gloria damos a Jesús Cristo, que es el solo autor de su Evangelio, por habernos hecho participes de su salud eterna por medio de él.</lem>
+						<rdg wit="#Translation">We give glory to Jesus Christ, who is the only author of his own Gospel, for having given us a share of his eternal salvation through it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Estémonos (dicen) quedos, y firmes en nuestra antigua fe.</lem>
+						<rdg wit="#Translation">May we be (they say) firm in our ancient faith.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Sigamos la santidad y vida de nuestros padres: vamos nosotros por donde ellos fueron:</lem>
+						<rdg wit="#Translation">Let us follow the saintliness and life of our fathers as we go towards where they went.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">tengamos la autoridad de los Concilios, y huyamos novedades.</lem>
+						<rdg wit="#Translation">May we have the authority of the Councils and flee from novelties.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¡O, gente miserable y ciega, y casi desauciada de remedio!</lem>
+						<rdg wit="#Translation">Oh, miserable and blind people, who are on your deathbeds without a cure!<note type= "critical" anchored="true"><p><hi rend="italic">Desauziada de remedio</hi>, translated as on your deathbeds without a cure. <hi rend="italic">Desauziar</hi>, today <hi rend="italic">desahuciar</hi>, means to declare terminally ill or to have not hope for especially in a medical context. <hi rend="italic">De remedio</hi> emphasizes this medical register suggesting that the people who are blinded by Catholic doctrine are terminally ill with no hope of a spiritual cure.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="10">
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Que fe hay antigua si no es la del Evangelio?</lem>
+						<rdg wit="#Translation">What faith is old if it is not the faith in the Gospel?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Qué santidad verdadera sino la que por él se alcanza?</lem>
+						<rdg wit="#Translation">What saintliness is there except the one achieved by faith?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Qué camino acertado sino seguir á Jesús Cristo que es el camino, la verdad, y la vida?</lem>
+						<rdg wit="#Translation">What other right path can be found except by following Jesus Christ who is the way, the truth, and the life?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Qué otro Concilio sino el que fue tenido en el cielo y después revelado al Mundo por Jesús Cristo, que nos es dado del Padre por Maestro y Enseñador.?</lem>
+						<rdg wit="#Translation">What other council is there but the one held in heaven and then revealed to the world through Jesus Christ, who is given to us from the Father as Master and Teacher?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Qué puede mandar el Concilio de los hombres congregados en su propio nombre á titulo de Dios sino cosas humanas?</lem>
+						<rdg wit="#Translation">What other mandates can a council of men who, under the pretext of God’s name, congregate in their own name create except for human things?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Qué hay que esperar pues ya tenemos todos los artículos del Concilio de Dios resumidos en el Nuevo Testamento donde nos es mandado oír y seguir á Jesús Cristo?</lem>
+						<rdg wit="#Translation">What is there to wait for since we already have all the articles of God’s Council resumed in the New Testament, which commands us to hear and follow Jesus Christ?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Si esto no mandan los Concilios ¿de que sirven?</lem>
+						<rdg wit="#Translation">If the Councils do not mandate this, what good are they?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y si mandan esto ya está mandado y declarado por el Señor.</lem>
+						<rdg wit="#Translation">And even if they do mandate this, it has already been mandated and declared by God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">No resta sino ponerlo en ejecución.</lem>
+						<rdg wit="#Translation">The only thing that remains is to put it in action.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">A estos infamadores de la verdad puede se les decir lo que respondió el Señor Jesús Cristo a los Saduceos: vosotros andáis errados, porque no sabéis las Escrituras, ni la virtud de Dios. </lem>
+						<rdg wit="#Translation">To those who defame the truth respond with exactly what the Lord Jesus Christ said to the Sadducees, “you walk in error because you do not know the Scriptures or the truth of God.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="11">
+				<s>
+					<app>
+						<lem wit="#Transcription">Por manera, que les viene todo su mal de estar enemistados con la palabra de Dios, y de no leerla, ni entenderla, y de poner estanque de ella los que tienen poder y autoridad, con hacer que ninguno la lea, ni la entienda, sino a la manera de ellos, es a saber, que con mortalísimo odio la aborrezcan y persigan.</lem>
+						<rdg wit="#Translation">Those with power and authority have an evil antagonism against God’s Word because they do not read or understand it, and they dam it up to ensure that no one else reads or understands it in any way contrary to their own understanding.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">De aquí es, que estos que quieren ser tenidos por padres y lumbreras de los otros, condenan tan furiosamente a los inocentes, así a los que la enseñan como a los que la aprenden, sin oírlos, ni examinar la causa, ni pesarla con justas balanzas,</lem>
+						<rdg wit="#Translation">By this we know that they abhor, reject, and persecute God’s Word with a deadly hatred. Consequently, those who want to be considered fathers and luminaries by others so furiously condemn the innocent—those who teach this doctrine and those who learn it—without hearing them, nor examining the cause, nor measuring it with just balances.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">contentos con solo saber que siguen esta doctrina Evangélica, para tenerlos por errados y herejes, y darlos luego por condenados, pensando que en matarlos hacen a Dios grande servicio.</lem>
+						<rdg wit="#Translation">Instead, they are content with the mere knowledge that they follow this Evangelic doctrine to call them errant heretics and to convict them as <hi rend="italic">condenados</hi>, thinking that by killing them, they do God a great service.<note type= "critical" anchored="true"><p><hi rend="italic">Condenado</hi>, or the condemned, is left here in Spanish because it is as direct of an allusion to the Inquisition that Pérez makes in this text. <hi rend="italic">Condenado</hi> was the phrase the Inquisition would use to declare someone as guilty and then would have them either repent through confession or would deliver their punishment. In Pérez’s case his verdict was <hi rend="italic">condenado</hi> for his “Lutheran” heresies, and <hi rend="italic">relejado en estatua</hi>, as the consequence of the verdict. This whole passage uniquely addresses Inquisitional authorities, specifically identifying those with political power and authority and criticizing them for abuses.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="12">
+				<s>
+					<app>
+						<lem wit="#Transcription">No son, cierto, regidos estos varones sangrientos por el espíritu y mansedumbre de Cristo, el cual anda a buscar los errados, para reducirlos al camino de la verdad, a los llagados, para atarles y sanarles su llagas: a los pobres para enriquecerlos con sus bienes, y no para hacerles tratamientos contrarios;</lem>
+						<rdg wit="#Translation">Truly, these men with bloody hands are not governed by the spirit and gentleness of Christ, who searches for those who have gone astray to show them the path of truth, for the broken to bind up and heal their wounds, for the poor to enrich them with his own goods, and not to give them the opposite treatments.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">pero son regidos por el espíritu de aquel que tiene por deleite matar y derramar sangre humana y que no puede sufrir la claridad de las obras y maravillas de Dios.</lem>
+						<rdg wit="#Translation">Instead they are governed by the spirit of him who delights in killing and spilling human blood, and who cannot withstand the brightness of the works and wonders of God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y por tanto estos no pueden sufrir esta doctrina, ni conocer al Señor cuya es, ni ver los milagros que el día de hoy por ella hace en los que las reciben, sacándolos del poder de Satanás, haciéndolos los lobos ovejas, de osos y leones, corderos: de engañados y engañadores, maestros de verdad, de hijos tinieblas hijos de luz.</lem>
+						<rdg wit="#Translation">And because they cannot bear this doctrine, nor know its Lord, nor see these miracles he works today in those who receive it: he removes them from the power of Satan and makes the wolves into sheep, the bears and lions into lambs, and the deceived and the deceivers into teachers of the truth into sons of darkness into sons of light.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="13">
+				<s>
+					<app>
+						<lem wit="#Transcription">Pero los que con verdadero deseo de conocer al Señor, consideraren nuestra doctrina, o por mejor decir, la de Jesús Cristo, Señor y Redentor del mundo, y lo que por ella pretendemos, que es, dar a Dios la honra que se le debe, y a los hombres la que el manda,</lem>
+						<rdg wit="#Translation">However, may those with the true desire to know the Lord consider our doctrine— or better yet, the doctrine of Jesus Christ, Lord and Redeemer of the world—and see that all we intend through this doctrine is to give God the honor he deserves and to men the glory that he sends.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">atinarán al blanco, y vista claramente la verdad, juzgarán mui de otra manera que los otros, que son amadores de las tinieblas.</lem>
+						<rdg wit="#Translation">They will thus hit the mark and, seeing the truth clearly, they will judge those who are lovers of darkness very differently.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Otra cosa, cierto, es el Evangelio, que las exposiciones que los hombres le han dado de sus propias cabezas sin sentimiento ni espíritu de Dios, aplicándolo, no para conocer y seguir a Jesús Cristo, y mortificar los afectos de la carne y mundo, sino para cubrir sus propios errores, en que fueron enseñados y criados.</lem>
+						<rdg wit="#Translation">The Gospel is something other than the expositions that men have given it from their own heads without the sense or the spirit of God, not using it to know and follow Jesus Christ and to put to death the desires of the flesh and the world, but instead to cover their own errors in which they were taught and raised.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">En sola la Escritura Divina está la pureza de la verdad,</lem>
+						<rdg wit="#Translation">The purity of the truth only exists in the Holy Scriptures.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y á ella nos manda el Señor por sus Evangelistas y Profetas que la vamos á buscar.</lem>
+						<rdg wit="#Translation">The Lord sends us to the Scriptures through his evangelists and prophets so that we will search for it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Las exposiciones de los hombres, por santos que hayan sido, no son Sagrada Escritura, ni tienen aquellos quilates de verdad ni aquel Espíritu con que ella fue escrita.</lem>
+						<rdg wit="#Translation">Human explanations, saints though they might have been, are not Sacred Scripture, nor do they have those carats of truth, nor that Spirit with which the Scriptures were written.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque muchos de ellos erraron en sus doctrinas, y se desdijeron después de lo que primero habían enseñado;</lem>
+						<rdg wit="#Translation">Many of them erred in their doctrines and they later contradicted what they had at first taught;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">como hizo San Agustín en el libro de sus Retrataciones, y otros muchos como Origines, San Jerónimo, San Cipriano.</lem>
+						<rdg wit="#Translation">like Saint Augustine did in the book of his Retractions, and many others like Origen, Saint Jerome, and Saint Cyprian.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Donde se manifiesta que no hablaban con tal espíritu cual el de los Apóstoles.</lem>
+						<rdg wit="#Translation">So then, it is clear that they did not speak from the same spirit as the Apostles.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque el Espíritu Santo, que hablaba por su boca de ellos, no puede errar, mas antes enseña toda verdad, como se lo había prometido el Señor antes de subida al cielo.</lem>
+						<rdg wit="#Translation">Because the Holy Spirit, who did speak through their mouths, cannot err, but rather he teaches every truth, as the Lord promised before ascending to heaven.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Yo os enviaré les dice el Espíritu Santo, y él os enseñará toda verdad, y os declarará las cosas que os he dicho.</lem>
+						<rdg wit="#Translation">“I will send you,” he tells them, “the Holy Spirit, and he will teach you every truth, and will declare to you what I have told you.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="14">
+				<s>
+					<app>
+						<lem wit="#Transcription">Pero el Espíritu de los hombres puede errar, y muchas veces yerra, en daño suyo, y de los otros.</lem>
+						<rdg wit="#Translation">Now, there is a great risk and danger in the business of our salvation in following warped and half-blind rules made by men who are blind and poorly qualified to guide others.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y porque en el negocio de nuestra salud se corre grande riesgo y peligro en seguir reglas combadas y tuertas de hombres, los cuales son ciegos de suyo, y mal propios para ser guías de otros, es necesario á él que no se quiere perder, seguir regla tan derecha que no pueda engañar á los que se rijeren por ella.</lem>
+						<rdg wit="#Translation">Therefore, it is necessary for him who does not want to be lost to follow the rule that is so straight it could not trick those who are guided by it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Esta es la regla del Evangelio, que es toda divina.</lem>
+						<rdg wit="#Translation">This rule is perfectly divine and comes from the Gospel.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">La cual tiene por Autor á El que es Verdad y Sabiduría eterna de Dios, que ni engaña ni puede engañar.</lem>
+						<rdg wit="#Translation">Its author is the One who is the eternal Truth and Wisdom of God, who neither deceives nor can deceive.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por tanto queremos antes creer al Evangelio y seguir lo que él es infalible, cierto, inmudable, y no contiene que verdad y ellos son mentirosos, mudables, y variables, </lem>
+						<rdg wit="#Translation">Therefore, we want to believe the Gospel and follow it before we believe in men. It is infallible, certain, immutable, and contains nothing but truth. Yet their rules lie and are ever-changing and variable.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y no nos son dados por regla de conocer y agradar á Dios.</lem>
+						<rdg wit="#Translation">They are not given to us as the rule to know and to please God.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="15">
+				<s>
+					<app>
+						<lem wit="#Transcription">Mas ha ya de quinientos años cuando estaba el mundo lleno de tinieblas que muchos hombres sofistas, y otros que no lo eran, hicieron diversos comentarios, glosas, exposiciones, nuevas leyes y tradiciones, allende de las que estaban antes hechas,</lem>
+						<rdg wit="#Translation">When the world was full of darkness over 500 years ago, many sophists, and others who were not, made many commentaries, annotations, explanations and new laws and traditions beyond the ones established earlier.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">las cuales fueron fácilmente recibidas de todos, sembradas e esparcidas por la Cristiandad.</lem>
+						<rdg wit="#Translation">Their works were sown and dispersed by Christianity and were easily received by all.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y fueron tantos y en tan grande numero que la verdadera simiente, que es el Evangelio, fue de tal manera con ellas cubierto y sepultado, que ya casi no se veía, ni divisaba.</lem>
+						<rdg wit="#Translation">There were so many of them in such a massive quantity that they covered and buried the true seed of the Gospel so that it could barely be seen or perceived.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Porque en lugar de él, fueron recibidas, obedecidas y seguidas, mucho mas que si fueran palabra de Dios, con ser á la verdad no otra cosa que pája.</lem>
+						<rdg wit="#Translation">These new laws were received in place of God’s Word and were much better obeyed and followed than if they had been God’s Word, while in truth being nothing but chaff.<note type= "critical" anchored="true"><p><hi rend="italic">Paja</hi>, translated chaff, is listed in Percivals’ 1591 dictionary as meaning “chaffe, strawe, litter” (NTLlE). This likely alludes to biblical passages referring to chaff separated from the wheat to be cast into a fire (Matthew 3:12).</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y el verdadero Evangelio quedó en un perpetuo silencio, tanto que se vino á olvidar aun hasta los vocablos de él, y los maestros y enseñadores de los pueblos no lo sabían</lem>
+						<rdg wit="#Translation">The true Gospel remained in a perpetual silence, to the extent that even its very words were forgotten, and the teachers and instructors of the towns knew nothing of it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y erales un lenguaje bárbaro y no entendido;</lem>
+						<rdg wit="#Translation">To them it was a barbaric language they could not understand.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">pues á estas doctrinas, leyes y tradiciones de hombres (cosa aborrecible delante de Dios) llaman ellos la doctrina Antigua, y por mantenerla y defenderla acosan, destierran, infaman, persiguen, y matan á los Santos, y discípulos de Jesús Cristo y desechan el verdadero Evangelio que Dios por su sola bondad nos ha restituido—</lem>
+						<rdg wit="#Translation">Consequently, they now call human doctrines, laws and traditions (a detestable thing before God), “ancient doctrine,” and they relentlessly pursue, exile, defame, persecute, and kill the saints and disciples of Jesus Christ for upholding and defending it.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y dicen que es doctrina nueva y engañadora, y que incurren en muchos peligros los que la siguen,</lem>
+						<rdg wit="#Translation">They cast out the true Gospel that God in his goodness has restored to us, saying that it is new and deceitful doctrine and that those who follow it fall into many dangers.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">que se suman todos en ser herejes y caer en las manos de los enemigos de ella.</lem>
+						<rdg wit="#Translation">They lump them all together as heretics and place them in the hands of this doctrine’s enemies.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="16">
+				<s>
+					<app>
+						<lem wit="#Transcription">Vean lo que enseñamos y predicamos,</lem>
+						<rdg wit="#Translation">Let them see what we teach and preach.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">lean con paciencia nuestros libros, como nosotros leemos los suyos, y hallarán con verdad (si con todo tienen ojos para ver, y orejas para oír) que tenemos la verdadera y antigua doctrina venida del cielo y revelada por el Espíritu Santo; que es el Evangelio Eterno de Dios;</lem>
+						<rdg wit="#Translation">Let them read our books with patience, just as we read theirs, and if they have eyes to see and ears to hear, they will find with truth that we have the true and ancient doctrine from heaven, revealed by the Holy Spirit, and that God’s Gospel is eternal.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">que son las promesas de su reconciliación prometidas y cumplidas en su Hijo Unigénito;</lem>
+						<rdg wit="#Translation">The promises of his reconciliation are promised and fulfilled by his only-begotten Son,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">que es aquel admirable misterio de la piedad y misericordia que ha Dios habido de nosotros:</lem>
+						<rdg wit="#Translation">who is that the wonderful mystery of the pity and mercy God has had on us.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el cual (como dice San Pablo á Timoteo) fue manifestado en carne, justificado en Espíritu, visto de los Ángeles, predicado por los Apóstoles y discípulos de Jesús Cristo á las gentes de tal manera que fue creído en el mundo, y después recibido en gloria.</lem>
+						<rdg wit="#Translation">He is the one who, as Saint Paul says to Timothy, was made flesh, justified in Spirit, seen by the Angels, preached by the Apostles and disciples of Jesus Christ to all people in such a way that it was believed in all the world, and then received in glory.<note type= "critical" anchored="true"><p>Here Pérez interestingly introduces the relevance of reading with the aim of reconciliation.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+			<p n="17">
+				<s>
+					<app>
+						<lem wit="#Transcription">¿Son por ventura nuevas tales cosas?</lem>
+						<rdg wit="#Translation">Is there any chance these are new things?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el Padre Celestial, como dice el mismo Apóstol á los Efesios, nos eligió en Cristo antes de la fundación del mundo, para que fuésemos Santos y irreprensibles delante de él en caridad.</lem>
+						<rdg wit="#Translation">The Heavenly Father, as the same apostle says to the Ephesians, “He chose us in Christ before the foundation of the world in order that we might be saintly and blameless before him in love.<note type= "critical" anchored="true"><p>Pérez here draws from Ephesians 1:4-7. Interestingly, of the verifiable editions readily available, Pérez punctuates this verse in alignment to the punctuation in this translation. Editions of the Bible in Spanish and in English, however, link “in love” or “en caridad” (in modern translations, “en amor”) to the start of the second sentence, changing the verse to read, “….to be holy and blameless in his sight. In love he predestined us.”</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y nos predestinó para adoptarnos por hijos en Jesús Cristo, según su buena voluntad, para alabanza de la gloria de su gracia por la cual nos ha hecho agradables a sí.</lem>
+						<rdg wit="#Translation">And he predestined us to adopt us as sons in Jesus Christ, according to his good will, for the praise of the glory of his grace by which we have been made pleasing to him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por el cual tenemos redención por su sangre y remisión de pecados, según las riquezas de su gracia.</lem>
+						<rdg wit="#Translation">By which we have redemption by his blood and the remission of sins, according to the riches of his grace.”</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="18">
+				<s>
+					<app>
+						<lem wit="#Transcription">Todas estas cosas son parte de aquel grande secreto y admirable consejo de Dios, por el cual había deliberado de antes que fuese fundando el mundo de salvarnos por tal media y llamarnos con una santa vocación,</lem>
+						<rdg wit="#Translation">All of these things are part of that great secret and wonderful counsel from God, by which he had determined even before the world was founded to save us in this way and call us to a holy calling.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">no por nuestras obras, sino según su santa gracia, la cual nos es dada por Jesús Cristo antes de todos tiempos: mas ahora es cumplida por la manifestación que nos ha hecho Jesús Cristo, mostrándose en forma de hombre,</lem>
+						<rdg wit="#Translation">This was not because of our works, but in accordance with his holy grace, which was granted to us through Jesus Christ before time, but now it is fulfilled by Jesus Christ’s sign to us, revealing himself in the form of man.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">el cual destruyó la muerte y ha revelado la vida en luz y en inmortalidad.</lem>
+						<rdg wit="#Translation">He is the one who destroyed death and who has revealed life in light and immortality.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Visto pues y considerado que son estas cosas tan antiguas, y que de tantos tiempos acá han sido sembradas, anunciadas, y predicadas por el mundo, ¿Como son estos tan desvergonzados, en llamarlas nueva doctrina?</lem>
+						<rdg wit="#Translation">So then, having seen and considered that these things are so ancient and have been sown, announced, and preached throughout the world even from so long ago, how are these men still so unashamed to call them new doctrine?</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="19">
+				<s>
+					<app>
+						<lem wit="#Transcription">¡Oh, miserables hombres!</lem>
+						<rdg wit="#Translation">Oh, miserable men!</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">cesad ya de blasfemar tan desacatadamente: y dad gloria á Dios con nosotros y reverenciad su verdad como conviene.</lem>
+						<rdg wit="#Translation">Immediately cease such disrespectful blasphemies, give glory to God with us and revere his truth as is fitting.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">No se os haga de mal desdeciros de los engaños en que estáis, porque no vengáis á ser endurecidos con los reprobados que no quieren creer á la verdad, pero aprueban sus injusticias y errores.</lem>
+						<rdg wit="#Translation">Do not become evil—rid yourselves of the deceptions that trap you so that you do not become hardened with the condemned who do not want to believe truth but approve of their own injustices and errors.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Por el amor, pues, que debo á todo Cristiano, quise hacer este Tratado, harto breve, llamado la doctrina Nueva y Antigua, por el cual se podrá fácilmente conocer si somos, con razón o sin ella, llamados predicadores y seguidores de nueva doctrina.</lem>
+						<rdg wit="#Translation">For the love that I owe to every Christian, I wanted to write this fairly short Treatise, naming the new and old doctrine, so that one could easily know if we are rightly called preachers and followers of new doctrine or not.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Y así en él se puede saber y entender cómo es confundida la nueva doctrina por la antigua, para responder á los que ciegos de sus intereses, olvidados de los juicios y castigos de Dios, tienen tan perdida la vergüenza, que se osan oponer y hacer contradicción a Jesús Cristo, batallando contra su santo Evangelio, lo cual es una averiguación y testimonio cierto de su condenación.</lem>
+						<rdg wit="#Translation">And so, by this Treatise, you can know and understand exactly how the new doctrine is confused for the old, so you can respond to those who are blinded by their own interests, who forget the judgments and punishments of God, and who have entirely lost all shame to the point that they dare to oppose and contradict Jesus Christ, and fight against his holy Gospel, which is a verification and testament to their condemnation.</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="20">
+				<s>
+					<app>
+						<lem wit="#Transcription">Por tanto, os ruego á todos hermanos muy amados en el Señor, que la estudiéis y entendáis que la doctrina Nueva es la de los hombres, contraria y repugnante á la que vino del Cielo,</lem>
+						<rdg wit="#Translation">Therefore, I beg you, all my brothers and sisters whom I deeply love in the Lord, that you would study and understand that the New Doctrine is the one produced by men and is contrary and repugnant to the doctrine from Heaven.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">y la Antigua es de Dios, para que recibiéndola y sujetándoos á ella, seáis salvos con salud eterna, y en lo mismo tengáis firmísimo testimonio de ser hijos del Altísimo, y herederos para siempre de su celestial Reino.</lem>
+						<rdg wit="#Translation">Know also that the Ancient Doctrine is from God and that by receiving and submitting yourselves to it, you will be saved with eternal life, and in the same you will have exceptionally firm testimony of being children of the Most High, the heirs forever to his heavenly kingdom.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Amen.</lem>
+						<rdg wit="#Translation">Amen.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
