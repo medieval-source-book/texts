@@ -1,0 +1,195 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Efrosin's Tale of Solomon and Kitrovas</title>
+				<author>Efrosin</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Vito S. Acosta</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Vito S. Acosta</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>“The Tale of Solomon and Kitovras” is part of a collection compiled by the priest-monk Efrosin of the Kirillo-Belozersky Monastery (St. Cyril of Beloozero’s Monastery) in the late 15th century CE. The monastery is located north of Moscow and originally functioned as a place of exile for elites and clergymen in disgrace. In 1446 CE, Grand Prince Vasily II came to the monastery, where the Father Superior, Tryphon, absolved him from the oath he had taken not to fight for the Muscovite throne. Following Vasily’s victory in the Muscovite Civil War, the Kirillo-Belozerky Monastery was granted special status and received an inflow of generous donations. The monastery became a place of broad intellectual activities and its prestige within the Muscovite state made it an attractive place for monks. It retained its high status through the reign of Grand Prince Ivan III (r. 1462-1505 CE) during which Efrosin composed the present text.</p>
+                <p>The manuscript, a book of encyclopedic content that includes writings from the Paleia, was part of Efrosin’s personal notebooks and may have been used for pedagogical purposes. It is absent from the book catalogue of the monastery’s library, which suggests that it was likely kept in Efrosin’s own cell.  The book is thick but compact, approximately 14 x 10 cm and covered in leather bindings.</p>
+                <p>Efrosin is one of the most remarkable men of letters of the Grand Duchy of Moscow but information about him is sparse. One of the few references to him outside his own notebooks mentions that he departed the monastery for over a year. In addition to religious texts, Efrosin’s collections include subjects such as geography, history, medicine, astronomy, and lexicography, and this breadth is representative of an encyclopedic trend in writings of the period. (See also Efrosin’s version of the “Tale of Dracula” in this sourcebook.) While Efrosin appears to have been in good standing with the Church, he did have a particular interest in texts, such as this story, which had been denounced as “false” or “of little use.” Of the texts he copied, he edited many to his own liking, with revisions, additions, and personal notes. In rewriting the texts in this manner, Efrosin often provided his own interpretations, thus creating original versions.</p>
+                <p>Efrosin’s creative synopsis of the “Tale of Solomon and Kitovras” is an original version of a longer tale which Efrosin had copied as part of the “Judgements of Solomon” cycle found in the Paleia, a major Old Russian interpretative text that retells much of the Old Testament with apocryphal additions and comments. Based on the image of the biblical king renowned for his wisdom and portrayed as a great holder of knowledge, tales of King Solomon formed a genre with a storied tradition that became a hallmark of Slavic Orthodox literary culture. Legends of Kitovras, a Slavic derivative of “Centaur”, occupy an important place in this tradition. Efrosin’s version takes considerable liberty with the tale and includes themes not present in his source, which he himself copied and included in the same book.</p>
+                <p>In the source version, Solomon captures Kitovras to help him with the construction of the Holy of Holies in Jerusalem. While held in captivity, Kitovras exhibits the ability to know the fates of several people. He tells Solomon how to obtain the Shamir stone needed to build the temple and stays with him through its completion. When Solomon doubts Kitovras’ strength, Kitovras throws him to the edge of the promised land. Upon his return, Solomon orders sixty bodyguards around his bed for protection against Kitovras.</p>
+                <p>In his edition, Efrosin added, for example, a description of the beast, but gave him cow legs instead of the horse legs depicted in the miniature drawn by the icon-painter Ephraim Trebes in section 127 of the same manuscript and in Nicetas of Heracleia’s commentary on Achilles and the Centaur, copied in the Kirillov Mythographer. The dialogue and Kitovras’s response to Solomon that, “Best of all is one’s own freedom,” is also Efrosin’s personal addition, and a deliberate choice for emphasis. Specialists have suggested that this line can be read in the context of the trend for monks, like Efrosin, to leave the monastery for extended periods of time, thereby living with a sense of independence that is reflected in the writings of the period as a whole. The modifications and additions that Efrosin made to the dialogue between Solomon and Kitovras and to the plot itself thus make his retelling stand out among other versions of this classic tale.</p>
+                <p>Likhachev, D. S, and Lev Aleksandrovich Dmitriev. A History of Russian Literature, 11th-17th Centuries : A Textbook. Moscow: Raduga Publishers, 1989.</p>
+                <p>Situates the Tale, discussed on pages 323-324, in the context of the Russian literary tradition.</p>
+                <p>Lur’e [Luria], Jakov S., “Une légende inconnue de Salomon et Kitovras dans un manuscrit du XVe siècle”, in Revue des études slaves, 43, fascicule 1-4, 1964. pp. 7-11.</p>
+                <p>Translation, transcription, and discussion in French of Efrosin’s short retelling of the tale.</p>
+                <p>Prokhorov, Gelian Mikhailovich. “Skazaniye o Solomone i Kitovrase” http://www.infoliolib.info/rlit/drl/solomon.html.</p>
+                <p>Transcription and Russian translation of the source version Efrosin had copied from the Paleia.</p>
+                <p>Romanchuk, Robert. Byzantine Hermeneutics and Pedagogy in the Russian North. Toronto: Toronto University Press, 2007.</p>
+                <p>Context for the intellectual milieu at the Kirillo-Belozersky Monastery. See especially Chapter 4, pages 202-210, where Romanchuk discusses Efrosin’s editions of the Solomon and Kitovras tales.</p>
+                <p>Russian National Library, “Euphrosynus Manuscripts - Fifteenth-Century Miscellanies of the ‘Leonardo Da Vinci of Ancient Russia.’” Russian National Library, 2013, expositions.nlr.ru/EfrosinManuscripts/eng/.</p>
+                <p>Critical background information in both English and Russian from the Russian National Library, host of the Efrosin manuscripts.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Kir.-Bel. 11/1088, no. 262, Russian National Library</p>
+				<listWit>
+					<witness xml:id="Transcription">"ѡ҆ Китоврасѣ ѿ палеи"</witness>
+					<witness xml:id="Translation">Efrosin’s Tale of Solomon and Kitovras</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Efrosin’s Tale of Solomon and Kitovras" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>My translation generally follows the grammar of the original. For the transcription, I have attempted to reproduce the graphic form of the text as it is preserved in the manuscript, without introducing modern punctuation. For example, I have retained the abbreviated forms indicated by a titlo (  ҃). I decided to retain a limited number of diacritic signs, which in most cases are aspiration signs (  ҆) over a vowel at the beginning of a word or following another vowel.  The principal modification in my transcription is the addition of spaces between words. I am deeply indebted to Professor Julia Verkholantsev, my instructor of Old Church Slavonic at the University of Pennsylvania, for her generous guidance in this project.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">"ѡ҆ Китоврасѣ ѿ палеи"</lem>
+						<rdg wit="#Translation">Efrosin’s Tale of Solomon and Kitovras</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">ѡ҆ Китоврасѣ ѿ палеи</lem>
+						<rdg wit="#Translation">On Kitrovras<note type= "critical" anchored="true"><p>‘Kitovras’ is a Slavic derivative of ‘Centaur’.</p></note>, from the Paleia<note type= "critical" anchored="true"><p>A major Old Russian interpretative text that retells much of the Old Testament with apocryphal additions and comments.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Китоврасъ є҆сть звѣрь борзъ</lem>
+						<rdg wit="#Translation">Kitovras is a swift beast.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">соломонъ мр͠дӹ<note type= "critical" anchored="true"><p>This is a mistake for мд͠рӹ, from the adjective мѫдръ, meaning ‘wise’.</p></note> хитростїю изымалъ є҆го.</lem>
+						<rdg wit="#Translation">Solomon<note type= "critical" anchored="true"><p>This is the biblical figure, King Solomon.</p></note> the Wise caught him with a trick.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">станъ члв҃чь<note type= "critical" anchored="true"><p>чєловечь</p></note> а҆ ноги коровїи.</lem>
+						<rdg wit="#Translation">His upper body is of a man and his legs are of a cow.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">рекше баснѧ<note type= "critical" anchored="true"><p>баснѧтъ</p></note> женоу во оухѣ носилъ.</lem>
+						<rdg wit="#Translation">Legend has it that he carried his wife in his ear.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">тою҆ хитростїю ꙗ҆ли<note type= "critical" anchored="true"><p>ѧли</p></note> є҆го.</lem>
+						<rdg wit="#Translation">With the following trick they seized him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">жена є҆го сказала ю҆ноши любовникоу свое҆мᲂу, такъ.</lem>
+						<rdg wit="#Translation">His wife<note type= "critical" anchored="true"><p>The wife of Kitovras.</p></note> explained to a lad, her young lover:</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">ѡ҆бходить дн҃емъ да нощїю много земель. да приходить к нѣкоє҆моу мѣстоу на нем же двӓ кладѧзѧ.</lem>
+						<rdg wit="#Translation">“He goes day and night across numerous lands and reaches a certain place at which there are two wells.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">ѡ҆н же тѣ и҆спиває҆ть ѡ҆бӓ кладѧзѧ и҆здоушасѧ.</lem>
+						<rdg wit="#Translation">Exhausted, he drinks from both these wells.”</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">соломон же велѣлъ налити и҆хъ є҆динъ вина. а҆ дроуги медоу.</lem>
+						<rdg wit="#Translation">Solomon ordered that one be filled with wine and the other with mead.<note type= "critical" anchored="true"><p>Fermented honey.</p></note></rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">ѡ҆н же тѣ ѡ҆бӓ кладѧзѧ прискоча и҆спилъ.</lem>
+						<rdg wit="#Translation">Leaping, Kitovras drank from both wells.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">тоуто є҆го пїѧного съ сна пои҆мали и҆ сковали крѣпко. сила бо в немъ была велика.</lem>
+						<rdg wit="#Translation">Just then, with him drunk and drowsy, they took and fettered him tightly, as the strength in him was immense.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и҆ привели ко цр҃ю соломоноу.</lem>
+						<rdg wit="#Translation">And they brought him to King Solomon.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">цр҃ь въпросилъ є҆го. что є҆сть оузорочнѣе во свѣтѣ семь.</lem>
+						<rdg wit="#Translation">The King asked him: “What is most beautiful in this world?”</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">ѡ҆н же ре всего є҆сть лоучши своѧ волѧ.</lem>
+						<rdg wit="#Translation">He replied: “Best of all is one’s own freedom.”</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">абїе крѧноулсѧ и҆ всё переломалъ : и҆ поскочилъ на свою волю,</lem>
+						<rdg wit="#Translation">Stirring forthwith, he broke everything into pieces and leapt to his own freedom.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">гл҃ють є҆го ꙗ҆ко цр҃евъ сн҃ъ двд҃овъ ჻</lem>
+						<rdg wit="#Translation">It is said that he is the son of a king, King David.<note type= "critical" anchored="true"><p>This would make Kitovras the brother of King Solomon.</p></note></rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

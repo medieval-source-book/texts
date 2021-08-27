@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Strike the Parasol Tree”&#8212;"The fragrant dimple"</title>
+				<title>To the tune “Strike the Parasol Tree”&#8212;"Her deep dimples are fragrantly powdered"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -49,7 +51,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Strike the Parasol Tree”&#8212;"The Fragrant Dimple" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Strike the Parasol Tree”&#8212;"Her deep dimples are fragrantly powdered" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -69,7 +71,7 @@
 				<title type="main">
 					<app>
 						<lem wit="#Transcription">擊梧桐</lem>
-						<rdg wit="#Translation">To the tune “Strike the Parasol Tree”&#8212;"The Fragrant Dimple"</rdg>
+						<rdg wit="#Translation">To the tune “Strike the Parasol Tree”</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,19 +82,19 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">香靨深深，</lem>
-						<rdg wit="#Translation">The fragrant dimple is deep,</rdg>
+						<rdg wit="#Translation">Her deep dimples are fragrantly powdered,</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">姿姿媚媚，</lem>
-						<rdg wit="#Translation">handsome and enchanting;</rdg>
+						<rdg wit="#Translation">her posture is enchanting;</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">雅格奇容天與。</lem>
-						<rdg wit="#Translation">she has heaven-endowed elegance and extraordinary beauty.</rdg>
+						<rdg wit="#Translation">she is gifted with elegance and extraordinary beauty.</rdg>
 					</app>
 				</l>
 				<l n="4">
@@ -104,19 +106,19 @@
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">便好看承，</lem>
-						<rdg wit="#Translation">I have been treating her with care,</rdg>
+						<rdg wit="#Translation">I have been treated with care,</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">會得妖嬈心素。</lem>
-						<rdg wit="#Translation">and thus won over her bewitching heart.</rdg>
+						<rdg wit="#Translation">and so I knew her bewitching heart (was devoted to me).</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">臨歧再約同歡，</lem>
-						<rdg wit="#Translation">Upon parting, we swore to share joy again,</rdg>
+						<rdg wit="#Translation">Upon parting, we swore to share joy again<note type= "critical" anchored="true"><p>A euphemism for sex.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="8">
@@ -153,7 +155,7 @@
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription">寒暄而已，  </lem>
+						<lem wit="#Transcription">寒暄而已，</lem>
 						<rdg wit="#Translation">with only simple greetings.</rdg>
 					</app>
 				</l>
@@ -184,7 +186,7 @@
 				<l n="18">
 					<app>
 						<lem wit="#Transcription">見說蘭台宋玉，</lem>
-						<rdg wit="#Translation">I have heard of Song Yu, the Historian of the Orchid Terrace,</rdg>
+						<rdg wit="#Translation">I have heard of Song Yu of the Orchid Terrace<note type= "critical" anchored="true"><p>See discussion in introduction.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="19">
@@ -195,7 +197,7 @@
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription">試與問、 </lem>
+						<lem wit="#Transcription">試與問、</lem>
 						<rdg wit="#Translation">I’d like to ask him,</rdg>
 					</app>
 				</l>
@@ -208,7 +210,7 @@
 				<l n="22">
 					<app>
 						<lem wit="#Transcription">行雲何處去。</lem>
-						<rdg wit="#Translation">where did the floating cloud go?   </rdg>
+						<rdg wit="#Translation">where did the floating cloud go<note type= "critical" anchored="true"><p>See introduction for a discussion of these two lines.</p></note>?</rdg>
 					</app>
 				</l>
 			</lg>

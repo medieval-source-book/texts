@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -41,7 +43,7 @@
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 15.</p>
 				<listWit>
-					<witness xml:id="Transcription">晝夜樂 </witness>
+					<witness xml:id="Transcription">晝夜樂</witness>
 					<witness xml:id="Translation">To the tune “Joys of Day and Night”</witness>
 				</listWit>
 			</sourceDesc>
@@ -67,7 +69,7 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">晝夜樂 </lem>
+						<lem wit="#Transcription">晝夜樂</lem>
 						<rdg wit="#Translation">To the tune “Joys of Day and Night”</rdg>
 					</app>
 				</title>
@@ -79,7 +81,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">洞房記得初相遇。</lem>
-						<rdg wit="#Translation">The bedroom remembers the day we first met,</rdg>
+						<rdg wit="#Translation">I remember the day we first met in the bedroom<note type= "critical" anchored="true"><p>The term for bedroom specifically refers to a bedroom for newly-weds. It is unclear whether the couple are themselves newly-weds or if this term is being used symbolically. The mention of “secret joy” in the third line implies that they may be unmarried lovers.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -90,20 +92,20 @@
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">何期小會幽歡， </lem>
+						<lem wit="#Transcription">何期小會幽歡，</lem>
 						<rdg wit="#Translation">How could I have known that an encounter of secret joy</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">變作離情別緒。</lem>
-						<rdg wit="#Translation">Would end in the pain and sorrow of parting?</rdg>
+						<rdg wit="#Translation">would end in the pain and sorrow of parting?</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">況值闌珊春色暮。</lem>
-						<rdg wit="#Translation">Not to mention that it happened when the declining spring beauty came to its end.</rdg>
+						<rdg wit="#Translation">Not to mention that it happened when spring's beauty, declining, came to its end.</rdg>
 					</app>
 				</l>
 				<l n="6">
@@ -115,13 +117,13 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">直恐好風光，  </lem>
-						<rdg wit="#Translation">I worried that good times</rdg>
+						<rdg wit="#Translation">I worried that the good times</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">盡隨伊歸去。</lem>
-						<rdg wit="#Translation">Would all go away with him.</rdg>
+						<rdg wit="#Translation">would all go away with him.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -129,19 +131,19 @@
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">一場寂寞憑誰訴。</lem>
-						<rdg wit="#Translation">A plight of loneliness&#8212; whom should I talk to?</rdg>
+						<rdg wit="#Translation">A plight of loneliness&#8212; whom should I tell?</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">算前言、總輕負。</lem>
-						<rdg wit="#Translation">People say that words in the past are always easy to discard.</rdg>
+						<rdg wit="#Translation">The words of the past are always easy to discard.</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">早知恁的難拚，</lem>
-						<rdg wit="#Translation">Had I only realized how hard it is to leave the words behind!</rdg>
+						<rdg wit="#Translation">Had I only realized how hard (it would be to live without him)!</rdg>
 					</app>
 				</l>
 				<l n="12">
@@ -153,25 +155,25 @@
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">其奈風流端正外，</lem>
-						<rdg wit="#Translation">What can I do besides be charming and good mannered?</rdg>
+						<rdg wit="#Translation">What can I do, since he is not only charming and well-mannered</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">更別有、繫人心處 </lem>
-						<rdg wit="#Translation">He, too, has something that ties one’s heart. </rdg>
+						<rdg wit="#Translation">but also has many other good traits that tie one’s heart?</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
 						<lem wit="#Transcription">一日不思量，</lem>
-						<rdg wit="#Translation">Even when I am not thinking about him the entire day, </rdg>
+						<rdg wit="#Translation">Even when I am not thinking about him for one day,</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">也攢眉千度。</lem>
-						<rdg wit="#Translation">My eyebrows frown a thousand times.</rdg>
+						<rdg wit="#Translation">my eyebrows frown<note type= "critical" anchored="true"><p>A common idiom which means that one is worried.</p></note> a thousand times.</rdg>
 					</app>
 				</l>
 			</lg>

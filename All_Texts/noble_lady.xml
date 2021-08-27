@@ -1,0 +1,200 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Noble Lady"</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Inca Garcilaso de la Vega</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Leonardo Velloso-Lyons</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Leonardo Velloso-Lyons</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target=""></ref></p>
+				<listWit>
+					<witness xml:id="Transcription">“Sumaq Ñusta”</witness>
+					<witness xml:id="Translation">"Noble Lady"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Noble Lady" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Sumaq Ñusta<note type= "critical" anchored="true"><p><hi rend="italic">Ñusta</hi> is the Quechua word used to describe a woman of Inka (royal) ascent. Inca Garcilaso’s mother was a <hi rend="italic">ñusta</hi>.</p></note></lem>
+						<rdg wit="#Translation">Noble Lady!</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">Turallaykim<note type= "critical" anchored="true"><p>Quechua is an agglutinant language. Words and sentences are formed by adding suffixes to them. In this case, <hi rend="italic">tura</hi> is the brother of a woman, <hi rend="italic">lla</hi> is a suffix that means “only” and is sometimes used as emphasis, <hi rend="italic">yki</hi> is the suffix that indicates the second-person possessive. Finally, the <hi rend="italic">m</hi> at the end is a suffix that indicates a strong assertion. I chose not to use “definitely only” to convey the sense of <hi rend="italic">lla</hi> and m because this kind of emphatic repetition, though normal and even desirable in Quechua, is not very organic to either English or Spanish.</p></note></lem>
+						<rdg wit="#Translation">It is definitely your brother</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">Puñuykita<note type= "critical" anchored="true"><p><hi rend="italic">Puñu</hi> is a clay jug, used for storing water, <hi rend="italic">yki</hi> is the possessive explained in the previous note, and <hi rend="italic">ta</hi> is the suffix that indicates the direct object of the action, which comes in the next verse.</p></note></lem>
+						<rdg wit="#Translation">Who shatters</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">Pakirqayan<note type= "critical" anchored="true"><p>This unusual form is original to the source text, the <hi rend="italic">Comentarios Reales</hi>. It could be a different spelling of the verb <hi rend="italic">p’akirqariy</hi> (in the Cuzco-Collao variant) or <hi rend="italic">pakirqachiy</hi> (in the Ayacucho-Chanca variant). It means “to shatter”, and is conjugated in the third person present indicative. The order of object-verb is switched in the translation to make it easier to understand; in modern and premodern Quechua, much like Latin, sentences normally end on a conjugated verb. Given the language’s agglutinant nature and the presence of suffixes that demarcate the syntactical role of each word, word order is less important in Quechua than in either Spanish or English.</p></note></lem>
+						<rdg wit="#Translation">Your clay jug.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Hinamantara<note type= "critical" anchored="true"><p><hi rend="italic">Hinamantara</hi> sounds like an archaic form of a consequential clause, <hi rend="italic">chaymanta</hi>, meaning “from that” or “because of that.” <hi rend="italic">Hina</hi> is a very interesting word, still in use in modern Quechua, which can have different meanings. It is used as a particle for comparisons between two elements; it can function as a particle to trigger the subjunctive mood, much like the phrase “as if”; and it can also simply be used to refer to something previously mentioned, which is the case here. Manta is the suffix that functions as the ablative of origin or cause in Latin, used to refer to both time and space.</p></note></lem>
+						<rdg wit="#Translation">Because of this</rdg>
+					</app>
+				</l>
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">Kunununun<note type= "critical" anchored="true"><p><hi rend="italic">Kunununuy</hi> means “making a strong sound.” See following note.</p></note></lem>
+						<rdg wit="#Translation">It thunders,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">Illapantaq<note type= "critical" anchored="true"><p><hi rend="italic">Illapay</hi> is a verb that Inca Garcilaso comments on extensively in the <hi rend="italic">Comentarios Reales</hi>. He translates it as having three meanings, all referring to the phenomenon we call thunder: the thunder as a sound, the lightning bolt that appears, and the way it hits something on the ground. For Inca Garcilaso, this verb shows an important feature of the Quechua language, namely that words normally have multiple meanings. This makes translating from Quechua particularly challenging for historians and scholars of Andean culture.</p></note></lem>
+						<rdg wit="#Translation">While lightning falls from the sky.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Qamrí Ñusta<note type= "critical" anchored="true"><p><hi rend="italic">Rí</hi> in modern Quechua means “and,” in a vocative context. It is normally used in conversation to turn the focus to the other person, as in “I am well, and you?” In this case, however, <hi rend="italic">rí</hi> seems to both turn attention to the <hi rend="italic">ñusta</hi> to whom the poem is addressed and also to create a sense of contrast between her benevolent role in generating natural phenomena (like rain or snow) and her brother’s violent one, which brings about storms.</p></note></lem>
+						<rdg wit="#Translation">However, it is you, Lady,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">Unuykita<note type= "critical" anchored="true"><p><hi rend="italic">Unu</hi> means water. Modern Quechua speakers could also say <hi rend="italic">yaku</hi>. <hi rend="italic">Yki</hi> is the possessive, again, explained in the first note, and ta is the suffix that indicates a direct object to the following three verbs: <hi rend="italic">paramunki</hi>, <hi rend="italic">chichimunki</hi>, and <hi rend="italic">ritimunki</hi>.</p></note></lem>
+						<rdg wit="#Translation">Who rain your waters</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Paramunki</lem>
+						<rdg wit="#Translation">Down upon us.</rdg>
+					</app>
+				</l>
+                <l n="11">
+					<app>
+						<lem wit="#Transcription">Maynimpirí</lem>
+						<rdg wit="#Translation">And sometimes</rdg>
+					</app>
+				</l>
+                <l n="12">
+					<app>
+						<lem wit="#Transcription">Chikchimunki</lem>
+						<rdg wit="#Translation">You send us hail,</rdg>
+					</app>
+				</l>
+                <l n="13">
+					<app>
+						<lem wit="#Transcription">Ritimunki<note type= "critical" anchored="true"><p>Today <hi rend="italic">paray</hi> means “to rain”, <hi rend="italic">chikchiy</hi> means “to hail” and <hi rend="italic">ritiy</hi> “to snow”. However, Inca Garcilaso’s transcription says <hi rend="italic">chichimunki</hi>, from the verb <hi rend="italic">chichiy</hi>, which means to germinate. As the poem is about different forms of water that fall from the sky, I chose to correct the verb to <hi rend="italic">chikchiy</hi>, using the modern spelling. The suffix mu indicates the direction of an action. It is often accompanied, in modern Quechua, by another suffix (<hi rend="italic">wa</hi>), and it means in the direction of the speaker.</p></note></lem>
+						<rdg wit="#Translation">You send us snow.</rdg>
+					</app>
+				</l>
+                <l n="14">
+					<app>
+						<lem wit="#Transcription">Pacharuwaq<note type= "critical" anchored="true"><p><hi rend="italic">Pacha</hi> is a complex word in Quechua, with many different meanings, including: earth, Earth, the world, time, clothes. In this case, it probably means “the world,” as it refers to the deity that made the world. <hi rend="italic">Ruwaq</hi> comes from the verb <hi rend="italic">ruway</hi>, to make. The <hi rend="italic">q</hi> is a suffix added to verbs to turn them into an adjective, in this case, “the one who makes,” or “maker, creator.” Although the original says <hi rend="italic">ruraq</hi>, I have chosen to modernize the spelling of the verb.</p></note></lem>
+						<rdg wit="#Translation">It is for this purpose that</rdg>
+					</app>
+				</l>
+                <l n="15">
+					<app>
+						<lem wit="#Transcription">Pachakamaq<note type= "critical" anchored="true"><p><hi rend="italic">Pachakamaq</hi> is one of the Quechua names for the deity who created the world. For Christian Quechua speakers, it means the Christian God. Inca Garcilaso dedicates a whole chapter of the <hi rend="italic">Comentarios Reales</hi> to this word. <hi rend="italic">Kamay</hi> means “to create, to invent, to discover.”</p></note></lem>
+						<rdg wit="#Translation">The maker of the world,</rdg>
+					</app>
+				</l>
+                <l n="16">
+					<app>
+						<lem wit="#Transcription">Wiraqucha<note type= "critical" anchored="true"><p><hi rend="italic">Wiraqucha</hi> or, in Spanish, <hi rend="italic">Viracocha</hi>, is the name of a specific Inca deity, who is sometimes described as a historical character. There are extensive commentaries on Viracocha in the <hi rend="italic">Comentarios Reales</hi>. In modern Quechua, <hi rend="italic">wiraqucha</hi> is used to describe someone who has attained distinction through their actions or leadership.</p></note></lem>
+						<rdg wit="#Translation">The ruler of the world,</rdg>
+					</app>
+				</l>
+                <l n="17">
+					<app>
+						<lem wit="#Transcription">Kay hinapaq<note type= "critical" anchored="true"><p><hi rend="italic">Hina</hi> is explained in a previous note. Here, as in the previous case, it refers to something that was previously mentioned (like the particle chay in modern Quechua). <hi rend="italic">Paq</hi> is the suffix that indicates purpose, meaning “because of that” or “for the benefit of,” somewhat equivalent to the dative case in Latin.</p></note></lem>
+						<rdg wit="#Translation">The Wiraqucha,</rdg>
+					</app>
+				</l>
+                <l n="18">
+					<app>
+						<lem wit="#Transcription">Churasunki</lem>
+						<rdg wit="#Translation">Will have put you there,</rdg>
+					</app>
+				</l>
+                <l n="19">
+					<app>
+						<lem wit="#Transcription">Kamasunki<note type= "critical" anchored="true"><p>These two last verbs, <hi rend="italic">churay</hi> and <hi rend="italic">kamay</hi>, are in the third-person future form but have the suffix <hi rend="italic">ki</hi> added to them to indicate that, though the action is carried out by the third person, it impacts the second person. Future conjugation in Quechua is relatively complex when it includes, as it does here, directional particles that include the other persons within the scope of the action. It is interesting that Inca Garcilaso’s Spanish translation of the last two lines of the poem gives both these verbs in the past not the future: “Ya te colocaron / Y te dieron alma” (“Have already put you there / And have given you a soul”). To reflect the insight that Inca Garcilaso may have had into this grammatical form, I have chosen to use the future participle; in this way, I have sought to convey the future tense present in the original while also giving the impression that there is something already consummated about the action (<hi rend="italic">churay</hi>, which means to put, and <hi rend="italic">kamay</hi>, which means to create).</p></note></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

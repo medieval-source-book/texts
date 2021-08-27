@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Spring of the Brocade Hall”&#8212;"Drooping Hair-Bun"</title>
+				<title>To the tune “Spring of the Brocade Hall”&#8212;"Drooping hair-bun, I am too listless to comb it"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -49,7 +51,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Spring of the Brocade Hall”&#8212;"Drooping Hair-Bun" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Spring of the Brocade Hall”&#8212;"Drooping hair-bun, I am too listless to comb it" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -69,7 +71,7 @@
 				<title type="main">
 					<app>
 						<lem wit="#Transcription">锦堂春</lem>
-						<rdg wit="#Translation">To the tune “Spring of the Brocade Hall”&#8212;"Drooping Hair-Bun"</rdg>
+						<rdg wit="#Translation">To the tune “Spring of the Brocade Hall”</rdg>
 					</app>
 				</title>
 			</head>
@@ -79,14 +81,14 @@
 				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription">墜髻慵梳，  </lem>
+						<lem wit="#Transcription">墜髻慵梳，</lem>
 						<rdg wit="#Translation">Drooping hair-bun, I am too listless to comb it;</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">愁蛾懶畫，</lem>
-						<rdg wit="#Translation">Frowning eyebrows, I am too tired to draw them.</rdg>
+						<rdg wit="#Translation">Frowning eyebrows<note type= "critical" anchored="true"><p>The literal translation is “Frowning silkworm moth tentacles”. “Silkworm moth tentacles” (蛾) refers to women’s beautiful eyebrows due to their resemblance in shape.</p></note>, I am too tired to draw them.</rdg>
 					</app>
 				</l>
 				<l n="3">
@@ -104,7 +106,7 @@
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">金縷衣寬。</lem>
-						<rdg wit="#Translation">My gold-thread gown hangs loose.</rdg>
+						<rdg wit="#Translation">My gold-thread gown<note type= "critical" anchored="true"><p>Refers to beautiful clothes. The image of “gold-thread gown” comes from an anonymous poem in Tang Dynasty: I need to persuade you that you shouldn’t cherish gold-thread gowns, but to cherish youthful years. When there’re flowers on branches you should pick those flowers; don’t wait until the flower withers, and you could only pick an empty branch.”</p></note> hangs loose.</rdg>
 					</app>
 				</l>
 				<l n="6">
@@ -116,25 +118,25 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">向人誚譬如閒。</lem>
-						<rdg wit="#Translation">Mocked me in front of others as if it were nothing.</rdg>
+						<rdg wit="#Translation">talked in front of others as if nothing had happened.</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">把芳容整頓，</lem>
-						<rdg wit="#Translation">Suddenly he ignored my flower-like face entirely,</rdg>
+						<rdg wit="#Translation">I should fix the makeup on my flower-like face&#8212;</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">恁地輕孤，</lem>
-						<rdg wit="#Translation">And left me in loneliness like this.</rdg>
+						<rdg wit="#Translation">failing my youthful years like this,</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">爭忍心安。</lem>
-						<rdg wit="#Translation">How was his heart not bothered by it?</rdg>
+						<rdg wit="#Translation">how can I live with myself?</rdg>
 					</app>
 				</l>
 			</lg>
@@ -142,7 +144,7 @@
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">依前過了舊約，</lem>
-						<rdg wit="#Translation">As usual, he broke his promises.  </rdg>
+						<rdg wit="#Translation">As usual, he broke his promises.</rdg>
 					</app>
 				</l>
 				<l n="12">
@@ -154,7 +156,7 @@
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">偷剪雲鬟。</lem>
-						<rdg wit="#Translation">Making me secretly cut off a lock of hair for him.</rdg>
+						<rdg wit="#Translation">making me secretly cut off a lock of hair<note type= "critical" anchored="true"><p>Cutting off a lock of one’s hair and giving it to the man is a token for love and intimate bond.</p></note> for him.</rdg>
 					</app>
 				</l>
 				<l n="14">
@@ -178,7 +180,7 @@
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">尤雲殢雨，</lem>
-						<rdg wit="#Translation">Cloud-and-rain,</rdg>
+						<rdg wit="#Translation">to cozy up in cloud-and-rain<note type= "critical" anchored="true"><p>“Cloud and rain” alludes to a song, <hi rend="italic">Song of Gao Tang</hi> (<hi rend="italic">高唐赋</hi>), written by Song Yu 宋玉, who lived during the Warring States period (453–221 BCE). The <hi rend="italic">Song of Gao Tang</hi> narrates a brief love affair between the Huai King of Chu 楚怀王 and a mountain fairy which takes place in the king’s dream; in this dream, the mountain fairy describes her residence after their lovemaking as “made from the cloud in the morning, but comprised of rain in the evening”.  The imagery of cloud and rain is often used as a euphemism for sexual intercourse in Chinese poetry.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="18">
@@ -190,7 +192,7 @@
 				<l n="19">
 					<app>
 						<lem wit="#Transcription">不與同歡。</lem>
-						<rdg wit="#Translation">Refusing to share joy with him.</rdg>
+						<rdg wit="#Translation">refusing to share joy<note type= "critical" anchored="true"><p>This is a euphemism for sex.</p></note> with him.</rdg>
 					</app>
 				</l>
 				<l n="20">

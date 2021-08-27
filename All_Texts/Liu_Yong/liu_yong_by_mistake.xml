@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Jade Butterfly”&#8212;"By Mistake"</title>
+				<title>To the tune “Jade Butterfly”&#8212;"By mistake, I enter a narrow alley in the Pingkang Ward"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -41,7 +43,7 @@
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 41.</p>
 				<listWit>
-					<witness xml:id="Transcription">玉蝴蝶  </witness>
+					<witness xml:id="Transcription">玉蝴蝶</witness>
 					<witness xml:id="Translation">To the tune “Jade Butterfly”</witness>
 				</listWit>
 			</sourceDesc>
@@ -49,7 +51,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Jade Butterfly”&#8212;"By Mistake" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Jade Butterfly”&#8212;"By mistake, I enter a narrow alley in the Pingkang Ward" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +70,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">玉蝴蝶  </lem>
-						<rdg wit="#Translation">To the tune “Jade Butterfly”&#8212;"By Mistake"</rdg>
+						<lem wit="#Transcription">玉蝴蝶</lem>
+						<rdg wit="#Translation">To the tune “Jade Butterfly”</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,19 +82,19 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">誤入平康小巷，</lem>
-						<rdg wit="#Translation">By mistake, I entered a narrow alley in the Pingkang Ward.</rdg>
+						<rdg wit="#Translation">By mistake, I entered a narrow alley in the Pingkang Ward<note type= "critical" anchored="true"><p>The Pingkang Ward was a district in Chang’an. During the Tang Dynasty, it was known as the district of brothels and places where singers lived and performed. Here the term is used metaphorically to convey that the speaker is entering a district of similar kind.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">畫簷深處，</lem>
-						<rdg wit="#Translation">Deep in the painted eaves,</rdg>
+						<rdg wit="#Translation">Deep in the painted eaves<note type= "critical" anchored="true"><p>The painted eaves refer to the song houses and brothels.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">珠箔微褰。</lem>
-						<rdg wit="#Translation">the pearl curtain slightly raised.</rdg>
+						<rdg wit="#Translation">the pearl curtain is slightly raised.</rdg>
 					</app>
 				</l>
 				<l n="4">
@@ -110,31 +112,31 @@
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">翠眉開、</lem>
-						<rdg wit="#Translation">Her dark eyebrows relaxed,</rdg>
+						<rdg wit="#Translation">Her dark<note type= "critical" anchored="true"><p>The literal translation is “green eyebrows”. The women at that time had the habit of using oxidized copper dust to paint their eyebrows, which would turn them dark green.</p></note> eyebrows relaxed,</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">嬌橫遠岫，</lem>
-						<rdg wit="#Translation">like beautiful extending ridges.</rdg>
+						<rdg wit="#Translation">like beautiful extending ridges<note type= "critical" anchored="true"><p>In Chinese poetry, beautiful women’s eyebrows are often compared with mountains because of their shape.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">綠鬢嚲、</lem>
-						<rdg wit="#Translation">Her drooping green hair </rdg>
+						<rdg wit="#Translation">Her drooping dark hair<note type= "critical" anchored="true"><p>The literal translation is “green hair”. At that time, “green” was used to refer to the darker shades of any color.</p></note></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">濃染春煙。</lem>
-						<rdg wit="#Translation">was richly infused with spring mist.</rdg>
+						<rdg wit="#Translation">is richly infused with spring mist.</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">憶情牽。</lem>
-						<rdg wit="#Translation">I remembered the former love ties:</rdg>
+						<rdg wit="#Translation">I remembered our former love ties:</rdg>
 					</app>
 				</l>
 				<l n="11">
@@ -145,8 +147,8 @@
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription">窺宋三年 。</lem>
-						<rdg wit="#Translation">some girl had peeked at Song Yu for three years.</rdg>
+						<lem wit="#Transcription">窺宋三年。</lem>
+						<rdg wit="#Translation">some girl had peeked at Song Yu for three years<note type= "critical" anchored="true"><p>Peaking over the white plastered wall is an allusion to a story about one of the most handsome men in the Chinese history, Song Yu 宋玉 (c.298 BCE – c.222 BCE), who was also known for his literary talent. It is said that his neighbor’s daughter, who was a great beauty herself, peeked at him over a white plastered wall for three years.</p></note>.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -154,7 +156,7 @@
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">遷延。</lem>
-						<rdg wit="#Translation">I stayed</rdg>
+						<rdg wit="#Translation">I stay</rdg>
 					</app>
 				</l>
 				<l n="14">
@@ -166,67 +168,67 @@
 				<l n="15">
 					<app>
 						<lem wit="#Transcription">親持犀管，</lem>
-						<rdg wit="#Translation">holding a rhinoceros horn pipe, </rdg>
+						<rdg wit="#Translation">holding a rhinoceros horn pipe<note type= "critical" anchored="true"><p>Refers to a luxurious pen decorated with rhinoceros horn.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">旋疊香箋。</lem>
-						<rdg wit="#Translation">folding the fragrant paper;</rdg>
+						<rdg wit="#Translation">folding the fragrant paper<note type= "critical" anchored="true"><p>Refers to a kind of paper designed specifically for songwriting. Its expensive pages were small but luxurious.</p></note>;</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">要索新詞，</lem>
-						<rdg wit="#Translation">She asked for a new ci,</rdg>
+						<rdg wit="#Translation">She asked for a new <hi rend="italic">ci</hi>,</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
 						<lem wit="#Transcription">殢人含笑立尊前。</lem>
-						<rdg wit="#Translation">Tempting me with a smile, she stood before me.</rdg>
+						<rdg wit="#Translation">tempting me with a smile, she stands before me.</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription">按新聲、  </lem>
-						<rdg wit="#Translation">Singing along to the new song I wrote,</rdg>
+						<lem wit="#Transcription">按新聲、</lem>
+						<rdg wit="#Translation">Singing along to the new song I just wrote,</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
 						<lem wit="#Transcription">珠喉漸穩，</lem>
-						<rdg wit="#Translation">her pearly voice grew steady.</rdg>
+						<rdg wit="#Translation">her pearly voice grows steady.</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
-						<lem wit="#Transcription">想舊意、  </lem>
+						<lem wit="#Transcription">想舊意、</lem>
 						<rdg wit="#Translation">Recalling our old love,</rdg>
 					</app>
 				</l>
 				<l n="22">
 					<app>
 						<lem wit="#Transcription">波臉增妍。</lem>
-						<rdg wit="#Translation">Her radiant face became even more enticing.</rdg>
+						<rdg wit="#Translation">her radiant face becomes even more enticing.</rdg>
 					</app>
 				</l>
 				<l n="23">
 					<app>
-						<lem wit="#Transcription">苦留連。 </lem>
-						<rdg wit="#Translation">She begged me to stay.</rdg>
+						<lem wit="#Transcription">苦留連。</lem>
+						<rdg wit="#Translation">She begs me to stay.</rdg>
 					</app>
 				</l>
 				<l n="24">
 					<app>
 						<lem wit="#Transcription">鳳衾鴛枕，</lem>
-						<rdg wit="#Translation">Phoenix quilt and mandarin duck pillows,</rdg>
+						<rdg wit="#Translation">Phoenix quilt and mandarin duck pillows<note type= "critical" anchored="true"><p>In traditional Chinese culture, mandarin ducks are believed to be monogamous, unlike other species of ducks. Hence they are regarded as a symbol of conjugal affection and fidelity and frequently featured in Chinese art. Quilts with patterns of mandarin ducks are often used in the bedrooms of lovers or married couples.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="25">
 					<app>
 						<lem wit="#Transcription">忍負良天。</lem>
-						<rdg wit="#Translation">how could I bear to turn down this heavenly chance.</rdg>
+						<rdg wit="#Translation">how could I bear to betray this beautiful day?</rdg>
 					</app>
 				</l>
 			</lg>
