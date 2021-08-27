@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Like Fish and Water”&#8212;"Dallying in the Capital"</title>
+				<title>To the tune “Like Fish and Water”&#8212;"Dallying in the capital"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -41,7 +43,7 @@
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 40.</p>
 				<listWit>
-					<witness xml:id="Transcription">如魚水 </witness>
+					<witness xml:id="Transcription">如魚水</witness>
 					<witness xml:id="Translation">To the tune “Like Fish and Water”</witness>
 				</listWit>
 			</sourceDesc>
@@ -49,7 +51,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Like Fish and Water”&#8212;"Dallying in the Capital" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Like Fish and Water”&#8212;"Dallying in the capital" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +70,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">如魚水 </lem>
-						<rdg wit="#Translation">To the tune “Like Fish and Water”&#8212;"Dallying in the Capital"</rdg>
+						<lem wit="#Transcription">如魚水</lem>
+						<rdg wit="#Translation">To the tune “Like Fish and Water”</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,67 +82,67 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">帝里疏散，</lem>
-						<rdg wit="#Translation">Dallying in the capital,</rdg>
+						<rdg wit="#Translation">Dallying in the capital<note type= "critical" anchored="true"><p>Refer to the capital of the Northern Song Dynasty, Bian Jing.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">數載酒縈花系，</lem>
-						<rdg wit="#Translation">For years, I have been surrounded by wine and flowers,</rdg>
+						<rdg wit="#Translation">for years, I have been surrounded by wine and flowers<note type= "critical" anchored="true"><p>“Flowers” here refers to young women.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">九陌狂遊。</lem>
-						<rdg wit="#Translation">Roaming wildly in the nine avenues.</rdg>
+						<rdg wit="#Translation">roaming wildly in the nine avenues<note type= "critical" anchored="true"><p>During the Han Dynasty, the capital Chang’an had eight streets and nine avenues. Later the term “nine avenues” was used to refer to large urban roads more generally.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">良景對珍筵惱，</lem>
-						<rdg wit="#Translation">On a fine day, I was happy about an exquisite banquet,</rdg>
+						<rdg wit="#Translation">On a beautiful day, I was irritated yet enticed<note type= "critical" anchored="true"><p>“惱” means both irritated and enticed. The irritation here is very light.</p></note> by (too many) exquisite banquets,</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">佳人自有風流。</lem>
-						<rdg wit="#Translation">A beauty with special charms of her own.</rdg>
+						<rdg wit="#Translation">(accompanied by) a beauty with special charms of her own.</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
 						<lem wit="#Transcription">勸瓊甌。</lem>
-						<rdg wit="#Translation">She urged me to empty the jade cups,  </rdg>
+						<rdg wit="#Translation">She urged me to empty the jade cups,</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">絳唇啟、</lem>
-						<rdg wit="#Translation">Opened her red lips,</rdg>
+						<rdg wit="#Translation">opened her red lips,</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">歌發清幽。</lem>
-						<rdg wit="#Translation">Purity and tranquility poured from her song. </rdg>
+						<rdg wit="#Translation">purity and tranquility poured from her song.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">被舉措、</lem>
-						<rdg wit="#Translation">“Because of your manner,</rdg>
+						<rdg wit="#Translation">Because I was famous for</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">藝足才高，  </lem>
-						<rdg wit="#Translation">Your abundant skills and great talent,</rdg>
+						<lem wit="#Transcription">藝足才高，</lem>
+						<rdg wit="#Translation">my abundant skills and great talent,</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">在處別得艷姬留。</lem>
-						<rdg wit="#Translation">Wherever you go, you will be adored by other voluptuous girls.</rdg>
+						<rdg wit="#Translation">wherever I went, I was adored by other voluptuous girls.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -148,19 +150,19 @@
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">浮名利，</lem>
-						<rdg wit="#Translation">“The ephemeral fame and profit, </rdg>
+						<rdg wit="#Translation">The ephemeral fame and profit&#8212;</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription">擬拚休。 </lem>
-						<rdg wit="#Translation">you should discard them all.</rdg>
+						<lem wit="#Transcription">擬拚休。</lem>
+						<rdg wit="#Translation">I tried hard to discard them.</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">是非莫掛心頭。</lem>
-						<rdg wit="#Translation">Do not be concerned about right and wrong.</rdg>
+						<rdg wit="#Translation">One should not be concerned with right and wrong.</rdg>
 					</app>
 				</l>
 				<l n="15">
@@ -172,43 +174,43 @@
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">時會高志須酬。</lem>
-						<rdg wit="#Translation">The favorable time will arrive and your aspiration will be fulfilled.</rdg>
+						<rdg wit="#Translation">The favorable time will arrive and my aspiration will be fulfilled.</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">莫閒愁。</lem>
-						<rdg wit="#Translation"> Do not worry pointlessly,</rdg>
+						<rdg wit="#Translation">I should not worry pointlessly,</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
 						<lem wit="#Transcription">共綠蟻、</lem>
-						<rdg wit="#Translation">drink the green ants with me,</rdg>
+						<rdg wit="#Translation">but drink the green ants<note type= "critical" anchored="true"><p>“Green ants” is a literal translation. In this context it means the green bubbles that float on top of fine wine, which are as small as ants.</p></note> with her&#8212;</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
 						<lem wit="#Transcription">紅粉相尤。</lem>
-						<rdg wit="#Translation">fall in love with this beauty.</rdg>
+						<rdg wit="#Translation">fall in love with this beauty<note type= "critical" anchored="true"><p>That is, the courtesan.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
 						<lem wit="#Transcription">向繡幄，</lem>
-						<rdg wit="#Translation">Come into the embroidered canopy,</rdg>
+						<rdg wit="#Translation">enter the embroidered canopy<note type= "critical" anchored="true"><p>That is, the courtesan’s bedroom.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="21">
 					<app>
 						<lem wit="#Transcription">醉倚芳姿睡，</lem>
-						<rdg wit="#Translation">in drunkenness, lean towards the flower-like one to sleep, </rdg>
+						<rdg wit="#Translation">in drunkenness, lean towards the flower-like one to sleep;</rdg>
 					</app>
 				</l>
 				<l n="22">
 					<app>
 						<lem wit="#Transcription">算除此外何求。</lem>
-						<rdg wit="#Translation">what do you want other than this?”</rdg>
+						<rdg wit="#Translation">I want nothing more aside from this.</rdg>
 					</app>
 				</l>
 			</lg>

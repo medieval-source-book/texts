@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Midnight Joy”&#8212;"Frozen Clouds"</title>
+				<title>To the tune “Midnight Tune”&#8212;"Frozen clouds dim the sky"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -42,14 +44,14 @@
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 37.</p>
 				<listWit>
 					<witness xml:id="Transcription">夜半樂</witness>
-					<witness xml:id="Translation">To the tune “Midnight Joy”</witness>
+					<witness xml:id="Translation">To the tune “Midnight Tune”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Midnight Joy”&#8212;"Frozen Clouds" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Midnight Tune”&#8212;"Frozen clouds dim the sky" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -69,7 +71,7 @@
 				<title type="main">
 					<app>
 						<lem wit="#Transcription">夜半樂</lem>
-						<rdg wit="#Translation">To the tune “Midnight Joy”&#8212;"Frozen Clouds"</rdg>
+						<rdg wit="#Translation">To the tune “Midnight Tune”</rdg>
 					</app>
 				</title>
 			</head>
@@ -86,25 +88,25 @@
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">扁舟一葉，</lem>
-						<rdg wit="#Translation">A thin boat</rdg>
+						<rdg wit="#Translation">a thin boat</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">乘興離江渚。</lem>
-						<rdg wit="#Translation">Departs the riverside on a whim, </rdg>
+						<rdg wit="#Translation">departs the riverside on a whim, </rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">渡萬壑千巖，</lem>
-						<rdg wit="#Translation">And crosses a thousand valleys and a thousand canyons.</rdg>
+						<rdg wit="#Translation">crosses a thousand valleys and a thousand canyons,</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">越溪深處。</lem>
-						<rdg wit="#Translation">In the depth of Yue streams,</rdg>
+						<rdg wit="#Translation">into the depth of Yue streams<note type= "critical" anchored="true"><p>In Chinese folklore, this river is associated with a beautiful woman named Xi Shi, whose name has become synonymous with female beauty. According to the tale, she often washed her clothes in this river.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="6">
@@ -115,26 +117,26 @@
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription">樵風乍起， </lem>
+						<lem wit="#Transcription">樵風乍起，</lem>
 						<rdg wit="#Translation">A favorable wind suddenly rises.</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">更聞商旅相呼。</lem>
-						<rdg wit="#Translation">I then hear the traveling tradesmen calling to each other.</rdg>
+						<rdg wit="#Translation">Then I hear the traveling tradesmen calling to each other<note type= "critical" anchored="true"><p>A common way for tradesmen to communicate with each other at that time.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription">片帆高舉。 </lem>
+						<lem wit="#Transcription">片帆高舉。</lem>
 						<rdg wit="#Translation">The lone sail hangs high;</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription">泛畫鷁、  </lem>
-						<rdg wit="#Translation">On a floating boat,</rdg>
+						<lem wit="#Transcription">泛畫鷁、</lem>
+						<rdg wit="#Translation">On the painted bird<note type= "critical" anchored="true"><p>“鷁” is a legendary bird that was often painted on boats. It was believed to be a lucky charm for sailors because it could fly over water during storms. Here, “the painted bird” refers to the boat that the speaker is on.</p></note>,</rdg>
 					</app>
 				</l>
 				<l n="11">
@@ -154,13 +156,13 @@
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">一簇煙村，</lem>
-						<rdg wit="#Translation">A small village wreathed in smoke,</rdg>
+						<rdg wit="#Translation">a small village wreathed in smoke,</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">數行霜樹。</lem>
-						<rdg wit="#Translation">And rows of frosty trees.</rdg>
+						<rdg wit="#Translation">and rows of frosty trees.</rdg>
 					</app>
 				</l>
 				<l n="15">
@@ -172,7 +174,7 @@
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">漁人鳴榔歸去。 </lem>
-						<rdg wit="#Translation">The fishermen strike the side of the boat and return.</rdg>
+						<rdg wit="#Translation">The fishermen strike the side of the boat<note type= "critical" anchored="true"><p>The fishermen strike the boat to give themselves a beat to sing along to.</p></note> and return.</rdg>
 					</app>
 				</l>
 				<l n="17">
@@ -190,13 +192,13 @@
 				<l n="19">
 					<app>
 						<lem wit="#Transcription">岸邊兩兩三三，</lem>
-						<rdg wit="#Translation"> On the bank, in pairs of two or three,</rdg>
+						<rdg wit="#Translation">On the bank, in groups of two or three,</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
 						<lem wit="#Transcription">浣沙遊女。</lem>
-						<rdg wit="#Translation">Girls are doing laundry.</rdg>
+						<rdg wit="#Translation">Girls are doing laundry<note type= "critical" anchored="true"><p>A typical scene for women at that time, but it could also be associated with the story of Xi Shi (see note above).</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="21">
@@ -208,7 +210,7 @@
 				<l n="22">
 					<app>
 						<lem wit="#Transcription">含羞笑相語。</lem>
-						<rdg wit="#Translation">Shy, they smile, chatting to each other.</rdg>
+						<rdg wit="#Translation">shy, they smile, chatting to each other.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -222,7 +224,7 @@
 				<l n="24">
 					<app>
 						<lem wit="#Transcription">繡閣輕拋，</lem>
-						<rdg wit="#Translation">I have abandoned the embroidered chamber.</rdg>
+						<rdg wit="#Translation">I have abandoned the embroidered chamber<note type= "critical" anchored="true"><p>Refers to a bedroom. It implies that the poet has left behind the wealthy, domestic life that he could otherwise have led.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="25">
@@ -234,7 +236,7 @@
 				<l n="26">
 					<app>
 						<lem wit="#Transcription">嘆後約</lem>
-						<rdg wit="#Translation">I sigh at the thought of reunion,</rdg>
+						<rdg wit="#Translation">I sigh at the thought of reunion&#8212;</rdg>
 					</app>
 				</l>
 				<l n="27">
@@ -252,19 +254,19 @@
 				<l n="29">
 					<app>
 						<lem wit="#Transcription">空恨歲晚歸期阻。</lem>
-						<rdg wit="#Translation"> Vainly regretting that the year has come to an end and the time to return home has been delayed.</rdg>
+						<rdg wit="#Translation">vainly regretting that the year has come to an end and the time to return home<note type= "critical" anchored="true"><p>In the Lunar calendar, the end of the year means the coming of Spring Festival, the most important festival for the reunion of families.</p></note> has been delayed.</rdg>
 					</app>
 				</l>
 				<l n="30">
 					<app>
 						<lem wit="#Transcription">凝淚眼、</lem>
-						<rdg wit="#Translation">I  let my watery eyes gaze</rdg>
+						<rdg wit="#Translation">I let my watery eyes gaze</rdg>
 					</app>
 				</l>
 				<l n="31">
 					<app>
 						<lem wit="#Transcription">杳杳神京路。</lem>
-						<rdg wit="#Translation">At the long, distant road to the capital.</rdg>
+						<rdg wit="#Translation">at the long, distant road to the capital.</rdg>
 					</app>
 				</l>
 				<l n="32">

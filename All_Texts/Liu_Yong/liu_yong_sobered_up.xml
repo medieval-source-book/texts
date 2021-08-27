@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Cross the Stream and Reset, Close”&#8212;"Sobered up"</title>
+				<title>To the tune “Cross the Stream and Rest Nearby”&#8212;"Sobered up"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -41,15 +43,15 @@
 			<sourceDesc>
 				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 38.</p>
 				<listWit>
-					<witness xml:id="Transcription">過澗歇近 </witness>
-					<witness xml:id="Translation">To the tune “Cross the Stream and Reset, Close”</witness>
+					<witness xml:id="Transcription">過澗歇近</witness>
+					<witness xml:id="Translation">To the tune “Cross the Stream and Rest Nearby”</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Cross the Stream and Reset, Close”&#8212;"Sobered up" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Cross the Stream and Rest Nearby”&#8212;"Sobered up" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -68,8 +70,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription">過澗歇近 </lem>
-						<rdg wit="#Translation">To the tune “Cross the Stream and Reset, Close”&#8212;"Sobered up"</rdg>
+						<lem wit="#Transcription">過澗歇近</lem>
+						<rdg wit="#Translation">To the tune “Cross the Stream and Rest Nearby”</rdg>
 					</app>
 				</title>
 			</head>
@@ -86,31 +88,31 @@
 				<l n="2">
 					<app>
 						<lem wit="#Transcription">夢才覺，</lem>
-						<rdg wit="#Translation">I have just awoken from a dream,</rdg>
+						<rdg wit="#Translation">I have just woken from a dream,</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">小閣香炭成煤，</lem>
-						<rdg wit="#Translation">The fragrant charcoal in the little chamber has burnt into ashes.</rdg>
+						<rdg wit="#Translation">the fragrant charcoal in the little chamber has burnt into ashes.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
 						<lem wit="#Transcription">洞戶銀蟾移影。</lem>
-						<rdg wit="#Translation">Upon the door, the silver toad moves its shadow.</rdg>
+						<rdg wit="#Translation">On the door, the shadow cast by the silver toad<note type= "critical" anchored="true"><p>“The silver toad” refers to the moon. According to ancient Chinese folklore, a three-legged toad lives in a palace on the moon.</p></note> moves.</rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
 						<lem wit="#Transcription">人寂靜。</lem>
-						<rdg wit="#Translation"Everyone is still and quiet. </rdg>
+						<rdg wit="#Translation">Everyone is still and quiet.</rdg>
 					</app>
 				</l>
 				<l n="6">
 					<app>
-						<lem wit="#Transcription">夜永清寒， </lem>
-						<rdg wit="#Translation">The night has no end, pure and cold.</rdg>
+						<lem wit="#Transcription">夜永清寒，</lem>
+						<rdg wit="#Translation">The night is endless, pure and cold.</rdg>
 					</app>
 				</l>
 				<l n="7">
@@ -122,19 +124,19 @@
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">疏簾風動，</lem>
-						<rdg wit="#Translation">Wind swings through the loose bamboo curtain.</rdg>
+						<rdg wit="#Translation">wind swings through the loose bamboo curtain.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">漏聲隱隱，</lem>
-						<rdg wit="#Translation">The sound of the dripping clock is dim, </rdg>
+						<rdg wit="#Translation">The sound of the dripping clock<note type= "critical" anchored="true"><p>A water clock.</p></note> is dim, </rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">飄來轉愁聽。</lem>
-						<rdg wit="#Translation">Drifting to me and dismaying this listener.</rdg>
+						<rdg wit="#Translation">drifting to me and dismaying this listener.</rdg>
 					</app>
 				</l>
 			</lg>
@@ -148,43 +150,43 @@
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">近日厭厭長似病。</lem>
-						<rdg wit="#Translation">Which has been listless recently, as if sick for a long time?</rdg>
+						<rdg wit="#Translation">which has been listless recently, as if sick for a long time?</rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">鳳樓咫尺，</lem>
-						<rdg wit="#Translation">The phoenix tower is only a step away, </rdg>
+						<rdg wit="#Translation">The phoenix building<note type= "critical" anchored="true"><p>The “phoenix building” is a place for courtesans to have sex with men. According to legend, the original Qin building was built by the Qinmu King as a palace for his daughter and son-in-law. They were both so good at playing the vertical bamboo flute that their music attracted phoenixes, and the building where they played became famous. The meaning of “phoenix building” changed over time, and was later used to refer to brothels.</p></note> is only a step away, </rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">佳期杳無定。</lem>
-						<rdg wit="#Translation">Yet the date to reunite is far from settled.</rdg>
+						<rdg wit="#Translation">yet the date to reunite is far from settled.</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
 						<lem wit="#Transcription">展轉無眠，</lem>
-						<rdg wit="#Translation">Tossing and turning, I cannot sleep.</rdg>
+						<rdg wit="#Translation">Tossing and turning, I cannot sleep,</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
 						<lem wit="#Transcription">粲枕冰冷。</lem>
-						<rdg wit="#Translation">The shiny pillow is ice cold;</rdg>
+						<rdg wit="#Translation">the shiny pillow is ice cold.</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
 						<lem wit="#Transcription">香虯煙斷，</lem>
-						<rdg wit="#Translation">The smoke from the coiling incense stops.</rdg>
+						<rdg wit="#Translation">The smoke from the coiling incense stops;</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
 						<lem wit="#Transcription">是誰與把重衾整。</lem>
-						<rdg wit="#Translation">Who will tidy up my double quilt?</rdg>
+						<rdg wit="#Translation">who will tidy up my double quilt<note type= "critical" anchored="true"><p>This line suggests that the speaker will no longer have someone do domestic tasks with him/her, implying the separation between the speaker and the lover, and the dismay and loneliness the speaker feels.</p></note>?</rdg>
 					</app>
 				</l>
 			</lg>
