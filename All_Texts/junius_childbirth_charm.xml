@@ -1,0 +1,155 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Junius Peperit Charm</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>Childbirth in medieval Europe was often the most dangerous experience of a woman's life. Because of poor hygiene and a lack of gynecological knowledge, scholars have estimated that as many as ten percent of women died during childbirth or immediately afterwards. Not only did mothers die in large numbers, but as many as thirty percent of children died in the process of childbirth. In the face of these dangers, medieval people used a wide variety of charms and prayers in an attempt to improve their chances of a successful delivery.</p>
+
+				<p>The charm presented here was composed in England in the eleventh century CE and is an example of a “peperit charm”. The name comes from the Latin word peperit (“gave birth to”). This word occurs frequently in these charms, because they list the biblical women who gave birth to children. Indeed, a peperit charm can be identified by its sequence of holy mothers, one of the most widespread motifs in medieval childbirth charms. Typically, as is the case here, a peperit charm will invoke the names of holy mothers one by one. Some examples will contain other formulations, whether to add to the functions to the charm or to enhance its effects. This charm contains three additional features that can be found in other childbirth charms: an appeal to the unborn child to leave the womb; the account of Lazarus’s resurrection with its climactic words, “Lazarus, come forth!”; instructions for how to turn the prayer into an amulet that the laboring woman can wear on her body.</p>
+ 
+				<p>In the case of the Junius Peperit Charm, the instructions for turning the prayer into an amulet state that the charm should be written on wax that has never been used before and bound to the woman’s right foot. The requirement for unworked wax (also known as “virgin” wax) is interesting, seeming to emphasize the sacramental quality of the prayer. The instruction to attach the prayer to the pregnant woman's body suggests that there was a hope that she could connect with its content in an embodied way, drawing on its power to support her own body during childbirth.</p>
+ 
+				<p>In comparison to childbirth prayers, an example of which is presented in this collection [ADD URL], this charm has minimal narrative content, focusing instead on the invocation of biblical names. It is quite possible that this charm, or at least the first part of it, would have been repeatedly chanted during a woman's labor. Hearing the familiar names of biblical mothers might have served to calm and encourage the laboring woman, reassuring her that she too could deliver her child safely.</p>
+
+				<p>The Junius Childbirth Charm is transmitted in the manuscript Oxford Bodleian Library, MS Junius 85/86, an eleventh-century Anglo-Saxon manuscript containing Lenten sermons, including dialogues between the body and soul. It is one of four childbirth charms written into the spaces between sermons. It is worth noting that the childbirth charms in this manuscript contain the first known occurrence of the sequence of the holy mothers.</p>
+
+				<p>Wood, Diana. Women and Religion in Medieval England. Oxford: Oxbow Books, 2003. 
+				
+				This book is a general overview of the religious life of medieval English women. There is a specific chapter on women and childbirth on pages 91-117.</p>
+
+				<p>Olsan, Lea. “Latin Charms of Medieval England: Verbal Healing in a Christian Oral Tradition.” Oral Tradition, 7/1 (1992):116-142
+				
+				This paper provides a detailed analysis of childbirth charms and prayers and a discussion of the differences between them.</p>
+				
+				<p>Jones, Peter Murray, and Lea T Olsan. “Performative Rituals for Conception and Childbirth in England, 900-1500.” Bulletin of the history of medicine vol. 89,3 (2015): 406-33.
+ 				
+ 				This paper focuses on the performative aspect of childbirth prayers and explores the uses of chanting to aid childbirth.</p>
+
+			</notesStmt>
+			<sourceDesc>
+				 <p>Oxford Bodleian Library, MS Junius 85/86, fol. 17r</p>
+				<listWit>
+					<witness xml:id="Transcription">Junius Peperit Charm</witness>
+					<witness xml:id="Translation">Maria virgo peperit Christum</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Junius Peperit Charm" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>This text has been transcribed from Oxford Bodleian Library MS Junius 85/86, fol. 17r. Some spellings have been standardized and errors corrected. All occurrences of the letters “u” and “v” are preserved in their original form. Contractions have been expanded (expansions are not indicated). Punctuation follows the original but with modernized punctuation marks. Capitalization follows modern conventions.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Maria virgo peperit Christum. Elizabet sterelis peperit Johannem Baptistam. </lem>
+						<rdg wit="#Translation">The Virgin Mary gave birth to Christ. The infertile Elizabeth gave birth to John the Baptist.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Adiuro te infans si es masculus aut femina per patrem et filium et spiritum sanctum ut exeas et recedas ultra</lem>
+						<rdg wit="#Translation">I urge you, child, whether you are male or female, by the Father and the Son and the Holy Spirit, to come out and move beyond.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ei non noceas neque insipientiam illi facias</lem>
+						<rdg wit="#Translation">May you not harm the child nor make him foolish.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">amen.</lem>
+						<rdg wit="#Translation">Amen.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Videns Dominus flentes sorores Lazari ad monumentum lacrimatus est</lem>
+						<rdg wit="#Translation">The Lord, seeing the wailing sisters of Lazarus, wept in front of the tomb.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">coram iudeis et clamabat Lazare,</lem>
+						<rdg wit="#Translation">In the presence of the Jews, he exclaimed:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">veni foras</lem>
+						<rdg wit="#Translation">“Lazarus, come out!”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et prodiit ligatis manibus et pedibus qui fuerat quatriduanus mortuus.</lem>
+						<rdg wit="#Translation">And he who had been dead for four days came out with his hands and feet bound.</rdg>
+					</app>
+				</s>
+			</p>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">Writ ðis on wexe ðe næfre ne com to nanen wyrce and bind under hire swiðran fot.</lem>
+						<rdg wit="#Translation">Write this in wax which has never been worked on and bind it under her right foot.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
+

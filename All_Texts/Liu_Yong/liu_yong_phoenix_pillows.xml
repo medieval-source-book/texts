@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>To the tune “Stop Your Horse and Listen”&#8212;"Phoenix Pillows"</title>
+				<title>To the tune “Stop Your Horse and Listen”&#8212;"Phoenix pillows and curtains"</title>
 				<author>Liu Yong</author>
 				<respStmt>
 					<resp>Text based on</resp>
@@ -23,10 +23,12 @@
 					<resp>Notes by</resp>
 					<name>Nina Du</name>
 					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
 					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -49,7 +51,7 @@
 		<encodingDesc>
 			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
 			<projectDesc>
-            	<p>To the tune “Stop Your Horse and Listen”&#8212;"Phoenix Pillows" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+            	<p>To the tune “Stop Your Horse and Listen”&#8212;"Phoenix pillows and curtains" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
          	</projectDesc>
 			<editorialDecl>
         		<interpretation>
@@ -69,7 +71,7 @@
 				<title type="main">
 					<app>
 						<lem wit="#Transcription">駐馬聽</lem>
-						<rdg wit="#Translation">To the tune “Stop Your Horse and Listen”&#8212;"Phoenix Pillows"</rdg>
+						<rdg wit="#Translation">To the tune “Stop Your Horse and Listen”</rdg>
 					</app>
 				</title>
 			</head>
@@ -80,7 +82,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription">鳳枕鸞帷。</lem>
-						<rdg wit="#Translation">Phoenix pillows and peacock curtains.</rdg>
+						<rdg wit="#Translation">Phoenix pillows and curtains<note type= "critical" anchored="true"><p>“Phoenix pillows and curtains” is a symbol for a harmonious married life.</p></note>.</rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -92,7 +94,7 @@
 				<l n="3">
 					<app>
 						<lem wit="#Transcription">如魚似水相知。</lem>
-						<rdg wit="#Translation">We were as intimate as fish and water.</rdg>
+						<rdg wit="#Translation">we were as intimate as fish and water.</rdg>
 					</app>
 				</l>
 				<l n="4">
@@ -116,37 +118,37 @@
 				<l n="7">
 					<app>
 						<lem wit="#Transcription">奈何伊。</lem>
-						<rdg wit="#Translation">How come she</rdg>
+						<rdg wit="#Translation">How come her</rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
 						<lem wit="#Transcription">恣性靈、</lem>
-						<rdg wit="#Translation">Indulges herself</rdg>
+						<rdg wit="#Translation">spirit is</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription">忒煞些兒。</lem>
-						<rdg wit="#Translation">So excessively?</rdg>
+						<rdg wit="#Translation">slightly too wild<note type= "critical" anchored="true"><p>To allow for clarity in English, the translation modifies the word order of the original line.</p></note>?</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
 						<lem wit="#Transcription">無事孜煎，</lem>
-						<rdg wit="#Translation">For no reason, she fries me,</rdg>
+						<rdg wit="#Translation">When I have nothing to do, I feel like I’m being roasted over a fire;</rdg>
 					</app>
 				</l>
 				<l n="11">
 					<app>
 						<lem wit="#Transcription">萬回千度，</lem>
-						<rdg wit="#Translation">A thousand, ten thousand times &#8212;</rdg>
+						<rdg wit="#Translation">a thousand, ten thousand times (I think of my past)&#8212;</rdg>
 					</app>
 				</l>
 				<l n="12">
 					<app>
 						<lem wit="#Transcription">怎忍分離。</lem>
-						<rdg wit="#Translation">Otherwise how could I bear to leave her?</rdg>
+						<rdg wit="#Translation">how could I bear to leave her?</rdg>
 					</app>
 				</l>
 			</lg>
@@ -154,19 +156,19 @@
 				<l n="13">
 					<app>
 						<lem wit="#Transcription">而今漸行漸遠，</lem>
-						<rdg wit="#Translation">Yet now the more I travel,  the further away she is.</rdg>
+						<rdg wit="#Translation">Yet now the more I travel, the further away she is.</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
 						<lem wit="#Transcription">漸覺雖悔難追。</lem>
-						<rdg wit="#Translation">I gradually realized that, even though I regret leaving her, the past can never be retrieved.</rdg>
+						<rdg wit="#Translation">I have gradually realized that, even though I regret leaving her, the past can never be retrieved.</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
 						<lem wit="#Transcription">漫寄消寄息，</lem>
-						<rdg wit="#Translation">It is pointless to send letters and messages,</rdg>
+						<rdg wit="#Translation">It is pointless to send letters and messages&#8212;</rdg>
 					</app>
 				</l>
 				<l n="16">
@@ -184,7 +186,7 @@
 				<l n="18">
 					<app>
 						<lem wit="#Transcription">爭奈翻覆思維。</lem>
-						<rdg wit="#Translation">But I cannot help but think twice.</rdg>
+						<rdg wit="#Translation">but I cannot help but think twice.</rdg>
 					</app>
 				</l>
 				<l n="19">
@@ -202,7 +204,7 @@
 				<l n="21">
 					<app>
 						<lem wit="#Transcription">難似當時。</lem>
-						<rdg wit="#Translation">Could hardly be what it was.</rdg>
+						<rdg wit="#Translation">could hardly be what it was.</rdg>
 					</app>
 				</l>
 			</lg>

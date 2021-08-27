@@ -1,0 +1,204 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Marston Childbirth Prayer</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>Childbirth in medieval Europe was often the most dangerous experience of a woman's life. Because of poor hygiene and a lack of gynecological knowledge, scholars have estimated that as many as ten percent of women died during childbirth or immediately afterwards. Not only did mothers die in large numbers, but as many as thirty percent of children died in the process of childbirth. In the face of these dangers, medieval people used a wide variety of charms and prayers in an attempt to improve their chances of a successful delivery.</p>
+
+				<p>The Marston Childbirth Prayer is a late 14th-century childbirth prayer from England, written in Latin. This prayer provides rare insight into the life of a medieval woman, speaking directly to one of the most intimate and dangerous experiences of her life.</p>
+ 
+				<p>The prayer draws primarily on three stories from the Christian Bible: the creation of the world, the conception of Isaac, and the conception and birth of Christ. The first part of the prayer focuses on God's generative power: the creation of land and sea, plants and animals, and Adam and Eve. The next part recalls the birth of Isaac, focusing on the miraculous fertility of Abraham and Sarah despite their advanced ages. The prayer then turns to the conception and birth of Jesus, focusing both on Mary's pregnant body and on the divine nature of her son. The three biblical narratives referenced in Marston MS 22 are all concerned with generation and are the three main foundation stories in Christianity: the birth of the world, the birth of Judaism (through Isaac, the grandfather of the twelve tribes of Israel), and the birth of Christianity (through Christ). The prayer concludes with a reminder of Christ's promise that God would intervene on behalf of those who cry out in his name. This allows the prayer, in its final lines, to petition for both mother and child to survive the pregnancy.</p>
+ 
+				<p>Of key interest here is the way this prayer may have been used to aid a woman in childbirth. By reminding her of the biblical birthing narratives, it links the individual medieval woman with her broader Christian community and the longer arc of Christian history. In this way, the woman may feel connected to the biblical mothers it mentions and draw confidence that she, too, will be able to safely give birth.</p>
+
+				<p>Also featured in this collection is a childbirth charm [ADD URL].</p>
+
+				<p>This prayer was added by a later scribe to folios 91v-92r of Marston MS 22, a medieval Book of Hours. Marston MS 22 is written on parchment in a large gothic bookhand with three discernible hands (ff. 1r, 2r-91r, 93r-115v, respectively). The added childbirth prayer is copied in an Anglicana script. Based on its script and its decoration, Marston MS 22 was probably produced in England around 1250 CE. The added childbirth prayer was added later, possibly around 1400, when Marston MS 22 was rebound.</p>
+
+				<p>Wood, Diana. Women and Religion in Medieval England. Oxford: Oxbow Books, 2003. 
+				
+				This book is a general overview of the religious life of medieval English women. There is a specific chapter on women and childbirth on pages 91-117.</p>
+
+				<p>Olsan, Lea. “Latin Charms of Medieval England: Verbal Healing in a Christian Oral Tradition.” Oral Tradition, 7/1 (1992):116-142
+				
+				This paper provides a detailed analysis of childbirth charms and prayers and a discussion of the differences between them.</p>
+				
+				<p>Jones, Peter Murray, and Lea T Olsan. “Performative Rituals for Conception and Childbirth in England, 900-1500.” Bulletin of the history of medicine vol. 89,3 (2015): 406-33.
+ 				
+ 				This paper focuses on the performative aspect of childbirth prayers and explores the uses of chanting to aid childbirth.</p>
+
+			</notesStmt>
+			<sourceDesc>
+				 <p>New Haven, Beinecke Rarebook Library Marston MS 22</p>
+				<listWit>
+					<witness xml:id="Transcription">Marston Childbirth Prayer</witness>
+					<witness xml:id="Translation">Marston Childbirth Prayer</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Marston Childbirth Prayer" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>This text was transcribed from Marston MS 22, ff. 91v-92r, which is held in the Beinecke Rare Book and Manuscript Library. A digitization can be viewed online here: https://collections.library.yale.edu/catalog/2013548. Some spellings have been standardized and errors corrected. All occurrences of the letters “u” and “v” are preserved in their original form. Contractions have been expanded (expansions are not indicated). Punctuation follows the original but with modernized punctuation marks. Capitalization follows modern conventions.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"> </rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Omnipotens sempiterne Deus qui es sine fine et principio, qui creasti omnia ex nichilo.</lem>
+						<rdg wit="#Translation">All Powerful, Eternal God, without end or beginning, who created everything out of nothing;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Ad cuius imperium mare constituitur dum ultimos terminos numquam progreditur.</lem>
+						<rdg wit="#Translation">by whose power the sea was created, which never extends to the furthest reaches;<note type= "critical" anchored="true">
+								<p>The apparent implication is that the sea will never overwhelm the land.									
+								</p>
+							</note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Qui fecisti terram et flumina ventorum in cavernis eius concludis.</lem>
+						<rdg wit="#Translation">who made the earth and contained the flow of winds in the caves,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Qui etiam inestimabili potentia ex durissimo ligno mollia deducis semina.</lem>
+						<rdg wit="#Translation">and who even now brings forth soft seeds out of the hardest wood with unimaginable power;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Qui formasti Adam de limo terre mulieremque de latere eius formans ei inconiugium sociasti,</lem>
+						<rdg wit="#Translation">who formed Adam from the dust of the earth, and forming woman from his side, joined her and him in matrimony,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">et ad propagandam posterorum sobolem perpetuam dedisti eis benedictionem dicens</lem>
+						<rdg wit="#Translation">and for the sake of growing future generations, gave them perpetual progeny and a blessing, saying:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">crescite et multiplicamini et replete terram et dominamini volatilibus caeli, et piscibus maris nec non bestiis totius diversitatis.</lem>
+						<rdg wit="#Translation">"Be fruitful and multiply, and fill the earth and have dominion over the birds of the air and the fish of the sea and beasts, too, of all kinds";</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> Qui Abraham patriarcham et coniugem eius Saram licet maturiori aetate prouectos insperate proles noue fecundasti.</lem>
+						<rdg wit="#Translation">who extraordinarily made Abraham the Patriarch and his wife Sarah fertile, granting the elderly pair offspring unexpectedly despite their advanced age;</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Qui etiam cooperante Spiritu Sancto de sinu tuo misisti filium tuum Dominum nostrum Jesum Christum ad intemerate Virginis uterum, ut uma humana lege inpregnantem lateret domo.</lem>
+						<rdg wit="#Translation">who also, with the Holy Spirit, sent your son, our Lord Jesus Christ, from your bosom to the womb of the immaculate Virgin, so that he might lie hidden in the pregnant woman as in a house in accordance with the human law,
+							<note type= "critical" anchored="true">
+								<p>That is, the law of human pregnancy.	
+								</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> et post legitimum nouem mencium munerum velut e thalamo suo procedens nascendo virginis relinqueret uterum. </lem>
+						<rdg wit="#Translation">and after the proper nine months of service, as if leaving his bedroom, with his birth he leaves the Virgin’s womb.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Qui etiam pereundem filium cum duodecim apostolis ceterisque fidelibus Christianis inquiens promisisti:</lem>
+						<rdg wit="#Translation">who furthermore, through that son, and with twelve Apostles and other faithful Christians, made a promise, saying:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">quodcumque pecielitis patrem in nomine meo dabit vobis.</lem>
+						<rdg wit="#Translation">"Whatsoever ye shall ask of the Father in my name, he will give it to you";</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">per illum filium similiter cum Spiritu Sancto te Deum patrem deprecor</lem>
+						<rdg wit="#Translation">through that son, just as through the Holy Spirit, I pray to you, God, the Father,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ut huic famule tuae gravide pregnanti interueniat pietatis tuae auxilium</lem>
+						<rdg wit="#Translation">that the aid of your pity might extend to your pregnant servant, heavy with child, </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ut prolem tibi gratam sine mortis periculo valeat producere et tuo cultui dignam ac deuotam enutrire</lem>
+						<rdg wit="#Translation">so that she may prevail in producing a child pleasing to you, without danger of death, and in nourishing a child worthy of serving you and devoted to worshipping you.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">per eundem Dominum nostrum et cetera.</lem>
+						<rdg wit="#Translation">By our same Lord, etc.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
