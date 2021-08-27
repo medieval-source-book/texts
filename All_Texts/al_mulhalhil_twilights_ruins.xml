@@ -1,0 +1,370 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Can you make out twilight's ruins?"</title>
+				<author>al-Muhalhil</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Cheikho, L. 1890. Kitāb Shuʿarāʾ al-Naṣrāniyyah. Vol. 1. Beirut: Maṭbaʿat al-Ābāʾ al-Mursilīn al-Yasūʿiyyīn fī Bayrūt, pages 273-276.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Sherif Abdelkarim</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<p>The seventh-century advent of Islam precipitated a breakthrough in historiography. In the centuries that followed the religion’s arrival, linguists, lexicographers, and chroniclers spared no effort to write all they knew of the Arabs’ pre-Islamic days, much of it preserved in verse. This poetry commemorated landmarks of the past—events not so much faithfully recorded as artistically imagined to drive home their import.
+				One such event, the legendary Basūs war between the sibling tribes of Taghlib and Bakr (ca.494-534), comes to us by way of several poems. They relate the following story: a forty-year war broke out with the murder of the Taghlibs’ leader, Wāʾil ibn Rabīʿah, better known as Kulayb. Not long before, Kulayb’s aunt-in-law, al-Basūs bint Munqidh, hosted Saʿd ibn Shumays as a resident under her protection. Saʿd’s she-camel, al-Sarāb, pastured with those of Jassās ibn Murrah, her nephew and Kulayb’s brother-in-law. Noticing the unfamiliar camel among his herd, Kulayb warned Jassās that al-Sarāb was not welcome to pasture near his land. Jassās responded in kind that none of his camels would pasture without her. Kulayb then threatened that if he saw the camel again, he’d stick an arrow in her breast. If he did so, said Jassās, he’d stick an arrow in Kulayb's neck. Despite this grave promise, Kulayb fatally struck al-Sarāb when he encountered her again. al-Basūs shared her humiliation with her nephew, vowing to kill Kulayb’s most prized camel, Ghilāl, in retaliation. Jassās set his mind instead to killing Kulayb, which he did.
+				Following Kulayb’s murder, Taghlib leadership transferred to Kulayb's brother, ʿAdiyy ibn Rab īʿah, styled “al-Muhalhil” (“The Refiner”) on account of the refinement of his poetry. al-Muhalhil maintained a killing streak for several decades, culminating in the deaths of both Jassās and his half-brother, Hammām. A third half-brother, al-Ḥārith ibn ʿUbād (or ʿAbbād), who had avoided the conflict entirely until this point, now intervened, dispatching a letter to al-Muhalhil. The message, sent with al-Ḥārith’s son, Bujayr, offered al-Muhalhil the choice of either slaying Bujayr and ending the bloodshed definitively, or releasing him to likewise establish peace. al-Muhalhil proclaimed “buʾ bi-shisʿ naʿl Kulayb!” (“Take payback for Kulayb’s shoelace!”) and slew Bujayr.
+				al-Ḥārith initially accepted his son’s sacrifice for the sake of peace. When he heard al-Muhalhil’s taunt, however, al-Ḥārith was incensed and decided to enter the battle, conclusively defeating the Taghlibs and capturing their leader, al-Muhalhil. Failing to recognize who he had captured, al-Ḥārith commanded his prisoner to lead him to al-Muhalhil; the latter promised to do so on the condition that he would not harm him. al-Ḥārith acquiesced. When the prisoner identified himself as al-Muhalhil, al-Ḥārith was true to his word, cutting off al-Muhalhil’s forelock (a mark of humiliation in this society) but otherwise leaving him alone.
+				In the following rithāʾ, or elegy, al-Ḥārith laments the disrespectful slaying of Bujayr (his son), expresses the many hard feelings he endured as a consequence, and showcases images and moods from the day of his battle against the Taghlibs. The poem is best known by its famous refrain, “Qarribā marbaṭ al-Naʿāmah minnī,” (“Bring me al-Naʿāmah’s harness”), al-Naʿāmah being his unrivaled horse. The poem as it survives exists in multiple versions, though none live up to the claims by medieval historiographers that al-Ḥārith repeated this call over fifty times.
+				Another text featured in the Global Medieval Sourcebook, "Can you make out twilight's ruins?", comprises al-Muhalhil’s response to al-Ḥārith’s elegy. While these two poems have traditionally been ascribed, respectively, to al-Harith and al-Muhalhil themselves, more research is required to determine their precise transmission and authorship. </p>
+				<p>
+					Fück, J.W. [1960-2007] 2012. “al-Basūs”, in: Encyclopaedia of Islam, Second Edition, Edited by: P. Bearman, Th. Bianquis, C.E. Bosworth, E. van Donzel, W.P. Heinrichs. Consulted online on 23 December 2020.
+					●	Offers an overview of the Basus war; includes a helpful bibliography.
+				</p>
+				<p>
+				Khalidi, T. 1994. Arabic Historical Thought in the Classical Period. Cambridge: Cambridge University Press.
+				●	Surveys how the past was conceived and recorded through the first several centuries of Islamic historical writing.
+				</p>
+				<p>
+				Rosenthal, F. [1952] 1968. A History of Muslim Historiography. 2nd rev. ed. Leiden: Brill.
+				●	Analyzes the period’s conceptions of and approaches toward recording the past.
+				</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Transcription based on Cheikho, L. 1890. Kitāb Shuʿarāʾ al-Naṣrāniyyah. Vol. 1. Beirut: Maṭbaʿat al-Ābāʾ al-Mursilīn al-Yasūʿiyyīn fī Bayrūt, pages 273-276.</p>
+				<listWit>
+					<witness xml:id="Transcription">"هل عرفت الغداة من أطلال"</witness>
+					<witness xml:id="Translation">"Can you make out twilight's ruins?"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Can you make out twilight's ruins?" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>Arabic diacritics adjusted for readability.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">هل عرفْتَ الغداةَ مِن أطلال<space quantity="10" unit="chars"></space>رَهْنِ ريحٍ ودِيمَةٍ مِهْطالِ</lem>
+						<rdg wit="#Translation">Can you make out twilight’s ruins,<lb/><space quantity="10" unit="chars"></space>Subject to windstorm and downpour?</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">يسْتبينُ الحليمُ فيها رُسُوماً<space quantity="10" unit="chars"></space>دارساتٍ كصنْعَةِ العُمَّالِ</lem>
+						<rdg wit="#Translation">A sensible person discerns effaced<lb/><space quantity="10" unit="chars"></space>Traces—the craft of artisans;</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">قد رآها وأهلُها أهلُ صِدْقٍ<space quantity="10" unit="chars"></space>لا يريدون نيَّةَ الارتحالِ</lem>
+						<rdg wit="#Translation">He beheld them. Their people—a constant people—<lb/><space quantity="10" unit="chars"></space>Desired no departure.<note anchored="true" type="critical"><p>We may read these enigmatic opening lines as a threat to al-Ḥārith’s Bakr tribe. Presumably, al-Muhalhil will reduce the rival clan to the wasteland he has just described. Any sensible person who beholds these ruins must conclude that the land’s inhabitants were violently uprooted.</p></note></rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">يا لَقَومي لِلَوْعَةِ البَلْبالِ<space quantity="10" unit="chars"></space>ولِقَتْلِ الكُماةِ والأبطالِ</lem>
+						<rdg wit="#Translation">O my kinfolk, o grief for their agony,<lb/><space quantity="10" unit="chars"></space>The killing of heroes and champions.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">ولِعيْنٍ تبادر الدَّمعُ منها<space quantity="10" unit="chars"></space>لِكُلَيْبٍ إذ فاقها بانهمالِ</lem>
+						<rdg wit="#Translation">O grief for eyes from which tears rushed<note type= "critical" anchored="true"><p>Literally, “And for an eye from which the tear rushed.”</p></note><lb/><space quantity="10" unit="chars"></space>For Kulayb, overwhelmed with a downpour.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">لكليبٍ إذِ الرِّياحُ عليه<space quantity="10" unit="chars"></space>ناسفاتُ التُّرابِ بالأذْيالِ</lem>
+						<rdg wit="#Translation">For Kulayb, windswept,<lb/><space quantity="10" unit="chars"></space>The dust-scatterers about him.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">إنَّني زائرٌ جُمُوعاً لبكْرٍ<space quantity="10" unit="chars"></space>بينهم حارثٌ يُريدُ نِضالي</lem>
+						<rdg wit="#Translation">I’ll visit Bakr’s troops,<lb/><space quantity="10" unit="chars"></space>Among them Ḥārith: he desires my strife.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">قد شَفَيْتُ الغَلِيلَ من آلِ بكْرٍ<space quantity="10" unit="chars"></space>آلِ شَيْبانَ بين عَمٍّ وخالِ</lem>
+						<rdg wit="#Translation">I brought out rancor from Bakr’s family,<lb/><space quantity="10" unit="chars"></space>The clan of Shaybān,<note type= "critical" anchored="true"><p>Shaybān: a sub-clan of the Bakr tribe.</p></note>uncles between us.<note type= "critical" anchored="true"><p>Literally: “The family of Shaybān between paternal and maternal uncles,” a possible allusion to the shared blood of the Bakr and Taghlib tribes, derived from the siblings Bakr and Taghlib.</p></note></rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">كَيْفَ صَبْري وقد قتلْتُم كليباً<space quantity="10" unit="chars"></space>وشقِيتُم بِقتْله في الخوالي</lem>
+						<rdg wit="#Translation">How be patient, and you killed Kulayb?<lb/><space quantity="10" unit="chars"></space>You then suffered for his killing.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">فلَعَمْري لَأقْتُلَنَّ بكليبٍ<space quantity="10" unit="chars"></space>كلَّ قَيْلٍ يُسَمَّى من الأقيالِ</lem>
+						<rdg wit="#Translation">By my life, I’ll kill for Kulayb<lb/><space quantity="10" unit="chars"></space>Every chief named among the chiefs.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">ولعمري لقد وطِئْتُ بني بكرٍ<space quantity="10" unit="chars"></space>م بما قد جنَوْهُ وَطْءَ النِّعالِ</lem>
+						<rdg wit="#Translation">By my life, I stomped Bakr’s offspring<lb/><space quantity="10" unit="chars"></space>For the crime they committed—the stomp of shoelaces.<note type= "critical" anchored="true"><p>al-Muhalhil reportedly killed Bujayr, al-Ḥārith’s son, in compensation for the mere shoelace of his brother, Kulayb. See Introduction.</p></note></rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">لم أدَعْ غيْرَ أَكْلُبٍ ونِساءٍ<space quantity="10" unit="chars"></space>وإماءٍ حواطِبٍ وعيالِ</lem>
+						<rdg wit="#Translation">I went without dogs, women,<lb/><space quantity="10" unit="chars"></space>Bondswomen, maidservants, dependents.<note type= "critical" anchored="true"><p>That is, al-Muhalhil vowed to renounce these and other pleasures until he took vengeance for his brother’s murder.</p></note></rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">فاشربوا ما وردتُّمُ الآنَ منَّا<space quantity="10" unit="chars"></space>واصْدِروا خاسرين عن شرِّ حالِ</lem>
+						<rdg wit="#Translation">Now drink what you’ve come to<note type= "critical" anchored="true"><p>Literally, “Drink what [body of water] you’ve arrived at now from us.”</p></note><lb/><space quantity="10" unit="chars"></space>And flee badly defeated.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">زعمَ القوْمُ أنَّنا جارُ سُوءٍ<space quantity="10" unit="chars"></space>كذبَ القومُ عندنا في المقالِ</lem>
+						<rdg wit="#Translation">The nation<note type= "critical" anchored="true"><p>Presumably the Bakr tribe.</p></note> claimed we are a harmful neighbor;<lb/><space quantity="10" unit="chars"></space>They maligned us in the claim.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">لَمْ يَرَ النَّاسُ مِثْلَنَا يَوْمَ سِرْنَا<space quantity="10" unit="chars"></space>نَسْلُبُ المُلْكَ بِالرِّمَاحِ الطِّوَالِ</lem>
+						<rdg wit="#Translation">The people hadn’t seen our likes the day we moved,<lb/><space quantity="10" unit="chars"></space>Seizing the reign with long spears;</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">يَوْمَ سِرْنَا إِلَى قَبَائِلِ عَوْفٍ<space quantity="10" unit="chars"></space>بِجُمُوعٍ زُهَاؤُوهَا كَالجِبَالِ</lem>
+						<rdg wit="#Translation">The day we moved into ʿAuf’s tribes<lb/><space quantity="10" unit="chars"></space>With hordes high as mountains.</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">بَيْنَهُمْ مَالِكٌ وَعَمْرٌو وَعَوْفٌ<space quantity="10" unit="chars"></space>وعُقَيْلٌ وصَالحُ بنُ هِلالِ</lem>
+						<rdg wit="#Translation">Among them Mālik, and ʿAmr, and ʿAuf;<lb/><space quantity="10" unit="chars"></space>ʿUqayl, and Ṣāliḥ ibn Hilāl.</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">لمْ يَقُمْ سِيْفُ حارِثٍ بِقِتالٍ<space quantity="10" unit="chars"></space>أسْلَمَ الوالِداتِ في الأثقالِ</lem>
+						<rdg wit="#Translation">Ḥārith’s sword rose not to fight,<lb/><space quantity="10" unit="chars"></space>It surrendered mothers among the dead.<note type= "critical" anchored="true"><p>Ḥārith’s sword may here serve as a synecdoche for the Bakr tribe’s army, which failed to protect its women.</p></note></rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">صَدَقَ الجَارُ إنَّنا قدْ قَتَلْنا<space quantity="10" unit="chars"></space>بِقِبَالِ النِّعالِ رَهْطَ الرِّجالِ</lem>
+						<rdg wit="#Translation">The neighbor averred: we surely slew<lb/><space quantity="10" unit="chars"></space>For the sandal’s strap sundry kinsmen.<note type= "critical" anchored="true"><p>That is, many men were slain for Kulayb’s shoelace.</p></note></rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">لا تَمَلَّ القِتالَ يا ابْنَ عُبادٍ<space quantity="10" unit="chars"></space>صَبِّرِ النَّفْسَ إنَّني غَيْرُ سالِ</lem>
+						<rdg wit="#Translation">Ibn ʿUbād!<note type= "critical" anchored="true"><p>That is, al-Ḥārith.</p></note> the killing will not weary.<lb/><space quantity="10" unit="chars"></space>Take patience: I’ve neither forgotten nor calmed.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">يا خَليلَيَّ قَرِّبا اليومَ مِنِّي<space quantity="10" unit="chars"></space>كُلَّ وَرْدٍ وأدْهَمٍ صَهَّالِ</lem>
+						<rdg wit="#Translation">Friends!<note type= "critical" anchored="true"><p>In keeping with dramatic convention, Muhalhil calls out to two imagined companions, as did his rival, al-Ḥārith.</p></note>Draw near me this day<lb/><space quantity="10" unit="chars"></space>Every neigher, red and black.<note type= "critical" anchored="true"><p>That is, horses, according to the color of their coats.</p></note></rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>لِكُلَيْبَ الَّذي أشابَ قذالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<note type= "critical" anchored="true"><p>Muhalhil’s ride, Naʿāmah’s match.</p></note><lb/><space quantity="10" unit="chars"></space>For Kulayb, who grayed my head.</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>واسألاني ولا تطِيلا سُؤالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>Ask me, but don’t prolong my inquiry.</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>سَوف تبدو لنا ذواتُ الحِجالِ</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>Brides will be revealed to us.<note type= "critical" anchored="true"><p>Bakr’s women, literally, “the ones of the curtained canopies,” “dhawāt al-ḥijāl,” prospective prisoners of war.</p></note></rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>إنَّ قولي مُطابِقٌ لِفِعالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>My speech matches my deeds indeed.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>لِكُلَيْبٍ فداهُ عَمِّي وخالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>For Kulayb—may my uncles be ransomed!<note type= "critical" anchored="true"><p>To wish that a person (or persons) be ransomed for another conveys the seriousness of a subject or situation while communicating the latter’s dearness to the oathmaker.</p></note></rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>لاعتناق الكُماةِ والأبطالِ</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>For the embrace of soldiers and heroes.</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>سَوف أصْلي نِيرانَ آلِ بِلالِ</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>I’ll feed the flames of Bilāl’s family.</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>إن تلاقت رِجالُهُم ورِجالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>Should their men meet mine.</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>طالَ لَيلي وأقْصَرَتْ عُذَّالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>My night stretched.<note type= "critical" anchored="true"><p>Probably from riding or raiding.</p></note> My critics shrank.</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>يا لبكرٍ وأين منكم وِصالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>Bakr! where’s our rendezvous?</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>لِنضالٍ إذا أرادوا نِضالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>For fighting, should they want my fight.</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>لقتيلٍ سَفَتْهُ ريحُ الشَّمالِ</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>For a slain man scattered by the north wind.<note type= "critical" anchored="true"><p>Presumably, Kulayb’s corpse was left exposed to the elements.</p></note></rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>مع رُمْحٍ مُثَقَّفٍ عَسَّالِ</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>With a straight, supple spear.</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">قَرِّبا مَرْبَطَ المُشَهَّرِ مِنِّي<space quantity="10" unit="chars"></space>قَرِّباهُ وقَرِّبا سِرْبالي</lem>
+						<rdg wit="#Translation">Draw Mushahhar’s harness near—<lb/><space quantity="10" unit="chars"></space>Bring it, and bring my armor,</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">ثُمَّ قولا لِكُلِّ كَهْلٍ وناشٍ<space quantity="10" unit="chars"></space>من بني بَكْرَ جَرِّدُوا للقِتال</lem>
+						<rdg wit="#Translation">Then tell every ready adult male<lb/><space quantity="10" unit="chars"></space>From Bakr’s offspring: unsheathe for bloodshed.</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">قد مَلَكْناكمُ فكُونوا عَبيدًا<space quantity="10" unit="chars"></space>ما لكم عن مِلاكِنا مِن مَجالِ</lem>
+						<rdg wit="#Translation">We owned you, so become slaves!<lb/><space quantity="10" unit="chars"></space>You have no leeway from our reign.</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">وخُذُوا حِذْرَكُم وشُدُّوا وجِدُّوا<space quantity="10" unit="chars"></space>واصْبِرُوا للنِّزالِ بعد النِّزالِ</lem>
+						<rdg wit="#Translation">Take heed, resolve, and vie;<lb/><space quantity="10" unit="chars"></space>Brace for battle after battle.</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">فلقد أصبحت جمائعُ بكرٍ<space quantity="10" unit="chars"></space>مِثلَ عادٍ إذ مُزِّقَتْ في الرِّمالِ</lem>
+						<rdg wit="#Translation">Thus Bakr’s forces became<lb/><space quantity="10" unit="chars"></space>As ʿĀd, torn up in the sands.<note type= "critical" anchored="true"><p>ʿĀd: the notorious tribe obliterated by windstorm.</p></note></rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">يا كُليبًا أَجِبْ لِدَعْوَةِ داعٍ<space quantity="10" unit="chars"></space>مُوجَعِ القَلبِ دائمِ البَلْبَالِ</lem>
+						<rdg wit="#Translation">Kulayb: answer a suppliant’s plea,<lb/><space quantity="10" unit="chars"></space>Heartsore, ever-anxious.</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">فلقد كنتَ غيرَ نِكْسٍ لَدَى البَأْ<space quantity="10" unit="chars"></space>سِ ولا واهنٍ ولا مِكْسالِ</lem>
+						<rdg wit="#Translation">You were not one to shun the mighty,<lb/><space quantity="10" unit="chars"></space>Neither weak nor lazy.</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">قد ذبحنا الأطفالَ من آلِ بكرٍ<space quantity="10" unit="chars"></space>وقهرنا كُماتَهُم بالنِّضالِ</lem>
+						<rdg wit="#Translation">We butchered Bakr’s family’s children,<lb/><space quantity="10" unit="chars"></space>Thrashed their militia viciously,</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">وكَرَرْنا عليهم وانثنيْنا<space quantity="10" unit="chars"></space>بِسُيوفٍ تقُدُّ في الأوْصالِ</lem>
+						<rdg wit="#Translation">Charged them repeatedly, leaned in<lb/><space quantity="10" unit="chars"></space>With swords slitting joints.</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">أسْلَموا كلَّ ذاتِ بَعْلٍ وأُخْرى<space quantity="10" unit="chars"></space>ذاتَ خِدرٍ غرَّاءَ مِثْلَ الهلالِ</lem>
+						<rdg wit="#Translation">They submitted, every wife and others<lb/><space quantity="10" unit="chars"></space>Enclosed, white as the crescent.<note type= "critical" anchored="true"><p>Collectively, Bakr’s women, screened by a green veil. See note 15 above.</p></note></rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">يا لَبَكْرٍ فأوْعِدُوا ما أرَدتُّم<space quantity="10" unit="chars"></space>واستطعتم فما لِذا مِن زوالِ</lem>
+						<rdg wit="#Translation">So threaten, Bakr, all you wish<lb/><space quantity="10" unit="chars"></space>Or can, for there’s no end to our plunder.</rdg>
+					</app>
+				</l>				
+			</lg>
+		</body>
+	</text>
+</TEI>
