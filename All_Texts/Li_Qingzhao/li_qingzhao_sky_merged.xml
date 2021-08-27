@@ -1,0 +1,179 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “The Fisherman is Proud”&#8212;"The Sky Merged"</title>
+				<author>Li Qingzhao</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 2. Beijing: Zhonghua shu ju, 1965, 927.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>This <hi rend="italic">ci</hi> is usually interpreted as a dream vision, where the speaker experiences a brief taste of the afterlife: a beautiful palace in the sky where the immortal dwell. This may be of particular interest to readers more familiar with medieval Christian, Jewish, and Muslim beliefs about life after death.</p>
+
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+
+				<p>Li Qingzhao was probably one of the most prominent female poets in Imperial China. Born into an elite family of imperial bureaucrats, Li Qingzhao aspired to become a writer even though literature was considered a male domain. She quickly gained fame for her poetic talent and became not only a celebrated composer of ci but also an important critic of the genre. In her view, the male poets composing lyrics for female singers struggled to convey these women’s thoughts and voices convincingly. In her song lyrics, Li Qingzhao offers the modern reader something rare and precious: the inner world of women in medieval China, as imagined by a woman poet. Her songs are often considered to be among the most affecting of the genre.</p>
+
+				<p>In 1127, when Li Qingzhao was in her forties, the capital city of the Song dynasty (present-day Kaifeng)—the city where Li Qingzhao lived—was conquered by the Jin dynasty in the Jin-Song Wars, along with the northern half of the Song dynasty’s territory. The surviving members of the dynasty consolidated their regime in the south, establishing a new capital city, first in Nanjing, then in Lin’an (present-day Hangzhou). The conquest of Kaifeng marked the end of the Northern Song dynasty and the beginning of the Southern Song dynasty: two distinct eras in the political history of China, and two distinctive periods in Li Qingzhao’s own poetry. Following the invasion of Kaifeng, she moved first to Nanjing and then to Lin’an, where she spent the remaining decades of her life; her husband died in 1129. In contrast to the love themes of her earlier ci, much of her later poetry is concerned with the sorrow of her forced migration and her personal loneliness in her new surroundings.</p>
+
+				<p>Chang, Kang-i Sun. The Evolution of Tz’u Poetry: from Late Tang to Northern Sung. Princeton UP, 1980.
+				
+				A standard survey of the early history of Chinese song lyrics (romanized as both ci and tz’u).</p>
+
+				<p>Egan, Ronald. “The Song Lyric.” The Cambridge History of Chinese Literature, vol. 1, edited by Stephen Owen, Cambridge UP, 2010, pp. 434-452.
+				
+				An overview of the genre.</p>
+
+				<p>Owen, Stephen. Just a Song: Chinese Lyrics from the Eleventh and Early Twelfth Centuries. Asia Center, Harvard UP, 2019.
+
+				A recent new history of the genre.</p>
+
+				<p>Tang, Guizhang 唐圭璋, editor. Quan Song Ci 全宋詞. Zhonghua shu ju, 1965. 5 vols.
+				
+				A comprehensive edition of ci from the Song dynasty and the source text for the ci  in this collection (introductions and annotations are in Chinese).</p>
+
+				<p>Egan, Ronald. The Works of Li Qingzhao. De Gruyter, 2019, pp. 94-198.
+				
+				A bilingual edition, with Chinese and English translations on facing pages.</p>
+				
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
+				<listWit>
+					<witness xml:id="Transcription">漁家傲</witness>
+					<witness xml:id="Translation">To the tune “The Fisherman is Proud”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “The Fisherman is Proud”&#8212;"The Sky Merged"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 2. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">漁家傲</lem>
+						<rdg wit="#Translation">To the tune “The Fisherman is Proud”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">天接雲濤連曉霧。</lem>
+						<rdg wit="#Translation">The sky merged the sea of clouds<note anchored="true"><hi rend="italic">濤</hi> literally means a wave, i.e. a wave of clouds.</note> with the mist of dawn.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">星河欲轉千帆舞。</lem>
+						<rdg wit="#Translation">The starry rivers swirled as if a thousand sails fluttered. </rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">彷佛夢魂歸帝所。</lem>
+						<rdg wit="#Translation">I felt as if my dreaming soul had returned to the gods' palace<note anchored="true">It is unclear which gods are referred to here; in the Buddhist tradition of the Tang Dynasty, people believed in an emperor who inhabited a palace in the sky and was surrounded by a court of other gods. In some ancient Chinese mythology, there is an idea that the soul originates in the sky and ultimately returns to the sky.</note>:</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">聞天語。</lem>
+						<rdg wit="#Translation">I heard the sky speak,</rdg>
+					</app>
+				</l>
+				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">殷勤問我歸何處。</lem>
+						<rdg wit="#Translation">asking me repeatedly, where do I belong?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">我報路長嗟日暮。</lem>
+						<rdg wit="#Translation">I replied that the road was long and the sun about to set.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">學詩漫有驚人句。</lem>
+						<rdg wit="#Translation">I learnt poetry and wrote astonishing lines in vain.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">九萬里風鵬正舉。</lem>
+						<rdg wit="#Translation">The Peng bird<note anchored="true">The Peng bird is an enormous bird of legend, notably depicted in an influential philosophical work, the Zhuangzi, written by Zhuangzi (B.C. 369-B.C. 286), the Taoist philosopher with the same name.</note> glided in the wind, soaring nine thousand miles into the sky</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">風休住。</lem>
+						<rdg wit="#Translation">O, wind, please do not stop,</rdg>
+					</app>
+				</l>
+				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">蓬舟吹取三山去。</lem>
+						<rdg wit="#Translation">blow this tumbleweed boat to the Three Mountains<note anchored="true">The Three Mountains was the name given to the place where immortals were believed to live.</note>.</rdg>
+					</app>
+				</l>
+			</lg>
+
+		</body>
+	</text>
+</TEI>
+
+
+
+

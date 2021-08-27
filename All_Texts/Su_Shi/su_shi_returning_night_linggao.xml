@@ -1,0 +1,159 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Immortal by the River”&#8212;Returning at Night to Linggao</title>
+				<author>Su Shi</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 287.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>This song was written in 1082 CE, when Su Shi was demoted and transferred to Huangzhou, a city in Imperial China (in what is today the Huangzhou district of Hubei). After experiencing political persecution, the poet was miserable, yet continued to find beauty in nature. He also expresses his desire to leave aside the pursuit of status, fame and money and fantasies of living as a recluse from now on.</p>
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+				<p>Su Shi is one of the most popular Chinese poets of all time, and certainly one of the best-known poets of the Song Dynasty. Among his many roles - principled politician, esteemed poet, celebrated calligrapher - he was also a major reformer of the ci genre. Before Su Shi, the primary form of ci was wǎnyuē (婉约, "graceful"). This was considered to be an inferior form of literature due to its thematic focus on love and desire and its association with the courtesans who usually performed it. Su Shi wrote lyrics on a broad range of non-traditional topics, often closely related to his own life experience. His compositions dealt with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service. As a pioneer of the háofàng (豪放, "bold") type of ci, he incorporated references to typically masculine pursuits, including frequent use of a hunting motif. He also frequently incorporated ideas from Buddhist philosophy and allusions to political events, which usually appeared only in more elevated forms of poetry.</p>
+				<p>Although Su Shi was a highly-regarded poet during his lifetime, his political career was consistently unfortunate. In 1066, he was forced to leave the Court when he openly opposed the chancellor’s socio-economic reforms, known as the New Policies. Over the next thirteen years, he was frequently demoted, serving as prefect or sub-prefect in Hangzhou, Mizhou, Xuzhou and Huzhou. Many of his ci reference these postings and the exhaustion of constant travel. A report about the troubling economic conditions of local people written while he was prefect of Huzhou landed him in prison for three months. He was finally sent back to Hangzhou and given a job with no salary. Although living in poverty, he grew fond of Hangzhou and wrote many of his most famous ci there.</p>
+				<p>Because of the occurrence of specific real names and locations in Su Shi's lyrics, as well as the introductory notes he wrote to accompany many of them, his lyrics often invite a biographical reading. This differentiates him from other ci poets featured in this collection, whose writings did not usually reference their own lives in such a direct way. Yet although Su Shi's lyrics evoke specific lived experiences, the enduring popularity of his poetry is due, in part, to the fact that diverse audiences can identify with the feelings he describes.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 287. </p>
+				<listWit>
+					<witness xml:id="Transcription">臨江仙</witness>
+					<witness xml:id="Translation">To the tune “Immortal by the River”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Immortal by the river”&#8212;Returning at Night to Linggao is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+					<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">臨江仙</lem>
+						<rdg wit="#Translation">To the tune “Immortal by the River”</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">夜歸臨皋</lem>
+						<rdg wit="#Translation">Returning at Night to Linggao<note type= "critical" anchored="true"><p>The part of Huangzhou where the speaker was in exile.</p></note></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">夜飲東坡醒復醉，</lem>
+						<rdg wit="#Translation">Drinking at night on the Eastern Slope<note type= "critical" anchored="true"><p> "Eastern Slope" is not only the name of a hill, but also a pseudonym used by Su Shi. This line could also be rendered: "Drinking at night, Su Shi/Eastern Slope sobered up and got drunk again."</p></note>, I sobered up and got drunk again.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">歸來彷彿三更。 </lem>
+						<rdg wit="#Translation">When I arrived back home, it was about midnight<note type= "critical" anchored="true"><p>In ancient China, the night time was divided into five periods (更). At the beginning of each period, drums were beaten by night watchmen. 三更 refers to the third period, roughly equivalent to midnight.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">家童鼻息已雷鳴。</lem>
+						<rdg wit="#Translation">The young servant was snoring like thunder,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">敲門都不應，</lem>
+						<rdg wit="#Translation">not responding, no matter how hard I knocked.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">倚杖聽江聲。</lem>
+						<rdg wit="#Translation">Supported by a walking stick, I listened to the river.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">長恨此身非我有，</lem>
+						<rdg wit="#Translation">I have long regretted that this body does not belong to me.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">何時忘卻營營。</lem>
+						<rdg wit="#Translation">When can I stop pursuing fame and money?<note type= "critical" anchored="true"><p>“營營” literally means being busy without stopping, often with a negative connotation. It is also the onomatopoeia for the sound that flies make when flying around. It can also refer to the anxieties in one’s mind. An alternative interpretation could be “When can I forget these anxieties?”</p></note></rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">夜闌風靜谷紋平。</lem>
+						<rdg wit="#Translation">The night comes to an end, the wind stops, and the waves in the ravine die down.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">小舟從此逝，</lem>
+						<rdg wit="#Translation">Let me drift away on a small boat from now on,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">江海寄餘生。</lem>
+						<rdg wit="#Translation">And entrust the rest of my life to rivers and seas.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

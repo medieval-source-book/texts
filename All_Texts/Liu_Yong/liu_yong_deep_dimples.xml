@@ -1,0 +1,219 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Strike the Parasol Tree”&#8212;"Her deep dimples are fragrantly powdered"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 37.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 37.</p>
+				<listWit>
+					<witness xml:id="Transcription">擊梧桐</witness>
+					<witness xml:id="Translation">To the tune “Strike the Parasol Tree”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Strike the Parasol Tree”&#8212;"Her deep dimples are fragrantly powdered" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">擊梧桐</lem>
+						<rdg wit="#Translation">To the tune “Strike the Parasol Tree”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">香靨深深，</lem>
+						<rdg wit="#Translation">Her deep dimples are fragrantly powdered,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">姿姿媚媚，</lem>
+						<rdg wit="#Translation">her posture is enchanting;</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">雅格奇容天與。</lem>
+						<rdg wit="#Translation">she is gifted with elegance and extraordinary beauty.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">自識伊來，</lem>
+						<rdg wit="#Translation">Ever since I met her,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">便好看承，</lem>
+						<rdg wit="#Translation">I have been treated with care,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">會得妖嬈心素。</lem>
+						<rdg wit="#Translation">and so I knew her bewitching heart (was devoted to me).</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">臨歧再約同歡，</lem>
+						<rdg wit="#Translation">Upon parting, we swore to share joy again<note type= "critical" anchored="true"><p>A euphemism for sex.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">定是都把平生相許</lem>
+						<rdg wit="#Translation">and promised our lives to each other.</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">又恐恩情，</lem>
+						<rdg wit="#Translation">I am still afraid that our love</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">易破難成， </lem>
+						<rdg wit="#Translation">will be easily broken and hard to keep.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">未免千般思慮。</lem>
+						<rdg wit="#Translation">I cannot help but have a thousand thoughts and worries.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">近日書來，</lem>
+						<rdg wit="#Translation">Recently, her letter came</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">寒暄而已，</lem>
+						<rdg wit="#Translation">with only simple greetings.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">苦沒忉忉言語。</lem>
+						<rdg wit="#Translation">There are no words of sorrow or earnest concern at all.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">便認得、 </lem>
+						<rdg wit="#Translation">Thus, I am sure that</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">聽人教當，</lem>
+						<rdg wit="#Translation">she must have listened to others</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">擬把前言輕負。</lem>
+						<rdg wit="#Translation">and plans to throw away her previous promises.</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">見說蘭台宋玉，</lem>
+						<rdg wit="#Translation">I have heard of Song Yu of the Orchid Terrace<note type= "critical" anchored="true"><p>See discussion in introduction.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">多才多藝善詞賦。</lem>
+						<rdg wit="#Translation">who was very talented and excelled in songs and rhapsodies.</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">試與問、</lem>
+						<rdg wit="#Translation">I’d like to ask him,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">朝朝暮暮。</lem>
+						<rdg wit="#Translation">every morning and every night,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">行雲何處去。</lem>
+						<rdg wit="#Translation">where did the floating cloud go<note type= "critical" anchored="true"><p>See introduction for a discussion of these two lines.</p></note>?</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -9,23 +9,24 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
+				<title><!--In English following this example: To the tune “Jade Butterfly”&#8212;"By Mistake"--></title>
+				<author>Liu Yong</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, </name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Qian Jia</name>
 				</respStmt>
 				<respStmt>
-					<resp>Introduction by</resp>
-					<name></name>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Manya Bansal</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -38,16 +39,16 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><ref target=""></ref></p>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription"><!--Tune name ONLY in Chinese--></witness>
+					<witness xml:id="Translation"><!--Tune name ONLY in English--></witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -66,8 +67,8 @@
 			<head>
 				<title type="main">
 					<app>
-						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
-						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+						<lem wit="#Transcription"><!--Tune name ONLY in Chinese--></lem>
+						<rdg wit="#Translation"><!--Tune name ONLY in English--></rdg>
 					</app>
 				</title>
 				<title type="sub">
@@ -80,39 +81,44 @@
 		</front>
 		<body>
 			<lg n="1" type="stanza">
+				<!--Each stanza needs its own line group <lg>-->
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"> Китоврасѣ ѿ палеи</lem>
-						<rdg wit="#Translation">But Poseidon had gone to visit the far-off Ethiopians,</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">Китоврасъ є҆сть звѣрь борзъ</lem>
-						<rdg wit="#Translation">the Ethiopians, most remote of men, who are divided in two,</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">соломонъ мр͠дӹ хитростїю изымалъ є҆го.</lem>
-						<rdg wit="#Translation">some at Hyperion's setting, others at his rising,</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">станъ члв҃чь а҆ ноги коровїи.</lem>
-						<rdg wit="#Translation">to partake of a hecatomb of bulls and rams.</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
+
+			</lg>
+			<lg n="2" type="stanza">
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">рекше баснѧ женоу во оухѣ носилъ.</lem>
-						<rdg wit="#Translation">He sat there enjoying himself at the feast. The others by now</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="6">
-					<app></lem>
-						<rdg wit="#Translation">The others by now were together in the halls of Olympian Zeus.</rdg>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="7">
@@ -123,14 +129,8 @@
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">ѡ҆н же ре всего є҆сть лоучши своѧ волѧ. </lem>
-						<rdg wit="#Translation">for in his heart he recalled noble Aegisthus,</rdg>
-					</app>
-				</l>
-				<l n="9">
-					<app>
 						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">whom far-famed Orestes Agamemnonides had slain.</rdg>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>

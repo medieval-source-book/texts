@@ -1,0 +1,149 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “The Moon Over the West River”&#8212;Pingshan Hall</title>
+				<author></author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 283.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>Ouyang Xiu, whose work is also included in this collection, was a highly respected and influential teacher of Su Shi. He built Pingshan Hall in 1048 CE. Before the composition of this song, Su Shi had passed by the hall twice due to transfers at work. The song marks the occasion of his third visit to Pingshan Hall, at which point Ouyang Xiu had long since passed away. The song serves to commemorate Su Shi’s teacher, as well as to reflect on the inconstancy of life; the latter effort is supported by Su Shi's use of Buddhist imagery, such as “a flick of the finger” to express the rapid passing of time. The final lines, especially the sentiment that lived experience is a dream, refer to the philosophy of the Diamond Sutra (金刚经).</p>
+				<p>The Diamond Sutra is an important Buddhist scripture which contains the discourse of the Buddha to a senior monk, Subhuti. The major themes are anatman (not-self), the emptiness of all phenomena and the liberation of all beings from attachments. Buddhism developed in China during the Tang Dynasty (618-907 CE) and the Five Dynasties period (907-960 CE), and continued to prosper under the Song Dynasty. The Song Dynasty government supported and organized the translation and publication of various Sutras; multiple commentaries on Sutras were also produced during this period. Most of the Song Dynasty emperors either believed in Buddhism or supported its spread. The most dominant faction was the Zen Buddhism of Mahāyāna Buddhism, and the Diamond Sutra was considered to be one of their most influential texts, well-known both to the non-secular and secular world.</p>
+				<p>Su Shi himself was highly influenced by Buddhism; his brother was very invested in Buddhist philosophy and practices, as were his second wife, Wang Runzhi, and his later partner, Zhaoyun. Throughout his life, he befriended many monks and incorporated Buddhist practices into his life through copying Sutras, building pagodas and temples and painting figures of Buddha. Su Shi’s lines on the dream-like quality of existence in the final two lines of this ci likely come from the four-line gatha at the end of Section 26 of the Diamond Sutra: “All conditioned phenomena are like a dream, like an illusion, like a bubble, like a shadow. Like dew or like a flash of lighting; thus we shall perceive them.”</p>
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+				<p>Su Shi is one of the most popular Chinese poets of all time, and certainly one of the best-known poets of the Song Dynasty. Among his many roles - principled politician, esteemed poet, celebrated calligrapher - he was also a major reformer of the ci genre. Before Su Shi, the primary form of ci was wǎnyuē (婉约, "graceful"). This was considered to be an inferior form of literature due to its thematic focus on love and desire and its association with the courtesans who usually performed it. Su Shi wrote lyrics on a broad range of non-traditional topics, often closely related to his own life experience. His compositions dealt with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service. As a pioneer of the háofàng (豪放, "bold") type of ci, he incorporated references to typically masculine pursuits, including frequent use of a hunting motif. He also frequently incorporated ideas from Buddhist philosophy and allusions to political events, which usually appeared only in more elevated forms of poetry.</p>
+				<p>Although Su Shi was a highly-regarded poet during his lifetime, his political career was consistently unfortunate. In 1066, he was forced to leave the Court when he openly opposed the chancellor’s socio-economic reforms, known as the New Policies. Over the next thirteen years, he was frequently demoted, serving as prefect or sub-prefect in Hangzhou, Mizhou, Xuzhou and Huzhou. Many of his ci reference these postings and the exhaustion of constant travel. A report about the troubling economic conditions of local people written while he was prefect of Huzhou landed him in prison for three months. He was finally sent back to Hangzhou and given a job with no salary. Although living in poverty, he grew fond of Hangzhou and wrote many of his most famous ci there.</p>
+				<p>Because of the occurrence of specific real names and locations in Su Shi's lyrics, as well as the introductory notes he wrote to accompany many of them, his lyrics often invite a biographical reading. This differentiates him from other ci poets featured in this collection, whose writings did not usually reference their own lives in such a direct way. Yet although Su Shi's lyrics evoke specific lived experiences, the enduring popularity of his poetry is due, in part, to the fact that diverse audiences can identify with the feelings he describes.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 283.</p>
+				<listWit>
+					<witness xml:id="Transcription">西江月</witness>
+					<witness xml:id="Translation">To the tune “The Moon Over the West River”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “The Moon Over the West River”&#8212;Pingshan Hall is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+					<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">西江月</lem>
+						<rdg wit="#Translation">To the tune “The Moon Over the West River”<note type= "critical" anchored="true"><p>This song was written in 1079 when the speaker passed by the city of Yangzhou.</p></note></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">平山堂</lem>
+						<rdg wit="#Translation">Pingshan Hall<note type= "critical" anchored="true"><p>Pingshan Hall was the study of Ouyang Xiu (1007-1072 CE), who was a mentor to Su Shi. This whole song is a commemoration of the speaker’s beloved teacher.</p></note></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">三過平山堂下，</lem>
+						<rdg wit="#Translation">By the time I stopped by the Pingshan Hall for the third time<note type= "critical" anchored="true"><p>Su Shi was transferred to Hangzhou as a Tong Pan (a court official in charge of food transportation and irrigation works); later he was transferred to Mizhou in 1074. By the time he wrote the song, it was his third time being transferred and passing by Pingshan Hall on his journey to the new posting.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">半生彈指聲中。</lem>
+						<rdg wit="#Translation">Half of my lifetime had gone in a flick of the finger<note type= "critical" anchored="true"><p>“A flick of the finger” refers to the transitory nature of time. It is a quantifier for time in Buddhist Scriptures. According to Buddhist Scriptures, the time period of twenty thoughts equals a moment, and twenty moments equal a flick of the finger.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">十年不見老仙翁。</lem>
+						<rdg wit="#Translation">For ten years I have not seen the old immortal<note type= "critical" anchored="true"><p>The “old immortal” refers to the poet’s mentor and friend, Ouyang Xiu, who had already passed away when Su Shi wrote this song.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">壁上龍蛇飛動。</lem>
+						<rdg wit="#Translation">On the walls, dragons fly and serpents move<note type= "critical" anchored="true"><p>The “dragons” and “serpents” refer to Ouyang Xiu’s calligraphy.</p></note>.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">欲弔文章太守，</lem>
+						<rdg wit="#Translation">I want to commemorate the Prefect of Fine Composition,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">仍歌楊柳春風。</lem>
+						<rdg wit="#Translation">but instead, I sing the song for the willow and the spring breeze<note type= "critical" anchored="true"><p>“The willow”, “the spring breeze”, and “the Prefect of Fine Composition” all come from Ouyang Xiu’s ci “Seeing Liu Zhongyuanfu Off For His Departure to Guard Weiyang”. “The Prefect of Fine Composition” was originally used by Ouyang Xiu to describe his friend, Liu Zhongyuanfu, but here, Su Shi is using it to refer to Ouyang Xiu. “The willow” and “the spring breeze” imagery are taken from the same song: “The willow planted by me [i.e. Ouyang Xiu] in front of Pingshan Hall, after I left, has turned green many times in the spring breeze”. Ouyang Xiu's song expresses a desire to live in the moment, which may also be the sentiment Su Shi wishes to convey with this line.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">休言萬事轉頭空。</lem>
+						<rdg wit="#Translation">Do not say that all things become empty in a blink of an eye.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">未轉頭時皆夢。</lem>
+						<rdg wit="#Translation">Even before your eyes blink, it is all just a dream.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

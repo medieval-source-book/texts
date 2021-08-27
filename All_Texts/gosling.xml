@@ -1,0 +1,1974 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE TEI SYSTEM "http://www.menota.org/menotaP5.dtd"
+[
+<!ENTITY % Menota_entities SYSTEM
+'http://www.menota.org/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Gosling</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription from the edition by</resp>
+					<name>Klaus Grubmüller</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Kathryn Starkey</name><name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Velloso-Lyons</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Kathryn Starkey</name><name>Björn K. Buschbeck</name><name>Robert Forke</name><name>Mae Velloso-Lyons</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>The Gosling is a typical example of the Middle High German tradition of mären: short narrative texts written in rhyming couplets, often telling humorous stories spiked with sexual jokes and sideswipes against specific social groups, most frequently clerics. In this way, mären are similar to the French fabliaux and the Italian prose novelle.</p>
+
+				<p>The Gosling was probably composed in the second half of the thirteenth century CE, and its author is unknown. The text tells the story of a young monk who leaves his monastery for the first time, encountering an outside world about which he is entirely ignorant. Never having seen a woman before, he innocently asks his abbot about those that they meet, and the abbot, trying to suppress the monk's instant fascination, tells him that these creatures are called “geese”. The abbot's plan fails as the naive monk is soon seduced by a village girl. Unaware of his wrongdoing, he reveals his sexual encounter to the abbot, who recognizes the calamity caused by his white lie.</p>
+
+				<p>The motif of the young man inexperienced in the ways of the world is widespread in European medieval literature. It is central to the various medieval versions of the legend of Barlaam and Josaphat (for example, Rudolf von Ems's Barlaam und Josaphat, also in Middle High German, composed c.1220/30) and is frequently used as a moral anecdote in sermons and exemplary literature (for example, Jacques de Vitry's Exempla, no. 82). Although commonly found in texts intended to educate their listener, the motif's humorous potential did not escape medieval authors and audiences and there are a large number of burlesque medieval stories about young men who have never seen women before and yet are instantly attracted them. For example, both the early fourteenth-century Italian text Novellino (specifically story no. 14) and Giovanni Boccaccio's Decameron (composed in 1358; see specifically the introduction to the fourth day) tell variants of this story.</p> 
+
+				<p>The Gosling is a relatively early example of this narrative tradition. With regard to its verse form, sexual humor and undertones of anticlericalism, it represents central characteristics of the mären tradition and provides an introduction this literary genre.</p>
+
+				<p>Multiple variants of this text are transmitted in six manuscripts that were written between the early fourteenth and mid-fifteenth centuries CE. The manuscript that our translation is based on was composed in Würzberg (in what is now southern Germany) around the year 1350 CE. In the scholarship, it is known as manuscript E.</p>
+
+				<p>Please note: You will see that the manuscript images embedded in the text panel (if you click “Go to Text”) do not always match our edition of the medieval text. This is because these images are not of manuscript E (which has not yet been digitised), but of a slightly earlier manuscript which also contains The Gosling: Heidelberg Cod. Pal. germ. 341. This manuscript is available to view in its entirety here. Although the two manuscripts generally agree, there are some variations. This is a common feature of medieval texts, which are often slightly modified when they are recopied, whether by mistake (i.e. when the scribe makes an error) or deliberately (i.e. when the scribe makes an alteration).</p>
+				
+				<p>Boccaccio, Giovanni, The Decameron, translated by Wayne A. Rebhorn. Norton, 2013.
+
+				See the introduction of the fourth day of stories for a variant of The Gosling.</p>
+				
+				<p>Chinca, Mark, “The Body in some Middle High German Mären: Taming and Maiming,” Framing Medieval Bodies, edited by Sarah Kay, Miri Rubin. Manchester University Press, 1994, pp. 187–210.</p>
+				
+				<p>Il Novellino. The Hundred Old Tales, translated by Edward Storer. George Routledge & Sons, 1925.
+
+				The fourteenth tale is a variant of The Gosling.</p>
+				
+				<p>The Exempla, or Illustrative Stories from the Sermones Vulgares of Jacques de Vitry, edited by Thomas Frederick Crane. Folk-Lore Society, 1890.
+
+				Exemplum no. 84 uses the trope of the inexperienced young man for moral instruction.</p>
+				
+				<p>Young, Christopher J., “At the End of the Tale. Didacticism, Ideology and the Medieval German Märe,” Mittelalterliche Novellistik im europäischen Kontext: Kulturwissenschaftliche Perspektiven, edited by Mark Chinca, Timo Reuvekamp-Felber, Christopher J. Young. Erich Schmidt Verlag, 2006, pp. 24–47.</p>
+				
+				<p>Wailes, Stephen L., “Social Humor in Middle High German Mären,” Amsterdamer Beiträge zur älteren Germanistik, vol. 10, 1976, pp. 119–148.</p>
+
+				<p>Wailes, Stephen L., “Mären,” Dictionary of the Middle Ages, edited by Joseph Reese Strayer, vol 8. Charles Scribner's Sons, 1987, col. 126–133.
+
+				Short lexicon article on the literary genre.</p>
+			</notesStmt>
+			<sourceDesc>
+				<listWit>
+					<witness xml:id="Transcription">daz genselin</witness>
+					<witness xml:id="Translation">The Gosling</witness>
+				</listWit>
+				<p>Manuscript E: Munich, University Library, 2° Cod., ms. 731, fol. 91v–93v.</p>
+			</sourceDesc>
+		</fileDesc>
+		<projectDesc>
+            	<p>"The Gosling" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>We have translated The Gosling according to Klaus Grubmüller's edition of manuscript E (Munich, University Library, 2° Cod. ms. 731, fol. 91v–93v). His edition is published in: Novellistik des Mittelalters. Texte und Kommentare. Deutscher Klassiker-Verlag im Taschenbuch, 2014.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+		<encodingDesc>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="G1.png" xml:id="G1"/>
+		<graphic url="G2.png" xml:id="G2"/>
+		<graphic url="G3.png" xml:id="G3"/>
+		<graphic url="G4.png" xml:id="G4"/>
+		<graphic url="G5.png" xml:id="G5"/>
+	</facsimile>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Diz mere heizet daz genselin und sagt von einem münche und von einem magedin</lem>
+						<rdg wit="#Translation">This tale is called 'The Gosling' and tells of a monk and a maiden</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<pb ed="#Transcription" facs="#G1"/>
+			<pb ed="#Translation"/>
+			<fw facs="#G1" type="header" place="margin-topright">1</fw>
+
+			<witDetail wit="#Transcription" target="#Transcription">
+				<media mimeType="audio/mp3" url="Genselin_Audio_Version1.mp3" />
+			</witDetail>
+			<l n="1">
+				<app>
+					<lem wit="#Transcription">Ich hort sagen ein mer</lem>
+					<rdg wit="#Translation">I heard a story told
+					</rdg>
+				</app>
+			</l>
+			<l n="2">
+				<app>
+					<lem wit="#Transcription">wie ein kloster wer</lem>
+					<rdg wit="#Translation">of a splendid</rdg>
+				</app>
+			</l>
+			<l n="3">
+				<app>
+					<lem wit="#Transcription">rich unde erbuwen wol</lem>
+					<rdg wit="#Translation">and well-built monastery,</rdg>
+				</app>
+			</l>
+			<l n="4">
+				<app>
+					<lem wit="#Transcription">als von reht ein kloster sol</lem>
+					<rdg wit="#Translation">as a monastery should be.</rdg>
+				</app>
+			</l>
+			<pb ed="#Transcription" facs="#G2"/>
+			<pb ed="#Translation"/>
+			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
+			<l n="5">
+				<app>
+					<lem wit="#Transcription">ir gasthus und ir spital</lem>
+					<rdg wit="#Translation">Their lodgings and their infirmary</rdg>
+				</app>
+			</l>
+			<l n="6">
+				<app>
+					<lem wit="#Transcription">heten niht gesatziu mal</lem>
+					<rdg wit="#Translation">did not have limited meal times</rdg>
+				</app>
+
+			</l>
+			<l n="7">
+				<app>
+					<lem wit="#Transcription">wan zuo welhen ziten der man</lem>
+					<rdg wit="#Translation">for whenever someone arrived</rdg>
+				</app>
+			</l>
+			<l n="8">
+				<app>
+					<lem wit="#Transcription">geriten oder gende kan</lem>
+					<rdg wit="#Translation">on horseback or on foot</rdg>
+				</app>
+			</l>
+			<l n="9">
+				<app>
+					<lem wit="#Transcription">der vant daz ezzen ie bereit</lem>
+					<rdg wit="#Translation">he always found a meal prepared.</rdg>
+				</app>
+			</l>
+			<l n="10">
+				<app>
+					<lem wit="#Transcription">minneclich und unverseit</lem>
+					<rdg wit="#Translation">Charitably and willingly
+					</rdg>
+				</app>
+			</l>
+			<l n="11">
+				<app>
+					<lem wit="#Transcription">gap man swaz si mohten han.</lem>
+					<rdg wit="#Translation">they gave whatever they had.
+						<note type="critical" anchored="true">
+							<p>"Milte" (roughly: "generosity") is regularly portrayed as a key virtue in medieval German courtly literature. Here it is related to the Christian ideal of caritas ("charity").</p>
+						</note>
+					</rdg>
+				</app>
+			</l>
+			<l n="12">
+				<app>
+					<lem wit="#Transcription">also solten noch diu klôster stan.</lem>
+					<rdg wit="#Translation">Would that monasteries were still this way!
+					</rdg>
+				</app>
+			</l>
+			<l n="13">
+				<app>
+					<lem wit="#Transcription">ouch hort ich mer von in sagen</lem>
+					<rdg wit="#Translation">I also heard something more about them:</rdg>
+				</app>
+			</l>
+			<l n="14">
+				<app>
+					<lem wit="#Transcription">ir kloster daz wer underslagen</lem>
+					<rdg wit="#Translation">that their monastery was isolated</rdg>
+				</app>
+			</l>
+			<l n="15">
+				<app loc="l15">
+					<lem wit="#Transcription">daz die munich und ir gemach</lem>
+				</app>
+			</l>
+			<l n="15">
+				<app loc="l16">
+					<rdg wit="#Translation">so that strangers seldom saw</rdg>
+				</app>
+			</l>
+			<l n="16">
+				<app loc="l16">
+					<lem wit="#Transcription">selten ieman fremder sach</lem>
+				</app>
+			</l>
+			<l n="16">
+				<app loc="l15">
+					<rdg wit="#Translation">the monks and their quarters.</rdg>
+				</app>
+			</l>
+			<l n="17">
+				<app>
+					<lem wit="#Transcription">und seit daz selbe mer</lem>
+					<rdg wit="#Translation">The same story also tells that</rdg>
+				</app>
+			</l>
+			<l n="18">
+				<app>
+					<lem wit="#Transcription">das manic munich da wer</lem>
+					<rdg wit="#Translation">there were many monks</rdg>
+				</app>
+			</l>
+			<l n="19">
+				<app>
+					<lem wit="#Transcription">der selten fur daz kloster kan</lem>
+					<rdg wit="#Translation">that seldom left the monastery.</rdg>
+				</app>
+			</l>
+			<l n="20">
+				<app>
+					<lem wit="#Transcription">Nu was dar inne ein junc man</lem>
+					<rdg wit="#Translation">As it happened, a young man lived there.</rdg>
+				</app>
+			</l>
+			<l n="21">
+				<app>
+					<lem wit="#Transcription">der het siniu jar vertriben</lem>
+					<rdg wit="#Translation">He had spent all his years there</rdg>
+				</app>
+			</l>
+			<l n="22">
+				<app>
+					<lem wit="#Transcription">daz er dar inne was beliben</lem>
+					<rdg wit="#Translation">since he was a child,</rdg>
+				</app>
+			</l>
+			<l n="23">
+				<app>
+					<lem wit="#Transcription">sit daz er was ein kindelin</lem>
+					<rdg wit="#Translation">staying inside the monastery.</rdg>
+				</app>
+			</l>
+			<l n="24">
+				<app>
+					<lem wit="#Transcription">des muost im unbekant sin</lem>
+					<rdg wit="#Translation">He couldn't have known</rdg>
+				</app>
+			</l>
+			<l n="25">
+				<app>
+					<lem wit="#Transcription">swaz lebt in dem lande</lem>
+					<rdg wit="#Translation">what dwelled in the land.</rdg>
+				</app>
+			</l>
+			<l n="26">
+				<app>
+					<lem wit="#Transcription">wen daz er ors nach sage erkande</lem>
+					<rdg wit="#Translation">He had only heard tell of horses:</rdg>
+				</app>
+			</l>
+			<l n="27">
+				<app>
+					<lem wit="#Transcription">daz man die solde riten</lem>
+					<rdg wit="#Translation">that one could ride them.</rdg>
+				</app>
+			</l>
+			<l n="28">
+				<app>
+					<lem wit="#Transcription">Do kam ez zuo einen ziten</lem>
+					<rdg wit="#Translation">There came a time</rdg>
+				</app>
+			</l>
+			<l n="29">
+				<app>
+					<lem wit="#Transcription">daz der apt solt riten</lem>
+					<rdg wit="#Translation">when the abbot needed to ride out.</rdg>
+				</app>
+			</l>
+			<l n="30">
+				<app>
+					<lem wit="#Transcription">des wolt er nicht biten</lem>
+					<rdg wit="#Translation">Without delay,</rdg>
+				</app>
+			</l>
+			<l n="31">
+				<app>
+					<lem wit="#Transcription">und wolt schaffen des klosters dinc</lem>
+					<rdg wit="#Translation">he wanted to attend to the monastery's affairs.</rdg>
+				</app>
+			</l>
+			<l n="32">
+				<app>
+					<lem wit="#Transcription">in bat der selbe jüngelinc</lem>
+					<rdg wit="#Translation">The same lad asked him</rdg>
+				</app>
+			</l>
+			<l n="33">
+				<app>
+					<lem wit="#Transcription">daz er in fuort durch daz lant,</lem>
+					<rdg wit="#Translation">to take him along through the countryside</rdg>
+				</app>
+			</l>
+			<l n="34">
+				<app>
+					<lem wit="#Transcription">daz im würde erkant</lem>
+					<rdg wit="#Translation">so that he would learn about</rdg>
+				</app>
+			</l>
+			<l n="35">
+				<app>
+					<lem wit="#Transcription">der site von dem lande</lem>
+					<rdg wit="#Translation">the land's customs</rdg>
+				</app>
+			</l>
+			<l n="36">
+				<app>
+					<lem wit="#Transcription">des er vil klein erkande.</lem>
+					<rdg wit="#Translation">of which he knew very little.</rdg>
+				</app>
+			</l>
+			<l n="37">
+				<app>
+					<lem wit="#Transcription">der abt der gewert</lem>
+					<rdg wit="#Translation">The abbot granted</rdg>
+				</app>
+			</l>
+			<l n="38">
+				<app>
+					<lem wit="#Transcription">den münich des er begert,</lem>
+					<rdg wit="#Translation">the monk what he desired</rdg>
+				</app>
+			</l>
+			<l n="39">
+				<app>
+					<lem wit="#Transcription">wan er in einveltigen sach.</lem>
+					<rdg wit="#Translation">as he saw that he was ignorant.</rdg>
+				</app>
+			</l>
+			<l n="40">
+				<app>
+					<lem wit="#Transcription">in disem sinne das geschach:</lem>
+					<rdg wit="#Translation">That transpired for this reason:</rdg>
+				</app>
+			</l>
+			<l n="41">
+				<app>
+					<lem wit="#Transcription">er gedâht, wirt im erkant</lem>
+					<rdg wit="#Translation">he thought: "Should the lad learn</rdg>
+				</app>
+			</l>
+			<l n="42">
+				<app>
+					<lem wit="#Transcription">beide liut unde lant,</lem>
+					<rdg wit="#Translation">about both land and people,</rdg>
+				</app>
+			</l>
+			<l n="43">
+				<app>
+					<lem wit="#Transcription">sô mac man im enpfelhen wol</lem>
+					<rdg wit="#Translation">one could trust him with</rdg>
+				</app>
+			</l>
+			<l n="44">
+				<app>
+					<lem wit="#Transcription">swes ein man pflegen sol.</lem>
+					<rdg wit="#Translation">the duties that need to be fulfilled.</rdg>
+				</app>
+			</l>
+			<l n="45">
+				<app>
+					<lem wit="#Transcription">er wirt uns ein vil nützer man.</lem>
+					<rdg wit="#Translation">Then he will become a very useful man for us."</rdg>
+				</app>
+			</l>
+			<l n="46">
+				<app>
+					<lem wit="#Transcription">alsus fuort er in von dan.</lem>
+					<rdg wit="#Translation">With that he led him from there.</rdg>
+				</app>
+			</l>
+			<l n="47">
+				<app>
+					<lem wit="#Transcription">sîn knehte niht vermiten,</lem>
+					<rdg wit="#Translation">His pages didn't hesitate</rdg>
+				</app>
+			</l>
+			<l n="48">
+				<app>
+					<lem wit="#Transcription">mit ir herren sie do riten.</lem>
+					<rdg wit="#Translation">to ride with their master.</rdg>
+				</app>
+			</l>
+			<l n="49">
+				<app>
+					<lem wit="#Transcription">ir pfert giengen schon enzelt.</lem>
+					<rdg wit="#Translation">Their horses cantered nicely along.</rdg>
+				</app>
+			</l>
+			<l n="50">
+				<app>
+					<lem wit="#Transcription">do si komen an daz velt</lem>
+					<rdg wit="#Translation">Once they reached the countryside,</rdg>
+				</app>
+			</l>
+			<l n="51">
+				<app>
+					<lem wit="#Transcription">swaz in vihes wider gie</lem>
+					<rdg wit="#Translation">the monk never neglected to ask about</rdg>
+				</app>
+			</l>
+			<l n="52">
+				<app>
+					<lem wit="#Transcription">der münich nimmer verlie</lem>
+					<rdg wit="#Translation">whatever animal crossed his path.</rdg>
+				</app>
+			</l>
+			<l n="53">
+				<app>
+					<lem wit="#Transcription">er sprach ie wie ist daz genant</lem>
+					<rdg wit="#Translation">"What's that called?" he would ask.</rdg>
+				</app>
+			</l>
+			<l n="54">
+				<app>
+					<lem wit="#Transcription">der abbet der seit imz zehant</lem>
+					<rdg wit="#Translation">The abbot readily told him</rdg>
+				</app>
+			</l>
+			<l n="55">
+				<app>
+					<lem wit="#Transcription">swie sin name sölt sin</lem>
+					<rdg wit="#Translation">what its name was.</rdg>
+				</app>
+			</l>
+			<l n="56">
+				<app>
+					<lem wit="#Transcription">ez wer rint schaf oder swin</lem>
+					<rdg wit="#Translation">Whether cattle or sheep or swine,</rdg>
+				</app>
+			</l>
+			<l n="57">
+				<app>
+					<lem wit="#Transcription">daz tet er im zuo rehte kunt</lem>
+					<rdg wit="#Translation">he informed him correctly.</rdg>
+				</app>
+			</l>
+			<l n="58">
+				<app>
+					<lem wit="#Transcription">Do komen sie in kurzer stunt</lem>
+					<rdg wit="#Translation">After a short while they came</rdg>
+				</app>
+			</l>
+			<l n="59">
+				<app>
+					<lem wit="#Transcription">zuo einem hove do sie hin wolten</lem>
+					<rdg wit="#Translation">to a farmstead to which they were headed</rdg>
+				</app>
+			</l>
+			<l n="60">
+				<app>
+					<lem wit="#Transcription">und ouch da beliben solten</lem>
+					<rdg wit="#Translation">and intended to stay.</rdg>
+				</app>
+			</l>
+			<l n="61">
+				<app>
+					<lem wit="#Transcription">do sie der meier gesach</lem>
+					<rdg wit="#Translation">When the reeve saw them,</rdg>
+				</app>
+			</l>
+			<l n="62">
+				<app>
+					<lem wit="#Transcription">er lief gein in unde sprach</lem>
+					<rdg wit="#Translation">he approached them and said:</rdg>
+				</app>
+			</l>
+			<l n="63">
+				<app>
+					<lem wit="#Transcription">got wilkommen lieber herre min</lem>
+					<rdg wit="#Translation">"God bid you welcome, my dear Sir,</rdg>
+				</app>
+			</l>
+			<l n="64">
+				<app>
+					<lem wit="#Transcription">und alle die mit iu hie sin</lem>
+					<rdg wit="#Translation">and all those here with you."</rdg>
+				</app>
+			</l>
+			<l n="65">
+				<app>
+					<lem wit="#Transcription">als man in die ors empfie</lem>
+					<rdg wit="#Translation">After the horses had been taken care of,</rdg>
+				</app>
+			</l>
+			<l n="66">
+				<app>
+					<lem wit="#Transcription">der abte unt der münich gie</lem>
+					<rdg wit="#Translation">the abbot and the monks went</rdg>
+				</app>
+			</l>
+			<l n="67">
+				<app>
+					<lem wit="#Transcription">zuo einem fiur an ir gemach</lem>
+					<rdg wit="#Translation">to rest by the fire.</rdg>
+				</app>
+			</l>
+			<l n="68">
+				<app>
+					<rdg wit="Transcription">alsô schier daz geschach,</rdg>
+					<rdg wit="Translation">Right away,</rdg>
+				</app>
+			</l>
+			<l n="69">
+				<app>
+					<rdg wit="Transcription">man zôch in abe sa zehant</rdg>
+					<rdg wit="Translation">someone promptly took</rdg>
+				</app>
+			</l>
+			<l n="70">
+				<app>
+					<rdg wit="Transcription">ir schuohe unde ir obergewant.</rdg>
+					<rdg wit="Translation">their shoes and coats.</rdg>
+				</app>
+			</l>
+			<l n="71">
+				<app>
+					<rdg wit="Transcription">Nu het der wirt ein schoenez wip</rdg>
+					<rdg wit="Translation">Now, the host had a beautiful wife</rdg>
+				</app>
+			</l>
+			<l n="72">
+				<app>
+					<rdg wit="Transcription">und ein tochter, der lip</rdg>
+					<rdg wit="Translation">and a daughter whose body</rdg>
+				</app>
+			</l>
+			<l n="73">
+				<app>
+					<rdg wit="Transcription">was ze wunsche wol gestalt,</rdg>
+					<rdg wit="Translation">was everything one could wish for.</rdg>
+				</app>
+			</l>
+			<l n="74">
+				<app>
+					<rdg wit="Transcription">sie was wol zweinzic jar alt,</rdg>
+					<rdg wit="Translation">She was about twenty years old.</rdg>
+				</app>
+			</l>
+			<l n="75">
+				<app>
+					<rdg wit="Transcription">die ouch dort her giengen,</rdg>
+					<rdg wit="Translation">The two women also came there and</rdg>
+				</app>
+			</l>
+			<l n="76">
+				<app>
+					<rdg wit="Transcription">die herren sie empfiengen.</rdg>
+					<rdg wit="Translation">welcomed the gentlemen.</rdg>
+				</app>
+			</l>
+			<l n="77">
+				<app>
+					<rdg wit="Transcription">der abbet hiez sie sitzen nider.</rdg>
+					<rdg wit="Translation">The abbot asked them to be seated.</rdg>
+				</app>
+			</l>
+			<l n="78">
+				<app>
+					<rdg wit="Transcription">da warn si niht wider.</rdg>
+					<rdg wit="Translation">They were not averse to this.</rdg>
+				</app>
+			</l>
+			<l n="79">
+				<app>
+					<rdg wit="Transcription">sie sazen nider an die stat.</rdg>
+					<rdg wit="Translation">They sat down on the spot.</rdg>
+				</app>
+			</l>
+			<l n="80">
+				<app>
+					<rdg wit="Transcription">der münich den abbet aber bat</rdg>
+					<rdg wit="Translation">But the monk asked the abbot</rdg>
+				</app>
+			</l>
+			<pb ed="#Transcription" facs="#G3"/>
+			<pb ed="#Translation"/>
+			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
+			<l n="81">
+				<app>
+					<rdg wit="Transcription">daz er in wizzen lieze</rdg>
+					<rdg wit="Translation">to tell him</rdg>
+				</app>
+			</l>
+			<l n="82">
+				<app>
+					<rdg wit="Transcription">wie diu creature hieze</rdg>
+					<rdg wit="Translation">what these creatures were called.</rdg>
+				</app>
+			</l>
+			<l n="83">
+				<app>
+					<rdg wit="Transcription">do sprach der abbet zuohant:</rdg>
+					<rdg wit="Translation">The abbot replied readily:</rdg>
+				</app>
+			</l>
+			<l n="84">
+				<app>
+					<rdg wit="Transcription">"diz sint gense genant."</rdg>
+					<rdg wit="Translation">"These are called geese."</rdg>
+				</app>
+			</l>
+			<l n="85">
+				<app>
+					<rdg wit="Transcription">dô sprach der münich: "crêde mich,</rdg>
+					<rdg wit="Translation">The monk said: "My goodness!</rdg>
+				</app>
+			</l>
+			<l n="86">
+				<app>
+					<rdg wit="Transcription">sô sint die gense siuberlich.</rdg>
+					<rdg wit="Translation">Geese are lovely.</rdg>
+				</app>
+			</l>
+			<l n="87">
+				<app>
+					<rdg wit="Transcription">wie kumt daz wir niht gense hân?</rdg>
+					<rdg wit="Translation">Why don't we have geese?</rdg>
+				</app>
+			</l>
+			<l n="88">
+				<app>
+					<rdg wit="Transcription">die möhten sich vil wol begân</rdg>
+					<rdg wit="Translation">They would fit in nicely</rdg>
+				</app>
+			</l>
+			<l n="89">
+				<app>
+					<rdg wit="Transcription">an unser klôsterweide."</rdg>
+					<rdg wit="Translation">on the pasture at the monastery."</rdg>
+				</app>
+			</l>
+			<l n="90">
+				<app loc="l90">
+					<rdg wit="Transcription">des lachten si dô beide</rdg>
+				</app>
+			</l>
+			<l n="90">
+				<app loc="l91">
+					<rdg wit="Translation">Both the host's wife and daughter</rdg>
+				</app>
+			</l>
+			<l n="91">
+				<app loc="l91">
+					<rdg wit="Transcription">des wirtes tohter und sîn wîp.</rdg>
+				</app>
+			</l>
+			<l n="91">
+				<app loc="l90">
+					<rdg wit="Translation">laughed at that.</rdg>
+				</app>
+			</l>
+			<l n="92">
+				<app>
+					<rdg wit="Transcription">si wundert sêre daz sîn lîp</rdg>
+					<rdg wit="Translation">They were very surprised that he</rdg>
+				</app>
+			</l>
+			<l n="93">
+				<app>
+					<rdg wit="Transcription">was sô rehte minneclich</rdg>
+					<rdg wit="Translation">was so handsome,</rdg>
+				</app>
+			</l>
+			<l n="94">
+				<app>
+					<rdg wit="Transcription">unt daz er niht verstüende sich</rdg>
+					<rdg wit="Translation">yet didn't know</rdg>
+				</app>
+			</l>
+			<l n="95">
+				<app>
+					<rdg wit="Transcription">wie ein wîp er genant.</rdg>
+					<rdg wit="Translation">what a woman was called.</rdg>
+				</app>
+			</l>
+			<l n="96">
+				<app>
+					<rdg wit="Transcription">den apte vrâgten si zehant</rdg>
+					<rdg wit="Translation">Straight away, they asked the abbot</rdg>
+				</app>
+			</l>
+			<l n="97">
+				<app>
+					<rdg wit="Transcription">ob der herre sinnic wer.</rdg>
+					<rdg wit="Translation">whether the gentleman was right in the head.</rdg>
+				</app>
+			</l>
+			<l n="98">
+				<app>
+					<rdg wit="Transcription">dô seit er in diu mer,</rdg>
+					<rdg wit="Translation">Then he told them the story</rdg>
+				</app>
+			</l>
+			<l n="99">
+				<app>
+					<rdg wit="Transcription">als ir ê hant vernumen,</rdg>
+					<rdg wit="Translation">that you have just heard</rdg>
+				</app>
+			</l>
+			<l n="100">
+				<app>
+					<rdg wit="Transcription">wie der münich dar was kumen</rdg>
+					<rdg wit="Translation">about how the monk had come to the monastery</rdg>
+					<note type="critical" anchored="true">
+						<p>The literal translation of the Middle High German would be: "how the monk had come there". This refers to his youth at the monastery. To clarify the reference, we specified the "there" in our translation.</p>
+					</note>
+				</app>
+			</l>
+			<l n="101">
+				<app>
+					<rdg wit="Transcription">und wie er erwahsen wer.</rdg>
+					<rdg wit="Translation">and grown up there.</rdg>
+				</app>
+			</l>
+			<l n="102">
+				<app loc="l102">
+					<rdg wit="Transcription">als dô daz selbe mer</rdg>
+				</app>
+			</l>
+			<l n="102">
+				<app loc="l103">
+					<rdg wit="Translation">When the host's daughter had listened</rdg>
+				</app>
+			</l>
+			<l n="103">
+				<app loc="l103">
+					<rdg wit="Transcription">des wirtes tohter bevant,</rdg>
+				</app>
+			</l>
+			<l n="103">
+				<app loc="l102">
+					<rdg wit="Translation">to this story,</rdg>
+				</app>
+			</l>
+			<l n="104">
+				<app>
+					<rdg wit="Transcription">dô gedâhte si zuohant:</rdg>
+					<rdg wit="Translation">she immediately thought:</rdg>
+				</app>
+			</l>
+			<l n="105">
+				<app>
+					<rdg wit="Transcription">"er ist ein sô hêrlich man,</rdg>
+					<rdg wit="Translation">"He's such a gorgeous man.</rdg>
+				</app>
+			</l>
+			<l n="106">
+				<app>
+					<rdg wit="Transcription">dêst wâr, ob ichz gefüegen kan,</rdg>
+					<rdg wit="Translation">Truly, if I can make it happen</rdg>
+				</app>
+			</l>
+			<l n="107">
+				<app>
+					<rdg wit="Transcription">ich versuoch ob er diu wîp</rdg>
+					<rdg wit="Translation">I will test whether he knows women</rdg>
+				</app>
+			</l>
+			<l n="108">
+				<app>
+					<rdg wit="Transcription">erkenne ir namen under ir lîp."</rdg>
+					<rdg wit="Translation">in name and in the flesh."</rdg>
+				</app>
+			</l>
+			<l n="109">
+				<app>
+					<rdg wit="Transcription">der rede si gedagt,</rdg>
+					<rdg wit="Translation">She kept her musing to herself;</rdg>
+				</app>
+			</l>
+			<l n="110">
+				<app>
+					<rdg wit="Transcription">ir gedanc si niemen sagt</rdg>
+					<rdg wit="Translation">she told no one of the thoughts</rdg>
+				</app>
+			</l>
+			<l n="111">
+				<app>
+					<rdg wit="Transcription">des si gedâht hete.</rdg>
+					<rdg wit="Translation">that she had formed.</rdg>
+				</app>
+			</l>
+			<l n="112">
+				<app>
+					<rdg wit="Transcription">Nû wart ez alsô spete</rdg>
+					<rdg wit="Translation">It was now so late </rdg>
+				</app>
+			</l>
+			<l n="113">
+				<app>
+					<rdg wit="Transcription">daz die herren slâfen solten gân:</rdg>
+					<rdg wit="Translation">that it was time for the gentlemen to go to bed.</rdg>
+				</app>
+			</l>
+			<l n="114">
+				<app>
+					<rdg wit="Transcription">nû wolt der meier des niht lân</rdg>
+					<rdg wit="Translation">The reeve now insisted </rdg>
+				</app>
+			</l>
+			<l n="115">
+				<app>
+					<rdg wit="Transcription">er hiez in betten nâch irm sît:</rdg>
+					<rdg wit="Translation">that beds be prepared for them as was befitting.</rdg>
+				</app>
+			</l>
+			<l n="116">
+				<app>
+					<rdg wit="Transcription">dô was ouch sîn tohter mit;</rdg>
+					<rdg wit="Translation">His daughter was also present.</rdg>
+				</app>
+			</l>
+			<l n="117">
+				<app>
+					<rdg wit="Transcription">si schuof daz disem jungen man </rdg>
+					<rdg wit="Translation">She arranged it so that the young man</rdg>
+				</app>
+			</l>
+			<l n="118">
+				<app>
+					<rdg wit="Transcription">wart gebettet wol hin dan</rdg>
+					<rdg wit="Translation">had his bed</rdg>
+				</app>
+			</l>
+			<l n="119">
+				<app>
+					<rdg wit="Transcription">von den andern verre,</rdg>
+					<rdg wit="Translation">far from the others</rdg>
+				</app>
+			</l>
+			<l n="120">
+				<app>
+					<rdg wit="Transcription">dar umbe daz der herre</rdg>
+					<rdg wit="Translation">so that his master</rdg>
+				</app>
+			</l>
+			<l n="121">
+				<app>
+					<rdg wit="Transcription">möht haben sîn gemach.</rdg>
+					<rdg wit="Translation">could be comfortable.</rdg>
+				</app>
+			</l>
+			<l n="122">
+				<app>
+					<rdg wit="Transcription">nâch sînem willen daz geschach.</rdg>
+					<rdg wit="Translation">It was done according to his wishes.</rdg>
+				</app>
+			</l>
+			<l n="123">
+				<app>
+					<rdg wit="Transcription">Dô man die herren geleit,</rdg>
+					<rdg wit="Translation">Right after the gentlemen had been shown to their beds</rdg>
+				</app>
+			</l>
+			<l n="124">
+				<app>
+					<rdg wit="Transcription">der wirt hiez gereit</rdg>
+					<rdg wit="Translation">the host commanded</rdg>
+				</app>
+			</l>
+			<l n="125">
+				<app>
+					<rdg wit="Transcription">allez daz gesinde slâfen gân,</rdg>
+					<rdg wit="Translation">that all of his household should go to sleep</rdg>
+				</app>
+			</l>
+			<l n="126">
+				<app>
+					<rdg wit="Transcription">den herren ir gemach lân.</rdg>
+					<rdg wit="Translation">so that the gentlemen would be left in piece and quiet.</rdg>
+				</app>
+			</l>
+			<l n="127">
+				<app>
+					<rdg wit="Transcription">der münich niht slâfen mahte;</rdg>
+					<rdg wit="Translation">The monk was not able to sleep.</rdg>
+				</app>
+			</l>
+			<l n="128">
+				<app>
+					<rdg wit="Transcription">er het manige ahte,</rdg>
+					<rdg wit="Translation">He had many thoughts</rdg>
+				</app>
+			</l>
+			<l n="129">
+				<app>
+					<rdg wit="Transcription">wie ieglich dinc wer genant</rdg>
+					<rdg wit="Translation">about what each thing was called </rdg>
+				</app>
+			</l>
+			<l n="130">
+				<app>
+					<rdg wit="Transcription">daz im des tages wart erkant.</rdg>
+					<rdg wit="Translation">that he had encountered that day</rdg>
+				</app>
+			</l>
+			<l n="131">
+				<app>
+					<rdg wit="Transcription">diu juncfrowe ouch ungeslafen lac</rdg>
+					<rdg wit="Translation">She also lay awake</rdg>
+				</app>
+			</l>
+			<l n="132">
+				<app>
+					<rdg wit="Transcription">mit gedanken der si pflac</rdg>
+					<rdg wit="Translation">turning over in her mind</rdg>
+				</app>
+			</l>
+			<l n="133">
+				<app>
+					<rdg wit="Transcription">wie daz würde vollebrâht</rdg>
+					<rdg wit="Translation">how to accomplish</rdg>
+				</app>
+			</l>
+			<l n="134">
+				<app>
+					<rdg wit="Transcription">daz si dâ vor hete gedâht.</rdg>
+					<rdg wit="Translation">what she had thought of earlier.</rdg>
+				</app>
+			</l>
+			<l n="135">
+				<app>
+					<rdg wit="Transcription">dô die liute entsliefen über al,</rdg>
+					<rdg wit="Translation">After all the people around them had fallen asleep,</rdg>
+				</app>
+			</l>
+			<l n="136">
+				<app>
+					<rdg wit="Transcription">dô stuont si ûf ân allen schal</rdg>
+					<rdg wit="Translation">she got up without a sound</rdg>
+				</app>
+			</l>
+			<l n="137">
+				<app>
+					<rdg wit="Transcription">und sleich zuo sînem bette dar.</rdg>
+					<rdg wit="Translation">and snuck over to his bed.</rdg>
+				</app>
+			</l>
+			<l n="138">
+				<app>
+					<rdg wit="Transcription">als ir der münich wart gewar.</rdg>
+					<rdg wit="Translation">When the monk noticed her,</rdg>
+				</app>
+			</l>
+			<l n="139">
+				<app>
+					<rdg wit="Transcription">er sprach zuohant: "waz mac daz sîn?"</rdg>
+					<rdg wit="Translation">he said straight away, "What might that be?"</rdg>
+				</app>
+			</l>
+			<l n="140">
+				<app>
+					<rdg wit="Transcription">Si sprach: "Ich binz, daz junge genselîn,</rdg>
+					<rdg wit="Translation">She said: "It's me, the little gosling.</rdg>
+				</app>
+			</l>
+			<l n="141">
+				<app>
+					<rdg wit="Transcription">und hân vrostes vil erliten:</rdg>
+					<rdg wit="Translation">I've been suffering dreadfully from the cold.</rdg>
+				</app>
+			</l>
+			<l n="142">
+				<app>
+					<rdg wit="Transcription">herre, ich wolt iuch gerne biten</rdg>
+					<rdg wit="Translation">Sir, I would really like to ask you,</rdg>
+				</app>
+			</l>
+			<l n="143">
+				<app loc="l143">
+					<rdg wit="Transcription">daz ir hin under liezet mich,</rdg>
+				</app>
+			</l>
+			<l n="143">
+				<app loc="l144">
+					<rdg wit="Translation">to permit me to slip under the covers</rdg>
+				</app>
+			</l>
+			<l n="144">
+				<app loc="l144">
+					<rdg wit="Transcription">in der minne, daz ich</rdg>
+				</app>
+			</l>
+			<l n="144">
+				<app loc="l143">
+					<rdg wit="Translation">out of the kindness of your heart,</rdg>
+				</app>
+			</l>
+			<l n="145">
+				<app>
+					<rdg wit="Transcription">iht ervrüer, wan hie ist ez kalt."</rdg>
+					<rdg wit="Translation">so that I don't freeze to death."</rdg>
+				</app>
+			</l>
+			<l n="146">
+				<app>
+					<rdg wit="Transcription">dô waz der münich einvalt</rdg>
+					<rdg wit="Translation">The monk was so naive</rdg>
+				</app>
+			</l>
+			<l n="147">
+				<app>
+					<rdg wit="Transcription">daz er si zuo im hin under lie.</rdg>
+					<rdg wit="Translation">that he let her slip under the covers.</rdg>
+				</app>
+			</l>
+			<l n="148">
+				<app>
+					<rdg wit="Transcription">in der minne daz ergie</rdg>
+					<rdg wit="Translation">That was done out of kindness.</rdg>
+				</app>
+			</l>
+			<l n="149">
+				<app>
+					<rdg wit="Transcription">dô si dar under zuo im kam,</rdg>
+					<rdg wit="Translation">When she joined him under the blanket,</rdg>
+				</app>
+			</l>
+			<l n="150">
+				<app>
+					<rdg wit="Transcription">dô konde dirre junge man</rdg>
+					<rdg wit="Translation">this young man knew</rdg>
+				</app>
+			</l>
+			<l n="151">
+				<app>
+					<rdg wit="Transcription">mit ir lützel noch vil</rdg>
+					<rdg wit="Translation">next to nothing</rdg>
+				</app>
+			</l>
+			<l n="152">
+				<app>
+					<rdg wit="Transcription">daz man do heizzet bettespil.</rdg>
+					<rdg wit="Translation">about how to play so-called bed games with her.</rdg>
+				</app>
+			</l>
+			<l n="153">
+				<app>
+					<rdg wit="Transcription">dô konde siz ein wênic baz.</rdg>
+					<rdg wit="Translation">She knew a little bit more.</rdg>
+				</app>
+			</l>
+			<l n="154">
+				<app>
+					<rdg wit="Transcription">mit guoter fuoge schuof si daz</rdg>
+					<rdg wit="Translation">With great skill she</rdg>
+				</app>
+			</l>
+			<l n="155">
+				<app>
+					<rdg wit="Transcription">daz er in kurzer stunde</rdg>
+					<rdg wit="Translation">quickly got him</rdg>
+				</app>
+			</l>
+			<l n="156">
+				<app>
+					<rdg wit="Transcription">des selben spiln begunde.</rdg>
+					<rdg wit="Translation">playing the same game.</rdg>
+				</app>
+			</l>
+			<l n="157">
+				<app>
+					<rdg wit="Transcription">der münech die gans brûht</rdg>
+					<rdg wit="Translation">The monk dealt with the goose</rdg>
+				</app>
+			</l>
+			<l n="158">
+				<app>
+					<rdg wit="Transcription">mit flîze, wan in dûht</rdg>
+					<rdg wit="Translation">eagerly, because it seemed to him</rdg>
+				</app>
+			</l>
+			<l n="159">
+				<app>
+					<rdg wit="Transcription">im were wol und dennoch baz.</rdg>
+					<rdg wit="Translation">that he was feeling good and would soon feel even better.</rdg>
+				</app>
+			</l>
+			<l n="160">
+				<app>
+					<rdg wit="Transcription">alsô lange treip er daz</rdg>
+					<rdg wit="Translation">He carried on with it</rdg>
+				</app>
+			</l>
+			<pb ed="#Transcription" facs="#G4"/>
+			<pb ed="#Translation"/>
+			<fw facs="#Transcription" type="header" place="margin-topright"></fw>
+			<l n="161">
+				<app>
+					<rdg wit="Transcription">unz si des tages sich versach.</rdg>
+					<rdg wit="Translation">until she noticed the break of day.</rdg>
+				</app>
+			</l>
+			<l n="162">
+				<app>
+					<rdg wit="Transcription">dô stuont si ûf unde sprach:</rdg>
+					<rdg wit="Translation">Then she got up and said:</rdg>
+				</app>
+			</l>
+			<l n="163">
+				<app>
+					<rdg wit="Transcription">"nu sült ir nimmer verjehen</rdg>
+					<rdg wit="Translation">"You must never tell anyone</rdg>
+				</app>
+			</l>
+			<l n="164">
+				<app>
+					<rdg wit="Transcription">des von uns zweien ist beschehen.</rdg>
+					<rdg wit="Translation">what has happened between the two of us.</rdg>
+				</app>
+			</l>
+			<l n="165">
+				<app>
+					<rdg wit="Transcription">würde ez dem abte kunt,</rdg>
+					<rdg wit="Translation">If the abbot ever found out,</rdg>
+				</app>
+			</l>
+			<l n="166">
+				<app>
+					<rdg wit="Transcription">man tet uns beide sâ zestunt</rdg>
+					<rdg wit="Translation">we would both immediately suffer</rdg>
+				</app>
+			</l>
+			<l n="167">
+				<app>
+					<rdg wit="Transcription">den vil grimmeclîchen tôt."</rdg>
+					<rdg wit="Translation">a gruesome death."</rdg>
+				</app>
+			</l>
+			<l n="168">
+				<app>
+					<rdg wit="Transcription">vil tiure si im daz gebôt</rdg>
+					<rdg wit="Translation">With great urgency she commanded</rdg>
+				</app>
+			</l>
+			<l n="169">
+				<app>
+					<rdg wit="Transcription">daz erz geseite nimmer man.</rdg>
+					<rdg wit="Translation">that he never tell anyone about it.</rdg>
+				</app>
+			</l>
+			<l n="170">
+				<app>
+					<rdg wit="Transcription">daz lobt er und gie si von dan</rdg>
+					<rdg wit="Translation">He swore to that and she then retired</rdg>
+				</app>
+			</l>
+			<l n="171">
+				<app>
+					<rdg wit="Transcription">an ir heimlîch.</rdg>
+					<rdg wit="Translation">to her chamber.</rdg>
+				</app>
+			</l>
+			<l n="172">
+				<app>
+					<rdg wit="Transcription">ir muot was fröudenrîch</rdg>
+					<rdg wit="Translation">She was full of joy</rdg>
+				</app>
+			</l>
+			<l n="173">
+				<app>
+					<rdg wit="Transcription">daz si was dannân kumen unt dar</rdg>
+					<rdg wit="Translation">that she had gone there and back</rdg>
+				</app>
+			</l>
+			<l n="174">
+				<app>
+					<rdg wit="Transcription">daz ir dâ nieman wart gewar.</rdg>
+					<rdg wit="Translation">without anyone noticing.</rdg>
+				</app>
+			</l>
+			<l n="175">
+				<app loc="l175">
+					<rdg wit="Transcription">Dô si kam an ir gemach,</rdg>
+				</app>
+			</l>
+			<l n="175">
+				<app loc="l176">
+					<rdg wit="Translation">Soon after</rdg>
+				</app>
+			</l>
+			<l n="176">
+				<app loc="l176">
+					<rdg wit="Transcription">dar nâch vil schier daz geschach</rdg>
+				</app>
+			</l>
+			<l n="176">
+				<app loc="l175">
+					<rdg wit="Translation">she came to her chamber,</rdg>
+				</app>
+			</l>
+			<l n="177">
+				<app>
+					<rdg wit="Transcription">daz ûf begonde gân der tac.</rdg>
+					<rdg wit="Translation">the day began to dawn.</rdg>
+				</app>
+			</l>
+			<l n="178">
+				<app>
+					<rdg wit="Transcription">das nâch ouch vil unlange lac</rdg>
+					<rdg wit="Translation">The abbot and the monk</rdg>
+				</app>
+			</l>
+			<l n="179">
+				<app>
+					<rdg wit="Transcription">der abte und der münich dâ.</rdg>
+					<rdg wit="Translation">did not stay in bed much longer.</rdg>
+				</app>
+			</l>
+			<l n="180">
+				<app>
+					<rdg wit="Transcription">si schuofen ir dinc iesâ</rdg>
+					<rdg wit="Translation">They dealt with the affairs</rdg>
+				</app>
+			</l>
+			<l n="181">
+				<app>
+					<rdg wit="Transcription">durch daz si wârn kumen dar.</rdg>
+					<rdg wit="Translation">for which they had come there.</rdg>
+				</app>
+			</l>
+			<l n="182">
+				<app>
+					<rdg wit="Transcription">dô si daz geschuofen gar,</rdg>
+					<rdg wit="Translation">As soon as they had done this</rdg>
+				</app>
+			</l>
+			<l n="183">
+				<app>
+					<rdg wit="Transcription">zuohant si wider heim riten.</rdg>
+					<rdg wit="Translation">they rode home again.</rdg>
+				</app>
+			</l>
+			<l n="184">
+				<app>
+					<rdg wit="Transcription">die klôsterliute niht vermiten,</rdg>
+					<rdg wit="Translation">Once they had arrived home,</rdg>
+				</app>
+			</l>
+			<l n="185">
+				<app>
+					<rdg wit="Transcription">dô si heim wârn kumen,</rdg>
+					<rdg wit="Translation">the brothers could not resist</rdg>
+				</app>
+			</l>
+			<l n="186">
+				<app>
+					<rdg wit="Transcription">der münech wart her genumen</rdg>
+					<rdg wit="Translation">taking the monk aside</rdg>
+				</app>
+			</l>
+			<l n="187">
+				<app>
+					<rdg wit="Transcription">und frâgten in zehant</rdg>
+					<rdg wit="Translation">and eagerly asking him</rdg>
+				</app>
+			</l>
+			<l n="188">
+				<app>
+					<rdg wit="Transcription">wie im geviel daz lant.</rdg>
+					<rdg wit="Translation">how he had liked the country.</rdg>
+				</app>
+			</l>
+			<l n="189">
+				<app>
+					<rdg wit="Transcription">dô begunde er in verjehen</rdg>
+					<rdg wit="Translation">He began to tell them</rdg>
+				</app>
+			</l>
+			<l n="190">
+				<app>
+					<rdg wit="Transcription">daz er wol hete gesehen</rdg>
+					<rdg wit="Translation">that he had actually seen</rdg>
+				</app>
+			</l>
+			<l n="191">
+				<app>
+					<rdg wit="Transcription">vil dinge in dem lande</rdg>
+					<rdg wit="Translation">many things in the country</rdg>
+				</app>
+			</l>
+			<l n="192">
+				<app>
+					<rdg wit="Transcription">des er ê niht erkande.</rdg>
+					<rdg wit="Translation">that he hadn't known before.</rdg>
+				</app>
+			</l>
+			<l n="193">
+				<app>
+					<rdg wit="Transcription">des gelachten si vil,</rdg>
+					<rdg wit="Translation">They laughed a lot at that.</rdg>
+				</app>
+			</l>
+			<l n="194">
+				<app>
+					<rdg wit="Transcription">sîn rede was ir aller spil.</rdg>
+					<rdg wit="Translation">His tale entertained them greatly.</rdg>
+				</app>
+			</l>
+			<l n="195">
+				<app>
+					<rdg wit="Transcription">doch pflac er der kündekeit</rdg>
+					<rdg wit="Translation">He was clever enough</rdg>
+				</app>
+			</l>
+			<l n="196">
+				<app>
+					<rdg wit="Transcription">daz ir keinem wart geseit</rdg>
+					<rdg wit="Translation">that he didn't tell any one of them</rdg>
+				</app>
+			</l>
+			<l n="197">
+				<app loc="l197">
+					<rdg wit="Transcription">wie im des nahtes ûf der vart</rdg>
+				</app>
+			</l>
+			<l n="197">
+				<app loc="l198">
+					<rdg wit="Translation">during the night while on the trip.</rdg>
+				</app>
+			</l>
+			<l n="198">
+				<app loc="l198">
+					<rdg wit="Transcription">diu junge gans ze teil wart.</rdg>
+				</app>
+			</l>
+			<l n="198">
+				<app loc="l197">
+					<rdg wit="Translation">how he had partaken of the goose</rdg>
+				</app>
+			</l>
+			<l n="199">
+				<app>
+					<rdg wit="Transcription">daz hal er sêre, als si in hiez;</rdg>
+					<rdg wit="Translation">He didn't say a word, as she had told him.</rdg>
+				</app>
+			</l>
+			<l n="200">
+				<app>
+					<rdg wit="Transcription">nieman er daz wizzen liez.</rdg>
+					<rdg wit="Translation">He let no one know about that.</rdg>
+				</app>
+			</l>
+			<l n="201">
+				<app>
+					<rdg wit="Transcription">Nû was ez vor der hôchzît</rdg>
+					<rdg wit="Translation">Now at that time, it was before the feast day</rdg>
+				</app>
+			</l>
+			<l n="202">
+				<app>
+					<rdg wit="Transcription">die in dem winter gelît,</rdg>
+					<rdg wit="Translation">which takes place in winter</rdg>
+				</app>
+			</l>
+			<l n="203">
+				<app>
+					<rdg wit="Transcription">diu wîhennaht ist genant.</rdg>
+					<rdg wit="Translation">and which is called Christmas.</rdg>
+				</app>
+			</l>
+			<l n="204">
+				<app>
+					<rdg wit="Transcription">der abte besant zuohant</rdg>
+					<rdg wit="Translation">The abbot immediately summoned</rdg>
+				</app>
+			</l>
+			<l n="205">
+				<app>
+					<rdg wit="Transcription">kelner unde koche.</rdg>
+					<rdg wit="Translation">cooks and cellarers.</rdg>
+				</app>
+			</l>
+			<l n="206">
+				<app>
+					<rdg wit="Transcription">er sprach: "uns nâhet ein woche</rdg>
+					<rdg wit="Translation">He said: "There is a week approaching</rdg>
+				</app>
+			</l>
+			<l n="207">
+				<app>
+					<rdg wit="Transcription">daz wir singen müezen und lesen.</rdg>
+					<rdg wit="Translation">when we must sing and read.</rdg>
+				</app>
+			</l>
+			<l n="208">
+				<app>
+					<rdg wit="Transcription">nû sült ir der herren flîzic wesen</rdg>
+					<rdg wit="Translation">Now, you should be attentive to the gentlemen</rdg>
+				</app>
+			</l>
+			<l n="209">
+				<app>
+					<rdg wit="Transcription">daz ir uns ein wirtschaft gebent.</rdg>
+					<rdg wit="Translation">by preparing a banquet for us.</rdg>
+				</app>
+			</l>
+			<l n="210">
+				<app>
+					<rdg wit="Transcription">sô die liute mit arbeit lebent,</rdg>
+					<rdg wit="Translation">The more tedium in people's lives,</rdg>
+				</app>
+			</l>
+			<l n="211">
+				<app>
+					<rdg wit="Transcription">so sol man ir pflegen dester baz."</rdg>
+					<rdg wit="Translation">the better they should be taken care of."</rdg>
+				</app>
+			</l>
+			<l n="212">
+				<app>
+					<rdg wit="Transcription">die herren lobten alle daz.</rdg>
+					<rdg wit="Translation">The gentlemen all praised that.</rdg>
+				</app>
+			</l>
+			<l n="213">
+				<app>
+					<rdg wit="Transcription">Der junge münich stuont dâ bî.</rdg>
+					<rdg wit="Translation">The young monk stood there with them</rdg>
+				</app>
+			</l>
+			<l n="214">
+				<app>
+					<rdg wit="Transcription">Er sprach: "sît daz iuwer wille sî,</rdg>
+					<rdg wit="Translation">and said: "Since you wish us</rdg>
+				</app>
+			</l>
+			<l n="215">
+				<app>
+					<rdg wit="Transcription">daz wir vollez ampt süllen hân,</rdg>
+					<rdg wit="Translation">to hold full high mass, my dear master</rdg>
+				</app>
+			</l>
+			<l n="216">
+				<app>
+					<rdg wit="Transcription">sô sült ir nimmer verlân,</rdg>
+					<rdg wit="Translation">you should not fail</rdg>
+				</app>
+			</l>
+			<l n="217">
+				<app>
+					<rdg wit="Transcription">müge ez an iuwern staten sîn,</rdg>
+					<rdg wit="Translation">if it is in your power</rdg>
+				</app>
+			</l>
+			<l n="218">
+				<app>
+					<rdg wit="Transcription">so schaffet, lieber herre mîn,</rdg>
+					<rdg wit="Translation">to provide</rdg>
+				</app>
+			</l>
+			<l n="219">
+				<app>
+					<rdg wit="Transcription">daz iedem man ein gans werde:</rdg>
+					<rdg wit="Translation">every man with a goose.</rdg>
+				</app>
+			</l>
+			<l n="220">
+				<app>
+					<rdg wit="Transcription">sô wart ûf der erde</rdg>
+					<rdg wit="Translation">Then no one on earth</rdg>
+				</app>
+			</l>
+			<l n="221">
+				<app>
+					<rdg wit="Transcription">nie keinen liuten baz."</rdg>
+					<rdg wit="Translation">will ever have had it better."</rdg>
+				</app>
+			</l>
+			<l n="222">
+				<app>
+					<rdg wit="Transcription">der abbet vienc der rede haz:</rdg>
+					<rdg wit="Translation">The abbot became angry at these words.</rdg>
+				</app>
+			</l>
+			<l n="223">
+				<app>
+					<rdg wit="Transcription">er hiez in swîgen. daz geschach.</rdg>
+					<rdg wit="Translation">He bade him to be silent, and the monk was silent.</rdg>
+				</app>
+			</l>
+			<l n="224">
+				<app>
+					<rdg wit="Transcription">dar nâch er aber schier sprach:</rdg>
+					<rdg wit="Translation">But a second later he said:</rdg>
+				</app>
+			</l>
+			<l n="225">
+				<app>
+					<rdg wit="Transcription">"gense daz ist ein wirtschaft,</rdg>
+					<rdg wit="Translation">"Geese! That's a feast!</rdg>
+				</app>
+			</l>
+			<l n="226">
+				<app>
+					<rdg wit="Transcription">ob aller wirtschaft ein überkraft</rdg>
+					<rdg wit="Translation">The most almighty of feasts</rdg>
+				</app>
+			</l>
+			<l n="227">
+				<app>
+					<rdg wit="Transcription">die in der werlt ieman gewan."</rdg>
+					<rdg wit="Translation">that anyone in the world has ever enjoyed."</rdg>
+				</app>
+			</l>
+			<l n="228">
+				<app>
+					<rdg wit="Transcription">der abt sprach zuo dem jungen man:</rdg>
+					<rdg wit="Translation">The abbot said to the young man:</rdg>
+				</app>
+			</l>
+			<l n="229">
+				<app>
+					<rdg wit="Transcription">"bruoder, tuot die rede hin.</rdg>
+					<rdg wit="Translation">"Brother, be silent!</rdg>
+				</app>
+			</l>
+			<l n="230">
+				<app>
+					<rdg wit="Transcription">wâ hin haben ir iuwern sin</rdg>
+					<rdg wit="Translation">Where have you left your sense</rdg>
+				</app>
+			</l>
+			<l n="231">
+				<app>
+					<rdg wit="Transcription">und iuwer witze getân?</rdg>
+					<rdg wit="Translation">and your reason?</rdg>
+				</app>
+			</l>
+			<l n="232">
+				<app>
+					<rdg wit="Transcription">nû mügt ir iuch doch wol verstân</rdg>
+					<rdg wit="Translation">Now, you should know</rdg>
+				</app>
+			</l>
+			<l n="233">
+				<app>
+					<rdg wit="Transcription">daz wir niht fleisches ezzen.</rdg>
+					<rdg wit="Translation">that we don't eat meat.</rdg>
+				</app>
+			</l>
+			<l n="234">
+				<app>
+					<rdg wit="Transcription">ich will mich des vermezzen</rdg>
+					<rdg wit="Translation">I will demand</rdg>
+				</app>
+			</l>
+			<l n="235">
+				<app>
+					<rdg wit="Transcription">ir müezt der rede buoz enpfân."</rdg>
+					<rdg wit="Translation">that you do penance for your words."</rdg>
+				</app>
+			</l>
+			<l n="236">
+				<app>
+					<rdg wit="Transcription">er hiez in balde dannan gân.</rdg>
+					<rdg wit="Translation">Immediately after that, he ordered him to leave.</rdg>
+				</app>
+			</l>
+			<l n="237">
+				<app>
+					<rdg wit="Transcription">des getorst der münich lâzen niht.</rdg>
+					<rdg wit="Translation">The monk didn't dare to object,</rdg>
+				</app>
+			</l>
+			<l n="238">
+				<app>
+					<rdg wit="Transcription">er sprach iedoch: "waz mir geschiht,</rdg>
+					<rdg wit="Translation">but he spoke: "No matter what happens to me,</rdg>
+				</app>
+			</l>
+			<l n="239">
+				<app>
+					<rdg wit="Transcription">guot weren gense, der sie mac han,</rdg>
+					<rdg wit="Translation">geese would be good. For him who is able to have them,</rdg>
+				</app>
+			</l>
+			<l n="240">
+				<app>
+					<rdg wit="Transcription">guot unde wolgetan."</rdg>
+					<rdg wit="Translation">they are good and fine."</rdg>
+				</app>
+			</l>
+			<l n="241">
+				<app>
+					<rdg wit="Transcription">hie mit wart er hin vertriben.</rdg>
+					<rdg wit="Translation">At these words, he was thrown out.</rdg>
+				</app>
+			</l>
+			<l n="242">
+				<app>
+					<rdg wit="Transcription">die andern alle dâ beliben</rdg>
+					<rdg wit="Translation">The others all stayed there</rdg>
+				</app>
+			</l>
+			<l n="243">
+				<app>
+					<rdg wit="Transcription">und schuofen um ir lîpnar.</rdg>
+					<rdg wit="Translation">and busied themselves with their nourishment.</rdg>
+				</app>
+			</l>
+			<l n="244">
+				<app>
+					<rdg wit="Transcription">dar nâch satzten si gar</rdg>
+					<rdg wit="Translation">Afterwards they agreed on</rdg>
+				</app>
+			</l>
+			<l n="245">
+				<app>
+					<rdg wit="Transcription">beide ir singen unde ir lesen,</rdg>
+					<rdg wit="Translation">their chanting and readings</rdg>
+				</app>
+			</l>
+			<l n="246">
+				<app>
+					<rdg wit="Transcription">wer des meister sölt wesen.</rdg>
+					<rdg wit="Translation">and who should be responsible for them.</rdg>
+				</app>
+			</l>
+			<l n="247">
+				<app>
+					<rdg wit="Transcription">dî daz allez wart gesat,</rdg>
+					<rdg wit="Translation">When this was all agreed upon,</rdg>
+				</app>
+			</l>
+			<l n="248">
+				<app>
+					<rdg wit="Transcription">der abt im gewinnen bat</rdg>
+					<rdg wit="Translation">the abbot asked for</rdg>
+				</app>
+			</l>
+			<l n="249">
+				<app>
+					<rdg wit="Transcription">aber disen jungen man.</rdg>
+					<rdg wit="Translation">the young man to be brought to him.</rdg>
+				</app>
+			</l>
+			<l n="250">
+				<app>
+					<rdg wit="Transcription">er fuort in von den liuten dan</rdg>
+					<rdg wit="Translation">He took him away from the others</rdg>
+				</app>
+			</l>
+			<l n="251">
+				<app>
+					<rdg wit="Transcription">an sîn heimlîch.</rdg>
+					<rdg wit="Translation">to his room.</rdg>
+				</app>
+			</l>
+			<l n="252">
+				<app>
+					<rdg wit="Transcription">er bat in flîziclîch</rdg>
+					<rdg wit="Translation">He asked him fervently</rdg>
+				</app>
+			</l>
+			<l n="253">
+				<app>
+					<rdg wit="Transcription">daz er im verjehe</rdg>
+					<rdg wit="Translation">to tell him</rdg>
+				</app>
+			</l>
+			<l n="254">
+				<app>
+					<rdg wit="Transcription">dâ von diu rede geschehe</rdg>
+					<rdg wit="Translation">the reason why he said</rdg>
+				</app>
+			</l>
+			<l n="255">
+				<app>
+					<rdg wit="Transcription">daz er der gense begert.</rdg>
+					<rdg wit="Translation">that he desired geese.</rdg>
+				</app>
+			</l>
+			<l n="256">
+				<app><rdg wit="Transcription">der münich in des gewert.</rdg>
+				<rdg wit="Translation">The monk granted him that.</rdg>
+			</app>
+		</l>
+		<pb ed="#Transcription" facs="#G5"/>
+		<pb ed="#Translation"/>
+		<fw facs="#Transcription" type="header" place="margin-topright"></fw>
+		<l n="257">
+			<app>
+				<rdg wit="Transcription">dô er sô tiur wart gemant,</rdg>
+				<rdg wit="Translation">When he was so strongly urged,</rdg>
+			</app>
+		</l>
+		<l n="258">
+			<app>
+				<rdg wit="Transcription">dô verjach er im zehant</rdg>
+				<rdg wit="Translation">he told him without hesitation</rdg>
+			</app>
+		</l>
+		<l n="259">
+			<app>
+				<rdg wit="Transcription">reht der gense wârheit,</rdg>
+				<rdg wit="Translation">the whole truth about geese</rdg>
+			</app>
+		</l>
+		<l n="260">
+			<app>
+				<rdg wit="Transcription">als ich iu ê hân geseit,</rdg>
+				<rdg wit="Translation">as I have told you before:</rdg>
+			</app>
+		</l>
+		<l n="261">
+			<app>
+				<rdg wit="Transcription">wie er die gans hin under lie</rdg>
+				<rdg wit="Translation">how he lay with the goose</rdg>
+			</app>
+		</l>
+		<l n="262">
+			<app>
+				<rdg wit="Transcription">und sich die naht mit ir begie.</rdg>
+				<rdg wit="Translation">and spent the night with her.</rdg>
+			</app>
+		</l>
+		<l n="263">
+			<app>
+				<rdg wit="Transcription">dô daz der abbet bevant,</rdg>
+				<rdg wit="Translation">When the abbot discovered this</rdg>
+			</app>
+		</l>
+		<l n="264">
+			<app>
+				<rdg wit="Transcription">trûreclichen er sprach zehant:</rdg>
+				<rdg wit="Translation">he replied right away with sadness:</rdg>
+			</app>
+		</l>
+		<l n="265">
+			<app>
+				<rdg wit="Transcription">"leider mir, ir sît betrogen:</rdg>
+				<rdg wit="Translation">"Alas, you have been betrayed.</rdg>
+			</app>
+		</l>
+		<l n="266">
+			<app>
+				<rdg wit="Transcription">ich hân iu selbe verlogen.</rdg>
+				<rdg wit="Translation">I myself have deceived you.</rdg>
+			</app>
+		</l>
+		<l n="267">
+			<app>
+				<rdg wit="Transcription">crêde mich ez was ein wîp.</rdg>
+				<rdg wit="Translation">Believe me, that was a woman.</rdg>
+			</app>
+		</l>
+		<l n="268">
+			<app>
+				<rdg wit="Transcription">iuwer sinnelôser lîp</rdg>
+				<rdg wit="Translation">Your ignorant body</rdg>
+			</app>
+		</l>
+		<l n="269">
+			<app>
+				<rdg wit="Transcription">hât bî wîben gelegen.</rdg>
+				<rdg wit="Translation">has lain with a woman.</rdg>
+			</app>
+		</l>
+		<l n="270">
+			<app>
+				<rdg wit="Transcription">ich solt iuwer baz hân gepflegen,</rdg>
+				<rdg wit="Translation">I should have taken better care of you,</rdg>
+			</app>
+		</l>
+		<l n="271">
+			<app>
+				<rdg wit="Transcription">sô het ich reht getân."</rdg>
+				<rdg wit="Translation">then I would have behaved dutifully."</rdg>
+			</app>
+		</l>
+		<l n="272">
+			<app>
+				<rdg wit="Transcription">buoze hier er in empfân.</rdg>
+				<rdg wit="Translation">He commanded him to do a penance.</rdg>
+			</app>
+		</l>
+		<l n="273">
+			<app>
+				<rdg wit="Transcription">daz geschach nâch siner bet.</rdg>
+				<rdg wit="Translation">The monk did as he was ordered,</rdg>
+			</app>
+		</l>
+		<l n="274">
+			<app>
+				<rdg wit="Transcription">doch wen ich er im unreht tet:</rdg>
+				<rdg wit="Translation">but I think he was treated unfairly.</rdg>
+			</app>
+		</l>
+		<l n="275">
+			<app>
+				<rdg wit="Transcription">wan swaz er sünden dâ gewan,</rdg>
+				<rdg wit="Translation">For, whatever sins he committed there,</rdg>
+			</app>
+		</l>
+		<l n="276">
+			<app>
+				<rdg wit="Transcription">dâ was der apt schuldic an.</rdg>
+				<rdg wit="Translation">the abbot was to blame for them.</rdg>
+			</app>
+		</l>
+		<l n="277">
+			<app>
+				<rdg wit="Transcription">het er im die wârheit</rdg>
+				<rdg wit="Translation">If he had told him the truth</rdg>
+			</app>
+		</l>
+		<l n="278">
+			<app>
+				<rdg wit="Transcription">ungelogen und âne spot geseit,</rdg>
+				<rdg wit="Translation">honestly and without lies,</rdg>
+			</app>
+		</l>
+		<l n="279">
+			<app>
+				<rdg wit="Transcription">er het sich lîhte baz behuot.</rdg>
+				<rdg wit="Translation">the monk would have guarded himself better.</rdg>
+			</app>
+		</l>
+		<l n="280">
+			<app>
+				<rdg wit="Transcription">spot und lüge ist selten guot:</rdg>
+				<rdg wit="Translation">Mockery and lying are seldom good;</rdg>
+			</app>
+		</l>
+		<l n="281">
+			<app>
+				<rdg wit="Transcription">si sint sünde und ouch ân êre.</rdg>
+				<rdg wit="Translation">they are sins and they are also without honour.</rdg>
+			</app>
+		</l>
+		<l n="282">
+			<app>
+				<rdg wit="Transcription">waz sol ich dâ von sagen mêre</rdg>
+				<rdg wit="Translation">What more shall I say about this</rdg>
+			</app>
+		</l>
+		<l n="283">
+			<app>
+				<rdg wit="Transcription">denne ich hân alhie getân?</rdg>
+				<rdg wit="Translation">than what I have already said?</rdg>
+			</app>
+		</l>
+		<l n="284">
+			<app>
+				<rdg wit="Transcription">ez ist mîn geloube und hân den wân</rdg>
+				<rdg wit="Translation">It is my belief and my assumption</rdg>
+			</app>
+		</l>
+		<l n="285">
+			<app>
+				<rdg wit="Transcription">daz ze Swâben noch der münich sî</rdg>
+				<rdg wit="Translation">that in Swabia there might still</rdg>
+			</app>
+		</l>
+		<l n="286">
+			<app>
+				<rdg wit="Transcription">vil lîht zwên oder drî</rdg>
+				<rdg wit="Translation">easily be two or three monks</rdg>
+			</app>
+		</l>
+		<l n="287">
+			<app>
+				<rdg wit="Transcription">die diu wîp erkennent baz.</rdg>
+				<rdg wit="Translation">who have a better understanding of women.</rdg>
+			</app>
+		</l>
+		<l n="288">
+			<app>
+				<rdg wit="Transcription">gedienten die ir meister haz,</rdg>
+				<rdg wit="Translation">If they annoy their superiors,</rdg>
+			</app>
+		</l>
+		<l n="289">
+			<app>
+				<rdg wit="Transcription">die büezen ouch, daz ist mîn rât.</rdg>
+				<rdg wit="Translation">they should also do penance. This is my advice.</rdg>
+			</app>
+		</l>
+		<l n="290">
+			<app>
+				<rdg wit="Transcription">hie mit die rede ein ende hât.</rdg>
+				<rdg wit="Translation">Here the story ends.</rdg>
+			</app>
+		</l>
+	</body>
+</text>
+</TEI>
+
+<!--
+
+	Gänslein
+
+		TEI Encoding Specifications:
+
+			<lem> = transcription
+
+			<rdg> = translation
+
+			Tag numbering:
+				(<X> for example)
+				<X n="1"> 
+			
+			Stanza break:
+				<app>
+					<lem wit="#Transcription"><milestone unit="stanza"/></lem>
+					<rdg wit="#Translation"><milestone unit="stanza"/></rdg>
+				</app>
+
+			Special Characters:
+				Visit: http://folk.uib.no/hnooh/mufi/specs/MUFI-CodeChart-4-0.pdf
+				This chart is of the Medieval Unicode Font Initiative. In order to 
+				include one of these characters, enter the ampersand and following
+				letters followed by a semicolon (e.g. &odot;).
+
+			Language change: 
+				When the text changes language, use an extra modifier in your tag. 
+
+				For example: (a text changes to Latin)
+					<l lang="la" n="4">
+						<app>
+							<lem wit="#Transcription"></lem>
+							<rdg wit="#Translation"></rdg>
+						</app>
+					</l>
+
+				The modifier (xml:lang="?") is the critical insertion. 
+
+				Find the two letter identifier for the language you wish to specify 
+				@ http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
+				in the subtag category
+-->

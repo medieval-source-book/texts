@@ -1,0 +1,237 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “The Lost Soul”&#8212;"On a thin boat, the light sail is furled"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 44.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 44.</p>
+				<listWit>
+					<witness xml:id="Transcription">迷神引</witness>
+					<witness xml:id="Translation">To the tune “The Lost Soul”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “The Lost Soul”&#8212;"On a thin boat, the light sail is furled" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">迷神引</lem>
+						<rdg wit="#Translation">To the tune “The Lost Soul”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">一葉扁舟輕帆卷。</lem>
+						<rdg wit="#Translation">On a thin boat, the light sail is furled,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">暫泊楚江南岸。</lem>
+						<rdg wit="#Translation">Temporarily stopped by the southern bank of the Chu River<note type= "critical" anchored="true"><p>Refers to the segment of the Yangtze River by Chu.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">孤城暮角，</lem>
+						<rdg wit="#Translation">On the lonesome city walls, the evening horn blows,</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">引胡笳怨。</lem>
+						<rdg wit="#Translation">followed by the regretful barbarian lute<note type= "critical" anchored="true"><p>The barbarian lute is a traditional Chinese instrument with two strings.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">水茫茫，</lem>
+						<rdg wit="#Translation">The water is vast and hazy.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">平沙雁、</lem>
+						<rdg wit="#Translation">The wild geese lie on the plain;</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">旋驚散。</lem>
+						<rdg wit="#Translation">Suddenly startled, they scatter into the air.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">煙斂寒林簇，</lem>
+						<rdg wit="#Translation">The mist disperses and the cold forest emerges&#8212;</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">畫屏展。</lem>
+						<rdg wit="#Translation">a painted screen unfolds:</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">天際遙山小，</lem>
+						<rdg wit="#Translation">at the distant edge of the sky, the mountains are small,</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">黛眉淺。</lem>
+						<rdg wit="#Translation">(like) her lightly-drawn black eyebrows<note type= "critical" anchored="true"><p>In Chinese poetry, beautiful women’s eyebrows are often compared with mountains because of their shape.</p></note>.</rdg>
+					</app>
+				</l>
+				</lg>
+			<lg n="2">
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">舊賞輕拋，</lem>
+						<rdg wit="#Translation">I have thrown away my old happiness too hastily,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">到此成遊宦。</lem>
+						<rdg wit="#Translation">and come here as a drifting official.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">覺客程勞，</lem>
+						<rdg wit="#Translation">I realize the weariness of the traveler’s journey.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">年光晚。</lem>
+						<rdg wit="#Translation">The year is late,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">異鄉風物，</lem>
+						<rdg wit="#Translation">the scenery is of a strange town.</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">忍蕭索、</lem>
+						<rdg wit="#Translation">How could I bear the desolation</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">當愁眼。</lem>
+						<rdg wit="#Translation">before my sorrowful eyes?</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">帝城賒，</lem>
+						<rdg wit="#Translation">The capital is far away,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">秦樓阻，</lem>
+						<rdg wit="#Translation">And the way to the Qin building is blocked<note type= "critical" anchored="true"><p>The “Qin building” is a place for men to have sex with courtesands. According to legend, the original Qin building was built by the Qinmu King as a palace for his daughter and son-in-law. They were both so good at playing the vertical bamboo flute that their music attracted phoenixes, and the building where they played became famous. The meaning of the Qin building changed over time, and was later used to refer to brothels.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">旅魂亂。</lem>
+						<rdg wit="#Translation">Souls in travel are muddled.</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">芳草連空闊，</lem>
+						<rdg wit="#Translation">Fragrant grass blends into the spacious sky;</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">殘照滿。 </lem>
+						<rdg wit="#Translation">the setting sun shines on all of them<note type= "critical" anchored="true"><p>That is, the souls in travel mentioned in the previous line.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">佳人無消息，</lem>
+						<rdg wit="#Translation">There is no message from the fair one;</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">斷雲遠。 </lem>
+						<rdg wit="#Translation">the solitary patch of cloud is distant.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

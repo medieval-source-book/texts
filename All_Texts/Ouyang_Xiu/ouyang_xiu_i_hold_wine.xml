@@ -1,0 +1,177 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Waves Scour the Sand”&amp;#8212;"I Hold Up The Wine"</title>
+				<author>Ouyang Xiu 歐陽修</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 141.
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+					<name>Manya Bansal</name>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+						<hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+
+				<p>Ouyang Xiu composed this song lyric when he and his friends revisited their old haunts in the northern suburbs of Luoyang during springtime. The time frame depicted spans the previous year, the current year and the year ahead. The lyrics convey sadness about the inconstancy of life and the inevitable passing of time.</p>
+
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+
+				<p>Ouyang Xiu was a highly influential politician, scholar, and historian of the Northern Song dynasty. He was revered as a grand master of literature and philosophy, and it is not an exaggeration to say that he laid the foundation for the literati mentality of the dynasty. When Ouyang was four years old, the death of his father, a fifty-seven-year-old military officer, left the family destitute. Poverty did not stop Ouyang’s passion for reading: he would borrow books from his neighbors and make copies in order to study them further. Later, he became a bureaucrat and was posted to many cities as a prefect of the imperial court. In his political life, he was principled and solemn, and wrote a great deal in many genres. Much of his writing reflects his dignified character. His song lyrics, however, provide an interesting contrast. Their content may be drawn in part from the colorful private life he enjoyed in his younger years, including liaisons with many different courtesans. Interestingly, they are often written from the perspective of a lovelorn courtesan abandoned by an inconstant lover, in effect casting himself as the villain.</p>
+
+				<p>Chang, Kang-i Sun. The Evolution of Tz’u Poetry: from Late Tang to Northern Sung. Princeton UP, 1980.
+
+				A standard survey of the early history of Chinese song lyrics (romanized as both ci and tz’u).</p>
+
+				<p>Egan, Ronald. “The Song Lyric.” The Cambridge History of Chinese Literature, vol. 1, edited by Stephen Owen, Cambridge UP, 2010, pp. 434-452.
+
+				An overview of the genre.</p> 
+
+				<p>Owen, Stephen. Just a Song: Chinese Lyrics from the Eleventh and Early Twelfth Centuries. Asia Center, Harvard UP, 2019.
+
+				A recent new history of the genre.</p>
+
+				<p>Tang, Guizhang 唐圭璋, editor. Quan Song Ci 全宋詞. Zhonghua shu ju, 1965. 5 vols.
+
+				A comprehensive edition of ci from the Song dynasty and the source text for the ci  in this collection (introductions and annotations are in Chinese).</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 141.
+				 </p>
+				<listWit>
+					<witness xml:id="Transcription">浪淘沙</witness>
+					<witness xml:id="Translation">To the tune “Waves Scour the Sand” </witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+				<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Waves Scour the Sand”&amp;#8212;"I Hold Up The Wine" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+         	</projectDesc>
+			<editorialDecl>
+				<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">浪淘沙</lem>
+						<rdg wit="#Translation">To the tune “Waves Scour the Sand”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">把酒祝東風。</lem>
+						<rdg wit="#Translation">I hold up the wine and toast the eastern wind,
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">且共從容。</lem>
+						<rdg wit="#Translation"> “Let us dally and not rush.”</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">垂楊紫陌洛城東。</lem>
+						<rdg wit="#Translation">Along the lilac-laden path with drooping willows in the east of Luoyang,
+					</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">總是當時攜手處，</lem>
+						<rdg wit="#Translation">Is where we used to walk hand in hand,</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">游遍芳叢。</lem>
+						<rdg wit="#Translation">Roaming among the thickets of fragrance.<note type="critical" anchored="true"><p>Fragrance refers to flowers</p></note>
+						</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">聚散苦匆匆。</lem>
+						<rdg wit="#Translation">Gathering together is always fleeting and separating is always bitter.
+						</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">此恨無窮。</lem>
+						<rdg wit="#Translation">My regrets about this have no end.
+						</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">今年花勝去年紅。</lem>
+						<rdg wit="#Translation">The flowers this year are redder than the last;
+					</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">可惜明年花更好，</lem>
+						<rdg wit="#Translation"> It is a pity that when next year's ones are even better,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">知與誰同。</lem>
+						<rdg wit="#Translation">I do not know with whom I will look at them.
+						</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

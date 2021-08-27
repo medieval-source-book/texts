@@ -1,0 +1,158 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Spring in the Jade Building”&amp;#8212;"In a Tall Building"</title>
+				<author>Ouyang Xiu 歐陽修</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+					<name>Manya Bansal</name>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>This song lyric is a woman's complaint about her lover. However, the two stanzas are quite different in tone and content. In the first, she sings wistfully of her longing; in the second, the focus shifts to her lover's inconstancy.</p>
+
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+
+				<p>Ouyang Xiu was a highly influential politician, scholar, and historian of the Northern Song dynasty. He was revered as a grand master of literature and philosophy, and it is not an exaggeration to say that he laid the foundation for the literati mentality of the dynasty. When Ouyang was four years old, the death of his father, a fifty-seven-year-old military officer, left the family destitute. Poverty did not stop Ouyang’s passion for reading: he would borrow books from his neighbors and make copies in order to study them further. Later, he became a bureaucrat and was posted to many cities as a prefect of the imperial court. In his political life, he was principled and solemn, and wrote a great deal in many genres. Much of his writing reflects his dignified character. His song lyrics, however, provide an interesting contrast. Their content may be drawn in part from the colorful private life he enjoyed in his younger years, including liaisons with many different courtesans. Interestingly, they are often written from the perspective of a lovelorn courtesan abandoned by an inconstant lover, in effect casting himself as the villain.</p>
+
+				<p>Chang, Kang-i Sun. The Evolution of Tz’u Poetry: from Late Tang to Northern Sung. Princeton UP, 1980.
+
+				A standard survey of the early history of Chinese song lyrics (romanized as both ci and tz’u).</p>
+
+				<p>Egan, Ronald. “The Song Lyric.” The Cambridge History of Chinese Literature, vol. 1, edited by Stephen Owen, Cambridge UP, 2010, pp. 434-452.
+
+				An overview of the genre.</p> 
+
+				<p>Owen, Stephen. Just a Song: Chinese Lyrics from the Eleventh and Early Twelfth Centuries. Asia Center, Harvard UP, 2019.
+
+				A recent new history of the genre.</p>
+
+				<p>Tang, Guizhang 唐圭璋, editor. Quan Song Ci 全宋詞. Zhonghua shu ju, 1965. 5 vols.
+
+				A comprehensive edition of ci from the Song dynasty and the source text for the ci  in this collection (introductions and annotations are in Chinese).</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.</p>
+				<listWit>
+					<witness xml:id="Transcription">玉樓春</witness>
+					<witness xml:id="Translation">To the tune “Spring in the Jade Building”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>To the tune “Spring in the Jade Building”&amp;#8212;"In a Tall Building" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+         	</projectDesc>
+			<editorialDecl>
+				<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">玉樓春·湖邊柳外樓高處</lem>
+						<rdg wit="#Translation">To the tune “Spring in the Jade Building”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">湖邊柳外樓高處。</lem>
+						<rdg wit="#Translation"> In a tall building behind the willows by the lakeside,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">望斷雲山多少路</lem>
+						<rdg wit="#Translation">How many roads in the misty mountains have I stared to the end of?</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">闌干倚遍使人愁，</lem>
+						<rdg wit="#Translation">I have leant against all the railings, feeling disheartened;</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">又是天涯初日暮。</lem>
+						<rdg wit="#Translation">Again, the sun starts to set at the edge of the sky.</rdg>
+					</app>
+				</l>
+
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">輕無管系狂無數。</lem>
+						<rdg wit="#Translation">Light without being tied down, <note type="critical" anchored="true"><p>The Chinese characters 管系 literally mean "discipline" and "obstacle".</p></note> wild and numerous,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">水畔花飛風裏絮。</lem>
+						<rdg wit="#Translation">Petals fly beside the water, willow catkins are blown by the wind.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">算伊渾似薄情郎，</lem>
+						<rdg wit="#Translation">They are just like my fickle lover,</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">去便不來來便去。</lem>
+						<rdg wit="#Translation">Leaving without returning, coming and soon departing.</rdg>
+					</app>
+				</l>
+
+			</lg>
+		</body>
+	</text>
+</TEI>

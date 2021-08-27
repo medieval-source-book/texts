@@ -1,0 +1,338 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Chronicle of King Peter I [Prologue]</title>
+				<author>Fernão Lopes</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Leonardo Grao Velloso</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Leonardo Grao Velloso</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mae Velloso-Lyons</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Global Medieval Sourcebook</publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+				<p>Written by Fernão Lopes (1380-90?-1460), the first Royal Chronicler of the kingdom of Portugal, the Crônica de D. Pedro I (Chronicle of Peter I) was probably composed in the first half of the fifteenth century. It belongs to the earlier tradition of late medieval royal chronicles (c. 13th and 14th centuries), histories that narrated important events in the lives of kings, aristocrats, and kingdoms. Common in France, Portugal, Castile, and Aragon, such histories often combined a very positive account of the king’s life—as a means of simultaneously praising him and recording his actions—with the intent of presenting lessons how to rule a kingdom, drawn from the king’s achievements and mistakes.</p>
+
+				<p>The events described in the Chronicle of Peter I took place between the years 1357 and 1367. Those years were important for the Portuguese kingdom, because they preceded a change in its ruling family in 1383-1385, when the family of Avis replaced Peter I’s family, the kings of Bourgogne. The first king of the Avis family, John I, was Peter I of Bourgogne’s illegitimate son. In a way, writing the history of Peter I’s reign of Portugal meant narrating the beginnings of John I’s ascension to the Portuguese crown.</p>
+
+				<p>It was under John I, in 1418, that Fernão Lopes was appointed the Royal Keeper of the Archives (Guarda-Mor). Lopes was responsible for keeping the official records of the kingdom of Portugal, such as royal decrees and treaties. After holding that position for 26 years, Lopes was appointed as the first Royal Chronicler (Cronista-Mor) in 1434, by king Edward I, John I’s son. Lopes was then assigned the task of writing the official history of the kings of Portugal, in addition to his role as the Royal Keeper. It was probably after he was appointed as the Royal Chronicler that Lopes started writing the Chronicle of Peter I. In the prologue presented here, we see how Lopes’ two positions influenced his writing. He attempts to balance a faithful record of past events, as expected from a royal archivist, and a trustworthy praise of Peter I, as expected from the royal chronicler.</p>
+
+				<p>This double role partly explains why the Chronicle of Peter I is unique among late medieval chronicles. First, Lopes’ interest in historical accuracy distinguishes his work. He explained his vision of historical writing in the prologue to another work, the Crônica Del Rey D. João I (Chronicle of King John I). There he claimed that chronicles often showed too much “affectionate bias” (mundanall afeiçom) in favor of the king, which ended up obscuring the truth about the events.</p>
+
+				<p>A second distinctive feature of Lopes’ Chronicle is how he focuses on people other than the king. Late medieval chronicles tended to concentrate mostly on the person of the king and those closest to him, his aristocracy. As this prologue illustrates, however, the chronicle’s main subject is not Peter I’s person, but his importance for both the laws of the kingdom and the life of its people. The Chronicle of Peter I is made up of a prologue and 46 chapters. The prologue presents Lopes’ interpretation of Peter I’s reign, while the chapters focus on specific events, covering topics such as internal policy (justice, monetary policy), Portuguese maritime exploration, the relationships with the kingdoms of Castile and England, Portugal’s involvement in the fight against the Muslim kingdoms, Peter’s forbidden love affair with Inês de Castro, and others.</p>
+
+				<p>The Chronicle of Peter I was well received in late medieval Portugal. It helped other chroniclers frame the kingdom’s official history, a frame which emphasized how the life of the king and the life of the kingdom were inseparable. After Lopes’ Chronicle of Peter I, telling the readers how they should interpret the facts narrated in a chronicle became as important as getting the facts right. What Lopes achieves in the prologue of the Chronicle of Peter I—namely an innovative way of relating events in the king’s life to what happened to both the people and the kingdom—had a long afterlife, influencing other official chronicles until at least the end of the sixteenth century.</p>
+
+				<p>This work is paramount for those who wish to understand how Portuguese state-sponsored chronicles helped shape the kingdom as a collective entity.</p>
+
+				<p>The National Library of Portugal (BNL) holds the manuscript from which the Prologue was transcribed and translated. The BNL catalogue dates the manuscript to 1475-1525. (The online catalogue entry can be viewed here.) Before this manuscript arrived at the BNL, it was in the possession of a Jesuit College in Évora, Portugal, the College of the Holy Spirit.</p>
+
+				<p>This manuscript comprises two chronicles by Fernão Lopes, the Chronicle of Peter I and the Chronicle of Ferdinand I, both written with the same hand. It can be viewed online here. Unfortunately, no surviving copy from the time of its production remains (c. 1440), but there are a few other copies made in the late fifteenth and early sixteenth centuries, between the years of 1525 and 1600. The presence of these early modern manuscripts, written with different hands, indicates that manuscript versions of the Chronicle of Peter I still circulated in the fifteenth and sixteenth centuries.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Bibliotheca Nacional de Portugal MS IL. 123, ff. 1r-2r.</p>
+				<listWit>
+					<witness xml:id="Transcription">Chronica del Rey D. Pedro [Prologo]</witness>
+					<witness xml:id="Translation">Chronicle of King Peter I [Prologue]</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Chronicle of King Peter I [Prologue]" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="BNP_IL-123_1r.png" xml:id="BNP_IL-123_1r"/>
+		<graphic url="BNP_IL-123_1v.png" xml:id="BNP_IL-123_1v"/>
+		<graphic url="BNP_IL-123_2r.png" xml:id="BNP_IL-123_2r"/>
+	</facsimile>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Chronica del Rey D. Pedro, desde nome o primeiro</lem>
+						<rdg wit="#Translation">Chronicle of the king, Lord Peter, the first of that name</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<pb ed="#Transcription" facs="#BNP_IL-123_1r"/>
+			<pb ed="#Transcription" facs="#BNP_IL-123_1v"/>
+			<pb ed="#Transcription" facs="#BNP_IL-123_2r"/>
+			<fw facs="#BNP_IL-123_1r" type="header" place="margin-topright"></fw>
+			<fw facs="#BNP_IL-123_1v" type="header" place="margin-topright"></fw>
+			<fw facs="#BNP_IL-123_2r" type="header" place="margin-topright"></fw>
+			<div n="1">
+				<p>
+					<s>
+						<app>
+							<lem wit="#Transcription">Prologo</lem>
+							<rdg wit="#Translation">Prologue</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+			<div n="2">
+				<p n="1">
+					<s>
+						<app>
+							<lem wit="#Transcription">[D]Eixados os modos e diffinçoões da justiça que per desvairadas guisas muitos em seus livros escrevem, soomente daquella pera que o real poderio foy estabelleçido, que he por serem os maos castigados e os booms viverem em paz, he nossa entemçom neeste prollogo muito curtamente fallar, nom come buscador de novas razoões per propria invençom achadas, mas come ajumtador, em huum breve moolho, dos ditos dalguns que nos prouguerom.</lem>
+							<rdg wit="#Translation">Having left aside the types and definitions of justice,
+								<note type="critical" anchored="true">
+									<p>Scholars say that this strange beginning, referencing another text in which Lopes would have already presented a discussion about the definitions of justice, points to the existence of another prologue, possibly a prologue to a lost chronicle that he might have written before writing the <hi rend="italic">Chronicle of Peter I</hi>, or another prologue to this same chronicle.</p>
+								</note>
+							 which many write about in unreasonable ways,
+							 	<note type="critical" anchored="true">
+							 		<p>The Portuguese original, <hi rend="italic">desvairadas guisas</hi>, implies a sense that the writings are disorganized, unreasonable for not having a logic. <hi rend="italic">Desvairada/o</hi> means “that which lost its way.” This way of writing anticipates the next argument, against invention as a proper way of explaining justice. Fernão Lopes promises to tread paths already taken by previous writers, but in a more systematic way than the ones he criticizes.</p>
+							 	</note>
+							  it is our intention to speak very briefly of justice alone, which is the reason why royal power exists, namely to punish the evil people and to allow the good ones to live in peace. We wish to speak about justice not as seekers of new ways of understanding, which are found using personal creativity, but as collectors of sayings from writers who have contented us.
+								<note type="critical" anchored="true">
+									<p>The argument behind this image is very illuminating, as Fernão Lopes frames his work as a writer who collects <hi rend="italic">ditos</hi> (sayings) from other writers, as opposed to framing himself as an inventor of a new concept or way of explaining justice. Arguments that ascribe authority to previous writers were very common in late medieval historical writing.</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">A huma por espertar os que ouvirem que entendam parte do que falla a estoria, a outra por seguirmos enteiramente a hordem do nosso razoado; no primeiro prollogo ja tangida.</lem>
+							<rdg wit="#Translation">We write this history this way, on the one hand, to edify those who will hear it, so that they may understand part of what it is about, and on the other hand, to strictly follow the order of our own plan, which we have already touched upon in the first prologue.
+								<note type="critical" anchored="true">
+									<p>See first note.</p>
+								</note>
+							</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="2">
+					<s>
+						<app>
+							<lem wit="#Transcription">E por quanto elRey dom pedro, cujo regnado se segue, husou da justiça, de que a deos mais praz que cousa boa, que o Rey possa fazer segumdo os santos escrevem, e alguums desejam saber que virtude he esta, e pois he neçessaria ao Rey, se o he assi ao povoo: nos naquele stillo que o simpresmente apanhamos: o podees ler per esta maneira.</lem>
+							<rdg wit="#Translation">And given that the king, Lord Peter, whose reign is narrated in the following chronicle, ruled with justice—an act more pleasing to God than anything else that a king might do, according to the writings of the saints—, and given that some wish to know what kind of virtue justice is, because it is necessary for both the King and the people, we have simply collected examples from his reign in this writing, as we have pointed out,
+								<note type="critical" anchored="true">
+									<p>Lopes is here referring back to the sentence where he says he is writing “as collectors who collect sayings from some writers.” Emphasizing an important point through referring back to it in the text was very common among chroniclers and writers of long prose. The emphasis is that Lopes is not inventing a classification of justice, but collecting real examples and presenting them together as an explanation of the idea of justice that he found in authoritative sources.</p>
+								</note>
+							so that you may read about his use of justice in this way.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="3">
+					<s>
+						<app>
+							<lem wit="#Transcription">Justiça he huuma virtude que he chamada toda a virtude.</lem>
+							<rdg wit="#Translation">Justice is the one virtue which is called the mother of all virtues.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">assy que, quallquer que he justo, este compre toda a virtude, Porque a justiça, assi como lei de deos, defende que nom fornigues, nem sejas gargantom.</lem>
+							<rdg wit="#Translation">Thus, anyone who is just simultaneously performs all virtues, because justice itself commands that <hi rend="italic">thou shalt not fornicate, neither wilt thou be a glutton</hi>, just like the Laws of God command.
+							<note type="critical" anchored="true">
+								<p>This statement seems to paraphrase the ten commandments (see Exodus 20:1-17), but, in fact, neither of these commands are included among the ten.</p>
+							</note>
+							</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">E isto guardamdo, se compre a virtude da castidade e da temperança, e assi podees entender dos outros viçios e virtudes.</lem>
+							<rdg wit="#Translation">And in keeping those commands, one performs the virtues of chastity and temperance, and through performing them one may understand the vices and virtues of others.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Esta virtude he muy neçessaria ao Rey e isso meesmo aos seus sogeitos.</lem>
+							<rdg wit="#Translation">The virtue of justice is very necessary for the king, as well as for his subjects.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Porque avemdo no Rey virtude de justiça, fara leis per que todos vivam dereitamente e em paz, e os seus sogeitos seemdo justos, compriram as leis que el poser.</lem>
+							<rdg wit="#Translation">For when the virtue of justice exists within the king, he will make laws so that all subjects may live correctly and in peace with each other, and if his subjects are just, they will respect any laws that he might impose upon them.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e comprindoas, nom faram cousa injusta contra nehuum.</lem>
+							<rdg wit="#Translation">Thus, by respecting the laws, his subjects will not commit any unjust act against anyone.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e tal virtude como esta pode cada huum gaanhar por obra de boom entendimento.</lem>
+							<rdg wit="#Translation">And each one can attain this virtue through the use of good reason.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e aas vezes naçem alguuns assi naturalmente a ella despostos, que com grande zello a executam, posto que a alguuns viçios sejam emclinados.</lem>
+							<rdg wit="#Translation">Sometimes some are born with a natural disposition to being just, thus carrying it out with great zeal, even though they might be inclined to some other vices.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="4">
+					<s>
+						<app>
+							<lem wit="#Transcription">A rrazam por que esta virtude he neçessaria nos sobditos, he por comprirem as leis do príncipe, que sempre devem de seer ordenadas pera todo bem.</lem>
+							<rdg wit="#Translation">The reason why the virtue of justice is needed among the subjects is because they must respect the laws of the prince, laws which must be imposed for the general good.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e quem taaes leis comprir sempre bem obrara, ca as leis som regra do que os sogeitos am de fazer.</lem>
+							<rdg wit="#Translation">And whoever respects such laws will always act for the good, for those laws are the rule by which subjects will measure their acts.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e som chamadas prinçipe nom animado e o Rey he prinçipe animado, por que ellas representam com vozes mortas o que o Rey diz per sua voz viva.</lem>
+							<rdg wit="#Translation">Laws are called the inanimate prince, whereas the king is the animate prince, because laws represent with dead voices that which the king says through his live voice.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e porem a justiça he muito neçessaria assi no poboo como no Rey, por que sem ella nemhuma cidade, nem Reino, pode estar em assessego.</lem>
+							<rdg wit="#Translation">And so justice is very necessary both for the people and for the king, because without justice, neither city nor kingdom may be at ease.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Assi que o Reino onde todo o poboo he maao nom se pode soportar muito tempo, Por que como a alma soporta o corpo e partindosse delle o corpo se perde, assy a justiça suporta os Reinos, e partindosse deles pereçem de todo. </lem>
+							<rdg wit="#Translation">And justice is so necessary for the people and the king that, a kingdom whose entire people is evil cannot subsist for long. Just as the soul gives life to the body, and when the soul moves way, the body dies, so does justice give life to kingdoms, and when justice leaves them, they perish completely.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="5">
+					<s>
+						<app>
+							<lem wit="#Transcription">Hora se a virtude da justiça he neçessaria ao poboo muito mais o he ao Rei.</lem>
+							<rdg wit="#Translation">Now, if the virtue of justice is necessary for the people, it is much more needed in the king.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Por que sse a lei he regra do que se ha de fazer, muito mais o deve de seer o Rei que a põe, e o juiz que a ha dencaminhar.</lem>
+							<rdg wit="#Translation">For if laws are the rules by which one measures one’s own acts, even more just must be the king who sets them, and the judge who must carry them out.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Por que a lei he prinçipe sem alma como dissemos, e o prinçipe he lei e regra da justiça com alma.</lem>
+							<rdg wit="#Translation">And that is the case because laws are the prince without a soul, as we have said, which means that the prince is the rule of justice with a soul.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Pois quanto a cousa com alma tem melhoria sobre outra sem alma, tanto o Rei deve teer exçellençia sobre as leis, Ca o Rei deve de seer de tanta justiça e dereito que compridamente de as leis a execucom.</lem>
+							<rdg wit="#Translation">Just as that which has a soul is better than that which does not have one, so the king must be better than the laws he sets, because the king must be so just and righteous in order to thoroughly carry out the laws.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Doutra guisa mostrarsehia seu Regno cheo de boas leis e maaos custumes, que era torpe cousa de ver, Pois duvidar se o Rei a de seer justiçoso nom he outra cousa senam duvidar se a regra há de seer dereita, a qual se em direitura desfaleçe, nenhuma cousa dereita se pode per ella fazer.</lem>
+							<rdg wit="#Translation">Otherwise, his kingdom would be filled with good laws and bad habits, which would be horrible to see, for even suspecting that the king is unjust is no different than suspecting that the rule of law is carried out unjustly. And when the rule of law fails in regards to righteousness, it cannot be used for any righteous acts.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="6">
+					<s>
+						<app>
+							<lem wit="#Transcription">Outra razom por que a justiça he muito neçessaria ao Rei assi he por que a justiça nom tan soomente afremossenta os Reis de virtude corporal mas ainda spiritual.</lem>
+							<rdg wit="#Translation">Another reason why justice is very necessary for the king is that justice not only embellishes kings with bodily virtue, but even more so with spiritual virtue.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Pois quanto a fremusura do spritu tem avantagem da do corpo: tanta a justiça em no Rei he mais neçessaria que outra fremosura.</lem>
+							<rdg wit="#Translation">Just as the beauty of the spirit is better than that of the body, so is justice more necessary in a king than any other beauty.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">A terçeira razom se mostra da perfeiçom da bondade; por que em tom dizemos alguma cousa seer perfeita, quando fazer pode alguma semelhante a si, E por tanto se chama huuma cousa boa: quanto sua bondade se pode estender a outros, ao menos se quer per exemplo.</lem>
+							<rdg wit="#Translation">The third reason comes from the perfection of goodness, because we may rightfully call something perfect when it can make something in its own likeness
+								<note type="critical" anchored="true">
+									<p>This argument about perfection as the attribute of that which can make something in its own likeness recalls Neo-Platonic theology about the idea of god as beautiful and good. Just as god can make beautiful and good things because he is perfect, so does the goodness of the king may extend to his subjects because goodness itself is perfect.
+									</p>
+								</note>
+							.  And so something may be called good when its goodness can extend to others, or at least when it presents itself as an example to others.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">e entom se mostra per pratica quanto cada huum he boom, quando he posto em senhorio.</lem>
+							<rdg wit="#Translation">Thus, it is through one’s own acts that one shows how good one is, especially when one is ruling.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="8">
+					<s>
+						<app>
+							<lem wit="#Transcription">Porem compre aos Reis seer justicosos, por a todos seus sogeitos poder viir bem, e a nenhum o contrairo.</lem>
+							<rdg wit="#Translation">However, kings must be righteous, so that they may be well regarded and imitated by all subjects, and not the opposite.</rdg>
+						</app>
+					</s>
+					<s>
+						<app>
+							<lem wit="#Transcription">Trabalhando que a justiça seja guardada nom soomente aos naturaes de seu Reino, mas ainda aos de fora dele, Por que negada a justiça a alguma pessoa: grande injuria he feita ao prinçipe e a toda sua terra. </lem>
+							<rdg wit="#Translation">Thus, by being righteous kings encourage the maintenance of justice, not only among the people in their own kingdoms, but also among those who live elsewhere, for in the case that justice is denied to any person, it is offensive to both the prince and all of his land.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="9">
+					<s>
+						<app>
+							<lem wit="#Transcription">Desta virtude da justiça, que poucos acha que a queiram por ospeda posto que Rainha, e senhora seja das outras virtudes segundo diz tulio: husou muito elRey Dom Pedro, segundo veer podem os que desejam de o saber, leemdo parte de sua estoria.</lem>
+							<rdg wit="#Translation">The king, Lord Peter, made vast use of this virtue of justice, a virtue that not too many people want as a guest within them, given that justice is the queen and ruler of all other virtues as Tully
+							<note type="critical" anchored="true">
+								<p>Marcus Tully Cicero (106 B.C.E – 43 B.C.E), Roman statesman, orator, consul, and philosopher.</p>
+							</note>
+							 has said, as whosoever may wish to know will see by reading this account of his history.</rdg>
+						</app>
+					</s>
+				</p>
+				<p n="10">
+					<s>
+						<app>
+							<lem wit="#Transcription">E pois que elle com boom desejo por natural enclinaçam, refreou os males regendo bem seu Reino, ainda que outras mingoas per el passassem de que peendença podia fazer: de cuidar he que ouve ho galardom da justiça, cuja folha e fruito he, honrrada fama neste mundo, e perdurável folgança no outro.</lem>
+							<rdg wit="#Translation">And since he, voluntarily and because of his natural inclination, checked the advance of evil by ruling his Kingdom well, even though some other imperfections came to pass in the kingdom, whose account we could provide, we must consider that there was in his time the gift of justice, whose laurel and fruit is honorable fame in this world, and lasting happiness in the other.</rdg>
+						</app>
+					</s>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

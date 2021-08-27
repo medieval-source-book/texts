@@ -1,0 +1,180 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Revealing Inmost Feelings”&#8212;"At Night"</title>
+				<author>Li Qingzhao</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 2. Beijing: Zhonghua shu ju, 1965, 930.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+
+				<p>This is another melancholic ci which plays with the image of withering plum blossoms to evoke the passage of time and the impermanence of happiness.</p>
+
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+
+				<p>Li Qingzhao was probably one of the most prominent female poets in Imperial China. Born into an elite family of imperial bureaucrats, Li Qingzhao aspired to become a writer even though literature was considered a male domain. She quickly gained fame for her poetic talent and became not only a celebrated composer of ci but also an important critic of the genre. In her view, the male poets composing lyrics for female singers struggled to convey these women’s thoughts and voices convincingly. In her song lyrics, Li Qingzhao offers the modern reader something rare and precious: the inner world of women in medieval China, as imagined by a woman poet. Her songs are often considered to be among the most affecting of the genre.</p>
+
+				<p>In 1127, when Li Qingzhao was in her forties, the capital city of the Song dynasty (present-day Kaifeng)—the city where Li Qingzhao lived—was conquered by the Jin dynasty in the Jin-Song Wars, along with the northern half of the Song dynasty’s territory. The surviving members of the dynasty consolidated their regime in the south, establishing a new capital city, first in Nanjing, then in Lin’an (present-day Hangzhou). The conquest of Kaifeng marked the end of the Northern Song dynasty and the beginning of the Southern Song dynasty: two distinct eras in the political history of China, and two distinctive periods in Li Qingzhao’s own poetry. Following the invasion of Kaifeng, she moved first to Nanjing and then to Lin’an, where she spent the remaining decades of her life; her husband died in 1129. In contrast to the love themes of her earlier ci, much of her later poetry is concerned with the sorrow of her forced migration and her personal loneliness in her new surroundings.</p>
+
+				<p>Chang, Kang-i Sun. The Evolution of Tz’u Poetry: from Late Tang to Northern Sung. Princeton UP, 1980.
+				
+				A standard survey of the early history of Chinese song lyrics (romanized as both ci and tz’u).</p>
+
+				<p>Egan, Ronald. “The Song Lyric.” The Cambridge History of Chinese Literature, vol. 1, edited by Stephen Owen, Cambridge UP, 2010, pp. 434-452.
+				
+				An overview of the genre.</p>
+
+				<p>Owen, Stephen. Just a Song: Chinese Lyrics from the Eleventh and Early Twelfth Centuries. Asia Center, Harvard UP, 2019.
+
+				A recent new history of the genre.</p>
+
+				<p>Tang, Guizhang 唐圭璋, editor. Quan Song Ci 全宋詞. Zhonghua shu ju, 1965. 5 vols.
+				
+				A comprehensive edition of ci from the Song dynasty and the source text for the ci  in this collection (introductions and annotations are in Chinese).</p>
+
+				<p>Egan, Ronald. The Works of Li Qingzhao. De Gruyter, 2019, pp. 94-198.
+				
+				A bilingual edition, with Chinese and English translations on facing pages.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 284. </p>
+				<listWit>
+					<witness xml:id="Transcription">訴衷情</witness>
+					<witness xml:id="Translation">To the tune “Revealing Inmost Feelings”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Revealing Inmost Feelings”&#8212;"At Night"is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 2. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">夜來沉醉卸妝遲。</lem>
+						<rdg wit="#Translation">At night, I was drunk and did not take off my makeup.</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">梅萼插殘枝。</lem>
+						<rdg wit="#Translation">The plum blossom petals withered on the twig.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">酒醒熏破春睡，</lem>
+						<rdg wit="#Translation">As I sobered up, their smell broke the spring sleep;</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">夢斷不成歸。</lem>
+						<rdg wit="#Translation">the dream ended before I was able to reach home. </rdg>
+					</app>
+				</l>
+			</lg>
+
+			<lg n="2">
+				<l n="5"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">人悄悄，</lem>
+						<rdg wit="#Translation">There was no sound of people,</rdg>
+					</app>
+				</l>	
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">月依依。</lem>
+						<rdg wit="#Translation">The moon lingered on,</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">翠簾垂。</lem>
+						<rdg wit="#Translation">The emerald curtain rolled down.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">更挼殘蕊，</lem>
+						<rdg wit="#Translation">Again, I pinched the leftover petals,</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">更撚餘香，</lem>
+						<rdg wit="#Translation">Again, I rubbed the remaining fragrance,</rdg>
+					</app>
+				</l>
+				<l n="10"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription">更得些時。</lem>
+						<rdg wit="#Translation">Again, I obtained some more time. </rdg>
+					</app>
+				</l>
+			</lg>
+
+		</body>
+	</text>
+</TEI>
+
+
+
+
+

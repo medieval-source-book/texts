@@ -47,7 +47,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"Wandering lost, it was already night" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -82,37 +82,43 @@
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"> Китоврасѣ ѿ палеи</lem>
-						<rdg wit="#Translation">But Poseidon had gone to visit the far-off Ethiopians,</rdg>
+						<lem wit="#Transcription">ѡ҆н же ре всего є҆сть лоучши своѧ волѧ. </lem>
+						<rdg wit="#Translation">
+							<note anchored="true"><p></p></note> 
+						</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription">Китоврасъ є҆сть звѣрь борзъ</lem>
-						<rdg wit="#Translation">the Ethiopians, most remote of men, who are divided in two,</rdg>
+						<lem wit="#Transcription">Ꙗко бо слн҃це створи бъ҃ . не на единоⷨ (// 389r) мѣстѣ постави. егда свѣтить ѡбиходѧ всю вселеню лчами ѡсвѣщаеть. тако же и сии ѡбразъ прес҃тыꙗ влчⷣ҇ца нашеꙗ бц҃а прнⷭ҇одв҃ы мр҃иꙗ. не на единоⷨ мѣстѣ чюдеса . и дары исцелениа истачаеть. но ѡ҆бьходѧщи всѧ страны и мира просвѣщаеть. и ѿ недгь различьныⷯ избавлѧе.
+</lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription">соломонъ мр͠дӹ хитростїю изымалъ є҆го.</lem>
-						<rdg wit="#Translation">some at Hyperion's setting, others at his rising,</rdg>
+						<lem wit="#Transcription">Кн҃зю ⷤ҇ ⷷандрѣю хотѧщю кн҃жити на роⷭ  ⷪвьскᲂую землю. и нача бесѣдовати ѡ иконахъ. повѣдаша ем икон. вышѣгорода въ женьскоⷨ манастыри. пртⷭ҇ыꙗ влчⷣ҇ица нашеа бц҃а. ꙗко .г҃. жⷣы стпила с мѣста.</lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription">станъ члв҃чь а҆ ноги коровїи.</lem>
-						<rdg wit="#Translation">to partake of a hecatomb of bulls and rams.</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription">рекше баснѧ женоу во оухѣ носилъ.</lem>
-						<rdg wit="#Translation">He sat there enjoying himself at the feast. The others by now</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
-				<l n="6">
-					<app></lem>
-						<rdg wit="#Translation">The others by now were together in the halls of Olympian Zeus.</rdg>
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="7">
@@ -123,14 +129,20 @@
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription">ѡ҆н же ре всего є҆сть лоучши своѧ волѧ. </lem>
-						<rdg wit="#Translation">for in his heart he recalled noble Aegisthus,</rdg>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
 						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">whom far-famed Orestes Agamemnonides had slain.</rdg>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 			</lg>

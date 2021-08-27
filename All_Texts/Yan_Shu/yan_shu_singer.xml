@@ -1,0 +1,212 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Willows by the Mountain Pavilion”&#8212;"To a singer"</title>
+				<author>Yan Shu 晏殊</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 135.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Nina Du</name>
+					<name>Manya Bansal</name>
+					<name>Danny Smith</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+
+				<p>The subtitle of this ci suggests that it is supposed to be a gift for a particular singer, yet it also serves as a general depiction of a courtesan’s life during the Song Dynasty. One thing to be noted is the distinction between courtesans and singers. These two professions are often hard to discern in Song Dynasty ci. Even though they have similar names in Chinese, 妓 (ji) for courtesans and 歌姬 (ge ji) for singers, and their place of work is often similar, the singers’ work did not involve prostitution.</p>
+
+				<p>The two stanzas of this song are an example of antithesis. The first stanza is about how successful the singer was when she was younger, when she competed with the other “blossoms and willows” (i.e., courtesans) for men’s attention, and the second is about her troublesome and lonely life now that she is older and considered less desirable. This piece uses the example of one singer’s unfortunate fate to reflect on the lives of thousands of other singers: they were loved by affluent society when they were young, and cast aside when they were no longer valuable. At the same time, the song may have a secondary meaning as a reflection upon the poet’s own misfortune of not achieving the rank he wanted at the imperial court.</p>
+
+				<p>The ci genre of Chinese poetry first emerged in the Sui dynasty (581-619), was further developed in the Tang dynasty (618-907) and matured in the Northern Song dynasty (960-1127). Ci is usually translated into English as "song lyrics". This is because ci were composed by poets to fit pre-existing tunes. The number of lines, the line lengths, and the tonal and rhythmic patterns of ci vary with the tunes, which number in the hundreds. One common occasion for composing ci would be a banquet: song lyrics would be scribbled down by guests and then sung by musical performers as entertainment. Other occasions for composing and enjoying ci would be more casual: the poet might sing the lyrics to himself at home or while travelling (many ci poets were civil servants of the Imperial Court and often had to travel great distances to carry out their work). Sometimes the lyrics would be sung by ordinary people in the same way as folk songs. This oral and musical quality sets it apart from other genres of poetry in China during the same period, which were largely written texts with more elevated objectives. There are two main types of ci: wǎnyuē (婉约, "graceful") and háofàng (豪放, "bold"). The wǎnyuē subgenre primarily focuses on emotion and many of its lyrics are about courtship and love, while the háofàng subgenre often deals with themes that were considered more profound by contemporary audiences, such as ageing and mortality, or the rewards and disappointments of public service.</p>
+
+				<p>Yan Shu, a powerful statesman in the early Northern Song court, had a long and successful career both as an official and as a poet. Among his many literary achievements (which include poetry, song lyrics and prose) his ci compositions are best known. His lyrics are elegant in their choice of words, controlled in the emotions they express, and not as playful as the ci of other well-known poets. They often capture feelings of solitude and sorrow, creating a melancholic mood, but the poet is rarely explicit about what triggers the worry or sadness.</p>
+
+				<p>Chang, Kang-i Sun. The Evolution of Tz’u Poetry: from Late Tang to Northern Sung. Princeton UP, 1980.
+
+				A standard survey of the early history of Chinese song lyrics (romanized as both ci and tz’u).</p>
+
+				<p>Egan, Ronald. “The Song Lyric.” The Cambridge History of Chinese Literature, vol. 1, edited by Stephen Owen, Cambridge UP, 2010, pp. 434-452.
+
+				An overview of the genre.</p> 
+
+				<p>Owen, Stephen. Just a Song: Chinese Lyrics from the Eleventh and Early Twelfth Centuries. Asia Center, Harvard UP, 2019.
+
+				A recent new history of the genre.</p>
+
+				<p>Tang, Guizhang 唐圭璋, editor. Quan Song Ci 全宋詞. Zhonghua shu ju, 1965. 5 vols.
+
+				A comprehensive edition of ci from the Song dynasty and the source text for the ci  in this collection (introductions and annotations are in Chinese).</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p></p>
+				<listWit>
+					<witness xml:id="Transcription">贈歌者</witness>
+					<witness xml:id="Translation">To the tune “Willows by the Mountain Pavilion”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Willows by the Mountain Pavilion”&#8212;"To a Singer" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">贈歌者</lem>
+						<rdg wit="#Translation">To a singer</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">家住西秦。</lem>
+						<rdg wit="#Translation">My family lived in the west of Qin,
+
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">賭博藝隨身。</lem>
+						<rdg wit="#Translation">I lived by my skills and talent in dancing and song;</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">花柳上、鬥尖新。</lem>
+						<rdg wit="#Translation">among all the blossoms and willows,
+							<note type="critical" anchored="true">
+									<p>“Blossoms and willows” is a euphemism for sexual relationships between men and women.</p>
+								</note> I vied to stand out.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">偶學念奴聲調，</lem>
+						<rdg wit="#Translation">Occasionally I imitated the tunes of Niannu,
+							<note type="critical" anchored="true">
+									<p>Niannu is the name of a famous courtesan in the Tang dynasty, who was known for her excellence in singing.</p>
+								</note>
+							</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">有時高遏行雲。</lem>
+						<rdg wit="#Translation">my voice could halt floating clouds in their path.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">蜀錦纏頭無數，</lem>
+						<rdg wit="#Translation">I have countless Shu brocades and silks,
+							<note type="critical" anchored="true">
+									<p>Brocades produced in the Shu area (in present Sichuan) were exquisite and expensive. They were given to singers and dancers as rewards. Although singers and dancers did wrap Shu brocades around their heads as a form of ornament, here the persona says this to indicate her success as a singer.</p>
+								</note>
+							</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">不負辛勤。</lem>
+						<rdg wit="#Translation">my efforts were well-rewarded.</rdg>
+					</app>
+				</l>
+			</lg>
+
+			<lg n="2" type="stanza">
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">數年來往咸京道，</lem>
+						<rdg wit="#Translation">For years now I have traveled between Xianyang and the capital.
+							<note type="critical" anchored="true">
+									<p>The singers usually travel a lot from work place to work place to accommodate the needs of officials.</p>
+								</note>
+							</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">殘杯冷炙謾消魂。</lem>
+						<rdg wit="#Translation">Leftover wine and cold food consume my spirit.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">衷腸事、託何人。</lem>
+						<rdg wit="#Translation">To whom can I confide the things deep in my heart?</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">若有知音見採，</lem>
+						<rdg wit="#Translation">If a patron who appreciated me would choose me,</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">不辭遍唱陽春。</lem>
+						<rdg wit="#Translation">I would willingly sing every one of the finest songs.</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">一曲當筵落淚，</lem>
+						<rdg wit="#Translation">Now, a single song at the banquet and my tears start to fall.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">重掩羅巾。</lem>
+						<rdg wit="#Translation">Once again, I hide my face with the silk kerchief.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

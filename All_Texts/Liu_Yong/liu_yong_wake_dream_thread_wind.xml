@@ -1,0 +1,275 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Waves Scour the Sand”&#8212;"I wake from a dream"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 26.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Qian Jia</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Nina Du</name>
+					<name>Runqi Zhang</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Manya Bansal</name>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 26.</p>
+				<listWit>
+					<witness xml:id="Transcription">浪淘沙</witness>
+					<witness xml:id="Translation">To the tune “Waves Scour the Sand”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+			<projectDesc>
+            	<p>To the tune “Waves Scour the Sand”&#8212;"I wake up from a dream" is part of <hi rend="italic">The Global Medieval Sourcebook</hi>, a digital compendium of medieval texts in their original languages and in English translation. This larger project comprises computer-readable transcriptions and/or editions of texts dating from the ninth to the sixteenth century, and originating in Europe, North Africa, the Middle East, and Asia; accompanied by new English translations; high-resolution digital images of manuscript/early print sources, where available; an apparatus that includes critical introductions, textual notes and annotations; and a flexible user interface with which to navigate these materials.</p>
+         	</projectDesc>
+			<editorialDecl>
+        		<interpretation>
+        			<p>Texts are translated into modern English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Creative translation choices are marked and discussed in the critical notes.</p>
+        			<punctuation marks="all">Punctuation follows the edition.</punctuation>
+
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">浪淘沙</lem>
+						<rdg wit="#Translation">To the tune “Waves Scour the Sand”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">夢覺、</lem>
+						<rdg wit="#Translation">I wake from a dream,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">透窗風一線，</lem>
+						<rdg wit="#Translation">a thread of wind pierces the window.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">寒燈吹息。 </lem>
+						<rdg wit="#Translation">I blow out the cold lamp.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">那堪酒醒，</lem>
+						<rdg wit="#Translation">How can I bear to be sober?</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">又聞空階，夜雨頻滴。</lem>
+						<rdg wit="#Translation">Listening to the night rain dripping on the empty steps,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">嗟因循、</lem>
+						<rdg wit="#Translation">sighing that my listlessness</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">久作天涯客。</lem>
+						<rdg wit="#Translation">slowly makes me a wanderer at the end of the world.</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">負佳人、</lem>
+						<rdg wit="#Translation">I have let the beautiful girl down&#8212;</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">幾許盟言，</lem>
+						<rdg wit="#Translation">so many promises.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">便忍把、</lem>
+						<rdg wit="#Translation">How could I have turned</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">從前歡會，</lem>
+						<rdg wit="#Translation">the happy times of the past</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">陡頓翻成憂戚。</lem>
+						<rdg wit="#Translation">So suddenly into worry and regret?</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="2">
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">愁極。</lem>
+						<rdg wit="#Translation">In the gravest sorrow,</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">再三追思， </lem>
+						<rdg wit="#Translation">I recall again and again,</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">洞房深處，</lem>
+						<rdg wit="#Translation">deep in the chamber,</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">幾度飲散歌闌，</lem>
+						<rdg wit="#Translation">How many times drinks were finished and songs ended.</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">香暖鴛鴦被，</lem>
+						<rdg wit="#Translation">The sweet, warm, mandarin duck quilt<note type= "critical" anchored="true"><p>In traditional Chinese culture, mandarin ducks are believed to be monogamous, unlike other species of ducks. Hence they are regarded as a symbol of conjugal affection and fidelity and frequently featured in Chinese art. Quilts with patterns of mandarin ducks are often used in the bedrooms of lovers or married couples.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">豈暫時疏散，</lem>
+						<rdg wit="#Translation">Who could have known even a temporary separation</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">費伊心力。</lem>
+						<rdg wit="#Translation">would cost her heart’s strength?</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">殢雲尤雨，</lem>
+						<rdg wit="#Translation">Cozying up to each other in cloud-and-rain<note type= "critical" anchored="true"><p>“Cloud and rain” alludes to the <hi rend="italic">Song of Gao Tang</hi> (<hi rend="italic">高唐赋</hi>), a work by Song Yu 宋玉, who lived during the Warring States period (453–221 BCE). The <hi rend="italic">Song of Gao Tang</hi> narrates a brief love affair between the Huai King of Chu 楚怀王 and a mountain fairy which takes place in the king’s dream; in this dream, the mountain fairy describes her residence after their lovemaking as “made from the cloud in the morning, but comprised of rain in the evening”. The imagery of cloud and rain is often used as a euphemism for sexual intercourse in Chinese poetry.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">有萬般千種，</lem>
+						<rdg wit="#Translation">there were a thousand kinds</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">相憐相惜。</lem>
+						<rdg wit="#Translation">of love and tenderness.</rdg>
+					</app>
+				</l>
+			</lg>
+			<lg n="3">
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">恰到如今，</lem>
+						<rdg wit="#Translation">Yet now</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">天長漏永，</lem>
+						<rdg wit="#Translation">the days are long and the night is dark.</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">無端自家疏隔。</lem>
+						<rdg wit="#Translation">For no reason, I am separated from my own lover.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">知何時、</lem>
+						<rdg wit="#Translation">Who knows when</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">卻擁秦雲態，</lem>
+						<rdg wit="#Translation">I can embrace the Qin cloud once more<note type= "critical" anchored="true"><p>“Cloud” refers to sex (see previous note), and “Qin cloud” doubly so because “Qin building” is a name for a brothel. According to legend, the original Qin building was built by the Qinmu King as a palace for his daughter and son-in-law. They were both so good at playing the vertical bamboo flute that their music attracted phoenixes, and the building where they played became famous. The meaning of the Qin building changed over time, and was later used to refer to brothels.</p></note>?</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">願低幃昵枕，</lem>
+						<rdg wit="#Translation">I wish to lower the curtains and sink to the pillows,</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">輕輕細說與，</lem>
+						<rdg wit="#Translation">whisper to her softly and slowly</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">江鄉夜夜，</lem>
+						<rdg wit="#Translation">about the nights in this river town:</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">數寒更思憶。  </lem>
+						<rdg wit="#Translation">as I counted the coldness<note type= "critical" anchored="true"><p>In Chinese culture, winter is divided up into nine periods. These periods are called “nine”, and the winter starts from “the first nine”, and ends at “the ninth nine”. There is a tradition for one to count the nines during winter to keep track of how many days have passed since the beginning of winter. Here, “count the coldness” refers to this tradition, implying that the days are becoming colder and colder.</p></note>, I yearned for her more and more.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
