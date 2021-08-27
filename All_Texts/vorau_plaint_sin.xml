@@ -1,0 +1,5188 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vorau Plaint of Sin</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Sarah Bowden</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Sarah Bowden</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Sarah Bowden</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Salma Kamni</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<p>The Vorau Plaint of Sin, written in the second half of the twelfth century in the south-eastern German lands, is a substantial poem addressed to God in the voice of a sinner. The poem is conventionally counted as part of a small sub-genre of Early Middle High German religious poetry known as the ‘Sündenklage’, or ‘plaint of sin’. These poems – there is also the Millstatt Plaint of Sin, the closely related Rheinau Paul and the more simplistic Uppsala Plaint of Sin – all have at their heart a confession of sinfulness and a prayer to God for mercy, and are thought to have taken their inspiration from the more practical text-type of the German confession (‘Beichte’). These confessions, generalized first-person confessions in prose, are transmitted widely from the ninth century and had a variety of liturgical and devotional functions. 
+				Yet the Vorau Plaint of Sin is not simply a confession of sin, but rather a relatively complex meditation on human sinfulness and atonement more broadly. At its heart is an attempt to make sense of sin through an emphasis on its integral role in the dynamic system of redemption and salvation. The poem stresses the unavoidability of the fact of sin: the sins of man are a necessary prerequisite for the redemptive role of Christ. Yet this does not mean that the sinner should not feel contrition for what he has done, and the poem is rich with tension between an insistence on the contrition and weakness of the self on the one hand and his metaphysical self-confidence and self-awareness on the other. The result is a poem that will be rewarding to readers interested in attitudes towards sinfulness, and how sinfulness intersects with humanity, metaphysics and devotion.
+				The Vorau Plaint of Sin is found in two manuscripts. It is transmitted in complete form in a substantial, multi-text codex (Vorau, Stiftsbibliothek Cod. 276 (see below)) and in partial form in Zwettl, Stiftsbibliothek Cod. 73, a twelfth-century Hrabanus Maurus manuscript.</p>
+				<p>Vorau, Stiftsbibliothek Cod. 276 is a major anthology of ‘Early Middle High German’ verse texts. The Vorau manuscript was made in the last quarter of the twelfth century in the southern German lands, probably in Vorau itself: an abbey of Augustinian canons in the Steiermark, in the far east of what is now Austria. It has been suggested that the manuscript was made in the monastic-aristocratic nexus formed by the monastery and the family of its founder, Margrave Ottakar III, and although there is no concrete evidence for this thesis it seems plausible. Measuring 450 x 325cm, the Vorau manuscript is a substantial, high-quality object consisting of two fascicles (or independent ‘booklets’), one German and one Latin. The German fascicle begins with the earliest extant witness of the Kaiserchronik (Chronicle of Emperors), followed by the Vorau Books of Moses and twelve shorter German verse works on primarily biblical and religious themes. Setting aside the Kaiserchronik, the manuscript is constructed along a loosely chronological path from the creation of the world to the Last Judgement, with the texts following a path from the Old Testament to Alexander the Great, finishing with the New Testament and the end of the world. The Vorau Plaint of Sin is positioned between the works of Frau Ava and the Song of Ezzo, which also deal with the life of Christ and the fate of mankind. It is unclear when the German fascicle was first bound together with the Latin fascicle, which contains Otto of Freising’s chronicle of the house of Hohenstaufen, the Gesta Friderici imperatoris.</p>
+				<p>Bowden, Sarah, ‘Vorauer Sammlung und Zwettler Federproben: Die Vorauer Sündenklage in der literarischen Sammelpraxis des 12. Jahrhunderts’, in Sammeln als literarische Praxis im Mittelalter und in der frühen Neuzeit, ed. by Mark Chinca, Manfred Eikelmann, Michael Stolz and Christopher Young (Tübingen: Narr, forthcoming 2021).
+				On the transmission of the Vorau Plaint of Sin.</p>
+				<p>Haug, Walter, ‘Literature, allegory and salvation: theoretical positions in Early Middle High German’, in Haug, Vernacular Literary Theory in the Middle Ages, trans. by Joanna M. Catling, Cambridge Studies in Medieval Literature, 29 (Cambridge: CUP, 1997), pp. 46–74.
+				A introduction to the content and style of German religious poetry of the twelfth century, focusing on salvation and praise. </p>
+				<p>Schafferhoher, Gernot, and Martin Schubert, ‘Vorau’, in Schreiborte des deutschen Mittelalters. Skriptorien – Werke – Mäzene, ed. by Martin Schubert (Berlin/Boston: de Gruyter, 2013), pp. 513–35.
+				A comprehensive introduction to the Vorau codex, with references to the extensive scholarship on this manuscript.</p>
+				<p>Kaiserchronik digital, Elektronische Ausgabe, ed. by Mark Chinca, Helen Hunter, Jürgen Wolf, Christopher Young (Heidelberg: Universitätsbibliothek, 2018), (https://doi.org/10.11588/edition.kcd)
+				Online edition of all redactions of the Kaiserchronik, including a full digitization of the Vorau codex.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Vorau, Stiftsbibl., Cod. 276</p>
+				<listWit>
+					<witness xml:id="Transcription">Vorauer Sündenklage</witness>
+					<witness xml:id="Translation">Vorau Plaint of Sin</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Vorau Plaint of Sin" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>This edition is a transcription of the text as presented in Vorau 276. I have followed the punctuation in the manuscript to divide the text into lines and have also reproduced any mid-line punctus. On occasion I have included a line break where punctus is missing to preserve the rhyme scheme. Initials have been reproduced as capitals in bold. I have made no further emendations to the text of the manuscript and have reproduced all scribal errors. These are mostly very small, but towards the end of the poem they increase and there appear to be some lines or words missing (purely for reasons of sense; there is no empty space left by the scribe). This may indicate some problems with the source from which the scribe was copying or a simple loss of concentration. I have marked the end of folios with |.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Domine labia mea aperies</lem>
+						<rdg wit="#Translation"><i>Domine, labia mea aperies!</i>
+							<note anchored="true" type="critical"><p>'Lord, open my lips!’ This opening line, in Latin, is a quotation from Psalm 50:17.</p></note> 
+						</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">nu gestade herre mir des</lem>
+						<rdg wit="#Translation">O Lord, grant me this,</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">daz ich din lop gesprechen mege</lem>
+						<rdg wit="#Translation">that I may speak your praise.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">minen munt insliuz unde phlege</lem>
+						<rdg wit="#Translation">Open my mouth and guide</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">der werche miner zunge</lem>
+						<rdg wit="#Translation">the works of my tongue,</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">daz ich dich bitten kunne</lem>
+						<rdg wit="#Translation">so that I may pray to you.</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">daz gib du mir heiliger crist</lem>
+						<rdg wit="#Translation">Grant this to me, holy Christ!</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">Sancte Maria du da bist</lem>
+						<rdg wit="#Translation">Holy Mary, you who are</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">wareu muoter, reiniu maget</lem>
+						<rdg wit="#Translation">the true mother, the pure maiden,</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">zu miner helue wis geladet</lem>
+						<rdg wit="#Translation">be invited to my aid!</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Ich han uon minen sulden</lem>
+						<rdg wit="#Translation">Because of my sins</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">des oberisten hulde</lem>
+						<rdg wit="#Translation">I have lost, so gravely,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">uerlorn also harte</lem>
+						<rdg wit="#Translation">the love of the highest.</rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">durch willen der worte</lem>
+						<rdg wit="#Translation">In the name of the words</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">der dir der engel zu sprach</lem>
+						<rdg wit="#Translation">that the angel spoke to you</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">do er dir die heren botscaft</lem>
+						<rdg wit="#Translation">when he first delivered to you</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">aller erist kundet uon gote</lem>
+						<rdg wit="#Translation">the most glorious message from God,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">nu wis huote ein bote</lem>
+						<rdg wit="#Translation">you should today be a messenger</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">an dinen ein bron sun</lem>
+						<rdg wit="#Translation">to your only son,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">an unseren herren</lem>
+						<rdg wit="#Translation">to our Lord,</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">an der waren heilant</lem>
+						<rdg wit="#Translation">to the true saviour,</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">der allez manchunne enbant</lem>
+						<rdg wit="#Translation">who freed all mankind,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">drut frouwe mit dire</lem>
+						<rdg wit="#Translation">dear Lady, with you!</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">zu sinen hulden hilf du mir</lem>
+						<rdg wit="#Translation">Help me gain his love</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">durch willen der geburde</lem>
+						<rdg wit="#Translation">in the name of his birth –</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">her in diser werlt geborn</lem>
+						<rdg wit="#Translation">born here in this world.</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">harte uorhte ich sinen zorn</lem>
+						<rdg wit="#Translation">I fear his anger greatly,</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">wande ich mih sculdigen weiz</lem>
+						<rdg wit="#Translation">for I know that I am guilty.</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">nu biuilhe ich fruowe minen geist</lem>
+						<rdg wit="#Translation">Now, Lady, I give my spirit to you</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">zu helue wariu maget</lem>
+						<rdg wit="#Translation">for help, O true maiden.</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">allez daz si dir gechlaget</lem>
+						<rdg wit="#Translation">Everything shall be bewailed to you</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">daz mir iemer gewerre</lem>
+						<rdg wit="#Translation">that has ever happened to me.</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">ia gedrwe ich dir uerre</lem>
+						<rdg wit="#Translation">Yes, I trust you completely. </rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription"><b>H</b>imelisgiu chuniginne</lem>
+						<rdg wit="#Translation">Queen of heaven,</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">wie uerre ich andich dinge</lem>
+						<rdg wit="#Translation">what great hope I have in you</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">daz heil miner sele</lem>
+						<rdg wit="#Translation">for the salvation of my soul,</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">durch willen der eren</lem>
+						<rdg wit="#Translation">in the name of the honour</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">der dir got des tages irbot</lem>
+						<rdg wit="#Translation">that God accorded to you on that day</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">do er durch aller suntære not</lem>
+						<rdg wit="#Translation">when he, for the sake of the suffering of all sinners,</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">in dinen reine buch cham</lem>
+						<rdg wit="#Translation">entered your pure womb.</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">zeiner muoter er dich nam</lem>
+						<rdg wit="#Translation">He chose you as a mother</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">uzzer allen wiben</lem>
+						<rdg wit="#Translation">over all other women.</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">ze sele unde ze libe</lem>
+						<rdg wit="#Translation">I place both soul and body</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">getriwe ich uil wol dir</lem>
+						<rdg wit="#Translation">in your hands in great trust.</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">ein bote wis hiude mir</lem>
+						<rdg wit="#Translation">Be a messenger today for me</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">an den hiligen crist</lem>
+						<rdg wit="#Translation">to the Holy Christ!</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">ein teil du mirs sculdig bist</lem>
+						<rdg wit="#Translation">You are partly responsible </rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">daz du mir heluest umbe got</lem>
+						<rdg wit="#Translation">for helping me reach God, </rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">wande du den ewigen lop</lem>
+						<rdg wit="#Translation">because you have received eternal praise </rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">durch die sundere inphienge</lem>
+						<rdg wit="#Translation">due to sinners.</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">unde newere nie nieman</lem>
+						<rdg wit="#Translation">For if no-one had ever </rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">mit sunden beuangen</lem>
+						<rdg wit="#Translation">been caught by sin</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">so wær iz unergagen</lem>
+						<rdg wit="#Translation">then that which God has done </rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">daz got mit dir getan hat</lem>
+						<rdg wit="#Translation">with you would not have happened.</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">nu suche ich armer dinen rat</lem>
+						<rdg wit="#Translation">Now I, poor man, seek your guidance,</rdg>
+					</app>
+				</l>
+				<l n="56">
+					<app>
+						<lem wit="#Transcription">diner helue ist mir not</lem>
+						<rdg wit="#Translation">I need your help.</rdg>
+					</app>
+				</l>
+				<l n="57">
+					<app>
+						<lem wit="#Transcription">durch den heiligen tot</lem>
+						<rdg wit="#Translation">In the name of the sacred death</rdg>
+					</app>
+				</l>
+				<l n="58">
+					<app>
+						<lem wit="#Transcription">den der ware gotesun</lem>
+						<rdg wit="#Translation">that the true son of God</rdg>
+					</app>
+				</l>
+				<l n="59">
+					<app>
+						<lem wit="#Transcription">an deme heren cruce nam</lem>
+						<rdg wit="#Translation">took on the glorious cross</rdg>
+					</app>
+				</l>
+				<l n="60">
+					<app>
+						<lem wit="#Transcription">durch allez daz manneschunne</lem>
+						<rdg wit="#Translation">for all of mankind,</rdg>
+					</app>
+				</l>
+				<l n="61">
+					<app>
+						<lem wit="#Transcription">nu uertilige mine sunde</lem>
+						<rdg wit="#Translation">cleanse me of my sins</rdg>
+					</app>
+				</l>
+				<l n="62">
+					<app>
+						<lem wit="#Transcription">unde heile miner sele</lem>
+						<rdg wit="#Translation">and heal my soul!</rdg>
+					</app>
+				</l>
+				<l n="63">
+					<app>
+						<lem wit="#Transcription">die hulde mines herren</lem>
+						<rdg wit="#Translation">Help me regain</rdg>
+					</app>
+				</l>
+				<l n="64">
+					<app>
+						<lem wit="#Transcription">di hilf du mir gewinnen</lem>
+						<rdg wit="#Translation">the love of my Lord –</rdg>
+					</app>
+				</l>
+				<l n="65">
+					<app>
+						<lem wit="#Transcription">duo gotes gebererinne</lem>
+						<rdg wit="#Translation">you, who bore God,</rdg>
+					</app>
+				</l>
+				<l n="66">
+					<app>
+						<lem wit="#Transcription">nune la mih under wegen niht</lem>
+						<rdg wit="#Translation">do not let me go under!</rdg>
+					</app>
+				</l>
+				<l n="67">
+					<app>
+						<lem wit="#Transcription">uon dir daz ewige liht</lem>
+						<rdg wit="#Translation">It is thanks to you that eternal light</rdg>
+					</app>
+				</l>
+				<l n="68">
+					<app>
+						<lem wit="#Transcription">uber alle dise werlt ir scin</lem>
+						<rdg wit="#Translation">shines out over all the world!</rdg>
+					</app>
+				</l>
+				<l n="69">
+					<app>
+						<lem wit="#Transcription">nu hilf mir sundere heim</lem>
+						<rdg wit="#Translation">So help me, a sinner, come home</rdg>
+					</app>
+				</l>
+				<l n="70">
+					<app>
+						<lem wit="#Transcription">uz diseme wurmgarten</lem>
+						<rdg wit="#Translation">from this garden of snakes</rdg>
+					</app>
+				</l>
+				<l n="71">
+					<app>
+						<lem wit="#Transcription">da wir ingeworfen wurden</lem>
+						<rdg wit="#Translation">that we were thrown into</rdg>
+					</app>
+				</l>
+				<l n="72">
+					<app>
+						<lem wit="#Transcription">durh adames missetat</lem>
+						<rdg wit="#Translation">because of Adam’s crime:<note anchored="true" type="critical"><p>i.e. eating the forbidden apple.</p></note></rdg>
+					</app>
+				</l>
+				<l n="73">
+					<app>
+						<lem wit="#Transcription">der allez manne chunne hat</lem>
+						<rdg wit="#Translation">he, who upon mankind</rdg>
+					</app>
+				</l>
+				<l n="74">
+					<app>
+						<lem wit="#Transcription">ir woruen michel arbeit</lem>
+						<rdg wit="#Translation">has brought great suffering</rdg>
+					</app>
+				</l>
+				<l n="75">
+					<app>
+						<lem wit="#Transcription">mit siner chelgitechheit</lem>
+						<rdg wit="#Translation">through his greed.</rdg>
+					</app>
+				</l>
+				<l n="76">
+					<app>
+						<lem wit="#Transcription"><b>N</b>uo hore du urouwe minen ruof</lem>
+						<rdg wit="#Translation">Lady, hear my call!</rdg>
+					</app>
+				</l>
+				<l n="77">
+					<app>
+						<lem wit="#Transcription">dich da got zuo diu gescuof</lem>
+						<rdg wit="#Translation">For God created you for this purpose</rdg>
+					</app>
+				</l>
+				<l n="78">
+					<app>
+						<lem wit="#Transcription">e ich ie wurde</lem>
+						<rdg wit="#Translation">– long before I was born –</rdg>
+					</app>
+				</l>
+				<l n="79">
+					<app>
+						<lem wit="#Transcription">daz du die burde</lem>
+						<rdg wit="#Translation">that you might bear the burden </rdg>
+					</app>
+				</l>
+				<l n="80">
+					<app>
+						<lem wit="#Transcription">di er uof sich nam</lem>
+						<rdg wit="#Translation">with him</rdg>
+					</app>
+				</l>
+				<l n="81">
+					<app>
+						<lem wit="#Transcription">do ir in dise werlt cham</lem>
+						<rdg wit="#Translation">that he took upon himself</rdg>
+					</app>
+				</l>
+				<l n="82">
+					<app>
+						<lem wit="#Transcription">mit samt ime huobest</lem>
+						<rdg wit="#Translation">when he came into this world.</rdg>
+					</app>
+				</l>
+				<l n="83">
+					<app>
+						<lem wit="#Transcription">in dinen buche duo intruogest</lem>
+						<rdg wit="#Translation">You carried him in your womb,</rdg>
+					</app>
+				</l>
+				<l n="84">
+					<app>
+						<lem wit="#Transcription">maget wesende, du in geberest</lem>
+						<rdg wit="#Translation">you bore him, still a maiden,</rdg>
+					</app>
+				</l>
+				<l n="85">
+					<app>
+						<lem wit="#Transcription">sin chint amme du werest</lem>
+						<rdg wit="#Translation">you were his wet nurse,</rdg>
+					</app>
+				</l>
+				<l n="86">
+					<app>
+						<lem wit="#Transcription">zu dem uronen sale, du in brehdest</lem>
+						<rdg wit="#Translation">you brought him to the temple,</rdg>
+					</app>
+				</l>
+				<l n="87">
+					<app>
+						<lem wit="#Transcription">windelline du ime gedahtest</lem>
+						<rdg wit="#Translation">you wrapped him in swaddling clothes.</rdg>
+					</app>
+				</l>
+				<l n="88">
+					<app>
+						<lem wit="#Transcription">do du in inphienge</lem>
+						<rdg wit="#Translation">When you received him,</rdg>
+					</app>
+				</l>
+				<l n="89">
+					<app>
+						<lem wit="#Transcription">muterlichen du in begienge</lem>
+						<rdg wit="#Translation">you met him in a motherly way,</rdg>
+					</app>
+				</l>
+				<l n="90">
+					<app>
+						<lem wit="#Transcription">an dinen brusten du in zuoge</lem>
+						<rdg wit="#Translation">you took him to your breast,</rdg>
+					</app>
+				</l>
+				<l n="91">
+					<app>
+						<lem wit="#Transcription">in egyptum duo mit im fluohe</lem>
+						<rdg wit="#Translation">you fled with him into Egypt.</rdg>
+					</app>
+				</l>
+				<l n="92">
+					<app>
+						<lem wit="#Transcription">do du diu werch mit im worhtest</lem>
+						<rdg wit="#Translation">When you undertook these acts with him,</rdg>
+					</app>
+				</l>
+				<l n="93">
+					<app>
+						<lem wit="#Transcription">mit im worhtest</lem>
+						<rdg wit="#Translation">[undertook with him]</rdg>
+					</app>
+				</l>
+				<l n="94">
+					<app>
+						<lem wit="#Transcription">wie harte du sin do uorhtest</lem>
+						<rdg wit="#Translation">how frightened you were for him!</rdg>
+					</app>
+				</l>
+				<l n="95">
+					<app>
+						<lem wit="#Transcription">gedruobet du an im diche wurde</lem>
+						<rdg wit="#Translation">You were often very worried about him,</rdg>
+					</app>
+				</l>
+				<l n="96">
+					<app>
+						<lem wit="#Transcription">do hulue du im die burde</lem>
+						<rdg wit="#Translation">when you helped him</rdg>
+					</app>
+				</l>
+				<l n="97">
+					<app>
+						<lem wit="#Transcription">wol tragen mit uollen</lem>
+						<rdg wit="#Translation">carry his burden well and gladly,</rdg>
+					</app>
+				</l>
+				<l n="98">
+					<app>
+						<lem wit="#Transcription">maget umbe wollen</lem>
+						<rdg wit="#Translation">O immaculate maiden.</rdg>
+					</app>
+				</l>
+				<l n="99">
+					<app>
+						<lem wit="#Transcription"><b>U</b>il harte truoge du die burde</lem>
+						<rdg wit="#Translation">You bore a heavy burden,</rdg>
+					</app>
+				</l>
+				<l n="100">
+					<app>
+						<lem wit="#Transcription">do du daz din chint</lem>
+						<rdg wit="#Translation">when you saw your child</rdg>
+					</app>
+				</l>
+				<l n="101">
+					<app>
+						<lem wit="#Transcription">an dem uronen cruce sahe hangen</lem>
+						<rdg wit="#Translation">hanging on the blessed cross.</rdg>
+					</app>
+				</l>
+				<l n="102">
+					<app>
+						<lem wit="#Transcription">do weiz dir irgangen</lem>
+						<rdg wit="#Translation">What happened to you then</rdg>
+					</app>
+				</l>
+				<l n="103">
+					<app>
+						<lem wit="#Transcription">also der wissage sprach</lem>
+						<rdg wit="#Translation">was as the prophet spoke,</rdg>
+					</app>
+				</l>
+				<l n="104">
+					<app>
+						<lem wit="#Transcription">do er uil uerre hiebeuor sach</lem>
+						<rdg wit="#Translation">when, long before, he foresaw</rdg>
+					</app>
+				</l>
+				<l n="105">
+					<app>
+						<lem wit="#Transcription">den dinen michelen lop</lem>
+						<rdg wit="#Translation">the great praise you would have</rdg>
+					</app>
+				</l>
+				<l n="106">
+					<app>
+						<lem wit="#Transcription">unde al daz | der ware got</lem>
+						<rdg wit="#Translation">and all those things that the true God</rdg>
+					</app>
+				</l>
+				<l n="107">
+					<app>
+						<lem wit="#Transcription">mit dir tuon wolde</lem>
+						<rdg wit="#Translation">would do with you.</rdg>
+					</app>
+				</l>
+				<l n="108">
+					<app>
+						<lem wit="#Transcription">er sprach daz ein sterne solde</lem>
+						<rdg wit="#Translation">He said that a star</rdg>
+					</app>
+				</l>
+				<l n="109">
+					<app>
+						<lem wit="#Transcription">uon dem herren iacobe chome</lem>
+						<rdg wit="#Translation">would come from the blessed Jacob</rdg>
+					</app>
+				</l>
+				<l n="110">
+					<app>
+						<lem wit="#Transcription">da uone wurdest duo urouwe uernomen</lem>
+						<rdg wit="#Translation">– this meant you, Lady –</rdg>
+					</app>
+				</l>
+				<l n="111">
+					<app>
+						<lem wit="#Transcription">dennen wurde ein chint geborn</lem>
+						<rdg wit="#Translation">from which a child would be born</rdg>
+					</app>
+				</l>
+				<l n="112">
+					<app>
+						<lem wit="#Transcription">des ser solde durch uaren</lem>
+						<rdg wit="#Translation">which would pierce</rdg>
+					</app>
+				</l>
+				<l n="113">
+					<app>
+						<lem wit="#Transcription">maget dine sele</lem>
+						<rdg wit="#Translation">your soul, maiden.</rdg>
+					</app>
+				</l>
+				<l n="114">
+					<app>
+						<lem wit="#Transcription">iz solde wesen herre</lem>
+						<rdg wit="#Translation">It would become Lord</rdg>
+					</app>
+				</l>
+				<l n="115">
+					<app>
+						<lem wit="#Transcription">uber elliu diu riche</lem>
+						<rdg wit="#Translation">over all kingdoms.</rdg>
+					</app>
+				</l>
+				<l n="116">
+					<app>
+						<lem wit="#Transcription">er sah iz wærlichen</lem>
+						<rdg wit="#Translation">He saw it truly:</rdg>
+					</app>
+				</l>
+				<l n="117">
+					<app>
+						<lem wit="#Transcription">do daz also ir gie</lem>
+						<rdg wit="#Translation">when it happened to you thus,</rdg>
+					</app>
+				</l>
+				<l n="118">
+					<app>
+						<lem wit="#Transcription">daz man dinen sun hie</lem>
+						<rdg wit="#Translation">that he was called your son,</rdg>
+					</app>
+				</l>
+				<l n="119">
+					<app>
+						<lem wit="#Transcription">do ware mit sere</lem>
+						<rdg wit="#Translation">then, with pain</rdg>
+					</app>
+				</l>
+				<l n="120">
+					<app>
+						<lem wit="#Transcription">din heiligiu sele</lem>
+						<rdg wit="#Translation">your holy soul</rdg>
+					</app>
+				</l>
+				<l n="121">
+					<app>
+						<lem wit="#Transcription">uil harte beuangen</lem>
+						<rdg wit="#Translation">was gripped most terribly.</rdg>
+					</app>
+				</l>
+				<l n="122">
+					<app>
+						<lem wit="#Transcription">er mahtich uon dannen</lem>
+						<rdg wit="#Translation">From this he was well able</rdg>
+					</app>
+				</l>
+				<l n="123">
+					<app>
+						<lem wit="#Transcription">zuo deme sternen wole zelen</lem>
+						<rdg wit="#Translation">to count you among the stars,</rdg>
+					</app>
+				</l>
+				<l n="124">
+					<app>
+						<lem wit="#Transcription">wande dich got selbe zu dem liehte wolde erwelen</lem>
+						<rdg wit="#Translation">for God himself chose you to be the light</rdg>
+					</app>
+				</l>
+				<l n="125">
+					<app>
+						<lem wit="#Transcription">daz uns da sol wisen</lem>
+						<rdg wit="#Translation">to show us the way</rdg>
+					</app>
+				</l>
+				<l n="126">
+					<app>
+						<lem wit="#Transcription">zu deme uronen paradyse</lem>
+						<rdg wit="#Translation">to the blessed paradise.</rdg>
+					</app>
+				</l>
+				<l n="127">
+					<app>
+						<lem wit="#Transcription"><b>A</b>lso der mer sterne</lem>
+						<rdg wit="#Translation">You are like the star of the sea,</rdg>
+					</app>
+				</l>
+				<l n="128">
+					<app>
+						<lem wit="#Transcription">den scefman leuet uerre</lem>
+						<rdg wit="#Translation">which shows the sailor the way</rdg>
+					</app>
+				</l>
+				<l n="129">
+					<app>
+						<lem wit="#Transcription">uber genen breiden se</lem>
+						<rdg wit="#Translation">far across the wide sea;</rdg>
+					</app>
+				</l>
+				<l n="130">
+					<app>
+						<lem wit="#Transcription">uns tet diu uinstre da beuor we</lem>
+						<rdg wit="#Translation">the former darkness brought us pain –</rdg>
+					</app>
+				</l>
+				<l n="131">
+					<app>
+						<lem wit="#Transcription">do du maget do irscine</lem>
+						<rdg wit="#Translation">but when you, maiden, shone out</rdg>
+					</app>
+				</l>
+				<l n="132">
+					<app>
+						<lem wit="#Transcription">do was diu sorge hine</lem>
+						<rdg wit="#Translation">this suffering was gone,</rdg>
+					</app>
+				</l>
+				<l n="133">
+					<app>
+						<lem wit="#Transcription">do was druren gestoret</lem>
+						<rdg wit="#Translation">grief was banished,</rdg>
+					</app>
+				</l>
+				<l n="134">
+					<app>
+						<lem wit="#Transcription">vroude irhoret</lem>
+						<rdg wit="#Translation">joy resounded</rdg>
+					</app>
+				</l>
+				<l n="135">
+					<app>
+						<lem wit="#Transcription">uon den engelen hie in erde</lem>
+						<rdg wit="#Translation">here on earth from the angels.</rdg>
+					</app>
+				</l>
+				<l n="136">
+					<app>
+						<lem wit="#Transcription">uil salich du do wurde</lem>
+						<rdg wit="#Translation">It is a great blessing that you</rdg>
+					</app>
+				</l>
+				<l n="137">
+					<app>
+						<lem wit="#Transcription">her indise werlt geborn</lem>
+						<rdg wit="#Translation">were born here on earth,</rdg>
+					</app>
+				</l>
+				<l n="138">
+					<app>
+						<lem wit="#Transcription">wande aller der zorn</lem>
+						<rdg wit="#Translation">for all the anger</rdg>
+					</app>
+				</l>
+				<l n="139">
+					<app>
+						<lem wit="#Transcription">unde elleu diu uientscaft</lem>
+						<rdg wit="#Translation">and all the enmity</rdg>
+					</app>
+				</l>
+				<l n="140">
+					<app>
+						<lem wit="#Transcription">diu under mennisken unt under gote was</lem>
+						<rdg wit="#Translation">which existed between men and God,</rdg>
+					</app>
+				</l>
+				<l n="141">
+					<app>
+						<lem wit="#Transcription">mit dir zu suone hat braht</lem>
+						<rdg wit="#Translation">was reconciled through you.</rdg>
+					</app>
+				</l>
+				<l n="142">
+					<app>
+						<lem wit="#Transcription">uone diu so han ich mir gedaht</lem>
+						<rdg wit="#Translation">Because of this I thought</rdg>
+					</app>
+				</l>
+				<l n="143">
+					<app>
+						<lem wit="#Transcription">daz ich alles mines scaden</lem>
+						<rdg wit="#Translation">that I, with all my misdeeds,</rdg>
+					</app>
+				</l>
+				<l n="144">
+					<app>
+						<lem wit="#Transcription">zuo dir fluht welle haben</lem>
+						<rdg wit="#Translation">should flee to you.</rdg>
+					</app>
+				</l>
+				<l n="145">
+					<app>
+						<lem wit="#Transcription"><b>V</b>rouw uber allez daz dir ist</lem>
+						<rdg wit="#Translation">Lady, greatest of all the things</rdg>
+					</app>
+				</l>
+				<l n="146">
+					<app>
+						<lem wit="#Transcription">dich der heilige crist</lem>
+						<rdg wit="#Translation">that the holy Christ</rdg>
+					</app>
+				</l>
+				<l n="147">
+					<app>
+						<lem wit="#Transcription">des wirdich hat bedaht</lem>
+						<rdg wit="#Translation">has bestowed upon you</rdg>
+					</app>
+				</l>
+				<l n="148">
+					<app>
+						<lem wit="#Transcription">daz du lop hast braht</lem>
+						<rdg wit="#Translation">is that you have brought praise</rdg>
+					</app>
+				</l>
+				<l n="149">
+					<app>
+						<lem wit="#Transcription">uber alle dise erde</lem>
+						<rdg wit="#Translation">to all the earth.</rdg>
+					</app>
+				</l>
+				<l n="150">
+					<app>
+						<lem wit="#Transcription">no solt du gote werde</lem>
+						<rdg wit="#Translation">Now, worthy child of God,</rdg>
+					</app>
+				</l>
+				<l n="151">
+					<app>
+						<lem wit="#Transcription">mine dige irhoren</lem>
+						<rdg wit="#Translation">hear my prayer!</rdg>
+					</app>
+				</l>
+				<l n="152">
+					<app>
+						<lem wit="#Transcription">du da zu den niun choren</lem>
+						<rdg wit="#Translation">For to the nine choirs<note anchored="true" type="critical"><p>In Christian thought, the angels are typically divided into nine groups, or choirs.</p></note></rdg>
+					</app>
+				</l>
+				<l n="153">
+					<app>
+						<lem wit="#Transcription">michele urouwede hast gegeben</lem>
+						<rdg wit="#Translation">you have brought great joy,</rdg>
+					</app>
+				</l>
+				<l n="154">
+					<app>
+						<lem wit="#Transcription">den boten, unde den wissagen</lem>
+						<rdg wit="#Translation">and to the apostles and to the prophets,</rdg>
+					</app>
+				</l>
+				<l n="155">
+					<app>
+						<lem wit="#Transcription">unde den martereren</lem>
+						<rdg wit="#Translation">and to the martyrs,</rdg>
+					</app>
+				</l>
+				<l n="156">
+					<app>
+						<lem wit="#Transcription">den bihteren, also heren</lem>
+						<rdg wit="#Translation">to the blessed confessors</rdg>
+					</app>
+				</l>
+				<l n="157">
+					<app>
+						<lem wit="#Transcription">unt patriarchen</lem>
+						<rdg wit="#Translation">and the patriarchs<note anchored="true" type="critical"><p>i.e. Abraham, Isaac and Jacob.</p></note></rdg>
+					</app>
+				</l>
+				<l n="158">
+					<app>
+						<lem wit="#Transcription">mit dinen starchen werchen</lem>
+						<rdg wit="#Translation">with your great deeds.</rdg>
+					</app>
+				</l>
+				<l n="159">
+					<app>
+						<lem wit="#Transcription">die hast du gezieret</lem>
+						<rdg wit="#Translation">You have adorned them</rdg>
+					</app>
+				</l>
+				<l n="160">
+					<app>
+						<lem wit="#Transcription">unde hast die mandunge braht</lem>
+						<rdg wit="#Translation">and have brought joy.</rdg>
+					</app>
+				</l>
+				<l n="161">
+					<app>
+						<lem wit="#Transcription">uil manich sele hiut hat</lem>
+						<rdg wit="#Translation">Now, many souls</rdg>
+					</app>
+				</l>
+				<l n="162">
+					<app>
+						<lem wit="#Transcription">gedingen in der helle</lem>
+						<rdg wit="#Translation">in hell hope</rdg>
+					</app>
+				</l>
+				<l n="163">
+					<app>
+						<lem wit="#Transcription">daz in der behwelle</lem>
+						<rdg wit="#Translation">that, in hell,</rdg>
+					</app>
+				</l>
+				<l n="164">
+					<app>
+						<lem wit="#Transcription">uon dinen werchen werde rat</lem>
+						<rdg wit="#Translation">they will be helped through your deeds.</rdg>
+					</app>
+				</l>
+				<l n="165">
+					<app>
+						<lem wit="#Transcription">got mit dir zebrochen hat</lem>
+						<rdg wit="#Translation">Through you, God broke down</rdg>
+					</app>
+				</l>
+				<l n="166">
+					<app>
+						<lem wit="#Transcription">di uesten helleporten</lem>
+						<rdg wit="#Translation">the mighty gates of hell.</rdg>
+					</app>
+				</l>
+				<l n="167">
+					<app>
+						<lem wit="#Transcription">mit gedanchen unde mit worten</lem>
+						<rdg wit="#Translation">Neither in thoughts nor in words,</rdg>
+					</app>
+				</l>
+				<l n="168">
+					<app>
+						<lem wit="#Transcription">noch mit cheiner slahte dinge</lem>
+						<rdg wit="#Translation">nor in any other way,</rdg>
+					</app>
+				</l>
+				<l n="169">
+					<app>
+						<lem wit="#Transcription">so ne chan ich uuore bringen</lem>
+						<rdg wit="#Translation">can I express</rdg>
+					</app>
+				</l>
+				<l n="170">
+					<app>
+						<lem wit="#Transcription">di guote di an dir sint</lem>
+						<rdg wit="#Translation">the goodness that you have.</rdg>
+					</app>
+				</l>
+				<l n="171">
+					<app>
+						<lem wit="#Transcription">du bist des obristen kint</lem>
+						<rdg wit="#Translation">You are the child of the highest</rdg>
+					</app>
+				</l>
+				<l n="172">
+					<app>
+						<lem wit="#Transcription">unde bist doch sin muoter</lem>
+						<rdg wit="#Translation">and yet are also his mother.</rdg>
+					</app>
+				</l>
+				<l n="173">
+					<app>
+						<lem wit="#Transcription">uone diu so tut er vrouwe </lem>
+						<rdg wit="#Translation">Because of this, lady, he does</rdg>
+					</app>
+				</l>
+				<l n="174">
+					<app>
+						<lem wit="#Transcription">allez daz duo wil</lem>
+						<rdg wit="#Translation">all you wish.</rdg>
+					</app>
+				</l>
+				<l n="175">
+					<app>
+						<lem wit="#Transcription">nun ist miner sunden nie so uil</lem>
+						<rdg wit="#Translation">My sins are not so great</rdg>
+					</app>
+				</l>
+				<l n="176">
+					<app>
+						<lem wit="#Transcription">siner guote nesi mere</lem>
+						<rdg wit="#Translation">that his goodness is not greater.</rdg>
+					</app>
+				</l>
+				<l n="177">
+					<app>
+						<lem wit="#Transcription">ich bite dich durch sine ere</lem>
+						<rdg wit="#Translation">I pray to you in the name of his honour</rdg>
+					</app>
+				</l>
+				<l n="178">
+					<app>
+						<lem wit="#Transcription">daz du ledegest [minen geist</lem>
+						<rdg wit="#Translation">to free my spirit,</rdg>
+					</app>
+				</l>
+				<l n="179">
+					<app>
+						<lem wit="#Transcription">den du in angesten weist] </lem>
+						<rdg wit="#Translation">which you find in a state of fear.<note anchored="true" type="critical"><p>The passage in square brackets is inserted in the top margin of the manuscript (in the same hand).</p></note></rdg>
+					</app>
+				</l>
+				<l n="180">
+					<app>
+						<lem wit="#Transcription"><b>N</b>uo bete ich dich gerne</lem>
+						<rdg wit="#Translation">I reach for you gladly,</rdg>
+					</app>
+				</l>
+				<l n="181">
+					<app>
+						<lem wit="#Transcription">vrouwe uil uerre</lem>
+						<rdg wit="#Translation">most distant Lady,</rdg>
+					</app>
+				</l>
+				<l n="182">
+					<app>
+						<lem wit="#Transcription">want ich wærlichen weiz</lem>
+						<rdg wit="#Translation">for I know it truly,</rdg>
+					</app>
+				</l>
+				<l n="183">
+					<app>
+						<lem wit="#Transcription">wil du ledegen minen geist</lem>
+						<rdg wit="#Translation">that if you wish to free my spirit,</rdg>
+					</app>
+				</l>
+				<l n="184">
+					<app>
+						<lem wit="#Transcription">der mir da ist benomen</lem>
+						<rdg wit="#Translation">which is shut away from me,</rdg>
+					</app>
+				</l>
+				<l n="185">
+					<app>
+						<lem wit="#Transcription">so solt du mir zehelue chomen</lem>
+						<rdg wit="#Translation">then you will come to my aid</rdg>
+					</app>
+				</l>
+				<l n="186">
+					<app>
+						<lem wit="#Transcription">swenne ich disen lip urende</lem>
+						<rdg wit="#Translation">when my life comes to an end.</rdg>
+					</app>
+				</l>
+				<l n="187">
+					<app>
+						<lem wit="#Transcription">des bite ich dich durch willen der urstende</lem>
+						<rdg wit="#Translation">I ask you this in the name of the resurrection</rdg>
+					</app>
+				</l>
+				<l n="188">
+					<app>
+						<lem wit="#Transcription">der der tæte uon deme grabe</lem>
+						<rdg wit="#Translation">that he carried out from his grave –</rdg>
+					</app>
+				</l>
+				<l n="189">
+					<app>
+						<lem wit="#Transcription">der dich da zuo gesezet habe</lem>
+						<rdg wit="#Translation">he, who placed you on high</rdg>
+					</app>
+				</l>
+				<l n="190">
+					<app>
+						<lem wit="#Transcription">zu frouwen uber elleu dinch</lem>
+						<rdg wit="#Translation">above all women, in all things,</rdg>
+					</app>
+				</l>
+				<l n="191">
+					<app>
+						<lem wit="#Transcription">dem wole kunt sint</lem>
+						<rdg wit="#Translation">and to whom all my sorrows</rdg>
+					</app>
+				</l>
+				<l n="192">
+					<app>
+						<lem wit="#Transcription">alle mine sorgen</lem>
+						<rdg wit="#Translation">are well known.</rdg>
+					</app>
+				</l>
+				<l n="193">
+					<app>
+						<lem wit="#Transcription">ich newas ich zu niht worden</lem>
+						<rdg wit="#Translation">I had become nothing</rdg>
+					</app>
+				</l>
+				<l n="194">
+					<app>
+						<lem wit="#Transcription">daz was mir ungewizzen</lem>
+						<rdg wit="#Translation">and was unaware.</rdg>
+					</app>
+				</l>
+				<l n="195">
+					<app>
+						<lem wit="#Transcription">got hete sich geulizzen</lem>
+						<rdg wit="#Translation">God strove</rdg>
+					</app>
+				</l>
+				<l n="196">
+					<app>
+						<lem wit="#Transcription">wi er mohte gezieren unde geren</lem>
+						<rdg wit="#Translation">to adorn and honour</rdg>
+					</app>
+				</l>
+				<l n="197">
+					<app>
+						<lem wit="#Transcription">mine sele unde minen lip</lem>
+						<rdg wit="#Translation">my soul and my body,</rdg>
+					</app>
+				</l>
+				<l n="198">
+					<app>
+						<lem wit="#Transcription">unt han ich mich des selbe sit</lem>
+						<rdg wit="#Translation">but I let myself</rdg>
+					</app>
+				</l>
+				<l n="199">
+					<app>
+						<lem wit="#Transcription">also harte uerstozen</lem>
+						<rdg wit="#Translation">fall completely.</rdg>
+					</app>
+				</l>
+				<l n="200">
+					<app>
+						<lem wit="#Transcription">er wolde mich genozen</lem>
+						<rdg wit="#Translation">He wanted me to be a companion</rdg>
+					</app>
+				</l>
+				<l n="201">
+					<app>
+						<lem wit="#Transcription">den engelen in den hohen</lem>
+						<rdg wit="#Translation">of the angels on high,</rdg>
+					</app>
+				</l>
+				<l n="202">
+					<app>
+						<lem wit="#Transcription">uber die nuon chore</lem>
+						<rdg wit="#Translation">above the nine choirs </rdg>
+					</app>
+				</l>
+				<l n="203">
+					<app>
+						<lem wit="#Transcription">wolde er mich sezen</lem>
+						<rdg wit="#Translation">he wanted to raise me.</rdg>
+					</app>
+				</l>
+				<l n="204">
+					<app>
+						<lem wit="#Transcription">daz mich des iht mege lezen</lem>
+						<rdg wit="#Translation">Queen,<note anchored="true" type="critical"><p>i.e. the Virgin Mary.</p></note>ensure</rdg>
+					</app>
+				</l>
+				<l n="205">
+					<app>
+						<lem wit="#Transcription">daz bewar du chunniginne</lem>
+						<rdg wit="#Translation">that these things are still open to me,</rdg>
+					</app>
+				</l>
+				<l n="206">
+					<app>
+						<lem wit="#Transcription">durch der wile willen</lem>
+						<rdg wit="#Translation">in the name of the moment</rdg>
+					</app>
+				</l>
+				<l n="207">
+					<app>
+						<lem wit="#Transcription">daz dir got ie chunt wart</lem>
+						<rdg wit="#Translation">when God made himself known to you.</rdg>
+					</app>
+				</l>
+				<l n="208">
+					<app>
+						<lem wit="#Transcription">nu offene mir die wider wart</lem>
+						<rdg wit="#Translation">Open up a path of return for me,</rdg>
+					</app>
+				</l>
+				<l n="209">
+					<app>
+						<lem wit="#Transcription">denn ich her uerheret si</lem>
+						<rdg wit="#Translation">so that I may be in glory there.</rdg>
+					</app>
+				</l>
+				<l n="210">
+					<app>
+						<lem wit="#Transcription">drut frouwe nuo stant mir bi</lem>
+						<rdg wit="#Translation">Dear Lady, stand by me,</rdg>
+					</app>
+				</l>
+				<l n="211">
+					<app>
+						<lem wit="#Transcription">alsich dir des wol getruwe</lem>
+						<rdg wit="#Translation">for I trust you in this.</rdg>
+					</app>
+				</l>
+				<l n="212">
+					<app>
+						<lem wit="#Transcription">wi ungerne ich nu buwe</lem>
+						<rdg wit="#Translation">How I now dislike living</rdg>
+					</app>
+				</l>
+				<l n="213">
+					<app>
+						<lem wit="#Transcription">diz uinster lant</lem>
+						<rdg wit="#Translation">in this dark land!</rdg>
+					</app>
+				</l>
+				<l n="214">
+					<app>
+						<lem wit="#Transcription">zeinem boten wis du mir gesant</lem>
+						<rdg wit="#Translation">You were sent to me to be a messenger</rdg>
+					</app>
+				</l>
+				<l n="215">
+					<app>
+						<lem wit="#Transcription">an den der da wol mach</lem>
+						<rdg wit="#Translation">to him, who is well able</rdg>
+					</app>
+				</l>
+				<l n="216">
+					<app>
+						<lem wit="#Transcription">mir geben den ewigen tach</lem>
+						<rdg wit="#Translation">to give me eternal day,</rdg>
+					</app>
+				</l>
+				<l n="217">
+					<app>
+						<lem wit="#Transcription">daz er mich uuore hinnen</lem>
+						<rdg wit="#Translation">by bringing me from this place</rdg>
+					</app>
+				</l>
+				<l n="218">
+					<app>
+						<lem wit="#Transcription">sciere dar bringe</lem>
+						<rdg wit="#Translation">quickly to that place,<note anchored="true" type="critical"><p>i.e. from earth to heaven.</p></note></rdg>
+					</app>
+				</l>
+				<l n="219">
+					<app>
+						<lem wit="#Transcription">da ich habe liep an leit</lem>
+						<rdg wit="#Translation">where I might have love without suffering</rdg>
+					</app>
+				</l>
+				<l n="220">
+					<app>
+						<lem wit="#Transcription">froude an arbeit</lem>
+						<rdg wit="#Translation">joy without travail,</rdg>
+					</app>
+				</l>
+				<l n="221">
+					<app>
+						<lem wit="#Transcription">da ich mich iemer mere mende</lem>
+						<rdg wit="#Translation">where I might rejoice for ever more,</rdg>
+					</app>
+				</l>
+				<l n="222">
+					<app>
+						<lem wit="#Transcription">ewiclichen an ende</lem>
+						<rdg wit="#Translation">eternally, without end,</rdg>
+					</app>
+				</l>
+				<l n="223">
+					<app>
+						<lem wit="#Transcription">mit allen den die der gotes chint</lem>
+						<rdg wit="#Translation">with all those who have become the children of God</rdg>
+					</app>
+				</l>
+				<l n="224">
+					<app>
+						<lem wit="#Transcription">mit dinen werchen worden sint</lem>
+						<rdg wit="#Translation">through their works.</rdg>
+					</app>
+				</l>
+				<l n="225">
+					<app>
+						<lem wit="#Transcription"><b>V</b>rouwe uolliu guotes</lem>
+						<rdg wit="#Translation">Lady full of goodness,</rdg>
+					</app>
+				</l>
+				<l n="226">
+					<app>
+						<lem wit="#Transcription">durh willen des bludes</lem>
+						<rdg wit="#Translation">in the name of the blood</rdg>
+					</app>
+				</l>
+				<l n="227">
+					<app>
+						<lem wit="#Transcription">daz got an dem cruce uz goz</lem>
+						<rdg wit="#Translation">that God shed on the cross,</rdg>
+					</app>
+				</l>
+				<l n="228">
+					<app>
+						<lem wit="#Transcription">unde durch willen des wazeres daz uon siner siten floz</lem>
+						<rdg wit="#Translation">and in the name of the water that flowed from his side,</rdg>
+					</app>
+				</l>
+				<l n="229">
+					<app>
+						<lem wit="#Transcription">gemisket mit drore</lem>
+						<rdg wit="#Translation">mixed with blood,</rdg>
+					</app>
+				</l>
+				<l n="230">
+					<app>
+						<lem wit="#Transcription">nu uernim mich suntere</lem>
+						<rdg wit="#Translation">listen to me, a sinner,</rdg>
+					</app>
+				</l>
+				<l n="231">
+					<app>
+						<lem wit="#Transcription">unde hilf mir daz ich uon deme tiuuele werde enbunden</lem>
+						<rdg wit="#Translation">and help me become unbound from the devil,</rdg>
+					</app>
+				</l>
+				<l n="232">
+					<app>
+						<lem wit="#Transcription">durch willen der uinf wunden</lem>
+						<rdg wit="#Translation">in the name of the five wounds</rdg>
+					</app>
+				</l>
+				<l n="233">
+					<app>
+						<lem wit="#Transcription">der got duch unsich irliten haben</lem>
+						<rdg wit="#Translation">that God suffered for our sake,</rdg>
+					</app>
+				</l>
+				<l n="234">
+					<app>
+						<lem wit="#Transcription">unt durch willen aller der tage</lem>
+						<rdg wit="#Translation">and in the name of all the days</rdg>
+					</app>
+				</l>
+				<l n="235">
+					<app>
+						<lem wit="#Transcription">die er uon | dir getragen wurde</lem>
+						<rdg wit="#Translation">in which he was carried by you,</rdg>
+					</app>
+				</l>
+				<l n="236">
+					<app>
+						<lem wit="#Transcription">unde durch willen diner uferte</lem>
+						<rdg wit="#Translation">and in the name of the ascension</rdg>
+					</app>
+				</l>
+				<l n="237">
+					<app>
+						<lem wit="#Transcription">die du ze himele tete</lem>
+						<rdg wit="#Translation">that you made into heaven.</rdg>
+					</app>
+				</l>
+				<l n="238">
+					<app>
+						<lem wit="#Transcription">nu hilf mir uz dirre note</lem>
+						<rdg wit="#Translation">Help me out of this torment,</rdg>
+					</app>
+				</l>
+				<l n="239">
+					<app>
+						<lem wit="#Transcription">uz disen ubelen woftale</lem>
+						<rdg wit="#Translation">out of this evil valley of pain,</rdg>
+					</app>
+				</l>
+				<l n="240">
+					<app>
+						<lem wit="#Transcription">unde brinch mich zu deme uronen sale</lem>
+						<rdg wit="#Translation">and bring me to the church</rdg>
+					</app>
+				</l>
+				<l n="241">
+					<app>
+						<lem wit="#Transcription">da got den ewigen lon git</lem>
+						<rdg wit="#Translation">where God gives eternal reward.</rdg>
+					</app>
+				</l>
+				<l n="242">
+					<app>
+						<lem wit="#Transcription">nu ledige chunigin inzit</lem>
+						<rdg wit="#Translation">Queen, free at this very moment</rdg>
+					</app>
+				</l>
+				<l n="243">
+					<app>
+						<lem wit="#Transcription">mine uil arme sele</lem>
+						<rdg wit="#Translation">my most pitiful soul,</rdg>
+					</app>
+				</l>
+				<l n="244">
+					<app>
+						<lem wit="#Transcription">durch des grabes ere</lem>
+						<rdg wit="#Translation">in the name of the honour of the grave</rdg>
+					</app>
+				</l>
+				<l n="245">
+					<app>
+						<lem wit="#Transcription">da der uil salige inne lach</lem>
+						<rdg wit="#Translation">in which the most sacred man lay,</rdg>
+					</app>
+				</l>
+				<l n="246">
+					<app>
+						<lem wit="#Transcription">der sinen lip umbe unsich gap</lem>
+						<rdg wit="#Translation">who gave up his life for our sake.</rdg>
+					</app>
+				</l>
+				<l n="247">
+					<app>
+						<lem wit="#Transcription"><b>N</b>u hilf mir heilbringe</lem>
+						<rdg wit="#Translation">Help me, bringer of salvation,</rdg>
+					</app>
+				</l>
+				<l n="248">
+					<app>
+						<lem wit="#Transcription">wariu uogedinne</lem>
+						<rdg wit="#Translation">true Queen</rdg>
+					</app>
+				</l>
+				<l n="249">
+					<app>
+						<lem wit="#Transcription">aller der uerherten</lem>
+						<rdg wit="#Translation">of all the blessed,</rdg>
+					</app>
+				</l>
+				<l n="250">
+					<app>
+						<lem wit="#Transcription">die diniu werch nerten</lem>
+						<rdg wit="#Translation">who are healed by your works.</rdg>
+					</app>
+				</l>
+				<l n="251">
+					<app>
+						<lem wit="#Transcription">du brehte in die wider uart</lem>
+						<rdg wit="#Translation">You brought them a path of return,</rdg>
+					</app>
+				</l>
+				<l n="252">
+					<app>
+						<lem wit="#Transcription">mit dir diu uinstere wart</lem>
+						<rdg wit="#Translation">through you was darkness</rdg>
+					</app>
+				</l>
+				<l n="253">
+					<app>
+						<lem wit="#Transcription">zu dem liehte uerwandelot</lem>
+						<rdg wit="#Translation">transformed into light,</rdg>
+					</app>
+				</l>
+				<l n="254">
+					<app>
+						<lem wit="#Transcription">mit dir der ewige tot</lem>
+						<rdg wit="#Translation">through you the eternal death</rdg>
+					</app>
+				</l>
+				<l n="255">
+					<app>
+						<lem wit="#Transcription">aller wart zestoret</lem>
+						<rdg wit="#Translation">of all men was destroyed,</rdg>
+					</app>
+				</l>
+				<l n="256">
+					<app>
+						<lem wit="#Transcription">uon dir wart irhoret</lem>
+						<rdg wit="#Translation">through you resounded</rdg>
+					</app>
+				</l>
+				<l n="257">
+					<app>
+						<lem wit="#Transcription">in der helle mandunge</lem>
+						<rdg wit="#Translation">joy in hell, </rdg>
+					</app>
+				</l>
+				<l n="258">
+					<app>
+						<lem wit="#Transcription">mit dir wart gewunnen</lem>
+						<rdg wit="#Translation">through you was won</rdg>
+					</app>
+				</l>
+				<l n="259">
+					<app>
+						<lem wit="#Transcription">an deme divuele sin ueste</lem>
+						<rdg wit="#Translation">the fortress of the devil.</rdg>
+					</app>
+				</l>
+				<l n="260">
+					<app>
+						<lem wit="#Transcription">aller magde beste</lem>
+						<rdg wit="#Translation">Best of all maidens,</rdg>
+					</app>
+				</l>
+				<l n="261">
+					<app>
+						<lem wit="#Transcription">uon rehte man dich bitten scol</lem>
+						<rdg wit="#Translation">it is right that we should pray to you!</rdg>
+					</app>
+				</l>
+				<l n="262">
+					<app>
+						<lem wit="#Transcription">mit dir der Adames ual</lem>
+						<rdg wit="#Translation">Through you Adam’s fall</rdg>
+					</app>
+				</l>
+				<l n="263">
+					<app>
+						<lem wit="#Transcription">wart braht zuo guode</lem>
+						<rdg wit="#Translation">was turned to good,</rdg>
+					</app>
+				</l>
+				<l n="264">
+					<app>
+						<lem wit="#Transcription">mit dir wart diu huote </lem>
+						<rdg wit="#Translation">through you protection</rdg>
+					</app>
+				</l>
+				<l n="265">
+					<app>
+						<lem wit="#Transcription">allen mennisken gegeben</lem>
+						<rdg wit="#Translation">was given to all mankind,</rdg>
+					</app>
+				</l>
+				<l n="266">
+					<app>
+						<lem wit="#Transcription">daz ir die engele sulen phlegen</lem>
+						<rdg wit="#Translation">for whom the angels must care for</rdg>
+					</app>
+				</l>
+				<l n="267">
+					<app>
+						<lem wit="#Transcription">beidv naht unde tach</lem>
+						<rdg wit="#Translation">both night and day.</rdg>
+					</app>
+				</l>
+				<l n="268">
+					<app>
+						<lem wit="#Transcription">uil wil du nu heizen maht</lem>
+						<rdg wit="#Translation">It is proper that you are called</rdg>
+					</app>
+				</l>
+				<l n="269">
+					<app>
+						<lem wit="#Transcription">porta paradyses</lem>
+						<rdg wit="#Translation"><i>porta paradyses,</i><note anchored="true" type="critical"><p>The poet uses Latin here, which he translates into German in the following line.</p></note></rdg>
+					</app>
+				</l>
+				<l n="270">
+					<app>
+						<lem wit="#Transcription">tuore des himelriches</lem>
+						<rdg wit="#Translation">the gate of heaven,</rdg>
+					</app>
+				</l>
+				<l n="271">
+					<app>
+						<lem wit="#Transcription">muoter des heiles</lem>
+						<rdg wit="#Translation">mother of salvation,</rdg>
+					</app>
+				</l>
+				<l n="272">
+					<app>
+						<lem wit="#Transcription">tilegerinne alles leides</lem>
+						<rdg wit="#Translation">banisher of all sorrow.</rdg>
+					</app>
+				</l>
+				<l n="273">
+					<app>
+						<lem wit="#Transcription">aller gute bistu uol</lem>
+						<rdg wit="#Translation">You are full of goodness,</rdg>
+					</app>
+				</l>
+				<l n="274">
+					<app>
+						<lem wit="#Transcription">din gnade diu sol</lem>
+						<rdg wit="#Translation">may your mercy</rdg>
+					</app>
+				</l>
+				<l n="275">
+					<app>
+						<lem wit="#Transcription">mich ledegen, uon miner meile</lem>
+						<rdg wit="#Translation">set me free from my pain,</rdg>
+					</app>
+				</l>
+				<l n="276">
+					<app>
+						<lem wit="#Transcription">durch willen der reinen</lem>
+						<rdg wit="#Translation">in the name of the purity</rdg>
+					</app>
+				</l>
+				<l n="277">
+					<app>
+						<lem wit="#Transcription">der ime got selbenne behielt an dir</lem>
+						<rdg wit="#Translation">that God himself maintained in you.</rdg>
+					</app>
+				</l>
+				<l n="278">
+					<app>
+						<lem wit="#Transcription">nu hilf trut frouwe mir</lem>
+						<rdg wit="#Translation">Help me, dear Lady,</rdg>
+					</app>
+				</l>
+				<l n="279">
+					<app>
+						<lem wit="#Transcription">unde habe irbarmede uber mich</lem>
+						<rdg wit="#Translation">and have mercy upon me.</rdg>
+					</app>
+				</l>
+				<l n="280">
+					<app>
+						<lem wit="#Transcription">des bitte ich armer minniske dich</lem>
+						<rdg wit="#Translation">I, a poor man, pray to you for this,</rdg>
+					</app>
+				</l>
+				<l n="281">
+					<app>
+						<lem wit="#Transcription">durch willen der note</lem>
+						<rdg wit="#Translation">in the name of the suffering</rdg>
+					</app>
+				</l>
+				<l n="282">
+					<app>
+						<lem wit="#Transcription">der daz herze dines sunes an dem cruce hete</lem>
+						<rdg wit="#Translation">of your son’s heart on the cross, </rdg>
+					</app>
+				</l>
+				<l n="283">
+					<app>
+						<lem wit="#Transcription">do erhangende darane toute</lem>
+						<rdg wit="#Translation">when, hanging from it, he met death,</rdg>
+					</app>
+				</l>
+				<l n="284">
+					<app>
+						<lem wit="#Transcription">unde durch willen aller der werche da er dich ie mite fruote</lem>
+						<rdg wit="#Translation">and in the name of all the deeds through which he ever made you joyful:</rdg>
+					</app>
+				</l>
+				<l n="285">
+					<app>
+						<lem wit="#Transcription">so hilf mir armen umbe got</lem>
+						<rdg wit="#Translation">help me, poor man, come to God,</rdg>
+					</app>
+				</l>
+				<l n="286">
+					<app>
+						<lem wit="#Transcription">diu wort diu er selbe chot</lem>
+						<rdg wit="#Translation">those words, that he himself spoke,</rdg>
+					</app>
+				</l>
+				<l n="287">
+					<app>
+						<lem wit="#Transcription">daz er diu an mir bewere</lem>
+						<rdg wit="#Translation">let him grant them in my case:</rdg>
+					</app>
+				</l>
+				<l n="288">
+					<app>
+						<lem wit="#Transcription">er sprach nine wolde tot der sundare</lem>
+						<rdg wit="#Translation">he said, he wished for the death of no sinners.</rdg>
+					</app>
+				</l>
+				<l n="289">
+					<app>
+						<lem wit="#Transcription"><b>S</b>cephære aller dinge</lem>
+						<rdg wit="#Translation">Creator of all things,</rdg>
+					</app>
+				</l>
+				<l n="290">
+					<app>
+						<lem wit="#Transcription">nu uernim mine stimme</lem>
+						<rdg wit="#Translation">hear my voice!</rdg>
+					</app>
+				</l>
+				<l n="291">
+					<app>
+						<lem wit="#Transcription">durch sande peteres willen</lem>
+						<rdg wit="#Translation">In the name of St Peter,</rdg>
+					</app>
+				</l>
+				<l n="292">
+					<app>
+						<lem wit="#Transcription">der durch dine minne</lem>
+						<rdg wit="#Translation">who, for the sake of your love,</rdg>
+					</app>
+				</l>
+				<l n="293">
+					<app>
+						<lem wit="#Transcription">an daz breit mere trat</lem>
+						<rdg wit="#Translation">walked on the wide sea,</rdg>
+					</app>
+				</l>
+				<l n="294">
+					<app>
+						<lem wit="#Transcription">durch die liebe daz er dich gerne gesach</lem>
+						<rdg wit="#Translation">because his love made him desire to see you,</rdg>
+					</app>
+				</l>
+				<l n="295">
+					<app>
+						<lem wit="#Transcription">so uernim herre mine gebete</lem>
+						<rdg wit="#Translation">listen to my prayer, Lord.</rdg>
+					</app>
+				</l>
+				<l n="296">
+					<app>
+						<lem wit="#Transcription">allez daz ich ie getete</lem>
+						<rdg wit="#Translation">All that I have ever done</rdg>
+					</app>
+				</l>
+				<l n="297">
+					<app>
+						<lem wit="#Transcription">wider dinen hulden</lem>
+						<rdg wit="#Translation">contrary to your love –</rdg>
+					</app>
+				</l>
+				<l n="298">
+					<app>
+						<lem wit="#Transcription">des wil ich mich suldigen</lem>
+						<rdg wit="#Translation">I wish to confess my guilt for these things</rdg>
+					</app>
+				</l>
+				<l n="299">
+					<app>
+						<lem wit="#Transcription">zu dinen gnaden geben</lem>
+						<rdg wit="#Translation">and give myself to your mercy,</rdg>
+					</app>
+				</l>
+				<l n="300">
+					<app>
+						<lem wit="#Transcription">unde wil dir rihten unze ich lebe</lem>
+						<rdg wit="#Translation">and I wish to turn towards you for as long as I live.</rdg>
+					</app>
+				</l>
+				<l n="301">
+					<app>
+						<lem wit="#Transcription">ob du nu ruochest min</lem>
+						<rdg wit="#Translation">If you grant this to me,</rdg>
+					</app>
+				</l>
+				<l n="302">
+					<app>
+						<lem wit="#Transcription">so sol ich ein riwesere sin</lem>
+						<rdg wit="#Translation">I will be a contrite man</rdg>
+					</app>
+				</l>
+				<l n="303">
+					<app>
+						<lem wit="#Transcription">unze an minen ende</lem>
+						<rdg wit="#Translation">until I die.</rdg>
+					</app>
+				</l>
+				<l n="304">
+					<app>
+						<lem wit="#Transcription">nu solt du mir senden</lem>
+						<rdg wit="#Translation">Send me</rdg>
+					</app>
+				</l>
+				<l n="305">
+					<app>
+						<lem wit="#Transcription">dinen heiligen geist</lem>
+						<rdg wit="#Translation">your Holy Spirit!</rdg>
+					</app>
+				</l>
+				<l n="306">
+					<app>
+						<lem wit="#Transcription">wande du herre uil wol weist</lem>
+						<rdg wit="#Translation">For you know full well, Lord,</rdg>
+					</app>
+				</l>
+				<l n="307">
+					<app>
+						<lem wit="#Transcription">daz elliu miniu dinch </lem>
+						<rdg wit="#Translation">that all of my efforts</rdg>
+					</app>
+				</l>
+				<l n="308">
+					<app>
+						<lem wit="#Transcription">ane dine helue inwiht sint</lem>
+						<rdg wit="#Translation">are nothing without your help.</rdg>
+					</app>
+				</l>
+				<l n="309">
+					<app>
+						<lem wit="#Transcription">nu ledige herre mir diu bant</lem>
+						<rdg wit="#Translation">So, Lord, untie the bands</rdg>
+					</app>
+				</l>
+				<l n="310">
+					<app>
+						<lem wit="#Transcription">da mide mich der ubele ualant</lem>
+						<rdg wit="#Translation">with which the evil enemy</rdg>
+					</app>
+				</l>
+				<l n="311">
+					<app>
+						<lem wit="#Transcription">hat gebunde so diche</lem>
+						<rdg wit="#Translation">has bound me so tightly.</rdg>
+					</app>
+				</l>
+				<l n="312">
+					<app>
+						<lem wit="#Transcription">uon sinen manegen strichen</lem>
+						<rdg wit="#Translation">From his manifold traps</rdg>
+					</app>
+				</l>
+				<l n="313">
+					<app>
+						<lem wit="#Transcription">moht ich mich niht behuoten</lem>
+						<rdg wit="#Translation">I am unable to protect myself,</rdg>
+					</app>
+				</l>
+				<l n="314">
+					<app>
+						<lem wit="#Transcription">mir newellen heluen dine guote</lem>
+						<rdg wit="#Translation">unless your goodness helps me.</rdg>
+					</app>
+				</l>
+				<l n="315">
+					<app>
+						<lem wit="#Transcription"><b>G</b>ot duo solt mich alle zit bewaren</lem>
+						<rdg wit="#Translation">God, you should care for me at all times,</rdg>
+					</app>
+				</l>
+				<l n="316">
+					<app>
+						<lem wit="#Transcription">daz ich rehte geuare</lem>
+						<rdg wit="#Translation">so that I take the right path –</rdg>
+					</app>
+				</l>
+				<l n="317">
+					<app>
+						<lem wit="#Transcription">des bit ich dich herre</lem>
+						<rdg wit="#Translation">I ask this of you, Lord,</rdg>
+					</app>
+				</l>
+				<l n="318">
+					<app>
+						<lem wit="#Transcription">durch des ganges ere</lem>
+						<rdg wit="#Translation">in the name of the honour of the journey</rdg>
+					</app>
+				</l>
+				<l n="319">
+					<app>
+						<lem wit="#Transcription">den du zu dem cruce gienge</lem>
+						<rdg wit="#Translation">that you took to the cross,</rdg>
+					</app>
+				</l>
+				<l n="320">
+					<app>
+						<lem wit="#Transcription">do dich di iuden hiengen</lem>
+						<rdg wit="#Translation">when the Jews hanged you,</rdg>
+					</app>
+				</l>
+				<l n="321">
+					<app>
+						<lem wit="#Transcription">unde durch willen der geburte</lem>
+						<rdg wit="#Translation">and in the name of your birth,</rdg>
+					</app>
+				</l>
+				<l n="322">
+					<app>
+						<lem wit="#Transcription">daz du geborn wurde</lem>
+						<rdg wit="#Translation">when you were born</rdg>
+					</app>
+				</l>
+				<l n="323">
+					<app>
+						<lem wit="#Transcription">durch allez mankunne</lem>
+						<rdg wit="#Translation">for all mankind.</rdg>
+					</app>
+				</l>
+				<l n="324">
+					<app>
+						<lem wit="#Transcription">nu uergip mir mine sunde</lem>
+						<rdg wit="#Translation">So forgive me my sins,</rdg>
+					</app>
+				</l>
+				<l n="325">
+					<app>
+						<lem wit="#Transcription">du uil heiliger crist</lem>
+						<rdg wit="#Translation">most holy Christ!</rdg>
+					</app>
+				</l>
+				<l n="326">
+					<app>
+						<lem wit="#Transcription">duo daz eine bist</lem>
+						<rdg wit="#Translation">You are the one</rdg>
+					</app>
+				</l>
+				<l n="327">
+					<app>
+						<lem wit="#Transcription">wider den ich gesundet han</lem>
+						<rdg wit="#Translation">against whom I have sinned,</rdg>
+					</app>
+				</l>
+				<l n="328">
+					<app>
+						<lem wit="#Transcription">deme ich ouch in rede sol gan</lem>
+						<rdg wit="#Translation">and to whom I must also speak,</rdg>
+					</app>
+				</l>
+				<l n="329">
+					<app>
+						<lem wit="#Transcription">der mir ouch urteilen sol</lem>
+						<rdg wit="#Translation">who will also judge me</rdg>
+					</app>
+				</l>
+				<l n="330">
+					<app>
+						<lem wit="#Transcription">den minen freislichen ual</lem>
+						<rdg wit="#Translation">and correct</rdg>
+					</app>
+				</l>
+				<l n="331">
+					<app>
+						<lem wit="#Transcription">sol bringen zerehte</lem>
+						<rdg wit="#Translation">my terrible fall.</rdg>
+					</app>
+				</l>
+				<l n="332">
+					<app>
+						<lem wit="#Transcription">nu hilf dinem chnete</lem>
+						<rdg wit="#Translation">So help your servant</rdg>
+					</app>
+				</l>
+				<l n="333">
+					<app>
+						<lem wit="#Transcription">durch dinen heiligen tot</lem>
+						<rdg wit="#Translation">in the name of your holy death:</rdg>
+					</app>
+				</l>
+				<l n="334">
+					<app>
+						<lem wit="#Transcription">des ist mir durft not</lem>
+						<rdg wit="#Translation">this is my urgent need.</rdg>
+					</app>
+				</l>
+				<l n="335">
+					<app>
+						<lem wit="#Transcription"><b>U</b>arre got der getruwe</lem>
+						<rdg wit="#Translation">True and faithful God,</rdg>
+					</app>
+				</l>
+				<l n="336">
+					<app>
+						<lem wit="#Transcription">nu mich mine sunde riuwen</lem>
+						<rdg wit="#Translation">I repent my sins</rdg>
+					</app>
+				</l>
+				<l n="337">
+					<app>
+						<lem wit="#Transcription">unde si ouch gerne buozen welle</lem>
+						<rdg wit="#Translation">and desire to do penance for them.</rdg>
+					</app>
+				</l>
+				<l n="338">
+					<app>
+						<lem wit="#Transcription">nu habe irbarmede uber mich</lem>
+						<rdg wit="#Translation">So have mercy upon me!</rdg>
+					</app>
+				</l>
+				<l n="339">
+					<app>
+						<lem wit="#Transcription">des bite ich armer menske dich</lem>
+						<rdg wit="#Translation">I, a poor man, ask this of you,</rdg>
+					</app>
+				</l>
+				<l n="340">
+					<app>
+						<lem wit="#Transcription">durch aller heiligen ere</lem>
+						<rdg wit="#Translation">in the name of the honour of all saints.</rdg>
+					</app>
+				</l>
+				<l n="341">
+					<app>
+						<lem wit="#Transcription">nu hilf mir daz ich mine sele</lem>
+						<rdg wit="#Translation">Help me to</rdg>
+					</app>
+				</l>
+				<l n="342">
+					<app>
+						<lem wit="#Transcription">inphure uon deme bechen</lem>
+						<rdg wit="#Translation">release my soul from torment!</rdg>
+					</app>
+				</l>
+				<l n="343">
+					<app>
+						<lem wit="#Transcription">uber den lip solt du daz rechen</lem>
+						<rdg wit="#Translation">You must judge my body,</rdg>
+					</app>
+				</l>
+				<l n="344">
+					<app>
+						<lem wit="#Transcription">der ist suldich wider dich</lem>
+						<rdg wit="#Translation">which has sinned against you.</rdg>
+					</app>
+				</l>
+				<l n="345">
+					<app>
+						<lem wit="#Transcription">da mit wil ich</lem>
+						<rdg wit="#Translation">With it, I would like</rdg>
+					</app>
+				</l>
+				<l n="346">
+					<app>
+						<lem wit="#Transcription">dir uil gerne gelten</lem>
+						<rdg wit="#Translation">very dearly, to pay recompense</rdg>
+					</app>
+				</l>
+				<l n="347">
+					<app>
+						<lem wit="#Transcription">daz ich dir so selten</lem>
+						<rdg wit="#Translation">for having so seldom</rdg>
+					</app>
+				</l>
+				<l n="348">
+					<app>
+						<lem wit="#Transcription">han gelonet mir gute</lem>
+						<rdg wit="#Translation">rewarded you with goodness</rdg>
+					</app>
+				</l>
+				<l n="349">
+					<app>
+						<lem wit="#Transcription">daz du mich mit dinem bluote</lem>
+						<rdg wit="#Translation">for the fact that you, with your blood,</rdg>
+					</app>
+				</l>
+				<l n="350">
+					<app>
+						<lem wit="#Transcription">chouftest uon der helle</lem>
+						<rdg wit="#Translation">bought me from hell</rdg>
+					</app>
+				</l>
+				<l n="351">
+					<app>
+						<lem wit="#Transcription">unde uon der heizen bechwelle</lem>
+						<rdg wit="#Translation">and from the burning pit.</rdg>
+					</app>
+				</l>
+				<l n="352">
+					<app>
+						<lem wit="#Transcription">swa ich des uergezzen han</lem>
+						<rdg wit="#Translation">Whenever I forgot to do this</rdg>
+					</app>
+				</l>
+				<l n="353">
+					<app>
+						<lem wit="#Transcription">da han ich uerre getan</lem>
+						<rdg wit="#Translation">I caused great damage</rdg>
+					</app>
+				</l>
+				<l n="354">
+					<app>
+						<lem wit="#Transcription">wider [widere] mineme heile</lem>
+						<rdg wit="#Translation">to my salvation.</rdg>
+					</app>
+				</l>
+				<l n="355">
+					<app>
+						<lem wit="#Transcription">da wil ich mir selbe umbe irteilen</lem>
+						<rdg wit="#Translation">I therefore wish to give myself</rdg>
+					</app>
+				</l>
+				<l n="356">
+					<app>
+						<lem wit="#Transcription">den dinen michelen gerich</lem>
+						<rdg wit="#Translation">to your mighty judgement,</rdg>
+					</app>
+				</l>
+				<l n="357">
+					<app>
+						<lem wit="#Transcription">in diseme libe uber mich</lem>
+						<rdg wit="#Translation">so you may judge me in this life.</rdg>
+					</app>
+				</l>
+				<l n="358">
+					<app>
+						<lem wit="#Transcription">daz mir drort zeleide solde werden</lem>
+						<rdg wit="#Translation">That I might endure pain in the other place –<note anchored="true" type="critical"><p>I.e. in hell.</p></note></rdg>
+					</app>
+				</l>
+				<l n="359">
+					<app>
+						<lem wit="#Transcription">daz irteile ich ungerne</lem>
+						<rdg wit="#Translation">I would not like to grant myself that.</rdg>
+					</app>
+				</l>
+				<l n="360">
+					<app>
+						<lem wit="#Transcription">daz wurde | lihte zelenge</lem>
+						<rdg wit="#Translation">It would surely seem too long,</rdg>
+					</app>
+				</l>
+				<l n="361">
+					<app>
+						<lem wit="#Transcription">dize genimet sciere ende</lem>
+						<rdg wit="#Translation">but it would quickly come to an end</rdg>
+					</app>
+				</l>
+				<l n="362">
+					<app>
+						<lem wit="#Transcription">daz du mich sin hier ingaltestest</lem>
+						<rdg wit="#Translation">if you were to punish me here</rdg>
+					</app>
+				</l>
+				<l n="363">
+					<app>
+						<lem wit="#Transcription">unde du den geist behaltest</lem>
+						<rdg wit="#Translation">and keep my spirit –</rdg>
+					</app>
+				</l>
+				<l n="364">
+					<app>
+						<lem wit="#Transcription">des sist du herre iemer gelobet</lem>
+						<rdg wit="#Translation">for this, Lord, you will always be praised!</rdg>
+					</app>
+				</l>
+				<l n="365">
+					<app>
+						<lem wit="#Transcription">ich was irtoret unde irtobet</lem>
+						<rdg wit="#Translation">I was a mindless fool</rdg>
+					</app>
+				</l>
+				<l n="366">
+					<app>
+						<lem wit="#Transcription">daz ich des ie uergaz</lem>
+						<rdg wit="#Translation">each time I forgot you,</rdg>
+					</app>
+				</l>
+				<l n="367">
+					<app>
+						<lem wit="#Transcription">der da scephære was</lem>
+						<rdg wit="#Translation">you who created</rdg>
+					</app>
+				</l>
+				<l n="368">
+					<app>
+						<lem wit="#Transcription">uber himel unde uber erde</lem>
+						<rdg wit="#Translation">both heaven and earth.</rdg>
+					</app>
+				</l>
+				<l n="369">
+					<app>
+						<lem wit="#Transcription">daz er ruhte werden</lem>
+						<rdg wit="#Translation">That you manifested yourself</rdg>
+					</app>
+				</l>
+				<l n="370">
+					<app>
+						<lem wit="#Transcription">ein armer menniske durh mich</lem>
+						<rdg wit="#Translation">as a poor man for my sake –</rdg>
+					</app>
+				</l>
+				<l n="371">
+					<app>
+						<lem wit="#Transcription">owe war dahte ich</lem>
+						<rdg wit="#Translation">alas, what was I thinking,</rdg>
+					</app>
+				</l>
+				<l n="372">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="372">
+					<app>
+						<lem wit="#Transcription">daz ich niht enzit uof ensach</lem>
+						<rdg wit="#Translation">when I failed to consider you at all times?</rdg>
+					</app>
+				</l>
+				<l n="373">
+					<app>
+						<lem wit="#Transcription">disiu werlt hat mirre zeiget daz</lem>
+						<rdg wit="#Translation">This world has shown me</rdg>
+					</app>
+				</l>
+				<l n="374">
+					<app>
+						<lem wit="#Transcription">wi ir lon ist getan</lem>
+						<rdg wit="#Translation">what sort of reward it offers.</rdg>
+					</app>
+				</l>
+				<l n="375">
+					<app>
+						<lem wit="#Transcription">daz ir ir so uil gedienet han</lem>
+						<rdg wit="#Translation">God must have mercy upon me</rdg>
+					</app>
+				</l>
+				<l n="376">
+					<app>
+						<lem wit="#Transcription">daz muoze got erbarmen</lem>
+						<rdg wit="#Translation">for serving the world so much. </rdg>
+					</app>
+				</l>
+				<l n="377">
+					<app>
+						<lem wit="#Transcription">si betruget manegen armen</lem>
+						<rdg wit="#Translation">The world has deceived many a poor man</rdg>
+					</app>
+				</l>
+				<l n="378">
+					<app>
+						<lem wit="#Transcription">eler wanen daz riche si</lem>
+						<rdg wit="#Translation">who believes he is rich,</rdg>
+					</app>
+				</l>
+				<l n="379">
+					<app>
+						<lem wit="#Transcription">er gelit zeiungest der bi</lem>
+						<rdg wit="#Translation">which eventually causes him to suffer </rdg>
+					</app>
+				</l>
+				<l n="380">
+					<app>
+						<lem wit="#Transcription">uil harte erbarmiclichen</lem>
+						<rdg wit="#Translation">very pitifully.</rdg>
+					</app>
+				</l>
+				<l n="381">
+					<app>
+						<lem wit="#Transcription">nach deme ewigen riche</lem>
+						<rdg wit="#Translation">All who are in this condition</rdg>
+					</app>
+				</l>
+				<l n="382">
+					<app>
+						<lem wit="#Transcription">weruen nu alle die der sin</lem>
+						<rdg wit="#Translation">should strive for the eternal realm,</rdg>
+					</app>
+				</l>
+				<l n="383">
+					<app>
+						<lem wit="#Transcription">daz ist hinen uurder der rat min</lem>
+						<rdg wit="#Translation">this is my advice from now on.</rdg>
+					</app>
+				</l>
+				<l n="384">
+					<app>
+						<lem wit="#Transcription">daz ist stæte unde guot</lem>
+						<rdg wit="#Translation">This is steadfast and good.</rdg>
+					</app>
+				</l>
+				<l n="385">
+					<app>
+						<lem wit="#Transcription">owi wi boslich er tuot</lem>
+						<rdg wit="#Translation">Alas, how badly that man behaves</rdg>
+					</app>
+				</l>
+				<l n="386">
+					<app>
+						<lem wit="#Transcription">der iz niene chophet é</lem>
+						<rdg wit="#Translation">who buys none of this</rdg>
+					</app>
+				</l>
+				<l n="387">
+					<app>
+						<lem wit="#Transcription">é, der marchet zege</lem>
+						<rdg wit="#Translation">before the market to do so is gone.</rdg>
+					</app>
+				</l>
+				<l n="388">
+					<app>
+						<lem wit="#Transcription">ime chumt hernach daz zit</lem>
+						<rdg wit="#Translation">Later, the time will come,</rdg>
+					</app>
+				</l>
+				<l n="389">
+					<app>
+						<lem wit="#Transcription">é sin sele begebe den lip</lem>
+						<rdg wit="#Translation">before his soul relinquishes his body,</rdg>
+					</app>
+				</l>
+				<l n="390">
+					<app>
+						<lem wit="#Transcription">ob elleu div werlt sin eigen wære</lem>
+						<rdg wit="#Translation">when, even if he owns the whole world,</rdg>
+					</app>
+				</l>
+				<l n="391">
+					<app>
+						<lem wit="#Transcription">daz er si gerne gæbe</lem>
+						<rdg wit="#Translation">he would gladly give it away</rdg>
+					</app>
+				</l>
+				<l n="392">
+					<app>
+						<lem wit="#Transcription">truwet ers iht geniezen</lem>
+						<rdg wit="#Translation">if he believed he might be saved.</rdg>
+					</app>
+				</l>
+				<l n="393">
+					<app>
+						<lem wit="#Transcription">daz er den lip lieze</lem>
+						<rdg wit="#Translation">If he were to leave his body</rdg>
+					</app>
+				</l>
+				<l n="394">
+					<app>
+						<lem wit="#Transcription">zebuluer uerbrennen</lem>
+						<rdg wit="#Translation">and burn to powder –</rdg>
+					</app>
+				</l>
+				<l n="395">
+					<app>
+						<lem wit="#Transcription">iz ist enwiht denne</lem>
+						<rdg wit="#Translation">then that is the end of him.</rdg>
+					</app>
+				</l>
+				<l n="396">
+					<app>
+						<lem wit="#Transcription">den der tiuvel so betrivget</lem>
+						<rdg wit="#Translation">He whom the devil deceives thus,</rdg>
+					</app>
+				</l>
+				<l n="397">
+					<app>
+						<lem wit="#Transcription">dem hat er daz halmel uor gezogen</lem>
+						<rdg wit="#Translation">making him put it [his confession] off,</rdg>
+					</app>
+				</l>
+				<l n="398">
+					<app>
+						<lem wit="#Transcription">dem hat er daz halmel uor gezogen</lem>
+						<rdg wit="#Translation">that man is denied a helmet with which to defend himself,</rdg>
+					</app>
+				</l>
+				<l n="399">
+					<app>
+						<lem wit="#Transcription">unz er ingar hat betrogen</lem>
+						<rdg wit="#Translation">until he is entirely deceived.</rdg>
+					</app>
+				</l>
+				<l n="400">
+					<app>
+						<lem wit="#Transcription"><b>G</b>ot der gewære</lem>
+						<rdg wit="#Translation">True God,</rdg>
+					</app>
+				</l>
+				<l n="401">
+					<app>
+						<lem wit="#Transcription">nu uernim mich sundære</lem>
+						<rdg wit="#Translation">listen to me, a sinner!</rdg>
+					</app>
+				</l>
+				<l n="402">
+					<app>
+						<lem wit="#Transcription">nu lig ich in dirre tieffe</lem>
+						<rdg wit="#Translation">I lie in the depths,</rdg>
+					</app>
+				</l>
+				<l n="403">
+					<app>
+						<lem wit="#Transcription">an dine guote ich nu ruofe</lem>
+						<rdg wit="#Translation">absent from your goodness, and beg you</rdg>
+					</app>
+				</l>
+				<l n="404">
+					<app>
+						<lem wit="#Transcription">daz du mir bietest dine hant</lem>
+						<rdg wit="#Translation">to offer me your hand.</rdg>
+					</app>
+				</l>
+				<l n="405">
+					<app>
+						<lem wit="#Transcription">ez ist leider uil lanch</lem>
+						<rdg wit="#Translation">It was, alas, a long time ago</rdg>
+					</app>
+				</l>
+				<l n="406">
+					<app>
+						<lem wit="#Transcription">daz ich flos dine hulde</lem>
+						<rdg wit="#Translation">that I lost your love.</rdg>
+					</app>
+				</l>
+				<l n="407">
+					<app>
+						<lem wit="#Transcription">sich huoben mine sulde</lem>
+						<rdg wit="#Translation">My sins began</rdg>
+					</app>
+				</l>
+				<l n="408">
+					<app>
+						<lem wit="#Transcription">des tages do adam</lem>
+						<rdg wit="#Translation">on the day Adam</rdg>
+					</app>
+				</l>
+				<l n="409">
+					<app>
+						<lem wit="#Transcription">dir wart ungehorsam</lem>
+						<rdg wit="#Translation">disobeyed you –</rdg>
+					</app>
+				</l>
+				<l n="410">
+					<app>
+						<lem wit="#Transcription">do viel ich in daz unreht</lem>
+						<rdg wit="#Translation">then I fell into wrongdoing.</rdg>
+					</app>
+				</l>
+				<l n="411">
+					<app>
+						<lem wit="#Transcription">daz han ich sundiger chneht</lem>
+						<rdg wit="#Translation">I, a sinful knave,</rdg>
+					</app>
+				</l>
+				<l n="412">
+					<app>
+						<lem wit="#Transcription">sit uil diche giteniuwet</lem>
+						<rdg wit="#Translation">have been greedy ever since.</rdg>
+					</app>
+				</l>
+				<l n="413">
+					<app>
+						<lem wit="#Transcription">des bivte ich mine riuwe</lem>
+						<rdg wit="#Translation">I offer my repentance for this</rdg>
+					</app>
+				</l>
+				<l n="414">
+					<app>
+						<lem wit="#Transcription">zu dinen gnaden</lem>
+						<rdg wit="#Translation">to your mercy:</rdg>
+					</app>
+				</l>
+				<l n="415">
+					<app>
+						<lem wit="#Transcription">nu solt du mich inphahen</lem>
+						<rdg wit="#Translation">may you take me in!</rdg>
+					</app>
+				</l>
+				<l n="416">
+					<app>
+						<lem wit="#Transcription">durch necheine mine missetat</lem>
+						<rdg wit="#Translation">Through no misdeed of mine</rdg>
+					</app>
+				</l>
+				<l n="417">
+					<app>
+						<lem wit="#Transcription">disiv werlt mich betrogen hat</lem>
+						<rdg wit="#Translation">this world has deceived me.</rdg>
+					</app>
+				</l>
+				<l n="418">
+					<app>
+						<lem wit="#Transcription">si hat mir armen getan</lem>
+						<rdg wit="#Translation">It treated me, poor man,</rdg>
+					</app>
+				</l>
+				<l n="419">
+					<app>
+						<lem wit="#Transcription">also wil manegem man</lem>
+						<rdg wit="#Translation">like many other men</rdg>
+					</app>
+				</l>
+				<l n="420">
+					<app>
+						<lem wit="#Transcription">den sie hat beswichen</lem>
+						<rdg wit="#Translation">whom it has tricked.</rdg>
+					</app>
+				</l>
+				<l n="421">
+					<app>
+						<lem wit="#Transcription">ein teil han ich irite harte [ge] gehenget</lem>
+						<rdg wit="#Translation">At times I clung to it too closely,</rdg>
+					</app>
+				</l>
+				<l n="422">
+					<app>
+						<lem wit="#Transcription">ich uorte ich habe gelenget</lem>
+						<rdg wit="#Translation">I feared I had misguided</rdg>
+					</app>
+				</l>
+				<l n="423">
+					<app>
+						<lem wit="#Transcription">die gnist miner sele</lem>
+						<rdg wit="#Translation">the salvation of my soul.</rdg>
+					</app>
+				</l>
+				<l n="424">
+					<app>
+						<lem wit="#Transcription">gnedger herre</lem>
+						<rdg wit="#Translation">Merciful Lord,</rdg>
+					</app>
+				</l>
+				<l n="425">
+					<app>
+						<lem wit="#Transcription">nu mich dir erbarmen</lem>
+						<rdg wit="#Translation">have pity upon me,</rdg>
+					</app>
+				</l>
+				<l n="426">
+					<app>
+						<lem wit="#Transcription">ia choufest du mihc armen</lem>
+						<rdg wit="#Translation">for you bought me, a poor man,</rdg>
+					</app>
+				</l>
+				<l n="427">
+					<app>
+						<lem wit="#Transcription">mit din selbes bluote</lem>
+						<rdg wit="#Translation">with your own blood.</rdg>
+					</app>
+				</l>
+				<l n="428">
+					<app>
+						<lem wit="#Transcription">warre got durch dine guote</lem>
+						<rdg wit="#Translation">True God, in your goodness,</rdg>
+					</app>
+				</l>
+				<l n="429">
+					<app>
+						<lem wit="#Transcription">nu uernim riuwigen mich</lem>
+						<rdg wit="#Translation">listen to me, a penitent man.</rdg>
+					</app>
+				</l>
+				<l n="430">
+					<app>
+						<lem wit="#Transcription">ich wil mich ruogen wider dich</lem>
+						<rdg wit="#Translation">I wish to confess to you.</rdg>
+					</app>
+				</l>
+				<l n="431">
+					<app>
+						<lem wit="#Transcription">ich binz der wirsiste man</lem>
+						<rdg wit="#Translation">I am the worst man</rdg>
+					</app>
+				</l>
+				<l n="432">
+					<app>
+						<lem wit="#Transcription">der den name ie gewan</lem>
+						<rdg wit="#Translation">who ever obtained the name</rdg>
+					</app>
+				</l>
+				<l n="433">
+					<app>
+						<lem wit="#Transcription">daz er cristen solde sin</lem>
+						<rdg wit="#Translation">of Christian.</rdg>
+					</app>
+				</l>
+				<l n="434">
+					<app>
+						<lem wit="#Transcription">nu la du zorn din</lem>
+						<rdg wit="#Translation">Do not let your anger</rdg>
+					</app>
+				</l>
+				<l n="435">
+					<app>
+						<lem wit="#Transcription">uber mich uerworhten niht dan</lem>
+						<rdg wit="#Translation">fall upon me, a man in sin,</rdg>
+					</app>
+				</l>
+				<l n="436">
+					<app>
+						<lem wit="#Transcription">dar nah unde ich daz garnet han</lem>
+						<rdg wit="#Translation">as a result – although I have deserved it –</rdg>
+					</app>
+				</l>
+				<l n="437">
+					<app>
+						<lem wit="#Transcription">so wære ich ewichlichen ulorn</lem>
+						<rdg wit="#Translation">for then I would be lost for eternity.</rdg>
+					</app>
+				</l>
+				<l n="438">
+					<app>
+						<lem wit="#Transcription">in den sunden wart ich geborn</lem>
+						<rdg wit="#Translation">I was born in sin,</rdg>
+					</app>
+				</l>
+				<l n="439">
+					<app>
+						<lem wit="#Transcription">mit sunden mich diu muoter enphie</lem>
+						<rdg wit="#Translation">my mother conceived me in sin,</rdg>
+					</app>
+				</l>
+				<l n="440">
+					<app>
+						<lem wit="#Transcription">die ich auer in der toufe lie</lem>
+						<rdg wit="#Translation">which I then set aside in baptism,</rdg>
+					</app>
+				</l>
+				<l n="441">
+					<app>
+						<lem wit="#Transcription">da gehiez ich cristenlichiu dinch</lem>
+						<rdg wit="#Translation">when I committed myself to Christianity,</rdg>
+					</app>
+				</l>
+				<l n="442">
+					<app>
+						<lem wit="#Transcription">diu han ich gare erlogen sint</lem>
+						<rdg wit="#Translation">which I have since completely denied.</rdg>
+					</app>
+				</l>
+				<l n="443">
+					<app>
+						<lem wit="#Transcription"><b>A</b>nediger herre</lem>
+						<rdg wit="#Translation">Merciful Lord,</rdg>
+					</app>
+				</l>
+				<l n="444">
+					<app>
+						<lem wit="#Transcription">nu uorhte ich mir sere</lem>
+						<rdg wit="#Translation">I am very frightened!</rdg>
+					</app>
+				</l>
+				<l n="445">
+					<app>
+						<lem wit="#Transcription">want ich mich suldigen weiz</lem>
+						<rdg wit="#Translation">For I know I am guilty.</rdg>
+					</app>
+				</l>
+				<l n="446">
+					<app>
+						<lem wit="#Transcription">aller dinge ich mich uleiz</lem>
+						<rdg wit="#Translation">All things in which I was diligent</rdg>
+					</app>
+				</l>
+				<l n="447">
+					<app>
+						<lem wit="#Transcription">diu waren wider dir</lem>
+						<rdg wit="#Translation">were contrary to you –</rdg>
+					</app>
+				</l>
+				<l n="448">
+					<app>
+						<lem wit="#Transcription">die solt du uergeben mir</lem>
+						<rdg wit="#Translation">you should forgive me these things</rdg>
+					</app>
+				</l>
+				<l n="449">
+					<app>
+						<lem wit="#Transcription">durch miner muoter willen</lem>
+						<rdg wit="#Translation">in the name of your mother’s wishes.</rdg>
+					</app>
+				</l>
+				<l n="450">
+					<app>
+						<lem wit="#Transcription">mine sulde sint niht ringe</lem>
+						<rdg wit="#Translation">My guilt is not small,</rdg>
+					</app>
+				</l>
+				<l n="451">
+					<app>
+						<lem wit="#Transcription">ir ist laider so uil</lem>
+						<rdg wit="#Translation">alas, it is so great!</rdg>
+					</app>
+				</l>
+				<l n="452">
+					<app>
+						<lem wit="#Transcription">ein tail ich dir nu clagen wil</lem>
+						<rdg wit="#Translation">I now want to bewail some of it to you,</rdg>
+					</app>
+				</l>
+				<l n="453">
+					<app>
+						<lem wit="#Transcription">der ich nu gehugen mach</lem>
+						<rdg wit="#Translation">which I can remember at the moment.</rdg>
+					</app>
+				</l>
+				<l n="454">
+					<app>
+						<lem wit="#Transcription">unde sezze ich naht unde tach</lem>
+						<rdg wit="#Translation">And even if I sat day and night,</rdg>
+					</app>
+				</l>
+				<l n="455">
+					<app>
+						<lem wit="#Transcription">sone dorft ich niemer gedagen</lem>
+						<rdg wit="#Translation">I would never fall silent</rdg>
+					</app>
+				</l>
+				<l n="456">
+					<app>
+						<lem wit="#Transcription">ob ich allez solde sagen</lem>
+						<rdg wit="#Translation">if I were to speak of all of it.</rdg>
+					</app>
+				</l>
+				<l n="457">
+					<app>
+						<lem wit="#Transcription">wande ich uie dar zuo</lem>
+						<rdg wit="#Translation">For I took to sin</rdg>
+					</app>
+				</l>
+				<l n="458">
+					<app>
+						<lem wit="#Transcription">leider uil fruo</lem>
+						<rdg wit="#Translation">very early, alas.</rdg>
+					</app>
+				</l>
+				<l n="459">
+					<app>
+						<lem wit="#Transcription">do ich in der wigen lach</lem>
+						<rdg wit="#Translation">When I lay in my cradle,</rdg>
+					</app>
+				</l>
+				<l n="460">
+					<app>
+						<lem wit="#Transcription">done uerliez ich nie nieneiheinen tach</lem>
+						<rdg wit="#Translation">there was no day when I did not fail</rdg>
+					</app>
+				</l>
+				<l n="461">
+					<app>
+						<lem wit="#Transcription">ine getrupte mine muter</lem>
+						<rdg wit="#Translation">to plague my mother.</rdg>
+					</app>
+				</l>
+				<l n="462">
+					<app>
+						<lem wit="#Transcription">ich tete ir luze guotes</lem>
+						<rdg wit="#Translation">I was rarely good to her,</rdg>
+					</app>
+				</l>
+				<l n="463">
+					<app>
+						<lem wit="#Transcription">ich nete ir niwar leit</lem>
+						<rdg wit="#Translation">I only caused her suffering.</rdg>
+					</app>
+				</l>
+				<l n="464">
+					<app>
+						<lem wit="#Transcription">uil manege bosheit</lem>
+						<rdg wit="#Translation">Since then I have committed</rdg>
+					</app>
+				</l>
+				<l n="465">
+					<app>
+						<lem wit="#Transcription">han ich sit begangen</lem>
+						<rdg wit="#Translation">many bad deeds:</rdg>
+					</app>
+				</l>
+				<l n="466">
+					<app>
+						<lem wit="#Transcription">min lip was beuangen</lem>
+						<rdg wit="#Translation">my body was consumed</rdg>
+					</app>
+				</l>
+				<l n="467">
+					<app>
+						<lem wit="#Transcription">mit alles achuste</lem>
+						<rdg wit="#Translation">by all kinds of wickedness,</rdg>
+					</app>
+				</l>
+				<l n="468">
+					<app>
+						<lem wit="#Transcription">under minen brusten</lem>
+						<rdg wit="#Translation">and in my breast</rdg>
+					</app>
+				</l>
+				<l n="469">
+					<app>
+						<lem wit="#Transcription">so newas niuwar zorn unde nit</lem>
+						<rdg wit="#Translation">there was nothing other than anger and envy,</rdg>
+					</app>
+				</l>
+				<l n="470">
+					<app>
+						<lem wit="#Transcription">untriuwe unde uber muote</lem>
+						<rdg wit="#Translation">disloyalty and pride.</rdg>
+					</app>
+				</l>
+				<l n="471">
+					<app>
+						<lem wit="#Transcription">aller unguote</lem>
+						<rdg wit="#Translation">My heart was always full</rdg>
+					</app>
+				</l>
+				<l n="472">
+					<app>
+						<lem wit="#Transcription">was min herze ie uol</lem>
+						<rdg wit="#Translation">of all kinds of wickedness,	</rdg>
+					</app>
+				</l>
+				<l n="473">
+					<app>
+						<lem wit="#Transcription">rehter dinge weiz hol</lem>
+						<rdg wit="#Translation">it was empty of righteous things.</rdg>
+					</app>
+				</l>
+				<l n="474">
+					<app>
+						<lem wit="#Transcription"><b>D</b>em ich wol zu sprach</lem>
+						<rdg wit="#Translation">Whomever I spoke to</rdg>
+					</app>
+				</l>
+				<l n="475">
+					<app>
+						<lem wit="#Transcription">ich neuerliez iz nie durch daz</lem>
+						<rdg wit="#Translation">I never left alone</rdg>
+					</app>
+				</l>
+				<l n="476">
+					<app>
+						<lem wit="#Transcription">ich neriete ime an sine guot</lem>
+						<rdg wit="#Translation">until I had drawn him away from his goodness.</rdg>
+					</app>
+				</l>
+				<l n="477">
+					<app>
+						<lem wit="#Transcription">mit den gedanchen ich in sluch</lem>
+						<rdg wit="#Translation">I battered him with my thoughts,</rdg>
+					</app>
+				</l>
+				<l n="478">
+					<app>
+						<lem wit="#Transcription">ich honde in mit der zungen</lem>
+						<rdg wit="#Translation">I screamed at him with my tongue,</rdg>
+					</app>
+				</l>
+				<l n="479">
+					<app>
+						<lem wit="#Transcription">ich nesprach mit deme munde</lem>
+						<rdg wit="#Translation">I spoke with my mouth</rdg>
+					</app>
+				</l>
+				<l n="480">
+					<app>
+						<lem wit="#Transcription">nie war huoh unde spot</lem>
+						<rdg wit="#Translation">nothing but spite and mockery.</rdg>
+					</app>
+				</l>
+				<l n="481">
+					<app>
+						<lem wit="#Transcription">so ich scolde sprechen din lop</lem>
+						<rdg wit="#Translation">When I should have spoken in praise of you</rdg>
+					</app>
+				</l>
+				<l n="482">
+					<app>
+						<lem wit="#Transcription">so was ich unmuozech</lem>
+						<rdg wit="#Translation">I was distracted.</rdg>
+					</app>
+				</l>
+				<l n="483">
+					<app>
+						<lem wit="#Transcription">daz hastu wol gebuozet</lem>
+						<rdg wit="#Translation">You have certainly wiped out that sin –</rdg>
+					</app>
+				</l>
+				<l n="484">
+					<app>
+						<lem wit="#Transcription">des sag ich dir gande</lem>
+						<rdg wit="#Translation">I can say that to you, merciful one!</rdg>
+					</app>
+				</l>
+				<l n="485">
+					<app>
+						<lem wit="#Transcription">zechirchen ich trage</lem>
+						<rdg wit="#Translation">I [was] reluctant at church,</rdg>
+					</app>
+				</l>
+				<l n="486">
+					<app>
+						<lem wit="#Transcription">gerne ich roupte unde stal</lem>
+						<rdg wit="#Translation">I liked to rob and steal,</rdg>
+					</app>
+				</l>
+				<l n="487">
+					<app>
+						<lem wit="#Transcription">daz unreht ich uerhal</lem>
+						<rdg wit="#Translation">I said unrighteous things</rdg>
+					</app>
+				</l>
+				<l n="488">
+					<app>
+						<lem wit="#Transcription">mere dan ich solde</lem>
+						<rdg wit="#Translation">more than I should.</rdg>
+					</app>
+				</l>
+				<l n="489">
+					<app>
+						<lem wit="#Transcription">neheine maze ich newolde</lem>
+						<rdg wit="#Translation">I did not want to be at all moderate</rdg>
+					</app>
+				</l>
+				<l n="490">
+					<app>
+						<lem wit="#Transcription">mit huore began</lem>
+						<rdg wit="#Translation">in my dealings with whores, </rdg>
+					</app>
+				</l>
+				<l n="491">
+					<app>
+						<lem wit="#Transcription">dem manne ich sine konen nam</lem>
+						<rdg wit="#Translation">I took women from their husbands,</rdg>
+					</app>
+				</l>
+				<l n="492">
+					<app>
+						<lem wit="#Transcription">michel unreht ich begie</lem>
+						<rdg wit="#Translation">I committed many bad deeds.</rdg>
+					</app>
+				</l>
+				<l n="493">
+					<app>
+						<lem wit="#Transcription">nechein wip ich nelie</lem>
+						<rdg wit="#Translation">I left no woman alone</rdg>
+					</app>
+				</l>
+				<l n="494">
+					<app>
+						<lem wit="#Transcription">ich si mit ir geuallen</lem>
+						<rdg wit="#Translation">until I had fallen into sin with her,</rdg>
+					</app>
+				</l>
+				<l n="495">
+					<app>
+						<lem wit="#Transcription">mit werchen ode mit willen</lem>
+						<rdg wit="#Translation">in deeds or desires,</rdg>
+					</app>
+				</l>
+				<l n="496">
+					<app>
+						<lem wit="#Transcription">ode mit so getanen ge | baren</lem>
+						<rdg wit="#Translation">or in acts that</rdg>
+					</app>
+				</l>
+				<l n="497">
+					<app>
+						<lem wit="#Transcription">die hurlich waren</lem>
+						<rdg wit="#Translation">were worthy of whores.		</rdg>
+					</app>
+				</l>
+				<l n="498">
+					<app>
+						<lem wit="#Transcription">da mich auer iehtes umbe was</lem>
+						<rdg wit="#Translation">But since it was not only about me,<note anchored="true" type="critical"><p>This line is unclear and probably corrupted.</p></note></rdg>
+					</app>
+				</l>
+				<l n="499">
+					<app>
+						<lem wit="#Transcription">vil sciere urvmet ich daz</lem>
+						<rdg wit="#Translation">I frequently brought it about</rdg>
+					</app>
+				</l>
+				<l n="500">
+					<app>
+						<lem wit="#Transcription">daz ich alzoges guot wip</lem>
+						<rdg wit="#Translation">that a completely good woman</rdg>
+					</app>
+				</l>
+				<l n="501">
+					<app>
+						<lem wit="#Transcription">zeleibe brahte ir lip</lem>
+						<rdg wit="#Translation">brought suffering upon herself</rdg>
+					</app>
+				</l>
+				<l n="502">
+					<app>
+						<lem wit="#Transcription">mit unrehten mannen</lem>
+						<rdg wit="#Translation">with unrighteous men –</rdg>
+					</app>
+				</l>
+				<l n="503">
+					<app>
+						<lem wit="#Transcription">des han ich uil begangen</lem>
+						<rdg wit="#Translation">I committed this sin frequently.</rdg>
+					</app>
+				</l>
+				<l n="504">
+					<app>
+						<lem wit="#Transcription">ich hab mit meineiden</lem>
+						<rdg wit="#Translation">I have, through perjury,</rdg>
+					</app>
+				</l>
+				<l n="505">
+					<app>
+						<lem wit="#Transcription">getan so uil zeleide</lem>
+						<rdg wit="#Translation">done so much harm</rdg>
+					</app>
+				</l>
+				<l n="506">
+					<app>
+						<lem wit="#Transcription">miner armen sele</lem>
+						<rdg wit="#Translation">to my poor soul.</rdg>
+					</app>
+				</l>
+				<l n="507">
+					<app>
+						<lem wit="#Transcription">ich phlac des ie herre</lem>
+						<rdg wit="#Translation">I always put much effort, Lord,	</rdg>
+					</app>
+				</l>
+				<l n="508">
+					<app>
+						<lem wit="#Transcription">daz ich ein rechere was</lem>
+						<rdg wit="#Translation">into being vengeful.</rdg>
+					</app>
+				</l>
+				<l n="509">
+					<app>
+						<lem wit="#Transcription">der mir iht getet oder gesprach</lem>
+						<rdg wit="#Translation">Whoever did or spoke something against me –</rdg>
+					</app>
+				</l>
+				<l n="510">
+					<app>
+						<lem wit="#Transcription">ich rach halt andere luote dinch</lem>
+						<rdg wit="#Translation">I took revenge on those people.</rdg>
+					</app>
+				</l>
+				<l n="511">
+					<app>
+						<lem wit="#Transcription">an dinen werchen was ich blint</lem>
+						<rdg wit="#Translation">I was blind to your works,</rdg>
+					</app>
+				</l>
+				<l n="512">
+					<app>
+						<lem wit="#Transcription">tore unde stumme</lem>
+						<rdg wit="#Translation">deaf and dumb.</rdg>
+					</app>
+				</l>
+				<l n="513">
+					<app>
+						<lem wit="#Transcription">owi wi wol ich daz chunde</lem>
+						<rdg wit="#Translation">Alas, how easy it was for me</rdg>
+					</app>
+				</l>
+				<l n="514">
+					<app>
+						<lem wit="#Transcription">mit ubele gewinnen</lem>
+						<rdg wit="#Translation">to gain profit with wickedness!</rdg>
+					</app>
+				</l>
+				<l n="515">
+					<app>
+						<lem wit="#Transcription">div heilige minne</lem>
+						<rdg wit="#Translation">Sacred love</rdg>
+					</app>
+				</l>
+				<l n="516">
+					<app>
+						<lem wit="#Transcription">diu was mir ie uerre</lem>
+						<rdg wit="#Translation">was far away from me,</rdg>
+					</app>
+				</l>
+				<l n="517">
+					<app>
+						<lem wit="#Transcription">nu hete ich sie gerne</lem>
+						<rdg wit="#Translation">but now I would like it dearly.	</rdg>
+					</app>
+				</l>
+				<l n="518">
+					<app>
+						<lem wit="#Transcription">nu hore ich wol sagen</lem>
+						<rdg wit="#Translation">So listen to me say this!</rdg>
+					</app>
+				</l>
+				<l n="519">
+					<app>
+						<lem wit="#Transcription">swelh man ir nine habe</lem>
+						<rdg wit="#Translation">Even if a man had nothing,</rdg>
+					</app>
+				</l>
+				<l n="520">
+					<app>
+						<lem wit="#Transcription">er uerliese allez daz gut</lem>
+						<rdg wit="#Translation">I would cause him to lose all the wealth</rdg>
+					</app>
+				</l>
+				<l n="521">
+					<app>
+						<lem wit="#Transcription">daz er iemer geduot</lem>
+						<rdg wit="#Translation">he had ever obtained.</rdg>
+					</app>
+				</l>
+				<l n="522">
+					<app>
+						<lem wit="#Transcription">des sorge ich mir harte</lem>
+						<rdg wit="#Translation">I am very sorry for this.</rdg>
+					</app>
+				</l>
+				<l n="523">
+					<app>
+						<lem wit="#Transcription">necheineme ewarten</lem>
+						<rdg wit="#Translation">To no priest</rdg>
+					</app>
+				</l>
+				<l n="524">
+					<app>
+						<lem wit="#Transcription">chom ich niht ze behte</lem>
+						<rdg wit="#Translation">did I ever go to confess</rdg>
+					</app>
+				</l>
+				<l n="525">
+					<app>
+						<lem wit="#Transcription">nie so lutterlichen</lem>
+						<rdg wit="#Translation">as audibly and clearly</rdg>
+					</app>
+				</l>
+				<l n="526">
+					<app>
+						<lem wit="#Transcription">so ich uon rehte solde</lem>
+						<rdg wit="#Translation">as I should have done.</rdg>
+					</app>
+				</l>
+				<l n="527">
+					<app>
+						<lem wit="#Transcription">swenne ich auer denne wolde</lem>
+						<rdg wit="#Translation">And when, after confession,</rdg>
+					</app>
+				</l>
+				<l n="528">
+					<app>
+						<lem wit="#Transcription">die maz iemer iht began</lem>
+						<rdg wit="#Translation">I was supposed to show moderation</rdg>
+					</app>
+				</l>
+				<l n="529">
+					<app>
+						<lem wit="#Transcription">wande mir gnist dar ane scolde stan</lem>
+						<rdg wit="#Translation">because my salvation depended upon it,</rdg>
+					</app>
+				</l>
+				<l n="530">
+					<app>
+						<lem wit="#Transcription">des ich denne da gehiez</lem>
+						<rdg wit="#Translation">that which I had promised</rdg>
+					</app>
+				</l>
+				<l n="531">
+					<app>
+						<lem wit="#Transcription">des negeleiste ich niht</lem>
+						<rdg wit="#Translation">I failed to do.</rdg>
+					</app>
+				</l>
+				<l n="532">
+					<app>
+						<lem wit="#Transcription"><b>S</b>wenne ich solde uasten</lem>
+						<rdg wit="#Translation">Whenever I was supposed to fast,</rdg>
+					</app>
+				</l>
+				<l n="533">
+					<app>
+						<lem wit="#Transcription">so scalt ich den phaphen</lem>
+						<rdg wit="#Translation">I cursed the priest</rdg>
+					</app>
+				</l>
+				<l n="534">
+					<app>
+						<lem wit="#Transcription">der mir die buoze gebot</lem>
+						<rdg wit="#Translation">who had given me this penance.</rdg>
+					</app>
+				</l>
+				<l n="535">
+					<app>
+						<lem wit="#Transcription">zenihte uorhte ich den tot</lem>
+						<rdg wit="#Translation">I never feared death;</rdg>
+					</app>
+				</l>
+				<l n="536">
+					<app>
+						<lem wit="#Transcription">ich wande iemer solde leben</lem>
+						<rdg wit="#Translation">I thought I would live for ever.</rdg>
+					</app>
+				</l>
+				<l n="537">
+					<app>
+						<lem wit="#Transcription">ich han uil diche einem anderen gegeben</lem>
+						<rdg wit="#Translation">I often passed onto others</rdg>
+					</app>
+				</l>
+				<l n="538">
+					<app>
+						<lem wit="#Transcription">deiz mir leit wære</lem>
+						<rdg wit="#Translation">things that caused me trouble,</rdg>
+					</app>
+				</l>
+				<l n="539">
+					<app>
+						<lem wit="#Transcription">swer mir iz gebe</lem>
+						<rdg wit="#Translation">regardless who had asked me to do these things.</rdg>
+					</app>
+				</l>
+				<l n="540">
+					<app>
+						<lem wit="#Transcription">swenne ich herre ie genam</lem>
+						<rdg wit="#Translation">Whenever, Lord, I ever</rdg>
+					</app>
+				</l>
+				<l n="541">
+					<app>
+						<lem wit="#Transcription">dinen heren lichnamen</lem>
+						<rdg wit="#Translation">received your holy body,<note anchored="true" type="critical"><p>I.e. during the Eucharist</p></note></rdg>
+					</app>
+				</l>
+				<l n="542">
+					<app>
+						<lem wit="#Transcription">den behielt ich unrehte</lem>
+						<rdg wit="#Translation">I treated it unjustly – </rdg>
+					</app>
+				</l>
+				<l n="543">
+					<app>
+						<lem wit="#Transcription">daz uergip du mir drehtin</lem>
+						<rdg wit="#Translation">Lord, forgive me for this.</rdg>
+					</app>
+				</l>
+				<l n="544">
+					<app>
+						<lem wit="#Transcription">swie herre daz zit was</lem>
+						<rdg wit="#Translation">However sacred a day it was,</rdg>
+					</app>
+				</l>
+				<l n="545">
+					<app>
+						<lem wit="#Transcription">ich neuerliez iz nie durch daz</lem>
+						<rdg wit="#Translation">I never paid attention</rdg>
+					</app>
+				</l>
+				<l n="546">
+					<app>
+						<lem wit="#Transcription">ich inbegienge minnen willen</lem>
+						<rdg wit="#Translation">and continued to do as I wished,</rdg>
+					</app>
+				</l>
+				<l n="547">
+					<app>
+						<lem wit="#Transcription">uber lut unde stille</lem>
+						<rdg wit="#Translation">loudly and in silence –	</rdg>
+					</app>
+				</l>
+				<l n="548">
+					<app>
+						<lem wit="#Transcription">so han ich diche uermanet</lem>
+						<rdg wit="#Translation">in this way I often held you in contempt.</rdg>
+					</app>
+				</l>
+				<l n="549">
+					<app>
+						<lem wit="#Transcription">swa ich auer iemannen uant</lem>
+						<rdg wit="#Translation">But whenever I found someone</rdg>
+					</app>
+				</l>
+				<l n="550">
+					<app>
+						<lem wit="#Transcription">der ein irrære was</lem>
+						<rdg wit="#Translation">who had been led astray,</rdg>
+					</app>
+				</l>
+				<l n="551">
+					<app>
+						<lem wit="#Transcription">der geuiel mir aldestebaz</lem>
+						<rdg wit="#Translation">he pleased me all the more.</rdg>
+					</app>
+				</l>
+				<l n="552">
+					<app>
+						<lem wit="#Transcription">den chos ich mir zegesellen</lem>
+						<rdg wit="#Translation">I chose him as my companion.</rdg>
+					</app>
+				</l>
+				<l n="553">
+					<app>
+						<lem wit="#Transcription">nu mohte ich iemer zellen</lem>
+						<rdg wit="#Translation">I have to say</rdg>
+					</app>
+				</l>
+				<l n="554">
+					<app>
+						<lem wit="#Transcription">daz ich iz doh niemer uol zalte</lem>
+						<rdg wit="#Translation">that I will never be able to list entirely</rdg>
+					</app>
+				</l>
+				<l n="555">
+					<app>
+						<lem wit="#Transcription">da mit ich mich ualte</lem>
+						<rdg wit="#Translation">those things through which I caused myself to fall.</rdg>
+					</app>
+				</l>
+				<l n="556">
+					<app>
+						<lem wit="#Transcription"><b>D</b>es ich dir nu ueriehen han</lem>
+						<rdg wit="#Translation">All those things that I have just said to you,</rdg>
+					</app>
+				</l>
+				<l n="557">
+					<app>
+						<lem wit="#Transcription">unde alles des des ich han getan</lem>
+						<rdg wit="#Translation">and everything that I have done,</rdg>
+					</app>
+				</l>
+				<l n="558">
+					<app>
+						<lem wit="#Transcription">mit worten ode mit willen</lem>
+						<rdg wit="#Translation">in words or deeds,</rdg>
+					</app>
+				</l>
+				<l n="559">
+					<app>
+						<lem wit="#Transcription">mit deheiner slahte dinge</lem>
+						<rdg wit="#Translation">or with any kind of thing –</rdg>
+					</app>
+				</l>
+				<l n="560">
+					<app>
+						<lem wit="#Transcription">daz uergip du mir herre</lem>
+						<rdg wit="#Translation">forgive me these things, Lord,</rdg>
+					</app>
+				</l>
+				<l n="561">
+					<app>
+						<lem wit="#Transcription">durch drabes ere</lem>
+						<rdg wit="#Translation">through the honour of the grave</rdg>
+					</app>
+				</l>
+				<l n="562">
+					<app>
+						<lem wit="#Transcription">da du lage inne</lem>
+						<rdg wit="#Translation">in which you lay,	</rdg>
+					</app>
+				</l>
+				<l n="563">
+					<app>
+						<lem wit="#Transcription">unde durch dines heiligen crucis willen</lem>
+						<rdg wit="#Translation">and in the name of your holy cross,</rdg>
+					</app>
+				</l>
+				<l n="564">
+					<app>
+						<lem wit="#Transcription">da du ane neme den tot</lem>
+						<rdg wit="#Translation">on which you died</rdg>
+					</app>
+				</l>
+				<l n="565">
+					<app>
+						<lem wit="#Transcription">durch aller sundære not</lem>
+						<rdg wit="#Translation">for the suffering of sinners.</rdg>
+					</app>
+				</l>
+				<l n="566">
+					<app>
+						<lem wit="#Transcription">du rihtiz uber min fleisch</lem>
+						<rdg wit="#Translation">Judge my flesh, </rdg>
+					</app>
+				</l>
+				<l n="567">
+					<app>
+						<lem wit="#Transcription">daz der min arme geist</lem>
+						<rdg wit="#Translation">so that my poor spirit</rdg>
+					</app>
+				</l>
+				<l n="568">
+					<app>
+						<lem wit="#Transcription">iht uerlorn werde</lem>
+						<rdg wit="#Translation">is not lost!</rdg>
+					</app>
+				</l>
+				<l n="569">
+					<app>
+						<lem wit="#Transcription">is not lost!</lem>
+						<rdg wit="#Translation">I was a weak piece of earth</rdg>
+					</app>
+				</l>
+				<l n="570">
+					<app>
+						<lem wit="#Transcription">unde bin hiute so bose</lem>
+						<rdg wit="#Translation">and am today so wicked,</rdg>
+					</app>
+				</l>
+				<l n="571">
+					<app>
+						<lem wit="#Transcription">sod solt ich mich irlosen</lem>
+						<rdg wit="#Translation">that I must set myself free</rdg>
+					</app>
+				</l>
+				<l n="572">
+					<app>
+						<lem wit="#Transcription">dir herre gehuldigen</lem>
+						<rdg wit="#Translation">and turn to you, Lord,</rdg>
+					</app>
+				</l>
+				<l n="573">
+					<app>
+						<lem wit="#Transcription">aller miner sculde</lem>
+						<rdg wit="#Translation">whom, in my sin,</rdg>
+					</app>
+				</l>
+				<l n="574">
+					<app>
+						<lem wit="#Transcription">ich uil harte uersumet ware</lem>
+						<rdg wit="#Translation">I have neglected so much.</rdg>
+					</app>
+				</l>
+				<l n="575">
+					<app>
+						<lem wit="#Transcription">dem leidigen wizenære</lem>
+						<rdg wit="#Translation">To the dreadful tormentor</rdg>
+					</app>
+				</l>
+				<l n="576">
+					<app>
+						<lem wit="#Transcription">dem wurde sin gehalten ze uile</lem>
+						<rdg wit="#Translation">I have cleaved too greatly!</rdg>
+					</app>
+				</l>
+				<l n="577">
+					<app>
+						<lem wit="#Transcription">ein teil ich is nu uil </lem>
+						<rdg wit="#Translation">For some of this wrongdoing</rdg>
+					</app>
+				</l>
+				<l n="578">
+					<app>
+						<lem wit="#Transcription">gerne hie gebuozzen</lem>
+						<rdg wit="#Translation">I would now gladly like to do penance.</rdg>
+					</app>
+				</l>
+				<l n="579">
+					<app>
+						<lem wit="#Transcription">daz ich daz getun muoze</lem>
+						<rdg wit="#Translation">Holy Christ, grant it to me</rdg>
+					</app>
+				</l>
+				<l n="580">
+					<app>
+						<lem wit="#Transcription">daz gip du mir heiliger crist</lem>
+						<rdg wit="#Translation">that I might do this!</rdg>
+					</app>
+				</l>
+				<l n="581">
+					<app>
+						<lem wit="#Transcription">du da scephære bist</lem>
+						<rdg wit="#Translation">You, who are creator</rdg>
+					</app>
+				</l>
+				<l n="582">
+					<app>
+						<lem wit="#Transcription">uber himel und unde uber erde</lem>
+						<rdg wit="#Translation">of heaven and earth,</rdg>
+					</app>
+				</l>
+				<l n="583">
+					<app>
+						<lem wit="#Transcription">nu hilf mir daz ich dir noch rehter werde</lem>
+						<rdg wit="#Translation">help me become more righteous</rdg>
+					</app>
+				</l>
+				<l n="584">
+					<app>
+						<lem wit="#Transcription">uor minem ende</lem>
+						<rdg wit="#Translation">before my end.</rdg>
+					</app>
+				</l>
+				<l n="585">
+					<app>
+						<lem wit="#Transcription">des bit ich dich durch dei gebende</lem>
+						<rdg wit="#Translation">I pray for this in the name of the binding ties</rdg>
+					</app>
+				</l>
+				<l n="586">
+					<app>
+						<lem wit="#Transcription">die du doltest uon den iuden</lem>
+						<rdg wit="#Translation">you suffered at the hands of the Jews.</rdg>
+					</app>
+				</l>
+				<l n="587">
+					<app>
+						<lem wit="#Transcription">nu ruche herre mich ze uridennen</lem>
+						<rdg wit="#Translation">Lord, grant me peace	</rdg>
+					</app>
+				</l>
+				<l n="588">
+					<app>
+						<lem wit="#Transcription"><b>U</b>or dem ubelen hunde</lem>
+						<rdg wit="#Translation">from the wicked dog<note anchored="true" type="critical"><p>This and further references to the ‘dog’ refer to the devil.</p></note></rdg>
+					</app>
+				</l>
+				<l n="589">
+					<app>
+						<lem wit="#Transcription">der ie zallen stunden</lem>
+						<rdg wit="#Translation">who, at all times,</rdg>
+					</app>
+				</l>
+				<l n="590">
+					<app>
+						<lem wit="#Transcription">wiruet mit flize</lem>
+						<rdg wit="#Translation">is assiduous in his attempts</rdg>
+					</app>
+				</l>
+				<l n="591">
+					<app>
+						<lem wit="#Transcription">daz er mich beswiche</lem>
+						<rdg wit="#Translation">to deceive me.</rdg>
+					</app>
+				</l>
+				<l n="592">
+					<app>
+						<lem wit="#Transcription">er was des leider ane mir gewis</lem>
+						<rdg wit="#Translation">He was, alas, certain of me</rdg>
+					</app>
+				</l>
+				<l n="593">
+					<app>
+						<lem wit="#Transcription">des auer obe got wil nie nist</lem>
+						<rdg wit="#Translation">(although, if God wills it, it will never happen),</rdg>
+					</app>
+				</l>
+				<l n="594">
+					<app>
+						<lem wit="#Transcription">daz er mich in der hant hete</lem>
+						<rdg wit="#Translation">certain he had me in his hands.</rdg>
+					</app>
+				</l>
+				<l n="595">
+					<app>
+						<lem wit="#Transcription">er scol die selben mite</lem>
+						<rdg wit="#Translation">That same torment</rdg>
+					</app>
+				</l>
+				<l n="596">
+					<app>
+						<lem wit="#Transcription">die er mir da wolde geben</lem>
+						<rdg wit="#Translation">that he wished to give me in hell – </rdg>
+					</app>
+				</l>
+				<l n="597">
+					<app>
+						<lem wit="#Transcription">uil lange ein ubele leben</lem>
+						<rdg wit="#Translation">he should live with it for a long time in that evil place.<note anchored="true" type="critical"><p>This line doesn’t quite make sense. Waag/Schröder and Maurer render it as <i>vil lange im ubele haben</i> (which [i.e. the torment] I would have in evil circumstances for a very long time).</p></note></rdg>
+					</app>
+				</l>
+				<l n="598">
+					<app>
+						<lem wit="#Transcription">daz ich ir hie uerdienet habe</lem>
+						<rdg wit="#Translation">The part of this torment that I have deserved in this world –</rdg>
+					</app>
+				</l>
+				<l n="599">
+					<app>
+						<lem wit="#Transcription">di nim du mir hie abe</lem>
+						<rdg wit="#Translation">release me from it</rdg>
+					</app>
+				</l>
+				<l n="600">
+					<app>
+						<lem wit="#Transcription">mit ettelichen dingen</lem>
+						<rdg wit="#Translation">with various means,</rdg>
+					</app>
+				</l>
+				<l n="601">
+					<app>
+						<lem wit="#Transcription">daz ich si nine bringe</lem>
+						<rdg wit="#Translation">so that I bring none of it</rdg>
+					</app>
+				</l>
+				<l n="602">
+					<app>
+						<lem wit="#Transcription">an den urteilichen tach</lem>
+						<rdg wit="#Translation">to the day of judgement,</rdg>
+					</app>
+				</l>
+				<l n="603">
+					<app>
+						<lem wit="#Transcription">da niemen nemach</lem>
+						<rdg wit="#Translation">when no-one is able</rdg>
+					</app>
+				</l>
+				<l n="604">
+					<app>
+						<lem wit="#Transcription">sin unreht bescirmen</lem>
+						<rdg wit="#Translation">to hide their wrongdoing.</rdg>
+					</app>
+				</l>
+				<l n="605">
+					<app>
+						<lem wit="#Transcription">da muzen si gehirmen</lem>
+						<rdg wit="#Translation">Those people should desist,</rdg>
+					</app>
+				</l>
+				<l n="606">
+					<app>
+						<lem wit="#Transcription">die hie ir antsage</lem>
+						<rdg wit="#Translation">who, in this world,</rdg>
+					</app>
+				</l>
+				<l n="607">
+					<app>
+						<lem wit="#Transcription">mit ir spehlichen rede</lem>
+						<rdg wit="#Translation">in artful speeches</rdg>
+					</app>
+				</l>
+				<l n="608">
+					<app>
+						<lem wit="#Transcription">da uure bietent</lem>
+						<rdg wit="#Translation">make their excuses.</rdg>
+					</app>
+				</l>
+				<l n="609">
+					<app>
+						<lem wit="#Transcription">ob in ieman riete</lem>
+						<rdg wit="#Translation">If anyone advises them on</rdg>
+					</app>
+				</l>
+				<l n="610">
+					<app>
+						<lem wit="#Transcription">ir sele gnist</lem>
+						<rdg wit="#Translation">how to save their souls,</rdg>
+					</app>
+				</l>
+				<l n="611">
+					<app>
+						<lem wit="#Transcription">des tages iz alzoges ist</lem>
+						<rdg wit="#Translation">then at that moment it completely</rdg>
+					</app>
+				</l>
+				<l n="612">
+					<app>
+						<lem wit="#Transcription">chomen uz allerslahte rate</lem>
+						<rdg wit="#Translation">fails to be advice of any kind!	</rdg>
+					</app>
+				</l>
+				<l n="613">
+					<app>
+						<lem wit="#Transcription">so suftent si alze spate</lem>
+						<rdg wit="#Translation">Then they sigh only too late.</rdg>
+					</app>
+				</l>
+				<l n="614">
+					<app>
+						<lem wit="#Transcription"><b>N</b>uo erchenne ich sundiger chnet</lem>
+						<rdg wit="#Translation">I, sinful man, acknowledge</rdg>
+					</app>
+				</l>
+				<l n="615">
+					<app>
+						<lem wit="#Transcription">uil wol min unrehte</lem>
+						<rdg wit="#Translation">full well my wrongdoing,</rdg>
+					</app>
+				</l>
+				<l n="616">
+					<app>
+						<lem wit="#Transcription">unde alle mine sculde</lem>
+						<rdg wit="#Translation">and all my guilt.</rdg>
+					</app>
+				</l>
+				<l n="617">
+					<app>
+						<lem wit="#Transcription">herre dine hulde</lem>
+						<rdg wit="#Translation">Lord, your love</rdg>
+					</app>
+				</l>
+				<l n="618">
+					<app>
+						<lem wit="#Transcription">han ich harte uerlorn</lem>
+						<rdg wit="#Translation">I have lost completely,</rdg>
+					</app>
+				</l>
+				<l n="619">
+					<app>
+						<lem wit="#Transcription">wol garnet dinen zorn</lem>
+						<rdg wit="#Translation">and have certainly earned your anger.</rdg>
+					</app>
+				</l>
+				<l n="620">
+					<app>
+						<lem wit="#Transcription">du uil heiliger crist</lem>
+						<rdg wit="#Translation">Most holy Christ,</rdg>
+					</app>
+				</l>
+				<l n="621">
+					<app>
+						<lem wit="#Transcription">nu weiz ich uil wol daz du bist</lem>
+						<rdg wit="#Translation">I know full well that you are</rdg>
+					</app>
+				</l>
+				<l n="622">
+					<app>
+						<lem wit="#Transcription">hiute also gnedich, so do</lem>
+						<rdg wit="#Translation">just as merciful today, as you were</rdg>
+					</app>
+				</l>
+				<l n="623">
+					<app>
+						<lem wit="#Transcription">do du deme scachære</lem>
+						<rdg wit="#Translation">when you forgave the robber</rdg>
+					</app>
+				</l>
+				<l n="624">
+					<app>
+						<lem wit="#Transcription">sine meintæte uerlieze</lem>
+						<rdg wit="#Translation">for his wrongdoings</rdg>
+					</app>
+				</l>
+				<l n="625">
+					<app>
+						<lem wit="#Transcription">unde du ime uil wol geheize</lem>
+						<rdg wit="#Translation">and granted him life.</rdg>
+					</app>
+				</l>
+				<l n="626">
+					<app>
+						<lem wit="#Transcription">nuo wil ich owch wider sinen</lem>
+						<rdg wit="#Translation">I, too, wish to turn back,</rdg>
+					</app>
+				</l>
+				<l n="627">
+					<app>
+						<lem wit="#Transcription">uil gerne gewinnen</lem>
+						<rdg wit="#Translation">and win dearly,</rdg>
+					</app>
+				</l>
+				<l n="628">
+					<app>
+						<lem wit="#Transcription">herre dine hulde</lem>
+						<rdg wit="#Translation">Lord, your love,</rdg>
+					</app>
+				</l>
+				<l n="629">
+					<app>
+						<lem wit="#Transcription">unde wil mich hiute sculdigen</lem>
+						<rdg wit="#Translation">and wish to give myself, guilty man,</rdg>
+					</app>
+				</l>
+				<l n="630">
+					<app>
+						<lem wit="#Transcription">in dine gnade geben</lem>
+						<rdg wit="#Translation">to your grace,</rdg>
+					</app>
+				</l>
+				<l n="631">
+					<app>
+						<lem wit="#Transcription">unde wil dir rihten unze ich lebe</lem>
+						<rdg wit="#Translation">and to turn to you for as long as I live.</rdg>
+					</app>
+				</l>
+				<l n="632">
+					<app>
+						<lem wit="#Transcription">nvo ist ouch billich unde reht</lem>
+						<rdg wit="#Translation">So it is both good and right</rdg>
+					</app>
+				</l>
+				<l n="633">
+					<app>
+						<lem wit="#Transcription">daz duo enphahest dinen armen chouf chnet</lem>
+						<rdg wit="#Translation">that you should receive your poor servant!</rdg>
+					</app>
+				</l>
+				<l n="634">
+					<app>
+						<lem wit="#Transcription"><b>H</b>erre uber elliu dinch</lem>
+						<rdg wit="#Translation">Lord of all things,</rdg>
+					</app>
+				</l>
+				<l n="635">
+					<app>
+						<lem wit="#Transcription">dir da wol muoglich sint</lem>
+						<rdg wit="#Translation">you are easily able</rdg>
+					</app>
+				</l>
+				<l n="636">
+					<app>
+						<lem wit="#Transcription">mine sculde zeuergebenne</lem>
+						<rdg wit="#Translation">to forgive my sins.</rdg>
+					</app>
+				</l>
+				<l n="637">
+					<app>
+						<lem wit="#Transcription">nuo | uerlich mir zelebenne</lem>
+						<rdg wit="#Translation">Grant me life,</rdg>
+					</app>
+				</l>
+				<l n="638">
+					<app>
+						<lem wit="#Transcription">unze ich uerworuener scalh</lem>
+						<rdg wit="#Translation">so that I, cursed criminal,</rdg>
+					</app>
+				</l>
+				<l n="639">
+					<app>
+						<lem wit="#Transcription">uon des tiuueles gewalt</lem>
+						<rdg wit="#Translation">might from the devil’s power</rdg>
+					</app>
+				</l>
+				<l n="640">
+					<app>
+						<lem wit="#Transcription">unphure mine sele</lem>
+						<rdg wit="#Translation">set my soul free!</rdg>
+					</app>
+				</l>
+				<l n="641">
+					<app>
+						<lem wit="#Transcription">des bitte ich dich herre</lem>
+						<rdg wit="#Translation">I beg you this, Lord,</rdg>
+					</app>
+				</l>
+				<l n="642">
+					<app>
+						<lem wit="#Transcription">durch willen der eren</lem>
+						<rdg wit="#Translation">in the name of the honour</rdg>
+					</app>
+				</l>
+				<l n="643">
+					<app>
+						<lem wit="#Transcription">diner heren uferte</lem>
+						<rdg wit="#Translation">of your glorious ascension.</rdg>
+					</app>
+				</l>
+				<l n="644">
+					<app>
+						<lem wit="#Transcription">nuo gedenche ane mir der worte</lem>
+						<rdg wit="#Translation">Think, in my case, about the words</rdg>
+					</app>
+				</l>
+				<l n="645">
+					<app>
+						<lem wit="#Transcription">der du spreche dinen iungeren zu</lem>
+						<rdg wit="#Translation">that you spoke to your apostles.</rdg>
+					</app>
+				</l>
+				<l n="646">
+					<app>
+						<lem wit="#Transcription">ane dine helue nemohte niemen niht getun</lem>
+						<rdg wit="#Translation">Without your help no-one is able to do anything –</rdg>
+					</app>
+				</l>
+				<l n="647">
+					<app>
+						<lem wit="#Transcription">daz ist herre uil war</lem>
+						<rdg wit="#Translation">this, Lord, is very true!</rdg>
+					</app>
+				</l>
+				<l n="648">
+					<app>
+						<lem wit="#Transcription">Maria diu newære nie so manich iar</lem>
+						<rdg wit="#Translation">Mary would not have lived for so many years</rdg>
+					</app>
+				</l>
+				<l n="649">
+					<app>
+						<lem wit="#Transcription">inder wuosten gewesen</lem>
+						<rdg wit="#Translation">in the desert,</rdg>
+					</app>
+				</l>
+				<l n="650">
+					<app>
+						<lem wit="#Transcription">der tiere spise genese</lem>
+						<rdg wit="#Translation">sustained by the food of animals,</rdg>
+					</app>
+				</l>
+				<l n="651">
+					<app>
+						<lem wit="#Transcription">ane dine guote</lem>
+						<rdg wit="#Translation">without your goodness.<note anchored="true" type="critical"><p>The poet here refers to Mary of Egypt, a prostitute who retreats from her sins into the desert and eventually becomes a saint.</p></note></rdg>
+					</app>
+				</l>
+				<l n="652">
+					<app>
+						<lem wit="#Transcription">diu hat mir min gemuote</lem>
+						<rdg wit="#Translation">My heart was made</rdg>
+					</app>
+				</l>
+				<l n="653">
+					<app>
+						<lem wit="#Transcription">gemachet uil ringe</lem>
+						<rdg wit="#Translation">light and happy</rdg>
+					</app>
+				</l>
+				<l n="654">
+					<app>
+						<lem wit="#Transcription">so getaner dinge</lem>
+						<rdg wit="#Translation">by such things</rdg>
+					</app>
+				</l>
+				<l n="655">
+					<app>
+						<lem wit="#Transcription">di uns uon ir sint gescriben</lem>
+						<rdg wit="#Translation">that are written about her for us.</rdg>
+					</app>
+				</l>
+				<l n="656">
+					<app>
+						<lem wit="#Transcription">den du herre wil beuriden</lem>
+						<rdg wit="#Translation">Whoever you want to protect, Lord,</rdg>
+					</app>
+				</l>
+				<l n="657">
+					<app>
+						<lem wit="#Transcription">der ist behalden unde irneren</lem>
+						<rdg wit="#Translation">is cared for and kept healthy.</rdg>
+					</app>
+				</l>
+				<l n="658">
+					<app>
+						<lem wit="#Transcription">ia ist uns ir daz geleren</lem>
+						<rdg wit="#Translation">Indeed, we can learn from her,</rdg>
+					</app>
+				</l>
+				<l n="659">
+					<app>
+						<lem wit="#Transcription">daz si sich so uerre uerworht hete</lem>
+						<rdg wit="#Translation">who was so damned</rdg>
+					</app>
+				</l>
+				<l n="660">
+					<app>
+						<lem wit="#Transcription">daz si der luft inlieze</lem>
+						<rdg wit="#Translation">that the air did not allow her to enter</rdg>
+					</app>
+				</l>
+				<l n="661">
+					<app>
+						<lem wit="#Transcription">zu ierusalem in daz muonster niht</lem>
+						<rdg wit="#Translation">the temple in Jerusalem</rdg>
+					</app>
+				</l>
+				<l n="662">
+					<app>
+						<lem wit="#Transcription">unzen riuwen gihiez</lem>
+						<rdg wit="#Translation">until she committed to repent,</rdg>
+					</app>
+				</l>
+				<l n="663">
+					<app>
+						<lem wit="#Transcription">zu buzeene ir sculde</lem>
+						<rdg wit="#Translation">and to do penance for her sins.</rdg>
+					</app>
+				</l>
+				<l n="664">
+					<app>
+						<lem wit="#Transcription">do gewan si dine hulden</lem>
+						<rdg wit="#Translation">Then she won your love,</rdg>
+					</app>
+				</l>
+				<l n="665">
+					<app>
+						<lem wit="#Transcription">din gnade ir sa den wech insloz</lem>
+						<rdg wit="#Translation">and your mercy enclosed her in its path.</rdg>
+					</app>
+				</l>
+				<l n="666">
+					<app>
+						<lem wit="#Transcription">da zestete si gnoz</lem>
+						<rdg wit="#Translation">And then she rejoiced constantly,</rdg>
+					</app>
+				</l>
+				<l n="667">
+					<app>
+						<lem wit="#Transcription">du uil heiliger crist</lem>
+						<rdg wit="#Translation">most holy Christ,</rdg>
+					</app>
+				</l>
+				<l n="668">
+					<app>
+						<lem wit="#Transcription">daz du so guot bist</lem>
+						<rdg wit="#Translation">that you are so good.</rdg>
+					</app>
+				</l>
+				<l n="669">
+					<app>
+						<lem wit="#Transcription">ouch wart si selbe so guot</lem>
+						<rdg wit="#Translation">She herself also became so good</rdg>
+					</app>
+				</l>
+				<l n="670">
+					<app>
+						<lem wit="#Transcription">bist daz si der luft enbore druoc</lem>
+						<rdg wit="#Translation">that the air lifted her up,</rdg>
+					</app>
+				</l>
+				<l n="671">
+					<app>
+						<lem wit="#Transcription">der ir daz munster e benam</lem>
+						<rdg wit="#Translation">which had once kept her from the temple.</rdg>
+					</app>
+				</l>
+				<l n="672">
+					<app>
+						<lem wit="#Transcription">swen ich sundiger man</lem>
+						<rdg wit="#Translation">Whenever I, a sinful man,</rdg>
+					</app>
+				</l>
+				<l n="673">
+					<app>
+						<lem wit="#Transcription">denche an dine gnade</lem>
+						<rdg wit="#Translation">think of your grace,</rdg>
+					</app>
+				</l>
+				<l n="674">
+					<app>
+						<lem wit="#Transcription">so bin ich uro zeware</lem>
+						<rdg wit="#Translation">then I am truly happy</rdg>
+					</app>
+				</l>
+				<l n="675">
+					<app>
+						<lem wit="#Transcription">so ist mir min gemuote uil ringe</lem>
+						<rdg wit="#Translation">and my heart becomes light with joy.</rdg>
+					</app>
+				</l>
+				<l n="676">
+					<app>
+						<lem wit="#Transcription">so getaner dinge</lem>
+						<rdg wit="#Translation">Such things</rdg>
+					</app>
+				</l>
+				<l n="677">
+					<app>
+						<lem wit="#Transcription">begienge duo diche uil</lem>
+						<rdg wit="#Translation">you have often performed –</rdg>
+					</app>
+				</l>
+				<l n="678">
+					<app>
+						<lem wit="#Transcription">ich engetar noch newil</lem>
+						<rdg wit="#Translation">I neither dare nor desire</rdg>
+					</app>
+				</l>
+				<l n="679">
+					<app>
+						<lem wit="#Transcription">missetruwen diner guote</lem>
+						<rdg wit="#Translation">to mistrust your goodness.</rdg>
+					</app>
+				</l>
+				<l n="680">
+					<app>
+						<lem wit="#Transcription">der ofen der da gluote</lem>
+						<rdg wit="#Translation">The oven that glowed</rdg>
+					</app>
+				</l>
+				<l n="681">
+					<app>
+						<lem wit="#Transcription">den chuldestu den chinden</lem>
+						<rdg wit="#Translation">you made cool for the children,</rdg>
+					</app>
+				</l>
+				<l n="682">
+					<app>
+						<lem wit="#Transcription">daz in dar inne</lem>
+						<rdg wit="#Translation">so that inside it</rdg>
+					</app>
+				</l>
+				<l n="683">
+					<app>
+						<lem wit="#Transcription">div hizze nine war</lem>
+						<rdg wit="#Translation">there was no heat.<note anchored="true" type="critical"><p>The story of the youths in the fiery furnace is found in the Book of Daniel. Three young men refuse to worship the image of Nebuchadnezzar and are thrown into a furnace, but are protected by God from the flames</p></note></rdg>
+					</app>
+				</l>
+				<l n="684">
+					<app>
+						<lem wit="#Transcription">dinen engel sandest du dar</lem>
+						<rdg wit="#Translation">You sent your angel to that place</rdg>
+					</app>
+				</l>
+				<l n="685">
+					<app>
+						<lem wit="#Transcription">daz er da mit samet in sanch</lem>
+						<rdg wit="#Translation">to sing your praise with them,</rdg>
+					</app>
+				</l>
+				<l n="686">
+					<app>
+						<lem wit="#Transcription">din lop warre heilant</lem>
+						<rdg wit="#Translation">O true saviour.</rdg>
+					</app>
+				</l>
+				<l n="687">
+					<app>
+						<lem wit="#Transcription"><b>S</b>wer sich ie zuo dir geuie</lem>
+						<rdg wit="#Translation">Whoever has ever reached out for you,</rdg>
+					</app>
+				</l>
+				<l n="688">
+					<app>
+						<lem wit="#Transcription">den uerlieze du nie</lem>
+						<rdg wit="#Translation">you have never abandoned –</rdg>
+					</app>
+				</l>
+				<l n="689">
+					<app>
+						<lem wit="#Transcription">daz ist offen unde war</lem>
+						<rdg wit="#Translation">this is apparent and true!</rdg>
+					</app>
+				</l>
+				<l n="690">
+					<app>
+						<lem wit="#Transcription">daz bewarst du wold dar</lem>
+						<rdg wit="#Translation">You cared well for</rdg>
+					</app>
+				</l>
+				<l n="691">
+					<app>
+						<lem wit="#Transcription">ander guoter susannen</lem>
+						<rdg wit="#Translation">good Susanna.<note anchored="true" type="critical"><p>The story of Susanna is also found in the Book of Daniel. Susanna is falsely accused of adultery by two older men with whom she refuses to sleep; Daniel recognises her innocence.</p></note></rdg>
+					</app>
+				</l>
+				<l n="692">
+					<app>
+						<lem wit="#Transcription">diu was mit noten beuagen</lem>
+						<rdg wit="#Translation">She was trapped with torment,</rdg>
+					</app>
+				</l>
+				<l n="693">
+					<app>
+						<lem wit="#Transcription">ir wart erteilet der tot</lem>
+						<rdg wit="#Translation">she was condemned to death,</rdg>
+					</app>
+				</l>
+				<l n="694">
+					<app>
+						<lem wit="#Transcription">unze din gnade do gebot</lem>
+						<rdg wit="#Translation">until your grace commanded</rdg>
+					</app>
+				</l>
+				<l n="695">
+					<app>
+						<lem wit="#Transcription">eime kindiscem manne</lem>
+						<rdg wit="#Translation">a child-like man</rdg>
+					</app>
+				</l>
+				<l n="696">
+					<app>
+						<lem wit="#Transcription">daz er ir half danne</lem>
+						<rdg wit="#Translation">to help her from that situation</rdg>
+					</app>
+				</l>
+				<l n="697">
+					<app>
+						<lem wit="#Transcription">an allen ir scaden</lem>
+						<rdg wit="#Translation">she was in through no fault of her own.</rdg>
+					</app>
+				</l>
+				<l n="698">
+					<app>
+						<lem wit="#Transcription">di si wolden ulorn han</lem>
+						<rdg wit="#Translation">Those who wanted to condemn her</rdg>
+					</app>
+				</l>
+				<l n="699">
+					<app>
+						<lem wit="#Transcription">mit luggeme urchunde </lem>
+						<rdg wit="#Translation">through their false testimony –</rdg>
+					</app>
+				</l>
+				<l n="700">
+					<app>
+						<lem wit="#Transcription">uber di do urumedest</lem>
+						<rdg wit="#Translation">you gave them</rdg>
+					</app>
+				</l>
+				<l n="701">
+					<app>
+						<lem wit="#Transcription">die selben urteile</lem>
+						<rdg wit="#Translation">the same judgement</rdg>
+					</app>
+				</l>
+				<l n="702">
+					<app>
+						<lem wit="#Transcription">di si ir zeleide</lem>
+						<rdg wit="#Translation">that they, to make her suffer,	</rdg>
+					</app>
+				</l>
+				<l n="703">
+					<app>
+						<lem wit="#Transcription">heten geraten</lem>
+						<rdg wit="#Translation">had given her.</rdg>
+					</app>
+				</l>
+				<l n="704">
+					<app>
+						<lem wit="#Transcription">wande siz alle taten</lem>
+						<rdg wit="#Translation">For they had all acted</rdg>
+					</app>
+				</l>
+				<l n="705">
+					<app>
+						<lem wit="#Transcription">an alle ir sulde</lem>
+						<rdg wit="#Translation">without any guilt on her part.</rdg>
+					</app>
+				</l>
+				<l n="706">
+					<app>
+						<lem wit="#Transcription">des uluren si dine hulde</lem>
+						<rdg wit="#Translation">For this they lost your love.</rdg>
+					</app>
+				</l>
+				<l n="707">
+					<app>
+						<lem wit="#Transcription"><b>G</b>nediger herre</lem>
+						<rdg wit="#Translation">Merciful Lord,</rdg>
+					</app>
+				</l>
+				<l n="708">
+					<app>
+						<lem wit="#Transcription">du lostest danyelen</lem>
+						<rdg wit="#Translation">you set Daniel free,</rdg>
+					</app>
+				</l>
+				<l n="709">
+					<app>
+						<lem wit="#Transcription">der den lewen was gegeben</lem>
+						<rdg wit="#Translation">who had been thrown to the lions, </rdg>
+					</app>
+				</l>
+				<l n="710">
+					<app>
+						<lem wit="#Transcription">di uil lange waren hungerige gelegen</lem>
+						<rdg wit="#Translation">which had been lying, hungry, for a very long time</rdg>
+					</app>
+				</l>
+				<l n="711">
+					<app>
+						<lem wit="#Transcription">in einem loche</lem>
+						<rdg wit="#Translation">in a pit,</rdg>
+					</app>
+				</l>
+				<l n="712">
+					<app>
+						<lem wit="#Transcription">daz si in zebrochen</lem>
+						<rdg wit="#Translation">such that they should have</rdg>
+					</app>
+				</l>
+				<l n="713">
+					<app>
+						<lem wit="#Transcription">scolden haben sciere</lem>
+						<rdg wit="#Translation">quickly torn him to pieces.<note anchored="true" type="critical"><p>The Book of Daniel tells how Daniel is thrown into the lions’ den by Darius, King of Babylon, but miraculously saved by God.</p></note></rdg>
+					</app>
+				</l>
+				<l n="714">
+					<app>
+						<lem wit="#Transcription">do gebud duo den tieren</lem>
+						<rdg wit="#Translation">You commanded the animals</rdg>
+					</app>
+				</l>
+				<l n="715">
+					<app>
+						<lem wit="#Transcription">daz si sin nine ruorten</lem>
+						<rdg wit="#Translation">not to touch him.</rdg>
+					</app>
+				</l>
+				<l n="716">
+					<app>
+						<lem wit="#Transcription">iene si gar zeuuorten</lem>
+						<rdg wit="#Translation">They tore to pieces the people</rdg>
+					</app>
+				</l>
+				<l n="717">
+					<app>
+						<lem wit="#Transcription">di in da dar uuorten</lem>
+						<rdg wit="#Translation">who had put him there.	</rdg>
+					</app>
+				</l>
+				<l n="718">
+					<app>
+						<lem wit="#Transcription">nu entlip minen sunden</lem>
+						<rdg wit="#Translation">Now spare my soul</rdg>
+					</app>
+				</l>
+				<l n="719">
+					<app>
+						<lem wit="#Transcription">durch din selbes guote</lem>
+						<rdg wit="#Translation">through your own goodness</rdg>
+					</app>
+				</l>
+				<l n="720">
+					<app>
+						<lem wit="#Transcription">an dem wege der warheite</lem>
+						<rdg wit="#Translation">and set it on the path of truth.</rdg>
+					</app>
+				</l>
+				<l n="721">
+					<app>
+						<lem wit="#Transcription">nuo gip mir geleite</lem>
+						<rdg wit="#Translation">Show me the way</rdg>
+					</app>
+				</l>
+				<l n="722">
+					<app>
+						<lem wit="#Transcription">heim zuo minem erbe</lem>
+						<rdg wit="#Translation">home to my inheritance –</rdg>
+					</app>
+				</l>
+				<l n="723">
+					<app>
+						<lem wit="#Transcription">daz wil mir tieuel wergen</lem>
+						<rdg wit="#Translation">the devil wants to keep me from it in his stranglehold.</rdg>
+					</app>
+				</l>
+				<l n="724">
+					<app>
+						<lem wit="#Transcription"><b>D</b>u nech aller keisere</lem>
+						<rdg wit="#Translation">King of Kings,</rdg>
+					</app>
+				</l>
+				<l n="725">
+					<app>
+						<lem wit="#Transcription">uater aller weisen</lem>
+						<rdg wit="#Translation">father of all the wise,</rdg>
+					</app>
+				</l>
+				<l n="726">
+					<app>
+						<lem wit="#Transcription">uoget aller armen</lem>
+						<rdg wit="#Translation">protector of all the poor,</rdg>
+					</app>
+				</l>
+				<l n="727">
+					<app>
+						<lem wit="#Transcription">nuo la mich dir erbarmen</lem>
+						<rdg wit="#Translation">have mercy upon me,	</rdg>
+					</app>
+				</l>
+				<l n="728">
+					<app>
+						<lem wit="#Transcription">daz mir min erbe</lem>
+						<rdg wit="#Translation">for the devil wants to keep me from my inheritance</rdg>
+					</app>
+				</l>
+				<l n="729">
+					<app>
+						<lem wit="#Transcription">der tieuel wil wergen</lem>
+						<rdg wit="#Translation">in his stranglehold.</rdg>
+					</app>
+				</l>
+				<l n="730">
+					<app>
+						<lem wit="#Transcription">daz sol auer ich ein kanpf mit ime uehten</lem>
+						<rdg wit="#Translation">But if I must fight a battle with him,</rdg>
+					</app>
+				</l>
+				<l n="731">
+					<app>
+						<lem wit="#Transcription">des hilf du mir threhtin</lem>
+						<rdg wit="#Translation">Lord, then help me,</rdg>
+					</app>
+				</l>
+				<l n="732">
+					<app>
+						<lem wit="#Transcription">daz ich armer an im gesige</lem>
+						<rdg wit="#Translation">a poor man, have victory over him!</rdg>
+					</app>
+				</l>
+				<l n="733">
+					<app>
+						<lem wit="#Transcription">owi gerne ich in uon mir uertribe</lem>
+						<rdg wit="#Translation">Oh, how gladly I would drive him from me,</rdg>
+					</app>
+				</l>
+				<l n="734">
+					<app>
+						<lem wit="#Transcription">daz er mit mir nehete nechein geuerte</lem>
+						<rdg wit="#Translation">would that he had never had anything to do with me!</rdg>
+					</app>
+				</l>
+				<l n="735">
+					<app>
+						<lem wit="#Transcription">sin lon ist herte</lem>
+						<rdg wit="#Translation">His reward is a hard one –</rdg>
+					</app>
+				</l>
+				<l n="736">
+					<app>
+						<lem wit="#Transcription">ich hore wol sagen</lem>
+						<rdg wit="#Translation">indeed, I have heard it said</rdg>
+					</app>
+				</l>
+				<l n="737">
+					<app>
+						<lem wit="#Transcription">daz er niht nehabe</lem>
+						<rdg wit="#Translation">that he has nothing</rdg>
+					</app>
+				</l>
+				<l n="738">
+					<app>
+						<lem wit="#Transcription">niemanne zegebenne</lem>
+						<rdg wit="#Translation">to give to anyone</rdg>
+					</app>
+				</l>
+				<l n="739">
+					<app>
+						<lem wit="#Transcription">wane bech unde swebel</lem>
+						<rdg wit="#Translation">except fire and brimstone,</rdg>
+					</app>
+				</l>
+				<l n="740">
+					<app>
+						<lem wit="#Transcription">diu zwei wallen unde brinnen</lem>
+						<rdg wit="#Translation">which both seethe and burn,</rdg>
+					</app>
+				</l>
+				<l n="741">
+					<app>
+						<lem wit="#Transcription">der werde niemer ende</lem>
+						<rdg wit="#Translation">and of which there will be no end</rdg>
+					</app>
+				</l>
+				<l n="742">
+					<app>
+						<lem wit="#Transcription">uon ewen unze in ewen</lem>
+						<rdg wit="#Translation">for ever and ever.	</rdg>
+					</app>
+				</l>
+				<l n="743">
+					<app>
+						<lem wit="#Transcription">so getane wewen</lem>
+						<rdg wit="#Translation">Such pains</rdg>
+					</app>
+				</l>
+				<l n="744">
+					<app>
+						<lem wit="#Transcription">giebt er zemite</lem>
+						<rdg wit="#Translation">he gives as torment.</rdg>
+					</app>
+				</l>
+				<l n="745">
+					<app>
+						<lem wit="#Transcription">mir wære lieber daz erz ime hete</lem>
+						<rdg wit="#Translation">I would rather that he kept them to himself.</rdg>
+					</app>
+				</l>
+				<l n="746">
+					<app>
+						<lem wit="#Transcription"><b>I</b>ch wil ime uil gerne entinnen</lem>
+						<rdg wit="#Translation">I would dearly like to escape him</rdg>
+					</app>
+				</l>
+				<l n="747">
+					<app>
+						<lem wit="#Transcription">einen bezzeren lon gewinnen</lem>
+						<rdg wit="#Translation">and gain a better reward</rdg>
+					</app>
+				</l>
+				<l n="748">
+					<app>
+						<lem wit="#Transcription">umbe minen scephare</lem>
+						<rdg wit="#Translation">from my creator.</rdg>
+					</app>
+				</l>
+				<l n="749">
+					<app>
+						<lem wit="#Transcription">wi durft mir nuo ware</lem>
+						<rdg wit="#Translation">Oh, what need I have now</rdg>
+					</app>
+				</l>
+				<l n="750">
+					<app>
+						<lem wit="#Transcription">daz ich hete ein brust sloz</lem>
+						<rdg wit="#Translation">for a breastplate</rdg>
+					</app>
+				</l>
+				<l n="751">
+					<app>
+						<lem wit="#Transcription">uur sin ureislic scoz</lem>
+						<rdg wit="#Translation">from his sharp arrows,</rdg>
+					</app>
+				</l>
+				<l n="752">
+					<app>
+						<lem wit="#Transcription">uur sine scerphen strale</lem>
+						<rdg wit="#Translation">from his sharp arrows,</rdg>
+					</app>
+				</l>
+				<l n="753">
+					<app>
+						<lem wit="#Transcription">da mit er an twale</lem>
+						<rdg wit="#Translation">which, unhesitatingly,</rdg>
+					</app>
+				</l>
+				<l n="754">
+					<app>
+						<lem wit="#Transcription">uil diche ramet min</lem>
+						<rdg wit="#Translation">he aims at me regularly!</rdg>
+					</app>
+				</l>
+				<l n="755">
+					<app>
+						<lem wit="#Transcription">diu brustwere darf auer niht sin</lem>
+						<rdg wit="#Translation">But the breastplate must not be</rdg>
+					</app>
+				</l>
+				<l n="756">
+					<app>
+						<lem wit="#Transcription">weder horn noch bein</lem>
+						<rdg wit="#Translation">horn or bone,</rdg>
+					</app>
+				</l>
+				<l n="757">
+					<app>
+						<lem wit="#Transcription">noch stal noch stein</lem>
+						<rdg wit="#Translation">or steel or stone – </rdg>
+					</app>
+				</l>
+				<l n="758">
+					<app>
+						<lem wit="#Transcription">da wurde ich under irslagen</lem>
+						<rdg wit="#Translation">I would be killed beneath it.</rdg>
+					</app>
+				</l>
+				<l n="759">
+					<app>
+						<lem wit="#Transcription">rehten glouben sol ich haben</lem>
+						<rdg wit="#Translation">I must have correct belief</rdg>
+					</app>
+				</l>
+				<l n="760">
+					<app>
+						<lem wit="#Transcription">unde die ware riuwe</lem>
+						<rdg wit="#Translation">and true contrition,</rdg>
+					</app>
+				</l>
+				<l n="761">
+					<app>
+						<lem wit="#Transcription">unde die guoten triuwe</lem>
+						<rdg wit="#Translation">and good loyalty,</rdg>
+					</app>
+				</l>
+				<l n="762">
+					<app>
+						<lem wit="#Transcription">den stetigen gedingen</lem>
+						<rdg wit="#Translation">constant hope,</rdg>
+					</app>
+				</l>
+				<l n="763">
+					<app>
+						<lem wit="#Transcription">unde die cristenliche minne</lem>
+						<rdg wit="#Translation">and Christian love,</rdg>
+					</app>
+				</l>
+				<l n="764">
+					<app>
+						<lem wit="#Transcription">dult unde demuot</lem>
+						<rdg wit="#Translation">patience and humility:</rdg>
+					</app>
+				</l>
+				<l n="765">
+					<app>
+						<lem wit="#Transcription">die geweffene wæren uil guot</lem>
+						<rdg wit="#Translation">these weapons would be good</rdg>
+					</app>
+				</l>
+				<l n="766">
+					<app>
+						<lem wit="#Transcription">uuor den hunt uerwazen</lem>
+						<rdg wit="#Translation">in the face of the damned dog.</rdg>
+					</app>
+				</l>
+				<l n="767">
+					<app>
+						<lem wit="#Transcription">so muos mir die straze </lem>
+						<rdg wit="#Translation">Then he would have to turn his arrow</rdg>
+					</app>
+				</l>
+				<l n="768">
+					<app>
+						<lem wit="#Transcription">rumen zagelichen</lem>
+						<rdg wit="#Translation">away from me, like a coward,</rdg>
+					</app>
+				</l>
+				<l n="769">
+					<app>
+						<lem wit="#Transcription">unde al | lenthalben intwichen</lem>
+						<rdg wit="#Translation">and go away entirely.</rdg>
+					</app>
+				</l>
+				<l n="770">
+					<app>
+						<lem wit="#Transcription"><b>D</b>uo sogetane chamf wat</lem>
+						<rdg wit="#Translation">Such armour</rdg>
+					</app>
+				</l>
+				<l n="771">
+					<app>
+						<lem wit="#Transcription">herre niemen nehat</lem>
+						<rdg wit="#Translation">no-one has, Lord,</rdg>
+					</app>
+				</l>
+				<l n="772">
+					<app>
+						<lem wit="#Transcription">wane dem du sie geben wil</lem>
+						<rdg wit="#Translation">unless you give it to them.</rdg>
+					</app>
+				</l>
+				<l n="773">
+					<app>
+						<lem wit="#Transcription">nuo wære rehte daz wir dich vil</lem>
+						<rdg wit="#Translation">So it would be right for us</rdg>
+					</app>
+				</l>
+				<l n="774">
+					<app>
+						<lem wit="#Transcription">in nerchlichen beten</lem>
+						<rdg wit="#Translation">to pray to you, frequently and inwardly,</rdg>
+					</app>
+				</l>
+				<l n="775">
+					<app>
+						<lem wit="#Transcription">umbe alle die ir nine heten</lem>
+						<rdg wit="#Translation">for all those people who do not have it,</rdg>
+					</app>
+				</l>
+				<l n="776">
+					<app>
+						<lem wit="#Transcription">heten so ich sundiger nhean</lem>
+						<rdg wit="#Translation">like I do not, a sinful man.</rdg>
+					</app>
+				</l>
+				<l n="777">
+					<app>
+						<lem wit="#Transcription">swenne ich ettewenne stan</lem>
+						<rdg wit="#Translation">Whenever I stand anywhere	</rdg>
+					</app>
+				</l>
+				<l n="778">
+					<app>
+						<lem wit="#Transcription">unde uil gerne bete dich</lem>
+						<rdg wit="#Translation">and pray to you, very keenly,</rdg>
+					</app>
+				</l>
+				<l n="779">
+					<app>
+						<lem wit="#Transcription">niemer nemag ich</lem>
+						<rdg wit="#Translation">I am never able</rdg>
+					</app>
+				</l>
+				<l n="780">
+					<app>
+						<lem wit="#Transcription">uf guon minen munt</lem>
+						<rdg wit="#Translation">to open my mouth,</rdg>
+					</app>
+				</l>
+				<l n="781">
+					<app>
+						<lem wit="#Transcription">so der uerwazene hunt</lem>
+						<rdg wit="#Translation">without the cursed dog</rdg>
+					</app>
+				</l>
+				<l n="782">
+					<app>
+						<lem wit="#Transcription">newaiz wanne zuo uert</lem>
+						<rdg wit="#Translation">knowing where to go.</rdg>
+					</app>
+				</l>
+				<l n="783">
+					<app>
+						<lem wit="#Transcription">der allez guot derne wert</lem>
+						<rdg wit="#Translation">He, who likes to cleave to wealth,</rdg>
+					</app>
+				</l>
+				<l n="784">
+					<app>
+						<lem wit="#Transcription">hat mir ettewaz guot braht</lem>
+						<rdg wit="#Translation">gave me some of it </rdg>
+					</app>
+				</l>
+				<l n="785">
+					<app>
+						<lem wit="#Transcription">da er mir die guoten andaht</lem>
+						<rdg wit="#Translation">and, with it, in haste,</rdg>
+					</app>
+				</l>
+				<l n="786">
+					<app>
+						<lem wit="#Transcription">sciere mit hat entragen</lem>
+						<rdg wit="#Translation">took my good devotion,</rdg>
+					</app>
+				</l>
+				<l n="787">
+					<app>
+						<lem wit="#Transcription">die ich zu dir scolde haben</lem>
+						<rdg wit="#Translation">which I should have directed to you.</rdg>
+					</app>
+				</l>
+				<l n="788">
+					<app>
+						<lem wit="#Transcription">daz chlage ich diner guote</lem>
+						<rdg wit="#Translation">I bewail this to your goodness:</rdg>
+					</app>
+				</l>
+				<l n="789">
+					<app>
+						<lem wit="#Transcription">dv newellest mich behuoten</lem>
+						<rdg wit="#Translation">if you do not wish to protect me</rdg>
+					</app>
+				</l>
+				<l n="790">
+					<app>
+						<lem wit="#Transcription">er bringet mich in not</lem>
+						<rdg wit="#Translation">then he will bring me into trouble.</rdg>
+					</app>
+				</l>
+				<l n="791">
+					<app>
+						<lem wit="#Transcription">durch dinen heiligen tot</lem>
+						<rdg wit="#Translation">In the name of your holy death</rdg>
+					</app>
+				</l>
+				<l n="792">
+					<app>
+						<lem wit="#Transcription">gedench waz daz ware</lem>
+						<rdg wit="#Translation">think what would happen</rdg>
+					</app>
+				</l>
+				<l n="793">
+					<app>
+						<lem wit="#Transcription">da duo mich sundere</lem>
+						<rdg wit="#Translation">if you were to send me, a sinner,</rdg>
+					</app>
+				</l>
+				<l n="794">
+					<app>
+						<lem wit="#Transcription">uz werden hieze</lem>
+						<rdg wit="#Translation">away!</rdg>
+					</app>
+				</l>
+				<l n="795">
+					<app>
+						<lem wit="#Transcription">la mich des geniezen</lem>
+						<rdg wit="#Translation">Therefore let me survive!</rdg>
+					</app>
+				</l>
+				<l n="796">
+					<app>
+						<lem wit="#Transcription">daz uil wol west daz</lem>
+						<rdg wit="#Translation">You know full well</rdg>
+					</app>
+				</l>
+				<l n="797">
+					<app>
+						<lem wit="#Transcription">daz iz newederez was</lem>
+						<rdg wit="#Translation">that it was neither of those,</rdg>
+					</app>
+				</l>
+				<l n="798">
+					<app>
+						<lem wit="#Transcription">weder isen noch bein</lem>
+						<rdg wit="#Translation">neither iron nor bone:</rdg>
+					</app>
+				</l>
+				<l n="799">
+					<app>
+						<lem wit="#Transcription">iz was ein broder leim</lem>
+						<rdg wit="#Translation">it was weak clay</rdg>
+					</app>
+				</l>
+				<l n="800">
+					<app>
+						<lem wit="#Transcription">da du mich [] uester machen<note anchored="true" type="critical"><p>This should clearly be a couplet. There is no gap in the MS; either the scribe has miscopied the source or there was an error in the source.</p></note></lem>
+						<rdg wit="#Translation">from which you [made me]. [You did not want to [?]] make me stronger.</rdg>
+					</app>
+				</l>
+				<l n="801">
+					<app>
+						<lem wit="#Transcription">ich nehan necheine craft</lem>
+						<rdg wit="#Translation">I have no power	</rdg>
+					</app>
+				</l>
+				<l n="802">
+					<app>
+						<lem wit="#Transcription">wider die mich herehaft</lem>
+						<rdg wit="#Translation">with which to fight</rdg>
+					</app>
+				</l>
+				<l n="803">
+					<app>
+						<lem wit="#Transcription">ane uehtentent, tægelichen</lem>
+						<rdg wit="#Translation">those who come against me, armed, every day,</rdg>
+					</app>
+				</l>
+				<l n="804">
+					<app>
+						<lem wit="#Transcription">und mich des ewigen riches</lem>
+						<rdg wit="#Translation">and would gladly expel me</rdg>
+					</app>
+				</l>
+				<l n="805">
+					<app>
+						<lem wit="#Transcription">uil gerne bestieze</lem>
+						<rdg wit="#Translation">from the eternal kingdom,</rdg>
+					</app>
+				</l>
+				<l n="806">
+					<app>
+						<lem wit="#Transcription">ob sie diu gotheit<note anchored="true" type="critical"><p>As above.</p></note></lem>
+						<rdg wit="#Translation">if they could […]. Your godhead</rdg>
+					</app>
+				</l>
+				<l n="807">
+					<app>
+						<lem wit="#Transcription">uon himele her in erde treip</lem>
+						<rdg wit="#Translation">bore you from heaven here to earth</rdg>
+					</app>
+				</l>
+				<l n="808">
+					<app>
+						<lem wit="#Transcription">in einer armen magede buoch</lem>
+						<rdg wit="#Translation">into the womb of a poor maid,</rdg>
+					</app>
+				</l>
+				<l n="809">
+					<app>
+						<lem wit="#Transcription">zu diu daz du hvlfest uf</lem>
+						<rdg wit="#Translation">so that you could help those</rdg>
+					</app>
+				</l>
+				<l n="810">
+					<app>
+						<lem wit="#Transcription">dem der da geuallen was</lem>
+						<rdg wit="#Translation">on earth, who had fallen.	</rdg>
+					</app>
+				</l>
+				<l n="811">
+					<app>
+						<lem wit="#Transcription">daz du herre ie daz</lem>
+						<rdg wit="#Translation">That thing that you, Lord,</rdg>
+					</app>
+				</l>
+				<l n="812">
+					<app>
+						<lem wit="#Transcription">durch unsich getete</lem>
+						<rdg wit="#Translation">once did for our sake –</rdg>
+					</app>
+				</l>
+				<l n="813">
+					<app>
+						<lem wit="#Transcription">daz riet dir din guote</lem>
+						<rdg wit="#Translation">your goodness advised you to do it,</rdg>
+					</app>
+				</l>
+				<l n="814">
+					<app>
+						<lem wit="#Transcription">unde uil uerre din gnade</lem>
+						<rdg wit="#Translation">and also your grace,</rdg>
+					</app>
+				</l>
+				<l n="815">
+					<app>
+						<lem wit="#Transcription">wande wir des unwirdich waren</lem>
+						<rdg wit="#Translation">for we were unworthy of it.	</rdg>
+					</app>
+				</l>
+				<l n="816">
+					<app>
+						<lem wit="#Transcription">Wie mohte wir daz uerdienet haben</lem>
+						<rdg wit="#Translation">How could we have deserved it</rdg>
+					</app>
+				</l>
+				<l n="817">
+					<app>
+						<lem wit="#Transcription">daz du dich lieze anslahen</lem>
+						<rdg wit="#Translation">that you let yourself be beaten,</rdg>
+					</app>
+				</l>
+				<l n="818">
+					<app>
+						<lem wit="#Transcription">spoten unde spiwen</lem>
+						<rdg wit="#Translation">mocked and spat upon,</rdg>
+					</app>
+				</l>
+				<l n="819">
+					<app>
+						<lem wit="#Transcription">daz du dich lieze triben</lem>
+						<rdg wit="#Translation">that you let yourself be driven</rdg>
+					</app>
+				</l>
+				<l n="820">
+					<app>
+						<lem wit="#Transcription">an die stat da man dich hie</lem>
+						<rdg wit="#Translation">to the place where you were</rdg>
+					</app>
+				</l>
+				<l n="821">
+					<app>
+						<lem wit="#Transcription">under die da waren ie</lem>
+						<rdg wit="#Translation">counted amongst those who were also there,</rdg>
+					</app>
+				</l>
+				<l n="822">
+					<app>
+						<lem wit="#Transcription">zu den scacheren gezalt</lem>
+						<rdg wit="#Translation">amongst the robbers?</rdg>
+					</app>
+				</l>
+				<l n="823">
+					<app>
+						<lem wit="#Transcription">owi din gotlich gewalt</lem>
+						<rdg wit="#Translation">Oh, what godly power you have!</rdg>
+					</app>
+				</l>
+				<l n="824">
+					<app>
+						<lem wit="#Transcription">do wolt er sich nider neigen</lem>
+						<rdg wit="#Translation">Then he wished to bow his head</rdg>
+					</app>
+				</l>
+				<l n="825">
+					<app>
+						<lem wit="#Transcription">daz er des tages</lem>
+						<rdg wit="#Translation">so that, at that moment,<note anchored="true" type="critical"><p>Christ has previously be addressed in the second person; here the address changes to the third person (before changing back again in l. 828).</p></note></rdg>
+					</app>
+				</l>
+				<l n="826">
+					<app>
+						<lem wit="#Transcription">deste minner nine was</lem>
+						<rdg wit="#Translation">he was not diminished.</rdg>
+					</app>
+				</l>
+				<l n="827">
+					<app>
+						<lem wit="#Transcription">die helle erunder diu brach</lem>
+						<rdg wit="#Translation">He broke into hell down below.</rdg>
+					</app>
+				</l>
+				<l n="828">
+					<app>
+						<lem wit="#Transcription">do du in dem tode, himel unde erde</lem>
+						<rdg wit="#Translation">When you, in death, set all of heaven and earth</rdg>
+					</app>
+				</l>
+				<l n="829">
+					<app>
+						<lem wit="#Transcription">allez erweget werden</lem>
+						<rdg wit="#Translation">into motion,</rdg>
+					</app>
+				</l>
+				<l n="830">
+					<app>
+						<lem wit="#Transcription">steine di zebrasten dar abe</lem>
+						<rdg wit="#Translation">the stones of hell burst asunder.</rdg>
+					</app>
+				</l>
+				<l n="831">
+					<app>
+						<lem wit="#Transcription">genuo | ge erstunden an dem tage</lem>
+						<rdg wit="#Translation">Many rose up on that day</rdg>
+					</app>
+				</l>
+				<l n="832">
+					<app>
+						<lem wit="#Transcription">die uor manegen iaren</lem>
+						<rdg wit="#Translation">who, for many years, </rdg>
+					</app>
+				</l>
+				<l n="833">
+					<app>
+						<lem wit="#Transcription">gar eruulet waren</lem>
+						<rdg wit="#Translation">had been rotting.</rdg>
+					</app>
+				</l>
+				<l n="834">
+					<app>
+						<lem wit="#Transcription">sich zaten diu uber elliu diu lant</lem>
+						<rdg wit="#Translation">They spread out over all the land.</rdg>
+					</app>
+				</l>
+				<l n="835">
+					<app>
+						<lem wit="#Transcription">Sich uerwandelote daz lieht</lem>
+						<rdg wit="#Translation">The light was transformed!</rdg>
+					</app>
+				</l>
+				<l n="836">
+					<app>
+						<lem wit="#Transcription">der tivuel der newesse niht</lem>
+						<rdg wit="#Translation">The devil did not know		</rdg>
+					</app>
+				</l>
+				<l n="837">
+					<app>
+						<lem wit="#Transcription">waz er in der mennscheit was</lem>
+						<rdg wit="#Translation">who he was,<note anchored="true" type="critical"><p>I.e. Christ.</p></note> clothed as a man,</rdg>
+					</app>
+				</l>
+				<l n="838">
+					<app>
+						<lem wit="#Transcription">di er da uzen ane sach</lem>
+						<rdg wit="#Translation">whom he saw there outside of hell –</rdg>
+					</app>
+				</l>
+				<l n="839">
+					<app>
+						<lem wit="#Transcription">diu gotheit was inuerholn</lem>
+						<rdg wit="#Translation">his godhead was hidden from him.</rdg>
+					</app>
+				</l>
+				<l n="840">
+					<app>
+						<lem wit="#Transcription">daz er da hete uerstolen</lem>
+						<rdg wit="#Translation">Those who he stole away</rdg>
+					</app>
+				</l>
+				<l n="841">
+					<app>
+						<lem wit="#Transcription">im was sin sterchorre chomen</lem>
+						<rdg wit="#Translation">joined his chorus of stars.</rdg>
+					</app>
+				</l>
+				<l n="842">
+					<app>
+						<lem wit="#Transcription">daz ime ouch alle die benomen werden</lem>
+						<rdg wit="#Translation">Let those people be kept from the devil</rdg>
+					</app>
+				</l>
+				<l n="843">
+					<app>
+						<lem wit="#Transcription">die uffe dirre erden</lem>
+						<rdg wit="#Translation">who, on earth,</rdg>
+					</app>
+				</l>
+				<l n="844">
+					<app>
+						<lem wit="#Transcription">sin gebildet nach dire</lem>
+						<rdg wit="#Translation">follow your example –</rdg>
+					</app>
+				</l>
+				<l n="845">
+					<app>
+						<lem wit="#Transcription">daz gib in unde ouch mire</lem>
+						<rdg wit="#Translation">grant this to them and also to me!</rdg>
+					</app>
+				</l>
+				<l n="846">
+					<app>
+						<lem wit="#Transcription">du uil heilige gotes sun</lem>
+						<rdg wit="#Translation">You most holy son of God,</rdg>
+					</app>
+				</l>
+				<l n="847">
+					<app>
+						<lem wit="#Transcription">Qui uiuis &amp; regnas per omnia secula seculorum.</lem>
+						<rdg wit="#Translation"><i>qui vivis et regnas per omnia secula seculorum.</i><note anchored="true" type="critical"><p>‘Who live and reign for ever and ever.’</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
