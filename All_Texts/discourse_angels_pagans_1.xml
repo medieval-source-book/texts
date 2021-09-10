@@ -114,25 +114,25 @@
             </s>
             <s>
                 <app>
-                    <lem wit="#Transcription">3. ангелъ зимы, и зноеви, и осени, и весны, и лѣта, всему духу</lem>
+                    <lem wit="#Transcription">ангелъ зимы, и зноеви, и осени, и весны, и лѣта, всему духу</lem>
                     <rdg wit="#Translation">angels of winter, of heat, of autumn, spring, and summer. [And angels are appointed] to all the spirits</rdg>
                 </app>
             </s>
             <s>
                 <app>
-                    <lem wit="#Transcription">4. твари его на земли, и тайныя бездны, и суть скровены подъ землею,</lem>
+                    <lem wit="#Transcription">твари его на земли, и тайныя бездны, и суть скровены подъ землею,</lem>
                     <rdg wit="#Translation">of His creation on the earth, and to secret abysses, and to what is hidden under the earth,</rdg>
                 </app>
             </s>
             <s>
                 <app>
-                    <lem wit="#Transcription">5. и преисподьнии тьмы, и сущи връху безны,</lem>
+                    <lem wit="#Transcription">и преисподьнии тьмы, и сущи връху безны,</lem>
                     <rdg wit="#Translation">and to the darkness beneath the earth, and to the darkness in the abyss</rdg>
                 </app>
             </s>
             <s>
                 <app>
-                    <lem wit="#Transcription">6. бывшия древле верху земля, от неяже тмы, вечеръ, и нощь, и свѣтъ, и день».</lem>
+                    <lem wit="#Transcription">бывшия древле верху земля, от неяже тмы, вечеръ, и нощь, и свѣтъ, и день».</lem>
                     <rdg wit="#Translation">that was once above the earth which gave origin to the evening, and the night, and light, and the day.”</rdg>
                 </app>
             </s>
@@ -174,6 +174,8 @@
                     <rdg wit="#Translation">and they won by God's command, for they were led by an angel by God's command.</rdg>
                 </app>
             </s>
+            </p>
+            <p n="3">
             <s>
                 <app>
                     <lem wit="#Transcription">13. Аще ли кто речеть, яко аньела нѣсть у поганыхъ, да слышить, яко Олександру Макидоньскому,</lem>
@@ -344,8 +346,7 @@
             </s>
             <s>
                 <app>
-                    <lem wit="#Transcription">(...)</lem>
-                    <rdg wit="#Translation">An account of the expedition to the steppe and a victory over the Cumans follows, which is omitted here.</rdg>
+                    <gap reason="sampling" extent="several sentences"><desc>An account of the expedition to the steppe and a victory over the Cumans follows, which is omitted here.</desc></gap>
                 </app>
             </s>
             <s>
@@ -396,6 +397,8 @@
                     <rdg wit="#Translation">48. Behold, it was then that the angel inspired Vladimir, and he started to urge [other princes to make an anti-Cuman campaign], as we mentioned above. </rdg>
                 </app>
             </s>
+            </p>
+            <p n="4">
             <s>
                 <app>
                     <lem wit="#Transcription">49. Тѣмже достойно похволяти ангелы, якоже Иоанъ Златоустець рече:</lem>
@@ -486,6 +489,8 @@
                     <rdg wit="#Translation">63. similar to polished brass, and the voice of his words like the voice of a multitude. </rdg>
                 </app>
             </s>
+            </p>
+            <p n="5">
             <s>
                 <app>
                     <lem wit="#Transcription">64. Отъ нихъ есть осла отвращая и Валама от нечистого волъшьвлѣнья праздно творяй;</lem>
@@ -528,6 +533,8 @@
                     <rdg wit="#Translation">70. Do they not deserve great honor, those guarding our lives?</rdg>
                 </app>
             </s>
+            </p>
+            <p n="6">
             <s>
                 <app>
                     <lem wit="#Transcription">71. Не токмо бо хранитель языкомъ повелени быша аньгели, якоже речено бысть:</lem>
@@ -642,6 +649,8 @@
                     <rdg wit="#Translation">89. And also, “And established boundaries according to the number of angels.” </rdg>
                 </app>
             </s>
+            </p>
+            <p n="7">
             <s>
                 <app>
                     <lem wit="#Transcription">90. И се пакы, якоже Иполитъ глаголеть, толкуеть Данила:</lem>
@@ -792,7 +801,7 @@
                     <rdg wit="#Translation">114. for God's glory now, forever and ever, amen.</rdg>
                 </app>
             </s>
-
+</p>
         </body>
     </text>
 </TEI>
