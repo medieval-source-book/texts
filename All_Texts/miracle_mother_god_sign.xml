@@ -1,0 +1,1016 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Miracle of the Mother of God of the Sign (Tale of the Battle between Novgorod and Suzdal)</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Anthony Burger</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Anthony Burger</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<p>This legend about a miracle brought about by an icon of the Mother of God refers to the events of the 1169 CE battle between Novgorod and Suzdal, two kingdoms in what is now western Russia. Written accounts of the event from both sides appeared soon after the battle, and an oral legend emerged to explain Novgorod’s victory. The tale in this edition dates to the 14th or 15th century, and describes divine intervention in the conflict between Novgorod and Suzdal.</p>
+				<p>According to the text, the conflict between Novgorod and Suzdal began with a tax dispute, as a province under Novgorod’s influence chose to pay tribute to Suzdal instead of Novgorod. In response, the Novgorodians sent a tax collector to the province along with an army. This army was intercepted by the Suzdalians, resulting in a battle with heavy losses on the side of Suzdal. Following this battle, tensions escalated between the two kingdoms, and Prince Andrei of Suzdal sent his full military might to attack Novgorod. While Novgorod was under siege, the archbishop, St. John, had a vision telling him to take the icon of the Mother of God (a painted image of the Virgin Mary praying with baby Jesus in a circle in her chest) from its place in the Church of the Holy Savior on Il’ina Street and place it opposite the enemy. The following day, he held a holy gathering and told the people of Novgorod to follow its instructions. However, the icon would not move from its place until he prayed beneath it, and then it moved on its own, a miracle which all the congregation witnessed. They brought the icon out facing the enemy, and the icon “cried,” tears appearing to flow down its face, as the Mother of God prayed to save the city of Novgorod. The Suzdalian army then descended into chaos, fighting amongst themselves. The Novgorodians were able to kill the majority and capture the rest thanks to divine intervention. Afterwards, the date of the victory was made a feast day and all the people of Novgorod celebrated.</p>
+				<p>Starting in medieval times, this tale was commemorated as a holy event later incorporated into the body of religious texts of the Russian Orthodox Church, establishing the titular icon of the Mother of God as a holy object. This icon, known as the Mother of God of the Sign, remains one of the most significant icons in the Russian Orthodox Church, and has stood for Novgorodian strength and independence throughout history.</p>
+				<p>In medieval as well as modern Russian Orthodoxy, the use of religious images such as the icon of the Mother of God is an important part of church practice and popular devotion. They are used as objects of worship, but are also associated with the spiritual powers of the personages and theological concepts they depict, and thus the subject of many superstitions. The icon of The Mother of God of the Sign, a central participant in this legend, is one such icon. Through “crying,” it established itself as being spiritually more than just dry wood, and showed Novgorod the favor of the Mother of God herself. Another visual icon, The Miracle of the Mother of God of the Sign, was created in the 15th century to depict the events of this legend. On the feast day dedicated to this legendary victory, the visual icon is worshipped at the same time as the legend is read.</p>
+				<p>The text used for this translation is from a 14th or 15th century manuscript, Festal Menaion, in the St. Sofia Collection of the National Library of Russia, St. Petersburg (Софийское собрание 396, fol. 1v-4v). A digitization of the manuscript is available to view online here: http://nlr.ru/manuscripts/RA1527/elektronnyiy-katalog?ab=D684C217-677F-40DD-AADA-33FD3A80D9B1. The Festal Menaion is a liturgical book of the Eastern Orthodox Church, which contains texts used for the most important feasts that always fall on the same dates of the ecclesiastical year. The Festal Menaion is an abridged version of the Menaion, a far more extensive liturgical book which holds texts for the services for all the saints’ feasts and commemorations that have a constant date in the liturgical calendar. The legend about the miracle of the icon of the Mother of God is included in this Festal Menaion because it celebrates the feast of the icon of the Mother of God, a significant religious holiday in Novgorod. As in most liturgical manuscripts, the names of the authors and scribes are unknown. However, from the differing handwriting and orthographic conventions used in the text, it is evident that more than one scribe worked on recording or copying this tale.</p>
+				<p>Birnbaum, Henrik. "Medieval Novgorod: Political, Social, and Cultural Life in an Old Russian Urban Community". Volume 14, edited by Henrik Birnbaum, Berkeley: University of California Press, 2020, pp. 1-43.</p>
+				<p>General historical introduction to medieval Novgorod.</p>
+				<p>Bulgakov, Sergej N., and Boris Jakim. Icons and the Name of God. W.B. Eerdmans, 2012. </p>
+				<p>Theology of Orthodox icons.</p>
+				<p>Lazarev, Viktor Nikitich, Gerold Ivanovich Vzdornov, and Nancy McDarby. The Russian Icon : From Its Origins to the Sixteenth Century. English-language ed. Collegeville, Minn.: Liturgical Press, 1997.</p>
+				<p>General observations on Russian iconography.</p>
+				<p>Lelis, Arnold A. “The View from the Northwest: The Chronicle of Novgorod as the Mirror of Local Experience of Rus’ History, 1016-1333.” Russian History, vol. 32, no. 3/4, 2005, pp. 389–399. </p>
+				<p>History of medieval Novgorodian record-keeping.</p>
+			
+
+			</notesStmt>
+			<sourceDesc>
+				 <p>St. Petersburg, National Library of Russia, Софийское собрание 396, fols. 1v-4v</p>
+				<listWit>
+					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Translation">The Miracle of the Mother of God of the Sign (Tale of the Battle between Novgorod and Suzdal)</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Miracle of the Mother of God of the Sign (Tale of the Battle between Novgorod and Suzdal)" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The only element of modernization in the manuscript transcription is the introduction of spaces to the text. Otherwise, the transcription reproduces the original, including abbreviations, superscript characters, line breaks, and punctuation as closely as possible. </p>
+        			<p>The translation introduces modern English style, punctuation, and capitalization. Some alterations to the syntax have been made for the sake of clarity. Proper names have been transliterated, unless there are generally accepted English variants.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">слⷡ҇о ѡ҆ ꙁнаменїи ст҇ыѧ</lem>
+						<rdg wit="#Translation">The Tale of the Sign of the Holy</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">бц҇а в лⷮ҇ѣ • ҂ѕ̑ • х̑ • о҇ꙁ е • сътво-</lem>
+						<rdg wit="#Translation">of God in the Year 6677. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ри сѧ ꙁнаменїе великое • и҆ пресла-</lem>
+						<rdg wit="#Translation">A great omen and a glorious miracle arose</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">вное чюⷣ ѿ и҆коны ст҇ыѧ бц҇а в но-</lem>
+						<rdg wit="#Translation">from the icon of the Holy Mother of God in</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">вѣ городѣ • сице бо живоущимъ но-</lem>
+						<rdg wit="#Translation">Novgorod. The Novgorodians lived in the following way:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">вгороⷣцемь • владѣꙗхоу ѡ҆бластми</lem>
+						<rdg wit="#Translation">they ruled the regions which God entrusted to them</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">по своеи волѣ • ꙗ҆же и҆мъ бг҇ъ порꙋ-</lem>
+						<rdg wit="#Translation">according to their own will,</rdg>
+					</app>
+				</s>
+
+				<s>
+					<app>
+						<lem wit="#Transcription">чилъ • а кнѧѕѧ держахоу по своеи</lem>
+						<rdg wit="#Translation">and they had princes according to their own will.
+							<note type= "critical" anchored="true">
+								<p>Medieval Novgorodians exercised a degree of control in who became prince of Novgorod, and at least theoretically had the power to elect and depose princes, though the extent of their power is debated.</p>
+							</note>
+						</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">волѣ • бѣ же оу нихъ тогда кн҇ꙁь </lem>
+						<rdg wit="#Translation">At that time, they had the Prince</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">романъ мьстиславличь вноу-</lem>
+						<rdg wit="#Translation">Roman Mstislavich, the grandson of Izyaslav.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">къ и҆ꙁѧславль • в то же времѧ</lem>
+						<rdg wit="#Translation">At that time, </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">двинѧни не хотѧхоу дани да-</lem>
+						<rdg wit="#Translation">the Dvinians did not want to pay taxes to Novgorod,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">вати новоу городоу • но вда-</lem>
+						<rdg wit="#Translation">but submitted instead</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ша сѧ кн҇ꙁю андрѣю соусьда-</lem>
+						<rdg wit="#Translation">to Prince Andrei of Suzdal.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">скомоу • новгородьци же по-</lem>
+						<rdg wit="#Translation">And so the Novgorodians </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">слаша на двиноу • даньнико-</lem>
+						<rdg wit="#Translation">sent to the Dvina<note type= "critical" anchored="true">
+								<p>The Northern Dvina River, along which residents lived on land under Novgorod’s control.</p></note>, as a tax collector,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">мъ даньслава лаꙁоутинича</lem>
+						<rdg wit="#Translation">Danslav Lazutinich,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">а сь нимъ и҆с концовъ по стоу</lem>
+						<rdg wit="#Translation">and with him one hundred men from each district of Novgorod.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> моужь • и҆ то слышавъ кнѧꙁь </lem>
+						<rdg wit="#Translation">And, having heard this, Prince Andrei</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">аньдрѣи • посла противоу имъ</lem>
+						<rdg wit="#Translation">sent against them</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="2">
+				<s>
+					<app>
+						<lem wit="#Transcription">свои҆хъ моужѣи • тысѧщю </lem>
+						<rdg wit="#Translation">one thousand five hundred of his armed men.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и пѧтьсотъ рати • ѡ҆нѣ же </lem>
+						<rdg wit="#Translation">And they [Andrei’s men]</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">начаша переимати ихъ на бѣ-</lem>
+						<rdg wit="#Translation">intercepted them [the Novgorodians] at Beloozero,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">лѣ ѡ҆ꙁерѣ • и начаша сѧ бити и҆ по-</lem>
+						<rdg wit="#Translation">and started fighting,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">соби бг҇ъ моужемь новгоро-</lem>
+						<rdg wit="#Translation">and God helped the Novgorodian men.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">дьцемь • и҆ оубиша ѿ полкоу</lem>
+						<rdg wit="#Translation">And they killed</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">аньдрѣева • ѡ҆смисотъ</lem>
+						<rdg wit="#Translation">eight hundred men from the army of Andrei,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">моужь • а прочѣи и҆ꙁбѣго-</lem>
+						<rdg wit="#Translation">and the rest fled.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ша • а новгородьцевъ па-</lem>
+						<rdg wit="#Translation">And of the Novgorodians,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">де пѧтьнадесѧтъ моу-</lem>
+						<rdg wit="#Translation">fifteen men fell.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">жь • и҆ ѿтолѣ кнѧꙁь андрѣи </lem>
+						<rdg wit="#Translation">And thence, Prince Andrei</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">раꙁгнѣва сѧ на новгоро-</lem>
+						<rdg wit="#Translation">became angry at Novgorod,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">дъ • и҆ нача рать копити</lem>
+						<rdg wit="#Translation">and started to gather an army,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">а самъ тогда раꙁболѣ сѧ </lem>
+						<rdg wit="#Translation">but himself then fell sick,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и҆ посла сына своего рома-</lem>
+						<rdg wit="#Translation">and he sent his son Roman</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">на • к новоу городꙋ съ всею</lem>
+						<rdg wit="#Translation">to Novgorod with all</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">силою соузьдальскою • а с ни-</lem>
+						<rdg wit="#Translation">the military power of Suzdal,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">мъ кнѧꙁь мьстиславль • съ</lem>
+						<rdg wit="#Translation">and with him Prince Mstislav</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">смолнѧны • с торопчѧны • (// 2v)</lem>
+						<rdg wit="#Translation">with the people of Smolensk, with the people of Toropets,</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="3">
+				<s>
+					<app>
+						<lem wit="#Transcription">с моуромци и҆ с рѧꙁанци • и҆ с пере-</lem>
+						<rdg wit="#Translation">with the people of Murom, and with the people of Riazan’</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙗславци • и҆ с всими кн҇ꙁьми все-</lem>
+						<rdg wit="#Translation">and with the people of Pereiaslav, and with all the princes</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѧ ꙁемлѧ роускїѧ • и̑ быⷭ҇ всихъ кнѧ-</lem>
+						<rdg wit="#Translation"> of all the Rus land. And there were in total</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѕѣи • о̑ • и҃ • в҃ • новгороⷣци же слы-</lem>
+						<rdg wit="#Translation">seventy-two princes. When the Novgorodians heard</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">шахоу тоу силоу великоую грѧдꙋ-</lem>
+						<rdg wit="#Translation">about that great force coming against them,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">щюю на сѧ • и҆ печалны быша въ ско-</lem>
+						<rdg wit="#Translation">they were saddened,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">рбѣ велици и҆ сѣтованїи мноѕѣ</lem>
+						<rdg wit="#Translation">in great grief and much sorrow.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">молѧше сѧ милостивомоу бг҇оу</lem>
+						<rdg wit="#Translation">They prayed to merciful God</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и҆ пречтⷭ҇ѣи его мт҇ри ст҇ѣи гжⷭ҇ѣ </lem>
+						<rdg wit="#Translation">and his immaculate mother, Our Holy Lady, </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">б҇ци • и҆ поставиша ѡ҆строгъ</lem>
+						<rdg wit="#Translation">Mother of God. And they built a fortified wall</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѡ҆коло всего нова города • а са-</lem>
+						<rdg wit="#Translation">around the whole of Novgorod,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">мѣ сташа ꙁа ѡ҆строгомъ • и҆ и҆</lem>
+						<rdg wit="#Translation">and they themselves took up position behind the wall.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">придоша к новоу городоу соусь-</lem>
+						<rdg wit="#Translation">And the Suzdalians came to Novgorod</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">дальци • съ всими кнѧꙁьми ꙁе-</lem>
+						<rdg wit="#Translation">with all the princes of the Rus land.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">млѧ роускиѧ • стоꙗхоу же подъ </lem>
+						<rdg wit="#Translation">And they remained under the city<note type= "critical" anchored="true"><p>The Suzdalians took up place outside of the fortifications of Novgorod and laid siege to the city.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">городомъ • три дн҇и • въ второу-</lem>
+						<rdg wit="#Translation">for three days. But in the second </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ю же нощь стм҇оу а҆рхиеппⷭ҇оу</lem>
+						<rdg wit="#Translation">night of the siege, the holy archbishop</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и҆ваноу стоꙗщю и҆ молѧщю сѧ</lem>
+						<rdg wit="#Translation">John was standing and praying</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">стм҇оу ѡ҆браꙁоу гⷭ҇а наⷲ҇го і҆с҇а х҇а • ѡ҆ спа-</lem>
+						<rdg wit="#Translation">to the holy image of Our Lord Jesus Christ for </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">сенїи грⷣаⷶ сего • и҆ бⷭ҇ы въ ꙋжасѣ и слыша</lem>
+						<rdg wit="#Translation">the salvation of the city, and he was terrified when he heard</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">глⷭ҇а гл҇щь • сие иди в црк҇вь ст҇го сп҇са</lem>
+						<rdg wit="#Translation">a voice saying the following: “Go to the Church of the Holy Savior </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">на ильинꙋ оулицю и҆ воꙁми иконꙋ </lem>
+						<rdg wit="#Translation">on Il’ina street and take the icon </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">св҇тоую б҇цю • и вынеси на ѡ҆строг҇ъ </lem>
+						<rdg wit="#Translation">of the Holy Mother of God, and carry it out onto the fortified wall</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="4">
+				<s>
+					<app>
+						<lem wit="#Transcription">противоу соупостатъ • и҆ ст҇еишїи</lem>
+						<rdg wit="#Translation">built against the enemy.” And the holiest</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">архиѥпⷭ҇пъ іѡⷩа то слышавъ пребы</lem>
+						<rdg wit="#Translation">archbishop John, hearing this,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">беꙁъ сна всю нощь молѧ сѧ стѣи б҇ци</lem>
+						<rdg wit="#Translation">stayed sleepless all night praying to the Holy Virgin,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">мт҇ри б҇ии • оутру же бывшю • пове-</lem>
+						<rdg wit="#Translation">the Mother of God. When it was morning,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">лѣ быти сбору ст҇му • и сповѣда ви-</lem>
+						<rdg wit="#Translation">he ordered that there be a holy congregation of clergy.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">дѣни ѥго предъ всими • они же то-</lem>
+						<rdg wit="#Translation">He related his vision to everyone.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">гда слышавше прославиша б҇а • архи-</lem>
+						<rdg wit="#Translation">And then they, having heard this, praised God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѥппⷭ҇ъ же посла дьꙗкона своѥго с кри-</lem>
+						<rdg wit="#Translation">And the archbishop sent his deacon with the clergy</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">лосомъ • принести икону на сборъ •</lem>
+						<rdg wit="#Translation">to bring the icon to the congregation.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и шедъ же дъꙗконъ въ цр҇квъ стⷭ҇го</lem>
+						<rdg wit="#Translation">And the deacon went to the Church of the Holy Savior,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">сп҇са • и поклони сѧ ст҇ѣи бц҇и обра-</lem>
+						<rdg wit="#Translation">and bowed down to the icon of the Holy Mother of God,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙁъ хотѧ ю вꙁѧти • и не подвиже сѧ</lem>
+						<rdg wit="#Translation">wishing to take it, but the icon did not move</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">икона с мѣста своѥго • дьꙗкон же </lem>
+						<rdg wit="#Translation">from its place. And the deacon</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">въꙁврати сѧ и повѣда архиѥппу</lem>
+						<rdg wit="#Translation">returned, and told the archbishop</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">бывшеѥ • бл҇жнии же архиѥпⷭ҇пъ</lem>
+						<rdg wit="#Translation">what had happened. The blessed archbishop John,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">иванъ • слышавъ се ѿ дъꙗкона сво-</lem>
+						<rdg wit="#Translation">hearing this from his deacon,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѥго въста въскорѣ ѿ мѣста своѥго</lem>
+						<rdg wit="#Translation">immediately rose from his place</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и поиде съ всимъ ст҇мъ сборомъ и</lem>
+						<rdg wit="#Translation">and went with all the holy congregation,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">с нимъ народи мноꙁи • внидоша</lem>
+						<rdg wit="#Translation">and with many people. They entered </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">въ црк҇въ гⷭ҇а нашаго сп҇са ісⷭ҇а хⷭ҇а • и пре-</lem>
+						<rdg wit="#Translation">the Church of Our Lord, Jesus Christ the Savior, and</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">шедъ прⷣе икону гжⷭ҇а нашеꙗ прчⷭ҇ты-</lem>
+						<rdg wit="#Translation">he [the archbishop] came up to the icon of Our Lady, the most pure Mother of God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙗ бц̑а • и поклонивъ колѣнѣ млт҇ву</lem>
+						<rdg wit="#Translation">And, having kneeled, he began to pray,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">творѧще сице гл҇ше • о премлтⷭ҇ваꙗ</lem>
+						<rdg wit="#Translation">speaking thus: “Oh, most gracious Virgin,</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="5">
+				<s>
+					<app>
+						<lem wit="#Transcription">д҇во гжⷭ҇е б҇це • влчⷣце престⷭ҇аꙗ дв҇це </lem>
+						<rdg wit="#Translation">Our Lady, Mother of God, most holy immaculate Virgin,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">прчⷭ҇таꙗ • ты ѥси оупованиѥ наше</lem>
+						<rdg wit="#Translation">we rely on you</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и надежа наша • ꙁаступнице гра-</lem>
+						<rdg wit="#Translation">and you are our hope, Defender of our city,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ду нашему • стѣна и покровъ и при-</lem>
+						<rdg wit="#Translation">wall and roof and</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">бѣжище всимъ крⷭ҇тьѧномъ • на</lem>
+						<rdg wit="#Translation">sanctuary to all Christians.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">тебе бо надѣѥм сѧ мы грѣшнии</lem>
+						<rdg wit="#Translation">Because we sinners rely on you.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">моли сѧ гжⷭ҇е сн҇у своѥму б҇у нашему</lem>
+						<rdg wit="#Translation">Pray, Our Lady, to your Son, Our Lord,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙁа грⷣа нашь • не прѣдаи же насъ вра-</lem>
+						<rdg wit="#Translation">on behalf of our city. Do not surrender us</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">гомъ нашимъ грѣхъ ради наши-</lem>
+						<rdg wit="#Translation">to our enemies because of our sins,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">хъ • но оуслыши гжⷭ҇е плачь людии</lem>
+						<rdg wit="#Translation">but hear, Our Lady, the weeping of your people.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">своихъ • приими млт҇ву рабъ своихъ</lem>
+						<rdg wit="#Translation">Accept the prayer of your slaves,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">иꙁбави гжⷭ҇е грⷣа нашь ѿ всѧкого ꙁла • и</lem>
+						<rdg wit="#Translation">Our Lady, deliver our city from all evil</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѿ супостатъ нашихъ • се же ѥму иꙁре-</lem>
+						<rdg wit="#Translation">and from our enemies.” After he said this,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">кшю • начаша пѣти канⷩ҇у молⷷбонъ •</lem>
+						<rdg wit="#Translation">they started singing the canon of prayer.<note type= "critical" anchored="true"><p>Canon: A church chant honoring a saint or a holiday.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и по ѕⷮ и пⷭ҇ѣ начанаху кондакъ сице</lem>
+						<rdg wit="#Translation">And after the sixth song, they started to sing the kontakion<note type= "critical" anchored="true"><p>Kontakion: A usually short hymn in the Eastern Orthodox Church.</p></note> thus:</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">пѣти • ꙁаступнице кртⷭ҇ьꙗномъ не-</lem>
+						<rdg wit="#Translation">“Impeccable Defender of the Christians!”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">постыднаꙗ • и в то же времѧ подви</lem>
+						<rdg wit="#Translation">And at that time, the icon</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">же сѧ икона сама • народи же вид-</lem>
+						<rdg wit="#Translation">moved on its own. When the people saw this,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">вше • съ слеꙁами ꙁваху гⷭ҇и помилу-</lem>
+						<rdg wit="#Translation">they cried out in tears, “Lord have mercy!”</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и архиѥпⷭ҇пъ же приимъ своима</lem>
+						<rdg wit="#Translation">And the archbishop took it with</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">рукама и дасть двѣма дьꙗконо-</lem>
+						<rdg wit="#Translation">his hands and gave it to two deacons.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ма • и повелѣ нести прⷣе собою • а са-</lem>
+						<rdg wit="#Translation">And he ordered them to carry it in front of them,</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="6">
+				<s>
+					<app>
+						<lem wit="#Transcription">мъ поиде следъ • съ всимъ с҇тымъ</lem>
+						<rdg wit="#Translation">and he himself went behind with all the holy congregation,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">сборомъ • свѣршающе канунъ • наро-</lem>
+						<rdg wit="#Translation">singing the canon, and</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ди же оугнѣтаху сѧ въследъ иду-</lem>
+						<rdg wit="#Translation">the people following them were gathered in a crowd.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ще • и несоша икону на острогъ • идѣ</lem>
+						<rdg wit="#Translation">And they carried the icon to the walls,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">же нынѣ манастырь ст҇ыꙗ б҇ца</lem>
+						<rdg wit="#Translation">where the monastery of the Holy Mother of God now stands,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">на десатинѣ • а новгородци вси бѧ-</lem>
+						<rdg wit="#Translation">“On Tithe”<note type= "critical" anchored="true"><p>“On Tithe” refers to a historical location in Novgorod, in the same region of the city as the Cathedral of St. Sophia.</p></note>, and all the Novgorodians were staying</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ху ꙁа острогомъ • не можаху проти-</lem>
+						<rdg wit="#Translation">behind the walls, unable to charge the enemy,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ву стати • но токмо плакаху сѧ ко-</lem>
+						<rdg wit="#Translation">but each of them only wept for himself,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ждо себе • свою погыбель видѧще • по-</lem>
+						<rdg wit="#Translation">seeing his own doom,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">неже бо суꙁдалци • и оулици раꙁдѣли-</lem>
+						<rdg wit="#Translation">because the Suzdalians had even divided<note type= "critical" anchored="true"><p>When conquering the city, the Suzdalians determined which regions of Novgorod would be claimed by which cities of Suzdal.</p></note></rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ша на свои городы бывшю же часу</lem>
+						<rdg wit="#Translation">the streets among their cities. At the</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѕⷮ му • начаша приступати ко городу</lem>
+						<rdg wit="#Translation">sixth hour, all the Rus armies approached the city</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">вси полци рускыꙗ • и спустиша стрѣ-</lem>
+						<rdg wit="#Translation">and sent arrows</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">лы ꙗко дождь оумноженъ • тогда же</lem>
+						<rdg wit="#Translation">like pouring rain. Then,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">икона б҇иимъ промысломъ • обрати</lem>
+						<rdg wit="#Translation">by divine providence, the icon</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">сѧ лицемъ на грⷣа • и видѣ архиѥпⷭ҇пъ •</lem>
+						<rdg wit="#Translation">turned its face to the city.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription"> слеꙁы текуща ѿ иконы • и приꙗть</lem>
+						<rdg wit="#Translation">And the archbishop saw tears flowing from the icon</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">въ фелонъ свои • ѡ великоѥ страшно-</lem>
+						<rdg wit="#Translation">and caught them in his <hi rend="italic">phelonion</hi><note type= "critical" anchored="true"><p>Phelonion: A priest's vestment of the Eastern Orthodox Church.</p></note>. Oh great, formidable</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѥ чюⷣ • како се можаше быти ѿ суха дре-</lem>
+						<rdg wit="#Translation">miracle! How can this come from dry wood?</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ва • не суть бо слеꙁы но ꙗвлѧѥть ꙁна-</lem>
+						<rdg wit="#Translation">They weren’t mere tears, but revealed a sign</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">мениѥ своѥꙗ млⷭ҇ти • симъ бо обра-</lem>
+						<rdg wit="#Translation">of her mercy. This way</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙁомъ молит сѧ ст҇аꙗ бц҇а сн҇у своѥ-</lem>
+						<rdg wit="#Translation">the Holy Mother of God prayed to her Son</rdg>
+					</app>
+				</s>
+			</p>
+			<p n="7">
+				<s>
+					<app>
+						<lem wit="#Transcription">му и б҇у нашему ꙁа грⷣа нашь • не дати</lem>
+						<rdg wit="#Translation">and Our Lord for our city, not to give it up in</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">в поруганиѥ супротивнымь • то-</lem>
+						<rdg wit="#Translation">desecration to the enemy.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">гда гь б҇ъ нашь • оумилосерди сѧ</lem>
+						<rdg wit="#Translation">Then Our Lord showed his mercy to our city</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">на грⷣа нашь • млт҇вми ст҇ыꙗ бц҇а •</lem>
+						<rdg wit="#Translation">thanks to the prayers of the Holy Mother of God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">пусти гнѣвъ свои на всѧ полкы</lem>
+						<rdg wit="#Translation">He unleashed his wrath on all the Rus armies,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">рускыꙗ • и покры ихъ тма • ꙗко </lem>
+						<rdg wit="#Translation">and darkness covered them, as</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">же бы при моисѣи • ѥгда бо прове-</lem>
+						<rdg wit="#Translation">happened to Moses when God led</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">де б҇ъ • сквоꙁѣ чермьноѥ море жиды</lem>
+						<rdg wit="#Translation">the Jews through the Red Sea</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">а фараона погруꙁи • тако и на сихъ</lem>
+						<rdg wit="#Translation">and drowned Pharaoh. And in the same way,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">нападе трепетъ и оужасть • и о-</lem>
+						<rdg wit="#Translation">they were attacked by awe and terror.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">слѣпоша вси • и начаша сѧ бити</lem>
+						<rdg wit="#Translation">And they all went blind, and they started fighting</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">межи собою • се же новгородци ви-</lem>
+						<rdg wit="#Translation">each other. When the Novgorodians saw this,</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">дѣвше •  иꙁыдоша на поле • ови иꙁбѣ-</lem>
+						<rdg wit="#Translation">they went out to the battlefield. They killed some and </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ша • а прочихъ живы иꙁымаша •</lem>
+						<rdg wit="#Translation">captured others alive.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ѿтолѣ ѿꙗт сѧ слава суꙁдальска-</lem>
+						<rdg wit="#Translation">This way, the fame and honor of Suzdal</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙗ и чтⷭ҇ь • новгородъ же иꙁбавленъ</lem>
+						<rdg wit="#Translation">was taken away, while Novgorod was saved</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">быⷭ҇ • млт҇вми ст҇ыꙗ бц҇а • ст҇ыи же</lem>
+						<rdg wit="#Translation">by the prayers of the Holy Mother of God.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">архиѥпⷭ҇пъ иванъ створи праꙁни-</lem>
+						<rdg wit="#Translation">And the holy archbishop John created a holy</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">къ свѣтелъ • начаша праꙁдновати</lem>
+						<rdg wit="#Translation">holiday, and the whole of Novgorod started celebrating it</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">всимь новымь горⷣомъ • вси мужи</lem>
+						<rdg wit="#Translation">– all Novgorodian men, women, and children –</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">новгородци жены и дѣти • чтⷭ҇ному</lem>
+						<rdg wit="#Translation">the holiday of the Venerable Sign</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">ꙁнамению ст҇ыиꙗ бц҇а б҇у же наше •</lem>
+						<rdg wit="#Translation">of the Holy Mother of God. Glory to our God!</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>   

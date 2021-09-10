@@ -1,151 +1,1071 @@
-<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI
-[
-<!ENTITY % Menota_entities SYSTEM
-'../menota/menota-entities.txt'   >
-%Menota_entities;]
->
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM '../menota/menota-entities.txt'>
+    %Menota_entities;
+]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
-				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
-				</respStmt>
-				<respStmt>
-					<resp>Translation by</resp>
-					<name></name>
-				</respStmt>
-				<respStmt>
-					<resp>Introduction by</resp>
-					<name></name>
-				</respStmt>
-				<respStmt>
-					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
-				<availability>
-					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
-				</availability>
-			</publicationStmt>
-			<notesStmt>
-				<p><!--Add in introduction here, in paragraphs. Include: "Introduction to the Text", "Introduction to the Source" (where present), and "Further Reading". Each bibliographic entry should be its own paragraph. Section titles should not be included.--></p>
-			</notesStmt>
-			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
-				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
-				</listWit>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
-            </p> 
-         	</projectDesc>
-			<editorialDecl>
-	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
-        		<interpretation>
-        			<p><!--Add in "About this edition" here.--></p>
-        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
-				</interpretation>
-				<segmentation>
-				</segmentation>
-			</editorialDecl>
-			<variantEncoding method="parallel-segmentation" location="internal"/>
-		</encodingDesc>
-	</teiHeader>
-	<text>
-		<front>
-			<head>
-				<title type="main">
-					<app>
-						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
-						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
-					</app>
-				</title>
-				<title type="sub">
-					<app>
-						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
-						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
-					</app>
-				</title>
-			</head>
-		</front>
-		<body>
-			<lg n="1" type="stanza">
-				<l n="1">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
-					</app>
-				</l>
-				<l n="2">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="3">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="4">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="5">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-			</lg>
-			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="7">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="8">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="9">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="10">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-			</lg>
-		</body>
-	</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Discourse on Angels and Pagans</title>
+                <author>Anonymous</author>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name>O. V. Tvorogov</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name>Yulia Mikhailova</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded in TEI P5 XML by</resp>
+                    <name>Dante Zhu</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <hi rend="italic">The Global Medieval Sourcebook</hi>
+                </publisher>
+                <availability>
+                    <p>
+                        <hi rend="italic">The Global Medieval Sourcebook</hi>
+                        is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <p>The “Discourse on Angels and Pagans” is found in the entries for the years 1110 and 1111  in the Hypatian Chronicle, an East Slavonic compilation believed to have been produced in the late thirteenth or early fourteenth century. The first part of the Hypatian is the text conventionally called the Russian Primary Chronicle in English. “Russian” in this case is a misnomer, because it refers to Rus (Rus'), the medieval realm whose heritage is claimed by Russia, Ukraine, and Belarus.</p>
+                <p>The scholarly consensus is that the Primary Chronicle was compiled in Kiev (Kyev) in the 1110s; its earliest surviving copy is from 1377. There are several redactions of the Primary Chronicle. Differences between them are rather minor, with the exception of the entries for 1110 and 1111.</p>
+                <p>In all the redactions, these entries report a military expedition into the steppe launched from Kiev, with the intention to retaliate for past, and prevent future, raids by the Cumans  (also known as Kipchaks, Qipchaqs, and Polovtsians), a pagan nomadic people living to the south of Rus. According to the chronicler, the chief organizer of this expedition was Prince Vladimir Monomakh (1152-1125). He was inspired to fight the Cumans by an angel who appeared in the Kievan Caves monastery in the form of a fiery pillar; during the battle, angels helped the Rus troops. This narrative is present in all the redactions of the Primary Chronicle. However, only the version found in the Hypatian compilation contains the lengthy discourse on angels and pagans presented here.</p>
+                <p>Its manner of argumentation  is typical of medieval treatises: the author interprets quotations from Christian Scripture, patristic literature, and other authoritative texts; however, it is hard to find parallels to the subject matter and main thesis of this discourse.</p>
+                <p>The author begins with a quotation from the fourth-century church father Epiphanius of Salamis, stating that the elements and forces of nature each have their own angel; he then extrapolates from this statement to argue that, therefore, angels are also appointed to countries and peoples, including the Cumans. To refute an objection that pagans cannot have angels, the author uses the medieval legend about an angel guiding Alexander the Great in his conquests. Next, to argue that an angel can be appointed to a collectivity and not only to an individual, he  refers to the “angel of the church in Smyrna” from the New Testament (Rev 2:8), and then uses Biblical quotations to show that the Archangel Michael was appointed as the angel of the Jewish people as a whole, and that another angel was appointed to the Persians.</p>
+                <p>Apparently, the argument is as follows. If angels were appointed to the Jewish people and to churches, then it is possible for a collectivity to have an angel. If Alexander the Great was led by an angel, then it is possible for a pagan to have an angel. Therefore, it is possible for a pagan collectivity to have its own angel, which is further confirmed by references to the angel of the Persians. Likewise, the Cumans have their own angel, who leads them when they make war on Rus, which they do on God’s command, as punishment for sins of the Rus people.</p>
+                <p>The unknown medieval Christian author offers an inclusive, integrative view of the world, where God-appointed angels watch over every force of nature and every ethnic group, regardless of its religion. Pagans, including those fighting against the Christians, are not inherently evil; they play a role in God's plan for humanity. The example of Alexander the Great, whose portrayal in the Primary Chronicle is very laudatory, shows that pagans sometimes represent forces of good. A parallel with Alexander casts a positive light on the Cumans, which, taken together with the fighting against them reported in the same chronicle entries, creates a complex, rich picture of relations between Christian Rus and the pagan steppe.</p>
+                <p>So far, this text has received very little scholarly attention. Back in 1957, André Vaillant made an important contribution when he identified the sources of some of the erudite quotations in the entries for 1110-1111. However, he viewed the discourse as a whole as an inept string of random passages from unrelated texts. The next work on the subject appeared in 2001, when Alan Timberlake interpreted the entries for 1110-1111 as evidence for a “dialectic” worldview of the chronicler, who believed that angels may sometimes be “malevolent,” although the angel of the Cumans is never described as malevolent in the original text.</p>
+                <p>Yulia Mikhailova (the present translator) interprets the discourse on angels as a statement on the inter-ethnic and inter-faith relations in southern Rus, which was a borderland between the Christian sedentary agriculturalists and pagan nomadic pastoralists. Their relations included not only military conflicts, but also alliances, intermarriages, and other peaceful interactions. The discourse on angels and pagans explained how such interactions were possible in spite of intermittent hostilities.</p>
+                <p>The Hypatian Chronicle compilation containing the redaction of the Primary Chronicle with the discourse on angels and pagans survived in the Hypatian Codex (datable to the 1420s), the Khlebnikov Codex (datable to the 1550s-1660s), and in several copies of the Khlebnikov. It is unknown when the discourse on angels and pagans was composed. Numerous errors of inattention suggest that the Hypatian scribe copied an earlier text rather than composing the discourse himself. The discourse is placed at the end of the text of the early twelfth-century Primary Chronicle, which, in the Hypatian, transitions into the Kievan Chronicle, believed to have been compiled in 1198/9. Both of these twelfth-century chronicles, the Primary and Kievan, devote much attention to relations with the pagan neighbors of Rus, making it probable that the “Discourse on Angels and Pagans,” which conceptualizes these relations, was composed in the twelfth century.</p>
+                <p>Ostrowski, Donald, ed. and coll., with David Birnbaum and Horace G. Lunt. The Povest' vremennykh let: An Interlinear Collation and Paradosis. Harvard Library of Early Ukrainian Literature, Text Series 10. Cambridge, MA: Harvard UP, 2003. Available at https://donostrowski2.bitbucket.io/pvl/index.html. Accessed 14 July 2021. Introduction, pp. xvii-lxxii, provides a general information on the Primary Chronicle.</p>
+                <p>Griffin, Sean. The Liturgical Past in Byzantium and Early Rus. Cambridge: Cambridge UP, 2019. 
+                    Chapter 2  “The Rus Primary Chronicle,” pp. 35-61, provides a general information on the Primary Chronicle.</p>
+                <p>Golden, Peter. “Nomads and Their Sedentary Neighbors in Pre-Činggisid Eurasia.” Archivum Eurasiae Medii Aevi, vol. 7, 1987-1991, pp. 41-81. Available at https://www.academia.edu/37198252/Golden_Nomads_and_Their_Sedentary_Neighbors_in_Pre_%C4%8Cinggisid_Eurasia_Published_in_Archivum_Eurasiae_Medii_Aevi_VII_1987_1991_41_81 . Accessed 14 July 2021.</p>
+                <p>See pp. 54-68 for an overview of relations between Rus and the steppe nomads.</p>
+                <p>Mikhailova, Yulia. “‘Christians and Pagans’ in the Chronicles of Pre-Mongolian Rus: Beyond the
+                    Dichotomy of ‘Good Us’ and ‘Bad Them’.” Geschichte der Slavia Asiatica: Quellenkundliche Probleme. Eds. Christian Lübke, Ilmira Miftakhova and Wolfram von Scheliha. Leipzig: Leipziger Universitätsverlag, 2013, pp. 22-51. Available at https://www.academia.edu/9770800/Correct_version_of_Christians_and_Pagans_in_the_Chronicles_of_Pre_Mongolian_Rus_Beyond_the_Dichotomy_of_Good_Us_and_Bad_Them_In_Geschichte_der_Slavia_Asiatica_Quellenkundliche_Probleme_edited_by_Christian_L%C3%BCbke_Ilmira_Miftakhova_and_Wolfram_von_Scheliha_50_79. Accessed 14 July 2021.
+                    </p>
+                <p>Examines representations of the steppe nomads in the twelfth – early thirteenth-century East Slavonic sources. For the discourse on angels and pagans, see p. 73.</p>
+                <p>-- “Angels for Pagans: The Discourse on Angels in the Hypatian Codex as a Conceptualization of Cooperation between Christian Slavs and Pagan Turks in Southern Rus.” 2014 Midwest Slavic Conference. https://kb.osu.edu/handle/1811/61177. Accessed 14 July 2021.</p>
+                <p>Timberlake, Alan. “Redactions of the Primary Chronicle,” Russkii iazyk v nauchnom osveshchenii, vol. 1, 2001, pp. 196-218. For the discourse on angels and pagans, see pp. 217-18.</p>
+                </notesStmt>
+            <sourceDesc>
+                <p>
+                    Tvorogov, O. V., ed. Povest vremennykh let. Biblioteka literatury drevnei Rusi, vol. 1, edited by D. S. Likhachev et al. St. Petersburg: Nauka, 1997. pp. 62-315. The translated entries are found on pp. 296-304. Available as an electronic text at http://lib.pushkinskijdom.ru/Default.aspx?tabid=4869. Accessed 14 July 2021.
+                </p>
+                <p>The series Polnoe sobranie russkikh letopisei (The Complete collection of Russian Chronicles) cited below contains the best scholarly editions of East Slavonic chronicles, including A. A. Shakhmatov's edition of the Hypatian. However, the old Cyrillic script and representations of ligatures and other features of medieval manuscripts present in this edition make it very difficult to use it as a basis for a transcription that would be readable with most internet browsers. Therefore, for the transcription, I used the online open-source edition by Tvorogov, which presents the same text as Shakhmatov's edition, but employs modern Cyrillic characters, simplified orthography, sentence breaks, and modern punctuation. Sentence breaks and punctuation in my transcription are slightly different from those in Tvorogov's edition.</p>
+                <listWit>
+                    <witness xml:id="Transcription">
+                        <!--Title in original language-->
+                    </witness>
+                    <witness xml:id="Translation">
+                        Discourse on Angels and Pagans
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    "Discourse on Angels and Pagans" is published by
+                    <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>
+                    , a free, open access, and open source compendium of medieval texts in their original languages and in English translation.
+                    <hi rend="italic">GMS</hi>
+                    comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The
+                    <hi rend="italic">GMS</hi>
+                    platform includes critical introductions as well as sources for further reading.
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+                <interpretation>
+                    <p>The original text presented here is based on the edition by O. V. Tvorogov: Povest vremennykh let. Biblioteka literatury drevnei Rusi, vol. 1, edited by D. S. Likhachev et al. St. Petersburg: Nauka, 1997. pp. 62-315 (available as an electronic text at http://lib.pushkinskijdom.ru/Default.aspx?tabid=4869). The translated entries are found on pp. 296-304. The “Discourse on Angels and Pagans” apparently went through an unknown number of copying stages, accumulating scribal errors. It includes quotations from Greek texts in sometimes awkward Slavonic translations. The original does not have sentence breaks, and the syntax is often ambiguous. Where possible, I checked the quoted passages found in the discourse against the other known Slavonic translations of the same texts and/or the Greek originals. A long quotation from a Slavonic translation of the Byzantine Chronicle by George Hamartolos is represented in italics. Words and phrases supplied by me to clarify the text for the reader are put in square brackets. Emendations are noted and explained. To render Church Slavonic Biblical quotations, I used the corresponding passages from the King James Bible.
+                    </p>
+                    <p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                </interpretation>
+                <segmentation></segmentation>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal" />
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>
+                <title>
+                    <app>
+                        <lem wit="#Transcription"></lem>
+                        <rdg wit="#Translation"></rdg>
+                    </app>
+                </title>
+            </head>
+        </front>
+        <body>
+            <p n="1">
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Якоже пишеть премудрый Епифаний: «Къ коей же твари ангелъ приставленъ:</lem>
+                        <rdg wit="#Translation">
+                            As the wise Epiphanius
+                            <note type="critical" anchored="true">
+                                <p>The fourth-century church father Epiphanius of Salamis (d. 403 CE).</p>
+                            </note>
+                            writes, “An angel is appointed to each creation,
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">ангелъ облакомъ и мъгламъ, и снѣгу, и граду, и мразу, ангелъ гласомъ и громомъ,</lem>
+                        <rdg wit="#Translation">to clouds, and fogs, and snow, and hail, and frost. There are angels for sounds and for thunders,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">ангелъ зимы, и зноеви, и осени, и весны, и лѣта, всему духу</lem>
+                        <rdg wit="#Translation">angels of winter, of heat, of autumn, spring, and summer. [And angels are appointed] to all the spirits</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">твари его на земли, и тайныя бездны, и суть скровены подъ землею,</lem>
+                        <rdg wit="#Translation">of His creation on the earth, and to secret abysses, and to what is hidden under the earth,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и преисподьнии тьмы, и сущи връху безны,</lem>
+                        <rdg wit="#Translation">and to the darkness beneath the earth, and to the darkness in the abyss</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">бывшия древле верху земля, от неяже тмы, вечеръ, и нощь, и свѣтъ, и день».</lem>
+                        <rdg wit="#Translation">
+                            that was once above the earth which gave origin to the evening, and the night, and light, and the day.”
+                            <note type="critical" anchored="true">
+                                <p>
+                                    A quotation from
+                                    <hi rend="italic">On Weights and Measures</hi>
+                                    by Epiphanius. The corresponding Greek passage in an English translation reads: “God did twenty-two works between the beginning and the seventh day, which are these: On the first day, the upper heavens, the earth, the waters - of which consist snow, ice, hail, frost, and dew - and the spirits that minister before him. They are the angels before his face, the angels of glory, the angels of the winds that blow, the angels of the clouds and of the cloud-darknesses, of snow and hail and frost, the angels of sounds, of the thunders and the lightnings, the angels of the cold and of the heat, of winter, fall, spring, and summer, and of all the spirits of his creatures in heaven and on earth. The abysses, both that which is beneath the earth and that of the gulf of darkness that was above the abyss of the waters which were at one time upon the earth, whence the darkness - the evening and the night; the light - of the day and of the morning.” James Elmer Dean, Epiphanius's Treatise On Weights and Measures. Chicago: University of Chicago Press, 1935, available as an electronic text at http://www.tertullian.org/fathers/epiphanius_weights_02_intro.htm. According to Dean, “Epiphanius would distinguish between the abyss of Sheol and the abysmal waters that in Gen.1:2 are said to have covered the entire earth,” A Slavonic translation of this passage is found in the
+                                    <hi rend="italic">Greek and Roman Chronicle</hi>
+                                    , a Slavonic compilation that includes a number of translated Greek texts.
+                                </p>
+                            </note>
+                        </rdg>
+                    </app>
+                </s>
+            </p>
+            <p n="2">
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Ко всимъ тваремъ ангели приставлени. Tако же ангелъ приставленъ къ которой убо земли,</lem>
+                        <rdg wit="#Translation">Angels are appointed to all creation. In the same way, an angel is appointed to each land,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">да соблюдають куюжьто землю, аще суть и погани. Аще Божий гнѣвъ будеть на кую убо землю,</lem>
+                        <rdg wit="#Translation">to guard all lands, even if they are pagan. In the case of God's anger at a certain land,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">повелѣвая ангелу тому на кую убо землю бранью ити,</lem>
+                        <rdg wit="#Translation">God commands one of those angels to wage a war against that land,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">то оной землѣ ангелъ не вопротивится повелѣнью Божью.</lem>
+                        <rdg wit="#Translation">and the angel of the land [commanded to wage a war] does not disobey God's command.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Яко и се бяше, и на ны навелъ Богъ, грѣхъ ради нашихъ, иноплеменникы поганыя,</lem>
+                        <rdg wit="#Translation">
+                            Likewise, God sent pagan aliens
+                            <note type="critical" anchored="true">
+                                <p>These “pagan aliens” are Cumans (also known as Kipchaks, Qipchaqs, and Polovtsians), a pagan nomadic people living in the steppe to the south of Rus, on the territory of modern-day Ukraine and southern Russia.</p>
+                            </note>
+                            against us on account of our sins,
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и побѣжахуть ны повелѣньемъ Божьимъ, они бо бяху водими аньеломъ по повелѣнью Божью.</lem>
+                        <rdg wit="#Translation">and they won by God's command, for they were led by an angel by God's command.</rdg>
+                    </app>
+                </s>
+            </p>
+            <p n="3">
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Аще ли кто речеть, яко аньела нѣсть у поганыхъ, да слышить, яко Олександру Макидоньскому,</lem>
+                        <rdg wit="#Translation">
+                            If someone says that pagans do not have angels, let him hear how Alexander of Macedon,
+                            <note type="critical" anchored="true">
+                                <p>Alexander the Great. </p>
+                            </note>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">ополчившю на Дарья и пошедшю ему, и побидившю землю всю от въстокъ и до западъ,</lem>
+                        <rdg wit="#Translation">while preparing to fight against Darius, after he defeated the whole earth from East to West,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">15. и поби землю Егупетьскую, и поби Арама, и приде в островы морьскыя;</lem>
+                        <rdg wit="#Translation">15. crushed Egypt and Aram, arrived to the sea islands</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и врати лице свое взыти въ Ерусалимъ, побидити жиды, занеже бяху мирни со Дарьемь.</lem>
+                        <rdg wit="#Translation">and turned toward Jerusalem, to crush the Jews because they were on friendly terms with Darius.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И поиде со вси вои его, и ста на товарищи, и почи.</lem>
+                        <rdg wit="#Translation">And when he was on the march with all his soldiers, he pitched a camp and went to sleep.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И приспѣ ночь, и лежа на ложи своемь посредѣ шатра, отверзъ очи свои, види мужа,</lem>
+                        <rdg wit="#Translation">The night came, and, when he was lying in his bed inside the tent, he opened his eyes and saw a man </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">стояща над нимь и мѣчь нагъ в руцѣ его, и обличие меча его яко молонии.</lem>
+                        <rdg wit="#Translation">standing above him, a naked sword in his hand, and the appearance of the sword was like lightning. </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И запряже мечемь своимъ на главу цареву. И ужасеся цесарь велми и рече:</lem>
+                        <rdg wit="#Translation">And this man made to strike the emperor's head, and the emperor was terrified greatly and said,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">«Не бий мене». И рече ему ангелъ: «Посла мя Богь уимати цесарѣ великии предъ тобою</lem>
+                        <rdg wit="#Translation">“Do not strike me!” And the angel said, “God sent me to subdue great emperors</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и люди многи, азъ же хожю предъ тобою, помагая ти. А нынѣ вѣдай,</lem>
+                        <rdg wit="#Translation">and many people before you. Indeed, I walk before you, assisting you. However, now learn that you </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">яко умьреши, понеже помыслилъ еси взити въ Ерусалимъ, зло створити ерѣемъ Божьимъ и к людемъ его».</lem>
+                        <rdg wit="#Translation">will die because you want to take Jerusalem and to harm God's priests and His people.”</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И рече царь: «Молю тя, о Господи, отпусти нынѣ грѣхъ раба твоего, аче не любо ти, а ворочюся дому моему».</lem>
+                        <rdg wit="#Translation">And the emperor said, “I pray you, oh Lord, forgive your servant's sin now. If this does not please you, I will return home.” </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И рече ангелъ: «Не бойся, иди путемъ твоимъ къ Иерусалиму,</lem>
+                        <rdg wit="#Translation">25. And the angel said, “Do not fear, proceed on your way to Jerusalem, and you</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и узриши ту въ Ерусалими мужа въ обличении моем, и борзо пади на лици своемь,</lem>
+                        <rdg wit="#Translation">will see there, in Jerusalem, a man with the same appearance as me. Fall down on your face at once</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и поклонися мужу тому, и все, еже речеть к тобѣ, створи, не прѣступи рѣчи ему.</lem>
+                        <rdg wit="#Translation">and bow down before that man. Do everything that he tells you and do not disobey his words.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">В онь же день приступиши рѣчь его, и умреши».</lem>
+                        <rdg wit="#Translation">On the day you disobey his words, you will die.” </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И въставъ, цесарь иде въ Ерусалимъ и, пришедъ, въспроси ерѣевъ: «Иду ли на Дарья?»</lem>
+                        <rdg wit="#Translation">The emperor got up and went to Jerusalem, and after he came there, he asked the priests, “Should I go against Darius?”</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И показаша ему книги Данила пророка и рекоша ему: «Ты еси козелъ, а онъ овенъ,</lem>
+                        <rdg wit="#Translation">And they showed him the books of the prophet Daniel and told him, “You are the goat, and he is the ram,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и потолчеши и возмеши царство его».</lem>
+                        <rdg wit="#Translation">
+                            and you will stamp upon him and will take over his empire.”
+                            <note type="critical" anchored="true">
+                                <p>Dan. 8.</p>
+                            </note>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Се убо не ангелъ ли вожаше Олексаньдра, не поганъ ли побѣжаше</lem>
+                        <rdg wit="#Translation">Therefore, was not this an angel who led Alexander? Did not he win his victories while being a pagan,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и вси елини кумирослужебници? Тако и си погании попущени грѣхъ ради нашихъ.</lem>
+                        <rdg wit="#Translation">
+                            as all the Greeks were idol-worshipers? In the same way, these pagans
+                            <note type="critical" anchored="true">
+                                <p>Cumans.</p>
+                            </note>
+                            were allowed to win on account of our sins.
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Се же вѣдомо буди, яко въ хрестьянехъ не единъ ангелъ,</lem>
+                        <rdg wit="#Translation">Let it be known that there is not just one angel among the Christians,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">но елико крестишася, паче же къ благовѣрнымъ княземъ нашимъ.</lem>
+                        <rdg wit="#Translation">but there are as many of them as there are baptized persons; in particular, [guardian angels are appointed] to our pious princes.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Но противу Божью повеленью не могуть противитися, но молять Бога прилѣжно за хрестьяньскыя люди. </lem>
+                        <rdg wit="#Translation">But these angels cannot act contrary to God's command; but they ardently pray to God on behalf of the Christian people. </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Якоже и бысть: молитвами святыя Богородица и святыхъ ангелъ умилосердися Богъ и посла </lem>
+                        <rdg wit="#Translation">This occurred when God showed his mercy because of the prayers of the Holy Mother of God and the holy angels,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">ангелы в помощь русьскимъ княземъ на поганыя. Якоже рече и</lem>
+                        <rdg wit="#Translation">
+                            and He sent angels to help the Rus princes against the pagans,
+                            <note type="critical" anchored="true">
+                                <p>Cumans.</p>
+                            </note>
+                            in the same way as when He said to
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Моисѣеви: «Се ангелъ мой прѣдыпоидеть предъ лицемъ твоимъ».</lem>
+                        <rdg wit="#Translation">
+                            Moses, “Behold, my angel shall go before you.”
+                            <note type="critical" anchored="true">
+                                <p>Ex. 23:20.</p>
+                            </note>
+                            .
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Якоже рекохомъ прѣже, зьнаменье се бысть мѣсяца февраля въ 11 день, исходяще сему лѣту 18.</lem>
+                        <rdg wit="#Translation">
+                            As we said above, this portent occurred on the eleventh day of February at the end of this [66]18th year
+                            <note type="critical" anchored="true">
+                                <p>
+                                    The fiery pillar that appeared in the Kievan Caves monastery, which the
+                                    <hi rend="italic">Primary Chronicle</hi>
+                                    interprets as an appearance of an angel. Year 6618 “from the creation of the world” corresponds to 1110 CE.
+                                </p>
+                            </note>
+                            .
+                        </rdg>
+                    </app>
+                </s>
+                <gap reason="sampling" extent="several sentences">
+                    <desc>
+                        <hi rend="italic">An account of the expedition to the steppe and a victory over the Cumans follows, which is omitted here.</hi>
+                    </desc>
+                </gap>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И въпросиша колодникъ, глаголюще: </lem>
+                        <rdg wit="#Translation">[After the battle with the Cumans, the Rus princes] asked the prisoners and said,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">«Како васъ толка сила и многое множество не могосте ся противити, но воскорѣ побѣгостѣ?» </lem>
+                        <rdg wit="#Translation">“How come there were such a great force and such a great multitude of you, and you could not resist us and fled so soon?”</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Си же отвѣщеваху, глаголюще: «Како можемъ битися с вами, 44. а друзии ѣздяху верху васъ въ оружьи свѣтлѣ и страшни, иже помагаху вамъ?»</lem>
+                        <rdg wit="#Translation">And they answered, “How could we fight against you when some others rode above you, terrifying,  with shining weapons, and helped you?”</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Токмо се суть ангели, от Бога послани помогатъ хрестьяномъ.</lem>
+                        <rdg wit="#Translation">These could only be angels sent by God to help the Christians.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Се бо ангелъ вложи въ сердце Володимеру Манамаху поустити братью свою на иноплеменникы, русьскии князи.</lem>
+                        <rdg wit="#Translation">
+                            For it was an angel who inspired Vladimir Monomakh to call on his brethren, the Rus princes, to go against the aliens.
+                            <note type="critical" anchored="true">
+                                <p>Cumans.</p>
+                            </note>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Се бо, якоже рекохомъ, видинье видиша в Печерьскомъ манастыри, еже стояше столпъ огненъ на тряпезници,</lem>
+                        <rdg wit="#Translation">As we mentioned above, we had a vision in the Caves monastery, when a fiery pillar stood on the refectory</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">таже преступѣ на церковь и оттуда к Городцю; ту бо бяше Володимеръ в Радосыни.</lem>
+                        <rdg wit="#Translation">
+                            and from there it moved towards Gorodets, for Vladimir was there in Radosyn.
+                            <note type="critical" anchored="true">
+                                <p>Radosyn was a settlement near the fortress Gorodets on the Dnieper River.</p>
+                            </note>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И тогда се ангелъ вложи Володимеру въ сердце, нача понужати, якоже рекохомъ.</lem>
+                        <rdg wit="#Translation">
+                            Behold, it was then that the angel inspired Vladimir, and he started to urge [other princes to make an anti-Cuman campaign], as we mentioned above.
+                            <note type="critical" anchored="true">
+                                <p>
+                                    The following text in italics is based on the Slavonic translation of the ninth-century Byzantine
+                                    <hi rend="italic">Chronicle</hi>
+                                    by George Hamartolos.
+                                </p>
+                            </note>
+                        </rdg>
+                    </app>
+                </s>
+            </p>
+            <p n="4">
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Тѣмже достойно похволяти ангелы, якоже Иоанъ Златоустець рече:</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">
+                                This is why we ought to praise angels, as John Chrysostom
+                                <note type="critical" anchored="true">
+                                    <p>
+                                        The work quoted by Hamartolos is
+                                        <hi rend="italic">Oratio in Synaxin Archangelorum</hi>
+                                        by the early Christian author known as pseudo-Chrysostom. André Vaillant, “Les citations des années 1110-1111 dans la chronique de Kiev,”
+                                        <hi rend="italic">Byzantinoslavica</hi>
+                                        , vol. 18, 1957, pp. 18-38, at 24.
+                                    </p>
+                                </note>
+                                said,
+                            </hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">ибо ти Творцю безначално поють, милостиву ему быти и тиху человѣкомъ.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">for they forever sing praise to God so that he might show mercy and peace to humans. </hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Ангелы бо, глаголю, наша поборникы, на противныя силы воюющимъ, имьже есть архангелъ </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">For angels, I say, are our defenders when we fight against our enemy's forces,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Михаилъ, ибо со дьяволомъ тѣла ради Моисиева противяся,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">and their commander<note type= "critical" anchored="true"><p>The word in the original is “archangel,” apparently used in its literal Greek meaning, “chief angel,” thus “their archangel” is “their leader” or “commander.”</p></note> is Michael because he fought with the Devil over Moses's body,<note type= "critical" anchored="true"><p>Jude 9.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">на князь же перьский свободы ради людьския противяся.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">and he took arms against the Persian prince [that is, the angel of the Persians] for the sake of the [Jewish] people's freedom.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Повеленьемь Божьимъ всю тварь раздѣлити.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">Angels divided<note type= "critical" anchored="true"><p>In the original, the word is <hi rend="italic">razdeliti</hi>, “to divide.” The corresponding passage in the Slavonic translation of Hamartolos has <hi rend="italic">razdelivshe</hi>, “having divided”; <hi rend="italic">razdeliti</hi> apparently is a scribal error. Furthermore, in the Slavonic translation, the syntax of this sentence is very awkward, and “having divided” appears to lack the grammatical referent. In the Greek text by Hamartolos, angels, according to God's command, divided all of creation, including the most important peoples/ethnicities, each of which received their own angel.</p></note> all of creation according to God's command. </hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">И языкомъ старишины наставляюще, cимъ же нѣкоего перьсямъ презрѣти оправда,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">While appointing governors to peoples, God judged that one of the angels should watch over<note type= "critical" anchored="true"><p>In the original, the word is <hi rend="italic">prozreti</hi>, “to foresee, to prophesize”; the corresponding passage in the Slavonic translation of Hamartolos has <hi rend="italic">prezreti</hi>, “to watch over”; <hi rend="italic">prozreti</hi> apparently is a scribal error.</p></note> the Persians,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Михаила же сущимъ обрѣзаномъ людемъ схранити повелѣ. </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">and he commanded Michael to guard the circumcised people,<note type= "critical" anchored="true"><p>The Jews.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Съставити же предѣлы ихъ прогнѣваньемь, не по грѣховьныя ярости, но от божествьнаго нѣкоего неизреченьнаго слова;</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">He established limits upon them<note type= "critical" anchored="true"><p>The Slavonic translator misinterpret the Greek text here and translated the Greek <hi rend="italic">eforois</hi> (guardians) as “limits.” In the Greek text, God established one angel as the guardian of the Persians and Michael as the guardian of the Jews. See Vera Matveenko, Liudmila Shchegoleva, eds., <hi rend="italic">Vremennik Georgia Monakha (Khronika Georgia Amartola)</hi> (Moscow: Bogorodskii pechatnik, 2000), p. 398.</p></note> in anger, but not in sinful furious anger, but according to a certain secret divine<note type= "critical" anchored="true"><p>In the original, the word is <hi rend="italic">blazhenago</hi>, “blessed”; the corresponding passage in the Slavonic translation of Hamartolos has <hi rend="italic">bozhestv'nago</hi>, “divine.” Both words were often written in an abbreviated form, making it easy to confuse them. In the Greek original of Hamartolos, the word translated into Slavonic as “divine word” is <hi rend="italic">logos</hi>, which in Greek also meant “reason.”</p></note> word.<note type= "critical" anchored="true"><p>In the original Greek text by Hamartolos, God commanded the angel of the Jews Michael to contest with the angel of the Persians over the freedom of the Jewish people. This contest was ordained for a mysterious reason (<hi rend="italic">aporreton logon</hi>); apparently, the author sought to express the idea of God's inscrutable ways. One redaction of Hamartolos adds that God commanded this contest in anger (<hi rend="italic">kata pathos orges</hi>). This remark may have been based on Zech. 1:12, where the prayer of the angel, whom Hamartolos identifies as Michael, mentions that God has been angry with the Jews for seventy years. The Slavonic translator elaborated on the short phrase <hi rend="italic">kata pathos orges</hi>, explaining that God's righteous anger was different from sinful anger (fury) of humans. This explanation is not present in Hamartolos.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">сему же работати июдѣемь персямъ нудящю,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">The former [angel of the Persians] forced the Jews to be the Persians' slaves;</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">сему же на свободу изъвлекущю и прилѣжно к Богу молитву приносящю, глаголюще:</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">the latter [Michael] led them to freedom, praying to God ardently, saying,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">«Господи вседержителю! Доколѣ не помилуеши Иерусолима и градъ июдовых,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">“Lord, Ruler of the Universe! When will you show mercy to Jerusalem and to the cities of Judah</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">ихже презрѣ сѣмьдесятное лѣто?». Его же видѣ видиньемь и Данилъ летяща </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">from which you have turned away for seventy years?”<note type= "critical" anchored="true"><p>Zech. 1:12.</p></note> Daniel had a vision of him<note type= "critical" anchored="true"><p>The referent of “him” in this sentence is unclear. The nature of Daniel's vision described in Dan. 10 has been subject to different interpretations. Below, in the quotation from Hippolytus of Rome, it is interpreted as a vision of God.</p></note> flying,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">лице его, яко видъ молъиный, рещи, очи его, яко свѣщи, и мышьди его и голени, </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">his face as the appearance of lightning, and his eyes as lamps of fire, and his arms and his feet</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">яко видъ мѣди блещащеся, и гласъ слова его, яко гласъ многаго народа.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">similar to polished brass, and the voice of his words like the voice of a multitude<note type= "critical" anchored="true"><p>Dan. 10:6.</p></note>.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Отъ нихъ есть осла отвращая и Валама от нечистого волъшьвлѣнья праздно творяй;</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">The one who turned back the donkey and made Balaam stop his impious sorcery was one of them [angels];<note type= "critical" anchored="true"><p>Num. 22:21-41.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">oт нихъ же и мѣчь извлѣкъ противу Иисусу Наугину, помощи ему на противныя образомъ повелѣвая;</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">and the one who drew out the sword in front of Joshua, in this manner promising him help against the enemies, was also one of them;<note type= "critical" anchored="true"><p>Josh. 5: 13.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">От нихъ есть 100 и 80 тысящь суриськиихъ единою нощью поразихъ и сонъ варварьскыхъ смѣси смертью;</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">and the one who slaughtered 180,000 Assyrians and turned the sleep of the barbarians into death was one of them;<note type= "critical" anchored="true"><p>2 Kings 19-20.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">oт нихъ же есть, иже пророка Амбакума въздухомъ принесъ скочениемь, да пророка Данила посредѣ же левъ прѣпитаеть.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">and the one who transported Prophet Habakkuk through the air so that he gave food to Daniel in the lion's den was one of them.<note type= "critical" anchored="true"><p>Dan. 6: 16-22.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Таковии же убо и тации на враги изящьствують.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">They also excel against the enemies.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Такоже есть и боголѣпный Рафаилъ: от единыя рыбы урѣза утрьникы, бѣснующися отроковицю ицѣли и слѣпа старца сълънъця видѣти створи ему.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">Similarly, divine Rafael cut fat from fish and healed the possessed girl and allowed the old blind man to see the sun.<note type= "critical" anchored="true"><p>Tob. 8.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">70. Убо не великихъ ли честий достойни суть, нашю жизнь храняще?</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">70. Do they not deserve great honor, those guarding our lives?</hi>
+                        </rdg>
+                    </app>
+                </s>
+            </p>
+            <p n="6">
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Не токмо бо хранитель языкомъ повелени быша аньгели, якоже речено бысть:</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">Not only were angels commanded to be guardians of the peoples, as it was said, </hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">«Егда раздѣляше Вышний языкы, ихъже разсѣя сыны Адамовы,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">“When the Most High divided the peoples, the descendants of Adam whom he had dispersed,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">постави предѣлы языкомъ по числу ангелъ Божиих,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">he set the boundaries for each people according to the number of angels,”<note type= "critical" anchored="true"><p>Deut. 32:8.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">но и вѣрнымъ человѣкомъ комуждо достася ангелъ.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">but also each faithful person received an angel.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Ибо отроковица Роди изглаголавши апостоломъ, предъ дверьми стоящю Петру,</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">For, when the girl Rhoda told the apostles that Peter was standing at the door,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Иродова лица избѣгь, глаголаху, не имущи вѣры: «И ангелъ его есть».</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">having escaped from Herod, they said, not believing her, “This is his angel.”<note type= "critical" anchored="true"><p>That is, Peter's angel. Acts 12: 12-17.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Свидительствуеть же и симъ Господь, глаголя: «Видите и не нерадите единого от малыхъ сихъ:</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">The Lord testifies to this as well, when He says, “Take heed that you do not despise one of these little ones,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">глаголю бо вамъ, яко ангели ихъ видять лице воину Отца моего, сущаго на небесѣхъ».</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">for I say to you that in heaven their angels always see the face of my Father, who is in heaven.”<note type= "critical" anchored="true"><p>Matt. 18: 11.</p></note>.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Еще же у коейждо церкви хранителя ангелы пристави Христосъ, якоже открываеть Иоан, </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">And Christ also appointed a guardian angel to each church, as St. John reveals,</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">глаголя: «Рци ангелу, сущему въ церкьви Измуреньстѣ: видихъ твою нищету и скорбь,нъ богатъ еси». </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">saying, “To the angel of the church in Smyrna say, 'I saw your poverty and tribulation, but you are rich.'”<note type= "critical" anchored="true"><p>Rev. 2.8.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Доброизвѣстьно убо есть любящимъ насъ ангеломъ, яко насъ ради къ Владыцѣ молящимся. </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">It is well known that angels love us, because they pray to the Lord for us.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Ибо служебнии дуси суть, якоже и апостолъ глаголеть: «Въ служенье слеми хотящимъ ради наслѣдити спасенье».</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">For they are ministering spirits, as the apostle says, “They are sent to serve those who will be saved.”<note type= "critical" anchored="true"><p>Heb. 1: 14.</p></note>.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Ихъ же и поборникы, и споборникы, якоже и ныня слышалъ еси Данила, како въводи</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">Angels are their defenders and helpers, as you have just heard from the Book of Daniel how God led </hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">архангела Михаила персемь в часъ прогнѣванья нашея ради свободы.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">the Archangel Michael to the Persians at the hour of wrath for the sake of our liberation.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Се бо людемъ работати персямъ нужаше, якоже речено бысть, се же раздришити пленьныя тщашеся.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">For that one [the angel of the Persians] forced the people to be the Persians' slaves, as mentioned above, and [Michael] strove to liberate the prisoners.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">И одалаеть Михаилъ противнику, ибо Ефратъ жидове пришедше, отьне пакы селенье прияша, и градъ и церковь създаша.</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">And Michael defeats the enemy, for the Jews, having crossed the Euphrates, settled [in their homeland] again and built the city and the temple.</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">Тако же и великий Епифаний вѣща: «Коемуждо языку ангелъ приставленъ».</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">And great Epiphanius said, “An angel is appointed to each people.”</hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">И Списанье бо к Данилу глагола: «Ангелъ и властеля елиномъ и Михаила властеля июдѣемъ»; </hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">For [in] the Scripture, [it is] said to Daniel, “The angel and the prince of the Greeks, and Michael, the prince of the Jews.”<note type= "critical" anchored="true"><p>Dan. 10: 20.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">
+                            <hi rend="italic">глаголеть же: «И постави уставы по числу ангелъ».</hi>
+                        </lem>
+                        <rdg wit="#Translation">
+                            <hi rend="italic">And also, “And established boundaries according to the number of angels.”<note type= "critical" anchored="true"><p>Deut. 32:8.</p></note></hi>
+                        </rdg>
+                    </app>
+                </s>
+            </p>
+            <p n="7">
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И се пакы, якоже Иполитъ глаголеть, толкуеть Данила:</lem>
+                        <rdg wit="#Translation">Also, as Hippolytus<note type= "critical" anchored="true"><p>Hippolytus of Rome (c. 170 – c. 235 CE), a theologian, whose works include the <hi rend="italic">Commentary on the Prophet Daniel</hi>.</p></note> says, interpreting the Book of Daniel,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">«В лѣто третьее Кура цесаря, азъ Данилъ плакахъся три недѣли.</lem>
+                        <rdg wit="#Translation">“'In the third year of the reign of Emperor Cyrus, I, Daniel, was mourning for three weeks.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Перваго же мѣсяца смирихся, моля Бога дьний 20 и 1, прося от него откровенья тайны. </lem>
+                        <rdg wit="#Translation">And in the first month I humbled myself, praying to God for twenty-one days, asking him to reveal the secret.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И, услышавъ, Отець пусти слово свое, кажа хотящее быти имъ.</lem>
+                        <rdg wit="#Translation">And the Father heard me and sent his<note type= "critical" anchored="true"><p>In the original, the word is <hi rend="italic">tvoe</hi>, “your,” apparently written accidentally instead of <hi rend="italic">svoe</hi>, “his.”</p></note> word to me, showing by it what shall happen.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И бысть на велицѣ рѣцѣ, лѣпо бяшеть ту ся явити, идѣже хотяше и грѣхи отпущати.</lem>
+                        <rdg wit="#Translation">This occurred by the side of the great river.<note type= "critical" anchored="true"><p>Dan. 10: 1-4. The word “river” is omitted in the original.</p></note> It was fitting for God to reveal himself there, where he would in the future forgive sins.<note type= "critical" anchored="true"><p>According to Hippolytus, the Tigris, the “great river,” on the bank of which Daniel had his vision, prefigures the River Jordan. Philip Schaff, <hi rend="italic">Fathers of the Third Century: Hippolytus, Cyprian, Caius, Novatian</hi> (New York: Christian Literature Company, 1885), p. 182.</p></note></rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">95. И возведъ очи свои, видѣхъ: и се мужь одѣнъ в багоръ. Первый рече видѣньемь,</lem>
+                        <rdg wit="#Translation">95. 'And I raised my eyes and saw a man clad in purple.' At first sight,<note type= "critical" anchored="true"><p>The <hi rend="italic">Khlebnikov</hi> manuscript has “at first sight”; the <hi rend="italic">Hypatian</hi> has “the first one,” probably referring to Daniel's previous vision of the Archangel Gabriel (Dan. 8: 16). Both versions convey the idea that this vision looked similar to the appearance of Gabriel, but was, in fact, a vision of God.</p></note> he said, he had the appearance </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">аки Гаврилъ ангелъ летя, сдѣ же не тако, но видъ самого Господа,</lem>
+                        <rdg wit="#Translation">of the flying Angel Gabriel, but this was not so in this case, [as] it was the appearance of the Lord himself,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">видъ же не свершена человѣка, но образомъ человѣкомъ являющася, якоже глаголеть:</lem>
+                        <rdg wit="#Translation">not the appearance of the perfect Man, but appearing in the image of a man, as he [Daniel] says,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">“И се мужь одѣнъ въ пъстро, и лядвия его припоясани златомъ чистомъ, и тѣло его, аки фарсисъ,</lem>
+                        <rdg wit="#Translation">'And behold, a man clothed in linen, whose loins were girded with fine gold, his body like the beryl,</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и лице ему, аки молнья, и очи ему, яко свѣщи огненѣи, и мышци ему плещи</lem>
+                        <rdg wit="#Translation">and his face as the appearance of lightning, and his eyes as lamps of fire, and his arms and his feet </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">подобни мѣди чистѣ, и глас его, аки народа многа.” </lem>
+                        <rdg wit="#Translation">are similar to polished brass, and the voice of his words like the voice of a multitude.<note type= "critical" anchored="true"><p>Dan.10: 5-6.</p></note></rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">И падохъ на земли, и се я мя аки рука, речи, человѣку, </lem>
+                        <rdg wit="#Translation">And I fell to the ground, and behold, it was as if a hand, similar to a human hand, touched me </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и еще въстави мя на колѣну и рече ко мнѣ: “Не бойся, Даниле, вѣси, что ради приидохъ к тобѣ? </lem>
+                        <rdg wit="#Translation">and set me upon my knees.<note type= "critical" anchored="true"><p>Dan. 10:10.</p></note> And he said unto me, 'Fear not, Daniel. Knowest thou wherefore I come unto thee? </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Брань хочю створити съ княземъ перьскымь. Но повѣдаю ти писаное в писаньи истинномь, </lem>
+                        <rdg wit="#Translation">I will fight with the Persian prince. But I will tell you that which is written in the Scripture of Truth: </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и нѣсть никогоже прящася о сѣмь со мною, развѣ Михаила князя вашего,</lem>
+                        <rdg wit="#Translation">and there is none that holds with me in these things, but Michael your prince,<note type= "critical" anchored="true"><p>Dan. 10: 20-21.</p></note></rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">того бо оставихъ ту. От него же бо дьне устремися молити предъ Богомъ твоимъ, </lem>
+                        <rdg wit="#Translation">for I left him there. From the first day that thou began to pray before thy God, </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">услыша молитву твою, и пущенъ есмь азъ брань створити со княземь пръскым, </lem>
+                        <rdg wit="#Translation">thy words were heard,<note type= "critical" anchored="true"><p>Dan. 10:12.</p></note> and I was sent to make war against the Persian prince.</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Cъвѣт нѣкоторый бысть не отпустити люди. Да скоро убо будеть молитва твоя свершена, </lem>
+                        <rdg wit="#Translation">There was a certain counsel not to let the people go. So that thy prayer may be granted soon, </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">противихся ему и оставихъ ту Михаила князя вашего». </lem>
+                        <rdg wit="#Translation">I resisted it, and I left Michael there, your prince'.”</rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Кто есть Михаилъ, развѣ аньгела, прѣданаго людем? Яко и к Моисиеви глаголеть: </lem>
+                        <rdg wit="#Translation">Who is Michael if not an angel appointed to the people? As [God] says to Moses, </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">«Не имамъ с вами ити на путь, занеже суть людье жестокою выею», но «ангелъ мой идеть с вами».</lem>
+                        <rdg wit="#Translation">“I will not go with thee; for thou art a stiff-necked people, but my angel will go with thee.”<note type= "critical" anchored="true"><p>Ex. 33, 2-3.</p></note></rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">Якоже и се с Божьею помощью, молитвами святыя Богородица и святыхъ ангелъ, </lem>
+                        <rdg wit="#Translation">And likewise, with God's help and through the prayers of the Holy Mother of God and the holy angels, </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">възъвратишася русьстии князи въсвояси съ славою великою къ своимъ людемъ; </lem>
+                        <rdg wit="#Translation">the Rus princes returned home, to their people, with great glory, </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">и ко всимъ странамъ далнимъ, рекуще къ Грекомъ и Угромъ, и Ляхомъ, и Чехомъ, дондеже и до Рима проиде, </lem>
+                        <rdg wit="#Translation">[which] reached all the distant lands, that is, Greeks, and Hungarians, and Poles, and Bohemians, and even up to Rome, </rdg>
+                    </app>
+                </s>
+                <s>
+                    <app>
+                        <lem wit="#Transcription">на славу Богу всегда и ныня, и присно во вѣки, аминь.</lem>
+                        <rdg wit="#Translation">for God's glory now, forever and ever, amen.</rdg>
+                    </app>
+                </s>
+            </p>
+        </body>
+    </text>
 </TEI>
