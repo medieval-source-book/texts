@@ -1,0 +1,217 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>To the tune “Crane Soaring in the Sky”&#8212;"On the golden title board"</title>
+				<author>Liu Yong</author>
+				<respStmt>
+					<resp>Text based on</resp>
+					<name>Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, </name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Notes by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Dante Zhu</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>Chang, Kang-i Sun. The Evolution of Tz’u Poetry: from Late Tang to Northern Sung. Princeton UP, 1980.
+				
+					A standard survey of the early history of Chinese song lyrics (romanized as both ci and tz’u).</p>
+	
+					<p>Egan, Ronald. “The Song Lyric.” The Cambridge History of Chinese Literature, vol. 1, edited by Stephen Owen, Cambridge UP, 2010, pp. 434-452.
+					
+					An overview of the genre.</p>
+	
+					<p>Owen, Stephen. Just a Song: Chinese Lyrics from the Eleventh and Early Twelfth Centuries. Asia Center, Harvard UP, 2019.
+	
+					A recent new history of the genre.</p>
+	
+					<p>Tang, Guizhang 唐圭璋, editor. Quan Song Ci 全宋詞. Zhonghua shu ju, 1965. 5 vols.
+					
+					A comprehensive edition of ci from the Song dynasty and the source text for the ci  in this collection (introductions and annotations are in Chinese).</p>
+	
+					<p>Egan, Ronald. The Works of Li Qingzhao. De Gruyter, 2019, pp. 94-198.
+					
+					A bilingual edition, with Chinese and English translations on facing pages.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Text based on Tang, Guizhang 唐圭璋 (ed.). Quan Song Ci 全宋詞. Vol 1. Beijing: Zhonghua shu ju, 1965, 34.</p>
+				<listWit>
+					<witness xml:id="Transcription">鶴沖天</witness>
+					<witness xml:id="Translation">To the tune “Crane Soaring in the Sky”</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"To the tune ‘Crane Soaring in the Sky’&#8212;‘On the golden title board’" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The original text of this ci is based on the edition by Tang Guizhang 唐圭璋 (Quan Song Ci 全宋詞. Vol 2. Beijing: Zhonghua shu ju, 1965). Punctuation follows the edition. Since ci poetry rarely includes personal pronouns, and gender-differentiated pronouns did not exist in Classical Chinese of this period, the gender of the speaker as well as their perspective (e.g. first, second or third person) must often be deduced by the translator from context.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">鶴沖天</lem>
+						<rdg wit="#Translation">To the tune “Crane Soaring in the Sky”</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<!--Each stanza needs its own line group <lg>-->
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">黃金榜上。</lem>
+						<rdg wit="#Translation">On the golden title board<note type= "critical" anchored="true"><p>The “golden title board” refers to the pass list for <hi rend="italic">keju</hi>, a civil service examination system in Imperial China for selecting candidates for the state bureaucracy. The pass list was called the “golden title board” because the names of successful candidates were written in the color gold. When the list was published, the names of all those who passed were read aloud in the presence of the emperor and recorded in the dynasty's archive.</p></note>,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">偶失龍頭望。</lem>
+						<rdg wit="#Translation">I fortuitously lost my chance to be the top-ranked scholar<note type= "critical" anchored="true"><p>The literal translation for “龍頭” is “the head of the dragon”. Here, it refers to the title given to the scholar with the highest ranking in the exam, whose name would be at the top of the golden title board. This line indicates that Liu Yong has failed <hi rend="italic">keju</hi>.</p></note>.</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">明代暫遺賢，</lem>
+						<rdg wit="#Translation">Even in the era of wise emperors and judicious state bureaucracy, the emperors sometimes miss out on the talented ones.</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">如何向。</lem>
+						<rdg wit="#Translation">What should I do now?</rdg>
+					</app>
+				</l>
+                <l n="5">
+					<app>
+						<lem wit="#Transcription">未遂風雲便，</lem>
+						<rdg wit="#Translation">Given that I didn’t get my opportunity<note type= "critical" anchored="true"><p>The literal translation for “風雲” is “the wind and the cloud” and it is an expression meaning “the good opportunity”. Here, it refers to the chance of becoming a state official.</p></note>,</rdg>
+					</app>
+				</l>
+                <l n="6">
+					<app>
+						<lem wit="#Transcription">爭不恣游狂蕩。</lem>
+						<rdg wit="#Translation">how about indulging myself in travel and fun?</rdg>
+					</app>
+				</l>
+                <l n="7">
+					<app>
+						<lem wit="#Transcription">何須論得喪。</lem>
+						<rdg wit="#Translation">Why do I need to reflect upon gain and loss?</rdg>
+					</app>
+				</l>
+                <l n="8">
+					<app>
+						<lem wit="#Transcription">才子詞人，</lem>
+						<rdg wit="#Translation">A talented ci composer,</rdg>
+					</app>
+				</l>
+                <l n="9">
+					<app>
+						<lem wit="#Transcription">自是白衣卿相。</lem>
+						<rdg wit="#Translation">despite wearing white<note type= "critical" anchored="true"><p>In Imperial China, wearing white means someone is not in the state bureaucracy.</p></note>, is himself a prime minister.</rdg>
+					</app>
+				</l>
+
+			</lg>
+			<lg n="2" type="stanza">
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">煙花巷陌，</lem>
+						<rdg wit="#Translation">On the streets of smoke and flowers<note type= "critical" anchored="true"><p>“Smoke and flowers” refers to prostitutes and female singers. “The streets of smoke and flowers” refers to where brothels and song houses are located.</p></note></rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">依約丹青屏障。</lem>
+						<rdg wit="#Translation">there are painted<note type= "critical" anchored="true"><p>“丹青” is the ink used for painting. Here, using it to describe the screens means that the screens are painted.</p></note> screens.</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">幸有意中人，</lem>
+						<rdg wit="#Translation">Luckily, behind those live my lovers,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">堪尋訪。</lem>
+						<rdg wit="#Translation">whom I can visit.</rdg>
+					</app>
+				</l>
+                <l n="14">
+					<app>
+						<lem wit="#Transcription">且恁偎紅倚翠，</lem>
+						<rdg wit="#Translation">Let me lie beside these beauties<note type= "critical" anchored="true"><p>The literal translation for “紅翠” is “the red and the green”, which refers to prostitutes. This comes from a self-description by Li Yu 李煜 (c. 937 – 978) the last ruler of the Southern Tang state during imperial China's Five Dynasties and Ten Kingdoms period. Despite being an unsuccessful ruler, Li Yu was known as the "first true master" of the <hi rend="italic">ci</hi> form, and he described himself as “the one who drinks wine and hums tunes, the master of lying beside the beauties (the red and the green), and the king of the temple of mandarin ducks” (“浅斟低唱，偎红倚翠大师，鸳鸯寺主”). Note that the mandarin duck is also a symbol for marriage or romance. Liu Yong here is trying to compare himself to Li Yu. The final line of this <hi rend="italic">ci</hi> also borrows a phrase from Li Yu’s self-description.</p></note>—</rdg>
+					</app>
+				</l>
+                <l n="15">
+					<app>
+						<lem wit="#Transcription">風流事、</lem>
+						<rdg wit="#Translation">romantic affairs and pleasures</rdg>
+					</app>
+				</l>
+                <l n="16">
+					<app>
+						<lem wit="#Transcription">平生暢。</lem>
+						<rdg wit="#Translation">are the joy of my life.</rdg>
+					</app>
+				</l>
+                <l n="17">
+					<app>
+						<lem wit="#Transcription">青春都一餉。</lem>
+						<rdg wit="#Translation">Youth is just a fleeting moment.</rdg>
+					</app>
+				</l>
+                <l n="18">
+					<app>
+						<lem wit="#Transcription">忍把浮名，</lem>
+						<rdg wit="#Translation">I would rather exchange meaningless fame</rdg>
+					</app>
+				</l>
+                <l n="19">
+					<app>
+						<lem wit="#Transcription">換了淺斟低唱。</lem>
+						<rdg wit="#Translation">to drink wine and hum tunes<note type= "critical" anchored="true"><p>See previous note.</p></note>.</rdg>
+					</app>
+				</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
