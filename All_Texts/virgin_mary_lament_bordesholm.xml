@@ -9,11 +9,15 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>The Virgin Mary's Lament</title>
+				<title>The Bordesholm Virgin Mary's Lament</title>
 				<author>Anonymous</author>
 				<respStmt>
 					<resp>Translation by</resp>
 					<name>Björn Buschbeck</name><name>Kathryn Starkey</name><name>Mae Velloso-Lyons</name><name>Robert Forke</name><name>Christopher Hutchinson</name><name>Mareike Reisch</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Björn Buschbeck</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -28,11 +32,31 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>Dramatic presentations of the Passion of Christ were a widespread and popular genre of medieval religious theater. Rooted in the tropes of the Easter liturgy (the religious texts and rituals performed during church services at Eastertime), Passion plays and Easter dramas became an established part of devotional culture in Western Europe by the High Middle Ages. </p>	
+				<p>The fifteenth-century Bordesholm Virgin Mary’s Lament translated here is part of this tradition of liturgical drama. It belongs to a popular subgenre of religious plays that focus on the Virgin Mary’s grief during the sacrifice of her son on the Cross. Such plays are probably better understood as devotional aids than as a form of artistic expression equivalent to modern theater. They present Mary as a devotional role model whose perspective on the Passion the audience can adopt and whose sorrow and compassion the audience is prompted to emulate in their own meditations on the sufferings of Christ.</p>
+				<p>The play starts with a summary of the events of Good Friday given by John the Evangelist, who directly addresses the audience and asks for their devotion and prayer (vv. 1–131). After this introduction, the plot starts with a scene of John meeting Mary and ascending to Calvary, where they find the crucified Christ (vv. 131–196). At the foot of the cross, they are joined by Mary Magdalene and Mary’s sister, the mother of John the Evangelist. Inspired by the account of the crucifixion given in John 19:25 as well as contemporary visual depictions of the crucifixion group, they mourn together and lament the sufferings of Christ (vv. 197–488). After Christ has entrusted Mary to John and uttered his seven last words, he dies hanging on the cross (vv. 488–596). Struck by grief, Mary laments her child’s death, which cuts through her soul in fulfilment of the prophecy of Simeon (Luke 2:25–35). John and the other women join her in grieving (vv. 597–843). A final monologue by John (vv. 844–855) and a communal prayer spoken by the actors together with the audience conclude the play. </p>
+				<p>As the initial stage directions outline, the Virgin Mary’s Lament is meant to be staged in a church setting as part of the celebrations for Good Friday. Embedded in the liturgy for this feast, the play is framed by hymns sung by the rector, who leads the celebration. The five stage roles (Jesus, Mary, Mary Magdalene, John the Evangelist, the mother of John the Evangelist) are to be played by male members of the clergy equipped with appropriate costumes and stage props. </p>
+				<p>In addition to stage acting and spoken text, the Virgin Mary’s Lament also includes numerous songs. While many of these musical inserts come from a standardized repertoire of liturgical chant, a few others were specifically written and arranged for this play, sometimes repurposing melodies known from other contemporary contexts. Musical notation for some of these more unusual songs is given in the manuscript and in Kühl’s edition, which served as the basis of our translation. A 1992 recording by the ensemble Sequentia (see Further Reading) gives an impression of how a late medieval staging of this play would have sounded.</p>
+				<p>This short play, which consists of 855 rhymed vernacular verses as well as some Latin additions, is transmitted in a single manuscript now held by the University Library in Kiel, Germany (Kiel, UB, cod. Bord. mscr. 53). The manuscript was written around 1476 by Johannes Reborch, who was provost of an Augustinian monastery at Bordesholm in Holstein. Reborch likely did not author the play himself but copied or adapted it from an unknown source. While the spoken parts of the play are in a Low German dialect, the accompanying stage directions as well as many of the hymns and chants in the play are in Latin or in a mix of Latin and Low German verses. The digitized manuscript can be viewed online here: https://dibiki.ub.uni-kiel.de/viewer/resolver?urn=urn:nbn:de:gbv:8:2-1222542.</p>
+				<p>C. Clifford Flanigan. “Medieval Latin music-drama.” The Theatre of Medieval Europe: New Research in Early Drama, edited by Eckehard Simon, Cambridge: Cambridge University Press, 1991, pp. 21–41.</p>
+				<p>A short introduction to liturgical drama, focused on its place in the history of theater.</p>
+				<p>Gustav Kühl. “Die Bordesholmer Marienklage.” Jahrbuch des Vereins für Niederdeutsche Sprachforschung, 24, 1898, pp. 1-74.</p>	
+				<p>The edition of the text which served as the basis for this translation.</p>			
+				<p>Michael L. Norton. Liturgical Drama and the Reimagining of Medieval Theater. 2017.</p>	
+				<p>A recent study of liturgical drama as a genre.</p>	
+				<p>Dunbar H Ogden. The Staging of Drama in the Medieval Church. Newark, DE: University of Delaware Press, 2002.</p>	
+				<p>A major investigation of how medieval liturgical dramas would have been performed.</p>	
+				<p>Nils Holger Petersen. “Devotion and Dramaticity in the Bordesholmer Marienklage (1476).”  Dies est leticie: Essays on chant in honour of Janka Szendrei, edited by David Hiley and Gábor Kiss, Ottawa: Institute of Medieval Music, 2008, pp. 413-428.</p>	
+				<p>A recent article reevaluating how the dramatic aspects of this work should be understood.</p>	
+				<p>Susan Rankin. “Liturgical Drama.” The Early Middle Ages to 1300, edited by Richard Crocker and David Hiley, Oxford: Oxford University Press, 1990, pp. 310–356.</p>	
+				<p>A short introduction to liturgical drama, focusing on its music.</p>	
+				<p>Sequentia. Bordesholmer Marienklage, BMG Classics/deutsche harmonia mundi, 1993.</p>	
+				<p>An audio recording of the play.</p>	
 			</notesStmt>
 			<sourceDesc>
 					<listWit>
-						<witness xml:id="Transcription">Marienklage</witness>
-						<witness xml:id="Translation">The Virgin Mary's Lament</witness>
+						<witness xml:id="Transcription">Bordesholmer Marienklage</witness>
+						<witness xml:id="Translation">The Bordesholm Virgin Mary's Lament</witness>
 					</listWit>
 					<p>Adapted from the edition by G. Kühl (1898), in Jahrbuch des Vereins für niederdeutsche Sprachforschung, 24.</p>
 			</sourceDesc>
