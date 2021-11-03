@@ -31,8 +31,16 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note anchored="true"></note>
-			</notesStmt>
+				<p>This poem by Maphrian Mor Gregorios Bar ‘Ebroyo (1226-1286) is from a collection of his poems (musḥotho) compiled by Mor Philoxenos Yuhanon Dolabani in 1929 and republished by the Mor Ephrem Monastery in Glane, Holland in 1983. Bar ‘Ebroyo (also latinized as Bar Hebraeus) was a prolific author who wrote on topics ranging from astronomy, medicine, theology, poetry, grammar, canon law, and more. He wrote in Arabic and Syriac and many of works are translations of earlier Arabic works, or at least rely heavily upon such works. As maphrian, Bar ‘Ebroyo oversaw the eastern half of the Syriac Orthodox Church, with his seat being in the Mor Matay Monastery, near Mosul, Iraq. This office was second only to the patriarch of Antioch, although in function the two were largely equal.</p>
+				<p>The title of this poem implies that the month of April (nisan, in Syriac) is the subject of the author’s praise, yet the rose is really the recipient of the panegyric. The author seems to be alluding to the popular Arabic genre of the disputation poem, where two or more inanimate objects, animals, or even abstract concepts are anthropomorphized and debate their qualities. The rose and narcissus (daffodil) flowers were common interlocutors in such poems. In this poem, the rose is heralded as the most beautiful of all flowers, but is scolded by the narrator because it allows its beauty to be plucked and used by disreputable people. The Syriac text uses a 12-syllable meter with stanzas of four lines.</p>
+				<p>Bar ‘Ebroyo’s poetry is largely undated, and relatively little has been written about it, although he wrote over 300 poems on topics as diverse as those found in his prose corpus. His poetry exists in several manuscripts, but there has been no critical edition published that includes an  apparatus and discussion of the manuscripts. Two collections have been published, the one I have used for this poem (Dolabani) and an earlier one by Augustinus Scebabi (1877). In Dolabani's collection, the poems are grouped by subject, and this poem is the first a section that focuses on the theme of nature.</p>
+				<p>Bar ‘Ebroyo. Bar Hebraeus's Mush'hotho Book. Monastery of St. Ephrem the Syrian, 1983. This is the source used for this translation.</p>
+				<p>Bar ‘Ebroyo, Gregorius Abū Al-Faraǧ, and Augustin Scebabi. Gregorii Bar-Hebraei carmina a patre Augustino Scebabi monaco maronita libanensi aleppensi correcta, ac ab eodem lexicon adjunctum. Ex Typographia Polyglotta S. C. De Propaganda Fide, 1877. Here is another earlier collection of Bar ‘Ebroyo’s poetry which includes this poem.</p>
+				<p>Heinrichs, Wolfhart. “Rose versus Narcissus: Observations on an Arabic Literary Debate.” Dispute Poems and Dialogues in the Ancient and Medieval Near East: Forms and Types of Literary Debates in Semitic and Related Literatures, edited by G. J. Reinink and H. L. J. Vanstiphout. Peeters, 1991, pp. 179-198. This essay, from a collection on the Arabic dispute poem genre, discusses specifically the debate between the rose and narcissus flowers which Bar ‘Ebroyo alludes to.</p>
+				<p>Takahashi, Hidemi. Barhebraeus: A Bio-Bibliography. Gorgias Press, 2013. This is a thorough biography of the author with an exhaustive bibliography of primary and secondary sources.</p>
+				<p>Takahashi, Hidemi. “The Poems of Barhebraeus: A Preliminary Concordance.” Khristianskiĭ Vostok 6, no. 7, 2013, pp. 78–139. Further discussion of Bar ‘Ebroyo’s poetry with a list of major manuscripts.</p>
+				<p>Taylor, C., “The Dirge of Coheleth.” The Jewish Quarterly Review 4, no. 4, July 1892, pp. 533-549. This is a discussion on the biblical book of Ecclesiastes, but contains a translation of the first two stanzas of this poem, in relation to the word ܛܺܝܛܟܘܣ (ṭēyṭkūs, “cicada”). To my knowledge, this is the only other English translation of this poem.</p>	
+			</notesStmt> 
 			<sourceDesc>
 				 <p>Bar ‘Ebroyo. <hi rend="italic">Bar Hebraeus's Mush'hotho Book.</hi> Holland: Monastery of St. Ephrem the Syrian, 1983.</p>
 				<listWit>
@@ -50,6 +58,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>I have maintained the lines and stanzas in this poem, but did not follow the meter in order to better follow the literal meaning of the Syriac. The original Syriac is also rhymed, but this was not maintained either. I have translated the month nisan into April, rather than transliterating it for the sake of clarity, although it may not have exactly corresponded to the modern Gregorian month.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
