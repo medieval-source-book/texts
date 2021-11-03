@@ -31,7 +31,14 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note anchored="true"></note>
+				<p>The Gutenberglied (Song of Gutenberg) is a song composed sometime before 1480 by the Nuremberg poet and barber surgeon Hans Folz (ca. 1437–1513). The song is an example of the genre of the Meisterlied (master song), a form of art song prevalent in various German cities in the fifteenth and sixteenth centuries. These vernacular songs were typically created by artisans who composed new texts according to strict rules concerning rhyme, meter, and word choice. They set these texts to existing melodies and performed them in meetings of poets’ guilds.</p>
+				<p>This song is especially interesting as one of the earliest texts commenting on Johannes Gutenberg’s recent introduction in Europe of printing with movable type, which set the stage for the mass production and distribution of books, pamphlets, and other forms of printed works. Folz’s song is both supportive and suspicious of the new technology. Folz praises print for spreading the word of God, as print has made copies of the Bible more affordable for monasteries. However, he also criticizes it for allowing those who deny God—particularly the Jews—to spread their ideas. On balance, Folz concludes, print is a positive development and Gutenberg deserves praise for his invention.</p>
+				<p>While Folz himself printed many of his own works (he operated his own small printing operation), he did not print this song (or any of his other Meisterlieder). The source survives in a late-fifteenth-century manuscript, possibly in Folz’s own hand, containing a number of Folz’s Meisterlieder, Shrovetide plays, and treatises on theology, fencing, and alchemy. The manuscript also contains a number of poems by the fourteenth-century poet Heinrich von Mügeln.</p>
+				<p><!--Further Reading--></p>
+				<p><!--Further Reading--></p>
+				<p><!--Further Reading--></p>
+				<p><!--Further Reading--></p>
+				<p><!--Further Reading--></p>
 			</notesStmt>
 			<sourceDesc>
 				<p>Weimar, Herzogin Anna Amalia Bibliothek MS. Q 566</p>			
@@ -49,6 +56,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>This translation is based on August Mayer’s 1908 edition of Folz’s master songs, <ref target="https://archive.org/stream/diemeisterliede00folzgoog#page/n10/mode/2up">available on Archive.org.</ref> I have maintained the original manuscript’s division of stanzas but have elected not to divide the transcription and translation into lines as the manuscript itself does not do this. I have also not attempted to recreate the rhyme scheme of the original German. The manuscript in which this song survives is available online on the website of <ref target="https://haab-digital.klassik-stiftung.de/viewer/image/928304205/87/">Duchess Anna Amalia Library in Weimar.</ref></p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
