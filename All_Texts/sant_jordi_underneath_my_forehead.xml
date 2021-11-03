@@ -31,7 +31,15 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note anchored="true"></note>
+				<p>This poem was composed ca. 1410-1424 by Valencian author Jordi de Sant Jordi, a son of a Muslim convert and valet of the chamber of the king of the Crown of Aragon, Alfonso the Magnanimous (1396-1458). It is believed to have been dedicated to the widowed Queen Margarida de Prades (1387-1429). The poem is written in Catalan with Occitan traits. It is in versos estramps, blank verses ending in unique, sonorous, words that are also known as rims fènix. Some of these rhyme words come from the famous sestina by Occitan troubadour Arnaut Daniel. Versos estramps in fact seem to be an evolution or an innovative version of the traditional sestina.</p>
+				<p>This love poem features a sustained and multifaceted praise of the lady with attention to both her physical and moral beauty as well as a declaration of the steadfast love of the lyric voice. A dense, object-oriented imagery pervades each stanza. The text is considered the most remarkable love song of the trobar ric tradition in medieval Catalan poetry.</p>
+				<p>This poem is a unicum copied in Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r (the Cançoner de Saragossa). The manuscript has been digitized here: http://zaguan.unizar.es/record/535?ln=en. It contains a compilation of Catalan verse dating to 1461-1462. It is the oldest known manuscript to transmit Ausiàs March’s poetry, and an important witness to the transmission of the poetry of several other authors, including Pere Torroella and Lleonard de Sors.</p>
+				<p>de Riquer, Martí and Lola Badia, editors. Les poesies de Jordi de Sant Jordi. Tres i Quatre, 1984. This is the canonical edition and commentary of Sant Jordi’s works.</p>
+				<p>Jordi de Sant Jordi. Poesies. Edited by Aniello Fratta. Barcino, 2005. This edition makes important textual contributions and advances a debated Italianizing interpretation of Sant Jordi’s poetry.</p>
+				<p>Torró, Jaume. “El cançoner de Saragossa.” Translatar i transferir: La transmissió dels textos i el saber (1200-1500). Edited by Anna Alberni, Lola Badia i Lluís Cabré. Obrador Edèndum, 2010, pp. 379-415. This is the most up-to-date study of the songbook containing Sant Jordi’s poem.</p>
+				<p>Micó, José María. “Translating Medieval Catalan Poetry Today: Jordi de Sant Jordi and Ausiàs March.” Translation Review, vol. 87, 2013, pp. 18-29. Reflections on translating Sant Jordi’s poetry into Spanish.</p>
+				<p>Terry, Arthur. “Jordi de Sant Jordi and the Ethics of Chivalry.” Three Fifteenth-Century Valencian Poets. Department of Hispanic Studies, Queen Mary and Westfield College, 2000, pp. 24-38. Short introduction to Sant Jordi’s work in English. It contains a reading of the poem.</p>
+				<p>Albert Lloret. “The Space in the Poem (Jordi de Sant Jordi, IX & XIV).” Revealing New Perspectives: Hommages to Stephen G. Nichols from his Colleagues, Friends and Students, edited by Kevin Brownlee and Marina Brownlee, Peter Lang, 2021. Study of space in two poems by Sant Jordi.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p><ref target="http://zaguan.unizar.es/record/535?ln=en">Zaragoza, Biblioteca de la Universidad de Zaragoza, MS 210, fol. 98v-99r</ref></p>
@@ -50,6 +58,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>I have punctuated the text, regularized i/j, u/v, and segmented enclitics following modern conventions. I have only made two corrections to obvious copying errors, both accepted in modern editions: jusmetets, correcting (*iustametz) and fonch (correcting *fonchs).</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>

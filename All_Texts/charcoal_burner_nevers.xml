@@ -27,7 +27,14 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note anchored="true"></note>
+				<p>Born in Florence around the year 1300, Jacopo Passavanti entered the Dominican order at a young age. After studying theology in Paris, he taught philosophy in Pisa and theology in Siena and Rome. He was then appointed prior at the convent of Santa Maria Novella, and episcopal vicar at the diocese of Florence. He died in Florence in 1357.</p>
+				<p>In the Specchio di Vera Penitenza he collected his Lenten sermons of 1354. Written in Tuscan vernacular, these sermons are divided into five distinctions and four treatises. His writing, directed towards the goals of spiritual meditation and purification, analyzes several topics embracing the religious experience of penance, and the related subjects of pride, humility, boastfulness, science, and dreams.</p>
+				<p>Passavanti uses several exempla to illustrate his treatise, drawing on a vast oral and written tradition: the episode translated here, widely known as 'Il Carbonaio di Niversa' (The Charcoal-Burner of Nevers), exploits the traditional medieval literary topos of the hunt, which is also present in Dante's Divine Comedy (Inferno, XIII, 109-129), and especially in the short story 'Nastagio degli Onesti' in Boccaccio's Decameron (V, 8).</p>
+				<p>Passavanti, Jacopo. Lo Specchio della Vera Penitenza. Edited by Ginetta Auzzas, Accademia della Crusca, 2014. Critical edition in Italian.</p>
+				<p>Corbari, Eliana. Vernacular Theology – Dominican Sermons and Audience in Late Medieval Italy. De Gruyter, 2013 (especially pp. 29-36, 49-55, 107-125). Discussion of Passavanti's vernacular sermons and theology.</p>
+				<p>Houston, Jason M. Building a Monument to Dante – Boccaccio as Dantista. U of Toronto P, 2010 (especially pp. 109-113).</p>
+				<p>Kircher, Timothy. The Poet's Wisdom – The Humanists, the Church, and the Formation of Philosophy in the Early Renaissance. Brill, 2006 (especially pp. 148-156, 187-204, 259). Both Houston and Kircher discuss Passavanti's importance for Boccaccio and Petrarch.</p>
+				<p>Sinocropi, Giovanni. “Chastity and Love in the Decameron.” The Olde Daunce: Love, Friendship, Sex and Marriage in the Medieval World, edited by Robert Edwards and Stephen Spector. SUNY P, 1991, pp. 104-120. Discusses the sources and themes of Boccaccio's Nastagio degli Onesti and Passavanti's Carbonaio di Niversa.</p>
 			</notesStmt>
 			<sourceDesc>
 				<p>Jacopo Passavanti, <hi rend="italic">Lo Speccio della Verita</hi>, 1354. The episode is located in part III, section 2 of the longer text.</p>
@@ -47,6 +54,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>This is a new translation of an episode from Jacopo Passavanti's 1354 collection of sermons, Lo Specchio della Vera Penitenza. The episode is located in part III, section 2 of the longer text.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
