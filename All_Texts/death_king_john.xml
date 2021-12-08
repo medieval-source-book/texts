@@ -37,7 +37,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Michal Mocňák, Ondřej Svoboda, Boris Lehečka, and Ondřej Tichý for MECZ, the Database of MEdieval CZech textual sources in translation</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -48,6 +48,8 @@
 			</publicationStmt>
 			<notesStmt>
 				<note anchored="true"></note>
+				<p>This anonymous poem, often referred to by historians as The Poem on the Battle of Crécy, is a remarkable testimony to the historical memory of the Battle of Crécy in 1346. Its main theme is the loyalty of the Bohemian knights to King John of Bohemia in the moments before his death at the battle. For this reason, several literary critics quite fittingly refer to the poem as The Death of King John, the title that is used here.</p>
+				<p>The poem was preserved only as an insert in the History of Emperor Charles the Fourth (‘Historie o císaři Karlovi, toho jména Čtvrtém’), written in Czech by Bohemian historian Prokop Lupáč of Hlavačov (1530–1587) and printed in Prague in 1584 by Jiří Černý (alias Nigrin) of Černý Most. Six copies have come down to us (see the Database Knihopis, no. K05060, section Further reading). The text itself is something of a riddle. Linguistically, Jan Gebauer and others suggest its origins may be dated to the 14th century, most likely to its last quarter, but, given the text’s later preservation a more exact dating is problematic. It is also unclear whether the poem was preserved in full; this may be just a fragment from a much longer poem on the Battle.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p><ref target="">Prague, National Library of the Czech Republic 54 K 15.192</ref></p>
@@ -66,6 +68,7 @@
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The Death of King John attracted the attention of philologists and literary scholars particularly in the 19th century, when it was published three times in its entirety, albeit, with very differing editorial approaches (see the section Existing editions). The transcription by Andrea Svobodová was prepared on the basis of principles for critical editions (the exemplar stored in the National Library of the Czech Republic in Prague under shelf-mark 54 K 15.192 being the one that was used).</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
