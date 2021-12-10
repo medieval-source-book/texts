@@ -25,7 +25,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name>Michal Mocňák, Ondřej Svoboda, Boris Lehečka, and Ondřej Tichý for MECZ, the Database of MEdieval CZech textual sources in translation</name>
+					<name>Michal Mocňák, Ondřej Svoboda, Boris Lehečka, and Ondřej Tichý for MECZ, the Database of MEdieval CZech textual sources in translation; Danny Smith for the GMS</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -37,8 +37,7 @@
 			<notesStmt>
 				<p>The song Nuž, vy ševci viery nové (Now, you shoemakers of the new faith) was composed in 1421. It is a Catholic parody of the most famous Medieval Czech Decalogue paraphrase Nuž, křesťané viery pravé (Now, you Christians of the true faith), a Hussite song from ca. 1415 written by Jan Čapek, a priest and one of the co-founders of Tábor (d. 1445?). This Hussite song survives in various manuscripts, among them the so-called Jistebnický kancionál (Jistebnice Hymn Book, Prague, Library of the National Museum, MS II C 7 [ca. 1420], pp. 51–52, fol. 32rv).</p>
 				<p>The first reference to the song Now, you shoemakers of the new faith was by Václav Flajšhans (see Flajšhans 1902, section Further reading), who published it in an amended version (see Flajšhans 1904, section Existing editions). The text has been edited several times, on the last occasion together with an English translation (see Existing editions).</p>
-				<p>Written probably in the second quarter of the 15th century, it survives in a sole exemplar on the front inside cover of a Latin manuscript from the Library of the Metropolitan Chapter at St Vitus’ Cathedral, and is now housed in the Archives of Prague Castle under shelfmark E 43. As the exemplar contains many corrections, erasures and errors, it is likely to have been copied by an inexperienced scribe. 
-</p>
+				<p>Written probably in the second quarter of the 15th century, it survives in a sole exemplar on the front inside cover of a Latin manuscript from the Library of the Metropolitan Chapter at St Vitus’ Cathedral, and is now housed in the Archives of Prague Castle under shelfmark E 43. As the exemplar contains many corrections, erasures and errors, it is likely to have been copied by an inexperienced scribe.</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p>Prague, Archives of Prague Castle, MS E 43</p>
@@ -76,10 +75,6 @@
 				</title>
 			</head>
 		</front>
-
-<note type= "critical" anchored="true"><p></p></note>
-
-
 		<body>
 			<lg n="1" type="stanza">
 				<l n="1">
@@ -330,85 +325,85 @@
 				</l>
 				<l n="42">
 					<app>
-						<lem wit="#Transcription">ani budem žieti,<note type= "critical" anchored="true"><p><hi rend="italic">rkp. původně</hi> zyty, <hi rend="italic">nadepsáno</hi> e</p></note></lem>
+						<lem wit="#Transcription">ani budem žieti,<note type= "critical" anchored="true"><p><hi rend="italic">rkp. původně</hi> zyty, <hi rend="italic">nadepsáno</hi>e</p></note></lem>
 						<rdg wit="#Translation">And we will not mow,</rdg>
 					</app>
 				</l>
 				<l n="43">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">jedno<note type= "critical" anchored="true"><p>gyedno <hi rend="italic">rkp.</hi></p></note>vždyckny<note type= "critical" anchored="true"><p>wzdyczny <hi rend="italic">rkp.;</hi> vždycky <hi rend="italic">Výbor s. 297</hi></p></note>den ode dne</lem>
 						<rdg wit="#Translation">Always, day by day we will only</rdg>
 					</app>
 				</l>
 				<l n="44">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">spolu budem přieti.<note type= "critical" anchored="true"><p>pzyety <hi rend="italic">rkp.</hi></p></note></lem>
 						<rdg wit="#Translation">Enjoy ourselves together.</rdg>
 					</app>
 				</l>
 				<l n="45">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Toť jest deváté.</lem>
 						<rdg wit="#Translation">That is the ninth one.</rdg>
 					</app>
 				</l>
 				<l n="46">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Bópomozi, milá bratřie,<note type= "critical" anchored="true"><p><hi rend="italic">před tím škrtnuto</hi> brzaty</p></note></lem>
 						<rdg wit="#Translation">With God’s help, dear brother,</rdg>
 					</app>
 				</l>
 				<l n="47">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">z té<note type= "critical" anchored="true"><p>tye <hi rend="italic">rkp.</hi></p></note>dobré<note type= "critical" anchored="true"><p>dobrze <hi rend="italic">rkp.</hi></p></note>múdrosti,</lem>
 						<rdg wit="#Translation">Out of this good wisdom</rdg>
 					</app>
 				</l>
 				<l n="48">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">opustíce<note type= "critical" anchored="true"><p>opwſtyze <hi rend="italic">rkp.</hi></p></note>všecko dobré,<note type= "critical" anchored="true"><p>dobrze <hi rend="italic">rkp.</hi></p></note></lem>
 						<rdg wit="#Translation">Leaving all the good things,</rdg>
 					</app>
 				</l>
 				<l n="49">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">přídržme se zlosti.</lem>
 						<rdg wit="#Translation">Let us stick to sin.</rdg>
 					</app>
 				</l>
 				<l n="50">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Toť jest desáté.<note type= "critical" anchored="true"><p>deſſatye <hi rend="italic">rkp.</hi></p></note></lem>
 						<rdg wit="#Translation">That is the tenth one.</rdg>
 					</app>
 				</l>
 				<l n="51">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">Již<note type= "critical" anchored="true"><p>Gyſ <hi rend="italic">rkp.</hi></p></note>sme všecko dokonali,</lem>
 						<rdg wit="#Translation">Having finished everything</rdg>
 					</app>
 				</l>
 				<l n="52">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">řečemež<note type= "critical" anchored="true"><p>rzeczyemyež <hi rend="italic">rkp.</hi></p></note>spolu: Amen;</lem>
 						<rdg wit="#Translation">Let us say together: Amen</rdg>
 					</app>
 				</l>
 				<l n="53">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">srdce<note type= "critical" anchored="true"><p>ſrzdcze <hi rend="italic">rkp.</hi></p></note>sú v nás zkameňala<note type= "critical" anchored="true"><p><hi rend="italic">opraveno z pův.</hi> zkamelnala</p></note></lem>
 						<rdg wit="#Translation">Our hearts petrified in our chest</rdg>
 					</app>
 				</l>
 				<l n="54">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">jakžto<note type= "critical" anchored="true"><p>yakzeto <hi rend="italic">rkp., opraveno z pův.</hi> pakzeto</p></note>pravý kámen,</lem>
 						<rdg wit="#Translation">Just as real stone</rdg>
 					</app>
 				</l>
 				<l n="55">
 					<app>
-						<lem wit="#Transcription"></lem>
+						<lem wit="#Transcription">kámen,<note type= "critical" anchored="true"><p>kame <hi rend="italic">rkp.</hi></p></note>amen.</lem>
 						<rdg wit="#Translation">Stone, amen.<note anchored="true" type="critical"><p>The word for "stone" – kámen rhymes with amen in Czech</p></note></rdg>
 					</app>
 				</l>
@@ -416,7 +411,7 @@
 			<p>
 				<s>
 					<app>
-						<lem wit="#Transcription">hoc sub anno Domini mylesimo CCCCo XXIo et ista scripta sunt in die sancte Affre martiris.</lem>
+						<lem wit="#Transcription">Ista cancio est conposita contra hereticos, scilicet Wyclefistarum,<note type= "critical" anchored="true"><p>Wychefistarum <hi rend="italic">rkp.</hi></p></note>qui sic omnes actus suos faciebant,<note type= "critical" anchored="true"><p>facibent <hi rend="italic">rkp.</hi></p></note>ut ibi habetur et non aliter. Et<note type= "critical" anchored="true"><p>Ex <hi rend="italic">Výbor s. 337</hi></p></note>hoc sub anno Domini mylesimo CCCCo XXIo et ista scripta sunt in die sancte Affre martiris.</lem>
 						<rdg wit="#Translation">This song was composed against heretics namely the followers of Wyclif who do all their deeds as it is described here and in no other way. Thus in the year 1421 and it was written on the days of Saint Afra, the martyr.<note anchored="true" type="critical"><p>i. e. August 5</p></note> </rdg>
 					</app>
 				</s>
