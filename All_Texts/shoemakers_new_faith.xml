@@ -1,0 +1,421 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>"Now, you shoemakers of the new faith"</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription based on</resp>
+					<name>Lucie Doležalová, "Upon the posts and the doors of thy house": The Ten Commandments in Late Medieval Bohemia, The Journal of Medieval Latin, vol. 18, 2018, pp. 221–25.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Lucie Doležalová</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name>Lucie Doležalová</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Michal Mocňák, Ondřej Svoboda, Boris Lehečka, and Ondřej Tichý for MECZ, the Database of MEdieval CZech textual sources in translation; Danny Smith for the GMS</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<p>The song Nuž, vy ševci viery nové (Now, you shoemakers of the new faith) was composed in 1421. It is a Catholic parody of the most famous Medieval Czech Decalogue paraphrase Nuž, křesťané viery pravé (Now, you Christians of the true faith), a Hussite song from ca. 1415 written by Jan Čapek, a priest and one of the co-founders of Tábor (d. 1445?). This Hussite song survives in various manuscripts, among them the so-called Jistebnický kancionál (Jistebnice Hymn Book, Prague, Library of the National Museum, MS II C 7 [ca. 1420], pp. 51–52, fol. 32rv).</p>
+				<p>The first reference to the song Now, you shoemakers of the new faith was by Václav Flajšhans (see Flajšhans 1902, section Further reading), who published it in an amended version (see Flajšhans 1904, section Existing editions). The text has been edited several times, on the last occasion together with an English translation (see Existing editions).</p>
+				<p>Written probably in the second quarter of the 15th century, it survives in a sole exemplar on the front inside cover of a Latin manuscript from the Library of the Metropolitan Chapter at St Vitus’ Cathedral, and is now housed in the Archives of Prague Castle under shelfmark E 43. As the exemplar contains many corrections, erasures and errors, it is likely to have been copied by an inexperienced scribe.</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p>Prague, Archives of Prague Castle, MS E 43</p>
+				<listWit>
+					<witness xml:id="Transcription">"Nuž, vy ševci viery nové"</witness>
+					<witness xml:id="Translation">"Now, you shoemakers of the new faith"</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Now, you shoemakers of the new faith" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>The translation by Lucie Doležalová is based on the more thorough of the previous editions, that by Kateřina Voleková which contains notes on the differences between itself and the previous edition, and on emendations and scribal corrections. Due to the frequent occurrence of inappropriate iotation in the manuscript, Voleková left cases of appropriate iotation in short syllables (e.g. kuože – in MS kwozye, cepy – in MS cyepy) without comment.</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Nuž, vy ševci<note anchored="true" type="critical"><p>ſyewcy <hi rend="italic">rkp.</hi></p></note>viery nové,</lem>
+						<rdg wit="#Translation">Now, you shoemakers of the new faith,</rdg>
+					</app>
+				</l>
+				<l n="2">
+					<app>
+						<lem wit="#Transcription">vámtě přikázáno,</lem>
+						<rdg wit="#Translation">You are ordered</rdg>
+					</app>
+				</l>
+				<l n="3">
+					<app>
+						<lem wit="#Transcription">aby kuože zuby táhli<note anchored="true"><p>tachly <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">To pull the leather with your teeth</rdg>
+					</app>
+				</l>
+				<l n="4">
+					<app>
+						<lem wit="#Transcription">nechajíce sváru.</lem>
+						<rdg wit="#Translation">Stopping discord.</rdg>
+					</app>
+				</l>
+				<l n="5">
+					<app>
+						<lem wit="#Transcription">Toť jest prvé.</lem>
+						<rdg wit="#Translation">That is the first one.</rdg>
+					</app>
+				</l>
+				<l n="6">
+					<app>
+						<lem wit="#Transcription">Jiné budem spravovati,<note anchored="true" type="critical"><p>zprawowaty <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">We will correct the others</rdg>
+					</app>
+				</l>
+				<l n="7">
+					<app>
+						<lem wit="#Transcription">sami sebe nechámy:</lem>
+						<rdg wit="#Translation">Leaving ourselves as we are</rdg>
+					</app>
+				</l>
+				<l n="8">
+					<app>
+						<lem wit="#Transcription">toť jest písmo nalezeno</lem>
+						<rdg wit="#Translation">That is the scripture found</rdg>
+					</app>
+				</l>
+				<l n="9">
+					<app>
+						<lem wit="#Transcription">za <note type= "critical" anchored="true"><p>před slovem škrtnuto</p></note>mastnými r <note type= "critical" anchored="true"><p>maſtymy (?) <hi rend="italic">rkp.</hi></p></note>krámy.
+						<rdg wit="#Translation">Behind the meat shops.</rdg>
+					</app>
+				</l>
+				<l n="10">
+					<app>
+						<lem wit="#Transcription">Toť jest druhé.<note type= "critical" anchored="true"><p>drwche <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">That is the second one.</rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">V pátek budem maso jiesti</lem>
+						<rdg wit="#Translation">On Friday we will eat meat</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">a v sobotu také,</lem>
+						<rdg wit="#Translation">And on Saturday as well</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">v neděli chodiec páliti,</lem>
+						<rdg wit="#Translation">On Sunday going to burn.<note anchored="true" type="critical"><p>i.e. to distill hard liquor</p></note> </rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">toť jest dielo svaté.</lem>
+						<rdg wit="#Translation">That is the holy work.</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Toť jest třetie.</lem>
+						<rdg wit="#Translation">That is the third one.</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Vezmúc cepy a palice</lem>
+						<rdg wit="#Translation">Taking flails and sledgehammers</rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">budem lidi bíti:</lem>
+						<rdg wit="#Translation">We will beat people</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">nebesa nám připravena</lem>
+						<rdg wit="#Translation">The heavens are prepared for us</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">v satanový řiti.</lem>
+						<rdg wit="#Translation">In Satan’s ass.</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">Toť jest čtvrté.</lem>
+						<rdg wit="#Translation">That is the fourth one.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Zabím occe nebo bratra,<note type= "critical" anchored="true"><p>před slovem škrtnuto y</p></note></lem>
+						<rdg wit="#Translation">I will kill father or brother</rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">umyji se v krvi;</lem>
+						<rdg wit="#Translation">I will wash in blood</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">pakliť <note type= "critical" anchored="true"><p>pakli <hi rend="italic">Výbor s. 296,</hi> paclyt <hi rend="italic">rkp. </hi></p></note> mi co máti přidí,<note type= "critical" anchored="true"><p>przyedy <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">If [my] mother says something</rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">za vrch <note type= "critical" anchored="true"><p>zwrch <hi rend="italic">rkp.</hi></p></note>babu zvikli.<note type= "critical" anchored="true"><p><hi rend="italic">rkp. původně</hi>zwkly, <hi rend="italic">nadepsáno</hi></p></note></lem>
+						<rdg wit="#Translation">I will grasp her hair and fling the old hag.</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Toť jest páté.<note type= "critical" anchored="true"><p>patye <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">That is the fifth one.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Pobeřme se k dobrým mistróm,<note type= "critical" anchored="true"><p>myſtwm <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">Let us join the good masters</rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">tu bude co bráti;</lem>
+						<rdg wit="#Translation">There will be enough to take</rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">ve dne i v noci bez přestánie<note type= "critical" anchored="true"><p><hi rend="italic">rkp. původně</hi> przſſtanye, <hi rend="italic">nadepsáno</hi> e</p></note></lem>
+						<rdg wit="#Translation">During the day and at night without stop</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">vždy budem žráti.</lem>
+						<rdg wit="#Translation">We will devour.</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Toť jest šesté.<note type= "critical" anchored="true"><p>g ſeſtye <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">That is the sixth one.</rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Požádajžme všickni<note type= "critical" anchored="true"><p> <hi rend="italic">rkp. původně</hi> wſycky, <hi rend="italic">nadepsáno </hi>n </p></note>toho,</lem>
+						<rdg wit="#Translation">Let us all covet</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">bychom mohli vzíti<note type= "critical" anchored="true"><p>zwyty <hi rend="italic">rkp.; před slovem škrtnuto</hi> myty</p></note></lem>
+						<rdg wit="#Translation">What we can have</rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">mocí, kvaltem<note type= "critical" anchored="true">kwltem <hi rend="italic">rkp.</hi></p></note>i násilím,</lem>
+						<rdg wit="#Translation">By might, force, and violence</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">leda my mohli<note type= "critical" anchored="true">moly <hi rend="italic">rkp.</hi></p></note>míti.</lem>
+						<rdg wit="#Translation">So that only we can own it.</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Toť jest sedmé.</lem>
+						<rdg wit="#Translation">That is the seventh one.</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">Pobeřme jim ovce, koně</lem>
+						<rdg wit="#Translation">Let us take their sheep, horses,</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">a zajmem jim krávy;</lem>
+						<rdg wit="#Translation">And capture their cows</rdg>
+					</app>
+				</l>
+				<l n="38">
+					<app>
+						<lem wit="#Transcription">tuť nás budú poklínati</lem>
+						<rdg wit="#Translation">Then they will curse us:</rdg>
+					</app>
+				</l>
+				<l n="39">
+					<app>
+						<lem wit="#Transcription">mužie, ženy, báby.</lem>
+						<rdg wit="#Translation">Men, women, old hags.</rdg>
+					</app>
+				</l>
+				<l n="40">
+					<app>
+						<lem wit="#Transcription">Toť jest osmé.</lem>
+						<rdg wit="#Translation">That is the eighth one.</rdg>
+					</app>
+				</l>
+				<l n="41">
+					<app>
+						<lem wit="#Transcription">Již<note type= "critical" anchored="true"><p>Gyſ <hi rend="italic">rkp.</hi></p></note>nebudem víc orati,</lem>
+						<rdg wit="#Translation">We will not plough any more</rdg>
+					</app>
+				</l>
+				<l n="42">
+					<app>
+						<lem wit="#Transcription">ani budem žieti,<note type= "critical" anchored="true"><p><hi rend="italic">rkp. původně</hi> zyty, <hi rend="italic">nadepsáno</hi>e</p></note></lem>
+						<rdg wit="#Translation">And we will not mow,</rdg>
+					</app>
+				</l>
+				<l n="43">
+					<app>
+						<lem wit="#Transcription">jedno<note type= "critical" anchored="true"><p>gyedno <hi rend="italic">rkp.</hi></p></note>vždyckny<note type= "critical" anchored="true"><p>wzdyczny <hi rend="italic">rkp.;</hi> vždycky <hi rend="italic">Výbor s. 297</hi></p></note>den ode dne</lem>
+						<rdg wit="#Translation">Always, day by day we will only</rdg>
+					</app>
+				</l>
+				<l n="44">
+					<app>
+						<lem wit="#Transcription">spolu budem přieti.<note type= "critical" anchored="true"><p>pzyety <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">Enjoy ourselves together.</rdg>
+					</app>
+				</l>
+				<l n="45">
+					<app>
+						<lem wit="#Transcription">Toť jest deváté.</lem>
+						<rdg wit="#Translation">That is the ninth one.</rdg>
+					</app>
+				</l>
+				<l n="46">
+					<app>
+						<lem wit="#Transcription">Bópomozi, milá bratřie,<note type= "critical" anchored="true"><p><hi rend="italic">před tím škrtnuto</hi> brzaty</p></note></lem>
+						<rdg wit="#Translation">With God’s help, dear brother,</rdg>
+					</app>
+				</l>
+				<l n="47">
+					<app>
+						<lem wit="#Transcription">z té<note type= "critical" anchored="true"><p>tye <hi rend="italic">rkp.</hi></p></note>dobré<note type= "critical" anchored="true"><p>dobrze <hi rend="italic">rkp.</hi></p></note>múdrosti,</lem>
+						<rdg wit="#Translation">Out of this good wisdom</rdg>
+					</app>
+				</l>
+				<l n="48">
+					<app>
+						<lem wit="#Transcription">opustíce<note type= "critical" anchored="true"><p>opwſtyze <hi rend="italic">rkp.</hi></p></note>všecko dobré,<note type= "critical" anchored="true"><p>dobrze <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">Leaving all the good things,</rdg>
+					</app>
+				</l>
+				<l n="49">
+					<app>
+						<lem wit="#Transcription">přídržme se zlosti.</lem>
+						<rdg wit="#Translation">Let us stick to sin.</rdg>
+					</app>
+				</l>
+				<l n="50">
+					<app>
+						<lem wit="#Transcription">Toť jest desáté.<note type= "critical" anchored="true"><p>deſſatye <hi rend="italic">rkp.</hi></p></note></lem>
+						<rdg wit="#Translation">That is the tenth one.</rdg>
+					</app>
+				</l>
+				<l n="51">
+					<app>
+						<lem wit="#Transcription">Již<note type= "critical" anchored="true"><p>Gyſ <hi rend="italic">rkp.</hi></p></note>sme všecko dokonali,</lem>
+						<rdg wit="#Translation">Having finished everything</rdg>
+					</app>
+				</l>
+				<l n="52">
+					<app>
+						<lem wit="#Transcription">řečemež<note type= "critical" anchored="true"><p>rzeczyemyež <hi rend="italic">rkp.</hi></p></note>spolu: Amen;</lem>
+						<rdg wit="#Translation">Let us say together: Amen</rdg>
+					</app>
+				</l>
+				<l n="53">
+					<app>
+						<lem wit="#Transcription">srdce<note type= "critical" anchored="true"><p>ſrzdcze <hi rend="italic">rkp.</hi></p></note>sú v nás zkameňala<note type= "critical" anchored="true"><p><hi rend="italic">opraveno z pův.</hi> zkamelnala</p></note></lem>
+						<rdg wit="#Translation">Our hearts petrified in our chest</rdg>
+					</app>
+				</l>
+				<l n="54">
+					<app>
+						<lem wit="#Transcription">jakžto<note type= "critical" anchored="true"><p>yakzeto <hi rend="italic">rkp., opraveno z pův.</hi> pakzeto</p></note>pravý kámen,</lem>
+						<rdg wit="#Translation">Just as real stone</rdg>
+					</app>
+				</l>
+				<l n="55">
+					<app>
+						<lem wit="#Transcription">kámen,<note type= "critical" anchored="true"><p>kame <hi rend="italic">rkp.</hi></p></note>amen.</lem>
+						<rdg wit="#Translation">Stone, amen.<note anchored="true" type="critical"><p>The word for "stone" – kámen rhymes with amen in Czech</p></note></rdg>
+					</app>
+				</l>
+			</lg>
+			<p>
+				<s>
+					<app>
+						<lem wit="#Transcription">Ista cancio est conposita contra hereticos, scilicet Wyclefistarum,<note type= "critical" anchored="true"><p>Wychefistarum <hi rend="italic">rkp.</hi></p></note>qui sic omnes actus suos faciebant,<note type= "critical" anchored="true"><p>facibent <hi rend="italic">rkp.</hi></p></note>ut ibi habetur et non aliter. Et<note type= "critical" anchored="true"><p>Ex <hi rend="italic">Výbor s. 337</hi></p></note>hoc sub anno Domini mylesimo CCCCo XXIo et ista scripta sunt in die sancte Affre martiris.</lem>
+						<rdg wit="#Translation">This song was composed against heretics namely the followers of Wyclif who do all their deeds as it is described here and in no other way. Thus in the year 1421 and it was written on the days of Saint Afra, the martyr.<note anchored="true" type="critical"><p>i. e. August 5</p></note> </rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

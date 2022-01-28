@@ -1,0 +1,131 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Prologue to the Book of Psalms in Old Czech Printed Bibles</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription based on</resp>
+					<name>Voleková, Kateřina and Svobodová, Andrea, editors. Staročeské biblické předmluvy. Scriptorium, 2019, pp. 276–277.</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Andrea Svobodová</name>
+					<name>Sarah Gráfová</name>
+					<name>Jan Čermák</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Michal Mocňák, Ondřej Svoboda, Boris Lehečka, Ondřej Tichý for for MECZ, the Database of MEdieval CZech textual sources in translation; Danny Smith for the GMS.</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<p>This preface to the Book of Psalms, beginning with the incipit Ne tak zjevně a otevřeně (Not as clearly and overtly), does not have a corresponding Latin model as most of the biblical prologues do, but is the original work of the author of a new (and the fourth) Czech translation of the Book of Psalms, indeed of the entire Bible, that was probably produced at the University of Prague in the 1480s. The text deals with the difficulties involved in translating this metaphorical poetic text. It outlines the problems of literal translation as against interpretative translation, the latter of which aims to preserve aesthetic value and factual accuracy. The prologue also attempts to defend the new Czech translation of the Psalter, which attempts to resolve some unclear passages based on the Latin version, Psalterium iuxta Hebraeos. Towards the end of his text the author informs the reader as to the title Psalter as related to the name of the musical instrument called the psaltery, and at the close he explains the function of the so-called tituli (headings) included before each psalm to briefly summarize the spiritual content of its text.</p>
+				<p>Regarding the authorship of the new Psalter translation, Josef Vintr (see Vintr 2012, section Further reading) ascribed this to Václav Koranda mladší (1425–1519), administrator of the Utraquist church and rector of what is now the Charles University. His attribution is based on the use of the Czech nevěrný as equivalent of the Latin adjective impius, which is typical in Koranda´s work (the three previous Psalter translations having used the word nemilostivý). However, Koranda´s participation in the new biblical translation does not seem very likely, taking into account the considerable amount of other work he was involved in (see Marek 2017, section Further reading). It is therefore possible to say in general that the translator would have been connected to the Utraquist or University environment, which has been identified through the usage of some words and religious terms differently from the way in which they were used in the previous, pre-Hussite period.</p>
+				<p>The preface is found for the first time in the Žaltář první tištěný (First Printed Psalter, Prague) of 1487. Beside this, the text was included in entire biblical editions with the appearance of the new (fourth) translation: in the so-called Bible pražská (Prague Bible, Prague, unknown printer, 1488), Bible kutnohorská (Kutná Hora Bible, Kutná Hora, Martin z Tišnova, 1489) and Bible benátská (Venice Bible, Venice, Peter Liechtenstein, 1506). The preface also survived in one manuscript from the turn of the 15th and 16th centuries: Starý zákon obrovských písmen (Old Testament in Large Script, Prague, National Library of the Czech Republic, XVII A 36), probably copied from the Kutná Hora Bible.</p>
+				<p>The preface to the Psalter was later in the revised version also included in Bibles of the 16th and 17th centuries: in those printed by Severin (1529, 1537), Melantrich (1549, 1556, 1560, 1570) and Veleslavín (1613).</p>
+				<p>Poleg, Eyal. A Material History of the Bible, England 1200–1553. Oxford UP, 2020, pp. 43–47.</p>
+				<p>An overview study on the General Prologue in the Wicliffite Bible with evidence of existing editions and literature.</p>
+				<p>Marek, Jindřich. Václav Koranda Mladší: Utrakvistický administrátor a literát [Václav Koranda the Younger: Utraquist Administrator and Author]. Nakladatelství Lidové noviny, 2017.</p>
+				<p>A monograph on Václav Koranda the Younger (c. 1425–1519), a representative of the third generation of Czech Utraquists.</p>
+				<p>Vintr, Josef. "Prvotisky českého žaltáře [Incunables of the Czech Psalter]." Čeština v pohledu synchronním a diachronním: stoleté kořeny Ústavu pro jazyk český, edited by Světla Čmejrková, Jana Hoffmannová and Jana Klímová, Karolinum, 2012, pp. 179–184.</p>
+				<p>A pilot study focusing on the Psalter translation version in Old Czech biblical incunables.</p>
+				
+			</notesStmt>
+			<sourceDesc>
+				 <p>Transcription based on Voleková, Kateřina and Svobodová, Andrea, editors. Staročeské biblické předmluvy. Scriptorium, 2019, pp. 276–277.</p>
+				<listWit>
+					<witness xml:id="Transcription">Předmluva ke Knize žalmů ve staročeských tištěných biblích</witness>
+					<witness xml:id="Translation">Prologue to the Book of Psalms in Old Czech Printed Bibles</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"Prologue to the Book of Psalms in Old Czech Printed Bibles" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>This new translation is based upon the critical edition of the Old Czech Biblical Prologues (see Staročeské biblické předmluvy, 2019, section Existing editions), i. e. sources before 1500: the transcription of the First Printed Psalter version there is accompanied by the variants from the Prague Bible (siglum: BiblPraž), the Kutná Hora Bible (siglum: BiblKutn), the Venice Bible (siglum: BiblBen), and the Old Testament in Large Script (siglum: BiblObrSZ).</p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">Předmluva ke Knize žalmů ve staročeských tištěných biblích<note type= "critical" anchored="true"><p>sine titulo] Počínají se knihy Žaltář <hi rend="italic">BiblPraž,</hi> Počíná se předmluva na Žaltář <hi rend="italic">BiblKutn,</hi> Předmluva na Žaltář <hi rend="italic">BiblObrSZ,</hi> om. <hi rend="italic">BiblBen</hi></p></note></lem>
+						<rdg wit="#Translation">Prologue to the Book of Psalms in Old Czech Printed Bibles</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Ne tak zjevně a otevřeně řeči Davida proroka jako písma jiných prorokuov mohú v jazyk cizí překládána býti. Neb ačkoli všickni prorokové v nějakém zastření podobenstvích a příslovích mnohých sú mluvievali, jakž duchu svatému té chvíle tomu lidu zdálo se, aby mluveno bylo, a protož jich řeči<note type= "critical" anchored="true"><p>rezċi <hi rend="italic">tisk </hi></p></note>vždycky nesnadné k rozumění bývaly z té příčiny, aby tajemstvie božská a skutkové velebnosti jeho, o kterýchž sú mluvievali proroci, nebyli v zlehčenie dáni a od nehodných aby nemohli předvěděni býti. A také<note type= "critical" anchored="true"><p>tak <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>aby lidé, jich písma čtúce a potřebnosti jich znajíce, utiekali se k bohu, prosili i žádali jeho, aby jim otevřel rozum v písmích prorockých, nepochybujíce, že jest lidský rozum mdlý a nemóže k tak vysokým řečem přistúpiti, leč milost od pána boha zvláštní jim by k tomu dána byla. I kteříž koli bez té milosti a žádosti k bohu ta písma jich čítali aneb ještě čtú, těm rozuměti nemohú, neb jim jich neotevřel ten, kterýž klíč má u měnie, ješto každý potud porozumievá, pokud on otvierá, a nic viece.</lem>
+						<rdg wit="#Translation">The words of David the prophet can not be translated into a foreign language as clearly and as overtly as can the works of the other prophets. This is because all the prophets clothed their speech in numerous parables and proverbs, that it would seem to the people at that moment that these were the words of the Holy Spirit, and so their speeches were never easy to understand, in order that the divine mysteries and the acts of His majesty, as spoken of by the prophets, were not made light of nor anticipated by unworthy people. And in order that people reading their writings and knowing the gravity of them should seek refuge in God and should pray and ask Him to open their minds to the meaning of the prophetic scriptures, there being no doubt in them that the human mind is too weak to be able to approach such deep thoughts, unless special mercy be given to them by God. And those who have read or who still read the scriptures without that mercy and that desire for God are not able to understand it, because He who keeps the key of knowledge has not opened to them; as each understands only in so far as he has been shown, and no more.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Přitom pak že příslovie a podobenstvie ta, jimiž jsú mluvili proroci, nemohú tak obecná a zvyklá býti jinému jazyku jako tomu, v němž<note type= "critical" anchored="true"><p>jenž <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>sú oni mluvili. Protož když ty řeči v jiný se jazyk překládají, ihned opět nad první již předepsanú nesnáz jinú novú činí a rozum člověka více zastierají, aby ne tak světle rozuměti mohl, co se mluví. A že pak nad jiné všecky proroky David prorok tu obvláštní povahu má, že řeči proroctvie svého v piesniech pokládá, kteréž jest k tomu skládal, aby byly k chvále boha všemohúcieho hudeny a zpievány od kněží a jáhnóv ustavičně. A tak podlé obyčeje piesní řeči ty<note type= "critical" anchored="true"><p>k řeči tý <hi rend="italic">BiblPraž </hi></p></note>jeho sú vyměřovány na verše a veršemi<note type= "critical" anchored="true"><p>veršové <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>k jistým notám. A<note type= "critical" anchored="true"><p><hi rend="italic">om. BiblBen</hi></p></note>>k tomu i slova všecka puosobena sú, kterážto když se překládají v řeč jinú, nemohú tak lahodně a pochotně znieti, ani tak rozumu otevřeného okazovati, jako sú to činila v řeči své první.<note type= "critical" anchored="true"><p>prwnie  <hi rend="italic">tisk</hi></p></note> A pak ktož by chtěl rozum toliko klásti a od nich samých daleko odstúpiti, již by nebyl překladač slov a řečí, ješto jest to skutek obvláštní toho, ktož má hoj nú a velikú rozličných jazykuov známost, ale byl by oznamuje rozumy skryté a tajné řeči a slov, a to jest jiný a rozdílný od prvnieho skutek.</lem>
+						<rdg wit="#Translation">And yet those parables and proverbs that were used by the prophets can not be as universal and as customary in another tongue as in the original language used by the prophets. And so when their words are translated into another language, this immediately adds further new difficulties to the first and obscures the understanding still more, so that he does not quite clearly comprehend what is being spoken. And above all the prophets David is of a special nature, for he gives forth  his prophecy in the form of songs that he has composed to be fiddled and sung incessantly by priests and deacons in praise of God. And therefore, as is the practice with with songs, his speeches are divided into verses, and these are provided with notes. And besides this the words he used are such that in translation into another language they lose their charm and suitability as well as the comprehensibility they had the first language. And if there is someone who would like to interpret by moving far beyond those words, then he would not be a translator –  that means one who knows a vast and deep knowledge of various languages – but, in revealing secret and hidden meanings of words and speech, rather an interpreter, and that is another, different skill. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">A ač koli ten, ktož řeči vykládá, ne vdycky slovo od slova, ale od rozumu rozum móž vyložiti, než že v Písmích svatých a zvláště v tomto našem proroku i slova sama i také pořádek těch slov moc velikú činí i vážnost. Protož i toho se tuto musilo šetřiti a nezdálo se, aby mělo podál odtud odcházeno býti, zvlášť aby se nic neukracovalo. Neb kdyby některých slov jeden rozum byl položen a jiní se opustili, zevně by se tuto zdálo býti ukrácenie, zvláště že při těchto řečech velmi se rozliční rozumové pokládají. Pokudž tehda najdéle býti mohlo, co by jediné jako s příkrostí a krutostí nebylo, při tomto vykládaní slov se jest ovšem šetřilo. A jestliže by tuto někde změněna slova našel, jakož toho<note type= "critical" anchored="true"><p>jakožto <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>nevelmi mnoho jest, to znaj, z tohoto že jest přišlo: nahlédal sem někde, kde jest ovšem bylo zastíněno, v Žaltář vykládaný od svatého Jeronýma z řeči židovské, ješto to není naše vyložení, kteréhož obecně požíváme. I tu pak někdy, aby nětco bylo zevnějšího a otev řenějšího, vzal sem slovo položené od svatého Jeronýma miesto toho, kteréž jest v obecném vyložení, a to beze všeho poblúzení a změnění mysli proroka. </lem>
+						<rdg wit="#Translation">And although the translator does not always translate word-for-word but sometimes by sense, in the Holy Writ and in the Psalter especially the words and their order have a great import and relevance. Therefore it was necessary to take special care not to deviate from that and not to reduce anything. Because if just one meaning of a word is given and the others are omitted, the meaning would be reduced, especially when these sentences contain various possible senses. In this translation we should be careful not to go so far. not to treat the text too harshly and strictly. But if you should still find any words changed here, which there are not too many many of, you should know that it is for the following reason: in some places, where it<note type= "critical" anchored="true"><p>i. e. the sense</p></note>had been obscured, I consulted the Psalter translated by Saint Jerome from the Hebrew, although this interpretation is not in general use. Then I sometimes used saint Jerome’s exegesis in place of the generally used version to clarify the meaning, without impairing or altering the ideas of the prophet.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Nad to všecko pak také, že tito žalmové sú, v nichžto aneb z velikého náboženstvie člověka chválí se buoh, anebo z velikého lkání a žalosti ohlašuje se pokánie, aneb i z veliké radosti pro nějaké dobrodiní diek činění se pósobí, ješto to všecko že z snažného pohnutie a žádosti srdce pochází a v tom lidským během i slova se někde nedopoviedají, ale ukracují, jakož se to často v těchto knihách žalmóv shledává a nachází. I protož to, když se v jinú řeč překládá, ne takové pozornosti móže držeti jako v řeči první své. A tak každý, kto knihy tyto čísti bude, šetřiti musí toho, neb jináč rozum slov snadně by mohl tomu zastieněn a zastřen býti.</lem>
+						<rdg wit="#Translation">Above all, the psalms are also helpful as one can praise God with them in deep devotion, can proclaim repentance in wailing and lamenting, or can give thanks in great joy; as all of that comes from the supplicant and imploring heart, and this means that words are sometimes unsaid or shortened in a human way – as is often to be found in this Book of Psalms. And therefore these specifics of the original can not be transferred properly when translating into another language. And so everyone who reads this Book of Psalms must take care, or else the meaning of a word might be shaded and hidden from him.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Proč pak tyto knihy slovú Žaltář, věděti máš, že žaltář jest nástroj aneb náprava hudby, maje zpósobu a formu podobnú obecné loutně, jsa tohoto rozdielu od nie, že loutna dřevo to prázné, v kterémž se zvuk obráží, a způsob má dole, struny pak nad ckú, jenžto<note type= "critical" anchored="true"><p>kteráž <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>prázné dřevo kryje, nahoře má. Ale žaltář dřevo prázné má nahoře a struny dole pod ckú, kteráž kryje to jisté dřevo tak, že se zdů lu hude a hudba ta, jako pravie, přeutěšená jest. Té jest David požíval při službě boží skládaje písně, kteréž byly způsobné, aby na ten žaltář hudeny byly, ješto potom k hlasu té hudby zpievali kněží a jáhnové chvály ty od Davida složené. A tak protože písně těchto kněh hudeny byly na žaltář, všecky knihy tyto, kteréž zavierají písně ty, od toho nástroje aneb nápravy hudby žaltář slovú. A ta náprava byla o desíti strunách.</lem>
+						<rdg wit="#Translation">You also have to know why this book is called a Psalter: it is because the psaltery is a musical instrument or device similar in form and manner to a lute, but different in that the lute is a hollow timber in which the sound is reflected, with strings lying over the pbelly that covers its empty wooden body. However, the psaltery is a hollow timber with strings under the board which covers the wooden body; the music is therefore played from below, and it is, as people say, enjoyable. It is this that David used in his service of God, composing songs that were intended to be played on the psaltery, accompanied by priests and deacons singing those hymns composed by David. And because all the songs in these books were played on psalter, the book containing the songs is called a psaltery in accordance with that ten-stringed instrument.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Jakož pak žalmuov těchto jest v počtu všech sto a padesáte, praví svatý Augustýn a někteří jiní, že by je všecky skládal sám David. Ale jiní doktorové znamenití křesťanští i staří židovští mluví, že by někteří z nich a mnozí i od jiných také lidí nábožných a svatých skládáni byli, jakož při tomto se zdá, že by to přímější a pravější bylo. A ač koli v řeč českú prvé byly přeloženy knihy tyto žalmuov, ale pokud toto přeloženie každému, kto je čte, užitečnější býti muože i větší také rozum dáti, ano pokudž jest zjevnějí a otevřenějí vyloženo, to se porúčí těm, kto se s ním obierati<note type= "critical" anchored="true"><p>obierají <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>a je beze vší zlé závisti jako křesťané věrně<note type= "critical" anchored="true"><p>věrní <hi rend="italic">BiblKutn, ~ObrSZ, ~Ben</hi></p></note>čísti budú. Nápisové také při každém žalmu tuto položeni sú, k rozumu duchovnímu ovšem obráceni.</lem>
+						<rdg wit="#Translation">The number of psalms is a hundred and fifty and, as Saint Augustine and others say, they were all composed by David. However, other distinguished Christian and old Jewish scholars say that some of them might have been composed also by other religious and holy people, which seems more likely and true. And though the Book of Psalms has been translated into Czech already, this translation might be useful and beneficial to all those who read it, as it clearly and explicitly interprets the original text, and those who concern themselves with it should read it like faithful Christians. The headings provided before each Psalm focus on the spiritual wisdom contained in it.</rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>
