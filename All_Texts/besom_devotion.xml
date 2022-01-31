@@ -10,18 +10,18 @@
 		<fileDesc>
 			<titleStmt>
 				<title>The Besom of Devotion</title>
-				<author><!--Anonymous if unknown--></author>
+				<author>Anonymous</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<name>Sharon Paice MacCleod</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Sharon Paice MacCleod</name>
 				</respStmt>
 				<respStmt>
 					<resp>Introduction by</resp>
-					<name></name>
+					<name>Sharon Paice MacCleod</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
@@ -41,16 +41,16 @@
 				<p>The “Litany of Creation” is preserved in Dublin RIA Manuscript 23 N 10 (formerly Betham 145, Catalog 967). This manuscript was produced by three principal scribes, who signed their names simply as Aodh, Dubthach and Torna. They worked for or belonged to the <hi rend="italic">Ó Maoil Chonaire</hi>, a family of professional poets and historians from Connacht. At a conference at the Royal Irish Academy in 2019, this manuscript was given a new name by scholars: the Book of Ballycummin (<hi rend="italic">Baile in Chuimine</hi>).</p>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>Dublin RIA MS 23 N 10</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">"Idbraim duit, a Athair"</witness>
+					<witness xml:id="Translation">The Besom of Devotion</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"The Besom of Devotion" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
@@ -82,9 +82,6 @@
 				</title>
 			</head>
 		</front>
-
-<note anchored="true" type="critical"><p></p></note> 
-
 		<body>
 			<lg n="1" type="stanza">
 				<l n="1">
@@ -155,62 +152,56 @@
 				</l>
 				<l n="12">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Cech aingel, cech cétal; cech nóib dil co ndathaib</lem>
+						<rdg wit="#Translation">[By] every angelic being, every act of recitation; every beloved holy person accompanied by bright hues of dignity.<note anchored="true" type="critical"><p>The mention of “hues” of dignity or rank refers to the association of certain colors of garments with particular grades of early Irish society.</p></note></rdg>
 					</app>
 				</l>
 				<l n="13">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Cech dúil fil fo t' nert-sa, adteoch frit, a Athair.</lem>
+						<rdg wit="#Translation">[By] every element that is under Your mastery, I pray to You, Father.</rdg>
 					</app>
 				</l>
 				<l n="14">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Adteoch frit i n-aimsir, cona fodlaib foillsib</lem>
+						<rdg wit="#Translation">I entreat You in [every] season with its visible divisions:</rdg>
 					</app>
 				</l>
 				<l n="15">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Adteoch frit i n-dorcha, adteoch frit in soillsi.</lem>
+						<rdg wit="#Translation">I beseech you in darkness, I beseech you in brightness.</rdg>
 					</app>
 				</l>
 				<l n="16">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Adteoch uile dúli eter nem is talmain,</lem>
+						<rdg wit="#Translation">I call upon all living beings between sky and earth.</rdg>
 					</app>
 				</l>
 				<l n="17">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Immon bindius suthain, do thabairt do m'anmain.</lem>
+						<rdg wit="#Translation">For the purpose of lasting harmony, for bestowing upon my life</rdg>
 					</app>
 				</l>
 				<l n="18">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Do thróchaire dermár, do chumachtae ós cathaib</lem>
+						<rdg wit="#Translation">Your very great mercy, Your power over battles.</rdg>
 					</app>
 				</l>
 				<l n="19">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Do chennsa frit' bidbaid; a ríg inmain athlaim.</lem>
+						<rdg wit="#Translation">Your benevolence towards enemies. Excellent, agile king!</rdg>
 					</app>
 				</l>
 				<l n="20">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="21">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is cach cert do mo chobair; Adteoch frit, a Athair.</lem>
+						<rdg wit="#Translation">Every fitting tribute (serves towards my assistance; I call upon you, Father!<note anchored="true" type="critical"><p>The reciter hopes that every tribute offered to God in the prayer will procure His assistance, so that the reciter may living a successful and honorable life of religious devotion. Here we should also recall the assistance to be provided by the prayer itself, the “Besom of Devotion,” which is mentioned in the second line.</p></note></rdg>
 					</app>
 				</l>				
 			</lg>
