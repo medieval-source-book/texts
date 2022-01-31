@@ -9,7 +9,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
+				<title>The Besom of Devotion</title>
 				<author><!--Anonymous if unknown--></author>
 				<respStmt>
 					<resp>Transcription by</resp>
@@ -25,7 +25,7 @@
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -35,7 +35,10 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<p><!--Add in introduction here, in paragraphs. Include: "Introduction to the Text", "Introduction to the Source" (where present), and "Further Reading". Each bibliographic entry should be its own paragraph. Section titles should not be included.--></p>
+				<p>This Old Irish prayer comes from an early Irish text known as the “Litany of Creation”, which is preserved in a single manuscript. The “Litany of Creation” is comprised of two distinct sections. The first consists of numerous entreaties to God, the Trinity, and Saint Michael, and makes reference to various aspects of Creation. The second section, which is presented here, includes prayers and entreaties related to elements of the created world. It refers to a life of religious devotion aided by the powers of this prayer, which is referred to as a “Besom (or Broom) of Devotion.” The lines of the prayer describe its own powerful attributes, such as connection with and communication with the divine; spiritual comfort; beauty and awe; as well as the many forms of assistance and protection bestowed upon a person as a result of its recitation.</p>
+				<p>The image of the broom appears in several medieval Irish literary contexts. In the <hi rend="italic">Life of St. Molua of Clonfertmulloe</hi> (d. circa 609), St. Molua states that unless a person has confessed their sins, they cannot obtain pardon from the Lord; for just as the floor of a house is cleaned daily with a broom, so too does the soul require the daily confession of sins in order to be made clean. The association of the broom with the cleansing of the soul is found elsewhere in the Christian literature of the Middle Ages, including the work of Theodulf of Orléans (d. 821), Bernard of Clairvaux (d. 1153) and Peter Cantor (d. c. 1197).</p>
+				<p>The symbol of the besom or broom was also mentioned by the prominent Irish scholar Colcu Ua Duinechda of Clonmacnoise (d. circa 795), who is credited with writing two litanies with similarities to our own. The earliest surviving manuscript which contains them was produced around 1400, in the codex now known as the Yellow Book of Lecan (Dublin TCD 1318). From this, we can discern that the image of the besom of devotion played a part in a number of early Irish manuscripts, including our intriguing text.</p>
+				<p>The “Litany of Creation” is preserved in Dublin RIA Manuscript 23 N 10 (formerly Betham 145, Catalog 967). This manuscript was produced by three principal scribes, who signed their names simply as Aodh, Dubthach and Torna. They worked for or belonged to the <hi rend="italic">Ó Maoil Chonaire</hi>, a family of professional poets and historians from Connacht. At a conference at the Royal Irish Academy in 2019, this manuscript was given a new name by scholars: the Book of Ballycummin (<hi rend="italic">Baile in Chuimine</hi>).</p>
 			</notesStmt>
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
@@ -53,8 +56,8 @@
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p><!--Add in "About this edition" here.--></p>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+        			<p>The Old Irish orthography of the poem has been standardized to assist students as well as researchers in disciplines outside of Celtic Studies.</p>
 				</interpretation>
 				<segmentation>
 				</segmentation>
@@ -79,72 +82,137 @@
 				</title>
 			</head>
 		</front>
+
+<note anchored="true" type="critical"><p></p></note> 
+
 		<body>
 			<lg n="1" type="stanza">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Idbraim duit, a Athair, ar mo bith ité grádaib.</lem>
+						<rdg wit="#Translation">With regard to my existence, I offer you, Father, (a life of) ecclesiastical orders.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is-í seo co combair: in scúap chunnail chrábaid.</lem>
+						<rdg wit="#Translation">It is through this that assistance is provided: the equitable besom of devotion.<note anchored="true" type="critical"><p>The prayer—which functions as a “besom of devotion” —provides assistance to the reciter in successfully living the religious life.</p></note></rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Cid combár i mbríathaib? Is cétal nglan ngléchert.</lem>
+						<rdg wit="#Translation">What is a confluence in words? It is a clear and very faithful chant.<note anchored="true" type="critical"><p>The use of metaphor is a common device in Old Irish literature. In this line, the clearly sung and faithfully executed chant which formed such an important part of life in an ecclesiastical setting is likened to a confluence, stream or flow of words.</p></note></rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is congra do nóibaib; is d' imméit do dúlib.</lem>
+						<rdg wit="#Translation">It is a gathering for holy persons; it is Your vast magnitude of created beings.<note anchored="true" type="critical"><p>The first occurrence of the word “it” in this line refers to religious life; the second refers to a conceptual “gathering” of all of God's created beings.</p></note></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is attach fri ainglib; aingid amail lúirech.</lem>
+						<rdg wit="#Translation">It is an act of praying to angels; it protects like a breastplate.<note anchored="true" type="critical"><p>The repeated pronoun “it” in the prayer often refers to the prayer itself. In some lines, however, it refers to the experience of religious life. The meaning can usually be determined by the context of the line or lines preceding its appearance. It should be noted that in some cases, a phrase may refer back to a previous line, while in others it may be referring to a phrase or line that follows. In this line, in the second phrase the word 'breastplate' references a particular type of prayer used for protection in early Irish contexts.</p></note></rdg>
 					</app>
 				</l>
-			</lg>
-			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is lúirech do m' anmain; is dín do mo chorp cride.</lem>
+						<rdg wit="#Translation">It is divine protection for my soul; it is a shelter for the substance of my heart.</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is aicce ṡuairc ṡolam; is molad ríg nime.</lem>
+						<rdg wit="#Translation">It is a pleasant, spirited fosterage; it is a song praising the King of the Heavens.<note anchored="true" type="critical"><p>The word “fosterage” refers to the practice of fostering children between the ages of seven and fourteen with other families in order to create strong social bonds of mutual obligation.</p></note></rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is nóibad do dóinib, nos-géba co grésach,</lem>
+						<rdg wit="#Translation">It is a hallowing for human beings; it provides for them forever.</rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Is breth neich a gábud; is crábud, is césad.</lem>
+						<rdg wit="#Translation">It is securing a person from danger; it is devotional practice, an act of enduring.</rdg>
 					</app>
 				</l>
 				<l n="10">
+					<app>
+						<lem wit="#Transcription">Is corp Críst do chaithem, ocus is cáth angbaid,</lem>
+						<rdg wit="#Translation">The body of Christ is (a sign of) your generosity, and it is a valiant, holy thing.<note anchored="true" type="critical"><p>In the first phrase, do chaithem can be interpreted literally as meaning “for consuming”. However, the word caithem can also mean “generosity, liberality, munificence”. Here the ritual of consuming the body of Christ is seen as a gift from God to his followers, and a parallel with the well-documented importance of generosity and hospitality in early Irish society. Cáth is an earlier spelling of 1 cáid, “holy, noble, pure,” an adjective sometimes used to describe Christ, and used here as a substantive.</p></note></rdg>
+					</app>
+				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Is cretem chóim chomlán, is comrád fri ainglib.</lem>
+						<rdg wit="#Translation">It is a private, perfect faith; it is conversing with angels.</rdg>
+					</app>
+				</l>
+				<l n="12">
 					<app>
 						<lem wit="#Transcription"></lem>
 						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription"></lem>
+						<rdg wit="#Translation"></rdg>
+					</app>
+				</l>				
 			</lg>
 		</body>
 	</text>
