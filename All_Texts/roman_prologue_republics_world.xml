@@ -33,7 +33,7 @@
 			<notesStmt>
 				<note anchored="true"></note>
 			</notesStmt>
-		
+			<sourceDesc>
 				<listWit>
 					<witness xml:id="Transcription">Prologo a las Republicas del Mundo</witness>
 					<witness xml:id="Translation">Prologue to Republics of the World</witness>
@@ -72,13 +72,13 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">S.C.R.M.</lem>
-						<rdg wit="#Translation">S.C.R.M.<note anchored="true"><p>SCRM is the king’s title, as it was used since Charles V, Philip II’s father, which means “Sacred Catholic Royal Majesty.”</p></note></rdg>
+						<rdg wit="#Translation">S.C.R.M.<note anchored="true" type="critical"><p>SCRM is the king’s title, as it was used since Charles V, Philip II’s father, which means “Sacred Catholic Royal Majesty.”</p></note></rdg>
 					</app>
 				</s>
 				<s>
 					<app>
 						<lem wit="#Transcription">A LOS Reales pies de V.M. pongo las Republicas del mundo que yo he escripto, para que queden llenas de esplendor y de immortalidad, como lo quedó la figura de Phidias en la celada de la diosa Pallas.</lem>
-						<rdg wit="#Translation">At your majesty’s royal feet I lay the <hi rend="italic">Republics of the World</hi><note anchored="true"><p>I.e. the book itself, in reference to the book’s title</p></note>, which I have written so that they may be full of splendor and immortal renown, just like Phidias’s statue of the goddess Athena’s helm.</rdg>
+						<rdg wit="#Translation">At your majesty’s royal feet I lay the <hi rend="italic">Republics of the World</hi><note anchored="true" type="critical"><p>I.e. the book itself, in reference to the book’s title</p></note>, which I have written so that they may be full of splendor and immortal renown, just like Phidias’s statue of the goddess Athena’s helm.</rdg>
 					</app>
 				</s>
 			</p>
@@ -94,7 +94,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">No creo que el aver gastado mucho tiempo en este genero de lection enflaquecerá a la obra, pues si se mirare atentamente, ninguna cosa ay en el mundo que consigo trayga curiosidad que no esté aqui. Solo trances de armas, caydas de Principes, y reveses de fortuna faltan, pero de esse menester bastantemente emos escripto en las Monarchias, como ya por Memorial lo dixe a V.M. el año passado.  </lem>
-						<rdg wit="#Translation">I do not believe that my having spent much time on this kind of learning will weaken this work, because, if carefully examined, one will see that there is nothing in the world worthy of our curiosity that does not appear in this work. Only clashes of weapons, falls of princes, and reversals of fortune are missing, but on this subject we have written enough in The Monarchies<note anchored="true"><p>Jerónimo Román wrote another work called <hi rend="italic">Memoriales de las monarquías del mundo</hi>, which is what he references as “The Monarchies.” For Román, <hi rend="italic">The Monarchies</hi> was the correlate volume to the <hi rend="italic">Republics of the World</hi>.</p></note>, as I already told Your Majesty last year.</rdg>
+						<rdg wit="#Translation">I do not believe that my having spent much time on this kind of learning will weaken this work, because, if carefully examined, one will see that there is nothing in the world worthy of our curiosity that does not appear in this work. Only clashes of weapons, falls of princes, and reversals of fortune are missing, but on this subject we have written enough in The Monarchies<note anchored="true" type="critical"><p>Jerónimo Román wrote another work called <hi rend="italic">Memoriales de las monarquías del mundo</hi>, which is what he references as “The Monarchies.” For Román, <hi rend="italic">The Monarchies</hi> was the correlate volume to the <hi rend="italic">Republics of the World</hi>.</p></note>, as I already told Your Majesty last year.</rdg>
 					</app>
 				</s>
 			</p>
@@ -128,7 +128,7 @@
 				<s>
 					<app>
 						<lem wit="#Transcription">Suelen en este lugar los auctores enfalçar a los Principes que intitulan sus trabajos, y mostrar la dificultad que tuvo la obra, mas yo para lo primero no soy bastante, ni ay necesidad, pues por todo el mundo ay levantados trppheos en nombre de V.M.</lem>
-						<rdg wit="#Translation">names their works bear, as it is for authors to describe how difficult it was to write them. But I am not sufficiently qualified for the first task, nor is there any need for it, as all over the world many have lifted trophies in Your Majesty’s name.</rdg>
+						<rdg wit="#Translation">It is customary for authors in their prologues to elevate the princes whose names their works bear, as it is for authors to describe how difficult it was to write them. But I am not sufficiently qualified for the first task, nor is there any need for it, as all over the world many have lifted trophies in Your Majesty’s name.</rdg>
 					</app>
 				</s>
 				<s>
