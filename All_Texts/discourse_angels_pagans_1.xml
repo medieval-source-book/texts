@@ -1,0 +1,807 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM '../menota/menota-entities.txt'>
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!--Title in English-->
+                </title>
+                <author>
+                    <!--Anonymous if unknown-->
+                </author>
+                <respStmt>
+                    <resp>Transcription by</resp>
+                    <name>
+                        <!--Name of editor if based on published edition-->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation by</resp>
+                    <name></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded in TEI P5 XML by</resp>
+                    <name></name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <hi rend="italic">The Global Medieval Sourcebook</hi>
+                </publisher>
+                <availability>
+                    <p>
+                        <hi rend="italic">The Global Medieval Sourcebook</hi>
+                        is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <p>
+                    <!--Add in introduction here, in paragraphs. Include: "Introduction to the Text", "Introduction to the Source" (where present), and "Further Reading". Each bibliographic entry should be its own paragraph. Section titles should not be included.-->
+                </p>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS-->
+                </p>
+                <listWit>
+                    <witness xml:id="Transcription">
+                        <!--Title in original language-->
+                    </witness>
+                    <witness xml:id="Translation">
+                        <!--Title in English-->
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>
+                    "
+                    <!--Title in English-->
+                    " is published by
+                    <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>
+                    , a free, open access, and open source compendium of medieval texts in their original languages and in English translation.
+                    <hi rend="italic">GMS</hi>
+                    comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The
+                    <hi rend="italic">GMS</hi>
+                    platform includes critical introductions as well as sources for further reading.
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+                <interpretation>
+                    <p>
+                        <!--Add in "About this edition" here.-->
+                    </p>
+                    <p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                </interpretation>
+                <segmentation></segmentation>
+            </editorialDecl>
+            <variantEncoding method="parallel-segmentation" location="internal" />
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>
+                <title>
+                    <app>
+                        <lem wit="#Transcription"></lem>
+                        <rdg wit="#Translation"></rdg>
+                    </app>
+                </title>
+            </head>
+        </front>
+        <body>
+            <p n="1">
+            <s>
+                <app>
+                    <lem wit="#Transcription">Якоже пишеть премудрый Епифаний: «Къ коей же твари ангелъ приставленъ:</lem>
+                    <rdg wit="#Translation">As the wise Epiphanius  writes, “An angel is appointed to each creation,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">ангелъ облакомъ и мъгламъ, и снѣгу, и граду, и мразу, ангелъ гласомъ и громомъ,</lem>
+                    <rdg wit="#Translation">to clouds, and fogs, and snow, and hail, and frost. There are angels for sounds and for thunders,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">ангелъ зимы, и зноеви, и осени, и весны, и лѣта, всему духу</lem>
+                    <rdg wit="#Translation">angels of winter, of heat, of autumn, spring, and summer. [And angels are appointed] to all the spirits</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">твари его на земли, и тайныя бездны, и суть скровены подъ землею,</lem>
+                    <rdg wit="#Translation">of His creation on the earth, and to secret abysses, and to what is hidden under the earth,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">и преисподьнии тьмы, и сущи връху безны,</lem>
+                    <rdg wit="#Translation">and to the darkness beneath the earth, and to the darkness in the abyss</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">бывшия древле верху земля, от неяже тмы, вечеръ, и нощь, и свѣтъ, и день».</lem>
+                    <rdg wit="#Translation">that was once above the earth which gave origin to the evening, and the night, and light, and the day.”</rdg>
+                </app>
+            </s>
+            </p>
+            <p n="2">
+            <s>
+                <app>
+                    <lem wit="#Transcription">7. Ко всимъ тваремъ ангели приставлени. Tако же ангелъ приставленъ къ которой убо земли,</lem>
+                    <rdg wit="#Translation">Angels are appointed to all creation. In the same way, an angel is appointed to each land,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">8. да соблюдають куюжьто землю, аще суть и погани. Аще Божий гнѣвъ будеть на кую убо землю,</lem>
+                    <rdg wit="#Translation">to guard all lands, even if they are pagan. In the case of God's anger at a certain land,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">9. повелѣвая ангелу тому на кую убо землю бранью ити,</lem>
+                    <rdg wit="#Translation">God commands one of those angels to wage a war against that land,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">10. то оной землѣ ангелъ не вопротивится повелѣнью Божью.</lem>
+                    <rdg wit="#Translation">and the angel of the land [commanded to wage a war] does not disobey God's command.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">11. Яко и се бяше, и на ны навелъ Богъ, грѣхъ ради нашихъ, иноплеменникы поганыя,</lem>
+                    <rdg wit="#Translation">Likewise, God sent pagan aliens  against us on account of our sins,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">12. и побѣжахуть ны повелѣньемъ Божьимъ, они бо бяху водими аньеломъ по повелѣнью Божью.</lem>
+                    <rdg wit="#Translation">and they won by God's command, for they were led by an angel by God's command.</rdg>
+                </app>
+            </s>
+            </p>
+            <p n="3">
+            <s>
+                <app>
+                    <lem wit="#Transcription">13. Аще ли кто речеть, яко аньела нѣсть у поганыхъ, да слышить, яко Олександру Макидоньскому,</lem>
+                    <rdg wit="#Translation">13. If someone says that pagans do not have angels, let him hear how Alexander of Macedon, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">14. ополчившю на Дарья и пошедшю ему, и побидившю землю всю от въстокъ и до западъ,</lem>
+                    <rdg wit="#Translation">14. while preparing to fight against Darius, after he defeated the whole earth from East to West,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">15. и поби землю Егупетьскую, и поби Арама, и приде в островы морьскыя;</lem>
+                    <rdg wit="#Translation">15. crushed Egypt and Aram, arrived to the sea islands</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">16. и врати лице свое взыти въ Ерусалимъ, побидити жиды, занеже бяху мирни со Дарьемь.</lem>
+                    <rdg wit="#Translation">16. and turned toward Jerusalem, to crush the Jews because they were on friendly terms with Darius.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">17. И поиде со вси вои его, и ста на товарищи, и почи.</lem>
+                    <rdg wit="#Translation">17. And when he was on the march with all his soldiers, he pitched a camp and went to sleep.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">18. И приспѣ ночь, и лежа на ложи своемь посредѣ шатра, отверзъ очи свои, види мужа,</lem>
+                    <rdg wit="#Translation">18. The night came, and, when he was lying in his bed inside the tent, he opened his eyes and saw a man </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">19. стояща над нимь и мѣчь нагъ в руцѣ его, и обличие меча его яко молонии.</lem>
+                    <rdg wit="#Translation">19. standing above him, a naked sword in his hand, and the appearance of the sword was like lightning. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">20. И запряже мечемь своимъ на главу цареву. И ужасеся цесарь велми и рече:</lem>
+                    <rdg wit="#Translation">20. And this man made to strike the emperor's head, and the emperor was terrified greatly and said,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">21. «Не бий мене». И рече ему ангелъ: «Посла мя Богь уимати цесарѣ великии предъ тобою</lem>
+                    <rdg wit="#Translation">21. “Do not strike me!” And the angel said, “God sent me to subdue great emperors</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">22. и люди многи, азъ же хожю предъ тобою, помагая ти. А нынѣ вѣдай,</lem>
+                    <rdg wit="#Translation">22. and many people before you. Indeed, I walk before you, assisting you. However, now learn that you </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">23. яко умьреши, понеже помыслилъ еси взити въ Ерусалимъ, зло створити ерѣемъ Божьимъ и к людемъ его».</lem>
+                    <rdg wit="#Translation">23. will die because you want to take Jerusalem and to harm God's priests and His people.”</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">24. И рече царь: «Молю тя, о Господи, отпусти нынѣ грѣхъ раба твоего, аче не любо ти, а ворочюся дому моему».</lem>
+                    <rdg wit="#Translation">24. And the emperor said, “I pray you, oh Lord, forgive your servant's sin now. If this does not please you, I will return home.” </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">25. И рече ангелъ: «Не бойся, иди путемъ твоимъ къ Иерусалиму,</lem>
+                    <rdg wit="#Translation">25. And the angel said, “Do not fear, proceed on your way to Jerusalem, and you</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">26. и узриши ту въ Ерусалими мужа въ обличении моем, и борзо пади на лици своемь,</lem>
+                    <rdg wit="#Translation">26. will see there, in Jerusalem, a man with the same appearance as me. Fall down on your face at once</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">27. и поклонися мужу тому, и все, еже речеть к тобѣ, створи, не прѣступи рѣчи ему.</lem>
+                    <rdg wit="#Translation">27. and bow down before that man. Do everything that he tells you and do not disobey his words.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">28. В онь же день приступиши рѣчь его, и умреши».</lem>
+                    <rdg wit="#Translation">28. On the day you disobey his words, you will die.” </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">29. И въставъ, цесарь иде въ Ерусалимъ и, пришедъ, въспроси ерѣевъ: «Иду ли на Дарья?»</lem>
+                    <rdg wit="#Translation">29. The emperor got up and went to Jerusalem, and after he came there, he asked the priests, “Should I go against Darius?”</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">30. И показаша ему книги Данила пророка и рекоша ему: «Ты еси козелъ, а онъ овенъ,</lem>
+                    <rdg wit="#Translation">30. And they showed him the books of the prophet Daniel and told him, “You are the goat, and he is the ram,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">31. и потолчеши и возмеши царство его».</lem>
+                    <rdg wit="#Translation">31. and you will stamp upon him and will take over his empire.”  </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">32. Се убо не ангелъ ли вожаше Олексаньдра, не поганъ ли побѣжаше</lem>
+                    <rdg wit="#Translation">32. Therefore, was not this an angel who led Alexander? Did not he win his victories while being a pagan,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">33. и вси елини кумирослужебници? Тако и си погании попущени грѣхъ ради нашихъ.</lem>
+                    <rdg wit="#Translation">33. as all the Greeks were idol-worshipers? In the same way, these pagans  were allowed to win on account of our sins. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">34. Се же вѣдомо буди, яко въ хрестьянехъ не единъ ангелъ,</lem>
+                    <rdg wit="#Translation">34. Let it be known that there is not just one angel among the Christians,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">35. но елико крестишася, паче же къ благовѣрнымъ княземъ нашимъ.</lem>
+                    <rdg wit="#Translation">35. but there are as many of them as there are baptized persons; in particular, [guardian angels are appointed] to our pious princes.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">36. Но противу Божью повеленью не могуть противитися, но молять Бога прилѣжно за хрестьяньскыя люди. </lem>
+                    <rdg wit="#Translation">36. But these angels cannot act contrary to God's command; but they ardently pray to God on behalf of the Christian people. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">37. Якоже и бысть: молитвами святыя Богородица и святыхъ ангелъ умилосердися Богъ и посла </lem>
+                    <rdg wit="#Translation">37. This occurred when God showed his mercy because of the prayers of the Holy Mother of God and the holy angels,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">38. ангелы в помощь русьскимъ княземъ на поганыя. Якоже рече и</lem>
+                    <rdg wit="#Translation">38. and He sent angels to help the Rus princes against the pagans,  in the same way as when He said to</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">39. Моисѣеви: «Се ангелъ мой прѣдыпоидеть предъ лицемъ твоимъ».</lem>
+                    <rdg wit="#Translation">39. Moses, “Behold, my angel shall go before you.” .</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">40. Якоже рекохомъ прѣже, зьнаменье се бысть мѣсяца февраля въ 11 день, исходяще сему лѣту 18.</lem>
+                    <rdg wit="#Translation">40. As we said above, this portent occurred on the eleventh day of February at the end of this [66]18th year. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <gap reason="sampling" extent="several sentences"><desc>An account of the expedition to the steppe and a victory over the Cumans follows, which is omitted here.</desc></gap>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">41, И въпросиша колодникъ, глаголюще: </lem>
+                    <rdg wit="#Translation">41. [After the battle with the Cumans, the Rus princes] asked the prisoners and said,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">42. «Како васъ толка сила и многое множество не могосте ся противити, но воскорѣ побѣгостѣ?» </lem>
+                    <rdg wit="#Translation">42. “How come there were such a great force and such a great multitude of you, and you could not resist us and fled so soon?”</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">43. Си же отвѣщеваху, глаголюще: «Како можемъ битися с вами, 44. а друзии ѣздяху верху васъ въ оружьи свѣтлѣ и страшни, иже помагаху вамъ?»</lem>
+                    <rdg wit="#Translation">43. And they answered, “How could we fight against you when some others rode above you, terrifying,  with shining weapons, and helped you?”</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">44. Токмо се суть ангели, от Бога послани помогатъ хрестьяномъ.</lem>
+                    <rdg wit="#Translation">44. These could only be angels sent by God to help the Christians.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">45. Се бо ангелъ вложи въ сердце Володимеру Манамаху поустити братью свою на иноплеменникы, русьскии князи.</lem>
+                    <rdg wit="#Translation">45. For it was an angel who inspired Vladimir Monomakh to call on his brethren, the Rus princes, to go against the aliens. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">46. Се бо, якоже рекохомъ, видинье видиша в Печерьскомъ манастыри, еже стояше столпъ огненъ на тряпезници,</lem>
+                    <rdg wit="#Translation">46. As we mentioned above, we had a vision in the Caves monastery, when a fiery pillar stood on the refectory</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">47. таже преступѣ на церковь и оттуда к Городцю; ту бо бяше Володимеръ в Радосыни.</lem>
+                    <rdg wit="#Translation">47. and from there it moved towards Gorodets, for Vladimir was there in Radosyn. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">48. И тогда се ангелъ вложи Володимеру въ сердце, нача понужати, якоже рекохомъ.</lem>
+                    <rdg wit="#Translation">48. Behold, it was then that the angel inspired Vladimir, and he started to urge [other princes to make an anti-Cuman campaign], as we mentioned above. </rdg>
+                </app>
+            </s>
+            </p>
+            <p n="4">
+            <s>
+                <app>
+                    <lem wit="#Transcription">49. Тѣмже достойно похволяти ангелы, якоже Иоанъ Златоустець рече:</lem>
+                    <rdg wit="#Translation">49. This is why we ought to praise angels, as John Chrysostom  said,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">50. ибо ти Творцю безначално поють, милостиву ему быти и тиху человѣкомъ.</lem>
+                    <rdg wit="#Translation">50. for they forever sing praise to God so that he might show mercy and peace to humans. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">51. Ангелы бо, глаголю, наша поборникы, на противныя силы воюющимъ, имьже есть архангелъ </lem>
+                    <rdg wit="#Translation">51. For angels, I say, are our defenders when we fight against our enemy's forces,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">52. Михаилъ, ибо со дьяволомъ тѣла ради Моисиева противяся,</lem>
+                    <rdg wit="#Translation">52. and their commander  is Michael because he fought with the Devil over Moses's body, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">53. на князь же перьский свободы ради людьския противяся.</lem>
+                    <rdg wit="#Translation">53. and he took arms against the Persian prince [that is, the angel of the Persians] for the sake of the [Jewish] people's freedom.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">54. Повеленьемь Божьимъ всю тварь раздѣлити.</lem>
+                    <rdg wit="#Translation">54. Angels  divided  all of creation according to God's command. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">55. И языкомъ старишины наставляюще, cимъ же нѣкоего перьсямъ презрѣти оправда,</lem>
+                    <rdg wit="#Translation">55. While appointing governors to peoples, God judged that one of the angels should watch over  the Persians,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">56. Михаила же сущимъ обрѣзаномъ людемъ схранити повелѣ. </lem>
+                    <rdg wit="#Translation">56. and he commanded Michael to guard the circumcised people,  </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">57. Съставити же предѣлы ихъ прогнѣваньемь, не по грѣховьныя ярости, но от божествьнаго нѣкоего неизреченьнаго слова;</lem>
+                    <rdg wit="#Translation">57. He established limits upon them  in anger, but not in sinful furious anger, but according to a certain secret divine  word.  </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">58. сему же работати июдѣемь персямъ нудящю,</lem>
+                    <rdg wit="#Translation">58. The former [angel of the Persians] forced the Jews to be the Persians' slaves;</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">59. сему же на свободу изъвлекущю и прилѣжно к Богу молитву приносящю, глаголюще:</lem>
+                    <rdg wit="#Translation">59. the latter [Michael] led them to freedom, praying to God ardently, saying,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">60. «Господи вседержителю! Доколѣ не помилуеши Иерусолима и градъ июдовых,</lem>
+                    <rdg wit="#Translation">60. “Lord, Ruler of the Universe! When will you show mercy to Jerusalem and to the cities of Judah</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">61. ихже презрѣ сѣмьдесятное лѣто?». Его же видѣ видиньемь и Данилъ летяща </lem>
+                    <rdg wit="#Translation">61. from which you have turned away for seventy years?”  Daniel had a vision of him  flying,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">62. лице его, яко видъ молъиный, рещи, очи его, яко свѣщи, и мышьди его и голени, </lem>
+                    <rdg wit="#Translation">62. his face as the appearance of lightning, and his eyes as lamps of fire, and his arms and his feet</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">63. яко видъ мѣди блещащеся, и гласъ слова его, яко гласъ многаго народа.</lem>
+                    <rdg wit="#Translation">63. similar to polished brass, and the voice of his words like the voice of a multitude. </rdg>
+                </app>
+            </s>
+            </p>
+            <p n="5">
+            <s>
+                <app>
+                    <lem wit="#Transcription">64. Отъ нихъ есть осла отвращая и Валама от нечистого волъшьвлѣнья праздно творяй;</lem>
+                    <rdg wit="#Translation">64. The one who turned back the donkey and made Balaam stop his impious sorcery was one of them [angels];  </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">65. oт нихъ же и мѣчь извлѣкъ противу Иисусу Наугину, помощи ему на противныя образомъ повелѣвая;</lem>
+                    <rdg wit="#Translation">65. and the one who drew out the sword in front of Joshua, in this manner promising him help against the enemies, was also one of them; </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">66. От нихъ есть 100 и 80 тысящь суриськиихъ единою нощью поразихъ и сонъ варварьскыхъ смѣси смертью;</lem>
+                    <rdg wit="#Translation">66. and the one who slaughtered 180,000 Assyrians and turned the sleep of the barbarians into death was one of them; </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">67. oт нихъ же есть, иже пророка Амбакума въздухомъ принесъ скочениемь, да пророка Данила посредѣ же левъ прѣпитаеть.</lem>
+                    <rdg wit="#Translation">67. and the one who transported Prophet Habakkuk through the air so that he gave food to Daniel in the lion's den was one of them. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">68. Таковии же убо и тации на враги изящьствують.</lem>
+                    <rdg wit="#Translation">68. They also excel against the enemies.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">69. Такоже есть и боголѣпный Рафаилъ: от единыя рыбы урѣза утрьникы, бѣснующися отроковицю ицѣли и слѣпа старца сълънъця видѣти створи ему.</lem>
+                    <rdg wit="#Translation">69. Similarly, divine Rafael cut fat from fish and healed the possessed girl and allowed the old blind man to see the sun. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">70. Убо не великихъ ли честий достойни суть, нашю жизнь храняще?</lem>
+                    <rdg wit="#Translation">70. Do they not deserve great honor, those guarding our lives?</rdg>
+                </app>
+            </s>
+            </p>
+            <p n="6">
+            <s>
+                <app>
+                    <lem wit="#Transcription">71. Не токмо бо хранитель языкомъ повелени быша аньгели, якоже речено бысть:</lem>
+                    <rdg wit="#Translation">71. Not only were angels commanded to be guardians of the peoples, as it was said, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">72. «Егда раздѣляше Вышний языкы, ихъже разсѣя сыны Адамовы,</lem>
+                    <rdg wit="#Translation">72. “When the Most High divided the peoples, the descendants of Adam whom he had dispersed,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">73. постави предѣлы языкомъ по числу ангелъ Божиих,</lem>
+                    <rdg wit="#Translation">73. he set the boundaries for each people according to the number of angels,” </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">74. но и вѣрнымъ человѣкомъ комуждо достася ангелъ.</lem>
+                    <rdg wit="#Translation">74. but also each faithful person received an angel.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">75. Ибо отроковица Роди изглаголавши апостоломъ, предъ дверьми стоящю Петру,</lem>
+                    <rdg wit="#Translation">75. For, when the girl Rhoda told the apostles that Peter was standing at the door,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">76. Иродова лица избѣгь, глаголаху, не имущи вѣры: «И ангелъ его есть».</lem>
+                    <rdg wit="#Translation">76. having escaped from Herod, they said, not believing her, “This is his angel.” </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">77. Свидительствуеть же и симъ Господь, глаголя: «Видите и не нерадите единого от малыхъ сихъ:</lem>
+                    <rdg wit="#Translation">77. The Lord testifies to this as well, when He says, “Take heed that you do not despise one of these little ones,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">78. глаголю бо вамъ, яко ангели ихъ видять лице воину Отца моего, сущаго на небесѣхъ».</lem>
+                    <rdg wit="#Translation">78. for I say to you that in heaven their angels always see the face of my Father, who is in heaven.” .  </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">79. Еще же у коейждо церкви хранителя ангелы пристави Христосъ, якоже открываеть Иоан, </lem>
+                    <rdg wit="#Translation">79. And Christ also appointed a guardian angel to each church, as St. John reveals,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">80. глаголя: «Рци ангелу, сущему въ церкьви Измуреньстѣ: видихъ твою нищету и скорбь,нъ богатъ еси». </lem>
+                    <rdg wit="#Translation">80. saying, “To the angel of the church in Smyrna say, 'I saw your poverty and tribulation, but you are rich.'” </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">81. Доброизвѣстьно убо есть любящимъ насъ ангеломъ, яко насъ ради къ Владыцѣ молящимся. </lem>
+                    <rdg wit="#Translation">81. It is well known that angels love us, because they pray to the Lord for us.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">82. Ибо служебнии дуси суть, якоже и апостолъ глаголеть: «Въ служенье слеми хотящимъ ради наслѣдити спасенье».</lem>
+                    <rdg wit="#Translation">82.  For they are ministering spirits, as the apostle says, “They are sent to serve those who will be saved.”  .</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">83. Ихъ же и поборникы, и споборникы, якоже и ныня слышалъ еси Данила, како въводи</lem>
+                    <rdg wit="#Translation">83. Angels are their defenders and helpers, as you have just heard from the Book of Daniel how God led </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">84. архангела Михаила персемь в часъ прогнѣванья нашея ради свободы.</lem>
+                    <rdg wit="#Translation">84. the Archangel Michael to the Persians at the hour of wrath for the sake of our liberation.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">85. Се бо людемъ работати персямъ нужаше, якоже речено бысть, се же раздришити пленьныя тщашеся.</lem>
+                    <rdg wit="#Translation">85. For that one [the angel of the Persians] forced the people to be the Persians' slaves, as mentioned above, and [Michael] strove to liberate the prisoners.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">86. И одалаеть Михаилъ противнику, ибо Ефратъ жидове пришедше, отьне пакы селенье прияша, и градъ и церковь създаша.</lem>
+                    <rdg wit="#Translation">86. And Michael defeats the enemy, for the Jews, having crossed the Euphrates, settled [in their homeland] again and built the city and the temple.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">87. Тако же и великий Епифаний вѣща: «Коемуждо языку ангелъ приставленъ».</lem>
+                    <rdg wit="#Translation">87. And great Epiphanius said, “An angel is appointed to each people.”</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">88. И Списанье бо к Данилу глагола: «Ангелъ и властеля елиномъ и Михаила властеля июдѣемъ»; </lem>
+                    <rdg wit="#Translation">88 For [in] the Scripture, [it is] said to Daniel, “The angel and the prince of the Greeks, and Michael, the prince of the Jews.”  </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">89. глаголеть же: «И постави уставы по числу ангелъ».</lem>
+                    <rdg wit="#Translation">89. And also, “And established boundaries according to the number of angels.” </rdg>
+                </app>
+            </s>
+            </p>
+            <p n="7">
+            <s>
+                <app>
+                    <lem wit="#Transcription">90. И се пакы, якоже Иполитъ глаголеть, толкуеть Данила:</lem>
+                    <rdg wit="#Translation">90. Also, as Hippolytus  says, interpreting the Book of Daniel,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">91. «В лѣто третьее Кура цесаря, азъ Данилъ плакахъся три недѣли.</lem>
+                    <rdg wit="#Translation">91. “'In the third year of the reign of Emperor Cyrus, I, Daniel, was mourning for three weeks.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">92. Перваго же мѣсяца смирихся, моля Бога дьний 20 и 1, прося от него откровенья тайны. </lem>
+                    <rdg wit="#Translation">92. And in the first month I humbled myself, praying to God for twenty-one days, asking him to reveal the secret.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">93. И, услышавъ, Отець пусти слово свое, кажа хотящее быти имъ.</lem>
+                    <rdg wit="#Translation">93. And the Father heard me and sent his  word to me, showing by it what shall happen.</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">94. И бысть на велицѣ рѣцѣ, лѣпо бяшеть ту ся явити, идѣже хотяше и грѣхи отпущати.</lem>
+                    <rdg wit="#Translation">94. This occurred by the side of the great river.  It was fitting for God to reveal himself there, where he would in the future forgive sins. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">95. И возведъ очи свои, видѣхъ: и се мужь одѣнъ в багоръ. Первый рече видѣньемь,</lem>
+                    <rdg wit="#Translation">95. 'And I raised my eyes and saw a man clad in purple.' At first sight,  he said, he had the appearance </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">96. аки Гаврилъ ангелъ летя, сдѣ же не тако, но видъ самого Господа,</lem>
+                    <rdg wit="#Translation">96. of the flying Angel Gabriel, but this was not so in this case, [as] it was the appearance of the Lord himself,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">97. видъ же не свершена человѣка, но образомъ человѣкомъ являющася, якоже глаголеть:</lem>
+                    <rdg wit="#Translation">97. not the appearance of the perfect Man, but appearing in the image of a man, as he [Daniel] says,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">98. “И се мужь одѣнъ въ пъстро, и лядвия его припоясани златомъ чистомъ, и тѣло его, аки фарсисъ,</lem>
+                    <rdg wit="#Translation">98. 'And behold, a man clothed in linen, whose loins were girded with fine gold, his body like the beryl,</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">99. и лице ему, аки молнья, и очи ему, яко свѣщи огненѣи, и мышци ему плещи</lem>
+                    <rdg wit="#Translation">99. and his face as the appearance of lightning, and his eyes as lamps of fire, and his arms and his feet </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">100. подобни мѣди чистѣ, и глас его, аки народа многа.” </lem>
+                    <rdg wit="#Translation">100. are similar to polished brass, and the voice of his words like the voice of a multitude. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">101. И падохъ на земли, и се я мя аки рука, речи, человѣку, </lem>
+                    <rdg wit="#Translation">101. And I fell to the ground, and behold, it was as if a hand, similar to a human hand, touched me </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">102. и еще въстави мя на колѣну и рече ко мнѣ: “Не бойся, Даниле, вѣси, что ради приидохъ к тобѣ? </lem>
+                    <rdg wit="#Translation">102. and set me upon my knees.  And he said unto me, 'Fear not, Daniel. Knowest thou wherefore I come unto thee? </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">103. Брань хочю створити съ княземъ перьскымь. Но повѣдаю ти писаное в писаньи истинномь, </lem>
+                    <rdg wit="#Translation">103. I will fight with the Persian prince. But I will tell you that which is written in the Scripture of Truth: </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">104. и нѣсть никогоже прящася о сѣмь со мною, развѣ Михаила князя вашего,</lem>
+                    <rdg wit="#Translation">104. and there is none that holds with me in these things, but Michael your prince, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">105. того бо оставихъ ту. От него же бо дьне устремися молити предъ Богомъ твоимъ, </lem>
+                    <rdg wit="#Translation">105. for I left him there. From the first day that thou began to pray before thy God, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">106. услыша молитву твою, и пущенъ есмь азъ брань створити со княземь пръскым, </lem>
+                    <rdg wit="#Translation">106. thy words were heard,  and I was sent to make war against the Persian prince. </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">107. Cъвѣт нѣкоторый бысть не отпустити люди. Да скоро убо будеть молитва твоя свершена, </lem>
+                    <rdg wit="#Translation">107 There was a certain counsel not to let the people go. So that thy prayer may be granted soon, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">108. противихся ему и оставихъ ту Михаила князя вашего». </lem>
+                    <rdg wit="#Translation">108. I resisted it, and I left Michael there, your prince'.”</rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">109. Кто есть Михаилъ, развѣ аньгела, прѣданаго людем? Яко и к Моисиеви глаголеть: </lem>
+                    <rdg wit="#Translation">109. Who is Michael if not an angel appointed to the people? As [God] says to Moses, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">110. «Не имамъ с вами ити на путь, занеже суть людье жестокою выею», но «ангелъ мой идеть с вами».</lem>
+                    <rdg wit="#Translation">110. “I will not go with thee; for thou art a stiff-necked people, but my angel will go with thee.”   </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">111. Якоже и се с Божьею помощью, молитвами святыя Богородица и святыхъ ангелъ, </lem>
+                    <rdg wit="#Translation">111. And likewise, with God's help and through the prayers of the Holy Mother of God and the holy angels, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">112. възъвратишася русьстии князи въсвояси съ славою великою къ своимъ людемъ; </lem>
+                    <rdg wit="#Translation">112. the Rus princes returned home, to their people, with great glory, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">113. и ко всимъ странамъ далнимъ, рекуще къ Грекомъ и Угромъ, и Ляхомъ, и Чехомъ, дондеже и до Рима проиде, </lem>
+                    <rdg wit="#Translation">113. [which] reached all the distant lands, that is, Greeks, and Hungarians, and Poles, and Bohemians, and even up to Rome, </rdg>
+                </app>
+            </s>
+            <s>
+                <app>
+                    <lem wit="#Transcription">114. на славу Богу всегда и ныня, и присно во вѣки, аминь.</lem>
+                    <rdg wit="#Translation">114. for God's glory now, forever and ever, amen.</rdg>
+                </app>
+            </s>
+</p>
+        </body>
+    </text>
+</TEI>
