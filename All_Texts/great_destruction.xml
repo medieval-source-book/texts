@@ -9,23 +9,23 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title><!--Title in English--></title>
-				<author><!--Anonymous if unknown--></author>
+				<title>The [Second] Battle of Moytura</title>
+				<author>Anonymous</author>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name><!--Name of editor if based on published edition--></name>
+					<resp>Text based on</resp>
+					<name>Elizabeth Gray, ed. and tr., Cath Maige Tuired: The Second Battle of Mag Tuired. Naas: Irish Texts Society, 1982</name>
 				</respStmt>
 				<respStmt>
 					<resp>Translation by</resp>
-					<name></name>
+					<name>Sharon Paice MacLeod</name>
 				</respStmt>
 				<respStmt>
 					<resp>Introduction by</resp>
-					<name></name>
+					<name>Sharon Paice MacLeod</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoded in TEI P5 XML by</resp>
-					<name></name>
+					<name>Danny Smith</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
@@ -35,25 +35,41 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<p><!--Add in introduction here, in paragraphs. Include: "Introduction to the Text", "Introduction to the Source" (where present), and "Further Reading". Each bibliographic entry should be its own paragraph. Section titles should not be included.--></p>
+				<p>"The [Second] Battle of Moytura" is an Old Irish text which sets forth an account of an epic battle between the Túatha Dé Danann ("The People of the Goddess Danu")  ̶  the gods of pagan Ireland  ̶  and another supernatural race, the Fomoire (anglicized as Fomorians). Although the present form of the text is no older than the 11th century, features of the language suggest it is based on an earlier version from the 9th century.</p>
+				<p>The contest depicted in the tale has been compared with the battle between the Asuras and Devas in Indic tradition, as well as that of the Aesir and Vanir in Scandinavian materials. This resemblance may point to a shared Indo-European mythology. While a full summary and discussion of the text is beyond the scope of this contribution, the identity of a number of key players on both sides of the conflict is important in order to understand allusions woven into the poem.</p>
+				<p>On the side of the Túatha Dé Danann (hereafter noted as TDD), the battle is led by Lug Lámfada ("Lug of the Long-Arm"), also referred to by the epithet Samildánach ("of many skills"). He is supported by his brother Ogma, the champion of the TDD. The forces of the TDD are empowered by a figure known as An Mórrígan ("The Morrigan"), a multi-functional goddess associated with battle, magic, death, prophecy, fertility and sovereignty, among other things. She appears in human and animal form, including the Badb or Scaldcrow, a supernatural presence associated with battle, omens, magic and death. It is the Mórrígan who eventually provides assistance to the TDD which results in their victory.</p>
+				<p>We also find allusions to Tethra, one of three Fomorian kings who imposed an oppressive tribute on the TDD, reducing their leaders and warriors to menial labor and servitude. It is this oppressive tribute which has led to the battle depicted in the poem. At one point in the action, Lug confronts and vanquishes Balor, who is both the champion of the Fomorians and his own grandfather (the father of Lug's mother Ethne).</p>
+				<p>The poem below was spoken by the Fomorian poet Lóch Lethglas, in praise of a sword named Orna that belonged to Tethra. Ogma found the sword, unsheathed and cleaned it. Throughout the poem there are references to members of the TDD and events described in the narrative, as well as overt and veiled threats to both Ogma and Lug. The form of this poem is known as a <hi rend="italic">rosc</hi>, seen in the earliest examples of Old Irish poetry, as well as in later materials that strove to appear older and thus more authoritative. A rosc could therefore be archaic or archaizing. This form of poetry did not rhyme in the modern sense, but was organized around word and syllable stress and complex patterns of ornamentation. In this rosc, we see a well-documented pattern known as binding alliteration, in which the first letter of the last word in a line is the same as the first letter of the first word in the next line. This pattern is easy to discern throughout the poem. However, its apparent simplicity should not detract from the fact that a rosc is a complex creation which involves cultural and mythic allusions, learned materials, and layers of meaning.</p>
+				<p>Another important feature of early Irish and medieval Welsh poetry is that instead of a narrative flow, the lines of a poem may often consist of discrete images  ̶  snapshots  ̶  of what the poet wishes to express; this feature has been compared with aspects of <hi rend="italic">haiku</hi>. Indeed, in some instances the poet will refer directly to what s/he "sees." The following translation is a quite literal representation of word order to assist learners of Old Irish, but it also strives to create an aesthetically pleasing rendition, which would have been of great importance to the creators and reciters of these verbal art-forms.</p>
+				<p>References to this story occur frequently in early Irish literature, including epic narratives, bardic poetry and folklore. However, despite the importance of this early text, there are only two surviving versions of the tale, and they are quite different from each other. Each is represented by a single manuscript. The older version, presented here, is found in a sixteenth-century vellum manuscript, Harleian 5280, whose primary scribe was Gilla Riabhach Ó Cléirigh.</p>
+				<p>Carey, John, "Myth and Mythography in Cath Maige Tuired," Studia Celtica, Vol. 24-25, 1989-1990, pp. 53-69.</p> 
+				<p>A seminal article exploring the representation and uses of mythic episodes and symbolism in early Irish contexts.</p>
+				<p>Gray, Elizabeth, ed., Cath Maige Tuired: The Second Battle of Mag Tuired. Irish Texts Society, 1982.</p>
+				<p>An edition and translation of most of the text, with notes and appendices.</p>
+				<p>MacLeod, Sharon Paice, "Veiled Threats and Magical Weapons: An untranslated rosc in  praise of a sword from Cath Maige Tuired," Forthcoming.</p>
+				<p>A detailed exploration of a previously untranslated rosc attributed to Lóch Lethglas.</p>
+				<p>MacLeod, Sharon Paice, Early Irish Poetry and Wisdom Texts: The Knowledge of Poetry and the Poetry of Knowledge. McFarland Publishers, Forthcoming.</p>
+				<p>Translations of Old Irish texts, including previously untranslated roscada attributed to Lug and the Morrígan.</p>
+				<p>McLeod, Neil, "Irish law and the wars of the Túatha Dé Danann," in Proceedings of the XIV International Congress of Celtic Studies, held in Maynooth University, 1-5 August 2011, edited by Líam, Breatnach, Ruairí Ó hUiginn, Damian McManus, and Katharine Simms, Dublin Institute of Advanced Studies, 2015, pp. 75-94.</p>
+				<p>An innovative and astute comparison between early Irish law and social episodes and expectations in mythic texts.</p>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>London, British Library, MS Harley 5280 ff. 63a-70b</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
-					<witness xml:id="Translation"><!--Title in English--></witness>
+					<witness xml:id="Transcription">Cath Maige Tuired</witness>
+					<witness xml:id="Translation">The [Second] Battle of Moytura</witness>
 				</listWit>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            	<p>"The [Second] Battle of Moytura" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
             </p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
         		<interpretation>
-        			<p><!--Add in "About this edition" here.--></p>
+        			<p>The Old Irish orthography of the poem has been standardized to assist students as well as researchers in disciplines outside of Celtic Studies.</p>
         			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
 				</interpretation>
 				<segmentation>
@@ -80,71 +96,229 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1" type="stanza">
+			<lg n="1">
 				<l n="1">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<lem wit="#Transcription">Admell, má Orna.</lem>
+						<rdg wit="#Translation">A great destruction, greater [is] Orna.</rdg>
 					</app>
 				</l>
 				<l n="2">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Úath-cath.</lem>
+						<rdg wit="#Translation">A phantom-war.</rdg>
 					</app>
 				</l>
 				<l n="3">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Cúila lecc.</lem>
+						<rdg wit="#Translation">Recesses of stone tombs.</rdg>
 					</app>
 				</l>
 				<l n="4">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Lúa fris;</lem>
+						<rdg wit="#Translation">A trampling on account of him;<note type= "critical" anchored="true"><p>The Old Irish word for sword (<hi rend="italic">claideb</hi>) is masculine; in order to avoid confusion by the use of 'it' throughout the poem, references to the sword are given as 'him / his.'</p></note></rdg>
 					</app>
 				</l>
 				<l n="5">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Tethaind tuind formni.</lem>
+						<rdg wit="#Translation">He broke the outpouring of the choice part.<note type= "critical" anchored="true"><p>The 'choice part' of a group of warriors.</p></note></rdg>
 					</app>
 				</l>
-			</lg>
-			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
+				<l n="6">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Fa-roir. Is ress:</lem>
+						<rdg wit="#Translation">He was the equal of it. It is a vision:</rdg>
 					</app>
 				</l>
 				<l n="7">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Nin i ġallne.</lem>
+						<rdg wit="#Translation">An Ogam letter on a small standing stone.<note type= "critical" anchored="true"><p>The earliest historical use of Ogam was on upright stones that served as grave markers.</p></note></rdg>
 					</app>
 				</l>
 				<l n="8">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Ám trí lócha:</lem>
+						<rdg wit="#Translation">Indeed [there are] three lócha:<note type= "critical" anchored="true"><p>Here the poet <hi rend="italic">Lóch</hi> engages in word-play with words similar to his name. The 'breach' refers to breaching the defense presented by a line of opposing warriors.</p></note></rdg>
 					</app>
 				</l>
 				<l n="9">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Lóch aurbi,</lem>
+						<rdg wit="#Translation">The benefit of a breach,</rdg>
 					</app>
 				</l>
 				<l n="10">
 					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<lem wit="#Transcription">Amm lías luch,</lem>
+						<rdg wit="#Translation">A host who captures a reward,</rdg>
 					</app>
 				</l>
+				<l n="11">
+					<app>
+						<lem wit="#Transcription">Loeg truim-chim.</lem>
+						<rdg wit="#Translation">A favored one fated to die.</rdg>
+					</app>
+				</l>
+				<l n="12">
+					<app>
+						<lem wit="#Transcription">Amm trichtaigh,</lem>
+						<rdg wit="#Translation">A host in early manhood,</rdg>
+					</app>
+				</l>
+				<l n="13">
+					<app>
+						<lem wit="#Transcription">Tige fo aibne.</lem>
+						<rdg wit="#Translation">Households beneath the whip.<note type= "critical" anchored="true"><p>These lines refer to the oppression of the 'houses' or 'lineages' of the TDD, who experience suffering as the result of tribute imposed by the houses of Tethra.</p></note></rdg>
+					</app>
+				</l>
+				<l n="14">
+					<app>
+						<lem wit="#Transcription">Mí-ḟúalaing</lem>
+						<rdg wit="#Translation">A baneful physical suffering</rdg>
+					</app>
+				</l>
+				<l n="15">
+					<app>
+						<lem wit="#Transcription">Tige Tethrae.</lem>
+						<rdg wit="#Translation">of the houses of Tethra.</rdg>
+					</app>
+				</l>
+				<l n="16">
+					<app>
+						<lem wit="#Transcription">Tóe trá.</lem>
+						<rdg wit="#Translation">Silence, then.<note type= "critical" anchored="true"><p>This line also encodes an allusion to Tethra, whose name was sometimes spelled <hi rend="italic">Tetra</hi> or <hi rend="italic">Tetru</hi>.</p></note></rdg>
+					</app>
+				</l>
+				<l n="17">
+					<app>
+						<lem wit="#Transcription">Do-bert mór,</lem>
+						<rdg wit="#Translation">He brought about a mighty thing,</rdg>
+					</app>
+				</l>
+				<l n="18">
+					<app>
+						<lem wit="#Transcription">Fot-riru fál:</lem>
+						<rdg wit="#Translation">A barrier<note type= "critical" anchored="true"><p>The barrier (literally 'fence') consists of a group of Fomorian warriors with weapons extended outward in readiness for attack.</p></note>reinforced it:</rdg>
+					</app>
+				</l>
+				<l n="19">
+					<app>
+						<lem wit="#Transcription">Fomoire fáen(d)a,</lem>
+						<rdg wit="#Translation">Fomorians [with] weapons levelled for attack,</rdg>
+					</app>
+				</l>
+				<l n="20">
+					<app>
+						<lem wit="#Transcription">For Balor.</lem>
+						<rdg wit="#Translation">Supported by Balor.</rdg>
+					</app>
+				</l>
+				<l n="21">
+					<app>
+						<lem wit="#Transcription">Benn, bás.</lem>
+						<rdg wit="#Translation">A wing of an army,<note type= "critical" anchored="true"><p><hi rend="italic">Benn</hi> means 'a mountain, peak, summit,' and was also used figuratively of a wing of an army.</p></note>death. </rdg>
+					</app>
+				</l>
+				<l n="22">
+					<app>
+						<lem wit="#Transcription">A lán Fomoire,</lem>
+						<rdg wit="#Translation">Many Fomorians,</rdg>
+					</app>
+				</l>
+				<l n="23">
+					<app>
+						<lem wit="#Transcription">Lug mac Ethne,</lem>
+						<rdg wit="#Translation">Lug son of Ethne,<note type= "critical" anchored="true"><p>Here the poet directly addresses Lug, warning him of the many Fomorians engaged in the hosting, in preparation for attack.</p></note></rdg>
+					</app>
+				</l>
+				<l n="24">
+					<app>
+						<lem wit="#Transcription">Uili óinḟecht!</lem>
+						<rdg wit="#Translation">All [in] a hosting at the same time!</rdg>
+					</app>
+				</l>
+				<l n="25">
+					<app>
+						<lem wit="#Transcription">Ferr-si co láim.</lem>
+						<rdg wit="#Translation">It is superior by means of prowess.</rdg>
+					</app>
+				</l>
+				<l n="26">
+					<app>
+						<lem wit="#Transcription">Cath-ráin, rann-si.</lem>
+						<rdg wit="#Translation">A battle-torrent, a faction.<note type= "critical" anchored="true"><p>A 'faction' as in an opposing side in a fight, battle, contest, legal dispute or other situation.</p></note></rdg>
+					</app>
+				</l>
+				<l n="27">
+					<app>
+						<lem wit="#Transcription">Fodb; fer-samla:</lem>
+						<rdg wit="#Translation">Spoils taken from the dead; an apparition:<note type= "critical" anchored="true"><p>The 'apparition' is the <hi rend="italic">Badb</hi> or Scaldcrow, a 'member of a flock.'</p></note></rdg>
+					</app>
+				</l>
+				<l n="28">
+					<app>
+						<lem wit="#Transcription">Ferr-si, cethir.</lem>
+						<rdg wit="#Translation">She is unrivalled, a member of a flock.</rdg>
+					</app>
+				</l>
+				<l n="29">
+					<app>
+						<lem wit="#Transcription">Slichd fhid serbh,</lem>
+						<rdg wit="#Translation">The cutting of a sharp spear-shaft,</rdg>
+					</app>
+				</l>
+				<l n="30">
+					<app>
+						<lem wit="#Transcription">Ár mór, míad.</lem>
+						<rdg wit="#Translation">A mighty slaughter, an elevation.<note type= "critical" anchored="true"><p>An elevation of rank or status, as well as the 'elevation' of a palisade of spears or other pointed weapons.</p></note></rdg>
+					</app>
+				</l>
+				<l n="31">
+					<app>
+						<lem wit="#Transcription">Ainmm aile.</lem>
+						<rdg wit="#Translation">The reputation of a palisade.</rdg>
+					</app>
+				</l>
+				<l n="32">
+					<app>
+						<lem wit="#Transcription">Fess fuile.</lem>
+						<rdg wit="#Translation">Tidings of bloody wounds.<note type= "critical" anchored="true"><p>In other sources, the <hi rend="italic">Badb</hi> either presages or gives tidings of battle and death; indeed, the Mórrígan gives tidings of the success of the TDD in battle at the very end of the story.</p></note></rdg>
+					</app>
+				</l>
+				<l n="33">
+					<app>
+						<lem wit="#Transcription">Tethra - a h-idús -</lem>
+						<rdg wit="#Translation">A scaldcrow<note type= "critical" anchored="true"><p>The word Tethra has several other meanings, including 'scaldcrow;' the 'turret' refers to her watchful position in a tree, observing the battle.</p></note>- [from] her perch -</rdg>
+					</app>
+				</l>
+				<l n="34">
+					<app>
+						<lem wit="#Transcription">Faidter fortbe.</lem>
+						<rdg wit="#Translation">A slaughter was observed.</rdg>
+					</app>
+				</l>
+				<l n="35">
+					<app>
+						<lem wit="#Transcription">Mang dia ḟurbad</lem>
+						<rdg wit="#Translation">Mournfulness on account of its smiting</rdg>
+					</app>
+				</l>
+				<l n="36">
+					<app>
+						<lem wit="#Transcription">F-ruiris ilar</lem>
+						<rdg wit="#Translation">Which holds back a multitude</rdg>
+					</app>
+				</l>
+				<l n="37">
+					<app>
+						<lem wit="#Transcription">Fuile Ogmae.</lem>
+						<rdg wit="#Translation">of the bloodlines of Ogma.<note type= "critical" anchored="true"><p>While the final two lines could refer to the 'binding of bloody wounds,' the purpose of this <hi rend="italic">rosc</hi> was to praise the sword, whose abilities held back the TDD (for a time at least); therefore the <hi rend="italic">fuile</hi> are the 'bloodlines' of Ogma, the Túatha Dé Danann.</p></note></rdg>
+					</app>
+				</l>				
 			</lg>
 		</body>
 	</text>

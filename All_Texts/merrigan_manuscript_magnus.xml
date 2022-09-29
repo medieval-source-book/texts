@@ -1,0 +1,217 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Testament of Magnus, the Swedish King</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Tara Wanda Merrigan</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Tara Wanda Merrigan</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Runqi Zhang</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+                <p>Composed in fifteenth-century Rus (a medieval, primarily Slavic civilization located in what is today Eastern Europe), the “Testament of Magnus” is a “manuscript” allegedly authored by Magnus Eriksson, king of Sweden from 1319 to 1363 and Norway from 1319 to 1355, during his dying days in an Orthodox monastery. A popular Novgorodian tale, the “Testament” recounts the Swedish king’s unsuccessful military exploits in Novgorod— his 1348 campaign ended in complete defeat — and serves as a warning to his fellow Swedes to avoid going to war with the Rus people. Thus, the “Testament” promotes the Novgorod Republic’s military prowess and its role in protecting Rus’s interior lands from foreign invaders. </p>
+                <p>Dated to the year 6860 using the Mundane Era of Constantinople date system (1352 in the Julian calendar), the text opens with the explicit claim that it is the “Рᲂуукописание” (autograph manuscript) of King Magnus. The text recounts previous wars between the Swedes and Novgorodians dating back to the thirteenth century, namely failed exploits by Birger Magnusson and Tyrgils Knutson, both of whom were defeated by Rus princes (most notoriously, in the Battle of Neva in 1240 by Prince Alexander, whose attribute – Nevsky – derives from this victory). The second half of the text focuses on Magnus’s unsuccessful 1348 campaign. The narrator (allegedly Magnus) admonishes himself for breaking a peace treaty with Rus and capturing Novgorodian land. Like his predecessors, Magnus was unsuccessful. Fleeing the approaching Novgorodians, Magnus and his army were shipwrecked. Magnus’s misery continues: his lands suffer from civil war, illness, and famine. He goes insane and is locked up in a sanitorium. Magnus’s son Hakon frees Magnus from his confinement, but Magnus is once again shipwrecked. Floating on a piece of the wrecked ship, Magnus, a Roman Catholic, is saved by Orthodox monks from Rus, who baptize him and initiate him into monkhood. (The real-life Magnus had attempted to convert Novgorodians to Catholicism.) The text implies that the converted Magnus will die soon after writing this manuscript. </p>
+                <p>The “Testament of Magnus” is notable for its religious imagery. The text grafts familiar Christian tropes onto the story of Magnus’s sorrows. These sorrows begin first with Magnus’s violation of “крⷭ҇тноє целованіє” (kissing the cross), a medieval promise ritual popular in Rus. The narrating Magnus acknowledges multiple times that his suffering was due to violating the Peace Treaty of Nöteborg, which Magnus himself made with Novgorod in 1323. Like other important medieval oaths, the treaty was cemented by the kissing of the cross. Thus, God’s retribution humbles Magnus, causing the Swedish king to convert to Orthodox Christianity. Notably, in recounting the second shipwreck, the narrator describes himself as floating, having been pinned or nailed down by wooden planks (“исторцьнемъ пригвоꙁⷣихсѧ”), when the Orthodox monks find him — an allusion to Christ’s crucifixion. </p>
+                <p>Scholars today unequivocally reject the text’s claims that Magnus was its author, though the true authorship of the “Testament” is unknown. Most historical accounts suggest that the Swedish king died in a shipwreck in 1374, so the “Testament” account of Magnus’s final days and conversion are fictional. However, some of Magnus’s life does track with the information given in the “Testament”: it is known that Magnus was dethroned in 1363, imprisoned from 1365 to 1371 (as compared to the one year of confinement mentioned in the text), and freed by his son Hakon, who sought to bring Magnus to Norway. More broadly speaking, the historical material regarding Swedish-Rus relations is supported by contemporaneous chronicles from Rus and Sweden. As a forged manuscript the “Testament of Magnus” offers insight into the information ecosystem of medieval Eastern Europe and suggests the tenor of foreign relations between medieval Swedish and Rus peoples.  </p>
+                <p>The text used for this translation is taken from the St. Sophia First Chronicle, a fifteenth-century compilation written in Old Russian that belongs to a larger family of Novgorodian chronicles created during this period. This chronicle was named “St. Sophia” because nineteenth-century scholars had once (incorrectly) believed that the earliest versions had been composed by a fifteenth-century Novgorodian author in the St. Sophia Cathedral in Novgorod. Today, scholars think that the chronicle was composed by a Muscovite author. </p>
+                <p>The manuscript used in this translation is an example of the so-called “younger version” of the chronicle (a later copy of the St. Sophia First chronicle text). It is known as Tolstoy's Sophia I Chronicle, named after its owner, the collector Fyodor Andreevich Tolstoy (1758–1849). Today it is held by the Russian National Library in St. Petersburg. In the St. Sophia First Chronicle, the “Testament of Magnus” spans 214r-a through 215r-a. It can also be found in other Novgorodian chronicles such as the Novgorod Karamzin Chronicle and the Fourth Novgorod Chronicle. It is likely that none of these three chronicles contains an original version of the “Testament;” they all seem to share a common textual source, today unknown. Overall, these chronicles preserve much of the same narrative content but each features omissions and additions. For example, the First Sophia Chronicle and Fourth Novgorod Chronicle track fairly closely up to entries dated 1418, when the main body of the First Sophia chronicle ends while the Fourth Novgorod Chronicle continues in the mid-fifteenth century. Furthermore, the First Sophia Chronicle’s content generally focuses less exclusively on Novgorod than the Fourth Novgorod Chronicle and Novgorod Karamzin Chronicle does.  (See John H. Lind’s work in Further Reading for a discussion of fifteenth-century Russian chronicles.) </p>
+                <p>Guimon, Timofei Valentinovich. “St. Sophia First Chronicle.” Encyclopedia of the Medieval Chronicle, June 2016. referenceworks.brillonline.com, https://referenceworks.brillonline.com/entries/encyclopedia-of-the-medieval-chronicle/st-sophia-first-chronicle-SIM_000932?s.num=0&amp;s.f.s2_parent=s.f.book.encyclopedia-of-the-medieval-chronicle&amp;s.q=sophia+chronicle</p>
+                <p>A useful encyclopedia entry that provides a brief overview of the St. Sophia First Chronicle. </p>
+                <p>Lind, John H. 'In the Workshop of a Fifteenth Century Russian Chronicle Editor. The Novgorod Karamzin Chronicle and the Making of the Fourth Novgorod Chronicle', in The Medieval Text: Editors and Critics, A Symposium held at Odense University 20-21 November 1989 (Odense, 1990), pp. 65-81. https://www.academia.edu/9015271/In_the_Workshop_of_a_Fifteenth_Century_Russian_Chronicle_Editor_The_Novgorod_Karamzin_Chronicle_and_the_Making_of_the_Fourth_Novgorod_Chronicle</p>
+                <p>A resource for information about the differences between manuscript versions of the testament of Magnus and, more generally, about similarities and differences between Novgorodian chronicles of the fifteenth century. </p>
+                <p>—. 'The Russian Testament of King Magnus Eriksson - a Hagiographic Text?', in Medieval Spirituality in Scandinavia and Europe A Collection of Essays in Honour of Tore Nyberg (Odense, 2000), pp. 195-212. www.academia.edu, https://www.academia.edu/10404301/The_Russian_Testament_of_King_Magnus_Eriksson_a_Hagiographic_Text_in_Lars_Bisgaard_Carsten_Selch_Jensen_Kurt_Villads_Jensen_and_John_Lind_eds_Medieval_Spirituality_in_Scandinavia_and_Europe_A_Collection_of_Essays_in_Honour_of_Tore_Nyberg_Odense_2000_195_212. </p>
+                <p>A book chapter that extensively examines the “Testament of Magnus” and situates the text within Swedish-Rus political history. It also discusses the Tale of the Valaam Monastery at length. </p>
+                <p>Mikhailova, Yulia, and David K. Prestel. “Cross Kissing: Keeping One’s Word in Twelfth-Century Rus’.” Slavic Review, vol. 70, no. 1, 2011, pp. 1–22. JSTOR, doi:10.5612/slavicreview.70.1.0001.</p>
+                <p>Provides a thorough English-language overview of the ritual of kissing the cross and its symbolic influences, albeit focused on an earlier century. </p>
+			</notesStmt>
+			<sourceDesc>
+				 <p> Russian National Library, OP F.IV.211 Sofia I Chronicle of the younger edition, 214r-215r.</p>
+				<listWit>
+					<witness xml:id="Transcription">"Рᲂукописание, магнᲈша королѧ свѣискаго"</witness>
+					<witness xml:id="Translation">The Testament of Magnus, the Swedish King</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"The Testament of Magnus, the Swedish King" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+                    <p>The transcription retains the graphic form of words used in the manuscript, including the superscribed letters and abbreviations that are indicated with a “titlo”. Spaces have been inserted to mark the beginning and ending of words. Original punctuation marks have been maintained for the transcription to retain the logical division of the text and introduce modern readers to medieval composition and reading style. The English translation uses punctuation in accordance with modern notions of sentence composition. Accent marks guiding pronunciation have not been retained.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title>
+					<app>
+						<lem wit="#Transcription">Рᲂукописание , магнᲈша королѧ свѣискаго</lem>
+						<rdg wit="#Translation">The Testament of Magnus, the Swedish King</rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription">В лѣ   ҂Ѕ҃  Ѡ҃ . Ѯ҃ , </lem>
+						<rdg wit="#Translation">In the year 6860 (1352)</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<p n="1">
+				<s>
+					<app>
+						<lem wit="#Transcription">Рᲂукописание , магнᲈша королѧ свѣискаго</lem>
+						<rdg wit="#Translation">The Testament of Magnus, the Swedish King</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">Се аꙁъ магнᲈшь король свѣискыи . нареченыи въ ст͠омъ крщ͠нии григории . ѿходѧ сего свѣта . пишᲂу рꙋкописание при своемь животѣ .</lem>
+						<rdg wit="#Translation">Behold I, Magnus, the Swedish King, named Gregory in holy baptism, departing this life, write a testament while still alive.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">а прикаꙁываю своим дѣтеⷨ . и своеи братии . и всеи ꙁемли свѣискои . не на (// 214r-b) стꙋпаите на рᲈсь на крⷭ҇тномъ целовании . ꙁанеже намъ не посаблѧет сѧ .</lem>
+						<rdg wit="#Translation">I order my children and my brothers and all the Swedish land: Do not wage war against Rus after kissing the cross, because we will not have luck in it. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">первіе сего поⷣꙗл сѧ местерь белгерь . и вшелъ в невᲂу . и срѣте его кн͠ꙁь великыи алеѯанрⷣъ ꙗрослви . на ижерѣ рѣцѣ . и самого прогна , а ратꙺ его поби .</lem>
+						<rdg wit="#Translation">Lord Belger was the first to wage war against Rus and enter into the Neva, and the Grand Prince Alexander Yaroslavich met him on the Izhora River, drove him away, and killed his army. </rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и потоⷨ братъ мои маскалка . вшеⷣ в невꙋ гороⷣ , постави на ѡхтѣ рѣцѣ . и намѣстникы своꙗ посади со множествоⷨ нѣмець . а самъ поиде ꙁа море .</lem>
+						<rdg wit="#Translation">And then my brother Maskalka, entering into the Neva, established a fortress-city on the Okhta River and appointed his viceroys among a multitude of Germans. And himself went across the sea.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и пришеⷣ великыи кн͠ꙁь анⷣрѣи алеѯанⷣровиⷱ҇ , гороⷣ вꙁѧ .  а намѣстьникы и немець поби . и потоⷨ было наⷨ роꙁмирие с рᲈсию . м҃ , лѣтъ .</lem>
+						<rdg wit="#Translation">And the Grand Prince Andrei Alexandrovich came, took the city, and killed viceroys and the Germans.  And then we had peace with Rus for 40 years.</rdg>
+					</app>
+				</s>
+				<s>
+					<app>
+						<lem wit="#Transcription">и потоⷨ  ꙁа . м҃ , лѣтъ с великиⷨ кн͠ꙁемъ юрїемъ даниловичемъ . вꙁѧли есмы миръ вѣчныи на невѣ . ꙁемли есмѧ и водѣ ᲂучинили роꙁⷣѣлъ . комᲈ чимъ владѣти . и грамоты есмѧ пописали и попечатали . </lem>
+						<rdg wit="#Translation">And then, in 40 years, Grand Prince Yuri Danilovich and I took an oath of eternal peace on the Neva. We divided land and water – who ruled what – and we wrote and sealed up charters. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и потоⷨ ꙁа . л҃ , лѣтъ . ꙗꙁъ (// 214v-a) магнᲈшь король . того не порѧдѧ . поднѧл сѧ есмь со всею ꙁемлею свѣискою . и шеⷣ в невᲈ вꙁѧⷯ гороⷣ ѡрѣховъ . и намѣстникы свои есмь в городѣ посадилъ .</lem>
+						<rdg wit="#Translation">And then, in 30 years, I, King Magnus, not honoring this agreement, arose with all the Swedish land and entered into the Neva and took the city of Orekhov. And I appointed my own proxies in the city,</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">а с ними нѣколико силы моеꙗ ѡставиⷯ а самъ есмь пошелъ ꙁа море . и потоⷨ новогородци пришеⷣ гороⷣ свои вꙁѧли . а моиⷯ намѣстниковъ и немець побилї которьіе были в городѣ . </lem>
+						<rdg wit="#Translation">and left some part of my army with them, and I myself went across the sea. And then the Novgorodians came and took back their city and killed my viceroys and the Germans who were in the city. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и аꙁъ того не порѧдѧ ꙁа ѡдинъ годъ ѡпѧть пошелъ к орѣховᲂу . со всею свѣискою ꙁемлею .</lem>
+						<rdg wit="#Translation">And not honoring my promise, one year later I went again to Orekhov with all the Swedish land. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и срѣте мѧ вѣсть что новогородци поⷣ ѡрѣховцемъ . и ꙗꙁъ опѧть пошелъ поⷣ копорию . и поⷣ копориею есмь ночевалъ .</lem>
+						<rdg wit="#Translation">And I received a message that Novgorodians were near Orekhovets. And I went again to Koporye and I stayed the night at the foot of Koporye. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и прииде ко мнѣ вѣсть . новогородци на ᲂукрѣ ꙁемли и ꙗꙁъ послышевъ побѣглъ ꙁа море .</lem>
+						<rdg wit="#Translation">And a message came to me: the Novgorodians are on the coast and I, having heard this, sped across the sea.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">ино , в валꙋ , парᲂусовъ не ꙁнати . вста бꙋрѧ силна . и потопи рати моее много . на ᲂусть (// 214v-b) неровы рѣкы . и пошелъ есмь в ꙁемлю свою . съ ѡстанкоⷨ рати .</lem>
+						<rdg wit="#Translation">But in the waves the sails were unmanageable, a powerful storm arose and drowned much of my army at the mouth of the Narova River.  And I went to my land with the rest of the army. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">И ѿ того веремѧни . наиде на нашᲂу ꙁемлю свѣискᲂую  погибель : потопъ , моръ , голодъ и сѣчѧ межи собою .</lem>
+						<rdg wit="#Translation">And since that time doom has come to our Swedish land: flood, plague, hunger, and infighting.</rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и потоⷨ приѣха сн͠ъ мои сакᲈнъ , иꙁ мᲂурманьские ꙁемли . и вынѧ мѧ ис полаты . </lem>
+						<rdg wit="#Translation">And then my son Sakun came from the Murmansk land, and took me out of the ward, </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и веꙁе въ свою ꙁемлю мᲈрманьскᲂую и ᲂудари на мене опѧть потопъ . кораблѧ моꙗ и люди моꙗ истопи вѣтръ а самъ створи ⷯсѧ плаваꙗ на днѣ корабленоⷨ . исторцьнемъ пригвоꙁⷣих сѧ . три д͠ни . и три нощи . </lem>
+						<rdg wit="#Translation">and took me to his Murmansk land, and a flood struck me again. The wind shipwrecked my ships and my people, and I found myself at the bottom of the ship, and I floated for three days and three nights, pinned by a wooden plank. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и по б͠жїю повелѣнию принесе мѧ вѣтръ поⷣ монастырь с͠тго с͠п в полнᲂую рѣкᲈ . </lem>
+						<rdg wit="#Translation">And by God’s command, the winds brought me to the monastery of the Holy Savior on the Polnaia River. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и снѧхᲂу мꙗ съ доскы чернеци . и въ (// 215r-a) несоша мѧ в монастырь и постригоша мѧ в черньци и въ скимᲂу . и сътвори мѧ г͠ь жива . г҃ ,  д͠ни и . г҃ , нощи</lem>
+						<rdg wit="#Translation">And the monks took me off the plank and brought me into the monastery and tonsured me a monk and into the schema. And the Lord kept me alive for three days and three nights. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">а все то мене б͠гъ каꙁнилъ ꙁа мое высокоᲂумие что есмь настᲈпалъ на рꙋсь , а на крⷭ҇тномъ целованїи .</lem>
+						<rdg wit="#Translation">And to all this God has subjected me for my pride, because I waged war against Rus and broke the oath sealed by the kissing of the cross. </rdg>
+					</app>
+				</s>
+                <s>
+					<app>
+						<lem wit="#Transcription">и н͠нѣ прикаꙁываю своимъ дѣтемъ . и своеи братии , не настᲈпаите на рꙋсь , на  крⷭ҇тномъ целовании а кто настᲂупить . на того б͠гъ . и ѡгнь и вода . имже мене каꙁнилъ . а все ми створилъ то б͠гъ к моемᲂу спⷭ҇нїю ⹃ </lem>
+						<rdg wit="#Translation">And now I order my children and my brothers: Do not wage war against Rus after giving an oath on the cross. For he who attacks — fire and water will be against him, just the same way as God has punished me. And all this God has done to me for my salvation. </rdg>
+					</app>
+				</s>
+			</p>
+		</body>
+	</text>
+</TEI>

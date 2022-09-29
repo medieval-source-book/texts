@@ -50,9 +50,9 @@
 
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				 <p>MS 637, Egorov Collection(98), Russian Library</p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Transcription">"Ꙗко бо слн҃це створи бъ҃"</witness>
 					<witness xml:id="Translation">The Legend of the Miracles of the Vladimir Mother of God Icon</witness>
 				</listWit>
 			</sourceDesc>
@@ -207,18 +207,6 @@
 					<app>
 						<lem wit="#Transcription">20.  Чюⷣ  і҃. Кнѧзь бл҃горⷣныи андрѣи. съзаⷣ златаꙗ врата. къ празнⷣик  ст҃ыꙗ бц҃а. гл҃ѧ къ боꙗромъ. егⷣа снидᲂутсѧ лю󰀣е на празнⷣикъ. и врата ᲂузрѧ. бывшᲂу же празнⷣикᲂу. и снидесѧ нароⷣ къ вратомъ. бѣ бо еще не сᲂуха извисть въ вратѣⷯ. абїе же вънезапᲂу истръгшисѧ ѿ стѣнъ врата. и падоша на люди. и покрыша ві҃ мᲂужа. се же слышавъ кнѧзь андрѣи. (//393v) начать съ възⷣыхание молитисѧ. къ иконѣ пртѣи бц҃и. гжⷭ҇е прчтⷭ҇аа влчⷣце. аще сиⷯ ты не избавиши, азъ бо грѣшныи повиненъ быхъ см҃рти сихъ. и посла боѧрина своего. дати все на потребᲂу мрт҃вымь. он же приѣхавъ. и вьзѧша врата. и видиша всⷯѣ сᲂущиⷯ пѡⷣ враты живыⷯ и зрⷣавыхъ. и се слышавъ кн҃зь андрѣи раⷣ бысть. и се чюдо видѣвше народѣ чюдишасѧ.</lem>
 						<rdg wit="#Translation">The Tenth Miracle. The noble Prince Andrei built the golden gates for the feast of the Holy Mother of God and said to the boyars: “When people come to the feast they will see the gates.” When the feast day arrived and the people came to the gates, the lime in the gate had not yet dried. And suddenly the gate fell off the walls and onto the people, crushing twelve of them. When Prince Andrei heard of this, he began to pray and lament in front of the icon of the Holy Mother of God: “Most Pure Virgin Mother, if you do not save them, then I, a sinner, will be guilty of their deaths.” And he sent his boyar to provide all that was necessary to bury the dead. When the boyar arrived and the gate was lifted, the people underneath it were all alive and healthy. And hearing this, Prince Andrei was glad. And, seeing the miracle, the people marveled. </rdg>
-					</app>
-				</s>
-				<s>
-					<app>
-						<lem wit="#Transcription">
-							<note type= "critical" anchored="true">
-								<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>-->
-									
-								</p>
-							</note>
-						</lem>
-						<rdg wit="#Translation"></rdg>
 					</app>
 				</s>
 			</p>

@@ -31,7 +31,7 @@
 				</availability>
 			</publicationStmt>
 			<notesStmt>
-				<note anchored="true"></note>
+				<p> This twelfth-century martyrdom narrative is found in Cambridge, Corpus Christi College, MS 462, ff. 136r-142v. The entire manuscript can be viewed online here.</p>
 			</notesStmt>
 			<sourceDesc>
 				<p>Cambridge, Corpus Christi College, MS 462, ff. 136r-142v.</p>
@@ -73,10 +73,8 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Incipit passio sanctarum virginum: Spei, Fidei, Karitatis, et matris earum Sapientiae [kal. Aug.]</lem>
-							<rdg wit="#Translation">Here begins the passion of the holy virgins Hope, Faith, Charity, and their mother Wisdom (Kalends
-								<note type="critical" ancored="true">
-									<p>The Kalends fall on the first day of the month.</p></note>
-							 of August)</rdg>
+							<rdg wit="#Translation">Here begins the passion of the holy virgins Hope, Faith, Charity, and their mother Wisdom (Kalends<note type="critical" ancored="true">
+									<p>The Kalends fall on the first day of the month.</p></note> of August)</rdg>
 						</app>
 					</s>
 				</p>
@@ -136,11 +134,7 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Et dum frequenter ad aecclesiam orandi causa irent, quidam maligno spiritu incitatus, uenit ad imperatorem et dixit ei, “Mulier quaedam cum tribus puellis nescio unde huc aduenit, et nostris matronis persuasit, ut colerent unum Deum et filium eius Iesum Christum, et fraudauit nos a matrimoniali coniugio.</lem>
-							<rdg wit="#Translation">While they often went to church to pray, someone incited by an evil spirit went to the emperor and said to him, “There is a certain woman with three daughters. I don’t know from where she has come to this place, but she has persuaded our married women to worship one God and his son Jesus Christ and has thus cheated us out of our marital rights
-								<note type="critical"  ancored="true">
-									<p>A " <hi rend="italic">matrimoniali coniugio</hi>" is more literally translated as "our marital bond. </p>
-								</note>.
-							</rdg>
+							<rdg wit="#Translation">While they often went to church to pray, someone incited by an evil spirit went to the emperor and said to him, “There is a certain woman with three daughters. I don’t know from where she has come to this place, but she has persuaded our married women to worship one God and his son Jesus Christ and has thus cheated us out of our marital rights.<note type="critical"  ancored="true"><p>A " <hi rend="italic">matrimoniali coniugio</hi>" is more literally translated as "our marital bond.</p></note></rdg>
 						</app>
 					</s>
 					<s>
@@ -260,11 +254,11 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Ita filiae meae et uiscera mea miseremini uestrae matri, et certate aduersus artifices maligne artis excitantes uobis tormenta.</lem>
-							<rdg wit="#Translation">In this way should you, my daughters and my hearts
+							<rdg wit="#Translation">In this way should you, my daughters and my hearts,
 								<note type="critical"  ancored="true">
 									<p>"<hi rend="italic">Viscera mea</hi>" in Ps. 102:1 is typically translated as "all that is within me"; as <hi rend="italic">viscera</hi> can refer to any of the internal organs, however, the modern English term of affection, "my heart", is most evocative of Wisdom’s maternal love.</p>
 								</note>
-								, have mercy upon your mother, and fight against the practitioners of evil arts as they torture you.</rdg>
+								have mercy upon your mother, and fight against the practitioners of evil arts as they torture you.</rdg>
 						</app>
 					</s>
 					<s>
@@ -376,11 +370,11 @@
 					<s>
 						<app>
 							<lem wit="#Transcription">Beatae autem uirgines quasi ex uno ore dixerunt regi, “Nobis tales promissiones non sunt necessariae.</lem>
-							<rdg wit="#Translation">However, the blessed virgins said to the king as if with one voice
+							<rdg wit="#Translation">However, the blessed virgins said to the king as if with one voice:
 								<note type="critical"  ancored="true">
 									<p>"<hi rend="italic">Ex uno ore</hi>" is more literally translated as "with one mouth".</p>
 								</note>
-							: “We do not need such promises,  </rdg>
+							“We do not need such promises,  </rdg>
 						</app>
 					</s>
 					<s>
