@@ -34,7 +34,6 @@
 				<note anchored="true"></note>
 			</notesStmt>
 			<sourceDesc>
-				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
 				<listWit>
 					<witness xml:id="Transcription">Descripción del antropomórfica del continente americano</witness>
 					<witness xml:id="Translation">Anthropomorphic description of the Americas</witness>
@@ -43,8 +42,7 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-            	<p>"Anthropomorphic description of the Americas" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
-            </p> 
+            	<p>"Anthropomorphic description of the Americas" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.</p> 
          	</projectDesc>
 			<editorialDecl>
 	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
@@ -70,7 +68,6 @@
 		</front>
 		<body>	
 				<p n="1">
-					<!--Paragraphs should be numbered-->
 					<s>
 						<app>
 							<lem wit="#Transcription">Resta ahora que con la más claridad y brevedad que nos fuere posible, en tanto que la parte de el mundo que dijimos se acaba de henchir de gentes y darnos materia que tratar, digamos de la forma y postura en que el soberano criador la formó, a lo menos en la que nuestra nación la halló cuando pasó a ella.</lem>
@@ -84,6 +81,7 @@
 							And He found no better artifice with which to express this continent than imagining it as a pudgy and robust giant, lying on his front upon the world, his disformed head with its poorly combed hair beginning at around fifty-five degrees latitude from the Antarctic Pole.</rdg>
 						</app>
 					</s>
+					<s>
 						<app>
 							<lem wit="#Transcription">Y de esta cabeza, degollado el cuello por los cincuenta y dos y medio que es lo que llamamos estrecho de Magallanes, cuya longitud corre leste oeste.</lem>
 							<rdg wit="#Translation">And his head is severed from the neck at around fifty-two-and-a-half degrees latitude, where the Strait of Magellan runs longitudinally from East to West.</rdg>
