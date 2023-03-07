@@ -84,9 +84,7 @@
 				<l n="1">
 					<app>
 						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note anchored="true"><p></p></note> 
-						</rdg>
+						<rdg wit="#Translation"></rdg>
 					</app>
 				</l>
 				<l n="2">
@@ -110,7 +108,10 @@
 				<l n="5">
 					<app>
 						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
+						<rdg wit="#Translation">
+							<note type= "critical" anchored="true">
+									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
+							</note></rdg>
 					</app>
 				</l>
 			</lg>
