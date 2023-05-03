@@ -95,72 +95,127 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1" type="stanza">
-				<l n="1">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="2">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="3">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="4">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="5">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation">
-							<note type= "critical" anchored="true">
-									<p><!--This is an example note. Notes on textual interpretation should usually be contained within the <rdg> and not the <lem>--></p>
-							</note></rdg>
-					</app>
-				</l>
-			</lg>
-			<lg n="2" type="stanza">
-				<l n="6"><!--Lines are continuously numbered through the song so check that they are correct-->
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="7">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="8">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="9">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
-				<l n="10">
-					<app>
-						<lem wit="#Transcription"></lem>
-						<rdg wit="#Translation"></rdg>
-					</app>
-				</l>
+			<l n="1><app><lem wit="#Transcription">Schwanck. Der schwanger bawer mit dem full.</lem><rdg wit="#Translation">There was a farmer in Schnepffenreut,</rdg></app></l>
+<l n="2><app><lem wit="#Transcription">Ein pawer saß zu Schnepffenrewt,</lem><rdg wit="#Translation">Who went riding one day after a brew.</rdg></app></l>
+<l n="3><app><lem wit="#Transcription">Der reit eins tags nach einer brewt.</lem><rdg wit="#Translation">In the heat he drank a lot of wine,</rdg></app></l>
+<l n="4><app><lem wit="#Transcription">Het int hitz knollet truncken nein</lem><rdg wit="#Translation">And racked up an outstanding tab.</rdg></app></l>
+<l n="5><app><lem wit="#Transcription">Ein aufigestanden zegen wein.</lem><rdg wit="#Translation">It didn’t sit right with his stomach.</rdg></app></l>
+<l n="6><app><lem wit="#Transcription">Des ward im in dem bauch nicht recht.</lem><rdg wit="#Translation">So he sent Heintz, his servant,</rdg></app></l>
+<l n="7><app><lem wit="#Transcription">Da schickt er Heintzen, seinen knecht,</lem><rdg wit="#Translation">Into town with his urine,</rdg></app></l>
+<l n="8><app><lem wit="#Transcription">Mit seinem brunnen in die stadt,</lem><rdg wit="#Translation">To seek advice from the doctor.</rdg></app></l>
+<l n="9><app><lem wit="#Transcription">Bey dem artzet zu suchen rath.</lem><rdg wit="#Translation">Heintz trotted there on a mare</rdg></app></l>
+<l n="10><app><lem wit="#Transcription">Der auff einer merrhen dahin drottet</lem><rdg wit="#Translation">And walked through a field.</rdg></app></l>
+<l n="11><app><lem wit="#Transcription">Und uber ein wiesen hin hottet.</lem><rdg wit="#Translation">There he spurred his mare on,</rdg></app></l>
+<l n="12><app><lem wit="#Transcription">In dem stach er sein merrhen an,</lem><rdg wit="#Translation">That she would go a little faster.</rdg></app></l>
+<l n="13><app><lem wit="#Transcription">Das sie ein weng solt furbas gan.</lem><rdg wit="#Translation">She took a stumble in the road</rdg></app></l>
+<l n="14><app><lem wit="#Transcription">Da thets ein stolprer auff der straß,</lem><rdg wit="#Translation">Which made him spill the urine.</rdg></app></l>
+<l n="15><app><lem wit="#Transcription">Das er verschüttet das harmglaß.</lem><rdg wit="#Translation">The servant was flustered by this.</rdg></app></l>
+<l n="16><app><lem wit="#Transcription">Der knecht erschrack ob diesem allen.</lem><rdg wit="#Translation">But just then, his beast had started urinating.</rdg></app></l>
+<l n="17><app><lem wit="#Transcription">In dem war gleich sein grusel stallen.</lem><rdg wit="#Translation">Immediately Heintz dismounted and cleverly caught</rdg></app></l>
+<l n="18><app><lem wit="#Transcription">Bald stieg Heintz ab und fieng besunnen</lem><rdg wit="#Translation">A stream in his glass again</rdg></app></l>
+<l n="19><app><lem wit="#Transcription">In sein glaß widerumb ein brannen</lem><rdg wit="#Translation">And he brought it in for the doctor.</rdg></app></l>
+<l n="20><app><lem wit="#Transcription">Und kam mit zu dem artzt hinein.</lem><rdg wit="#Translation">As he examined Heintz’s sample,</rdg></app></l>
+<l n="21><app><lem wit="#Transcription">Als der beschawt den brannen sein,</lem><rdg wit="#Translation">The doctor marveled greatly</rdg></app></l>
+<l n="22><app><lem wit="#Transcription">Der artzt darob groß wunder het</lem><rdg wit="#Translation">And made the sign of the cross before it.</rdg></app></l>
+<l n="23><app><lem wit="#Transcription">Und sich darvor gesegnen thet.</lem><rdg wit="#Translation">He spoke to the servant: “This person,</rdg></app></l>
+<l n="24><app><lem wit="#Transcription">Sprach zu dem knecht: Diese person</lem><rdg wit="#Translation">She is pregnant with a foal.”</rdg></app></l>
+<l n="25><app><lem wit="#Transcription">Die ist mit ein full schwanger gon.</lem><rdg wit="#Translation">At this the farmhand laughed to himself.</rdg></app></l>
+<l n="26><app><lem wit="#Transcription">Der pawrenknecht des beimlich lacht.</lem><rdg wit="#Translation">The doctor made a laxative for him,</rdg></app></l>
+<l n="27><app><lem wit="#Transcription">Der artzt im ein purgatzen macht,</lem><rdg wit="#Translation">Which he should bring home to the patient,</rdg></app></l>
+<l n="28><app><lem wit="#Transcription">Die sol er heim dem krancken bringen,</lem><rdg wit="#Translation">And which should make him better.</rdg></app></l>
+<l n="29><app><lem wit="#Transcription">Dardurch hm wider möcht gelingen.</lem><rdg wit="#Translation">The servant rode home and shared the news with the farmer;</rdg></app></l>
+<l n="30><app><lem wit="#Transcription">Der knecht riet heim, sagt ihm die mehr,</lem><rdg wit="#Translation">That he was pregnant with a foal.</rdg></app></l>
+<l n="31><app><lem wit="#Transcription">Wie eins füllens schwanger wer.</lem><rdg wit="#Translation">When the farmer heard these words,</rdg></app></l>
+<l n="32><app><lem wit="#Transcription">Da der pawer hört diese wort,</lem><rdg wit="#Translation">He tore at his hair and screamed bloody murder!</rdg></app></l>
+<l n="33><app><lem wit="#Transcription">Er rauft sein bar und schrier: Das mordt!</lem><rdg wit="#Translation">“How should I give birth to the foal?</rdg></app></l>
+<l n="34><app><lem wit="#Transcription">Wie sol ich nur das fall gepern?</lem><rdg wit="#Translation">Am I about to become the mother of a horse?</rdg></app></l>
+<l n="35><app><lem wit="#Transcription">Sol ich erst ein roßmutter wern?</lem><rdg wit="#Translation">All the neighbors will make fun of me!”</rdg></app></l>
+<l n="36><app><lem wit="#Transcription">Wern doch all nachtpawrn spotten mein!</lem><rdg wit="#Translation">He spoke angrily to his wife:</rdg></app></l>
+<l n="37><app><lem wit="#Transcription">Sprach zornig zu der frawen sein:</lem><rdg wit="#Translation">“You’re the only one who has wooly hair and a mane,</rdg></app></l>
+<l n="38><app><lem wit="#Transcription">Du hast nur sein wöln herr und mon,</lem><rdg wit="#Translation">That’s where this little foal comes from.”</rdg></app></l>
+<l n="39><app><lem wit="#Transcription">Da kommet dieses füllein von.</lem><rdg wit="#Translation">And she pushed and struck him with fists</rdg></app></l>
+<l n="40><app><lem wit="#Transcription">Und sie mit feusten stieß and schlug</lem><rdg wit="#Translation">And dragged him through the house by his hair.</rdg></app></l>
+<l n="41><app><lem wit="#Transcription">Und bey dem har im hauß umbzug.</lem><rdg wit="#Translation">When he was about to hit her back,</rdg></app></l>
+<l n="42><app><lem wit="#Transcription">Da er sie nun het wol geschlagen,</lem><rdg wit="#Translation">Only then Heintz said to him,</rdg></app></l>
+<l n="43><app><lem wit="#Transcription">Da thet knecht Heintz erst zu ihm sagen,</lem><rdg wit="#Translation">That he had brought back a fresh laxative,</rdg></app></l>
+<l n="44><app><lem wit="#Transcription">Er brecht do ein purgatzen kul,</lem><rdg wit="#Translation">Which would then push the foal out of him.</rdg></app></l>
+<l n="45><app><lem wit="#Transcription">Die von im treiben wirdt das füll.</lem><rdg wit="#Translation">The farmer was happy and took the laxative.</rdg></app></l>
+<l n="46><app><lem wit="#Transcription">Fro war der pawr, nam die purgatzen.</lem><rdg wit="#Translation">It tore and scratched in his stomach.</rdg></app></l>
+<l n="47><app><lem wit="#Transcription">Die würd im bauch in reissn und kratzen.</lem><rdg wit="#Translation">He rubbed his stomach and his loins</rdg></app></l>
+<l n="48><app><lem wit="#Transcription">Er rieb den bauch und seine lend</lem><rdg wit="#Translation">And thought his final end was coming.</rdg></app></l>
+<l n="49><app><lem wit="#Transcription">Und meint, es kem sein letztes end.</lem><rdg wit="#Translation">The farmer’s wife was crying and sniffling</rdg></app></l>
+<l n="50><app><lem wit="#Transcription">Die pewrin thet weinen und schnuppen</lem><rdg wit="#Translation">And made him a yellow cheese soup,</rdg></app></l>
+<l n="51><app><lem wit="#Transcription">Und macht im ein gelbe käßsuppen,</lem><rdg wit="#Translation">So that she could lessen his anger.</rdg></app></l>
+<l n="52><app><lem wit="#Transcription">Auff das sie ibm leget den grim.</lem><rdg wit="#Translation">And when she brought it in to him</rdg></app></l>
+<l n="53><app><lem wit="#Transcription">Und als sie die nein truge im</lem><rdg wit="#Translation">And forgot his ladle,</rdg></app></l>
+<l n="54><app><lem wit="#Transcription">Und vergas des milchlöffels sein,</lem><rdg wit="#Translation">She laid a small spoon in the soup for him.</rdg></app></l>
+<l n="55><app><lem wit="#Transcription">Legt ihm ein kleinen löffel drein,</lem><rdg wit="#Translation">He was greedily slurping the soup;</rdg></app></l>
+<l n="56><app><lem wit="#Transcription">Geitzig die suppn er schlicken wur.</lem><rdg wit="#Translation">In the end the spoon went in, too.</rdg></app></l>
+<l n="57><app><lem wit="#Transcription">Endtlich der 188 ihm auch nein fubr.</lem><rdg wit="#Translation">He slurped that down, handle and all.</rdg></app></l>
+<l n="58><app><lem wit="#Transcription">Den schlickt er nab mit stiel und al.</lem><rdg wit="#Translation">First his stomach grew big and swollen.</rdg></app></l>
+<l n="59><app><lem wit="#Transcription">Est ihm der bauch groß aufigeschwal.</lem><rdg wit="#Translation">The farmer ran all through the house and whimpered.</rdg></app></l>
+<l n="60><app><lem wit="#Transcription">Im hauß lof der pawr umb und wemert.</lem><rdg wit="#Translation">He sighed, groaned, and wailed.</rdg></app></l>
+<l n="61><app><lem wit="#Transcription">Er seufftzet, echtzet unde gemmert.</lem><rdg wit="#Translation">His belly began to hurt very badly</rdg></app></l>
+<l n="62><app><lem wit="#Transcription">In seinem bauch ward im sehr we</lem><rdg wit="#Translation">Until he could no longer wait.</rdg></app></l>
+<l n="63><app><lem wit="#Transcription">Und kondt endtlich nicht bleiben me.</lem><rdg wit="#Translation">He ran outside and in the cool wanted</rdg></app></l>
+<l n="64><app><lem wit="#Transcription">Loff hinauß und wolt in der kul</lem><rdg wit="#Translation">To bear his incarnate foal.</rdg></app></l>
+<l n="65><app><lem wit="#Transcription">Geperen sein leibhaftig foll.</lem><rdg wit="#Translation">He came to his meadow and complained to the mowers</rdg></app></l>
+<l n="66><app><lem wit="#Transcription">Kam auff sein wiessn, den madern klagt,</lem><rdg wit="#Translation">That he was pregnant with a foal.</rdg></app></l>
+<l n="67><app><lem wit="#Transcription">In mit kleglichen worten sagt,</lem><rdg wit="#Translation">And he fell down into the grass</rdg></app></l>
+<l n="68><app><lem wit="#Transcription">Wie er mit eim full schwanger was,</lem><rdg wit="#Translation">And ordered the mowers to roll him around in it,</rdg></app></l>
+<l n="69><app><lem wit="#Transcription">Und fiel darnieder in das graß,</lem><rdg wit="#Translation">In order to speed up the birth.</rdg></app></l>
+<l n="70><app><lem wit="#Transcription">Darinn hieß sich umbwalgen er,</lem><rdg wit="#Translation">So the mowers rolled</rdg></app></l>
+<l n="71><app><lem wit="#Transcription">Auff das er dester eh geper.</lem><rdg wit="#Translation">The silly farmer around the meadow,</rdg></app></l>
+<l n="72><app><lem wit="#Transcription">So walgeten den pawren thumb</lem><rdg wit="#Translation">Until the laxative made</rdg></app></l>
+<l n="73><app><lem wit="#Transcription">Die mäder auff der wiesen umb,</lem><rdg wit="#Translation">His stomach groan loudly</rdg></app></l>
+<l n="74><app><lem wit="#Transcription">Biß im doch endtlich die purgatz</lem><rdg wit="#Translation">And began gnawing urgently at his rectum.</rdg></app></l>
+<l n="75><app><lem wit="#Transcription">Im banch gab manchen harten kratz</lem><rdg wit="#Translation">Then he said to his mowers:</rdg></app></l>
+<l n="76><app><lem wit="#Transcription">Und ibn hart umb das loch wurd nagen.</lem><rdg wit="#Translation">“Oh help me and let me get up!</rdg></app></l>
+<l n="77><app><lem wit="#Transcription">Da thet er zu seim madern sogen:</lem><rdg wit="#Translation">I swear I’m having my foal!”</rdg></app></l>
+<l n="78><app><lem wit="#Transcription">helft mir und lost mich aufsthon!</lem><rdg wit="#Translation">Then the pregnant farmer stood up</rdg></app></l>
+<l n="79><app><lem wit="#Transcription">Ich muß beim eyd mein füllen hon.</lem><rdg wit="#Translation">And waddled up to a hedge</rdg></app></l>
+<l n="80><app><lem wit="#Transcription">Do stund der schwanger pawer auff</lem><rdg wit="#Translation">And squatted down in the clover.</rdg></app></l>
+<l n="81><app><lem wit="#Transcription">Und schlich nach einer heck hinauff</lem><rdg wit="#Translation">And in a push and then soon</rdg></app></l>
+<l n="82><app><lem wit="#Transcription">Und haucht darnider in den kle</lem><rdg wit="#Translation">With a loud resounding shit</rdg></app></l>
+<l n="83><app><lem wit="#Transcription">Und in eim druck und dennoch ee</lem><rdg wit="#Translation">The laxative escaped from his rear</rdg></app></l>
+<l n="84><app><lem wit="#Transcription">Mit einem lat praschleten scheiß</lem><rdg wit="#Translation">And, along with the spoon, the laxative</rdg></app></l>
+<l n="85><app><lem wit="#Transcription">Die purgatz hinden im außreiß</lem><rdg wit="#Translation">Created a big blast and loud spluttering.</rdg></app></l>
+<l n="86><app><lem wit="#Transcription">Und sambt dem löffel die purgatzen</lem><rdg wit="#Translation">Now in this hedge there lay a hare,</rdg></app></l>
+<l n="87><app><lem wit="#Transcription">Macht ein groß krachen and laut spratzen.</lem><rdg wit="#Translation">Which was sleeping deeply there.</rdg></app></l>
+<l n="88><app><lem wit="#Transcription">Nun lag in dieser heck ein haß,</lem><rdg wit="#Translation">It woke with a start and ran off very quickly,</rdg></app></l>
+<l n="89><app><lem wit="#Transcription">Welcher darinn entecblaffen was.</lem><rdg wit="#Translation">Hopping gracefully into the forest.</rdg></app></l>
+<l n="90><app><lem wit="#Transcription">Der fuhr auff und lof wunder bald</lem><rdg wit="#Translation">The farmer saw the hare running,</rdg></app></l>
+<l n="91><app><lem wit="#Transcription">Mit schönen sprüngen in den wald.</lem><rdg wit="#Translation">Thought it was his foal and said:</rdg></app></l>
+<l n="92><app><lem wit="#Transcription">Der pawr den hasen laufen sach;</lem><rdg wit="#Translation">“Oh, come here, my beloved foal!</rdg></app></l>
+<l n="93><app><lem wit="#Transcription">Vermeint, es wer sein full, and sprach:</lem><rdg wit="#Translation">And drink from your mother</rdg></app></l>
+<l n="94><app><lem wit="#Transcription">Ach kumb her, liebes fülle mein,</lem><rdg wit="#Translation">Who has just given birth to you!</rdg></app></l>
+<l n="95><app><lem wit="#Transcription">Und trinck vor von der mutter dein,</lem><rdg wit="#Translation">Even though you have brought me such pain</rdg></app></l>
+<l n="96><app><lem wit="#Transcription">Die dich yetzunder hat geporn!</lem><rdg wit="#Translation">No effort or work affects me,</rdg></app></l>
+<l n="97><app><lem wit="#Transcription">Werst du mir noch so sawer worn,</lem><rdg wit="#Translation">Nor pain or fear in this time,</rdg></app></l>
+<l n="98><app><lem wit="#Transcription">Reut mich doch kein mha noch arbeit,</lem><rdg wit="#Translation">100 Because you have come from me–</rdg></app></l>
+<l n="99><app><lem wit="#Transcription">Schmertz oder angst in dieser zeyt,</lem><rdg wit="#Translation">Born such a noble offspring.</rdg></app></l>
+<l n="100><app><lem wit="#Transcription">Dieweil du yetzt von mir bist worn</lem><rdg wit="#Translation">And should you continue to live on earth,</rdg></app></l>
+<l n="101><app><lem wit="#Transcription">Ein solche edle frucht geporn.</lem><rdg wit="#Translation">You’ll become a gracious horse</rdg></app></l>
+<l n="102><app><lem wit="#Transcription">Und soltu fort leben auff erdt,</lem><rdg wit="#Translation">That runs like the arrow in the wind.</rdg></app></l>
+<l n="103><app><lem wit="#Transcription">Es wirdt auß dir ein weidlich pferdt,</lem><rdg wit="#Translation">You will be dearer to me than my wife and children.</rdg></app></l>
+<l n="104><app><lem wit="#Transcription">Das hinfehrt wie der poltz im wind.</lem><rdg wit="#Translation">I would gladly give 20 Thaler</rdg></app></l>
+<l n="105><app><lem wit="#Transcription">Du werst mir lieber deno weib und kind.</lem><rdg wit="#Translation">To have birthed you at home;</rdg></app></l>
+<l n="106><app><lem wit="#Transcription">Ein zweintzig taler gülstu mir gern.</lem><rdg wit="#Translation">In the house, so that you wouldn't have escaped.</rdg></app></l>
+<l n="107><app><lem wit="#Transcription">Het ich dich than daheim gepern,</lem><rdg wit="#Translation">I have met fortune and misfortune today.”</rdg></app></l>
+<l n="108><app><lem wit="#Transcription">Zu hanß, so werst mir nicht entioffen.</lem><rdg wit="#Translation">He went home, laid in bed for the six weeks</rdg></app></l>
+<l n="109><app><lem wit="#Transcription">Mich hat gelack und anglück troffen.</lem><rdg wit="#Translation">And had hearty food prepared for him</rdg></app></l>
+<l n="110><app><lem wit="#Transcription">Gieng heim, legt sich in die sechs wochen</lem><rdg wit="#Translation">Just like any other new mother.</rdg></app></l>
+<l n="111><app><lem wit="#Transcription">Und hieß ihm gate bißlein kochen,</lem><rdg wit="#Translation">Afterwards, the idiot was just as before.</rdg></app></l>
+<l n="112><app><lem wit="#Transcription">Wie einr andren kindpetterin,</lem><rdg wit="#Translation"></rdg></app></l>
+<l n="113><app><lem wit="#Transcription">Blieb darnach der lapp wie vorhin.</lem><rdg wit="#Translation">The Conclusion</rdg></app></l>
+<l n="114><app><lem wit="#Transcription">Der beschluß.</lem><rdg wit="#Translation">The fable and the good prank</rdg></app></l>
+<l n="115><app><lem wit="#Transcription">Die fabel and den guten schwanck</lem><rdg wit="#Translation">I ask you not to be ungrateful for.</rdg></app></l>
+<l n="116><app><lem wit="#Transcription">(Bitt ich) nembt nicht auf in undanek!</lem><rdg wit="#Translation">It happened a few years ago</rdg></app></l>
+<l n="117><app><lem wit="#Transcription">Es ist gscheben vor langen jaren,</lem><rdg wit="#Translation">When the peasants were still simple;</rdg></app></l>
+<l n="118><app><lem wit="#Transcription">Weil die pawn noch einfeltig warn,</lem><rdg wit="#Translation">Still honest, good, and pious.</rdg></app></l>
+<l n="119><app><lem wit="#Transcription">Noch unverschlagen, fromb and schlecht.</lem><rdg wit="#Translation">It stood right in the world then.</rdg></app></l>
+<l n="120><app><lem wit="#Transcription">Da stand es in der welt noch recht.</lem><rdg wit="#Translation">The awakening of simpleness and piety</rdg></app></l>
+<l n="121><app><lem wit="#Transcription">Das einfalt und frömbkeit auffwachs</lem><rdg wit="#Translation">In the whole of Germany, wishes Hans Sachs.</rdg></app></l>
 			</lg>
 		</body>
 	</text>
