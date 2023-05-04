@@ -55,7 +55,7 @@
 			<sourceDesc>
 				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
 				<listWit>
-					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Transcription">Der schwanger bawer mit del füll</witness>
 					<witness xml:id="Translation">The Farmer who Was Pregnant with a Foal</witness>
 				</listWit>
 			</sourceDesc>
@@ -95,7 +95,6 @@
 			</head>
 		</front>
 		<body>
-			<lg n="1" type="stanza">
 			  <l n="1><app><lem wit="#Transcription">Ein pawer saß zu Schnepffenrewt,</lem><rdg wit="#Translation">There was a farmer in Schnepffenreut,</rdg></app></l>
 <l n="2><app><lem wit="#Transcription">Der reit eins tags nach einer brewt.</lem><rdg wit="#Translation">Who went riding one day after a brew.</rdg></app></l>
 <l n="3><app><lem wit="#Transcription">Het int hitz knollet truncken nein</lem><rdg wit="#Translation">In the heat he drank a lot of wine,</rdg></app></l>
@@ -119,7 +118,7 @@
 <l n="21><app><lem wit="#Transcription">Der artzt darob groß wunder het</lem><rdg wit="#Translation">The doctor marveled greatly</rdg></app></l>
 <l n="22><app><lem wit="#Transcription">Und sich darvor gesegnen thet.</lem><rdg wit="#Translation">And made the sign of the cross before it.</rdg></app></l>
 <l n="23><app><lem wit="#Transcription">Sprach zu dem knecht: Diese person</lem><rdg wit="#Translation">He spoke to the servant: “This person,</rdg></app></l>
-<l n="24><app><lem wit="#Transcription">Die ist mit ein full schwanger gon.</lem><rdg wit="#Translation">She is pregnant with a foal.”</rdg></app></l>
+<l n="24><app><lem wit="#Transcription">Die ist mit ein füll schwanger gon.</lem><rdg wit="#Translation">She is pregnant with a foal.”</rdg></app></l>
 <l n="25><app><lem wit="#Transcription">Der pawrenknecht des beimlich lacht.</lem><rdg wit="#Translation">At this the farmhand laughed to himself.</rdg></app></l>
 <l n="26><app><lem wit="#Transcription">Der artzt im ein purgatzen macht,</lem><rdg wit="#Translation">The doctor made a laxative for him,</rdg></app></l>
 <l n="27><app><lem wit="#Transcription">Die sol er heim dem krancken bringen,</lem><rdg wit="#Translation">Which he should bring home to the patient,</rdg></app></l>
@@ -161,7 +160,7 @@
 <l n="63><app><lem wit="#Transcription">Geperen sein leibhaftig foll.</lem><rdg wit="#Translation">He ran outside and in the cool wanted</rdg></app></l>
 <l n="64><app><lem wit="#Transcription">Kam auff sein wiessn, den madern klagt,</lem><rdg wit="#Translation">To bear his incarnate foal.</rdg></app></l>
 <l n="65><app><lem wit="#Transcription">In mit kleglichen worten sagt,</lem><rdg wit="#Translation">He came to his meadow and complained to the mowers</rdg></app></l>
-<l n="66><app><lem wit="#Transcription">Wie er mit eim full schwanger was,</lem><rdg wit="#Translation">That he was pregnant with a foal.</rdg></app></l>
+<l n="66><app><lem wit="#Transcription">Wie er mit eim füll schwanger was,</lem><rdg wit="#Translation">That he was pregnant with a foal.</rdg></app></l>
 <l n="67><app><lem wit="#Transcription">Und fiel darnieder in das graß,</lem><rdg wit="#Translation">And he fell down into the grass</rdg></app></l>
 <l n="68><app><lem wit="#Transcription">Darinn hieß sich umbwalgen er,</lem><rdg wit="#Translation">And ordered the mowers to roll him around in it,</rdg></app></l>
 <l n="69><app><lem wit="#Transcription">Auff das er dester eh geper.</lem><rdg wit="#Translation">In order to speed up the birth.</rdg></app></l>
@@ -186,7 +185,7 @@
 <l n="88><app><lem wit="#Transcription">Der fuhr auff und lof wunder bald</lem><rdg wit="#Translation">It woke with a start and ran off very quickly,</rdg></app></l>
 <l n="89><app><lem wit="#Transcription">Mit schönen sprüngen in den wald.</lem><rdg wit="#Translation">Hopping gracefully into the forest.</rdg></app></l>
 <l n="90><app><lem wit="#Transcription">Der pawr den hasen laufen sach;</lem><rdg wit="#Translation">The farmer saw the hare running,</rdg></app></l>
-<l n="91><app><lem wit="#Transcription">Vermeint, es wer sein full, and sprach:</lem><rdg wit="#Translation">Thought it was his foal and said:</rdg></app></l>
+<l n="91><app><lem wit="#Transcription">Vermeint, es wer sein füll, and sprach:</lem><rdg wit="#Translation">Thought it was his foal and said:</rdg></app></l>
 <l n="92><app><lem wit="#Transcription">Ach kumb her, liebes fülle mein,</lem><rdg wit="#Translation">“Oh, come here, my beloved foal!</rdg></app></l>
 <l n="93><app><lem wit="#Transcription">Und trinck vor von der mutter dein,</lem><rdg wit="#Translation">And drink from your mother</rdg></app></l>
 <l n="94><app><lem wit="#Transcription">Die dich yetzunder hat geporn!</lem><rdg wit="#Translation">Who has just given birth to you!</rdg></app></l>
@@ -216,7 +215,6 @@
 <l n="118><app><lem wit="#Transcription">Da stand es in der welt noch recht.</lem><rdg wit="#Translation">It stood right in the world then.</rdg></app></l>
 <l n="119><app><lem wit="#Transcription">Das einfalt und frömbkeit auffwachs</lem><rdg wit="#Translation">The awakening of simpleness and piety</rdg></app></l>
 <l n="120><app><lem wit="#Transcription">In gantzem Teutschland, wünscht Hanns Sachs.</lem><rdg wit="#Translation">In the whole of Germany, wishes Hans Sachs.</rdg></app></l>
-			</lg>
 		</body>
 	</text>
 </TEI>
