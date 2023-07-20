@@ -1,0 +1,109 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>The Farmer who Was Pregnant with a Foal</title>
+				<author>Hans Sachs</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name><!--Name of editor if based on published edition--></name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Mikayla Jordan, Sydney Rester, Edith-Marie Green, and Christopher Hutchinson</name>
+				</respStmt>
+				<respStmt>
+					<resp>Introduction by</resp>
+					<name></name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Isabel Cai</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<p>Introduction to the Tex</p>
+				<p>The Farmer who Was Pregnant with a Foal is a comic poem by Hans Sachs (1494–1576), a cobbler and poet from Nuremberg. The work is an example of a Schwank: a genre of short, comic tales about mundane characters and situations, either in prose or verse.</p>
+				<p>Sachs was one of the most prolific composers of Schwänke and other genres of text designed for public performance in Nuremberg. In all, over 6000 works are attributed to Sachs. He is perhaps best known for his leadership of the Nuremberg Singschule (singing school), a guild-like organization composed of local craftsmen that held gatherings at which members would perform songs that had to fulfil certain criteria of rhyme, meter, melody, and delivery. This tradition of Meistergesang (master song) is perhaps most known to modern audiences from the 1868 Richard Wagner opera Die Meistersinger von Nürnberg (The Mastersingers of Nuremberg), in which Hans Sachs is a leading character.</p>
+				<p>Other genres Sachs produced include dramatic tragedies and comedies based on Classical and Biblical source material, fables based on the writings of Aesop, religious treatises in support of Martin Luther and the Reformation, and Fastnachtspiele––short, usually comic dramas performed at the beginning of Lent. Hundreds of his works were printed as short pamphlets during Sachs’ lifetime and Sachs also compiled a multi-volume edition of his own collected works before his death.</p>
+				<p>The Farmer who was Pregnant with a Foal concerns an unnamed farmer who develops a terrible stomachache after over-indulging in wine. He sends his servant to the doctor with a urine sample to inquire about his boss’s ailment (a standard method of diagnosis in sixteenth-century Germany). The servant accidentally spills the farmer’s urine along the way and refills the vial with the urine of the horse he is riding, leading the doctor to declare that the producer of the urine is pregnant with a foal. The simple-minded farmer takes the diagnosis seriously and goes out into the field to give birth to his foal. The poem is in many ways representative of Sachs’s work as a whole: the poem is short, entertaining, bawdy, preoccupied with gender roles and norms, and it pokes fun at the rural inhabitants of the area surrounding Nuremberg; a particular target of urban writers like Sachs.</p>
+				<p>Introduction to the Source</p>
+				<p>Hans Sachs dated the work December 9, 1557, although it was not printed until Sachs compiled his collected works in the late 1560s and early 1570s. This work appears in the second volume of his works, first printed in 1570. Two years after writing this Schwank, Sachs turned the work into a Fastnachtspiel. Both works were included in the 26-volume collected works of Sachs edited by Adelbert von Keller and Edmund Goetze between 1870 and 1908.</p>
+				<p>About this Edition</p>
+				<p>In our translation, we have tried to maintain the simple and, at times, crude language of Sachs’s text. We have not kept the rhyme scheme of the original work.</p>
+				<p>Further Reading</p>
+				<p>Hess, Peter. “Poetry in Germany, 1450-1700.” Early Modern German Literature, 1350–1700, edited by Max Reinhart, Camden House, 2007, pp. 395-465.</p>
+				<p>A good introduction to poetic forms in sixteenth-century Germany.</p>
+				<p>Holzberg, Niklas, and Horst Brunner. Hans Sachs: Ein Handbuch. DeGruyter, 2020. </p>
+				<p>An up-to-date catalog of Sachs’s works, their sources, their reception, and a bibliography.</p>
+				<p>Benedek, Thomas G. Medicine and Humor from the Writings of Hans Sachs and Hans Folz, Meistersinger. Nova Science, 2018. </p>
+				<p>A collection of works on medical themes by Hans Sachs, translated into English. Includes the Fastnachtspiel adaptation of “The Farmer who Was Pregnant with a Foal.”</p>
+			</notesStmt>
+			<sourceDesc>
+				 <p><!--Manuscript/print witness that transcription is made from, e.g. location and shelf number of MS--></p>
+				<listWit>
+					<witness xml:id="Transcription"><!--Title in original language--></witness>
+					<witness xml:id="Translation"><!--Title in English--></witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"<!--Title in English-->" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p><!--Add in "About this edition" here.--></p>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></lem>
+						<rdg wit="#Translation"><!--Title as should be displayed above text. Put nothing here if the title in the text matches the title used elsewhwere--></rdg>
+					</app>
+				</title>
+				<title type="sub">
+					<app>
+						<lem wit="#Transcription"><!--Subtitle in original language--></lem>
+						<rdg wit="#Translation"><!--Subtitle in English--></rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1" type="stanza">
+				<l n="1">
+					<app>
+						<lem wit="#Transcription">Schwanck. Der schwanger bawer mit dem full.</lem>
+						<rdg wit="#Translation">There was a farmer in Schnepffenreut,</rdg>
+					</app>
+				</l>
+				
+			</lg>
+		</body>
+	</text>
+</TEI>
