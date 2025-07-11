@@ -1,0 +1,290 @@
+<?xml-stylesheet href="../src/vmachine.xsl" type="text/xsl" ?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM
+'../menota/menota-entities.txt'   >
+%Menota_entities;]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>On Bohmit [Muhammad] the Heretic</title>
+				<author>Anonymous</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Zofia A. Brzozowska</name>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Marek Majer</name>
+				</respStmt>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>Katarzyna Gucio</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Zofia A. Brzozowska</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Marek Majer</name>
+				</respStmt>
+				<respStmt>
+					<resp>Translation by</resp>
+					<name>Katarzyna Gucio</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded in TEI P5 XML by</resp>
+					<name>Mae Velloso-Lyons</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher><hi rend="italic">The Global Medieval Sourcebook</hi></publisher>
+				<availability>
+					<p><hi rend="italic">The Global Medieval Sourcebook</hi> is licensed under a Creative Commons Attribution-Noncommercial-ShareAlike 4.0 International License.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note anchored="true"></note>
+			</notesStmt>
+			<sourceDesc>
+				 <p><ref target="https://lib-fond.ru/lib-rgb/228/f-228-162/">Moscow, Russian State Library РГБ, 228.162, fol. 342–344</ref></p>
+				<listWit>
+					<witness xml:id="Transcription">Ѡ Бохмитѣ еретицѣ</witness>
+					<witness xml:id="Translation">On Bohmit [Muhammad] the Heretic</witness>
+				</listWit>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+            	<p>"On Bohmit [Muhammad] the Heretic" is published by <hi rend="italic">The Global Medieval Sourcebook (GMS)</hi>, a free, open access, and open source compendium of medieval texts in their original languages and in English translation. <hi rend="italic">GMS</hi> comprises computer-readable transcriptions or editions alongside new translations of texts dating from the ninth to the sixteenth century and originating in Europe, North Africa, the Middle East, and Asia. The <hi rend="italic">GMS</hi> platform includes critical introductions as well as sources for further reading.  
+            </p> 
+         	</projectDesc>
+			<editorialDecl>
+	        	<p>Transcriptions and translations are encoded in XML conforming to TEI (P5) guidelines. The original-language text is contained within &lt;lem&gt; tags and translations within &lt;rdg&gt; tags.</p>
+        		<interpretation>
+        			<p>Texts are translated into modern American English with maximum fidelity to the original text, except where it would impair comprehension or good style. Archaisms are preserved where they do not conflict with the aesthetic of the original text. Scribal errors and creative translation choices are marked and discussed in the critical notes.</p>
+				</interpretation>
+				<segmentation>
+				</segmentation>
+			</editorialDecl>
+			<variantEncoding method="parallel-segmentation" location="internal"/>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>
+				<title type="main">
+					<app>
+						<lem wit="#Transcription">Ѡ Бохмитѣ еретицѣ</lem>
+						<rdg wit="#Translation">On Bohmit [Muhammad] the Heretic</rdg>
+					</app>
+				</title>
+			</head>
+		</front>
+		<body>
+			<lg n="1">
+				<l n="1"><app><lem wit="#Transcription">Ѡ Бохмитѣ еретицѣ.</lem><rdg wit="#Translation">On Bohmit [Muhammad]
+				<note type= "critical" anchored="true"><p>Bohmit is an Old Rus’ term for Muhammad. I have decided to preserve it only in the title and use the common name in all subsequent instances.</p></note>
+				 the Heretic</rdg></app></l>
+				<l n="2"><app><lem wit="#Transcription">Нь и срачиньскыи началникь, злыи пррокъ Бохмитъ и</lem><rdg wit="#Translation">The Saracen leader Muhammad, an evil and</rdg></app></l>
+				<l n="3"><app><lem wit="#Transcription">лживыи изъ единаго колѣна родомъ Измаилова с҃на</lem><rdg wit="#Translation">false prophet, came from one of the tribes of Ishmael, [who was] the son</rdg></app></l>
+				<l n="4"><app><lem wit="#Transcription">Авраамлѧ. Сы родисѧ из рабынѧ Измаило. ищадьѧ ѿц҃ь</lem><rdg wit="#Translation">of Abraham. This Ishmael was born of a slave woman, and was called the father</rdg></app></l>
+				<l n="5"><app><lem wit="#Transcription">имь наречнь быс всѣмъ. сїи оубо род два с҃на. Мударѧ и Равїа.</lem><rdg wit="#Translation">of them all. He sired two sons, Mudar and Rabia.</rdg></app></l>
+				<l n="6"><app><lem wit="#Transcription">Мударь же роди Кусарѧ, и Канитона, и Афимимиана,</lem><rdg wit="#Translation">Mudar fathered Kusar, Kaniton, Aphmian,</rdg></app></l>
+				<l n="7"><app><lem wit="#Transcription">[На]садона и иныхъ нѣкоторыхъ безъ именъ. си Мадїань</lem><rdg wit="#Translation">Sadon and a number of others, unknown by name. They</rdg></app></l>
+				<l n="8"><app><lem wit="#Transcription">скоу пустыню наслѣдоваша. и скоты питахутсѧ, в ку</lem><rdg wit="#Translation">inherited the Midian desert and ate their livestock,</rdg></app></l>
+				<l n="9"><app><lem wit="#Transcription">щахъ живуще. соуть же и внутренїи сихъ, рекше да</lem><rdg wit="#Translation">while living in tents. There are also ‘internal’, i.e. more distant</rdg></app></l>
+				<l n="10"><app><lem wit="#Transcription">лнїи, не ѿ колѣна сихъ. нь ѿ колѣна Нектанова. Сихъ</lem><rdg wit="#Translation">[factions], not from their tribe, but from the House of Nectar,</rdg></app></l>
+				<l n="11"><app><lem wit="#Transcription">гл҃емїи Ѡмиритѧни. Оубогѫ же сущу прежденарече</lem><rdg wit="#Translation">called Homerites. Because the aforementioned Muhammad was poor,</rdg></app></l>
+				<l n="12"><app><lem wit="#Transcription">ному Бохмиту, ключисѧ натисѧ ему к женѣ бо</lem><rdg wit="#Translation">he had to hire himself to a rich woman,</rdg></app></l>
+				<l n="13"><app><lem wit="#Transcription">гатї и сродьници ему, наричѧемѣи Дигана. да на вель</lem><rdg wit="#Translation">a relative of his, called Digana, to trade camels</rdg></app></l>
+				<l n="14"><app><lem wit="#Transcription">блоудехь куплю дѣеть съ единопленьникы своими.</lem><rdg wit="#Translation">with his brethren</rdg></app></l>
+				<l n="15"><app><lem wit="#Transcription">въ Егѵптѣ и в Палестинѣ. Тач помалу деръзнувь прель</lem><rdg wit="#Translation">in Egypt and Palestine. Later, as he gradually grew bolder,</rdg></app></l>
+				<l n="16"><app><lem wit="#Transcription">сти жену. вдовѣ сущи еи. и поиметь ю женою собѣ.</lem><rdg wit="#Translation">he deceived the widowed woman and married her.</rdg></app></l>
+				<l n="17"><app><lem wit="#Transcription">пребывающу же ему в Палестинѣ, и пожи съ июдѣи,</lem><rdg wit="#Translation">When he stayed in Palestine and met Jews</rdg></app></l>
+				<l n="18"><app><lem wit="#Transcription">и съ крстияны ловлѧше ѿ исписанїа нѣкыихъ словесъ.</lem><rdg wit="#Translation">and Christians, he picked up some words from their writings.</rdg></app></l>
+				<l n="19"><app><lem wit="#Transcription">имѧше же и стрсть роумѡмъ шибеньѧ въздроучаше</lem><rdg wit="#Translation">He also suffered from a paralysis of the mind – he would fall [during epileptic seizures].</rdg></app></l>
+				<l n="20"><app><lem wit="#Transcription">т бо сѧ. ибо жена его печална сего ради. яко великаго ро</lem><rdg wit="#Translation">His wife was upset about it. She [regretted] that although she came from</rdg></app></l>
+				<l n="21"><app><lem wit="#Transcription">да соуща богата к таковому моужу сочтавшисѧ, не</lem><rdg wit="#Translation">a prominent family and was rich, she had bound herself to such a man: not</rdg></app></l>
+				<l n="22"><app><lem wit="#Transcription">точью оубогу, нь и румомъ шибена. замыслив же сице</lem><rdg wit="#Translation">only poor, but also of a paralyzed mind. Having understood that,</rdg></app></l>
+				<l n="23"><app><lem wit="#Transcription">реч к неи. яко страшно видѣнїе виждю, именемь Гаврї</lem><rdg wit="#Translation">he said to her: “I see a terrible vision, an angel named Gabriel,</rdg></app></l>
+				<l n="24"><app><lem wit="#Transcription">ила агг҃ла. и не терпѧ его видѣнїа. изнемогаю издроучѧ</lem><rdg wit="#Translation">and when I cannot bear that vision, I lose my strength and fall.”</rdg></app></l>
+			</lg>
+			<lg n="2">
+				<l n="25"><app><lem wit="#Transcription">юсѧ. Вѣроу же ятъ ему жена. Лжесвѣдѣтельствова</lem><rdg wit="#Translation">A woman believed it when an Arian, who falsely</rdg></app></l>
+				<l n="26"><app><lem wit="#Transcription">вшю емоу арью нѣкоему мниху. лжеименоуясѧ ли</lem><rdg wit="#Translation">claimed to be a monk for his own benefit, gave a false testimony</rdg></app></l>
+				<l n="27"><app><lem wit="#Transcription">хаго ради притѧжанїа, се же бошью прельсти его. и та</lem><rdg wit="#Translation">about himself. He [Muhammad] was even more misled by him. And so</rdg></app></l>
+				<l n="28"><app><lem wit="#Transcription">ко жена прельщена бывши, ко инѣмъ женамъ бесѣ</lem><rdg wit="#Translation">the woman, having been deceived, talked to other women</rdg></app></l>
+				<l n="29"><app><lem wit="#Transcription">довавши, единопленьникъ своих проповѣда им,</lem><rdg wit="#Translation">of her tribe and told them</rdg></app></l>
+				<l n="30"><app><lem wit="#Transcription">яко прроку ему быти сущу. прельсти же си лжуще. доиде до</lem><rdg wit="#Translation">that he [Muhammad] was a prophet. She deceived them, and so the lie</rdg></app></l>
+				<l n="31"><app><lem wit="#Transcription">мужа кнѧзѧ колѣна того, именемь Вувахара. Жена же</lem><rdg wit="#Translation">reached a man, the prince of that tribe, named Bubahara. [Later] [Muhammad’s] wife</rdg></app></l>
+				<l n="32"><app><lem wit="#Transcription">оубо оумерши Бохмитѫ, прїателѧ наслѣдника ѡстави Бо</lem><rdg wit="#Translation">died, having made him [Muhammad] the owner and heir of</rdg></app></l>
+				<l n="33"><app><lem wit="#Transcription">хмита богатству своему. и ѿтолѣ оубо славенъ быс и богат.</lem><rdg wit="#Translation">her estate. And from then on, he was rich and famous,</rdg></app></l>
+				<l n="34"><app><lem wit="#Transcription">и ѿдержимъ бѧше злаѧ прелесть еретичества его странам</lem><rdg wit="#Translation">and the evil lie of his heresy swept over the lands</rdg></app></l>
+				<l n="35"><app><lem wit="#Transcription">Ефривовьскымъ. Се бо ненавистныи и бѣсооубїицѧ, и бесѣ</lem><rdg wit="#Translation">of Epherib [Yathrib]. He was a hate-filled satanic murderer. He had</rdg></app></l>
+				<l n="36"><app><lem wit="#Transcription">доваше съ еврѣѧны и съ хрстьяны, рекше ко арьяномь и к не</lem><rdg wit="#Translation">disputes with the Jews and with the Christians, that is, with the Arians and</rdg></app></l>
+				<l n="37"><app><lem wit="#Transcription">сторьяномъ, и ѿ всѣхъ тѣх много прїатъ ѿ июдѣи въ</lem><rdg wit="#Translation">the Nestorians, and he took much from them all: from the Jews,</rdg></app></l>
+				<l n="38"><app><lem wit="#Transcription">единоначальствїе, ѿ ариѧн же, Слова и Дх҃а створена,</lem><rdg wit="#Translation">monotheism, from the Arians, [the idea of] the created Word and Spirit,</rdg></app></l>
+				<l n="39"><app><lem wit="#Transcription">ѿ несториа чл҃кослоуженїа, ѡ собѣ вѣроу створивъ. и ра</lem><rdg wit="#Translation">and from the Nestorians, anthropolatry [the worship of the human nature]. And by creating his own faith,</rdg></app></l>
+				<l n="40"><app><lem wit="#Transcription">зврати весь языкь тъ, и наоучивь ѧ ѡбрѣзоватисѧ, и</lem><rdg wit="#Translation">he stirred up all those people. And he taught them to circumcise</rdg></app></l>
+				<l n="41"><app><lem wit="#Transcription">мужемь и женамь, и единому точью покланѧтисѧ Бг҃ѫ.</lem><rdg wit="#Translation">men and women, to worship only one God,</rdg></app></l>
+				<l n="42"><app><lem wit="#Transcription">Ха҃ же чтити яко Слово Бж҃їе, не с҃на же нь ѿ Дх҃а Ст҃а рожде</lem><rdg wit="#Translation">to worship Christ as the Word of God — not as a Son born through the Holy Ghost.</rdg></app></l>
+				<l n="43"><app><lem wit="#Transcription">на. Слова же и Дх҃а Ст҃а изъгл҃ема и на въздоусѣ излива</lem><rdg wit="#Translation">The Word and the Ghost [according to Muhammad] should be regarded as something spoken and spilled in the air,</rdg></app></l>
+				<l n="44"><app><lem wit="#Transcription">ема, разумѣти ни единооупостасно, ни родителю, ни</lem><rdg wit="#Translation">and not as co-hypostatic [beings], co-existing with [their] Parent.</rdg></app></l>
+				<l n="45"><app><lem wit="#Transcription">единосущна. Ст҃оую же Марью дв҃цю не гл҃ти Бц҃ю, нь Аро</lem><rdg wit="#Translation">The Holy Virgin Mary should not be called the Mother of God, but</rdg></app></l>
+				<l n="46"><app><lem wit="#Transcription">нову и Моисеѡву внимати сестру соущу. ни креститис,</lem><rdg wit="#Translation">should be considered the sister of Aaron and Moses. He also taught them not to baptize,</rdg></app></l>
+				<l n="47"><app><lem wit="#Transcription">ни суботѣ их наоучи, рекше не праздновати, не законны</lem><rdg wit="#Translation">not to celebrate Saturdays, not to observe the customs laid down</rdg></app></l>
+				<l n="48"><app><lem wit="#Transcription">м же ли еѵгальскымъ ѡбычаемъ послѣдовати. нь ѿ</lem><rdg wit="#Translation">in the Law and in the Gospel, but to turn away</rdg></app></l>
+				<l n="49"><app><lem wit="#Transcription">вращатисѧ ѿ крста, истиньну распеншюс Хо҃у исповѣдат.</lem><rdg wit="#Translation">from the cross and believe that the crucified Christ was a shadow.</rdg></app></l>
+				<l n="50"><app><lem wit="#Transcription">научив же бошью закона. ѿвръгьшимсѧ не прїимахоу</lem><rdg wit="#Translation">Those [people having been so] taught, having completely rejected the law, did not partake</rdg></app></l>
+				<l n="51"><app><lem wit="#Transcription">свиных мѧсъ, вина же весма, не прїимаху. Такымъ зло</lem><rdg wit="#Translation">of pork and did not drink wine at all. With such slander,</rdg></app></l>
+				<l n="52"><app><lem wit="#Transcription">словїемь изъѡбразивъ ѡ собѣ истину. и себе рече ключа</lem><rdg wit="#Translation">he created the truth about himself. He said he was the key-holder</rdg></app></l>
+				<l n="53"><app><lem wit="#Transcription">рю бытї ему раискому. сего ради въ д҃нь соудныи, по прѣд</lem><rdg wit="#Translation">of Paradise. For this reason [according to Muhammad], on the day of Judgment, after</rdg></app></l>
+				<l n="54"><app><lem wit="#Transcription">стоѧнїи Моисѣевѣ съ из҃льтѧны, яко преступникъ за</lem><rdg wit="#Translation">Moses appears with the Israelites, they [the Isreaelites] will be brought</rdg></app></l>
+				<l n="55"><app><lem wit="#Transcription">кону, муцѣ и ѡгню предатї а. абїе же Ісо҃у прѣдъстоѧ</lem><rdg wit="#Translation">to the torment and fire as offenders against the law. Then Jesus</rdg></app></l>
+				<l n="56"><app><lem wit="#Transcription">ти ѿврещисѧ прѣдъ Бг҃мь, яко не гл҃ахь себе соуща Сн҃а Бо</lem><rdg wit="#Translation">will appear, denying before God: “I never said I was the Son of God.”</rdg></app></l>
+				<l n="57"><app><lem wit="#Transcription">жїа. и крстианомъ же, яко тако дръзноувшимъ при</lem><rdg wit="#Translation">And the Christians – because [according to Muhammad] they dare to add</rdg></app></l>
+				<l n="58"><app><lem wit="#Transcription">строитисѧ Хв҃у имени Ба҃ и Сн҃а Бж҃їа, и Слова вопло</lem><rdg wit="#Translation">God and the Son of God to the name of Christ and to teach about</rdg></app></l>
+				<l n="59"><app><lem wit="#Transcription">щена, и распѧта, б҃гословившимъ. и ѡгню геѡнь</lem><rdg wit="#Translation">the Incarnate Word and the Crucified – will be brought to the fires</rdg></app></l>
+				<l n="60"><app><lem wit="#Transcription">скому предани боудѫть. тач себе нарече ѿ Ба҃ нареченъ</lem><rdg wit="#Translation">of Gehenna. And he said of himself that he [would] be considered by God</rdg></app></l>
+				<l n="61"><app><lem wit="#Transcription">зѣло. бл҃гочествующе, и всихъ ихъ языкъ виноватъ.</lem><rdg wit="#Translation">to be extremely pious, and that because of him all their people had become pious –</rdg></app></l>
+				<l n="62"><app><lem wit="#Transcription">б҃лгочестивью соуща, суща похвалена. и сего ради клю</lem><rdg wit="#Translation">they would be worthy of praise. And for that reason, he will be</rdg></app></l>
+				<l n="63"><app><lem wit="#Transcription">чѧрю раискому быти таче по ѿверзенїи раю имъ бывшу,</lem><rdg wit="#Translation">the key-holder of Paradise. And when he opens Paradise,</rdg></app></l>
+				<l n="64"><app><lem wit="#Transcription">внити с нимь бошью весма о҃, могущим же оустре</lem><rdg wit="#Translation">only 70,000 will enter it with him, those who will dare</rdg></app></l>
+				<l n="65"><app><lem wit="#Transcription">митисѧ на то. прочим же суженымъ вѣща. Праведны</lem><rdg wit="#Translation">to do so. The others – he says – will be judged. The righteous</rdg></app></l>
+				<l n="66"><app><lem wit="#Transcription">м же поистинѣ. и беспрестани пищу прїати. и ѡбрѣ</lem><rdg wit="#Translation">will truly and continuously partake of sweetness, and</rdg></app></l>
+				<l n="67"><app><lem wit="#Transcription">тшимсѧ грѣшникѡмъ. харатеица написаны, на выѧ</lem><rdg wit="#Translation">the sinners who find themselves there should have parchments tied around their necks</rdg></app></l>
+				<l n="68"><app><lem wit="#Transcription">имуще навѧзаны, и в раи имъ внити, и симъ наричѧ</lem><rdg wit="#Translation">to enter Paradise and call themselves</rdg></app></l>
+				<l n="69"><app><lem wit="#Transcription">тисѧ прощеникомъ Бж҃їимъ. и Бохмицим. соуть же</lem><rdg wit="#Translation">disciples of God and Muhammad. And there are,</rdg></app></l>
+				<l n="70"><app><lem wit="#Transcription">и три рѣкы реч в раи. едина медвена, в҃. молочьна, г҃.ѧ винна</lem><rdg wit="#Translation">he said, three rivers in Paradise, one of honey, one of milk, and one of wine.</rdg></app></l>
+				<l n="71"><app><lem wit="#Transcription">ѧ, якоже власть имоуть коиждо ихъ ѿ неѧже хощеть.</lem><rdg wit="#Translation">And each one of those men will have the right to draw from them</rdg></app></l>
+				<l n="72"><app><lem wit="#Transcription">да прїиметь, и насыщаетсѧ. женам же с ними быти.</lem><rdg wit="#Translation">and drink his fill. Women will be with them,</rdg></app></l>
+				<l n="73"><app><lem wit="#Transcription">и требити власы имь. и всѧко угаждати ему сласто</lem><rdg wit="#Translation">they will have their hair elaborately decorated and they will please them in every way</rdg></app></l>
+				<l n="74"><app><lem wit="#Transcription">любезнаѧ телеса их. и плот похотна. и въ сластех сыи ра</lem><rdg wit="#Translation">possible. Their bodies [will be] loved with pleasure and full of lust, and in the midst</rdg></app></l>
+				<l n="75"><app><lem wit="#Transcription">бъ грѣху. Июдѣем же и крстияномь дрова ѡгню</lem><rdg wit="#Translation">of debauchery he [will be] a slave to sin. “Jews and Christians will be trees on fire</rdg></app></l>
+				<l n="76"><app><lem wit="#Transcription">бытї имь. ѡстати ж самаритѧномь реч. да ѿ прохо</lem><rdg wit="#Translation">and remain [in Paradise], and the Samaritans,” [Muhammad] said, “on account of the dung</rdg></app></l>
+				<l n="77"><app><lem wit="#Transcription">да гноѧ их, и ѿ раѧ исходѧт, яко да не смрадитсѧ раи.</lem><rdg wit="#Translation">they excrete, must leave Paradise so that they do not bring their stink into Paradise.”</rdg></app></l>
+				<l n="78"><app><lem wit="#Transcription">коиждо оубо здѣ поживет, или в богатствѣ, или в нищетѣ,</lem><rdg wit="#Translation">For everyone who lives here [i.e. in this world], either in wealth or in poverty</rdg></app></l>
+				<l n="79"><app><lem wit="#Transcription">и безъ славы такымже ѡбразом, и тамо пребываеть.</lem><rdg wit="#Translation">and infamy, will be there [i.e. in Paradise] in the same condition.</rdg></app></l>
+				<l n="80"><app><lem wit="#Transcription">Сїи оубо ѡмрачныи, и б҃гостѫдныи, к сим всему бл҃го</lem><rdg wit="#Translation">This dark adversary of God also spoke of the abomination</rdg></app></l>
+				<l n="81"><app><lem wit="#Transcription">му и злому Ба҃ виновата суща. чюдстворил ес. разбо</lem><rdg wit="#Translation">that God is responsible for every good and evil. Evildoers,</rdg></app></l>
+				<l n="82"><app><lem wit="#Transcription">иникь же и ѡтравникь, елико оубо ѿречна соут. яти дѣ</lem><rdg wit="#Translation">poisoners and all those caught at any prohibited activity</rdg></app></l>
+				<l n="83"><app><lem wit="#Transcription">ѧнїемь избїеномь вѣдати, тако и написавь и преже</lem><rdg wit="#Translation">must be publicly killed. That is what he wrote, and earlier</rdg></app></l>
+				<l n="84"><app><lem wit="#Transcription">реч сему быти. и тако оумрети им въсхотѣ. Дивити ж</lem><rdg wit="#Translation">he said: “This is to be so.” And he wanted them to die that way.</rdg></app></l>
+				<l n="85"><app><lem wit="#Transcription">сѧ зѣло. кому любо подбает. оубо поистинѣ колико</lem><rdg wit="#Translation">One may be much surprised – as much as one wants – that</rdg></app></l>
+				<l n="86"><app><lem wit="#Transcription">съставленїе доволѣет б҃гохоулнаг, и пустошнаг и мы</lem><rdg wit="#Translation">a creature so blasphemous, measly and contrived, even</rdg></app></l>
+				<l n="87"><app><lem wit="#Transcription">сленаго, паче ж до послѣднѧго безоумїа, и скотиноѡ</lem><rdg wit="#Translation">the pinnacle of stupidity and beastliness,</rdg></app></l>
+				<l n="88"><app><lem wit="#Transcription">бразнаго. иже и донынѣ сего прельсти работающим.</lem><rdg wit="#Translation">even now acquires slaves, who consider it unreasonably</rdg></app></l>
+				<l n="89"><app><lem wit="#Transcription">яко въ тверду вѣру. и бжствену сїю безоумно вни</lem><rdg wit="#Translation">to be strong and divine faith! And they are completely blind</rdg></app></l>
+				<l n="90"><app><lem wit="#Transcription">мають. и ко истиннѣи сїи сущїи с҃тѣи б҃годаннѣи вѣрѣ.</lem><rdg wit="#Translation">to the true faith, holy and given by God.</rdg></app></l>
+				<l n="91"><app><lem wit="#Transcription">явѣ зѣло ѡслѣплѧемѣ бывают омраченїи. и неразоу</lem><rdg wit="#Translation">Confused and foolish, they follow</rdg></app></l>
+				<l n="92"><app><lem wit="#Transcription">мнїи, лжеименитѣи слоужбѣ, и створимословье, прель</lem><rdg wit="#Translation">the self-proclaimed ritual and the liar’s inventions.</rdg></app></l>
+				<l n="93"><app><lem wit="#Transcription">стивнаг внимаютсѧ ѡканьнїи, и ѡ тѧжкосердїи. ко пре</lem><rdg wit="#Translation">The wretches are attracted to cruelty, lies,</rdg></app></l>
+				<l n="94"><app><lem wit="#Transcription">льстем же и блѧдствїа, и скверных тщеславїе еретичством</lem><rdg wit="#Translation">promiscuity, impure pride and evil heresy,</rdg></app></l>
+				<l n="95"><app><lem wit="#Transcription">злымь влекущес. аще акы Вподалнихь Абл҃го, и сп҃сеных</lem><rdg wit="#Translation">and do not incline their ears to the blessed and saving words.</rdg></app></l>
+				<l n="96"><app><lem wit="#Transcription">словесь. ни слуха приложити. бошью внимаютсѧ. И</lem><rdg wit="#Translation">For they have renounced the true God,</rdg></app></l>
+				<l n="97"><app><lem wit="#Transcription">бо истинному сущу Бг҃ѫ, законѡм и пррокы. явѣ про</lem><rdg wit="#Translation">of whom the Law and the Prophets openly teach,</rdg></app></l>
+				<l n="98"><app><lem wit="#Transcription">повѣдаемаго ѿвръгшес, и причитаеми противу</lem><rdg wit="#Translation">and having joined with the one who openly rages</rdg></app></l>
+				<l n="99"><app><lem wit="#Transcription">бѣсоующесѧ. бжственомоу явѣ ѿ бѣсѡвъ</lem><rdg wit="#Translation">against the Divine; they are very eager to follow diabolic</rdg></app></l>
+				<l n="100"><app><lem wit="#Transcription">творимым и г҃лемым. зѣло мысленїи. и бѣсѡвнїи. Зѣло</lem><rdg wit="#Translation">deeds and his extremely contrived, devilish manner.</rdg></app></l>
+				<l n="101"><app><lem wit="#Transcription">любезно пристоупают. Которое бо б҃годохновенное списа</lem><rdg wit="#Translation">For which God-inspired scripture</rdg></app></l>
+				<l n="102"><app><lem wit="#Transcription">нїе. ѡ нечестивыи и ѡтравоу творимаг прог҃ла Бох</lem><rdg wit="#Translation">foretold this ungodly and poisonous Muhammad?</rdg></app></l>
+				<l n="103"><app><lem wit="#Transcription">мита. или кь б҃голѣпныи пррокъ его оучителем б҃гочести</lem><rdg wit="#Translation">Or which God-pleasing prophet called him a teacher of piety?</rdg></app></l>
+				<l n="104"><app><lem wit="#Transcription">вїю прог҃ла. оубо да рекоут безчастнїи. всѧкого ст҃го въ</lem><rdg wit="#Translation">Let them say, then, without any holy inspiration or teaching:</rdg></app></l>
+				<l n="105"><app><lem wit="#Transcription">доухновенїа и оученїа, како иже бывшим ѿ Адама до Хв҃а</lem><rdg wit="#Translation">how can they, so eager to recognize and receive the prophets</rdg></app></l>
+				<l n="106"><app><lem wit="#Transcription">пришествїа, пррокѡм съ радостїю внимающе и прїима</lem><rdg wit="#Translation">from Adam to [the birth of] Christ,</rdg></app></l>
+				<l n="107"><app><lem wit="#Transcription">юще тѣмъ явѣ провъзглашающе Ха҃ и Ба҃ ѿмѣтающе,</lem><rdg wit="#Translation">reject directly Christ and [therefore] the God they proclaim?</rdg></app></l>
+				<l n="108"><app><lem wit="#Transcription">злаго же грѣшника. и не весма къ нему наричаема.</lem><rdg wit="#Translation">And the wicked sinner, whom they neither call [by name]</rdg></app></l>
+				<l n="109"><app><lem wit="#Transcription">или прознаменуѧ. яко бл҃гоучт҃лѧ исходѧща истин</lem><rdg wit="#Translation">nor foretell, [they] consider the last of the prophets,</rdg></app></l>
+				<l n="110"><app><lem wit="#Transcription">ныѧ вѣры оучителѧ прїимают яко бл҃годателѧ. и богом</lem><rdg wit="#Translation">the teacher of true faith and the benefactor, [and even] make him God –</rdg></app></l>
+				<l n="111"><app><lem wit="#Transcription">творѧт непрѣподбнїи. и злоименнїи. Да испытають</lem><rdg wit="#Translation">the ungodly and without a righteous name? Let them be asked,</rdg></app></l>
+				<l n="112"><app><lem wit="#Transcription">же немлстивнїи и бѣснїи, яже ѿ него нечестиво и бѣ</lem><rdg wit="#Translation">those who are merciless and angry, about the abominations he has spoken</rdg></app></l>
+				<l n="113"><app><lem wit="#Transcription">совно. изъгла҃на блѧдства да изъгл҃етъ, которое и</lem><rdg wit="#Translation">ungodly and devilishly, and let them tell us how they relate</rdg></app></l>
+				<l n="114"><app><lem wit="#Transcription">зъглашенїе имоут къ Богѡм наказаа словеса. и б҃же</lem><rdg wit="#Translation">to the words of God. God’s Word</rdg></app></l>
+				<l n="115"><app><lem wit="#Transcription">стъвное слово явѣ оучити. и свѣтло проричаа въ и</lem><rdg wit="#Translation">clearly teaches and clearly states that</rdg></app></l>
+				<l n="116"><app><lem wit="#Transcription">стинѣ Бг҃ѫ сущоу не виновату всему злоу, и чл҃ку самоволь</lem><rdg wit="#Translation">God really is not guilty of any evil, and man has a free will</rdg></app></l>
+				<l n="117"><app><lem wit="#Transcription">ну соущу своему сп҃сенїю и погыбелью треѡканныи же и</lem><rdg wit="#Translation">in the matter of his salvation or condemnation. And this thrice-wretched</rdg></app></l>
+				<l n="118"><app><lem wit="#Transcription">триклѧтыи, и Богоу и чл҃комъ скверныи врагь злоѡбразнѫ</lem><rdg wit="#Translation">and cursed, obstinate enemy of God and man, acting under the influence</rdg></app></l>
+				<l n="119"><app><lem wit="#Transcription">и людемъ блазненомоу бѣсоу. прилежащу и творѧщоу.</lem><rdg wit="#Translation">of the ugly and deceiving devil, boldly proclaims –</rdg></app></l>
+				<l n="120"><app><lem wit="#Transcription">и еще же не изъ оутомленаго языка волю, и неразумнаго</lem><rdg wit="#Translation">in a language unrestrained by will and in a thoughtless speech –</rdg></app></l>
+				<l n="121"><app><lem wit="#Transcription">вѣщанїа всему бл҃гому и злому. Бг҃оу виноватоу деръ</lem><rdg wit="#Translation">that God is fully responsible for good and evil.</rdg></app></l>
+				<l n="122"><app><lem wit="#Transcription">зновеньно знаменоуеть, и все елико нападенїемъ чл҃ка,</lem><rdg wit="#Translation">This gibberish-speaking sinner announced that whatever happens to man—</rdg></app></l>
+				<l n="123"><app><lem wit="#Transcription">или ѿ искоушенїа неприазнена, или ѿ своеѧ лѣности,</lem><rdg wit="#Translation">whether it is because of Satanic temptation, his own laziness,</rdg></app></l>
+				<l n="124"><app><lem wit="#Transcription">или не ѿ испытанїа бж҃ственымъ прилежаниемь оупо</lem><rdg wit="#Translation">or misfortune—happens on God’s initiative.</rdg></app></l>
+				<l n="125"><app><lem wit="#Transcription">лучаетсѧ. се грѣшникъ и пустошникъ извѣща. а иже</lem><rdg wit="#Translation">[Muhammad] does not command the avoidance of wealth,</rdg></app></l>
+				<l n="126"><app><lem wit="#Transcription">не родить богатества и смирено мыслить и сладкаго жи</lem><rdg wit="#Translation">modest thoughts, the renunciation of a pleasurable lifestyle,</rdg></app></l>
+				<l n="127"><app><lem wit="#Transcription">тїа ѿврещисѧ, иде въздати зла въ зло повелѣваеть.</lem><rdg wit="#Translation">and not repaying evil with evil.</rdg></app></l>
+				<l n="128"><app><lem wit="#Transcription">а еже ѡ богатествѣ, и высокомыслити, и всю сладос</lem><rdg wit="#Translation">[He recognizes] wealth, pride, love for all the pleasures</rdg></app></l>
+				<l n="129"><app><lem wit="#Transcription">ѿ богатества любит, и нападати зѣло противу напада</lem><rdg wit="#Translation">of wealth, and fiercely attacking the attackers</rdg></app></l>
+				<l n="130"><app><lem wit="#Transcription">ющимъ. яко д҃шевное сп҃сенїе, и раю причастїе. Ѡ безу</lem><rdg wit="#Translation">as a salvation for the soul and the way to Paradise.</rdg></app></l>
+				<l n="131"><app><lem wit="#Transcription">мїе и вредоумїе и оуничиженїе, и смѣхъ и ѡтравница</lem><rdg wit="#Translation">Oh, what foolishness and madness, worthy of contempt and laughter, of the poisoner</rdg></app></l>
+				<l n="132"><app><lem wit="#Transcription">и оубїица. и вредооумїа и погыбели ѿ него. злѣ привабле</lem><rdg wit="#Translation">and the murderer [i.e. Muhammad], and what pernicious madness of those who have been lured</rdg></app></l>
+				<l n="133"><app><lem wit="#Transcription">нымъ даждь и дон҃нѣ, прельстимымъ. ибо не разумѣють</lem><rdg wit="#Translation">by him to evil and who are deceived to this day! For they –</rdg></app></l>
+				<l n="134"><app><lem wit="#Transcription">зѣло грѣшьнїи, и зѣло ѡбразнїи велми. несрамнїи в ка</lem><rdg wit="#Translation">uniquely sinful, beastly, and completely shameless – do not understand</rdg></app></l>
+				<l n="135"><app><lem wit="#Transcription">ковѣмъ злѣ. и темнїи пропасти. и в сотониньскую погы</lem><rdg wit="#Translation">at all what evil, dark abyss and devilish perdition</rdg></app></l>
+				<l n="136"><app><lem wit="#Transcription">бель вринувшасѧ. и бошью впадоша. и в каковыхъ неизь</lem><rdg wit="#Translation">they were thrown into and completely plunged into; to what extent</rdg></app></l>
+				<l n="137"><app><lem wit="#Transcription">бѣжных. и неисходных жилищь, и злошественыхъ пу</lem><rdg wit="#Translation">they are stuck in homes deprived of the opportunity to flee and leave,</rdg></app></l>
+				<l n="138"><app><lem wit="#Transcription">ти. д҃шетлѣнныхъ прельстившесѧ, и ѡкаѧно въва</lem><rdg wit="#Translation">and on what paths, difficult to pass through and disastrous for the soul, deceived</rdg></app></l>
+				<l n="139"><app><lem wit="#Transcription">лишасѧ. и ятѣ быша погыбше вконець. сего ради оу</lem><rdg wit="#Translation">and miserably captured, and finally lost! For this reason,</rdg></app></l>
+				<l n="140"><app><lem wit="#Transcription">бо дивоватисѧ зѣло, нарочити. толику безумїю и не</lem><rdg wit="#Translation">one should be surprised at their foolishness and insensitivity:</rdg></app></l>
+				<l n="141"><app><lem wit="#Transcription">чювьствїю их, и шествующе скоро, себе творѧщимъ</lem><rdg wit="#Translation">walking quickly, they consider themselves reasonable,</rdg></app></l>
+				<l n="142"><app><lem wit="#Transcription">соущимъ. и разумѣша како не разоумнѣише тщаѧ преле</lem><rdg wit="#Translation">and not understand the weakness of [their] empty lie.</rdg></app></l>
+				<l n="143"><app><lem wit="#Transcription">сти. скоколженїе подобаше бо несмысленым. и скотиноѡбра</lem><rdg wit="#Translation">For they – stupid and distasteful – should understand that their [teachings]</rdg></app></l>
+				<l n="144"><app><lem wit="#Transcription">зниим, разѫмѣти по неѡскверненїю ихъ и скверных оуда</lem><rdg wit="#Translation">about the resurrection form an unclean web,</rdg></app></l>
+				<l n="145"><app><lem wit="#Transcription">въ, проявлѧѧ, яко пища ради и питїа, видимыи истлѧ</lem><rdg wit="#Translation">which assumes that they receive visible and perishable [i.e. material] food</rdg></app></l>
+				<l n="146"><app><lem wit="#Transcription">емыхъ прїимають толика живота. ноужда пакы</lem><rdg wit="#Translation">and drink in that life [i.e. the afterlife]. From these words stems the necessity of being</rdg></app></l>
+				<l n="147"><app><lem wit="#Transcription">тлѣ работати, и оумирати, и слѣдованому слову.</lem><rdg wit="#Translation">a slave of decay and death. For by accepting</rdg></app></l>
+				<l n="148"><app><lem wit="#Transcription">невозможно бо сущи пищи и питїю. въ преложенїи</lem><rdg wit="#Translation">food and drink it is not possible to exist as a transformed being,</rdg></app></l>
+				<l n="149"><app><lem wit="#Transcription">сущи и неистлѣнна весма, и бе-см҃рти пребывати. и гдѣ</lem><rdg wit="#Translation">completely free of decay, and immortal. And where, then,</rdg></app></l>
+				<l n="150"><app><lem wit="#Transcription">когда надежда жизни вѣчныѧ. и неистлѣнныѧ. вѣрным</lem><rdg wit="#Translation">is the hope for eternal and immaterial life proper to those who believe</rdg></app></l>
+				<l n="151"><app><lem wit="#Transcription">б҃жственых исписанїи. И к симъ да разумѣють неразу</lem><rdg wit="#Translation">in God’s scriptures? They should also understand, those foolish</rdg></app></l>
+				<l n="152"><app><lem wit="#Transcription">мнїи, и ѡканьнїи, якоже микогда до дн҃ешнѧго д҃ни,</lem><rdg wit="#Translation">and unfortunate, that they have never to this day</rdg></app></l>
+				<l n="153"><app><lem wit="#Transcription">яко ѿ древнїихь своихъ, и безбожнїи блазни измѣ</lem><rdg wit="#Translation">renounced their past and ungodly errors,</rdg></app></l>
+				<l n="154"><app><lem wit="#Transcription">нишасѧ. нь ѡбразомъ мнѧтсѧ б҃гочествуща. идолѡм</lem><rdg wit="#Translation">but by dressing in the guise of piety, they secretly serve the idols,</rdg></app></l>
+				<l n="155"><app><lem wit="#Transcription">работають шествующе, и скровную вѣру своего льсти</lem><rdg wit="#Translation">not understanding in any way the hidden faith of their devil,</rdg></app></l>
+				<l n="156"><app><lem wit="#Transcription">ваго исконѣ злобиваг бѣса. никакоже неразумнїи, и вра</lem><rdg wit="#Translation">deceitful and always harsh, foolish</rdg></app></l>
+				<l n="157"><app><lem wit="#Transcription">жденїи разоумѣють. пакы оубо идолѡмъ работают</lem><rdg wit="#Translation">and paralyzed as they are. They continue to serve the idols,</rdg></app></l>
+				<l n="158"><app><lem wit="#Transcription">и въ Еллинех Афродитъ гл҃емыи, иже ес сказаемо сладос.</lem><rdg wit="#Translation">[the deity] called Aphrodite by the pagan Greeks, which means ‘delight’,</rdg></app></l>
+				<l n="159"><app><lem wit="#Transcription">кланѧющеи звѣзду, тъ бо ес д҃ньница, баснено сло</lem><rdg wit="#Translation">and worship the star, fantasizing that it is the Morning Star,</rdg></app></l>
+				<l n="160"><app><lem wit="#Transcription">вѧть юже и Куваръ своимъ злог҃лънымъ языкомъ наре</lem><rdg wit="#Translation">which in their slanderous language they called Habar,</rdg></app></l>
+				<l n="161"><app><lem wit="#Transcription">коша. еже есть сказаемое велїа. пребыс дажде и до</lem><rdg wit="#Translation">which means ‘great’. They continued [to do so] even to</rdg></app></l>
+				<l n="162"><app><lem wit="#Transcription">селѣ. Афродитию богынею нарекоша. И да не мними</lem><rdg wit="#Translation">the present day and called Aphrodite a goddess. So that it does not appear</rdg></app></l>
+				<l n="163"><app><lem wit="#Transcription">будемь, нѣкымъ лжю гл҃щимъ, да извѣщаемь имь</lem><rdg wit="#Translation">that we are telling any lies, we reveal here their</rdg></app></l>
+				<l n="164"><app><lem wit="#Transcription">великую таиноу. и тма бо си скверненъ г҃лъ. мл҃тва их</lem><rdg wit="#Translation">great mystery: their lousy prayer has such unclean words:</rdg></app></l>
+				<l n="165"><app><lem wit="#Transcription">мръскаѧ. тако адъла оуа, куваръ истолкуетсѧ.</lem><rdg wit="#Translation">‘adla ua kuvar’. This translates to:</rdg></app></l>
+				<l n="166"><app><lem wit="#Transcription">Бе҃ Бж҃е, аоу же истолкуетсѧ вѧчии, куаръ же велїа</lem><rdg wit="#Translation">‘God, God’; we translate ‘au’ as ‘most powerful’; ‘kuar’ as ‘great’,</rdg></app></l>
+				<l n="167"><app><lem wit="#Transcription">рекше луна и Афродитъ же, иже ес тако Бе҃ Бж҃е вѧчїи,</lem><rdg wit="#Translation">i.e. the moon and Aphrodite. So [the whole thing] is as follows: ‘God, most powerful god,</rdg></app></l>
+				<l n="168"><app><lem wit="#Transcription">велїа рекше луна, и Афьродитїи Бе҃. и се извѣщаеть</lem><rdg wit="#Translation">the great one, that is the moon and Aphrodite, god’. And that is</rdg></app></l>
+				<l n="169"><app><lem wit="#Transcription">навожденїе конечное. алъла. яко всѧ скровна, неоу</lem><rdg wit="#Translation">what ‘alla’ added at the end indicates. Since they</rdg></app></l>
+				<l n="170"><app><lem wit="#Transcription">мѣтельствомъ. своимъ языкомъ гле҃ть. тако ро</lem><rdg wit="#Translation">hide all this behind a lack of knowledge of their own language, they</rdg></app></l>
+				<l n="171"><app><lem wit="#Transcription">дѡмъ имуще, к разоумнымъ чл҃комъ имущимъ смы</lem><rdg wit="#Translation">say it only to their brethren. But they do not want to reveal these things openly
+					<note type= "critical" anchored="true"><p>The original text of this line appears to be corrupted and the sense is not entirely clear.</p></note>
+				</rdg></app></l>
+				<l n="172"><app><lem wit="#Transcription">слъ, и явимаго ради свѣданьѧ, нь свиноѡбразныхъ</lem><rdg wit="#Translation">to wise men who have reason because of [fear of] explicit recognition. But having told</rdg></app></l>
+				<l n="173"><app><lem wit="#Transcription">сихъ, и ничтоже иного токмо. сладѡс и оуныниа, вѣ</lem><rdg wit="#Translation">us about those who are like pigs and know nothing but pleasure and discouragement,</rdg></app></l>
+				<l n="174"><app><lem wit="#Transcription">дуще изъг҃лемо слово яко нечювьствено, и безьпреста</lem><rdg wit="#Translation">the unnoticeably and incurably ill,</rdg></app></l>
+				<l n="175"><app><lem wit="#Transcription">ни болѧщимъ, на прочныи сказь да сѧ вмѣстимсѧ.</lem><rdg wit="#Translation">let us return to the main story.</rdg></app></l>
+				<l n="176"><app><lem wit="#Transcription">По см҃рти же б҃гоненавистнаго Бохмита. явисѧ на полу</lem><rdg wit="#Translation">After the death of God-hating Muhammad, a star appeared</rdg></app></l>
+				<l n="177"><app><lem wit="#Transcription">д҃ни звѣзда гл҃емаѧ, идокитъ, рекше яко копїе,</lem><rdg wit="#Translation">in the south, called ‘idocit’, which means ‘lance-shaped’,</rdg></app></l>
+				<l n="178"><app><lem wit="#Transcription">проповѣдаѧ Аравитѧнѣ сихъ власть пребыс за, і҃. д҃нїи.</lem><rdg wit="#Translation">heralding the power of these Arabs. For 10 days it</rdg></app></l>
+				<l n="179"><app><lem wit="#Transcription">простираема ѿ полудн҃и, дажде и до сѣвера копѣиным</lem><rdg wit="#Translation">stretched from the south to the north in the likeness of a lance.</rdg></app></l>
+				<l n="180"><app><lem wit="#Transcription">ѡбразомъ. томь же лѣтѣ воеваша Аравитѧни си дре</lem><rdg wit="#Translation">That same year the Arabs, previously known as</rdg></app></l>
+				<l n="181"><app><lem wit="#Transcription">вле гл҃емѣи Срачинѧни, и Аравїю ѡставивше. Прїидоша</lem><rdg wit="#Translation">Saracens, started the war, leaving Arabia and arrived</rdg></app></l>
+				<l n="182"><app><lem wit="#Transcription">въ страну Дамаскинъ. множество много. се же оу</lem><rdg wit="#Translation">in large numbers in the vicinity of Damascus. When</rdg></app></l>
+				<l n="183"><app><lem wit="#Transcription">вѣдавше Ванїискъ, и Васїлїискъ. сущима стратиго</lem><rdg wit="#Translation">Baanes and Basilisc, strategists in</rdg></app></l>
+				<l n="184"><app><lem wit="#Transcription">ма на Въстоцѣ. и оустремистасѧ на ны. тажде бивши</lem><rdg wit="#Translation">the East, found out about this, they set out against them.</rdg></app></l>
+				<l n="185"><app><lem wit="#Transcription">масѧ полкома. побѣждени быша крстьѧни велми. Вѣ</lem><rdg wit="#Translation">Later, when [their] armies fought, the Christians were severely crushed:</rdg></app></l>
+				<l n="186"><app><lem wit="#Transcription">трѫ оубо оугѫ дохнувшу велику на Грѣкы. и не могу</lem><rdg wit="#Translation">because the Greeks were struck by a strong southern wind, they could not</rdg></app></l>
+				<l n="187"><app><lem wit="#Transcription">ще противу врагомъ видѣти. праха ради велїа и злѣ</lem><rdg wit="#Translation">look towards their enemies, because of the great dust. Thus,</rdg></app></l>
+				<l n="188"><app><lem wit="#Transcription">побѣждени боудутъ. и тако побѣдивше Срачиннѣ</lem><rdg wit="#Translation">they were savagely defeated. Having won, the Saracens</rdg></app></l>
+				<l n="189"><app><lem wit="#Transcription">с державою. и въ силѣ на Дамаскъ прїидоша. копїемъ</lem><rdg wit="#Translation">came to Damascus with power and strength and took it by storm.</rdg></app></l>
+				<l n="190"><app><lem wit="#Transcription">плѣниша и. такоже и страны всѧ финискыѧ. Вселѧтсѧ</lem><rdg wit="#Translation">Similarly, all the Phoenician territories. They settled there,</rdg></app></l>
+				<l n="191"><app><lem wit="#Transcription">в ты ськверныи. и мерцѣи неявьственыхъ ради Би҃ихъ</lem><rdg wit="#Translation">unclean and disgusting, through the inscrutable verdicts</rdg></app></l>
+				<l n="192"><app><lem wit="#Transcription">соудебъ.</lem><rdg wit="#Translation">of God.</rdg></app></l>
+			</lg>
+		</body>
+	</text>
+</TEI>
